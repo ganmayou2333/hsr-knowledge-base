@@ -11,14 +11,10 @@
             "id": "a03fd640fee5e10a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lightcone/虚无/以世界之名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "以世界之名"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -117,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lightcone/虚无/以世界之名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -189,6 +184,25 @@
   },
   "active": "a03fd640fee5e10a",
   "lastOpenFiles": [
+    "StarRailRes_data/curio_groups.json",
+    "StarRailRes_data/fill_curio_star.py",
+    "StarRailRes_data/match_curio_star.py",
+    "StarRailRes_data/curio_star_7483.json",
+    "verify_links.py",
+    "simulated/祝福/祝福_一星.md",
+    "simulated/祝福/祝福_二星.md",
+    "simulated/祝福/祝福_三星.md",
+    "StarRailRes_data/event_text_4993.json",
+    "StarRailRes_data/match_4993_events.py",
+    "StarRailRes_data/wiki4993_events.json",
+    "StarRailRes_data/wiki4993_blessings.json",
+    "StarRailRes_data/path_7483.json",
+    "StarRailRes_data/event_text_7483.json",
+    "数据来源.md",
+    "遗器规则.md",
+    "SRR图包来源.md",
+    "items/怪物掉落/怪物掉落_一星.md",
+    "lightcone/虚无/以世界之名.md",
     "items/行迹素材/《绒绒号》典藏版合集.md",
     "items/怪物掉落/预兆似有若无.md",
     "items/怪物掉落/造梦蘸钢.md",
@@ -206,26 +220,7 @@
     "items/任务道具/「星铁FES」粉丝应援棒.md",
     "relic/隧洞遗器/宝命长存的莳者.md",
     "relic/隧洞遗器/哀歌覆国的诗人.md",
-    "character/存护/丹恒•腾荒_物理_五星.md",
-    "relic/位面饰品/折断的龙骨.md",
-    "relic/位面饰品/苍穹战线格拉默.md",
-    "relic/位面饰品/梦想之地匹诺康尼.md",
-    "relic/位面饰品/无主荒星茨冈尼亚.md",
-    "relic/位面饰品/出云显世与高天神国.md",
-    "relic/位面饰品/奔狼的都蓝王朝.md",
-    "relic/位面饰品/劫火莲灯铸炼宫.md",
-    "relic/隧洞遗器/云无留迹的过客.md",
-    "relic/隧洞遗器",
-    "relic/位面饰品",
-    "relic",
-    "character/欢愉",
-    "character/记忆",
-    "lightcone/智识",
-    "lightcone/巡猎",
-    "lightcone/同谐",
-    "lightcone/丰饶",
     "桌面截图.png",
-    "character/虚无",
     "未命名.canvas"
   ]
 }
