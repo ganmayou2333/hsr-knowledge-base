@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "598e2169d2d741d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "453af9d9d608dae9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a03fd640fee5e10a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lightcone/虚无/以世界之名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "以世界之名"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03f0219fac93d17e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebedf38da95b9ce5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ec2a26659506901",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f536c17af74262c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "bc9ddcabc703a870",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0d58d7880554a14e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d331182a1f3a2d9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a544360b9acbd725",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "78981c476bd80e10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "lightcone/虚无/以世界之名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "777c101795baecdf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "1b2eea02bd5924f5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "920b66e8f5d30264",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "publish:发布更改": false
+    }
+  },
+  "active": "a03fd640fee5e10a",
+  "lastOpenFiles": [
+    "items/行迹素材/《绒绒号》典藏版合集.md",
+    "items/怪物掉落/预兆似有若无.md",
+    "items/怪物掉落/造梦蘸钢.md",
+    "items/怪物掉落/荣耀洗礼身躯.md",
+    "items/怪物掉落/童真蜡笔.md",
+    "items/怪物掉落/灵之珠泪.md",
+    "items/怪物掉落/欲念碎镜.md",
+    "items/怪物掉落/梦现管锥.md",
+    "items/怪物掉落/悲鸣由远及近.md",
+    "items/怪物掉落/恐惧踏碎血肉.md",
+    "items/怪物掉落/思绪末屑.md",
+    "items/怪物掉落/哀叹漫无止息.md",
+    "items/怪物掉落/印象残晶.md",
+    "items/怪物掉落/勇气撕裂胸膛.md",
+    "items/任务道具/「星铁FES」粉丝应援棒.md",
+    "relic/隧洞遗器/宝命长存的莳者.md",
+    "relic/隧洞遗器/哀歌覆国的诗人.md",
+    "character/存护/丹恒•腾荒_物理_五星.md",
+    "relic/位面饰品/折断的龙骨.md",
+    "relic/位面饰品/苍穹战线格拉默.md",
+    "relic/位面饰品/梦想之地匹诺康尼.md",
+    "relic/位面饰品/无主荒星茨冈尼亚.md",
+    "relic/位面饰品/出云显世与高天神国.md",
+    "relic/位面饰品/奔狼的都蓝王朝.md",
+    "relic/位面饰品/劫火莲灯铸炼宫.md",
+    "relic/隧洞遗器/云无留迹的过客.md",
+    "relic/隧洞遗器",
+    "relic/位面饰品",
+    "relic",
+    "character/欢愉",
+    "character/记忆",
+    "lightcone/智识",
+    "lightcone/巡猎",
+    "lightcone/同谐",
+    "lightcone/丰饶",
+    "桌面截图.png",
+    "character/虚无",
+    "未命名.canvas"
+  ]
+}
