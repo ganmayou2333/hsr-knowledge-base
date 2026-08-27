@@ -55,4 +55,10 @@
 
 ## 版权声明
 
-游戏名称、角色、美术资源及文本版权归 **HoYoverse（米哈游）** 所有。本仓库仅用于个人学习与资料整理，数据用于非商业用途。第三方图库（StarRailRes_repo/）不纳入版本管理。
+- 游戏名称、角色、美术资源及文本版权归 **HoYoverse（米哈游）** 所有，本仓库仅用于**非商业个人用途**，遵循官方《Honkai: Star Rail Fan Creations Guide》<sup>[1]</sup>。
+- 模拟宇宙数据派生自 **StarRailRes**（github.com/Mar-7th/StarRailRes，**AGPL-3.0**）<sup>[2]</sup>，本仓库依此采用 **GNU Affero General Public License v3.0（AGPL-3.0）**，详见 [LICENSE](LICENSE)。
+- 其余数据来源见 [数据来源.md](数据来源.md)。
+- 第三方图库（StarRailRes_repo/）不纳入版本管理。
+
+> [1] https://hsr.hoyoverse.com/en-us/news/125457
+> [2] https://github.com/Mar-7th/StarRailRes/blob/master/LICENSE
