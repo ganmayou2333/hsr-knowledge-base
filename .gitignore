@@ -2,6 +2,9 @@
 
 .tmp_*
 
+# 临时文件目录（构建中间产物，不入库）
+temp/
+
 # StarRailRes 第三方图库克隆（体积大，含版权素材，不入库）
 StarRailRes_repo/
 
