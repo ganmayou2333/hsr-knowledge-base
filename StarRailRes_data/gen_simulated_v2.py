@@ -70,17 +70,32 @@ def path_from_id(eid, name=''):
 
 # 米游社 WIKI 767 命途回填（sid -> path，含双命途交错）
 ENRICH = json.load(open('G:/HSR/StarRailRes_data/enrich_612.json', encoding='utf-8'))
+# 米游社 WIKI 7483 祝福星级（sid -> 三星/二星/一星）
+STAR = json.load(open('G:/HSR/StarRailRes_data/star_7483.json', encoding='utf-8'))
+# 米游社 WIKI 7483/4993 事件文本（sid -> {name, opts:[{opt,res}]}），合并两源
+EVENT_TEXT = {}
+for src in ['event_text_7483.json', 'event_text_4993.json']:
+    d = json.load(open('G:/HSR/StarRailRes_data/' + src, encoding='utf-8'))
+    for k, v in d.items():
+        if k not in EVENT_TEXT:
+            EVENT_TEXT[k] = v
+# 米游社 WIKI 7483 祝福命途（sid -> 命途，含「同谐」）
+PATH7483 = json.load(open('G:/HSR/StarRailRes_data/path_7483.json', encoding='utf-8'))
 
 def resolve_path(ids, name):
-    # 1) wiki 命途（同组全部一致才用）
+    # 1) wiki 767 命途（同组全部一致才用）
     wset = {ENRICH[i]['path'] for i in ids if i in ENRICH}
     if len(wset) == 1:
         return wset.pop()
-    # 2) 名称含「命途名」
-    m = re.search(r'「(存护|记忆|虚无|丰饶|毁灭|巡猎|欢愉|智识|繁育)」', name)
+    # 2) wiki 7483 命途（含「同谐」）
+    wset2 = {PATH7483[i] for i in ids if i in PATH7483}
+    if len(wset2) == 1:
+        return wset2.pop()
+    # 3) 名称含「命途名」
+    m = re.search(r'「(存护|记忆|虚无|丰饶|毁灭|巡猎|欢愉|智识|繁育|同谐)」', name)
     if m:
         return m.group(1)
-    # 3) ID 段推断（同组全部一致才用）
+    # 4) ID 段推断（同组全部一致才用）
     pset = {ID_PATH[i[:4]] for i in ids if i[:4] in ID_PATH}
     if len(pset) == 1:
         return pset.pop()
@@ -106,6 +121,9 @@ for fname, items in sorted(bless_groups.items()):
     merged = len(items) > 1
     # 命途：wiki 优先，其次名称/ID 推断
     path_val = resolve_path(ids, name)
+    # 星级：wiki 7483（同组一致才用）
+    sset = {STAR[i] for i in ids if i in STAR}
+    star_val = sset.pop() if len(sset) == 1 else ('待补充' if not sset else ' / '.join(sorted(sset)))
     if merged:
         rows = ['| 实体ID | 效果 |', '|---|---|']
         seen = set()
@@ -128,19 +146,32 @@ for fname, items in sorted(bless_groups.items()):
 
 ## 基本信息
 
-{basic_table(name, '祝福', {'命途': path_val, '星级': '待补充', '特殊类型': sp}, merged)}
+{basic_table(name, '祝福', {'命途': path_val, '星级': star_val, '特殊类型': sp}, merged)}
 
 {eff_section}
 """
     with open(os.path.join(bless_dir, fname + '.md'), 'w', encoding='utf-8') as f:
         f.write(content)
-    bless_index.append((fname, name, path_val))
+    bless_index.append((fname, name, path_val, star_val))
     bless_special[sp].append(fname)
 
 # 祝福索引
-lines = ['# 祝福', '', '> 返回 [[simulated/模拟宇宙|模拟宇宙主索引]]', '', '## 按命途', '']
+lines = ['# 祝福', '', '> 返回 [[simulated/模拟宇宙|模拟宇宙主索引]]', '', '## 按星级', '']
+by_star = defaultdict(list)
+for fname, name, p, s in bless_index:
+    by_star[s].append(fname)
+for st in ['三星', '二星', '一星', '待补充']:
+    items = by_star.get(st, [])
+    if items:
+        lines.append(f'### {st}（{len(items)}）')
+        lines.append('')
+        for it in sorted(items):
+            lines.append(f'- [[simulated/祝福/{it}|{it}]]')
+        lines.append('')
+lines.append('## 按命途')
+lines.append('')
 by_path = defaultdict(list)
-for fname, name, p in bless_index:
+for fname, name, p, s in bless_index:
     by_path[p].append(fname)
 for p in ['存护', '记忆', '虚无', '丰饶', '毁灭', '巡猎', '欢愉', '智识', '繁育', '待补充']:
     items = by_path.get(p, [])
@@ -162,9 +193,9 @@ for sp in ['命途回响', '回响构音', '回响交错', '体验', '普通祝�
         lines.append('')
 lines.append('## 全部祝福（%d）' % len(bless_index))
 lines.append('')
-lines.append('> 星级：待补充')
+lines.append('> 星级 / 命途：见上方分组，缺失项标注待补充')
 lines.append('')
-for fname, name, _ in bless_index:
+for fname, name, _, _ in bless_index:
     lines.append(f'- [[simulated/祝福/{fname}|{name}]]')
 open(os.path.join(bless_dir, '祝福.md'), 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
 
@@ -245,6 +276,19 @@ for fname, items in sorted(ev_groups.items()):
     rows = ['| 实体ID | 属性 | 图片 |', '|---|---|---|']
     for i, v in items:
         rows.append(f'| {i} | {v.get("type") or "-"} | `{v.get("image") or "-"}` |')
+    # 事件文本：wiki 7483
+    evt = None
+    for i, _ in items:
+        if i in EVENT_TEXT:
+            evt = EVENT_TEXT[i]
+            break
+    if evt and evt.get('opts'):
+        opt_lines = ['| 选项 | 结果 |', '|---|---|']
+        for o in evt['opts']:
+            opt_lines.append(f'| {o.get("opt") or "-"} | {o.get("res") or "-"} |')
+        evt_section = '## 事件文本\n\n' + '\n'.join(opt_lines)
+    else:
+        evt_section = '## 事件文本\n\n待补充'
     content = f"""# {name}
 
 {header('simulated_events.json', ids, merged)}
@@ -253,9 +297,7 @@ for fname, items in sorted(ev_groups.items()):
 
 {basic_table(name, '事件', {'属性': ' / '.join(types), '图片': img_str}, merged)}
 
-## 事件文本
-
-待补充
+{evt_section}
 {img_note}
 
 ## 实体记录
@@ -266,7 +308,7 @@ for fname, items in sorted(ev_groups.items()):
         f.write(content)
     ev_index.append((fname, name))
 
-lines = ['# 事件', '', '> 返回 [[simulated/模拟宇宙|模拟宇宙主索引]]', '', '## 全部事件（%d）' % len(ev_index), '', '> 事件文本：待补充', '']
+lines = ['# 事件', '', '> 返回 [[simulated/模拟宇宙|模拟宇宙主索引]]', '', '## 全部事件（%d）' % len(ev_index), '', '> 事件文本：部分已从米游社 WIKI 7483 回填，其余待补充', '']
 for fname, name in sorted(ev_index):
     lines.append(f'- [[simulated/事件/{fname}|{name}]]')
 open(os.path.join(ev_dir, '事件.md'), 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
@@ -310,21 +352,21 @@ open(os.path.join(blk_dir, '区块.md'), 'w', encoding='utf-8').write('\n'.join(
 main = f"""# 模拟宇宙
 
 > 数据版本：{VER}
-> 数据来源：https://github.com/Mar-7th/StarRailRes
+> 数据来源：https://github.com/Mar-7th/StarRailRes + 米游社 WIKI（767 / 7483）
 
 ## 分类
 
-- [[simulated/祝福/祝福|祝福]]（{len(bless_index)}）— 部分命途已按 ID 段推断，星级待补充
+- [[simulated/祝福/祝福|祝福]]（{len(bless_index)}）— 命途 + 部分星级（米游社 WIKI 7483 回填）
 - [[simulated/奇物/奇物|奇物]]（{len(curio_index)}）— 星级 待补充
-- [[simulated/事件/事件|事件]]（{len(ev_index)}）— 事件文本待补充
+- [[simulated/事件/事件|事件]]（{len(ev_index)}）— 部分事件文本（米游社 WIKI 7483 回填）
 - [[simulated/区块/区块|区块]]（{len(blk_index)}）
 
 ## 说明
 
-- 数据基于 StarRailRes v4.5 全量生成。
+- 数据基于 StarRailRes v4.5 全量生成，米游社 WIKI 767（经典模拟宇宙命途）与 7483（差分宇宙·乐园漫记 星级/事件文本）增量回填。
 - 同名实体（不同难度/版本/选项的同一对象）已合并为单一文件，正文聚合全部实体ID。
-- 祝福命途：6120-6128（经典模拟宇宙）、6150-6158（黄金与机械）两套 ID 段按命途锚点推断，其余待补充。
-- 奇物星级、事件文本暂无结构化数据源，标注「待补充」。
+- 祝福命途：经典模拟宇宙（767）精确命途 + 6120-6128 / 6150-6158 ID 段推断；星级：乐园漫记 144 条已回填，其余待补充。
+- 事件文本：乐园漫记 120 事件（选项+结果）已回填，其余待补充。
 - 事件图片存在共用情况，已在详情中标注。
 """
 open(os.path.join(OUT, '模拟宇宙.md'), 'w', encoding='utf-8').write(main)
@@ -334,6 +376,24 @@ print('  祝福: %d 个文件' % len(bless_index))
 print('  奇物: %d 个文件' % len(curio_index))
 print('  事件: %d 个文件' % len(ev_index))
 print('  区块: %d 个文件' % len(blk_index))
-known_path = sum(1 for _, _, p in bless_index if p != '待补充')
-print('祝福命途已推断: %d / %d' % (known_path, len(bless_index)))
+known_path = sum(1 for _, _, p, _ in bless_index if p != '待补充')
+known_star = sum(1 for _, _, _, s in bless_index if s != '待补充')
+known_evt = sum(1 for eid in ev_index if True)
+print('祝福命途已填: %d / %d' % (known_path, len(bless_index)))
+print('祝福星级已填: %d / %d' % (known_star, len(bless_index)))
+# 事件文本统计
+evt_cnt = 0
+for fname, name in ev_index:
+    pass
+# 读取 event_text 覆盖的唯一名
+evt_uniq = set()
+for sid in EVENT_TEXT:
+    evt_uniq.add(sid)
+evt_files = 0
+import os as _os
+for fname, name in ev_index:
+    p = _os.path.join(ev_dir, fname + '.md')
+    if '## 事件文本\n\n待补充' not in open(p, encoding='utf-8').read()[:400]:
+        evt_files += 1
+print('事件文本已填: %d / %d' % (evt_files, len(ev_index)))
 print('事件共用图片组数: %d' % len(shared_imgs))
