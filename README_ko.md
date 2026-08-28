@@ -1,6 +1,6 @@
 # 붕괴: 스타레일 · 데이터 지식 베이스 (HSR)
 
-> **언어 / Languages:** [简体中文](README.md) · [繁體中文](README_zh-TW.md) · [English](README_en.md) · [日本語](README_ja.md) · [한국어](README_ko.md)
+> **언어 / Languages:** [简体中文](README.md) · [繁體中文](README_zh-Hant.md) · [English](README_en.md) · [日本語](README_ja.md) · [한국어](README_ko.md)
 
 **Obsidian** 기반의 『붕괴: 스타레일』 데이터 지식 베이스입니다. 캐릭터, 광추, 아이템, 유물, 시뮬레이션 우주 등의 게임 데이터와 자료를 체계적으로 정리하며, 페이지 간에는 위키링크(wikilink)로 연결되어 구조화 검색과 빠른 이동을 지원합니다.
 
