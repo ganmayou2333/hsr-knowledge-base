@@ -3,7 +3,7 @@
 import os, re
 from collections import Counter
 
-skip_dirs = {'.obsidian', '.git', 'StarRailRes_repo', '.tmp_build', 'node_modules'}
+skip_dirs = {'.obsidian', '.git', 'StarRailRes_repo', '.tmp_build', 'node_modules', 'StarRailRes_data'}
 files = []
 for root, dirs, fs in os.walk('.'):
     dirs[:] = [d for d in dirs if d not in skip_dirs]
