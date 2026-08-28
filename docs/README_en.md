@@ -49,7 +49,7 @@ See [数据来源_en.md](数据来源_en.md) for details:
 |---|---|
 | [格式规范与要求.md](格式规范与要求.md) | Format standards master (directory / naming / fields / wikilinks / version v1.7, Simplified Chinese) |
 | [协作要求与行动准则.md](协作要求与行动准则.md) | Project collaboration requirements & code of conduct |
-| [数据来源.md](数据来源.md) | Data sources, coverage & copyright notes |
+| [数据来源.md](../数据来源.md) | Data sources, coverage & copyright notes |
 | [遗器规则.md](遗器规则.md) | Relic rules |
 | [SRR图包来源.md](SRR图包来源.md) | SRR full image pack source notes |
 | [update.md](update.md) | Update changelog |
