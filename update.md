@@ -290,6 +290,17 @@
   - **校验脚本**：标注双链校验已落地（verify_links.py，0 死链），字段级校验待落地。
 - 复核过程使用的统计脚本存于 temp/（scan_todo_status.py、recheck*.py、final_items_check.py 等）。
 
+### 二十七、物品补全——获得途径 / 说明 / 类型（待办一）
+- **类型补全（3/3）**：《星间启航》绘本、监控影像 → Mission / 任务道具；生物波勘探仪 → Usable / 消耗品。
+- **获得途径补全（618/946）**：
+  - **米游社 WIKI 官方增量（592）**：发现免登录静态接口 `act-api-takumi-static.mihoyo.com/common/blackboard/sr_wiki/v1/content/info?app_sn=sr_wiki&content_id={cid}`，批量抓取 732 个缺途径物品详情（0 错误），592 个含官方「来源」字段。覆盖：任务道具 485 / 配方 93 / 礼物 10 / 阅读物 3 / 素材 1。
+  - **BWIKI 补漏（26）**：`wiki.biligame.com/sr/api.php?action=ask` 抓取 7 分类 1581 条，本地匹配后独有可补 26 个（任务道具 24 / 配方 2），已清洗 `[[链接]]`。
+  - 按既有格式写入 `## 获得途径` + 无序列表；格式校验 0 异常，未误写任何索引文件。
+- **说明补全（5/5）**：万敌获得了徽记 / 任务道具 ★ / 冥灯开路指引 / 觅宝券 / 世界货币 ★★★ 5 个文件补「## 说明」章节，标注「暂无官方描述数据（数据源未收录）」。
+- **剩余无源（328）**：阅读物 258 / 任务道具 65 / 礼物 4 / 素材 1 —— 在米游社 WIKI（140 个 content 词条为空壳）、BWIKI（书籍 627 条无途径）、hsr.nanoka.cc、StarRailRes 四大数据源均无「获得途径」记录，保持缺字段待后续版本数据源。
+- **数据源探索记录**：hsr.nanoka.cc 主源（英文库 item_comefrom 为空）与米游社旧黑板 API（需签名）为死路；BWIKI 书籍分类无途径字段；米游社 WIKI 分类图鉴（channel/map/17/{catId}）+ content 静态接口为主要增量来源。
+- 中间数据与脚本存于 temp/（write_plan.json、mihoyo_detail.json、bwiki_items_all.json 等）。
+
 ---
 
 ## 说明
