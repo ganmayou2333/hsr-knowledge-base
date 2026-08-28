@@ -387,7 +387,10 @@
 
 ---
 
-### 三十五、角色技能等级数值表与行迹解锁材料全量补全（2026-08-29）
+## 2026-08-29 02:30
+
+**角色技能等级数值表与行迹解锁材料全量补全**
+
 - **背景**：此前 92 个角色文件的「战技」章节仅含技能名称 + 满级效果文本，无逐等级数值表；「附加能力（行迹）」表格仅含名称 + 效果，无解锁条件与解锁材料。
 - **数据源**：StarRailRes master（本地 `StarRailRes-master/`），`character_skills.json`（技能 params 数值数组 + desc 效果模板）、`character_skill_trees.json`（行迹 anchor + levels[0].promotion + materials）、`items.json`（材料名称映射）。
 - **技能章节重构（92 个角色）**：
