@@ -25,7 +25,7 @@
 
 ## 데이터 출처
 
-자세한 내용은 [数据来源.md](数据来源.md) (간체 중국어 문서) 참조:
+자세한 내용은 [数据来源_ko.md](数据来源_ko.md) 참조:
 
 - **hsr.nanoka.cc**: 캐릭터 / 광추 / 아이템 / 유물 기본 데이터와 상세
 - **miHoYo 공식 Wiki** (bbs.mihoyo.com/sr/wiki): 캐릭터 백과, 유물 유래와 획득 경로, 시뮬레이션 우주 운명 / 별 등급 / 이벤트 텍스트
@@ -69,7 +69,7 @@
 | 기타 지역 (중국 본토·일본 제외) | Honkai: Star Rail Fan Creations Guide | V1.0 (2023-04-22) → **V2.0 (2024-08-23, 현행; 공식적으로 중국 본토와 일본에는 적용되지 않음)**<sup>[3]</sup> |
 
 - 시뮬레이션 우주 데이터는 **StarRailRes** (github.com/Mar-7th/StarRailRes, **AGPL-3.0**)<sup>[4]</sup> 에서 파생되었으며, 본 리포지토리는 이에 따라 **GNU Affero General Public License v3.0 (AGPL-3.0)** 을 채택합니다. 자세한 내용은 [LICENSE](LICENSE) 참조.
-- 기타 데이터 출처는 [数据来源.md](数据来源.md) 참조.
+- 기타 데이터 출처는 [数据来源_ko.md](数据来源_ko.md) 참조.
 - 서드파티 이미지 팩 (StarRailRes_repo/) 은 버전 관리 대상에서 제외됩니다.
 
 > [1] https://www.miyoushe.com/ys/article/66426966

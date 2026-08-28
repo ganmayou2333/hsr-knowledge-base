@@ -25,7 +25,7 @@ An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematicall
 
 ## Data Sources
 
-See [数据来源.md](数据来源.md) for details (Simplified Chinese):
+See [数据来源_en.md](数据来源_en.md) for details:
 
 - **hsr.nanoka.cc**: Base data and details for characters / Light Cones / items / Relics
 - **miHoYo Community Wiki** (bbs.mihoyo.com/sr/wiki): Character encyclopedia, Relic origins & acquisition, Simulated Universe Paths / rarity / event texts
@@ -69,7 +69,7 @@ See [数据来源.md](数据来源.md) for details (Simplified Chinese):
 | Other regions (outside Mainland China & Japan) | Honkai: Star Rail Fan Creations Guide | V1.0 (2023-04-22) → **V2.0 (2024-08-23, current; officially stated not applicable to Mainland China and Japan)**[3] |
 
 - Simulated Universe data is derived from **StarRailRes** (github.com/Mar-7th/StarRailRes, **AGPL-3.0**)[4]; this repository accordingly adopts **GNU Affero General Public License v3.0 (AGPL-3.0)**. See [LICENSE](LICENSE).
-- Other data sources are listed in [数据来源.md](数据来源.md).
+- Other data sources are listed in [数据来源_en.md](数据来源_en.md).
 - Third-party image packs (StarRailRes_repo/) are not included in version control.
 
 > [1] https://www.miyoushe.com/ys/article/66426966
