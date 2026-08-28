@@ -56,10 +56,22 @@
 
 ## 版权声明
 
-- 游戏名称、角色、美术资源及文本版权归 **HoYoverse（米哈游）** 所有，本仓库仅用于**非商业个人用途**，遵循官方《Honkai: Star Rail Fan Creations Guide》<sup>[1]</sup>。
-- 模拟宇宙数据派生自 **StarRailRes**（github.com/Mar-7th/StarRailRes，**AGPL-3.0**）<sup>[2]</sup>，本仓库依此采用 **GNU Affero General Public License v3.0（AGPL-3.0）**，详见 [LICENSE](LICENSE)。
+- 游戏名称、角色、美术资源及文本版权归 **HoYoverse（米哈游）** 所有，本仓库仅用于**非商业个人用途**，遵循各地区的官方同人/粉丝创作指引。
+- **适用地区与指引版本（简体中文标注）**：
+
+| 地区 | 官方指引 | 版本与发布日期 |
+|---|---|---|
+| 中国大陆 | 《崩坏：星穹铁道》同人衍生作品创作指引 | V1.0（2023-04-17）→ V2.0（2024-08-23）→ **V3.0（2025-07-15，现行）**<sup>[1]</sup> |
+| 日本 | 《崩坏：星穹铁道》二次创作指南（miHoYo / COGNOSPHERE） | 现行版（2026-02-21 核验）<sup>[2]</sup> |
+| 其他地区（中国大陆与日本以外） | 《Honkai: Star Rail Fan Creations Guide》 | V1.0（2023-04-22）→ **V2.0（2024-08-23，现行；官方明示不适用于中国大陆与日本）**<sup>[3]</sup> |
+
+- 中国大陆 V3.0：非商业个人二次创作需放置「© 米哈游版权所有」法律声明；周边单品类 <300 件免授权，≥300 件需申报授权。
+- 其他地区 v2.0：周边单品类 <300 件免授权，≥300 件需联系官方授权。
+- 模拟宇宙数据派生自 **StarRailRes**（github.com/Mar-7th/StarRailRes，**AGPL-3.0**）<sup>[4]</sup>，本仓库依此采用 **GNU Affero General Public License v3.0（AGPL-3.0）**，详见 [LICENSE](LICENSE)。
 - 其余数据来源见 [数据来源.md](数据来源.md)。
 - 第三方图库（StarRailRes_repo/）不纳入版本管理。
 
-> [1] https://hsr.hoyoverse.com/en-us/news/125457
-> [2] https://github.com/Mar-7th/StarRailRes/blob/master/LICENSE
+> [1] https://www.miyoushe.com/ys/article/66426966
+> [2] https://www.niji-guidelines.com/guidelines/honkai-star-rail
+> [3] https://hsr.hoyoverse.com/en-us/news/125457
+> [4] https://github.com/Mar-7th/StarRailRes/blob/master/LICENSE
