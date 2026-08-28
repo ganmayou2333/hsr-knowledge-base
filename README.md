@@ -1,5 +1,7 @@
 # 崩坏：星穹铁道 · 数据知识库（HSR）
 
+> **语言 / Languages：** [简体中文](README.md) · [繁體中文](README_zh-TW.md) · [English](README_en.md) · [日本語](README_ja.md) · [한국어](README_ko.md)
+
 基于 **Obsidian** 的《崩坏：星穹铁道》数据知识库，系统整理角色、光锥、物品、遗器、模拟宇宙等游戏数据与资料，页面间通过双链（wikilink）关联，支持结构化检索与快速跳转。
 
 > 数据版本基线：4.5（真珠为 4.6 前瞻角色，单独标注）
@@ -66,8 +68,6 @@
 | 日本 | 《崩坏：星穹铁道》二次创作指南（miHoYo / COGNOSPHERE） | 现行版（2026-02-21 核验）<sup>[2]</sup> |
 | 其他地区（中国大陆与日本以外） | 《Honkai: Star Rail Fan Creations Guide》 | V1.0（2023-04-22）→ **V2.0（2024-08-23，现行；官方明示不适用于中国大陆与日本）**<sup>[3]</sup> |
 
-- 中国大陆 V3.0：非商业个人二次创作需放置「© 米哈游版权所有」法律声明；周边单品类 <300 件免授权，≥300 件需申报授权。
-- 其他地区 v2.0：周边单品类 <300 件免授权，≥300 件需联系官方授权。
 - 模拟宇宙数据派生自 **StarRailRes**（github.com/Mar-7th/StarRailRes，**AGPL-3.0**）<sup>[4]</sup>，本仓库依此采用 **GNU Affero General Public License v3.0（AGPL-3.0）**，详见 [LICENSE](LICENSE)。
 - 其余数据来源见 [数据来源.md](数据来源.md)。
 - 第三方图库（StarRailRes_repo/）不纳入版本管理。
