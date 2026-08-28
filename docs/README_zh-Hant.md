@@ -25,7 +25,7 @@
 
 ## 資料來源
 
-詳見 [數據來源.md](数据来源_zh-Hant.md)：
+詳見 [數據來源.md](數據來源.md)：
 
 - **hsr.nanoka.cc**：角色 / 光錐 / 物品 / 遺器基礎資料與詳情
 - **米哈遊官方 Wiki**（bbs.mihoyo.com/sr/wiki）：角色百科、遺器來歷與取得途徑、模擬宇宙命途 / 星級 / 事件文本
@@ -69,7 +69,7 @@
 | 其他地區（中國大陸與日本以外） | 《Honkai: Star Rail Fan Creations Guide》 | V1.0（2023-04-22）→ **V2.0（2024-08-23，現行；官方明示不適用於中國大陸與日本）**<sup>[3]</sup> |
 
 - 模擬宇宙資料派生自 **StarRailRes**（github.com/Mar-7th/StarRailRes，**AGPL-3.0**）<sup>[4]</sup>，本倉庫依此採用 **GNU Affero General Public License v3.0（AGPL-3.0）**，詳見 [LICENSE](LICENSE)。
-- 其餘資料來源見 [數據來源.md](数据来源_zh-Hant.md)。
+- 其餘資料來源見 [數據來源.md](數據來源.md)。
 - 第三方圖庫（StarRailRes_repo/）不納入版本管理。
 
 > [1] https://www.miyoushe.com/ys/article/66426966

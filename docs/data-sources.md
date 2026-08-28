@@ -1,6 +1,6 @@
 # Data Sources
 
-> **Languages:** [简体中文](../数据来源.md) · [繁體中文](数据来源_zh-Hant.md) · [English](数据来源_en.md) · [日本語](数据来源_ja.md) · [한국어](数据来源_ko.md)
+> **Languages:** [简体中文](../数据来源.md) · [繁體中文](數據來源.md) · [English](data-sources.md) · [日本語](データソース.md) · [한국어](데이터소스.md)
 
 > Overview of all data sources in the Honkai: Star Rail Data Knowledge Base (Obsidian)
 > Updated: 2026-08-28

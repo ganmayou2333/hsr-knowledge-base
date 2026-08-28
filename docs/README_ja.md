@@ -25,7 +25,7 @@
 
 ## データソース
 
-詳細は [数据来源_ja.md](数据来源_ja.md) を参照：
+詳細は [データソース](データソース.md) を参照：
 
 - **hsr.nanoka.cc**：キャラクター / 光円錐 / アイテム / 遺物の基本データと詳細
 - **miHoYo 公式 Wiki**（bbs.mihoyo.com/sr/wiki）：キャラクター百科、遺物の由来と入手方法、模擬宇宙の運命 / 星級 / イベントテキスト
@@ -69,7 +69,7 @@
 | その他地域（中国大陸・日本以外） | Honkai: Star Rail Fan Creations Guide | V1.0（2023-04-22）→ **V2.0（2024-08-23、現行；中国大陸と日本には適用されないと公式に明記）**<sup>[3]</sup> |
 
 - 模擬宇宙データは **StarRailRes**（github.com/Mar-7th/StarRailRes、**AGPL-3.0**）<sup>[4]</sup> に由来し、本リポジトリはこれに基づき **GNU Affero General Public License v3.0（AGPL-3.0）** を採用しています。詳細は [LICENSE](LICENSE) を参照。
-- その他のデータソースは [数据来源_ja.md](数据来源_ja.md) を参照。
+- その他のデータソースは [データソース](データソース.md) を参照。
 - サードパーティの画像パック（StarRailRes_repo/）はバージョン管理の対象外です。
 
 > [1] https://www.miyoushe.com/ys/article/66426966
