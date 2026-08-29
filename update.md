@@ -407,6 +407,27 @@
 
 ---
 
+## 2026-08-29 12:39
+
+**角色故事全量补全**
+
+- **背景**：此前 93 个角色文件仅有简短「角色介绍」，无完整角色故事/传记。
+- **数据源**：米游社 Wiki 静态接口 `act-api-takumi-static.mihoyo.com/common/blackboard/sr_wiki/v1/content/info`，从角色词条的 `rpg_new_tmp_content.modules` 中提取 `character_story` 组件数据。
+- **补全内容（93 个角色）**：
+  - 每个角色文件「基本信息」之后新增「## 角色故事」章节，包含：角色简介（detail）+ 角色故事·其一~其四（标准角色 4 章）。
+  - 开拓者 5 个形态使用「你的「故事」•一~五」格式（5 章，含开拓任务解锁条件）。
+  - 三月七等特殊角色 5 章。
+  - 真珠（4.6 前瞻）、砂金•戏浪（4.6 前瞻）章节较少，数据不全属正常。
+- **特殊处理**：
+  - 椒丘（cid=3058）使用旧版模板（`tmp_type: RpgTemplateTypeDefault`），角色故事在 `contents` 列表的 HTML 字段中，单独解析 `<details><summary>` 结构。
+  - 其余 92 个角色使用新版 RPG 模板，从 `character_story` 组件的 JSON data 字段提取。
+  - HTML 标签清理（`<i>`、`<br>`、`<strong>` 等），保留纯文本。
+- **抓取脚本**：`scripts/fetch_char_stories.py`（支持断点续传，请求间隔 1.5-3 秒，进度存 `.tmp_build/story_progress.json`）。
+- **提交**：commit `7572d38`，93 files changed，+8813。
+- **覆盖率**：93/93 角色均有角色故事章节（85 个标准 4 章 + 开拓者 5 章 + 三月七 5 章 + 前瞻角色少章）。
+
+---
+
 ## 说明
 - 数据版本基线：4.5（真珠为 4.6 前瞻角色，单独标注）。
 - 数据来源为粉丝制作数据库站点，游戏图像与资产版权归 HoYoverse 所有。
