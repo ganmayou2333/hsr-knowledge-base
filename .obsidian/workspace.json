@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "072730d5fd558e34",
+        "id": "a5fb1556baeee086",
         "type": "tabs",
         "children": [
           {
-            "id": "3940d715973155bb",
+            "id": "5b55cbde8350d85c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quest/同行任务.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "同行任务"
+              "title": "新标签页"
             }
           }
         ]
@@ -83,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "0d58d7880554a14e",
@@ -117,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quest/同行任务.md",
+                "file": "items/行迹材料/行迹材料.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -173,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,44 +184,44 @@
       "publish:发布更改": false
     }
   },
-  "active": "3940d715973155bb",
+  "active": "5b55cbde8350d85c",
   "lastOpenFiles": [
-    "quest/主线任务.md",
-    "quest/同行任务.md",
-    "quest/剧情文本/序章_01_混乱行至深处.md",
-    "quest/剧情文本/第二章_13_云无留迹.md",
-    "quest/剧情文本/第二章_12_有龙矫矫其渊渺渺.md",
-    "quest/剧情文本/第二章_09_诸天无安迷途难返.md",
-    "quest/剧情文本/第二章_14_安灵布奠天清路远.md",
-    "quest/剧情文本/第二章_11_茸客鸣呦玉角盘虬.md",
-    "quest/剧情文本/第二章_10_神木重萌掣转天衡.md",
-    "quest/剧情文本/第二章_08_极数问玄历事穷观.md",
-    "quest/剧情文本/第二章_07_长乐新朋青鸟候风.md",
-    "quest/剧情文本/第二章_05_犬迹追从谛听狐踪.md",
-    "quest/剧情文本/第二章_06_迴星周旋未卜知先.md",
-    "quest/剧情文本/第二章_04_旧影婆娑追思错落.md",
-    "quest/剧情文本/第二章_03_紫府通谒将军定策.md",
-    "quest/剧情文本/第二章_02_行遏流云身入魔阴.md",
-    "quest/剧情文本/第二章_01_旅进青霄不速之邀.md",
-    "quest/剧情文本/第一章_24_静静的星河.md",
-    "quest/剧情文本/第一章_23_时不我待我的朋友.md",
-    "quest/剧情文本/第一章_22_从凶险和泥泞的沼泽中.md",
-    "quest/剧情文本/第一章_21_回归.md",
-    "quest/剧情文本/第一章_20_这里的黎明.md",
-    "quest/剧情文本/第一章_19_过去早已无路可通.md",
-    "quest/剧情文本/第一章_18_星星是冰冷的玩具.md",
-    "quest/剧情文本/第一章_17_兵士们默默无言.md",
-    "quest/剧情文本/第一章_16_青年近卫军.md",
-    "quest/剧情文本",
-    "quest",
-    "worldview",
-    "simulated/奇物/3星",
-    "simulated/奇物/2星",
-    "simulated/奇物/1星",
-    "simulated/奇物/经典模拟宇宙",
-    "simulated/祝福/四星",
-    "simulated/祝福/待补充",
-    "simulated/祝福/一星",
+    "update_update.py",
+    "items/Usable/TravelBrochurePaster/TravelBrochurePaster_索引.md",
+    "items/Material/Eidolon/Eidolon_索引.md",
+    "items/Display/RelicSetShowOnly/RelicSetShowOnly_索引.md",
+    "regen_indexes_final.py",
+    "items/Usable/ChessRogueDiceSurface/通用增益•追仇.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•迅捷.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•规律.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•脆弱.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•秘匣.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•法则.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•殉道.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•护盾.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•投资.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•引爆.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•回甘.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•先手.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•底线.md",
+    "items/Usable/ChessRogueDiceSurface/通用增益•偏爱.md",
+    "items/Usable/ChessRogueDiceSurface/通用•运算.md",
+    "items/Usable/ChessRogueDiceSurface/通用•辩证.md",
+    "items/Usable/ChessRogueDiceSurface/通用•观测.md",
+    "items/Usable/ChessRogueDiceSurface/通用•聆听.md",
+    "items/Usable/ChessRogueDiceSurface/通用•灵感.md",
+    "items/Usable/ChessRogueDiceSurface/通用•知觉.md",
+    "items/Usable/ChessRogueDiceSurface/通用•熵增.md",
+    "items/Usable/ChessRogueDiceSurface/通用•求证.md",
+    "items/Usable/ChessRogueDiceSurface",
+    "items/Material/Eidolon",
+    "items/Material/PlanetFesItem",
+    "items/Display/RelicSetShowOnly",
+    "items/Usable/TravelBrochurePaster",
+    "items/Usable/MusicAlbum",
+    "gen_all_remaining.py",
+    "gen_all_remaining.py.agent_infra_tmp_5869844777963313368_6823136656900",
+    "items/Usable/PhoneCase",
     "未命名.canvas",
     "temp/2026_08_28_01_58_59.png",
     "桌面截图.png"
