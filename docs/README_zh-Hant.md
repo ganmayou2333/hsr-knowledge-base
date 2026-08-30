@@ -1,6 +1,6 @@
 # 崩壞：星穹鐵道 · 資料知識庫（HSR）
 
-> **語言 / Languages：** [简体中文](../README.md) · [繁體中文](README_zh-Hant.md) · [English](README_en.md) · [日本語](README_ja.md) · [한국어](README_ko.md)
+> **語言 / Languages：** [简体中文 (zh-Hans)](../README.md) · [繁體中文 (zh-Hant)](README_zh-Hant.md) · [English (en)](README_en.md) · [日本語 (ja)](README_ja.md) · [한국어 (ko)](README_ko.md)
 
 基於 **Obsidian** 的《崩壞：星穹鐵道》資料知識庫，系統整理角色、光錐、物品、遺器、模擬宇宙、劇情文本、世界觀等遊戲資料與資訊，頁面間透過雙鏈（wikilink）關聯，支援結構化檢索與快速跳轉。除簡體中文外，另提供英文 / 繁體中文 / 日文 / 韓文多語言鏡像。
 

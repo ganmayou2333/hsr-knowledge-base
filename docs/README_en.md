@@ -1,6 +1,6 @@
 # Honkai: Star Rail · Data Knowledge Base (HSR)
 
-> **Languages:** [简体中文](../README.md) · [繁體中文](README_zh-Hant.md) · [English](README_en.md) · [日本語](README_ja.md) · [한국어](README_ko.md)
+> **Languages:** [简体中文 (zh-Hans)](../README.md) · [繁體中文 (zh-Hant)](README_zh-Hant.md) · [English (en)](README_en.md) · [日本語 (ja)](README_ja.md) · [한국어 (ko)](README_ko.md)
 
 An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematically organizing game data and materials such as characters, Light Cones, items, Relics, the Simulated Universe, quest texts, and world-building. Pages are linked via wikilinks, supporting structured search and quick navigation. In addition to Simplified Chinese, multilingual mirrors are provided in English / Traditional Chinese / Japanese / Korean.
 

@@ -1,6 +1,6 @@
 # 崩坏：星穹铁道 · 数据知识库（HSR）
 
-> **语言 / Languages：** [简体中文](README.md) · [繁體中文](docs/README_zh-Hant.md) · [English](docs/README_en.md) · [日本語](docs/README_ja.md) · [한국어](docs/README_ko.md)
+> **语言 / Languages：** [简体中文 (zh-Hans)](README.md) · [繁體中文 (zh-Hant)](docs/README_zh-Hant.md) · [English (en)](docs/README_en.md) · [日本語 (ja)](docs/README_ja.md) · [한국어 (ko)](docs/README_ko.md)
 
 基于 **Obsidian** 的《崩坏：星穹铁道》数据知识库，系统整理角色、光锥、物品、遗器、模拟宇宙、剧情文本、世界观等游戏数据与资料，页面间通过双链（wikilink）关联，支持结构化检索与快速跳转。除简体中文外，另提供英文 / 繁体中文 / 日文 / 韩文多语言镜像。
 

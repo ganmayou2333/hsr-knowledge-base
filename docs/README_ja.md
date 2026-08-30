@@ -1,6 +1,6 @@
 # 崩壊：スターレイル · データ知識ベース（HSR）
 
-> **言語 / Languages：** [简体中文](../README.md) · [繁體中文](README_zh-Hant.md) · [English](README_en.md) · [日本語](README_ja.md) · [한국어](README_ko.md)
+> **言語 / Languages：** [简体中文 (zh-Hans)](../README.md) · [繁體中文 (zh-Hant)](README_zh-Hant.md) · [English (en)](README_en.md) · [日本語 (ja)](README_ja.md) · [한국어 (ko)](README_ko.md)
 
 **Obsidian** ベースの『崩壊：スターレイル』データ知識ベースです。キャラクター、光円錐、アイテム、遺物、模擬宇宙、クエストテキスト、世界観などのゲームデータ・資料を体系的に整理し、ページ間はウィキリンク（wikilink）で関連付けられ、構造化検索と素早いジャンプに対応しています。簡体中文に加え、英語 / 繁体中文 / 日本語 / 韓国語の多言語ミラーを提供しています。
 
