@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Delight of Rain and Snow |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Delight of Rain and Snow |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：宴会已至高潮，奏响那曲雨与雪欢腾之歌，颂唱众神的荒诞游戏。
 差分宇宙：再举杯对饮吧，若你能给到法吉娜独一无二的至宝，它也将馈赠你此世难得的蜜酿。
@@ -25,7 +25,7 @@
 差分宇宙：塞纳托斯采撷冥河边缘的花朵，托蝴蝶送至海岸，法吉娜留下花瓣边缘的露珠，将花蕊浸泡，香醇里满载着死亡的气息。
 差分宇宙：传说，扎格列斯曾偷走这瓶蜜酿，试图在宴会上毒死刻法勒，但全知的神明却用计倒换了金杯，令它自食苦果。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 诡计之神痛苦不堪。 | — |
 | 诅咒将折磨它的火种。 | — |
@@ -63,6 +63,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 234 |  |

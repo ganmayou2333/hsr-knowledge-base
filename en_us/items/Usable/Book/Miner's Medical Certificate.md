@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Miner's Medical Certificate |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Miner's Medical Certificate |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 矿工病诊断书
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-磐岩镇娜塔莎的诊所中拾取

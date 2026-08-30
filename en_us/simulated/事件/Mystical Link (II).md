@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mystical Link (II) |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_45.png` |
+| Name | Mystical Link (II) |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_45.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 点击链接。 | 获得1个随机负面奇物和2个随机信标 |
 | 关闭对话。 | 获得2个随机负面奇物和4个随机信标 |
@@ -30,6 +30,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 728601 |  |

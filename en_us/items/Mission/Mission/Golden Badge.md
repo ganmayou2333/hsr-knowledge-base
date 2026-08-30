@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Golden Badge |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Golden Badge |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一枚象征公正的徽章，似乎能说明这位「药王秘传」信徒平日的身份。如果不顾场合地拿出来炫耀，只会闹出一些意外的笑话。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【譬如朝露】

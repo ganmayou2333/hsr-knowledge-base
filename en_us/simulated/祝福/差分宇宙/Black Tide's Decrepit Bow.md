@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Black Tide's Decrepit Bow |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Black Tide's Decrepit Bow |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 我方目标攻击力提高30%，我方全体累计5次回合结束时，使【呢喃】造成的伤害提高50%。

@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Contest of Accord |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_18.png` |
+| Name | Contest of Accord |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_18.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 掏出球棒 | 进入一场2轮的计分战斗，胜利后获取与得分相同的宇宙碎片 |
 
@@ -28,6 +28,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 421401 |  |

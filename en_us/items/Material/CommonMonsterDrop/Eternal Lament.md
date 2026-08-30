@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Eternal Lament |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Eternal Lament |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 黑潮造物死亡后凝成的晶体，强化所需的高级材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级4后，黑潮造物掉落
 - 「万能合成机」- 材料合成

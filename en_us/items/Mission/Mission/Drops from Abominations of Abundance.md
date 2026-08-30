@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Drops from Abominations of Abundance |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Drops from Abominations of Abundance |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 从丰饶灵兽·奎木上取下的掉落物。并非自然造物，食用性未知。
 
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【商铺事件·美馔阁】

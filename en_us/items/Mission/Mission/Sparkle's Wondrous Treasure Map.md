@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Sparkle's Wondrous Treasure Map |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Sparkle's Wondrous Treasure Map |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 花火大人贴心地为你标记了（九百九十九枚中的五枚）虚数中子弹所在地——她太善良了！

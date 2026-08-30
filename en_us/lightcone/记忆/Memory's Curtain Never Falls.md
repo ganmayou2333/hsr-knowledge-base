@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Memory's Curtain Never Falls |
-| 命途 | Remembrance |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Memory's Curtain Never Falls |
+| Path | Remembrance |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Be it bustling, desolate, fleeting, or enduring... every planet and every instant is brimming with countless events.
 That condensed history melts at a single touch, flowing as tears from the world's gaze—
@@ -24,18 +24,18 @@ Some say: How wondrous the stories they tell, sorrow so clear, joy so serene, un
 The Cosmos flows in silent stillness, and THEY speak not, only watching—
 Watching and waiting for them to become "memories."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 529 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Reception
 
 Increases the wearer's SPD by #1[f1]%. After the wearer uses Skill, increases the DMG dealt by all allies by 8%, lasting for 3 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

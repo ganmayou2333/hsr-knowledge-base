@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Musicians of Belobog Volume 5 |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Musicians of Belobog Volume 5 |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 《贝洛伯格的音乐家》卷五
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-磐岩镇，娜塔莎诊所内（木箱上）

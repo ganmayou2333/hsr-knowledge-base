@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Comet Hunter's Treasure Manuscript Part 1 |
-| 用途 | 手稿其一 阅读物 / 手稿其二 阅读物 / 手稿其三 阅读物 / 手稿其四 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Comet Hunter's Treasure Manuscript Part 1 |
+| Use | 手稿其一 阅读物 / 手稿其二 阅读物 / 手稿其三 阅读物 / 手稿其四 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 4 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 完成冒险任务【触不可及】过程中，在空间站「黑塔」-收容舱段地图中拾取

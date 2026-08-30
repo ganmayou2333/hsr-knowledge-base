@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Urban Maintenance (Domain) |
-| 类型 | 事件 |
-| 属性 | 铸造 |
-| 图片 | `image/simulated_event/PicRogueEvent_46.png` |
+| Name | Urban Maintenance (Domain) |
+| Type | Event |
+| Attribute | 铸造 |
+| Image | `image/simulated_event/PicRogueEvent_46.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 塔奥牌。 | 消耗100宇宙碎片，获得1个塔奥牌（剩余1次） |
 | 离开。 | 幻月游戏期间，别问太多 |
@@ -29,6 +29,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 700103 |  |

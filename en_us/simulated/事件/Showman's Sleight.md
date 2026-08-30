@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Showman's Sleight |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_profiteer.png` |
+| Name | Showman's Sleight |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_profiteer.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 你还可以将杯子砸了！ | 舍弃2个随机2星祝福，获得3个随机3星祝福。 |
 | 选择左边的杯子。 | 舍弃2个随机2星祝福，获得4个随机2星祝福。 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 112701 |  |
 | 412701 |  |

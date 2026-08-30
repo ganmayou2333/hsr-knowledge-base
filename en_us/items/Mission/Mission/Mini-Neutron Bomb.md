@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Mini-Neutron Bomb |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Mini-Neutron Bomb |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一枚小型热核武器，爆炸倒数计时会在无法感应到注册者生物信息时立即启动——这句话的意思是，你不能随意丢掉它。
 
 
-## 获得途径
+## Acquisition
 
 - 调查仙舟「罗浮」-星槎海中枢的星槎码头传送点的左侧地图的快递箱获得

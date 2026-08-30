@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Oratorio "Supreme Guardian" Premiere Spectacular |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Oratorio "Supreme Guardian" Premiere Spectacular |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 清唱剧首演盛况

@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Enemy's Scandal |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Enemy's Scandal |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后下次进入战斗时，使敌方全体受到的伤害提高12%，持续5回合。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 《曜青体育》融媒体中心

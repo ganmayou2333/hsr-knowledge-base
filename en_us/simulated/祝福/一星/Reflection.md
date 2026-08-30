@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Reflection |
-| 类型 | 祝福（同名合并） |
-| 命途 | 毁灭 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Reflection |
+| Type | Blessing (merged) |
+| Path | 毁灭 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612551 | When struck with a killing blow, instead of becoming downed, characters immediately restore HP by 1% of their Max HP. The allied team can only trigger this effect 1 time(s) per battle. |
 | 615551 | When struck with a killing blow, instead of becoming downed, characters immediately restore HP by 1% of their Max HP. The allied team can only trigger this effect 1 time(s) per battle. |

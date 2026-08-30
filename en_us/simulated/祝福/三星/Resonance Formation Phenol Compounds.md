@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Phenol Compounds |
-| 类型 | 祝福 |
-| 命途 | 繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Phenol Compounds |
+| Type | Blessing |
+| Path | 繁育 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 命途回响的能量上限由100点提高至200点，当角色消耗或恢复战技点后，额外为命途回响恢复1.0%能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Reverse Adventurer |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2虚无+2欢愉 |
+| Name | Reverse Adventurer |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2虚无+2欢愉 |
 
 
-## 效果
+## Effect
 
 【发牌员】施放攻击后，使攻击目标陷入灼烧状态。回合开始时，受到150%基础伤害的火属性持续伤害，持续3回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

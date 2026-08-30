@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Indelible Promise |
-| 命途 | Destruction |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Indelible Promise |
+| Path | Destruction |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A weathered past. A sworn duty to defend home. A dream to blaze a trail across the world—
 These were entrusted to the unworldly youth by a pair of rough, calloused hands.
@@ -24,18 +24,18 @@ The boy happily accepted his inheritance. Guarded by youth, he could not yet fee
 "Of course. Before that time comes, however, guard this place well, Misha." 
 He thus engraved that promise deep inside his heart, holding to it forever and always.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Inheritance
 
 Increases the wearer's Break Effect by 28%. When the wearer uses their Ultimate, increases CRIT Rate by 15%, lasting for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

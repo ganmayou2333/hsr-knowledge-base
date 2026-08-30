@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Golden Prophecy |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Golden Prophecy |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：欧洛尼斯高歌一段关于黄金的预言，这预言为初生的世界镀上繁荣。
 差分宇宙：在那田园牧歌般的黄金世，欧洛尼斯是最被人类忽视的神明，它的真言几乎得不到倾听，它的祭坛前没有贡品和信徒，有的只是累累灰尘。
 差分宇宙：因为人类所有的需求都能得到满足，没有饥饿寒冷和痛苦，未来的每一天都会如今天一般幸福，又有谁会需要预言？
 差分宇宙：在那个时代，人类唯一需要依赖欧洛尼斯的，或许就是在黑夜之下欣赏繁星。而欧洛尼斯对此并不生气，依旧孤独地预言着。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 当时的世界没有任何变数。 | — |
 | 人类的好日子不会持续太久。 | — |
@@ -63,6 +63,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 254 |  |

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Safeguard of Amber |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / TracePath |
+| Item Name | Safeguard of Amber |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 4★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 奇异的大盾，镶饰着自天外凿取的琥珀。可大幅提升存护角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【支援舱段】
 - 「万能合成机」- 材料合成

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Obsidian of Dread |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / TracePath |
+| Item Name | Obsidian of Dread |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 2★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 一片自虚空中捕获的黑质。可小幅提升虚无角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【大矿区】
 - 余烬兑换

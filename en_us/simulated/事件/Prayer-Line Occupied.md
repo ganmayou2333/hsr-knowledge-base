@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Prayer-Line Occupied |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_31.png` |
+| Name | Prayer-Line Occupied |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_31.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 独辟蹊径，向塔兰顿祈祷 | 获得1个2-3星奇物，有概率进入一场艰难的战斗 |
 | 坚持向欧拉尼斯祈祷 | 获得1个2星奇物 |
@@ -30,6 +30,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 625801 |  |

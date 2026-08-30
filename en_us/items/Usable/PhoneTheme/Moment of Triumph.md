@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Moment of Triumph |
-| 用途 | 手机主题 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 手机主题 |
+| Item Name | Moment of Triumph |
+| Use | 手机主题 |
+| Rarity | ★★★★ |
+| Type | Usable / 手机主题 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「星天演武仪典」活动后获得的手机壁纸']

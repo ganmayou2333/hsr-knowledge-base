@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Astral Menace |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Astral Menace |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612455 | At the end of a character's turn, their next action is Advanced Forward by 8%. |
 | 615455 | At the end of a character's turn, their next action is Advanced Forward by 8%. |

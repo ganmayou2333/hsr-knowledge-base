@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Riddlers — Enigmata |
-| 用途 | - 神秘 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | The Riddlers — Enigmata |
+| Use | - 神秘 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 谜语人 - 神秘

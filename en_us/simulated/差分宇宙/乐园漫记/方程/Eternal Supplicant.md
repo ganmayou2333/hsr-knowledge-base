@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Eternal Supplicant |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 6毁灭+4同谐 |
+| Name | Eternal Supplicant |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 6毁灭+4同谐 |
 
 
-## 效果
+## Effect
 
 我方目标累计损失等同于生命上限100%的生命值，或从无法战斗状态恢复时，对敌方全体造成等同于【和音】上限75%的伤害。角色回合开始时，消耗生命上限的5%，每次触发后使该值提高5%。我方角色首次陷入无法战斗状态时，使当前生命值回复至生命上限的100%，且之后回合开始不再消耗生命值。
 
-## 强化效果
+## Enhanced Effect
 
 -

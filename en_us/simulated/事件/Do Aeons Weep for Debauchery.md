@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for Debauchery? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for Debauchery? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：月亮恬静地闭着眼，在夜幕下，猴子、青蛙、狐狸和兔子的呼声此起彼伏，化作悠扬的小夜曲。
 差分宇宙：可这时，一阵突兀的掌声刺穿了夜的寂静。
 差分宇宙：「按故事的发生时间，我本不该出现在这里」，来者将身形藏在长袍下，向四下的观众们鞠了一躬，借着月光，你看到一张冰冷的面容，「但……」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 一位不请自来的客人。 | — |
 | 你是谁？ | — |
@@ -68,6 +68,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 272 |  |

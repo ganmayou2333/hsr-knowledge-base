@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | New Sprout on Dead Branch |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | New Sprout on Dead Branch |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 处于黑夜时，我方目标每累计降低50%生命值，使生命上限提高5.0%，单个昼夜内最多叠加65%，昼夜切换后重置。
 
-## 强化效果
+## Enhanced Effect
 
 -

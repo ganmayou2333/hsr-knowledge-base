@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sigh at Their Blessings |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Sigh at Their Blessings |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：无人不感喟瑟希斯的赐福。它为人子留下了两件至伟的礼物，其一是智慧与理性，其二便是耕种之术。
 差分宇宙：当死亡出现在世界上后，饥饿便也开始侵扰地上的生灵。为数众多的人子，不得不舍弃身为万物灵长的尊严，像野兽一样互相争斗，抢夺食物。
 差分宇宙：人子为了充饥，将瑟希斯赐予的理性抛诸脑后；人子为了果腹，掠尽了林中的野菜和果实。
 差分宇宙：这便触怒了瑟希斯，它命令所有的植物枯萎，忍饥挨饿的人子或许很快就会从大地上消逝。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 人忘却了敬畏，罪有应得。 | — |
 | 未曾忍饥之人，无权指责。 | — |
@@ -60,6 +60,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 250 |  |

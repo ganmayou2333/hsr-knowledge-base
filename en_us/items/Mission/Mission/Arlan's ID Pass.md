@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Arlan's ID Pass |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Arlan's ID Pass |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 属于阿兰的特殊个人权限通行证，上面贴着佩佩的大头贴照片。
 
 
-## 获得途径
+## Acquisition
 
 - 阿兰同行任务【阴差阳错】

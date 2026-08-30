@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fungal Pustule |
-| 类型 | 祝福（同名合并） |
-| 命途 | 繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Fungal Pustule |
+| Type | Blessing (merged) |
+| Path | 繁育 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612731 | For each Skill Point recovered, apply 1 Spore to 2 random enemy target(s). |
 | 615731 | For each Skill Point recovered, apply 1 Spore to 2 random enemy target(s). |

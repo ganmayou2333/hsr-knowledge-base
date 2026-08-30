@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Sea Monster's Touch |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Sea Monster's Touch |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即使我方全体消耗等同于各自生命上限5%的生命值，并在下次战斗中攻击力提高40%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 绘世学院小卖部

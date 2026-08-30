@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Vermin Hunter |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Vermin Hunter |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 【逆会心】造成的伤害提高60%，施放欢愉技攻击触发时造成的伤害额外提高60%。

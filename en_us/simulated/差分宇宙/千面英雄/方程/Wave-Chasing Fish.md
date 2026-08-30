@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Wave-Chasing Fish |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*4繁育*2 |
+| Name | Wave-Chasing Fish |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*4繁育*2 |
 
 
-## 效果
+## Effect
 
 敌方目标回合开始时，【呢喃】清除阈值提高20%，该效果可叠加，每持有1个【呢喃】以外的持续伤害状态，额外提高4%。
 
-## 强化效果
+## Enhanced Effect
 
 -

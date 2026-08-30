@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Shadowchasing Mechagod |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2智识+2巡猎 |
+| Name | Shadowchasing Mechagod |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2智识+2巡猎 |
 
 
-## 效果
+## Effect
 
 每层【逆会心】触发时额外造成15%攻击力的伤害，施放终结技攻击后，额外对所有攻击目标添加2层【逆会心】。
 
-## 强化效果
+## Enhanced Effect
 
 -

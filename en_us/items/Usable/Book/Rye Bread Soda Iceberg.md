@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Rye Bread Soda Iceberg |
-| 用途 | 阅读物 / 消耗品 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Rye Bread Soda Iceberg |
+| Use | 阅读物 / 消耗品 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-Ⅵ -磐岩镇-小吃摊

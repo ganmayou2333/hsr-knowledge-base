@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Radiant Prominence |
-| 用途 | 角色晋阶材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Radiant Prominence |
+| Use | Character Ascension |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 日蚀狮鹫留下的异界王冠，火属性角色的晋升素材。
 
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【翁法罗斯某区域】
 - 「万能合成机」- 材料置换

@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Most Weighty Thing |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Most Weighty Thing |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：它是翁法罗斯最沉重之物，用庞大的身躯承载万物生长。
 差分宇宙：在遥远过去的太古岁月中，无形无相的命运孤独地运转了无数年，但在那个空灵抽象的世界中，无法诞生任何具象的事物。
 差分宇宙：于是，雅努斯于虚空中创造了一团本不该存在的物质，塔兰顿将其揉捏成具体的形状，欧洛尼斯为它赋予自我演变的能力。
 差分宇宙：吉奥里亚就这样诞生了。命运三姐妹将它作为最初的砝码，置于天平一侧，翁法罗斯终于有了稳定的物质。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 原来大地是这么来的。 | — |
 | 这就是体重大的作用。 | — |
@@ -57,6 +57,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 260 |  |

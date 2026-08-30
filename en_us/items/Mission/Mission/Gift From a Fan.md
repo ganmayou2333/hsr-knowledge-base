@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Gift From a Fan |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Gift From a Fan |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 偷偷跟踪桂乃芬的狂热粉丝寄来的礼物。
 
 
-## 获得途径
+## Acquisition
 
 - 1.5活动冒险任务【捉鬼小队·过犹不及】

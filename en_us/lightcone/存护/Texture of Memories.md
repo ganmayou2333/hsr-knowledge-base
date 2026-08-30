@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Texture of Memories |
-| 命途 | Preservation |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Texture of Memories |
+| Path | Preservation |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The universe is like a wasteland filled with rubbish,
 where occasional treasures lie undiscovered.
@@ -25,18 +25,18 @@ Precious stones of pink, blue, and white are brought forth,
 twinkling gently in THEIR seed plot,
 even though the universe holds onto its enigmatic silence.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 423 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Treasure
 
 Increases the wearer's Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Herta's Manuscripts: Genius Society |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Herta's Manuscripts: Genius Society |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 黑塔的手稿：《天才俱乐部》
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-收容舱段1层，位于桌面上

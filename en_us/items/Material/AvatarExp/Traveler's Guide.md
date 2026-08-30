@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Traveler's Guide |
-| 用途 | 角色经验材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Traveler's Guide |
+| Use | Character EXP |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 角色经验材料，可为角色提供20000点经验值。
 
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【边缘通路】
 - 拟造花萼【流云渡】

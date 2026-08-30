@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Instability Strip |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Instability Strip |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色受到攻击或消耗生命值后，恢复4点能量。
 
-## 强化效果
+## Enhanced Effect
 
 角色受到攻击或消耗生命值后，恢复6点能量。

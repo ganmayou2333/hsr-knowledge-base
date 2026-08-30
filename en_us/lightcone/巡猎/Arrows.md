@@ -6,32 +6,32 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Arrows |
-| 命途 | The Hunt |
-| 评级 | ★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Arrows |
+| Path | The Hunt |
+| Rarity | ★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.
 "The hunter's eyes are the clearest when they pull back the bowstring with the arrow nocked."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 318 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Crisis
 
 At the start of the battle, the wearer's CRIT Rate increases by 12% for 3 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x231,000 / x2 / x6 / x9 / x12 / x10 / x8

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Gondola: Helping Gods! (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_05.png` |
+| Name | Gondola: Helping Gods! (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_05.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：虫潮掠过世界尽头的酒馆时，假面愚者们正醉心于研究如何用虫子泡酒…
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 干杯！ | 虫壳孜然粉酒，太难喝啦，干杯！ |
 | 拒绝。 | 看起来不是很好喝。 |
@@ -38,6 +38,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 117701 |  |

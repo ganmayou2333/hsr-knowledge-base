@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性   | 值      |
+| Attribute | Value |
 | ---- | ------ |
-| 物品名称 | Bio-Wave Probe |
-| 用途   | 消耗品    |
-| 评级   | ★★★★★  |
-| 类型   | Usable / 消耗品     |
+| Item Name | Bio-Wave Probe |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 可无限次使用的寻宝小道具，使用后可以在「雅利洛-Ⅵ」相关的地图中显示1个普通战利品的位置。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「地底商店」积分奖励获得

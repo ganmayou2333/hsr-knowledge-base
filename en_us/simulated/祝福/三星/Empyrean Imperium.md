@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Empyrean Imperium |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Empyrean Imperium |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612430 | When a character's turn begins, they gain 1 stack(s) of Critical Boost. |
 | 615430 | When a character's turn begins, they gain 1 stack(s) of Critical Boost. |

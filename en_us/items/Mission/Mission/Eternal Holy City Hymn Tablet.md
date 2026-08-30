@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Eternal Holy City" Hymn Tablet |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | "Eternal Holy City" Hymn Tablet |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。
 
 
-## 获得途径
+## Acquisition
 
 - 在「永恒圣城」奥赫玛中，将四个祭坛调成特定图案后，前往「衣匠」处打开宝箱后获得

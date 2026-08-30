@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lepismat System: Massacre Saga (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Lepismat System: Massacre Saga (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：虫潮自不知名的洋流小岛涌现，汹涌地席卷宇宙：它们的行军路线掠过一片又一片星系，很快…一切都被啃噬干净。那些虫群席卷了无数的大地，直到连人的尸骸也被吃得空空荡荡。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 上前搭讪。 | 看看他是谁？ |
 | 匆匆逃开。 | 别惹麻烦。 |
@@ -41,6 +41,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 115601 |  |

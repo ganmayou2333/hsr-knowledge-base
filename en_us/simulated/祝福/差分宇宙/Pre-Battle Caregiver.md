@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Pre-Battle Caregiver |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Pre-Battle Caregiver |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 角色击破特攻提高100%，施放攻击击破敌方目标弱点时，获得能够抵消等同于自身生命上限100%伤害的护盾，持续1回合，并在攻击后对该目标造成等同于当前护盾量1000%的【反震】伤害。

@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Bounty Hunter |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 角色施放攻击造成暴击伤害后，有65%固定概率额外造成1次等同于原伤害1%~100%固定数值的暴击伤害，本次伤害视为追加攻击伤害。

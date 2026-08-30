@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Lynx |
-| 命途 | Abundance |
-| 属性 | Quantum |
-| 稀有度 | ★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 贝洛伯格的雪原探险家，朗道家的小妹妹。性格淡定，行动力极强。常常孤身前往雪原探险。 |
-| 定位 | 能够提高我方生命上限、持续治疗以及解除负面效果的治疗角色 |
+| Character Name | Lynx |
+| Path | Abundance |
+| Attribute | Quantum |
+| Rarity | ★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 贝洛伯格的雪原探险家，朗道家的小妹妹。性格淡定，行动力极强。常常孤身前往雪原探险。 |
+| Role | 能够提高我方生命上限、持续治疗以及解除负面效果的治疗角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 照井春佳 |
-| 英语 | Risa Mei |
-| 中文 | 米糊 |
-| 韩语 | 이은조 |
+| Japanese | 照井春佳 |
+| English | Risa Mei |
+| Chinese | 米糊 |
+| Korean | 이은조 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,058 |
-| 基础攻击力 | 494 |
-| 基础防御力 | 551 |
-| 基础速度 | 100 |
-| 嘲讽 | 100 |
-| 能量上限 | 100 |
+| Base HP | 1,058 |
+| Base ATK | 494 |
+| Base DEF | 551 |
+| Base SPD | 100 |
+| Taunt | 100 |
+| Max Energy | 100 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/苍猿之钉\|苍猿之钉]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/苍猿之钉\|Nail of the Ape]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/丰饶之种\|丰饶之种]] | 8 |
-| [[zh_cn/items/Material/TracePath/生命之芽\|生命之芽]] | 42 |
-| [[zh_cn/items/Material/TracePath/永恒之花\|永恒之花]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/丰饶之种\|Seed of Abundance]] | 8 |
+| [[zh_cn/items/Material/TracePath/生命之芽\|Sprout of Life]] | 42 |
+| [[zh_cn/items/Material/TracePath/永恒之花\|Flower of Eternity]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 20 |
 
 ---
-## 战技
-### 普攻：Ice Crampon Technique
+## Skills
+### Basic ATK：Ice Crampon Technique
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of this character's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 70% of this character's Max HP to one designated enemy.
 
-### 战技：Salted Camping Cans
+### Skill：Salted Camping Cans
 - **类型**：Skill
 - **简述**：Applies "Survival Response" to a single ally, increases their Max HP, and restores their HP.
 - **最大等级**：15
@@ -106,7 +106,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].
 使该目标回复等同于玲可#4[f1]%生命上限+#5[i]的生命值。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 5% | 50 | 2 | 8% | 80 | 5 |
   | Lv.2 | 5.25% | 80 | 2 | 8.5% | 128 | 5 |
@@ -136,14 +136,14 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].
 Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 使该目标回复等同于玲可#4[f1]%生命上限+410的生命值。
 
-### 终结技：Snowfield First Aid
+### Ultimate：Snowfield First Aid
 - **类型**：Ultimate
 - **简述**：Dispels 1 debuff from all allies and restores their HP.
 - **最大等级**：15
 - **效果模板**：Dispels #1[i] debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i].
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 |
+| Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 1 | 9% | 90 |
   | Lv.2 | 1 | 9.56% | 144 |
@@ -168,14 +168,14 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 
 - **满级效果**：Dispels 1 debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus 461.25.
 
-### 天赋：Outdoor Survival Experience
+### Talent：Outdoor Survival Experience
 - **类型**：Talent
 - **简述**：When using Skill or Ultimate, applies continuous healing on the target ally. If the target has "Survival Response," the continuous healing effect additionally increases.
 - **最大等级**：15
 - **效果模板**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 2 | 2.4% | 24 | 3% | 30 |
   | Lv.2 | 2 | 2.55% | 38.4 | 3.19% | 48 |
@@ -202,14 +202,14 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 
 - **满级效果**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus 123 at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus 153.75.
 
-### 秘技：Chocolate Energy Bar
+### Technique：Chocolate Energy Bar
 - **类型**：Technique
 - **简述**：After this character uses her Technique, at the start of the next battle, all allies are granted a continuous healing effect.
 - **最大等级**：1
 - **效果模板**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
@@ -218,27 +218,27 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 
 - **满级效果**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 提前勘测 | 晋阶2 | 当持有【求生反应】的目标受到攻击后，玲可立即恢复#1[i]点能量。 | 当持有【求生反应】的目标受到攻击后，玲可立即恢复2点能量。 | 信用点×4000、丰饶之种×2、无穷假身的遗恨×1 |
 | 附加能力2 | 探险技术 | 晋阶4 | 抵抗控制类负面状态的概率提高#1[i]%。 | 抵抗控制类负面状态的概率提高35%。 | 信用点×16000、生命之芽×4、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 极境求生 | 晋阶6 | 天赋产生的持续回复效果延长#1[i]回合。 | 天赋产生的持续回复效果延长1回合。 | 信用点×128000、永恒之花×6、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 28% |
-| 防御力 | 22.5% |
+| HP | 28% |
+| DEF | 22.5% |
 | 效果抵抗 | 10% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Morning of Snow Hike | When healing allies with HP percentage equal to or lower than 50%, Lynx's Outgoing Healing increases by 20%. This effect also works on continuous healing. |
 | E2 | Noon of Portable Furnace | A target with "Survival Response" can resist debuff application for 1 time(s). |
@@ -249,76 +249,76 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：治疗量加成 / 速度 / 生命值 / 生命值
 
 **推荐副词条**：生命值 / 速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|云无留迹的过客]] | 在战斗开始时，立即为我方恢复1个战技点。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|戍卫风雪的铁卫]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
+| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|Passerby of Wandering Cloud]] | 在战斗开始时，立即为我方恢复1个战技点。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|Guard of Wuthering Snow]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/丰饶/时节不居.md|时节不居]]
+### [[zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
 
 - **基础属性**：生1270 攻476 防463
 - **推荐度**：★★★★★
 - **技能名**：日有四时
 - **效果**：使装备者生命上限提高【18%/21%/24%/27%/30%】，治疗量提高【12%/14%/16%/18%/20%】。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的【36%/42%/48%/54%/60%】，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
 
-### [[zh_cn/lightcone/丰饶/惊魂夜.md|惊魂夜]]
+### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：深度深呼吸
 - **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
 
-### [[zh_cn/lightcone/丰饶/一场术后对话.md|一场术后对话]]
+### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★★
 - **技能名**：互相治愈
 - **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/丰饶/此时恰好.md|此时恰好]]
+### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：折射的视线
 - **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/刃_风_五星.md\|刃]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
-| [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
+| [[zh_cn/character/毁灭/刃_风_五星.md\|Blade]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
+| [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
 | [[zh_cn/character/同谐/驭空_虚数_四星.md\|驭空]] | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 朗道家年龄最小的女孩，贝洛伯格首屈一指的极地探险家。
 看似慵懒，实际上执行力极强。散发生人勿近的气场只是为了避免不必要的社交。
 至于如何定义不必要的社交——「呃…所有社交不都是没必要的吗？」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 雪原的风景离贝洛伯格的日常实在是太远了——远到女孩只能在梦中见到它们。
 
@@ -336,7 +336,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 「啊？」
 「啊？」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「玲可，你也知道贝洛伯格外面有多冷……」
 
@@ -369,7 +369,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 
 「…嗯，拉钩！」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「玲宝玲宝，你到了吗？」女孩的手机传来一声清脆的提示音。
 
@@ -406,7 +406,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 
 「这样就足够了。」她们心照不宣。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「玲可为什么会选择成为极地科考队员呢？」
 

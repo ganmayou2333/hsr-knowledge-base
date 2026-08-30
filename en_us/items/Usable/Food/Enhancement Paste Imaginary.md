@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Enhancement Paste: Imaginary |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Enhancement Paste: Imaginary |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中造成的虚数属性伤害提高24%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」

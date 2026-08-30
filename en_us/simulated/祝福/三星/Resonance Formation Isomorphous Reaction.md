@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Isomorphous Reaction |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Isomorphous Reaction |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 进入战斗时，命途回响恢复40%能量。当我方角色获得护盾时，额外为命途回响恢复3%能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

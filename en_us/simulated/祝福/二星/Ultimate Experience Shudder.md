@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ultimate Experience: Shudder |
-| 类型 | 祝福（同名合并） |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Ultimate Experience: Shudder |
+| Type | Blessing (merged) |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612145 | After a character uses their Ultimate, there is a 70% base chance to apply Ice Weakness to a random enemy for 2 turn(s). |
 | 615144 | After a character uses their Ultimate, there is a 70% base chance to apply Ice Weakness to a random enemy for 2 turn(s). |

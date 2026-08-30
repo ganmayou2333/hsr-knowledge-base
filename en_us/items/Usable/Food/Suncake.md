@@ -6,22 +6,22 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Suncake |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Suncake |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方指定单体恢复等同于自身能量上限50%能量。
 
 
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【未来市场·序】中，在街上乱逛阶段，选择与边缘通路入口附近的NPC【歌蒂】对话

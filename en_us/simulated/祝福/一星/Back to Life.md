@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Back to Life |
-| 类型 | 祝福（同名合并） |
-| 命途 | 丰饶 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Back to Life |
+| Type | Blessing (merged) |
+| Path | 丰饶 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612355 | After a character provides healing, they restore HP equal to 12% of their Max HP. This effect can only trigger once per action. |
 | 615355 | After a character provides healing, they restore HP equal to 12% of their Max HP. This effect can only trigger once per action. |

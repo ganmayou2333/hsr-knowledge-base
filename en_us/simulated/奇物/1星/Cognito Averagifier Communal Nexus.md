@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | "Cognito Averagifier" Communal Nexus |
-| 类型 | 奇物 |
-| 星级 | 1星 |
+| Name | "Cognito Averagifier" Communal Nexus |
+| Type | Curio |
+| Rarity | 1星 |
 
 
-## 效果
+## Effect
 
 【交易】区域中的商品价格提高25%
 
-## 背景故事
+## Story
 
 这一天机械时午后三点，侵入性「中等念头」准点步入机械城某位自命不凡的有机体脑内。「中等念头」令他心碎：他发现自己所有天赋的极限都只能触及群体机里的「中等」。但他并不泄气，很快他运用这项珍贵的才能，在无机群体中藏匿爱恨情仇，成为一群机器中最中等的中等者，从此踏上「均衡」的命途。

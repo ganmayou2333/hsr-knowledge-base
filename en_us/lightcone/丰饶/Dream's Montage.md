@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Dream's Montage |
-| 命途 | Abundance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Dream's Montage |
+| Path | Abundance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "The City of Dreams, the Breeding Ground of Sin, or the Promised Land..."
 Extracting the memories of many, he scrutinizes the spectacular moments, disrupting, reorganizing, and splicing them together.
@@ -23,18 +23,18 @@ Extracting the memories of many, he scrutinizes the spectacular moments, disrupt
 Frame by frame, the images flow through his grasp, gradually woven into a tapestry of brilliance.
 "We don't transport memories. We only create the past."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 423 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Academy-Style Edit
 
 Increases the wearer's SPD by 8%. After attacking enemy targets that are Weakness Broken, regenerates #2[f1] Energy. This effect can trigger up to 2 time(s) per turn.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

@@ -6,32 +6,32 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Loop |
-| 命途 | Nihility |
-| 评级 | ★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Loop |
+| Path | Nihility |
+| Rarity | ★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. 
 "Those running away from the past think no one understands their despair. When they finally take a breather, they'll find their future selves staring right at them with bloodshot eyes."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 318 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Pursuit
 
 Increases DMG dealt from its wearer to Slowed enemies by 24%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x231,000 / x2 / x6 / x9 / x12 / x10 / x8

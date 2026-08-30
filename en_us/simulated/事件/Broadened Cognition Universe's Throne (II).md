@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Broadened Cognition: Universe's Throne (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_09.png` |
+| Name | Broadened Cognition: Universe's Throne (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_09.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：然而，仍有更偏远的地区尚未被波及——他们对远方发生的一切浑然不觉，依然过着质朴、和平的生活。正如此刻，一对工人夫妇正在分享同一碗星花炒饭，星花滑落的那一刻，先生俯身用机械钳去捡—-他每日都祈祷着妻子不要发问，但妻子还是开口：
 模拟宇宙：「你恨无能为力去爱的人吗？」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 判定「自我认知」- 我恨。\|选项2=判定「自我认知」- 我不恨…我亦是如此。}} | — |
 | 判定「自我认知」- 我不恨…我亦是如此。}} | — |
@@ -38,6 +38,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 147 |  |

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: The Doubtful Fourfold Root |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: The Doubtful Fourfold Root |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，施加状态的基础概率提高100%，持续时间延长1回合，且施加的可以叠加的状态会额外叠加1层。
 
-## 强化效果
+## Enhanced Effect
 
 -

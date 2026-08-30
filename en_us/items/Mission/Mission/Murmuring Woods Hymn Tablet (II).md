@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Murmuring Woods" Hymn Tablet (II) |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | "Murmuring Woods" Hymn Tablet (II) |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 在「呓语密林」神悟树庭中，根据【记载预言的金织-「呓语密林」】，将七个贤人的雕塑调整为相应形态后，回到衣匠旁开启宝箱获得

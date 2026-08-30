@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Classic SoulGlad |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Recipe: Classic SoulGlad |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 对苏乐达来说，经典就意味着最好。苏乐达公司曾三次试图更改配方，三次都被愤怒的顾客喷回了原样。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【鸽群中的猫-外邦为何争闹？】

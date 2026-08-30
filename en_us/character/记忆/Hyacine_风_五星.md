@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Hyacine |
-| 命途 | Remembrance |
-| 属性 | Wind |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 云间城邦随岁月离析，昏光庭院再度敞开门扉，为永夜捎来微光。 医师雅辛忒丝，守望「天空」火种的黄金裔。继承先祖的意志，缝补破裂的晨昏 ——愿虹光洒落，仇怨消融，黎明重回大地。 |
+| Character Name | Hyacine |
+| Path | Remembrance |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 云间城邦随岁月离析，昏光庭院再度敞开门扉，为永夜捎来微光。 医师雅辛忒丝，守望「天空」火种的黄金裔。继承先祖的意志，缝补破裂的晨昏 ——愿虹光洒落，仇怨消融，黎明重回大地。 |
 | 城邦 | 昏光庭院，奥赫玛 |
 | 神权 | 「晨昏之眼，艾格勒」…？ |
-| 定位 | 召唤忆灵「小伊卡」提高全体生命上限的回复型角色 |
+| Role | 召唤忆灵「小伊卡」提高全体生命上限的回复型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 羊宮妃那 |
-| 英语 | Holly Earl |
-| 中文 | 静宸 |
-| 韩语 | 김연우 |
+| Japanese | 羊宮妃那 |
+| English | Holly Earl |
+| Chinese | 静宸 |
+| Korean | 김연우 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 388 |
-| 基础防御力 | 631 |
-| 基础速度 | 110 |
-| 嘲讽 | 100 |
-| 能量上限 | 140 |
+| Base HP | 1,087 |
+| Base ATK | 388 |
+| Base DEF | 631 |
+| Base SPD | 110 |
+| Taunt | 100 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|一杯酩酊的时代]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|A Glass of the Besotted Era]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料                       | 数量       |           |
+| Materials | Qty | |
 | ------------------------ | -------- | --------- |
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,818,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]]  | 6         |
-| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 8 |
-| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 42 |
-| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 86 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]]  | 9         |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 25 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,818,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]]  | 6         |
+| [[zh_cn/items/Material/TracePath/思量的种\|Bīja of Consciousness]] | 8 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|Seedling of Manas]] | 42 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|Flower of Ālaya]] | 86 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]]  | 9         |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 25 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 22 |
 
 ---
-## 战技
-### 普攻：When Breeze Kisses Cirrus
+## Skills
+### Basic ATK：When Breeze Kisses Cirrus
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Hyacine's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -99,14 +99,14 @@
 
 - **满级效果**：Deals Wind DMG equal to 70% of Hyacine's Max HP to one designated enemy.
 
-### 战技：Love Over the Rainbow
+### Skill：Love Over the Rainbow
 - **类型**：Skill
 - **简述**：Summons memosprite Little Ica, and restores HP for all allies.
 - **最大等级**：15
 - **效果模板**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus #4[i] for Little Ica.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 4% | 40 | 5% | 50 |
   | Lv.2 | 4.5% | 64 | 5.63% | 80 |
@@ -132,14 +132,14 @@
 
 - **满级效果**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 205 for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus 256.25 for Little Ica.
 
-### 终结技：We Who Fly Into Twilight
+### Ultimate：We Who Fly Into Twilight
 - **类型**：Ultimate
 - **简述**：Summons memosprite Little Ica, and restores HP for all allies. Enters the "After Rain" state. While Hyacine is in this state, increases all allies' Max HP.
 - **最大等级**：15
 - **效果模板**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus #7[i] for Little Ica. Hyacine enters the "After Rain" state, lasting for #5[i] turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus #4[i].
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 5% | 50 | 15% | 150 | 3 | 6% | 60 |
   | Lv.2 | 5.63% | 80 | 16.5% | 240 | 3 | 6.75% | 96 |
@@ -168,14 +168,14 @@
 
 - **满级效果**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 256.25 for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus 307.5 for Little Ica. Hyacine enters the "After Rain" state, lasting for 3 turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus 768.75.
 
-### 天赋：First Light Heals the World
+### Talent：First Light Heals the World
 - **类型**：Talent
 - **简述**：When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt.
 - **最大等级**：15
 - **效果模板**：The memosprite Little Ica initially has Max HP equal to #1[i]% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by #3[i]% for #4[i] turn(s). Stacks up to #5[i] time(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 50% | 1 | 40% | 2 | 3 |
   | Lv.2 | 50% | 1 | 44% | 2 | 3 |
@@ -202,14 +202,14 @@
 
 - **满级效果**：The memosprite Little Ica initially has Max HP equal to 50% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by 100% for 2 turn(s). Stacks up to 3 time(s).
 
-### 秘技：Day So Right, Life So Fine!
+### Technique：Day So Right, Life So Fine!
 - **类型**：Technique
 - **简述**：When the next battle starts, restores HP for all allies and increases Max HP.
 - **最大等级**：1
 - **效果模板**：When the next battle starts, restores HP by an amount equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies and increases Max HP by #3[i]%, lasting for #4[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 30% | 600 | 20% | 2 |
 
@@ -221,27 +221,27 @@
 
 - **满级效果**：When the next battle starts, restores HP by an amount equal to 30% of Hyacine's Max HP plus 600 for all allies and increases Max HP by 20%, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 阴云莞尔 | 晋阶2 | 风堇和小伊卡的暴击率提高#1[i]%，为当前生命值小于等于自身生命上限的#2[i]%的我方目标提供治疗时，风堇和小伊卡的治疗量提高#3[i]%。 | 风堇和小伊卡的暴击率提高100%，为当前生命值小于等于自身生命上限的50%的我方目标提供治疗时，风堇和小伊卡的治疗量提高25%。 | 信用点×5000、思量的种×3、同愿的遗音×1 |
 | 附加能力2 | 雷雨轻柔 | 晋阶4 | 风堇的效果抵抗提高#1[i]%。施放战技和终结技时，解除我方全体目标的#2[i]个负面效果。 | 风堇的效果抵抗提高50%。施放战技和终结技时，解除我方全体目标的1个负面效果。 | 信用点×20000、末那芽苗×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 暴风停歇 | 晋阶6 | 风堇的速度大于#1[i]时，她与小伊卡的生命上限提高#2[i]%，之后每超出#3[i]点速度，风堇与小伊卡提供的治疗量提高#4[i]%，最多计入#5[i]点超出的速度。 | 风堇的速度大于200时，她与小伊卡的生命上限提高20%，之后每超出1点速度，风堇与小伊卡提供的治疗量提高1%，最多计入200点超出的速度。 | 信用点×160000、阿赖耶华×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 效果抵抗 | 18% |
-| 速度 | 14 |
+| SPD | 14 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Cradle the Candle of Night | While Hyacine is in the "After Rain" state, all ally targets additionally increase their Max HP by 50%, and after using an attack, immediately restore their HP by an amount equal to 8% of Hyacine's Max HP. |
 | E2 | Come Sit in My Courtyard | When an ally target's HP decreases, SPD increases by 30%, lasting for 2 turn(s). |
@@ -252,68 +252,68 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：治疗量加成 / 速度 / 生命值 / 能量恢复效率
 
 **推荐副词条**：生命值 / 速度 / 效果抵抗 / 暴击伤害
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/烈阳惊雷的女武神\|烈阳惊雷的女武神]] | 当装备者及其忆灵为装备者及其忆灵以外的我方目标提供治疗后，使装备者获得【甘霖】，每回合最多触发1次，持续2回合。装备者持有【甘霖】时，速度提高6%，我方全体暴击伤害提高15%，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|云无留迹的过客]] | 在战斗开始时，立即为我方恢复1个战技点。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/烈阳惊雷的女武神\|Warrior Goddess of Sun and Thunder]] | 当装备者及其忆灵为装备者及其忆灵以外的我方目标提供治疗后，使装备者获得【甘霖】，每回合最多触发1次，持续2回合。装备者持有【甘霖】时，速度提高6%，我方全体暴击伤害提高15%，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|Passerby of Wandering Cloud]] | 在战斗开始时，立即为我方恢复1个战技点。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/渊思寂虑的巨树\|渊思寂虑的巨树]] | 使装备者的速度提高6%。当装备者的速度大于等于135/180时，使装备者及其忆灵的治疗量提高12%/20%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/渊思寂虑的巨树\|Giant Tree of Rapt Brooding]] | 使装备者的速度提高6%。当装备者的速度大于等于135/180时，使装备者及其忆灵的治疗量提高12%/20%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/记忆/愿虹光永驻天空.md|愿虹光永驻天空]]
+### [[zh_cn/lightcone/记忆/愿虹光永驻天空.md|Long May Rainbows Adorn the Sky]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：包容
 - **效果**：使装备者的速度提高 【18%/21%/24%/27%/30% 】。装备者施放普攻、战技和终结技时消耗我方全体等同于当前生命值 【1%/1.2%/1.5%/1.7%/2%】的生命值并使装备者的忆灵下一次攻击后额外对攻击目标造成1次等同于【250%/312.5%/375%/437.5%/500%】生命值消耗总量的基于装备者的忆灵属性的附加伤害，随后清空生命值消耗总量。装备者的忆灵施放忆灵技时，使敌方全体受到的伤害提高 【18.0%/22.5%/27.0%/31.5%/36.0%】 ，持续 2 回合。同类效果无法叠加。
 
-### [[zh_cn/lightcone/记忆/记忆永不落幕.md|记忆永不落幕]]
+### [[zh_cn/lightcone/记忆/记忆永不落幕.md|Memory's Curtain Never Falls]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：收取
 - **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
 
-### [[zh_cn/lightcone/记忆/让告别，更美一些.md|让告别，更美一些]]
+### [[zh_cn/lightcone/记忆/让告别，更美一些.md|Make Farewells More Beautiful]]
 
 - **基础属性**：生1270 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：铭刻
 - **效果**：使装备者的生命上限提高【30%/37%/45%/52%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次装备者每次施放终结技时重置触发次数。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助/副C | 辅助 | 生存 |
 |---|---|---|---|
-| [[zh_cn/character/记忆/遐蝶_量子_五星.md\|遐蝶]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] |
-| [[zh_cn/character/毁灭/万敌_虚数_五星.md\|万敌]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] | [[zh_cn/character/毁灭/刃_风_五星.md\|刃]] |  |
+| [[zh_cn/character/记忆/遐蝶_量子_五星.md\|Castorice]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] |
+| [[zh_cn/character/毁灭/万敌_虚数_五星.md\|万敌]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[zh_cn/character/毁灭/刃_风_五星.md\|Blade]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 云间城邦随岁月离析，昏光庭院再度敞开门扉，为永夜捎来微光。
 医师雅辛忒丝，守望「天空」火种的黄金裔。继承先祖的意志，缝补破裂的晨昏
 ——愿虹光洒落，仇怨消融，黎明重回大地。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「可以把翅膀慢慢打开，对…就像我们上次做的那样，配合医生一起深呼吸哦！」
 「放松一点，没问题的…嗯，翼展变宽啦，你在很努力地吃饭，对不对？」
@@ -337,7 +337,7 @@
 
 「但也许…不一样的光芒，也有它存在的意义……」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 同其他医者一样，女孩许下治愈所有人的愿望。
 她想抚慰世界倾覆下凡人的惨痛，可当黑潮将城邦吞没，瘟疫包围重伤的人群，她只能驱散疫病，而无法停止绝望的蔓延。
@@ -364,7 +364,7 @@
 「以后，我们一定能把它变得更宽广，更温暖……」
 「嘟！」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 奥赫玛，英雄汇聚之地，末世最后的希望所在。
 「逐火之旅」，「火种」，「泰坦」…即便已熟悉那些酷烈灼热的名词，当别人称她为英雄时，她仍是挥挥手。
@@ -393,7 +393,7 @@
 但闲暇的片刻，她也会想到旅途的尽头。
 「到那时候，我…还能做些什么呢？」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「『光历████年，机缘月』风堇医师
 展信佳。虽然当年姐姐没能挺过来，但姐姐最后在庭院度过的时光…她临走前的微笑一直温暖着我的梦境。我想跟您说，今天我也正式成了一名医师，我想像您一样，去帮助那些在末世中煎熬的人们，希望在这长夜中，我也能成为一盏小小的灯……」

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Twilight of Existence |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Twilight of Existence |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标受到攻击后，若处于弱点击破状态，有75%基础概率陷入灼烧、触电、裂伤和风化状态中的其中1种，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标受到攻击后，若处于弱点击破状态，有75%基础概率陷入灼烧、触电、裂伤和风化状态中的其中1种，持续2回合，并解除1个攻击者的负面效果。

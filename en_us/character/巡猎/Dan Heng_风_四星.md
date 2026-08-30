@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Dan Heng |
-| 命途 | The Hunt |
-| 属性 | Wind |
-| 稀有度 | ★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 对自己的过去讳莫如深，清冷寡言的青年。为了躲避血裔同族，选择与星穹列车同行。 |
-| 定位 | 通过大招以及天赋风穿透打出单体伤害的主C角色 |
+| Character Name | Dan Heng |
+| Path | The Hunt |
+| Attribute | Wind |
+| Rarity | ★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 对自己的过去讳莫如深，清冷寡言的青年。为了躲避血裔同族，选择与星穹列车同行。 |
+| Role | 通过大招以及天赋风穿透打出单体伤害的主C角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 伊東健人 |
-| 英语 | Nicholas Leung |
-| 中文 | 李春胤 |
-| 韩语 | 김혜성 |
+| Japanese | 伊東健人 |
+| English | Nicholas Leung |
+| Chinese | 李春胤 |
+| Korean | 김혜성 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 882 |
-| 基础攻击力 | 547 |
-| 基础防御力 | 397 |
-| 基础速度 | 110 |
-| 嘲讽 | 75 |
-| 能量上限 | 100 |
+| Base HP | 882 |
+| Base ATK | 547 |
+| Base DEF | 397 |
+| Base SPD | 110 |
+| Taunt | 75 |
+| Max Energy | 100 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/暴风之眼\|暴风之眼]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/暴风之眼\|Storm Eye]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/猎兽之矢\|猎兽之矢]] | 8 |
-| [[zh_cn/items/Material/TracePath/屠魔之矢\|屠魔之矢]] | 42 |
-| [[zh_cn/items/Material/TracePath/逐星之矢\|逐星之矢]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/猎兽之矢\|Arrow of the Beast Hunter]] | 8 |
+| [[zh_cn/items/Material/TracePath/屠魔之矢\|Arrow of the Demon Slayer]] | 42 |
+| [[zh_cn/items/Material/TracePath/逐星之矢\|Arrow of the Starchaser]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 20 |
 
 ---
-## 战技
-### 普攻：Cloudlancer Art: North Wind
+## Skills
+### Basic ATK：Cloudlancer Art: North Wind
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Wind DMG equal to 140% of Dan Heng's ATK to one enemy.
 
-### 战技：Cloudlancer Art: Torrent
+### Skill：Cloudlancer Art: Torrent
 - **类型**：Skill
 - **简述**：Deals Wind DMG to one enemy. Upon a CRIT Hit, there is a high chance of Slowing the enemy.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When DMG dealt by Skill triggers CRIT Hit, there is a #4[i]% base chance to redu
 战技造成的伤害触发暴击时，有#4[i]%的基础概率使受到攻击的敌方目标速度降低#2[i]%，持续#3[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 130% | 12% | 2 | 100% |
   | Lv.2 | 143% | 12% | 2 | 100% |
@@ -134,14 +134,14 @@ When DMG dealt by Skill triggers CRIT Hit, there is a #4[i]% base chance to redu
 When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12%, lasting for 2 turn(s).
 战技造成的伤害触发暴击时，有100%的基础概率使受到攻击的敌方目标速度降低12%，持续2回合。
 
-### 终结技：Ethereal Dream
+### Ultimate：Ethereal Dream
 - **类型**：Ultimate
 - **简述**：Deals massive Wind DMG to one enemy. If the enemy is Slowed, DMG multiplier dealt will be increased.
 - **最大等级**：15
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by #2[i]%.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 240% | 72% |
   | Lv.2 | 256% | 76.8% |
@@ -165,14 +165,14 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 
 - **满级效果**：Deals Wind DMG equal to 480% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by 144%.
 
-### 天赋：Superiority of Reach
+### Talent：Superiority of Reach
 - **类型**：Talent
 - **简述**：When this unit becomes the target of an ally's ability, this unit's next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.
 - **最大等级**：15
 - **效果模板**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 18% | 2 |
   | Lv.2 | 19.8% | 2 |
@@ -196,14 +196,14 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 
 - **满级效果**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by 45%. This effect can be triggered again after 2 turn(s).
 
-### 秘技：Splitting Spearhead
+### Technique：Splitting Spearhead
 - **类型**：Technique
 - **简述**：After they use their Technique, their ATK is increased at the start of the next battle.
 - **最大等级**：1
 - **效果模板**：After Dan Heng uses his Technique, his ATK increases by #1[i]% at the start of the next battle for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 40% | 3 |
 
@@ -213,27 +213,27 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 
 - **满级效果**：After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 潜龙 | 晋阶2 | 若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。 | 若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。 | 信用点×4000、猎兽之矢×2、毁灭者的末路×1 |
 | 附加能力2 | 绝影 | 晋阶4 | 施放攻击后有#1[i]%的固定概率使自身速度提高#2[i]%，持续#3[i]回合。 | 施放攻击后有50%的固定概率使自身速度提高20%，持续2回合。 | 信用点×16000、屠魔之矢×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 罡风 | 晋阶6 | 普攻对减速状态下的敌方目标造成的伤害提高#1[i]%。 | 普攻对减速状态下的敌方目标造成的伤害提高40%。 | 信用点×128000、逐星之矢×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
-| 防御力 | 12.5% |
+| ATK | 18% |
+| DEF | 12.5% |
 | 风属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | The Higher You Fly, the Harder You Fall | When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%. |
 | E2 | Quell the Venom Octet, Quench the Vice O'Flame | Reduces Talent cooldown by 1 turn. |
@@ -244,76 +244,76 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 风属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/于夜色中.md|于夜色中]]
+### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：花与蝶
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-### [[zh_cn/lightcone/巡猎/如泥酣眠.md|如泥酣眠]]
+### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：美梦
 - **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 副C | [[zh_cn/character/巡猎/丹恒_风_四星.md\|丹恒]] | [[zh_cn/character/虚无/瓦尔特_虚数_五星.md\|瓦尔特]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
 | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 清冷寡言的少年，持有名为「击云」的长枪，于列车漫长的开拓之旅中担任护卫。
 丹恒对自己的过往始终讳莫如深，他与列车同行正是为了摆脱自己曾亲手造就的一切。
 然而，列车真的会带着他远离「过去」么？
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 新的一天开始了。
 
@@ -329,7 +329,7 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 
 但他仍旧静静地看着，不发一言。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 新的一天开始了。
 
@@ -345,7 +345,7 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 
 「故乡」外，是一个更大的世界，什么都有可能发生。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 新的一天开始了。
 
@@ -366,7 +366,7 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 「等你想好了要去哪儿，可以随时下车。」
 「好。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 新的一天开始了。
 

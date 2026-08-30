@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ka-ching! IPC Banking (I) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Bond.png` |
+| Name | Ka-ching! IPC Banking (I) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Bond.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 取出200/400/600宇宙碎片。 | 你将取出封存的宇宙碎片与利息。 |
 | 走开 | 离开 |
@@ -31,7 +31,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 114301 |  |
 | 414301 |  |

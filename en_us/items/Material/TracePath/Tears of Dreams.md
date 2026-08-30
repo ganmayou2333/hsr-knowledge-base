@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tears of Dreams |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 行迹材料 |
+| Item Name | Tears of Dreams |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 行迹材料 |
 
 
-## 说明
+## Description
 
 被封存的思绪。可在命途材料不足时替代使用。不同稀有度材料所需的梦之珠泪替代比例不同。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 无名勋礼

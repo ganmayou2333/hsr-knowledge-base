@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Swarm: Mind of the Domain (Third Praetorian) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 虫群 |
-| 图片 | `image/simulated_event/PicRogueEvent_4.png` |
+| Name | Swarm: Mind of the Domain (Third Praetorian) |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 虫群 |
+| Image | `image/simulated_event/PicRogueEvent_4.png` |
 
 
-## 事件文本
+## Event Text
 
 
 模拟宇宙：终于到了这一刻——你来到这里，黄沙吹起你的披风，你将直面刺杀「古脑体」。
@@ -35,7 +35,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 119203 |  |
 | 419203 |  |

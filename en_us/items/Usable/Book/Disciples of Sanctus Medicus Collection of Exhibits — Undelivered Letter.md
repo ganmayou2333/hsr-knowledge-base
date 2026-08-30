@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Disciples of Sanctus Medicus: Collection of Exhibits — Undelivered Letter |
-| 用途 | 未寄出的家书 阅读物 / 紧急指示 阅读物 / 莳者日记 阅读物 / 行动目标：景元 阅读物 / 药王秘传•密令 阅读物 / 还尘驻形丹 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Disciples of Sanctus Medicus: Collection of Exhibits — Undelivered Letter |
+| Use | 未寄出的家书 阅读物 / 紧急指示 阅读物 / 莳者日记 阅读物 / 行动目标：景元 阅读物 / 药王秘传•密令 阅读物 / 还尘驻形丹 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 6 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 完成仙舟「罗浮」1.0 版本所有主线任务后获得（共五册）

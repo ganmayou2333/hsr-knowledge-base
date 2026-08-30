@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Broadened Cognition: Associates (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_09.png` |
+| Name | Broadened Cognition: Associates (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_09.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你眼睁睁看着漫天香料在面前散开，一些辛辣的味道钻进你的鼻腔。你知道这一切的开端…恐怖的无机生命，它们如同*战争机器*在烟尘中穿梭！它们的钻头可以轻易贯穿你！
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 躲避}} | — |
 
@@ -35,6 +35,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 141 |  |

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Astral Express Miniature (Limited Edition) |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Astral Express Miniature (Limited Edition) |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 依照现有的星穹列车定制而成的微缩模型，昂贵的限量款，砂金自掏腰包的产物。
 
 
-## 获得途径
+## Acquisition
 
 - 完成冒险任务【云帆归心】后，阅读短信并与该任务中的大副对话获得

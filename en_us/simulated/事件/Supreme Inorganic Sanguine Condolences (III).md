@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Supreme Inorganic: Sanguine Condolences (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_12.png` |
+| Name | Supreme Inorganic: Sanguine Condolences (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_12.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你坐在机械帝国的飞艇上，认真思考接下来的任务：与有机生命进行一场战争——这是你的使命。
 模拟宇宙：正确，有机生命的边星贸易战争尚未结束，越来越多的势力被卷入漩涡——作为最高智能的代表，智械自然也在其中。你正在*推算*这场战争的走向——但你并未意识到，宇宙的战火将远比你的计算更为猛烈。
 模拟宇宙：据说，在一切发生前，「反对战争」的提案也曾被呈上，但公司董事会的沉默证明了一切：当数之不尽的单一个体都在凭借自己的准则行事时，就再没有哪一种人为意志能扭转全局——即便是位于公司权力顶端的人们。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 那么，战争余烬之后呢？}} | — |
 
@@ -35,6 +35,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 148 |  |

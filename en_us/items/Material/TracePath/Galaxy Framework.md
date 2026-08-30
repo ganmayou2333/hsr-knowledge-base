@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Galaxy Framework |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 行迹材料 |
+| Item Name | Galaxy Framework |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 行迹材料 |
 
 
-## 说明
+## Description
 
 星际航行相关专业用以进阶研究的星系框架。可中幅提升智识角色的命途行迹。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【{TextID#FloorName_20521001}】
 - 「万能合成机」- 材料合成

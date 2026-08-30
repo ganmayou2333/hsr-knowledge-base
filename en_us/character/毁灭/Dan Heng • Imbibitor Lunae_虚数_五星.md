@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Dan Heng • Imbibitor Lunae |
-| 命途 | Destruction |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 丹恒身为持明族的本相，其上一世「饮月君」所遗存的力量。 接受了额顶的峥嵘角冠，就要接受那罪人所立的一切功过。 |
-| 定位 | 可施放多种强化技能的输出型角色 |
+| Character Name | Dan Heng • Imbibitor Lunae |
+| Path | Destruction |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 丹恒身为持明族的本相，其上一世「饮月君」所遗存的力量。 接受了额顶的峥嵘角冠，就要接受那罪人所立的一切功过。 |
+| Role | 可施放多种强化技能的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 伊東健人 |
-| 英语 | Nicholas Leung |
-| 中文 | 李春胤 |
-| 韩语 | 김혜성 |
+| Japanese | 伊東健人 |
+| English | Nicholas Leung |
+| Chinese | 李春胤 |
+| Korean | 김혜성 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,242 |
-| 基础攻击力 | 699 |
-| 基础防御力 | 364 |
-| 基础速度 | 102 |
-| 嘲讽 | 125 |
-| 能量上限 | 140 |
+| Base HP | 1,242 |
+| Base ATK | 699 |
+| Base DEF | 364 |
+| Base SPD | 102 |
+| Taunt | 125 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/镇灵敕符\|镇灵敕符]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/镇灵敕符\|Suppressing Edict]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 12 |
-| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 53 |
-| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|Shattered Blade]] | 12 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|Lifeless Blade]] | 53 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|Worldbreaker Blade]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
 
 ---
-## 战技
-### 普攻：Beneficent Lotus
+## Skills
+### Basic ATK：Beneficent Lotus
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Uses a 2-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Uses a 2-hit attack and deals Imaginary DMG equal to 140% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.
 
-### 战技：Dracore Libre
+### Skill：Dracore Libre
 - **类型**：Skill
 - **简述**：Enhances the Basic ATK Beneficent Lotus to Transcendence, Divine Spear, or Fulgurant Leap.
 - **最大等级**：15
@@ -112,7 +112,7 @@ When using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack
 施放【天矢阴】或【盘拏耀跃】时，从第4段攻击开始每段攻击前获得1层【叱咤】，使丹恒•饮月的暴击伤害提高#1[f1]%，该效果最多叠加#2[i]层，持续至自身回合结束。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 6% | 4 |
   | Lv.2 | 6.6% | 4 |
@@ -144,7 +144,7 @@ When using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack
 强化3次，【泽芝】变为【盘拏耀跃】。
 施放【天矢阴】或【盘拏耀跃】时，从第4段攻击开始每段攻击前获得1层【叱咤】，使丹恒•饮月的暴击伤害提高#1[f1]%，该效果最多叠加4层，持续至自身回合结束。
 
-### 终结技：Azure's Aqua Ablutes All
+### Ultimate：Azure's Aqua Ablutes All
 - **类型**：Ultimate
 - **简述**：Deals massive Imaginary DMG to one enemy, deals Imaginary DMG to adjacent targets, and gains 2 "Squama Sacrosancta," which can offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.
 - **最大等级**：15
@@ -153,7 +153,7 @@ It's possible to hold up to #4[i] "Squama Sacrosancta," which can be used to off
 【逆鳞】最多持有#4[i]个，可用来抵扣丹恒•饮月的战技点消耗。消耗【逆鳞】视为消耗战技点。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 180% | 84% | 2 | 3 |
   | Lv.2 | 192% | 89.6% | 2 | 3 |
@@ -181,14 +181,14 @@ It's possible to hold up to #4[i] "Squama Sacrosancta," which can be used to off
 It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming "Squama Sacrosancta" is considered equivalent to consuming skill points.
 【逆鳞】最多持有3个，可用来抵扣丹恒•饮月的战技点消耗。消耗【逆鳞】视为消耗战技点。
 
-### 天赋：Righteous Heart
+### Talent：Righteous Heart
 - **类型**：Talent
 - **简述**：Increases DMG for every hit dealt. This effect is stackable and lasts until the end of this character's turn.
 - **最大等级**：15
 - **效果模板**：After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by #1[f1]%. This effect can stack up to #2[i] time(s), lasting until the end of his turn.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 5% | 6 |
   | Lv.2 | 5.5% | 6 |
@@ -212,14 +212,14 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
 
 - **满级效果**：After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by #1[f1]%. This effect can stack up to 6 time(s), lasting until the end of his turn.
 
-### 秘技：Heaven-Quelling Prismadrakon
+### Technique：Heaven-Quelling Prismadrakon
 - **类型**：Technique
 - **简述**：Enters the Leaping Dragon state. Attacking will cause this character to move forward rapidly for a set distance and attack all enemies touched. After entering combat via attacking enemies, deals Imaginary DMG to all enemies, and gains 1 Squama Sacrosancta.
 - **最大等级**：1
 - **效果模板**：After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for #2[i] seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to #3[i]% of his ATK to all enemies, and gains #1[i] Squama Sacrosancta.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) |
+| Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 1 | 20 | 120% |
 
@@ -230,27 +230,27 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
 
 - **满级效果**：After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 伏辰 | 晋阶2 | 战斗开始时，立即恢复#1[i]点能量。 | 战斗开始时，立即恢复15点能量。 | 信用点×5000、破碎残刃×3、无穷假身的遗恨×1 |
 | 附加能力2 | 修禹 | 晋阶4 | 抵抗控制类负面状态的概率提高#1[i]%。 | 抵抗控制类负面状态的概率提高35%。 | 信用点×20000、无生残刃×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 起蛰 | 晋阶6 | 对拥有虚数属性弱点的敌方目标造成伤害时，暴击伤害提高#1[i]%。 | 对拥有虚数属性弱点的敌方目标造成伤害时，暴击伤害提高24%。 | 信用点×160000、净世残刃×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 暴击率 | 12% |
 | 虚数属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Tethered to Sky | Increases the stackable Righteous Heart count by 4, and gains 1 extra stack of Righteous Heart for each hit during an attack. |
 | E2 | Imperium On Cloud Nine | After using his Ultimate, Dan Heng • Imbibitor Lunae's action advances by 100% and gains 1 extra "Squama Sacrosancta." |
@@ -261,69 +261,69 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 虚数属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/隧洞遗器/贪噬禁果的异端\|贪噬禁果的异端]] | 使装备者普攻造成的伤害提高36%。当装备者施放普攻时，使装备者的攻击力提高20%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|盗匪荒漠的废土客]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/星体差分机\|星体差分机]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/星体差分机\|Celestial Differentiator]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|比阳光更明亮的]]
+### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|Brighter Than the Sun]]
 
 - **基础属性**：生1058 攻635 防396
 - **推荐度**：★★★★★
 - **技能名**：抵死
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】 最多叠加2层。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/在蓝天下.md|在蓝天下]]
+### [[zh_cn/lightcone/毁灭/在蓝天下.md|Under the Blue Sky]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：暖阳麦浪
 - **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，消灭敌方目标后，暴击率提高【12%/15%/18%/21%/24%】，持续3回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
+| [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
 | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 | [[zh_cn/character/同谐/寒鸦_物理_四星.md\|寒鸦]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 丹恒接纳了上一世「饮月君」所遗存的力量，所展露的持明族本相。
 既然接受了额顶的峥嵘角冠，便也要接受那人所负的一切功过。
 但从始至终，他都不是他。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 无光的幽暗中，他仿佛回到持明卵中，在波涛与幻梦里辗转来去。
 
@@ -335,7 +335,7 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
 
 他做不到。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 无光的幽暗中，他仿佛回到持明卵中，在波涛与幻梦里辗转来去。
 
@@ -355,7 +355,7 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
 
 龙心告诉他，那不过是世上又拂去了些许微尘。战争伴随代价，生命终会再生——龙裔也绝非仅有持明一支。但人心悸痛着，为那些与他战友一样，有着温暖血肉的同袍，为那些也许能活更久，如今却无法再返其乡的凡人而疼痛。
 
-### 角色故事·其三 （解锁条件：角色等级40）
+### Character Story·3（解锁条件：Character Level 40）
 
 无光的幽暗中，他仿佛回到持明卵中，在波涛与幻梦里辗转来去。
 
@@ -376,7 +376,7 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
 
 一缕碎发和几滴血落地。证明她存在过的痕迹，只剩这些了。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 无光的幽暗中，他仿佛回到持明卵中，在波涛与幻梦里辗转来去。
 

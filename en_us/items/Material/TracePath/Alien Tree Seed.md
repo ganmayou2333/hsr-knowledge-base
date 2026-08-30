@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Alien Tree Seed |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / TracePath |
+| Item Name | Alien Tree Seed |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 2★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 携带各色物种基因的种子，自翁瓦克圣林的心树果实中取得。可小幅提升丰饶角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【绥园】
 - 余烬兑换

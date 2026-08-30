@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Faces Places |
-| 类型 | 祝福 |
-| 命途 | 记忆&毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Faces Places |
+| Type | Blessing |
+| Path | 记忆&毁灭 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响造成的冻结状态被敌方目标解除或抵抗时，有150%基础概率使该目标的全属性抗性降低15%，持续2回合。我方每个单体目标每损失各自1%生命值，该目标的全属性抗性额外降低0.06%。
 
-## 强化效果
+## Enhanced Effect
 
 -

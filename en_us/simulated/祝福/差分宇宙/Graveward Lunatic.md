@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Graveward Lunatic |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Graveward Lunatic |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 角色生命上限提高40%，累计回复等同于生命上限200%的生命值后，造成的【回味】伤害倍率提高原倍率的100%。

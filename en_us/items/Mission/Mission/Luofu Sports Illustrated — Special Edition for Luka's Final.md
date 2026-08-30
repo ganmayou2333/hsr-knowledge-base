@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Luofu Sports Illustrated — Special Edition for Luka's Final |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Luofu Sports Illustrated — Special Edition for Luka's Final |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 《罗浮体育报》报道卢卡参加「竞锋守擂」的特刊。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【即使喝彩停息•第五章】

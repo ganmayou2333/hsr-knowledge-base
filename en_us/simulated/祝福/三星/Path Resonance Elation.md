@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Path Resonance: Elation |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 命途回响 |
+| Name | Path Resonance: Elation |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 3★ |
+| Special Type | 命途回响 |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「欢愉」发生回响共鸣，对敌方全体造成3~5次随机属性的追加攻击伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

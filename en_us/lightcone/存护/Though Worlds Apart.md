@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Though Worlds Apart |
-| 命途 | Preservation |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Though Worlds Apart |
+| Path | Preservation |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 In the boundless ancient lands, a young man walks alone on his quest.
 He seems to return to those wandering days, wading through surging waves, weathering wind and frost, battling behemoths, struggling against raging tides.
@@ -29,18 +29,18 @@ The troubles of his past may stir with the wind, but the path he's traveled will
 The young man leaps forth with his spear, advancing toward the light
 "And I shall defend all hope that threatens to fade away!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 582 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### New Scale
 
 Increases the wearer's ATK by 64%. When the wearer uses Ultimate, restores HP equal to 10% of the wearer's ATK for all allies, and additionally restores HP equal to 10% of the wearer's ATK for the character with the lowest current HP, and grants "Redoubt" to all allies for 3 turn(s). Targets with "Redoubt" deal 24% increased DMG, which further increases by 12% if the targets have summons.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

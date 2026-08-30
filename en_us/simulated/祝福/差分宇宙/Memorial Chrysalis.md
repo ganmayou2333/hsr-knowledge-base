@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Memorial Chrysalis |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Memorial Chrysalis |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 我方目标每持有1层【执念】，造成的普攻和战技伤害提高6%。我方角色离场、陷入无法战斗状态，或我方忆灵消失时，当前队伍中的第一位角色会获得其50%的【执念】层数，同时获得等量的【执念】层数上限，额外的层数上限在2个回合后消失。

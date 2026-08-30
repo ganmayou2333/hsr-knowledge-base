@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Path Resonance: Destruction |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 命途回响 |
+| Name | Path Resonance: Destruction |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 3★ |
+| Special Type | 命途回响 |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「毁灭」发生回响共鸣，基于我方全体已损失的生命值总量，对敌方全体造成火属性伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Moze |
-| 命途 | The Hunt |
-| 属性 | Lightning |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「曜青」 |
-| 角色介绍 | 仙舟「曜青」的影卫，沉默寡言、独来独往。专司情报与不见光的事务，鲜少在人前露面。貊泽显露锋芒时，便是敌人的死期。刺杀手段丰富，对整洁和条理有超乎寻常的执着。 |
-| 定位 | 以标记敌人为【猎物】造成附加伤害的输出型角色 |
+| Character Name | Moze |
+| Path | The Hunt |
+| Attribute | Lightning |
+| Rarity | ★★★★ |
+| Faction | 仙舟「曜青」 |
+| Introduction | 仙舟「曜青」的影卫，沉默寡言、独来独往。专司情报与不见光的事务，鲜少在人前露面。貊泽显露锋芒时，便是敌人的死期。刺杀手段丰富，对整洁和条理有超乎寻常的执着。 |
+| Role | 以标记敌人为【猎物】造成附加伤害的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 坂田将吾 |
-| 英语 | Ben Balmaceda |
-| 中文 | 黄进泽 |
-| 韩语 | 최현식 |
+| Japanese | 坂田将吾 |
+| English | Ben Balmaceda |
+| Chinese | 黄进泽 |
+| Korean | 최현식 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 811 |
-| 基础攻击力 | 600 |
-| 基础防御力 | 353 |
-| 基础速度 | 111 |
-| 嘲讽 | 75 |
-| 能量上限 | 120 |
+| Base HP | 811 |
+| Base ATK | 600 |
+| Base DEF | 353 |
+| Base SPD | 111 |
+| Taunt | 75 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/兽棺之钉\|兽棺之钉]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/兽棺之钉\|Nail of the Beast Coffin]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 8 |
-| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 42 |
-| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|Meteoric Bullet]] | 8 |
+| [[zh_cn/items/Material/TracePath/命定死因\|Destined Expiration]] | 42 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|Countertemporal Shot]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 20 |
 
 ---
-## 战技
-### 普攻：Hurlthorn
+## Skills
+### Basic ATK：Hurlthorn
 - **类型**：Basic ATK
 - **简述**：Deals minor Lightning DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Lightning DMG equal to 140% of Moze's ATK to one designated enemy target.
 
-### 战技：Fleetwinged Raid
+### Skill：Fleetwinged Raid
 - **类型**：Skill
 - **简述**：Marks one enemy as "Prey" and deals Lightning DMG to it. Gains 9 points of Charge.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When there are no other characters on the field that are capable of combat, Moze
 当场上没有可以战斗的其他角色时，貊泽无法使用战技，并解除敌人的【猎物】状态。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 75% | 9 |
   | Lv.2 | 82.5% | 9 |
@@ -132,14 +132,14 @@ When there are no other characters on the field that are capable of combat, Moze
 When there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's "Prey" state.
 当场上没有可以战斗的其他角色时，貊泽无法使用战技，并解除敌人的【猎物】状态。
 
-### 终结技：Dash In, Gash Out
+### Ultimate：Dash In, Gash Out
 - **类型**：Ultimate
 - **简述**：Deals Lightning DMG to one enemy, and launches Talent's Follow-Up ATK.
 - **最大等级**：15
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 162% |
   | Lv.2 | 172.8% |
@@ -162,7 +162,7 @@ When there are no other characters on the field that are capable of combat, Moze
 
 - **满级效果**：Deals Lightning DMG equal to 324% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
 
-### 天赋：Cascading Featherblade
+### Talent：Cascading Featherblade
 - **类型**：Talent
 - **简述**：When "Prey" exists on the field, Moze will enter the Departed state.
 After allies attack "Prey," Moze deals Lightning Additional DMG and consumes 1 Charge point. For every 3 point(s) of Charge consumed, Moze launches Follow-Up ATK on "Prey," dealing Lightning DMG. When Charge is 0, dispels the target's "Prey" state.
@@ -173,7 +173,7 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身#1[i]%攻击力的雷属性附加伤害，并消耗1点充能。每消耗#2[i]点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身#3[i]%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。天赋的追加攻击不会消耗充能。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 15% | 3 | 80% |
   | Lv.2 | 16.5% | 3 | 88% |
@@ -200,14 +200,14 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 After ally targets attack "Prey," Moze will additionally deal 1 instance of Lightning Additional DMG equal to 37.5% of his ATK and consumes 1 point of Charge. For every 3 point(s) of Charge consumed, Moze launches 1 Follow-Up ATK to "Prey," dealing Lightning DMG equal to 200% of his ATK. When Charge reaches 0, dispels the target's "Prey" state and resets the tally of Charge points required to launch Follow-Up ATK. Talent's Follow-Up ATK does not consume Charge.
 我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身37.5%攻击力的雷属性附加伤害，并消耗1点充能。每消耗3点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身200%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。天赋的追加攻击不会消耗充能。
 
-### 秘技：Bated Wings
+### Technique：Bated Wings
 - **类型**：Technique
 - **简述**：Enters the Stealth state. Attacking enemies to enter combat while in Stealth increases DMG.
 - **最大等级**：1
 - **效果模板**：After using Technique, enters the Stealth state for #1[i] second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by #2[i]%, lasting for #3[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 20 | 30% | 2 |
 
@@ -218,27 +218,27 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 
 - **满级效果**：After using Technique, enters the Stealth state for 20 second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by 30%, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 墨毫绣衣 | 晋阶2 | 施放天赋的追加攻击后，恢复#1[i]个战技点，该效果在#2[i]回合后可再次触发。 | 施放天赋的追加攻击后，恢复1个战技点，该效果在1回合后可再次触发。 | 信用点×4000、陨铁弹丸×2、吉光片羽×1 |
 | 附加能力2 | 手奋匕尺 | 晋阶4 | 貊泽解除离场状态时，行动提前#1[i]%。每个波次开始时，貊泽行动提前#2[i]%。 | 貊泽解除离场状态时，行动提前20%。每个波次开始时，貊泽行动提前30%。 | 信用点×16000、命定死因×4、命运的足迹×1、吉光片羽×1 |
 | 附加能力3 | 不折镆干 | 晋阶6 | 施放终结技造成伤害时，被视为发动了追加攻击。【猎物】受到的追加攻击伤害提高#1[i]%。 | 施放终结技造成伤害时，被视为发动了追加攻击。【猎物】受到的追加攻击伤害提高25%。 | 信用点×128000、逆时一击×6、命运的足迹×1、吉光片羽×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 18% |
+| HP | 10% |
+| ATK | 18% |
 | 暴击伤害 | 37.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Oathkeeper | After entering battle, Moze regenerates 20 Energy. Each time the Additional DMG from his Talent is triggered, Moze regenerates 2 Energy. |
 | E2 | Wrathbearer | When all allies deal DMG to the enemy target marked as "Prey," increases CRIT DMG by 40%. |
@@ -249,76 +249,76 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 雷属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|激奏雷电的乐队]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|风举云飞的勇烈]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|Band of Sizzling Thunder]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|The Wind-Soaring Valorous]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|奔狼的都蓝王朝]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
-| [[zh_cn/relic/位面饰品/出云显世与高天神国\|出云显世与高天神国]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[zh_cn/relic/位面饰品/出云显世与高天神国\|Izumo Gensei and Takama Divine Realm]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|纯粹思维的洗礼]]
+### [[zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|Baptism of Pure Thought]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★
 - **技能名**：思想训练
 - **效果**：使装备者的暴击伤害提高【20%/23%/26%/29%/32%】。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高【8%/9%/10%/11%/12%】，最多叠加3层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高【36%/42%/48%/54%/60%】，追加攻击无视目标【24%/28%/32%/36%/40%】的防御力，该效果持续2回合。
 
-### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|烦恼着，幸福着]]
+### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：一个一个来
 - **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 副C | [[zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] | [[zh_cn/character/巡猎/貊泽_雷_四星.md\|貊泽]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |  |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 仙舟「曜青」的影卫，沉默寡言、独来独往。
 专司情报与不见光的事务，鲜少在人前露面。貊泽显露锋芒时，便是敌人的死期。
 刺杀手段丰富，对整洁和条理有超乎寻常的执着。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 狐人医士用羽扇半捂着脸，颇为痛切地看着眼前的景象…无数眼、耳、舌、齿、肢节、毛发在已死的躯体上疯狂增生又脱落，仿佛只是在徒劳地感受最后的痛苦。
 
@@ -345,7 +345,7 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 
 他习惯了不说话，但也开始习惯了有人替他说话。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「你是谁？」
 他没有说话，但将死之人话却格外的多。
@@ -368,7 +368,7 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 行于黑暗，也立于黑暗。
 鸦羽怪人也好，影卫也好，都成为了他的一部分。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「报告将军，药王秘传残党已尽数擒获一百一十七名，待交由十王司镇入牢狱。
 「但那个少年，应该是被药物折磨的，您看……」
@@ -406,7 +406,7 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 女子怔了一怔，哈哈大笑起来。
 「那自然是你想做什么，就做什么。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「药王慈怀…听话，咽下去，你的病会好，不仅会和长生种一模一样…还会活得很久，很久……」
 他试图吞咽药物，却不敢呼吸。

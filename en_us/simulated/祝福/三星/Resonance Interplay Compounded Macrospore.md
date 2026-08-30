@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Compounded Macrospore |
-| 类型 | 祝福 |
-| 命途 | 繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Compounded Macrospore |
+| Type | Blessing |
+| Path | 繁育 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，为指定我方单体回复等同于生命上限50%的生命值，溢出治疗量的200%会用于平均回复其他角色。
 
-## 强化效果
+## Enhanced Effect
 
 -

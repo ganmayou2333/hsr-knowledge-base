@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Astral Express Game Disk |
-| 用途 | 配方 |
-| 评级 | ★★★ |
-| 类型 | Usable / 配方 |
+| Item Name | Recipe: Astral Express Game Disk |
+| Use | Formula |
+| Rarity | ★★★ |
+| Type | Usable / 配方 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 2025《崩坏：星穹铁道》开拓者版本PS5®光碟礼盒 -「联动游戏礼包」兑换码

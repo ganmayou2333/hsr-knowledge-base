@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Arlan |
-| 命途 | Destruction |
-| 属性 | Lightning |
-| 稀有度 | ★★★★ |
-| 阵营 | 空间站「黑塔」 |
-| 角色介绍 | 空间站「黑塔」的防卫科负责人。不善言辞，希望保护珍视研究的人们顺利完成他们的研究。 |
-| 定位 | 通过降低自身生命值来获得伤害提高的输出角色 |
+| Character Name | Arlan |
+| Path | Destruction |
+| Attribute | Lightning |
+| Rarity | ★★★★ |
+| Faction | 空间站「黑塔」 |
+| Introduction | 空间站「黑塔」的防卫科负责人。不善言辞，希望保护珍视研究的人们顺利完成他们的研究。 |
+| Role | 通过降低自身生命值来获得伤害提高的输出角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 白石涼子 |
-| 英语 | Dani Chambers |
-| 中文 | 陶典 |
-| 韩语 | 김율 |
+| Japanese | 白石涼子 |
+| English | Dani Chambers |
+| Chinese | 陶典 |
+| Korean | 김율 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,200 |
-| 基础攻击力 | 600 |
-| 基础防御力 | 331 |
-| 基础速度 | 102 |
-| 嘲讽 | 125 |
-| 能量上限 | 110 |
+| Base HP | 1,200 |
+| Base ATK | 600 |
+| Base DEF | 331 |
+| Base SPD | 102 |
+| Taunt | 125 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/往日之影的雷冠\|往日之影的雷冠]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的雷冠\|Lightning Crown of the Past Shadow]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 8 |
-| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 42 |
-| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|Shattered Blade]] | 8 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|Lifeless Blade]] | 42 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|Worldbreaker Blade]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 20 |
 
 ---
-## 战技
-### 普攻：Lightning Rush
+## Skills
+### Basic ATK：Lightning Rush
 - **类型**：Basic ATK
 - **简述**：Deals minor Lightning DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Lightning DMG equal to 140% of Arlan's ATK to one designated enemy.
 
-### 战技：Shackle Breaker
+### Skill：Shackle Breaker
 - **类型**：Skill
 - **简述**：Consumes a portion of HP to deal Lightning DMG to one enemy.
 - **最大等级**：15
 - **效果模板**：Consumes Arlan's HP equal to #1[i]% of his Max HP to deal Lightning DMG equal to #2[i]% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 15% | 120% |
   | Lv.2 | 15% | 132% |
@@ -128,14 +128,14 @@
 
 - **满级效果**：Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 300% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
 
-### 终结技：Frenzied Punishment
+### Ultimate：Frenzied Punishment
 - **类型**：Ultimate
 - **简述**：Deals massive Lightning DMG to one enemy and Lightning DMG to enemies adjacent to it.
 - **最大等级**：15
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy and Lightning DMG equal to #2[i]% of Arlan's ATK to enemies adjacent to it.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 192% | 96% |
   | Lv.2 | 204.8% | 102.4% |
@@ -159,14 +159,14 @@
 
 - **满级效果**：Deals Lightning DMG equal to 384% of Arlan's ATK to one designated enemy and Lightning DMG equal to 192% of Arlan's ATK to enemies adjacent to it.
 
-### 天赋：Pain and Anger
+### Talent：Pain and Anger
 - **类型**：Talent
 - **简述**：Gain DMG bonus based on currently missing HP percentage.
 - **最大等级**：15
 - **效果模板**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of #1[i]% DMG dealt by Arlan.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 36% |
   | Lv.2 | 39.6% |
@@ -189,14 +189,14 @@
 
 - **满级效果**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of 90% DMG dealt by Arlan.
 
-### 秘技：Swift Harvest
+### Technique：Swift Harvest
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #1[i]% of Arlan's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
 
@@ -205,27 +205,27 @@
 
 - **满级效果**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 苏生 | 晋阶2 | 消灭敌方目标时，若当前生命值百分比小于等于#1[i]%，则立即回复等同于自身生命上限#2[i]%的生命值。 | 消灭敌方目标时，若当前生命值百分比小于等于30%，则立即回复等同于自身生命上限20%的生命值。 | 信用点×4000、破碎残刃×2、毁灭者的末路×1 |
 | 附加能力2 | 坚忍 | 晋阶4 | 抵抗持续伤害类负面状态的概率提高#1[i]%。 | 抵抗持续伤害类负面状态的概率提高50%。 | 信用点×16000、无生残刃×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 抗御 | 晋阶6 | 进入战斗时，若当前生命值百分比小于等于#1[i]%，阿兰可以抵抗除持续伤害外的所有伤害。当阿兰受到攻击后，该效果解除。 | 进入战斗时，若当前生命值百分比小于等于50%，阿兰可以抵抗除持续伤害外的所有伤害。当阿兰受到攻击后，该效果解除。 | 信用点×128000、净世残刃×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 28% |
+| HP | 10% |
+| ATK | 28% |
 | 效果抵抗 | 18% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | To the Bitter End | When HP percentage is lower than or equal to 50% of Max HP, increases DMG dealt by Skill by 10%. |
 | E2 | Breaking Free | Using Skill or Ultimate removes 1 debuff from this unit. |
@@ -236,84 +236,84 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 雷属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|激奏雷电的乐队]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|Band of Sizzling Thunder]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/星体差分机\|星体差分机]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/星体差分机\|Celestial Differentiator]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|比阳光更明亮的]]
+### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|Brighter Than the Sun]]
 
 - **基础属性**：生1058 攻635 防396
 - **推荐度**：★★★★★
 - **技能名**：抵死
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】最多叠加2层。
 
-### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|到不了的彼岸]]
+### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|The Unreachable Side]]
 
 - **基础属性**：生1270 攻582 防330
 - **推荐度**：★★★★★
 - **技能名**：不得
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】，生命上限提高【18%/21%/24%/27%/30%】。当装备者受到攻击或装备者消耗自身生命值后,造成的伤害提高【24%/28%/32%/36%/40%】，该效果在装备者施放攻击后解除。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/秘密誓心.md|秘密誓心]]
+### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★★
 - **技能名**：竭力而为
 - **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比高于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 辅助 | 生存 |
 |---|---|
 | 主c | [[zh_cn/character/毁灭/阿兰_雷_四星.md\|阿兰]] |
 | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
-| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|娜塔莎]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
+| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 不善言辞的空间站「黑塔」防卫科负责人。
 虽然不懂科研，但为了保护珍视研究的空间站科员顺利完成他们的研究，阿兰可以拼上性命。他早已习惯疼痛，并将负伤视作勋章。
 也只有抱着佩佩时，男孩才会放下戒备，露出难得一见的笑容。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 如何评价阿兰在防卫科的工作？
 ——大哥，是指引防卫科前进的明灯，是支撑大家战斗的核心！若无大哥一日，则空间站哀鸿遍野；若无大哥十日，则空间站民不聊生；若无大哥百日，则空间站宛如炼狱！
@@ -328,7 +328,7 @@
 「啊？有紧急任务吗？我跟你一起去，发生啥了？」
 「带佩佩去做复健训练，玩电子飞盘。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 在艾丝妲小姐家中，怪异且贵重的东西数不胜数，一条奄奄一息的小狗反而有些惹人注目。
 
@@ -344,7 +344,7 @@
 
 无神的眼睛亮了起来。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 他在走廊停下脚步，望向窗外，宇宙寂静，映着他的黑眼圈。
 
@@ -362,7 +362,7 @@
 
 也只在刹那。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「所有人都撤离了，阿兰，赶快撤退！」
 「可能还有幸存的科员。」

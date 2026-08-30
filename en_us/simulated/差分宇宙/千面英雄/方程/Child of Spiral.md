@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Child of Spiral |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*2巡猎*2 |
+| Name | Child of Spiral |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*2巡猎*2 |
 
 
-## 效果
+## Effect
 
 我方目标【罐中脑】达到100%时，攻击力提高80%，施放攻击后，对攻击目标中生命值最高的敌方目标造成等同于攻击力80%的附加伤害，持续3回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

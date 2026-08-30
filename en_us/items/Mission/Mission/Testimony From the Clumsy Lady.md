@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Testimony From the Clumsy Lady |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Testimony From the Clumsy Lady |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 檀檀记录下的事发现场证言。从目击者凌乱的叙述中获取有用的信息，并不是一件简单的工作。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【解雇】

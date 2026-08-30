@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Cognition Chasm: Researchers' Disappearance |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Cognition Chasm: Researchers' Disappearance |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 “袭击过后，科员中就一直有人对空间站的管理和安保抱有质疑。“
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【庸人自扰】

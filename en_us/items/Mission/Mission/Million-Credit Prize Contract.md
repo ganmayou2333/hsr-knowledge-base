@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Million-Credit Prize" Contract |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | "Million-Credit Prize" Contract |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 调查【二相乐园-绘世学院】学院内右侧走廊的猫猫头收银机

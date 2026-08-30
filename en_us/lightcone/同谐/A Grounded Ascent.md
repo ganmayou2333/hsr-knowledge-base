@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | A Grounded Ascent |
-| 命途 | Harmony |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | A Grounded Ascent |
+| Path | Harmony |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Those delusions and fallacies have been shattered. He wanted to be the sun of the whole world, yet he fell from the sky.
 "Now, do you feel what pain is?"
@@ -27,18 +27,18 @@ He stepped over the thorns that blocked the road and listened to the calls of hu
 "Falling was originally just another name for flying."
 And on this eighth day, he granted himself "departure."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 476 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Departing Anew
 
 After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates #1[f1] Energy and the ability's target receives 1 stack of "Hymn" for 3 turn(s), stacking up to 3 time(s). Each stack of "Hymn" increases its holder's DMG dealt by 15%. After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

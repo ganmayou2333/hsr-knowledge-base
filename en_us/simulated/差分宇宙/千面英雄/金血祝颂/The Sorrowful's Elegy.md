@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Sorrowful's Elegy |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | The Sorrowful's Elegy |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 处于白昼时，【绝唱】每次造成伤害，其伤害都会提高原倍率的5%，单个昼夜内最多叠加200%，昼夜切换后重置。
 
-## 强化效果
+## Enhanced Effect
 
 -

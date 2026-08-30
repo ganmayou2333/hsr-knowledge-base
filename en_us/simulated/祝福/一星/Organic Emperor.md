@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Organic Emperor |
-| 类型 | 祝福 |
-| 命途 | 繁育&智识 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Organic Emperor |
+| Type | Blessing |
+| Path | 繁育&智识 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标每消耗1点战技点，暴击伤害提高2%，造成的战技和终结技伤害提高2%，最多叠加30层。
 
-## 强化效果
+## Enhanced Effect
 
 -

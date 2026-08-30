@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Mr. Huo's Confidential Merchandise |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Mr. Huo's Confidential Merchandise |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 霍三哥托你代为运送的「货物」，箱子裹得严严实实，完全看不出里面有什么东西。
 
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【商铺事件·霍三哥】

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Block Builder |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*4虚无*4 |
+| Name | Block Builder |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*4虚无*4 |
 
 
-## 效果
+## Effect
 
 角色施放攻击后，攻击目标每有1个负面效果，攻击力提高3%，最多叠加99层，回合结束时失去10层。
 
-## 强化效果
+## Enhanced Effect
 
 -

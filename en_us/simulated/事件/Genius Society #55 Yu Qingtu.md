@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Genius Society #55 Yu Qingtu |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_7.png` |
+| Name | Genius Society #55 Yu Qingtu |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_7.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 加入糖-轻轻搅拌… | 获得：粉红冲撞 |
 | 加入糖-轻轻搅拌…-顺着睡意昏沉睡去… | 失去50%宇宙碎片。 |
@@ -36,7 +36,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 112401 |  |
 | 412401 |  |

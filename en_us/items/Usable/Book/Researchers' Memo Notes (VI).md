@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Researchers' Memo Notes (VI) |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Researchers' Memo Notes (VI) |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 科员们的留言便条其六
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-主控舱段，地图左边楼梯下方的桌面上

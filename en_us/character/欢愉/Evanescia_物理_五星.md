@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Evanescia |
-| 命途 | Elation |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 二相乐园 |
-| 角色介绍 | 一季幻月满盈，一季人世更迭，神秘少女再度现身二相乐园！ 落英易散，她的停留也不过刹那。新时代的一切令她痴迷，绝不容许有人破坏—— 一把尺刀裁定正邪，可谁又能知，己身善恶几何？ |
-| 定位 | 快速积累【好活当赏】的输出型角色 |
+| Character Name | Evanescia |
+| Path | Elation |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 二相乐园 |
+| Introduction | 一季幻月满盈，一季人世更迭，神秘少女再度现身二相乐园！ 落英易散，她的停留也不过刹那。新时代的一切令她痴迷，绝不容许有人破坏—— 一把尺刀裁定正邪，可谁又能知，己身善恶几何？ |
+| Role | 快速积累【好活当赏】的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 佐仓绫音 |
-| 英语 | Nathalie Ferare |
-| 中文 | 溯浔 |
-| 韩语 | 문유정 |
+| Japanese | 佐仓绫音 |
+| English | Nathalie Ferare |
+| Chinese | 溯浔 |
+| Korean | 문유정 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 737 |
-| 基础防御力 | 461 |
-| 基础速度 | 104 |
-| 嘲讽 | 100 |
-| 能量上限 | 480 |
+| Base HP | 1,048 |
+| Base ATK | 737 |
+| Base DEF | 461 |
+| Base SPD | 104 |
+| Taunt | 100 |
+| Max Energy | 480 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/侵略凝块\|侵略凝块]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/侵略凝块\|Invasive Clot]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,740,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|《绒绒号》手绘分镜稿]] | 11 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|《绒绒号》连载纪念刊]] | 41 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|《绒绒号》典藏版合集]] | 80 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 26 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,740,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|The Fluffy Hand-drawn Storyboards]] | 11 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|The Fluffy Serialization Memorial Issue]] | 41 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|The Fluffy Collector's Edition]] | 80 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|Vanquished Flow's Reticence]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 26 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 22 |
 
 ---
-## 战技
-### 普攻：Syllabus: Pop Quiz
+## Skills
+### Basic ATK：Syllabus: Pop Quiz
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.
 
-### 战技：Discipline: Final Verdict
+### Skill：Discipline: Final Verdict
 - **类型**：Skill
 - **简述**：Deals massive Physical DMG to one enemy and Physical DMG to adjacent targets. Additionally gains Punchline.
 - **最大等级**：15
 - **效果模板**：Deals Physical DMG equal to #2[i]% of Evanescia's ATK to one designated enemy and Physical DMG equal to #3[i]% of Evanescia's ATK to adjacent targets. Additionally gains #4[i] Punchline.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 150% | 75% | 10 |
   | Lv.2 | 1 | 165% | 82.5% | 10 |
@@ -130,14 +130,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 187.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.
 
-### 终结技：Swordsong: Absolution Denied
+### Ultimate：Swordsong: Absolution Denied
 - **类型**：Ultimate
 - **简述**：Deals Physical DMG to all enemies. Then, deals Physical DMG to one random enemy, bouncing a total of 5 times.
 - **最大等级**：15
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to #3[i]% of Evanescia's ATK to one random enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 80% | 5 | 72% | 88 |
   | Lv.2 | 88% | 5 | 76.8% | 88 |
@@ -163,7 +163,7 @@
 
 - **满级效果**：Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.
 
-### 天赋：Youth: Halcyon Evermore
+### Talent：Youth: Halcyon Evermore
 - **类型**：Talent
 - **简述**：When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger". When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. After a certain amount of Energy is accumulated, "Master Fox" launches Follow-Up ATK, dealing minor Physical DMG to all enemies, and regenerates Energy for Evanescia. While Evanescia holds "Certified Banger," using Skill, Ultimate, or Master Fox's Follow-Up ATK can deal minor Physical Elation DMG to enemies.
 - **最大等级**：15
@@ -178,7 +178,7 @@ Master Fox's Follow-Up ATK deals #2[i]% Physical Elation DMG to all enemies.
 【狐狸老师】的追加攻击可对敌方全体造成#2[i]%的物理属性欢愉伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6(%) | 参数7 | 参数8(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6(%) | 参数7 | 参数8(%) |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 50% | 12.5% | 240 | 10 | 20% | 12% | 8% | 14% |
   | Lv.2 | 55% | 13.75% | 240 | 10 | 20% | 13.2% | 8.8% | 15.4% |
@@ -216,14 +216,14 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
 施放终结技可对敌方全体造成30%的物理属性欢愉伤害，并对终结技随机造成伤害的敌方目标造成35%的物理属性欢愉伤害，终结技造成欢愉伤害时至少计入等同于能量上限的【好活当赏】。
 【狐狸老师】的追加攻击可对敌方全体造成31.25%的物理属性欢愉伤害。
 
-### 秘技：Petalfall: Floral Reminiscence
+### Technique：Petalfall: Floral Reminiscence
 - **类型**：Technique
 - **简述**：Immediately attacks all enemies within a certain range. After entering combat, deals minor Physical DMG to all enemies and gains "Certified Banger".
 - **最大等级**：1
 - **效果模板**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 100% | 20 |
 
@@ -233,27 +233,27 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
 
 - **满级效果**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of "Certified Banger."
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 瞰众乐 | 晋阶2 | 绯英的暴击率提高#1[i]%，当场上敌方目标数量等于3或以上/2/1时，终结技的弹射次数增加#2[i]/#3[i]/#4[i]次。当欢愉技的参演编号小于绯英的队友获得【好活当赏】时，绯英会将其中的#5[i]%变成自身的【好活当赏】。 | 绯英的暴击率提高30%，当场上敌方目标数量等于3或以上/2/1时，终结技的弹射次数增加1/2/4次。当欢愉技的参演编号小于绯英的队友获得【好活当赏】时，绯英会将其中的50%变成自身的【好活当赏】。 | 信用点×5000、《绒绒号》手绘分镜稿×2、灭流绝溢的缄默×1 |
 | 附加能力2 | 行裁断 | 晋阶4 | 【狐狸老师】施放攻击时会额外对目标施加易伤，使其受到的伤害提高#1[i]%，持续#2[i]回合。 | 【狐狸老师】施放攻击时会额外对目标施加易伤，使其受到的伤害提高12%，持续3回合。 | 信用点×20000、《绒绒号》连载纪念刊×4、命运的足迹×1、灭流绝溢的缄默×1 |
 | 附加能力3 | 开不败 | 晋阶6 | 队友持有的【好活当赏】结束时，绯英会将其中的#1[i]%转化为自身的【好活当赏】。 | 队友持有的【好活当赏】结束时，绯英会将其中的50%转化为自身的【好活当赏】。 | 信用点×140000、《绒绒号》典藏版合集×8、命运的足迹×1、灭流绝溢的缄默×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 暴击率 | 18.7% |
 | 欢愉度 | 18% |
-| 速度 | 5 |
+| SPD | 5 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Home: A Prayer in Dance | Increases All-Type RES PEN by 20%. After "Master Fox" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 "Certified Banger" point(s). |
 | E2 | Voyage: A Wish for Everbloom | CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace "Watch All Revels"/"Best All Blooms", additionally gains "Certified Banger" equal to 50%/100% of the "Certified Banger" gained this time. |
@@ -264,70 +264,70 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 攻击力 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 速度 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|闪耀功勋的魔法少女]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
-| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|恶海逐波的船长]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|Ever-Glorious Magical Girl]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
+| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|Wavestrider Captain]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|零号关卡朋克洛德]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|Punklorde Stage Zero]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/欢愉/邂逅于下一个花季.md|邂逅于下一个花季]]
+### [[zh_cn/lightcone/欢愉/邂逅于下一个花季.md|Until the Flowers Bloom Again]]
 
 - **基础属性**：生952 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：遐想
 - **效果**：使装备者的暴击伤害提高【60%/75%/90%/105%/120%】，能量恢复效率提高【10%/11.5%/13%/14.5%/16%】。 装备者的能量上限大于120时，每超出10点能量上限额外使能量恢复效率提高0.3%，最多计入360点超出的能量上限。装备者施放欢愉技时，使敌方全体受到的伤害提高【15%/18.8%/22.5%/26.3%/30%】，持续2回合，同类效果无法叠加。
 
-### [[zh_cn/lightcone/欢愉/今日好手气.md|今日好手气]]
+### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
 
 - **基础属性**：生952 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：抉择
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
 
-### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|未来，有我们一起]]
+### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：同行
 - **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/欢愉/绯英_物理_五星.md\|绯英]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|爻光]] | [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] |
-| [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
+| [[zh_cn/character/欢愉/绯英_物理_五星.md\|Evanescia]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|Yao Guang]] | [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] |
+| [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
-| [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|丹恒•腾荒]] |  |
+| [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|Dan Heng • Permansor Terrae]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 一季幻月满盈，一季人世更迭，神秘少女再度现身二相乐园！
 落英易散，她的停留也不过刹那。新时代的一切令她痴迷，绝不容许有人破坏——
 一把尺刀裁定正邪，可谁又能知，己身善恶几何？
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 最初，秘庭中的古树只是在独自聆听。
  
@@ -354,7 +354,7 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
 在下一个瞬间，一大一小的两只手掌轻柔地贴合在一起。
 而名为「绯英」的少女，也在月色下走向了人间。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「晨起所见，皆非旧时风物。有圆滚金黄之物，名曰蛋挞，更有奇物，名掌机，人影晃动，声自屏出，如见海市蜃楼，乐之乐之，一刻不玩，甚是想念。幻月之仪礼毕甚早，竟恋恋不忍……」
  
@@ -378,7 +378,7 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
 但她触碰到的喜怒哀惧，又何曾随风而逝？
 在她还未知觉的时刻，她也被自己所感受的一切塑造着。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 倒数60秒，距离文字的完全消失还有一分钟。
 当这一场幻月游戏的胜者宣布这项神迹的时候，大多数人以为不过是又一场大型过家家。
@@ -409,7 +409,7 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
  
 一分钟后，幻月游戏复归正途。但世界染上枯萎的黄意，大地开绽，山川崩碎，少女目露悲伤，自天坠落。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 幻月沉暗朦胧，她再度沉入梦的怀抱。
 在那些漫无止尽的梦中，陌生而熟悉的碎片时常泛起，沉淀。

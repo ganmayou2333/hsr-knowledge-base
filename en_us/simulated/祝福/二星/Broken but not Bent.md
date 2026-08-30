@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Broken but not Bent |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Broken but not Bent |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616443 | When an ally target has 4 stacks or higher of "Critical Boost," decreases all ally target's DMG taken by 16%. |
 | 617443 | After an ally target launches a Follow-Up ATK, additionally inflicts 2 stack(s) of "Reverse Critical Boost" on a random attack target. |

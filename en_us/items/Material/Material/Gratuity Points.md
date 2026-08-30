@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Gratuity Points |
-| 用途 | 活动货币 |
-| 评级 | ★★★★ |
-| 类型 | Material / 普通材料 |
+| Item Name | Gratuity Points |
+| Use | 活动货币 |
+| Rarity | ★★★★ |
+| Type | Material / 普通材料 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['通过完成罗浮杂俎的调查委托获得', '通过完成降妖辑录中挑战获得', '通过回复罗浮杂俎中帖子或评论获得']

@@ -7,25 +7,25 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Rubert Empire Mechanical Cogwheel |
-| 类型 | 奇物（同名合并） |
-| 星级 | 1星 |
+| Name | Rubert Empire Mechanical Cogwheel |
+| Type | 奇物（同名合并） |
+| Rarity | 1星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 3 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 112 | Obtains 50 Cosmic Fragments each time you enter a Domain. If the Cosmic Fragment total exceeds 500, then the Curio will be destroyed and all Cosmic Fragments will be lost. |
 | 1112 | Obtains 50 Cosmic Fragments each time you enter a Domain. If the Cosmic Fragment total exceeds 500, then the Curio will be destroyed and all Cosmic Fragments will be lost. |
 | 3112 | Obtains 50 Cosmic Fragments each time you enter a Domain. If the Cosmic Fragment total exceeds 500, then the Curio will be destroyed and all Cosmic Fragments will be lost. |
 
-## 背景故事
+## Story
 
 #鲁珀特二世自称继承了天才俱乐部#27帝皇鲁珀特的记忆，并展开席卷寰宇的第二次反有机帝皇战争，战争期间生灵涂炭。在第二次反有机帝皇战争结束后，星际和平公司曾花费天价信用点，多次对#鲁珀特二世遗体进行鉴定，却最终得出骇人的结论：#鲁珀特二世为血肉之躯。

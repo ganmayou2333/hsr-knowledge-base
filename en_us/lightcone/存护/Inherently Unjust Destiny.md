@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Inherently Unjust Destiny |
-| 命途 | Preservation |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Inherently Unjust Destiny |
+| Path | Preservation |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 With the final card revealed, despondency, rage, acceptance, and sangfroid... A cascade of emotions drops onto the faces of his opponents.
 "Now that we're all here, why don't we spice things up a bit?"
@@ -25,18 +25,18 @@ After all, hell is but one choice away from heaven.
 The chips are cast, sorrow fills the air, and the illusory sense of satisfaction dissipates in an instant when the dust finally settles.
 "All or nothing, I have not the luxury of choice..."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 423 | 662 |
 
-## 叠影效果
+## Superimposition
 
 ### All-In
 
 Increases the wearer's DEF by 40%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40%, lasting for 2 turn(s). When the wearer's Follow-Up ATK hits an enemy target, there is a 1 base chance to increase the DMG taken by the attacked enemy target by #5[f1]%, lasting for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

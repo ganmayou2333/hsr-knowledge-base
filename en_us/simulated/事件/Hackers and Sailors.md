@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Hackers and Sailors |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_28.png` |
+| Name | Hackers and Sailors |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_28.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 捞取更多深层数据 | 90%/70%/50%概率使奖励翻倍，10%/30%/50%概率清空奖励 |
 | 清空奖励 | 清空奖励：获得50宇宙碎片 |
@@ -28,6 +28,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 424701 |  |

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resleeved (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Resleeved (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：苍白的天花板，红色的玫瑰，哭泣的家人，奇怪的来访者。你不知道这些人是谁，他们突然出现在行将就木者的病榻前，你的家人们握着你的手抽噎：你有救了，你有救了。你的心脏依然在蒸腾着已为数不多的血液。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 死亡的命运不可遏挡。 | — |
 | 生存的渴望依然腾烧。 | — |
@@ -47,6 +47,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 184 |  |

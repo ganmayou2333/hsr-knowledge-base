@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Madness Malady |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Madness Malady |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 我方目标受到伤害或消耗生命值时，若当前生命值百分比小于40%，消耗队伍中【执念】层数最高的目标5层【执念】，回复等同于自身生命上限25%的生命值，并使造成的伤害提高150%，持续2回合。该效果每回合最多触发1次。

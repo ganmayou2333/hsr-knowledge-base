@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Abnormal images from surveillance records |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Abnormal images from surveillance records |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 安保机器人提供的监控画面，记录了近期接触门禁系统的可疑身影。
 
-## 获得途径
+## Acquisition
 
 - 1.6活动冒险任务【开局一人一狗•其三】

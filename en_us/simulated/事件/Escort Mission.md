@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Escort Mission |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_34.png` |
+| Name | Escort Mission |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_34.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 去农田运输粮食。 | 获得100宇宙碎片和2个随机1-3星奇物 |
 | 去港口运输材料。 | 获得3个随机1-3星祝福 |
@@ -30,6 +30,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 626801 |  |

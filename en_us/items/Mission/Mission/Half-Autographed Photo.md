@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Half-Autographed Photo |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Half-Autographed Photo |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 …
 
-## 获得途径
+## Acquisition
 
 - 完成冒险任务【银河之星】后，前往匹诺康尼-黄金的时刻的折纸小鸟的聚集地附近，与皮皮西粉丝对话并调查地上光点获得

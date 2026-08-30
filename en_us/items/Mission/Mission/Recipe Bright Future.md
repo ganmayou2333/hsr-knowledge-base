@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Bright Future |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Recipe: Bright Future |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 「将来我们会有一套真正的房子。」手捧咖啡的妻子说，「它有能种花的院子，能跳舞的大厅，还有能看星星的透明阁楼——最好再有条小狗，可以搂着睡觉。那会是真正幸福的生活。」
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【鸽群中的猫-外邦为何争闹？】

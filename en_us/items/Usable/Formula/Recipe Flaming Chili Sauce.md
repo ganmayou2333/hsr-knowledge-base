@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Flaming Chili Sauce |
-| 用途 | 配方 |
-| 评级 | ★★★ |
-| 类型 | Usable / 配方 |
+| Item Name | Recipe: Flaming Chili Sauce |
+| Use | Formula |
+| Rarity | ★★★ |
+| Type | Usable / 配方 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 2025 星穹铁道 x 肯德基联动 -「联动游戏礼包」兑换码

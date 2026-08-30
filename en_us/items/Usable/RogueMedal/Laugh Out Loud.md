@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Laugh Out Loud |
-| 用途 | 模拟宇宙勋章 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 模拟宇宙勋章 |
+| Item Name | Laugh Out Loud |
+| Use | 模拟宇宙勋章 |
+| Rarity | ★★★★ |
+| Type | Usable / 模拟宇宙勋章 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 模拟宇宙成就获得

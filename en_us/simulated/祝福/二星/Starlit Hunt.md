@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Starlit Hunt |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Starlit Hunt |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色消灭敌方目标后，恢复等同于自身能量上限60%的能量。
 
-## 强化效果
+## Enhanced Effect
 
 角色消灭敌方目标后，恢复等同于自身能量上限100%的能量。

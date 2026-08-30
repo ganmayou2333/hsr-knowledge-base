@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Inferior Protective Gear |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Inferior Protective Gear |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即使我方全体消耗等同于各自生命上限15%的生命值，并在下次战斗中防御力提高15%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」

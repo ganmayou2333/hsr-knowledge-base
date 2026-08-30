@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Theater Puppet Maker |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Theater Puppet Maker |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 智识*6
 欢愉*4 |
 
 
-## 效果
+## Effect
 
 我方全体在非【超频】状态下累计施放6次终结技后，获得【超频】状态：施放终结技发动攻击后，对攻击目标造成3次等同于攻击者130%攻击力的【回味】伤害，施放终结技后退出该状态，当前队伍中的第一位角色激活终结技并将【罐中脑】充能至200%，且在施放4次终结技后才退出该状态。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | At Least We Gather for Now |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | At Least We Gather for Now |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方全体回复等同于各自能量上限30%的能量，我方全体在下次战斗中攻击力提高16%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「闭嘴」的吧台

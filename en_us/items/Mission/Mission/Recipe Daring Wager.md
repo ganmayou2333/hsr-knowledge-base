@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Daring Wager |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Recipe: Daring Wager |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 赌局仍在继续，双方各自摸到了第四轮。男人终于忍不住查看自己的暗牌——他的信心早已动摇。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【鸽群中的猫-外邦为何争闹？】

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Full Scan |
-| 类型 | 祝福 |
-| 命途 | 智识&欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Full Scan |
+| Type | Blessing |
+| Path | 智识&欢愉 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 【突触共鸣】状态下的敌方目标受到追加攻击时，会额外触发1次效果，此次触发不消耗【突触共鸣】的次数。
 
-## 强化效果
+## Enhanced Effect
 
 -

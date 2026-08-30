@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | {NICKNAME} |
-| 命途 | Harmony |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| 定位 | 能够使我方对弱点击破状态下的敌人额外造成多次超击破伤害的辅助型角色。终结技期间，我方削减的韧性值越高，超击破伤害越高。当敌方弱点被击破时，开拓者（同谐•虚数）立即恢复一定能量。 |
+| Character Name | {NICKNAME} |
+| Path | Harmony |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
+| Role | 能够使我方对弱点击破状态下的敌人额外造成多次超击破伤害的辅助型角色。终结技期间，我方削减的韧性值越高，超击破伤害越高。当敌方弱点被击破时，开拓者（同谐•虚数）立即恢复一定能量。 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 榎木淳弥/石川由依 |
-| 英语 | Caleb Yen/Rachael Chau |
-| 中文 | 秦且歌/陈婷婷 |
-| 韩语 | 김명준/김하루 |
+| Japanese | 榎木淳弥/石川由依 |
+| English | Caleb Yen/Rachael Chau |
+| Chinese | 秦且歌/陈婷婷 |
+| Korean | 김명준/김하루 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 446 |
-| 基础防御力 | 679 |
-| 基础速度 | 105 |
-| 嘲讽 | 100 |
-| 能量上限 | 140 |
+| Base HP | 1,087 |
+| Base ATK | 446 |
+| Base DEF | 679 |
+| Base SPD | 105 |
+| Taunt | 100 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|深邃的星外质]] | 28 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|Enigmatic Ectostella]] | 28 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/云际音符\|云际音符]] | 8 |
-| [[zh_cn/items/Material/TracePath/空际小节\|空际小节]] | 42 |
-| [[zh_cn/items/Material/TracePath/天外乐章\|天外乐章]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/云际音符\|Firmament Note]] | 8 |
+| [[zh_cn/items/Material/TracePath/空际小节\|Celestial Section]] | 42 |
+| [[zh_cn/items/Material/TracePath/天外乐章\|Heavenly Melody]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 20 |
 
 ---
-## 战技
-### 普攻：Swing Dance Etiquette
+## Skills
+### Basic ATK：Swing Dance Etiquette
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
 
-### 战技：Halftime to Make It Rain
+### Skill：Halftime to Make It Rain
 - **类型**：Skill
 - **简述**：Deals minor Imaginary DMG to single enemy targets with 5 Bounces in total.
 - **最大等级**：15
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a random enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 25% | 2 |
   | Lv.2 | 27.5% | 2 |
@@ -128,14 +128,14 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 62.5% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to 62.5% of the Trailblazer's ATK to a random enemy.
 
-### 终结技：All-Out Footlight Parade
+### Ultimate：All-Out Footlight Parade
 - **类型**：Ultimate
 - **简述**：Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deal Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.
 - **最大等级**：15
 - **效果模板**：Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) |
+| Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 3 | 1 | 15% |
   | Lv.2 | 3 | 1 | 16.5% |
@@ -160,14 +160,14 @@
 
 - **满级效果**：Grants all allies the Backup Dancer effect, lasting for 3 turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by 37.5%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
 
-### 天赋：Full-on Aerial Dance
+### Talent：Full-on Aerial Dance
 - **类型**：Talent
 - **简述**：The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.
 - **最大等级**：15
 - **效果模板**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 5 |
   | Lv.2 | 5.5 |
@@ -190,14 +190,14 @@
 
 - **满级效果**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
 
-### 秘技：Now! I'm the Band!
+### Technique：Now! I'm the Band!
 - **类型**：Technique
 - **简述**：At the start of the next battle, increases all allies' Break Effect.
 - **最大等级**：1
 - **效果模板**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by #1[i]%, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 30% | 2 |
 
@@ -207,17 +207,17 @@
 
 - **满级效果**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by 30%, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 卫我起舞 | 晋阶2 | 当场上敌方目标数量等于5或以上/4/3/2/1名时，【伴舞】效果触发的超击破伤害提高#1[i]%/#2[i]%/#3[i]%/#4[i]%/#5[i]%。 | 当场上敌方目标数量等于5或以上/4/3/2/1名时，【伴舞】效果触发的超击破伤害提高20%/30%/40%/50%/60%。 | 信用点×4000、云际音符×2、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 随波逐流 | 晋阶4 | 施放战技时，第一次伤害的削韧值额外提高#1[i]%。 | 施放战技时，第一次伤害的削韧值额外提高100%。 | 信用点×16000、空际小节×4、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 剧院之帽 | 晋阶6 | 我方目标造成弱点击破后额外使敌方目标行动延后#1[i]%。 | 我方目标造成弱点击破后额外使敌方目标行动延后30%。 | 信用点×128000、天外乐章×6、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 击破特攻 | 37.3% |
 | 效果抵抗 | 10% |
@@ -225,9 +225,9 @@
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Best Seat in the House | After using Skill for the first time, immediately recovers 1 Skill Point(s). |
 | E2 | Jailbreaking Rainbowwalk | When the battle starts, the Trailblazer's Energy Regeneration Rate increases by 25%, lasting for 3 turn(s). |
@@ -238,72 +238,72 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 防御力 / 击破特攻
 
 **推荐副词条**：击破特攻 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|机心戏梦的钟表匠]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|Watchmaker, Master of Dream Machinations]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|劫火莲灯铸炼宫]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|Forge of the Kalpagni Lantern]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/镜中故我.md|镜中故我]]
+### [[zh_cn/lightcone/同谐/镜中故我.md|Past Self in Mirror]]
 
 - **基础属性**：生1058 攻529 防529
 - **推荐度**：★★★★★
 - **技能名**：彻骨梅香
 - **效果**：使装备者击破特攻提高【60%/70%/80%/90%/100%】。装备者施放终结技后，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续3回合，并且若装备者击破特攻大于等于150%，则恢复1个战技点。 每个波次开始时，我方全体立即恢复【10.0/12.5/15.0/17.5/20.0】点能量，同类技能无法重复生效。
 
-### [[zh_cn/lightcone/同谐/记忆中的模样.md|记忆中的模样]]
+### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★★
 - **技能名**：老相片
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 超击破核心 | [[zh_cn/character/毁灭/流萤_火_五星.md\|流萤]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] |
-| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/智识/姬子_火_五星.md\|姬子]] |
-| [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] |  |  |
+| 超击破核心 | [[zh_cn/character/毁灭/流萤_火_五星.md\|Firefly]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] |
+| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/智识/姬子_火_五星.md\|Himeko]] |
+| [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 为了消除星核带来的危机，少年开拓者选择与星穹列车同行。
 
 ### 你的「故事」•一 完成开拓任务「旅途正在继续」后解锁

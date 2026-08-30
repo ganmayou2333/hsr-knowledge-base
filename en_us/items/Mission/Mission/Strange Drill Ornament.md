@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Strange Drill Ornament |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Strange Drill Ornament |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在残响回廊中捡到的一枚奇怪饰品，外观像一枚精致的钻头。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【旧城拾遗】

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lost Echo of the Shared Wish |
-| 用途 | 行迹材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Lost Echo of the Shared Wish |
+| Use | Trace Material |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 行迹高阶升级材料。
 
 
-## 获得途径
+## Acquisition
 
 - 历战余响：匹诺康尼大剧院

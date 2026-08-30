@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Undelivered Letter |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Undelivered Letter |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一封未能寄出的家书。作者似乎经历了某种试验性的「治疗」。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【行遏流云，身入魔阴】

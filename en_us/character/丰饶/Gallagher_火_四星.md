@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Gallagher |
-| 命途 | Abundance |
-| 属性 | Fire |
-| 稀有度 | ★★★★ |
-| 阵营 | 匹诺康尼 |
-| 角色介绍 | 匹诺康尼猎犬家系的治安官，对来访宾客以礼相待，但保有戒心。似乎有着诸多往事，却从不主动提及。 |
-| 定位 | 兼具进攻能力的回复型角色。其终结技可攻击全体敌方目标，并使其陷入【酩酊】状态，同时强化加拉赫下一次普攻。我方攻击陷入【酩酊】状态的敌方目标后，回复攻击者生命值。 |
+| Character Name | Gallagher |
+| Path | Abundance |
+| Attribute | Fire |
+| Rarity | ★★★★ |
+| Faction | 匹诺康尼 |
+| Introduction | 匹诺康尼猎犬家系的治安官，对来访宾客以礼相待，但保有戒心。似乎有着诸多往事，却从不主动提及。 |
+| Role | 兼具进攻能力的回复型角色。其终结技可攻击全体敌方目标，并使其陷入【酩酊】状态，同时强化加拉赫下一次普攻。我方攻击陷入【酩酊】状态的敌方目标后，回复攻击者生命值。 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 三上哲 |
-| 英语 | Erik Braa |
-| 中文 | 马语非 |
-| 韩语 | 박상훈 |
+| Japanese | 三上哲 |
+| English | Erik Braa |
+| Chinese | 马语非 |
+| Korean | 박상훈 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,305 |
-| 基础攻击力 | 529 |
-| 基础防御力 | 441 |
-| 基础速度 | 98 |
-| 嘲讽 | 100 |
-| 能量上限 | 110 |
+| Base HP | 1,305 |
+| Base ATK | 529 |
+| Base DEF | 441 |
+| Base SPD | 98 |
+| Taunt | 100 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/忿火之心\|忿火之心]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/忿火之心\|Raging Heart]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/异木种籽\|异木种籽]] | 8 |
-| [[zh_cn/items/Material/TracePath/滋长花蜜\|滋长花蜜]] | 42 |
-| [[zh_cn/items/Material/TracePath/万相果实\|万相果实]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/异木种籽\|Alien Tree Seed]] | 8 |
+| [[zh_cn/items/Material/TracePath/滋长花蜜\|Nourishing Honey]] | 42 |
+| [[zh_cn/items/Material/TracePath/万相果实\|Myriad Fruit]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 20 |
 
 ---
-## 战技
-### 普攻：Corkage Fee
+## Skills
+### Basic ATK：Corkage Fee
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Gallagher's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Gallagher's ATK to one designated enemy target.
 
-### 战技：Special Brew
+### Skill：Special Brew
 - **类型**：Skill
 - **简述**：Immediately restores an ally's HP.
 - **最大等级**：15
 - **效果模板**：Immediately heals a target ally for #1[i] HP.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 200 |
   | Lv.2 | 340 |
@@ -127,14 +127,14 @@
 
 - **满级效果**：Immediately heals a target ally for 2020 HP.
 
-### 终结技：Champagne Etiquette
+### Ultimate：Champagne Etiquette
 - **类型**：Ultimate
 - **简述**：Inflicts Besotted on all enemies and deals Fire DMG to them at the same time. Enhances the next Basic ATK to Nectar Blitz.
 - **最大等级**：15
 - **效果模板**：Inflicts Besotted on all enemies, lasting for #2[i] turn(s). At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 75% | 2 |
   | Lv.2 | 82.5% | 2 |
@@ -158,14 +158,14 @@
 
 - **满级效果**：Inflicts Besotted on all enemies, lasting for 2 turn(s). At the same time, deals Fire DMG equal to 187.5% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
 
-### 天赋：Tipsy Tussle
+### Talent：Tipsy Tussle
 - **类型**：Talent
 - **简述**：The Besotted state makes targets receive more Break DMG. Every time the target gets attacked by an ally character, the attacker's HP is restored.
 - **最大等级**：15
 - **效果模板**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by #2[i].
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 6% | 80 |
   | Lv.2 | 6.6% | 136 |
@@ -189,14 +189,14 @@
 
 - **满级效果**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by 808.
 
-### 秘技：Artisan Elixir
+### Technique：Artisan Elixir
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, inflicts Besotted to all enemies and deals minor Fire DMG to all enemies.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for #1[i] turn(s). And deals Fire DMG equal to #2[i]% of Gallagher's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) |
+| Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 2 | 50% |
 
@@ -206,27 +206,27 @@
 
 - **满级效果**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turn(s). And deals Fire DMG equal to 50% of Gallagher's ATK to all enemies.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 崭新配方 | 晋阶2 | 使自身提供的治疗量提高，提高数值等同于击破特攻的#1[i]%，最多使提供的治疗量提高#2[i]%。 | 使自身提供的治疗量提高，提高数值等同于击破特攻的50%，最多使提供的治疗量提高75%。 | 信用点×4000、异木种籽×2、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 天然酵母 | 晋阶4 | 施放终结技后，立刻使自己行动提前100%。 | 施放终结技后，立刻使自己行动提前100%。 | 信用点×16000、滋长花蜜×4、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 敬请干杯 | 晋阶6 | 加拉赫施放【酒花奔涌】攻击陷入【酩酊】状态的目标时，使此次天赋提供的生命回复效果对我方队友也会生效。 | 加拉赫施放【酒花奔涌】攻击陷入【酩酊】状态的目标时，使此次天赋提供的生命回复效果对我方队友也会生效。 | 信用点×128000、万相果实×6、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
+| HP | 18% |
 | 击破特攻 | 13.3% |
 | 效果抵抗 | 28% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Salty Dog | When entering the battle, Gallagher regenerates 20 Energy and increases Effect RES by 50%. |
 | E2 | Lion's Tail | When using the Skill, dispels 1 debuff(s) from the designated ally. At the same time, increases their Effect RES by 30% for 2 turn(s). |
@@ -237,88 +237,88 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：治疗量加成 / 速度 / 生命值 / 击破特攻
 
 **推荐副词条**：速度 / 击破特攻 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|云无留迹的过客]] | 在战斗开始时，立即为我方恢复1个战技点。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|Passerby of Wandering Cloud]] | 在战斗开始时，立即为我方恢复1个战技点。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|劫火莲灯铸炼宫]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
+| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|Forge of the Kalpagni Lantern]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/丰饶/惊魂夜.md|惊魂夜]]
+### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：深度深呼吸
 - **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
 
-### [[zh_cn/lightcone/丰饶/一场术后对话.md|一场术后对话]]
+### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：互相治愈
 - **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/丰饶/何物为真.md|何物为真]]
+### [[zh_cn/lightcone/丰饶/何物为真.md|What Is Real]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：假设
 - **效果**：使装备者的击破特攻提高【24%/30%/36%/42%/48%】。施放普攻后，装备者回复等同于【2.0%/2.5%/3.0%/3.5%/4.0%】生命上限+800点的生命值。
 
-### [[zh_cn/lightcone/丰饶/此时恰好.md|此时恰好]]
+### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：折射的视线
 - **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/流萤_火_五星.md\|流萤]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] |
-| [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] |
-| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
+| [[zh_cn/character/毁灭/流萤_火_五星.md\|Firefly]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] |
+| [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] |
+| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |  |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 匹诺康尼猎犬家系的治安官，也是一位不修边幅、懒散随性的调饮师。着装颇为散漫，调饮更是随意，对来访宾客以礼相待，但保有戒心。似乎有着诸多往事，却从不主动提及。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「烟草、糖果、廉价洗发水——他闻起来就像一个典型的中年单身汉，衣服还算整洁，但总是皱巴巴的，没有品味，也懒得打理自己的外貌。他朋友不多，下了班最大的爱好就是来上几杯美梦特调，老地方，老口味，老招待，数十年未曾改变。  这样的人却能够赢得一帮猎犬家系成员的拥戴和尊敬，原因大概与他脸上的伤疤有关系。在几乎没有意外的美梦中，一道狰狞的伤疤对于治安官来说就是一份罕见的荣耀，亦是资历与名望的象征。  每次面对案情，他总是先剥一块糖扔到嘴里，嚼得差不多的时候，他皱着眉头开始调查，在深夜的酒馆苦苦思考线索指向的方向。但和那些毛头小子不一样，他似乎已经不再为了抓到嫌犯而高兴。面对着那些在美梦中堕落的所谓罪犯，我在他的眼里看不到丝毫的成就感，只有空洞和忧郁。  我能理解他，人到了这个年纪，就会开始怀疑自己之前所过的生活有什么意义。这点倒是和曾经的我一模一样。」  ——《手记•猎犬家系治安长官》
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「人和人总需要某种契机才能开始交流，美梦中的各种特调便是化学反应的催化剂。  我观察四周，很快就找到一个习惯左右逢源的形象。  借着美梦特调的名头，他从糖浆与苏乐达的历史讲起，向客人解释摇晃的时间与成品风味的关联，再后来，是特调的香气与一个人性格的适配程度，如何掌握搭配成分的秘诀…周遭的脸沉没在黑暗里，他倾听着或悲伤或喜悦的絮语，在觥筹交错中冷眼看着众人的心。  他等待客人一个个散去，独自将银色的酒杯擦得锃亮，望着门外。日复一日，他等待着一个永远也不会回来的人，等待那个人给他一个永远的谎言来终结如此漫长的命运。  灯光尽数熄灭，他独自行在街上，投下的影子很长很长——也许，我最后也会踏上与他一样的命定之路。」  ——《手记•美梦调饮师》
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「美梦中只有快乐，这恰恰是最大的悲哀。  这些美梦中的失意者们，害怕家族的驱赶，如同幽灵一般行在梦境的边缘，小心翼翼藏起自己的情绪，回避那些闻着酸涩且微苦的记忆，只有在饮下特调的片刻，他们的防线才会溃不成军，仿佛要把这辈子剩下的话说完——  『看不起我的人可以绕酒店三圈，但愿意正眼瞧我的人…哎，死一个就少一个了……』『每个人都在白日做梦。我像你这么大的时候，就想去当个星际大流氓。结果显而易见，喏——白日梦碎了。』『领带乱了自己又看不见。在匹诺康尼，没人会在乎别人穿了什么。他们甚至不在乎对方到底是不是「人」。』……  他们口是心非，他们词不达意，他们永远不会说出心中所想——但也只有这样，故事才显得真实。」  ——《手记•梦中的失意者》
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「工作时间，他是个经验丰富、处事不惊的治安官。辉煌之时已过，他手软了许多，雄心与壮志也随着白日梦的破碎消磨殆尽。下班后，他去往老酒馆消磨漫长的夜晚，为自己和老朋友亲手调上几杯饮料。酒杯相撞之际，那些话语如同泡沫一样翻涌开来，旋即幻灭。  他回忆着自己的黄金岁月，那时的他即便身受监禁依然向往自由。他们一起反抗欺压，将性命全数托付给伙伴。他们梦想着自由的领土，随时会死却仿佛将无数个美好的明天攥在手中。然而到底寡不敌众，熟悉之人一个个逝去，理想破灭，荒诞横行——  『那是你经历的事情吗？你…你是在开玩笑吧？』客人打断了他幽幽的自语。『当然了，怎么可能是真的嘛。』他笑笑，继续着手上的活。  ——加拉赫是我最真实的谎言。有时，我甚至分不清他与我之间的界限。」  ——《手记•加拉赫》

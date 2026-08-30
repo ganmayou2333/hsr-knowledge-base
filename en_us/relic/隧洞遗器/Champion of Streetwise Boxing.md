@@ -4,20 +4,20 @@
 > 实体ID：105
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/575/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Champion of Streetwise Boxing |
-| 类型 | 隧洞遗器 |
-| 实体ID | 105 |
-## 获取途径
+| Name | Champion of Streetwise Boxing |
+| Type | 隧洞遗器 |
+| Entity ID | 105 |
+## Acquisition
 迅拳之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Physical DMG by 10%.
 ### 4 件套
 After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s).
-## 部位
+## Pieces
 ### 手部：拳王的重炮拳套
 **描述**：保养得极好的拳击手套，细微的破损并不影响实际的使用。
 **来历**：

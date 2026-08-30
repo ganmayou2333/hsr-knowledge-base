@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Adventurous Moles: Hidden Treasure — "The Crates Are the Keys" |
-| 用途 | 任务道具 / 阅读物 |
-| 评级 | ★★★ / ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | The Adventurous Moles: Hidden Treasure — "The Crates Are the Keys" |
+| Use | 任务道具 / 阅读物 |
+| Rarity | ★★★ / ★ |
+| Type | Mission / 任务道具 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务「冒险鼹鼠队」获得

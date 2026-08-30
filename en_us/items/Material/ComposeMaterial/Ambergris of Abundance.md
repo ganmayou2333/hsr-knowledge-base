@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ambergris of Abundance |
-| 用途 | 合成素材 |
-| 评级 | ★★★ |
-| 类型 | Material / 合成素材 |
+| Item Name | Ambergris of Abundance |
+| Use | Synthesis Material |
+| Rarity | ★★★ |
+| Type | Material / 合成素材 |
 
 
-## 说明
+## Description
 
 3级合成材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 魔阴身士卒等敌方掉落【流云渡】

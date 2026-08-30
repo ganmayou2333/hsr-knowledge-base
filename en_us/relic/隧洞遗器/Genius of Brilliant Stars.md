@@ -4,20 +4,20 @@
 > 实体ID：108
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/568/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Genius of Brilliant Stars |
-| 类型 | 隧洞遗器 |
-| 实体ID | 108 |
-## 获取途径
+| Name | Genius of Brilliant Stars |
+| Type | 隧洞遗器 |
+| Entity ID | 108 |
+## Acquisition
 睿治之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Quantum DMG by 10%.
 ### 4 件套
 When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF.
-## 部位
+## Pieces
 ### 手部：天才的频变捕手
 **描述**：装有精密的频变捕捉器的手套，能够对客观的声光振动进行直观地操作。
 **来历**：

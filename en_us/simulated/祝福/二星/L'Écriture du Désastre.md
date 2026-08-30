@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | L'Écriture du Désastre |
-| 类型 | 祝福（同名合并） |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | L'Écriture du Désastre |
+| Type | Blessing (merged) |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616244 | "Murmur's" Charging Efficiency when gaining Charge increases by 20%. |
 | 617244 | "Murmur's" Charging Efficiency when gaining Charge increases by 20%. |

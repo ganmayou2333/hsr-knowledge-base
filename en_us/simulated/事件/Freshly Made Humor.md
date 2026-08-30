@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Freshly Made Humor |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_2.png` |
+| Name | Freshly Made Humor |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_2.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | *讲一个针对有机体的笑话。 | 花50宇宙碎片，将1个负面奇物替换为随机1-2星奇物 |
 | *讲一个压箱底的笑话。 | 花50宇宙碎片，获得3个随机信标，可能会出现负面信标 |
@@ -31,6 +31,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 728301 |  |

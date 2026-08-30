@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Adherent Microbial Mat |
-| 类型 | 祝福 |
-| 命途 | 繁育&存护 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Adherent Microbial Mat |
+| Type | Blessing |
+| Path | 繁育&存护 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，使指定我方单体获得能够抵挡等同于自身生命上限60%伤害的护盾，持续3回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

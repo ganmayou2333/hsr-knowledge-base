@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Self-Manifestation |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Self-Manifestation |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 处于弱点击破状态下的敌方目标，防御力降低15%。
 
-## 强化效果
+## Enhanced Effect
 
 处于弱点击破状态下的敌方目标，防御力降低20%。

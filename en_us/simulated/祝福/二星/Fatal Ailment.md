@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fatal Ailment |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Fatal Ailment |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标受到持续伤害后，造成的伤害降低5%，最多叠加4次，持续至回合结束时。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标受到持续伤害后，造成的伤害降低7%，最多叠加4次，持续至回合结束时。

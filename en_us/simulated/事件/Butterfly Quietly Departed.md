@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Butterfly Quietly Departed |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Butterfly Quietly Departed |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：你可听闻蝴蝶已悄然离去？只留下残破的羽翼。
 差分宇宙：唉，再谈谈「美」吧，纪念曾经屹立不倒的璀璨岁月。你去过帕福斯吗？以美为荣耀的城邦，就连高贵的墨涅塔，也曾在那儿败下阵来。
 差分宇宙：那少女的美貌非凡，眸子里仿佛藏着星光点点，就连拉冬的王子，都因目不转睛而跌入河里。愤怒的神明化为人形，在选美中夺去众人看见美的眼睛，而少女却掩嘴偷笑。
 差分宇宙：「墨涅塔在上，我本不如您的万分之一，可嫉妒偏偏夺走了您的美丽。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 神明恍然大悟。 | — |
 | 少女面带笑意。 | — |
@@ -58,6 +58,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 229 |  |

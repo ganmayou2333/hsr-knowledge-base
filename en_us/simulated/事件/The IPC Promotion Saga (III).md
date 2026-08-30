@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The IPC Promotion Saga (III) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Bond.png` |
+| Name | The IPC Promotion Saga (III) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Bond.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 回顾星际成功秘传… | 强化4个随机祝福。 |
 | 你渴望打败大人物！ | 进入特殊战斗，胜利后获得1个3星祝福。 |
@@ -47,7 +47,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 114203 |  |
 | 414203 |  |

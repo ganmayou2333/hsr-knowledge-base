@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Vanquished Flow's Reticence |
-| 用途 | 行迹材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Vanquished Flow's Reticence |
+| Use | Trace Material |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 行迹高阶升级材料。
 
 
-## 获得途径
+## Acquisition
 
 - 历战余响：翁法罗斯某区域

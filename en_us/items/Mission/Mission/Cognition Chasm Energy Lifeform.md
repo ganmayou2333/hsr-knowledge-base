@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Cognition Chasm: Energy Lifeform |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Cognition Chasm: Energy Lifeform |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 ”听说仙舟联盟也有类似的生物？“
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【庸人自扰】

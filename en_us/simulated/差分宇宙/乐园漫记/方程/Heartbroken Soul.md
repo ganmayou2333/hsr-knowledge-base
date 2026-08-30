@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Heartbroken Soul |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2欢愉+2同谐 |
+| Name | Heartbroken Soul |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2欢愉+2同谐 |
 
 
-## 效果
+## Effect
 
 我方目标欢愉伤害的弱点击破效率提高25%，击破敌方目标弱点后，使自身速度提高25%。
 
-## 强化效果
+## Enhanced Effect
 
 -

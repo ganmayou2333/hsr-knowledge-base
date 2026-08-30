@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Soundless Satisfaction |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Soundless Satisfaction |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中造成的普攻伤害提高45%，造成的战技伤害降低12%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 自动乐坊

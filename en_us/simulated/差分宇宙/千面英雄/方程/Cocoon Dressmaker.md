@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cocoon Dressmaker |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Cocoon Dressmaker |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 繁育*6
 同谐*4 |
 
 
-## 效果
+## Effect
 
 进入【蝶魄】状态时使敌方全体目标陷入【茧衣】状态：1回合内无法行动，回合开始时行动延后50%并受到5000%基础伤害的物理属性伤害。我方处于【蝶魄】状态下时，敌方目标每2个回合将再次陷入【茧衣】状态，并在首次被击破弱点后恢复4次【蝶魄】的攻击次数。
 
-## 强化效果
+## Enhanced Effect
 
 -

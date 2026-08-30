@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Riders Surge in Chaos |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Riders Surge in Chaos |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616442 | Increases the maximum stack of "Critical Boost" by 2. After being attacked, the "Critical Boost" lost will not exceed 4 stack(s). |
 | 617442 | At the start of an enemy target's turn, for each stack of "Reverse Critical Boost" they have, increases the DMG taken by them by 0.8%. This effect lasts until the start of their next turn. |

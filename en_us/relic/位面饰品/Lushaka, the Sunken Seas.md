@@ -4,20 +4,20 @@
 > 实体ID：317
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/3872/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Lushaka, the Sunken Seas |
-| 类型 | 位面饰品 |
-| 实体ID | 317 |
-## 获取途径
+| Name | Lushaka, the Sunken Seas |
+| Type | 位面饰品 |
+| Entity ID | 317 |
+## Acquisition
 蠹役饥肠·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's Energy Regeneration Rate by 5%. If the wearer is not the first character in the team lineup, then increases the ATK of the first character in the team lineup by 12%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：露莎卡的水朽苍都
 **描述**：位面封装的是海洋世界露莎卡一处被淹没的城市。海平线不断上升直到城市也被淹没，只有巨大的「船邦」载着船员们在海上前进，找寻下次远航的方向。
 **来历**：

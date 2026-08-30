@@ -6,17 +6,17 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | As Tomorrow Became Yesterday |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | As Tomorrow Became Yesterday |
+| Use | 贵重物品 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 记忆中的信
 
@@ -26,6 +26,6 @@
 
 
 
-## 获得途径
+## Acquisition
 
 - 来自过去的一封信

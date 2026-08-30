@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Insect Nest |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Normal.png` |
+| Name | Insect Nest |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Normal.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 保存一枚虫泡 | 获得2个1-2星祝福 |
 | 深入虫巢-拥抱它 | 获得奇物虫网，并获得1个3星祝福 |
@@ -33,7 +33,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 11101 |  |
 | 111101 |  |

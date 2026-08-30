@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Nodist School |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*2同协*2 |
+| Name | Nodist School |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*2同协*2 |
 
 
-## 效果
+## Effect
 
 我方角色施放终结技发动攻击时，造成的暴击伤害提高60%，且可无视弱点属性额外削减5点韧性值。
 
-## 强化效果
+## Enhanced Effect
 
 -

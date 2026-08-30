@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Brewer of Bitter Memories |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*4欢愉*2 |
+| Name | Brewer of Bitter Memories |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*4欢愉*2 |
 
 
-## 效果
+## Effect
 
 每层【执念】额外提高我方全体目标1.5%攻击力。角色施放攻击后，其忆灵下次攻击视为追加攻击。
 
-## 强化效果
+## Enhanced Effect
 
 -

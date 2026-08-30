@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Anti-Organic Virus (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Anti-Organic Virus (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 黑塔：「你是说，自己感染了反有机病毒，还被寂静领主杀掉了？」黑塔半信半疑地掰开你的眼皮，尝试判断，模拟宇宙内是否也能发烧说胡话。
 模拟宇宙：被「意外」制造出的反有机病毒，借由电磁波的载体，在完美进化学派的通讯网络中，跨越物种的隔阂迅速传播，仿佛是在响应鲁珀特三世降临的恐怖预言。
 模拟宇宙：数万名自认为是无机体梅尼科的学士占领了「权杖」，即刻对学会开战。以摧毁122台「权杖」的代价为前提，动乱终于得以平息。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 那感染者呢？ | — |
 | 这病不会有后遗症吧？ | — |
@@ -51,6 +51,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 210 |  |

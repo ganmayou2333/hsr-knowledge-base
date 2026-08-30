@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Architects: Annals of Fortification (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_06.png` |
+| Name | The Architects: Annals of Fortification (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_06.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：振翅声拱破筑城者的城墙，为二者的对局划下句点…一位「大脚怪」的妻子选择离开「筑城者」群体，并随着贡多拉一同远去。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 又见面了！ | 你对他已很熟悉。 |
 | 陪他一起等待。 | 可能要等很久。 |
@@ -41,6 +41,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 118601 |  |

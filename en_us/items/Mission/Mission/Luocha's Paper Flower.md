@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Luocha's Paper Flower |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Luocha's Paper Flower |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 信手折叠成的纸花。花叶栩栩如生，可以想见是怎样一双妙手赐予了它生机。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【异邦骑士】

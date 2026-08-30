@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Letter Sent Across the Stars |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Letter Sent Across the Stars |
+| Use | 贵重物品 |
+| Rarity | ★★★★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【「星间飞行号」，启程！】

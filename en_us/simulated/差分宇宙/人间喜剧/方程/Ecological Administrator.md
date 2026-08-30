@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ecological Administrator |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 存护*5丰饶*3 |
+| Name | Ecological Administrator |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 存护*5丰饶*3 |
 
 
-## 效果
+## Effect
 
 角色造成【反震】伤害时，每有1名角色的当前生命值等于生命上限，本次【反震】的伤害倍率提高原倍率的35%。
 
-## 强化效果
+## Enhanced Effect
 
 -

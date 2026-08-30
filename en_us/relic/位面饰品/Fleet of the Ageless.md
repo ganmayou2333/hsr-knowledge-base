@@ -4,20 +4,20 @@
 > 实体ID：302
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/587/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Fleet of the Ageless |
-| 类型 | 位面饰品 |
-| 实体ID | 302 |
-## 获取途径
+| Name | Fleet of the Ageless |
+| Type | 位面饰品 |
+| Entity ID | 302 |
+## Acquisition
 第三世界·模拟宇宙；坚城不倒·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：罗浮仙舟的建木枝蔓
 **描述**：曾经罗浮仙舟因建木生发，成为仙舟舰队之尊；后来罗浮仙舟因建木成祸，自食长寿恶果…建木枝蔓已经牢牢缠住罗浮命运，难以分离。
 **来历**：

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Delicious Bean Cake |
-| 用途 | 配方 |
-| 评级 | ★★ |
-| 类型 | Usable / 配方 |
+| Item Name | Recipe: Delicious Bean Cake |
+| Use | Formula |
+| Rarity | ★★ |
+| Type | Usable / 配方 |
 
 
-## 说明
+## Description
 
 一行简洁的等式，输入合成机中可以解锁新的配方。
 
-## 获得途径
+## Acquisition
 
 - 完成活动任务【异宠拾遗·团聚】后获得

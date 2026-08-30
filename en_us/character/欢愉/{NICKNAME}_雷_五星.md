@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | {NICKNAME} |
-| 命途 | Elation |
-| 属性 | Lightning |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| 定位 | 是一名能使队友立即施放欢愉技的辅助型角色 |
+| Character Name | {NICKNAME} |
+| Path | Elation |
+| Attribute | Lightning |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
+| Role | 是一名能使队友立即施放欢愉技的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 榎木淳弥/石川由依 |
-| 英语 | Caleb Yen/Rachael Chau |
-| 中文 | 秦且歌/陈婷婷 |
-| 韩语 | 김명준/김하루 |
+| Japanese | 榎木淳弥/石川由依 |
+| English | Caleb Yen/Rachael Chau |
+| Chinese | 秦且歌/陈婷婷 |
+| Korean | 김명준/김하루 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 466 |
-| 基础防御力 | 631 |
-| 基础速度 | 106 |
-| 嘲讽 | 100 |
-| 能量上限 | 160 |
+| Base HP | 1,087 |
+| Base ATK | 466 |
+| Base DEF | 631 |
+| Base SPD | 106 |
+| Taunt | 100 |
+| Max Energy | 160 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|深邃的星外质]] | 28 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|Enigmatic Ectostella]] | 28 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,392,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|《绒绒号》手绘分镜稿]] | 7 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|《绒绒号》连载纪念刊]] | 31 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|《绒绒号》典藏版合集]] | 61 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 17 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 29 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 16 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,392,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|The Fluffy Hand-drawn Storyboards]] | 7 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|The Fluffy Serialization Memorial Issue]] | 31 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|The Fluffy Collector's Edition]] | 61 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|Vanquished Flow's Reticence]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 17 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 29 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 16 |
 
 ---
-## 战技
-### 普攻：Make Some Noise
+## Skills
+### Basic ATK：Make Some Noise
 - **类型**：Basic ATK
 - **简述**：Deals minor Lightning DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Lightning DMG equal to 140% of Trailblazer's ATK to one designated enemy.
 
-### 战技：Let the Storm Rage On
+### Skill：Let the Storm Rage On
 - **类型**：Skill
 - **简述**：Deals minor Lightning DMG to all enemies and gains "Certified Banger."
 - **最大等级**：15
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of the Trailblazer's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 30% | 20 |
   | Lv.2 | 33% | 20 |
@@ -128,7 +128,7 @@
 
 - **满级效果**：Deals Lightning DMG equal to 75% of the Trailblazer's ATK to all enemies and gains 20 point(s) of "Certified Banger."
 
-### 终结技：May the Trailblaze Fly You Starward
+### Ultimate：May the Trailblaze Fly You Starward
 - **类型**：Ultimate
 - **简述**：Gains Punchline. Increases the CRIT DMG of one designated ally, and dispels Crowd Control debuffs on that target. If the target has Elation Skill, the target additionally gains "Certified Banger" and immediately uses their Elation Skill. Otherwise, their action advances.
 - **最大等级**：15
@@ -139,7 +139,7 @@ If the target does not have Elation Skill, their action advances by #3[i]%.
 若目标不拥有欢愉技，使其行动提前#3[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 30% | 3 | 50% | 10 | 20 | 5 |
   | Lv.2 | 32% | 3 | 50% | 10 | 20 | 5 |
@@ -171,7 +171,7 @@ If the target does not have Elation Skill, their action advances by 50%.
 若目标拥有欢愉技，目标额外获得10点【好活当赏】，并使其立即施放1次固定计入20笑点的欢愉技，若欢愉技施放前敌方目标被消灭则对新入场的敌方目标发动欢愉技。
 若目标不拥有欢愉技，使其行动提前50%。
 
-### 天赋：That Smile Hits Different
+### Talent：That Smile Hits Different
 - **类型**：Talent
 - **简述**：After using an attack, regenerates Energy and gains Punchline.
 When the Trailblazer holds "Certified Banger," their Skill additionally deals minor Lightning Elation DMG to all enemies.
@@ -182,7 +182,7 @@ When the Trailblazer holds "Certified Banger," their Skill additionally deals #3
 开拓者持有【好活当赏】时，战技对敌方全体额外造成#3[i]%的雷属性欢愉伤害，此伤害使用我方最高的【好活当赏】数值计算。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) |
+| Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 10 | 3 | 15% |
   | Lv.2 | 10 | 3 | 16.5% |
@@ -209,7 +209,7 @@ When the Trailblazer holds "Certified Banger," their Skill additionally deals #3
 When the Trailblazer holds "Certified Banger," their Skill additionally deals 37.5% Lightning Elation DMG to all enemies. This DMG is calculated using the highest "Certified Banger" value among all allies.
 开拓者持有【好活当赏】时，战技对敌方全体额外造成37.5%的雷属性欢愉伤害，此伤害使用我方最高的【好活当赏】数值计算。
 
-### 秘技：We Are So Back!
+### Technique：We Are So Back!
 - **类型**：Technique
 - **简述**：After using Technique, increases all allies' Elation when entering the next battle.
 - **最大等级**：1
@@ -222,7 +222,7 @@ When the next battle begins, increases all allies' Elation stat by the correspon
 下一次战斗开始时，使我方全体提高对应数值的欢愉度，持续#5[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 30% | 10% | 20% | 10% | 3 |
 
@@ -241,27 +241,27 @@ When the next battle begins, increases all allies' Elation stat by the correspon
 大概率获得【忍俊不禁】：欢愉度提高20%。
 下一次战斗开始时，使我方全体提高对应数值的欢愉度，持续3回合。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 快哉快哉 | 晋阶2 | 若开拓者的攻击力高于#1[i]点，每超过#2[i]点攻击力可使自身欢愉度提高#3[f1]%，最多提高#4[f1]%。 | 若开拓者的攻击力高于1000点，每超过200点攻击力可使自身欢愉度提高#3[f1]%，最多提高#4[f1]%。 | 信用点×4000、《绒绒号》手绘分镜稿×2、灭流绝溢的缄默×1 |
 | 附加能力2 | 跟你爆了 | 晋阶4 | 自身暴击率提高#1[i]%。施放终结技后，为我方恢复#2[i]个战技点。 | 自身暴击率提高15%。施放终结技后，为我方恢复1个战技点。 | 信用点×16000、《绒绒号》连载纪念刊×4、命运的足迹×1、灭流绝溢的缄默×1 |
 | 附加能力3 | 阿哈咬它！ | 晋阶6 | 我方目标施放欢愉技后，开拓者下一次施放战技时额外获得#1[i]点【好活当赏】。 | 我方目标施放欢愉技后，开拓者下一次施放战技时额外获得2点【好活当赏】。 | 信用点×112000、《绒绒号》典藏版合集×5、命运的足迹×1、灭流绝溢的缄默×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
+| ATK | 28% |
 | 暴击率 | 12% |
 | 暴击伤害 | 13.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Believe In the Light | After using Skill, the next Ultimate increases the amount of "Certified Banger" gained by ally targets by 2. This effect can stack up to 3 time(s). |
 | E2 | History in the Making... | Ultimate additionally increases the Elation of one designated ally by 12%, lasting for 2 turn(s). |
@@ -272,71 +272,71 @@ When the next battle begins, increases all allies' Elation stat by the correspon
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 攻击力 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 速度 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/应天涉远的卜者\|应天涉远的卜者]] | 进入战斗前，若装备者的速度大于等于120/160，使装备者的暴击率提高10%/18%。装备者每场战斗首次施放欢愉技时，使我方全体欢愉度提高10%，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|闪耀功勋的魔法少女]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/应天涉远的卜者\|Diviner of Distant Reach]] | 进入战斗前，若装备者的速度大于等于120/160，使装备者的暴击率提高10%/18%。装备者每场战斗首次施放欢愉技时，使我方全体欢愉度提高10%，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|Ever-Glorious Magical Girl]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|零号关卡朋克洛德]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|Punklorde Stage Zero]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/欢愉/当她决定看见.md|当她决定看见]]
+### [[zh_cn/lightcone/欢愉/当她决定看见.md|When She Decided to See]]
 
 - **基础属性**：生1058 攻529 防529
 - **推荐度**：★★★★★
 - **技能名**：破局
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者进入战斗或对我方目标施放终结技时，使装备者获得【上上签】，持续3回合。当装备者持有【上上签】时，我方全体暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【30%/37.5%/45%/52.5%/60%】，装备者自身能量恢复效率提高【12%/14%/16%/18%/20%】。 每个波次开始时，装备者固定恢复15点能量。
 
-### [[zh_cn/lightcone/欢愉/欢愉满溢祝福.md|欢愉满溢祝福]]
+### [[zh_cn/lightcone/欢愉/欢愉满溢祝福.md|Elation Brimming With Blessings]]
 
 - **基础属性**：生953 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：开场
 - **效果**：使装备者的攻击力提高【20%/25%/30%/35%/40%】。当装备者对我方单体角色施放战技或终结技后，使目标欢愉度提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|菇菇嘎嘎历险记]]
+### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
 
 - **基础属性**：生847 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：乱斗
 - **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
 
-### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|未来，有我们一起]]
+### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
 - **基础属性**：生953 攻476 防331
 - **推荐度**：★★★★
 - **技能名**：同行
 - **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] | [[zh_cn/character/欢愉/银狼LV.999_虚数_五星.md\|银狼LV.999]] | [[zh_cn/character/欢愉/火花_火_五星.md\|火花]] |
-| [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] | [[zh_cn/character/欢愉/火花_火_五星.md\|火花]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
+| [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] | [[zh_cn/character/欢愉/银狼LV.999_虚数_五星.md\|Silver Wolf LV.999]] | [[zh_cn/character/欢愉/火花_火_五星.md\|Sparxie]] |
+| [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] | [[zh_cn/character/欢愉/火花_火_五星.md\|Sparxie]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 登上星穹列车的少年。
 为了消除星核带来的危机，选择与星穹列车同行。
 

@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Rotting Fruit of the Alien Tree |
-| 类型 | 加权奇物 |
+| Name | Rotting Fruit of the Alien Tree |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

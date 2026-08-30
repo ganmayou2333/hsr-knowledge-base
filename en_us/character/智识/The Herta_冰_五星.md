@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | The Herta |
-| 命途 | Erudition |
-| 属性 | Ice |
-| 稀有度 | ★★★★★ |
-| 阵营 | 空间站「黑塔」 |
-| 角色介绍 | 尊贵的「天才俱乐部」#83，人类，女性，年轻，貌美，可爱。 传说她隐居在银河边境，几乎不踏出其间，想必此次现身—— 一定是为了某个不得不亲自出马的问题吧？ |
-| 定位 | 通过强化战技输出的对群输出型角色 |
+| Character Name | The Herta |
+| Path | Erudition |
+| Attribute | Ice |
+| Rarity | ★★★★★ |
+| Faction | 空间站「黑塔」 |
+| Introduction | 尊贵的「天才俱乐部」#83，人类，女性，年轻，貌美，可爱。 传说她隐居在银河边境，几乎不踏出其间，想必此次现身—— 一定是为了某个不得不亲自出马的问题吧？ |
+| Role | 通过强化战技输出的对群输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 山崎はるか |
-| 英语 | PJ Mattson |
-| 中文 | 侯小菲 |
-| 韩语 | 김서영 |
+| Japanese | 山崎はるか |
+| English | PJ Mattson |
+| Chinese | 侯小菲 |
+| Korean | 김서영 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,164 |
-| 基础攻击力 | 679 |
-| 基础防御力 | 485 |
-| 基础速度 | 99 |
-| 嘲讽 | 75 |
-| 能量上限 | 220 |
+| Base HP | 1,164 |
+| Base ATK | 679 |
+| Base DEF | 485 |
+| Base SPD | 99 |
+| Taunt | 75 |
+| Max Energy | 220 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/冷藏梦箱\|冷藏梦箱]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/冷藏梦箱\|Dream Fridge]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/凌乱草图\|凌乱草图]] | 12 |
-| [[zh_cn/items/Material/TracePath/动态线稿\|动态线稿]] | 53 |
-| [[zh_cn/items/Material/TracePath/精致色稿\|精致色稿]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/凌乱草图\|Rough Sketch]] | 12 |
+| [[zh_cn/items/Material/TracePath/动态线稿\|Dynamic Outlining]] | 53 |
+| [[zh_cn/items/Material/TracePath/精致色稿\|Exquisite Colored Draft]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 28 |
 
 ---
-## 战技
-### 普攻：Did You Get It
+## Skills
+### Basic ATK：Did You Get It
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 50% | 3 | 1 | 30% |
   | Lv.2 | 60% | 3 | 1 | 30% |
@@ -100,14 +100,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of The Herta's ATK to one designated enemy.
 
-### 战技：Big Brain Energy
+### Skill：Big Brain Energy
 - **类型**：Skill
 - **简述**：Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times.
 - **最大等级**：15
 - **效果模板**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy, and inflicts #2[i] stack(s) of "Interpretation." Deals Ice DMG equal to #1[i]% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 35% | 1 |
   | Lv.2 | 38.5% | 1 |
@@ -131,14 +131,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 87.5% of The Herta's ATK to one designated enemy, and inflicts 1 stack(s) of "Interpretation." Deals Ice DMG equal to 87.5% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
 
-### 终结技：Told Ya! Magic Happens
+### Ultimate：Told Ya! Magic Happens
 - **类型**：Ultimate
 - **简述**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG to all enemies. After use, enhances Skill and immediately takes action.
 - **最大等级**：15
 - **效果模板**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to #1[i]% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by #4[i]%, lasting for #5[i] turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to #6[i] time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 2 | 1 | 40% | 3 | 4 |
   | Lv.2 | 110% | 2 | 1 | 44% | 3 | 4 |
@@ -166,14 +166,14 @@
 
 - **满级效果**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to 250% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by 100%, lasting for 3 turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to 4 time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
 
-### 天赋：Hand Them Over
+### Talent：Hand Them Over
 - **类型**：Talent
 - **简述**：Enhanced Skill increases the DMG dealt based on the target's "Interpretation" stacks.
 - **最大等级**：15
 - **效果模板**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies #6[i] stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to #3[i] time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 4% | 2% | 42 | 1 | 42 | 25 |
   | Lv.2 | 4.4% | 2.2% | 42 | 1 | 42 | 25 |
@@ -201,7 +201,7 @@
 
 - **满级效果**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies 25 stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to 42 time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
 
-### 秘技：Vibe Checker
+### Technique：Vibe Checker
 - **类型**：Technique
 - **简述**：After using Technique, can mark several Basic Treasures' locations, and increases The Herta's ATK at the start of the next battle.
 After entering battle by using Technique in Simulated Universe or Divergent Universe, deals massive True DMG to all enemies at the start of each wave.
@@ -214,7 +214,7 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 在模拟宇宙、差分宇宙中使用秘技进入战斗后，每个波次开始时对精英级别以下的敌方目标造成等同于目标#4[i]%生命上限的真实伤害，对精英级别及以上的目标造成等同于目标#5[i]%生命上限的真实伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60% | 2 | 3 | 99% | 30% | 25 |
 
@@ -232,27 +232,27 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 若当前场景存在普通战利品，使用秘技后标记最多3个普通战利品的位置。
 在模拟宇宙、差分宇宙中使用秘技进入战斗后，每个波次开始时对精英级别以下的敌方目标造成等同于目标99%生命上限的真实伤害，对精英级别及以上的目标造成等同于目标30%生命上限的真实伤害。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 冷漠的诚实 | 晋阶2 | 我方目标攻击时，对被击中的敌方目标施加1层【解读】。攻击后，本次攻击每击中1个目标就使大黑塔固定恢复#1[i]点能量，最多计算5个目标。施放强化战技时，若主目标的【解读】层数达到42，使大黑塔造成的伤害提高#2[i]%，持续到本次攻击结束。 | 我方目标攻击时，对被击中的敌方目标施加1层【解读】。攻击后，本次攻击每击中1个目标就使大黑塔固定恢复3点能量，最多计算5个目标。施放强化战技时，若主目标的【解读】层数达到42，使大黑塔造成的伤害提高50%，持续到本次攻击结束。 | 信用点×5000、凌乱草图×3、吉光片羽×1 |
 | 附加能力2 | 视界外来信 | 晋阶4 | 进入战斗时，若队伍中的「智识」命途角色大于等于2名，使我方全体暴击伤害提高#1[i]%，行迹【冷漠的诚实】计算击中目标数时至少计算#2[i]个目标，攻击后对被击中的敌方目标中【解读】层数最高的目标施加#3[i]层【解读】，若攻击者为「智识」命途角色则额外施加#4[i]层【解读】。 | 进入战斗时，若队伍中的「智识」命途角色大于等于2名，使我方全体暴击伤害提高80%，行迹【冷漠的诚实】计算击中目标数时至少计算3个目标，攻击后对被击中的敌方目标中【解读】层数最高的目标施加1层【解读】，若攻击者为「智识」命途角色则额外施加2层【解读】。 | 信用点×20000、动态线稿×5、命运的足迹×1、吉光片羽×1 |
 | 附加能力3 | 饥饿的地景 | 晋阶6 | 敌方目标每被施加1层【解读】，大黑塔获得1层【谜底】，最多叠加#2[i]层。施放终结技时，每持有1层【谜底】，使本次终结技的伤害倍率提高#1[f1]%。 | 敌方目标每被施加1层【解读】，大黑塔获得1层【谜底】，最多叠加99层。施放终结技时，每持有1层【谜底】，使本次终结技的伤害倍率提高#1[f1]%。 | 信用点×160000、精致色稿×8、命运的足迹×1、吉光片羽×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
+| ATK | 18% |
 | 冰属性伤害提高 | 22.4% |
-| 速度 | 5 |
+| SPD | 5 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Night at Shorefall | When the Enhanced Skill calculates the number of "Interpretation" stacks, additionally counts 50% of the number of "Interpretation" stacks on the 1 target with the most stacks among the primary target and adjacent targets. When "Interpretation" is reset by using the Enhanced Skill, its stack number is reset to 15 instead. |
 | E2 | Wind Through Keyhole | After The Herta enters combat or uses Ultimate, additionally gains 1 "Inspiration" stack. After using Enhanced Skill, advances The Herta's next action by 35%. |
@@ -263,77 +263,77 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 冰属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/出云显世与高天神国\|出云显世与高天神国]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/出云显世与高天神国\|Izumo Gensei and Takama Divine Realm]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/向着不可追问处.md|向着不可追问处]]
+### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
 - **基础属性**：生953 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：思维游戏
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
 
-### [[zh_cn/lightcone/智识/不息的演算.md|不息的演算]]
+### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：无界之思
 - **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-### [[zh_cn/lightcone/智识/拂晓之前.md|拂晓之前]]
+### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★
 - **技能名**：长夜
 - **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后,获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 智识副C | [[zh_cn/character/智识/大黑塔_冰_五星.md\|大黑塔]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|翡翠]] |
-| [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/智识/希露瓦_雷_四星.md\|希露瓦]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |
+| 智识副C | [[zh_cn/character/智识/大黑塔_冰_五星.md\|The Herta]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|Jade]] |
+| [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/智识/希露瓦_雷_四星.md\|Serval]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 天才俱乐部#83黑塔本尊，深居银河边境的时钟塔内，探寻宇宙终极奥秘的「魔法使」。
 因返老还童，外貌永葆全盛时期的少女青春。厌恶闲人琐事，杂事通常交由人偶完成。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 【档案编号】███████
 【奇物名称】「天才的童年万华镜」
@@ -411,7 +411,7 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 留着这份奇物，不过是方便我重温欣赏儿时的美貌。你们这么想看，出事可怪不得我。姑且还是给你们点建议吧：给这两个倒霉蛋找点博识学会的书念念对冲一下，马上就会好起来的。
 大黑塔
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 纪念黑塔女士诞辰██周年研讨会
 会议记录•议题一：黑塔女士科学成就回顾
@@ -444,7 +444,7 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 她笑眯眯地将一块梅花糕点推至智械面前，打断了他的话。
 「看破不说破。吃你的吧。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 银河边境，寂寥无生命的星系中，一座神秘的高塔在漩涡中若隐若现。
 
@@ -482,7 +482,7 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 「您是说……」镜子心领神会。
 「不如，来创造更多的问题吧！」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 黑塔：模拟宇宙一直在模拟星神并向祂们发问，这一次不如让星神来问问我…最好把我问得哑口无言。
 黑塔：…得先把祂们引出来。

@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for Misfortune? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for Misfortune? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：我们来讲个故事吧，角色似真似假，叙述者也不可信任的古老寓言。
 差分宇宙：在很久很久以前，无常的神明在废墟上种下一朵花，升起月亮将彼时荒芜的土地照耀，在漫长的时间里，生命逐渐复苏，故事也随之生长。
 差分宇宙：这天，在花朵绽放、古树扎根的地方，八位相貌各异的客人不期而遇。后人说他们是悲悼伶人，当然，也可以由听故事的你来决定。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 可以是假面愚者。 | — |
 | 可以是无名客。 | — |
@@ -67,6 +67,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 263 |  |

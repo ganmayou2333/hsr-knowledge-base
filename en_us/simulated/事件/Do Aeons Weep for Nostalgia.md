@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for Nostalgia? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for Nostalgia? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：幻月还未爬升至中天，夜莺的啼鸣随着星辰盘旋。就在第五位伶人即将开口时，砂砾上雨点般的脚步声却打断了她。
 差分宇宙：女人背着沉重的行囊，一袭黑衣几乎同哈托彼亚的夜色融为一体。她自称是返乡的游子，却迷失了故乡的方向。
 差分宇宙：既然在此邂逅，便也是种缘分，众人邀请女人一同坐下，共享这无比漫长的一夜。
 差分宇宙：「入乡随俗，趁夜色尚早，不妨听听我这旅人的故事，就当换换口味。」女人微微发笑，让人感到没来由的亲切。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我最爱听故事了。 | — |
 | 真是神秘的乱入者。 | — |
@@ -66,6 +66,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 267 |  |

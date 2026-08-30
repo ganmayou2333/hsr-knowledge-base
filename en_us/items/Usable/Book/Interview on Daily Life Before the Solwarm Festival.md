@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Interview on Daily Life Before the Solwarm Festival |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Interview on Daily Life Before the Solwarm Festival |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 煦日节前的日常生活采访
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-Ⅵ-行政区的卖报人处购买

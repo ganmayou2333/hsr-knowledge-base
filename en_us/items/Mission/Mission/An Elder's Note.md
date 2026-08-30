@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | An Elder's Note |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | An Elder's Note |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 似乎是包含的密文与密钥的神秘纸条。
 
 
-## 获得途径
+## Acquisition
 
 - 在仙舟「罗浮」-幽囚狱的-1层地图最下方，与鬼鬼祟祟的机巧鸟对话后，前往1层使用换境画屏前往1层地图中央，调查地面闪光点获得

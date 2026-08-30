@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cosmic Bakery |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2智识+2毁灭 |
+| Name | Cosmic Bakery |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2智识+2毁灭 |
 
 
-## 效果
+## Effect
 
 我方目标造成的【耀变】伤害提高75%，施放终结技后，充能等同于生命上限35%的【耀变】。
 
-## 强化效果
+## Enhanced Effect
 
 -

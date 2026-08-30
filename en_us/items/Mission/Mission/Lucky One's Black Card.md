@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lucky One's Black Card |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Lucky One's Black Card |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 通过游玩「美梦排排乐」赢得的大奖——但没有人告诉你该怎么使用它。
 
 
-## 获得途径
+## Acquisition
 
 - 匹诺康尼-梦境-黄金的时刻-「美梦排排乐」赢得终极大奖

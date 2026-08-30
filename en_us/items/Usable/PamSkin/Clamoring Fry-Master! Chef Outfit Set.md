@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Clamoring Fry-Master! Chef Outfit Set |
-| 用途 | 帕姆皮肤 |
-| 评级 | ★★★★★ |
-| 类型 | Usable / 帕姆皮肤 |
+| Item Name | Clamoring Fry-Master! Chef Outfit Set |
+| Use | 帕姆皮肤 |
+| Rarity | ★★★★★ |
+| Type | Usable / 帕姆皮肤 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「宇宙家装指南」活动获得']

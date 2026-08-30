@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for Destiny? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for Destiny? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：智械的讲述终了，按理说下一个该轮到你了。可第一位伶人却突地举起手，耳边的羽翼因晚风而瑟缩。
 差分宇宙：「那个…不知各位有没有发现？我们并非真实的存在，而是——某个故事里虚构的角色，这里发生的一切，也只是一段似是而非的模拟。」
 差分宇宙：沉默吞没了哈托彼亚，仿佛连时间也因这惊人的发现冻结。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 天呐，竟然是这样！ | — |
 | 人工智能觉醒了！ | — |
@@ -68,6 +68,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 271 |  |

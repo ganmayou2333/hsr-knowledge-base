@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Silver Wolf LV.999 |
-| 命途 | Elation |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星核猎手 |
-| 角色介绍 | 新一轮欢愉赛季，无敌玩家「银狼LV.999」限时回归中！ 成为宇宙大赢家，银河通关全成就，接下来还要怎么玩？ 「走上『欢愉』巅峰？无聊到爆好嘛…既然卡带到手，就我说了算咯~」 |
-| 定位 | 可以变身【无敌玩家】施放强力技能的输出型角色 |
+| Character Name | Silver Wolf LV.999 |
+| Path | Elation |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 星核猎手 |
+| Introduction | 新一轮欢愉赛季，无敌玩家「银狼LV.999」限时回归中！ 成为宇宙大赢家，银河通关全成就，接下来还要怎么玩？ 「走上『欢愉』巅峰？无聊到爆好嘛…既然卡带到手，就我说了算咯~」 |
+| Role | 可以变身【无敌玩家】施放强力技能的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 阿澄佳奈 |
-| 英语 | Melissa Fahn |
-| 中文 | Hanser |
-| 韩语 | 장미 |
+| Japanese | 阿澄佳奈 |
+| English | Melissa Fahn |
+| Chinese | Hanser |
+| Korean | 장미 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 388 |
-| 基础防御力 | 655 |
-| 基础速度 | 110 |
-| 嘲讽 | 100 |
-| 能量上限 | 60 |
+| Base HP | 1,048 |
+| Base ATK | 388 |
+| Base DEF | 655 |
+| Base SPD | 110 |
+| Taunt | 100 |
+| Max Energy | 60 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/纷争先兆\|纷争先兆]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/纷争先兆\|Harbinger of Strife]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,740,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|《绒绒号》手绘分镜稿]] | 11 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|《绒绒号》连载纪念刊]] | 41 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|《绒绒号》典藏版合集]] | 80 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 26 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,740,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|The Fluffy Hand-drawn Storyboards]] | 11 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|The Fluffy Serialization Memorial Issue]] | 41 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|The Fluffy Collector's Edition]] | 80 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|Vanquished Flow's Reticence]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 26 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 22 |
 
 ---
-## 战技
-### 普攻：One Punch!
+## Skills
+### Basic ATK：One Punch!
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to one designated enemy.
 
-### 战技：Trigger Happy
+### Skill：Trigger Happy
 - **类型**：Skill
 - **简述**：Gains Punchline. Deals Imaginary DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：Gains #2[i] Punchline point(s) and deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 80% | 5 |
   | Lv.2 | 88% | 5 |
@@ -128,7 +128,7 @@
 
 - **满级效果**：Gains 5 Punchline point(s) and deals Imaginary DMG equal to 200% of Silver Wolf LV.999's ATK to all enemies.
 
-### 终结技：God Mode: ON!
+### Ultimate：God Mode: ON!
 - **类型**：Ultimate
 - **简述**：Transforms and advances action by 100%.
 Deploys a Zone during Transformation. While holding "Certified Banger," for every 1 Skill Point consumed by allies, there is a high chance to trigger 1 "Top Loot Box": Deals massive Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:
@@ -155,7 +155,7 @@ The initial fixed chance to trigger the effect is 100%. After a successfully tri
 触发该效果的初始固定概率为100%，成功触发后下一次触发的固定概率降低至当前概率的#4[i]%。若触发前目标被消灭则对新入场的敌方目标触发。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) | 参数6 | 参数7 |
+| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 60 | 0 | 45% | 20% | 20% | 3 | 2 |
   | Lv.2 | 60 | 0 | 49.5% | 20% | 20% | 3 | 2 |
@@ -194,7 +194,7 @@ The initial fixed chance to trigger the effect is 100%. After a successfully tri
 【怪怪怪味豆】：获得3个笑点。
 触发该效果的初始固定概率为100%，成功触发后下一次触发的固定概率降低至当前概率的20%。若触发前目标被消灭则对新入场的敌方目标触发。
 
-### 天赋：I Carry, We Win
+### Talent：I Carry, We Win
 - **类型**：Talent
 - **简述**：After "Hidden MMR" reaches 60, the Ultimate can be activated. When gaining Punchline, gains an equal amount of "Hidden MMR". The higher the "Hidden MMR", the higher the CRIT Rate. Once CRIT Rate reaches 100%, increases CRIT DMG instead.
 During Transformation, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, and her Basic ATK and Elation Skill get enhanced. She exits the Transformation after using Enhanced Basic ATK 3 time(s).
@@ -211,7 +211,7 @@ While holding "Certified Banger," using Basic ATK or Skill deals #3[i]% Imaginar
 持有【好活当赏】时，施放普攻、战技对受到攻击的敌方目标造成#3[i]%的虚数属性欢愉伤害，强化普攻的技能伤害改为相同倍率的欢愉伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
+| Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60 | 240 | 20% | 0.2% | 3 | 0.4% |
   | Lv.2 | 60 | 240 | 22% | 0.22% | 3 | 0.44% |
@@ -245,7 +245,7 @@ While holding "Certified Banger," using Basic ATK or Skill deals 50% Imaginary E
 【无敌玩家】状态下，「银狼LV.999」免疫控制类负面状态，无法施放终结技，拥有强化普攻和强化欢愉技，完整施放3次强化普攻后退出【无敌玩家】状态。退出【无敌玩家】状态时【隐藏分】会被清空。
 持有【好活当赏】时，施放普攻、战技对受到攻击的敌方目标造成50%的虚数属性欢愉伤害，强化普攻的技能伤害改为相同倍率的欢愉伤害。
 
-### 秘技：This? Absolute Meta!
+### Technique：This? Absolute Meta!
 - **类型**：Technique
 - **简述**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points.
 "Funky Munch Bean" will automatically seek out and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.
@@ -260,7 +260,7 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 【怪怪怪味豆】在场时，进入战斗后每个波次开始时触发1次【怪怪怪味豆】对应的【头号补给盲盒】，本次造成的欢愉伤害固定计入#1[i]点【好活当赏】。
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 99 |
 
@@ -273,27 +273,27 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 【怪怪怪味豆】会使一定范围内的普通敌人陷入恐惧状态，同时自动搜寻并攻击普通敌人，消耗1个秘技点立即将其消灭，不会进入战斗。
 【怪怪怪味豆】在场时，进入战斗后每个波次开始时触发1次【怪怪怪味豆】对应的【头号补给盲盒】，本次造成的欢愉伤害固定计入99点【好活当赏】。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 假结局速通攻略 | 晋阶2 | 速度大于等于#1[i]时，使自身欢愉度提高#2[i]%，之后每超过#3[i]点速度使自身欢愉度提高#4[i]%，最多计入#5[i]点超出的速度。 | 速度大于等于160时，使自身欢愉度提高50%，之后每超过1点速度使自身欢愉度提高2%，最多计入100点超出的速度。 | 信用点×5000、《绒绒号》手绘分镜稿×2、灭流绝溢的缄默×1 |
 | 附加能力2 | 真结局解锁条件 | 晋阶4 | 若施放欢愉技计入的笑点大于等于#1[i]个，额外获得#3[i]点【隐藏分】（若大于等于#2[i]个，再额外获得#4[i]点）。 | 若施放欢愉技计入的笑点大于等于20个，额外获得20点【隐藏分】（若大于等于40个，再额外获得20点）。 | 信用点×20000、《绒绒号》连载纪念刊×4、命运的足迹×1、灭流绝溢的缄默×1 |
 | 附加能力3 | 隐藏关卡全成就 | 晋阶6 | 进入【无敌玩家】状态后，获得#1[i]点【隐藏分】。 | 进入【无敌玩家】状态后，获得20点【隐藏分】。 | 信用点×140000、《绒绒号》典藏版合集×8、命运的足迹×1、灭流绝溢的缄默×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 暴击率 | 18.7% |
 | 欢愉度 | 10% |
-| 速度 | 9 |
+| SPD | 9 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Aether Editing: Eidolon +1 | Enemy targets in the Zone take 20% increased DMG.<br>When exiting the "Godmode Player" state, "Hidden MMR" will not be cleared. Instead, 20% of "Hidden MMR" will be retained. |
 | E2 | It's a Feature, Not a Bug | After entering the "Godmode Player" state, extends the duration of all buffs on this unit by 1 turn. In the current "Godmode Player" state, for every 120 point(s) of "Hidden MMR" increased (including the initial "Hidden MMR"), Silver Wolf LV.999 gains 1 extra turn and regains 1 use of Enhanced Basic ATK. |
@@ -304,84 +304,84 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 生命值 / 防御力
 
 **推荐副词条**：速度 / 暴击率 / 暴击伤害
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|闪耀功勋的魔法少女]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
-| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|恶海逐波的船长]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|盗匪荒漠的废土客]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|Ever-Glorious Magical Girl]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
+| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|Wavestrider Captain]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|零号关卡朋克洛德]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
-| [[zh_cn/relic/位面饰品/天国@直播间\|天国@直播间]] | 使装备者的暴击伤害提高16%，若在同一回合内消耗大于等于3点战技点，额外使装备者暴击伤害提高32%，持续3回合。 |
+| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|Punklorde Stage Zero]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/天国@直播间\|Tengoku@Livestream]] | 使装备者的暴击伤害提高16%，若在同一回合内消耗大于等于3点战技点，额外使装备者暴击伤害提高32%，持续3回合。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/欢愉/欢迎来到银河城.md|欢迎来到银河城]]
+### [[zh_cn/lightcone/欢愉/欢迎来到银河城.md|Welcome to the Cosmic City]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：稳赢
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】，造成的欢愉伤害无视目标【20%/24%/28%/32%/36%】的防御力。当装备者对自身单体施放终结技时，获得【20/25/30/35/40】点【笑点】。该效果最多触发1次，施放3次普攻后重置可触发次数。
 
-### [[zh_cn/lightcone/欢愉/今日好手气.md|今日好手气]]
+### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
 
 - **基础属性**：生953 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：憧憬
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
 
-### [[zh_cn/lightcone/欢愉/当她决定看见.md|当她决定看见]]
+### [[zh_cn/lightcone/欢愉/当她决定看见.md|When She Decided to See]]
 
 - **基础属性**：生1058 攻529 防529
 - **推荐度**：★★★★
 - **技能名**：破局
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者进入战斗或对我方目标施放终结技时，使装备者获得【上上签】，持续3回合。当装备者持有【上上签】时，我方全体暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【30%/37.5%/45%/52.5%/60%】，装备者自身能量恢复效率提高【12%/14%/16%/18%/20%】。 每个波次开始时，装备者固定恢复15点能量。
 
-### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|菇菇嘎嘎历险记]]
+### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
 
 - **基础属性**：生847 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：乱斗
 - **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
 
-### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|未来，有我们一起]]
+### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
 - **基础属性**：生953 攻476 防331
 - **推荐度**：★★★★
 - **技能名**：同行
 - **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/欢愉/银狼LV.999_虚数_五星.md\|银狼LV.999]] | [[zh_cn/character/欢愉/火花_火_五星.md\|火花]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|爻光]] |
-| [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|爻光]] | [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] |
-| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|丹恒•腾荒]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
-| [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] |  |
+| [[zh_cn/character/欢愉/银狼LV.999_虚数_五星.md\|Silver Wolf LV.999]] | [[zh_cn/character/欢愉/火花_火_五星.md\|Sparxie]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|Yao Guang]] |
+| [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|Yao Guang]] | [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] |
+| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|Dan Heng • Permansor Terrae]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
+| [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 新一轮欢愉赛季，无敌玩家「银狼LV.999」限时回归中！
 成为宇宙大赢家，银河通关全成就，接下来还要怎么玩？
 「走上『欢愉』巅峰？无聊到爆好嘛…既然卡带到手，就我说了算咯~」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 >>>「我加入。」
 >>>就这样，名为「朋克洛德」的游戏，在这一天结束了。
@@ -422,7 +422,7 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 >>>警告！警告！警告！
 >>>检测到「剧本」█████
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「幕后彩弹」是她最先想到的，只需把炸弹扔进面前的屏幕，它就会从半个银河之外的另一个屏幕中被丢出来。
 要是有一伙假面愚者敢给她假情报，还大放厥词……
@@ -456,7 +456,7 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 >>>「ID：银狼LV.999」已登出「银河」
 >>>「ID：银狼」登录游戏「银河」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 少女有一面「成就墙」，每次达成目标后，她就会为自己颁发一枚数字徽章。
 如今，她的成就已数不胜数——
@@ -489,7 +489,7 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 【状态】未完成
 【内容】打破LV.999的极限，让这场游戏永不结束。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「首先，作为『狼尊』的骨灰级玩家，我先来吐槽前作的制作人
 ——阿哈就是个欢愉的星神，懂个锤子游戏。

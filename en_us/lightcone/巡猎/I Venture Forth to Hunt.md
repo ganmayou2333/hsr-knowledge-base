@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | I Venture Forth to Hunt |
-| 命途 | The Hunt |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | I Venture Forth to Hunt |
+| Path | The Hunt |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Pitiful, laughable slaves..."
 The Denizens of Abundance's legions come crashing upon the border like an avalanche, with Lupitoxin rushing toward the Verdant Knights like a tide, trying to arouse the deep-set fear hidden in the soldiers' hearts. Illusions of dread came forth, striking the wills of the warriors, compelling them to drop their blades and be seized by hesitation.
@@ -28,18 +28,18 @@ These small cheers and calls then come together into a thunderous battle cry.
 "Always soaring! Forever triumphant!"
 She stands there, alone. A single figure, but imbued with the might of an entire army.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 635 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Intimidation
 
 Increases the wearer's CRIT Rate by #1[f1]%. When the wearer launches a Follow-Up ATK, gains 1 stack of "Luminflux," stacking up to 2 time(s). Each stack of "Luminflux" enables the Ultimate DMG dealt by the wearer to ignore 27% of the target's DEF. When the wearer's turn ends, removes 1 stack of "Luminflux."
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

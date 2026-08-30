@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Diary of a Civilian Scientist Part 1 |
-| 用途 | 其一 阅读物 / 其二 阅读物 / 其三 阅读物 / 其四 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Diary of a Civilian Scientist Part 1 |
+| Use | 其一 阅读物 / 其二 阅读物 / 其三 阅读物 / 其四 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 4 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-行政区歌德宾馆中拾取

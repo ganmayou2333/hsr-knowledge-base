@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Balloon Furbo |
-| 用途 | 消耗品 |
-| 评级 | ★★★★★ |
-| 类型 | Usable / 宝箱 |
+| Item Name | Balloon Furbo |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Usable / 宝箱 |
 
 
-## 说明
+## Description
 
 可无限次使用的寻宝小道具，使用后可以在「二相乐园」相关的地图中显示1个普通战利品的位置。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「狸狸通信」畅销等级奖励获得

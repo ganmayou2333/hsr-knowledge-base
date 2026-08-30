@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Relative Tracer |
-| 类型 | 祝福 |
-| 命途 | 虚无&记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Relative Tracer |
+| Type | Blessing |
+| Path | 虚无&记忆 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标陷入【怀疑】、冻结和持续伤害状态时，有150%的基础概率将该效果扩散给相邻目标，无相邻目标时扩散给自身，单次行动内同一目标只能扩散1次相同效果。单个敌方目标每累计扩散20次或被消灭，使该目标与相邻目标受到1200%基础伤害的冰属性伤害，并有60%的基础概率陷入冻结状态，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

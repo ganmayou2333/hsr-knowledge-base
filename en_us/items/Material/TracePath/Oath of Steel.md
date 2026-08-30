@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Oath of Steel |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / TracePath |
+| Item Name | Oath of Steel |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 3★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 以未知合金锻造而成的护盾，制作技艺难以复现。可中幅提升存护角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【支援舱段】
 - 「万能合成机」- 材料合成

@@ -6,33 +6,33 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Memories of the Past |
-| 命途 | Harmony |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Memories of the Past |
+| Path | Harmony |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 An old photo lies on the far end of the table in the guardian's residence.
 She would always subconsciously move her eyes away whenever she happened to see it.
 The memories of the past had already become distant, but the dreams of today still linger.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 423 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Old Photo
 
 Increases the wearer's Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

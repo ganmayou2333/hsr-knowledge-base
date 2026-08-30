@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Sweet Dreams Holographic Ticket |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Sweet Dreams Holographic Ticket |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中随机生效1个效果：「镜子公主款」防御力提高36%；「音符小姐款」生命上限提高30%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 美梦小镇主题餐厅

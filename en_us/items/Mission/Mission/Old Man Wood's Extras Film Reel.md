@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Old Man Wood's Extras Film Reel |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Old Man Wood's Extras Film Reel |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 记录着动画系列电影《钟表小子：美梦往事》的外传内容，讲述了美梦小镇的救星「木头老爷」的故事。
 
 
-## 获得途径
+## Acquisition
 
 - 活动《钟表小子：美梦往事》，完成《惊梦大危机》经典结局的剪辑

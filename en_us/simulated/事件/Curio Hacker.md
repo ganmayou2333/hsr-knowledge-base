@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Curio Hacker |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Normal.png` |
+| Name | Curio Hacker |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Normal.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 接受奇物「有机心脏」。 | 获得奇物：{{图标/奇物\|小\|「有机心脏」\|样式=无\|悬浮窗=是}}。 |
 | 接受奇物「神秘」磁力。 | 获得奇物：{{图标/奇物\|小\|「神秘」磁力\|样式=无\|悬浮窗=是}}。 |
@@ -37,7 +37,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 320401 |  |
 | 420401 |  |

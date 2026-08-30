@@ -6,17 +6,17 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Silver Wolf LV.999 |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Silver Wolf LV.999 |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 银狼LV.999在差分宇宙中的伤害获得增幅。
 阿哈回合开始时，每有1点笑点，使银狼LV.999欢愉度提高0.5%，持续至阿哈下一回合开始时。

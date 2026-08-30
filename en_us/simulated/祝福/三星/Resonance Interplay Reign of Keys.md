@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Reign of Keys |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Reign of Keys |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响对冻结状态下的敌方目标造成的伤害提高30%，敌方目标陷入冻结状态时，命途回响施加的持续伤害状态的持续时间延长1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

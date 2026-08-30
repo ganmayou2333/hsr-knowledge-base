@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Components From a Certain Ruin |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Components From a Certain Ruin |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 这是在帕斯德鲁克市市民活动中心废墟中找到一个零件，已经无法得知它原本的用途了。现在，苏安瓜随身携带着这个零件，以提醒自己应时刻铭记革命者们的血泪。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【好人难寻】

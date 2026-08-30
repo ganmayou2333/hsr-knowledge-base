@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Superposition Eye |
-| 类型 | 祝福 |
-| 命途 | 繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Superposition Eye |
+| Type | Blessing |
+| Path | 繁育 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响后，使指定我方单体可抵抗除持续伤害外的所有伤害，受到攻击后解除该效果。若目标当前生命值百分比小于50%，命途回响与其共鸣时会额外恢复1个战技点。
 
-## 强化效果
+## Enhanced Effect
 
 -

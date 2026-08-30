@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Exorcist |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 6巡猎+4繁育 |
+| Name | Exorcist |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 6巡猎+4繁育 |
 
 
-## 效果
+## Effect
 
 【蝶魄】状态下我方目标造成的伤害提高200%，施放攻击后，若敌方目标当前生命值低于生命上限的25%，则对其造成等同于当前生命值的固定数值的【蝶魄】伤害，并恢复2点战技点。
 
-## 强化效果
+## Enhanced Effect
 
 -

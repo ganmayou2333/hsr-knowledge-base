@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Golden Crown of the Past Shadow |
-| 用途 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / AvatarRank |
+| Item Name | Golden Crown of the Past Shadow |
+| Use | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / AvatarRank |
 
-## 说明
+## Description
 
 蚕食者之影佩戴的头饰，虚数属性角色的晋升素材。
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【边缘通路】
 - 「万能合成机」- 材料置换

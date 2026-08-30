@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Gray River's Representative |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Gray River's Representative |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 巡猎*6
 虚无*4 |
 
 
-## 效果
+## Effect
 
 我方全体每获得9层【会心】或消灭敌方目标后，射出10根光矢攻击随机敌方目标，每支光矢造成350%基础伤害的风属性伤害，每个光矢会使【呢喃】产生原伤害30%的伤害，并使【呢喃】获得等同于我方角色攻击力之和的20%的充能。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Journey Reblazed |
-| 用途 | 个人名片 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 个人名片 |
+| Item Name | Journey Reblazed |
+| Use | 个人名片 |
+| Rarity | ★★★★ |
+| Type | Usable / 个人名片 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

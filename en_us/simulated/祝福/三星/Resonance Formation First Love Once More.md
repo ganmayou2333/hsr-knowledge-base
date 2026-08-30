@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: First Love Once More |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: First Love Once More |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 进入战斗时，命途回响恢复40%能量。当敌方目标陷入冻结状态时，额外为命途回响恢复5%能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

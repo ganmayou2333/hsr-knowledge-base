@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Rock, Paper, Scissors |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Battle.png` |
+| Name | Rock, Paper, Scissors |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Battle.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 你想起了她的规律！先出剪刀！ | 有概率获得3个随机2星祝福 |
 | 敏锐察觉星体计算机的*漏洞*。 | 击破更危险的漏洞！进入战斗，胜利后获得2个强化后的1-2星祝福，1个奇物和100宇宙碎片 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 13401 |  |
 | 13402 |  |

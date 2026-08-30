@@ -4,20 +4,20 @@
 > 实体ID：125
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/5373/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Warrior Goddess of Sun and Thunder |
-| 类型 | 隧洞遗器 |
-| 实体ID | 125 |
-## 获取途径
+| Name | Warrior Goddess of Sun and Thunder |
+| Type | 隧洞遗器 |
+| Entity ID | 125 |
+## Acquisition
 雳涌之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases SPD by 6%.
 ### 4 件套
 When the wearer or their memosprite provides healing to ally targets other than themselves, the wearer gains "Gentle Rain," which lasts for 2 turn(s) and can only trigger once per turn. While the wearer has "Gentle Rain," SPD increases by 6% and all allies' CRIT DMG increases by 15%. This effect cannot stack.
-## 部位
+## Pieces
 ### 手部：女武神的骑枪手铠
 **描述**：这对护手陪伴骑士赢下了所有的战斗。它能够让人紧握最致命的武器，忍受最痛苦的背叛。
 **来历**：

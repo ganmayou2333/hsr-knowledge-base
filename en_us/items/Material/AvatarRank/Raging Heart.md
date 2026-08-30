@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Raging Heart |
-| 用途 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / AvatarRank |
+| Item Name | Raging Heart |
+| Use | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / AvatarRank |
 
-## 说明
+## Description
 
 「狂怒褪去之壳」的忆质核心，火属性角色的晋升素材。
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【朝露公馆】
 - 「万能合成机」- 材料置换

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Blizzard Immunity Lab Records (I) |
-| 用途 | 其一 阅读物 / 其二 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Blizzard Immunity Lab Records (I) |
+| Use | 其一 阅读物 / 其二 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 完成同行任务【风雪免疫】过程中获取

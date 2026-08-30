@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Anatta |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Anatta |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 战斗内初次消耗命途回响能量施放命途回响后，会在行动序列上出现命途「丰饶」的回响，该回响提供的治疗量降低30%，行动时自动施放1次命途回响，为我方角色提供治疗。
 
-## 强化效果
+## Enhanced Effect
 
 -

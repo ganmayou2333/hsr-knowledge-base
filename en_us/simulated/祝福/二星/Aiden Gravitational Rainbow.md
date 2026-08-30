@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Aiden Gravitational Rainbow |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Aiden Gravitational Rainbow |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色对敌方目标发动追加攻击后，使其行动延后12%。
 
-## 强化效果
+## Enhanced Effect
 
 角色对敌方目标发动追加攻击后，使其行动延后12%，且有10%的基础概率使其陷入禁锢状态，持续1回合。

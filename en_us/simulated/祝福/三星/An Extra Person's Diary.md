@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | An Extra Person's Diary |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | An Extra Person's Diary |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色击破敌方目标弱点，或攻击处于弱点击破状态下的敌方目标后，分别使其陷入15或3层【怀疑】效果。
 
-## 强化效果
+## Enhanced Effect
 
 角色击破敌方目标弱点，或攻击处于弱点击破状态下的敌方目标后，分别使其陷入24或4层【怀疑】效果。

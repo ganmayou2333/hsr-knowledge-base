@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Fragments of Herta Research Atlas Volume 7: Traffic |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Fragments of Herta Research Atlas Volume 7: Traffic |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 《黑塔研究图鉴•第七卷•交通》残页
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-收容舱段2层，地图右下方桌面上

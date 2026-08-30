@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | False Future |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_11.png` |
+| Name | False Future |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_11.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 改变我的未来 | 获得奇物奥塔牌：第三位面首领将为【冥魂渡者，死龙残躯，玻吕刻斯（完整）】，在第三未免【首领】区域进入战斗时，我方全体造成的伤害提高50% |
 | 改变我的未来 | 获得奇物奥塔牌：第三位面首领将为【虫群*真蛰虫（完整）】，在第三未免【首领】区域进入战斗时，我方全体造成的伤害提高50% |
@@ -34,6 +34,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 424601 |  |

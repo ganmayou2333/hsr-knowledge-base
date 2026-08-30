@@ -6,32 +6,32 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Data Bank |
-| 命途 | Erudition |
-| 评级 | ★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Data Bank |
+| Path | Erudition |
+| Rarity | ★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.
 "Human extinction is inevitable, but the library will live on: Lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 741 | 370 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Learned
 
 Increases DMG dealt by the wearer's Ultimate by 28%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x231,000 / x2 / x6 / x9 / x12 / x10 / x8

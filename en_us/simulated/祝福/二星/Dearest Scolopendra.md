@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Dearest Scolopendra |
-| 类型 | 祝福 |
-| 命途 | 同谐&繁育 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Dearest Scolopendra |
+| Type | Blessing |
+| Path | 同谐&繁育 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【蝶魄】期间我方目标造成的击破伤害提高80%，且每击破一次敌方目标，可在【蝶魄】结束后为【魂茧】充能20%。
 
-## 强化效果
+## Enhanced Effect
 
 -

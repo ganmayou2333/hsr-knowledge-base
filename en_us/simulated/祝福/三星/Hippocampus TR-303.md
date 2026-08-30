@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Hippocampus TR-303 |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Hippocampus TR-303 |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616830 | After an ally target Breaks an enemy target's Weakness, Charges "Brain in a Vat" by 10%. If it is an Elite Enemy, then Charges 40%. |
 | 617830 | After an ally target Breaks an enemy target's Weakness, Charges "Brain in a Vat" by 10%. If it is an Elite Enemy, then additionally Charges 40%. |

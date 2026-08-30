@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Night of Fright |
-| 命途 | Abundance |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Night of Fright |
+| Path | Abundance |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The girl hides behind the door and dares not move one step closer. 
 Perhaps due to the fact that tonight's objective is already within her reach, her heart is actually beating faster.
@@ -26,18 +26,18 @@ The girl is shivering and grasps the "weapon" in her hands tight, but still does
 The tail behind her has finally had enough and suddenly lights up.
 "Hurry up. You're just picking up a delivery!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 476 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Deep, Deep Breaths
 
 Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

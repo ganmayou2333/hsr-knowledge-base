@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Moment of Opportunity |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_34.png` |
+| Name | Moment of Opportunity |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_34.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 选择锈迹斑斑的星盘。 | 消耗150宇宙碎片购买2个1星奇物/消耗50宇宙碎片购买2个1星奇物/免费获得2个1星奇物和100宇宙碎片 |
 | 选择做工扎实的甲胄。 | 消耗250宇宙碎片购买2个2星奇物/消耗100宇宙碎片购买2个2星奇物/免费获得2个2星奇物 |
@@ -31,6 +31,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 626201 |  |

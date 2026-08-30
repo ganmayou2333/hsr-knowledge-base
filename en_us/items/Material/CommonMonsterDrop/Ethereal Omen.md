@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ethereal Omen |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Ethereal Omen |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 黑潮造物身体掉落的残片，强化所需的简单材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 黑潮造物掉落
 - 「差分宇宙」中敌方掉落

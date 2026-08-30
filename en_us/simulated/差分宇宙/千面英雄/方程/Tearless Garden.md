@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tearless Garden |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Tearless Garden |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 欢愉*6
 同谐*4 |
 
 
-## 效果
+## Effect
 
 我方目标发动追加攻击后可无视弱点属性额外削减10.0点韧性值。我方目标击破敌方目标弱点时，对敌方全体目标造成2次等同于攻击力150%的【回味】伤害，敌方目标每1点韧性上限将使该伤害倍率提高原倍率的1%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Society of Charity |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 同谐*4繁育*2 |
+| Name | Society of Charity |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 同谐*4繁育*2 |
 
 
-## 效果
+## Effect
 
 我方目标攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次100%的超击破伤害，处于【蝶魄】状态时，该效果额外造成100%的超击破伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

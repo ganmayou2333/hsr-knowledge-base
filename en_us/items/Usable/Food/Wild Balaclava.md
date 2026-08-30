@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Wild Balaclava |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Wild Balaclava |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中攻击力提高40%。进入战斗时，随机使1名角色有100%的基础概率陷入怒噪状态，持续2回合。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 美梦服装店

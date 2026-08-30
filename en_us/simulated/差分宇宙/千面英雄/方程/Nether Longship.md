@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Nether Longship |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Nether Longship |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 虚无*6
 毁灭*4 |
 
 
-## 效果
+## Effect
 
 敌方目标受到【耀变】伤害时，持有的【呢喃】获得等同于本次伤害10%的充能，不超过清除阈值的5%，【呢喃】每充能清除阈值的20%，敌方目标立即受到1次等同于【呢喃】清除阈值400%的雷属性持续伤害，每名敌方目标最多触发3次，任意单位行动后重置触发次数上限，该伤害为【呢喃】伤害，且无法消灭敌方目标。
 
-## 强化效果
+## Enhanced Effect
 
 -

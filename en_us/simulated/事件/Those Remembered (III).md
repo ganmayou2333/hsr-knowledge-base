@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Those Remembered (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Those Remembered (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你在黑暗中履行自己的义务，量子硬盘里的数据完好无损，但你的计算单元运行着一个疑问——导师所说的「他们」究竟是谁。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 是烛墨学派。 | — |
 | 待推演。 | — |
@@ -55,6 +55,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 187 |  |

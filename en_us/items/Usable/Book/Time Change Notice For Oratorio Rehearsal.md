@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Time Change Notice For Oratorio Rehearsal |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Time Change Notice For Oratorio Rehearsal |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 关于清唱剧排练时间变更通知
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-Ⅵ-行政区地图中拾取

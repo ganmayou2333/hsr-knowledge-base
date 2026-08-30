@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Thus Burns the Dawn |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Thus Burns the Dawn |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Once again, at the journey's end, the man's silhouette was swallowed by the sweltering golden sun.
 "So... that golden blood, the last hope of deliverance, was really..."
@@ -29,18 +29,18 @@ The people's wishes echoed in the void. The Nameless Hero crumbled, his fierce a
 He climbed toward the peak, over and over, only to fall and be shattered, again and again—
 "Then let me burn with it!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 688 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Dispossession
 
 The wearer's base SPD increases by 12. When dealing DMG, ignores 18% of the target's DEF. After the wearer uses Ultimate, gains "Blazing Sun," which is removed at the start of the turn. While holding "Blazing Sun," increases the wearer's DMG dealt by 60%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Steel Coil |
-| 用途 | 消耗品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Steel Coil |
+| Use | Consumable |
+| Rarity | ★★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即使我方全体消耗等同于各自生命上限40%的生命值，并在下次战斗中欢愉度提高40%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」
 - ∞<unbreak>11</unbreak>便利店

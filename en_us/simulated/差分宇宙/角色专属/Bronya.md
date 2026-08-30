@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bronya |
-| 类型 | 祝福 |
-| 命途 | 无（按角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 角色专属|
+| Name | Bronya |
+| Type | Blessing |
+| Path | 无（按角色） |
+| Rarity | TBD |
+| Special Type | 角色专属 |
 
 
-## 效果
+## Effect
 
 布洛妮娅在差分宇宙中的伤害获得增幅。
 在场时，使编队中的第一位角色及其忆灵造成的最终伤害提高12%。
 
-## 强化效果
+## Enhanced Effect
 
 -

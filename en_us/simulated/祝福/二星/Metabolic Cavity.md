@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Metabolic Cavity |
-| 类型 | 祝福 |
-| 命途 | 繁育 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Metabolic Cavity |
+| Type | Blessing |
+| Path | 繁育 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 每使1个【孢子】爆裂，使当前生命值百分比最低的角色回复等同于自身生命上限10%的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 敌方全体每持有1个【孢子】，我方角色受到的伤害降低0.8%。当【孢子】爆裂后，使当前生命值百分比最低的角色回复等同于自身生命上限12%的生命值。

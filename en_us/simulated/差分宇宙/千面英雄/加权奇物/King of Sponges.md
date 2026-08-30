@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | King of Sponges |
-| 类型 | 加权奇物 |
+| Name | King of Sponges |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Arrow of the Demon Slayer |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / TracePath |
+| Item Name | Arrow of the Demon Slayer |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 3★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 仙舟匠人以星辰天瑛精心铸造的箭头。可中幅提升巡猎角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【城郊雪原】
 - 「万能合成机」- 材料合成

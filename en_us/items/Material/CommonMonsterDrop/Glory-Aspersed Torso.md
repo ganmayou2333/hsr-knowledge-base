@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Glory-Aspersed Torso |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Glory-Aspersed Torso |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 纷争眷属富含神力的心脏，强化所需的高级材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级4后，泰坦眷属掉落
 - 突破至均衡等级4后，晨昏奇兽掉落

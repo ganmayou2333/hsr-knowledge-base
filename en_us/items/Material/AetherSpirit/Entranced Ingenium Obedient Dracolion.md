@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Entranced Ingenium: Obedient Dracolion |
-| 用途 | 以太灵 |
-| 评级 | ★★★ |
-| 类型 | Material / 以太灵 |
+| Item Name | Entranced Ingenium: Obedient Dracolion |
+| Use | 以太灵 |
+| Rarity | ★★★ |
+| Type | Material / 以太灵 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 以太战线获得

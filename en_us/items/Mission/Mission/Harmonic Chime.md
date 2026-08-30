@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Harmonic Chime |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Harmonic Chime |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 十王司制造的专门用来应对岁阳的驱魔道具。震动铃声，能够与岁阳的幻障迷境同调。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【双生】

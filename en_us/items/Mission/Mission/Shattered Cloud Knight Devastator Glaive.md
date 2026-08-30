@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Shattered Cloud Knight Devastator Glaive |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Shattered Cloud Knight Devastator Glaive |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 断裂的武器残片，足够尖锐，可以用作裁纸刀。
 
-## 获得途径
+## Acquisition
 
 - 罗浮异闻-凶宅

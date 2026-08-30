@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | March 7th's "Origin" |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | March 7th's "Origin" |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 「流光忆庭」赠予三月七的光锥。其中封存的记忆乃是三月七的「起点」。
 
 
-## 获得途径
+## Acquisition
 
 - 三月七同行任务【全面回忆】

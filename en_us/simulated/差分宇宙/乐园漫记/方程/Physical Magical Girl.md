@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Physical Magical Girl |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2毁灭+2智识 |
+| Name | Physical Magical Girl |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2毁灭+2智识 |
 
 
-## 效果
+## Effect
 
 我方角色在单场战斗中首次生命值百分比小于25%后，激活终结技，并使本场战斗中自身与忆灵造成的终结技伤害可以无视20%的防御力。
 
-## 强化效果
+## Enhanced Effect
 
 -

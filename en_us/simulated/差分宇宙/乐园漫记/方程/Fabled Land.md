@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fabled Land |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2虚无+2毁灭 |
+| Name | Fabled Land |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2虚无+2毁灭 |
 
 
-## 效果
+## Effect
 
 敌方目标进入战斗时，陷入裂伤状态。裂伤状态下，敌方目标每回合开始时受到等同于自身10%生命上限的物理属性持续伤害，最多不超过我方全体目标生命值之和的200%。
 
-## 强化效果
+## Enhanced Effect
 
 -

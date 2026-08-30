@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Qingque |
-| 命途 | Erudition |
-| 属性 | Quantum |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 仙舟「罗浮」太卜司的卜者，兼书库管理员。因工作一再偷闲摸鱼，即将贬无可贬成为「掌门人」。 |
-| 定位 | 通过抽取四张同色琼玉牌，获得强化普攻的输出角色 |
+| Character Name | Qingque |
+| Path | Erudition |
+| Attribute | Quantum |
+| Rarity | ★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 仙舟「罗浮」太卜司的卜者，兼书库管理员。因工作一再偷闲摸鱼，即将贬无可贬成为「掌门人」。 |
+| Role | 通过抽取四张同色琼玉牌，获得强化普攻的输出角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 伊達朱里紗 |
-| 英语 | Bryn Apprill |
-| 中文 | 刘十四 |
-| 韩语 | 서다혜 |
+| Japanese | 伊達朱里紗 |
+| English | Bryn Apprill |
+| Chinese | 刘十四 |
+| Korean | 서다혜 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,023 |
-| 基础攻击力 | 653 |
-| 基础防御力 | 441 |
-| 基础速度 | 98 |
-| 嘲讽 | 75 |
-| 能量上限 | 140 |
+| Base HP | 1,023 |
+| Base ATK | 653 |
+| Base DEF | 441 |
+| Base SPD | 98 |
+| Taunt | 75 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/虚幻铸铁\|虚幻铸铁]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/虚幻铸铁\|Void Cast Iron]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/灵感之钥\|灵感之钥]] | 8 |
-| [[zh_cn/items/Material/TracePath/启迪之钥\|启迪之钥]] | 42 |
-| [[zh_cn/items/Material/TracePath/智识之钥\|智识之钥]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/灵感之钥\|Key of Inspiration]] | 8 |
+| [[zh_cn/items/Material/TracePath/启迪之钥\|Key of Knowledge]] | 42 |
+| [[zh_cn/items/Material/TracePath/智识之钥\|Key of Wisdom]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 20 |
 
 ---
-## 战技
-### 普攻：Flower Pick
+## Skills
+### Basic ATK：Flower Pick
 - **类型**：Basic ATK
 - **简述**：Tosses a tile to deal minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to #1[i]% of Qingque's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 140% of Qingque's ATK to one designated enemy.
 
-### 战技：A Scoop of Moon
+### Skill：A Scoop of Moon
 - **类型**：Skill
 - **简述**：Draws tiles and increases DMG dealt. This turn does not end after this action.
 - **最大等级**：15
 - **效果模板**：Immediately draws #1[i] jade tile(s) and increases DMG by #2[i]% until the end of the current turn. This effect can stack up to #3[i] time(s). The turn will not end after this Skill is used.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 2 | 14% | 4 |
   | Lv.2 | 2 | 15.4% | 4 |
@@ -129,14 +129,14 @@
 
 - **满级效果**：Immediately draws 2 jade tile(s) and increases DMG by 35% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.
 
-### 终结技：A Quartet? Woo-hoo!
+### Ultimate：A Quartet? Woo-hoo!
 - **类型**：Ultimate
 - **简述**：Deals Quantum DMG to all enemies, then obtains 4 tiles of the same suit.
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 120% |
   | Lv.2 | 128% |
@@ -159,7 +159,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 240% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.
 
-### 天赋：Celestial Jade
+### Talent：Celestial Jade
 - **类型**：Talent
 - **简述**：At the start of any ally's turn, draws a tile. At the start of this character's turn, if this character holds 4 tiles from the same suit, remove all tiles in possession and Enhance this Basic ATK while increasing this character's ATK.
 - **最大等级**：15
@@ -170,7 +170,7 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 处于【暗杠】状态时无法再次施放战技，同时使自身攻击力提高#1[i]%，普攻【门前清】强化为【杠上开花！】，【暗杠】状态会在施放【杠上开花！】后结束。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 36% |
   | Lv.2 | 39.6% |
@@ -197,14 +197,14 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 青雀回合开始时，若持有的琼玉牌数为4且花色相同，青雀消耗所有琼玉牌进入【暗杠】状态。
 处于【暗杠】状态时无法再次施放战技，同时使自身攻击力提高90%，普攻【门前清】强化为【杠上开花！】，【暗杠】状态会在施放【杠上开花！】后结束。
 
-### 秘技：Game Solitaire
+### Technique：Game Solitaire
 - **类型**：Technique
 - **简述**：After they use their Technique, draw tile(s) at the start of the next battle.
 - **最大等级**：1
 - **效果模板**：After using Technique, Qingque draws #1[i] jade tile(s) when the battle starts.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
@@ -213,27 +213,27 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 
 - **满级效果**：After using Technique, Qingque draws 2 jade tile(s) when the battle starts.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 争番 | 晋阶2 | 施放战技时，恢复1个战技点。该效果单场战斗中只能触发1次。 | 施放战技时，恢复1个战技点。该效果单场战斗中只能触发1次。 | 信用点×4000、灵感之钥×2、守护者的悲愿×1 |
 | 附加能力2 | 听牌 | 晋阶4 | 战技使自身造成的伤害提高效果额外提高#1[i]%。 | 战技使自身造成的伤害提高效果额外提高10%。 | 信用点×16000、启迪之钥×4、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 抢杠 | 晋阶6 | 施放强化普攻后，青雀的速度提高#1[i]%，持续1回合。 | 施放强化普攻后，青雀的速度提高10%，持续1回合。 | 信用点×128000、智识之钥×6、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| ATK | 28% |
+| DEF | 12.5% |
 | 量子属性伤害提高 | 14.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Rise Through the Tiles | Ultimate deals 10% more DMG. |
 | E2 | Sleep on the Tiles | Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy. |
@@ -244,70 +244,70 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 量子属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/星体差分机\|星体差分机]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/星体差分机\|Celestial Differentiator]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/拂晓之前.md|拂晓之前]]
+### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：长夜
 - **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-### [[zh_cn/lightcone/智识/银河铁道之夜.md|银河铁道之夜]]
+### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★★
 - **技能名**：流星群
 - **效果**：当场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
-| [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |
+| [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
+| [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |
 | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[zh_cn/character/同谐/寒鸦_物理_四星.md\|寒鸦]] |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 太卜司的普通卜者，在「忙里偷闲」这件事上绝不偷闲。
 顺应父母的期望考入太卜司，却发现本以为清闲的铁饭碗是高强度的职场苦海。
 经过数年历练，青雀终于磨砺了一身本领——无论部门流转，她仍旧是最低职级的卜者。
 没事翻翻书，玩玩古代牌戏…人生如此，夫复何求？
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 青雀的传奇故事始于黉学。
 
@@ -323,7 +323,7 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 
 「难成大器。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 在太卜司十余年，青雀活像只人畜无害又低调的小麻雀。
 
@@ -335,7 +335,7 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 
 青雀决心继续精进自己的时间管理功夫，以便逃离太卜司恐怖领导的追缉——可惜小麻雀哪里明白「雀算不如天算」，连她这点小心思，也在那法眼的计算内。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「帝垣琼玉」这种游戏据说从古帝国时期便已存在，只是在仙舟联盟长久的星间漂流中失传了。多亏了太卜司某位不愿意透露姓名的卜者将其规则整理、带回了现代仙舟，人们才能有幸接触这法星辰天象而成的烧脑牌戏。
 
@@ -346,7 +346,7 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 「不过嘛，这倒也不是什么坏事——」
 「毕竟…能借着这休闲益智的牌戏光明正大地划水摸鱼，何乐而不为？」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「如何快乐工作是一种艺术。」
 

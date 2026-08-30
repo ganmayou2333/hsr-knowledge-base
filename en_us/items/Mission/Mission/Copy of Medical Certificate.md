@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Copy of Medical Certificate |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Copy of Medical Certificate |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 青雀之前来开过的证明。后来，丹鼎司派专人核对过虚构的病症。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【商铺事件·寿考堂】

@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Geniuses' Greetings |
-| 命途 | Remembrance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Geniuses' Greetings |
+| Path | Remembrance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Congratulations. Experiment failed again, didn't it?"
 "..."
@@ -31,18 +31,18 @@ The woman closes her book.
 "Hmph. A genius of my caliber... it's not something you'll just get to hear randomly..."
 "I understand. I'll make some pastries. We can talk and eat at the same time."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Congratulations
 
 Increases the wearer's ATK by 16%. After the wearer uses Ultimate, increases the Basic ATK DMG dealt by the wearer and their memosprite by 20%, lasting for 3 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Cosmic Fried Rice (Overnight Edition) |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Cosmic Fried Rice (Overnight Edition) |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 科员们最爱吃的工作餐，不太新鲜，也不够干净，不知道吃了会不会见到星神。
 
-## 获得途径
+## Acquisition
 
 - 1.6活动冒险任务【开局一人一狗•其三】

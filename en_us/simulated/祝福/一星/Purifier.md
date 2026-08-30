@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Purifier |
-| 类型 | 祝福 |
-| 命途 | 记忆&毁灭 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Purifier |
+| Type | Blessing |
+| Path | 记忆&毁灭 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标当前生命值大于生命上限的60%时，陷入冻结状态的持续时间提高1回合。冻结状态下的敌方目标受到的伤害提高30%。
 
-## 强化效果
+## Enhanced Effect
 
 -

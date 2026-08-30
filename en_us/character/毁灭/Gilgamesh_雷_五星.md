@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Gilgamesh |
-| 命途 | Destruction |
-| 属性 | Lightning |
-| 稀有度 | ★★★★★ |
-| 阵营 | 异界 |
-| 角色介绍 | 在宇宙之外的某个世界中，人类历史最初的英雄王。 三分之二是神、三分之一是人的他，理所当然地拥有支配一切的特权（自称）。 |
-| 定位 | 是一名由自身【兴致】驱动、通过终结技爆发的输出型角色 |
+| Character Name | Gilgamesh |
+| Path | Destruction |
+| Attribute | Lightning |
+| Rarity | ★★★★★ |
+| Faction | 异界 |
+| Introduction | 在宇宙之外的某个世界中，人类历史最初的英雄王。 三分之二是神、三分之一是人的他，理所当然地拥有支配一切的特权（自称）。 |
+| Role | 是一名由自身【兴致】驱动、通过终结技爆发的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 关智一 |
-| 英语 | 暂无 |
-| 中文 | 藤新 |
-| 韩语 | 김종엽 |
+| Japanese | 关智一 |
+| English | 暂无 |
+| Chinese | 藤新 |
+| Korean | 김종엽 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,125 |
-| 基础攻击力 | 718 |
-| 基础防御力 | 509 |
-| 基础速度 | 97 |
-| 嘲讽 | 125 |
-| 能量上限 | 360 |
+| Base HP | 1,125 |
+| Base ATK | 718 |
+| Base DEF | 509 |
+| Base SPD | 97 |
+| Taunt | 125 |
+| Max Energy | 360 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/狂雷扫弦\|狂雷扫弦]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/狂雷扫弦\|Thunder Strum]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/四相，过河照君\|四相，过河照君]] | 12 |
-| [[zh_cn/items/Material/TracePath/六合，王手飞车\|六合，王手飞车]] | 53 |
-| [[zh_cn/items/Material/TracePath/万色，愚者自将\|万色，愚者自将]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/四相，过河照君\|Four Phases, Crossing the River to Check the King]] | 12 |
+| [[zh_cn/items/Material/TracePath/六合，王手飞车\|Sixen, King-Rook Fork]] | 53 |
+| [[zh_cn/items/Material/TracePath/万色，愚者自将\|Omnicolor, Fool's Own]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 28 |
 
 ---
-## 战技
-### 普攻：Halfhearted Blow
+## Skills
+### Basic ATK：Halfhearted Blow
 - **类型**：Skill
 - **简述**：
 - **最大等级**：10
 - **效果模板**：
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：
 
-### 战技：Gate of Babylon
+### Skill：Gate of Babylon
 - **类型**：Skill
 - **简述**：Gains "King's Acknowledgement," enabling this unit to ignore part of the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.
 - **最大等级**：15
@@ -106,7 +106,7 @@ Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to one designated enemy, 
 对指定敌方单体造成等同于吉尔伽美什#1[i]%攻击力的雷属性伤害，对相邻目标造成等同于吉尔伽美什#2[i]%攻击力的雷属性伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 140% | 70% | 10% | 10 | 15% | 3 | 2 |
   | Lv.2 | 154% | 77% | 11% | 10 | 16.5% | 3 | 2 |
@@ -137,14 +137,14 @@ Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to one designated enemy, 
 Deals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets.
 对指定敌方单体造成等同于吉尔伽美什350%攻击力的雷属性伤害，对相邻目标造成等同于吉尔伽美什175%攻击力的雷属性伤害。
 
-### 终结技：Enuma Elish
+### Ultimate：Enuma Elish
 - **类型**：Ultimate
 - **简述**：Deals massive Lightning DMG to all enemies. Additionally deals minor Lightning DMG to random enemies, bouncing 10 time(s).
 - **最大等级**：15
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to all enemies, and additionally deals #3[i] instance(s) of DMG, with each instance dealing Lightning DMG equal to #2[i]% of Gilgamesh's ATK to one random enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 200% | 50% | 10 |
   | Lv.2 | 220% | 55% | 10 |
@@ -169,7 +169,7 @@ Deals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, an
 
 - **满级效果**：Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.
 
-### 天赋："Amuse Me to the Fullest"
+### Talent："Amuse Me to the Fullest"
 - **类型**：Talent
 - **简述**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit.
 Initially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of "Interest". For each point of "Interest" in possession, increases SPD for this unit.
@@ -184,7 +184,7 @@ When "Interest" reaches #2[i] for the first time, enters the "Interest Piqued!" 
 当【兴致】首次达到#2[i]点时，进入【来兴致了！】状态，该状态下仅能施放战技，且持续整场战斗。施放战技后，清空自身【兴致】。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) | 参数4(%) |
+| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 3 | 10 | 20% | 10% |
   | Lv.2 | 3 | 10 | 22% | 10% |
@@ -214,7 +214,7 @@ When "Interest" reaches 10 for the first time, enters the "Interest Piqued!" sta
 初始自身回合开始时自动施放普攻。我方其他目标行动时，吉尔伽美什获得1点【兴致】，每拥有1点【兴致】使自身速度提高10%。
 当【兴致】首次达到10点时，进入【来兴致了！】状态，该状态下仅能施放战技，且持续整场战斗。施放战技后，清空自身【兴致】。
 
-### 秘技：Enkidu
+### Technique：Enkidu
 - **类型**：Technique
 - **简述**：Creates a Special Dimension. Enemies in the Special Dimension enter the "King's Permission" state and cease all actions.
 Attacking an enemy in the "King's Permission" state causes all enemies in the "King's Permission" state to enter combat simultaneously. After entering combat, deals Lightning DMG to all enemies and immediately gains 3 "Interest."
@@ -225,7 +225,7 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 主动攻击陷入【王来允许】的敌人进入战斗时，使所有处于【王来允许】状态的敌人同时进入战斗，进入战斗后对敌方全体造成等同于吉尔伽美什#2[i]%攻击力的雷属性伤害，且吉尔伽美什立即获得#3[i]点【兴致】。我方制造的领域效果最多存在1个。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 200% | 3 |
 
@@ -238,27 +238,27 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 When entering combat by actively attacking an enemy in the "King's Permission" state, causes all enemies in the "King's Permission" state to enter combat, and deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains 3 "Interest." Only 1 Dimension Effect created by allies can exist at the same time.
 主动攻击陷入【王来允许】的敌人进入战斗时，使所有处于【王来允许】状态的敌人同时进入战斗，进入战斗后对敌方全体造成等同于吉尔伽美什200%攻击力的雷属性伤害，且吉尔伽美什立即获得3点【兴致】。我方制造的领域效果最多存在1个。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 史诗的源头 | 晋阶2 | 吉尔伽美什施放终结技时，获得#3[i]点【兴致】。我方其他角色施放终结技时，吉尔伽美什额外获得#1[i]点【兴致】，并固定恢复等同于本次消耗能量值#2[i]%的能量。 | 吉尔伽美什施放终结技时，获得2点【兴致】。我方其他角色施放终结技时，吉尔伽美什额外获得2点【兴致】，并固定恢复等同于本次消耗能量值30%的能量。 | 信用点×5000、四相，过河照君×3、守护者的悲愿×1 |
 | 附加能力2 | 英雄的孤傲 | 晋阶4 | 本场战斗中，吉尔伽美什每获得1点【兴致】，使自身暴击伤害提高#1[i]%，该效果最多叠加#2[i]层。 | 本场战斗中，吉尔伽美什每获得1点【兴致】，使自身暴击伤害提高25%，该效果最多叠加6层。 | 信用点×20000、六合，王手飞车×5、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 王霸的竞逐 | 晋阶6 | 吉尔伽美什在场时，使我方全体目标攻击力提高#1[i]%，暴击伤害提高#2[i]%。若目标能量上限大于#3[i]，每超过1点能量上限使攻击力和暴击伤害额外提高#4[i]%，最多额外提高#5[i]%。 | 吉尔伽美什在场时，使我方全体目标攻击力提高20%，暴击伤害提高20%。若目标能量上限大于140，每超过1点能量上限使攻击力和暴击伤害额外提高1%，最多额外提高100%。 | 信用点×160000、万色，愚者自将×8、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
+| ATK | 18% |
 | 暴击率 | 18.7% |
 | 雷属性伤害提高 | 8% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | He Who Saw the Deep | When Gilgamesh holds "King's Acknowledgement," its DEF-ignoring effect also applies to other teammates, and "King's Acknowledgement" additionally increases Gilgamesh's ATK by 60%. When using Skill, additionally regenerates a fixed 40 Energy. |
 | E2 | Wisdom That Encompassed All | When entering combat, Gilgamesh gains 5 "Interest." When using Ultimate, additionally gains 5 "Interest." The DMG multiplier of the Skill "Gate of Babylon" against the primary target increases by 100%, and its DMG multiplier against adjacent targets increases by 50%. |
@@ -269,70 +269,70 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 雷属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/星如我见的领航员\|星如我见的领航员]] | 装备者进入战斗时/施放战技时，使战技和终结技造成的伤害提高18%，最多叠加3层，装备者回合开始时/施放终结技后，移除1层该效果。 |
-| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|激奏雷电的乐队]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/星如我见的领航员\|As Navigator Isee Sees It]] | 装备者进入战斗时/施放战技时，使战技和终结技造成的伤害提高18%，最多叠加3层，装备者回合开始时/施放终结技后，移除1层该效果。 |
+| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|Band of Sizzling Thunder]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/寰宇生研院\|寰宇生研院]] | 进入战斗时，若装备者能量上限大于等于200点，每超过1点使装备者造成的伤害提高0.2%，最多提高32%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/寰宇生研院\|Cosmic Life Sciences Institute]] | 进入战斗时，若装备者能量上限大于等于200点，每超过1点使装备者造成的伤害提高0.2%，最多提高32%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/所见即我.md|所见即我]]
+### [[zh_cn/lightcone/毁灭/所见即我.md|I Am As You Behold]]
 
 - **基础属性**：生953 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：随心
 - **效果**：使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【10%/12.5%/15%/17.5%/20%】。装备者施放终结技时，每消耗1点能量值，使本次造成的终结技伤害提高【0.2%/0.25%/0.3%/0.35%/0.4%】，最多提高【72%/90%/108%/126%/144%】。装备者进入战斗或施放终结技时，使装备者获得【王之娱乐】，持续3回合。当装备者持有【王之娱乐】时，我方全体暴击伤害提高【24%/30%/36%/42%/48%】，同类效果无法叠加。
 
-### [[zh_cn/lightcone/毁灭/没有回报的加冕.md|没有回报的加冕]]
+### [[zh_cn/lightcone/毁灭/没有回报的加冕.md|A Thankless Coronation]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★
 - **技能名**：骑士之王
 - **效果**：使装备者的暴击伤害提高【36%/45%/54%/63%/72%】。施放终结技时，使装备者的攻击力提高【40%/50%/60%/70%/80%】，若装备者的能量上限大于等于300点，为装备者固定恢复等同于装备者能量上限10%的能量，并使装备者的攻击力提高【40%/50%/60%/70%/80%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/吉尔伽美什_雷_五星.md\|吉尔伽美什]] | [[zh_cn/character/毁灭/Saber_风_五星.md\|Saber]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |
+| [[zh_cn/character/毁灭/吉尔伽美什_雷_五星.md\|吉尔伽美什]] | [[zh_cn/character/毁灭/Saber_风_五星.md\|Saber]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/毁灭/吉尔伽美什_雷_五星.md\|吉尔伽美什]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
-| [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 在宇宙之外的某个世界中，人类历史最初的英雄王。
 三分之二是神、三分之一是人的他，理所当然地拥有支配一切的特权（自称）。
 今天也一如既往地放声大笑着，直到被某个世仇女神牵连进异界——
 这一次，他将再次夺回身为王的一切。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「他见到幽深海底，大地的根基；他知晓秘密所在，一切皆洞悉。」
 史诗记载了王的结局：他获得了全部智慧，见到了一切宝藏，揭开了诸神的奥秘。
@@ -365,7 +365,7 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 
 就这样，恩奇都心怀喜悦，奔向了凡间。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「史诗记载的不错：我们的第一次相遇，就在执行圣婚仪式的祭坛前。
 「哼…区区土块，竟敢大放厥词，说要『端正本王的傲慢』。
@@ -394,7 +394,7 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 诸神能发动洪水灭世的时代，的确一去不复返了……
 但若说咒杀一位英雄豪杰，它们仍是十拿九稳。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 恩奇都死了。
 
@@ -431,7 +431,7 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 再后来，王回到了乌鲁克，两手空空。
 后来的读者啊，请不要责怪吉尔伽美什，因为游子总要归家。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 史诗正文到此为止。最后一块泥板的内容，更像是盛大的歌剧落幕后返场表演的小品。
 时移世易，数千年之后，吉尔伽美什因为这则史诗成为了英灵——

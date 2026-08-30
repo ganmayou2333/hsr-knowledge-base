@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Firesmith |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*3智识*2 |
+| Name | Firesmith |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*3智识*2 |
 
 
-## 效果
+## Effect
 
 角色造成的终结技伤害提高60%。角色每损失1%生命值，为【罐中脑】充能0.5%。
 
-## 强化效果
+## Enhanced Effect
 
 -

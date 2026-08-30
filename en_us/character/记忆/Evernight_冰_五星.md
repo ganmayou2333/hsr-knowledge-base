@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Evernight |
-| 命途 | Remembrance |
-| 属性 | Ice |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 与世相隔的忆域，烛火映出过往，于迷雾中悄然熄去。 自那影中而来的记忆之子长夜月，隐匿「岁月」火种的黄金裔，掀起「忘却」的浪潮，守护镜中人的心愿 ——「别担心，我会为你看护『开拓』的前路…不惜任何代价♭」 |
+| Character Name | Evernight |
+| Path | Remembrance |
+| Attribute | Ice |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 与世相隔的忆域，烛火映出过往，于迷雾中悄然熄去。 自那影中而来的记忆之子长夜月，隐匿「岁月」火种的黄金裔，掀起「忘却」的浪潮，守护镜中人的心愿 ——「别担心，我会为你看护『开拓』的前路…不惜任何代价♭」 |
 | 城邦 | 天外 |
 | 神权 | 「永夜之帷，欧洛尼斯」 |
-| 定位 | 召唤忆灵「长夜」进行作战的输出型角色 |
+| Role | 召唤忆灵「长夜」进行作战的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 小仓唯 |
-| 英语 | Skyler Davenport |
-| 中文 | 诺亚 |
-| 韩语 | 정혜원 |
+| Japanese | 小仓唯 |
+| English | Skyler Davenport |
+| Chinese | 诺亚 |
+| Korean | 정혜원 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,319 |
-| 基础攻击力 | 543 |
-| 基础防御力 | 582 |
-| 基础速度 | 99 |
-| 嘲讽 | 100 |
-| 能量上限 | 240 |
+| Base HP | 1,319 |
+| Base ATK | 543 |
+| Base DEF | 582 |
+| Base SPD | 99 |
+| Taunt | 100 |
+| Max Energy | 240 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/海妖残鳍\|海妖残鳍]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/海妖残鳍\|Sea Siren's Torn Fin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,818,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 8 |
-| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 42 |
-| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 86 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 25 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,818,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/思量的种\|Bīja of Consciousness]] | 8 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|Seedling of Manas]] | 42 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|Flower of Ālaya]] | 86 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|Daythunder Anamnesis]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 25 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 22 |
 
 ---
-## 战技
-### 普攻：Time Thence Blurs
+## Skills
+### Basic ATK：Time Thence Blurs
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -99,14 +99,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.
 
-### 战技：Day Gently Slips
+### Skill：Day Gently Slips
 - **类型**：Skill
 - **简述**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
 - **最大等级**：15
 - **效果模板**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains #3[i] "Memoria." If in the "Darkest Riddle" state, additionally gains #5[i] "Memoria."
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 12% | 2 | 2 | 50% | 12 | 10% |
   | Lv.2 | 13.2% | 2 | 2 | 50% | 12 | 10% |
@@ -134,14 +134,14 @@
 
 - **满级效果**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
 
-### 终结技：O Wakeful World, Goodnight
+### Ultimate：O Wakeful World, Goodnight
 - **类型**：Ultimate
 - **简述**：Deals Ice DMG to all enemies. Summons memosprite Evey and causes Evernight to enter the "Darkest Riddle" state, during which enemies take increased DMG and both Evernight and her memosprite deal increased DMG and are immune to Crowd Control debuffs.
 - **最大等级**：15
 - **效果模板**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to #1[i]% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take #4[i]% increased DMG while both Evernight and Evey deal #3[i]% increased DMG and are immune to Crowd Control debuffs. Gains #2[i] point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 2 | 30% | 15% |
   | Lv.2 | 110% | 2 | 33% | 16.5% |
@@ -167,7 +167,7 @@
 
 - **满级效果**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
 
-### 天赋：With Me, This Night
+### Talent：With Me, This Night
 - **类型**：Talent
 - **简述**：When entering combat, summons memosprite Evey. Each time this unit or Evey loses HP, increases CRIT DMG for this unit and Evey, and gains "Memoria."
 When Evernight has 16 or more "Memoria," Evey immediately takes action.
@@ -178,7 +178,7 @@ When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debu
 长夜月持有的【忆质】大于等于#6[i]点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 30% | 2 | 160 | 50% | 16 | 5% |
   | Lv.2 | 2 | 33% | 2 | 160 | 50% | 16 | 5% |
@@ -209,14 +209,14 @@ When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debu
 When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses "Dream, Dissolving, as Dew."
 长夜月持有的【忆质】大于等于16点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。
 
-### 秘技：Let it Rain Cold On Thee
+### Technique：Let it Rain Cold On Thee
 - **类型**：Technique
 - **简述**：At the start of the next battle, obtains the same effect as the one from Skill that increases memosprite CRIT DMG, and additionally gains "Memoria."
 - **最大等级**：1
 - **效果模板**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains #1[i] "Memoria."
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 1 | 1 |
 
@@ -226,27 +226,27 @@ When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs
 
 - **满级效果**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains 1 "Memoria."
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 天黑黑，月寂寂 | 晋阶2 | 长夜月和忆灵「长夜」的暴击率提高#1[i]%，施放技能时，消耗自身当前生命值的#2[i]%使双方的暴击伤害提高#3[i]%，持续#4[i]回合。忆灵「长夜」施放【迷梦，流失，如露】后，为我方恢复1个战技点。 | 长夜月和忆灵「长夜」的暴击率提高35%，施放技能时，消耗自身当前生命值的5%使双方的暴击伤害提高15%，持续2回合。忆灵「长夜」施放【迷梦，流失，如露】后，为我方恢复1个战技点。 | 信用点×5000、思量的种×3、阳雷的遥想×1 |
 | 附加能力2 | 烛火起，烛火熄 | 晋阶4 | 战斗开始时，长夜月恢复#2[i]点能量并获得#3[i]点【忆质】。长夜月或我方忆灵施放技能时，长夜月恢复#4[i]点能量并获得#1[i]点【忆质】。 | 战斗开始时，长夜月恢复70点能量并获得1点【忆质】。长夜月或我方忆灵施放技能时，长夜月恢复5点能量并获得1点【忆质】。 | 信用点×20000、末那芽苗×5、命运的足迹×1、阳雷的遥想×1 |
 | 附加能力3 | 天亮了，雨落了 | 晋阶6 | 队伍中「记忆」命途角色数量等于1/2/3/4或以上时，长夜月的战技持续期间额外使我方全体忆灵暴击伤害提高#1[i]%/#2[i]%/#3[i]%/#4[i]%。 | 队伍中「记忆」命途角色数量等于1/2/3/4或以上时，长夜月的战技持续期间额外使我方全体忆灵暴击伤害提高5%/15%/50%/65%。 | 信用点×160000、阿赖耶华×8、命运的足迹×1、阳雷的遥想×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
+| HP | 18% |
 | 暴击率 | 18.7% |
 | 暴击伤害 | 13.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Sleep Tight, the Night Dreams Long | When Evernight is on the field, if there are (≥4)/3/2/1 enemy targets on the field, ally memosprites deal DMG equal to 120%/125%/130%/150% of their original DMG respectively. |
 | E2 | Listen Up, the Slumber Speaks Soft | Increases Evernight's and the memosprite Evey's CRIT DMG by 40%. Each time Evernight gains "Memoria," increases the amount of "Memoria" gain by 2 point(s). When using Ultimate, additionally gains 2 Charge for "Darkest Riddle." |
@@ -257,77 +257,77 @@ When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 冰属性伤害提高 / 生命值
 
 **推荐副词条**：暴击率 / 暴击伤害 / 速度 / 生命值
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/再创天地的救世主\|再创天地的救世主]] | 装备者施放普攻或战技后，若装备者的忆灵在场，使装备者及其忆灵生命上限提高24%，我方全体造成的伤害提高15%，持续至装备者下次施放普攻或战技后。 |
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|宝命长存的莳者]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
+| [[zh_cn/relic/隧洞遗器/再创天地的救世主\|World-Remaking Deliverer]] | 装备者施放普攻或战技后，若装备者的忆灵在场，使装备者及其忆灵生命上限提高24%，我方全体造成的伤害提高15%，持续至装备者下次施放普攻或战技后。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|Longevous Disciple]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/妖精织梦的乐园\|妖精织梦的乐园]] | 队伍中当前在场的我方目标数量不等于4时，每多/少1名我方目标，使装备者及其忆灵造成的伤害提高9%/12%，最多叠加4/3层。 |
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/妖精织梦的乐园\|Arcadia of Woven Dreams]] | 队伍中当前在场的我方目标数量不等于4时，每多/少1名我方目标，使装备者及其忆灵造成的伤害提高9%/12%，最多叠加4/3层。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/记忆/致长夜的星光.md|致长夜的星光]]
+### [[zh_cn/lightcone/记忆/致长夜的星光.md|To Evernight's Stars]]
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：未眠
 - **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】。装备者的忆灵施放技能时，使装备者获得【夜色】。装备者持有【夜色】时，我方全体忆灵造成的伤害无视目标【20%/22.5%/25%/27.5%/30%】的防御力，装备者和装备者忆灵造成的伤害提高【30%/37.5%/45%/52.5%/60%】，装备者的忆灵消失时为装备者恢复【8/10/12/14/16】点能量，同类效果无法叠加。
 
-### [[zh_cn/lightcone/记忆/让告别，更美一些.md|让告别，更美一些]]
+### [[zh_cn/lightcone/记忆/让告别，更美一些.md|Make Farewells More Beautiful]]
 - **基础属性**：生1270 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：铭刻
 - **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次，装备者每次施放终结技时重置触发次数。
 
-### [[zh_cn/lightcone/记忆/花儿不会忘记.md|花儿不会忘记]]
+### [[zh_cn/lightcone/记忆/花儿不会忘记.md|The Flower Remembers]]
 - **基础属性**：生1058 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：相依为命
 - **效果**：使装备者的暴击伤害提高【24%/28%/32%/36%/40%】。装备者忆灵造成的暴击伤害额外提高【24%/30%/36%/42%/48%】。
 
-### [[zh_cn/lightcone/记忆/记忆永不落幕.md|记忆永不落幕]]
+### [[zh_cn/lightcone/记忆/记忆永不落幕.md|Memory's Curtain Never Falls]]
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：收取
 - **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
 
-## 推荐队伍
+## Recommended Teams
 
 > 官方 Wiki 配队推荐（角色去重，按推荐顺序列出，未严格按位置分组）
 
 - [[zh_cn/character/记忆/长夜月_冰_五星|长夜月]]
-- [[zh_cn/character/记忆/遐蝶_量子_五星|遐蝶]]
-- [[zh_cn/character/同谐/缇宝_量子_五星|缇宝]]
-- [[zh_cn/character/记忆/风堇_风_五星|风堇]]
+- [[zh_cn/character/记忆/遐蝶_量子_五星|Castorice]]
+- [[zh_cn/character/同谐/缇宝_量子_五星|Tribbie]]
+- [[zh_cn/character/记忆/风堇_风_五星|Hyacine]]
 - [[zh_cn/character/记忆/开拓者_冰_五星|开拓者•记忆]]
-- [[zh_cn/character/同谐/阮•梅_冰_五星|阮•梅]]
+- [[zh_cn/character/同谐/阮•梅_冰_五星|Ruan Mei]]
 
 ---
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 与世相隔的忆域，烛火映出过往，于迷雾中悄然熄去。
 自那影中而来的记忆之子长夜月，隐匿「岁月」火种的黄金裔，掀起「忘却」的浪潮，守护镜中人的心愿
 ——「别担心，我会为你看护『开拓』的前路…不惜任何代价♭」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「亲爱的三月七：
 
@@ -358,7 +358,7 @@ When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs
 
 ——深藏心底的声音
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「亲爱的三月七：
 
@@ -391,7 +391,7 @@ When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs
 
 ——深藏心底的声音
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「亲爱的三月七：
 
@@ -431,7 +431,7 @@ When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs
 
 ——深藏心底的声音
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「亲爱的三月七：
 

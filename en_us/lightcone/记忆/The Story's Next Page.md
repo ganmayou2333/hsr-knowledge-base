@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | The Story's Next Page |
-| 命途 | Remembrance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | The Story's Next Page |
+| Path | Remembrance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The breeze stirs the wheat fields as the girl, clutching a blank journal, strolls through the golden waves.
 Beyond Aedes Elysiae, in a city both unfamiliar and eerily familiar, companions of all kinds will cross paths, and a journey like a song, like a dream, is about to begin...
@@ -23,18 +23,18 @@ Beyond Aedes Elysiae, in a city both unfamiliar and eerily familiar, companions 
 At the edge of the field, the girl who has waited so long closes her book and extends a hand toward the "future"—
 "Let's write a new chapter of the story ♪"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 370 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Written Down
 
 Increases the wearer's Max HP by 16%. After the wearer's memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by 12%, lasting for 1 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

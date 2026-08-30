@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Guinea Pig in Ice Coffin |
-| 类型 | 祝福 |
-| 命途 | 欢愉&记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Guinea Pig in Ice Coffin |
+| Type | Blessing |
+| Path | 欢愉&记忆 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响「欢愉」造成冰属性伤害时，有150%的基础概率使敌方目标陷入冻结状态，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Dark Matter ELO-536 |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Dark Matter ELO-536 |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616832 | Increases All-Type RES PEN for Ultimate DMG dealt by ally targets by 20%. For every enemy target on the field, the All-Type RES PEN for the Ultimate DMG dealt additionally increases by 3%. This effect lasts until the next time an Ultimate is used. |
 | 617832 | The All-Type RES PEN for Ultimate DMG dealt by the ally target increases by 20%. After an Ultimate ATK is used, for every enemy target that is hit by this Ultimate, the All-Type RES PEN for the Ultimate DMG dealt will additionally increase by 3%. This effect lasts until after the next usage of an Ultimate. |

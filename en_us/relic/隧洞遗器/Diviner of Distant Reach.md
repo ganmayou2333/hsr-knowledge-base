@@ -4,20 +4,20 @@
 > 实体ID：130
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/6825/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Diviner of Distant Reach |
-| 类型 | 隧洞遗器 |
-| 实体ID | 130 |
-## 获取途径
+| Name | Diviner of Distant Reach |
+| Type | 隧洞遗器 |
+| Entity ID | 130 |
+## Acquisition
 魔占之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases SPD by 6%.
 ### 4 件套
 Before entering combat, if the wearer's SPD is greater than or equal to 120/160, increases the wearer's CRIT Rate by 10%/18%. When the wearer uses Elation Skill for the first time in each battle, increases all allies' Elation by 10%. This effect cannot stack.
-## 部位
+## Pieces
 ### 手部：卜者的机巧义手
 **描述**：于塔拉萨的战场失去一条手臂后，竟天为自己打造的义手——冰冷、精确，一如他的卜算。
 **来历**：

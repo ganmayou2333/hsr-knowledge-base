@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mysterious Code |
-| 类型 | 加权奇物 |
+| Name | Mysterious Code |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

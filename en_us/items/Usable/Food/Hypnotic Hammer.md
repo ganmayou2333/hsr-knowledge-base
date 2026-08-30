@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Hypnotic Hammer |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Hypnotic Hammer |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中受到的伤害降低18%，进入战斗时有10%的基础概率陷入强烈震荡状态，持续1回合。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 过期邮包收购处

@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Sushang |
-| 命途 | The Hunt |
-| 属性 | Physical |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 出生于仙舟「曜青」，前往「罗浮」云骑军接受历练的新兵。身佩母亲赠予的家传剑器，憧憬着自己即将书写的未来。 |
-| 定位 | 能够造成附加伤害，拥有高破韧效率的对单输出角色 |
+| Character Name | Sushang |
+| Path | The Hunt |
+| Attribute | Physical |
+| Rarity | ★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 出生于仙舟「曜青」，前往「罗浮」云骑军接受历练的新兵。身佩母亲赠予的家传剑器，憧憬着自己即将书写的未来。 |
+| Role | 能够造成附加伤害，拥有高破韧效率的对单输出角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 福圓美里 |
-| 英语 | Anjali Kunapaneni |
-| 中文 | 陈婷婷 |
-| 韩语 | 박시윤 |
+| Japanese | 福圓美里 |
+| English | Anjali Kunapaneni |
+| Chinese | 陈婷婷 |
+| Korean | 박시윤 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 917 |
-| 基础攻击力 | 564 |
-| 基础防御力 | 419 |
-| 基础速度 | 107 |
-| 嘲讽 | 75 |
-| 能量上限 | 120 |
+| Base HP | 917 |
+| Base ATK | 564 |
+| Base DEF | 419 |
+| Base SPD | 107 |
+| Taunt | 75 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/铁狼碎齿\|铁狼碎齿]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/铁狼碎齿\|Broken Teeth of Iron Wolf]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/猎兽之矢\|猎兽之矢]] | 8 |
-| [[zh_cn/items/Material/TracePath/屠魔之矢\|屠魔之矢]] | 42 |
-| [[zh_cn/items/Material/TracePath/逐星之矢\|逐星之矢]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/猎兽之矢\|Arrow of the Beast Hunter]] | 8 |
+| [[zh_cn/items/Material/TracePath/屠魔之矢\|Arrow of the Demon Slayer]] | 42 |
+| [[zh_cn/items/Material/TracePath/逐星之矢\|Arrow of the Starchaser]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 20 |
 
 ---
-## 战技
-### 普攻：Cloudfencer Art: Starshine
+## Skills
+### Basic ATK：Cloudfencer Art: Starshine
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Sushang's ATK to one designated enemy.
 
-### 战技：Cloudfencer Art: Mountainfall
+### Skill：Cloudfencer Art: Mountainfall
 - **类型**：Skill
 - **简述**：Deals Physical DMG to one enemy with a small chance of triggering "Sword Stance". If the enemy has Weakness Break, "Sword Stance" is guaranteed to trigger.
 - **最大等级**：15
@@ -106,7 +106,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 若该目标处于弱点击破状态，则【剑势】必定发动。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 105% | 50% | 33% |
   | Lv.2 | 115.5% | 55% | 33% |
@@ -133,7 +133,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to trigger.
 若该目标处于弱点击破状态，则【剑势】必定发动。
 
-### 终结技：Shape of Taixu: Dawn Herald
+### Ultimate：Shape of Taixu: Dawn Herald
 - **类型**：Ultimate
 - **简述**：Deals massive Physical DMG to one enemy, enhances "Sword Stance's" effect, and takes action immediately.
 - **最大等级**：15
@@ -142,7 +142,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 通过额外判定发动的【剑势】伤害为原伤害的#3[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 192% | 2 | 50% | 18% |
   | Lv.2 | 204.8% | 2 | 50% | 19.2% |
@@ -170,14 +170,14 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 "Sword Stance" triggered from the extra chances deals 50% of the original DMG.
 通过额外判定发动的【剑势】伤害为原伤害的50%。
 
-### 天赋：Dancing Blade
+### Talent：Dancing Blade
 - **类型**：Talent
 - **简述**：When an enemy on the field has its Weakness Broken, this character's SPD increases.
 - **最大等级**：15
 - **效果模板**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
   | Lv.2 | 15.5% | 2 |
@@ -201,14 +201,14 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 
 - **满级效果**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for 2 turn(s).
 
-### 秘技：Cloudfencer Art: Warcry
+### Technique：Cloudfencer Art: Warcry
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor Physical DMG to all enemies.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
 
@@ -217,27 +217,27 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 
 - **满级效果**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 赤子 | 晋阶2 | 若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。 | 若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。 | 信用点×4000、猎兽之矢×2、守护者的悲愿×1 |
 | 附加能力2 | 逐寇 | 晋阶4 | 每发动1次【剑势】，【剑势】造成的伤害提高#1[i]%，该效果最多叠加#2[i]层。 | 每发动1次【剑势】，【剑势】造成的伤害提高2.5%，该效果最多叠加10层。 | 信用点×16000、屠魔之矢×4、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 破敌 | 晋阶6 | 施放普攻或战技后，若场上有敌方目标处于弱点击破状态，则素裳的行动提前#1[i]%。 | 施放普攻或战技后，若场上有敌方目标处于弱点击破状态，则素裳的行动提前15%。 | 信用点×128000、逐星之矢×6、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| HP | 18% |
+| ATK | 28% |
+| DEF | 12.5% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Cut With Ease | After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point. |
 | E2 | Refine in Toil | After Sword Stance is triggered, the DMG taken by Sushang is reduced by 20% for 1 turn. |
@@ -248,78 +248,78 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 物理属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度 / 击破特攻
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/于夜色中.md|于夜色中]]
+### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：花与蝶
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-### [[zh_cn/lightcone/巡猎/如泥酣眠.md|如泥酣眠]]
+### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：美梦
 - **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | [[zh_cn/character/巡猎/素裳_物理_四星.md\|素裳]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|娜塔莎]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
-| [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |  |
+| [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 单纯热心的云骑军新人，执一柄重剑。
 憧憬着云骑军历史上的传奇，渴望成为响当当的人物。
 为此，素裳坚决恪守「急人所急，有求必应；日行一善，三省吾身」的信条，过着助人为乐的忙碌日子。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 玉界朗朗，琼田荡荡。星槎如织入海市，游人络绎塞天门。凡有行旅出入罗浮，抬眼便可瞧见一宽阔界门，其中空间隔膜如涡流扰动，无凭无依，兀自吐纳往来大小舟舸，蔚为壮观。
 
@@ -336,7 +336,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 「姓名：素裳；随身物件：『轩辕』一柄；来历……」
 「…啧！这『曜青』的『曜』字…是怎个写的来着？」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 自素裳响应罗浮云骑前来已有些时日。她平日已铆足气力四处逻察，却也不见半点鼠窃狗盗之扰，引得她是又恼又气。末了便只好依旧修武习剑，闲时便去听人说书，日子过得是百无聊赖。
 
@@ -351,7 +351,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 「这是甚么…爆竹？！」
 「这化外民…真是不容小觑啊！」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「尊敬的母亲、父亲大人：
 
@@ -366,7 +366,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 素裳
 于十月廿一」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「素裳：
 

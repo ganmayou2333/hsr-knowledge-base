@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Blooms Before Unnamed Graves |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Blooms Before Unnamed Graves |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 黑夜占比增加25%，黑夜中我方目标生命上限额外提高45%。
 
-## 强化效果
+## Enhanced Effect
 
 -

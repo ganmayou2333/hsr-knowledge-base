@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Growth Booster |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Growth Booster |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 西衍先生故事中用于培育星槎种子的高科技药剂。此物倒确实有可能真实存在，但在细节上有所夸张。
 
 
-## 获得途径
+## Acquisition
 
 - 1.2活动冒险任务【评书奇谭】

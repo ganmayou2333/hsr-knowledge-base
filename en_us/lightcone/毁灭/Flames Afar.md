@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Flames Afar |
-| 命途 | Destruction |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Flames Afar |
+| Path | Destruction |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Package secured. I'll leave covering our retreat to you."
 Their comrade's voice comes through the communicator.
@@ -27,18 +27,18 @@ With a rustle, they flung open the cape as if they just finished a leisurely str
 "Of course."
 "So, let's light it up. All I need to do is play the part of the match."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 476 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Deflagration
 
 When the wearer's cumulative HP loss during one attack exceeds 25% of their Max HP, or if the amount of their own HP consumed at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP, and at the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

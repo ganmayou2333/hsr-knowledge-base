@@ -4,20 +4,20 @@
 > 实体ID：126
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/5374/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Wavestrider Captain |
-| 类型 | 隧洞遗器 |
-| 实体ID | 126 |
-## 获取途径
+| Name | Wavestrider Captain |
+| Type | 隧洞遗器 |
+| Entity ID | 126 |
+## Acquisition
 雳涌之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases CRIT DMG by 16%.
 ### 4 件套
 When the wearer becomes the target of another ally target's ability, gains 1 stack of "Help," stacking up to 2 time(s). If there are 2 stack(s) of "Help" when the wearer uses their Ultimate, consumes all "Help" to increase the wearer's ATK by 48% for 1 turn(s).
-## 部位
+## Pieces
 ### 手部：船长的捕光星盘
 **描述**：捕获星光指引方向的航海罗盘。即使身处昏黑无边的大海中，也会有星光指出前进方向。
 **来历**：

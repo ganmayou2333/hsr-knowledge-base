@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fishing Ceremony |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_22.png` |
+| Name | Fishing Ceremony |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_22.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我想获得财富。 | 全体失去99%当前生命值、所有能量和秘技点，获得400宇宙碎片。/获得1个随机负面奇物，获得400宇宙碎片。/失去1个随机祝福，获得400宇宙碎片。 |
 | 我想获得恩赐。 | 全体失去99%当前生命值、所有能量和秘技点，获得3个随机祝福。/获得1个随机负面奇物，获得3个随机祝福。/失去100宇宙碎片，获得3个随机祝福。 |
@@ -32,6 +32,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 422201 |  |

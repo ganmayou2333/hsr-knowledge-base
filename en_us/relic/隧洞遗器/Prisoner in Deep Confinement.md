@@ -4,20 +4,20 @@
 > 实体ID：116
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/1968/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Prisoner in Deep Confinement |
-| 类型 | 隧洞遗器 |
-| 实体ID | 116 |
-## 获取途径
+| Name | Prisoner in Deep Confinement |
+| Type | 隧洞遗器 |
+| Entity ID | 116 |
+## Acquisition
 幽冥之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases ATK by 12%.
 ### 4 件套
 For every DoT the enemy target is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs.
-## 部位
+## Pieces
 ### 手部：系囚的铅石梏铐
 **描述**：紧缚魔手的沉重镣铐，钢针钉腕，钳制凶爪恶逆再造杀孽。
 **来历**：

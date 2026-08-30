@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Broadened Cognition: The Suffering *Father* (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_11.png` |
+| Name | Broadened Cognition: The Suffering *Father* (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_11.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：巨响从天边传来。你看见庞然大物轰然*坍塌*的画面，但不仅如此——骇人的景象在你眼前铺展开来：那巨物陨落的同时，它身后的无数工厂、机械和庞大的帝国也悉数坍塌。
 模拟宇宙：仿佛有一种无形的力量*摧毁*了整个世界，你意识到——这就是「末日」。滚滚尘烟中，世界瓦解的声响久久回荡，如同来自宇宙的风暴，几乎要撕裂你的*耳膜*…你四处躲藏，却无处可藏。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 驱散眼前的烟雾。 | — |
 
@@ -37,6 +37,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 155 |  |

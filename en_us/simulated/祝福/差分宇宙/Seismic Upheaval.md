@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Seismic Upheaval |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Seismic Upheaval |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 进入黑夜时，我方全体目标获得等同于生命上限75%的护盾并获得【岩晶】。持有【岩晶】的我方目标，造成的最终伤害提高50%。当我方目标未持有护盾或进入白昼时，移除其身上的【岩晶】。

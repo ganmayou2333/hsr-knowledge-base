@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Seedling of Manas |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 行迹材料 |
+| Item Name | Seedling of Manas |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 行迹材料 |
 
 
-## 说明
+## Description
 
 记忆的细胞萃取着思绪，于铭刻者的心底滋蔓，可中幅提升记忆角色的命途行迹。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【「纷争荒墟」悬锋城】
 - 「万能合成机」- 材料合成

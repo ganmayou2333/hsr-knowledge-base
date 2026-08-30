@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Destined Expiration |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / TracePath |
+| Item Name | Destined Expiration |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 3★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 嵌入死者眉心，穿透物体罅隙，这颗子弹永远在它弹孔该在的地方。可中幅提升巡猎角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【苏乐达™热砂海选会场】
 - 「万能合成机」- 材料合成

@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Giant's Nemesis |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Giant's Nemesis |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：古老的歌谣口口相传，讲述那遥远的过去，巨人刻法勒的死敌。
 差分宇宙：生命在大地上繁衍，最后没入死亡。死亡滋生争斗，争斗滋生战争。当手无寸铁的人子被杀死，坠入冥河，越来越多的哀怨和憎恨在塞纳托斯的神国里增长。
 差分宇宙：死者的骸骨和冥河的水相结合，被怨声重塑为巨像，它在大地之下找到了艾格勒创造巨人时投下的那把雷枪，用冥河的水淬洗之后，制作成手中的天谴之矛。
 差分宇宙：此即为巨人死敌——天谴之矛尼卡多利的诞生。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 生命不会屈从战争。 | — |
 | 战争不会怜惜生命。 | — |
@@ -66,6 +66,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 253 |  |

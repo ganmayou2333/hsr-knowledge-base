@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Robot Sales Terminal |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 交易 |
-| 图片 | `image/simulated_event/PicRogueEvent_Trade.png` |
+| Name | Robot Sales Terminal |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 交易 |
+| Image | `image/simulated_event/PicRogueEvent_Trade.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 吞没销售终端的「防护网」。 | 成功获得祝福，失败减少所有角色99%当前生命值，当前有20%概率失败，每次成功增加20%失败概率 |
 | 购买2个随机祝福。 | 消耗100宇宙碎片购买2个随机祝福。 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 14001 |  |
 | 114001 |  |

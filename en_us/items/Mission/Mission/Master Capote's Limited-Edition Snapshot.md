@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Master Capote's Limited-Edition Snapshot |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Master Capote's Limited-Edition Snapshot |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 从特殊角度抓拍的照片，上面还有卡波特的个人签名。
 
 
-## 获得途径
+## Acquisition
 
 - 阿兰同行任务【阴差阳错】

@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Rough Sketch |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 行迹材料 |
+| Item Name | Rough Sketch |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 行迹材料 |
 
 
-## 说明
+## Description
 
 钟表小子的角色草稿，寥寥数笔赋予梦想以形状。可小幅提升智识角色的命途行迹。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【匹诺康尼大剧院】
 - 余烬兑换

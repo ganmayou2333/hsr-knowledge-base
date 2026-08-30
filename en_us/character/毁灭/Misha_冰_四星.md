@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Misha |
-| 命途 | Destruction |
-| 属性 | Ice |
-| 稀有度 | ★★★★ |
-| 阵营 | 匹诺康尼 |
-| 角色介绍 | 匹诺康尼酒店的门童侍应，乖巧懂事的小男孩。对无名客抱有极大憧憬，梦想有朝一日自己也能踏上旅途。 |
-| 定位 | 兼具控制能力的输出型角色 |
+| Character Name | Misha |
+| Path | Destruction |
+| Attribute | Ice |
+| Rarity | ★★★★ |
+| Faction | 匹诺康尼 |
+| Introduction | 匹诺康尼酒店的门童侍应，乖巧懂事的小男孩。对无名客抱有极大憧憬，梦想有朝一日自己也能踏上旅途。 |
+| Role | 兼具控制能力的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 松井恵理子 |
-| 英语 | Cat Protano |
-| 中文 | 柳知萧 |
-| 韩语 | 박신희 |
+| Japanese | 松井恵理子 |
+| English | Cat Protano |
+| Chinese | 柳知萧 |
+| Korean | 박신희 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,270 |
-| 基础攻击力 | 600 |
-| 基础防御力 | 397 |
-| 基础速度 | 96 |
-| 嘲讽 | 125 |
-| 能量上限 | 100 |
+| Base HP | 1,270 |
+| Base ATK | 600 |
+| Base DEF | 397 |
+| Base SPD | 96 |
+| Taunt | 125 |
+| Max Energy | 100 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/冷藏梦箱\|冷藏梦箱]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/冷藏梦箱\|Dream Fridge]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/步离犬牙\|步离犬牙]] | 8 |
-| [[zh_cn/items/Material/TracePath/狼毒锯牙\|狼毒锯牙]] | 42 |
-| [[zh_cn/items/Material/TracePath/月狂獠牙\|月狂獠牙]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/步离犬牙\|Borisin Teeth]] | 8 |
+| [[zh_cn/items/Material/TracePath/狼毒锯牙\|Lupitoxin Sawteeth]] | 42 |
+| [[zh_cn/items/Material/TracePath/月狂獠牙\|Moon Rage Fang]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 20 |
 
 ---
-## 战技
-### 普攻：E—Excuse Me, Please!
+## Skills
+### Basic ATK：E—Excuse Me, Please!
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of Misha's ATK to one designated enemy target.
 
-### 战技：R—Room Service!
+### Skill：R—Room Service!
 - **类型**：Skill
 - **简述**：Deals Ice DMG to an enemy and minor Ice DMG to enemies adjacent to them. In addition, increases Misha's next Ultimate's Hits Per Action.
 - **最大等级**：15
 - **效果模板**：Increases the Hits Per Action for Misha's next Ultimate by #3[i] hit(s). Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target, and Ice DMG equal to #2[i]% of Misha's ATK to adjacent targets.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 100% | 40% | 1 |
   | Lv.2 | 110% | 44% | 1 |
@@ -129,7 +129,7 @@
 
 - **满级效果**：Increases the Hits Per Action for Misha's next Ultimate by 1 hit(s). Deals Ice DMG equal to 250% of Misha's ATK to one designated enemy target, and Ice DMG equal to 100% of Misha's ATK to adjacent targets.
 
-### 终结技：G—Gonna Be Late!
+### Ultimate：G—Gonna Be Late!
 - **类型**：Ultimate
 - **简述**：Deals minor Ice DMG to single enemies. The attack bounces 3 times by default and up to a maximum of 10 times. Before each hit lands, there is a minor chance to Freeze the target.
 - **最大等级**：15
@@ -140,7 +140,7 @@ This Ultimate can possess up to #5[i] Hits Per Action. After the Ultimate is use
 终结技最多累计#5[i]段攻击段数，施放终结技后攻击段数恢复至初始状态。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 3 | 36% | 12% | 18% | 10 |
   | Lv.2 | 3 | 38.4% | 12.8% | 19.2% | 10 |
@@ -171,14 +171,14 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于米沙36%攻击力的冰属性附加伤害。
 终结技最多累计10段攻击段数，施放终结技后攻击段数恢复至初始状态。
 
-### 天赋：Horological Escapement
+### Talent：Horological Escapement
 - **类型**：Talent
 - **简述**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers more Hits Per Action, and Misha regenerates his Energy.
 - **最大等级**：15
 - **效果模板**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers #2[i] more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 1 | 1 |
   | Lv.2 | 1.1 | 1 |
@@ -202,14 +202,14 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 
 - **满级效果**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers 1 more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
 
-### 秘技：Wait, You Are So Beautiful!
+### Technique：Wait, You Are So Beautiful!
 - **类型**：Technique
 - **简述**：Creates a Special Dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.
 - **最大等级**：1
 - **效果模板**：After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 15 | 2 |
 
@@ -219,27 +219,27 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 
 - **满级效果**：After using the Technique, creates a Special Dimension that lasts for 15 seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by 2 hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 释放 | 晋阶2 | 终结技首段攻击前，使目标陷入冻结状态的基础概率提高#1[i]%。 | 终结技首段攻击前，使目标陷入冻结状态的基础概率提高80%。 | 信用点×4000、步离犬牙×2、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 锁接 | 晋阶4 | 施放终结技时，效果命中提高#1[i]%，持续至本次终结技行动结束。 | 施放终结技时，效果命中提高60%，持续至本次终结技行动结束。 | 信用点×16000、狼毒锯牙×4、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 传冲 | 晋阶6 | 对陷入冻结状态的敌方目标造成伤害时，暴击伤害提升#1[i]%。 | 对陷入冻结状态的敌方目标造成伤害时，暴击伤害提升30%。 | 信用点×128000、月狂獠牙×6、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 防御力 | 22.5% |
+| DEF | 22.5% |
 | 暴击率 | 6.7% |
 | 冰属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Whimsicality of Fancy | When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the current Ultimate by 1 hit(s), up to a maximum increase of 5 hit(s). |
 | E2 | Yearning of Youth | Before each hit of the Ultimate lands, there is a 24% base chance of reducing the target's DEF by 16% for 3 turn(s). |
@@ -250,76 +250,76 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 冰属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|鼹鼠党欢迎你]]
+### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：奇妙冒险
 - **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/毁灭/铭记于心的约定.md|铭记于心的约定]]
+### [[zh_cn/lightcone/毁灭/铭记于心的约定.md|Indelible Promise]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：传承
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。当装备者施放终结技时，暴击率提高【15%/18%/22%/26%/30%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/秘密誓心.md|秘密誓心]]
+### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★★
 - **技能名**：竭力而为
 - **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比高于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/米沙_冰_四星.md\|米沙]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
+| [[zh_cn/character/毁灭/米沙_冰_四星.md\|米沙]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/毁灭/米沙_冰_四星.md\|米沙]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |  |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 乖巧懂事的「白日梦酒店」门童，梦想成为一名和爷爷一样的银河冒险家。
 工作十分努力，尤其擅长修理各类机械，热衷于酒店住客分享的星际见闻。
 希望自己快快长大，期待着早日有一天踏上探索群星的旅程。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 怀表走到早上六点，厨房煮牛奶和烤面包的香味一如往常飘进他狭小的卧室。
 
@@ -345,7 +345,7 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 为首的老人清了清嗓子，看向米沙。
 「所有的东西都可以慢慢学习。只是你得考虑清楚，你确实有这个梦想吗？愿意为它坚持多久？孩子，那才是最重要的问题。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 怀表走到下午两点，打扫与迎客工作交接给同事后，他换上工作服开始检修机械。
 
@@ -364,7 +364,7 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 瓦尔德微笑着摸了摸他的头。
 「看来我不用担心这的时间会变得错乱了，毕竟无论如何，还有你这位引航员哩。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 怀表走到傍晚七点，他早早吃完晚饭，躺在了橱柜改造的小床上。
 他望着眼前闭塞的黑暗，听着怀表永恒不变的嘀嗒声音，这是他最幸福的剧场时光——没有工作，没有现实，只有最自由的幻想。
@@ -388,7 +388,7 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 他看了看自己的卧室，原来是怀表压在了胸口，镜子从墙上掉了下来。
 他擦掉泪水，觉得好像什么都没有失去，但又好像什么都失去了。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 怀表再次走到早上六点，厨房煮牛奶和烤面包的香味一如往常飘进了他狭小的卧室。
 

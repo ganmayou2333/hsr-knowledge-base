@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Unto Tomorrow's Morrow |
-| 命途 | Abundance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Unto Tomorrow's Morrow |
+| Path | Abundance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "See you tomorrow, Tribios..."
 The girl wiped the tears on her cheeks when her mother went somewhere far, far away.
@@ -26,18 +26,18 @@ She stands before the passage and grasps the Coreflame tight as she recalled her
 She falls towards the earth, leaving her young figure behind, like a shooting star across the sky —
 "Then, see you on tomorrow's morrow!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 476 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Farewell
 
 Increases the wearer's Outgoing Healing by 12%. When an ally target's current HP percentage is greater than or equal to 50%, increases the DMG dealt by 12%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Hanya |
-| 命途 | Harmony |
-| 属性 | Physical |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 仙舟「罗浮」十王司的判官之一。受命十王，执掌冥谶天笔，读取罪业种种，并下达业报判罚。 |
-| 定位 | 能够恢复战技点、提高指定目标速度和攻击力的辅助角色 |
+| Character Name | Hanya |
+| Path | Harmony |
+| Attribute | Physical |
+| Rarity | ★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 仙舟「罗浮」十王司的判官之一。受命十王，执掌冥谶天笔，读取罪业种种，并下达业报判罚。 |
+| Role | 能够恢复战技点、提高指定目标速度和攻击力的辅助角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 鈴代紗弓 |
-| 英语 | Suzie Yeung |
-| 中文 | 张雨曦 |
-| 韩语 | 윤은서 |
+| Japanese | 鈴代紗弓 |
+| English | Suzie Yeung |
+| Chinese | 张雨曦 |
+| Korean | 윤은서 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 917 |
-| 基础攻击力 | 564 |
-| 基础防御力 | 353 |
-| 基础速度 | 110 |
-| 嘲讽 | 100 |
-| 能量上限 | 140 |
+| Base HP | 917 |
+| Base ATK | 564 |
+| Base DEF | 353 |
+| Base SPD | 110 |
+| Taunt | 100 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/幽府通令\|幽府通令]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/幽府通令\|Netherworld Token]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 8 |
-| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 42 |
-| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|Harmonic Tune]] | 8 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|Ancestral Hymn]] | 42 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|Stellaris Symphony]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 20 |
 
 ---
-## 战技
-### 普攻：Oracle Brush
+## Skills
+### Basic ATK：Oracle Brush
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Hanya's ATK to one designated enemy.
 
-### 战技：Samsara, Locked
+### Skill：Samsara, Locked
 - **类型**：Skill
 - **简述**：Deals Physical DMG to one enemy and applies "Burden" to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies recover 1 Skill Point.
 - **最大等级**：15
@@ -106,7 +106,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发#2[i]次战技点恢复效果后自动解除。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 120% | 2 |
   | Lv.2 | 132% | 2 |
@@ -132,14 +132,14 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden," allies will immediately recover 1 Skill Point. "Burden" is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times.
 每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发2次战技点恢复效果后自动解除。
 
-### 终结技：Ten-Lords' Decree, All Shall Obey
+### Ultimate：Ten-Lords' Decree, All Shall Obey
 - **类型**：Ultimate
 - **简述**：Increases an ally's SPD and ATK.
 - **最大等级**：15
 - **效果模板**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by #1[i]%, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 36% | 2 | 15% |
   | Lv.2 | 38.4% | 2 | 15.5% |
@@ -164,14 +164,14 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 - **满级效果**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by 72%, lasting for 2 turn(s).
 
-### 天赋：Sanction
+### Talent：Sanction
 - **类型**：Talent
 - **简述**：When an ally target uses a Basic ATK, Skill, or Ultimate on an enemy target inflicted with "Burden," the DMG dealt increases.
 - **最大等级**：15
 - **效果模板**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
   | Lv.2 | 16.5% | 2 |
@@ -195,7 +195,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 - **满级效果**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 37.5%, lasting for 2 turn(s).
 
-### 秘技：Netherworld Judgment
+### Technique：Netherworld Judgment
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.
 - **最大等级**：1
@@ -203,27 +203,27 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 - **满级效果**：Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.（参数见等级数值表）
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 录事 | 晋阶2 | 触发【承负】战技点回复效果的我方单位攻击力提高#1[i]%，持续#2[i]回合。 | 触发【承负】战技点回复效果的我方单位攻击力提高10%，持续1回合。 | 信用点×4000、谐乐小调×2、无穷假身的遗恨×1 |
 | 附加能力2 | 幽府 | 晋阶4 | 持有【承负】的敌方目标被消灭时，如果【承负】为全队回复战技点的触发次数小于等于#1[i]，则额外回复#2[i]点战技点。 | 持有【承负】的敌方目标被消灭时，如果【承负】为全队回复战技点的触发次数小于等于1，则额外回复1点战技点。 | 信用点×16000、家族颂歌×4、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 还阳 | 晋阶6 | 当【承负】战技点恢复效果被触发时，自身恢复#1[i]点能量。 | 当【承负】战技点恢复效果被触发时，自身恢复2点能量。 | 信用点×128000、群星乐章×6、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 28% |
-| 速度 | 9 |
+| HP | 10% |
+| ATK | 28% |
+| SPD | 9 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | One Heart | When an ally target with Hanya's Ultimate effect defeats an enemy, Hanya's action advances by 15%. This effect can only be triggered 1 time(s) per turn. |
 | E2 | Two Views | After using the Skill, this character's SPD increases by 20% for 1 turn(s). |
@@ -234,85 +234,85 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 生命值 / 能量恢复效率
 
 **推荐副词条**：速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|重循苦旅的司铎]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/镂月裁云之意.md|镂月裁云之意]]
+### [[zh_cn/lightcone/同谐/镂月裁云之意.md|Carve the Moon, Weave the Clouds]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：秘密
 - **效果**：在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：使我方全体攻击力提高【10%/12%/15%/17%/20%】；使我方全体暴击伤害提高【12%/15%/18%/21%/24%】；使我方全体能量恢复效率提高【6%/7%/9%/10%/12%】。同类效果无法叠加，在装备者陷入无法战斗状态时解除。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/同谐/与行星相会.md|与行星相会]]
+### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：启程
 - **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/同谐/过往未来.md|过往未来]]
+### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：旧日纸鸢
 - **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 副C | [[zh_cn/character/智识/银枝_物理_五星.md\|银枝]] | [[zh_cn/character/同谐/寒鸦_物理_四星.md\|寒鸦]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/同谐/驭空_虚数_四星.md\|驭空]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |  |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 仙舟「罗浮」的十王司判官之一，负责拘、锁、刑、问的四判官中的「问」。
 专司读取犯人的因果罪愆，而后以「冥谶天笔」书写业报判罚。
 由于整日使用梦占形式工作，承受着巨量魔阴身因果信息的冲刷，早已对世间万事感到索然无味。
 只有与同为判官的姐姐雪衣行动时，才会流露片刻的真心。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 巨大的棺椁像是暴风中飘摇的孤舟，在识海动荡中摇摇欲坠。她任由人们的愤怒、渴望、仇恨、恐惧和疲惫冲刷过自己的身躯，就像无色的浪涛将她从一处湍流抛向另一个浪尖。
 
@@ -342,7 +342,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 业判的结果已有分晓，梦中出现的名字被书写在一块玉兆令牌中送出。在洞天日落夜深的时刻，又将有许多人告别尘世。他们不会知晓，在仙舟最深处的角落里有人决定了他们的命终之刻。而数个时辰后那人将不再记得他们。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 棺材的另一侧，一名白衣判官盯着她，目不稍瞬。那张熟悉的脸因为不再有笑容而显得分外陌生。判官伸手，递来的掌中托着一盏金爵。
 
@@ -371,7 +371,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 「在此之前，就让我为你、为十王、还有那位将军再多做一些吧。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 饮下的酒液汇成一丸沉甸甸的水银，一路行经四肢百骸。那些不愿回顾的秘密，所有属于千百年前身为人类的一切被唤起，随后又渐渐淡去颜色——
 
@@ -393,7 +393,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 她努力吞咽，拼命吞咽，梦境终于成了不可捉摸的烟云，消散不见。终于能睡个好觉了，这是她告别清醒时仅剩的念头。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 棺材的一侧，白衣判官盯着合上的灵柩，目不稍瞬。看着妹妹入睡，曾是身为人类时的习惯。
 

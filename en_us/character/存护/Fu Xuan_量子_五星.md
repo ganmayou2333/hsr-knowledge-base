@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Fu Xuan |
-| 命途 | Preservation |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟联盟 |
-| 角色介绍 | 仙舟「罗浮」太卜司之首。 凭借第三眼与穷观阵为仙舟占算航路，预卜事务吉凶。 |
-| 定位 | 能够替我方全体分摊伤害并提供增益的防御型角色 |
+| Character Name | Fu Xuan |
+| Path | Preservation |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 仙舟联盟 |
+| Introduction | 仙舟「罗浮」太卜司之首。 凭借第三眼与穷观阵为仙舟占算航路，预卜事务吉凶。 |
+| Role | 能够替我方全体分摊伤害并提供增益的防御型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 伊藤美来 |
-| 英语 | Sarah Wiedenheft |
-| 中文 | 花玲 |
-| 韩语 | 이지현 |
+| Japanese | 伊藤美来 |
+| English | Sarah Wiedenheft |
+| Chinese | 花玲 |
+| Korean | 이지현 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,475 |
-| 基础攻击力 | 466 |
-| 基础防御力 | 606 |
-| 基础速度 | 100 |
-| 嘲讽 | 150 |
-| 能量上限 | 135 |
+| Base HP | 1,475 |
+| Base ATK | 466 |
+| Base DEF | 606 |
+| Base SPD | 100 |
+| Taunt | 150 |
+| Max Energy | 135 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/苍猿之钉\|苍猿之钉]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/苍猿之钉\|Nail of the Ape]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/青铜的执着\|青铜的执着]] | 12 |
-| [[zh_cn/items/Material/TracePath/寒铁的誓言\|寒铁的誓言]] | 53 |
-| [[zh_cn/items/Material/TracePath/琥珀的坚守\|琥珀的坚守]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/青铜的执着\|Endurance of Bronze]] | 12 |
+| [[zh_cn/items/Material/TracePath/寒铁的誓言\|Oath of Steel]] | 53 |
+| [[zh_cn/items/Material/TracePath/琥珀的坚守\|Safeguard of Amber]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 28 |
 
 ---
-## 战技
-### 普攻：Novaburst
+## Skills
+### Basic ATK：Novaburst
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 70% of Fu Xuan's Max HP to one designated enemy.
 
-### 战技：Known by Stars, Shown by Hearts
+### Skill：Known by Stars, Shown by Hearts
 - **类型**：Skill
 - **简述**：Activates Matrix of Prescience. DMG received by Fu Xuan's teammates is Distributed to her. Also increases CRIT Rate and Max HP of all allies.
 - **最大等级**：15
@@ -108,7 +108,7 @@ When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.
 当符玄陷入无法战斗状态时，【穷观阵】也会被解除。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 65% | 0 | 3 | 3% | 6% |
   | Lv.2 | 65% | 0 | 3 | 3.3% | 6.6% |
@@ -139,14 +139,14 @@ When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.
 处于【穷观阵】的我方全体获得【鉴知】。【鉴知】状态下的我方目标生命上限提高，提高数值等同于符玄生命上限的#4[f1]%，暴击率提高#5[f1]%。
 当符玄陷入无法战斗状态时，【穷观阵】也会被解除。
 
-### 终结技：Woes of Many Morphed to One
+### Ultimate：Woes of Many Morphed to One
 - **类型**：Ultimate
 - **简述**：Deals Quantum DMG to all enemies and increases Fu Xuan's Talent trigger count.
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 60% |
   | Lv.2 | 64% |
@@ -169,7 +169,7 @@ When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.
 
 - **满级效果**：Deals Quantum DMG equal to 120% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.
 
-### 天赋：Bleak Breeds Bliss
+### Talent：Bleak Breeds Bliss
 - **类型**：Talent
 - **简述**：While Fu Xuan is still active in combat, the DMG taken by all team members is reduced.
 When her HP is low, automatically restores her own HP based on the HP percentage already lost. This effect can have up to 2 trigger counts at any given time.
@@ -180,7 +180,7 @@ When Fu Xuan's current HP percentage falls to #2[i]% of her Max HP or less, HP R
 当符玄当前生命值百分比小于等于#2[i]%时触发生命回复，使自身回复等同于已损失生命值#3[i]%的生命值，受到致命攻击时无法触发该效果。该效果初始拥有1次触发次数，最多可拥有2次触发次数。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 10% | 50% | 80% |
   | Lv.2 | 10.8% | 50% | 81% |
@@ -207,14 +207,14 @@ When Fu Xuan's current HP percentage falls to #2[i]% of her Max HP or less, HP R
 When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by 95% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.
 当符玄当前生命值百分比小于等于50%时触发生命回复，使自身回复等同于已损失生命值95%的生命值，受到致命攻击时无法触发该效果。该效果初始拥有1次触发次数，最多可拥有2次触发次数。
 
-### 秘技：Of Fortune Comes Fate
+### Technique：Of Fortune Comes Fate
 - **类型**：Technique
 - **简述**：Activates a Barrier. Allies will not enter combat when attacked by enemies. Entering battle will automatically activate Matrix of Prescience.
 - **最大等级**：1
 - **效果模板**：After the Technique is used, all team members receive a Barrier, lasting for #1[i] seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 20 | 2 |
 
@@ -224,27 +224,27 @@ When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Rest
 
 - **满级效果**：After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 太乙式盘 | 晋阶2 | 【穷观阵】开启时，符玄施放战技将额外恢复#1[i]点能量。 | 【穷观阵】开启时，符玄施放战技将额外恢复20点能量。 | 信用点×5000、青铜的执着×3、无穷假身的遗恨×1 |
 | 附加能力2 | 遁甲星舆 | 晋阶4 | 施放终结技时为我方其他目标回复等同于符玄#1[i]%生命上限+#2[i]的生命值。 | 施放终结技时为我方其他目标回复等同于符玄5%生命上限+133的生命值。 | 信用点×20000、寒铁的誓言×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 六壬兆堪 | 晋阶6 | 【穷观阵】开启时，若敌方目标对我方施加了控制类负面状态，则我方全体抵抗本次行动中敌方目标施加的所有控制类负面状态。该效果可以触发1次。再次开启【穷观阵】后将刷新效果可触发次数。 | 【穷观阵】开启时，若敌方目标对我方施加了控制类负面状态，则我方全体抵抗本次行动中敌方目标施加的所有控制类负面状态。该效果可以触发1次。再次开启【穷观阵】后将刷新效果可触发次数。 | 信用点×160000、琥珀的坚守×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
+| HP | 18% |
 | 暴击率 | 18.7% |
 | 效果抵抗 | 10% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Dominus Pacis | The Knowledge effect increases CRIT DMG by 30%. |
 | E2 | Optimus Felix | If any ally target is struck by a killing blow while "Matrix of Prescience" is active, then all ally targets who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle. |
@@ -255,76 +255,76 @@ When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Rest
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 生命值 / 能量恢复效率
 
 **推荐副词条**：生命值 / 防御力 / 效果抵抗 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|宝命长存的莳者]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
-| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|戍卫风雪的铁卫]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|Longevous Disciple]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
+| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|Guard of Wuthering Snow]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/存护/她已闭上双眼.md|她已闭上双眼]]
+### [[zh_cn/lightcone/存护/她已闭上双眼.md|She Already Shut Her Eyes]]
 
 - **基础属性**：生1270 攻423 防529
 - **推荐度**：★★★★★
 - **技能名**：视界
 - **效果**：使装备者的生命上限提高【24%/28%/32%/36%/40%】，能量恢复效率提高【12%/14%/16%/18%/20%】。当装备者的生命值降低时，使我方全体造成的伤害提高【9.0%/10.5%/12.0%/13.5%/15.0%】，持续2回合。 每个波次开始时，为我方全体回复等同于各自已损失生命值【80%/85%/90%/95%/100%】的生命值。
 
-### [[zh_cn/lightcone/存护/记忆的质料.md|记忆的质料]]
+### [[zh_cn/lightcone/存护/记忆的质料.md|Texture of Memories]]
 
 - **基础属性**：生1058 攻423 防529
 - **推荐度**：★★★★★
 - **技能名**：珍存
 - **效果**：使装备者的效果抵抗提高【8%/10%/12%/14%/16%】，当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者【16%/20%/24%/28%/32%】生命上限的护盾，持续2回合。该效果每3回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/存护/朗道的选择.md|朗道的选择]]
+### [[zh_cn/lightcone/存护/朗道的选择.md|Landau's Choice]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★★
 - **技能名**：时光如梭
 - **效果**：使装备者受到攻击的概率提高，同时受到的伤害降低【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/存护/余生的第一天.md|余生的第一天]]
+### [[zh_cn/lightcone/存护/余生的第一天.md|Day One of My New Life]]
 
 - **基础属性**：生952 攻370 防463
 - **推荐度**：★★★★
 - **技能名**：此刻定格
 - **效果**：使装备者的防御力提高【16%/18%/20%/22%/24%】。进入战斗后，使我方全体的全属性抗性提高【8%/9%/10%/11%/12%】。同类技能无法重复生效。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
+| [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
 | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |  |  |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 仙舟「罗浮」太卜司之首，自信耿直的智者。
 凭借第三眼与穷观阵为仙舟占算航路，预卜事务吉凶，坚信自己所做的一切便是事情的「最优解」。
 符玄等待着将军承诺的「退位让贤」，然而这一天的到来…似乎还遥遥无期。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 多年以后，符玄总会想起自己获准踏入「图书馆」提问的那一日。
 
@@ -352,7 +352,7 @@ When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Rest
 
 所有过去交叠在概率的烟雾中，似梦似真，在意识的边缘变化来去，延伸成数不尽的未来。她尽力分辨，在浩瀚的瞬间里寻找她正式成为卜者的那一日。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 那一日，玉阙仙舟的瞰云镜下，符玄拜见业师。但她无法置信眼前之人就是族中长辈奉若神人的太卜：男人穿着半旧的飞行士短打，行止无仪地箕坐在地，专注望向投影阵列里不断变化交织的光点。
 
@@ -386,7 +386,7 @@ When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Rest
 
 「对了，不必叫我太卜。从今天起，你应当称我为『师傅』。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 在玉阙太卜司中，她度过了自己一生中最快乐的求学岁月。关于宿命与自由意志，关于阵法演算与人择权衡…在一切与卜筮之道相关的问题上，少女记得自己与师傅总是争辩不休。这并非唇枪舌剑的相争，而是亦师亦友的较劲。尽管在大部分的问题上，少女与师傅最终达成了一致的看法，但两人却有一处无论如何绕不开去的死结——
 
@@ -414,7 +414,7 @@ When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Rest
 
 于是不顾家族的劝阻，不顾一切阻挠，符玄以近乎自我放逐的方式逃离了玉阙仙舟。她投身风气更自由的罗浮太卜司，寄情于卜算。她不但要远离玉阙仙舟，更要身体力行地证明这份预言不过是某人的荒谬妄想。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 如是百年悄然逝去，战事再起，卜官符玄领命演算不休。丰饶民大军三度成形，突袭方壶仙舟。玉阙、罗浮同方壶仙舟相去不远，驰援责无旁贷。卜算结果显示，若倾全力迎击，任何参战的仙舟军队都将迎来惨烈的败局——但坚持守势，将会有转圜的余地。
 

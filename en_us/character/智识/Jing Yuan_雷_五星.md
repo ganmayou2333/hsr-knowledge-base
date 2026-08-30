@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Jing Yuan |
-| 命途 | Erudition |
-| 属性 | Lightning |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 仙舟联盟帝弓七天将之一，负责节制罗浮云骑军的「神策将军」。 师从前代「罗浮」剑首，但并不显名于武力。 |
-| 定位 | 景元召唤「神君」协同作战 |
+| Character Name | Jing Yuan |
+| Path | Erudition |
+| Attribute | Lightning |
+| Rarity | ★★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 仙舟联盟帝弓七天将之一，负责节制罗浮云骑军的「神策将军」。 师从前代「罗浮」剑首，但并不显名于武力。 |
+| Role | 景元召唤「神君」协同作战 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 小野大輔 |
-| 英语 | Alejandro Saab |
-| 中文 | 孙晔 |
-| 韩语 | 류승곤 |
+| Japanese | 小野大輔 |
+| English | Alejandro Saab |
+| Chinese | 孙晔 |
+| Korean | 류승곤 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,164 |
-| 基础攻击力 | 699 |
-| 基础防御力 | 485 |
-| 基础速度 | 99 |
-| 嘲讽 | 75 |
-| 能量上限 | 130 |
+| Base HP | 1,164 |
+| Base ATK | 699 |
+| Base DEF | 485 |
+| Base SPD | 99 |
+| Taunt | 75 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/炼形者雷枝\|炼形者雷枝]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/炼形者雷枝\|Shape Shifter's Lightning Staff]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/灵感之钥\|灵感之钥]] | 12 |
-| [[zh_cn/items/Material/TracePath/启迪之钥\|启迪之钥]] | 53 |
-| [[zh_cn/items/Material/TracePath/智识之钥\|智识之钥]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/灵感之钥\|Key of Inspiration]] | 12 |
+| [[zh_cn/items/Material/TracePath/启迪之钥\|Key of Knowledge]] | 53 |
+| [[zh_cn/items/Material/TracePath/智识之钥\|Key of Wisdom]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
 
 ---
-## 战技
-### 普攻：Glistening Light
+## Skills
+### Basic ATK：Glistening Light
 - **类型**：Basic ATK
 - **简述**：Deals minor Lightning DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Jing Yuan deals Lightning DMG equal to #1[i]% of his ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Jing Yuan deals Lightning DMG equal to 140% of his ATK to one designated enemy.
 
-### 战技：Rifting Zenith
+### Skill：Rifting Zenith
 - **类型**：Skill
 - **简述**：Deals minor Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.
 - **最大等级**：15
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
   | Lv.2 | 55% | 2 |
@@ -128,14 +128,14 @@
 
 - **满级效果**：Deals Lightning DMG equal to 125% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.
 
-### 终结技：Lightbringer
+### Ultimate：Lightbringer
 - **类型**：Ultimate
 - **简述**：Deals Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.
 - **最大等级**：15
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 120% | 3 |
   | Lv.2 | 128% | 3 |
@@ -159,7 +159,7 @@
 
 - **满级效果**：Deals Lightning DMG equal to 240% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.
 
-### 天赋：Prana Extirpated
+### Talent：Prana Extirpated
 - **类型**：Talent
 - **简述**：At the start of the battle, summons "Lightning-Lord." When "Lightning-Lord" takes action, launches Follow-Up ATK to automatically deal minor Lightning DMG to one random enemy and adjacent targets.
 - **最大等级**：15
@@ -172,7 +172,7 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 当景元受到控制类负面状态影响时【神君】也无法行动。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60 | 33% | 10 | 3 | 25% | 10 |
   | Lv.2 | 60 | 36.3% | 10 | 3 | 25% | 10 |
@@ -206,14 +206,14 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 当景元陷入无法战斗状态时【神君】消失。
 当景元受到控制类负面状态影响时【神君】也无法行动。
 
-### 秘技：Spiritus Invocation
+### Technique：Spiritus Invocation
 - **类型**：Technique
 - **简述**：After using Technique, for the next battle, increases Lightning-Lord's Hits Per Action.
 - **最大等级**：1
 - **效果模板**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by #1[i] at the start of the next battle.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 3 |
 
@@ -222,27 +222,27 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 
 - **满级效果**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 破阵 | 晋阶2 | 若【神君】下回合的攻击段数大于等于#1[i]段，则其下回合的暴击伤害提高#2[i]%。 | 若【神君】下回合的攻击段数大于等于6段，则其下回合的暴击伤害提高25%。 | 信用点×5000、灵感之钥×3、毁灭者的末路×1 |
 | 附加能力2 | 绸缪 | 晋阶4 | 战斗开始时，立即恢复#1[i]点能量。 | 战斗开始时，立即恢复15点能量。 | 信用点×20000、启迪之钥×5、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 遣将 | 晋阶6 | 施放战技后，暴击率提升#1[i]%，持续#2[i]回合。 | 施放战技后，暴击率提升10%，持续2回合。 | 信用点×160000、智识之钥×8、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| ATK | 28% |
+| DEF | 12.5% |
 | 暴击率 | 12% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Slash, Seas Split | When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the primary target enemy. |
 | E2 | Swing, Skies Squashed | After Lightning-Lord takes action, DMG dealt by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20%, lasting for 2 turn(s). |
@@ -253,75 +253,75 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 雷属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|毁烬焚骨的大公]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
-| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|激奏雷电的乐队]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|The Ashblazing Grand Duke]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
+| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|Band of Sizzling Thunder]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/拂晓之前.md|拂晓之前]]
+### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：长夜
 - **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后,获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-### [[zh_cn/lightcone/智识/银河铁道之夜.md|银河铁道之夜]]
+### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：流星群
 - **效果**：场上每有1个敌方目标，使装备者的攻击力提高【9.0%/10.5%/12.0%/13.5%/15.0%】，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/「我」的诞生.md|「我」的诞生]]
+### [[zh_cn/lightcone/智识/「我」的诞生.md|The Birth of the Self]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：画像少女
 - **效果**：使装备者追加攻击造成的伤害提高【24%/30%/36%/42%/48%】。若该敌方目标当前生命值百分比小于等于50%，则追加攻击造成的伤害额外提高【24%/30%/36%/42%/48%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 副C/辅助 | 生存 |
 |---|---|---|
 | 光环/负面辅助 | [[zh_cn/character/智识/景元_雷_五星.md\|景元]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 位列帝弓七天将之一的「神策将军」，外表懒散、心思缜密。不以危局中力挽狂澜为智策，因此在常事上十分下功夫，以免节外生枝。因其细心谋划，仙舟承平日久，看似行事慵懒的景元反被送上绰号「闭目将军」。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「想请教太卜大人，这星阵棋为何是棋枰四方，棋子浑圆？」
 「取法天圆地方？古人文明未开化前，相信大地平坦。这星阵棋仿效的是列国逐鹿相争，一统大地的旧事，自然是方枰。至于棋子…那时的人相信天如穹盖浑圆，棋子仿效星辰流转，下应人事，自然是圆的。」
@@ -335,11 +335,11 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 「等，等等！为什么刚刚的预视里没看到这一手？退、退回去重来。」
 「棋子如人，各有心智。你我落子无悔，岂有重来的道理？哈哈，一司之首岂能混赖？」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 作为横跨六大仙舟的建制，云骑军自火劫大战的尾声中脱胎，立誓卫蔽仙舟，奉行帝弓的「巡猎」诰谕，传承至今。尽管长生种的寿命漫长到不可思议，但在血火厮杀的战争中，却鲜有云骑将军能在履任后撑过百年的大关。与其说这是一种宿命，不如说这是一种传统。作为镇护仙舟、讨伐孽物的武装力量，将军除去绸缪调遣的职责，更需要身先士卒，叩关斩阵。在无数残酷短暂的年限记录之中，负责节制罗浮云骑军的「神策将军」景元却脱颖而出，已安然治军数百年。在他折冲运筹之下，罗浮云骑一度蜚声联盟，立下过众多惊人的战绩。虽然有人腹诽他本人畏战怯阵，鲜少动武。但也不得不承认，其人的智谋不逊于最锋锐的利剑，尽解难结。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 如今流传最广的传言中，景元出生于世代效力地衡司的家族中。
 
@@ -353,7 +353,7 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 
 他的应变急智和实用主义手段屡屡让上级们难忘又头疼。最终，受到前任罗浮剑首的邀请，景元加入其所部为之效力，开启了「云上五骁」传奇之路。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 作为仙舟历史上著名的传奇，来自诸仙舟云骑军中的五位英雄聚首同战，合称「云上五骁」。以此五人为首，成就的功勋史不绝书：驱走攻入塔拉萨的步离人舰队；破坏丰饶联军中慧骃族与造翼者的同盟；乃至解围玉阙仙舟，并击溃了活体星球「计都蜃楼」，保全了联盟凝视星海的眼睛……
 

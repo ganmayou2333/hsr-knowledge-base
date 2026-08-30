@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Journey, Forever Peaceful |
-| 命途 | Preservation |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Journey, Forever Peaceful |
+| Path | Preservation |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The boy ran amongst the star-like raindrops and cheered for the blissful rain that arrived after a long drought.
 The rain fell for a long, long time, and the covered wagon stopped on the land covered by budding green.
@@ -26,18 +26,18 @@ Golden sunlight reflects from his dreams into his real-life abode, and transacti
 He lets go of the hand that was clutched into a fist —
 It's as if he did not manage to grab onto anything... yet there's still a throbbing, lingering warmth.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 370 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Sweet Dream
 
 Increases the wearer's provided Shield Effect by 12%. While an ally target has a Shield, their DMG dealt increases by 12%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

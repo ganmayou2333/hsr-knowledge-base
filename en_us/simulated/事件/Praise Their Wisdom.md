@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Praise Their Wisdom |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Praise Their Wisdom |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：无人不颂扬瑟希斯的睿智。它开枝散叶，将理性的藤蔓扎根于吉奥里亚的身躯。
 差分宇宙：飞鸟暂撇开艾格勒精心镌刻的云彩，俯身衔走蕴含智慧露珠的枝条；走兽亦贪恋难得的闲适，扇动鼻翼畅快地吸取林间醒神的清气。
 差分宇宙：生机勃勃的色彩和灵动遍布于天地之间，受它眷顾的人子们也繁衍生息，追本溯源地采集那些金色的硕果，奉于他们中最秀逸的智士。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 这便是智慧的果实。 | — |
 | 所以吃了能变聪明？ | — |
@@ -59,6 +59,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 248 |  |

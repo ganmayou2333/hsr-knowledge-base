@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Hysilens |
-| 命途 | Nihility |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 斯缇科西亚，醉与梦的海滨之城，旧日的歌声仍在浮浪间回荡。 大海的女儿海列屈拉，清洗「海洋」火种的黄金裔，驱散污浊的暗流，为天外的英雄奏响不醉不归的盛宴 ——散场之时未到，纵然希望如泡沫般易碎，浪花也将一往无前。 |
+| Character Name | Hysilens |
+| Path | Nihility |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 斯缇科西亚，醉与梦的海滨之城，旧日的歌声仍在浮浪间回荡。 大海的女儿海列屈拉，清洗「海洋」火种的黄金裔，驱散污浊的暗流，为天外的英雄奏响不醉不归的盛宴 ——散场之时未到，纵然希望如泡沫般易碎，浪花也将一往无前。 |
 | 城邦 | 斯缇科西亚，奥赫玛 |
 | 神权 | 「满溢之杯，法吉娜」 |
-| 定位 | 可依据目标持续伤害数量，额外造成相应次数持续伤害的输出型角色 |
+| Role | 可依据目标持续伤害数量，额外造成相应次数持续伤害的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 石见舞菜香 |
-| 英语 | Rosie Day |
-| 中文 | 浮梦若薇 |
-| 韩语 | 오은수 |
+| Japanese | 石见舞菜香 |
+| English | Rosie Day |
+| Chinese | 浮梦若薇 |
+| Korean | 오은수 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,203 |
-| 基础攻击力 | 602 |
-| 基础防御力 | 485 |
-| 基础速度 | 102 |
-| 嘲讽 | 100 |
-| 能量上限 | 110 |
+| Base HP | 1,203 |
+| Base ATK | 602 |
+| Base DEF | 485 |
+| Base SPD | 102 |
+| Taunt | 100 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/侵略凝块\|侵略凝块]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/侵略凝块\|Invasive Clot]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/炽情之灵\|炽情之灵]] | 12 |
-| [[zh_cn/items/Material/TracePath/星火之精\|星火之精]] | 53 |
-| [[zh_cn/items/Material/TracePath/焚天之魔\|焚天之魔]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/炽情之灵\|Fiery Spirit]] | 12 |
+| [[zh_cn/items/Material/TracePath/星火之精\|Starfire Essence]] | 53 |
+| [[zh_cn/items/Material/TracePath/焚天之魔\|Heaven Incinerator]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|Daythunder Anamnesis]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 28 |
 
 ---
-## 战技
-### 普攻：Aeolian Mode: Echoes in Still Waters
+## Skills
+### Basic ATK：Aeolian Mode: Echoes in Still Waters
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Hysilens's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 50% | 1 | 3 |
   | Lv.2 | 60% | 1 | 3 |
@@ -101,14 +101,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Hysilens's ATK to one designated enemy.
 
-### 战技：Overtone Hum: Chorus After Dark Tides
+### Skill：Overtone Hum: Chorus After Dark Tides
 - **类型**：Skill
 - **简述**：There is a high chance to increase the DMG taken by all enemies, and deals Physical DMG to them.
 - **最大等级**：15
 - **效果模板**：Has a #2[i]% base chance to increase the DMG taken by all enemies by #3[i]%, lasting for #4[i] turn(s). At the same time, deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 70% | 100% | 10% | 3 |
   | Lv.2 | 77% | 100% | 11% | 3 |
@@ -134,7 +134,7 @@
 
 - **满级效果**：Has a 100% base chance to increase the DMG taken by all enemies by 25%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 175% of Hysilens's ATK to all enemies.
 
-### 终结技：Maelstrom Rhapsody
+### Ultimate：Maelstrom Rhapsody
 - **类型**：Ultimate
 - **简述**：Deploys a Zone that reduces all enemies' ATK and DEF, and deals Physical DMG to them. While the Zone exists, for every 1 instance of DoT received by enemy targets, deals 1 instance of Physical DoT to them.
 - **最大等级**：15
@@ -145,7 +145,7 @@ The Zone lasts for #2[i] turn(s) and this duration decreases by 1 at the start o
 结界持续#2[i]回合，自身每回合开始时结界持续回合数减1。当海瑟音陷入无法战斗状态时，结界也会被解除。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 120% | 3 | 15% | 32% | 8 | 15% |
   | Lv.2 | 128% | 3 | 16% | 37.28% | 8 | 15% |
@@ -177,7 +177,7 @@ The Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of th
 处于结界中的敌方目标每受到1次持续伤害，海瑟音对其造成等同于自身#4[f1]%攻击力的物理属性持续伤害，该伤害在每回合开始时或我方目标单次攻击后触发，且最多触发8次。该伤害不会重复触发此效果。
 结界持续3回合，自身每回合开始时结界持续回合数减1。当海瑟音陷入无法战斗状态时，结界也会被解除。
 
-### 天赋：Sirenic Serenade
+### Talent：Sirenic Serenade
 - **类型**：Talent
 - **简述**：When an ally target attacks, Hysilens has a high chance to inflict the hit enemy target with one of the following states: Wind Shear/Bleed/Burn/Shock.
 - **最大等级**：15
@@ -188,7 +188,7 @@ While in the Bleed state, at the start of each turn, the enemy target takes Phys
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过海瑟音攻击力的#4[f1]%，持续#5[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 10% | 20% | 10% | 2 |
   | Lv.2 | 100% | 11.65% | 20% | 11.65% | 2 |
@@ -219,7 +219,7 @@ While in the Bleed state, at the start of each turn, the enemy target takes Phys
 风化/灼烧/触电状态下，敌方目标每回合开始时受到等同于海瑟音#2[f1]%攻击力的风/火/雷属性的持续伤害，持续2回合。
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过海瑟音攻击力的#4[f1]%，持续2回合。
 
-### 秘技：At Ocean's Abode
+### Technique：At Ocean's Abode
 - **类型**：Technique
 - **简述**：Creates a Special Dimension. Enemies within the dimension will not attack ally targets. After entering combat with enemies within the dimension, there's a high chance to inflict 2 state(s) from Wind Shear/Bleed/Burn/Shock on each enemy target.
 - **最大等级**：1
@@ -228,7 +228,7 @@ After entering combat with "Soulstruck" enemies, there is a #2[i]% base chance t
 与处于【醉心】状态下的敌人进入战斗后，有#2[i]%的基础概率使敌方每个单体目标陷入与海瑟音天赋效果相同的风化/裂伤/灼烧/触电其中#3[i]种状态。我方制造的领域效果最多存在1个。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 20 | 100% | 2 |
 
@@ -241,26 +241,26 @@ After entering combat with "Soulstruck" enemies, there is a #2[i]% base chance t
 After entering combat with "Soulstruck" enemies, there is a 100% base chance to inflict each enemy target with 2 of the following states: Wind Shear/Bleed/Burn/Shock, all of which are equivalent to those provided by Hysilens's Talent effect. Only 1 Dimension Effect created by allies can exist at the same time.
 与处于【醉心】状态下的敌人进入战斗后，有100%的基础概率使敌方每个单体目标陷入与海瑟音天赋效果相同的风化/裂伤/灼烧/触电其中2种状态。我方制造的领域效果最多存在1个。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 征服的剑旗 | 晋阶2 | 战斗开始时，海瑟音展开与终结技效果相同的结界，结界持续#1[i]回合。每当海瑟音展开结界时，恢复#2[i]个战技点。 | 战斗开始时，海瑟音展开与终结技效果相同的结界，结界持续3回合。每当海瑟音展开结界时，恢复1个战技点。 | 信用点×5000、炽情之灵×3、阳雷的遥想×1 |
 | 附加能力2 | 盛会的泡沫 | 晋阶4 | 海瑟音施放终结技时，若敌方目标处于持续伤害状态，使其当前承受的所有持续伤害立即产生相当于原伤害#1[i]%的伤害。 | 海瑟音施放终结技时，若敌方目标处于持续伤害状态，使其当前承受的所有持续伤害立即产生相当于原伤害150%的伤害。 | 信用点×20000、星火之精×5、命运的足迹×1、阳雷的遥想×1 |
 | 附加能力3 | 珍珠的琴弦 | 晋阶6 | 若海瑟音的效果命中高于#1[i]%，每超过#2[i]%可使自身造成的伤害提高#3[i]%，最多提高#4[i]%。 | 若海瑟音的效果命中高于60%，每超过10%可使自身造成的伤害提高15%，最多提高90%。 | 信用点×160000、焚天之魔×8、命运的足迹×1、阳雷的遥想×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
+| ATK | 18% |
 | 效果命中 | 10% |
 
 ---
-| 速度 | 14 |
-## 星魂
+| SPD | 14 |
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | You Ask Why Hearts Cry | While Hysilens is on the field, the DoT dealt by ally targets is equal to 116% of their original value. When Hysilens inflicts Wind Shear/Bleed/Burn/Shock on enemies via her Talent, there is a 100% base chance to additionally inflict the target with 1 instance of Wind Shear/Bleed/Burn/Shock state that is equivalent to those from the original Talent effect and can coexist with such pre-existing states. |
 | E2 | Tell Me Why Waves Roar High | While the Zone is active, the DMG Boost effect from Trace "The Fiddle of Pearls" applies to all allies. |
@@ -271,76 +271,76 @@ After entering combat with "Soulstruck" enemies, there is a 100% base chance to 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：效果命中 / 速度 / 物理属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：效果命中 / 速度 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|幽锁深牢的系囚]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|Prisoner in Deep Confinement]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉欢醉饮的海隅\|沉欢醉饮的海隅]] | 使装备者的攻击力提高12%。当装备者的攻击力大于等于2400/3600时，使造成的持续伤害额外提高12%/24%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/沉欢醉饮的海隅\|Revelry by the Sea]] | 使装备者的攻击力提高12%。当装备者的攻击力大于等于2400/3600时，使造成的持续伤害额外提高12%/24%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/海洋为何而歌.md|海洋为何而歌]]
+### [[zh_cn/lightcone/虚无/海洋为何而歌.md|Why Does the Ocean Sing]]
 
 - **基础属性**：生953 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：独奏
 - **效果**：使装备者的效果命中提高【40%/45%/50%/55%/60%】，当有敌方目标陷入装备者施加的负面效果时，有80%的基础概率使其陷入【魂迷】状态，持续3回合，同类效果无法叠加。【魂迷】状态下，每有1个装备者施加的负面效果，受到的持续伤害提高【5%/6.25%/7.5%/8.75%/10%】，该效果最多叠加6层，受到我方目标攻击时，使攻击者速度提高【10%/12.5%/15%/17.5%/20%】，持续3回合。当装备者陷入无法战斗状态时，移除所有【魂迷】。
 
-### [[zh_cn/lightcone/虚无/那无数个春天.md|那无数个春天]]
+### [[zh_cn/lightcone/虚无/那无数个春天.md|Those Many Springs]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：世事无痕
 - **效果**：使装备者的效果命中提高【60%/70%/80%/90%/100%】，装备者施放普攻、战技、终结技攻击敌方目标后，有60%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高【10%/12%/14%/16%/18%】，持续2回合。若目标处于装备者施加的持续伤害状态，则有60%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高【14%/16%/18%/20%/22%】，持续2回合，期间装备者无法对其施加【卸甲】。
 
-### [[zh_cn/lightcone/虚无/重塑时光之忆.md|重塑时光之忆]]
+### [[zh_cn/lightcone/虚无/重塑时光之忆.md|Reforged Remembrance]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：结晶
 - **效果**：使装备者的效果命中提高【40%/45%/50%/55%/60%】。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加4层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高【5%/6%/7%/8%/9%】，造成的持续伤害无视目标【7.2%/7.9%/8.6%/9.3%/10.0%】的防御力。
 
-### [[zh_cn/lightcone/虚无/新手任务开始前.md|新手任务开始前]]
+### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
 - **基础属性**：生952攻476 防350
 - **推荐度**：★★★★★
 - **技能名**：眼疾手快
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/虚无/海瑟音_物理_五星.md\|海瑟音]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] |
-| [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] | [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
-| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |  |
+| 副C | [[zh_cn/character/虚无/海瑟音_物理_五星.md\|Hysilens]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] |
+| [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] | [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
+| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 斯缇科西亚，醉与梦的海滨之城，旧日的歌声仍在浮浪间回荡。
 大海的女儿海列屈拉，清洗「海洋」火种的黄金裔，驱散污浊的暗流，为天外的英雄奏响不醉不归的盛宴
 ——散场之时未到，纵然希望如泡沫般易碎，浪花也将一往无前。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 阳光穿透进来时，大海的呼吸会变得五彩斑斓，这是海妖们一天中最为欢悦的时刻。
 「♫啪嗒♫」「♫皮咔♫」「♫波砰♫」
@@ -374,7 +374,7 @@ After entering combat with "Soulstruck" enemies, there is a 100% base chance to 
 
 海列屈拉向深渊游去，那歌声逐渐化作漆黑深海中，唯一的一束光。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 广袤的珊瑚礁已成一片死地。
 
@@ -409,7 +409,7 @@ After entering combat with "Soulstruck" enemies, there is a 100% base chance to 
 即便渴望有一日会有人听懂其中向往，但她逐渐意识到人世也与寂寞的深海无异。
 每个人都像是迷失的鱼儿，每个人都在盲目地朝着光芒游去。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「海瑟音，追随我，我会赐予你所求的一切。」
 她对那从娇小身躯里发出的响亮声音印象深刻，却仍心有怀疑：
@@ -442,7 +442,7 @@ After entering combat with "Soulstruck" enemies, there is a 100% base chance to 
 一片新的大海
 它摇荡在我们举杯碰撞间……♫」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 她曾以为，「逐火」便是她寻找的、永不散席的盛宴。
 可在那不断失却的旅途中，光芒也终如泡沫般碎裂。

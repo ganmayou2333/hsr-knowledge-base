@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tuskpir |
-| 用途 | 宠物 |
-| 评级 | ★★★★ |
-| 类型 | Pet / 普通宠物 |
+| Item Name | Tuskpir |
+| Use | 宠物 |
+| Rarity | ★★★★ |
+| Type | Pet / 普通宠物 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「星天演武仪典」活动后获得的随宠']

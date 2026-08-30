@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ancestral Hymn |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / TracePath |
+| Item Name | Ancestral Hymn |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 3★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 不知由谁制作的音乐盒。可中幅提升同谐角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【机械聚落】
 - 「万能合成机」- 材料合成

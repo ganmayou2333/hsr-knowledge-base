@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Phantom Larva |
-| 类型 | 祝福 |
-| 命途 | 繁育&存护 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Phantom Larva |
+| Type | Blessing |
+| Path | 繁育&存护 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色造成的普攻、战技伤害提高60%。【孢子】爆裂时造成的伤害提高，提高数值等同于我方全体护盾总量的100%。
 
-## 强化效果
+## Enhanced Effect
 
 -

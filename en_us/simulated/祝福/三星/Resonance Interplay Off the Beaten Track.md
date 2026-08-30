@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Off the Beaten Track |
-| 类型 | 祝福 |
-| 命途 | 虚无&巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Off the Beaten Track |
+| Type | Blessing |
+| Path | 虚无&巡猎 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响后，若敌方目标当前每陷入灼烧、触电、裂伤、风化状态中的1种，使我方全体行动提前4%。
 
-## 强化效果
+## Enhanced Effect
 
 -

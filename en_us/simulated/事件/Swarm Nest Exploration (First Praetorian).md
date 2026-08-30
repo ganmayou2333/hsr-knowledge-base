@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Swarm: Nest Exploration (First Praetorian) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 虫群 |
-| 图片 | `image/simulated_event/PicRogueEvent_4.png` |
+| Name | Swarm: Nest Exploration (First Praetorian) |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 虫群 |
+| Image | `image/simulated_event/PicRogueEvent_4.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 进入杀死它们。 | 进入战斗，并获得1-2星「繁育」祝福。{{颜色\|cdcdd8\|（虫群警戒值会有大幅提升）}} |
 | 悄悄离开。 | 希望它们没有发现你。{{颜色\|cdcdd8ff\|（虫群警戒值会有小幅提升）}} |
@@ -41,7 +41,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 119001 |  |
 | 419001 |  |

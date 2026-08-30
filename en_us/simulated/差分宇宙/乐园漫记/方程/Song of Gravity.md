@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Song of Gravity |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4同谐+2虚无 |
+| Name | Song of Gravity |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4同谐+2虚无 |
 
 
-## 效果
+## Effect
 
 敌方目标受到【和音】伤害时，额外受到1次等同于原伤害75%的【和音】伤害，每陷入1个负面状态，该伤害额外提高2%，最多提高40%。
 
-## 强化效果
+## Enhanced Effect
 
 -

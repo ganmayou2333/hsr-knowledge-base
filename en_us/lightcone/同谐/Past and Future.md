@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Past and Future |
-| 命途 | Harmony |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Past and Future |
+| Path | Harmony |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The wings of the paper kite in her hands were broken, brutally reminding her of her beloved's tragic passing.
 She kneeled next to the fire of war, eyes full of sorrow.
@@ -23,18 +23,18 @@ She kneeled next to the fire of war, eyes full of sorrow.
 Gunfire raged on, painting the sky red without dampening its majesty.
 She looked up at the sky, eyes full of fury.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 423 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Kites From the Past
 
 When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

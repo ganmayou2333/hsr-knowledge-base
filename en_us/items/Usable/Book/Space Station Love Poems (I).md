@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Space Station Love Poems (I) |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Space Station Love Poems (I) |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 黑塔情诗其一
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-主控舱段，地图左下方的桌面上，完成冒险任务【致：黯淡星】之后可以在此处获取其一、其二、其三

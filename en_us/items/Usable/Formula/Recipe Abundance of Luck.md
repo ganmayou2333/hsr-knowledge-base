@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Abundance of Luck |
-| 用途 | 配方 |
-| 评级 | ★★★ |
-| 类型 | Usable / 配方 |
+| Item Name | Recipe: Abundance of Luck |
+| Use | Formula |
+| Rarity | ★★★ |
+| Type | Usable / 配方 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 2025 星穹铁道 x luckincoffee瑞幸咖啡联动 -联动兑换码

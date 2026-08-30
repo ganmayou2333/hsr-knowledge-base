@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Gepard |
-| 类型 | 祝福 |
-| 命途 | 无（按角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 角色专属|
+| Name | Gepard |
+| Type | Blessing |
+| Path | 无（按角色） |
+| Rarity | TBD |
+| Special Type | 角色专属 |
 
 
-## 效果
+## Effect
 
 杰帕德在差分宇宙中的伤害获得增幅。
 效果命中提高30%，在场时，冻结状态下的敌方目标防御力降低20%。
 
-## 强化效果
+## Enhanced Effect
 
 -

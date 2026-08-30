@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Odd Gummy Candy |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Odd Gummy Candy |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中随机生效1个效果：「仓鼠球骑士风味」速度提高20%；「石头老板风味」速度降低5%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 美梦小镇主题餐厅

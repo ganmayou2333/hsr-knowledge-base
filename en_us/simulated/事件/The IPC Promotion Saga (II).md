@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The IPC Promotion Saga (II) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Bond.png` |
+| Name | The IPC Promotion Saga (II) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Bond.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 关心临时雇佣工的身心健康。 | 获得250宇宙碎片；全部角色回复等同于各自生命上限100%的生命。 |
 | 把下周约满*跨物种联谊派对*！ | 获得4个1星祝福。 |
@@ -39,7 +39,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 114202 |  |
 | 414202 |  |

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter: Crimson Cleansing Chronicle (VI) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Bounty Hunter: Crimson Cleansing Chronicle (VI) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·余烬宇宙：传言参与蠹星大屠杀的赏金猎人们，此后一直在清洗手上彩色的血液。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 再帮它洗一次手。 | 你好像对此很熟悉。 |
 
@@ -36,6 +36,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116601 |  |

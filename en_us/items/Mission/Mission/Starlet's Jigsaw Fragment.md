@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Starlet's Jigsaw Fragment |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Starlet's Jigsaw Fragment |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 这枚碎片似乎曾是某幅筑梦拼图的一部分。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【忧伤的怪物们·其六】

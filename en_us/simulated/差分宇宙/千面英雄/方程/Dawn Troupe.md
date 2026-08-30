@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Dawn Troupe |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 同谐*2欢愉*2 |
+| Name | Dawn Troupe |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 同谐*2欢愉*2 |
 
 
-## 效果
+## Effect
 
 【和音】伤害倍率提高原倍率50%，我方目标发动追加攻击后为目标添加1层【和音】。
 
-## 强化效果
+## Enhanced Effect
 
 -

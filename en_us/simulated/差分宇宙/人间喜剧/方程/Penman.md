@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Penman |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*3巡猎*2 |
+| Name | Penman |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*3巡猎*2 |
 
 
-## 效果
+## Effect
 
 角色施放攻击造成终结技伤害后，每击中一名敌方目标，都会对生命上限最高的敌方目标造成等同于角色100%攻击力的终结技伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

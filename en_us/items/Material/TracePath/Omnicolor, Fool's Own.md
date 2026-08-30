@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Omnicolor, Fool's Own |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 行迹材料 |
+| Item Name | Omnicolor, Fool's Own |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 行迹材料 |
 
 
-## 说明
+## Description
 
 收束无尽未来的诡异万色骰子。可大幅提升毁灭角色的命途行迹。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【{TextID#FloorName_20531001}】
 - 「万能合成机」- 材料合成

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Moon Rage Fang |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / TracePath |
+| Item Name | Moon Rage Fang |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 4★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 步离人征战时遗留的骇人长牙。可大幅提升毁灭角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【鳞渊境】
 - 「万能合成机」- 材料合成

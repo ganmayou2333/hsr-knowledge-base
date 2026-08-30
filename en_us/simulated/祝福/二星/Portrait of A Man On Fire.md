@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Portrait of A Man On Fire |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Portrait of A Man On Fire |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612640 | When causing Aftertaste DMG to an enemy, characters deal additional Aftertaste DMG of different Types for 1 time(s), at DMG values equal to 60% of the original DMG. |
 | 615640 | When causing Aftertaste DMG to an enemy, characters deal additional Aftertaste DMG of different Types for 1 time(s), at DMG values equal to 60% of the original DMG. |

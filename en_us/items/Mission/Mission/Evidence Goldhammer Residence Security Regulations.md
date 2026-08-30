@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Evidence: Goldhammer Residence Security Regulations |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Evidence: Goldhammer Residence Security Regulations |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一份《金槌府邸安全规范》。应该是花火为这场推理游戏现编的。内容如下：
 
-## 获得途径
+## Acquisition
 
 - 同行任务【假面双人舞】

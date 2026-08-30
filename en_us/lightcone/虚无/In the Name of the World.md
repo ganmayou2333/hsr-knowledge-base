@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | In the Name of the World |
-| 命途 | Nihility |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | In the Name of the World |
+| Path | Nihility |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Welt...?"
 "It's a... great name, right?"
@@ -24,18 +24,18 @@
 "This Herrscher core... and the mission to protect the world..."
 "I'll leave them to you, Welt."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 582 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Inheritor
 
 Increases the wearer's DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

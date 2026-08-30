@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Vortex of Wind |
-| 用途 | 合成素材 |
-| 评级 | ★★ |
-| 类型 | Material / 合成素材 |
+| Item Name | Vortex of Wind |
+| Use | Synthesis Material |
+| Rarity | ★★ |
+| Type | Material / 合成素材 |
 
 
-## 说明
+## Description
 
 2级合成材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 魔阴身士卒等敌方掉落【流云渡】
 - 「雅利洛-Ⅵ」可破坏物掉落

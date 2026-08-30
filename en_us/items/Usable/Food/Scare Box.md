@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Scare Box |
-| 用途 | 消耗品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Scare Box |
+| Use | Consumable |
+| Rarity | ★★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后在下场战斗中，「惊吓盒子」会藏在一个随机单位上，并在回合开始时引爆并造成大量伤害。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」
 - 基尔克

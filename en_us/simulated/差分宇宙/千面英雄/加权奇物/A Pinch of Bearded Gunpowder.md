@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | A Pinch of Bearded Gunpowder |
-| 类型 | 加权奇物 |
+| Name | A Pinch of Bearded Gunpowder |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

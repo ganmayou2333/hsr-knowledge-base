@@ -4,20 +4,20 @@
 > 实体ID：129
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/6826/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Ever-Glorious Magical Girl |
-| 类型 | 隧洞遗器 |
-| 实体ID | 129 |
-## 获取途径
+| Name | Ever-Glorious Magical Girl |
+| Type | 隧洞遗器 |
+| Entity ID | 129 |
+## Acquisition
 魔占之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases CRIT DMG by 16%.
 ### 4 件套
 The Elation DMG dealt by the wearer and their memosprites ignores 10% of targets' DEF. For every 5 accumulated Punchline allies gain, the Elation DMG dealt additionally ignores 1% of targets' DEF, stacking up to 10 time(s).
-## 部位
+## Pieces
 ### 手部：魔法少女的守护手套
 **描述**：魔法少女的多功能手套，集娱乐和战斗功能于一体。纯白的双手，呵护着众人的愿。
 **来历**：

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Dream of Atonement |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Dream of Atonement |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 处于黑夜时，我方目标离场/消失/陷入无法战斗状态时，所有我方目标造成的最终伤害提高15%，单个昼夜内最多叠加60%，昼夜切换后重置。
 
-## 强化效果
+## Enhanced Effect
 
 -

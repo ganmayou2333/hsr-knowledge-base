@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | A Prophecy Continuing Myths |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | A Prophecy Continuing Myths |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 处于白昼时，我方目标每次施放终结技时，造成的最终伤害提高4%，单个昼夜内最多叠加60%，昼夜切换后重置。
 
-## 强化效果
+## Enhanced Effect
 
 -

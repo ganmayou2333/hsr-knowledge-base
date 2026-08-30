@@ -7,25 +7,25 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Shining Trapezohedron Die |
-| 类型 | 奇物（同名合并） |
-| 星级 | 2星 |
+| Name | Shining Trapezohedron Die |
+| Type | 奇物（同名合并） |
+| Rarity | 2星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 3 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 21 | Replaces all Curios currently in possession (including this Curio) with random Curios. |
 | 1021 | Replaces all Curios currently in possession (including this Curio) with random Curios. |
 | 3021 | Replaces all Curios currently in possession (including this Curio) with random Curios. |
 
-## 背景故事
+## Story
 
 这枚骰子的各面并不规则，内部有奇异的光彩肆意流转，传说封印着恐怖而不可名状的邪神，必须避免在无光的环境下与之接触。过去有人不相信上述传说，执意在黑暗中与骰子共处一室，却发现骰子自身的光华无法遮蔽。由此产生了著名的「闪耀偏方三八面骰悖论」：你没法证明没法证明的事情。

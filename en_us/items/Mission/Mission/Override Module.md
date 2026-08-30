@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Override Module |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Override Module |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 钟珊交给你的计算机模块。将它加装到那些损坏的机兵身上，似乎就能让它们「死而复生」。不知怎么，这模块上还装了一块太阳能板。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【动物凶猛】

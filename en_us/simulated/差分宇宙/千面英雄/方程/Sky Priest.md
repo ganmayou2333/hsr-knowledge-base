@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sky Priest |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Sky Priest |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 毁灭*6
 智识*4 |
 
 
-## 效果
+## Effect
 
 我方目标受到攻击后获得2个【雷祭】，发动反击后获得1个。拥有6个【雷祭】时，清空【雷祭】，使造成的终结技伤害提高180%，持续2回合，并对敌方全体目标造成200%的【耀变】伤害，该伤害视为终结技伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

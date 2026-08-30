@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Pan-Cosmic Quick Diagnosis Booklet |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Pan-Cosmic Quick Diagnosis Booklet |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 小天整理的笔记。但是银河中的疑难杂症已经早早超出她的处理范围。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【商铺事件·寿考堂】

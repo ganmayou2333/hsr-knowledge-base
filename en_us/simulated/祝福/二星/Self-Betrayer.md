@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Self-Betrayer |
-| 类型 | 祝福 |
-| 命途 | 毁灭&繁育 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Self-Betrayer |
+| Type | Blessing |
+| Path | 毁灭&繁育 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色击破敌方目标弱点时，恢复2点战技点。根据我方全体战意层数之和，每有5层【战意】，我方全体造成的击破伤害提高2%。
 
-## 强化效果
+## Enhanced Effect
 
 -

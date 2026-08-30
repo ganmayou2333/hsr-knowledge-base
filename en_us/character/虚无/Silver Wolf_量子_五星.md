@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Silver Wolf |
-| 命途 | Nihility |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星核猎手 |
-| 角色介绍 | 「星核猎手」的成员，骇客高手。 将宇宙视作大型沉浸式模拟游戏，玩乐其中。 掌握了能够修改现实数据的「以太编辑」。 |
-| 定位 | 通过添加弱点削减抗性削弱敌方的角色 |
+| Character Name | Silver Wolf |
+| Path | Nihility |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 星核猎手 |
+| Introduction | 「星核猎手」的成员，骇客高手。 将宇宙视作大型沉浸式模拟游戏，玩乐其中。 掌握了能够修改现实数据的「以太编辑」。 |
+| Role | 通过添加弱点削减抗性削弱敌方的角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 阿澄佳奈 |
-| 英语 | Melissa Fahn |
-| 中文 | Hanser |
-| 韩语 | 장미 |
+| Japanese | 阿澄佳奈 |
+| English | Melissa Fahn |
+| Chinese | Hanser |
+| Korean | 장미 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 640 |
-| 基础防御力 | 461 |
-| 基础速度 | 107 |
-| 嘲讽 | 100 |
-| 能量上限 | 110 |
+| Base HP | 1,048 |
+| Base ATK | 640 |
+| Base DEF | 461 |
+| Base SPD | 107 |
+| Taunt | 100 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/虚幻铸铁\|虚幻铸铁]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/虚幻铸铁\|Void Cast Iron]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 12 |
-| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 53 |
-| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|Obsidian of Dread]] | 12 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|Obsidian of Desolation]] | 53 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|Obsidian of Obsession]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 28 |
 
 ---
-## 战技
-### 普攻：System Warning
+## Skills
+### Basic ATK：System Warning
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 140% of Silver Wolf's ATK to one designated enemy.
 
-### 战技：Allow Changes?
+### Skill：Allow Changes?
 - **类型**：Skill
 - **简述**：There is a high chance to apply an additional Weakness to one enemy and deals Quantum DMG to this enemy.
 - **最大等级**：15
@@ -110,7 +110,7 @@ Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this target.
 对该目标造成等同于银狼#1[i]%攻击力的量子属性伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) | 参数6 | 参数7 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 98% | 75% | 2 | 20% | 100% | 7.5% | 2 |
   | Lv.2 | 107.8% | 76% | 2 | 20% | 100% | 7.75% | 2 |
@@ -145,14 +145,14 @@ Deals Quantum DMG equal to 245% of Silver Wolf's ATK to this target.
 有100%的基础概率额外使该目标的全属性抗性降低#6[f1]%，持续2回合。
 对该目标造成等同于银狼245%攻击力的量子属性伤害。
 
-### 终结技：User Banned
+### Ultimate：User Banned
 - **类型**：Ultimate
 - **简述**：Has a high chance of reducing all enemies' DEF, and deals massive Quantum DMG to them.
 - **最大等级**：15
 - **效果模板**：Has a #2[i]% base chance to reduce the DEF of all enemies by #3[f1]% for #4[i] turn(s). At the same time, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 228% | 85% | 36% | 3 |
   | Lv.2 | 243.2% | 86.5% | 36.9% | 3 |
@@ -178,7 +178,7 @@ Deals Quantum DMG equal to 245% of Silver Wolf's ATK to this target.
 
 - **满级效果**：Has a 107.5% base chance to reduce the DEF of all enemies by #3[f1]% for 3 turn(s). At the same time, deals Quantum DMG equal to 456% of Silver Wolf's ATK to all enemies.
 
-### 天赋：Awaiting System Response...
+### Talent：Awaiting System Response...
 - **类型**：Talent
 - **简述**：After an attack, there is a chance of implanting 1 random "Bug" on the target. When this enemy target gets defeated, the implanted Weakness will be transferred.
 - **最大等级**：15
@@ -188,7 +188,7 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 银狼每次施放攻击后有#4[i]%的基础概率给受到攻击的敌方目标植入1个随机【缺陷】，持续#5[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 5% | 4% | 3% | 60% | 3 |
   | Lv.2 | 5.5% | 4.4% | 3.3% | 61.2% | 3 |
@@ -218,14 +218,14 @@ After every attack launched by Silver Wolf, she has a 78% base chance to implant
 When the enemy target gets defeated, the Weakness Silver Wolf implanted on it will be transferred to another surviving enemy on the field that hasn't been implanted with Weakness by Silver Wolf, prioritizing targets at Elite-level and above.
 银狼每次施放攻击后有78%的基础概率给受到攻击的敌方目标植入1个随机【缺陷】，持续3回合。
 
-### 秘技：Force Quit Program
+### Technique：Force Quit Program
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering combat, deals minor DMG to all enemies and reduces Toughness of all enemies regardless of Weakness Types.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. After entering combat, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies, and reduces Toughness of all enemies regardless of Weakness Types. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
 
@@ -234,27 +234,27 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 
 - **满级效果**：Immediately attacks the enemy. After entering combat, deals Quantum DMG equal to 80% of Silver Wolf's ATK to all enemies, and reduces Toughness of all enemies regardless of Weakness Types. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 生成 | 晋阶2 | 【缺陷】的持续时间增加#1[i]回合。每当有敌方目标的弱点被击破时，银狼有#2[i]%的基础概率对该目标植入1个随机【缺陷】。 | 【缺陷】的持续时间增加1回合。每当有敌方目标的弱点被击破时，银狼有65%的基础概率对该目标植入1个随机【缺陷】。 | 信用点×5000、黯淡黑曜×3、毁灭者的末路×1 |
 | 附加能力2 | 注入 | 晋阶4 | 施放战技时，为敌方目标添加的弱点持续时间增加#1[i]回合。 | 施放战技时，为敌方目标添加的弱点持续时间增加1回合。 | 信用点×20000、虚空黑曜×5、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 旁注 | 晋阶6 | 施放战技时，若敌方目标的负面效果数量大于等于#1[i]个，则战技使目标全属性抗性降低的效果额外降低#2[i]%。 | 施放战技时，若敌方目标的负面效果数量大于等于3个，则战技使目标全属性抗性降低的效果额外降低3%。 | 信用点×160000、沉沦黑曜×8、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
+| ATK | 28% |
 | 效果命中 | 18% |
 | 量子属性伤害提高 | 8% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Social Engineering | After using Ultimate to attack an enemy target, Silver Wolf regenerates 7 Energy for every debuff on the target. This effect can trigger up to 5 time(s) in each use of Ultimate. |
 | E2 | Zombie Network | When an enemy target enters combat, increases their DMG taken by 20%. When an enemy target gets attacked by ally targets, Silver Wolf has a 100% base chance to implant 1 random "Bug" on the attacked enemy target. |
@@ -265,91 +265,91 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：效果命中 / 速度 / 量子属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：速度 / 效果命中 / 暴击率 / 暴击伤害 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|梦想之地匹诺康尼]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/泛银河商业公司\|泛银河商业公司]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
+| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|Penacony, Land of the Dreams]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/泛银河商业公司\|Pan-Cosmic Commercial Enterprise]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/雨一直下.md|雨一直下]]
+### [[zh_cn/lightcone/虚无/雨一直下.md|Incessant Rain]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：幻影现实
 - **效果**：使装备者的效果命中提高【24%/28%/32%/36%/40%】。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高【12%/14%/16%/18%/20%】。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高【12%14%/16%/18%/20%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/新手任务开始前.md|新手任务开始前]]
+### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
 - **基础属性**：生952攻476 防350
 - **推荐度**：★★★★★
 - **技能名**：眼疾手快
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
 
-### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|决心如汗珠般闪耀]]
+### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：回眸
 - **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%16%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/以世界之名.md|以世界之名]]
+### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★
 - **技能名**：传承者
 - **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时,装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
 
-### [[zh_cn/lightcone/虚无/行于流逝的岸.md|行于流逝的岸]]
+### [[zh_cn/lightcone/虚无/行于流逝的岸.md|Along the Passing Shore]]
 
 - **基础属性**：生1058 攻635 防396
 - **推荐度**：★★★★
 - **技能名**：司渡
 - **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高【24%/28%/32%/36%/40%】，终结技造成的伤害额外提高【24%/28%/32%/36%/40%】。
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受一个负面状态，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】最多叠加3次。该效果对持续伤害也会生效。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
-| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|翡翠]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] |
+| 副C | [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
+| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|Jade]] |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 将宇宙视为游戏的超级骇客。 
 无论怎样棘手的防御系统，银狼都能轻松破解。她与「天才俱乐部」螺丝咕姆的数据攻防战，现已成为骇客界的传说。 
 宇宙中还有多少亟待攻破的关卡？银狼对此十分期待。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 她玩着摇杆，日复一日。 
 只有一个员工的快餐店，用地下室改装的街机厅，几台陈旧的游戏机，这就是她的童年。 
@@ -371,7 +371,7 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 那晚，快餐店唯一的员工和女主人告别，成为了下一个离开的人。 
 名为「地下室」的游戏，在这一天结束了。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 她一路向西，穿过大荒野，来到废品山。
 她想给自己找点活干，却因独来独往而四处碰壁。
@@ -394,7 +394,7 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 中间人沉默半晌，看了看她，又抬头看了看天空，最后转过身，把一箱金块扔在地上。
 名为「废品山」的游戏，在这一天结束了。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 她站在虹霓都市最高的大厦顶端，从这里可以望见她出生的地方。 
 只有一个员工的快餐店，用地下室改装的街机厅，几台陈旧的游戏机，她记得，这就是她的童年。 
@@ -416,7 +416,7 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 「好无聊啊。」 
 名为「虹霓都市」的游戏，在这一天结束了。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 她站在椅子上，擦着街机屏幕，打着圈，一遍又一遍，像是要擦掉每一粒灰尘。 
 她回到了那家快餐店，那间地下室。她打开门，一切一如既往，女主人为她保留了所有的布置。 

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Seemingly Mirrored |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Seemingly Mirrored |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 角色施放普攻后，若攻击目标处于命途回响造成的冻结状态下，则有100%的基础概率使其陷入【离神】状态，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

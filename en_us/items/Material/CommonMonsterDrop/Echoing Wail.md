@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Echoing Wail |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Echoing Wail |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 黑潮造物躯壳的组成部分，强化所需的普通材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级2后，黑潮造物掉落
 - 「万能合成机」- 材料合成

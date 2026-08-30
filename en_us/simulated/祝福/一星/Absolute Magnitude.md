@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Absolute Magnitude |
-| 类型 | 祝福（同名合并） |
-| 命途 | 毁灭 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Absolute Magnitude |
+| Type | Blessing (merged) |
+| Path | 毁灭 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616553 | Ally targets' HP restored increases by 12%. |
 | 617553 | Increases ally targets' HP restored by 12%. |

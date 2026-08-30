@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Dangerous Feeding |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_13.png` |
+| Name | Dangerous Feeding |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_13.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 还是谨慎为好。 | 舍弃最多1个负面奇物-果然不出我所料-进入战斗，胜利后获得2个祝福 |
 | 多吃点，别饿着了。 | 舍弃最多2个负面奇物-这是你自找的！-进入战斗，胜利后获得1个3星祝福和1个随机奇物。 |
@@ -28,6 +28,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 421001 |  |

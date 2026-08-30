@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | After the Charmony Fall |
-| 命途 | Erudition |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | After the Charmony Fall |
+| Path | Erudition |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The eternal dream he longed for vanished in an instant. As he plummeted towards the earth, he felt no sadness, only a desire to close his eyes.
 The old path treaded upon has now crumbled, yet the journey ahead remains shrouded in mist.
@@ -25,18 +25,18 @@ So, why do people slumber? And why do they wake?
 — As planets streak past outside the window, this answer now demands a new meaning to be given.
 "Maybe... just maybe I still can..."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 476 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Quiescence
 
 Increases the wearer's Break Effect by 28%. After the wearer uses Ultimate, increases SPD by 8%, lasting for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

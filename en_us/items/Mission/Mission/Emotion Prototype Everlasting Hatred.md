@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Emotion Prototype: Everlasting Hatred |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Emotion Prototype: Everlasting Hatred |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 当你读到这段文字时，请你考虑一下这个建议：给你的仇敌发一条消息，告诉他们——你原谅他们。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【好兆头，我的朋友】

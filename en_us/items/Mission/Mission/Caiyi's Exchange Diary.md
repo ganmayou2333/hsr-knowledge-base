@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Caiyi's Exchange Diary |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Caiyi's Exchange Diary |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 采翼希望好友能照顾自己的女儿，让自己的女儿成为任何她想成为的人…除了成为斗舰飞行士。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【因为我已触碰过天空】

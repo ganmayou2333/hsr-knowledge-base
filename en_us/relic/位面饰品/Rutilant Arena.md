@@ -4,20 +4,20 @@
 > 实体ID：309
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/1223/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Rutilant Arena |
-| 类型 | 位面饰品 |
-| 实体ID | 309 |
-## 获取途径
+| Name | Rutilant Arena |
+| Type | 位面饰品 |
+| Entity ID | 309 |
+## Acquisition
 第七世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, DMG dealt by Basic ATK and Skill increases by 20%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：泰科铵的弧光赛道
 **描述**：泰科铵大球馆的标准赛道通常为金属结构外覆光滑混凝土与原木地板。为了让场内观众清晰观赛，大量透明聚碳酸酯材料被投入球馆，战况一览无余。
 **来历**：

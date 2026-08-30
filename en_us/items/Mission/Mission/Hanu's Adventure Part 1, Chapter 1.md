@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Hanu's Adventure Part 1, Chapter 1 |
-| 用途 | 第一章 任务道具 / 第二章 任务道具 / 第三章 任务道具 / 第四章 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Hanu's Adventure Part 1, Chapter 1 |
+| Use | 第一章 任务道具 / 第二章 任务道具 / 第三章 任务道具 / 第四章 任务道具 |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
-## 说明
+## Description
 
 > 该名称对应 4 个不同实体ID，合并记录如下：
 

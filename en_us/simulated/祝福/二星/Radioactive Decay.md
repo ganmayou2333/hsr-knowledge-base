@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Radioactive Decay |
-| 类型 | 祝福（同名合并） |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Radioactive Decay |
+| Type | Blessing (merged) |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616546 | When ally targets' HP percentage is lower than 50%, decreases their DMG taken by 10% and increases the HP restored by 20%. |
 | 617546 | When ally targets' HP percentage is lower than 50%, decreases their DMG taken by 10% and increases the HP restored by 20%. |

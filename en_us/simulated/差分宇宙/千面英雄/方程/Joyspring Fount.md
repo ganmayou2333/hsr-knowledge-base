@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Joyspring Fount |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*2欢愉*2 |
+| Name | Joyspring Fount |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*2欢愉*2 |
 
 
-## 效果
+## Effect
 
 我方每层【执念】使敌方目标受到的追加攻击伤害与附加伤害提高0.3%。敌方目标受到来自召唤物的伤害后，该效果额外提高0.2%，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

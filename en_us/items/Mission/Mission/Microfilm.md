@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Microfilm |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Microfilm |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一卷遗失的胶片，应当被归还至贝洛伯格历史文化博物馆。
 
-## 获得途径
+## Acquisition
 
 - 1.1活动冒险任务【漫藏诲盗•其三】

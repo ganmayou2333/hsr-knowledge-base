@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Maddon Tunnel Is Collapsing |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Maddon Tunnel Is Collapsing |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 梅登矿道要塌了
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-大矿区·梅登矿道，直接拾取

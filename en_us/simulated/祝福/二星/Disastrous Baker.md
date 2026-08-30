@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Disastrous Baker |
-| 类型 | 祝福 |
-| 命途 | 繁育&毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Disastrous Baker |
+| Type | Blessing |
+| Path | 繁育&毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【耀变】上限提高，提高数值等同于当前护盾量的1000%。我方目标施放普攻或战技后，获得等同于生命上限30%的护盾，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

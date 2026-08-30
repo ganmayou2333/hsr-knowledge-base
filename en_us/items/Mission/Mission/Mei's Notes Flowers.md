@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Mei's Notes: Flowers |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Mei's Notes: Flowers |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 似乎是梅姐掉落的笔记。笔记上充满了潦草的笔迹，记录着一些常见花卉的培养方法。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【解雇】

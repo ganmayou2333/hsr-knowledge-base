@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Starward Demonhunt |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Starward Demonhunt |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色施放攻击后，受到伤害降低12%，该效果最多叠加2层，持续至受到攻击后。
 
-## 强化效果
+## Enhanced Effect
 
 角色施放攻击后，受到伤害降低12%，该效果最多叠加3层，持续至受到攻击后。

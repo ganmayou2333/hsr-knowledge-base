@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Traveler Who Survived the Blizzard |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | The Traveler Who Survived the Blizzard |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 穿过风雪的旅人
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-行政区地图中拾取

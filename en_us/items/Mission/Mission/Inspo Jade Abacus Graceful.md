@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Inspo Jade Abacus: Graceful |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Inspo Jade Abacus: Graceful |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 储备着机器学习数据与代码的玉兆，用于帮助小聪写诗。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【诗仙机器人】

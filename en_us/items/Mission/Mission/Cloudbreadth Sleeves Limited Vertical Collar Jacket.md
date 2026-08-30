@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Cloudbreadth Sleeves Limited Vertical Collar Jacket |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Cloudbreadth Sleeves Limited Vertical Collar Jacket |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 广云袖推出的「彩云纪」女士竖领短袄，选用亮丝牙签条纱和真丝棉面料制成。
 
 
-## 获得途径
+## Acquisition
 
 - 任务【诗仙机器人】

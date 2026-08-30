@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Herta Bond |
-| 用途 | 通用货币 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Herta Bond |
+| Use | Currency |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 模拟宇宙的奖励，可在黑塔商店购买物品。
 
 
-## 获得途径
+## Acquisition
 
 - 「黄金与机械」积分奖励
 - 模拟宇宙积分奖励

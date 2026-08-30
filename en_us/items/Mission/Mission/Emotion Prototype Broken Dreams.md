@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Emotion Prototype: Broken Dreams |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Emotion Prototype: Broken Dreams |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在匹诺康尼，到处都可以找到这样的残片。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【好兆头，我的朋友】

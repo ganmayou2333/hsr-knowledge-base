@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tide of Devastation |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Tide of Devastation |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色累计损失或治疗自身40%生命值后，攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次70%的超击破伤害。
 
-## 强化效果
+## Enhanced Effect
 
 角色累计损失或治疗自身40%生命值后，攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次105%的超击破伤害。

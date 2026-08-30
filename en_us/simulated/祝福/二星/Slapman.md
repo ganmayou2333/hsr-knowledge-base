@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Slapman |
-| 类型 | 祝福 |
-| 命途 | 毁灭&虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Slapman |
+| Type | Blessing |
+| Path | 毁灭&虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【耀变】额外造成等同于原伤害100%的伤害。敌方目标每持有一个负面状态，【耀变】额外造成等同于原伤害5%的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

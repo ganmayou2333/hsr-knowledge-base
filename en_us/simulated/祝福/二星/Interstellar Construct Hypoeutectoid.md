@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Interstellar Construct: Hypoeutectoid |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Interstellar Construct: Hypoeutectoid |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色为我方目标提供护盾时，自身获得等同于原提供护盾量24%的护盾，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 角色为我方目标提供护盾时，自身获得等同于原提供护盾量36%的护盾，持续2回合。

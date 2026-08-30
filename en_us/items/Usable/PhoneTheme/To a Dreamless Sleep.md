@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | To a Dreamless Sleep |
-| 用途 | 手机主题 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 手机主题 |
+| Item Name | To a Dreamless Sleep |
+| Use | 手机主题 |
+| Rarity | ★★★★ |
+| Type | Usable / 手机主题 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「宇宙家装指南」活动后获得的手机壁纸']

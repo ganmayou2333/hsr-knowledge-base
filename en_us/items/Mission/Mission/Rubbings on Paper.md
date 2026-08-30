@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Rubbings on Paper |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Rubbings on Paper |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 通过拓片纸将石碑上模糊不清的刻印拓下，转而得到的文字，似乎是房屋主人刻意留下。
 
-## 获得途径
+## Acquisition
 
 - 罗浮异闻-凶宅

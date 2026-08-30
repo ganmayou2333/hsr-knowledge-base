@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Trickster Knight |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 巡猎*2欢愉*2 |
+| Name | Trickster Knight |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 巡猎*2欢愉*2 |
 
 
-## 效果
+## Effect
 
 每层【会心】额外使造成的追加攻击伤害提高5%，我方目标发动追加攻击时，获得2层【会心】。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Military Machinery Routine Maintenance Record Form |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Military Machinery Routine Maintenance Record Form |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 军用机械例行检修记录表
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-铁卫禁区地图中拾取

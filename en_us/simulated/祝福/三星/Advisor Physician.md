@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Advisor Physician |
-| 类型 | 祝福 |
-| 命途 | 欢愉&丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Advisor Physician |
+| Type | Blessing |
+| Path | 欢愉&丰饶 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【珠露】造成的伤害视为追加攻击伤害，角色发动追加攻击或攻击造成【珠露】破裂后，有16%固定概率在攻击后触发效果：使【珠露】充能其上限的80%，并以10%/40%/40%/10%的固定概率造成1/2/3/4倍【珠露】充能值的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

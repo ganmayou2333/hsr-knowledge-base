@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lament Their Indifference |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Lament Their Indifference |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：无人不唏嘘瑟希斯的冷漠。当墨涅塔为它献上热切的爱，它将其封藏进拒绝的琥珀。
 差分宇宙：当爱意和浪漫再无法抑制，它们如泉水般喷涌而出，化为漫野的金色羽翼。墨涅塔的蝴蝶飞向翁法罗斯的各方，直至那众神亦未洞晓的边陲。
@@ -25,7 +25,7 @@
 差分宇宙：有斯廷法洛最为挺拔的橄榄树上，那清晨第一滴朝露滋润而成的碧绿果实；也有米拉瓦塔最勇敢无畏、胸脯宽阔的潜水者也采集不到的彩色巨蚌，如夜色般的珍珠在其中闪动。
 差分宇宙：甚至从那似乎莽荒未化的沃辛尼什，也撷来了几则令人捧腹的笑谈。如此，不胜枚举。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 碧绿的橄榄，似常青的爱意。 | — |
 | 黝黑的珍珠，如深沉的陪伴。 | — |
@@ -62,6 +62,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 249 |  |

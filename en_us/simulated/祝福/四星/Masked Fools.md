@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Masked Fools |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Masked Fools |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「欢愉」产生临界回响，对敌方全体造成5~10次随机属性的追加攻击伤害，并使我方全体的普攻/战技/终结技伤害被视为追加攻击伤害，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

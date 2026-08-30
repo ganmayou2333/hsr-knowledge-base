@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Fear-Stomped Flesh |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Fear-Stomped Flesh |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 组成纷争眷属的尘屑，强化所需的简单材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 泰坦眷属掉落
 - 晨昏奇兽掉落

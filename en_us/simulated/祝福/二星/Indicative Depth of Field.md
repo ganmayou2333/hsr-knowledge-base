@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Indicative Depth of Field |
-| 类型 | 祝福（同名合并） |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Indicative Depth of Field |
+| Type | Blessing (merged) |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612542 | For each stack of Grit, reduces the DMG taken by the character by 0.8%. |
 | 615541 | Characters with Grit will receive 16% less DMG. When their HP percentage is lower than 50%, additionally reduces DMG by 8%. |

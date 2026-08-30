@@ -4,20 +4,20 @@
 > 实体ID：308
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/585/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Sprightly Vonwacq |
-| 类型 | 位面饰品 |
-| 实体ID | 308 |
-## 获取途径
+| Name | Sprightly Vonwacq |
+| Type | 位面饰品 |
+| Entity ID | 308 |
+## Acquisition
 第四世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：翁瓦克的环岛海岸
 **描述**：瓦克岛的海岸线上，海面时高时低，浪潮时涨时落…千年不变的风景，见证了如同潮汐一般的兴衰。
 **来历**：

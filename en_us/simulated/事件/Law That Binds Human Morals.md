@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Law That Binds Human Morals |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Law That Binds Human Morals |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：是谁于智慧觉醒之时，制定约束行为的道德，令伦理照耀人心。
 差分宇宙：人子对塔兰顿的感情十分复杂，它既不像美丽的墨涅塔和智慧的瑟希斯那样人人欢喜，也不像狡诈的扎格列斯那样人人唾弃。
@@ -25,7 +25,7 @@
 差分宇宙：在人类狭隘的道德观念中，公平意味着付出有所得，行善有所赏，施恶有所惩。
 差分宇宙：但在塔兰顿来说，衡量公平的唯一准则，只是将比较的两者放于托盘两侧，看看孰重孰轻而已。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 泰坦的思维非人能理解。 | — |
 | 这有点草率吧。 | — |
@@ -63,6 +63,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 258 |  |

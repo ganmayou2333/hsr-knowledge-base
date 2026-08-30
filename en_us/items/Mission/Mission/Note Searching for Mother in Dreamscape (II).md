@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Note: Searching for Mother in Dreamscape (II) |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Note: Searching for Mother in Dreamscape (II) |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 那对前来匹诺康尼寻亲的父女在四处打听被称作「绘梦的夏洛特」的女人的下落。一位好心的银行家告知他们，匹诺康尼的艺术家们通常会在某个不对宾客开放的「边境」聚集。或许他们下一步就会前往那里。
 
-## 获得途径
+## Acquisition
 
 - 在黄金的时刻旁听韦斯莱和佩内洛普的对话

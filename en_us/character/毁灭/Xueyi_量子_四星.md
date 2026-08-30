@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Xueyi |
-| 命途 | Destruction |
-| 属性 | Quantum |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 仙舟「罗浮」上监察生死的机构「十王司」的判官。早已身死道消多年，借偃偶身躯「还阳」，履行使命。 |
-| 定位 | 通过削减敌方韧性触发追加攻击的输出型角色 |
+| Character Name | Xueyi |
+| Path | Destruction |
+| Attribute | Quantum |
+| Rarity | ★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 仙舟「罗浮」上监察生死的机构「十王司」的判官。早已身死道消多年，借偃偶身躯「还阳」，履行使命。 |
+| Role | 通过削减敌方韧性触发追加攻击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 河瀬茉希 |
-| 英语 | Jenny Yokobori |
-| 中文 | 溯浔 |
-| 韩语 | 박리나 |
+| Japanese | 河瀬茉希 |
+| English | Jenny Yokobori |
+| Chinese | 溯浔 |
+| Korean | 박리나 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,058 |
-| 基础攻击力 | 600 |
-| 基础防御力 | 397 |
-| 基础速度 | 103 |
-| 嘲讽 | 125 |
-| 能量上限 | 120 |
+| Base HP | 1,058 |
+| Base ATK | 600 |
+| Base DEF | 397 |
+| Base SPD | 103 |
+| Taunt | 125 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/苍猿之钉\|苍猿之钉]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/苍猿之钉\|Nail of the Ape]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 8 |
-| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 42 |
-| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|Shattered Blade]] | 8 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|Lifeless Blade]] | 42 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|Worldbreaker Blade]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 20 |
 
 ---
-## 战技
-### 普攻：Mara-Sunder Awl
+## Skills
+### Basic ATK：Mara-Sunder Awl
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals #1[i]% of Xueyi's ATK as Quantum DMG to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals 140% of Xueyi's ATK as Quantum DMG to one designated enemy target.
 
-### 战技：Iniquity Obliteration
+### Skill：Iniquity Obliteration
 - **类型**：Skill
 - **简述**：Deals Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Xueyi's ATK to any adjacent enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 70% | 35% |
   | Lv.2 | 77% | 38.5% |
@@ -128,7 +128,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 175% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to 87.5% of Xueyi's ATK to any adjacent enemies.
 
-### 终结技：Divine Castigation
+### Ultimate：Divine Castigation
 - **类型**：Ultimate
 - **简述**：Deals massive Quantum DMG to one enemy. This attack ignores Weakness Types and reduces the target's Toughness. The more Toughness is reduced, the higher the DMG will be dealt.
 - **最大等级**：15
@@ -137,7 +137,7 @@ In this attack, the more Toughness is reduced, the higher the DMG will be dealt,
 在本次攻击中，削减的韧性越多，造成的伤害越高，最多提高#3[f1]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 150% | 9% | 36% |
   | Lv.2 | 160% | 9.6% | 38.4% |
@@ -164,7 +164,7 @@ In this attack, the more Toughness is reduced, the higher the DMG will be dealt,
 In this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of #3[f1]% increase.
 在本次攻击中，削减的韧性越多，造成的伤害越高，最多提高#3[f1]%。
 
-### 天赋：Karmic Perpetuation
+### Talent：Karmic Perpetuation
 - **类型**：Talent
 - **简述**：When Xueyi or her teammates reduce enemy Toughness with attacks, she gains stacks of "Karma." When "Karma" reaches the max number of stacks, immediately launches Follow-Up ATK, dealing minor Quantum DMG to one enemy target, bouncing for 3 times and consuming all "Karma."
 - **最大等级**：15
@@ -175,7 +175,7 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣#2[i]%攻击力的量子属性伤害。本次追加攻击无法叠加【恶报】。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 8 | 45% | 1 |
   | Lv.2 | 8 | 49.5% | 1 |
@@ -204,14 +204,14 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 当雪衣的队友施放攻击削减敌方韧性后，雪衣叠加1层【恶报】。
 当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣112.5%攻击力的量子属性伤害。本次追加攻击无法叠加【恶报】。
 
-### 秘技：Summary Execution
+### Technique：Summary Execution
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor Quantum DMG to all enemies.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. After entering combat, deals #1[i]% of Xueyi's ATK as Quantum DMG to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
 
@@ -220,27 +220,27 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 
 - **满级效果**：Immediately attacks the enemy. After entering combat, deals 80% of Xueyi's ATK as Quantum DMG to all enemies.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 预兆机杼 | 晋阶2 | 使自身造成的伤害提高，提高数值等同于击破特攻的#1[i]%，最多使造成的伤害提高#2[i]%。 | 使自身造成的伤害提高，提高数值等同于击破特攻的100%，最多使造成的伤害提高240%。 | 信用点×4000、破碎残刃×2、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 摧锋轴承 | 晋阶4 | 如果敌方目标当前韧性大于等于其自身韧性上限的#1[i]%，施放终结技时造成的伤害提高#2[i]%。 | 如果敌方目标当前韧性大于等于其自身韧性上限的50%，施放终结技时造成的伤害提高10%。 | 信用点×16000、无生残刃×4、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 伺观中枢 | 晋阶6 | 雪衣会累计溢出的【恶报】层数，最多累计#1[i]层。雪衣触发天赋后，获得相应溢出层数的【恶报】。 | 雪衣会累计溢出的【恶报】层数，最多累计6层。雪衣触发天赋后，获得相应溢出层数的【恶报】。 | 信用点×128000、净世残刃×6、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
+| HP | 18% |
 | 击破特攻 | 37.3% |
 | 量子属性伤害提高 | 8% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Dvesha, Inhibited | Increases the DMG dealt by the Talent's Follow-Up ATK by 40%. |
 | E2 | Klesha, Breached | Talent's Follow-Up ATK Reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to 5% of her Max HP. When breaking Weakness, triggers the Quantum Break Effect. |
@@ -251,84 +251,84 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 量子属性伤害提高 / 击破特攻
 
 **推荐副词条**：击破特攻 / 暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/梦应归于何处.md|梦应归于何处]]
+### [[zh_cn/lightcone/毁灭/梦应归于何处.md|Whereabouts Should Dreams Rest]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：蜕变
 - **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。当装备者对敌方目标造成击破伤害时，使敌方陷入【溃败】状态，持续2回合。【溃败】状态下目标受到装备者造成的击破伤害提高【24.0%/28.0%/32.0%/36.0%/40.0%】，速度降低20%，同类效果无法叠加。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|比阳光更明亮的]]
+### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|Brighter Than the Sun]]
 
 - **基础属性**：生1058 攻635 防396
 - **推荐度**：★★★★★
 - **技能名**：抵死
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】 最多叠加2层。
 
-### [[zh_cn/lightcone/毁灭/在蓝天下.md|在蓝天下]]
+### [[zh_cn/lightcone/毁灭/在蓝天下.md|Under the Blue Sky]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：暖阳麦浪
 - **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，消灭敌方目标后，暴击率提高【12%/15%/18%/21%/24%】，持续3回合。
 
-### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|鼹鼠党欢迎你]]
+### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
 - **基础属性**：生1054 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：奇妙冒险
 - **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 生存 |
 |---|---|
 | 核心辅助 | 副C |
-| [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
+| [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
 | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] |
 | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 仙舟「罗浮」的「十王司」判官之一，负责拘、锁、刑、问的四判官中的「拘」。
 手持铁索与破魔锥，不知疲倦地寻索重犯，将其勾摄镇伏。
 过去的肉身已灰飞烟灭，借偃偶身躯「还阳」，每缉拿一个凶徒便抵半日。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「十王圣断，业报恒常。」
 
@@ -360,7 +360,7 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 
 没有疼痛，只有机巧器官损坏的轻响。白衣判官一阵恍惚。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「雪衣大人，你这幅身体已经没救了。我…我得把你移进新的偃偶里。这个过程可能会让你有些糊涂，你忍一忍。」
 
@@ -396,7 +396,7 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 
 熟悉的声音再次出现，超乎声纹波形之外，一个回忆牢牢禁锢住了她。白衣判官脑海一阵恍惚。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「姐姐…姐姐！」
 
@@ -444,7 +444,7 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 
 如同所有从梦中惊醒的人一般，她回到了自己的身体，却忘记了刚才的梦。白衣判官脑海一阵恍惚。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 在白衣的判官耳旁，狐人嘶哑的笑声听来直如狼嗥。
 

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Last of the Taraka |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Last of the Taraka |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色造成的【回味】伤害提高70%。
 
-## 强化效果
+## Enhanced Effect
 
 角色造成的【回味】伤害提高105%。

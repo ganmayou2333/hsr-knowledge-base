@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Creation Vocalist |
-| 类型 | 祝福 |
-| 命途 | 欢愉&智识 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Creation Vocalist |
+| Type | Blessing |
+| Path | 欢愉&智识 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色施放终结技后，使下次施放攻击后，对攻击目标造成2次等同于角色攻击力150%的【回味】伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

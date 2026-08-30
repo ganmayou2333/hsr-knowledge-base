@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Evening Ember at the Goethe Hotel |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Evening Ember at the Goethe Hotel |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 《歌德宾馆的夜与雾》
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-行政区的歌德宾馆中拾取

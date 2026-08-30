@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Anti-Organic Liquidator |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*4毁灭*4 |
+| Name | Anti-Organic Liquidator |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*4毁灭*4 |
 
 
-## 效果
+## Effect
 
 角色施放终结技时，使我方全体消耗等同于当前生命值5%的生命值，且造成的伤害提高30%，最多叠加4层，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

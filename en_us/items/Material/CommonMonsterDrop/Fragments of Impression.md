@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Fragments of Impression |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Fragments of Impression |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 深刻印象的忆质碎片，强化所需的普通材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级2后，忆域迷因掉落
 - 「万能合成机」- 材料合成

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Language Module |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Language Module |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一枚逻辑语言中枢，专供贝洛伯格制式的自动机兵使用。
 
-## 获得途径
+## Acquisition
 
 - 在「磐岩镇」与菲多拉对话后，在【行政区商店】购买获得

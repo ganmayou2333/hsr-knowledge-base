@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Furbobo Weekly Badge |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Furbobo Weekly Badge |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 由某位知名漫画家亲笔绘制的柄图制成的《狸狸周刊》吧唧，庆祝《狸狸周刊》周边快闪店赢得海原市商业街冠军的纪念品。
 
 
-## 获得途径
+## Acquisition
 
 - 活动【又上般了！战力党】

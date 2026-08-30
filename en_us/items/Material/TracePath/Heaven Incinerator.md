@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Heaven Incinerator |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 行迹材料 |
+| Item Name | Heaven Incinerator |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 行迹材料 |
 
 
-## 说明
+## Description
 
 「火劫大战」后融聚的兽形岁阳。可大幅提升虚无角色的命途行迹。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【丹鼎司】
 - 「万能合成机」- 材料合成

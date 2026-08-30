@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ancient Part |
-| 用途 | 行迹材料 | 角色晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / CommonMonsterDrop |
+| Item Name | Ancient Part |
+| Use | Trace Material | Character Ascension |
+| Rarity | 2★ |
+| Type | Material / CommonMonsterDrop |
 
-## 说明
+## Description
 
 旧世界时代遗留的机器零件。强化所需的简单材料。
 
-## 获得途径
+## Acquisition
 
 - 自动机兵掉落
 - 「差分宇宙」中敌方掉落

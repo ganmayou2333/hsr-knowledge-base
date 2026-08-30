@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Karmic Fire of the Distant Shore |
-| 用途 | 角色衣装 |
-| 评级 | ★★★★★ |
-| 类型 | Usable / 角色衣装 |
+| Item Name | Karmic Fire of the Distant Shore |
+| Use | 角色衣装 |
+| Rarity | ★★★★★ |
+| Type | Usable / 角色衣装 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 活动/商店获得

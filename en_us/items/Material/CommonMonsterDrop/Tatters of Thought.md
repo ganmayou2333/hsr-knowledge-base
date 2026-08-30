@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tatters of Thought |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Tatters of Thought |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 短暂思绪的忆质碎片，强化所需的简单材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 忆域迷因掉落
 - 「差分宇宙」中敌方掉落

@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Sparkle |
-| 命途 | Harmony |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 假面愚者 |
-| 角色介绍 | 「假面愚者」的成员之一，难以捉摸，不择手段。 危险的戏剧大师，沉迷于扮演，身怀千张假面，能化万种面相。 财富、地位、权力…于花火而言都不重要，能让她出手的，唯有「乐趣」。 |
-| 定位 | 恢复战技点、提高我方战技点上限的辅助型角色 |
+| Character Name | Sparkle |
+| Path | Harmony |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 假面愚者 |
+| Introduction | 「假面愚者」的成员之一，难以捉摸，不择手段。 危险的戏剧大师，沉迷于扮演，身怀千张假面，能化万种面相。 财富、地位、权力…于花火而言都不重要，能让她出手的，唯有「乐趣」。 |
+| Role | 恢复战技点、提高我方战技点上限的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 上田麗奈 |
-| 英语 | Lizzie Freeman |
-| 中文 | 赵爽 |
-| 韩语 | 성예원 |
+| Japanese | 上田麗奈 |
+| English | Lizzie Freeman |
+| Chinese | 赵爽 |
+| Korean | 성예원 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,397 |
-| 基础攻击力 | 524 |
-| 基础防御力 | 485 |
-| 基础速度 | 101 |
-| 嘲讽 | 100 |
-| 能量上限 | 110 |
+| Base HP | 1,397 |
+| Base ATK | 524 |
+| Base DEF | 485 |
+| Base SPD | 101 |
+| Taunt | 100 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/炙梦喷枪\|炙梦喷枪]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/炙梦喷枪\|Dream Flamer]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/云际音符\|云际音符]] | 12 |
-| [[zh_cn/items/Material/TracePath/空际小节\|空际小节]] | 53 |
-| [[zh_cn/items/Material/TracePath/天外乐章\|天外乐章]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/云际音符\|Firmament Note]] | 12 |
+| [[zh_cn/items/Material/TracePath/空际小节\|Celestial Section]] | 53 |
+| [[zh_cn/items/Material/TracePath/天外乐章\|Heavenly Melody]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 28 |
 
 ---
-## 战技
-### 普攻：Monodrama
+## Skills
+### Basic ATK：Monodrama
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 140% of Sparkle's ATK to one designated enemy.
 
-### 战技：Dreamdiver
+### Skill：Dreamdiver
 - **类型**：Skill
 - **简述**：Increases an ally's CRIT DMG and advances their action.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 当花火对自身施放该技能时，无法触发行动提前效果。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4(%) |
+| Level | 参数1 | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 12% | 27% | 1 | 50% |
   | Lv.2 | 13.2% | 28.8% | 1 | 50% |
@@ -134,14 +134,14 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 When Sparkle uses this ability on herself, the Action Advance effect will not trigger.
 当花火对自身施放该技能时，无法触发行动提前效果。
 
-### 终结技：The Hero with a Thousand Faces
+### Ultimate：The Hero with a Thousand Faces
 - **类型**：Ultimate
 - **简述**：Recovers Skill Points for allies and additionally increases the Vulnerability effect provided by Sparkle's Talent.
 - **最大等级**：15
 - **效果模板**：Recovers #2[i] Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for #4[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 4 | 6% | 2 |
   | Lv.2 | 2 | 4 | 6.4% | 2 |
@@ -167,14 +167,14 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 
 - **满级效果**：Recovers 4 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for 2 turn(s).
 
-### 天赋：Red Herring
+### Talent：Red Herring
 - **类型**：Talent
 - **简述**：Increases the team's Max Skill Points. Whenever an ally target consumes Skill Points, Sparkle gains 1 stack of "Figment." Each stack of "Figment" increases the DMG taken by all enemies.
 - **最大等级**：15
 - **效果模板**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 3% | 2 | 3 |
   | Lv.2 | 2 | 3.3% | 2 | 3 |
@@ -200,14 +200,14 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 
 - **满级效果**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).
 
-### 秘技：Unreliable Narrator
+### Technique：Unreliable Narrator
 - **类型**：Technique
 - **简述**：After using Technique, grants all allies Misdirect. Characters with Misdirect will not be detected by enemies, and entering combat while in Misdirect recovers Skill Points for allies and regenerates Energy for Sparkle.
 - **最大等级**：1
 - **效果模板**：After using Technique, grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers #1[i] Skill Point(s) for the team and regenerates #2[i] Energy for Sparkle.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 3 | 20 |
 
@@ -217,27 +217,27 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 
 - **满级效果**：After using Technique, grants all allies Misdirect for 20 seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers 3 Skill Point(s) for the team and regenerates 20 Energy for Sparkle.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 岁时记 | 晋阶2 | 施放普攻时额外恢复#1[i]点能量。 | 施放普攻时额外恢复10点能量。 | 信用点×5000、云际音符×3、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 人造花 | 晋阶4 | 战技提供的暴击伤害提高效果会延长到目标下一个回合开始。 | 战技提供的暴击伤害提高效果会延长到目标下一个回合开始。 | 信用点×20000、空际小节×5、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 夜想曲 | 晋阶6 | 我方全体的攻击力提高#4[i]%。当我方队伍中存在1名/2名/3名量子属性的角色时，我方量子属性的角色的攻击力额外提高#1[i]%/#2[i]%/#3[i]%。 | 我方全体的攻击力提高15%。当我方队伍中存在1名/2名/3名量子属性的角色时，我方量子属性的角色的攻击力额外提高5%/15%/30%。 | 信用点×160000、天外乐章×8、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 28% |
+| HP | 28% |
 | 暴击伤害 | 24% |
 | 效果抵抗 | 10% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Suspension of Disbelief | The Cipher effect granted by the Ultimate lasts for 1 extra turn. All allies with Cipher have their ATK increased by 40%. |
 | E2 | Purely Fictitious | Every stack of the Talent's effect allows allies to additionally ignore 8% of the target's DEF when dealing DMG. |
@@ -248,54 +248,54 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 生命值 / 能量恢复效率
 
 **推荐副词条**：暴击伤害 / 速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|重循苦旅的司铎]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|梦想之地匹诺康尼]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|Penacony, Land of the Dreams]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/游戏尘寰.md|游戏尘寰]]
+### [[zh_cn/lightcone/同谐/游戏尘寰.md|Earthly Escapade]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：善变
 - **效果**：使装备者的暴击伤害提高【32%/39%/46%/53%/60%】。战斗开始时，使装备者获得【假面】，持续3回合。当装备者持有【假面】时，装备者的队友暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【28%/35%/42%/49%/56%】。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到4层后，移除所有【彩焰】并获得【假面】，持续4回合。
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/同谐/过往未来.md|过往未来]]
+### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
@@ -309,31 +309,31 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 - **技能名**：启程
 - **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/同谐/回到大地的飞行.md|回到大地的飞行]]
+### [[zh_cn/lightcone/同谐/回到大地的飞行.md|A Grounded Ascent]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：再启程
 - **效果**：当装备者对我方单体角色施放战技或终结技后，装备者恢复【6.0/6.5/7.0/7.5/8.0】点能量，同时使技能目标获得1层【圣咏】，持续3回合，最多叠加3层，每层【圣咏】使持有者造成的伤害提高【15%/17%/19%/21%/24%】。装备者每对我方单体角色施放2次战技或终结技后，恢复1个战技点。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
+| [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
 | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
-| [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
+| [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[zh_cn/character/巡猎/Archer_量子_五星.md\|Archer]] |
-| [[zh_cn/character/欢愉/爻光_物理_五星.md\|爻光]] | [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|丹恒•腾荒]] | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] |
+| [[zh_cn/character/欢愉/爻光_物理_五星.md\|Yao Guang]] | [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|Dan Heng • Permansor Terrae]] | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「假面愚者」的成员之一，难以捉摸，不择手段。
 危险的戏剧大师，沉迷于扮演，身怀千张假面，能化万种面相。
 财富、地位、权力…于花火而言都不重要，能让她出手的，唯有「乐趣」。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 女孩是被遗弃的孤儿，活着，却不知自己在哪，从何而来，要往哪去——直到那个戏团路过，她跑去看，远远看到黑色双马尾少女像一条鱼，从舞台的这侧游到那侧。少女戴着面具，很多种面具，但这不妨碍她在舞台上的大笑与痛哭，即使与观众离得那么远，却像在他们眼皮底子下表演。游鱼也悄无声息地在女孩的面前跃起，再入水，泛起涟漪。
 
@@ -353,7 +353,7 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 她点点头。
 「听好了，只要戴上面具，你谁都是，也谁都不是…要是真想当演员，就别只盯着这个小小的台子，去更大的地方吧。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 女孩身为人偶一族的末裔，没有选择的权利，她拿到的是哪个面具，就必须依据「面具」的安排度过此生。人偶只是「面具」的载体罢了。
 
@@ -376,7 +376,7 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 「我们看了您的新作，不知您是否对『面具』，有所了解呢……」
 
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 无貌的少女意识到自己一定受到了某种诅咒，不然为什么感受不到任何外部的刺激？痛感、味觉、嗅觉都很正常，她却无法对此做出反应，自然也丧失了喜怒哀乐，体会各种情绪的能力。她只能尽力弥补，试图提供不同的场景，通过观察来询问其他人的感受。
 
@@ -394,7 +394,7 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 
 在一个幽暗的地下室，少女并不知晓这个噩梦。她搜集了足够多的资料——人们细微的情感，对不同事物的看法——用于制作更多的纸面具。她坚信，虽然自己无情无泪，但自己制作的那些面具却有血有肉，甚至终有一天，会成为真正的生命。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「有几个版本的身世特别招人喜欢。」到了愚者的「酒馆」，花火也只能大大方方地承认，「喜欢和相信是两码事，但大家更愿意相信自己喜欢的故事是真的。」
 

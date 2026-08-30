@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Eternal Stranger |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 丰饶*5巡猎*3 |
+| Name | Eternal Stranger |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 丰饶*5巡猎*3 |
 
 
-## 效果
+## Effect
 
 【珠露】充能时，角色每有1%的暴击率就有1%的固定概率使充能值提高，提高的比例等同于角色暴击伤害的50%。
 
-## 强化效果
+## Enhanced Effect
 
 -

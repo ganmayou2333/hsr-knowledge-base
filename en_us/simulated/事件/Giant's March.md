@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Giant's March |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Giant's March |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：古老的歌谣口口相传，讲述那遥远的过去，巨人刻法勒的行进。
 差分宇宙：且说巨人因为昼夜之争，降生于世。虽坦然接过重担，但举目望去，天地之间，无比寂寥，缺少了勃勃生气。
 差分宇宙：巨人知晓一切，所以顷刻间便理解，世界缺少的元素乃「生命」。
 差分宇宙：于是巨人迈开大步，誓要找寻生命的足迹。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 生命在大地上。 | — |
 | 生命在海洋里。 | — |
@@ -63,6 +63,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 251 |  |

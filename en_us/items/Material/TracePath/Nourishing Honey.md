@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Nourishing Honey |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / TracePath |
+| Item Name | Nourishing Honey |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 3★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 催生生命成长的蜜液，自翁瓦克圣林的心树花汁中酿成。可中幅提升丰饶角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【绥园】
 - 「万能合成机」- 材料合成

@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Golden Slumbernana |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Golden Slumbernana |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体角色在下次战斗中攻击力提高5%，暴击率提高5%，暴击伤害提高5%，速度提高5%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 富贵

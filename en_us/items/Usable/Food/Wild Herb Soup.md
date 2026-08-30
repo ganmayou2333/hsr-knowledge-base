@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Wild Herb Soup |
-| 用途 | 消耗品 |
-| 评级 | ★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Wild Herb Soup |
+| Use | Consumable |
+| Rarity | ★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即使我方全体消耗等同于各自生命上限15%的生命值，在下次战斗中使我方全体攻击力提高200点。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 小吃摊

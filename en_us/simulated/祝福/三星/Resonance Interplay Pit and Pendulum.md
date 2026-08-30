@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Pit and Pendulum |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Pit and Pendulum |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，每消耗20点能量，使当前攻击力最高的角色与所有角色召唤的单位行动提前10%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Wayfare's Blessing |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Wayfare's Blessing |
+| Use | 贵重物品 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 献予游历之人的祝福
 
 
-## 获得途径
+## Acquisition
 
 - 开拓者生日邮件赠送

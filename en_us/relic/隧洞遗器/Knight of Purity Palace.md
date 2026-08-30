@@ -4,20 +4,20 @@
 > 实体ID：103
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/578/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Knight of Purity Palace |
-| 类型 | 隧洞遗器 |
-| 实体ID | 103 |
-## 获取途径
+| Name | Knight of Purity Palace |
+| Type | 隧洞遗器 |
+| Entity ID | 103 |
+## Acquisition
 圣颂之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases DEF by 15%.
 ### 4 件套
 Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.
-## 部位
+## Pieces
 ### 手部：圣骑的沉默誓环
 **描述**：装饰着教会纹样的银戒，镶嵌着看上去些许浑浊的宝石。
 **来历**：

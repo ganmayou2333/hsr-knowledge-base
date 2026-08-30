@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fire and Dangerous Things |
-| 类型 | 祝福 |
-| 命途 | 记忆&智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Fire and Dangerous Things |
+| Type | Blessing |
+| Path | 记忆&智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标使用【罐中脑】施放终结技时，获得1层【明晰】：自身暴击伤害提高45%，忆灵暴击伤害提高45%，最多叠加8层。
 
-## 强化效果
+## Enhanced Effect
 
 -

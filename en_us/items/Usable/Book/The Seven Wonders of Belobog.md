@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Seven Wonders of Belobog |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | The Seven Wonders of Belobog |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 贝洛伯格七大不思议
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-行政区1层与尼古莱编辑对话获得

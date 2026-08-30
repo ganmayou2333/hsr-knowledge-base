@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Wild Hunt Corp |
-| 类型 | 祝福 |
-| 命途 | 巡猎&同谐 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Wild Hunt Corp |
+| Type | Blessing |
+| Path | 巡猎&同谐 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标每对单个敌方目标累计削减10点韧性后，使该敌方目标获得1层【逆会心】，处于弱点击破状态时受到的实际削韧值也会被计入。每累计使所有敌方目标陷入25层【逆会心】，对敌方全体造成3500%风属性基础伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

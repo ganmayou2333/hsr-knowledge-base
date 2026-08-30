@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Until the Flowers Bloom Again |
-| 命途 | Elation |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Until the Flowers Bloom Again |
+| Path | Elation |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A gentle breeze stirs the white curtains, tugging at the young girl's thoughts.
 As she gazes at the chattering crowd outside her window, her drawing pen unconsciously pauses in place.
@@ -27,18 +27,18 @@ She recalls her story with this land, from a blank canvas to vibrant colors. Wit
 The girl receives a notification, her ears perking up as her previously still pen springs back to life.
 "I wish... by the next flower season, I'll catch up on all the top-rated new releases!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 635 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Daydream
 
 Increases the wearer's CRIT DMG by 60% and Energy Regeneration Rate by #4[f1]%. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by #6[f1]%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by #2[f1]% for 2 turn(s). Effects of the same type cannot stack.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

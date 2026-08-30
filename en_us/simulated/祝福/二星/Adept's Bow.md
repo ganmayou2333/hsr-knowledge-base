@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Adept's Bow |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Adept's Bow |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612442 | When any ally uses their Ultimate, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1. |
 | 615441 | When any ally uses their Ultimate, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1. |

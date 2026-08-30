@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Whispers of the Rainbow |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Whispers of the Rainbow |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 处于白昼时，我方目标每回复自身等级60倍的生命值后，自身在白昼时造成的最终伤害提高5%，可叠加，单个昼夜内最多叠加20%。
 
-## 强化效果
+## Enhanced Effect
 
 -

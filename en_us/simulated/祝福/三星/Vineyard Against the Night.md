@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Vineyard: Against the Night |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Vineyard: Against the Night |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色每次施放普攻/战技/终结技后，都会使下次发动追加攻击后，额外造成1次等同于角色攻击力80%的【回味】伤害，通过该方式最多造成5次。
 
-## 强化效果
+## Enhanced Effect
 
 角色每次施放普攻/战技/终结技后，都会使下次发动追加攻击后，额外造成1次等同于角色攻击力120%的【回味】伤害，通过该方式最多造成5次。

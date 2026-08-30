@@ -6,34 +6,34 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Post-Op Conversation |
-| 命途 | Abundance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Post-Op Conversation |
+| Path | Abundance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "You're awake... Thank you."
 "You... saved my life, Natasha. The one who should be saying thanks... is me."
 "No, I should be thanking you... for holding on until I finished the surgery."
 The doctor and patient smiled wearily at each other and said nothing more.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 423 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Mutual Healing
 
 Increases the wearer's Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

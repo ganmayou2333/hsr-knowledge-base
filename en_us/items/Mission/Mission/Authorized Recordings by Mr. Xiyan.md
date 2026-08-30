@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Authorized Recordings by Mr. Xiyan |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Authorized Recordings by Mr. Xiyan |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 西衍先生录制的评书资料，可以反复播放。
 
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【商铺事件·小吃摊】

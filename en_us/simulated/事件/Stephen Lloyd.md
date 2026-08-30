@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Stephen Lloyd |
-| 类型 | 事件（同名合并） |
-| 属性 | 天才俱乐部#84 |
-| 图片 | `image/simulated_event/HoshinoKami_Herta4.png`、`image/simulated_event/HoshinoKami_Herta5.png` |
+| Name | Stephen Lloyd |
+| Type | 事件（同名合并） |
+| Attribute | 天才俱乐部#84 |
+| Image | `image/simulated_event/HoshinoKami_Herta4.png`、`image/simulated_event/HoshinoKami_Herta5.png` |
 
 
-## 事件文本
+## Event Text
 
 待补充
 
@@ -28,7 +28,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 15 |  |
 | 16 |  |

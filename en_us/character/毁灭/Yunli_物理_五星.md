@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Yunli |
-| 命途 | Destruction |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟「朱明」 |
-| 角色介绍 | 仙舟「朱明」的猎剑士，备受「烛渊将军」怀炎宠爱的孙女，性格直率。 从小跟随怀炎学习剑艺与锻艺，乃「焰轮八叶」中次年幼的天才剑士。 对朱明流出的魔剑深恶痛绝，立誓要「搜猎魔剑，尽数断绝」。 |
-| 定位 | 可自动进行扩散反击的输出型角色 |
+| Character Name | Yunli |
+| Path | Destruction |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 仙舟「朱明」 |
+| Introduction | 仙舟「朱明」的猎剑士，备受「烛渊将军」怀炎宠爱的孙女，性格直率。 从小跟随怀炎学习剑艺与锻艺，乃「焰轮八叶」中次年幼的天才剑士。 对朱明流出的魔剑深恶痛绝，立誓要「搜猎魔剑，尽数断绝」。 |
+| Role | 可自动进行扩散反击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 若山詩音 |
-| 英语 | Brenna Larsen |
-| 中文 | 刘雯 |
-| 韩语 | 이주은 |
+| Japanese | 若山詩音 |
+| English | Brenna Larsen |
+| Chinese | 刘雯 |
+| Korean | 이주은 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,358 |
-| 基础攻击力 | 679 |
-| 基础防御力 | 461 |
-| 基础速度 | 94 |
-| 嘲讽 | 125 |
-| 能量上限 | 240 |
+| Base HP | 1,358 |
+| Base ATK | 679 |
+| Base DEF | 461 |
+| Base SPD | 94 |
+| Taunt | 125 |
+| Max Energy | 240 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/星际和平工作证\|星际和平工作证]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/星际和平工作证\|IPC Work Permit]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/步离犬牙\|步离犬牙]] | 12 |
-| [[zh_cn/items/Material/TracePath/狼毒锯牙\|狼毒锯牙]] | 53 |
-| [[zh_cn/items/Material/TracePath/月狂獠牙\|月狂獠牙]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/步离犬牙\|Borisin Teeth]] | 12 |
+| [[zh_cn/items/Material/TracePath/狼毒锯牙\|Lupitoxin Sawteeth]] | 53 |
+| [[zh_cn/items/Material/TracePath/月狂獠牙\|Moon Rage Fang]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 28 |
 
 ---
-## 战技
-### 普攻：Galespin Summersault
+## Skills
+### Basic ATK：Galespin Summersault
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Yunli's ATK to one designated enemy target.
 
-### 战技：Bladeborne Quake
+### Skill：Bladeborne Quake
 - **类型**：Skill
 - **简述**：Restores this unit's HP. Deals Physical DMG to one enemy and minor Physical DMG to adjacent targets.
 - **最大等级**：15
 - **效果模板**：Restores HP equal to #3[f1]% of Yunli's ATK plus #4[i]. Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 60% | 30% | 20% | 50 |
   | Lv.2 | 66% | 33% | 21.25% | 80 |
@@ -130,7 +130,7 @@
 
 - **满级效果**：Restores HP equal to #3[f1]% of Yunli's ATK plus 256.25. Deals Physical DMG equal to 150% of Yunli's ATK to one designated enemy target and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.
 
-### 终结技：Earthbind, Etherbreak
+### Ultimate：Earthbind, Etherbreak
 - **类型**：Ultimate
 - **简述**：Enters "Parry" and taunts all enemies. When attacked during this period, triggers powerful Counter and deals Physical DMG to the attacker and adjacent targets. Then, deals minor Physical DMG to one enemy that bounces 6 times. If no Counter is triggered while "Parry" is active, deals Physical DMG to a random enemy target and adjacent targets when "Parry" ends.
 - **最大等级**：15
@@ -143,7 +143,7 @@ When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
 云璃通过此技能造成伤害时，被视为造成了终结技伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7(%) | 参数8 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7(%) | 参数8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 132% | 60% | 0 | 6 | 0 | 66% | 43.2% | 120 |
   | Lv.2 | 140.8% | 64% | 0 | 6 | 0 | 70.4% | 46.08% | 120 |
@@ -179,7 +179,7 @@ When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
 【勘破•灭】：对目标造成等同于云璃264%攻击力的物理属性伤害，对其相邻目标造成等同于云璃132%攻击力的物理属性伤害，随后额外造成6次伤害，每次伤害对随机敌方单体造成等同于云璃86.4%攻击力的物理伤害。
 云璃通过此技能造成伤害时，被视为造成了终结技伤害。
 
-### 天赋：Flashforge
+### Talent：Flashforge
 - **类型**：Talent
 - **简述**：When Yunli is attacked by any enemy target, additionally regenerates Energy and immediately Counters, dealing Physical DMG to the attacker and minor Physical DMG to adjacent targets.
 - **最大等级**：15
@@ -188,7 +188,7 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 若不存在可反击的目标，则反击敌方随机目标。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 60% | 30% | 15 |
   | Lv.2 | 66% | 33% | 15 |
@@ -215,14 +215,14 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 If there is no immediate target to Counter, then Counters a random enemy target instead.
 若不存在可反击的目标，则反击敌方随机目标。
 
-### 秘技：Posterior Precedence
+### Technique：Posterior Precedence
 - **类型**：Technique
 - **简述**：This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy.
 - **最大等级**：1
 - **效果模板**：This unit gains the Ward effect, lasting for #2[i] seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by #1[i]%.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 80% | 20 |
 
@@ -232,27 +232,27 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 
 - **满级效果**：This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by 80%.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 灼毂 | 晋阶2 | 每发动1次【勘破•斩】后，下一次【勘破•斩】将替换为【勘破•灭】。 | 每发动1次【勘破•斩】后，下一次【勘破•斩】将替换为【勘破•灭】。 | 信用点×5000、步离犬牙×3、无穷假身的遗恨×1 |
 | 附加能力2 | 却邪 | 晋阶4 | 【格挡】状态下抵抗受到的控制类负面效果，并使受到的伤害降低#1[i]%。 | 【格挡】状态下抵抗受到的控制类负面效果，并使受到的伤害降低20%。 | 信用点×20000、狼毒锯牙×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 真刚 | 晋阶6 | 施放反击时，云璃的攻击力提高#1[i]%，持续1回合。 | 施放反击时，云璃的攻击力提高30%，持续1回合。 | 信用点×160000、月狂獠牙×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 28% |
+| HP | 18% |
+| ATK | 28% |
 | 暴击率 | 6.7% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Weathered Blade Does Not Sully | Increases DMG dealt by "Intuit: Slash" and "Intuit: Cull" by 20%. Increases the number of additional DMG instances for "Intuit: Cull" by 3. |
 | E2 | First Luster Breaks Dawn | When dealing DMG via Counter, ignores 20% of the target's DEF. |
@@ -263,77 +263,77 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 物理属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|风举云飞的勇烈]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|The Wind-Soaring Valorous]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|奔狼的都蓝王朝]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/落日时起舞.md|落日时起舞]]
+### [[zh_cn/lightcone/毁灭/落日时起舞.md|Dance at Sunset]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：沉酣
 - **效果**：使装备者受到攻击的概率大幅提高，暴击伤害提高【36%/42%/48%/54%/60%】。当装备者施放终结技后，获得1层【火舞】，持续2回合，最多叠加2层。每层【火舞】使装备者追加攻击造成的伤害提高【36%/42%/48%/54%/60%】。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
 
-### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|鼹鼠党欢迎你]]
+### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：奇妙冒险
 - **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 主C/辅助 | [[zh_cn/character/毁灭/云璃_物理_五星.md\|云璃]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
-| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
+| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
 | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 仙舟「朱明」的猎剑士，备受「烛渊将军」怀炎宠爱的孙女，性格直率。
 从小跟随怀炎学习剑艺与锻艺，乃「焰轮八叶」中次年幼的天才剑士。
 对朱明流出的魔剑深恶痛绝，立誓要「搜猎魔剑，尽数断绝」。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 她将剑翻了个身，好让火舌尽数吞没剑体。熔兵剑炉里弥散着灼烧的热温，此时却透出一股腥涩的怨味。
 
@@ -355,7 +355,7 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 她合上炉窗，高温浓缩，无形热浪裹挟着她的遐思。
 一切正在重生。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「为何要夺他人宝剑？」
 怀炎叹了口气。而得知这点小事又被报告给爷爷的云璃却不甚服气。
@@ -374,7 +374,7 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 但她无法不想，过去的记忆仍在敲打着她。窗外，落日之后便又是沉沉黑夜。
 那做出抉择的，究竟是剑，还是人？
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 她循着声音来到工炼房角落，父亲不在，地上只有一把硕大的混铁剑骸，云璃拾了起来，那剑骸比她人还高。她好奇地抚摸着，模仿含光的样子，假装对它进行加工。
 
@@ -403,7 +403,7 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 「我挥出的，就是利剑。」
 「走吧老铁，随我出去见见世面。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 在工炼房里旁观父亲炼剑时，剑炉喷薄的燥热会让她肚子饿得出奇得快，往往一两个时辰后就不见了身影——她要偷跑一趟集市，填饱肚子后才能好好观瞻学习。
 

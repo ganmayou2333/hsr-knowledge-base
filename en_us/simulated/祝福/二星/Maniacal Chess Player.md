@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Maniacal Chess Player |
-| 类型 | 祝福 |
-| 命途 | 欢愉&智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Maniacal Chess Player |
+| Type | Blessing |
+| Path | 欢愉&智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色追加攻击造成的暴击伤害提高100%，利用【罐中脑】施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。
 
-## 强化效果
+## Enhanced Effect
 
 -

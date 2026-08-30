@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Truly Fortunate Chess |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4欢愉+2毁灭 |
+| Name | Truly Fortunate Chess |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4欢愉+2毁灭 |
 
 
-## 效果
+## Effect
 
 【发牌员】每有3点充能，攻击段数增加1段。累计有10名我方目标受到攻击后，【发牌员】增加1点充能。
 
-## 强化效果
+## Enhanced Effect
 
 -

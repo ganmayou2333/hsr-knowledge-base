@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Deceiver Worker |
-| 类型 | 祝福 |
-| 命途 | 繁育&智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Deceiver Worker |
+| Type | Blessing |
+| Path | 繁育&智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【孢子】上限提高3个。角色施放攻击造成终结技伤害后，若攻击目标持有的【孢子】爆裂，则会额外对该目标造成等同于250%攻击力的终结技伤害，本次攻击每使1个【孢子】爆裂，该伤害倍率提高30%。
 
-## 强化效果
+## Enhanced Effect
 
 -

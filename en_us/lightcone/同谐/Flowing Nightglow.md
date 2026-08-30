@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Flowing Nightglow |
-| 命途 | Harmony |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Flowing Nightglow |
+| Path | Harmony |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Time flows through the mirror, metamorphosing the once inexperienced little girl into a seasoned songstress.
 She studies her reflection in the mirror. Time has altered all but her green eyes, which still remain as serene as a lake, as if recounting an unshakable faith.
@@ -29,18 +29,18 @@ She closes her eyes, letting the night swallow her silhouette.
 "From the past to the present, my song has always been for..."
 "For those who have lost hope."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 635 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Pacify
 
 Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer's Energy Regeneration Rate by #1[f1]%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer's ATK by 48% and increases all allies' DMG dealt by 24%, lasting for 1 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

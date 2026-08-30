@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Welt |
-| 类型 | 祝福 |
-| 命途 | 无（按角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 角色专属|
+| Name | Welt |
+| Type | Blessing |
+| Path | 无（按角色） |
+| Rarity | TBD |
+| Special Type | 角色专属 |
 
 
-## 效果
+## Effect
 
 瓦尔特在差分宇宙中的伤害获得增幅。
 施加禁锢状态后，额外使敌方目标行动延后30%，并使其受到的伤害提高15%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

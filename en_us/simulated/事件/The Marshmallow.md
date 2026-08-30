@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Marshmallow |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_38.png` |
+| Name | The Marshmallow |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_38.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 加把糖，继续抬升高度。 | 获得2个1-2星奇物与负面奇物：飞向高天Ⅰ型 |
 | 加把糖，继续抬升高度。 | 获得3个随机1-2星祝福与负面奇物：飞向高天Ⅱ型 |
@@ -31,6 +31,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 626601 |  |

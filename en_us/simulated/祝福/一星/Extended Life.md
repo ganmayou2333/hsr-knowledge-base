@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Extended Life |
-| 类型 | 祝福（同名合并） |
-| 命途 | 丰饶 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Extended Life |
+| Type | Blessing (merged) |
+| Path | 丰饶 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612352 | Upon entering battle, characters restore HP equal to 24% of their Max HP. |
 | 615352 | When a character has their HP percentage lowered to below 50% for the first time in battle, they restore HP equal to 30% of their Max HP. |

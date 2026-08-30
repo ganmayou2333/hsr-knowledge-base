@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Firefly's Budget |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Firefly's Budget |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 鸢尾花家系新人艺者流萤所剩无几的私房钱。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【喧哗与骚动-黄金年代的故事】

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Worldbreaker Blade |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / TracePath |
+| Item Name | Worldbreaker Blade |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 4★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 反物质军团成员遗落的残损武器。可大幅提升毁灭角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【收容舱段】
 - 「万能合成机」- 材料合成

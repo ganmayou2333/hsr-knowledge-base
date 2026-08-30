@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Qingni's Memories |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Qingni's Memories |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 晴霓记得母亲对自己有多么舐犊情深，但也记得在「成为飞行士」这件事上，母亲有多么不通情理。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【因为我已触碰过天空】

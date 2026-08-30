@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | The Flower Remembers |
-| 命途 | Remembrance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | The Flower Remembers |
+| Path | Remembrance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 In spring, they sowed seeds.
 In summer, they irrigated the fields.
@@ -28,18 +28,18 @@ The land that was originally barren now blooms with flowers, and butterflies are
 The butterfly flies to the other shore. The rather taciturn girl softly caresses the warm flower petals as if her little sister is still there with her.
 "...Wasn't forgotten by me or the flowers we once attended."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 529 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Interdependence
 
 Increases the wearer's CRIT DMG by 24%. The CRIT DMG dealt by the wearer's memosprite increases by 24%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | De L'existence a L'existant |
-| 类型 | 祝福（同名合并） |
-| 命途 | 虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | De L'existence a L'existant |
+| Type | Blessing (merged) |
+| Path | 虚无 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616231 | After an enemy target is attacked for the first time in this turn, causes "Murmur" DMG equal to 160% of original DMG. |
 | 617231 | After enemy targets are attacked for the first time in this turn, causes "Murmur" DMG equal to 160% of original DMG. |

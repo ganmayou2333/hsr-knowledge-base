@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Path Resonance: Nihility |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 命途回响 |
+| Name | Path Resonance: Nihility |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 3★ |
+| Special Type | 命途回响 |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「虚无」发生回响共鸣，有80%基础概率使敌方全体陷入灼烧、触电、裂伤和2层风化状态，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

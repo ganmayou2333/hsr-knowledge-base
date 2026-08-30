@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Yanqing |
-| 命途 | The Hunt |
-| 属性 | Ice |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟联盟 |
-| 角色介绍 | 将军景元的侍卫，不过总角之年的御剑天才。 手中握剑，即立于不败之地。 |
-| 定位 | 能降低受击概率并增加自身造成伤害的输出型角色 |
+| Character Name | Yanqing |
+| Path | The Hunt |
+| Attribute | Ice |
+| Rarity | ★★★★★ |
+| Faction | 仙舟联盟 |
+| Introduction | 将军景元的侍卫，不过总角之年的御剑天才。 手中握剑，即立于不败之地。 |
+| Role | 能降低受击概率并增加自身造成伤害的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 井上麻里奈 |
-| 英语 | Amber May |
-| 中文 | 喵酱 |
-| 韩语 | 이새아 |
+| Japanese | 井上麻里奈 |
+| English | Amber May |
+| Chinese | 喵酱 |
+| Korean | 이새아 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 893 |
-| 基础攻击力 | 679 |
-| 基础防御力 | 412 |
-| 基础速度 | 109 |
-| 嘲讽 | 75 |
-| 能量上限 | 140 |
+| Base HP | 893 |
+| Base ATK | 679 |
+| Base DEF | 412 |
+| Base SPD | 109 |
+| Taunt | 75 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/苦寒晶壳\|苦寒晶壳]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/苦寒晶壳\|Gelid Chitin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/猎兽之矢\|猎兽之矢]] | 12 |
-| [[zh_cn/items/Material/TracePath/屠魔之矢\|屠魔之矢]] | 53 |
-| [[zh_cn/items/Material/TracePath/逐星之矢\|逐星之矢]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/猎兽之矢\|Arrow of the Beast Hunter]] | 12 |
+| [[zh_cn/items/Material/TracePath/屠魔之矢\|Arrow of the Demon Slayer]] | 53 |
+| [[zh_cn/items/Material/TracePath/逐星之矢\|Arrow of the Starchaser]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 28 |
 
 ---
-## 战技
-### 普攻：Frost Thorn
+## Skills
+### Basic ATK：Frost Thorn
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of Yanqing's ATK to one designated enemy.
 
-### 战技：Darting Ironthorn
+### Skill：Darting Ironthorn
 - **类型**：Skill
 - **简述**：Deals Ice DMG to one designated enemy and activates the "Soulsteel Sync."
 - **最大等级**：15
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 110% |
   | Lv.2 | 121% |
@@ -127,14 +127,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 275% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
 
-### 终结技：Amidst the Raining Bliss
+### Ultimate：Amidst the Raining Bliss
 - **类型**：Ultimate
 - **简述**：Increases Yanqing's CRIT Rate. Enhances "Soulsteel Sync" and deals massive Ice DMG to one enemy.
 - **最大等级**：15
 - **效果模板**：Increases Yanqing's CRIT Rate by #1[i]%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra #2[i]%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to #3[i]% of Yanqing's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 60% | 30% | 210% |
   | Lv.2 | 60% | 32% | 224% |
@@ -159,7 +159,7 @@
 
 - **满级效果**：Increases Yanqing's CRIT Rate by 60%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra 60%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 420% of Yanqing's ATK to one designated enemy.
 
-### 天赋：One With the Sword
+### Talent：One With the Sword
 - **类型**：Talent
 - **简述**：During "Soulsteel Sync", reduces the chance of this character being attacked and increases their CRIT Rate and CRIT DMG. After attacking an enemy, there is a chance of launching a Follow-Up ATK, dealing Ice DMG with a chance to Freeze the target.
 "Soulsteel Sync" will be removed after this character receives damage.
@@ -172,7 +172,7 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 当彦卿受到伤害后，【智剑连心】将会消失。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5(%) | 参数6(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 15% | 15% | 50% | 25% | 25% | 65% |
   | Lv.2 | 15.5% | 16.5% | 51% | 27.5% | 27.5% | 65% |
@@ -204,14 +204,14 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于彦卿62.5%攻击力的冰属性附加伤害。
 当彦卿受到伤害后，【智剑连心】将会消失。
 
-### 秘技：The One True Sword
+### Technique：The One True Sword
 - **类型**：Technique
 - **简述**：After this character uses Technique, at the start of the next battle, increases the DMG dealt by this character to enemy targets whose HP percentage is 50% or higher.
 - **最大等级**：1
 - **效果模板**：After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP percentage is #1[i]% or higher.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 50% | 30% | 2 |
 
@@ -222,27 +222,27 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 
 - **满级效果**：After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP percentage is 50% or higher.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 颁冰 | 晋阶2 | 施放攻击后，对携带冰属性弱点的敌方目标造成等同于彦卿#1[i]%攻击力的冰属性附加伤害。 | 施放攻击后，对携带冰属性弱点的敌方目标造成等同于彦卿30%攻击力的冰属性附加伤害。 | 信用点×5000、猎兽之矢×3、守护者的悲愿×1 |
 | 附加能力2 | 凌霜 | 晋阶4 | 处于【智剑连心】效果时，效果抵抗提高#1[i]%。 | 处于【智剑连心】效果时，效果抵抗提高20%。 | 信用点×20000、屠魔之矢×5、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 轻吕 | 晋阶6 | 触发暴击时，速度提高#1[i]%，持续#2[i]回合。 | 触发暴击时，速度提高10%，持续2回合。 | 信用点×160000、逐星之矢×8、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 28% |
+| HP | 10% |
+| ATK | 28% |
 | 冰属性伤害提高 | 14.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Svelte Saber | When Yanqing attacks a Frozen enemy, he deals Ice Additional DMG equal to 60% of his ATK. |
 | E2 | Supine Serenade | When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%. |
@@ -253,83 +253,83 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 冰属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/如泥酣眠.md|如泥酣眠]]
+### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：美梦
 - **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
 
-### [[zh_cn/lightcone/巡猎/于夜色中.md|于夜色中]]
+### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：花与蝶
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
 
-### [[zh_cn/lightcone/巡猎/最后的赢家.md|最后的赢家]]
+### [[zh_cn/lightcone/巡猎/最后的赢家.md|Final Victor]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：下注
 - **效果**：使装备者的攻击力提高【12%/14%/16%/18%/20%】。当装备者对敌方目标造成暴击后获得一层【好运】，最多叠加4层。每层【好运】使装备者的暴击伤害提高【8%/9%/10%/11%/12%】，【好运】在装备者的回合结束时移除。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 辅c | [[zh_cn/character/巡猎/彦卿_冰_五星.md\|彦卿]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 意气飞扬的云骑骁卫，仙舟「罗浮」最强剑士。
 为剑生亦为剑痴，当彦卿手中握剑时，无人敢小看这位尚在总角之年的天才。
 或许能让手中宝剑微微收敛锋芒的，只有时间。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 云骑军历史上最年轻的骁卫，景元将军的侍卫，工造司宝剑的大收藏家…如此多的头衔，如此多的街谈巷议汇于一身，让听者几乎无法联猜到，这个天才少年不过是个孩子。
 
@@ -337,7 +337,7 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 
 按云骑武经的评判，能在一息间分神御使六柄飞剑，收放自如，云骑军的教习首席再练百年也未必能办到。彦卿所拥有的战斗天赋实在令人生畏，可追仙舟先民「剑胎武骨」的评誉。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 在云骑军的军籍文卷中记录了景元如何寻得少年，又力排众议，将他编入军中的始末。然而独独在家系一栏中，彦卿血脉传承相关的信息却付之阙如。
 
@@ -349,7 +349,7 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 
 至于其后那些战绩：随景元一同破去步离人的贪狼铁阵，斩了三位巢父；又与造翼者激战，最终击沉了遮天蔽日的拏云舰…这些，不过是其胆识与剑艺的小小注脚罢了。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 若要问彦卿除剑术之外还寄情何物，只能换得一句干脆的回答——
 
@@ -367,7 +367,7 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 
 但对意气洋洋的少年而言，是时候将历史翻篇，写入新章了。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「第一百二十三回对阵：彦卿、景元。」
 「将军，咱不比了吧！彦卿好累……」

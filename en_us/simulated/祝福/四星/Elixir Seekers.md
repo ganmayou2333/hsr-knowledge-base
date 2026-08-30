@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Elixir Seekers |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Elixir Seekers |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「丰饶」产生临界回响，为我方全体回复等同于该角色100%生命上限的生命值并解除所有负面效果。并提供【谛苦除灭】状态，持续3回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

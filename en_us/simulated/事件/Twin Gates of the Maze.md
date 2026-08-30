@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Twin Gates of the Maze |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_37.png` |
+| Name | Twin Gates of the Maze |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_37.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 打开青铜门。 | 成功可以获得1个随机1-2星奇物，失败则失去3个随机奇物。当前失败几率0%/30%/60%90% |
 | 打开黄金门。 | 成功可以获得1个随机1-3星祝福，失败则失去3个随机祝福。当前失败几率0%/30%/60%90% |
@@ -30,6 +30,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 626901 |  |

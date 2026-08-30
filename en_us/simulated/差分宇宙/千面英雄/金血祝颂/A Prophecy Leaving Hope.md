@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | A Prophecy Leaving Hope |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | A Prophecy Leaving Hope |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 处于白昼时，我方目标攻击每击中1名敌方目标，下回合开始时回复同于生命上限6%的生命值，最多叠加10次。
 
-## 强化效果
+## Enhanced Effect
 
 -

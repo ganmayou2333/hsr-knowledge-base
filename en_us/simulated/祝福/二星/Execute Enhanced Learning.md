@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Execute: Enhanced Learning |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Execute: Enhanced Learning |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616845 | After ally targets use their Ultimate to attack Weakness Broken enemies, delay the enemy's action by 16%. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to 3 time(s). |
 | 617845 | After ally targets use their Ultimate to attack Weakness Broken enemies, delay the enemy's action by 16%. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to 3 time(s). |

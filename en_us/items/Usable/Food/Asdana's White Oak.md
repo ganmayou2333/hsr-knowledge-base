@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Asdana's White Oak |
-| 用途 | 消耗品 |
-| 评级 | ★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Asdana's White Oak |
+| Use | Consumable |
+| Rarity | ★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方指定单体恢复等同于自身能量上限30%能量。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 达夫

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Anointment |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Anointment |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色回复的生命值溢出时，有25%的固定概率解除1个自身的负面效果，该效果每回合最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 角色回复的生命值溢出时，有25%的固定概率解除1个自身的负面效果，该效果每回合最多触发2次。

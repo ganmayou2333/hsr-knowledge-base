@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Astral Computer |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*5智识*3 |
+| Name | Astral Computer |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*5智识*3 |
 
 
-## 效果
+## Effect
 
 敌方目标解除冻结状态时，我方全体恢复4点能量。解除【离神】状态时，额外恢复8点能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

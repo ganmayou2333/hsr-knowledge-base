@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | A Fish Discovered Fire |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | A Fish Discovered Fire |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色造成的追加攻击伤害无视敌方目标20%的防御力。
 
-## 强化效果
+## Enhanced Effect
 
 角色造成的追加攻击伤害无视敌方目标27%的防御力。

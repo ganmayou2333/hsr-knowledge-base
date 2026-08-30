@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Castrum Kremnos Crest |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Castrum Kremnos Crest |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 象征尼卡多利赐福的徽记，拥有赐福徽记的泰坦眷属往往高呼荣耀、百战不倒。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【荒墟啊，可曾记旧日荣光】中，与万敌比赛击败城中的眷属获得

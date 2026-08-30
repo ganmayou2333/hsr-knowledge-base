@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Cuckoo Clock Fanatic (II) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Twin.png` |
+| Name | The Cuckoo Clock Fanatic (II) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Twin.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 再接受一只咕咕钟。 | 获得1个随机咕咕钟系列负面奇物；获得4个方程所需命途的祝福。 |
 | 把你收集的咕咕钟和他交换。 | 将所有的咕咕钟给予对方换取相同数量的奇物 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 114102 |  |
 | 414102 |  |

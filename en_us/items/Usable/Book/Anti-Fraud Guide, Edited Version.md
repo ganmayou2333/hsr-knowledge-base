@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Anti-Fraud Guide, Edited Version |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Anti-Fraud Guide, Edited Version |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 防骗指南修订版
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-Ⅵ-行政区地图中与查威对话获得

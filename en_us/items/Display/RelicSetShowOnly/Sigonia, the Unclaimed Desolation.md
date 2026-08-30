@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Sigonia, the Unclaimed Desolation |
-| 用途 | 遗器展示 |
-| 评级 | ★★★★★ |
-| 类型 | Display / 遗器套装展示 |
+| Item Name | Sigonia, the Unclaimed Desolation |
+| Use | 遗器展示 |
+| Rarity | ★★★★★ |
+| Type | Display / 遗器套装展示 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「模拟宇宙•第九世界」沉浸装置兑换', '「差分宇宙」位面饰品提取', '「万能合成机」- 遗器合成']

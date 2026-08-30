@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ruin Strider |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*2记忆*2 |
+| Name | Ruin Strider |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*2记忆*2 |
 
 
-## 效果
+## Effect
 
 我方目标生命上限提高15%。每有一名当前在场的我方目标，我方目标造成的【回味】伤害提高30%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Forced Jump |
-| 类型 | 祝福（同名合并） |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Forced Jump |
+| Type | Blessing (merged) |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616545 | If an ally target's current HP percentage is lower than 35% after being attacked or consuming HP, restores their HP by 12% of their Max HP. This can restore HP equal to a maximum of 36% Max HP during a single action. |
 | 617545 | If an ally target's current HP percentage is lower than 35% after being attacked or consuming HP, restores their HP by 12% of their Max HP. This can restore HP equal to a maximum of 18% Max HP during a single action. |

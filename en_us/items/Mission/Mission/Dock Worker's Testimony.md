@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dock Worker's Testimony |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Dock Worker's Testimony |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 码头工人阿丰的证言，他承认自己接受公司的好处，并破坏了码头物流的正常运作。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧·其二】

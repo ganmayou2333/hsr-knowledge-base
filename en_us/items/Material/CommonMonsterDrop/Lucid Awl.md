@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lucid Awl |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Lucid Awl |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 幻造生物的愿力碎片，强化所需的高级材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级4后，幻造生物掉落
 - 「万能合成机」- 材料合成

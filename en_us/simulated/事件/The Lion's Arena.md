@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Lion's Arena |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_35.png` |
+| Name | The Lion's Arena |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_35.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 对巨狮摆出挑衅的姿势-我要打是个！-今天你两个必须死一个 | 进入一场非常艰难的战斗，胜利后获得1个2星方程，1个随机1-2星祝福，1个随机1-2星奇物 |
 | 少废话，直接打 | 进入一场战斗，胜利后获得1个随机1-2星祝福和200宇宙碎片 |
@@ -28,6 +28,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 626301 |  |

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Wellerman |
-| 类型 | 祝福 |
-| 命途 | 欢愉&巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | The Wellerman |
+| Type | Blessing |
+| Path | 欢愉&巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标速度提高20%，欢愉度提高50%，累计受到100%行动提前效果后，使持有的【好活当赏】持续时间延长1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

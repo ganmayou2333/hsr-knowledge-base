@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ace Gambler's Discarded Part |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Ace Gambler's Discarded Part |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 某位被称为「赌神」的智械宾客赠予你的零件，不知道有什么用。
 
 
-## 获得途径
+## Acquisition
 
 - 在黄金的时刻与赌神奥洛对话并完成后续隐藏剧情获得

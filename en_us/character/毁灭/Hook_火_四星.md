@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Hook |
-| 命途 | Destruction |
-| 属性 | Fire |
-| 稀有度 | ★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 地底冒险团队「鼹鼠党」的老大（自封）。热爱自由，将生活视为一场又一场冒险。 |
-| 定位 | 利用灼伤提高输出，回复生命值与能量的输出型角色 |
+| Character Name | Hook |
+| Path | Destruction |
+| Attribute | Fire |
+| Rarity | ★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 地底冒险团队「鼹鼠党」的老大（自封）。热爱自由，将生活视为一场又一场冒险。 |
+| Role | 利用灼伤提高输出，回复生命值与能量的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 徳井青空 |
-| 英语 | Felecia Angelle |
-| 中文 | 王晓彤 |
-| 韩语 | 이재현 |
+| Japanese | 徳井青空 |
+| English | Felecia Angelle |
+| Chinese | 王晓彤 |
+| Korean | 이재현 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,341 |
-| 基础攻击力 | 617 |
-| 基础防御力 | 353 |
-| 基础速度 | 94 |
-| 嘲讽 | 125 |
-| 能量上限 | 120 |
+| Base HP | 1,341 |
+| Base ATK | 617 |
+| Base DEF | 353 |
+| Base SPD | 94 |
+| Taunt | 125 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/恒温晶壳\|恒温晶壳]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/恒温晶壳\|Endotherm Chitin]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 8 |
-| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 42 |
-| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|Shattered Blade]] | 8 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|Lifeless Blade]] | 42 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|Worldbreaker Blade]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 20 |
 
 ---
-## 战技
-### 普攻：Hehe! Don't Get Burned!
+## Skills
+### Basic ATK：Hehe! Don't Get Burned!
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Hook's ATK to one designated enemy.
 
-### 战技：Hey! Remember Hook?
+### Skill：Hey! Remember Hook?
 - **类型**：Skill
 - **简述**：Deals Fire DMG to one enemy with a high chance of inflicting Burn, also deals minor Fire DMG to enemies adjacent to it.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's A
 灼烧状态下，敌方目标每回合开始时受到等同于虎克#4[i]%攻击力的火属性持续伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 120% | 100% | 2 | 25% |
   | Lv.2 | 132% | 100% | 2 | 27.5% |
@@ -134,7 +134,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's A
 When afflicted with Burn, enemies will take Fire DoT equal to 81.25% of Hook's ATK at the beginning of each turn.
 灼烧状态下，敌方目标每回合开始时受到等同于虎克81.25%攻击力的火属性持续伤害。
 
-### 终结技：Boom! Here Comes the Fire!
+### Ultimate：Boom! Here Comes the Fire!
 - **类型**：Ultimate
 - **简述**：Deals massive Fire DMG to one enemy and Enhances this unit's next Skill.
 - **最大等级**：15
@@ -143,7 +143,7 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
 施放终结技后，下一次施放的战技得到强化，强化后的战技能够同时对指定敌方单体及其相邻目标造成伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 240% |
   | Lv.2 | 256% |
@@ -168,14 +168,14 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
 After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to one designated enemy and enemies adjacent to it.
 施放终结技后，下一次施放的战技得到强化，强化后的战技能够同时对指定敌方单体及其相邻目标造成伤害。
 
-### 天赋：Ha! Oil to the Flames!
+### Talent：Ha! Oil to the Flames!
 - **类型**：Talent
 - **简述**：When attacking a Burned enemy, deals Fire Additional DMG for a moderate amount, and additionally regenerates energy.
 - **最大等级**：15
 - **效果模板**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to #1[i]% of Hook's ATK and regenerates #2[i] extra Energy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 5 |
   | Lv.2 | 55% | 5 |
@@ -199,7 +199,7 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
 
 - **满级效果**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to 125% of Hook's ATK and regenerates 5 extra Energy.
 
-### 秘技：Ack! Look at This Mess!
+### Technique：Ack! Look at This Mess!
 - **类型**：Technique
 - **简述**：Attacks enemies. After entering battle, deals minor Fire DMG to one random enemy, with a high chance to inflict Burn on each enemy.
 - **最大等级**：1
@@ -208,7 +208,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's A
 灼烧状态下，敌方目标每回合开始时受到等同于虎克#2[i]%攻击力的火属性持续伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 50% | 3 | 50% |
 
@@ -222,27 +222,27 @@ When afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's A
 When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn.
 灼烧状态下，敌方目标每回合开始时受到等同于虎克50%攻击力的火属性持续伤害。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 童真 | 晋阶2 | 触发天赋时，回复等同于虎克生命上限#1[i]%的生命值。 | 触发天赋时，回复等同于虎克生命上限5%的生命值。 | 信用点×4000、破碎残刃×2、守护者的悲愿×1 |
 | 附加能力2 | 无邪 | 晋阶4 | 抵抗控制类负面状态的概率提高#1[i]%。 | 抵抗控制类负面状态的概率提高35%。 | 信用点×16000、无生残刃×4、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 玩火 | 晋阶6 | 施放终结技后，虎克的行动提前#2[i]%并额外恢复#1[i]点能量。 | 施放终结技后，虎克的行动提前20%并额外恢复5点能量。 | 信用点×128000、净世残刃×6、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 28% |
+| HP | 18% |
+| ATK | 28% |
 | 暴击伤害 | 13.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Early to Bed, Early to Rise | Enhanced Skill deals 20% increased DMG. |
 | E2 | Happy Tummy, Happy Body | Extends the duration of Burn caused by Skill by 1 turn(s). |
@@ -253,75 +253,75 @@ When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 火属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|熔岩锻铸的火匠]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|Firesmith of Lava-Forging]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/星体差分机\|星体差分机]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/星体差分机\|Celestial Differentiator]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/汪！散步时间！.md|汪！散步时间！]]
+### [[zh_cn/lightcone/毁灭/汪！散步时间！.md|Woof! Walk Time!]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：快溜
 - **效果**：使装备者的攻击力提高【10%/12%/15%/17%/20%】，对处于灼烧或裂伤状态的敌方目标造成的伤害提高【16%/20%/24%/28%/32%】，该效果对持续伤害也会生效。
 
-### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|鼹鼠党欢迎你]]
+### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★★
 - **技能名**：奇妙冒险
 - **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/虎克_火_四星.md\|虎克]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] |
-| [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/毁灭/虎克_火_四星.md\|Hook]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] |
+| [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 冒险集团「鼹鼠党」的头头，自称「漆黑的虎克大人」。
 不喜欢被人称作小家伙，认为自己不依靠大人也能独挡一面。
 大人们去裂界里冒险，桑博先生去地面上冒险，病人们冒险接受娜塔莎的治疗…在虎克的带领下，孩子们也要有自己的冒险！
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「██年██月██日 ，地点：诊所，与虎克谈心，内容记录如下：」
 
@@ -341,7 +341,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK 
 
 「所以，我要和大家一起找到宝藏，然后给老爹盖一间大房子，还要帮老爹把病治好！」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「██年██月██日  天气：还是好冷  心情： 不好  普通」
 
@@ -355,7 +355,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK 
 
 「好吧，我决定，只要老爹讲过一次的话，我全都要替老爹记下来！因为我可是最厉害的鼹鼠党的老大呀！」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「██年██月██日  天气：好冷 心情：很开心」
 
@@ -369,7 +369,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK 
 
 「她的爸爸很帅气，但是没有费斯曼老爹帅气！我和她成为了好朋友，她还帮我找到了很厉害的『洞洞机』！她现在是鼹鼠党的荣誉队员啦！」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「██年██月██日  天气：非常好  心情：非常不好」
 

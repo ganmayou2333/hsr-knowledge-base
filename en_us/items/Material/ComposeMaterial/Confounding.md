@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Confounding |
-| 用途 | 合成素材 |
-| 评级 | ★★ |
-| 类型 | Material / 合成素材 |
+| Item Name | Confounding |
+| Use | Synthesis Material |
+| Rarity | ★★ |
+| Type | Material / 合成素材 |
 
 
-## 说明
+## Description
 
 2级合成材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 忆域迷因「我心支离破碎」等敌方掉落【白日梦酒店】
 - 「匹诺康尼」可破坏物掉落

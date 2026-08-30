@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Clean Slay |
-| 类型 | 祝福 |
-| 命途 | 毁灭&巡猎 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Clean Slay |
+| Type | Blessing |
+| Path | 毁灭&巡猎 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【耀变】上限提高50%。我方目标发动追加攻击后，回复等同于生命上限10%的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Kluzer's Letter |
-| 用途 | 任务道具 / 阅读物 |
-| 评级 | ★★★ / ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Kluzer's Letter |
+| Use | 任务道具 / 阅读物 |
+| Rarity | ★★★ / ★ |
+| Type | Mission / 任务道具 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 任务-沉默且闪耀

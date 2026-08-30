@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Interastral Peace Investment Device |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Bond.png` |
+| Name | Interastral Peace Investment Device |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Bond.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 投资你的*信任* | 花费100宇宙碎片获得200宇宙碎片 |
 | 继续投资你的*信任* | 花费50%的宇宙碎片获得100%的宇宙碎片/花费50%宇宙碎片被欺骗 |
@@ -33,7 +33,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 320601 |  |
 | 420601 |  |

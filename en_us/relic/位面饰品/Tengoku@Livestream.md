@@ -4,20 +4,20 @@
 > 实体ID：324
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/6271/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Tengoku@Livestream |
-| 类型 | 位面饰品 |
-| 实体ID | 324 |
-## 获取途径
+| Name | Tengoku@Livestream |
+| Type | 位面饰品 |
+| Entity ID | 324 |
+## Acquisition
 西风丛中·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's CRIT DMG by 16%. If 3 or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by 32%, lasting for 3 turns.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：直播间的千窗万面
 **描述**：位面球中封装着无数直播窗口的数字空间。它是与现实深度交织的虚拟社会，它是梦幻且疏离的假想都市，它是人人可以窥探并参与其中的另一种生活。
 **来历**：

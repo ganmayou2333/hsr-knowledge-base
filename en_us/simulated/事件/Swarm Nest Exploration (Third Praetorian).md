@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Swarm: Nest Exploration (Third Praetorian) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 虫群 |
-| 图片 | `image/simulated_event/PicRogueEvent_4.png` |
+| Name | Swarm: Nest Exploration (Third Praetorian) |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 虫群 |
+| Image | `image/simulated_event/PicRogueEvent_4.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 进入杀死它们。 | 舍弃1个祝福，并进行一场战斗。 |
 | 慌忙逃走。 | 舍弃1个随机祝福。 |
@@ -46,7 +46,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 119003 |  |
 | 419003 |  |

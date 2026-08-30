@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sky's Miracle |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Sky's Miracle |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「毁灭」产生临界回响，对敌方全体目标造成火属性伤害，消耗我方全体生命值至60%，并使我方全体生命值上限提高100%，在回合开始时回复自身已消耗生命值的100%，持续4回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Futurological Congress (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Futurological Congress (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：帝皇陨落后，针对无机生命的清算和复仇使帝皇的遗产严重受损。
 模拟宇宙：经过一番抢救，博识学会面临一个问题：该如何公平地利用「权杖」解算问题，为学会带来最大的利益？这不啻是一道难解算式。
 模拟宇宙：公正与辩论之星斯波菲亚，瓜分战利品的「未来学大会」，享用鲁珀特魂灵的宴席。学士们像肥皂泡般将看台挤满，你穿过人潮的缝隙，站到报告会场的前沿。
 模拟宇宙：大会将决定「权杖」的分配，谁的课题更有价值？谁能解决未来的难题？谁便成为遗产的新主人——至少名义上如此。「权杖」在帝国废墟中星罗棋布，与会的你们也各怀异心。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我来看热闹的。 | — |
 | 我要支配学会！ | — |
@@ -58,6 +58,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 202 |  |

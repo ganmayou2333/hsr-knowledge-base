@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Conspiracy Theorist |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*4虚无*2 |
+| Name | Conspiracy Theorist |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*4虚无*2 |
 
 
-## 效果
+## Effect
 
 我方目标发动追加攻击后，有150%基础概率使攻击目标陷入1个随机负面效果，持续2回合，随机负面效果包括：造成的伤害降低15.0%，防御力降低30.0%，速度降低20.0%。
 
-## 强化效果
+## Enhanced Effect
 
 -

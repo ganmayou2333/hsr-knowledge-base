@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Archery Duel |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Archery Duel |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色回合开始时，每有1层【会心】效果，回复等同于自身生命上限5%的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 角色回合开始时或施放终结技后，每具有1层【会心】，回复等同于自身生命上限5%的生命值。

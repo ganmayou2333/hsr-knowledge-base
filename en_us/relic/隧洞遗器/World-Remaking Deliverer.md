@@ -4,20 +4,20 @@
 > 实体ID：127
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/5916/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | World-Remaking Deliverer |
-| 类型 | 隧洞遗器 |
-| 实体ID | 127 |
-## 获取途径
+| Name | World-Remaking Deliverer |
+| Type | 隧洞遗器 |
+| Entity ID | 127 |
+## Acquisition
 隐救之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases CRIT Rate by 8%.
 ### 4 件套
 After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24%, and increases all allies' DMG dealt by 15%, lasting until after the wearer's next use of Basic ATK or Skill.
-## 部位
+## Pieces
 ### 手部：救世主的执剑护手
 **描述**：传说中救世主披荆斩棘时会穿戴的护手，实际穿着可能与吟游诗人的描述不同。
 **来历**：

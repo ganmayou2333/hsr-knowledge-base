@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Nameless's Memory Bubble |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Nameless's Memory Bubble |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一枚古怪的梦泡，据说收录了已陨星神阿基维利的梦。
 
 
-## 获得途径
+## Acquisition
 
 - 匹诺康尼-梦境-黄金的时刻-梦境贩售店

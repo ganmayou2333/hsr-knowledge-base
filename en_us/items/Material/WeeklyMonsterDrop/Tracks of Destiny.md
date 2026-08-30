@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tracks of Destiny |
-| 用途 | 行迹材料 |
-| 评级 | 5★ |
-| 类型 | Material / WeeklyMonsterDrop |
+| Item Name | Tracks of Destiny |
+| Use | Trace Material |
+| Rarity | 5★ |
+| Type | Material / WeeklyMonsterDrop |
 
-## 说明
+## Description
 
 行迹升级的高阶素材。
 
-## 获得途径
+## Acquisition
 
 - 「货币战争」积分奖励
 - 「模拟宇宙」积分奖励

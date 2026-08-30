@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cyrene |
-| 类型 | 祝福 |
-| 命途 | 无（按角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 角色专属|
+| Name | Cyrene |
+| Type | Blessing |
+| Path | 无（按角色） |
+| Rarity | TBD |
+| Special Type | 角色专属 |
 
 
-## 效果
+## Effect
 
 昔涟在差分宇宙中的伤害获得增幅。
 若队伍中除昔涟外有大于等于1名黄金裔，使我方全体造成的最终伤害提高10%。
 
-## 强化效果
+## Enhanced Effect
 
 -

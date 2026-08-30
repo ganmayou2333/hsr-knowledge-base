@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | (Recording) A Fool's Play: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | (Recording) A Fool's Play: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 【录音带】愚人戏：祸祖砺兵寻旧恨，愚人挥剑斩金身
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-主控舱段地图中拾取

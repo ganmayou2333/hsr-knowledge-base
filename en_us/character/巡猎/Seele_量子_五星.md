@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Seele |
-| 命途 | The Hunt |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 地底反抗组织「地火」的骨干，别号「蝴蝶」。性格率真直爽，内心隐藏着细腻敏锐的一面。 |
-| 定位 | 通过击杀目标触发【再现】，多次行动的量子属性角色 |
+| Character Name | Seele |
+| Path | The Hunt |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 地底反抗组织「地火」的骨干，别号「蝴蝶」。性格率真直爽，内心隐藏着细腻敏锐的一面。 |
+| Role | 通过击杀目标触发【再现】，多次行动的量子属性角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 中原麻衣 |
-| 英语 | Molly Zhang |
-| 中文 | 唐雅菁 |
-| 韩语 | 송하림 |
+| Japanese | 中原麻衣 |
+| English | Molly Zhang |
+| Chinese | 唐雅菁 |
+| Korean | 송하림 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 931 |
-| 基础攻击力 | 640 |
-| 基础防御力 | 364 |
-| 基础速度 | 115 |
-| 嘲讽 | 75 |
-| 能量上限 | 120 |
+| Base HP | 931 |
+| Base ATK | 640 |
+| Base DEF | 364 |
+| Base SPD | 115 |
+| Taunt | 75 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/虚幻铸铁\|虚幻铸铁]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/虚幻铸铁\|Void Cast Iron]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/猎兽之矢\|猎兽之矢]] | 12 |
-| [[zh_cn/items/Material/TracePath/屠魔之矢\|屠魔之矢]] | 53 |
-| [[zh_cn/items/Material/TracePath/逐星之矢\|逐星之矢]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/猎兽之矢\|Arrow of the Beast Hunter]] | 12 |
+| [[zh_cn/items/Material/TracePath/屠魔之矢\|Arrow of the Demon Slayer]] | 53 |
+| [[zh_cn/items/Material/TracePath/逐星之矢\|Arrow of the Starchaser]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 28 |
 
 ---
-## 战技
-### 普攻：Thwack
+## Skills
+### Basic ATK：Thwack
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 140% of Seele's ATK to one designated enemy.
 
-### 战技：Sheathed Blade
+### Skill：Sheathed Blade
 - **类型**：Skill
 - **简述**：Deals massive Quantum DMG to one enemy and increases this unit's SPD. After an ally target attacks, if the attacked target's current HP percentage is less than or equal to 50%, Seele automatically uses her Skill against them 1 time.
 - **最大等级**：15
@@ -105,7 +105,7 @@
 After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 110% | 25% | 2 |
   | Lv.2 | 121% | 25% | 2 |
@@ -131,14 +131,14 @@ After an ally target attacks, if the attack target's current HP percentage is #4
 - **满级效果**：Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 275% of Seele's ATK to one designated enemy.
 After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
 
-### 终结技：Butterfly Flurry
+### Ultimate：Butterfly Flurry
 - **类型**：Ultimate
 - **简述**：Enters the Amplification state and deals massive Quantum DMG to one enemy.
 - **最大等级**：15
 - **效果模板**：Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 255% |
   | Lv.2 | 272% |
@@ -161,7 +161,7 @@ After an ally target attacks, if the attack target's current HP percentage is #4
 
 - **满级效果**：Seele enters the Amplification state and deals Quantum DMG equal to 510% of her ATK to one designated enemy.
 
-### 天赋：Resurgence
+### Talent：Resurgence
 - **类型**：Talent
 - **简述**：When defeating enemy targets with Basic ATK, Skill, or Ultimate, gains an extra turn and enters the Amplification state. While in Amplification, increases the DMG dealt by this unit.
 - **最大等级**：15
@@ -170,7 +170,7 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 40% | 1 |
   | Lv.2 | 44% | 1 |
@@ -196,14 +196,14 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 Enemies defeated in the extra turn provided by "Resurgence" will not trigger another "Resurgence."
 若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。
 
-### 秘技：Phantom Illusion
+### Technique：Phantom Illusion
 - **类型**：Technique
 - **简述**：Enters the Stealth state. After attacking an enemy and entering combat, enters the Amplification state and deals massive Quantum DMG with a guaranteed CRIT Hit to one random target.
 - **最大等级**：1
 - **效果模板**：After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 20 |
 
@@ -212,27 +212,27 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 
 - **满级效果**：After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 夜行 | 晋阶2 | 若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。 | 若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。 | 信用点×5000、猎兽之矢×3、守护者的悲愿×1 |
 | 附加能力2 | 割裂 | 晋阶4 | 增幅状态下希儿的量子属性抗性穿透提高#1[i]%。 | 增幅状态下希儿的量子属性抗性穿透提高20%。 | 信用点×20000、屠魔之矢×5、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 涟漪 | 晋阶6 | 施放普攻后，希儿的下一次行动提前#1[i]%。 | 施放普攻后，希儿的下一次行动提前20%。 | 信用点×160000、逐星之矢×8、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| ATK | 28% |
+| DEF | 12.5% |
 | 暴击伤害 | 24% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Extirpating Slash | When dealing DMG to an enemy whose HP percentage is 80% or lower, increases CRIT Rate by 15%, and ignores 20% of target's DEF. |
 | E2 | Dancing Butterfly | The SPD Boost effect of Seele's Skill can stack up to 2 time(s). |
@@ -243,70 +243,70 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 量子属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/于夜色中.md|于夜色中]]
+### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：花与蝶
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
-| [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
+| [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
 | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |  |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 飒爽俊逸的「地火」成员，成长于地底危险混乱的环境，习惯独来独往。
 保护与被保护，压迫与被压迫，世界向希儿展示的始终是非黑即白的那一面——
 直至「那名少女」的出现。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 希儿人生中第一次打架是为了自己。
 
@@ -318,7 +318,7 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 
 自那之后，她总会为后来的人留下几口井水。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 小时候，希儿只去过一次上层区。那是在她遇见奥列格之后——彼时的奥列格还是负责下层区治安的银鬃铁卫兵长。为了让希儿看一眼她憧憬已久的城市，奥列格将她藏在自己的补给袋里，通过缆车道回到了上层。
 
@@ -338,7 +338,7 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 
 「我们回去吧，大叔。我不想再来了。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 躺在诊所的病床上，希儿终于得以暂时安静下来，默默回想自己成为「地火」以来的经历。
 
@@ -350,7 +350,7 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 
 「比奇迹本身更重要的事，希儿，」医生莞尔一笑，将手掌轻轻放在她的额头上，「是守护人们对它的期盼。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 行政区广场人头攒动，大半个贝洛伯格的市民都聚集到了这里。希儿强忍着自己对嘈杂人群的厌恶，用尖锐的目光扫过一张又一张面孔。
 

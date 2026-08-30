@@ -4,20 +4,20 @@
 > 实体ID：121
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/4261/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Sacerdos' Relived Ordeal |
-| 类型 | 隧洞遗器 |
-| 实体ID | 121 |
-## 获取途径
+| Name | Sacerdos' Relived Ordeal |
+| Type | 隧洞遗器 |
+| Entity ID | 121 |
+## Acquisition
 迷识之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases SPD by 6%.
 ### 4 件套
 When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by 18%, lasting for 2 turn(s). This effect can stack up to 2 time(s).
-## 部位
+## Pieces
 ### 手部：司铎的授邀手套
 **描述**：他常常站在公馆内接待访客，无数遍发出邀请的动作。洁净的手套提醒着他切记谦卑与礼数。
 **来历**：

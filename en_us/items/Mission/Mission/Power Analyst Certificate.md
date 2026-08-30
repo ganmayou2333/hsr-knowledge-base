@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Power Analyst Certificate |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Power Analyst Certificate |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 「银河战力党」的专业认证资格证书，代表此人被认定为拥有职业骰手的实力。获得后可以为卡牌更换不同的「曜彩骰」
 
 
-## 获得途径
+## Acquisition
 
 - 提升银河战力党玩法的资历等级时获取

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Quasar Jet |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Quasar Jet |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标受到的击破伤害提高24%。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标受到的击破伤害提高36%。

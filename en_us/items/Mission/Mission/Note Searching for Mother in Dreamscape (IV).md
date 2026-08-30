@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Note: Searching for Mother in Dreamscape (IV) |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Note: Searching for Mother in Dreamscape (IV) |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 父女二人终于在梦境酒店找到了失散多年的妻子和母亲，但后者却并不想回到自己的至亲身边。一番令人心碎的交谈过后，父女俩离开了梦境——不知道你还会不会在现实中遇到他们……
 
-## 获得途径
+## Acquisition
 
 - 在「白日梦」酒店-梦境旁听韦斯莱、夏洛特和佩内洛普的对话

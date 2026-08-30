@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Evanescia |
-| 用途 | 骰子战斗角色 |
-| 评级 | ★★★ |
-| 类型 | Material / 骰子战斗角色 |
+| Item Name | Evanescia |
+| Use | 骰子战斗角色 |
+| Rarity | ★★★ |
+| Type | Material / 骰子战斗角色 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['在银河战力党商店的「扩展包•2」中购买']

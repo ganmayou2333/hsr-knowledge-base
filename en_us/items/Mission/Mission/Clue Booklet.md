@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Clue: Booklet |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Clue: Booklet |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 阿德勒失踪前还在翻阅的小册子，上面记录了几位天才俱乐部会员的生平——不乏一些有趣的信息。
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【庸人自扰】

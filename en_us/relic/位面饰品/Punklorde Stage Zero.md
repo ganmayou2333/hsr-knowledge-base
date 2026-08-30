@@ -4,20 +4,20 @@
 > 实体ID：325
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/7107/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Punklorde Stage Zero |
-| 类型 | 位面饰品 |
-| 实体ID | 325 |
-## 获取途径
+| Name | Punklorde Stage Zero |
+| Type | 位面饰品 |
+| Entity ID | 325 |
+## Acquisition
 鎏金追忆·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's Elation by 8%. When Elation reaches 40%/80% for the first time in combat, increases the wearer's CRIT DMG by 20%/32%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：朋克洛德的虹霓都市
 **描述**：位面球中封装着朋克洛德的虹霓都市。昼与夜没有分别，虚幻和现实没有边界，生命有如一段闪烁的字节。
 **来历**：

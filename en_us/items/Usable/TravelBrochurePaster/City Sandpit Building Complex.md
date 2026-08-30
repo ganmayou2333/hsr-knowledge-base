@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | City Sandpit: Building Complex |
-| 用途 | 旅行手册贴纸 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 旅行手册贴纸 |
+| Item Name | City Sandpit: Building Complex |
+| Use | Travel Brochure Sticker |
+| Rarity | ★★★★ |
+| Type | Usable / 旅行手册贴纸 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 旅行手册活动获得

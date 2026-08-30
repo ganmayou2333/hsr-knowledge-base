@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Emotion Prototype: Momentary Freedom |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Emotion Prototype: Momentary Freedom |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 飞船在天空划出尾迹云，公司追兵已然从视野中消失。你与同伴兴奋地击掌，再没什么能将你们束缚……
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【好兆头，我的朋友】

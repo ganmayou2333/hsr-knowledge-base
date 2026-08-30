@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Archer |
-| 命途 | The Hunt |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 异界 |
-| 角色介绍 | 绝望轮番上演于过去与未来之间，无数理想曾在红色衣衫之间燃尽。但，请别被这一抹灰烬欺骗—— 若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。 无论身在何处，他始终是正义的伙伴。 |
-| 定位 | 可以在同一回合内，连续施放战技的输出型角色 |
+| Character Name | Archer |
+| Path | The Hunt |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 异界 |
+| Introduction | 绝望轮番上演于过去与未来之间，无数理想曾在红色衣衫之间燃尽。但，请别被这一抹灰烬欺骗—— 若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。 无论身在何处，他始终是正义的伙伴。 |
+| Role | 可以在同一回合内，连续施放战技的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 諏訪部順一 |
-| 英语 | 暂无 |
-| 中文 | 吴磊 |
-| 韩语 | 임채헌 |
+| Japanese | 諏訪部順一 |
+| English | 暂无 |
+| Chinese | 吴磊 |
+| Korean | 임채헌 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,164 |
-| 基础攻击力 | 621 |
-| 基础防御力 | 485 |
-| 基础速度 | 105 |
-| 嘲讽 | 75 |
-| 能量上限 | 220 |
+| Base HP | 1,164 |
+| Base ATK | 621 |
+| Base DEF | 485 |
+| Base SPD | 105 |
+| Taunt | 75 |
+| Max Energy | 220 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/暗帷月华\|暗帷月华]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暗帷月华\|Darkveil Moonlight]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 12 |
-| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 53 |
-| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|Meteoric Bullet]] | 12 |
+| [[zh_cn/items/Material/TracePath/命定死因\|Destined Expiration]] | 53 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|Countertemporal Shot]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 28 |
 
 ---
-## 战技
-### 普攻：Kanshou and Bakuya
+## Skills
+### Basic ATK：Kanshou and Bakuya
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one designated enemy.
 - **最大等级**：9
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -96,14 +96,14 @@
 
 - **满级效果**：Deals Quantum DMG equal to 130% of Archer's ATK to one designated enemy.
 
-### 战技：Caladbolg II: Fake Spiral Sword
+### Skill：Caladbolg II: Fake Spiral Sword
 - **类型**：Skill
 - **简述**：Enters the "Circuit Connection" state. Deals massive Quantum DMG to one designated enemy. During the "Circuit Connection" state, the current turn does not end after using his Skill, and the DMG dealt by Archer's Skill increases. When Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state.
 - **最大等级**：15
 - **效果模板**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill #5[i] time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 180% | 60% | 2 | 1 | 5 |
   | Lv.2 | 198% | 64% | 2 | 1 | 5 |
@@ -130,14 +130,14 @@
 
 - **满级效果**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to 450% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by 120%. This effect can stack up to 2 time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill 5 time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
 
-### 终结技：Unlimited Blade Works
+### Ultimate：Unlimited Blade Works
 - **类型**：Ultimate
 - **简述**：Deals massive Quantum DMG to one designated enemy and gains Charge.
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy and gains #2[i] point(s) of Charge, up to a maximum of #3[i].
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 600% | 2 | 4 |
   | Lv.2 | 640% | 2 | 4 |
@@ -162,14 +162,14 @@
 
 - **满级效果**：Deals Quantum DMG equal to 1200% of Archer's ATK to one designated enemy and gains 2 point(s) of Charge, up to a maximum of 4.
 
-### 天赋：Mind's Eye (True)
+### Talent：Mind's Eye (True)
 - **类型**：Talent
 - **简述**：After a teammate uses an attack, Archer consumes 1 Charge and launches Follow-Up ATK on the primary target, dealing Quantum DMG and recovering 1 Skill Point.
 - **最大等级**：15
 - **效果模板**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to #1[i]% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 100% |
   | Lv.2 | 110% |
@@ -192,14 +192,14 @@
 
 - **满级效果**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to 250% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
 
-### 秘技：Clairvoyance
+### Technique：Clairvoyance
 - **类型**：Technique
 - **简述**：Immediately attacks enemies. After entering combat, deals Quantum DMG to all enemies and gains Charge.
 - **最大等级**：1
 - **效果模板**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to #1[i]% of Archer's ATK to all enemies and gains #2[i] point(s) of Charge.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 200% | 1 |
 
@@ -209,27 +209,27 @@
 
 - **满级效果**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to 200% of Archer's ATK to all enemies and gains 1 point(s) of Charge.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 投影魔术 | 晋阶2 | Archer在场时，战技点上限额外增加#1[i]点。 | Archer在场时，战技点上限额外增加2点。 | 信用点×5000、陨铁弹丸×3、守护者的悲愿×1 |
 | 附加能力2 | 正义伙伴 | 晋阶4 | Archer进入战斗时获得#1[i]点充能。 | Archer进入战斗时获得1点充能。 | 信用点×20000、命定死因×5、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 守护者 | 晋阶6 | 我方获得战技点后，若战技点大于等于#3[i]点，Archer的暴击伤害提高#1[i]%，持续#2[i]回合。 | 我方获得战技点后，若战技点大于等于4点，Archer的暴击伤害提高120%，持续1回合。 | 信用点×160000、逆时一击×8、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
+| ATK | 18% |
 | 暴击率 | 6.7% |
 | 量子属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | The Unreached Dream | After using Skill 3 time(s) within one turn, recovers 2 Skill Point(s) for allies. |
 | E2 | The Unfulfilled Happiness | When using Ultimate, reduces the enemy target's Quantum RES by 20%, and applies Quantum Weakness to it, lasting for 2 turn(s). |
@@ -240,79 +240,79 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 量子属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/理想燃烧的地狱.md|理想燃烧的地狱]]
+### [[zh_cn/lightcone/巡猎/理想燃烧的地狱.md|The Hell Where Ideals Burn]]
 
 - **基础属性**：生953 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：赤原猎兵
 - **效果**：使装备者的暴击率提高【16%/20%/24%/28%/32%】。进入战斗时，若我方的战技点上限大于等于6点，使装备者的攻击力提高【40%/50%/60%/70%/80%】。装备者每次施放战技后，使装备者的攻击力提高【10%/12.5%/15%/17.5%/20%】，最多叠加4次。
 
-### [[zh_cn/lightcone/巡猎/如泥酣眠.md|如泥酣眠]]
+### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：美梦
 - **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
 
-### [[zh_cn/lightcone/巡猎/我将，巡征追猎.md|我将，巡征追猎]]
+### [[zh_cn/lightcone/巡猎/我将，巡征追猎.md|I Venture Forth to Hunt]]
 
 - **基础属性**：生952 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：震慑
 - **效果**：使装备者的暴击率提高【15.0%/17.5%/20.0%/22.5%/25.0%】。装备者施放追加攻击时，获得1层【流光】，最多叠加2层。每层【流光】使装备者造成的终结技伤害无视目标【27%/30%/33%/36%/39%】的防御力。装备者回合结束时，移除1层【流光】。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 |
 |---|---|
 | 副C | 生存/辅助 |
 | [[zh_cn/character/巡猎/Archer_量子_五星.md\|Archer]] | [[zh_cn/character/虚无/赛飞儿_量子_五星.md\|赛飞儿]] |
-| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |
+| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
-| [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
-| [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
+| [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
+| [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
 | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「初次见面，叫我Archer就好。幸好你我并不是需要相互厮杀的关系，那就尽可能友好相处吧。」     绝望轮番上演于过去与未来之间，无数理想曾在红色圣骸布之间燃尽。但，请别被这一抹灰烬欺骗——  若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。  无论身在何处，他始终是正义的伙伴。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 通常来说，男子是一个会冷静完成工作的现实主义者。
 可就像某些到了年纪的上班族一样，他有时也难免暴露出因阅历而带来的悲观，又因这种悲观产生自我的厌恶，时常有意无意说出辛辣的话语。
@@ -327,7 +327,7 @@
 
 「没办法，得理不饶人可是我的本性。说实话，但凡被那种蛮不讲理的大小姐闯入过生活，任谁都会变成这样吧？」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 男子的故事起始于一个混乱的时代。
 就像一只无法安静下来的牛虻，以凡人之躯经历了圣杯战争的他离开了故乡，前往世界最为动荡的角落，擎举起替天行道的大旗——为了成为正义的伙伴。
@@ -346,7 +346,7 @@
 理想会践踏理想，命运会谋杀命运——年轻人并非意识不到这些。
 只是正义的伙伴，理应无所畏惧——男子学会了赞赏这一点。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「干将•莫邪」——这双剑是男子最趁手的武器，可以反复使用投影魔术制作，无论用坏多少把都毫不心疼。理论上，只要是男子充分理解的武装，都可以被他「无数次投影出赝品」；可出于某些渊源，唯有当投影对象属于「剑」的分类时，男子的投影魔术才能臻于完美。
 
@@ -367,7 +367,7 @@
 「剑可无法停留在一个人手上。你要么把它束之高阁，要么把它转交他人，要么…就将它用至最后一刻。
 「然后，你才能重新开始。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 在圣杯战争的系统中，男子被定性为弓兵。这对于一个以「剑」为本源的人来说似乎是某种嘲讽，但男子不以为意。
 

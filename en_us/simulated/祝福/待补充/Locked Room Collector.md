@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Locked Room Collector |
-| 类型 | 祝福 |
-| 命途 | 待补充 |
-| 星级 | 待补充 |
-| 特殊类型 | 普通祝福 |
+| Name | Locked Room Collector |
+| Type | Blessing |
+| Path | TBD |
+| Rarity | TBD |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标施放终结技时，每消耗40点能量，使暴击伤害提高15%，持续3回合，并获得2点笑点，每次至少计入80点能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Corrupt Deal |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_33.png` |
+| Name | Corrupt Deal |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_33.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 多给两块，升个舱 | 消耗300宇宙碎片，获得与方程有关的随机效果-我方全体失去80%生命值，然哈获得1个2星方程/消耗300宇宙碎片 |
 | 意思意思得了 | 消耗100宇宙碎片，获得与祝福有关的随机效果 |
@@ -31,6 +31,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 625601 |  |

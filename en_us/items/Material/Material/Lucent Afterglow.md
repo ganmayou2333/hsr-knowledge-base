@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lucent Afterglow |
-| 用途 | 通用货币 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Lucent Afterglow |
+| Use | Currency |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 用于在「光锥呈辞」商店兑换奖励。
 
 
-## 获得途径
+## Acquisition
 
 - 忘却之庭
 - 虚构叙事

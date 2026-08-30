@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Crystal Lizard Satay |
-| 用途 | 消耗品 |
-| 评级 | ★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Crystal Lizard Satay |
+| Use | Consumable |
+| Rarity | ★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方恢复4点秘技点，并使我方全体消耗等同于各自生命上限15%的生命值。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 小吃摊

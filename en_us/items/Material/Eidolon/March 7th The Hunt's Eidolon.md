@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | March 7th: The Hunt's Eidolon |
-| 用途 | 星魂 |
-| 评级 | ★★★★ |
-| 类型 | Material / 星魂 |
+| Item Name | March 7th: The Hunt's Eidolon |
+| Use | Eidolons |
+| Rarity | ★★★★ |
+| Type | Material / 星魂 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「初花习剑录」活动获得', '「星天演武仪典」活动获得']

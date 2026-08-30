@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Crystal Daily's Sample Article for the Censorship Office |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Crystal Daily's Sample Article for the Censorship Office |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 水晶日报的送审样稿
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-残响回廊地图中拾取

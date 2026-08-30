@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | A Bottle of Draconic Tears |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | A Bottle of Draconic Tears |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 某种生物的结石。据说是人鱼流泪形成的珍珠，在热爱传说的化外民中颇受欢迎。
 
-## 获得途径
+## Acquisition
 
 - 在获得陈旧的铁盒后，在仙舟「罗浮」-长乐天-三余书肆附近触发对话并交付道具获取

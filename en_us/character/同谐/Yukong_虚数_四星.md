@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Yukong |
-| 命途 | Harmony |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 仙舟「罗浮」天舶司的首领，久历战阵的飞行士与射手。而今却陷于繁冗公务，难以抽身。 |
-| 定位 | 能够提高我方全体攻击力、暴击率、暴击伤害的辅助角色 |
+| Character Name | Yukong |
+| Path | Harmony |
+| Attribute | Imaginary |
+| Rarity | ★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 仙舟「罗浮」天舶司的首领，久历战阵的飞行士与射手。而今却陷于繁冗公务，难以抽身。 |
+| Role | 能够提高我方全体攻击力、暴击率、暴击伤害的辅助角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 冬馬由美 |
-| 英语 | Dawn M. Bennett |
-| 中文 | 钟可 |
-| 韩语 | 전숙경 |
+| Japanese | 冬馬由美 |
+| English | Dawn M. Bennett |
+| Chinese | 钟可 |
+| Korean | 전숙경 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 917 |
-| 基础攻击力 | 600 |
-| 基础防御力 | 375 |
-| 基础速度 | 107 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 917 |
+| Base ATK | 600 |
+| Base DEF | 375 |
+| Base SPD | 107 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|往日之影的金饰]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|Golden Crown of the Past Shadow]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 8 |
-| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 42 |
-| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|Harmonic Tune]] | 8 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|Ancestral Hymn]] | 42 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|Stellaris Symphony]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 20 |
 
 ---
-## 战技
-### 普攻：Arrowslinger
+## Skills
+### Basic ATK：Arrowslinger
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to an enemy.
 - **最大等级**：10
 - **效果模板**：Deals #1[i]% of Yukong's ATK as Imaginary DMG to a target enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals 140% of Yukong's ATK as Imaginary DMG to a target enemy.
 
-### 战技：Emboldening Salvo
+### Skill：Emboldening Salvo
 - **类型**：Skill
 - **简述**：Obtains 2 stacks of Roaring Bowstrings. All allies' ATK increases when Roaring Bowstrings is active on this character.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 驭空施放战技获得【鸣弦号令】的回合，不会移除【鸣弦号令】。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) |
+| Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 2 | 40% |
   | Lv.2 | 2 | 44% |
@@ -132,14 +132,14 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roaring Bowstrings" will not be removed.
 驭空施放战技获得【鸣弦号令】的回合，不会移除【鸣弦号令】。
 
-### 终结技：Diving Kestrel
+### Ultimate：Diving Kestrel
 - **类型**：Ultimate
 - **简述**：When "Roaring Bowstrings" is active on this character, increases the CRIT Rate and CRIT DMG of all allies and deals massive Imaginary DMG to one enemy.
 - **最大等级**：15
 - **效果模板**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by #3[i]%. At the same time, deals Imaginary DMG equal to #1[i]% of Yukong's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 228% | 21% | 39% |
   | Lv.2 | 243.2% | 21.7% | 41.6% |
@@ -164,14 +164,14 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 - **满级效果**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by 78%. At the same time, deals Imaginary DMG equal to 456% of Yukong's ATK to one designated enemy.
 
-### 天赋：Seven Layers, One Arrow
+### Talent：Seven Layers, One Arrow
 - **类型**：Talent
 - **简述**：Basic Attack additionally deals minor DMG, and the Toughness Reduction of this Basic Attack is increased. This effect can be triggered again after 1 turn has passed.
 - **最大等级**：15
 - **效果模板**：Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness Reduction of this attack by #2[i]%. This effect can be triggered again after #3[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 40% | 100% | 1 |
   | Lv.2 | 44% | 100% | 1 |
@@ -196,14 +196,14 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 - **满级效果**：Basic ATK additionally deals Imaginary DMG equal to 100% of Yukong's ATK, and increases the Toughness Reduction of this attack by 100%. This effect can be triggered again after 1 turn(s).
 
-### 秘技：Windchaser
+### Technique：Windchaser
 - **类型**：Technique
 - **简述**：This unit's movement speed increases. After attacking an enemy and entering battle, gains 2 stacks of Roaring Bowstrings.
 - **最大等级**：1
 - **效果模板**：After using her Technique, Yukong enters Sprint mode for #1[i] seconds. In Sprint mode, her movement speed increases by #2[i]%, and Yukong gains #3[i] stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 20 | 35% | 2 |
 
@@ -214,27 +214,27 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 - **满级效果**：After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her movement speed increases by 35%, and Yukong gains 2 stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 襄尺 | 晋阶2 | 驭空被施加负面效果时可抵抗1次负面效果，该效果在#1[i]回合后可再次触发。 | 驭空被施加负面效果时可抵抗1次负面效果，该效果在2回合后可再次触发。 | 信用点×4000、谐乐小调×2、毁灭者的末路×1 |
 | 附加能力2 | 迟彝 | 晋阶4 | 驭空在场时，我方全体造成的虚数属性伤害提高#1[i]%。 | 驭空在场时，我方全体造成的虚数属性伤害提高12%。 | 信用点×16000、家族颂歌×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 气壮 | 晋阶6 | 持有【鸣弦号令】时，每当我方目标行动后，驭空将额外恢复#1[i]点能量。 | 持有【鸣弦号令】时，每当我方目标行动后，驭空将额外恢复2点能量。 | 信用点×128000、群星乐章×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 10% |
+| HP | 18% |
+| ATK | 10% |
 | 虚数属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Aerial Marshal | At the start of battle, increases the SPD of all allies by 10% for 2 turn(s). |
 | E2 | Skyward Command | When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong uses her Ultimate. |
@@ -245,83 +245,83 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 虚数属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：速度 / 攻击力 / 暴击率 / 暴击伤害
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|盗匪荒漠的废土客]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|梦想之地匹诺康尼]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|Penacony, Land of the Dreams]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/游戏尘寰.md|游戏尘寰]]
+### [[zh_cn/lightcone/同谐/游戏尘寰.md|Earthly Escapade]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：善变
 - **效果**：使装备者的暴击伤害提高【32%/39%/46%/53%/60%】。战斗开始时，使装备者获得【假面】，持续3回合。当装备者持有【假面】时，装备者的队友暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【28%/35%/42%/49%/56%】。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到4层后，移除所有【彩焰】并获得【假面】，持续4回合。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/同谐/过往未来.md|过往未来]]
+### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★★
 - **技能名**：旧日纸鸢
 - **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/与行星相会.md|与行星相会]]
+### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：启程
 - **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 副C/辅助 | 辅助 | 生存 |
 |---|---|---|---|
 | [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/驭空_虚数_四星.md\|驭空]] |
-| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|娜塔莎]] | [[zh_cn/character/巡猎/丹恒_风_四星.md\|丹恒]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
-| [[zh_cn/character/虚无/瓦尔特_虚数_五星.md\|瓦尔特]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] |
+| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] | [[zh_cn/character/巡猎/丹恒_风_四星.md\|丹恒]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
+| [[zh_cn/character/虚无/瓦尔特_虚数_五星.md\|瓦尔特]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 仙舟「罗浮」天舶司的主司，性情温和，处事老练。 
 年轻时作为飞行士久历战阵，以优秀的战绩成为主司，却因一场惨烈的战争不再飞翔天际。 
 如今虽已褪去锋芒，专心操持公务，但「罗浮」的航向上始终有她的身影。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「你知道吗？能进天舶司的，只有三种人。 
 能说会道的人；追求刺激的人；渴望回归星空的人——就是这三种，再无其他。」 
@@ -334,7 +334,7 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 那时候，他管我叫「不良少女」。后来，他们叫我「王牌」。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「衰颓的老人百无一用，如同褴褛的衣裳挂在木棍上。」 
 
@@ -354,7 +354,7 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 我老了。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「这故事里的情节和你们仙舟人恰恰相反。」 
 
@@ -368,7 +368,7 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 这就是我们的衰老。这就是所有仙舟住民的衰老。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「纸鸢是坠亡飞行士的纪念物。 
 好好保管——代替那些无法回到天空的飞行士们再度起飞吧。」 

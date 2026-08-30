@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Broadened Cognition: Liquid Gold (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Broadened Cognition: Liquid Gold (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：一则流言不胫而走：神秘的女人在公司推动下现身。她脱下白大褂，换上一袭粉色的长裙…她的行事风格并不残忍，十分果决。
 模拟宇宙：就是现在，又一次，一如既往。她将猎物绑在椅子上，亲吻它的额头，同时将刀刃刺入腹中。
@@ -31,6 +31,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 145 |  |

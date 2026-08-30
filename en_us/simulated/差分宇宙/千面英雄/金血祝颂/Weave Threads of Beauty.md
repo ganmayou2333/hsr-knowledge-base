@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Weave Threads of Beauty |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Weave Threads of Beauty |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 激活效果后，白昼时我方目标每次施放攻击后使自身速度额外提高2%，单个昼夜内最多叠加60%，昼夜切换后重置。
 
-## 强化效果
+## Enhanced Effect
 
 -

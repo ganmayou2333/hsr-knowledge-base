@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Butterfly Flitted Past Window |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Butterfly Flitted Past Window |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：你可知晓蝴蝶曾掠过窗前？纺织此世爱的金线。
 差分宇宙：王子和邻邦公主的私奔，战场上所向睥睨的夫妻，人类与泰坦的不伦之恋，墨涅塔的麟粉轻触，赐予众生恋美的眸与求爱的心。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 爱将跨越身份。 | — |
 | 爱将跨越诡计。 | — |
@@ -62,6 +62,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 228 |  |

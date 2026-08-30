@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Putrefaction Ulcer |
-| 类型 | 祝福（同名合并） |
-| 命途 | 繁育 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Putrefaction Ulcer |
+| Type | Blessing (merged) |
+| Path | 繁育 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612740 | Changes the number of times Spores can spread after bursting to 2 times. Can also spread to the original bearer of Spores. |
 | 615740 | Changes the number of times Spores can spread after bursting to 2 times. Can also spread to the original bearer of Spores. |

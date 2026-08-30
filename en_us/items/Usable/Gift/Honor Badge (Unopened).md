@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Honor Badge (Unopened) |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Honor Badge (Unopened) |
+| Use | 贵重物品 |
+| Rarity | ★★★★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 未开启的宝物，使用后可将「无名客的荣勋」提升至「无名客的奖章」。

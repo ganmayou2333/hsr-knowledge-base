@@ -6,19 +6,19 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Guardian's Lament |
-| 用途 | 行迹材料 |
-| 评级 | 4★ |
-| 类型 | Material / WeeklyMonsterDrop |
+| Item Name | Guardian's Lament |
+| Use | Trace Material |
+| Rarity | 4★ |
+| Type | Material / WeeklyMonsterDrop |
 
-## 说明
+## Description
 
 行迹升级的高阶素材。
 
-## 获得途径
+## Acquisition
 
 - 历战余响【永冬岭】

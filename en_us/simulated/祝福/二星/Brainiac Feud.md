@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Brainiac Feud |
-| 类型 | 祝福 |
-| 命途 | 智识&欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Brainiac Feud |
+| Type | Blessing |
+| Path | 智识&欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标暴击伤害提高100%，施放终结技时，使【发牌员】行动提前20%，该效果最多触发2次。【发牌员】行动后重置可触发次数。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dreamweavers' Group Photo |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Dreamweavers' Group Photo |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 眼熟的照片，印着四位传奇筑梦师的身影，你曾用它打开过「湛蓝爵士」的心锁。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【筑梦诗】

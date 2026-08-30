@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Obsidian of Obsession |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / TracePath |
+| Item Name | Obsidian of Obsession |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 4★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 一整块自虚空中捕获的黑质。可大幅提升虚无角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【大矿区】
 - 「万能合成机」- 材料合成

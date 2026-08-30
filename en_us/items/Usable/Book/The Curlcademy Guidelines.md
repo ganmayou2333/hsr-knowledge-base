@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Curlcademy Guidelines |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | The Curlcademy Guidelines |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 爆炸头协会纲领
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-主控舱段地图中与【狂野爆炸头】对话获得

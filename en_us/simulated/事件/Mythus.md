@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mythus |
-| 类型 | 事件 |
-| 属性 | 神秘 |
-| 图片 | `image/simulated_event/HoshinoKami_013.png` |
+| Name | Mythus |
+| Type | Event |
+| Attribute | 神秘 |
+| Image | `image/simulated_event/HoshinoKami_013.png` |
 
 
-## 事件文本
+## Event Text
 
 待补充
 
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 19 |  |

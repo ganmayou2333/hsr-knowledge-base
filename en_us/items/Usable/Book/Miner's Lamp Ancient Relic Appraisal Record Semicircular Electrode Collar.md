@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Miner's Lamp Ancient Relic Appraisal Record: Semicircular Electrode Collar |
-| 用途 | 半环形电极项圈 阅读物 / 旧世界积木 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Miner's Lamp Ancient Relic Appraisal Record: Semicircular Electrode Collar |
+| Use | 半环形电极项圈 阅读物 / 旧世界积木 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-磐岩镇地图中拾取

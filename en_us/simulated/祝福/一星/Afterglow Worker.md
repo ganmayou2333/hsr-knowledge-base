@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Afterglow Worker |
-| 类型 | 祝福 |
-| 命途 | 繁育&虚无 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Afterglow Worker |
+| Type | Blessing |
+| Path | 繁育&虚无 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【孢子】的伤害倍率提高原倍率的60%，孢子爆裂时，敌方目标每有1个负面效果，伤害倍率额外提高原倍率的3%。
 
-## 强化效果
+## Enhanced Effect
 
 -

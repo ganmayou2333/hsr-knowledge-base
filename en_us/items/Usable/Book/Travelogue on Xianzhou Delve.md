@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Travelogue on Xianzhou: Delve |
-| 用途 | 洞天 阅读物 / 星槎 阅读物 / 地衡司 阅读物 / 工造司 阅读物 / 玉兆 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Travelogue on Xianzhou: Delve |
+| Use | 洞天 阅读物 / 星槎 阅读物 / 地衡司 阅读物 / 工造司 阅读物 / 玉兆 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 5 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 仙舟「罗浮」-星槎海中枢地图中拾取【洞天】、【星槎】；仙舟「罗浮」-长乐天地图中拾取【地衡司】、【工造司】、【玉兆】、【长生种，其一】；仙舟「罗浮」-丹鼎司地图中拾取【长生种，其二】

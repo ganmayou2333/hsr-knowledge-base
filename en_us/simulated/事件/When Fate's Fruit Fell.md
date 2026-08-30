@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | When Fate's Fruit Fell |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | When Fate's Fruit Fell |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：当命运的果实坠地，是谁一口咬下，从无中创造出世界？
 差分宇宙：在比古老更古老的过去，一无所有的混沌第一次诞生出「有」，一个杂乱的线团，命运的丝线包裹住混沌的琼浆，结出果实。原初的火种，开始在果实中燃烧。
 差分宇宙：雅努斯在黑暗中睁开眼睛，命运的丝线令它感到拥挤和窒息。它用指尖勾勒出门径，言语描摹出通路，为广阔的虚空腾留出喘息的余地。
 差分宇宙：这些原初的道路成为翁法罗斯的边界，时至今日，仍有无数人试图触及。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 至此，门径得以延伸。 | — |
 | 道路与方向被创造。 | — |
@@ -64,6 +64,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 230 |  |

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Structural Hues |
-| 类型 | 祝福（同名合并） |
-| 命途 | 繁育 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Structural Hues |
+| Type | Blessing (merged) |
+| Path | 繁育 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616744 | While in "Soul Chrysalis," increases SPD by 16%. While in "Butterfly Soul," increases DMG dealt by Basic ATK / Skill by 50%. |
 | 617744 | While in "Soul Chrysalis," increases SPD by 16%. While in "Butterfly Soul," increases DMG dealt by Basic ATK/Skill by 50%. |

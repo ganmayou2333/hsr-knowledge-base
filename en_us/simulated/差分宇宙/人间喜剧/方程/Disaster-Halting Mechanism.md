@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Disaster-Halting Mechanism |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 巡猎*5存护*3 |
+| Name | Disaster-Halting Mechanism |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 巡猎*5存护*3 |
 
 
-## 效果
+## Effect
 
 敌方目标施放攻击使角色护盾减少后，我方全体速度提高35%，持续2回合，并获得2层【会心】 效果。
 
-## 强化效果
+## Enhanced Effect
 
 -

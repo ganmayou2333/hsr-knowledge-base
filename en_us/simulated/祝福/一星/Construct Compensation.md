@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Construct: Compensation |
-| 类型 | 祝福（同名合并） |
-| 命途 | 存护 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Construct: Compensation |
+| Type | Blessing (merged) |
+| Path | 存护 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612053 | After a character inflicts Weakness Break on an enemy, characters gain a Shield that can absorb DMG equal to 14% of their Max HP, lasting for 2 turn(s). |
 | 615053 | After a character inflicts Weakness Break on an enemy, characters gain a Shield that can absorb DMG equal to 14% of their Max HP, lasting for 2 turn(s). |

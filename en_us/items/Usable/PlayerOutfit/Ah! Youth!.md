@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ah! Youth! |
-| 用途 | 角色衣装 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 角色衣装 |
+| Item Name | Ah! Youth! |
+| Use | 角色衣装 |
+| Rarity | ★★★★ |
+| Type | Usable / 角色衣装 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「上骰了！战力党！」活动后获得的开拓穿搭']

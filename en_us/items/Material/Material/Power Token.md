@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Power Token |
-| 用途 | 活动货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 普通材料 |
+| Item Name | Power Token |
+| Use | 活动货币 |
+| Rarity | ★★★ |
+| Type | Material / 普通材料 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['提升银河战力党玩法的资历等级时获取', '在二相乐园探索时，与牌手们进行对局后获得']

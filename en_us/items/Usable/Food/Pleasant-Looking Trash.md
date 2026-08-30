@@ -6,22 +6,22 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Pleasant-Looking Trash |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Pleasant-Looking Trash |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方恢复4点秘技点。
 
 
-## 获得途径
+## Acquisition
 
 - 调查雅利洛-Ⅵ-行政区-公告板附近垃圾桶获得
 - 调查仙舟「罗浮」-星槎海中枢-广云袖附近快递箱获得

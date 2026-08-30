@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mausoleum of Scars |
-| 类型 | 祝福 |
-| 命途 | 记忆&毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Mausoleum of Scars |
+| Type | Blessing |
+| Path | 记忆&毁灭 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 行动序列上出现【遗忘】：我方目标每造成10点实际削韧值，使其行动提前3%。行动时，对敌方全体造成2000%基础伤害的冰属性伤害与20点削韧，有150%基础概率使目标陷入【离神】状态，持续1回合，受到的伤害提高60%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

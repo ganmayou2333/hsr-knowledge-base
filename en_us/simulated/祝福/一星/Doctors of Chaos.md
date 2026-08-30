@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Doctors of Chaos |
-| 类型 | 祝福 |
-| 命途 | 待补充 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Doctors of Chaos |
+| Type | Blessing |
+| Path | TBD |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色造成的持续伤害提高50%。敌方目标进入战斗时，陷入【觉察】状态。回合开始时，受到等同于我方全体生命上限之和的300%火属性持续伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

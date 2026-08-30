@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Golden Limited - Aideen Token |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Golden Limited - Aideen Token |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 闪闪发光的黄金游戏代币，看上去像是可以被用来兑换某种惊世骇俗的超级大奖，但跑遍整个黄金的时刻都没有人知道它究竟有什么作用。
 
-## 获得途径
+## Acquisition
 
 - 在匹诺康尼-筑梦边境，与科琳对话、进行钟表把戏获得
 - 在匹诺康尼-「白日梦」酒店-现实，用至尊幸运儿的黑卡打开奖励房间后调查获得

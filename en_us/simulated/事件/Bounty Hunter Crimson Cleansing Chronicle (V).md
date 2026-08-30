@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter: Crimson Cleansing Chronicle (V) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Bounty Hunter: Crimson Cleansing Chronicle (V) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：春光难耐的下午，你身处一堆叽叽喳喳的螺丝与齿轮中，这是你令这群智械第一次见到有机生命——一位戴帽的旅人在星际航行中意外落脚无机生命地带。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 让小螺丝们安静点儿！ | 不许伸手摸他的帽子！这不是那个见识冰块的下午。 |
 | 伸手摸他的帽子！ | 你可以做任何事！只要你想！ |
@@ -42,6 +42,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116501 |  |

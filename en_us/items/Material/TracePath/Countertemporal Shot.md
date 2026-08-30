@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Countertemporal Shot |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / TracePath |
+| Item Name | Countertemporal Shot |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 4★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 永远与时间箭头错向而行的螺旋弹头，如同猎犬永远追逐着悖逆时间的不死之物。可大幅提升巡猎角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【苏乐达™热砂海选会场】
 - 「万能合成机」- 材料合成

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Windup World (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Windup World (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你们终于将沙盘搭建起来，现在它就是一个微缩的文明。学派掌权者对外宣称他们将凭借对沙盘文明的精准预测，证明未来不是混沌的。
 模拟宇宙：「我们负责辛苦把花养大，他们负责裁下花冠供资本欣赏。」普拉多斯向你抱怨。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 可是，这是伟大的实验。 | — |
 
@@ -46,6 +46,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 189 |  |

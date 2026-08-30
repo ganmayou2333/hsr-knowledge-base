@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Attack Records of the Obstacle Detection Terminal |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Attack Records of the Obstacle Detection Terminal |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 障碍判别终端的攻击记录
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-支援舱段地图中拾取

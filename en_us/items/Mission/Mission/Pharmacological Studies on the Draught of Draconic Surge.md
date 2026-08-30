@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Pharmacological Studies on the Draught of Draconic Surge |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Pharmacological Studies on the Draught of Draconic Surge |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 丹鼎司的天才丹士长丹枢对「龙蟠虬跃」的研究报告。快点将它交给神策府吧。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【以盲为明，天之僇民】

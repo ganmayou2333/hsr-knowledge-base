@@ -6,33 +6,33 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Perfect Timing |
-| 命途 | Abundance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Perfect Timing |
+| Path | Abundance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 On a bustling street, he walks and walks. The sunlight closely follows his footsteps.
 He makes a stop and picks up an umbrella to shade himself from the sun
 ...and from that prying gaze.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 423 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Refraction of Sightline
 
 Increases the wearer's Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

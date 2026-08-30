@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Customer Notice From Balaway the Miner's Lamp |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Customer Notice From Balaway the Miner's Lamp |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 「矿灯」巴列维的告顾客信
 
-## 获得途径
+## Acquisition
 
 - 完成同行任务【老矿头的宝贝】时与磐岩镇NPC矿灯巴列维对话后获取

@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Phainon |
-| 命途 | Destruction |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 哀丽秘榭，遗世独立的边陲村落，如今只余晦涩的传说。 无名的英雄█████，容纳「负世」火种的黄金裔，铭记全世的理想，背负万众的命运，为新世界带来第一缕曙光 ——「但倘若黎明从不存在，就让怒火燃尽此身，化作明日的烈阳！」 |
+| Character Name | Phainon |
+| Path | Destruction |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 哀丽秘榭，遗世独立的边陲村落，如今只余晦涩的传说。 无名的英雄█████，容纳「负世」火种的黄金裔，铭记全世的理想，背负万众的命运，为新世界带来第一缕曙光 ——「但倘若黎明从不存在，就让怒火燃尽此身，化作明日的烈阳！」 |
 | 城邦 | 哀丽秘榭，奥赫玛 |
 | 神权 | …… |
-| 定位 | 可以变身为卡厄斯兰那并拥有多个强力技能的输出型角色。 |
+| Role | 可以变身为卡厄斯兰那并拥有多个强力技能的输出型角色。 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 日野聡 |
-| 英语 | Joshua Waters |
-| 中文 | 秦且歌 |
-| 韩语 | 윤용식 |
+| Japanese | 日野聡 |
+| English | Joshua Waters |
+| Chinese | 秦且歌 |
+| Korean | 윤용식 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,436 |
-| 基础攻击力 | 582 |
-| 基础防御力 | 703 |
-| 基础速度 | 94 |
-| 嘲讽 | 125 |
-| 能量上限 | 12 |
+| Base HP | 1,436 |
+| Base ATK | 582 |
+| Base DEF | 703 |
+| Base SPD | 94 |
+| Taunt | 125 |
+| Max Energy | 12 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/侵略凝块\|侵略凝块]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/侵略凝块\|Invasive Clot]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/步离犬牙\|步离犬牙]] | 12 |
-| [[zh_cn/items/Material/TracePath/狼毒锯牙\|狼毒锯牙]] | 53 |
-| [[zh_cn/items/Material/TracePath/月狂獠牙\|月狂獠牙]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/步离犬牙\|Borisin Teeth]] | 12 |
+| [[zh_cn/items/Material/TracePath/狼毒锯牙\|Lupitoxin Sawteeth]] | 53 |
+| [[zh_cn/items/Material/TracePath/月狂獠牙\|Moon Rage Fang]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|Daythunder Anamnesis]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 28 |
 
 ---
-## 战技
-### 普攻：Stride to Deliverance
+## Skills
+### Basic ATK：Stride to Deliverance
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -99,14 +99,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Phainon's ATK to one designated enemy.
 
-### 战技：Let There Be Light
+### Skill：Let There Be Light
 - **类型**：Skill
 - **简述**：Gains 2 point(s) of "Coreflame", dealing massive Physical DMG to one enemy and Physical DMG to adjacent targets.
 - **最大等级**：15
 - **效果模板**：Gains #3[i] point(s) of "Coreflame," dealing Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy and Physical DMG equal to #2[i]% of Phainon's ATK to adjacent targets.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 150% | 60% | 2 |
   | Lv.2 | 165% | 66% | 2 |
@@ -131,7 +131,7 @@
 
 - **满级效果**：Gains 2 point(s) of "Coreflame," dealing Physical DMG equal to 375% of Phainon's ATK to one designated enemy and Physical DMG equal to 150% of Phainon's ATK to adjacent targets.
 
-### 终结技：He Who Bears the World Must Burn
+### Ultimate：He Who Bears the World Must Burn
 - **类型**：Ultimate
 - **简述**：Transforms into Khaslana and deploys a Territory: Teammates depart and cannot take action, and all enemies have Physical Weaknesses.
 Khaslana does not enter his own turn, but has 8 Khaslana's extra turn(s). In the final turn, launches a final hit and deals massive Physical DMG that is distributed evenly across all enemies.
@@ -142,7 +142,7 @@ Khaslana does not enter his own turn, but has #4[i] Khaslana's extra turn(s), wi
 卡厄斯兰那不会进入自己的回合，但拥有#4[i]个卡厄斯兰那的额外回合，速度固定为卡厄斯兰那基础速度的#3[i]%。最后的卡厄斯兰那的额外回合开始时立即发动最后一击，造成等同于卡厄斯兰那#1[i]%攻击力的物理属性终结技伤害，由敌方全体均分。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 480% | 12 | 60% | 8 |
   | Lv.2 | 528% | 12 | 60% | 8 |
@@ -170,7 +170,7 @@ Khaslana does not enter his own turn, but has #4[i] Khaslana's extra turn(s), wi
 Khaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 1200% of Khaslana's ATK that is distributed evenly across all enemies.
 卡厄斯兰那不会进入自己的回合，但拥有8个卡厄斯兰那的额外回合，速度固定为卡厄斯兰那基础速度的60%。最后的卡厄斯兰那的额外回合开始时立即发动最后一击，造成等同于卡厄斯兰那1200%攻击力的物理属性终结技伤害，由敌方全体均分。
 
-### 天赋：Pyric Corpus
+### Talent：Pyric Corpus
 - **类型**：Talent
 - **简述**：Phainon's Talent. When "Coreflame" reaches 12, can activate Ultimate.
 When Phainon is targeted by abilities from other targets, gains "Coreflame". When targeted by a teammate's ability, increases CRIT DMG.
@@ -181,7 +181,7 @@ When Phainon is targeted by an ability from any other target, gains 1 "Coreflame
 当白厄成为其他任意目标的技能目标时，获得1点【火种】。若施放者为白厄的队友，还会使白厄的暴击伤害提高#1[i]%，持续#2[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 15% | 3 | 3 | 12 |
   | Lv.2 | 16.5% | 3 | 3 | 12 |
@@ -209,7 +209,7 @@ When Phainon is targeted by an ability from any other target, gains 1 "Coreflame
 When Phainon is targeted by an ability from any other target, gains 1 "Coreflame" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 37.5% for 3 turn(s).
 当白厄成为其他任意目标的技能目标时，获得1点【火种】。若施放者为白厄的队友，还会使白厄的暴击伤害提高37.5%，持续3回合。
 
-### 秘技：Beginning of the End
+### Technique：Beginning of the End
 - **类型**：Technique
 - **简述**：Increases Max Technique Points by 3. When actively using this Technique, consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, regenerates Energy for allies and gains Skill Points and "Scourge." Deals Physical DMG to all enemies at the start of each wave.
 If attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
@@ -222,7 +222,7 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 200% | 2 | 25 | 1 |
 
@@ -238,9 +238,9 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，为我方队友恢复25点能量，获得2点【毁伤】和1个战技点，并且每个波次开始时对敌方全体造成等同于白厄200%攻击力的物理属性伤害。
 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 行向世界终点 | 晋阶2 | 战斗开始时，获得#2[i]点【火种】。变身结束时，获得#1[i]点【火种】。 | 战斗开始时，获得1点【火种】。变身结束时，获得3点【火种】。 | 信用点×5000、步离犬牙×3、阳雷的遥想×1 |
 | 附加能力2 | 身承炎炬万千 | 晋阶4 | 受到队友提供的治疗效果或护盾时，造成的伤害提高#1[i]%，持续#2[i]回合。该效果单个回合内不可重复触发。
@@ -248,18 +248,18 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 受到队友提供的能量恢复的技能效果时，获得1点【火种】。 | 信用点×20000、狼毒锯牙×5、命运的足迹×1、阳雷的遥想×1 |
 | 附加能力3 | 照见英雄本色 | 晋阶6 | 进入战斗或变身结束时，攻击力提高#1[i]%。该效果最多叠加#2[i]层。 | 进入战斗或变身结束时，攻击力提高50%。该效果最多叠加2层。 | 信用点×160000、月狂獠牙×8、命运的足迹×1、阳雷的遥想×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 暴击率 | 12% |
 | 暴击伤害 | 37.3% |
 
 ---
-| 速度 | 5 |
-## 星魂
+| SPD | 5 |
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Fire and Light Bind Virtue and Vice | The base SPD inheritance ratio for Khaslana's extra turn increases to 66%. For every enemy target defeated in one battle, additionally increases this ratio by 1.5%, up to a max of 84%.<br>When using Ultimate, increases CRIT DMG by 50%, lasting for 3 turn(s). |
 | E2 | Sky and Earth Churn Mortal Froth | Khaslana's Physical RES PEN increases by 20%. When one use of "Foundation: Stardeath Verdict" consumes 4 "Scourge" point(s), gains 1 extra turn. |
@@ -270,71 +270,71 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 物理属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|恶海逐波的船长]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/星如我见的领航员\|星如我见的领航员]] | 装备者进入战斗时/施放战技时，使战技和终结技造成的伤害提高18%，最多叠加3层，装备者回合开始时/施放终结技后，移除1层该效果。 |
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|Wavestrider Captain]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/星如我见的领航员\|As Navigator Isee Sees It]] | 装备者进入战斗时/施放战技时，使战技和终结技造成的伤害提高18%，最多叠加3层，装备者回合开始时/施放终结技后，移除1层该效果。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/妖精织梦的乐园\|妖精织梦的乐园]] | 队伍中当前在场的我方目标数量不等于4时，每多/少1名我方目标，使装备者及其忆灵造成的伤害提高9%/12%，最多叠加4/3层。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/妖精织梦的乐园\|Arcadia of Woven Dreams]] | 队伍中当前在场的我方目标数量不等于4时，每多/少1名我方目标，使装备者及其忆灵造成的伤害提高9%/12%，最多叠加4/3层。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/黎明恰如此燃烧.md|黎明恰如此燃烧]]
+### [[zh_cn/lightcone/毁灭/黎明恰如此燃烧.md|Thus Burns the Dawn]]
 
 - **基础属性**：生952 攻687 防396
 - **推荐度**：★★★★★
 - **技能名**：失却
 - **效果**：使装备者的基础速度提高【12/14/16/18/20】，造成伤害时无视目标【18%/22%/27%/31%/36%】的防御力。装备者施放终结技后，获得【烈阳】，回合开始时移除。持有【烈阳】时，装备者造成的伤害提高【60%/78%/96%/114%/132%】。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 |
 |---|---|
-| 拉条辅助 | [[zh_cn/character/毁灭/白厄_物理_五星.md\|白厄]] |
-| [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
+| 拉条辅助 | [[zh_cn/character/毁灭/白厄_物理_五星.md\|Phainon]] |
+| [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 哀丽秘榭，遗世独立的边陲村落，如今只余晦涩的传说。
 无名的英雄卡厄斯兰那，容纳「负世」火种的黄金裔，铭记全世的理想，背负万众的命运，为新世界带来第一缕曙光
 ——「但倘若黎明从不存在，就让怒火燃尽此身，化作明日的烈阳！」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 哀丽秘榭，少年的家乡。
 村庄日出而作，日落而息，如同他的身世，朴实无华。
@@ -370,7 +370,7 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 对象「Neikos496」新建变量[心中的英雄]
 >>>变量[黑潮]开始位移更新，对[哀丽秘榭]执行覆盖指令
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 面对那从异乡漂泊而来的青年，织者与貌如孩童的先知偶尔会提及逐火与黄金裔的历史。
 织者无光的双眼仿佛能看穿他内心的迷茫，而先知的天真烂漫又令他感受到家的温暖。
@@ -412,7 +412,7 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 ……
 >>>对象「Neikos496」自我迭代进程0.43%
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 高举雷枪的神明陷入疯狂，在那以「纷争」为名的战役，男人同伙伴给予那疯神最后的解脱。
 在那争夺「理性」火种的辩论场，男人与昔日恩师对峙，见证残酷的处刑。
@@ -478,7 +478,7 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 ……
 >>>警告：进度无法更新
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 如往日千万次所经历的那样，他于火光中再次看见——
 

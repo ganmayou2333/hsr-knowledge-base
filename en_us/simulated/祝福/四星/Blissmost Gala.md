@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Blissmost Gala |
-| 类型 | 祝福 |
-| 命途 | 同谐 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Blissmost Gala |
+| Type | Blessing |
+| Path | 同谐 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「同谐」产生临界回响，对敌方全体目标造成量子属性伤害并以1000%的击破特攻击破其弱点，击破弱点时触发所有属性的弱点击破效果。
 
-## 强化效果
+## Enhanced Effect
 
 -

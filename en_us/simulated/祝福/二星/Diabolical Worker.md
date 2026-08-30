@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Diabolical Worker |
-| 类型 | 祝福 |
-| 命途 | 繁育&巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Diabolical Worker |
+| Type | Blessing |
+| Path | 繁育&巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色施放攻击后，会为随机攻击目标附加【孢子】，我方连续行动次数大于等于1/2/3时，附加的【孢子】个数为4/5/6个。
 
-## 强化效果
+## Enhanced Effect
 
 -

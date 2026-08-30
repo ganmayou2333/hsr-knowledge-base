@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Blade |
-| 命途 | Destruction |
-| 属性 | Wind |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星核猎手 |
-| 角色介绍 | 「星核猎手」的成员，弃身锋刃的剑客。 效忠于「命运的奴隶」，拥有可怖的自愈能力。 |
-| 定位 | 消耗生命获得强化的输出型角色 |
+| Character Name | Blade |
+| Path | Destruction |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 星核猎手 |
+| Introduction | 「星核猎手」的成员，弃身锋刃的剑客。 效忠于「命运的奴隶」，拥有可怖的自愈能力。 |
+| Role | 消耗生命获得强化的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 三木真一郎 |
-| 英语 | Daman Mills |
-| 中文 | 刘以嘉 |
-| 韩语 | 곽윤상 |
+| Japanese | 三木真一郎 |
+| English | Daman Mills |
+| Chinese | 刘以嘉 |
+| Korean | 곽윤상 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,358 |
-| 基础攻击力 | 543 |
-| 基础防御力 | 485 |
-| 基础速度 | 97 |
-| 嘲讽 | 125 |
-| 能量上限 | 130 |
+| Base HP | 1,358 |
+| Base ATK | 543 |
+| Base DEF | 485 |
+| Base SPD | 97 |
+| Taunt | 125 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/天人遗垢\|天人遗垢]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/天人遗垢\|Ascendant Debris]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 12 |
-| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 53 |
-| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|Shattered Blade]] | 12 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|Lifeless Blade]] | 53 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|Worldbreaker Blade]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
 
 ---
-## 战技
-### 普攻：Shard Sword
+## Skills
+### Basic ATK：Shard Sword
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Blade's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Wind DMG equal to 140% of Blade's Max HP to one designated enemy.
 
-### 战技：Hellscape
+### Skill：Hellscape
 - **类型**：Skill
 - **简述**：Consumes HP to enhance Basic ATK. Increases the chance of getting attacked. And this turn does not end after this Skill is used.
 - **最大等级**：15
@@ -110,7 +110,7 @@ This Skill does not regenerate Energy. Using this Skill does not end the current
 该战技无法恢复能量。施放该战技后，本回合不会结束。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 30% | 3 | 1 | 12% |
   | Lv.2 | 30% | 3 | 1 | 14.8% |
@@ -142,7 +142,7 @@ This Skill does not regenerate Energy. Using this Skill does not end the current
 若当前生命值不足，施放战技时刃的当前生命值降低至1点。
 该战技无法恢复能量。施放该战技后，本回合不会结束。
 
-### 终结技：Death Sentence
+### Ultimate：Death Sentence
 - **类型**：Ultimate
 - **简述**：Sets current HP to 50% of Max HP. Deals massive Wind DMG to one enemy and Wind DMG to adjacent targets.
 - **最大等级**：15
@@ -151,7 +151,7 @@ The tally of Blade's HP loss in the current battle is capped at #7[i]% of his Ma
 本场战斗中累计已损失生命值最高不超过刃生命上限的#7[i]%，施放终结技后会清空并进行重新累计。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) | 参数6(%) | 参数7(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) | 参数6(%) | 参数7(%) |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 24% | 60% | 9.6% | 24% | 60% | 24% | 90% |
   | Lv.2 | 25.6% | 64% | 10.24% | 25.6% | 64% | 25.6% | 90% |
@@ -182,7 +182,7 @@ The tally of Blade's HP loss in the current battle is capped at #7[i]% of his Ma
 The tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.
 本场战斗中累计已损失生命值最高不超过刃生命上限的90%，施放终结技后会清空并进行重新累计。
 
-### 天赋：Shuhu's Gift
+### Talent：Shuhu's Gift
 - **类型**：Talent
 - **简述**：When Blade's HP decreases, gains 1 stack of Charge. Upon reaching maximum Charge, launches Follow-Up ATK, dealing Wind DMG to all enemies, restoring HP, and consuming all Charges.
 - **最大等级**：15
@@ -191,7 +191,7 @@ When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up 
 当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃#2[i]%攻击力+#4[i]%生命上限的风属性伤害并回复等同于刃生命上限#3[i]%的生命值，施放追加攻击后，消耗所有充能。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 3 | 22% | 25% | 55% |
   | Lv.2 | 3 | 24.2% | 25% | 60.5% |
@@ -219,7 +219,7 @@ When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up 
 When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up ATK on all enemies, dealing Wind DMG equal to 55% of Blade's Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the Follow-Up ATK, all Charges are consumed.
 当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃55%攻击力+137.5%生命上限的风属性伤害并回复等同于刃生命上限25%的生命值，施放追加攻击后，消耗所有充能。
 
-### 秘技：Karma Wind
+### Technique：Karma Wind
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering combat, consumes own HP and deals Wind DMG to all enemies.
 - **最大等级**：1
@@ -228,7 +228,7 @@ If Blade's current HP is insufficient, his HP will be reduced to 1 when this Tec
 若当前生命值不足，施放秘技时刃的当前生命值降低至1点。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 40% | 20% |
 
@@ -240,27 +240,27 @@ If Blade's current HP is insufficient, his HP will be reduced to 1 when this Tec
 If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.
 若当前生命值不足，施放秘技时刃的当前生命值降低至1点。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 无尽形寿 | 晋阶2 | 刃的当前生命值百分比小于等于生命上限的50%时，受到治疗时的回复量提高#1[i]%。 | 刃的当前生命值百分比小于等于生命上限的50%时，受到治疗时的回复量提高20%。 | 信用点×5000、破碎残刃×3、无穷假身的遗恨×1 |
 | 附加能力2 | 吞忍百死 | 晋阶4 | 施放【无间剑树】后，若击中处于弱点击破状态的敌方目标，刃回复等同于自身#1[i]%生命上限+#2[i]的生命值。 | 施放【无间剑树】后，若击中处于弱点击破状态的敌方目标，刃回复等同于自身5%生命上限+100的生命值。 | 信用点×20000、无生残刃×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 坏劫隳亡 | 晋阶6 | 天赋施放的追加攻击伤害提高#1[i]%。 | 天赋施放的追加攻击伤害提高20%。 | 信用点×160000、净世残刃×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 28% |
+| HP | 28% |
 | 暴击率 | 12% |
 | 效果抵抗 | 10% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Blade Cuts the Deepest in Hell | Blade's Ultimate deals additionally increased DMG to one designated enemy target, with the increased amount equal to 150% of the tally of Blade's HP loss in the current battle.<br>The tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. The tally value will be reset and re-accumulated after his Ultimate has been used. |
 | E2 | Ten Thousand Sorrows From One Broken Dream | When Blade is in the Hellscape state, his CRIT Rate increases by 15%. |
@@ -271,76 +271,76 @@ If Blade's current HP is insufficient, his HP will be reduced to 1 when this Tec
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 风属性伤害提高 / 生命值
 
 **推荐副词条**：暴击率 / 暴击伤害 / 生命值 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|宝命长存的莳者]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|Longevous Disciple]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|到不了的彼岸]]
+### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|The Unreachable Side]]
 
 - **基础属性**：生1270 攻582 防330
 - **推荐度**：★★★★★
 - **技能名**：不得
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】，生命上限提高【18%/21%/24%/27%/30%】。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高【24%/28%/32%/36%/40%】，该效果在装备者施放攻击后解除。
 
-### [[zh_cn/lightcone/毁灭/秘密誓心.md|秘密誓心]]
+### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：竭力而为
 - **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比大于等于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
 
-### [[zh_cn/lightcone/毁灭/忍事录•音律狩猎.md|忍事录•音律狩猎]]
+### [[zh_cn/lightcone/毁灭/忍事录•音律狩猎.md|Ninja Record Sound Hunt]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：开演！
 - **效果**：使装备者的生命上限提高【12%/15%/18%/21%/24%】，损失或回复自身生命值后，暴击伤害提高【18.0%/22.5%/27.0%/31.5%/36.0%】，持续2回合，该效果每回合只可触发1次。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 辅C/辅助 | [[zh_cn/character/毁灭/刃_风_五星.md\|刃]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |
-| [[zh_cn/character/智识/翡翠_量子_五星.md\|翡翠]] | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
+| 辅C/辅助 | [[zh_cn/character/毁灭/刃_风_五星.md\|Blade]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |
+| [[zh_cn/character/智识/翡翠_量子_五星.md\|Jade]] | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 弃身锋刃的剑客，原名不详。
 效忠于「命运的奴隶」，拥有可怖的自愈能力。
 手持古剑作战，剑身遍布破碎裂痕，正如其身，亦如其心。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 他只能见一片殷红，嘴里腥甜，四肢绵软
 ——自己应是死了。
@@ -365,7 +365,7 @@ If Blade's current HP is insufficient, his HP will be reduced to 1 when this Tec
 「起来，让我再杀你一次。」
 
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 他只能见一片殷红，嘴里腥甜，四肢绵软
 ——自己应是死了。
@@ -385,7 +385,7 @@ If Blade's current HP is insufficient, his HP will be reduced to 1 when this Tec
 少年捂着身上的伤口，步步后退，直至离开他的视线。
 「███，在亲眼见证你的死期之前，我们会再见面的。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 他只能见一片殷红，嘴里腥甜，四肢绵软
 ——自己应是死了。
@@ -406,7 +406,7 @@ If Blade's current HP is insufficient, his HP will be reduced to 1 when this Tec
 他点点头，女人走到他身边。她笑着，他却觉得那笑容非常悲伤。
 「也许有人离开了她，没有听她说完话。」他想。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 他什么都看不见了。
 

@@ -4,20 +4,20 @@
 > 实体ID：115
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/1971/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | The Ashblazing Grand Duke |
-| 类型 | 隧洞遗器 |
-| 实体ID | 115 |
-## 获取途径
+| Name | The Ashblazing Grand Duke |
+| Type | 隧洞遗器 |
+| Entity ID | 115 |
+## Acquisition
 幽冥之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the DMG dealt by Follow-Up ATK by 20%.
 ### 4 件套
 When the wearer uses a Follow-Up ATK, increases the wearer's ATK by 6% for every time the Follow-Up ATK deals DMG. This effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a Follow-Up ATK.
-## 部位
+## Pieces
 ### 手部：大公的绒火指套
 **描述**：以火焰为绒毛的洁白手套，将暴戾藏于缎面之下。
 **来历**：

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Candy Knight |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*3虚无*2 |
+| Name | Candy Knight |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*3虚无*2 |
 
 
-## 效果
+## Effect
 
 角色造成的【回味】伤害，可以无视弱点属性削减敌方目标2.5点韧性值，单次攻击内对每名敌方目标最多触发7次该效果。
 
-## 强化效果
+## Enhanced Effect
 
 -

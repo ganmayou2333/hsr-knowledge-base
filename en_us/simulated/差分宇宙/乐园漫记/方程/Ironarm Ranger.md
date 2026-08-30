@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ironarm Ranger |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4巡猎+2毁灭 |
+| Name | Ironarm Ranger |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4巡猎+2毁灭 |
 
 
-## 效果
+## Effect
 
 【逆会心】上限提高10层。全队每累计损失等同于全体生命值之和15%的生命值，敌方全体立即获得1层【逆会心】。
 
-## 强化效果
+## Enhanced Effect
 
 -

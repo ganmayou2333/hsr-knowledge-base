@@ -6,32 +6,32 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Sneering |
-| 命途 | Elation |
-| 评级 | ★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Sneering |
+| Path | Elation |
+| Rarity | ★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A drop of strength condensed from time itself. All the seemingly insignificant moments weave together into a magnificent destiny.
 "The origin of laughter is a grimace born of fear and intimidation."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 741 | 370 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Indulgence
 
 When Aha Instant is activated, the wearer's Elation increases by 16%, lasting until Aha Instant ends.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x231,000 / x2 / x6 / x9 / x12 / x10 / x8

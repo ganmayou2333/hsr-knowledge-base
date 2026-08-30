@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Holiday Thermae Escapade |
-| 命途 | Nihility |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Holiday Thermae Escapade |
+| Path | Nihility |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Cinny, let's go try out that new special bath that recently opened."
 After finishing her medical duties in Okhema, the girl followed the curious child into the eclectic set of pools.
@@ -37,18 +37,18 @@ The child's shriek shattered the bathhouse's calm.
 "Doot..."
 "Hold on, Little Ica!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 529 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Chill Out
 
 Increases the wearer's DMG dealt by 16%. After the wearer attacks, there is a 1 base chance to inflict the attacked target with Vulnerability, increasing the DMG they receive by 10% for 2 turn(s). Effects of the same type cannot stack.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

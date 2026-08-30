@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Property Deed |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Property Deed |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 有着岁月痕迹的房产证。房主登记名为雷诺，是一名化外民，这与你们见过的「雷诺」不相符。
 
-## 获得途径
+## Acquisition
 
 - 罗浮异闻-凶宅

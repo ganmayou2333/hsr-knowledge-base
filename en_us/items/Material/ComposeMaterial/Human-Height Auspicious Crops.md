@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Human-Height Auspicious Crops |
-| 用途 | 合成素材 |
-| 评级 | ★ |
-| 类型 | Material / 合成素材 |
+| Item Name | Human-Height Auspicious Crops |
+| Use | Synthesis Material |
+| Rarity | ★ |
+| Type | Material / 合成素材 |
 
 
-## 说明
+## Description
 
 1级合成材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 委托奖励
 - 寿考堂

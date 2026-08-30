@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cosmic Con Job (II) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_profiteer.png` |
+| Name | Cosmic Con Job (II) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_profiteer.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 购买琥珀许愿匣。 | 消耗100宇宙碎片，获得1个「捉摸不透」的奇物。 |
 | 购买超钛许愿匣。 | 消耗100宇宙碎片，获得1个「梦幻」的祝福。 |
@@ -37,7 +37,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 11702 |  |
 | 111702 |  |

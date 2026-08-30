@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Book-Burning Bureaucrat |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*4智识*2 |
+| Name | Book-Burning Bureaucrat |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*4智识*2 |
 
 
-## 效果
+## Effect
 
 我方目标造成的终结技伤害提高160%，施放终结技后，使攻击目标持有的【呢喃】获得等同于本次终结技伤害10%的充能，不超过我方角色攻击力之和的300%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Ninjutsu Inscription: Dazzling Evilbreaker |
-| 命途 | Erudition |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Ninjutsu Inscription: Dazzling Evilbreaker |
+| Path | Erudition |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Somewhere in the Ninja Realm, a shroud of dreary gray veils the city.
 "Hiyaaa!"
@@ -31,18 +31,18 @@ The explosion behind her shatters the night, unveiling the city's wounds.
 With a breath drawn deep, she launches herself into the neon-lit distance, where the vibrant lights scream like a heavy metal chorus.
 "Such loathsome evil spirits. The Dazzling Ninja's ultimate hunt shall continue..."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 582 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Exorcism
 
 Increases the wearer's Break Effect by 60%. When entering battle, immediately regenerates #2[f1] Energy. After the wearer uses Ultimate, obtains "Raiton." After using 2 Basic ATKs, advances the wearer's action by 50% and removes "Raiton." After the wearer uses Ultimate, resets "Raiton."
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

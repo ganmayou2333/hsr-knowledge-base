@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Credit |
-| 用途 | 通用货币 |
-| 评级 | 3★ |
-| 类型 | Material / Virtual |
+| Item Name | Credit |
+| Use | Currency |
+| Rarity | 3★ |
+| Type | Material / Virtual |
 
-## 说明
+## Description
 
 星际和平公司与客户结算时使用的货币，如今已成为太空旅行的硬通货。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【大矿区】
 - 拟造花萼【工造司】

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Small Chest Sent to the Sleepless Earl |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Small Chest Sent to the Sleepless Earl |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 储存着植物种子的小盒，盒盖上印有「不夜侯」的标记。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【安灵布奠，天清路远】

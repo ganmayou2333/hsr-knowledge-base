@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Spiked Armor |
-| 类型 | 祝福 |
-| 命途 | 存护&虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Spiked Armor |
+| Type | Blessing |
+| Path | 存护&虚无 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响「存护」有150%的基础概率使攻击目标陷入裂伤状态，持续2回合。裂伤状态下，敌方目标每回合开始时受到等同于自身生命上限12%的物理属性持续伤害，不超过我方全体持有护盾量总量的250%。
 
-## 强化效果
+## Enhanced Effect
 
 -

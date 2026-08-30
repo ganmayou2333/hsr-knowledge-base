@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Jade |
-| 命途 | Erudition |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星际和平公司 |
-| 角色介绍 | 星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「典贷翡翠」。 冷艳优雅的放贷人，善于洞悉人心，有着名为「慈玉典押」的个人爱好。 愿意为获取高价值的事物耐心等待，也擅长从看似一无所有的客户身上榨取价值。 |
-| 定位 | 通过获得充能点，以触发追加攻击的输出型角色 |
+| Character Name | Jade |
+| Path | Erudition |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 星际和平公司 |
+| Introduction | 星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「典贷翡翠」。 冷艳优雅的放贷人，善于洞悉人心，有着名为「慈玉典押」的个人爱好。 愿意为获取高价值的事物耐心等待，也擅长从看似一无所有的客户身上榨取价值。 |
+| Role | 通过获得充能点，以触发追加攻击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 三石琴乃 |
-| 英语 | Faye Mata |
-| 中文 | 张若瑜 |
-| 韩语 | 김순미 |
+| Japanese | 三石琴乃 |
+| English | Faye Mata |
+| Chinese | 张若瑜 |
+| Korean | 김순미 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 660 |
-| 基础防御力 | 509 |
-| 基础速度 | 103 |
-| 嘲讽 | 75 |
-| 能量上限 | 140 |
+| Base HP | 1,087 |
+| Base ATK | 660 |
+| Base DEF | 509 |
+| Base SPD | 103 |
+| Taunt | 75 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/炙梦喷枪\|炙梦喷枪]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/炙梦喷枪\|Dream Flamer]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/凌乱草图\|凌乱草图]] | 12 |
-| [[zh_cn/items/Material/TracePath/动态线稿\|动态线稿]] | 53 |
-| [[zh_cn/items/Material/TracePath/精致色稿\|精致色稿]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/凌乱草图\|Rough Sketch]] | 12 |
+| [[zh_cn/items/Material/TracePath/动态线稿\|Dynamic Outlining]] | 53 |
+| [[zh_cn/items/Material/TracePath/精致色稿\|Exquisite Colored Draft]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 28 |
 
 ---
-## 战技
-### 普攻：Lash of Riches
+## Skills
+### Basic ATK：Lash of Riches
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Jade's ATK to one designated enemy target, and Quantum DMG equal to #2[i]% of Jade's ATK to adjacent enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 45% | 15% |
   | Lv.2 | 54% | 18% |
@@ -98,7 +98,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 126% of Jade's ATK to one designated enemy target, and Quantum DMG equal to 42% of Jade's ATK to adjacent enemies.
 
-### 战技：Acquisition Surety
+### Skill：Acquisition Surety
 - **类型**：Skill
 - **简述**：Makes a single ally become the Debt Collector and increases their SPD. After the Debt Collector attacks, deals minor Quantum Additional DMG to each enemy target hit and consume the Debt Collector's own HP. When Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume her HP.
 - **最大等级**：15
@@ -111,7 +111,7 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
 当场上存在【收债人】时，翡翠无法施放战技，翡翠每回合开始时【收债人】状态持续回合数减1。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 30 | 2% | 15% | 3 |
   | Lv.2 | 30 | 2% | 16% | 3 |
@@ -143,14 +143,14 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
 若翡翠成为【收债人】时，无法获得速度提高效果且攻击后不消耗生命值。
 当场上存在【收债人】时，翡翠无法施放战技，翡翠每回合开始时【收债人】状态持续回合数减1。
 
-### 终结技：Vow of the Deep
+### Ultimate：Vow of the Deep
 - **类型**：Ultimate
 - **简述**：Deals Quantum DMG to all enemy units, and this unit's Talent's Follow-Up ATK DMG multiplier increases.
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by #1[i]%. This enhancement can take effect #2[i] time(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 40% | 2 | 120% |
   | Lv.2 | 44% | 2 | 132% |
@@ -175,7 +175,7 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
 
 - **满级效果**：Deals Quantum DMG equal to 300% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by 100%. This enhancement can take effect 2 time(s).
 
-### 天赋：Fang of Flare Flaying
+### Talent：Fang of Flare Flaying
 - **类型**：Talent
 - **简述**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG to all enemies.
 When Jade launches the Follow-Up ATK, gains "Pawned Asset" and increases CRIT DMG, stacking up to 50 times.
@@ -186,7 +186,7 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains #4[i] stack(s)
 翡翠发动天赋的追加攻击时立即获得#4[i]层【当品】，每层【当品】使暴击伤害提高#1[f1]%，最多叠加#2[i]层。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5(%) |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 1.2% | 50 | 8 | 5 | 60% |
   | Lv.2 | 1.32% | 50 | 8 | 5 | 66% |
@@ -215,14 +215,14 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains #4[i] stack(s)
 When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of "Pawned Asset," with each stack increasing CRIT DMG by #1[f1]%, stacking up to 50 times.
 翡翠发动天赋的追加攻击时立即获得5层【当品】，每层【当品】使暴击伤害提高#1[f1]%，最多叠加50层。
 
-### 秘技：Visionary Predation
+### Technique：Visionary Predation
 - **类型**：Technique
 - **简述**：Inflicts Blind Fealty on enemies within a set area. Attacking an enemy with Blind Fealty causes all enemies with Blind Fealty to enter combat simultaneously. Upon entering combat, deals minor Quantum DMG to all enemies and immediately gains 15 stack(s) of Pawned Asset.
 - **最大等级**：1
 - **效果模板**：After using the Technique, inflicts enemies within a set area with Blind Fealty for #1[i] second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to #2[i]% of Jade's ATK to all enemies, and immediately gains #3[i] stack(s) of Pawned Asset.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 50% | 15 |
 
@@ -233,27 +233,27 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of 
 
 - **满级效果**：After using the Technique, inflicts enemies within a set area with Blind Fealty for 10 second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to 50% of Jade's ATK to all enemies, and immediately gains 15 stack(s) of Pawned Asset.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 逆回购 | 晋阶2 | 在敌方目标进入战斗时，翡翠获得#2[i]层【当品】。处于【收债人】状态的角色回合开始时，额外获得#1[i]层【当品】。 | 在敌方目标进入战斗时，翡翠获得1层【当品】。处于【收债人】状态的角色回合开始时，额外获得3层【当品】。 | 信用点×5000、凌乱草图×3、同愿的遗音×1 |
 | 附加能力2 | 折牙票 | 晋阶4 | 战斗开始时，翡翠的行动提前#1[i]%。 | 战斗开始时，翡翠的行动提前50%。 | 信用点×20000、动态线稿×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 绝当品 | 晋阶6 | 天赋中每层【当品】额外使翡翠的攻击力提高#1[f1]%。 | 天赋中每层【当品】额外使翡翠的攻击力提高#1[f1]%。 | 信用点×160000、精致色稿×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
+| ATK | 18% |
 | 效果抵抗 | 10% |
 | 量子属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Altruism? Nevertheless Tradable | The Follow-Up ATK DMG from Jade's Talent increases by 32%. After the "Debt Collector" character attacks and the number of the enemy target(s) hit is either 2 or 1, Jade additionally gains 1 or 2 point(s) of Charge respectively. |
 | E2 | Morality? Herein Authenticated | When there are 15 stacks of Pawned Asset, Jade's CRIT Rate increases by 18%. |
@@ -264,78 +264,78 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 量子属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|毁烬焚骨的大公]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|The Ashblazing Grand Duke]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/偏偏希望无价.md|偏偏希望无价]]
+### [[zh_cn/lightcone/智识/偏偏希望无价.md|Yet Hope Is Priceless]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：承诺
 - **效果**：使装备者的暴击率提高【16%/19%/22%/25%/28%】。当装备者在战斗中暴击伤害大于120%时，每超过20%，追加攻击造成的伤害提高【12%/14%/16%/18%/20%】，该效果可叠加4层。战斗开始时和装备者施放普攻后，使终结技或追加攻击造成的伤害无视目标【20%/24%/28%/32%/36%】的防御，持续2回合。
 
-### [[zh_cn/lightcone/智识/不息的演算.md|不息的演算]]
+### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：无界之思
 - **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/银河铁道之夜.md|银河铁道之夜]]
+### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★★
 - **技能名**：流星群
 - **效果**：场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 主C/辅助 | [[zh_cn/character/智识/翡翠_量子_五星.md\|翡翠]] | [[zh_cn/character/智识/姬子_火_五星.md\|姬子]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|大黑塔]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
+| 主C/辅助 | [[zh_cn/character/智识/翡翠_量子_五星.md\|Jade]] | [[zh_cn/character/智识/姬子_火_五星.md\|Himeko]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|The Herta]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
 | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「典贷翡翠」。
 冷艳优雅的放贷人，善于洞悉人心，常常通过抵押与契约使敌人付出代价，为公司获利。
 愿意为获取更有价值的事物而费心布局，也愿意从看似一无所有的客户身上挖掘价值。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 银链星系，一场数百琥珀纪难遇的离子风暴正在逼近。年轻的珠宝名媛站在露台，远眺泛着奇异色彩的天空。
 
@@ -366,7 +366,7 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of 
 「你会成为公司在银链星系的代行者，往后的每一分钟，每一次呼吸，都将为琥珀王的事业添砖加瓦……
 「直到生命的最后一刻。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「银链星系已正式纳入公司的贸易版图，下一周期的利润预计将提升47%。」
 富丽堂皇的会议室中，三位「P46」围桌而坐。
@@ -383,7 +383,7 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of 
 「看，始终抗拒公司的银链星系，如今也成了『战略投资部』可靠的盟友。
 「所以期待吧，我们在今天种下种子，当然是为了让它在明天结果。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 边星地带有着这样的传说：当陷入绝望时，可怀揣舍弃一切的觉悟向星际和平公司请愿。若你有幸，一位来者不拒的放债人将会出现。
 
@@ -406,7 +406,7 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of 
 「微小的欲望一旦燃起，就会点燃更多的欲求。『慈玉典押』所做的…只是等待和收获。」
 她点数着藏品，一份一份，都是欲望的余烬。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 这一天，又有两个年轻人叩响了大门。门无声无息向后打开，隐隐绰绰的烟雾中，她停下了用天平称量抵押物的动作，为两位到访者斟上了清茶。
 

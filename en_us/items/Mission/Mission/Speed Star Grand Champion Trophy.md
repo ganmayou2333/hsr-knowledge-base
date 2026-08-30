@@ -6,17 +6,17 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Speed Star: Grand Champion Trophy |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Speed Star: Grand Champion Trophy |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 超限狂飙大奖赛的奖杯。它将从这一届比赛开始，记录历代的冠军，新的胜者将不断续写在传奇序列之上。而最初的传奇，已为奖杯底座上刻下铭言——
 

@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Feixiao |
-| 命途 | The Hunt |
-| 属性 | Wind |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星核猎手 |
-| 角色介绍 | 仙舟「曜青」的天击将军，帝弓七天将之一，为人不拘一格，率直潇洒。 精通百般武艺，炼化躯体至极致，享有「大捷将军」美名，深受仙舟军民爱戴。 但身负「月狂」之症，如要在时限内猎尽孽物——飞霄唯一的敌手，便是自己。 |
-| 定位 | 可以变身【无敌玩家】施放强力技能的输出型角色 |
+| Character Name | Feixiao |
+| Path | The Hunt |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 星核猎手 |
+| Introduction | 仙舟「曜青」的天击将军，帝弓七天将之一，为人不拘一格，率直潇洒。 精通百般武艺，炼化躯体至极致，享有「大捷将军」美名，深受仙舟军民爱戴。 但身负「月狂」之症，如要在时限内猎尽孽物——飞霄唯一的敌手，便是自己。 |
+| Role | 可以变身【无敌玩家】施放强力技能的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 小松未可子 |
-| 英语 | Anairis Quinones |
-| 中文 | 叶知秋 |
-| 韩语 | 손정민 |
+| Japanese | 小松未可子 |
+| English | Anairis Quinones |
+| Chinese | 叶知秋 |
+| Korean | 손정민 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 602 |
-| 基础防御力 | 388 |
-| 基础速度 | 112 |
-| 嘲讽 | 75 |
-| 能量上限 | 12 |
+| Base HP | 1,048 |
+| Base ATK | 602 |
+| Base DEF | 388 |
+| Base SPD | 112 |
+| Taunt | 75 |
+| Max Energy | 12 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|一杯酩酊的时代]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|A Glass of the Besotted Era]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 12 |
-| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 53 |
-| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|Meteoric Bullet]] | 12 |
+| [[zh_cn/items/Material/TracePath/命定死因\|Destined Expiration]] | 53 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|Countertemporal Shot]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 28 |
 
 ---
-## 战技
-### 普攻：Boltsunder
+## Skills
+### Basic ATK：Boltsunder
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Wind DMG equal to 140% of Feixiao's ATK to one designated enemy target.
 
-### 战技：Waraxe
+### Skill：Waraxe
 - **类型**：Skill
 - **简述**：Deals Wind DMG to an enemy, and additionally launches Talent's Follow-Up ATK 1 time.
 - **最大等级**：15
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 100% |
   | Lv.2 | 110% |
@@ -127,7 +127,7 @@
 
 - **满级效果**：Deals Wind DMG equal to 250% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
 
-### 终结技：Terrasplit
+### Ultimate：Terrasplit
 - **类型**：Ultimate
 - **简述**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
 Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy 6 time(s). Deals Wind DMG at the end.
@@ -138,7 +138,7 @@ Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy #3[i] time(s). Deal
 其中，飞霄先对该目标发动【闪裂刃舞】或【钺贯天冲】，总计#3[i]次。最后对该目标造成等同于飞霄#1[i]%攻击力的风属性伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 96% | 100% | 6 | 402% |
   | Lv.2 | 102.4% | 100% | 6 | 431.8% |
@@ -166,7 +166,7 @@ Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy #3[i] time(s). Deal
 Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy 6 time(s). Deals Wind DMG at the end.
 其中，飞霄先对该目标发动【闪裂刃舞】或【钺贯天冲】，总计6次。最后对该目标造成等同于飞霄192%攻击力的风属性伤害。
 
-### 天赋：Thunderhunt
+### Talent：Thunderhunt
 - **类型**：Talent
 - **简述**：Can activate Ultimate when "Flying Aureus" reaches 6 points, accumulating up to 12 points. For every 2 attacks by ally targets, Feixiao gains "Flying Aureus".
 After teammates attack, Feixiao launches Follow-Up ATK against the primary target, dealing Wind DMG. This effect can only trigger once per turn. When using this attack, increases DMG dealt by this unit.
@@ -177,7 +177,7 @@ After Feixiao's teammates attack an Enemy target, Feixiao immediately launches F
 当飞霄的队友对敌方目标施放攻击后，飞霄立即对主目标发动追加攻击，造成等同于飞霄#1[i]%攻击力的风属性伤害。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次，飞霄回合开始时重置可触发次数。发动此攻击时使自身造成的伤害提高#5[i]%，持续#6[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5(%) | 参数6 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 55% | 2 | 6 | 12 | 30% | 2 |
   | Lv.2 | 60.5% | 2 | 6 | 12 | 33% | 2 |
@@ -207,7 +207,7 @@ After Feixiao's teammates attack an Enemy target, Feixiao immediately launches F
 After Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to 137.5% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by 75%, lasting for 2 turn(s).
 当飞霄的队友对敌方目标施放攻击后，飞霄立即对主目标发动追加攻击，造成等同于飞霄137.5%攻击力的风属性伤害。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次，飞霄回合开始时重置可触发次数。发动此攻击时使自身造成的伤害提高75%，持续2回合。
 
-### 秘技：Stormborn
+### Technique：Stormborn
 - **类型**：Technique
 - **简述**：Enters the "Onrush" state. Continuously pulls in enemies and increases movement speed. Gains "Flying Aureus" after entering battle.
 While in "Onrush," can actively attack all pulled enemies. At the start of every wave, deals Wind DMG to all enemies. This DMG is guaranteed to CRIT. The more enemies are pulled in, the higher the DMG multiplier becomes.
@@ -218,7 +218,7 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 【陷锋】状态下主动攻击会使所有牵引的敌人进入战斗。进入战斗后，每个波次开始时对敌方全体造成等同于飞霄#3[i]%攻击力的风属性伤害，该伤害必定造成暴击。若牵引了超过1个敌人，每超过1个敌人，该伤害的倍率提高#5[i]%，最多提高至#6[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 20 | 50% | 200% | 1 | 100% | 1000% |
 
@@ -234,9 +234,9 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 While in "Onrush," actively attacking will start battle with all pulled enemies. After entering battle, deals Wind DMG equal to 200% of Feixiao's ATK to all enemies at the start of each wave. This DMG is guaranteed to CRIT. If more than 1 enemy is pulled in, increases the multiplier of this DMG by 100% for each additional enemy pulled in, up to a maximum of 1000%.
 【陷锋】状态下主动攻击会使所有牵引的敌人进入战斗。进入战斗后，每个波次开始时对敌方全体造成等同于飞霄200%攻击力的风属性伤害，该伤害必定造成暴击。若牵引了超过1个敌人，每超过1个敌人，该伤害的倍率提高100%，最多提高至1000%。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 天通 | 晋阶2 | 战斗开始时，获得#1[i]点【飞黄】。
 回合开始时，若上回合未通过天赋发动追加攻击，计入1次获得【飞黄】所需的攻击次数。 | 战斗开始时，获得3点【飞黄】。
@@ -244,18 +244,18 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 | 附加能力2 | 解形 | 晋阶4 | 施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。追加攻击的暴击伤害提高#1[i]%。 | 施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。追加攻击的暴击伤害提高36%。 | 信用点×20000、命定死因×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 电举 | 晋阶6 | 施放战技时，攻击力提高#1[i]%，持续#2[i]回合。 | 施放战技时，攻击力提高48%，持续3回合。 | 信用点×160000、逆时一击×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| ATK | 28% |
+| DEF | 12.5% |
 | 暴击率 | 12% |
 
 ---
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Skyward I Quell | After launching "Boltsunder Blitz" or "Waraxe Skyward," additionally increases the Ultimate DMG dealt by Feixiao by an amount equal to 10% of the original DMG, stacking up to 5 time(s) and lasting until the end of the Ultimate action. |
 | E2 | Moonward I Wish | In the Talent's effect, for every 1 instance of Follow-Up ATK launched by ally targets, Feixiao gains 1 point of "Flying Aureus." This effect can trigger up to 6 time(s) per turn. |
@@ -266,84 +266,84 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 风属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|风举云飞的勇烈]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|毁烬焚骨的大公]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
+| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|The Wind-Soaring Valorous]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|The Ashblazing Grand Duke]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|奔狼的都蓝王朝]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/欢愉/欢迎来到银河城.md|欢迎来到银河城]]
+### [[zh_cn/lightcone/欢愉/欢迎来到银河城.md|Welcome to the Cosmic City]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：稳赢
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】，造成的欢愉伤害无视目标【20%/24%/28%/32%/36%】的防御力。当装备者对自身单体施放终结技时，获得【20/25/30/35/40】点【笑点】。该效果最多触发1次，施放3次普攻后重置可触发次数。
 
-### [[zh_cn/lightcone/欢愉/今日好手气.md|今日好手气]]
+### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
 
 - **基础属性**：生953 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：憧憬
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
 
-### [[zh_cn/lightcone/欢愉/当她决定看见.md|当她决定看见]]
+### [[zh_cn/lightcone/欢愉/当她决定看见.md|When She Decided to See]]
 
 - **基础属性**：生1058 攻529 防529
 - **推荐度**：★★★★
 - **技能名**：破局
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者进入战斗或对我方目标施放终结技时，使装备者获得【上上签】，持续3回合。当装备者持有【上上签】时，我方全体暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【30%/37.5%/45%/52.5%/60%】，装备者自身能量恢复效率提高【12%/14%/16%/18%/20%】。 每个波次开始时，装备者固定恢复15点能量。
 
-### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|菇菇嘎嘎历险记]]
+### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
 
 - **基础属性**：生847 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：乱斗
 - **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
 
-### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|未来，有我们一起]]
+### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
 - **基础属性**：生953 攻476 防331
 - **推荐度**：★★★★
 - **技能名**：同行
 - **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/欢愉/银狼LV.999_虚数_五星.md\|银狼LV.999]] | [[zh_cn/character/欢愉/火花_火_五星.md\|火花]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|爻光]] |
-| [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|爻光]] | [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] |
-| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|丹恒•腾荒]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
-| [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] |  |
+| [[zh_cn/character/欢愉/银狼LV.999_虚数_五星.md\|Silver Wolf LV.999]] | [[zh_cn/character/欢愉/火花_火_五星.md\|Sparxie]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|Yao Guang]] |
+| [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] | [[zh_cn/character/欢愉/爻光_物理_五星.md\|Yao Guang]] | [[zh_cn/character/欢愉/开拓者_雷_五星.md\|开拓者•欢愉]] |
+| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|Dan Heng • Permansor Terrae]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
+| [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 仙舟「曜青」的天击将军，帝弓七天将之一，为人不拘一格，率直潇洒。
 精通百般武艺，炼化躯体至极致，享有「大捷将军」美名，深受仙舟军民爱戴。
 但身负「月狂」之症，如要在时限内猎尽孽物——飞霄唯一的敌手，便是自己。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 空气中透着一丝血腥和不安。
 
@@ -364,7 +364,7 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 「看啊，凝梨，流星实现了我们的愿望！」
 她欣喜若狂地喊着，自始至终都没有回头，没有看见「流星」最终触及大地，将一切归为寂静。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 在曜青的军营中，她穿上云骑铠甲，拿起武器。
 新的语言、新的生活习惯、新的名字、新的战斗方式——她痛苦地学着，学得飞快。她跟随月御征战，为月御执旗。在无尽的征战中，少女已成为独当一面的战士。
@@ -388,7 +388,7 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 「但如果不是因为她，我们这次恐怕没法赢得那么轻松吧？」
 她明白，这些声音或许将伴随着她的一生。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 她曾回到窟卢的旧地，但迎接她的既非狼嚎，也非狐鸣，只是一个望不见底的深壑。光浪的烧灼后，甚至连枯骨都未留下。
 但她依旧追逐着流星，这里的每一个人都是——那是帝弓的光芒，是他们身处险境的精神支撑。
@@ -417,7 +417,7 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 
 那一天，那场雨中，她在血与火的淬炼下新生。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 今天是难得的休息日。
 天蒙蒙亮的时候，她已从住处出发，只是行动轨迹略有偏移。

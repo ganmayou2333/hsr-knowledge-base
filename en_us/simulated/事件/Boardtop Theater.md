@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Boardtop Theater |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_31.png` |
+| Name | Boardtop Theater |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_31.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 用财富交换匕首 | 将宇宙碎片放上塔兰顿的天平。-丢弃300宇宙碎片。进入战斗，在3个轮内击败敌人可以获得600宇宙碎片 |
 | 将宇宙碎片放上塔兰顿的天平。-用财富交换弓箭 | 将宇宙碎片放上塔兰顿的天平。-丢弃400宇宙碎片。进入战斗，在3个轮内击败敌人可以获得800宇宙碎片 |
@@ -37,6 +37,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 626101 |  |

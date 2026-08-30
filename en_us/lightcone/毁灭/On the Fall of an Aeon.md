@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | On the Fall of an Aeon |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | On the Fall of an Aeon |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 It began with a flash of light.
 One by one, THEY fell as the threat of expiration loomed over THEM.
@@ -25,18 +25,18 @@ THEY held hands in a show of unprecedented unity.
 ...But the Paths met an abrupt end,
 and THEY were headed to a true death.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 529 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Moth to Flames
 
 When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

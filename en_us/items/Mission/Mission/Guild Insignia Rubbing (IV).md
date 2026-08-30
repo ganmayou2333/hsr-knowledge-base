@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Guild Insignia Rubbing (IV) |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Guild Insignia Rubbing (IV) |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 陶德老师贝尼尼学士留下的秘密标识，在特殊角度下拼合而成后所制成的拓片，内里似乎隐藏了重要的信息。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【陶德•雷奥登的学术研究: 龙图三变】

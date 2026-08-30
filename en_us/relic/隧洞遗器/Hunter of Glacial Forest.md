@@ -4,20 +4,20 @@
 > 实体ID：104
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/576/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Hunter of Glacial Forest |
-| 类型 | 隧洞遗器 |
-| 实体ID | 104 |
-## 获取途径
+| Name | Hunter of Glacial Forest |
+| Type | 隧洞遗器 |
+| Entity ID | 104 |
+## Acquisition
 霜风之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Ice DMG by 10%.
 ### 4 件套
 After the wearer uses their Ultimate, their CRIT DMG increases by 25% for 2 turn(s).
-## 部位
+## Pieces
 ### 手部：雪猎的巨蜥手套
 **描述**：雪岩巨蜥的鳞爪与战术手套紧密缝合起来，可以在任何墙面上自由地攀爬悬挂。
 **来历**：

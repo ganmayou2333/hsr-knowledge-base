@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Invitation to a Beheading: Weeping Blackbox |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Invitation to a Beheading: Weeping Blackbox |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色对敌方目标发动追加攻击后，使其行动延后25%，敌方目标每回合最多触发2次。
 
-## 强化效果
+## Enhanced Effect
 
 角色对敌方目标发动追加攻击后，使其行动延后25%，敌方目标每回合最多触发3次。

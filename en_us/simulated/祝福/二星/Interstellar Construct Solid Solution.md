@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Interstellar Construct: Solid Solution |
-| 类型 | 祝福（同名合并） |
-| 命途 | 存护 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Interstellar Construct: Solid Solution |
+| Type | Blessing (merged) |
+| Path | 存护 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612042 | Deals increased Quake DMG to enemies. The amount of DMG increased is equal to 80% of the character's current DEF. |
 | 615041 | Deals increased Quake DMG to enemies. The amount of DMG increased is equal to 80% of the character's current DEF. |

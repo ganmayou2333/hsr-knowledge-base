@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Man in the Cover |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | The Man in the Cover |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标每次陷入持续伤害状态时，陷入3层【怀疑】效果。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标每次陷入持续伤害状态时，陷入3层【怀疑】效果。每次持续伤害状态刷新时，陷入1层【怀疑】效果。

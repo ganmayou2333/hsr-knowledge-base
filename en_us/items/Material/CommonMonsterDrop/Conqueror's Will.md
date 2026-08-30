@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Conqueror's Will |
-| 用途 | 行迹材料 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / CommonMonsterDrop |
+| Item Name | Conqueror's Will |
+| Use | Trace Material | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / CommonMonsterDrop |
 
-## 说明
+## Description
 
 凝缩的反物质，强化所需的高级材料。
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级4后，反物质军团掉落
 - 「万能合成机」- 材料合成

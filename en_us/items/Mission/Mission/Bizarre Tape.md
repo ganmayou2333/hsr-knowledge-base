@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Bizarre Tape |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Bizarre Tape |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一盘诡异的录音带，一个恐怖的噩梦。
 
-## 获得途径
+## Acquisition
 
 - 在匹诺康尼-「白日梦」酒店-梦境的3层，修复特殊的梦境迷钟获取

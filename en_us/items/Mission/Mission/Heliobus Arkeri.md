@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Heliobus: Arkeri |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Heliobus: Arkeri |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 附身于三月七相机中的岁阳。天真善良，向往三月七相片中的风景。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务罗浮异闻•磷火录（续）中获得

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Aether Hacker |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4欢愉+2智识 |
+| Name | Aether Hacker |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4欢愉+2智识 |
 
 
-## 效果
+## Effect
 
 我方目标暴击伤害提高100%。每次释放终结技或欢愉技消灭敌方目标后，记录溢出的伤害，下1次攻击会对随机攻击目标额外造成300%记录值的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

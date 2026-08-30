@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Imperial Sting |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4繁育+2智识 |
+| Name | Imperial Sting |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4繁育+2智识 |
 
 
-## 效果
+## Effect
 
 我方目标进入【蝶魄】后，施放的终结技也能造成【蝶魄】的真实伤害，并使【蝶魄】的攻击次数增加4次，每名我方目标最多触发1次该效果。
 
-## 强化效果
+## Enhanced Effect
 
 -

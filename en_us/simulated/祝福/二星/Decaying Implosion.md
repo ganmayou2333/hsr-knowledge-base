@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Decaying Implosion |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Decaying Implosion |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色累计损失或治疗自身40%生命值后，全属性抗性穿透提高10%，造成击破伤害时额外提高20%。
 
-## 强化效果
+## Enhanced Effect
 
 角色累计损失或治疗自身40%生命值后，全属性抗性穿透提高15%，造成击破伤害时额外提高30%。

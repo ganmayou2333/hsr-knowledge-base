@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Treasure Map Indicating the Location of Ignis Aureliae |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Treasure Map Indicating the Location of Ignis Aureliae |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在西衍先生的故事中，这张纸是记录着天火熔金位置的藏宝图。但在你的眼中，这就是一张随便画了个圈的丹鼎司地图。
 
 
-## 获得途径
+## Acquisition
 
 - 1.2活动冒险任务【评书奇谭•第三回】

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Clockwork Apple |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Clockwork Apple |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612657 | After characters launch Follow-Up ATKs, increases SPD by 16% for 1 turn(s). |
 | 615657 | After characters launch Follow-Up ATKs, increases SPD by 16% for 1 turn(s). |

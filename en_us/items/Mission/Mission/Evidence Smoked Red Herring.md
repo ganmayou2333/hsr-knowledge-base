@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Evidence: Smoked Red Herring |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Evidence: Smoked Red Herring |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 这个「证物」显然是花火用来搞笑的。为了避免你觉得自己为这条垃圾证物浪费了时间，给你分享个菜谱吧——
 
-## 获得途径
+## Acquisition
 
 - 同行任务【假面双人舞】

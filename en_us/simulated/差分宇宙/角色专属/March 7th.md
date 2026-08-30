@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | March 7th |
-| 类型 | 祝福（同名合并） |
-| 命途 | 无（按角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 角色专属|
+| Name | March 7th |
+| Type | Blessing (merged) |
+| Path | 无（按角色） |
+| Rarity | TBD |
+| Special Type | 角色专属 |
 
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 661001 | 三月七在差分宇宙中的伤害获得增幅。
 效果命中提高30%，在场时，冻结状态下的敌方目标防御力降低20%。 |

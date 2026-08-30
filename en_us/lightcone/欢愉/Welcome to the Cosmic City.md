@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Welcome to the Cosmic City |
-| 命途 | Elation |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Welcome to the Cosmic City |
+| Path | Elation |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Above the city, a girl's flamboyant figure bursts free from the teleporter.
 Endless streams of traffic, countless silhouettes of people... the bustle carries on as always.
@@ -30,18 +30,18 @@ From an unnoticed corner comes a startled cry, followed by thunderous cheers ech
 The girl leaps down as familiar notification sounds ring in her ears.
 Her game time has begun.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 476 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Guaranteed Victory
 
 Increases the wearer's SPD by 18%. The Elation DMG dealt ignores 20% of the target's DEF. When the wearer uses Ultimate on themselves, gains 20 point(s) of "Punchline." This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

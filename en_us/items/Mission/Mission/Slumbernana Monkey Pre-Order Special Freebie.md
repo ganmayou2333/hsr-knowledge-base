@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Slumbernana Monkey Pre-Order Special Freebie |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Slumbernana Monkey Pre-Order Special Freebie |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 预定睡蕉小猴玩偶的赠送的特典景品，材质十分劣质。等到小猴玩偶到货，便会自动循着景品的信号找到买主。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【四百蕉】

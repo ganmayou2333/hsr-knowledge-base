@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lackluster Trash |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Lackluster Trash |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 装着帝垣琼玉牌的垃圾袋。帝垣琼玉牌有着不同的稀有度，可以从垃圾袋的颜色上看出来。
 
 
-## 获得途径
+## Acquisition
 
 - 1.5活动冒险任务【罗浮异闻·枕中记】

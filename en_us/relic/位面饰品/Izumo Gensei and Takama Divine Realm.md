@@ -4,20 +4,20 @@
 > 实体ID：314
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/2590/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Izumo Gensei and Takama Divine Realm |
-| 类型 | 位面饰品 |
-| 实体ID | 314 |
-## 获取途径
+| Name | Izumo Gensei and Takama Divine Realm |
+| Type | 位面饰品 |
+| Entity ID | 314 |
+## Acquisition
 第九世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's ATK by 12%. When entering battle, if at least one teammate follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：出云的祸津众神
 **描述**：位面封装的是被一刀斩开过去未来的出云。出云曾遍历不堪言状的生存战争，也曾有过饫甘餍肥的辉煌岁月...如今荒土业已无处可寻，唯余下埋葬往昔的剑冢。
 **来历**：

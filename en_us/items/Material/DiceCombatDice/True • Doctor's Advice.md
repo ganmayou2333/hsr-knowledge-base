@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | True • "Doctor's Advice" |
-| 用途 | 骰子战斗骰子 |
-| 评级 | ★★★ |
-| 类型 | Material / 骰子战斗骰子 |
+| Item Name | True • "Doctor's Advice" |
+| Use | 骰子战斗骰子 |
+| Rarity | ★★★ |
+| Type | Material / 骰子战斗骰子 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['在银河战力党商店的「扩展包•1」中购买']

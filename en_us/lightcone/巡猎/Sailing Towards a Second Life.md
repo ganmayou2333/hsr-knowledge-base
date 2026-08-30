@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Sailing Towards a Second Life |
-| 命途 | The Hunt |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Sailing Towards a Second Life |
+| Path | The Hunt |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 He felt as if he had fallen into a deep sea. Everything was departing from him, leaving only his hollow thoughts writhing and struggling all alone.
 Terror, anxiety, loneliness, darkness, rage — these feelings didn't dissipate with his physical body, but remained within the mechanical shell in a different manner — and they were even heavier than before.
@@ -25,18 +25,18 @@ He opened his eyes and a flash of fireworks darted past before hearing the docto
 He balled his hands into fists — hands that were now made of cold iron...
 He would no longer live for himself.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 582 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Rough Water
 
 Increases the wearer's Break Effect by 60%. The Break DMG dealt by the wearer ignores 20% of the target's DEF. When the wearer's Break Effect in battle is at 1.5 or greater, increases their SPD by 12%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

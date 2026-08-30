@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Aether Coin |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Aether Coin |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 游玩《以太战线》必需的道具，可以将生物以「以太」数据的形式存储下，还能将其实体化为「以太灵」与其他玩家「对决」。
 
 
-## 获得途径
+## Acquisition
 
 - 活动【以太战线】

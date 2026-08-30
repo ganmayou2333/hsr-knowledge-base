@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Symbol of Fortune |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Symbol of Fortune |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一枚看似普通的艾迪恩代币，包含了砂金希望能传递给你的好运。
 
 
-## 获得途径
+## Acquisition
 
 - 完成冒险任务【云帆归心】后，阅读短信并与该任务中的大副对话获得

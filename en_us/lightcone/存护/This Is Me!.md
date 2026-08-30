@@ -6,34 +6,34 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | This Is Me! |
-| 命途 | Preservation |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | This Is Me! |
+| Path | Preservation |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The girl could rock any outfit she chooses, but she was unsatisfied, judging by the dozen sets of clothing piled up behind her.
 "Will this be the last outfit for today?"
 She thought silently to herself and looked at the girl in the mirror. She looked extra happy on this day.
 "Okay! This is me!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 370 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### New Chapter
 
 Increases the wearer's DEF by 16%. Increases the DMG of the wearer when they use their Ultimate by 60% of the wearer's DEF. This effect only applies 1 time per enemy target during each use of the wearer's Ultimate.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

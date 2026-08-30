@@ -6,17 +6,17 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Blurry Portrait |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Blurry Portrait |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一枚小巧的卵形相框，内有肖像。是某个重大历史事件和其中某人存在过的证明。
 

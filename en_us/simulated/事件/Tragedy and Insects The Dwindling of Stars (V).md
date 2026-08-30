@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tragedy and Insects: The Dwindling of Stars (V) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_03.png` |
+| Name | Tragedy and Insects: The Dwindling of Stars (V) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_03.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：诸星消亡之刻，浩瀚的星系凝聚成一个个微粒轰然坍塌；它们的哀亡如此壮美，当「贪饕」奥博洛斯张开巨口，吞下无数虫潮时，数十亿微粒的烟尘也同时被纳入腹中——很久很久以后，虚构史学家坐在与世无争的穹顶图书馆内，一笔一笔记录下这些罕为人知的历史。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 翻翻。 | 但作者是名为红鼻老人的虚构史学家；其真伪难辨。 |
 | 不看。 | 虚构史学家写的东西谁看？ |
@@ -48,6 +48,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 117101 |  |

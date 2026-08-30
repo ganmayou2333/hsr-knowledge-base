@@ -6,17 +6,17 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Gift of the Stars |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Gift of the Stars |
+| Use | 贵重物品 |
+| Rarity | ★★★★★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 精美的信封，内含一张定制车票。
 

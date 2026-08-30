@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Final Victor |
-| 命途 | The Hunt |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Final Victor |
+| Path | The Hunt |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "You don't believe me?"
 He provocatively looks at the man before him, then draws out a revolver, empties its cylinder, and leaves a single shot in the chamber.
@@ -24,18 +24,18 @@ He pushes the gun into his opponent's hand, spins the cylinder, and points the b
 He pulls the trigger repeatedly, and the smile on his face remains the same after three empty clicks.
 "Life is a grand gamble, and I'll always be the final victor."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Wager
 
 Increases the wearer's ATK by 12%. When the wearer lands a CRIT hit on enemies, gains 1 stack of Good Fortune. This can stack up to 4 time(s). Every stack of Good Fortune increases the wearer's CRIT DMG by 8%. Good Fortune will be removed at the end of the wearer's turn.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

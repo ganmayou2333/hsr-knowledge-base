@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Reverse Quenching |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Reverse Quenching |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，会使当前生命值小于生命上限50%的角色持有的护盾持续时间延长2回合，每对一名角色生效，使该次命途回响造成的伤害提高20%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | {NICKNAME} |
-| 命途 | Preservation |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| 定位 | 火属性的防御型角色，其战技可对敌方全体施加嘲讽、吸引敌方火力，具备较强的承伤能力，可为我方角色提供更多的输出机会。 |
+| Character Name | {NICKNAME} |
+| Path | Preservation |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
+| Role | 火属性的防御型角色，其战技可对敌方全体施加嘲讽、吸引敌方火力，具备较强的承伤能力，可为我方角色提供更多的输出机会。 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 榎木淳弥/石川由依 |
-| 英语 | Caleb Yen/Rachael Chau |
-| 中文 | 秦且歌/陈婷婷 |
-| 韩语 | 김명준/김하루 |
+| Japanese | 榎木淳弥/石川由依 |
+| English | Caleb Yen/Rachael Chau |
+| Chinese | 秦且歌/陈婷婷 |
+| Korean | 김명준/김하루 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,242 |
-| 基础攻击力 | 602 |
-| 基础防御力 | 606 |
-| 基础速度 | 95 |
-| 嘲讽 | 150 |
-| 能量上限 | 120 |
+| Base HP | 1,242 |
+| Base ATK | 602 |
+| Base DEF | 606 |
+| Base SPD | 95 |
+| Taunt | 150 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|深邃的星外质]] | 28 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|Enigmatic Ectostella]] | 28 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/青铜的执着\|青铜的执着]] | 8 |
-| [[zh_cn/items/Material/TracePath/寒铁的誓言\|寒铁的誓言]] | 42 |
-| [[zh_cn/items/Material/TracePath/琥珀的坚守\|琥珀的坚守]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/青铜的执着\|Endurance of Bronze]] | 8 |
+| [[zh_cn/items/Material/TracePath/寒铁的誓言\|Oath of Steel]] | 42 |
+| [[zh_cn/items/Material/TracePath/琥珀的坚守\|Safeguard of Amber]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 20 |
 
 ---
-## 战技
-### 普攻：Ice-Breaking Light
+## Skills
+### Basic ATK：Ice-Breaking Light
 - **类型**：Basic ATK
 - **简述**：Consumes "Magma Will," then deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.
 - **最大等级**：10
 - **效果模板**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to 140% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
 
-### 战技：Ever-Burning Amber
+### Skill：Ever-Burning Amber
 - **类型**：Skill
 - **简述**：Reduces DMG taken and gains Magma Will, with a high chance to Taunt all enemies.
 - **最大等级**：15
 - **效果模板**：Increases the Trailblazer's DMG Reduction by #1[i]% and gains 1 stack of Magma Will, with a #2[i]% base chance to Taunt all enemies for #3[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 40% | 100% | 1 |
   | Lv.2 | 41% | 100% | 1 |
@@ -129,14 +129,14 @@
 
 - **满级效果**：Increases the Trailblazer's DMG Reduction by 55% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).
 
-### 终结技：War-Flaming Lance
+### Ultimate：War-Flaming Lance
 - **类型**：Ultimate
 - **简述**：Deals Fire DMG to all enemies and enhances this unit's next Basic ATK.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 50% | 75% |
   | Lv.2 | 55% | 82.5% |
@@ -160,7 +160,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 125% of the Trailblazer's ATK plus 187.5% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
 
-### 天赋：Treasure of the Architects
+### Talent：Treasure of the Architects
 - **类型**：Talent
 - **简述**：When attacked, stacks "Magma Will." When "Magma Will" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.
 - **最大等级**：15
@@ -171,7 +171,7 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
 开拓者施放普攻、战技、终结技后，为我方全体提供能够抵消等同于开拓者#1[f1]%防御力+#4[i]伤害的护盾，持续#2[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 4% | 2 | 8 | 20 |
   | Lv.2 | 4.25% | 2 | 8 | 32 |
@@ -201,14 +201,14 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
 【灼热意志】层数不低于4时，普攻将获得强化，对指定敌方单体及其相邻目标同时造成伤害。
 开拓者施放普攻、战技、终结技后，为我方全体提供能够抵消等同于开拓者#1[f1]%防御力+102.5伤害的护盾，持续2回合。
 
-### 秘技：Call of the Guardian
+### Technique：Call of the Guardian
 - **类型**：Technique
 - **简述**：After using Technique, provides a Shield for this unit at the start of the next battle.
 - **最大等级**：1
 - **效果模板**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 30% | 384 | 1 |
 
@@ -219,27 +219,27 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
 
 - **满级效果**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 强援弱 | 晋阶2 | 施放战技后，我方全体受到的伤害降低#2[i]%，持续#3[i]回合。 | 施放战技后，我方全体受到的伤害降低15%，持续1回合。 | 信用点×4000、青铜的执着×2、毁灭者的末路×1 |
 | 附加能力2 | 生先死 | 晋阶4 | 开拓者施放强化普攻后，回复等同于自身生命上限#1[i]%的生命值。 | 开拓者施放强化普攻后，回复等同于自身生命上限5%的生命值。 | 信用点×16000、寒铁的誓言×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 行胜思 | 晋阶6 | 回合开始时，若开拓者持有护盾保护，则攻击力提高#2[i]%并恢复#1[i]点能量，持续到行动结束。 | 回合开始时，若开拓者持有护盾保护，则攻击力提高15%并恢复5点能量，持续到行动结束。 | 信用点×128000、琥珀的坚守×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 18% |
-| 防御力 | 35% |
+| HP | 10% |
+| ATK | 18% |
+| DEF | 35% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Earth-Shaking Resonance | When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, additionally deals Fire DMG equal to 50% of the Trailblazer's DEF. |
 | E2 | Time-Defying Tenacity | The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27. |
@@ -250,78 +250,78 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：防御力 / 速度 / 防御力 / 防御力
 
 **推荐副词条**：防御力 / 速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/净庭教宗的圣骑士\|净庭教宗的圣骑士]] | 使装备者提供的护盾量提高20%。 |
-| [[zh_cn/relic/隧洞遗器/自匿星芒的隐士\|自匿星芒的隐士]] | 使装备者提供的护盾量提高12%，我方目标持有装备者提供的护盾时，暴击伤害提高15%。 |
-| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|戍卫风雪的铁卫]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
+| [[zh_cn/relic/隧洞遗器/净庭教宗的圣骑士\|Knight of Purity Palace]] | 使装备者提供的护盾量提高20%。 |
+| [[zh_cn/relic/隧洞遗器/自匿星芒的隐士\|Self-Enshrouded Recluse]] | 使装备者提供的护盾量提高12%，我方目标持有装备者提供的护盾时，暴击伤害提高15%。 |
+| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|Guard of Wuthering Snow]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/筑城者的贝洛伯格\|筑城者的贝洛伯格]] | 使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/筑城者的贝洛伯格\|Belobog of the Architects]] | 使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/存护/制胜的瞬间.md|制胜的瞬间]]
+### [[zh_cn/lightcone/存护/制胜的瞬间.md|Moment of Victory]]
 
 - **基础属性**：生1058 攻476 防595
 - **推荐度**：★★★★★
 - **技能名**：决断
 - **效果**：使装备者的防御力提高【24%/28%/32%/36%/40%】，效果命中提高【24%/28%/32%/36%/40%】，同时使自身受到攻击的概率提高。当装备者受到攻击后，防御力额外提高【24%/28%/32%/36%/40%】，持续到自身回合结束。
 
-### [[zh_cn/lightcone/存护/余生的第一天.md|余生的第一天]]
+### [[zh_cn/lightcone/存护/余生的第一天.md|Day One of My New Life]]
 
 - **基础属性**：生952 攻370 防463
 - **推荐度**：★★★★★
 - **技能名**：此刻定格
 - **效果**：使装备者的防御力提高【16%/18%/20%/22%/24%】。进入战斗后，使我方全体的全属性抗性提高【8%/9%/10%/11%/12%】。同类技能无法重复生效。
 
-### [[zh_cn/lightcone/存护/朗道的选择.md|朗道的选择]]
+### [[zh_cn/lightcone/存护/朗道的选择.md|Landau's Choice]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：时光如梭
 - **效果**：使装备者受到攻击的概率提高，同时受到的伤害降低【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/存护/记忆的质料.md|记忆的质料]]
+### [[zh_cn/lightcone/存护/记忆的质料.md|Texture of Memories]]
 
 - **基础属性**：生1058 攻423 防529
 - **推荐度**：★★★★
 - **技能名**：珍存
 - **效果**：使装备者的效果抵抗提高【8%/10%/12%/14%/16%】，当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者【16%/20%/24%/28%/32%】生命上限的护盾，持续2回合。该效果每3回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/存护/宇宙市场趋势.md|宇宙市场趋势]]
+### [[zh_cn/lightcone/存护/宇宙市场趋势.md|Trend of the Universal Market]]
 
 - **基础属性**：生1058 攻370 防396
 - **推荐度**：★★★★
 - **技能名**：新一轮洗牌
 - **效果**：使装备者的防御力提高【16%/20%/24%/28%/32%】。当装备者受到攻击后，有【100%/105%/110%/115%/120%】的基础概率使敌方目标陷入灼烧状态，每回合造成等同于装备者【40%/50%/60%/70%/80%】防御力的持续伤害，持续2回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/存护/开拓者_火_五星.md\|开拓者•存护]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
+| 副C | [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/存护/开拓者_火_五星.md\|开拓者•存护]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
 | [[zh_cn/character/巡猎/貊泽_雷_四星.md\|貊泽]] | [[zh_cn/character/同谐/驭空_虚数_四星.md\|驭空]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 为了消除星核带来的危机，少女/少年开拓者选择与星穹列车同行。
 
 ### 你的「故事」•一 完成开拓任务「旅途正在继续」后解锁

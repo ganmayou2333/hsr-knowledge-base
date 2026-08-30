@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dried Sagelore Fruit |
-| 用途 | 消耗品 |
-| 评级 | ★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Dried Sagelore Fruit |
+| Use | Consumable |
+| Rarity | ★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方恢复3点秘技点。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」
 - 云石餐厅

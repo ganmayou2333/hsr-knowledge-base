@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Gelid Chitin |
-| 用途 | 角色晋阶材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Gelid Chitin |
+| Use | Character Ascension |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 散发寒颤嗡鸣的冰冷甲壳，冰属性角色的晋升素材。
 
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【流云渡】
 - 「万能合成机」- 材料置换

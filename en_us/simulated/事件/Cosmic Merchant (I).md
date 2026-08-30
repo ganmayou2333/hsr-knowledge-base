@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cosmic Merchant (I) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_profiteer.png` |
+| Name | Cosmic Merchant (I) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_profiteer.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 购买金属许愿瓶。 | 消耗100宇宙碎片，获得1个「物有所值」的祝福。 |
 | 购买银矿许愿瓶。 | 消耗200宇宙碎片，获得1个「令人惊讶」的奇物。 |
@@ -37,7 +37,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 11701 |  |
 | 111701 |  |

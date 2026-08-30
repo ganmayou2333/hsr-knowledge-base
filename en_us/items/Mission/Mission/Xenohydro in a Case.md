@@ -6,17 +6,17 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Xenohydro in a Case |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Xenohydro in a Case |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 异星水魈被妥帖地收容于秘境之匣中。此匣乃偏方多面体，其中一面晶体采用绝对客观之棱镜材料所打造，视像显示异星水魈周身覆盖冰蓝色肌肤，缀有点点银斑。若通过其他匣面透视水魈，则根据观测者的不同而呈现出不同的视差，千人千面。
 

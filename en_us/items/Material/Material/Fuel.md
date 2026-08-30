@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Fuel |
-| 用途 | 消耗品 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Fuel |
+| Use | Consumable |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 补充开拓力的物品，可以回复60点开拓力。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 等级奖励

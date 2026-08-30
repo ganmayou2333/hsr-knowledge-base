@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Artistry Hardware Sales Analysis |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Artistry Hardware Sales Analysis |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 同功坊与码头合作以来，业务范围扩展，许多顾客慕名而来，实际到店人数不降反升。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧·其三】

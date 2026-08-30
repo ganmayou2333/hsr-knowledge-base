@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Supreme Guardian Tatiana Delivers an Important Speech |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Supreme Guardian Tatiana Delivers an Important Speech |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 大守护者塔提维娜发表重要讲话
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-边缘通路，调查公告牌（旧报纸）拾取

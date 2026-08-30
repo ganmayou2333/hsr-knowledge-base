@@ -6,32 +6,32 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Void |
-| 命途 | Nihility |
-| 评级 | ★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Void |
+| Path | Nihility |
+| Rarity | ★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.
 "He stared into the void, hanging high like the dark sun at the end of all matter, or a mouth that answered all questions. It said: ███ █ ███ ██ The answer couldn't be expressed in any human language, but could be understood by all."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 318 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Fallen
 
 At the start of the battle, the wearer's Effect Hit Rate increases by 20% for 3 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x231,000 / x2 / x6 / x9 / x12 / x10 / x8

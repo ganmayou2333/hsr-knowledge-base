@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Pela's Notes |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Pela's Notes |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 娟丽字体写作的手记，出自佩拉之手。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【旧城拾遗】

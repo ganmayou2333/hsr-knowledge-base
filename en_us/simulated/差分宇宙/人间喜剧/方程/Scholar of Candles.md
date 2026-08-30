@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Scholar of Candles |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*3存护*2 |
+| Name | Scholar of Candles |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*3存护*2 |
 
 
-## 效果
+## Effect
 
 角色暴击伤害提高50%，受到致命伤害时，生命值变为1点并获得等同于生命上限100%的护盾，随后陷入无法解除的冻结状态，持续1回合。该状态下无法回复生命值，我方全体最多触发3次该效果，次数耗尽后失去暴击伤害提高效果。
 
-## 强化效果
+## Enhanced Effect
 
 -

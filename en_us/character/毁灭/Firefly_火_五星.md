@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Firefly |
-| 命途 | Destruction |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星核猎手 |
-| 角色介绍 | 星核猎手成员，身着机械装甲「萨姆」战斗。忠于任务，性格坚强。 作为战胜虫群的兵器而诞生，其生长速度异于常人，但生命非常短暂。 为了找寻「生」的机会而加入星核猎手，找寻违抗命运的方式。 |
-| 定位 | 通过终结技进入状态获得技能强化的输出型角色 |
+| Character Name | Firefly |
+| Path | Destruction |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 星核猎手 |
+| Introduction | 星核猎手成员，身着机械装甲「萨姆」战斗。忠于任务，性格坚强。 作为战胜虫群的兵器而诞生，其生长速度异于常人，但生命非常短暂。 为了找寻「生」的机会而加入星核猎手，找寻违抗命运的方式。 |
+| Role | 通过终结技进入状态获得技能强化的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 楠木ともり&笠間淳 |
-| 英语 | Analesa Fisher & Adin Rudd |
-| 中文 | 宋媛媛&淦子齐 |
-| 韩语 | 유혜지&장서화 |
+| Japanese | 楠木ともり&笠間淳 |
+| English | Analesa Fisher & Adin Rudd |
+| Chinese | 宋媛媛&淦子齐 |
+| Korean | 유혜지&장서화 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 815 |
-| 基础攻击力 | 524 |
-| 基础防御力 | 776 |
-| 基础速度 | 104 |
-| 嘲讽 | 125 |
-| 能量上限 | 240 |
+| Base HP | 815 |
+| Base ATK | 524 |
+| Base DEF | 776 |
+| Base SPD | 104 |
+| Taunt | 125 |
+| Max Energy | 240 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/忿火之心\|忿火之心]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/忿火之心\|Raging Heart]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/步离犬牙\|步离犬牙]] | 12 |
-| [[zh_cn/items/Material/TracePath/狼毒锯牙\|狼毒锯牙]] | 53 |
-| [[zh_cn/items/Material/TracePath/月狂獠牙\|月狂獠牙]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/步离犬牙\|Borisin Teeth]] | 12 |
+| [[zh_cn/items/Material/TracePath/狼毒锯牙\|Lupitoxin Sawteeth]] | 53 |
+| [[zh_cn/items/Material/TracePath/月狂獠牙\|Moon Rage Fang]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 28 |
 
 ---
-## 战技
-### 普攻：Order: Flare Propulsion
+## Skills
+### Basic ATK：Order: Flare Propulsion
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of SAM's ATK to one designated enemy.
 
-### 战技：Order: Aerial Bombardment
+### Skill：Order: Aerial Bombardment
 - **类型**：Skill
 - **简述**：Consumes a portion of this unit's own HP to regenerate Energy. Deals Fire DMG to one enemy. Advances this unit's next Action.
 - **最大等级**：15
 - **效果模板**：Consumes HP equal to #2[i]% of this unit's Max HP and regenerates a fixed amount of Energy equal to #3[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by #4[i]%.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 40% | 50% | 25% |
   | Lv.2 | 110% | 40% | 51% | 25% |
@@ -130,7 +130,7 @@
 
 - **满级效果**：Consumes HP equal to 40% of this unit's Max HP and regenerates a fixed amount of Energy equal to 65% of this unit's Max Energy. Deals Fire DMG equal to 250% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by 25%.
 
-### 终结技：Fyrefly Type-IV: Complete Combustion
+### Ultimate：Fyrefly Type-IV: Complete Combustion
 - **类型**：Ultimate
 - **简述**：Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break Efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.
 - **最大等级**：15
@@ -141,7 +141,7 @@ SAM cannot use Ultimate while in Complete Combustion.
 「完全燃烧」状态下装甲「萨姆」无法施放终结技。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 10% | 50% | 30 | 70 |
   | Lv.2 | 11% | 50% | 33 | 70 |
@@ -171,7 +171,7 @@ SAM cannot use Ultimate while in Complete Combustion.
 行动序列上出现「完全燃烧」倒计时，倒计时回合开始时装甲「萨姆」解除「完全燃烧」状态，倒计时固定拥有70速度。
 「完全燃烧」状态下装甲「萨姆」无法施放终结技。
 
-### 天赋：Chrysalid Pyronexus
+### Talent：Chrysalid Pyronexus
 - **类型**：Talent
 - **简述**：The lower the HP, the less DMG received. During the Complete Combustion state, the DMG Reduction effect remains at its maximum extent and Effect RES is increased. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.
 - **最大等级**：15
@@ -180,7 +180,7 @@ If Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[
 战斗开始时若能量不足#2[i]%则使其恢复至#2[i]%。当能量恢复至上限时解除自身所有负面效果。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 20% | 50% | 20% | 10% |
   | Lv.2 | 22% | 50% | 20% | 12% |
@@ -208,14 +208,14 @@ If Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[
 If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.
 战斗开始时若能量不足50%则使其恢复至50%。当能量恢复至上限时解除自身所有负面效果。
 
-### 秘技：Δ Order: Meteoric Incineration
+### Technique：Δ Order: Meteoric Incineration
 - **类型**：Technique
 - **简述**：Leaps into the air and moves about freely. After a few seconds of movement, plunges and attacks all enemies within range. At the start of each wave, applies a Fire Weakness to all enemies and deals Fire DMG to them.
 - **最大等级**：1
 - **效果模板**：Leaps into the air and moves about freely for #1[i] seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for #3[i] turn(s). Then, deals Fire DMG equal to #2[i]% of SAM's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 5 | 200% | 2 |
 
@@ -226,27 +226,27 @@ If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. O
 
 - **满级效果**：Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | α模组-偏时迸发 | 晋阶2 | 「完全燃烧」状态下，攻击没有火属性弱点的敌人也能削减韧性，效果等同于原技能削韧值的#1[i]%。 | 「完全燃烧」状态下，攻击没有火属性弱点的敌人也能削减韧性，效果等同于原技能削韧值的55%。 | 信用点×5000、步离犬牙×3、同愿的遗音×1 |
 | 附加能力2 | β模组-自限装甲 | 晋阶4 | 「完全燃烧」状态下，当装甲「萨姆」的击破特攻大于等于#1[i]%/#2[i]%时，攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次#3[i]%/#4[i]%的超击破伤害。 | 「完全燃烧」状态下，当装甲「萨姆」的击破特攻大于等于200%/360%时，攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次35%/50%的超击破伤害。 | 信用点×20000、狼毒锯牙×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | γ模组-过载核心 | 晋阶6 | 若装甲「萨姆」的攻击力高于#1[i]点，每超过#2[i]点攻击力可使自身击破特攻提高#3[f1]%。 | 若装甲「萨姆」的攻击力高于1800点，每超过10点攻击力可使自身击破特攻提高#3[f1]%。 | 信用点×160000、月狂獠牙×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 击破特攻 | 37.3% |
 | 效果抵抗 | 18% |
-| 速度 | 5 |
+| SPD | 5 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | In Reddened Chrysalis, I Once Rest | When using the Enhanced Skill, ignores 15% of the target's DEF. The Enhanced Skill does not consume Skill Points. |
 | E2 | From Shattered Sky, I Free Fall | While in Complete Combustion, using the Enhanced Basic ATK or the Enhanced Skill to defeat an enemy target or to Break their Weakness allows SAM to immediately gain 1 extra turn. This effect can trigger again after 1 turn(s). |
@@ -257,77 +257,77 @@ If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. O
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 速度 / 攻击力 / 击破特攻
 
 **推荐副词条**：击破特攻 / 速度 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|盗匪荒漠的废土客]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
-| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|熔岩锻铸的火匠]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|Firesmith of Lava-Forging]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|劫火莲灯铸炼宫]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
+| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|Forge of the Kalpagni Lantern]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/梦应归于何处.md|梦应归于何处]]
+### [[zh_cn/lightcone/毁灭/梦应归于何处.md|Whereabouts Should Dreams Rest]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：蜕变
 - **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。当装备者对敌方目标造成击破伤害时，使敌方陷入【溃败】状态，持续2回合。【溃败】状态下目标受到装备者造成的击破伤害提高【24.0%/28.0%/32.0%/36.0%/40.0%】，速度降低20%，同类效果无法叠加。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/铭记于心的约定.md|铭记于心的约定]]
+### [[zh_cn/lightcone/毁灭/铭记于心的约定.md|Indelible Promise]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：传承
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。当装备者释放终结技时，暴击率提高【15%/18%/22%/26%/30%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/流萤_火_五星.md\|流萤]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
+| [[zh_cn/character/毁灭/流萤_火_五星.md\|Firefly]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |  |  |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 星核猎手成员，身着机械装甲「萨姆」战斗。忠于任务，性格坚强。
 作为战胜虫群的兵器而诞生，其生长速度异于常人，但生命非常短暂。
 为了找寻「生」的机会而加入星核猎手，找寻违抗命运的方式。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 透明的培养仓中，她浸没在冰冷的人工羊水里，包覆于洁白的卵中。
 容器摇晃，她漂浮着，凭借本能摸索到冰冷柔软的边缘。她紧紧贴着仓壁，蜷缩在角落，仿佛那样能使身体感受到更多温暖。
@@ -357,7 +357,7 @@ If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. O
 「尽情燃烧吧，为了格拉默的未来……」 
 「为了，女皇陛下……」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 不知不觉，她已习惯了战场。
 她看着同胞们在眼前倒下，自己仍毅然向前。她知道终有一天她也会倒在那里，而后来者将前仆后继地跨过自己的身躯。
@@ -397,7 +397,7 @@ If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. O
 黑暗吞没了她。
 虫群的残肢和破损的战甲化为尘埃，落在群星之上，纷纷扬扬如同宇宙下了一场无声的雪。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 从昏迷中醒来后，她已置身于一片陌生的星系。
 
@@ -419,7 +419,7 @@ If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. O
 面前的女人微笑着，仿佛她们是久别重逢的故人。
 「你相信命运么？同向而行的人终会在某个地方相聚，现在…我们见面了。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 又一个寂静的夜晚。她如往常那样静静地坐在高处，看着灯火点亮又熄灭，一艘艘航船进出空港，直到黎明来临。
 

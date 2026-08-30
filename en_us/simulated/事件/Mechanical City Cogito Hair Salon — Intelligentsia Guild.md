@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mechanical City "Cogito Hair Salon" — Intelligentsia Guild |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_8.png` |
+| Name | Mechanical City "Cogito Hair Salon" — Intelligentsia Guild |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_8.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 调整「自我认知」&nbsp;-&nbsp;我选择『善』。 | 自我认知提升20。 |
 | 调整「自我认知」&nbsp;-&nbsp;我选择『恶』。 | 自我认知降低20。 |
@@ -51,7 +51,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 320201 |  |
 | 420201 |  |

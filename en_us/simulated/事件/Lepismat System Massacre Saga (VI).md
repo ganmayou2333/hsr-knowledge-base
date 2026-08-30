@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lepismat System: Massacre Saga (VI) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Lepismat System: Massacre Saga (VI) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·余烬宇宙：在酒杯中波纹的引领下，你乘坐的贡多拉终于来到了伊莱狄希纳。此地已被虫潮反噬，寸草不生。你只在荒芜的铁皮与赤褐色的焦土上遇见独身留守的「自灭者」——他的目光突然凶狠起来，你顺着他的视线望去，发现贡多拉前挂着一枚「忆泡」。他吞了吞口水，伸出了手！
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 快快把它击毙！ | 你可不想被它吃掉！ |
 | 那是个怎样的「虚无之影」？ | 你看不明白。 |
@@ -45,6 +45,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116001 |  |

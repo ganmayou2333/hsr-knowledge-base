@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Periodic Demon Lord |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 遭遇 |
-| 图片 | `image/simulated_event/PicRogueEvent_Battle.png` |
+| Name | Periodic Demon Lord |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 遭遇 |
+| Image | `image/simulated_event/PicRogueEvent_Battle.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 抓紧时间，删除周期性魔王的生命方程。 | 加入挑战，胜利后获得2个1-3星祝福；在4个轮内取得战斗胜利，额外获得1个1-3星祝福。 |
 | 过载周期性魔王的生命方程，争取活下去！ | 加入挑战，胜利后获得2个1-2星祝福；坚持4轮没有角色陷入无法战斗状态，额外获得1个奇物。 |
@@ -31,7 +31,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 13701 |  |
 | 13702 |  |

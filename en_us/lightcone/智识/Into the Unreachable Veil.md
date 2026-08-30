@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Into the Unreachable Veil |
-| 命途 | Erudition |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Into the Unreachable Veil |
+| Path | Erudition |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "The Intelligentsia Guild's letters have been handled."
 "The Simulated Universe is functioning normally..."
@@ -29,18 +29,18 @@ Time passes. Countless people drift through the canvas of time like meteors stre
 She stretches, lifting her head from the calculations, and another thought surfaces in her mind...
 "Nothing is irrefutable. I will chase these questions to the end!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 635 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Mind Game
 
 Increases the wearer's CRIT Rate by 12%. When the wearer uses their Ultimate, increases the wearer's Skill DMG and Ultimate DMG dealt by 60%, lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Clue: Dimension-Phasing Flame |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Clue: Dimension-Phasing Flame |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 据丹恒推测，阿弗利特的火焰或许具备燃烧之外的能力。而恰好有一种不断在相位中穿梭「燃烧诸界，留下众多火焰后裔」的火焰具备类似的性质。
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【庸人自扰】

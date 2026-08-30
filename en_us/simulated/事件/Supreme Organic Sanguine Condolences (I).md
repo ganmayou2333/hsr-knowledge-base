@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Supreme Organic: Sanguine Condolences (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_12.png` |
+| Name | Supreme Organic: Sanguine Condolences (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_12.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你听到一声枪响！在银河图书馆「伊斯梅尔」，来自「赛普鲁戈星球」的枪手击中了第一位有机生命——顷刻间，人群骚动。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 翻阅「血色图书」。\|选项2=搜寻人群中的「谋犯者」。}} | — |
 | 搜寻人群中的「谋犯者」。}} | — |
@@ -42,6 +42,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 142 |  |

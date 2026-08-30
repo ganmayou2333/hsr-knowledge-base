@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sand Retrograder |
-| 类型 | 祝福 |
-| 命途 | 毁灭&巡猎 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Sand Retrograder |
+| Type | Blessing |
+| Path | 毁灭&巡猎 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色弱点击破效率提高20%，击破敌方目标弱点后，速度提高25%，持续3回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

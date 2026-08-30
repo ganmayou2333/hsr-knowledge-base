@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Old Tin Box |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Old Tin Box |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 看上去有些文艺质感的铁盒，静静的就像是一本书。
 
-## 获得途径
+## Acquisition
 
 - 在获得脏兮兮的零件后，在仙舟「罗浮」-星槎海中枢-赎珠坊附近与愁眉紧锁的年轻人对话并交付道具获取

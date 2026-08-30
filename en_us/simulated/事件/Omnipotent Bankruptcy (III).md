@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Omnipotent Bankruptcy (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Omnipotent Bankruptcy (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：莫利特学士的目光扫向死寂的同步指数，内心绝望如一只闯入星舰的猿猴。
 模拟宇宙：数十台被集中至同一片星域的「权杖」，冰冷的电子管线将它们的演算系统连接。但机械巨构回应的，唯有沉默。
 模拟宇宙：他本想实现相乘的演算效果，组建一套完整的神经系统。可帝皇制造的无机细胞超越人智，学士们无从激活。已死的天才，在静默里讥讽无能的庸人。
 模拟宇宙：不过这和你没有关系，你只是个刚刚失业的科研助理。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我爱这里的工作。 | — |
 | 我想念帕提维娅。 | — |
@@ -56,6 +56,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 207 |  |

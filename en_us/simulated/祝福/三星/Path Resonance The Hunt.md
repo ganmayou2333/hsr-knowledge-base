@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Path Resonance: The Hunt |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 命途回响 |
+| Name | Path Resonance: The Hunt |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 3★ |
+| Special Type | 命途回响 |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「巡猎」发生回响共鸣，基于我方当前攻击力最高的角色的当前攻击力，对敌方全体造成风属性伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

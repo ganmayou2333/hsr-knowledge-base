@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Broadened Cognition: Mental Spices (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_08.png` |
+| Name | Broadened Cognition: Mental Spices (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_08.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：法恩莎手下的「护卫队」将惑神星的「精神调控」运用到极致，通过曼妙浪漫，如香料般的语调，将古老『政宣部』反抗无机生命的行为进行层层包装。
 模拟宇宙：与此同时，德•维恩因不知名原因陷入疯狂；而柯拉帕乌在众叛亲离下自缢而亡；据传法恩莎曾亲自在他墓前插上一支白花。
@@ -29,6 +29,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 151 |  |

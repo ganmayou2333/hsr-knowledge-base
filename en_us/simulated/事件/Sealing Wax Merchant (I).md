@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sealing Wax Merchant (I) |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_37.png` |
+| Name | Sealing Wax Merchant (I) |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_37.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 欣然收下。 | 立刻获得5-7个随机火漆奇物。 |
 | 讨要盘缠，再到外面闯一闯。 | 立刻获得3-4个随机火漆奇物，和2个方程所需祝福。 |
@@ -29,6 +29,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 627101 |  |

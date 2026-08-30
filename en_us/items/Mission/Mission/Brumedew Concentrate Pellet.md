@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Brumedew Concentrate Pellet |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Brumedew Concentrate Pellet |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 据丹枢所说，此药能使人身轻体捷，延寿养生。她是丹鼎司的丹士长，又和你关系匪浅——照理说，这药应该是可以放心吞下的。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【以盲为明，天之僇民】

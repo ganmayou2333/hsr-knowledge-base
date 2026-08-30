@@ -4,20 +4,20 @@
 > 实体ID：312
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/1970/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Penacony, Land of the Dreams |
-| 类型 | 位面饰品 |
-| 实体ID | 312 |
-## 获取途径
+| Name | Penacony, Land of the Dreams |
+| Type | 位面饰品 |
+| Entity ID | 312 |
+## Acquisition
 第八世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：匹诺康尼的堂皇酒店
 **描述**：位面封装的是匹诺康尼的主体——「白日梦」酒店。在此下榻的宾客将去往美梦的世界，在无所不可的大都会中，享受纸醉金迷的盛宴。
 **来历**：

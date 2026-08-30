@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Unsolvable Cube |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Unsolvable Cube |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中，首次施放攻击后，受到攻击的敌方目标会回复本次攻击内损失的生命值，敌方目标通过该方式每回复1%生命值，角色获得能够抵消等同于生命上限1%伤害的护盾，最多不超过角色生命上限的100%，持续2回合。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 基尔克

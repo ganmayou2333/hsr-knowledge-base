@@ -4,20 +4,20 @@
 > 实体ID：310
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/1231/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Broken Keel |
-| 类型 | 位面饰品 |
-| 实体ID | 310 |
-## 获取途径
+| Name | Broken Keel |
+| Type | 位面饰品 |
+| Entity ID | 310 |
+## Acquisition
 第七世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：伊须磨洲的坼裂缆索
 **描述**：坠落的仙舟「岱舆」断舰永远地碇泊在异乡，也许是时候解开缆索，让它返航了。
 **来历**：

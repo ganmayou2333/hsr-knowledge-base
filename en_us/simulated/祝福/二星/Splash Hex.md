@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Splash Hex |
-| 类型 | 祝福（同名合并） |
-| 命途 | 繁育 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Splash Hex |
+| Type | Blessing (merged) |
+| Path | 繁育 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616746 | Basic ATK DMG/Skill DMG dealt by ally targets will deal DMG equal to 10% of the original DMG to adjacent targets. |
 | 617746 | Basic ATK DMG/Skill DMG dealt by ally targets will deal DMG equal to 10% of the original DMG to adjacent targets. |

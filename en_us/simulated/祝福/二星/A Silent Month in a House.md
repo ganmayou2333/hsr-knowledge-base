@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | A Silent Month in a House |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | A Silent Month in a House |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616640 | After an ally target attacks a Weakness Broken enemy target, deals 1 instance(s) of "Aftertaste" DMG equal to 100% of the ally target's ATK to the attacked enemy target. |
 | 617640 | Increases "Dealer's" CRIT Rate by 20% and CRIT DMG by 50%. |

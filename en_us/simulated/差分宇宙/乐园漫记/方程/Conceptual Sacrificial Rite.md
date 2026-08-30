@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Conceptual Sacrificial Rite |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 6虚无+4毁灭 |
+| Name | Conceptual Sacrificial Rite |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 6虚无+4毁灭 |
 
 
-## 效果
+## Effect
 
 敌方目标攻击我方目标后，【呢喃】充能清除阈值的10%，【呢喃】每充能清除阈值的5%，敌方目标立即受到1次等同于【呢喃】清除阈值120%的雷属性持续伤害，每名敌方目标最多触发2次，任意单位行动后重置触发次数上限，该伤害为【呢喃】伤害，且无法消灭敌方目标。
 
-## 强化效果
+## Enhanced Effect
 
 -

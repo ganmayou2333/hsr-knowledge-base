@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Golden Blessing |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Golden Blessing |
+| Use | 贵重物品 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 献予逐火之人的祝福
 
 
-## 获得途径
+## Acquisition
 
 - 开拓者生日邮件赠送

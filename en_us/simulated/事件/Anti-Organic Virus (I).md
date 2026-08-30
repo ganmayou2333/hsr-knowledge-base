@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Anti-Organic Virus (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Anti-Organic Virus (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：有机体在帝皇战争中展现的颓势，印证了智械在竞争智慧上的优越性。两次战争中有机体的胜利，则展现出有机体在生存智慧上的先进性。
 模拟宇宙：你躺在培养舱里，心脏忽地一阵搐动，实验的排异反应正在逐渐加剧。即使在克劳奇学士的实验品中，你的改造程度也是最高的那批。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 注射调和剂。 | — |
 
@@ -51,6 +51,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 208 |  |

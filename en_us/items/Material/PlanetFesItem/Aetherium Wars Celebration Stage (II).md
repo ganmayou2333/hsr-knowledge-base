@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Aetherium Wars Celebration Stage (II) |
-| 用途 | 星球节庆物品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 星球节庆物品 |
+| Item Name | Aetherium Wars Celebration Stage (II) |
+| Use | 星球节庆物品 |
+| Rarity | ★★★★★ |
+| Type | Material / 星球节庆物品 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 星球节庆活动获得

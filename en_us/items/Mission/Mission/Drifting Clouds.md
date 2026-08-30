@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Drifting Clouds |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Drifting Clouds |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 罗浮仙舟的一位持明族诗人留下的诗集，其中包含523首无题诗，题材也几乎是极其常见的事物。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【诗仙机器人】

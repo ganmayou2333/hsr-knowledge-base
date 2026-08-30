@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Gloaming Grand Theater |
-| 类型 | 祝福 |
-| 命途 | 欢愉&繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Gloaming Grand Theater |
+| Type | Blessing |
+| Path | 欢愉&繁育 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【发牌员】每点充能使我方目标暴击伤害提高10%。进入和退出【蝶魄】时，立刻触发1次【发牌员】并额外获得2点充能，此次伤害能受到【蝶魄】的真实伤害加成。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | A Taste of Happiness |
-| 用途 | 手机主题 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 手机主题 |
+| Item Name | A Taste of Happiness |
+| Use | 手机主题 |
+| Rarity | ★★★★ |
+| Type | Usable / 手机主题 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「黄金迷境大饭店」活动后获得的手机壁纸']

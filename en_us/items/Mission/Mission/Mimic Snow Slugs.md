@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Mimic Snow Slugs |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Mimic Snow Slugs |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一只拟态雪蛞蝓，贝洛伯格雪原生态系统的成员之一。
 
 
-## 获得途径
+## Acquisition
 
 - 玲可同行任务【比雪原更遥远】

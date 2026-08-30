@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Flame-Chase Envoy |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 同谐*2巡猎*2 |
+| Name | Flame-Chase Envoy |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 同谐*2巡猎*2 |
 
 
-## 效果
+## Effect
 
 我方目标弱点击破效率提高20%，击破敌方目标弱点后，速度提高10%，攻击力提高30%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

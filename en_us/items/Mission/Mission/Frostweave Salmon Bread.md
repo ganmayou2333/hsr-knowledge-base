@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Frostweave Salmon Bread |
-| 用途 | 任务道具 / 消耗品 |
-| 评级 | ★★★ / ★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Frostweave Salmon Bread |
+| Use | 任务道具 / 消耗品 |
+| Rarity | ★★★ / ★★ |
+| Type | Mission / 任务道具 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-Ⅵ-城郊雪原-极地探险家·玲可

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Star Rail Pass |
-| 用途 | 跃迁道具 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Star Rail Pass |
+| Use | 跃迁道具 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 星穹列车通用车票，可沿星轨抵达远方。用于常驻跃迁「星轨通票」。
 
 
-## 获得途径
+## Acquisition
 
 - （暂未收录）

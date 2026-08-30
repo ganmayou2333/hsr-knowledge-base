@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Architects: Annals of Fortification (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_06.png` |
+| Name | The Architects: Annals of Fortification (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_06.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·余烬宇宙：你路过「筑城者」的城墙脚下，这里有一尊厚重的城前雕塑：但是他会呼吸。他的身躯苍老、庞大无比，他像一堵墙，胡须随时空的流逝变得很长。一些路过城墙脚下的旅行者，曾想点燃火焰给他清理胡须，但都被他拒绝。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我可以试试。 | 你总擅长许下自己也不知是否能履行的诺言。 |
 | 我不认为这样有效… | 贫穷无法使人们分开；不同的理想却会。 |
@@ -40,6 +40,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 118701 |  |

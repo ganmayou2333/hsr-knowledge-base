@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Notice: Additional Barricades on the Main Road of the Plaza |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Notice: Additional Barricades on the Main Road of the Plaza |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 在广场干道增设路障的通知
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-铆钉镇地图中拾取

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Home-Use Object Finder" After-Sales Feedback Form |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | "Home-Use Object Finder" After-Sales Feedback Form |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 「家用寻物仪」售后回复函
 
-## 获得途径
+## Acquisition
 
 - 完成同行任务：【知名不具】过程中获取

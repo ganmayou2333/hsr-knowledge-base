@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Arma Sanctus Medicus Tonic |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Arma Sanctus Medicus Tonic |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中攻击力提高45%，防御力降低12%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 阿合马铁窗集团日化研究所

@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Past Self in Mirror |
-| 命途 | Harmony |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Past Self in Mirror |
+| Path | Harmony |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 She once loved to seal the moment when plum blossoms were on the verge of wilting and keep them close to her.
 It has been many years since then. Many lifeforms — rambunctious, sweet, and everything in between — have bloomed from her hands, but the plum blossoms still wilt at their preordained times.
@@ -25,13 +25,13 @@ After a silence that seems to stretch to eternity, the winds blow, the petals fa
 "For the day when plum blossoms are no longer kept."
 She deftly caresses the icy surface of the mirror. Such soliloquies have happened too many times for her to count.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 529 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### The Plum Fragrance In My Bones
 
@@ -39,6 +39,6 @@ Increases the wearer's Break Effect by 60%. When the wearer uses their Ultimate,
 At the start of each wave, all allies regenerate #5[f1] Energy immediately. Abilities of the same type cannot stack.
 每个波次开始时，我方全体立即恢复10点能量，同类技能无法重复生效。
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

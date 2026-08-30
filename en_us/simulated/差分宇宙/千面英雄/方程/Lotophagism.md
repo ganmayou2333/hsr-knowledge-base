@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lotophagism |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*2欢愉*2 |
+| Name | Lotophagism |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*2欢愉*2 |
 
 
-## 效果
+## Effect
 
 我方目标施放终结技时，每消耗50点能量，使攻击力提高5%，并使造成的【回味】伤害倍率提高原倍率的2%，最多叠加20层，持续3回合，每次施放终结技时至少视为消耗了80点能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

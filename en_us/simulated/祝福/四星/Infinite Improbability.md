@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Infinite Improbability |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Infinite Improbability |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「欢愉」产生临界回响，对敌方全体目标造成5~10次随机属性的欢愉伤害，并使阿哈立即获得1个固定计入200笑点的额外回合，该回合不消耗笑点。
 
-## 强化效果
+## Enhanced Effect
 
 -

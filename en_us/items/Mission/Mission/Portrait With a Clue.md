@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Portrait With a Clue |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Portrait With a Clue |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一枚小巧的卵形相框，内有肖像。画面上身着旧制军服的男人的表情很是…微妙。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【旧城拾遗】

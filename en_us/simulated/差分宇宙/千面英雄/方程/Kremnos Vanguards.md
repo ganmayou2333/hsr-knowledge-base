@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Kremnos Vanguards |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*4同谐*2 |
+| Name | Kremnos Vanguards |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*4同谐*2 |
 
 
-## 效果
+## Effect
 
 我方目标击破敌方目标弱点时，充能等同于生命上限25%的【耀变】，若所有敌方目标都处于弱点击破状态，我方目标回合开始时不清除【耀变】。
 
-## 强化效果
+## Enhanced Effect
 
 -

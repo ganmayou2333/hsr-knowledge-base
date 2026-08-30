@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Clara Protection Society Is Seeking New Members! |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Clara Protection Society Is Seeking New Members! |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 《「克拉拉保护协会」成员火热募集中》
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-机械聚落地图中拾取

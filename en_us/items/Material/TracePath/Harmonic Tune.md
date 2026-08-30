@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Harmonic Tune |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / TracePath |
+| Item Name | Harmonic Tune |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 2★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 不知由谁制作的小巧音乐盒。可小幅提升同谐角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【机械聚落】
 - 余烬兑换

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Feedback Form for the Space Station Staff Cafeteria |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Feedback Form for the Space Station Staff Cafeteria |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 空间站员工餐厅反馈记录表
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-主控舱段地图中拾取

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Dance of Growth |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Dance of Growth |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 命途回响的能量上限由100点提高至200点。施放技能与命途发生回响时，会消耗当前全部的能量值；每额外消耗原能量上限20%的能量，攻击时额外造成1次伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

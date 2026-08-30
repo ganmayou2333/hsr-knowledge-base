@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Voice of the Sea |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_33.png` |
+| Name | Voice of the Sea |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_33.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 向大海献祭蜜酿。 | 消耗100宇宙碎片。提升40%成功率 |
 | 与眷属们对唱。 | 提升40%成功率，但有小概率惊扰眷属/进入战斗胜利后获得3个2-3星祝福和1个1-3星奇物 |
@@ -30,6 +30,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 625701 |  |

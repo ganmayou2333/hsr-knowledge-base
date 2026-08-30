@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Cognition Chasm: The Xianzhou Alliance |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Cognition Chasm: The Xianzhou Alliance |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 “无实体但有生命的奇物…我倒是听说过类似的东西。”
 
-## 获得途径
+## Acquisition
 
 - 开拓续闻【庸人自扰】

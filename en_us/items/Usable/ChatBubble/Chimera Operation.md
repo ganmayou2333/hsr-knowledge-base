@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Chimera Operation |
-| 用途 | 聊天气泡 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 聊天气泡 |
+| Item Name | Chimera Operation |
+| Use | 聊天气泡 |
+| Rarity | ★★★★ |
+| Type | Usable / 聊天气泡 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「嗷呜嗷呜事务所」活动获得的聊天气泡']

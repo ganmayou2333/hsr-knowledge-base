@@ -4,20 +4,20 @@
 > 实体ID：315
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/3167/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Duran, Dynasty of Running Wolves |
-| 类型 | 位面饰品 |
-| 实体ID | 315 |
-## 获取途径
+| Name | Duran, Dynasty of Running Wolves |
+| Type | 位面饰品 |
+| Entity ID | 315 |
+## Acquisition
 永恒笑剧·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 When an ally character uses a Follow-Up ATK, the wearer gains 1 stack of "Merit," stacking up to 5 time(s). Each stack of "Merit" increases the DMG dealt by the wearer's Follow-Up ATKs by 5%. When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：都蓝的穹窿金帐
 **描述**：位面封装的是青丘步离的穹窿金帐。与步离人留在银河中的蛮野名声不同，他们拥有非凡的生物技术。狼子们汇聚在伟大的巢父都蓝之侧，将天上众星视为牧畜，逐驰其间。
 **来历**：

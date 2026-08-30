@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Beast Horde: Voracious Catastrophe |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_3.png` |
+| Name | Beast Horde: Voracious Catastrophe |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_3.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 帮助幼兽「解脱」。 | 进入战斗，胜利后获得2个1-2星祝福和1个奇物。 |
 | 解决成年巨兽的「痛苦」。 | 进入战斗，胜利后获得1个3星祝福和3个奇物。 |
@@ -31,7 +31,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 112501 |  |
 | 412501 |  |

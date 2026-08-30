@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Subscribe for More! |
-| 命途 | The Hunt |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Subscribe for More! |
+| Path | The Hunt |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Yo, yo. What is up! Is everything coming through?"
 The orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.
@@ -24,18 +24,18 @@ The orange-haired girl slowly lifts a sledgehammer while shouting enthusiastical
 The brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.
 "Please. Just let me do this. This is what people would've wanted."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Like Before You Leave!
 
 The wearer's Basic ATK and Skill deals 24% more DMG. This effect increases by an extra 24% when the wearer's current Energy reaches its max level.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Angler Mystery: Stricken with Mara (Case 1) |
-| 用途 | 第一案•令堕魔阴 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | The Angler Mystery: Stricken with Mara (Case 1) |
+| Use | 第一案•令堕魔阴 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 …
 
-## 获得途径
+## Acquisition
 
 - 完成同行任务-【易邦骑士】后自动获取

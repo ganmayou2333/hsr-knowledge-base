@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | A songlotus cake bought for Bailu |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | A songlotus cake bought for Bailu |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 罗浮经典小吃，由鸣藕制成的糕点。
 
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧•其一】

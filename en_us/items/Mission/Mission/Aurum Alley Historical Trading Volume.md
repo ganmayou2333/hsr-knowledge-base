@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Aurum Alley Historical Trading Volume |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Aurum Alley Historical Trading Volume |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 资料上不难看出，即便是最辉煌时期，金人巷的交易量几乎是与现在持平。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧·其三】

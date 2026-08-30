@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Basic Ingredients |
-| 用途 | 合成素材 |
-| 评级 | ★ |
-| 类型 | Material / 合成素材 |
+| Item Name | Basic Ingredients |
+| Use | Synthesis Material |
+| Rarity | ★ |
+| Type | Material / 合成素材 |
 
 
-## 说明
+## Description
 
 1级合成材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「空间站『黑塔』」可破坏物掉落
 - 行政区商店

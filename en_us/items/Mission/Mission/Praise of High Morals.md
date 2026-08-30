@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Praise of High Morals |
-| 用途 | 贵重物品 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Praise of High Morals |
+| Use | 贵重物品 |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在这丰富多彩包罗万象的宇宙之中，道德化作实体，向你竖起大拇指也不是什么稀罕的事情。
 
-## 获得途径
+## Acquisition
 
 - 地图探索获得

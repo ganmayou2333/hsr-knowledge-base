@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | An Incomplete Automatic Transcript |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | An Incomplete Automatic Transcript |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 不完整的录音自动转译文档
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-收容舱段地图中拾取

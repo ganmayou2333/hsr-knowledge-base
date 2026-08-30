@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Seele |
-| 类型 | 祝福 |
-| 命途 | 无（按角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 角色专属|
+| Name | Seele |
+| Type | Blessing |
+| Path | 无（按角色） |
+| Rarity | TBD |
+| Special Type | 角色专属 |
 
 
-## 效果
+## Effect
 
 希儿在差分宇宙中的伤害获得增幅。
 施放攻击后，若攻击目标生命值百分比小于等于15%，对其造成等同于当前生命值的真实伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

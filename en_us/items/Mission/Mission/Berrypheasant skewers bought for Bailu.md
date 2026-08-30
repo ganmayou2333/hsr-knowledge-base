@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Berrypheasant skewers bought for Bailu |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Berrypheasant skewers bought for Bailu |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 琼实鸟与植物共生，尾部挂着累累硕果。
 
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧•其一】

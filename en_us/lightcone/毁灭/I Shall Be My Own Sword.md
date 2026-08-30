@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | I Shall Be My Own Sword |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | I Shall Be My Own Sword |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The blade shattered, plunging into the bone-chilling cold.
 All earthly instruments are mere futilities, their worth discernible with a single glance.
@@ -25,18 +25,18 @@ She holds no attachment, nor does her gaze accommodate anything within.
 To transcend perceived precipices and achieve unprecedented breakthroughs,
 one must regard themselves as "kindling" to fuel their own fire.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 582 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### With This Evening Jade
 
 Increases the wearer's CRIT DMG by 20%. When a teammate gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by #3[f1]%. When 3 stack(s) are reached, additionally enables that attack to ignore 12% of the enemy's DEF. This effect will be removed after the wearer uses an attack.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

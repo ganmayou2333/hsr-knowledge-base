@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Golden Honeycake |
-| 用途 | 消耗品 |
-| 评级 | ★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Golden Honeycake |
+| Use | Consumable |
+| Rarity | ★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后在下次战斗中，进入战斗时立即为我方全体回复等同于各自生命上限24%的生命值。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」
 - 云石餐厅

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Path Resonance: "Erudition" |
-| 类型 | 祝福 |
-| 命途 | 智识 |
-| 星级 | 三星 |
-| 特殊类型 | 命途回响 |
+| Name | Path Resonance: "Erudition" |
+| Type | Blessing |
+| Path | 智识 |
+| Rarity | 3★ |
+| Special Type | 命途回响 |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「智识」发生回响共鸣，将生命上限最高的敌方目标与其他敌方目标连接，使敌方全体陷入【突触共鸣】状态，并对敌方全体造成虚数属性伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Orphan Carehouse |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 繁育4同谐*2 |
+| Name | Orphan Carehouse |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 繁育4同谐*2 |
 
 
-## 效果
+## Effect
 
 我方目标击破敌方目标弱点时，回复1点战技点。使用普攻和战技施放攻击后，造成5点额外削韧值，并附加2层【和音】。
 
-## 强化效果
+## Enhanced Effect
 
 -

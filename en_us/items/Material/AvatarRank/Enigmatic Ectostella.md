@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Enigmatic Ectostella |
-| 用途 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / AvatarRank |
+| Item Name | Enigmatic Ectostella |
+| Use | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / AvatarRank |
 
-## 说明
+## Description
 
 深邃的棱晶，开拓者的晋升素材。
 
-## 获得途径
+## Acquisition
 
 - 任务奖励
 - 等级奖励

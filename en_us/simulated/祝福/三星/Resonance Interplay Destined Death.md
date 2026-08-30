@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Destined Death |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Destined Death |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响溢出的治疗量会被存储，在角色当前生命值降低至小于生命上限35%时自动回复，最多存储等同于施放命途回响时角色50%生命上限的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Chengjie's Paper Boat |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Chengjie's Paper Boat |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 铖杰用信纸折出的纸船，就像一艘小小的星槎，精致又可爱。
 
 
-## 获得途径
+## Acquisition
 
 - 完成冒险任务【亦师亦友•续】后，调查仙舟「罗浮」-星槎海中枢-赎珠阁附近桥上扶手上的发光点获得

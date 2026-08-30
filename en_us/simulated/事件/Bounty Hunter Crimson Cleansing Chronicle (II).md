@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter: Crimson Cleansing Chronicle (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Bounty Hunter: Crimson Cleansing Chronicle (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：「沙王」及其后代猛烈孳生，繁殖不休，净空行经之路上的一切星球。大地、海洋、生灵…「沙王」净空行经之路上席卷了寰宇三分之二的有生区域，令「赏金猎人」这一名词险些成为历史。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 尝试拨打星际联络电话。 | 已经年代久远。 |
 
@@ -39,6 +39,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116201 |  |

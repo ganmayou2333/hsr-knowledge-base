@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Terminal Nirvana |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Terminal Nirvana |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 当任意我方角色受到致命伤害时，命途「丰饶」的回响使其不会陷入无法战斗状态，并消耗所有能量自动施放命途回响。该效果每场战斗最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 -

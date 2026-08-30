@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Herta Collection Room Code of Conduct |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Herta Collection Room Code of Conduct |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 黑塔藏品间使用守则
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-收容舱段地图中拾取

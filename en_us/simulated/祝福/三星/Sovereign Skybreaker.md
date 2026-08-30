@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sovereign Skybreaker |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Sovereign Skybreaker |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612432 | After a character inflicts Weakness Break on an enemy, their action Advances Forward by 100% and increases the DMG dealt by their next attack by 50%. |
 | 615432 | After a character inflicts Weakness Break on an enemy, their action Advances Forward by 100% and increases the DMG dealt by their next attack by 50%. |

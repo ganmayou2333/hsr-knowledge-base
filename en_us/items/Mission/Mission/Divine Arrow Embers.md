@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Divine Arrow Embers |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Divine Arrow Embers |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 第三次丰饶民战争之末，帝弓司命的倾天光矢将沿途的万物一扫而空。仙舟人用神矢燃烧的余烬打造了诸多圣物，这便是其中之一。驭空随身携带它，为了让自己不忘记那不该忘记的。
 
 
-## 获得途径
+## Acquisition
 
 - 同行任务【因为我已触碰过天空】

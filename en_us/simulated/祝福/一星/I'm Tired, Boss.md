@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | I'm Tired, Boss |
-| 类型 | 祝福 |
-| 命途 | 虚无&毁灭 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | I'm Tired, Boss |
+| Type | Blessing |
+| Path | 虚无&毁灭 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标每陷入1个负面状态，造成的伤害降低1%，受到的伤害提高2%，最多叠加15层。
 
-## 强化效果
+## Enhanced Effect
 
 -

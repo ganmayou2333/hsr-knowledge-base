@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Anti-Organic Virus (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Anti-Organic Virus (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：「它不会改变种族，但会改变思想。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 判定「自我认知」 - 我是无机体。 | — |
 | 判定「自我认知」 - 我是无机体。 | — |
@@ -63,6 +63,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 209 |  |

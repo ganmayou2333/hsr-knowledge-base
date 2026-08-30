@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Luka |
-| 命途 | Nihility |
-| 属性 | Physical |
-| 稀有度 | ★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 贝洛伯格下层区的冠军拳手，「地火」的得力干将之一。搏击俱乐部的蝉联冠军，以自身的热情激励着下层区有梦想的孩子们。 |
-| 定位 | 通过持续伤害、引爆裂伤为辅助机制的副C角色 |
+| Character Name | Luka |
+| Path | Nihility |
+| Attribute | Physical |
+| Rarity | ★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 贝洛伯格下层区的冠军拳手，「地火」的得力干将之一。搏击俱乐部的蝉联冠军，以自身的热情激励着下层区有梦想的孩子们。 |
+| Role | 通过持续伤害、引爆裂伤为辅助机制的副C角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 梶原岳人 |
-| 英语 | Howard Wang |
-| 中文 | 萧翟 |
-| 韩语 | 이주승 |
+| Japanese | 梶原岳人 |
+| English | Howard Wang |
+| Chinese | 萧翟 |
+| Korean | 이주승 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 917 |
-| 基础攻击力 | 582 |
-| 基础防御力 | 485 |
-| 基础速度 | 103 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 917 |
+| Base ATK | 582 |
+| Base DEF | 485 |
+| Base SPD | 103 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/铁狼碎齿\|铁狼碎齿]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/铁狼碎齿\|Broken Teeth of Iron Wolf]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 8 |
-| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 42 |
-| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|Obsidian of Dread]] | 8 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|Obsidian of Desolation]] | 42 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|Obsidian of Obsession]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 20 |
 
 ---
-## 战技
-### 普攻：Direct Punch
+## Skills
+### Basic ATK：Direct Punch
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Luka's ATK to one designated enemy.
 
-### 战技：Lacerating Fist
+### Skill：Lacerating Fist
 - **类型**：Skill
 - **简述**：Deals Physical DMG to one enemy, with a high chance of causing Bleed.
 - **最大等级**：15
@@ -106,7 +106,7 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的#4[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 100% | 24% | 130% | 3 |
   | Lv.2 | 66% | 100% | 24% | 143% | 3 |
@@ -135,14 +135,14 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
 While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 422.5% of Luka's ATK.
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的422.5%。
 
-### 终结技：Coup de Grâce
+### Ultimate：Coup de Grâce
 - **类型**：Ultimate
 - **简述**：Receives 2 stack(s) of "Fighting Will," with a high chance of increasing the one enemy's DMG received, and deals massive Physical DMG to the target.
 - **最大等级**：15
 - **效果模板**：Receives #5[i] stack(s) of "Fighting Will," with a #2[i]% base chance to increase one designated enemy target's DMG received by #3[f1]% for #4[i] turn(s). Then, deals Physical DMG equal to #1[i]% of Luka's ATK to the target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 198% | 100% | 12% | 3 | 2 |
   | Lv.2 | 211.2% | 100% | 12.8% | 3 | 2 |
@@ -169,7 +169,7 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
 
 - **满级效果**：Receives 2 stack(s) of "Fighting Will," with a 100% base chance to increase one designated enemy target's DMG received by #3[f1]% for 3 turn(s). Then, deals Physical DMG equal to 396% of Luka's ATK to the target.
 
-### 天赋：Flying Sparks
+### Talent：Flying Sparks
 - **类型**：Talent
 - **简述**：After using the Basic ATK "Direct Punch" or the Skill "Lacerating Fist," receives 1 stack of Fighting Will. When 2 or more stacks of Fighting Will are present, Basic ATK becomes Enhanced.
 If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra DMG for 1 time.
@@ -178,7 +178,7 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 - **效果模板**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives #1[i] stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to #2[i]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) |
+| Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 1 | 68% |
   | Lv.2 | 1 | 69.7% |
@@ -202,14 +202,14 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 
 - **满级效果**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives 1 stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 93.5% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
 
-### 秘技：Anticipator
+### Technique：Anticipator
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Bleed to the target. Then, gains 1 stack of Fighting Will.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to #1[i]% of his ATK to a random single enemy with a #2[i]% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 50% | 100% |
 
@@ -219,27 +219,27 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 
 - **满级效果**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 动能过载 | 晋阶2 | 施放战技时，立即解除敌方目标#1[i]个增益效果。 | 施放战技时，立即解除敌方目标1个增益效果。 | 信用点×4000、黯淡黑曜×2、无穷假身的遗恨×1 |
 | 附加能力2 | 循环制动 | 晋阶4 | 每获得1层【斗志】，额外恢复#1[i]点能量。 | 每获得1层【斗志】，额外恢复3点能量。 | 信用点×16000、虚空黑曜×4、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 粉碎斗志 | 晋阶6 | 施放强化普攻时，【直冲拳】的每1段攻击都有#1[i]%的固定概率使卢卡额外施放1段攻击。此效果对额外施放的攻击不会生效。 | 施放强化普攻时，【直冲拳】的每1段攻击都有50%的固定概率使卢卡额外施放1段攻击。此效果对额外施放的攻击不会生效。 | 信用点×128000、沉沦黑曜×6、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| ATK | 28% |
+| DEF | 12.5% |
 | 效果命中 | 18% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Fighting Endlessly | When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s). |
 | E2 | The Enemy is Weak, I am Strong | If the Skill hits an enemy target with Physical Weakness, gain 1 stack(s) of Fighting Will. |
@@ -250,92 +250,92 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 速度 / 物理属性伤害提高 / 攻击力
 
 **推荐副词条**：攻击力 / 速度 / 击破特攻 / 暴击率 / 暴击伤害
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
-| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|幽锁深牢的系囚]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|Prisoner in Deep Confinement]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/以世界之名.md|以世界之名]]
+### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：传承者
 - **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时,装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
 
-### [[zh_cn/lightcone/虚无/雨一直下.md|雨一直下]]
+### [[zh_cn/lightcone/虚无/雨一直下.md|Incessant Rain]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：幻影现实
 - **效果**：使装备者的效果命中提高【24%/28%/32%/36%/40%】。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高【12%/14%/16%/18%/20%】。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高【12%/14%/16%/18%/20%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
 
-### [[zh_cn/lightcone/虚无/孤独的疗愈.md|孤独的疗愈]]
+### [[zh_cn/lightcone/虚无/孤独的疗愈.md|Solitary Healing]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：混沌灵药
 - **效果**：使装备者的击破特攻提高【20%/25%/30%/35%/40%】。当装备者施放终结技时，使装备者造成的持续伤害提高【24%/30%/36%/42%/48%】，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复【4.0/4.5/5.0/5.5/6.0】点能量。
 
-### [[zh_cn/lightcone/虚无/只需等待.md|只需等待]]
+### [[zh_cn/lightcone/虚无/只需等待.md|Patience Is All You Need]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：蜘蛛的网
 - **效果**：使装备者造成的伤害提高【24%/28%/32%/36%/40%】。装备者每次施放攻击后，速度提高【4.8%/5.6%/6.4%/7.2%/8.0%】，最多叠加3层。 当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者【60%/70%/80%/90%/100%】攻击力的雷属性持续伤害，持续1回合。
 
-### [[zh_cn/lightcone/虚无/猎物的视线.md|猎物的视线]]
+### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：自信
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 副C | [[zh_cn/character/巡猎/素裳_物理_四星.md\|素裳]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
 | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/虚无/卢卡_物理_四星.md\|卢卡]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
-| [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
-| [[zh_cn/character/巡猎/波提欧_物理_五星.md\|波提欧]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
-| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|娜塔莎]] |  |  |
+| [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
+| [[zh_cn/character/巡猎/波提欧_物理_五星.md\|波提欧]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] |  |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 乐观阳光、不拘小节的机械臂自由格斗家，「地火」成员之一。
 从拳台到战场，从拳击手到战士，卢卡用这份力量去守护下层区的人们。
 正因为自己曾经体会过绝望，所以他更渴望将希望带给其他人。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 他抡起钢锤，一遍又一遍。
 
@@ -350,7 +350,7 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 「奥列格头儿，欢迎！今天有什么需要吗？」
 「别着急，师傅。今天我只是想来找你聊聊，」他指向卢卡，「聊聊有关你儿子的事。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 周围火光四起，弥漫的烟尘扰乱了他的视线，嘶吼和惨叫不断传入耳中。机油和血液的气味混杂着袭来，卢卡强忍住呕吐的欲望。
 
@@ -370,7 +370,7 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 
 但在疼痛夺走他的意识之前，那股暖流重新涌进了他的心房。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 第一次参加擂台赛，卢卡倒在了决赛场上。
 
@@ -384,7 +384,7 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 
 从那时起，他发誓要成为下层区的冠军——用他自己的方式，堂堂正正。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「今天就练到这儿吧。来，小子，坐。」
 

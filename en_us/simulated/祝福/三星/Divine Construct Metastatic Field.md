@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Divine Construct: Metastatic Field |
-| 类型 | 祝福（同名合并） |
-| 命途 | 存护 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Divine Construct: Metastatic Field |
+| Type | Blessing (merged) |
+| Path | 存护 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612031 | After a character is attacked, deals Quake DMG to the attacker, equal to 340% of the character's current Shield Effect. This DMG cannot defeat the enemy. |
 | 615031 | After a character is attacked, deals Quake DMG to the attacker, equal to 280% of the character's Shield Effect just before the attack. This DMG cannot defeat the enemy. |

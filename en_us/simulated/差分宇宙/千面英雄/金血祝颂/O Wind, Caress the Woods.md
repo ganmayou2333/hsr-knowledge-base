@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | O Wind, Caress the Woods |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | O Wind, Caress the Woods |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 基础效果中，所需回复的生命值降低至自身等级的30倍，每次触发基础效果成功提高最终伤害后，生命上限提高3%。
 
-## 强化效果
+## Enhanced Effect
 
 -

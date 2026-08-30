@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | First Movement: The Frog and the Knight |
-| 类型 | 祝福（同名合并） |
-| 命途 | 同谐 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | First Movement: The Frog and the Knight |
+| Type | Blessing (merged) |
+| Path | 同谐 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616930 | Every time an enemy target takes 10 actual Toughness reduction, they become afflicted with 1 stack(s) of "Harmonize." |
 | 617930 | Every time an enemy target takes 10 actual Toughness reduction, they become afflicted with 1 stack(s) of "Harmonize." |

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Compendium of Remedies |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Compendium of Remedies |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 丹鼎司编纂的仙舟医典，包含众多方剂，已被列入「丹鼎司新进人员必读书目」清单。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【陶德・雷奥登的学术研究：晚窥青囊】

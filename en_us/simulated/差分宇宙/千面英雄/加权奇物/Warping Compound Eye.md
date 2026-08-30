@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Warping Compound Eye |
-| 类型 | 加权奇物 |
+| Name | Warping Compound Eye |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

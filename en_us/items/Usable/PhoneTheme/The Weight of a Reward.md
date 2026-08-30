@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Weight of a Reward |
-| 用途 | 手机主题 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 手机主题 |
+| Item Name | The Weight of a Reward |
+| Use | 手机主题 |
+| Rarity | ★★★★ |
+| Type | Usable / 手机主题 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['「狸狸通信」福利等级奖励获得的手机壁纸']

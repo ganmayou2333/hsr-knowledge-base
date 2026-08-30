@@ -4,20 +4,20 @@
 > 实体ID：321
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/5635/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Arcadia of Woven Dreams |
-| 类型 | 位面饰品 |
-| 实体ID | 321 |
-## 获取途径
+| Name | Arcadia of Woven Dreams |
+| Type | 位面饰品 |
+| Entity ID | 321 |
+## Acquisition
 月下朱殷·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 When the number of ally targets on the field is not equal to 4, for every 1 additional/missing ally target, increases the DMG dealt by the wearer and their memosprite by 9%/12%, stacking up to 4/3 time(s).
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：迷路迷境的恬梦树屋
 **描述**：位面球中封装着哀丽秘榭的「迷路迷境」，拨开金色的麦草，掉进一片深深、深深的树洞，咦？好多小妖精，「一二三四五六七？」，错啦！是「哆徕咪发嗦啦嘻！」
 **来历**：

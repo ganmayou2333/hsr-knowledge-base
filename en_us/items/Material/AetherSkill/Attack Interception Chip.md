@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Attack Interception Chip |
-| 用途 | 以太技能 |
-| 评级 | ★★★★ |
-| 类型 | Material / 以太技能 |
+| Item Name | Attack Interception Chip |
+| Use | 以太技能 |
+| Rarity | ★★★★ |
+| Type | Material / 以太技能 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 以太战线获得

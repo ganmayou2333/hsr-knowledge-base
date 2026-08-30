@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Day One of My New Life |
-| 命途 | Preservation |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Day One of My New Life |
+| Path | Preservation |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "So happy I got to see Pom-Pom in new clothes today! I like it~"
 "Today's my birthday! I'm still as cute as ever."
@@ -24,18 +24,18 @@ We click the shutter many times without thinking.
 Do we do that to capture the happiness at that moment?
 Or to capture ourselves at that moment?
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 370 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### At This Very Moment
 
 Increases the wearer's DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Abilities of the same type cannot stack.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

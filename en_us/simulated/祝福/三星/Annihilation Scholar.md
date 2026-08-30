@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Annihilation Scholar |
-| 类型 | 祝福 |
-| 命途 | 毁灭&智识 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Annihilation Scholar |
+| Type | Blessing |
+| Path | 毁灭&智识 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色受到攻击后获得2个【灭绝式】，发动反击后获得1个。拥有6个【灭绝式】时，清空【灭绝式】，使造成的终结技伤害提高150%，持续2回合，并对敌方全体造成等同于攻击力650%的附加伤害，该伤害视为终结技伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

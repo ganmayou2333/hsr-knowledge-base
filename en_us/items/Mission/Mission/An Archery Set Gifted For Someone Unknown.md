@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | An Archery Set Gifted For Someone Unknown |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | An Archery Set Gifted For Someone Unknown |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 平衡感优秀的弓矢。但令人意外的是，它似乎是完全手工制作，没用上任何仙舟科技，射出的箭矢既不会寻踪也不会拐弯。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【安灵布奠，天清路远】

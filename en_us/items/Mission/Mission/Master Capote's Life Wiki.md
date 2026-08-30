@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Master Capote's Life Wiki |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Master Capote's Life Wiki |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 卡波特粉丝自发整理的百科，主要内容围绕卡波特的金句名言。
 
 
-## 获得途径
+## Acquisition
 
 - 阿兰同行任务【阴差阳错】

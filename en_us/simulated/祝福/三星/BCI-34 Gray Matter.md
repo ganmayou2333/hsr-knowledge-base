@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | BCI-34 Gray Matter |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | BCI-34 Gray Matter |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612830 | When entering battle, charges the Brain in a Vat by 65%. Breaking an enemy's Weakness charges the Brain in a Vat by 35%. |
 | 615830 | When entering battle, charges the Brain in a Vat by 65%. Breaking an enemy's Weakness charges the Brain in a Vat by 35%. |

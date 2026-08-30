@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Robe of The Beauty |
-| 类型 | 加权奇物 |
+| Name | Robe of The Beauty |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

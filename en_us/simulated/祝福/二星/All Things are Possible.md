@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | All Things are Possible |
-| 类型 | 祝福（同名合并） |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | All Things are Possible |
+| Type | Blessing (merged) |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612246 | If an enemy is attacked while under any DoT statuses, a random DoT will be triggered, dealing DMG equal to 100% of the DoT. |
 | 615245 | If an enemy is attacked while under any DoT statuses, a random DoT will be triggered, dealing DMG equal to 100% of the DoT. |

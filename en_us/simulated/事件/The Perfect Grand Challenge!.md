@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The *Perfect* Grand Challenge! |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Toy.png` |
+| Name | The *Perfect* Grand Challenge! |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Toy.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 完美型男需要「黏土玩偶」。 | 有概率获得随机奇物；有概率获得随机负面奇物。 |
 | 完美型男需要「潮流扭蛋人」。 | 较低概率获得随机奇物。 |
@@ -58,7 +58,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 113001 |  |
 | 413001 |  |

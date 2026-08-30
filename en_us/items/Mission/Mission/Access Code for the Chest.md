@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Access Code for the "Chest" |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Access Code for the "Chest" |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 某位怪人提供的取件码。去星槎海将它交给梓桥，也许会有意外之喜吧。
 
-## 获得途径
+## Acquisition
 
 - 在仙舟「罗浮」-流云渡左侧下方通道引航罗盘挑战中完成第一天（现实时间）所有挑战，并在第二天挑战中与？？？对话获得

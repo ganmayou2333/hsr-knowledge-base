@@ -4,20 +4,20 @@
 > 实体ID：303
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/582/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Pan-Cosmic Commercial Enterprise |
-| 类型 | 位面饰品 |
-| 实体ID | 303 |
-## 获取途径
+| Name | Pan-Cosmic Commercial Enterprise |
+| Type | 位面饰品 |
+| Entity ID | 303 |
+## Acquisition
 第五世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum increase of 25%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：公司的贸易航道
 **描述**：借助「信用点体系」的便利，跨越星际的商贸得以成立。星际和平公司用经济活动连缀繁星，拓展了贸易边界。
 **来历**：

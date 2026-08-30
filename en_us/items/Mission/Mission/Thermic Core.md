@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Thermic Core |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Thermic Core |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 经由希露瓦改装，铁卫们的照雪灯炉现在可以全自动传递火种了。
 
-## 获得途径
+## Acquisition
 
 - 1.4活动冒险任务【出发！残响回廊】

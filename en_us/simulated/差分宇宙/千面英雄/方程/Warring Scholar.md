@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Warring Scholar |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*4巡猎*2 |
+| Name | Warring Scholar |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*4巡猎*2 |
 
 
-## 效果
+## Effect
 
 我方目标击破敌方目标弱点时，为【罐中脑】充能 20%，并恢复等同于能量上限10%的能量，消灭敌方目标后，恢复等同于能量上限60%的能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Corporeal Pellucidity |
-| 类型 | 祝福（同名合并） |
-| 命途 | 丰饶 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Corporeal Pellucidity |
+| Type | Blessing (merged) |
+| Path | 丰饶 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612345 | When a character's HP is full, reduces their DMG taken by 36%. |
 | 615344 | When a character's HP is fully restored, reduces their DMG received by 25% and increases Effect RES by 15% until after they are attacked. |

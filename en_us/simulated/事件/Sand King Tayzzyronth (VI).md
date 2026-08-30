@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sand King: Tayzzyronth (VI) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_01.png` |
+| Name | Sand King: Tayzzyronth (VI) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_01.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 参与艾洛蒂亚帝国•特大虫潮灾害后心理干预与救助 | 你也会变得有点*心理创伤*。 |
 | 坐在第十四世皇帝身边，帮他编篡… | 叙事本身只是种花哨的感官把戏… |
@@ -46,6 +46,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 115101 |  |

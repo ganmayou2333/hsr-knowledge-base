@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Gambit by the Flame |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Gambit by the Flame |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 进入黑夜时，当前队伍中的第一位角色获得2层【征服】。持有【征服】的角色在回合/额外回合结束时消耗1层【征服】，使自身行动提前100%/获得1个额外回合，造成的最终伤害提高10%，持续至自身下一回合结束。
 
-## 强化效果
+## Enhanced Effect
 
 -

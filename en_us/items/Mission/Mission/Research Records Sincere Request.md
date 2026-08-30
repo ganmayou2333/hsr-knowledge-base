@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Research Records "Sincere Request" |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Research Records "Sincere Request" |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 即使是那些最擅长鼓唇弄舌和巧言令色的家伙，也往往无法抵挡「真诚」的力量。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【异邦骑士】

@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Gray River's Representative |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Gray River's Representative |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 我方全体每获得9层【会心】或消灭敌方目标后，射出10根光矢攻击随机敌方目标，每支光矢造成350%基础伤害的风属性伤害，每个光矢会使【呢喃】产生原伤害30%的伤害，并使【呢喃】获得等同于我方角色攻击力之和的20%的充能。

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tears of Rail |
-| 用途 | 行迹材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Tears of Rail |
+| Use | Trace Material |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 行迹高阶升级材料。
 
 
-## 获得途径
+## Acquisition
 
 - （暂未收录）

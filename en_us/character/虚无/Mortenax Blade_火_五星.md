@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Mortenax Blade |
-| 命途 | Nihility |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星核猎手 |
-| 角色介绍 | 身如春木，心若死灰，指尖仍留工匠的火星。 累世宿怨再度点燃，他许诺将自己与神明一同送往彼岸—— 支离此身，千冶成刃…会铸就何种答案？ |
-| 定位 | 通过展开特殊结界获得强化和全新技能的输出型角色 |
+| Character Name | Mortenax Blade |
+| Path | Nihility |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 星核猎手 |
+| Introduction | 身如春木，心若死灰，指尖仍留工匠的火星。 累世宿怨再度点燃，他许诺将自己与神明一同送往彼岸—— 支离此身，千冶成刃…会铸就何种答案？ |
+| Role | 通过展开特殊结界获得强化和全新技能的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 三木真一郎 |
-| 英语 | Daman Mills |
-| 中文 | 刘以嘉 |
-| 韩语 | 곽윤상 |
+| Japanese | 三木真一郎 |
+| English | Daman Mills |
+| Chinese | 刘以嘉 |
+| Korean | 곽윤상 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,358 |
-| 基础攻击力 | 543 |
-| 基础防御力 | 485 |
-| 基础速度 | 107 |
-| 嘲讽 | 100 |
-| 能量上限 | 160 |
+| Base HP | 1,358 |
+| Base ATK | 543 |
+| Base DEF | 485 |
+| Base SPD | 107 |
+| Taunt | 100 |
+| Max Energy | 160 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/明辉日珥\|明辉日珥]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/明辉日珥\|Radiant Prominence]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/法吉娜之泪\|法吉娜之泪]] | 12 |
-| [[zh_cn/items/Material/TracePath/法吉娜之酒\|法吉娜之酒]] | 53 |
-| [[zh_cn/items/Material/TracePath/法吉娜之心\|法吉娜之心]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/法吉娜之泪\|Tear of Phagousa]] | 12 |
+| [[zh_cn/items/Material/TracePath/法吉娜之酒\|Wine of Phagousa]] | 53 |
+| [[zh_cn/items/Material/TracePath/法吉娜之心\|Heart of Phagousa]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|Vanquished Flow's Reticence]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 28 |
 
 ---
-## 战技
-### 普攻：A Broken Blade Still Slays
+## Skills
+### Basic ATK：A Broken Blade Still Slays
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy and inflicts the Taunt state on the target.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
 
-### 战技：A Rain of Blades Seals Fate
+### Skill：A Rain of Blades Seals Fate
 - **类型**：Skill
 - **简述**：
 - **最大等级**：15
@@ -107,7 +107,7 @@
 施放战技时不消耗战技点。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 36% | 4 | 12% | 10% |
   | Lv.2 | 39.6% | 4 | 13.2% | 10% |
@@ -136,7 +136,7 @@
 未处于【无量忿怒】状态或当前生命值小于等于1时，千冶•刃无法施放战技。
 施放战技时不消耗战技点。
 
-### 终结技：Fornax Ex Corpore
+### Ultimate：Fornax Ex Corpore
 - **类型**：Ultimate
 - **简述**：Inflicts "Balefire Bind" on all enemies, causing the targets to decrease their DEF and increase the DMG they receive. Then, consumes this unit's HP to activate a Zone. While the Zone is active, this unit gains the "Infinite Fury" state, increases CRIT Rate, increases CRIT DMG, enhances Basic ATK, unlocks Skill, and gains a new Ultimate, lasting until the countdown ends.
 When Mortenax Blade receives a killing blow, the Zone is dispelled.
@@ -151,7 +151,7 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 若当前生命值不足，施放本技能时千冶•刃的当前生命值降低至1点。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7 | 参数8 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7 | 参数8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 20% | 20% | 30% | 30% | 70 | 50% | 20% | 2 |
   | Lv.2 | 20% | 20% | 33% | 32% | 70 | 50% | 21% | 2 |
@@ -187,14 +187,14 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 获得【无量忿怒】状态时，行动序列上出现对应倒计时，倒计时固定拥有70速度，倒计时回合开始时结界解除且退出【无量忿怒】状态。
 若当前生命值不足，施放本技能时千冶•刃的当前生命值降低至1点。
 
-### 天赋：All Karma Comes Due
+### Talent：All Karma Comes Due
 - **类型**：Talent
 - **简述**：While the Zone is active, after an ally target attacks an enemy, inflicts the "Balefire Bind" state on the enemy and grants Charge to Mortenax Blade. When Charge reaches 9 points and his HP is higher than 1, consumes 9 Charge to regenerate Energy, and enables Mortenax Blade to use his Skill 1 extra time.
 - **最大等级**：15
 - **效果模板**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches #1[i] points and the current HP is more than 1, consumes #1[i] Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 9 | 15 |
   | Lv.2 | 9 | 16 |
@@ -218,14 +218,14 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 
 - **满级效果**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
 
-### 秘技：Blade's Reach Spares None
+### Technique：Blade's Reach Spares None
 - **类型**：Technique
 - **简述**：Attacks all enemies within range. After entering combat, inflicts the Taunt state on all enemies and reduces DMG taken by this unit.
 - **最大等级**：1
 - **效果模板**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by #1[i]% for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 90% | 2 |
 
@@ -235,27 +235,27 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 
 - **满级效果**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 百炼骨 | 晋阶2 | 千冶•刃可积攒最多#2[i]点溢出能量，施放终结技后清空并恢复相应的能量值。战斗开始时或结界解除时，若能量不足#1[i]%则立刻恢复至#1[i]%。当能量恢复至上限时解除自身所有负面效果。 | 千冶•刃可积攒最多80点溢出能量，施放终结技后清空并恢复相应的能量值。战斗开始时或结界解除时，若能量不足75%则立刻恢复至75%。当能量恢复至上限时解除自身所有负面效果。 | 信用点×5000、法吉娜之泪×3、灭流绝溢的缄默×1 |
 | 附加能力2 | 千锻魂 | 晋阶4 | 结界持续期间，被敌方攻击的概率提高，自身受到的伤害降低#2[i]%，受到的治疗量提高#3[i]%，且受到攻击后使对应目标陷入【煞火缠身】状态并使千冶•刃获得1点充能。 | 结界持续期间，被敌方攻击的概率提高，自身受到的伤害降低50%，受到的治疗量提高50%，且受到攻击后使对应目标陷入【煞火缠身】状态并使千冶•刃获得1点充能。 | 信用点×20000、法吉娜之酒×5、命运的足迹×1、灭流绝溢的缄默×1 |
 | 附加能力3 | 万淬心 | 晋阶6 | 结界持续期间，我方目标造成的伤害提高#1[i]%，我方队伍中存在除千冶•刃之外的「虚无」命途角色时，使我方目标造成的终结技伤害提高#2[i]%，否则，使千冶•刃造成的伤害额外提高#3[i]%。 | 结界持续期间，我方目标造成的伤害提高50%，我方队伍中存在除千冶•刃之外的「虚无」命途角色时，使我方目标造成的终结技伤害提高75%，否则，使千冶•刃造成的伤害额外提高75%。 | 信用点×160000、法吉娜之心×8、命运的足迹×1、灭流绝溢的缄默×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 暴击率 | 12% |
 | 火属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Ere My Death, I Stood Unmade | While the Zone is active, decreases all enemies' All-Type RES by 20%. After using the extra Skill from Talent, the "Infinite Fury" countdown has its action delayed by 15%. |
 | E2 | Ash Was My Heart, Yet the Flame Stayed | When an ally character uses Ultimate to deal DMG, it is considered as having launched Follow-Up ATK. And the Follow-Up ATK DMG dealt by ally targets increases by 75%. The upper limit of Mortenax Blade's Charge decreases to 7. |
@@ -266,82 +266,82 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 火属性伤害提高 / 生命值
 
 **推荐副词条**：生命值 / 暴击率 / 暴击伤害 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/叩问天工的名冶\|叩问天工的名冶]] | 装备者对防御力降低状态的敌方目标造成的暴击伤害提高28%。装备者对敌方目标施加防御力降低状态后，使我方全体获得【助燃】，持续2回合，该效果无法叠加，持有【助燃】的我方目标造成的伤害提高15%。该效果在装备者施放攻击后可再次触发。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|宝命长存的莳者]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
+| [[zh_cn/relic/隧洞遗器/叩问天工的名冶\|Divine-Querying Master Smith]] | 装备者对防御力降低状态的敌方目标造成的暴击伤害提高28%。装备者对敌方目标施加防御力降低状态后，使我方全体获得【助燃】，持续2回合，该效果无法叠加，持有【助燃】的我方目标造成的伤害提高15%。该效果在装备者施放攻击后可再次触发。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|Longevous Disciple]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|奔狼的都蓝王朝]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/灼尽炼狱的新骸.md|灼尽炼狱的新骸]]
+### [[zh_cn/lightcone/虚无/灼尽炼狱的新骸.md|Reforged in Hellfire]]
 
 - **基础属性**：生1376 攻423 防463
 - **推荐度**：★★★★★
 - **技能名**：淬炼
 - **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】，装备者回合开始时，固定恢复20点能量，该效果每个波次可触发1次。装备者施放战技攻击后，使目标陷入【炼狱】状态，持续2回合，【炼狱】状态下目标受到的暴击伤害提高【30%/37.5%/45%/52.5%/60%】，受到来自装备者的暴击伤害额外提高【30%/37.5%/45%/52.5%/60%】。
 
-### [[zh_cn/lightcone/虚无/新手任务开始前.md|新手任务开始前]]
+### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：眼疾手快
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
 
-### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|决心如汗珠般闪耀]]
+### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：回眸
 - **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/假日浴场大冒险.md|假日浴场大冒险]]
+### [[zh_cn/lightcone/虚无/假日浴场大冒险.md|Holiday Thermae Escapade]]
 
 - **基础属性**：生1058 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：冷静一下
 - **效果**：使装备者造成的伤害提高【16%/20%/24%/28%/32%】。装备者攻击后，有100%基础概率使受到攻击的目标陷入易伤状态，受到的伤害提高【10%/11.5%/13%/14.5%/16%】，持续2回合。同类效果无法叠加。
 
-### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|谎言在风中飘扬]]
+### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|Lies Dance on the Breeze]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★
 - **技能名**：欺瞒
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者施放攻击后，有120%的基础概率使敌方每个单体目标陷入【茫然】状态，【茫然】状态下的敌方目标防御力降低【16%/18%/20%/22%/24%】，持续2回合，若装备者的速度大于等于170，有120%的基础概率使敌方每个单体目标陷入【失窃】状态，【失窃】状态下的敌方目标防御力降低【8%/9%/10%/11%/12%】，持续2回合。【茫然】或【失窃】被重复施加时，仅最新施加的生效。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/巡猎/不死途_雷_五星.md\|不死途]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/虚无/千冶•刃_火_五星.md\|千冶•刃]] |
-| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
+| [[zh_cn/character/巡猎/不死途_雷_五星.md\|Ashveil]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/虚无/千冶•刃_火_五星.md\|千冶•刃]] |
+| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 身如春木，心若死灰，指尖仍留工匠的火星。
 累世宿怨再度点燃，他许诺将自己与神明一同送往彼岸——
 支离此身，千冶成刃…会铸就何种答案？
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 他想起初至朱明不久，仰望那不可胜数的铸器典籍，库房陈列的神兵像海一样无际。
 蟪蛄不知春秋，朝菌不知晦朔——他第一次感受到人在时间前的渺小，以短生种的寿命，他恐怕一辈子也只能触摸到铸器的一角。
@@ -367,7 +367,7 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
  
 然而，当这些遥远往事浮起的时候，已满是剑碎悲鸣的声音。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 加入星核猎手，只为寻求最后的「解脱」…起码，猎手是这样承诺的。
  
@@ -393,7 +393,7 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 她突然感到深深的寒意。
 她知道，世上有一些人，只有在这样一无所有的雪原上，才能感到片刻的安慰。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 混沌，黑暗，来自寰宇伊始的巨兽之腹仿佛要将一切溶解。
 他原本以为自己早已对痛苦感到麻木，但此刻无形的争斗却要将他的灵魂撕扯粉碎。
@@ -421,7 +421,7 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 他艰难地举起手，就像许多年前，他第一次举起了铸炼的铁锤，敲打那白热的材料，直至锋利到让那不死的孽物承受无间地狱。
 炽热的铁躯令他无法流泪，恍惚间他以为自己还在铸炼宫中，如淬火后的神兵，爆发出刺目的耀光。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 他想起伊须磨洲的孤岛，上面插满了锈蚀的残剑。
 他想回去一趟，让那些不甘、怨恨、悲伤的剑鸣，能有片刻的安息。

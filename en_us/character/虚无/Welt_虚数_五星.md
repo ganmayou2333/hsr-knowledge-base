@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Welt |
-| 命途 | Nihility |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 老成持重的列车组前辈。 享受着久违的冒险奇遇，心底埋藏的热血再度燃烧。 偶尔还会将经历的冒险旅程画在本子里。 |
-| 定位 | 能减缓敌方行动的输出型角色 |
+| Character Name | Welt |
+| Path | Nihility |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 老成持重的列车组前辈。 享受着久违的冒险奇遇，心底埋藏的热血再度燃烧。 偶尔还会将经历的冒险旅程画在本子里。 |
+| Role | 能减缓敌方行动的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 細谷佳正 |
-| 英语 | Corey Landis |
-| 中文 | 彭博 |
-| 韩语 | 한신 |
+| Japanese | 細谷佳正 |
+| English | Corey Landis |
+| Chinese | 彭博 |
+| Korean | 한신 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,125 |
-| 基础攻击力 | 621 |
-| 基础防御力 | 509 |
-| 基础速度 | 102 |
-| 嘲讽 | 100 |
-| 能量上限 | 120 |
+| Base HP | 1,125 |
+| Base ATK | 621 |
+| Base DEF | 509 |
+| Base SPD | 102 |
+| Taunt | 100 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|往日之影的金饰]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|Golden Crown of the Past Shadow]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 12 |
-| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 53 |
-| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|Obsidian of Dread]] | 12 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|Obsidian of Desolation]] | 53 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|Obsidian of Obsession]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 28 |
 
 ---
-## 战技
-### 普攻：Gravity Suppression
+## Skills
+### Basic ATK：Gravity Suppression
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 140% of Welt's ATK to one designated enemy.
 
-### 战技：Edge of the Void
+### Skill：Edge of the Void
 - **类型**：Skill
 - **简述**：Deals minor Imaginary DMG to one enemy. This attack can Bounce 5 times, with a chance of Slowing the hit enemies.
 - **最大等级**：15
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to #1[i]% of Welt's ATK to one random enemy. On hit, there is a #2[i]% base chance to reduce the enemy's SPD by #3[i]% for #4[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 36% | 65% | 10% | 2 |
   | Lv.2 | 39.6% | 66% | 10% | 2 |
@@ -130,7 +130,7 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 90% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to 90% of Welt's ATK to one random enemy. On hit, there is a 80% base chance to reduce the enemy's SPD by 10% for 2 turn(s).
 
-### 终结技：Synthetic Black Hole
+### Ultimate：Synthetic Black Hole
 - **类型**：Ultimate
 - **简述**：Deals Imaginary DMG to all enemies with a high chance to inflict Imprisonment. Inflicts all enemies with "Weightless": when attacked, their actions are delayed.
 - **最大等级**：15
@@ -139,7 +139,7 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
 禁锢状态下，敌方目标行动延后#2[f1]%，速度降低#4[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 90% | 32% | 100% | 10% |
   | Lv.2 | 96% | 32.8% | 100% | 10% |
@@ -167,14 +167,14 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
 While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their SPD reduced by 10%. After using his Ultimate, inflicts the "Weightless" state on all enemies. When targets in "Weightless" state get attacked, their actions are delayed by #5[f1]%. This effect can trigger up to #6[i] time(s) per target per turn. "Weightless" lasts for #7[i] turn(s).
 禁锢状态下，敌方目标行动延后#2[f1]%，速度降低10%。
 
-### 天赋：Time Distortion
+### Talent：Time Distortion
 - **类型**：Talent
 - **简述**：Enemy targets in the "Weightless" state have reduced DEF and SPD. When hitting a Slowed enemy target, additionally deals minor Imaginary Additional DMG.
 - **最大等级**：15
 - **效果模板**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to #1[i]% of his ATK to the enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 30% |
   | Lv.2 | 33% |
@@ -197,7 +197,7 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
 
 - **满级效果**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to 75% of his ATK to the enemy.
 
-### 秘技：Gravitational Imprisonment
+### Technique：Gravitational Imprisonment
 - **类型**：Technique
 - **简述**：Creates a Special Dimension. Enemies in this dimension have their movement speed reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.
 - **最大等级**：1
@@ -206,7 +206,7 @@ Imprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]
 禁锢状态下，敌方目标行动延后#2[i]%，速度降低#3[i]%。我方制造的领域效果最多存在1个。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 20% | 10% | 15 | 50% |
 
@@ -221,26 +221,26 @@ Imprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]
 Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 Dimension Effect created by allies can exist at the same time.
 禁锢状态下，敌方目标行动延后20%，速度降低10%。我方制造的领域效果最多存在1个。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 惩戒 | 晋阶2 | 施放终结技时，有#1[i]%基础概率使目标受到的伤害提高#2[i]%，持续#3[i]回合。 | 施放终结技时，有100%基础概率使目标受到的伤害提高12%，持续2回合。 | 信用点×5000、黯淡黑曜×3、毁灭者的末路×1 |
 | 附加能力2 | 审判 | 晋阶4 | 施放终结技时，额外恢复#1[i]点能量。 | 施放终结技时，额外恢复10点能量。 | 信用点×20000、虚空黑曜×5、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 裁决 | 晋阶6 | 对被弱点击破的敌方目标造成的伤害提高#1[i]%。 | 对被弱点击破的敌方目标造成的伤害提高20%。 | 信用点×160000、沉沦黑曜×8、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
+| ATK | 28% |
 | 效果抵抗 | 10% |
 | 虚数属性伤害提高 | 14.4% |
 
 ---
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Legacy of Honor | After using a Skill or Ultimate to hit a target in the "Weightless" state, additionally deals 1 instance of Imaginary Additional DMG equal to 40% of the Ultimate's DMG multiplier. This effect can only be triggered once per target per attack. |
 | E2 | Conflux of Stars | When his Talent is triggered, Welt regenerates 3 Energy. |
@@ -251,76 +251,76 @@ Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Onl
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 虚数属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度 / 效果命中
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|盗匪荒漠的废土客]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/泛银河商业公司\|泛银河商业公司]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/泛银河商业公司\|Pan-Cosmic Commercial Enterprise]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/行于流逝的岸.md|行于流逝的岸]]
+### [[zh_cn/lightcone/虚无/行于流逝的岸.md|Along the Passing Shore]]
 
 - **基础属性**：生1058 攻635 防396
 - **推荐度**：★★★★★
 - **技能名**：司渡
 - **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高【24%/28%/32%/36%/40%】，终结技造成的伤害额外提高【24%/28%/32%/36%/40%】。
 
-### [[zh_cn/lightcone/虚无/雨一直下.md|雨一直下]]
+### [[zh_cn/lightcone/虚无/雨一直下.md|Incessant Rain]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：幻影现实
 - **效果**：使装备者的效果命中提高【24%/28%/32%/36%/40%】。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高【12%/14%/16%/18%/20%】。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高【12%/14%/16%/18%/20%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/以世界之名.md|以世界之名]]
+### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：传承者
 - **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时,装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 副C/辅助 | 辅助 | 生存 |
 |---|---|---|---|
-| [[zh_cn/character/虚无/瓦尔特_虚数_五星.md\|瓦尔特]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/虚无/瓦尔特_虚数_五星.md\|瓦尔特]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] | [[zh_cn/character/同谐/刻律德菈_风_五星.md\|刻律德菈]] |
-| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|丹恒•腾荒]] |  |  |  |
+| [[zh_cn/character/虚无/瓦尔特_虚数_五星.md\|瓦尔特]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
+| [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/虚无/瓦尔特_虚数_五星.md\|瓦尔特]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[zh_cn/character/同谐/刻律德菈_风_五星.md\|刻律德菈]] |
+| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|Dan Heng • Permansor Terrae]] |  |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 老成持重的前逆熵盟主，继承了「世界」之名，曾屡次拯救世界于灭亡的边缘。
 圣方丹事件结束后，瓦尔特被迫与事件始作俑者去向星门另一侧。
 或许连他自己也未曾料到，在那里等待着的，将是全新的旅途和同伴。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 前往星门的路途中，瓦尔特取了一支笔，开始在纸上勾勒画面。之前的八年，他一直重复着这样的工作。
 
@@ -330,7 +330,7 @@ Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Onl
 
 只是如今，他要踏上新的旅程。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 当瓦尔特重新投入危险的宇宙战场中，他身体中的热血久违地重又燃烧起来。
 
@@ -344,7 +344,7 @@ Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Onl
 
 这一次，无需背负命运，一切听从自己的旨意。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 如今的瓦尔特不会轻易出手，他是否还保存着鼎盛时期的实力并未可知。只是从他由「伊甸之星」改造的手杖而言，「操纵重力」仍旧是他惯用的作战手段。
 
@@ -360,7 +360,7 @@ Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Onl
 
 他不禁想起了自己的生命中，那些曾经帮助过他的名字。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「瓦尔特的日志 ████年██月██日。
 

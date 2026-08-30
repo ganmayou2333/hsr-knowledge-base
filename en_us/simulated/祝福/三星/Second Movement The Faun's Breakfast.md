@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Second Movement: The Faun's Breakfast |
-| 类型 | 祝福（同名合并） |
-| 命途 | 同谐 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Second Movement: The Faun's Breakfast |
+| Type | Blessing (merged) |
+| Path | 同谐 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616931 | After any ally target attacks any Weakness Broken enemy targets, triggers 1 instance of "Harmonize" DMG in a 8% ratio. |
 | 617931 | After any ally target attacks any Weakness Broken enemy targets, triggers 1 instance of "Harmonize" DMG in a 8% ratio. |

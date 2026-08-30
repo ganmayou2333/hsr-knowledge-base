@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Steamed puffergoat milk bought for Bailu |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Steamed puffergoat milk bought for Bailu |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 仙舟联盟的特产浮羊奶，也叫晴柔奶。
 
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧•其一】

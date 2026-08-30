@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Special Autoradiograph |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Special Autoradiograph |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 利用特殊显影法破译的藏宝图，揭示了空间站内的隐秘坐标。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【触不可及】

@@ -4,20 +4,20 @@
 > 实体ID：109
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/573/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Band of Sizzling Thunder |
-| 类型 | 隧洞遗器 |
-| 实体ID | 109 |
-## 获取途径
+| Name | Band of Sizzling Thunder |
+| Type | 隧洞遗器 |
+| Entity ID | 109 |
+## Acquisition
 圣颂之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Lightning DMG by 10%.
 ### 4 件套
 When the wearer uses their Skill, increases the wearer's ATK by 20% for 1 turn(s).
-## 部位
+## Pieces
 ### 手部：乐队的巡演手绳
 **描述**：贝斯手席德的手绳，由巡演时的丝带手环编织而成，上面写着几句歌词。
 **来历**：

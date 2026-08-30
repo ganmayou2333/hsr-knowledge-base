@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Garden of Recollection |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Garden of Recollection |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「记忆」产生临界回响，对敌方全体造成冰属性伤害，大概率使敌方全体陷入冻结状态，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

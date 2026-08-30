@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | A Call From The Fragmentum: Clues From the Conversation |
-| 用途 | 通话中留下的线索 阅读物 / 铁卫整理的事故报告 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | A Call From The Fragmentum: Clues From the Conversation |
+| Use | 通话中留下的线索 阅读物 / 铁卫整理的事故报告 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-边缘通路的电话亭中拾取

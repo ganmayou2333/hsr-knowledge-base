@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tingyun's Dream Bubble |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Tingyun's Dream Bubble |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 停云赠予的梦泡，记录下了你曾经的仙舟之行，而在梦中，停云本人并未错失与你的相遇。
 
 
-## 获得途径
+## Acquisition
 
 - 现实是梦的回声

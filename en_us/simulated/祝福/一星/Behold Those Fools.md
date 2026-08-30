@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Behold Those Fools |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Behold Those Fools |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色造成的追加攻击暴击伤害提高44%。
 
-## 强化效果
+## Enhanced Effect
 
 角色造成的追加攻击暴击伤害提高66%。

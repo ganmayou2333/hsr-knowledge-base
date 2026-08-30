@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | A Star That Lights the Night |
-| 命途 | Erudition |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | A Star That Lights the Night |
+| Path | Erudition |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Looking back at her childhood, she remembered the first time she heard adventure stories of the Trailblaze.
 Her tiny heart beat for the mystery and vastness of the universe, so she picked up a paintbrush and drew her very first imaginings of the cosmos.
@@ -32,18 +32,18 @@ Carrying the wish she shared with her friend, she became the person she had alwa
 The Express traverses the universe, and the footprints of the Navigator and her companions advancing side by side form a solid silver rail.
 "Together, let's reach the future where the stars reside!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 635 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### First Wish
 
 The wearer ignores 32% of the target's DEF when dealing DMG. When the wearer uses Assist Skill, they regenerate 6 Energy and gain "Sail," lasting for 2 turns and stacking up to 3 time(s). Each stack of "Sail" increases Assist Skill DMG by 20%. When "Sail" reaches 3 stacks, each stack of "Sail" increases Ultimate DMG by 20%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

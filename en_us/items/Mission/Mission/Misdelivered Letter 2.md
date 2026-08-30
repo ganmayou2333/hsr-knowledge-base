@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Misdelivered Letter 2 |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Misdelivered Letter 2 |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在贝洛伯格捡到的信封。
 
-## 获得途径
+## Acquisition
 
 - 调查雅利洛-VI-行政区-行政区商店附近邮筒并选择“悄悄收起”获得

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Goethe Hotel Tea Time Menu |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Goethe Hotel Tea Time Menu |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 歌德宾馆下午茶餐单
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-行政区1层歌德宾馆中拾取

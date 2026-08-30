@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Damaged Music Box |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Damaged Music Box |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 手工制的小巧八音盒。虽久经保养，但也破损不堪。
 
 
-## 获得途径
+## Acquisition
 
 - 在获得饰有铃铛的肮脏缎带后，在雅利洛-VI-铆钉镇的智识之蕾附近上楼梯，与虚弱的女声对话并提交道具获得

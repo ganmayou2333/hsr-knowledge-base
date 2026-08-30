@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Fan With Plain Carp Print |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Fan With Plain Carp Print |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 停云随身携带的扇子，原本是一对，却不意遗失了其中一柄。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【安灵布奠，天清路远】

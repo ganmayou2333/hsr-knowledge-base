@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Curio Fixer |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Toy.png` |
+| Name | The Curio Fixer |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Toy.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 修理全部损毁的奇物。 | 花费50宇宙碎片，修理全部损毁的奇物。 |
 | 用魅力令无机生命为你倾倒！ | 将所有已损毁的奇物替换为随机奇物。 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 112601 |  |
 | 412601 |  |

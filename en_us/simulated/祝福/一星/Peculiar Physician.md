@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Peculiar Physician |
-| 类型 | 祝福 |
-| 命途 | 丰饶&欢愉 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Peculiar Physician |
+| Type | Blessing |
+| Path | 丰饶&欢愉 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【珠露】上限提高50%，角色发动追加攻击后，使当前生命值百分比最低的角色回复等同于自身生命上限10%的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 -

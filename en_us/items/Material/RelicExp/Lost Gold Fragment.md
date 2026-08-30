@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lost Gold Fragment |
-| 用途 | 遗器经验材料 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Lost Gold Fragment |
+| Use | Relic EXP |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 遗器强化材料，可为遗器提供500点经验值。
 
 
-## 获得途径
+## Acquisition
 
 - 每日训练
 - 遗器分解

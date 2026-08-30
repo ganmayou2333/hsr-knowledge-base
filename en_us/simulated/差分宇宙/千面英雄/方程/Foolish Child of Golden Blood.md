@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Foolish Child of Golden Blood |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*2巡猎*2 |
+| Name | Foolish Child of Golden Blood |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*2巡猎*2 |
 
 
-## 效果
+## Effect
 
 敌方目标被消灭时，使【耀变】 充能效率提高18%，最多叠加3层。并使我方全体回复等同于生命上限30%的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,25 +7,25 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Society Ticket |
-| 类型 | 奇物（同名合并） |
-| 星级 | 1星 |
+| Name | Society Ticket |
+| Type | 奇物（同名合并） |
+| Rarity | 1星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 3 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 12 | Increases the number of Cosmic Fragments received after winning a battle by 75% |
 | 1012 | Increases the number of Cosmic Fragments received after winning a battle by 75% |
 | 3012 | Increases the number of Cosmic Fragments received after winning a battle by 75% |
 
-## 背景故事
+## Story
 
 天才俱乐部#56以利亚萨拉斯曾经有个美好的愿望：俱乐部里的天才们能够欢聚一堂，其乐融融地交流生活、爱情与梦想。为此，他发明了「俱乐部券」，并设计了一整套系统，保证即使在他死后，每位入会的新人都能得到这张能够即时传送到某个宴会位面的入场券。事实是，#56以后的每位会员都确实使用过「俱乐部券」，可时间从来没有重合过哪怕一次。

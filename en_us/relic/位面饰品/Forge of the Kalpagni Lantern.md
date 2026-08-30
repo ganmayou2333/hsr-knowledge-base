@@ -4,20 +4,20 @@
 > 实体ID：316
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/3168/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Forge of the Kalpagni Lantern |
-| 类型 | 位面饰品 |
-| 实体ID | 316 |
-## 获取途径
+| Name | Forge of the Kalpagni Lantern |
+| Type | 位面饰品 |
+| Entity ID | 316 |
+## Acquisition
 永恒笑剧·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's SPD by 6%. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by 40%, lasting for 1 turn(s).
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：铸炼宫的莲华灯芯
 **描述**：位面封装的是朱明仙舟的工造司所在地——焰轮铸炼宫，朱明仙舟围绕着岁阳之祖「燧皇」构建的天体级球形结构。天才匠人们自其中汲取能量，将奇思异想打造成型。
 **来历**：

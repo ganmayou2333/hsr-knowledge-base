@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | In Pursuit of the Wind |
-| 命途 | Harmony |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | In Pursuit of the Wind |
+| Path | Harmony |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Heh. This one can go to that unlucky brat. It'll shut her money-owing parents up, and maybe they'll hit her less."
 "This can go to the granny selling pickle candies to help her out in a pitch. She really needs to see a doctor for all her pains. I don't wanna see a day when I can't buy such tasty candies anymore..."
@@ -28,18 +28,18 @@ The icy golden thread wraps around her wrists, holding her in place.
 "Don't forget to look after yourself as well."
 She runs, escaping far away. It's only when she turns around that she discovers the corner of her cloak that's starting to fray had already been stitched up, as if it were new.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 476 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Flustered
 
 After entering combat, increases all allies' Break DMG dealt by 16%. Abilities of the same type cannot stack.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

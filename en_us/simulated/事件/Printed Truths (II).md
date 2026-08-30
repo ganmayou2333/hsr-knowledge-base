@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Printed Truths (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Printed Truths (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你并不知道眼前这座农场是何时建起来的，但你凭借自己偷盗劫掠多年的嗅觉，断定这是某个亿万富翁的养老地。是夜，你伙同月光从窗口潜入。奇怪的是，这座农场内部与普通农场并无二致，大棚中栽满反季节果树，鲜若夕阳的果实已经缀枝。难道这回要空手而归？
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 贼不走空是我的原则。 | — |
 | 一枚好果子也胜过空手而归。 | — |
@@ -49,6 +49,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 192 |  |

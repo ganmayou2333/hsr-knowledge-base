@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Why Does the Ocean Sing |
-| 命途 | Nihility |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Why Does the Ocean Sing |
+| Path | Nihility |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Waves surge forth, their roar echoing across the heavens.
 Fish swim through the empty seas, where ancient foam churns and that melody seems to still linger.
@@ -30,18 +30,18 @@ When she found this blazing light, she finally took up her bow, believing it to 
 When futile hopes shatter, she always answers their questions with a solitary melody, yet it enchants all who hear it.
 Or perhaps... whether in the mortal realm or the deep sea, the only true listener is the performer herself.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 635 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Solo
 
 Increases the wearer's Effect Hit Rate by 40%. When an enemy target gets inflicted with a debuff by the wearer, there is a 80% base chance for them to enter "Enthrallment," lasting for 3 turn(s). Effects of the same type cannot stack. While the target is in "Enthrallment," for every 1 debuff applied by the wearer on the target, increases the target's received DoT by #4[f1]%, stacking up to 6 time(s). When the target gets attacked by an ally, increases the attacker's SPD by #6[f1]% for 3 turn(s). When the wearer gets knocked down, removes all "Enthrallment."
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

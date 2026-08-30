@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Roar and Rustle |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Roar and Rustle |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响造成的冻结状态解除或被抵抗时，角色获得能抵消等同于生命上限40%伤害的护盾，持续2回合，该效果每次施放命途回响后最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 -

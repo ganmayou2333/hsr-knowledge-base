@@ -6,32 +6,32 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Sagacity |
-| 命途 | Erudition |
-| 评级 | ★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Sagacity |
+| Path | Erudition |
+| Rarity | ★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. 
 "Should Wise Ones be unable to abandon their identity as humans, they shall be abandoned by wisdom."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 741 | 370 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Genius
 
 When the wearer uses their Ultimate, increases ATK by 24% for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x231,000 / x2 / x6 / x9 / x12 / x10 / x8

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | White Feathers Fly, A Sky of Stars Vanish |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | White Feathers Fly, A Sky of Stars Vanish |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616431 | While an ally target has "Critical Boost," their CRIT Rate increases by 10%. For every 1% of excess CRIT Rate, increases CRIT DMG by 2%, up to a max increase of 180%. |
 | 617431 | After an ally target uses an attack, when the number of attack targets is 1/2/3/4/5, the "Reverse Critical Boost" DMG dealt increases by 120%/80%/60%/40%/20% of the original DMG multiplier. |

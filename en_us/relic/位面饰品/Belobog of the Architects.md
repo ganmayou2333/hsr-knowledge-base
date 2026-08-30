@@ -4,20 +4,20 @@
 > 实体ID：304
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/580/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Belobog of the Architects |
-| 类型 | 位面饰品 |
-| 实体ID | 304 |
-## 获取途径
+| Name | Belobog of the Architects |
+| Type | 位面饰品 |
+| Entity ID | 304 |
+## Acquisition
 第六世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：贝洛伯格的铁卫防线
 **描述**：贝洛伯格的银鬃铁卫矗立在风雪之中，他们排成一线，等待着前来进犯的天外入侵者。铁卫的意志坚不可摧，铁卫的阵线也绝不后退。
 **来历**：

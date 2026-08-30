@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cursed Teacher |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2巡猎+2智识 |
+| Name | Cursed Teacher |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2巡猎+2智识 |
 
 
-## 效果
+## Effect
 
 每消灭1名敌方目标，使本场战斗中我方目标造成的伤害提高30%，终结技伤害额外提高15%，可叠加。
 
-## 强化效果
+## Enhanced Effect
 
 -

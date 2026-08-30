@@ -4,20 +4,20 @@
 > 实体ID：328
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/7796/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Cosmic Life Sciences Institute |
-| 类型 | 位面饰品 |
-| 实体ID | 328 |
-## 获取途径
+| Name | Cosmic Life Sciences Institute |
+| Type | 位面饰品 |
+| Entity ID | 328 |
+## Acquisition
 虫虫来袭·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 When entering combat, if the wearer's Max Energy is greater than or equal to 200, for every 1 excess point, increases the wearer's DMG dealt by 0.2%, up to a max increase of 32%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：生研院的中心突触
 **描述**：位面球中封装着生命科学研究院的核心区域，研究员如同神经网络中的节点，不断在工业化流程中产出灵感与回馈。
 **来历**：

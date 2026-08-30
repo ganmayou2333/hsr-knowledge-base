@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | As Good As Fleming |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | As Good As Fleming |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色对敌方目标发动追加攻击后，使其受到的伤害提高8%，最多叠加3次，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 角色对敌方目标发动追加攻击后，使其受到的伤害提高12%，最多叠加3次，持续1回合。

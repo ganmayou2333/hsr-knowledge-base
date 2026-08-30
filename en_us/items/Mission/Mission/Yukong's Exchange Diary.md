@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Yukong's Exchange Diary |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Yukong's Exchange Diary |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 驭空希望自己还是那个无忧无虑地在空中翱翔的狐人女孩，可时间总会汹涌地流逝。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【因为我已触碰过天空】

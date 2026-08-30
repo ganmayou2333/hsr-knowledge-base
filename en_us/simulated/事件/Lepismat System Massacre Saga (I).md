@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lepismat System: Massacre Saga (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Lepismat System: Massacre Saga (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·起源宇宙：「自然」的蠹星系被「文明」首次发现时,地上正爬行着无数的虫族。一位领袖于屏幕中注视着星系谱：这是一个伟大的时刻，他将指南镜片对准蠹星——汹涌的「喜悦」袭来。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我会加入。 | 难得的机会…你愿牺牲个人时间。 |
 | 我拒绝。 | 我志在下班后写诗。 |
@@ -44,6 +44,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 115501 |  |

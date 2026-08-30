@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Himeko • Nova |
-| 命途 | Erudition |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 有人并肩，有人守望，「开拓」从不是孤帆远航。 她画下拓星的奇迹，银轨绵延，无名客们再次起航，照亮星河的长夜—— 终点处，她再度回望，启行的梦从未搁浅。 |
-| 定位 | 是一名可操控机甲并提供支援攻击的输出型角色 |
+| Character Name | Himeko • Nova |
+| Path | Erudition |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 有人并肩，有人守望，「开拓」从不是孤帆远航。 她画下拓星的奇迹，银轨绵延，无名客们再次起航，照亮星河的长夜—— 终点处，她再度回望，启行的梦从未搁浅。 |
+| Role | 是一名可操控机甲并提供支援攻击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 田中理惠 |
-| 英语 | Cia Cour |
-| 中文 | 林簌 |
-| 韩语 | 김보나 |
+| Japanese | 田中理惠 |
+| English | Cia Cour |
+| Chinese | 林簌 |
+| Korean | 김보나 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,125 |
-| 基础攻击力 | 757 |
-| 基础防御力 | 485 |
-| 基础速度 | 98 |
-| 嘲讽 | 75 |
-| 能量上限 | 150 |
+| Base HP | 1,125 |
+| Base ATK | 757 |
+| Base DEF | 485 |
+| Base SPD | 98 |
+| Taunt | 75 |
+| Max Energy | 150 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/明辉日珥\|明辉日珥]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/明辉日珥\|Radiant Prominence]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/天体模型\|天体模型]] | 12 |
-| [[zh_cn/items/Material/TracePath/星系框架\|星系框架]] | 53 |
-| [[zh_cn/items/Material/TracePath/银河沙盘\|银河沙盘]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/天体模型\|Celestial Globe]] | 12 |
+| [[zh_cn/items/Material/TracePath/星系框架\|Galaxy Framework]] | 53 |
+| [[zh_cn/items/Material/TracePath/银河沙盘\|Cosmic Sandpit]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|Vanquished Flow's Reticence]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 28 |
 
 ---
-## 战技
-### 普攻：Enkindle the First Lodestar
+## Skills
+### Basic ATK：Enkindle the First Lodestar
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to one enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Himeko • Nova's ATK to one enemy.
 
-### 战技：Upraise the Vanward Cresset
+### Skill：Upraise the Vanward Cresset
 - **类型**：Skill
 - **简述**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore." When Himeko • Nova has "Navigator's Semaphore," DMG dealt increases. At the start of every turn, immediately regains 1 Assist Skill use.
 - **最大等级**：15
 - **效果模板**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for #2[i] turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by #1[i]%. At the start of every turn, immediately recovers 1 Assist Skill use.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 10% | 3 |
   | Lv.2 | 11% | 3 |
@@ -128,7 +128,7 @@
 
 - **满级效果**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by 25%. At the start of every turn, immediately recovers 1 Assist Skill use.
 
-### 终结技：We, Too, Stride the Stars
+### Ultimate：We, Too, Stride the Stars
 - **类型**：Ultimate
 - **简述**：Deals 0 instance(s) of DMG, each dealing Fire DMG to one random enemy.
 - **最大等级**：15
@@ -137,7 +137,7 @@
 施放【超频粒子光束】或【轨道歼灭脉冲】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，会立即发动最后一击。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7(%) | 参数8 | 参数9(%) | 参数10(%) |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7(%) | 参数8 | 参数9(%) | 参数10(%) |
   |---|---|---|---|---|---|---|---|---|---|---|
   | Lv.1 | 16% | 1 | 10% | 1 | 15% | 3 | 40% | 3 | 381% | 126% |
   | Lv.2 | 17.6% | 1 | 11% | 1 | 16.5% | 3 | 44% | 3 | 419.1% | 138.6% |
@@ -171,7 +171,7 @@
 当【超频粒子光束】次数耗尽时，会自动发动【轨道歼灭脉冲】，随后发动最后一击，造成3次伤害，每次伤害对敌方随机单体造成等同于姬子•启行100%攻击力的火属性伤害。
 施放【超频粒子光束】或【轨道歼灭脉冲】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，会立即发动最后一击。
 
-### 天赋：Of Fire and Far Faring
+### Talent：Of Fire and Far Faring
 - **类型**：Talent
 - **简述**：When Himeko • Nova is on the field, deploys a Territory, granting all ally characters Assist Skill. When an ally character uses Assist Skill, Himeko • Nova gains increased All-Type RES PEN and increased CRIT DMG. When attacking, ignores Weakness Types to reduce Toughness.
 When ally characters other than Himeko • Nova use Assist Skill, regenerates Energy for them.
@@ -184,7 +184,7 @@ When ally characters other than Himeko • Nova use their Assist Skill, regenera
 除姬子•启行外的我方角色使用助战技时，会使其恢复#3[i]点能量。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 40% | 10% | 4 |
   | Lv.2 | 44% | 11% | 4 |
@@ -213,7 +213,7 @@ When ally characters other than Himeko • Nova use their Assist Skill, regenera
 使用助战技视为姬子•启行施放了战技，姬子•启行获得全属性抗性穿透提高25%、暴击伤害提高100%，攻击时可无视弱点属性削减敌方韧性，击破弱点时，触发火属性的弱点击破效果。
 除姬子•启行外的我方角色使用助战技时，会使其恢复4点能量。
 
-### 秘技：Starcharter Cruise
+### Technique：Starcharter Cruise
 - **类型**：Technique
 - **简述**：Increases the max Technique Points by 3. After actively using Technique, enters the "Cruise" state and consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, uses Skill 1 time at the start of each wave.
 If attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
@@ -226,7 +226,7 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 30 |
 
@@ -239,27 +239,27 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 使用秘技后进入持续30秒的【巡航】状态，主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，每个波次开始时立即施放1次战技。
 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 人类该向何处去 | 晋阶2 | 姬子•启行使用助战技不消耗助战技使用次数。回合开始时，若当前助战技使用次数等于当前使用次数上限，姬子•启行额外恢复#1[i]点能量。 | 姬子•启行使用助战技不消耗助战技使用次数。回合开始时，若当前助战技使用次数等于当前使用次数上限，姬子•启行额外恢复5点能量。 | 信用点×5000、天体模型×3、灭流绝溢的缄默×1 |
 | 附加能力2 | 列车的脉搏在轰鸣 | 晋阶4 | 除姬子•启行外的开拓同行角色使用助战技时，该角色会立即获得1个可插入施放终结技的额外回合，因助战技获得的额外回合不会重复触发此行迹效果。 | 除姬子•启行外的开拓同行角色使用助战技时，该角色会立即获得1个可插入施放终结技的额外回合，因助战技获得的额外回合不会重复触发此行迹效果。 | 信用点×20000、星系框架×5、命运的足迹×1、灭流绝溢的缄默×1 |
 | 附加能力3 | 银轨在旷古中静默 | 晋阶6 | 施放终结技时，立即获得#1[i]点【源能】。若当前【源能】大于等于#2[i]点施放【轨道歼灭脉冲】攻击时，【轨道歼灭脉冲】对敌方随机单体造成的伤害倍率提高#3[i]%。 | 施放终结技时，立即获得3点【源能】。若当前【源能】大于等于3点施放【轨道歼灭脉冲】攻击时，【轨道歼灭脉冲】对敌方随机单体造成的伤害倍率提高30%。 | 信用点×160000、银河沙盘×8、命运的足迹×1、灭流绝溢的缄默×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
+| ATK | 28% |
 | 暴击率 | 12% |
 | 火属性伤害提高 | 8% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | That Which We Stride Is the Trailblaze | The number of extra Assist Skill uses from Talent additionally increases by 1. While in the "Companion Protocol: Verdict" state, reduces the number of Ultimate uses required to launch Assist Skill by 1. While in the "Companion Protocol: Decimation" state, reduces the Charge required to launch Assist Skill by 3. When Himeko • Nova launches Assist Skill, the number of extra DMG instances increases by 1. |
 | E2 | The Colors We Never Strike | The cap of Himeko • Nova's Assist Skill uses increases to 2, and the DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. During the "Navigator's Semaphore" state, at the start of each turn, additionally recovers 1 use of Assist Skill immediately. When a non-Trailblaze Companions character uses Assist Skill, the Trace "Hark! The Express's Pulse Roars" now also grants them 1 extra turn. |
@@ -270,63 +270,63 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 火属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/星如我见的领航员\|星如我见的领航员]] | 装备者进入战斗时/施放战技时，使战技和终结技造成的伤害提高18%，最多叠加3层，装备者回合开始时/施放终结技后，移除1层该效果。 |
-| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|恶海逐波的船长]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|熔岩锻铸的火匠]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
+| [[zh_cn/relic/隧洞遗器/星如我见的领航员\|As Navigator Isee Sees It]] | 装备者进入战斗时/施放战技时，使战技和终结技造成的伤害提高18%，最多叠加3层，装备者回合开始时/施放终结技后，移除1层该效果。 |
+| [[zh_cn/relic/隧洞遗器/恶海逐波的船长\|Wavestrider Captain]] | 装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|Firesmith of Lava-Forging]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/坠星启航地\|坠星启航地]] | 使装备者的暴击率提高8%。进入战斗时，若装备者与另一名队友均为开拓同行角色，使装备者的暴击伤害提高32%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/坠星启航地\|Fallen Star Anchorage]] | 使装备者的暴击率提高8%。进入战斗时，若装备者与另一名队友均为开拓同行角色，使装备者的暴击伤害提高32%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/当一颗星照亮夜空.md|当一颗星照亮夜空]]
+### [[zh_cn/lightcone/智识/当一颗星照亮夜空.md|A Star That Lights the Night]]
 
 - **基础属性**：生847 攻635 防529
 - **推荐度**：★★★★★
 - **技能名**：初愿
 - **效果**：使装备者造成伤害时无视目标【32%/36%40%/44%/48%】的防御力。当装备者施放助战技时，恢复6点能量并获得【启航】，持续2回合，最多叠加3层。每层【启航】使助战技伤害提高【20%/25%/30%/35%/40%】，【启航】达到3层时，每层【启航】使终结技伤害提高【20%/25%/30%/35%/40%】。
 
-### [[zh_cn/lightcone/智识/向着不可追问处.md|向着不可追问处]]
+### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
 - **基础属性**：生953 攻635 防463
 - **推荐度**：★★★★
 - **技能名**：思维游戏
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
 
-### [[zh_cn/lightcone/智识/不息的演算.md|不息的演算]]
+### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：无界之思
 - **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/智识/姬子•启行_火_五星.md\|姬子•启行]] | [[zh_cn/character/虚无/千冶•刃_火_五星.md\|千冶•刃]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |
-| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|丹恒•腾荒]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |  |
+| [[zh_cn/character/智识/姬子•启行_火_五星.md\|姬子•启行]] | [[zh_cn/character/虚无/千冶•刃_火_五星.md\|千冶•刃]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |
+| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|Dan Heng • Permansor Terrae]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「无论拥有怎样复杂的过去，无论去往多么遥远的未来，我们之间的关系也不会改变。我是星穹列车的领航员，姬子，永远与你眺望同一风景的家人。」
 有人并肩，有人守望，「开拓」从不是孤帆远航。
 她画下拓星的奇迹，银轨绵延，无名客们再次起航，照亮星河的长夜——终点处，她再度回望，启行的梦从未搁浅。
@@ -335,7 +335,7 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 ✧「星穹列车咖啡主理人」第1名 ✧
 ✧「但我的机器人在你之上」第1名 ✧
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 女孩的世界只剩下了自己。
  医院纯白的床单和遮罩，如同冷峻的围墙，将她和记忆中的暖色脸庞隔绝开来。
@@ -360,7 +360,7 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 「她真勇敢…就像我读到的那些领航员一样……」
 心愿有如颜料，在一次次的憧憬中，理想的模样已变得栩栩如生。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 她开始剧烈咳嗽，连画笔都拿不稳。
  原本能自由活动身体的时间就很有限，如今为了重启列车，她不得不以精准到分秒的日程表来进行管理。
@@ -388,7 +388,7 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 裴伽纳的巨人自天而降，击碎了疯狂的杀手。在幻月的照耀下，列车飞向了深空。
 只是这一次，启程的唯有一人。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 少女的「开拓」布满荆棘。
 因为银轨阻塞，她不得不在宇宙中摸索前行，重绘星图。
@@ -418,7 +418,7 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 雅利落Ⅵ，罗浮仙舟，匹诺康尼，翁法罗斯…越来越多的人与「开拓」相向而行，她拥有了可以被称为「家人」的伙伴，她的名字被许多世界铭记。
 这本是一个奇迹，而她希望这个奇迹能永远地持续下去。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 他/她/他/她她回到了启程之地。
 她知道「毁灭」的阴影从来没有真正离开，就像二相乐园的安乐只不过是灾难的推迟。

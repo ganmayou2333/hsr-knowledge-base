@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Empower |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Empower |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色提供治疗后，有30%固定概率恢复1点战技点，该效果每次行动只可触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 角色提供治疗后，有45%固定概率恢复1点战技点，该效果每次行动只可触发1次。

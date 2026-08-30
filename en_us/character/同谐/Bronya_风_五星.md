@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Bronya |
-| 命途 | Harmony |
-| 属性 | Wind |
-| 稀有度 | ★★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 贝洛伯格「大守护者」的继承人。兼有公主的高傲和军人的坚贞。 |
-| 定位 | 使我方目标立即行动并提供全队增益的角色 |
+| Character Name | Bronya |
+| Path | Harmony |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 贝洛伯格「大守护者」的继承人。兼有公主的高傲和军人的坚贞。 |
+| Role | 使我方目标立即行动并提供全队增益的角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 阿澄佳奈 |
-| 英语 | Madeline Reiter |
-| 中文 | 谢莹 |
-| 韩语 | 이보희 |
+| Japanese | 阿澄佳奈 |
+| English | Madeline Reiter |
+| Chinese | 谢莹 |
+| Korean | 이보희 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,242 |
-| 基础攻击力 | 582 |
-| 基础防御力 | 534 |
-| 基础速度 | 99 |
-| 嘲讽 | 100 |
-| 能量上限 | 120 |
+| Base HP | 1,242 |
+| Base ATK | 582 |
+| Base DEF | 534 |
+| Base SPD | 99 |
+| Taunt | 100 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/暴风之眼\|暴风之眼]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暴风之眼\|Storm Eye]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 12 |
-| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 53 |
-| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|Harmonic Tune]] | 12 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|Ancestral Hymn]] | 53 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|Stellaris Symphony]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 28 |
 
 ---
-## 战技
-### 普攻：Windrider Bullet
+## Skills
+### Basic ATK：Windrider Bullet
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Bronya's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Wind DMG equal to 140% of Bronya's ATK to one designated enemy.
 
-### 战技：Combat Redeployment
+### Skill：Combat Redeployment
 - **类型**：Skill
 - **简述**：Dispels 1 debuff from a single ally, increases the damage they deal, and allows them to immediately take action.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 当对自身施放该技能时，无法触发立即行动效果。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 33% | 0 | 1 | 1 |
   | Lv.2 | 36.3% | 0 | 1 | 1 |
@@ -134,14 +134,14 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 When this Skill is used on Bronya herself, she cannot immediately take action again.
 当对自身施放该技能时，无法触发立即行动效果。
 
-### 终结技：The Belobog March
+### Ultimate：The Belobog March
 - **类型**：Ultimate
 - **简述**：Increases ATK and CRIT DMG of all allies.
 - **最大等级**：15
 - **效果模板**：Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for #4[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 33% | 12% | 12% | 2 |
   | Lv.2 | 35.2% | 12.4% | 12.8% | 2 |
@@ -167,14 +167,14 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 - **满级效果**：Increases the ATK of all allies by 66%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for 2 turn(s).
 
-### 天赋：Leading the Way
+### Talent：Leading the Way
 - **类型**：Talent
 - **简述**：After this character uses Basic ATK, their next action will be Advanced Forward.
 - **最大等级**：15
 - **效果模板**：After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 15% |
   | Lv.2 | 16.5% |
@@ -197,14 +197,14 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 - **满级效果**：After using her Basic ATK, Bronya's next action will be Advanced Forward by 37.5%.
 
-### 秘技：Banner of Command
+### Technique：Banner of Command
 - **类型**：Technique
 - **简述**：After this character uses Technique, increases all allies' ATK at the start of the next battle.
 - **最大等级**：1
 - **效果模板**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
 
@@ -214,17 +214,17 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 - **满级效果**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 号令 | 晋阶2 | 普攻的暴击率提高至100%。 | 普攻的暴击率提高至100%。 | 信用点×5000、谐乐小调×3、守护者的悲愿×1 |
 | 附加能力2 | 阵地 | 晋阶4 | 战斗开始时，我方全体的防御力提高#2[i]%，持续#1[i]回合。 | 战斗开始时，我方全体的防御力提高20%，持续2回合。 | 信用点×20000、家族颂歌×5、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 军势 | 晋阶6 | 布洛妮娅在场时，我方全体造成的伤害提高#1[i]%。 | 布洛妮娅在场时，我方全体造成的伤害提高10%。 | 信用点×160000、群星乐章×8、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 暴击伤害 | 24% |
 | 效果抵抗 | 10% |
@@ -232,9 +232,9 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Hone Your Strength | When using Skill, there is a 50% fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown. |
 | E2 | Quick March | When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn. |
@@ -245,79 +245,79 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 生命值 / 能量恢复效率
 
 **推荐副词条**：暴击伤害 / 速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|重循苦旅的司铎]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量回复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下1个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/过往未来.md|过往未来]]
+### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：旧日纸鸢
 - **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/回到大地的飞行.md|回到大地的飞行]]
+### [[zh_cn/lightcone/同谐/回到大地的飞行.md|A Grounded Ascent]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★
 - **技能名**：再启程
 - **效果**：当装备者对我方单体角色施放战技或终结技后，装备者恢复【6.0/6.5/7.0/7.5/8.0】点能量，同时使技能目标获得1层【圣咏】，持续3回合，最多叠加3层，每层【圣咏】使持有者造成的伤害提高【15%/17%/19%/21%/24%】。装备者每对我方单体角色施放2次战技或终结技后，恢复1个战技点。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 生存 |
 |---|---|
 | 辅助位 | 辅助位 |
-| [[zh_cn/character/毁灭/镜流_冰_五星.md\|镜流]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
-| [[zh_cn/character/巡猎/希儿_量子_五星.md\|希儿]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |
+| [[zh_cn/character/毁灭/镜流_冰_五星.md\|镜流]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |
 | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/巡猎/素裳_物理_四星.md\|素裳]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 贝洛伯格「大守护者」继承人，年轻干练的银鬃铁卫统领。
 布洛妮娅从小接受着严格的教育，具备一名「继承人」所需的优雅举止与亲和力。
 但在看到下层区的恶劣环境后，未来的最高决策者逐渐生出了疑惑…「我所受的训练，真的能带领人民过上他们想要的生活么？」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 女孩从小就学会了隐藏自己的思绪。每天，她和其他孩子们走过同样的石路，进行同样的游戏，交流同样的喜好。但她从未被琐碎且平淡的生活淹没——每有独处的缝隙，她总会坐在灰褐色的石凳上仰望，想象不被头顶的圆盘所截断的、完整的天空。
 
@@ -327,7 +327,7 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 「让世界变得美好」
 
-### 角色故事·其二 （解锁条件：角色等级60）
+### Character Story·2（解锁条件：Character Level 60）
 
 女孩坐在母亲膝上，她有些冰凉的臂弯绕过自己的脖颈，给女孩带去无以言表的安全感。母亲的嗓音温婉、深邃，她在给女孩讲述一个历史久远的民间故事——那个故事的结尾不算圆满，但女孩却很钟意。母亲早已摸清她的喜好，那些以团圆收尾的童话会让女孩感到无趣，免去很多不必要的疑问，是诱她在晚上早早入眠的绝佳方法。
 
@@ -337,7 +337,7 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 那段对话没有继续，但她记得母亲露出了温柔的笑容。多年以后，回想起那个克里珀堡温暖的午后，她觉得母亲当时的笑容也许藏匿了一丝遗憾。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 从披上银鬃铁卫战服的一刻起，少女已经做好了一切觉悟。但她参加的第一场葬礼，情境之沉重仍然远超想象。
 
@@ -350,7 +350,7 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 「…我真希望自己能和他互换位置。」
 「学会咽下这些沉重的念想，也是成为领袖的必经之路。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 女人在房间中来回踱步，一扇顽固的大门拦在她和成百上千的民众之间。她对类似的宣讲早已十分熟悉，但等候时间的焦虑从未随着演说技艺的精进而消退。回想自己即将作出的承诺，还有那些为抚慰人心而精心设计的语句，她总会在这短暂的几分钟里陷入孩童般的混乱和怀疑。
 

@@ -4,20 +4,20 @@
 > 实体ID：114
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/1224/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Messenger Traversing Hackerspace |
-| 类型 | 隧洞遗器 |
-| 实体ID | 114 |
-## 获取途径
+| Name | Messenger Traversing Hackerspace |
+| Type | 隧洞遗器 |
+| Entity ID | 114 |
+## Acquisition
 药使之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases SPD by 6%.
 ### 4 件套
 When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked.
-## 部位
+## Pieces
 ### 手部：信使的百变义手
 **描述**：可随便拆卸的机械义手，能够将指节像子弹一样发射出去。
 **来历**：

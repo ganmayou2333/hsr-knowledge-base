@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Windup World (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Windup World (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：「晚上好，诸位『酒客』。」面具人的声音扑朔迷离，仿佛酒馆里每处物件都是祂的喉舌，「承蒙诸君厚爱，我们从『谜语人』那儿费了老大劲搞来一段佚失历史，并改编成一出微喜剧供诸君取乐。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我想瞥视神明的秽举。 | — |
 | 我想观赏天才的愚行。 | — |
@@ -56,6 +56,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 190 |  |

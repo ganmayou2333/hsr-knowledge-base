@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Aventurine |
-| 用途 | 骰子战斗角色 |
-| 评级 | ★★★ |
-| 类型 | Material / 骰子战斗角色 |
+| Item Name | Aventurine |
+| Use | 骰子战斗角色 |
+| Rarity | ★★★ |
+| Type | Material / 骰子战斗角色 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['推进开拓任务，完成任务「银河战力党传说」']

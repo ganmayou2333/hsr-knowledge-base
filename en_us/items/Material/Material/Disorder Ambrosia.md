@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Disorder Ambrosia |
-| 用途 | 世界货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Disorder Ambrosia |
+| Use | World Currency |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 一种存在于时序之外的神奇液体，可投入创世涡旋中的「盆地之潮」。
 
 
-## 获得途径
+## Acquisition
 
 - 探索翁法罗斯
 - 开拓任务

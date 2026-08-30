@@ -7,25 +7,25 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Entropic Die |
-| 类型 | 奇物（同名合并） |
-| 星级 | 1星 |
+| Name | Entropic Die |
+| Type | 奇物（同名合并） |
+| Rarity | 1星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 3 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 20 | Randomly enhances 2 Blessing(s) immediately after obtaining this Curio. |
 | 1020 | Randomly enhances 2 Blessing(s) immediately after obtaining this Curio. |
 | 3020 | Randomly enhances 2 Blessing(s) immediately after obtaining this Curio. |
 
-## 背景故事
+## Story
 
 万象无常骰曾在宇宙中极为常见，造成无数微小但邪恶的混乱。它的使用方法是这样的：手掌紧紧握住骰子，默念任意一句有意义的话，想着你最想吃的食物同时将骰子掷出。某一面向上时你会得到意外之财，某一面向上时你会收获美好的爱情，但更多面的结局是疾病、霉运、诅咒和终生相伴的梅雨。尽管如此，仍有许多人热衷于投掷万象无常骰，并快乐地宣称这不过是假面愚者的一个玩笑。

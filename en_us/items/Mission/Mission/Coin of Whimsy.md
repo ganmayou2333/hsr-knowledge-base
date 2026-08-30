@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Coin of Whimsy |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Coin of Whimsy |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 诡计的泰坦之信物，如同它在神话中的身形，哭笑两面，翻飞自如。最早是欺诈者用来顶替利衡的伪币，他们担忧这样的行为会招来塔兰顿的惩戒，所以将其制成扎格列斯的样子，借此寻求诡计的赐福。
 
 
-## 获得途径
+## Acquisition
 
 - 完成「扎格列斯之手」系列挑战后获得

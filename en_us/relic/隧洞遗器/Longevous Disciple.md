@@ -4,20 +4,20 @@
 > 实体ID：113
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/1225/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Longevous Disciple |
-| 类型 | 隧洞遗器 |
-| 实体ID | 113 |
-## 获取途径
+| Name | Longevous Disciple |
+| Type | 隧洞遗器 |
+| Entity ID | 113 |
+## Acquisition
 药使之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Max HP by 12%.
 ### 4 件套
 When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks.
-## 部位
+## Pieces
 ### 手部：莳者的机巧木手
 **描述**：专为长生种制造的机巧义肢，使用时无需侵入肉体。
 **来历**：

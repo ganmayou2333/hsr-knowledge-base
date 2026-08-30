@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Supplies Material Box (Standard) |
-| 用途 | • 标准型 贵重物品 / • 专业型 贵重物品 |
-| 评级 | ★★★ / ★★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Supplies Material Box (Standard) |
+| Use | • 标准型 贵重物品 / • 专业型 贵重物品 |
+| Rarity | ★★★ / ★★★★ |
+| Type | Usable / 礼物 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 

@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Blue Ocean Strategy |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_18.png` |
+| Name | Blue Ocean Strategy |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_18.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 象征性意思意思 | 花费50宇宙碎片，购买2个随机1-2星祝福，有50%概率额外获得1个 |
 | 多买点送亲戚朋友 | 花费100宇宙碎片，购买2个随机1-2星奇物，有50%概率额外获得1个 |
@@ -31,6 +31,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 424201 |  |

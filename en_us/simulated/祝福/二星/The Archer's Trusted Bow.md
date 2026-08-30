@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Archer's Trusted Bow |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | The Archer's Trusted Bow |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616445 | When the same ally target acts consecutively, there is a 40% fixed chance to recover 1 Skill Point. |
 | 617445 | After an ally target launches a Follow-Up ATK, there is a 40% fixed chance to recover 1 Skill Point. |

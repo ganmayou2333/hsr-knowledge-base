@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Mung Bean Soda Sukiyaki |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Mung Bean Soda Sukiyaki |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即使我方全体消耗等同于各自生命上限5%的生命值，在下次战斗中使我方全体攻击力提高40%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」
 - 怪奇滋味

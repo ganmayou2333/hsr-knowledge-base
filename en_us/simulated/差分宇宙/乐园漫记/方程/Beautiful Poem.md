@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Beautiful Poem |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 6记忆+4繁育 |
+| Name | Beautiful Poem |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 6记忆+4繁育 |
 
 
-## 效果
+## Effect
 
 进入【蝶魄】状态后，忆灵施放攻击后可造成【蝶魄】的真实伤害且不消耗其攻击次数。生命上限最高的敌方目标会陷入【结茧】状态，持续至退出【蝶魄】，状态持续期间记录其受到的所有【蝶魄】伤害。每受到5次攻击后/该目标被消灭后/退出【蝶魄】时，对所有敌方目标造成等同于记录伤害200%的伤害，并清除记录值。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Waltz of Ocean and Winds |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Waltz of Ocean and Winds |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：宴会终将谢幕，奏响那曲海与风起舞之歌，颂唱人世的诸般享乐。
 差分宇宙：在墨涅塔教会信徒们何为艺术之前，是谁掀起浪涛，教会人们在喜悦时起舞，在亢奋时呼号？法吉娜，它把酿造的技艺传播到每一寸土地，难道只是为了有人在宴会上陪她一起欢笑？
 差分宇宙：它藏在醉客的酒杯里，与众人一同参与对自己的祭祀。它吞下远征的航船，邀水手们在肚子里纵情豪饮，又在迷醉后连人带船吐上岸去。
 差分宇宙：哦，法吉娜，哪里有宴会，哪里就有你。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 举杯豪饮，参与祭祀。 | — |
 | 向大海倾倒迷人的祭品。 | — |
@@ -64,6 +64,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 235 |  |

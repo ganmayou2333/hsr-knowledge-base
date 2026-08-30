@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Total Recall |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Total Recall |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，有150%基础概率使敌方目标抵抗冻结状态的概率降低100%，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

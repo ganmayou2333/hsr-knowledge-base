@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Clock Credits |
-| 用途 | 世界货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Clock Credits |
+| Use | World Currency |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 据说是钟表匠亲自发行的纪念货币，只能在钟表小子雕像处使用。
 
 
-## 获得途径
+## Acquisition
 
 - 探索匹诺康尼
 - 开拓任务

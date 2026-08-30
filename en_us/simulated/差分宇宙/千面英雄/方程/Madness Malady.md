@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Madness Malady |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*4记忆*2 |
+| Name | Madness Malady |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*4记忆*2 |
 
 
-## 效果
+## Effect
 
 我方目标受到伤害或消耗生命值时，若当前生命值百分比小于40%，消耗队伍中【执念】层数最高的目标5层【执念】，回复等同于自身生命上限25%的生命值，并使造成的伤害提高150%，持续2回合。该效果每回合最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Delicate Snow Globe |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Delicate Snow Globe |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 布洛妮娅儿时的玩具。雪鸮在雪地上空盘旋，寻找着捕猎兔子的最佳机会。
 
 
-## 获得途径
+## Acquisition
 
 - 【开拓任务】星星是冰冷的玩具

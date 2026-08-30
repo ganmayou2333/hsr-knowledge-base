@@ -4,20 +4,20 @@
 > 实体ID：326
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/7108/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | City of Converging Stars |
-| 类型 | 位面饰品 |
-| 实体ID | 326 |
-## 获取途径
+| Name | City of Converging Stars |
+| Type | 位面饰品 |
+| Entity ID | 326 |
+## Acquisition
 鎏金追忆·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：千星城的传媒总部
 **描述**：位面球中封装着「星际和平娱乐」的巨构总部——千星城。这座打造过无数巨星的传媒之都，以极高的工业化水准向寰宇放送各类娱乐产品。
 **来历**：

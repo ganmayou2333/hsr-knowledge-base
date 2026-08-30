@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ultimate Experience: Hesitance |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Ultimate Experience: Hesitance |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 冻结状态解除时，敌方目标造成的伤害降低20%，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 冻结状态解除时，敌方目标造成的伤害降低24%，持续2回合。

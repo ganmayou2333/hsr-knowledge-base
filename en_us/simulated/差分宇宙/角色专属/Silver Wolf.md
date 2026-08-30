@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Silver Wolf |
-| 类型 | 祝福 |
-| 命途 | 无（按角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 角色专属|
+| Name | Silver Wolf |
+| Type | Blessing |
+| Path | 无（按角色） |
+| Rarity | TBD |
+| Special Type | 角色专属 |
 
 
-## 效果
+## Effect
 
 银狼在差分宇宙中的伤害获得增幅。
 对持有大于等于8个负面状态的敌方目标造成的最终伤害提高10%，每超过1个，额外提高1%。
 
-## 强化效果
+## Enhanced Effect
 
 -

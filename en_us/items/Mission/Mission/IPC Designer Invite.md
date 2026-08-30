@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | IPC Designer Invite |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | IPC Designer Invite |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 星际和平公司的设计师入职邀请函，热情、诚挚、并且薪资诱人。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【亦师亦友】

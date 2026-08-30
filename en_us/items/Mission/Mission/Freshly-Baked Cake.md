@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Freshly-Baked Cake |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Freshly-Baked Cake |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 新鲜又美味的糕点，不知是哪个倒霉的科员落下的东西。
 
-## 获得途径
+## Acquisition
 
 - 1.6活动冒险任务【开局一人一狗•其三】

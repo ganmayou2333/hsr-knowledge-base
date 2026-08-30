@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Court of Echoes |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 同谐*2记忆*2 |
+| Name | Court of Echoes |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 同谐*2记忆*2 |
 
 
-## 效果
+## Effect
 
 每层【执念】将使击破特攻提高0.8%，忆灵的击破特攻额外再提高0.5%。
 
-## 强化效果
+## Enhanced Effect
 
 -

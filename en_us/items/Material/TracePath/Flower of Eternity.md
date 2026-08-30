@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Flower of Eternity |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / TracePath |
+| Item Name | Flower of Eternity |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 4★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 由生命之芽结出的美丽花朵。可大幅提升丰饶角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【边缘通路】
 - 「万能合成机」- 材料合成

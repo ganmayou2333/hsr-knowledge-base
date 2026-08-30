@@ -4,20 +4,20 @@
 > 实体ID：131
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/7645/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | As Navigator Isee Sees It |
-| 类型 | 隧洞遗器 |
-| 实体ID | 131 |
-## 获取途径
+| Name | As Navigator Isee Sees It |
+| Type | 隧洞遗器 |
+| Entity ID | 131 |
+## Acquisition
 观火之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases ATK by 12%.
 ### 4 件套
 When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by 18%, stacking up to 3 time(s). At the start of the wearer's turn or after using Ultimate, removes 1 stack(s) of this effect.
-## 部位
+## Pieces
 ### 手部：领航员的游戏之骰
 **描述**：领航员的骰子戒指，每一次转动都会给出有趣的谜题。他似乎和很多人玩过游戏，有些人赢了，有些人则就此不知所踪。
 **来历**：

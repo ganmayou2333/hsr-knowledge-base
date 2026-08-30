@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Temple of Reticence |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_27.png` |
+| Name | Temple of Reticence |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_27.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 向已死之王献上愤怒-带走嗔王的宝藏 | 立即摧毁1个可摧毁奇物，打开门扉-获得400宇宙碎片 |
 | 向已死之王献上愤怒-带走嗔王的回忆 | 立即摧毁1个可摧毁奇物，打开门扉-获得2个可损毁奇物 |
@@ -30,6 +30,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 424501 |  |

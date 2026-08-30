@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mr. Violence |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Mr. Violence |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616653 | Increases the CRIT Rate of ally targets' Follow-Up ATK DMG and Additional DMG by 18%. |
 | 617653 | Increases ally targets' CRIT DMG by 20%. When dealing Elation DMG, additionally increases it by 8%. |

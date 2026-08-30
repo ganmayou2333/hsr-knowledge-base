@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Cruising in the Stellar Sea |
-| 命途 | The Hunt |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Cruising in the Stellar Sea |
+| Path | The Hunt |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Coursing 'tween the sea of stars,
 THEY cruise with the speed of a rainbow's chromatic flash.
@@ -25,18 +25,18 @@ and seeking deliverance.
 Akin to a vow unbroken, THEIR voyage will be,
 ad infinitum.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 529 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Chase
 
 Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

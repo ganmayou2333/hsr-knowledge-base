@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Automatic Wooden Dummy |
-| 用途 | 消耗品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Automatic Wooden Dummy |
+| Use | Consumable |
+| Rarity | ★★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后在下次战斗中会进入自动战斗状态且无法解除。若成功进入自动战斗状态，我方全体造成的伤害提高45%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」
 - 陈机铺

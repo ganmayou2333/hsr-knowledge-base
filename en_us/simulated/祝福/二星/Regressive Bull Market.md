@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Regressive Bull Market |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Regressive Bull Market |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色进入战斗时，获得12层【战意】。
 
-## 强化效果
+## Enhanced Effect
 
 角色进入战斗时，获得18层【战意】。

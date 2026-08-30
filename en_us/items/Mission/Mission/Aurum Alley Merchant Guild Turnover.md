@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Aurum Alley Merchant Guild Turnover |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Aurum Alley Merchant Guild Turnover |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 金人巷复兴计划最直接的成果，更重要的是，它是金人巷恢复商业活力的证明。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧·其三】

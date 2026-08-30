@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | War That Continues to Thrive |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | War That Continues to Thrive |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：让我们回顾一场生生不息的战争，亦是地上的众多战争的开始。
 差分宇宙：尼卡多利锻造出诸多神兵，模仿它的手笔，地上的众人也得以冶炼武器。
@@ -25,7 +25,7 @@
 差分宇宙：其二为剑，在见证歌耳戈的勇武后，用神血精炼，被城邦累土拱卫，成为指向全能者的锋刃。
 差分宇宙：其三为盾。在塞纳托斯的馈赠下，由冥界的泥土抟造，足以抵挡愤怒的雷霆。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 但盾已无处找寻。 | — |
 
@@ -54,6 +54,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 240 |  |

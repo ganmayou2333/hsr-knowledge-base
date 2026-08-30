@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dirty Mechanical Part |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Dirty Mechanical Part |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 用于机械生产的小小零件，比拳头更小。
 
-## 获得途径
+## Acquisition
 
 - 在仙舟「罗浮」-星槎海中枢-赎珠坊调查闪光点获取

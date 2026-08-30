@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Solemn Snare |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Solemn Snare |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 角色每获得1点战技点，都会使下次命途回响造成的伤害提高20%，该效果最多叠加8层。
 
-## 强化效果
+## Enhanced Effect
 
 -

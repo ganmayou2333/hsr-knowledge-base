@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Substellar Belt |
-| 类型 | 祝福 |
-| 命途 | 毁灭&存护 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Substellar Belt |
+| Type | Blessing |
+| Path | 毁灭&存护 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响会为当前生命值百分比小于50%的角色，提供能够抵消等同于其生命上限40%伤害的护盾，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

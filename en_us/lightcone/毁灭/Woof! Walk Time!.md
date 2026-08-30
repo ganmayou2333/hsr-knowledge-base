@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Woof! Walk Time! |
-| 命途 | Destruction |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Woof! Walk Time! |
+| Path | Destruction |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Pity that no one has seen it...
 Seen it screw up its nose and sniff around and dive into an empty path.
@@ -24,18 +24,18 @@ Seen it retract its claws, enter the password, and leap into the embraces of fre
 Has nobody seen it still...?
 A grown dog can now walk itself in space!
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Run!
 
 Increases the wearer's ATK by 10%, and increases their DMG to enemies afflicted with Burn or Bleed by 16%. This also applies to DoT.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

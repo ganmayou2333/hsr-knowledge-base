@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Aether Phantom |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*4繁育*4 |
+| Name | Aether Phantom |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*4繁育*4 |
 
 
-## 效果
+## Effect
 
 【孢子】上限提高5个。角色发动追加攻击后，使攻击目标获得3个【孢子】。
 
-## 强化效果
+## Enhanced Effect
 
 -

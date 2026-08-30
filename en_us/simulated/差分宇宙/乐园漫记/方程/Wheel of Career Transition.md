@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Wheel of Career Transition |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4记忆+2同谐 |
+| Name | Wheel of Career Transition |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4记忆+2同谐 |
 
 
-## 效果
+## Effect
 
 我方目标【执念】上限提高4层，且全队每层【执念】额外提高0.3%速度，击破敌方目标弱点时，我方全体目标获得3层【执念】。
 
-## 强化效果
+## Enhanced Effect
 
 -

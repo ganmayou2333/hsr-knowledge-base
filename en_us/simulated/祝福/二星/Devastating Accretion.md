@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Devastating Accretion |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Devastating Accretion |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色每损失1%生命值，攻击力提高0.8%。
 
-## 强化效果
+## Enhanced Effect
 
 角色每损失1%生命值，攻击力提高0.8%，防御力提高0.5%。

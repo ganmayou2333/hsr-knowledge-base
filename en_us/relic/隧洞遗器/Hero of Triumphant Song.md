@@ -4,20 +4,20 @@
 > 实体ID：123
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/4665/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Hero of Triumphant Song |
-| 类型 | 隧洞遗器 |
-| 实体ID | 123 |
-## 获取途径
+| Name | Hero of Triumphant Song |
+| Type | 隧洞遗器 |
+| Entity ID | 123 |
+## Acquisition
 弦歌之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases ATK by 12%.
 ### 4 件套
 While the wearer's memosprite is on the field, increases the wearer's SPD by 6%. When the wearer's memosprite attacks, increases the wearer's and memosprite's CRIT DMG by 30%, lasting for 2 turn(s).
-## 部位
+## Pieces
 ### 手部：英豪的鉴金腕铠
 **描述**：一对精致的督战勇士护腕。紧贴着勇士的手腕，稳稳地支撑着胜利号角。
 **来历**：

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Stagnant Weave |
-| 类型 | 祝福（同名合并） |
-| 命途 | 同谐 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Stagnant Weave |
+| Type | Blessing (merged) |
+| Path | 同谐 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616950 | When any ally target Breaks an enemy target's Weakness, delays the enemy target's action by 20%. |
 | 617950 | When any ally target Breaks an enemy target's Weakness, delays the enemy target's action by 20%. |

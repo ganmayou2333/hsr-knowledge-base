@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Long May Rainbows Adorn the Sky |
-| 命途 | Remembrance |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Long May Rainbows Adorn the Sky |
+| Path | Remembrance |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Emotions are like clouds, and we are the sky that carries them. If the sky is overcast, then our emotions will fluctuate all over."
 The physician listens with care to the visitor's sorrows, offering words of gentle solace.
@@ -29,18 +29,18 @@ In the distance, the boundless evernight still surges, with many ruins standing 
 Before departing, she makes a wish to the sky —
 "May the sky forever hold that rainbow radiance."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 476 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Tolerant
 
 Increases the wearer's SPD by 18%. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to #2[f1]% of their current HP, and after the next attack of the wearer's memosprite, enables it to additionally deal 1 instance of Additional DMG equal to #6[f1]% of the total consumed HP to the attacked target, with the damage type based on the memosprite's type. Then, the total consumed HP is reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by #4[f1]%, lasting for 2 turn(s). Effects of the same type cannot stack.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

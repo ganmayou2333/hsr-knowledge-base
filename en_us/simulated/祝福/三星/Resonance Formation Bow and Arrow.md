@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Bow and Arrow |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Bow and Arrow |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 当命途回响「巡猎」造成攻击时，对生命值小于其自身生命上限50%的敌方目标必定造成暴击，暴击伤害为50%，并在消灭目标后恢复50%能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

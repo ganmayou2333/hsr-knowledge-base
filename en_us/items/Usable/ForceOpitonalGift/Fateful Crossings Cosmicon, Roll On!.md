@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Fateful Crossings: "Cosmicon, Roll On!" |
-| 用途 | 礼物 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 强制可选礼物 |
+| Item Name | Fateful Crossings: "Cosmicon, Roll On!" |
+| Use | Gift |
+| Rarity | ★★★★ |
+| Type | Usable / 强制可选礼物 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 活动/邮件获得

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Vermeil Bow and White Arrow |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Vermeil Bow and White Arrow |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612450 | For every Blessing from The Hunt, increases SPD by 3%. This effect can stack up to a max of 6 time(s). |
 | 615450 | Increases characters' SPD by 8%. |

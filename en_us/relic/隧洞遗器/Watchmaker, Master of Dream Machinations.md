@@ -4,20 +4,20 @@
 > 实体ID：118
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/2372/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Watchmaker, Master of Dream Machinations |
-| 类型 | 隧洞遗器 |
-| 实体ID | 118 |
-## 获取途径
+| Name | Watchmaker, Master of Dream Machinations |
+| Type | 隧洞遗器 |
+| Entity ID | 118 |
+## Acquisition
 梦潜之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Break Effect by 16%.
 ### 4 件套
 When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked.
-## 部位
+## Pieces
 ### 手部：钟表匠的交运腕表
 **描述**：一块做工精美的手表，有着奇特的子盘与时针，据说是梦境中好运的象征。
 **来历**：

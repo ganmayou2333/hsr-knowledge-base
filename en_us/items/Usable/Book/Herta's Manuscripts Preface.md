@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Herta's Manuscripts: Preface |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Herta's Manuscripts: Preface |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 黑塔的手稿：《作者序》
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-基座舱段，位于大厅的服务台台面上

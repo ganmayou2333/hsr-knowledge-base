@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Giant's Mission |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Giant's Mission |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：古老的歌谣口口相传，讲述那遥远的过去，巨人刻法勒的使命。
 差分宇宙：诸神的造物令巨人分外欣喜，世界也因此充满生气。但它仍旧不曾满意——
@@ -25,7 +25,7 @@
 差分宇宙：于是，巨人冥思苦想。终于在某一刻，顿悟了自身的使命——
 差分宇宙：「当以我身为镜，造万物之灵。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 人子当为万物之灵。 | — |
 | 现在才发现，灯下黑？ | — |
@@ -62,6 +62,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 252 |  |

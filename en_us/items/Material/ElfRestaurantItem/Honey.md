@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Honey |
-| 用途 | 精灵餐厅物品 |
-| 评级 | ★★ |
-| 类型 | Material / 精灵餐厅物品 |
+| Item Name | Honey |
+| Use | 精灵餐厅物品 |
+| Rarity | ★★ |
+| Type | Material / 精灵餐厅物品 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['商店购买获取']

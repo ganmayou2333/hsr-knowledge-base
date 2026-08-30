@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Café Self-Deceit |
-| 类型 | 祝福（同名合并） |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Café Self-Deceit |
+| Type | Blessing (merged) |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612241 | When an enemy has Suspicion on them, inflicts 1 extra stack(s) of Suspicion. |
 | 615241 | When an enemy has Suspicion on them, inflicts 1 extra stack(s) of Suspicion. |

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Biographer |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*3欢愉*2 |
+| Name | Biographer |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*3欢愉*2 |
 
 
-## 效果
+## Effect
 
 角色对冻结状态下的敌方目标施放攻击后，对其造成1次等同于角色攻击力240%的【回味】伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

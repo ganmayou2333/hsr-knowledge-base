@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lullaby to Return Home |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Lullaby to Return Home |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：聆听一则归乡的睡前故事，关于去往来生的旅途。
 差分宇宙：冥河的潮汐，令航船腐朽，血肉成灰，禁绝现世的生命。它追随死亡而来，漫上战场与荒原，直到引渡去所有的死者，才退回塞纳托斯的国度。
 差分宇宙：若想要见到塞纳托斯，这便是我们旅途的开始。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 踏入冰冷的河水。 | — |
 | 承认今生的终结。 | — |
@@ -62,6 +62,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 244 |  |

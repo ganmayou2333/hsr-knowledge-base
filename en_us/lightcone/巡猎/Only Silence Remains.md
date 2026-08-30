@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Only Silence Remains |
-| 命途 | The Hunt |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Only Silence Remains |
+| Path | The Hunt |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Shouldn't we get off? It's our stop."
 A chuckle came from above. His eyes moved, but he didn't look up.
@@ -25,18 +25,18 @@ A chuckle came from above. His eyes moved, but he didn't look up.
 He grasped his pen tighter as he looked at the bloody scene drawn in the notebook from memory.
 "I see. It was the one about you..."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Record
 
 Increases the wearer's ATK by 16%. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by 12%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

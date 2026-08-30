@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Nightmare Lord |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 6毁灭+4记忆 |
+| Name | Nightmare Lord |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 6毁灭+4记忆 |
 
 
-## 效果
+## Effect
 
 我方任意目标受到攻击后，视为我方全体目标受到攻击，并为我方全体目标充能等同于各自生命上限与护盾之和15%的【耀变】。
 
-## 强化效果
+## Enhanced Effect
 
 -

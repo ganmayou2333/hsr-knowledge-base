@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Experience: Thrill of Escalation |
-| 类型 | 祝福（同名合并） |
-| 命途 | 记忆 |
-| 星级 | 一星 |
-| 特殊类型 | 体验 |
+| Name | Experience: Thrill of Escalation |
+| Type | Blessing (merged) |
+| Path | 记忆 |
+| Rarity | 1★ |
+| Special Type | 体验 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612156 | When a character Freezes an enemy, regenerates 8 Energy. This effect may only trigger once per action. |
 | 615156 | When a character Freezes an enemy, regenerates 8 Energy. This effect may only trigger once per action. |

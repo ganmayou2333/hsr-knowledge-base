@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Propagation: Nest Exploration (Second Praetorian) |
-| 类型 | 事件 |
-| 属性 | 虫群 |
-| 图片 | `image/simulated_event/PicRogueEvent_4.png` |
+| Name | Propagation: Nest Exploration (Second Praetorian) |
+| Type | Event |
+| Attribute | 虫群 |
+| Image | `image/simulated_event/PicRogueEvent_4.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 进入探取无名客遗物。 | 获得150宇宙碎片，获得1个随机奇物 |
 | 加入「鏖兜虫」作战单位。 | 进入战斗，并获得200宇宙碎片。 |
@@ -39,6 +39,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 119102 |  |

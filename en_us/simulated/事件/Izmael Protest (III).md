@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Izmael Protest (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Izmael Protest (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 黑塔：「看吧，这就是我说的，『运气』。」黑塔若有所思地看向帕提维娅，尽管博识学会的妥协已指日可待，现在的你们，仍是两位滞留于伊斯梅尔的落魄学士。
 模拟宇宙：在书页状的图书馆前，学士们相互簇拥，齐声高唱。从高处仰望，如同一群蚂蚁，它们将撼动屹立了数百个琥珀纪的河堤。
 黑塔：「灵感就是这样，只需要一些波澜，就能浮现。正因如此，也很容易消失…」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 你满脸过来人的表情 | — |
 | 一听就是有故事的人。 | — |
@@ -53,6 +53,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 213 |  |

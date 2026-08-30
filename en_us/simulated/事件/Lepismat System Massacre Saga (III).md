@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lepismat System: Massacre Saga (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Lepismat System: Massacre Saga (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·余烬宇宙：在这场浩劫平息后，一些以罪恶感为食的「血罪灵」从虚空中出现，短暂停留。崭新出生的*血罪灵*只顾手舞足蹈，它成为退场者意志的集结：死而又生、生而又死的虫群；摧毁又建立、建立又摧毁的文明……
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 把它吃掉！ | 它不知道自己只是一团气体吗？ |
 | 告诉它生前的名字。 | 名字是空虚的生者为己而造的面具。 |
@@ -45,6 +45,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 115701 |  |

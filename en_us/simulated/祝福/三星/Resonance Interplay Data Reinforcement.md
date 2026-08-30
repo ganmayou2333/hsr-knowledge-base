@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Data Reinforcement |
-| 类型 | 祝福 |
-| 命途 | 智识&虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Data Reinforcement |
+| Type | Blessing |
+| Path | 智识&虚无 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 弱点击破状态下的敌方目标，受到攻击后不会消耗【突触共鸣】的次数。
 
-## 强化效果
+## Enhanced Effect
 
 -

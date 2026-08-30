@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Home of Odes |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Home of Odes |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 繁育*6
 记忆*4 |
 
 
-## 效果
+## Effect
 
 【蝶魄】所需充能数提高50%。进入【蝶魄】状态后，我方全体目标行动提前50%，【蝶魄】造成的真实伤害倍率提高原倍率的50%，我方全体每有1层【执念】额外提高1%。
 
-## 强化效果
+## Enhanced Effect
 
 -

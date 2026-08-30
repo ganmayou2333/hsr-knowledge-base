@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Nildis |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Normal.png` |
+| Name | Nildis |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Normal.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 翻开牌。 | 每次成功获得宇宙碎片（100碎片），失败进入战斗，胜利后获得225宇宙碎片。当前有20%/40%/60%/80%/100%概率失败。 |
 | 放弃 | 离开 |
@@ -31,7 +31,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 13501 |  |
 | 13502 |  |

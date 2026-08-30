@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Questioning of Purpose |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Questioning of Purpose |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色击破特攻提高50%。
 
-## 强化效果
+## Enhanced Effect
 
 角色击破特攻提高75%。

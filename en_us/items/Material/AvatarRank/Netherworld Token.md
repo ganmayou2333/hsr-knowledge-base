@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Netherworld Token |
-| 用途 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / AvatarRank |
+| Item Name | Netherworld Token |
+| Use | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / AvatarRank |
 
-## 说明
+## Description
 
 金人勾魂使的武器，物理属性角色的晋升素材。
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【绥园】
 - 「万能合成机」- 材料置换

@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | {NICKNAME} |
-| 命途 | Remembrance |
-| 属性 | Ice |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| 定位 | 召唤忆灵「迷迷」并提供真实伤害的辅助型角色 |
+| Character Name | {NICKNAME} |
+| Path | Remembrance |
+| Attribute | Ice |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
+| Role | 召唤忆灵「迷迷」并提供真实伤害的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 榎木淳弥/石川由依 |
-| 英语 | Caleb Yen/Rachael Chau |
-| 中文 | 秦且歌/陈婷婷 |
-| 韩语 | 김명준/김하루 |
+| Japanese | 榎木淳弥/石川由依 |
+| English | Caleb Yen/Rachael Chau |
+| Chinese | 秦且歌/陈婷婷 |
+| Korean | 김명준/김하루 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 543 |
-| 基础防御力 | 631 |
-| 基础速度 | 103 |
-| 嘲讽 | 100 |
-| 能量上限 | 160 |
+| Base HP | 1,048 |
+| Base ATK | 543 |
+| Base DEF | 631 |
+| Base SPD | 103 |
+| Taunt | 100 |
+| Max Energy | 160 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|深邃的星外质]] | 28 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|Enigmatic Ectostella]] | 28 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料                        | 数量      |           |
+| Materials | Qty | |
 | ------------------------- | ------- | --------- |
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,454,800 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3         |
-| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 4 |
-| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 31 |
-| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 64 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]]  | 9         |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 18 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 27 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 16 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,454,800 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3         |
+| [[zh_cn/items/Material/TracePath/思量的种\|Bīja of Consciousness]] | 4 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|Seedling of Manas]] | 31 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|Flower of Ālaya]] | 64 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]]  | 9         |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 18 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 27 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 16 |
 
 ---
-## 战技
-### 普攻：Leave It to Me!
+## Skills
+### Basic ATK：Leave It to Me!
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of Trailblazer's ATK to one designated enemy.
 
-### 战技：I Choose You!
+### Skill：I Choose You!
 - **类型**：Skill
 - **简述**：Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.
 - **最大等级**：15
 - **效果模板**：Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 30% | 10% |
   | Lv.2 | 33% | 10% |
@@ -128,14 +128,14 @@
 
 - **满级效果**：Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.
 
-### 终结技：Together, Mem!
+### Ultimate：Together, Mem!
 - **类型**：Ultimate
 - **简述**：Summons memosprite Mem. Grants Mem Charge, then makes Mem deal massive Ice DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：Summons memosprite Mem. Grants Mem #2[i]% Charge, then makes Mem deal Ice DMG equal to #1[i]% of Mem's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 120% | 40% |
   | Lv.2 | 132% | 40% |
@@ -159,14 +159,14 @@
 
 - **满级效果**：Summons memosprite Mem. Grants Mem 40% Charge, then makes Mem deal Ice DMG equal to 300% of Mem's ATK to all enemies.
 
-### 天赋：Almighty Companion
+### Talent：Almighty Companion
 - **类型**：Talent
 - **简述**：Every time a certain amount of Energy is regenerated by all allies, Mem gains Charge.
 - **最大等级**：15
 - **效果模板**：Memosprite Mem has an initial SPD of #1[i] and a Max HP equal to #2[i]% of Trailblazer's Max HP plus #4[i]. For every #3[i] Energy regenerated by all allies in total, Mem gains 1% Charge.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 130 | 50% | 10 | 400 |
   | Lv.2 | 130 | 53% | 10 | 424 |
@@ -192,7 +192,7 @@
 
 - **满级效果**：Memosprite Mem has an initial SPD of 130 and a Max HP equal to 95% of Trailblazer's Max HP plus 760. For every 10 Energy regenerated by all allies in total, Mem gains 1% Charge.
 
-### 秘技：Memories Back as Echoes
+### Technique：Memories Back as Echoes
 - **类型**：Technique
 - **简述**：Creates a Special Dimension. Enemies in the dimension cease actions. When entering battle against enemies in the dimension, delays the action of all enemies and deals minor Ice DMG to all enemies.
 - **最大等级**：1
@@ -203,7 +203,7 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 我方制造的领域效果最多存在1个。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 10 | 50% | 100% |
 
@@ -218,28 +218,28 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 与处于时停状态下的敌人进入战斗后，使敌方全体行动延后50%，随后对敌方全体造成等同于开拓者100%攻击力的冰属性伤害。
 我方制造的领域效果最多存在1个。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 追念之权杖 | 晋阶2 | 战斗开始时，开拓者的行动提前#1[i]%。首次召唤迷迷时，使迷迷获得#2[i]%充能。 | 战斗开始时，开拓者的行动提前30%。首次召唤迷迷时，使迷迷获得40%充能。 | 信用点×4000、思量的种×2、吉光片羽×1 |
 | 附加能力2 | 袖珍的事诗 | 晋阶4 | 迷迷施放【坏人！麻烦！】时，立即获得#1[i]%充能。 | 迷迷施放【坏人！麻烦！】时，立即获得5%充能。 | 信用点×16000、末那芽苗×5、命运的足迹×1、吉光片羽×1 |
 | 附加能力3 | 磁石与长链 | 晋阶6 | 持有【迷迷的声援】的我方目标能量上限大于#1[i]点时，每超过#2[i]点，通过【迷迷的声援】造成的真实伤害倍率额外提高#3[i]%，最多提高#4[i]%。 | 持有【迷迷的声援】的我方目标能量上限大于100点时，每超过10点，通过【迷迷的声援】造成的真实伤害倍率额外提高2%，最多提高20%。 | 信用点×128000、阿赖耶华×6、命运的足迹×1、吉光片羽×1 |
-| 附加能力4 | 未完的尾声 | 待补充 |  | 施放终结技后，获得1层【史诗】，最多持有2层。持有【史诗】且迷迷在场时，普攻强化为【明天，一同写下！】。 | 待补充 |
+| 附加能力4 | 未完的尾声 | TBD | | 施放终结技后，获得1层【史诗】，最多持有2层。持有【史诗】且迷迷在场时，普攻强化为【明天，一同写下！】。 | TBD |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 14% |
-| 攻击力 | 14% |
+| HP | 14% |
+| ATK | 14% |
 | 暴击伤害 | 37.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Narrator of the Present | Increases the CRIT Rate of ally targets with "Mem's Support" by 10%. When an ally target has "Mem's Support," the effect of "Mem's Support" also applies to the target's memosprite/memomaster. This effect cannot stack. |
 | E2 | Gleaner of the Past | When ally memosprites (aside from Mem) take action, Trailblazer regenerates 8 Energy. This effect can trigger a max of 1 time(s) per turn. The trigger count resets at the start of Trailblazer's turn. |
@@ -250,57 +250,57 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 冰属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击伤害 / 速度 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/凯歌祝捷的英豪\|凯歌祝捷的英豪]] | 装备者的忆灵在场时，装备者的速度提高6%，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高30%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/凯歌祝捷的英豪\|Hero of Triumphant Song]] | 装备者的忆灵在场时，装备者的速度提高6%，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高30%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|梦想之地匹诺康尼]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|Penacony, Land of the Dreams]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|多流汗，少流泪]]
+### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|Sweat Now, Cry Less]]
 
 - **基础属性**：生1058 攻529 防198
 - **推荐度**：★★★★★
 - **技能名**：来练！
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】，装备者的忆灵在场上时，装备者与忆灵造成的伤害提高【24%/27%/30%/33%/36%】。
 
-### [[zh_cn/lightcone/记忆/胜利只在朝夕间.md|胜利只在朝夕间]]
+### [[zh_cn/lightcone/记忆/胜利只在朝夕间.md|Victory In a Blink]]
 
 - **基础属性**：生847 攻476 防396
 - **推荐度**：★★★★★
 - **技能名**：最后一击
 - **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】，当装备者的忆灵对我方目标施放技能时，使我方全体目标造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|大黑塔]] |
+| 副C | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|The Herta]] |
 | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] |
 | [[zh_cn/character/同谐/寒鸦_物理_四星.md\|寒鸦]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「旅行。喜欢！和你，一起？」  向着未知启航的开拓者，与新的伙伴「迷迷」一同，书写下翁法罗斯的旅途见闻——而「记忆」也将生生不息，铺就远行的旅路，记录壮丽的诗篇。  为了消除星核带来的危机，少女开拓者选择与星穹列车同行。
 
 ### 你的「故事」•一 解锁条件：完成开拓任务旅途正在继续

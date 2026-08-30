@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Interstellar Construct: Hypereutectoid |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Interstellar Construct: Hypereutectoid |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色为我方目标提供护盾时，使双方造成的伤害提高20%，最多叠加5次，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 角色为我方目标提供护盾时，使双方造成的伤害提高30%，最多叠加5次，持续1回合。

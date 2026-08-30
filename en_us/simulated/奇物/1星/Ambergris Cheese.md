@@ -7,25 +7,25 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ambergris Cheese |
-| 类型 | 奇物（同名合并） |
-| 星级 | 1星 |
+| Name | Ambergris Cheese |
+| Type | 奇物（同名合并） |
+| Rarity | 1星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 3 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 6 | After winning a battle, all allies restore HP equal to 30% of their respective Max HP. |
 | 1006 | After winning a battle, all allies restore HP equal to 30% of their respective Max HP. |
 | 3006 | After winning a battle, all allies restore HP equal to 30% of their respective Max HP. |
 
-## 背景故事
+## Story
 
 曾有一个保姆机器人突发奇想，将丰饶香涎做成干酪，好满足小主人看似永无止境的食欲。不料香涎干酪竟自己生长起来，保姆机器人和主人开足马力，消化速度却也跟不上干酪的生长速度。于是他们只好求助路过的悲悼伶人，搭乘贡多拉逃去了别的星系。直到现在，银河中仍然有一个星系被美味的干酪塞得严严实实，一丁点空隙也没留下。这个故事很有教育意义：不要浪费粮食。

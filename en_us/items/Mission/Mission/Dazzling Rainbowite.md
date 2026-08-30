@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dazzling Rainbowite |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Dazzling Rainbowite |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 只有幸运之人才能染指的美丽晶石。
 
-## 获得途径
+## Acquisition
 
 - 在雅利洛-VI-磐岩镇地图中部最右侧，与神秘的女人对话并完成剧情后，打开箱子获得

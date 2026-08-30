@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ultimate Experience: Melancholia |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Ultimate Experience: Melancholia |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色攻击陷入【离神】状态的敌方目标后，解除该目标的【离神】状态，并使【离神】解除时造成的伤害等同于原伤害的150%。
 
-## 强化效果
+## Enhanced Effect
 
 角色攻击陷入【离神】状态的敌方目标后，解除该目标的【离神】状态，并使【离神】解除时造成的伤害等同于原伤害的200%。

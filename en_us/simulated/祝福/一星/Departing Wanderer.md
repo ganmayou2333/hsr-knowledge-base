@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Departing Wanderer |
-| 类型 | 祝福 |
-| 命途 | 巡猎&繁育 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Departing Wanderer |
+| Type | Blessing |
+| Path | 巡猎&繁育 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色造成的普攻、战技暴击伤害提高100%。溢出的【会心】层数会在角色回合开始时被重新获得。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Symbiote |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 丰饶*3繁育*2 |
+| Name | Symbiote |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 丰饶*3繁育*2 |
 
 
-## 效果
+## Effect
 
 角色回复量提高35%，为我方目标提供治疗后，有50%的固定概率恢复1个战技点，该效果角色每次行动最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 -

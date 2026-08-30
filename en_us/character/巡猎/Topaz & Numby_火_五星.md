@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Topaz & Numby |
-| 命途 | The Hunt |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星际和平公司 |
-| 角色介绍 | 星际和平公司旗下「战略投资部」高级干部托帕，领导特殊债务纠察小组。 年纪轻轻便已成为「石心十人」之一，基石为「催讨黄玉」。 搭档次元扑满「账账」则能敏锐感知「财富」所在，即便是安保、催债、精算等工作也不在话下。 如今他们正一同巡行银河，追究各类影响公司业务开展的债务纠纷。 |
-| 定位 | 托帕与工作搭档「账账」一同行动。战斗中，账账将自动攻击敌人，托帕则可以强化账账的输出能力。探索时，账账将和托帕一起行动，账账可发现未获取的战利品。 |
+| Character Name | Topaz & Numby |
+| Path | The Hunt |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 星际和平公司 |
+| Introduction | 星际和平公司旗下「战略投资部」高级干部托帕，领导特殊债务纠察小组。 年纪轻轻便已成为「石心十人」之一，基石为「催讨黄玉」。 搭档次元扑满「账账」则能敏锐感知「财富」所在，即便是安保、催债、精算等工作也不在话下。 如今他们正一同巡行银河，追究各类影响公司业务开展的债务纠纷。 |
+| Role | 托帕与工作搭档「账账」一同行动。战斗中，账账将自动攻击敌人，托帕则可以强化账账的输出能力。探索时，账账将和托帕一起行动，账账可发现未获取的战利品。 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 南條愛乃 |
-| 英语 | Sam Slade |
-| 中文 | 陆敏悦 |
-| 韩语 | 방시우 |
+| Japanese | 南條愛乃 |
+| English | Sam Slade |
+| Chinese | 陆敏悦 |
+| Korean | 방시우 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 931 |
-| 基础攻击力 | 621 |
-| 基础防御力 | 412 |
-| 基础速度 | 110 |
-| 嘲讽 | 75 |
-| 能量上限 | 130 |
+| Base HP | 931 |
+| Base ATK | 621 |
+| Base DEF | 412 |
+| Base SPD | 110 |
+| Taunt | 75 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/过热钢刃\|过热钢刃]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/过热钢刃\|Searing Steel Blade]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/猎兽之矢\|猎兽之矢]] | 12 |
-| [[zh_cn/items/Material/TracePath/屠魔之矢\|屠魔之矢]] | 53 |
-| [[zh_cn/items/Material/TracePath/逐星之矢\|逐星之矢]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/猎兽之矢\|Arrow of the Beast Hunter]] | 12 |
+| [[zh_cn/items/Material/TracePath/屠魔之矢\|Arrow of the Demon Slayer]] | 53 |
+| [[zh_cn/items/Material/TracePath/逐星之矢\|Arrow of the Starchaser]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 28 |
 
 ---
-## 战技
-### 普攻：Deficit...
+## Skills
+### Basic ATK：Deficit...
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to an enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Topaz's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Topaz's ATK to one designated enemy.
 
-### 战技：Difficulty Paying?
+### Skill：Difficulty Paying?
 - **类型**：Skill
 - **简述**：Inflicts one enemy with a "Proof of Debt" state and causes it to receive increased Follow-Up ATK DMG. Numby deals Fire DMG to the target.
 - **最大等级**：15
@@ -106,7 +106,7 @@ Numby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this S
 使账账对该目标造成等同于托帕#1[i]%攻击力的火属性伤害。施放此战技造成伤害时，被视为发动了追加攻击。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 75% | 25% |
   | Lv.2 | 82.5% | 27.5% |
@@ -132,14 +132,14 @@ Numby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this S
 Numby deals Fire DMG equal to 187.5% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a Follow-Up ATK.
 使账账对该目标造成等同于托帕187.5%攻击力的火属性伤害。施放此战技造成伤害时，被视为发动了追加攻击。
 
-### 终结技：Turn a Profit!
+### Ultimate：Turn a Profit!
 - **类型**：Ultimate
 - **简述**：Numby enters the Windfall Bonanza! state and increases its DMG multiplier and CRIT DMG.
 - **最大等级**：15
 - **效果模板**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by #1[i]% and CRIT DMG increases by #2[i]%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by #3[i]%. Numby exits the Windfall Bonanza! state after using #4[i] attacks.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 75% | 12.5% | 50% | 2 |
   | Lv.2 | 82.5% | 13.75% | 50% | 2 |
@@ -165,7 +165,7 @@ Numby deals Fire DMG equal to 187.5% of Topaz's ATK to this target. Using this S
 
 - **满级效果**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 187.5% and CRIT DMG increases by 31.25%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by 50%. Numby exits the Windfall Bonanza! state after using 2 attacks.
 
-### 天赋：Trotter Market!?
+### Talent：Trotter Market!?
 - **类型**：Talent
 - **简述**：At the start of the battle, summons Numby. When Numby takes action, it launches Follow-Up ATK on a target afflicted with "Proof of Debt", dealing Fire DMG.
 When an enemy afflicted with "Proof of Debt" receives Follow-Up ATK, Numby's action advances.
@@ -178,7 +178,7 @@ When Topaz is downed, Numby disappears.
 当托帕陷入无法战斗状态时账账消失。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 80 | 75% | 50% |
   | Lv.2 | 80 | 82.5% | 50% |
@@ -207,7 +207,7 @@ When Topaz is downed, Numby disappears.
 陷入【负债证明】状态下的敌方目标受到我方的追加攻击时，账账行动提前50%。在账账自身回合内，无法触发行动提前效果。
 当托帕陷入无法战斗状态时账账消失。
 
-### 秘技：Explicit Subsidy
+### Technique：Explicit Subsidy
 - **类型**：Technique
 - **简述**：Summons Numby to tag along in a map. Numby will automatically search for Basic Treasures and Trotters nearby. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.
 - **最大等级**：1
@@ -220,7 +220,7 @@ After using her Technique and defeating enemies in Simulated Universe or Diverge
 主动施放秘技与模拟宇宙、差分宇宙内的敌人战斗胜利后，额外获取少量宇宙碎片并有小概率获得1个随机奇物。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 60 | 10000 |
 
@@ -236,27 +236,27 @@ After using her Technique and defeating enemies in Simulated Universe or Diverge
 主动施放秘技与大地图内的敌人战斗胜利后，若托帕仍在队伍中，则在获取信用点时额外获取少量信用点，每个地球日内最多额外获取10000点。
 主动施放秘技与模拟宇宙、差分宇宙内的敌人战斗胜利后，额外获取少量宇宙碎片并有小概率获得1个随机奇物。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 透支 | 晋阶2 | 托帕施放普攻造成伤害时，被视为发动了追加攻击。 | 托帕施放普攻造成伤害时，被视为发动了追加攻击。 | 信用点×5000、猎兽之矢×3、无穷假身的遗恨×1 |
 | 附加能力2 | 金融动荡 | 晋阶4 | 托帕和账账对拥有火属性弱点的敌方目标造成的伤害提高#1[i]%。 | 托帕和账账对拥有火属性弱点的敌方目标造成的伤害提高15%。 | 信用点×20000、屠魔之矢×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 技术性调整 | 晋阶6 | 当账账处于【涨幅惊人！】状态施放攻击后，额外使托帕恢复#1[i]点能量。 | 当账账处于【涨幅惊人！】状态施放攻击后，额外使托帕恢复10点能量。 | 信用点×160000、逐星之矢×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 暴击率 | 12% |
 | 火属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Future Market | When enemies afflicted with "Proof of Debt" receive Follow-Up ATKs, they will enter the "Debtor" state. This can take effect only once within a single attack.<br>The "Debtor" state increases the CRIT DMG of Follow-Up ATKs inflicted on the enemy target by 25%, stacking up to 2 time(s). When "Proof of Debt" is removed, the "Debtor" state is also removed. |
 | E2 | Bona Fide Acquisition | After Numby takes action and launches an attack, Topaz regenerates 5 Energy. |
@@ -267,89 +267,89 @@ After using her Technique and defeating enemies in Simulated Universe or Diverge
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 火属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|毁烬焚骨的大公]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
-| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|熔岩锻铸的火匠]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|The Ashblazing Grand Duke]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
+| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|Firesmith of Lava-Forging]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|奔狼的都蓝王朝]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|烦恼着，幸福着]]
+### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：一个一个来
 - **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-### [[zh_cn/lightcone/巡猎/如泥酣眠.md|如泥酣眠]]
+### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★
 - **技能名**：美梦
 - **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-## 推荐队伍
+## Recommended Teams
 
 | 辅助 | 生存 |
 |---|---|
 | 双C | [[zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] |
-| [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
-| [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
 | [[zh_cn/character/毁灭/云璃_物理_五星.md\|云璃]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |  |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 星际和平公司旗下「战略投资部」高级干部托帕，领导特殊债务纠察小组。年纪轻轻便已成为「石心十人」之一，基石为「催讨黄玉」。搭档次元扑满「账账」则能敏锐感知财富所在，即便是安保、催债、精算等工作也不在话下。如今他们正一同巡行银河，追究各类影响公司业务开展的债务纠纷。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「戴斯特，这份简历你看过了吗？」  「您说的是哪…噢，是她啊——这位刚刚在市场调研小组结束了实习，还引起了不小的轰动——呃，褒义的那种。」  「居然已经过了实习期了？唔……」  「哪里不对吗，德比斯基先生？」  「没什么，只是好奇，毕竟她的入职年龄也算是突破部门下限了…何况这姑娘的履历还这么惊人。我看看…嚯，签的居然还是『终身合同』？真没想到，那么落魄的星球上还能捡到这种人才……」  「我已经和业务同事核实过了，简历上的信息全部属实。而且，她甚至没把当时的入职测试结果写进去——听说她在精算、微经宏经、星际金融、管理学等学科测试上全都拿到了高分，甚至连体测也接近满分。她唯一没有及格的项目是……」  「嗯？是什么？」  「…是商务礼仪，她直接翘掉了那门测试。『我最讨厌的就是形式主义』——据说她当时是那么说的。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「我说啊，你……」  「嗯？怎么了，德比斯基大叔？」  「…你应该知道办公室禁止携带宠物吧？」  「当然了！员工手册第八十六小节第一百四十四条——严禁携带任何形式的有机体宠物出入星际和平公司属下的办公场所。」  「…记得还真清楚啊？那你要不要解释解释——」  「——但我认为这条准则根本就是无稽之谈，完全没必要遵守。实话告诉您吧，大叔——有了这些可爱的小家伙在场，我的工作效率直接提高了百分之二十七！」  「…我倒是不会质疑从你嘴里说出来的数字，但是……」  「你看！这个小家伙——嘿呦——叫账账！可别把它当成普通的次元扑满哦，这小家伙对『金钱的味道』特别敏感！我现在不管去哪出差都得带着它，简直成了我的幸运星啦~」  「居然会在办公室里看到这种生物，还真是…咳，算了，我先假装没看到吧。只是下次总监视察的时——哎、哎哟！！怎么回事？！别、别咬我！快、快把这家伙拿走——」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 汇报人：弗朗西斯科 · 德比斯基汇报对象：「翡翠」汇报内容：组长述职  「翡翠」女士：  这应该是我最后一次通过系统向您递交述职报告了。时光荏苒，转眼间我已在战略投资部工作了半个琥珀纪，也经过一路摸爬滚打才爬升到如今的位置；虽算不得功成名就，但至少也为我的家庭积攒了足够几代人过上安逸生活的财富，我已别无他求。在此，也要特地感谢「翡翠」女士您一直以来给予第一六六市场组的大力支持。  言归正传，我在这次述职报告中将不再对第一六六市场组的近期工作内容和业绩多做赘述，以上内容在本组的工作月报中均有体现。这篇报告的唯一目的是向您引荐我组内的一名员工：███ · ████。  关于███ · ████的事迹和业务表现，想必您多少有所听闻。我在系统附件中附上了她的述职文件、以及组内多名员工对她的综合考评文档，供您参阅。尽管年纪尚轻，但███已经表现出了非凡的业务能力、管理思维和意志品质。我毫不怀疑，如果由她来接任第一六六市场组组长的职责，本组的营收和项目成功率将会更上一个台阶。我也有理由相信，以███展现出来的潜力，她的职场生涯绝不会就此止步，她未来必将在更大的舞台上大展宏图。以上，在我退居二线之后，希望您能多多关照███ · ████——诚如战略投资部一贯的主张：人才是最重要的投资，我相信她早已步入您的视线之中。  战略投资部第一六六市场组弗朗西斯科 · 德比斯基
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「戴斯特……」  「怎么了，德比斯基先生？」  「要不，你就先吃吧？我看不会有人来了。」  「没关系，我还不饿。怎么说这也是您的欢送会，还是再等等吧。」  「呵呵…我最知道这帮小崽子的德性了。一个个的，每天脑子里就只有工作，搞钱…怕是早就把我这个老领导给忘得一干二净了。」  「…我很遗憾，德比斯基先生。我本来以为，至少叶琳娜会……」  「——欸，别叫那个名字了，现在要叫『托帕』。真想不到啊，那姑娘竟然真成了他们的一员……」  「不服不行啊戴斯特，像我这种老顽固，再干几辈子都不可能沾到那个位置的边。人家已经是另一个世界的人咯，怎么可能有空来参加这样的小聚会？」  「您谦虚了，我觉得…啊，有人敲门——您别动，我去开。」  「…是谁啊，戴斯特？我这老花眼，有人站在我跟前都看不清……」  「抱歉，先生，没人来…是有人捎来了一封信。」  「噢…这样啊。谁寄来的，这么隆重？明明发条信息就可以了嘛……」  「信封上没有署名。您稍等，我念给您听吧——」  「亲爱的德比斯基先生：感谢您一路以来的厚爱和栽培！没有您的关照，就绝对不会有我的今天。实在抱歉，我现在远在泰科铵出差，不便参与您的退休欢送会。等到这桩项目结了，我一定会抽出一天时间来探望您。对了，我记得您的爱好之一就是机动球——我会从泰科铵给您带纪念品回来的。您永远忠诚的，小叶琳娜。」  「……」  「德比斯基…先生？您…哭了？」

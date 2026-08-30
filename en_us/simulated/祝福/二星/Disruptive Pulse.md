@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Disruptive Pulse |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Disruptive Pulse |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色生命值百分比降低至50%时，固定恢复等同于自身能量上限50%的能量，该效果在4回合后可以再次触发。
 
-## 强化效果
+## Enhanced Effect
 
 角色生命值百分比降低至60%时，固定恢复等同于自身能量上限50%的能量与1个战技点，该效果在4回合后可以再次触发。

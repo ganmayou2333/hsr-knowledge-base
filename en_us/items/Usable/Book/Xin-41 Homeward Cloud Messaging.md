@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Xin-41 Homeward Cloud Messaging |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Xin-41 Homeward Cloud Messaging |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 辛-41云乡讯音
 
-## 获得途径
+## Acquisition
 
 - 完成冒险任务：【安魂弥撒】途中获取

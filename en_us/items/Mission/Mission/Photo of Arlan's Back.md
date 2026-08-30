@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Photo of Arlan's Back |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Photo of Arlan's Back |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 阿兰独自前往调查可疑晶体前拍下的背影，看得出他脚步中的毅然。
 
 
-## 获得途径
+## Acquisition
 
 - 阿兰同行任务【阴差阳错】

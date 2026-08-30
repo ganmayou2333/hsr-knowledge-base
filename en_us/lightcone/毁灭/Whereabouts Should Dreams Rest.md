@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Whereabouts Should Dreams Rest |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Whereabouts Should Dreams Rest |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 This is the edge of the Asdana system. The ocean of memoria roars with mountainous waves and she, like a singular tiny spark, may be doused at any moment in the storm.
 "For one who cannot dream to enter the Synesthesia Dreamscape, they would have to pay a price comparable to death."
@@ -31,18 +31,18 @@ In the deathly silence, like flames dissolving in the sea, she is reduced to a s
 She opens her eyes after what seems to be forever. She sees the "future" looking like a pearl, radiating with a soft and vague light. Tears stream down her face —
 "I do it to find... my own 'dream'..."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 476 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Metamorphosis
 
 Increases the wearer's Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turn(s). Targets afflicted with Routed receive #2[f1]% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the same type cannot be stacked.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Corrupted Code |
-| 类型 | 奇物（同名合并） |
-| 星级 | 无（经典模拟宇宙） |
+| Name | Corrupted Code |
+| Type | 奇物（同名合并） |
+| Rarity | 无（经典模拟宇宙） |
 
 
-## 效果
+## Effect
 
 > 该名称对应 6 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 45 | 将这段代码修复成正常的奇物需要花费3场战斗
 修复期间，角色击破敌人弱点后，清空自身全部能量
@@ -35,7 +35,7 @@ While the code is being fixed, a character loses all their Energy when they Brea
 Once the code is fixed, this Curio regenerates characters' Energy. |
 | 3046 | When a character Breaks enemy Weaknesses, they regenerate 40 Energy. |
 
-## 背景故事
+## Story
 
 没有缩进，换行随意，连变量和函数名都是不知所云的缩写…它是如此丑陋，以至于你无法用肉眼确认是否存在错误。
 「但万一呢？」

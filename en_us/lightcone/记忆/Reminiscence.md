@@ -6,32 +6,32 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Reminiscence |
-| 命途 | Remembrance |
-| 评级 | ★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Reminiscence |
+| Path | Remembrance |
+| Rarity | ★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The delicate power distilled from time itself. It's all the seemingly insignificant moments that weave together a magnificent destiny. 
 "In the fleeting sweet dream, it was as if the old soul had returned to the colorful waters of childhood."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 635 | 423 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Going to Sleep
 
 When memosprite's turn starts, the wearer and memosprite each gain 1 stack of "Commemoration." Each stack increases DMG dealt by 8%, stacking up to 4 time(s). When memosprite disappears, removes "Commemoration" from the wearer and memosprite.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x231,000 / x2 / x6 / x9 / x12 / x10 / x8

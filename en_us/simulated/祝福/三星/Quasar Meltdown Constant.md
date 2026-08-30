@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Quasar Meltdown Constant |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Quasar Meltdown Constant |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色每损失或治疗自身生命值20%，获得1层【战意】效果，每回合最多获得8层。累计损失或治疗自身100%的生命值后，使角色击破特攻提高30%。
 
-## 强化效果
+## Enhanced Effect
 
 角色每损失或治疗自身生命值16%，获得1层【战意】效果，每回合最多获得12层。累计损失或治疗自身100%的生命值后，使角色击破特攻提高45%。

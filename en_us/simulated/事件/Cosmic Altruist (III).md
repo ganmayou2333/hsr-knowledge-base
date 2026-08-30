@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cosmic Altruist (III) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_profiteer.png` |
+| Name | Cosmic Altruist (III) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_profiteer.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 购买一个钻石盒。 | 消耗10宇宙碎片，获得一个「令人心动」的奖励。 |
 | 购买一个原矿盒。 | 消耗10宇宙碎片，获得一个「心跳不已」的奖励。 |
@@ -37,7 +37,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 11703 |  |
 | 111703 |  |

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Rainbow Fang |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Rainbow Fang |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612446 | When a character defeats an enemy, restores their HP equal to 48% of their Max HP. |
 | 615445 | When a character defeats an enemy, restores all allies' HP equal to 30% of their respective Max HP and increases their ATK by 25%, lasting for 2 turn(s). |

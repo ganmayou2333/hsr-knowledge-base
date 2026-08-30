@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tree of Discard |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 丰饶*3繁育*2 |
+| Name | Tree of Discard |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 丰饶*3繁育*2 |
 
 
-## 效果
+## Effect
 
 角色治疗量提高30%，为我方目标提供治疗后，使随机敌方目标获得2个【孢子】。
 
-## 强化效果
+## Enhanced Effect
 
 -

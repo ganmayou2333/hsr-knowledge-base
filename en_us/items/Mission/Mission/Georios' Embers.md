@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Georios' Embers |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Georios' Embers |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 造型古旧的火炬，据说其中盛放的是吉奥里亚尚未燃尽的火苗。待到长夜降临时，或许能为黑暗中的世界带来一丝光明。
 
 
-## 获得途径
+## Acquisition
 
 - 与「吉奥里亚的活火」对话并提交正确物品获得

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | First Voyage's Blessing |
-| 用途 | 稀有材料 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 普通材料 |
+| Item Name | First Voyage's Blessing |
+| Use | 稀有材料 |
+| Rarity | ★★★★★ |
+| Type | Material / 普通材料 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

@@ -4,20 +4,20 @@
 > 实体ID：120
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/3166/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | The Wind-Soaring Valorous |
-| 类型 | 隧洞遗器 |
-| 实体ID | 120 |
-## 获取途径
+| Name | The Wind-Soaring Valorous |
+| Type | 隧洞遗器 |
+| Entity ID | 120 |
+## Acquisition
 勇骑之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases ATK by 12%.
 ### 4 件套
 Increases the wearer's CRIT Rate by 6%. After the wearer uses a Follow-Up ATK, increases DMG dealt by Ultimate by 36%, lasting for 1 turn(s).
-## 部位
+## Pieces
 ### 手部：勇烈的钩爪腕甲
 **描述**：嵌合肌体的仿生手甲。若想狩猎猛兽，就要有比猛兽更锐利的爪牙。
 **来历**：

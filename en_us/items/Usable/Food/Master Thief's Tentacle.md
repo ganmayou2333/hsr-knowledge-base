@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Master Thief's Tentacle |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Master Thief's Tentacle |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中速度提高10%，与大地图内的敌人战斗胜利后，可能获得「额外的惊喜」。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 阿合马铁窗集团

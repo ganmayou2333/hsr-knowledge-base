@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Update Notes for Master Capote's Life Wiki Version 12.0 |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Update Notes for Master Capote's Life Wiki Version 12.0 |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 …
 
-## 获得途径
+## Acquisition
 
 - 在同行任务：【阴差阳错】过程中获得

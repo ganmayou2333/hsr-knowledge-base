@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Access Card |
-| 用途 | 世界货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Access Card |
+| Use | World Currency |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 可用于开启黑塔空间站奇珍收藏中的遗器宝箱。
 
 
-## 获得途径
+## Acquisition
 
 - 「遗器寻宝」活动获得

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Angler Mystery Anniversary Special Edition Review |
-| 用途 | 书籍 |
-| 评级 | ★ |
-| 类型 | Usable / 书籍 |
+| Item Name | The Angler Mystery Anniversary Special Edition Review |
+| Use | Book |
+| Rarity | ★ |
+| Type | Usable / 书籍 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 任务/探索获得

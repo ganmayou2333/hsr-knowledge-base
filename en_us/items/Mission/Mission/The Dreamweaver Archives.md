@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "The Dreamweaver Archives" |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | "The Dreamweaver Archives" |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 记载着过去几位传奇筑梦师信息的档案，惠特克爵士始终保留着这份文件。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【筑梦诗】

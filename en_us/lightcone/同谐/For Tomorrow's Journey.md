@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | For Tomorrow's Journey |
-| 命途 | Harmony |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | For Tomorrow's Journey |
+| Path | Harmony |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The hands of the compass keep turning until they point to the moment of dreams.
 The Asdana system, overflowing with memoria, glows with a soft light outside the train's windows. The frontier prison within is currently engulfed in the fires of war.
@@ -34,18 +34,18 @@ The youthful silhouettes of these Nameless get gradually swallowed by memoria.
 When the conductor turns their head, the Express is already empty.
 The conductor stands frozen, this scene hauntingly familiar, as if lived through countless times before.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Bonds
 
 Increases the wearer's ATK by 16%. After the wearer uses their Ultimate, increases their DMG dealt by 18%, lasting for 1 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | SoulGlad Bottle Cap |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | SoulGlad Bottle Cap |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 于惊梦剧团处高价购得的瓶盖，事实证明，它也不单单在废土中才价值不菲。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【离去者必先归来】

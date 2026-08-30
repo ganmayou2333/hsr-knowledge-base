@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ever-Peaceful Dream |
-| 类型 | 祝福（同名合并） |
-| 命途 | 记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Ever-Peaceful Dream |
+| Type | Blessing (merged) |
+| Path | 记忆 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616132 | After ally targets enter combat or after a memosprite is summoned, advances their action by 50% after their first turn ends and increases their DMG dealt by 50% for 4 turn(s). |
 | 617132 | After ally targets enter combat or after a memosprite is summoned, advances their action by 50% and increases their DMG dealt by 50% for 4 turn(s) after their first turn ends. |

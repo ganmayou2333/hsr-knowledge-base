@@ -6,19 +6,19 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Treasure Hunt Ticket |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Treasure Hunt Ticket |
+| Use | 贵重物品 |
+| Rarity | ★★★★ |
+| Type | Usable / 礼物 |
 
-## 获得途径
+## Acquisition
 
 - 暂无数据
 
-## 说明
+## Description
 
 暂无官方描述数据（数据源未收录）。

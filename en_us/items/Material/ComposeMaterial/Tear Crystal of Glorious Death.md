@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tear Crystal of Glorious Death |
-| 用途 | 合成素材 |
-| 评级 | ★★★★ |
-| 类型 | Material / 合成素材 |
+| Item Name | Tear Crystal of Glorious Death |
+| Use | Synthesis Material |
+| Rarity | ★★★★ |
+| Type | Material / 合成素材 |
 
 
-## 说明
+## Description
 
 4级合成材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 永冬灾影等敌方掉落【残响回廊】

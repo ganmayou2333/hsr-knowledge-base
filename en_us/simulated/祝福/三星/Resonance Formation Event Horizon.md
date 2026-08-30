@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Event Horizon |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Event Horizon |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 我方角色受到攻击后，若当前生命值百分比小于35%，则自动施放1次不消耗能量的命途回响，该效果单场战斗中最多触发2次，且无法被同一次攻击多次触发。
 
-## 强化效果
+## Enhanced Effect
 
 -

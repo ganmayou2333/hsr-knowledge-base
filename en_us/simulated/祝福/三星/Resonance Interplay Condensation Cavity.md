@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Condensation Cavity |
-| 类型 | 祝福 |
-| 命途 | 繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Condensation Cavity |
+| Type | Blessing |
+| Path | 繁育 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 【蜕变】状态下的角色，对冻结状态下的敌方目标造成的伤害提高20%，击中敌方目标后有10%的基础概率使其陷入冻结状态，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Evidence: Pom-Pom Toy |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Evidence: Pom-Pom Toy |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一个做工精致的帕姆玩偶。鬼知道花火为什么会有这种东西…可能因为列车长的美貌确实享誉银河吧。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【假面双人舞】

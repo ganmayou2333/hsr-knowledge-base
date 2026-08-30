@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Thief Musician |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 繁育*2欢愉*2 |
+| Name | Thief Musician |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 繁育*2欢愉*2 |
 
 
-## 效果
+## Effect
 
 我方目标每消耗1个战技点，都可以使下一次攻击后，对攻击目标造成等同于攻击力70%的【回味】伤害，最多叠加3层。
 
-## 强化效果
+## Enhanced Effect
 
 -

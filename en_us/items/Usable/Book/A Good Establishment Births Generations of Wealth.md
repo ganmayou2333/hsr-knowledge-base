@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | A Good Establishment Births Generations of Wealth |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | A Good Establishment Births Generations of Wealth |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 一间好商铺，世代摇钱树
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-边缘通路地图中拾取

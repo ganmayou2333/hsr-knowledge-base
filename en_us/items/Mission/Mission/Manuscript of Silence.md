@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Manuscript of Silence |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Manuscript of Silence |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 只有盲眼之人才能够阅读的禁书。据说阅读此书形成了特殊的通感，改变了读者对外界的认知。
 
 
-## 获得途径
+## Acquisition
 
 - 在丹鼎司与小鱼对话

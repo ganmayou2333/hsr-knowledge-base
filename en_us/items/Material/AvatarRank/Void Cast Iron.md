@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Void Cast Iron |
-| 用途 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / AvatarRank |
+| Item Name | Void Cast Iron |
+| Use | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / AvatarRank |
 
-## 说明
+## Description
 
 虚卒•践踏者的蹄铁，量子属性角色的晋升素材。
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【基座舱段】
 - 「万能合成机」- 材料置换

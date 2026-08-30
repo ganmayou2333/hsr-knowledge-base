@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Time Woven Into Gold |
-| 命途 | Remembrance |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Time Woven Into Gold |
+| Path | Remembrance |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "This strand, a soldier's sacrifice."
 "This strand, a hero's growth."
@@ -28,18 +28,18 @@ She scoops up another set of golden threads and continues her mending.
 The divine loom weaves on, and the Garmentmakers dance with lively grace. Eons of time had already passed through the loom, and she has long been accustomed to such waiting....
 For the sake of turning time to golden "inspiration."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 635 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Establishment
 
 Increases the wearer's base SPD by 12. After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of "Brocade." Each stack of "Brocade" increases the wearer's and their memosprite's CRIT DMG by #4[f1]%, stacking up to 6 time(s). When reaching maximum stacks, each "Brocade" stack additionally increases Basic ATK DMG dealt by #3[f1]%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

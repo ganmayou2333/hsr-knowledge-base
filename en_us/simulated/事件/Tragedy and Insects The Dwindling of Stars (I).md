@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tragedy and Insects: The Dwindling of Stars (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_03.png` |
+| Name | Tragedy and Insects: The Dwindling of Stars (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_03.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·起源宇宙：古阿米巴黏菌曾无意识地张开可爱的小嘴一一它们企图通过微粒一般渺小的身形，吞噬比自己大上数十万倍的渊兽！现在它们在你的手上跳跃。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 赶紧把它们掸下来。 | 扮猪吃老虎的小家伙们！ |
 | 留在手上玩一会儿。 | 捏一捏，举高高。 |
@@ -44,6 +44,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116701 |  |

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | IPC Work Permit |
-| 用途 | 角色晋阶材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | IPC Work Permit |
+| Use | Character Ascension |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 一张星际和平公司“资深员工”工作证，物理属性角色的晋升素材。
 
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【钟表小子影城】
 - 「万能合成机」- 材料置换

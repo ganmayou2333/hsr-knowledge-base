@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Page of Past Dreams |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Page of Past Dreams |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 某个男孩的涂鸦。笔触稚嫩，时间的长河却未曾令旧梦的图景磨损半分。
 
-## 获得途径
+## Acquisition
 
 - 完成开拓任务【异乡异客】后，在观景车厢调查获取

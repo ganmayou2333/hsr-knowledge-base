@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Jade Tracer |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Jade Tracer |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 彦卿执行任务所留下的玉兆饰品，用以记录其行动信息，在需要时留下，向神策府示警。
 
-## 获得途径
+## Acquisition
 
 - 彦卿同行任务【霜刃一试】

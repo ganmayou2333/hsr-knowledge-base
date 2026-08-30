@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Phantom Worker |
-| 类型 | 祝福 |
-| 命途 | 繁育&记忆 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Phantom Worker |
+| Type | Blessing |
+| Path | 繁育&记忆 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标受到的【孢子】伤害提高35%，每有1层【孢子】，效果抵抗降低10%。
 
-## 强化效果
+## Enhanced Effect
 
 -

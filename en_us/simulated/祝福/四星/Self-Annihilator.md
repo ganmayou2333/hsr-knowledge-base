@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Self-Annihilator |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Self-Annihilator |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「虚无」产生临界回响，使敌方全体陷入灼烧、触电、裂伤和2层风化状态，持续3回合。受到角色攻击后上述持续伤害立即产生相当于原伤害25%的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

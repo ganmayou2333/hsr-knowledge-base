@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Vile Mechanical Satellite #900 |
-| 类型 | 加权奇物 |
+| Name | Vile Mechanical Satellite #900 |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sealing Wax Manufacture Machine |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Normal.png` |
+| Name | Sealing Wax Manufacture Machine |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Normal.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 火漆熔铸。{{#info:需要在黄金与机械中满足 10 &le; 认知 &le; 40。\|note}} | 舍弃1个火漆系列奇物，立刻获得3个该火漆所属命途的祝福。 |
 | 火漆祝福。 | 每有1种火漆系列奇物，获得1个该火漆所属命途的祝福。 |
@@ -39,7 +39,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 320501 |  |
 | 420501 |  |

@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Izmael Protest (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Izmael Protest (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：被学士们占据的伊斯梅尔，博识学会和学士的和谈遥遥无期。前者试图训诫后者，学士因学会而辉煌。后者则竭力向前者证明，学会的辉煌正出于学士。
 模拟宇宙：自力更生的学者们展开空前绝后的学术交流。第一台万用应急打印机就是其学术成果。
 模拟宇宙：你伸了个懒腰，准备迎接新一日的工作。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 先到粮食制造区看看。 | — |
 | 参与跨学科交流活动。 | — |
@@ -53,6 +53,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 212 |  |

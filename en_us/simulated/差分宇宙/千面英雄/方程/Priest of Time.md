@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Priest of Time |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*2同谐*2 |
+| Name | Priest of Time |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*2同谐*2 |
 
 
-## 效果
+## Effect
 
 我方目标持有【执念】时，全属性抗性穿透提高15%。每层【执念】使我方全体目标击破特攻提高0.5%。
 
-## 强化效果
+## Enhanced Effect
 
 -

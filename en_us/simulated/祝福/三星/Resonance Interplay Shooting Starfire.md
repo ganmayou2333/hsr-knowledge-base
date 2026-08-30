@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Shooting Starfire |
-| 类型 | 祝福 |
-| 命途 | 巡猎&丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Shooting Starfire |
+| Type | Blessing |
+| Path | 巡猎&丰饶 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响消灭敌方目标后，使我方全体回复等同于各自生命上限50%的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Sparkle's Wondrous Pack |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Sparkle's Wondrous Pack |
+| Use | 贵重物品 |
+| Rarity | ★★★★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 某位假面愚者精心准备的礼物。
 
 
-## 获得途径
+## Acquisition
 
 - 系统邮箱

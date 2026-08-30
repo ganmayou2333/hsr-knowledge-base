@@ -4,20 +4,20 @@
 > 实体ID：301
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/586/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Space Sealing Station |
-| 类型 | 位面饰品 |
-| 实体ID | 301 |
-## 获取途径
+| Name | Space Sealing Station |
+| Type | 位面饰品 |
+| Entity ID | 301 |
+## Acquisition
 第三世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：「黑塔」的漫历轨迹
 **描述**：「黑塔」空间站建立起那一刻，黑塔女士便失去了兴致。它在湛蓝星上空保持着第一宇宙速度，在卫星轨道上留下环绕的轨迹。
 **来历**：

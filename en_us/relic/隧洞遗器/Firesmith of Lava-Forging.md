@@ -4,20 +4,20 @@
 > 实体ID：107
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/577/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Firesmith of Lava-Forging |
-| 类型 | 隧洞遗器 |
-| 实体ID | 107 |
-## 获取途径
+| Name | Firesmith of Lava-Forging |
+| Type | 隧洞遗器 |
+| Entity ID | 107 |
+## Acquisition
 野焰之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Fire DMG by 10%.
 ### 4 件套
 Increases DMG by the wearer's Skill by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for the next attack.
-## 部位
+## Pieces
 ### 手部：火匠的御火戒指
 **描述**：有着火焰标志的戒指，是火匠一族中最高荣誉的象征。
 **来历**：

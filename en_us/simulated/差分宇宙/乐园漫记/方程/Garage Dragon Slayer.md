@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Garage Dragon Slayer |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2毁灭+2虚无 |
+| Name | Garage Dragon Slayer |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2毁灭+2虚无 |
 
 
-## 效果
+## Effect
 
 我方目标效果抵抗提高20%，造成的【耀变】伤害提高80%，抵抗受到的负面效果时，对目标造成等同于【耀变】60%的附加伤害，该伤害无法消灭敌方目标。
 
-## 强化效果
+## Enhanced Effect
 
 -

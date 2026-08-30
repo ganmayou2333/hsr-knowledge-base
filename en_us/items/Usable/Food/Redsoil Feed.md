@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Redsoil Feed |
-| 用途 | 消耗品 |
-| 评级 | ★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Redsoil Feed |
+| Use | Consumable |
+| Rarity | ★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方指定单体回复等同于自身生命上限20%的生命值。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」
 - 大地兽商队（流动商人）

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Forsaken Sanctuary |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Forsaken Sanctuary |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616654 | After any ally target launches a Follow-Up ATK, restores 4 of their Energy. This effect can be triggered up to 1 time(s) per turn. |
 | 617654 | When Aha takes action, restores 4 Energy to all allies. This effect can be triggered a maximum of 1 time(s) per ally per turn. |

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | High Elders' Secret Treasure |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | High Elders' Secret Treasure |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 西衍先生塞给你一个首饰盒，里面装满了酒瓶底子做的祖母绿吊坠和玻璃弹球伪装的钻戒。他说这是龙尊秘宝，你说这铁定不是，他说他才是编剧，你决定以后再找机会收拾他。
 
 
-## 获得途径
+## Acquisition
 
 - 1.2活动冒险任务【评书奇谭•第二回】

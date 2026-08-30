@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The Pathless |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 存护*5虚无*3 |
+| Name | The Pathless |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 存护*5虚无*3 |
 
 
-## 效果
+## Effect
 
 角色造成【反震】伤害时，敌方目标每处于1种持续伤害状态类型，本次【反震】的伤害倍率提高原倍率的50%。
 
-## 强化效果
+## Enhanced Effect
 
 -

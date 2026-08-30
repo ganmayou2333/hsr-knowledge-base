@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter: Crimson Cleansing Chronicle (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Bounty Hunter: Crimson Cleansing Chronicle (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·起源宇宙：你身在一群赏金猎人中。你们的飞船似乎要前往秘密的目的地。你开始嫌弃身旁这群家伙语言粗鄙——他们称自己的领袖有着*阿哈级别的信誉*…听上去，这位领袖固执专横，在得到梦般的启示后，执意要前去蠹星平原狩猎虫族。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 握住那只手。 | 可能不是个好选择… |
 | 拒绝。 | 可能更不是个好选择… |
@@ -45,6 +45,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116101 |  |

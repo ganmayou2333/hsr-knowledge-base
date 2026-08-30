@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Artifex's Gyreheart |
-| 用途 | 行迹材料 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / CommonMonsterDrop |
+| Item Name | Artifex's Gyreheart |
+| Use | Trace Material | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / CommonMonsterDrop |
 
-## 说明
+## Description
 
 仙舟机巧的部件。强化所需的高级材料。
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级4后，入魔机巧掉落
 - 「万能合成机」- 材料合成

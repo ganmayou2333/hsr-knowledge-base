@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fiction's Arbiter |
-| 类型 | 祝福 |
-| 命途 | 巡猎&记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Fiction's Arbiter |
+| Type | Blessing |
+| Path | 巡猎&记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色每受到1%的实际行动提前效果，都会使下回合内造成的伤害提高2%。最多计入行动提前100%，该效果对处于冻结状态下的敌方目标额外提高50%。
 
-## 强化效果
+## Enhanced Effect
 
 -

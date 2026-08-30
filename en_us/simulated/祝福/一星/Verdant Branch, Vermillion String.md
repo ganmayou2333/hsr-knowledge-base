@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Verdant Branch, Vermillion String |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Verdant Branch, Vermillion String |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616457 | After defeating any enemy targets, increases all allies' SPD by 4%. This effect can stack up to 2 time(s). |
 | 617457 | After defeating any enemy targets, increases all allies' SPD by 4%. This effect can stack up to 3 time(s). |

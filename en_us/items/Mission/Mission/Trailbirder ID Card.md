@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Trailbirder ID Card |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Trailbirder ID Card |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在游戏「折纸小鸟对对碰」中，专属于你的小鸟ID卡。据说由系统根据本人形象定制生成。
 
-## 获得途径
+## Acquisition
 
 - 2.3活动冒险任务【「折纸小鸟对对碰」】

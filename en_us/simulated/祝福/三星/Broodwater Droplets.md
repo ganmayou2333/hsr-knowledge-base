@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Broodwater Droplets |
-| 类型 | 祝福（同名合并） |
-| 命途 | 繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Broodwater Droplets |
+| Type | Blessing (merged) |
+| Path | 繁育 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616732 | After any ally target consumes any Skill Point, increases all allies' CRIT DMG by 2%, stacking up to 35 time(s). After using Ultimate, the next time Skill Point is consumed, it will be considered as consuming 1 additional Skill Point. |
 | 617732 | After any ally target consumes any Skill Point, increases all allies' CRIT DMG by 2%, stacking up to 35 time(s). After using Ultimate, the next time Skill Point is consumed, it will be considered as consuming 1 additional Skill Point. |

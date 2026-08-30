@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for THEIR Creations? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for THEIR Creations? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：语罢，小女孩拍了拍青年的肩，聊作安慰。月亮仍停在东边的天上，迟迟不肯让倒影落入湖心。
 差分宇宙：「猜测：在这里，时间并非沙漏里的涓涓细流，」，第七位伶人徐徐开口，冰冷的语调一如她冰冷的金属躯壳，「推动月亮的不是岁月，而是故事。」
 差分宇宙：她将指尖没入湖水，斑斓的光影也随之涌动。
 差分宇宙：「我的故事，要从一滴泪水说起。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 智械也会流泪？ | — |
 | 你会为何而感伤？ | — |
@@ -68,6 +68,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 270 |  |

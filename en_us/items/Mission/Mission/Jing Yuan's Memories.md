@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Jing Yuan's Memories |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Jing Yuan's Memories |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 景元还清楚记得那两位年轻的飞行士，她们乐观、勇敢、天赋异禀。但他也记得这一切是如何结束的。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【因为我已触碰过天空】

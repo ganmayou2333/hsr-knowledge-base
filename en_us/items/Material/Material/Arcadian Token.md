@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Arcadian Token |
-| 用途 | 世界货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Arcadian Token |
+| Use | World Currency |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 幻洋平地与穹星城使用的纪念币，俗称「心愿币」，可在福博科新闻处兑换奖励。
 
 
-## 获得途径
+## Acquisition
 
 - 探索幻洋平地
 - 开拓任务

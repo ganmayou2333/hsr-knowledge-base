@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Guinaifen |
-| 命途 | Nihility |
-| 属性 | Fire |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 客居仙舟「罗浮」的行为艺术家——或者说，街头艺人。在三餐温饱之余，追逐着自己在罗浮的新生活。 |
-| 定位 | 可使敌方陷入灼烧，提高群体易伤的辅助角色 |
+| Character Name | Guinaifen |
+| Path | Nihility |
+| Attribute | Fire |
+| Rarity | ★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 客居仙舟「罗浮」的行为艺术家——或者说，街头艺人。在三餐温饱之余，追逐着自己在罗浮的新生活。 |
+| Role | 可使敌方陷入灼烧，提高群体易伤的辅助角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 直田姫奈 |
-| 英语 | Morgan Lauré |
-| 中文 | 小敢 |
-| 韩语 | 김수영 |
+| Japanese | 直田姫奈 |
+| English | Morgan Lauré |
+| Chinese | 小敢 |
+| Korean | 김수영 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 882 |
-| 基础攻击力 | 582 |
-| 基础防御力 | 441 |
-| 基础速度 | 106 |
-| 嘲讽 | 100 |
-| 能量上限 | 120 |
+| Base HP | 882 |
+| Base ATK | 582 |
+| Base DEF | 441 |
+| Base SPD | 106 |
+| Taunt | 100 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/过热钢刃\|过热钢刃]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/过热钢刃\|Searing Steel Blade]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 8 |
-| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 42 |
-| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|Obsidian of Dread]] | 8 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|Obsidian of Desolation]] | 42 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|Obsidian of Obsession]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 20 |
 
 ---
-## 战技
-### 普攻：Standing Ovation
+## Skills
+### Basic ATK：Standing Ovation
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Guinaifen's ATK to one designated enemy.
 
-### 战技：Blazing Welcome
+### Skill：Blazing Welcome
 - **类型**：Skill
 - **简述**：Deals Fire DMG to one enemy and minor Fire DMG to adjacent enemies, with a high chance of Burning them.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy and Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies, with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 20% | 100% | 83.9% | 2 |
   | Lv.2 | 66% | 22% | 100% | 92.3% | 2 |
@@ -131,14 +131,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 150% of Guinaifen's ATK to one designated enemy and Fire DMG equal to 50% of Guinaifen's ATK to any adjacent enemies, with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 272.77% of Guinaifen's ATK at the beginning of each turn, lasting for 2 turn(s).
 
-### 终结技：Watch This Showstopper
+### Ultimate：Watch This Showstopper
 - **类型**：Ultimate
 - **简述**：Deals Fire DMG to all enemies. If the enemies are inflicted with Burn, the Burn status deals DMG 1 extra time.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to #2[i]% of their original DMG.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) |
+| Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 72% | 72% |
   | Lv.2 | 76.8% | 74% |
@@ -162,14 +162,14 @@
 
 - **满级效果**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to 102% of their original DMG.
 
-### 天赋：PatrAeon Benefits
+### Talent：PatrAeon Benefits
 - **类型**：Talent
 - **简述**：After the Burn status causes DMG on the enemy, there is a high chance of applying Firekiss to the enemy.
 - **最大等级**：15
 - **效果模板**：When Guinaifen is on the field, there is a #1[i]% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for #5[i] turn(s) and can stack up to #6[i] time(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 0 | 0 | 4% | 3 | 3 |
   | Lv.2 | 100% | 0 | 0 | 4.3% | 3 | 3 |
@@ -197,14 +197,14 @@
 
 - **满级效果**：When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).
 
-### 秘技：Skill Showcase
+### Technique：Skill Showcase
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor Fire DMG to one enemy target with a high chance of applying Firekiss, with a total of 4 Bounces.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 50% | 4 | 100% |
 
@@ -215,17 +215,17 @@
 
 - **满级效果**：Immediately attacks the enemy. After entering battle, deals DMG for 4 time(s), dealing Fire DMG equal to 50% of Guinaifen's ATK to a random single enemy target each time, with a 100% base chance of inflicting Firekiss on them.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 缘竿 | 晋阶2 | 普攻有#1[i]%的基础概率使敌方目标陷入与战技相同的灼烧状态。 | 普攻有80%的基础概率使敌方目标陷入与战技相同的灼烧状态。 | 信用点×4000、黯淡黑曜×2、无穷假身的遗恨×1 |
 | 附加能力2 | 投狭 | 晋阶4 | 战斗开始时，桂乃芬的行动提前#1[i]%。 | 战斗开始时，桂乃芬的行动提前25%。 | 信用点×16000、虚空黑曜×4、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 逾锋 | 晋阶6 | 对陷入灼烧状态的敌方目标造成的伤害提高#1[i]%。 | 对陷入灼烧状态的敌方目标造成的伤害提高20%。 | 信用点×128000、沉沦黑曜×6、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 击破特攻 | 24% |
 | 效果命中 | 10% |
@@ -233,9 +233,9 @@
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Slurping Noodles During Handstand | When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s). |
 | E2 | Brushing Teeth While Whistling | When an enemy target is being Burned, the DMG multiplier of the Burn status applied by her Basic ATK or Skill increases by 40%. |
@@ -246,70 +246,70 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 速度 / 火属性伤害提高 / 攻击力
 
 **推荐副词条**：攻击力 / 速度 / 效果命中
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|幽锁深牢的系囚]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|熔岩锻铸的火匠]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
+| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|Prisoner in Deep Confinement]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|Firesmith of Lava-Forging]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/泛银河商业公司\|泛银河商业公司]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/泛银河商业公司\|Pan-Cosmic Commercial Enterprise]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/猎物的视线.md|猎物的视线]]
+### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：自信
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
 
-### [[zh_cn/lightcone/虚无/孤独的疗愈.md|孤独的疗愈]]
+### [[zh_cn/lightcone/虚无/孤独的疗愈.md|Solitary Healing]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：混沌灵药
 - **效果**：使装备者的击破特攻提高【20%/25%/30%/35%/40%】。当装备者施放终结技时，使装备者造成的持续伤害提高【24%/30%/36%/42%/48%】，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复【4.0/4.5/5.0/5.5/6.0】点能量。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副c | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] |
+| 副c | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] |
 | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/桑博_风_四星.md\|桑博]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/桑博_风_四星.md\|桑博]] |
 | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 因机缘巧合留在仙舟的化外民，如今是热情烂漫的街头艺人。
 本名「格妮薇儿」，「桂乃芬」是好友素裳为她起的仙舟名。
 面对「罗浮」的全新人生，凭着对仙舟文化的热爱，桂乃芬很快学到了安身立命的一技之长——倒立吃面条、胸口碎大石、徒手接子弹等等。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 喂～喂～听得清吗？家人们晚上好！欢迎来到小桂子的直播间～
 
@@ -335,7 +335,7 @@
 
 ……
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 对年幼的格妮薇儿来说，她的整个世界就是护国公府邸和大宅前繁荣的街市。
 
@@ -370,7 +370,7 @@
 
 ……
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 小时候，父亲总告诉格妮薇儿，人应当体面地活着。可谁又能在「洪堡特-σ」上体面地活着呢？
 
@@ -417,7 +417,7 @@
 
 ……
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「不好意思不好意思，路上遇到有人受伤，耽误了点时间…啊，小桂子你还在唱啊，那我闭嘴。」
 

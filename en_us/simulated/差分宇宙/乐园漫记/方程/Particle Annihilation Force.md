@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Particle Annihilation Force |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2同谐+2繁育 |
+| Name | Particle Annihilation Force |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2同谐+2繁育 |
 
 
-## 效果
+## Effect
 
 我方目标施放普攻/战技时无视敌方目标20%的全属性抗性，施放普攻/战技发动攻击后，无视弱点属性固定削减敌方目标15点韧性。
 
-## 强化效果
+## Enhanced Effect
 
 -

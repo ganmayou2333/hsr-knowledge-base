@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lazy Fingerjoint |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Lazy Fingerjoint |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 同谐*6
 虚无*4 |
 
 
-## 效果
+## Effect
 
 我方目标击破敌方目标弱点时，使其陷入20层【和音】，攻击处于弱点击破状态下的敌方目标后，使其当前承受的持续伤害与【和音】立即产生相当于原伤害24%的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

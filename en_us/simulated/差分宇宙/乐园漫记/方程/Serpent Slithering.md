@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Serpent Slithering |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 6繁育+4虚无 |
+| Name | Serpent Slithering |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 6繁育+4虚无 |
 
 
-## 效果
+## Effect
 
 【蝶魄】状态下，我方全体每消耗1个战技点，敌方全体受到的伤害提高10%，可叠加，最多不超过40%；每次进入【蝶魄】状态后，首次累计消耗3个战技点后，恢复6次【蝶魄】的攻击次数，并使本次【蝶魄】退出之前，我方目标发动攻击后，对攻击目标造成1次等同于除附加伤害外原伤害60%的真实伤害，该效果对敌方目标回合开始时受到的持续伤害也生效。
 
-## 强化效果
+## Enhanced Effect
 
 -

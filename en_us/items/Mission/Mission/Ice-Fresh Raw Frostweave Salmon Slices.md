@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ice-Fresh Raw Frostweave Salmon Slices |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Ice-Fresh Raw Frostweave Salmon Slices |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一排片好的霜纹鲑生鱼片，肉质紧实饱满，看起来十分诱人。
 
 
-## 获得途径
+## Acquisition
 
 - 玲可同行任务【比雪原更遥远】

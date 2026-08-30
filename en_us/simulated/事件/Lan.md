@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lan |
-| 类型 | 事件 |
-| 属性 | 巡猎 |
-| 图片 | `image/simulated_event/HoshinoKami_005.png` |
+| Name | Lan |
+| Type | Event |
+| Attribute | 巡猎 |
+| Image | `image/simulated_event/HoshinoKami_005.png` |
 
 
-## 事件文本
+## Event Text
 
 待补充
 
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 5 |  |

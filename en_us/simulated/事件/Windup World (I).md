@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Windup World (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Windup World (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：老人将自己埋在乱如鸟窠的文牍之中。「普通人寻仇不会想到要来求助学者，你是第一个，况且你该去找量子历史学派的那群弄潮儿，而不是找我这个前朝遗老。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我信仰您。 | — |
 
@@ -48,6 +48,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 188 |  |

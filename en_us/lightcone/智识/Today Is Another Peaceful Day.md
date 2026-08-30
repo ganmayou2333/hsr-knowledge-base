@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Today Is Another Peaceful Day |
-| 命途 | Erudition |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Today Is Another Peaceful Day |
+| Path | Erudition |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 There is the new book borrowed for lunch and she just figured out a new way to play tiles.
 If she works slowly, the rest of her job should last exactly till the end of day.
@@ -25,18 +25,18 @@ No one must disturb her in her wonderful off time
 Just on the off chance that she does show up...
 "Then I'll give this milk candy ball to Diviner Fu. She can't be angry after having sweets!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 529 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### A Storm Is Coming
 
 After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

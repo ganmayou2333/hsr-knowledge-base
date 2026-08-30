@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Oathkeeper |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Oathkeeper |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 记忆*6
 巡猎*4 |
 
 
-## 效果
+## Effect
 
 我方全体累计12次回合结束时，当前队伍中的第一位角色及其忆灵行动提前100%，且在之后的1回合，回合结束后使自身获得额外回合，在该额外回合内施放攻击后，对攻击目标造成等同于生命上限600%的附加伤害，我方每有1层【执念】，该伤害倍率提高原倍率的1%。
 
-## 强化效果
+## Enhanced Effect
 
 -

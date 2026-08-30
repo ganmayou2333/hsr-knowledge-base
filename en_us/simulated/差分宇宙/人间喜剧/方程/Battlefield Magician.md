@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Battlefield Magician |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*3存护*2 |
+| Name | Battlefield Magician |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*3存护*2 |
 
 
-## 效果
+## Effect
 
 角色攻击后，本次攻击每造成一次【回味】伤害，获得等同于生命上限3%的护盾，不超过生命上限的36%，护盾持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

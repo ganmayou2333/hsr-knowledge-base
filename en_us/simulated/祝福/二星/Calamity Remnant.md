@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Calamity Remnant |
-| 类型 | 祝福 |
-| 命途 | 繁育&丰饶 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Calamity Remnant |
+| Type | Blessing |
+| Path | 繁育&丰饶 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 每次消耗或溢出1点战技点，使我方全体获得1层【蜜露】，最多叠加10层。角色施放攻击后，消耗自身全部【蜜露】，每消耗1层，造成等同于生命上限80%的附加伤害，该伤害视为普攻伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

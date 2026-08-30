@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Disoriented Hermit |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 同谐*2虚无*2 |
+| Name | Disoriented Hermit |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 同谐*2虚无*2 |
 
 
-## 效果
+## Effect
 
 我方目标施放攻击使敌方目标陷入了负面状态时，为其添加1层【和音】，如果目标处于弱点击破状态则添加的层数翻倍。
 
-## 强化效果
+## Enhanced Effect
 
 -

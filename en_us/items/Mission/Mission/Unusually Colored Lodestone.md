@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Unusually Colored Lodestone |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Unusually Colored Lodestone |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 不知从何处掉落的磁铁石。生活小技巧：磁铁石能够隔着纸板移动另一侧的金属道具。
 
-## 获得途径
+## Acquisition
 
 - 罗浮异闻-凶宅-于镜对话后获得

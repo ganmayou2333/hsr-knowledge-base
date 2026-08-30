@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Demon of Renege |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2毁灭+2记忆 |
+| Name | Demon of Renege |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2毁灭+2记忆 |
 
 
-## 效果
+## Effect
 
 我方目标生命上限提高40%，进入战斗/忆灵被召唤时，充能等同于自身生命上限100%的【耀变】，且之后第一个回合结束时，不清除【耀变】。
 
-## 强化效果
+## Enhanced Effect
 
 -

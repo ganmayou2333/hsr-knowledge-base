@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Life Dissection Expert |
-| 类型 | 祝福 |
-| 命途 | 记忆&繁育 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Life Dissection Expert |
+| Type | Blessing |
+| Path | 记忆&繁育 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 【蝶魄】状态下敌方目标受到的伤害提高50%，受到忆灵的伤害额外提高25%。
 
-## 强化效果
+## Enhanced Effect
 
 -

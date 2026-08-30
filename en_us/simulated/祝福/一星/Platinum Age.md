@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Platinum Age |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Platinum Age |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612656 | After characters launch Follow-Up ATKs, increase their DEF by 40% for 1 turn(s). |
 | 615656 | After characters launch Follow-Up ATKs, increase their DEF by 40% for 1 turn(s). |

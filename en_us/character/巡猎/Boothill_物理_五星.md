@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Boothill |
-| 命途 | The Hunt |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 巡海游侠 |
-| 角色介绍 | 浪迹银河的改造人牛仔，极度乐观、放荡不羁。 身为「巡海游侠」的一员，为惩奸除恶，可以无所不用其极—— 高调行事的背后，渴望以此引起复仇对象「星际和平公司」的注意。 |
-| 定位 | 擅长与敌方决斗的输出型角色 |
+| Character Name | Boothill |
+| Path | The Hunt |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 巡海游侠 |
+| Introduction | 浪迹银河的改造人牛仔，极度乐观、放荡不羁。 身为「巡海游侠」的一员，为惩奸除恶，可以无所不用其极—— 高调行事的背后，渴望以此引起复仇对象「星际和平公司」的注意。 |
+| Role | 擅长与敌方决斗的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 小西克幸 |
-| 英语 | Andrew Russell |
-| 中文 | 彭博 |
-| 韩语 | 김단 |
+| Japanese | 小西克幸 |
+| English | Andrew Russell |
+| Chinese | 彭博 |
+| Korean | 김단 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,203 |
-| 基础攻击力 | 621 |
-| 基础防御力 | 437 |
-| 基础速度 | 107 |
-| 嘲讽 | 75 |
-| 能量上限 | 115 |
+| Base HP | 1,203 |
+| Base ATK | 621 |
+| Base DEF | 437 |
+| Base SPD | 107 |
+| Taunt | 75 |
+| Max Energy | 115 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/星际和平工作证\|星际和平工作证]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/星际和平工作证\|IPC Work Permit]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 12 |
-| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 53 |
-| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|Meteoric Bullet]] | 12 |
+| [[zh_cn/items/Material/TracePath/命定死因\|Destined Expiration]] | 53 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|Countertemporal Shot]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 28 |
 
 ---
-## 战技
-### 普攻：Skullcrush Spurs
+## Skills
+### Basic ATK：Skullcrush Spurs
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Boothill's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Boothill's ATK to one designated enemy target.
 
-### 战技：Sizzlin' Tango
+### Skill：Sizzlin' Tango
 - **类型**：Skill
 - **简述**：Initiates Standoff. After the target in the Standoff is defeated or Weakness Broken, Boothill receives Pocket Trickshot and dispels the Standoff. Boothill gains Enhanced Basic ATK and this turn does not end.
 - **最大等级**：15
@@ -110,7 +110,7 @@ This Skill cannot regenerate Energy. After using this Skill, the current turn do
 该战技无法恢复能量。施放该战技后，本回合不会结束。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 15% | 15% | 2 |
   | Lv.2 | 16.5% | 15% | 2 |
@@ -141,7 +141,7 @@ This Skill cannot regenerate Energy. After using this Skill, the current turn do
 该目标被消灭或弱点被击破后，波提欧均可获得1层【优势口袋】，随后解除【绝命对峙】。
 该战技无法恢复能量。施放该战技后，本回合不会结束。
 
-### 终结技：Dust Devil's Sunset Rodeo
+### Ultimate：Dust Devil's Sunset Rodeo
 - **类型**：Ultimate
 - **简述**：Applies Physical Weakness to one enemy, deals massive Physical DMG to them, and delays their action.
 - **最大等级**：15
@@ -150,7 +150,7 @@ Deals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays th
 对该目标造成等同于波提欧#1[i]%攻击力的物理属性伤害，并使其行动延后#2[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 240% | 30% | 2 |
   | Lv.2 | 256% | 31% | 2 |
@@ -177,7 +177,7 @@ Deals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays th
 Deals Physical DMG equal to 480% of Boothill's ATK to the target and delays their action by 45%.
 对该目标造成等同于波提欧480%攻击力的物理属性伤害，并使其行动延后45%。
 
-### 天赋：Five Peas in a Pod
+### Talent：Five Peas in a Pod
 - **类型**：Talent
 - **简述**：Pocket Trickshot increases the Enhanced Basic ATK's Toughness Reduction and additionally deals Physical Break DMG if the target is Weakness Broken. After winning the battle, retains Pocket Trickshot for the next battle.
 - **最大等级**：15
@@ -188,7 +188,7 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 战斗胜利后，波提欧能够将【优势口袋】保留至下一次战斗中。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6 |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 35% | 60% | 85% | 50% | 3 | 16 |
   | Lv.2 | 38.5% | 66% | 93.5% | 50% | 3 | 16 |
@@ -220,14 +220,14 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 施放强化普攻期间，若目标处于弱点击破状态，基于【优势口袋】层数，对目标造成等同于波提欧87.5%/150%/212.5%物理属性击破伤害的击破伤害，该伤害计入的韧性上限不超过普攻【蹄铁裂颅】基础削韧值的16倍。
 战斗胜利后，波提欧能够将【优势口袋】保留至下一次战斗中。
 
-### 秘技：3-9× Smile
+### Technique：3-9× Smile
 - **类型**：Technique
 - **简述**：After the Technique is used, inflicts Physical Weakness on one enemy when casting the Skill for the first time in the next battle.
 - **最大等级**：1
 - **效果模板**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for #1[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
@@ -236,27 +236,27 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 
 - **满级效果**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 幽灵装填 | 晋阶2 | 使自身暴击率/暴击伤害提高，提高数值等同于击破特攻的#1[i]%/#3[i]%，最多使暴击率/暴击伤害提高#2[i]%/#4[i]%。 | 使自身暴击率/暴击伤害提高，提高数值等同于击破特攻的10%/50%，最多使暴击率/暴击伤害提高30%/150%。 | 信用点×5000、陨铁弹丸×3、同愿的遗音×1 |
 | 附加能力2 | 蛇之上行 | 晋阶4 | 波提欧处于【绝命对峙】时，受到未处于【绝命对峙】目标的伤害降低#1[i]%。 | 波提欧处于【绝命对峙】时，受到未处于【绝命对峙】目标的伤害降低30%。 | 信用点×20000、命定死因×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 抵近射击 | 晋阶6 | 处于【绝命对峙】并获得【优势口袋】时，恢复#1[i]点能量。该效果在获得溢出的【优势口袋】时也会触发。 | 处于【绝命对峙】并获得【优势口袋】时，恢复10点能量。该效果在获得溢出的【优势口袋】时也会触发。 | 信用点×160000、逆时一击×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 18% |
+| HP | 10% |
+| ATK | 18% |
 | 击破特攻 | 37.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Dusty Trail's Lone Star | When the battle starts, obtains 1 stack of Pocket Trickshot. When Boothill deals DMG, ignores 16% of the enemy target's DEF. |
 | E2 | Milestonemonger | When in Standoff and gaining Pocket Trickshot, recovers 1 Skill Point(s) and increases Break Effect by 30%, lasting for 2 turn(s). Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit. But cannot trigger repeatedly within one turn. |
@@ -267,82 +267,82 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 物理属性伤害提高 / 击破特攻
 
 **推荐副词条**：击破特攻 / 速度 / 攻击力 / 暴击率 / 暴击伤害
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|劫火莲灯铸炼宫]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|Forge of the Kalpagni Lantern]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/驶向第二次生命.md|驶向第二次生命]]
+### [[zh_cn/lightcone/巡猎/驶向第二次生命.md|Sailing Towards a Second Life]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：苦航
 - **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】，造成的击破伤害无视目标【20%/23%/26%/29%/32%】的防御力。当装备者在战斗中击破特攻大于等于150%时，速度提高【12%/14%/16%/18%/20%】。
 
-### [[zh_cn/lightcone/巡猎/黑夜如影随行.md|黑夜如影随行]]
+### [[zh_cn/lightcone/巡猎/黑夜如影随行.md|Shadowed by Night]]
 
 - **基础属性**：生846 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：隐匿
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。进入战斗时或造成击破伤害后，速度提高【8%/9%/10%/11%/12%】，持续2回合，该效果每回合只可触发1次。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-### [[zh_cn/lightcone/巡猎/春水初生.md|春水初生]]
+### [[zh_cn/lightcone/巡猎/春水初生.md|River Flows in Spring]]
 
 - **基础属性**：生846 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：驱散余寒
 - **效果**：进入战斗后，使装备者速度提高【8%/9%/10%/11%/12%】，造成的伤害提高【12%/15%/18%/21%/24%】。当装备者受到伤害后该效果失效，下个回合结束时该效果恢复。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/巡猎/波提欧_物理_五星.md\|波提欧]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] |
-| [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
-| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|娜塔莎]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
+| [[zh_cn/character/巡猎/波提欧_物理_五星.md\|波提欧]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] |
+| [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
+| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
 | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 浪迹银河的改造人牛仔，极度乐观、放荡不羁。身为「巡海游侠」的一员，为惩奸除恶，可以无所不用其极——高调行事的背后，渴望以此引起复仇对象「星际和平公司」的注意。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「格蕾，看雪地里，那是个孩子！」
 格蕾和尼克小心翼翼地走上前去，抱起满脸通红、不停啼哭的婴儿。
@@ -365,7 +365,7 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 这里就是——
 最好的世界。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 飞船投下的阴影遮住了草原的月光。
 
@@ -392,7 +392,7 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 
 据「阿尔冈-阿帕歇」星球志记载，世代游牧于其上的民族自一场起因不明的大灾难后销声匿迹，残存的老少在越来越小的自留地栖居，时至今日，那黑色的矿产依旧作为稀有的金属大量运用于制造高功率的武器，被一艘艘公司的货运舰送往更多的星球。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「这条路并不适合你，赶紧出去。去找个工作或者…找个学上？」
 小个子医生放下吃了一半的三明治，在明显大了几号的白大褂上擦了擦手。
@@ -429,7 +429,7 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 冲着他的背影，小个子医生大喊道。
 门外夜色正浓，波提欧不禁抬起头——在繁星的阵列中，又有一颗被点亮了。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 他多次重返「阿尔冈-阿帕歇」，调查当时下令灭族的男人，却发现他的身影在历史记载中，早已被抹去。
 他闯入忆庭分部，试图读取与「阿尔冈-阿帕歇」有关的忆泡。陈列于展柜的忆泡纷纷滚落，那些忆者顾不得对他进行阻拦，蜂拥而上率先将那些难得一见的记忆抢救下来。

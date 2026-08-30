@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Imitation: Transmitter Synthesis |
-| 类型 | 祝福 |
-| 命途 | 智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Imitation: Transmitter Synthesis |
+| Type | Blessing |
+| Path | 智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色的能量每溢出1点，为【罐中脑】充能0.8%。
 
-## 强化效果
+## Enhanced Effect
 
 角色的能量每溢出1点，为【罐中脑】充能1.2%。

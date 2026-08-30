@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Argenti |
-| 命途 | Erudition |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 纯美骑士团 |
-| 角色介绍 | 「纯美骑士团」的古典骑士，虔诚地仰慕着已失踪的「纯美」星神伊德莉拉。 为人正直、光明磊落，于宇宙中漫游，宣扬伊德莉拉的美名。 |
-| 定位 | 施放更强力终结技的对群输出型角色 |
+| Character Name | Argenti |
+| Path | Erudition |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 纯美骑士团 |
+| Introduction | 「纯美骑士团」的古典骑士，虔诚地仰慕着已失踪的「纯美」星神伊德莉拉。 为人正直、光明磊落，于宇宙中漫游，宣扬伊德莉拉的美名。 |
+| Role | 施放更强力终结技的对群输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 立花慎之介 |
-| 英语 | Talon Warburton |
-| 中文 | 梁达伟 |
-| 韩语 | 최승훈 |
+| Japanese | 立花慎之介 |
+| English | Talon Warburton |
+| Chinese | 梁达伟 |
+| Korean | 최승훈 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 737 |
-| 基础防御力 | 364 |
-| 基础速度 | 103 |
-| 嘲讽 | 75 |
-| 能量上限 | 180 |
+| Base HP | 1,048 |
+| Base ATK | 737 |
+| Base DEF | 364 |
+| Base SPD | 103 |
+| Taunt | 75 |
+| Max Energy | 180 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/幽府通令\|幽府通令]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/幽府通令\|Netherworld Token]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/灵感之钥\|灵感之钥]] | 12 |
-| [[zh_cn/items/Material/TracePath/启迪之钥\|启迪之钥]] | 53 |
-| [[zh_cn/items/Material/TracePath/智识之钥\|智识之钥]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/灵感之钥\|Key of Inspiration]] | 12 |
+| [[zh_cn/items/Material/TracePath/启迪之钥\|Key of Knowledge]] | 53 |
+| [[zh_cn/items/Material/TracePath/智识之钥\|Key of Wisdom]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 28 |
 
 ---
-## 战技
-### 普攻：Fleeting Fragrance
+## Skills
+### Basic ATK：Fleeting Fragrance
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Argenti's ATK to one designated enemy target.
 
-### 战技：Justice, Hereby Blooms
+### Skill：Justice, Hereby Blooms
 - **类型**：Skill
 - **简述**：Deals minor Physical DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 60% |
   | Lv.2 | 66% |
@@ -127,14 +127,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 150% of Argenti's ATK to all enemies.
 
-### 终结技：For In This Garden, Supreme Beauty Bestows
+### Ultimate：For In This Garden, Supreme Beauty Bestows
 - **类型**：Ultimate
 - **简述**：Consumes 90 Energy and deals Physical DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：Consumes #2[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 96% | 90 |
   | Lv.2 | 102.4% | 90 |
@@ -158,14 +158,14 @@
 
 - **满级效果**：Consumes 90 Energy and deals Physical DMG equal to 192% of Argenti's ATK to all enemies.
 
-### 天赋：Sublime Object
+### Talent：Sublime Object
 - **类型**：Talent
 - **简述**：When Argenti uses his Basic ATK, Skill, or Ultimate, he regenerates Energy and increases his CRIT Rate for every enemy target hit.
 - **最大等级**：15
 - **效果模板**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by #1[i], and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to #3[i] time(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 |
+| Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 3 | 1% | 10 |
   | Lv.2 | 3 | 1.15% | 10 |
@@ -190,7 +190,7 @@
 
 - **满级效果**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to 10 time(s).
 
-### 秘技：Manifesto of Purest Virtue
+### Technique：Manifesto of Purest Virtue
 - **类型**：Technique
 - **简述**：Inflicts Daze on all enemies within a set area. When attacking a Dazed enemy to enter combat, deals minor Physical DMG to all enemies and regenerates energy for Argenti.
 - **最大等级**：1
@@ -199,7 +199,7 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于银枝#2[i]%攻击力的物理属性伤害，并使银枝恢复#3[i]点能量。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 80% | 15 |
 
@@ -212,27 +212,27 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15.
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于银枝80%攻击力的物理属性伤害，并使银枝恢复15点能量。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 虔诚 | 晋阶2 | 回合开始时，立即获得#1[i]层【升格】。 | 回合开始时，立即获得1层【升格】。 | 信用点×5000、灵感之钥×3、无穷假身的遗恨×1 |
 | 附加能力2 | 慷慨 | 晋阶4 | 在敌方目标进入战斗时，自身立即恢复#1[i]点能量。 | 在敌方目标进入战斗时，自身立即恢复2点能量。 | 信用点×20000、启迪之钥×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 勇气 | 晋阶6 | 对当前生命值百分比小于等于#1[i]%的敌方目标造成的伤害提高#2[i]%。 | 对当前生命值百分比小于等于50%的敌方目标造成的伤害提高15%。 | 信用点×160000、智识之钥×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 28% |
+| HP | 10% |
+| ATK | 28% |
 | 物理属性伤害提高 | 14.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | A Lacuna in Kingdom of Aesthetics | Each stack of Apotheosis additionally increases CRIT DMG by 4%. |
 | E2 | Agate's Humility | If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s). |
@@ -243,85 +243,85 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 物理属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
-| [[zh_cn/relic/位面饰品/星体差分机\|星体差分机]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/星体差分机\|Celestial Differentiator]] | 使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/片刻，留在眼底.md|片刻，留在眼底]]
+### [[zh_cn/lightcone/智识/片刻，留在眼底.md|An Instant Before A Gaze]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：骑士巡礼
 - **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高【0.36%/0.42%/0.48%/0.54%/0.60%】，最多计入180点。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后,根据装备者的能量上限，提高装备者造成的伤害:每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-### [[zh_cn/lightcone/智识/向着不可追问处.md|向着不可追问处]]
+### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
 - **基础属性**：生953 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：思维游戏
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
 
-### [[zh_cn/lightcone/智识/拂晓之前.md|拂晓之前]]
+### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：长夜
 - **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后,获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
 
-### [[zh_cn/lightcone/智识/不息的演算.md|不息的演算]]
+### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：无界之思
 - **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 主C/辅助 | [[zh_cn/character/智识/银枝_物理_五星.md\|银枝]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|翡翠]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |
-| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/同谐/寒鸦_物理_四星.md\|寒鸦]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |  |  |
+| 主C/辅助 | [[zh_cn/character/智识/银枝_物理_五星.md\|银枝]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|Jade]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |
+| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/同谐/寒鸦_物理_四星.md\|寒鸦]] |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「纯美骑士团」的古典骑士。
 他为人正直、光明磊落，高贵的天性令人敬佩——一位游走宇宙间的独行者，坚定践行「纯美」。
 维护「纯美」在宇宙间的名誉，是银枝的职责：履行这一职责，起手需虔诚，落枪时则将要令人心悦诚服。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 他的故乡曾历经战火数年。炮火纷飞中，他最初的童年记忆总是萦绕着鲜血与硝烟。某次在地下躲避炮火时，他掀开一块石砖，找到一枚陶笛。
 他尝试将流动的空气制成旋律——
@@ -340,7 +340,7 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 「但我爱它，我真的爱它——我相信它是『美』的。」
 他将其陶笛收起，妥帖收藏，不再犹豫，继续前行。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 离开家乡后，他跟随一位年迈的师门老者。
 除了日常的淬炼肉体、精神修行外，偶尔午后小憩时，老者也会向其描述他所从未亲眼见证的时代——那些古时的星际吟游客，声称自己见证「纯美」的瞬间。
@@ -365,7 +365,7 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 他凝视长枪上的斑驳，这是捍卫「纯美」的证明。
 他擦拭长枪上的斑驳，这是踏上「纯美」的证明。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 自他踏入「纯美」的命途后，在苦修之路上，各类不同的「试炼」便逐渐展现——
 或是出自祈愿，或是出自忏悔，或以三重魔鬼的形式降下密语纷扰。
@@ -387,7 +387,7 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 
 「恭喜你，又一次通过『镜之试炼』。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 骑士团对如何秉持「纯美」态度各不相同：
 有人以一生贯彻自己的信念；有人不断假设，不断绝望推翻假设；

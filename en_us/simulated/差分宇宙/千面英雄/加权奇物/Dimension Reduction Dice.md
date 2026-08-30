@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Dimension Reduction Dice |
-| 类型 | 加权奇物 |
+| Name | Dimension Reduction Dice |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

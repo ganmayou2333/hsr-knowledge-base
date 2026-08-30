@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ancient Spindle |
-| 用途 | 行迹材料 | 角色晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / CommonMonsterDrop |
+| Item Name | Ancient Spindle |
+| Use | Trace Material | Character Ascension |
+| Rarity | 3★ |
+| Type | Material / CommonMonsterDrop |
 
-## 说明
+## Description
 
 旧世界时代遗留的机器传动轴。强化所需的普通材料。
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级2后，自动机兵掉落
 - 「万能合成机」- 材料合成

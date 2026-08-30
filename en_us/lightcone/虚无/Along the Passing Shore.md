@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Along the Passing Shore |
-| 命途 | Nihility |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Along the Passing Shore |
+| Path | Nihility |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Flowing in the narrow border between "existence" and "nothingness," the ice-cold tides eternally lap against the shores and bring all things to their final end.
 In this place, the drowned ask for help, lament with songs, find their happiness, enjoy sweet moments, and suffer great agony... All these are reflected in the water. She cannot experience these, but she can feel them —
@@ -24,18 +24,18 @@ She reaches out and saves the drowning from the temptations of Nihility, and one
 She keeps walking in this boundless world, all for an end that does not exist.
 — And it's always raining here.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 635 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Steerer
 
 Increases the wearer's CRIT DMG by 36%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by 24%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

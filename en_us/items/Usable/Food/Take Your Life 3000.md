@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Take Your Life 3000 |
-| 用途 | 消耗品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Take Your Life 3000 |
+| Use | Consumable |
+| Rarity | ★★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方全体恢复30%的能量，在下次战斗中攻击力提高100点，造成的伤害提高35%，进入战斗时有10%的基础概率陷入强烈震荡状态，持续1回合。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「万能合成机」

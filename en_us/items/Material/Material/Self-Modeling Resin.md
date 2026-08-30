@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Self-Modeling Resin |
-| 用途 | 消耗品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Self-Modeling Resin |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 用于定制遗器的稀世材料，在合成时可以在遗器可能出现的主属性中选择1种指定，若额外消耗，还可以进一步在副属性中选择1到2种指定。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 无名勋礼
 - 「万能合成机」- 使用遗器残骸合成

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Collapsed Cognition (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Collapsed Cognition (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你是一个落魄的学士…难民，或二者皆是的某个流浪汉。你蹒跚走进帝皇战争的重建区，只想求得三两口粮，养活家里的弟弟妹妹。伊格莱的信徒们焚烧图书，分发印有他画像的传单，他们将其戏称为：学派战争的入场券。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 收下传单。 | — |
 | 拒绝传单。 | — |
@@ -54,6 +54,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 214 |  |

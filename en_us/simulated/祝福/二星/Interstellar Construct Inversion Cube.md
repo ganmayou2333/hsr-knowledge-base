@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Interstellar Construct: Inversion Cube |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Interstellar Construct: Inversion Cube |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色造成的【反震】伤害，暴击率提高20%，暴击伤害提高50%。
 
-## 强化效果
+## Enhanced Effect
 
 角色造成的【反震】伤害，暴击率提高30%，暴击伤害提高75%。

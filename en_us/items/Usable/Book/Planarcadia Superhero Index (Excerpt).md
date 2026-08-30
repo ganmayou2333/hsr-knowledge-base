@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Planarcadia Superhero Index (Excerpt) |
-| 用途 | 书籍 |
-| 评级 | ★ |
-| 类型 | Usable / 书籍 |
+| Item Name | Planarcadia Superhero Index (Excerpt) |
+| Use | Book |
+| Rarity | ★ |
+| Type | Usable / 书籍 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 任务/探索获得

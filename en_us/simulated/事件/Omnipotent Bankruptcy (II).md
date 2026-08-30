@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Omnipotent Bankruptcy (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Omnipotent Bankruptcy (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：连续失败的实验，使课题失去了最后的投资者。你看见一个落寞的背影，帕提维娅学士，她正在与「权杖管理委员会」签署协议，让渡出万分之一的使用权。
 模拟宇宙：规模日益增大的兼并让事态向写好的剧本回归，知识就像金钱，源源不断地流向头部学派。了无背景的你们这时才意识到，最初由大学派主导，向下分配冗余配额的格局，只是短暂的幻梦。
 模拟宇宙：作为科研助理，你和黑塔被蛮横地赶出控制中心，漂浮在「权杖」的外围。伴着空间场的振动，引擎牵引的黑色巨构仍陆续地跃迁至此。
 模拟宇宙：她敲了敲你的额头，将你从角色扮演中唤醒。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 嘿，轻点儿！ | — |
 | 我是谁？我在哪儿？ | — |
@@ -57,6 +57,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 206 |  |

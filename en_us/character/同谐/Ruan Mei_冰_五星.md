@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Ruan Mei |
-| 命途 | Harmony |
-| 属性 | Ice |
-| 稀有度 | ★★★★★ |
-| 阵营 | 空间站「黑塔」 |
-| 角色介绍 | 天才俱乐部会员，生命科学领域专家，与黑塔等人联手研发模拟宇宙。 |
-| 定位 | 提高击破效率、速度和全属性抗性穿透的辅助型角色 |
+| Character Name | Ruan Mei |
+| Path | Harmony |
+| Attribute | Ice |
+| Rarity | ★★★★★ |
+| Faction | 空间站「黑塔」 |
+| Introduction | 天才俱乐部会员，生命科学领域专家，与黑塔等人联手研发模拟宇宙。 |
+| Role | 提高击破效率、速度和全属性抗性穿透的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 大西沙织 |
-| 英语 | Emi Lo |
-| 中文 | 张文钰 |
-| 韩语 | 윤여진 |
+| Japanese | 大西沙织 |
+| English | Emi Lo |
+| Chinese | 张文钰 |
+| Korean | 윤여진 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 660 |
-| 基础防御力 | 485 |
-| 基础速度 | 104 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 1,087 |
+| Base ATK | 660 |
+| Base DEF | 485 |
+| Base SPD | 104 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/苦寒晶壳\|苦寒晶壳]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/苦寒晶壳\|Gelid Chitin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 12 |
-| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 53 |
-| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|Harmonic Tune]] | 12 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|Ancestral Hymn]] | 53 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|Stellaris Symphony]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
 
 ---
-## 战技
-### 普攻：Threading Fragrance
+## Skills
+### Basic ATK：Threading Fragrance
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Ruan Mei's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of Ruan Mei's ATK to one designated enemy target.
 
-### 战技：String Sings Slow Swirls
+### Skill：String Sings Slow Swirls
 - **类型**：Skill
 - **简述**：After using her Skill, Ruan Mei gains Overtone. When Ruan Mei has Overtone, increase all allies' DMG and Weakness Break Efficiency.
 - **最大等级**：15
 - **效果模板**：After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 16% | 50% | 3 |
   | Lv.2 | 17.6% | 50% | 3 |
@@ -129,7 +129,7 @@
 
 - **满级效果**：After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by 50%.
 
-### 终结技：Petals to Stream, Repose in Dream
+### Ultimate：Petals to Stream, Repose in Dream
 - **类型**：Ultimate
 - **简述**：Increases All-Type RES PEN for all allies, and their attacks apply Thanatoplum Rebloom to enemies hit.
 - **最大等级**：15
@@ -142,7 +142,7 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
 敌方目标从弱点击破状态恢复前不可被再次附加【残梅绽】。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) |
+| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 2 | 20% | 10% | 30% |
   | Lv.2 | 16% | 2 | 20% | 10% | 32% |
@@ -175,14 +175,14 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
 【残梅绽】会在敌方目标尝试从弱点击破状态恢复时触发，延长目标的弱点击破状态并使其行动延后，延后数值等同于阮•梅20%的击破特攻+10%，并对其造成等同于阮•梅60%冰属性击破伤害的击破伤害。
 敌方目标从弱点击破状态恢复前不可被再次附加【残梅绽】。
 
-### 天赋：Somatotypical Helix
+### Talent：Somatotypical Helix
 - **类型**：Talent
 - **简述**：Increases SPD for all teammates (i.e., excluding this unit). Breaking an enemy target's Weakness will additionally deal Ice Break DMG.
 - **最大等级**：15
 - **效果模板**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 8% | 60% |
   | Lv.2 | 8.2% | 66% |
@@ -206,7 +206,7 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
 
 - **满级效果**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
 
-### 秘技：Silken Serenade
+### Technique：Silken Serenade
 - **类型**：Technique
 - **简述**：The next time entering battle, automatically triggers the Skill for 1 time(s). After using the Technique, allies attacking enemies in Simulated Universe or Divergent Universe will always be regarded as attacking their Weakness to enter combat, and their Toughness is reduced regardless of Weakness types. For every Blessing in possession, increases Toughness Reduction and additionally deals Break DMG when breaking Weakness.
 - **最大等级**：1
@@ -215,7 +215,7 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 在模拟宇宙、差分宇宙中，当阮•梅拥有【拭琴抚罗袂】时，我方主动攻击敌人时总会视为利用弱点进入战斗，且本次攻击可以无视弱点属性削减敌方全体的韧性。击破弱点时，触发攻击者自身属性的弱点击破效果。每拥有1个祝福，本次攻击的削韧值额外提高#2[i]%，且击破敌方目标弱点后对其额外造成等同于阮•梅#3[i]%冰属性击破伤害的击破伤害，最多计入#4[i]个祝福。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 100% | 100% | 20 |
 
@@ -229,27 +229,27 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter combat, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a max of 20 Blessings will be taken into account), additionally increases the Toughness Reduction of this attack by 100%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to 100% of Ruan Mei's Ice Break DMG.
 在模拟宇宙、差分宇宙中，当阮•梅拥有【拭琴抚罗袂】时，我方主动攻击敌人时总会视为利用弱点进入战斗，且本次攻击可以无视弱点属性削减敌方全体的韧性。击破弱点时，触发攻击者自身属性的弱点击破效果。每拥有1个祝福，本次攻击的削韧值额外提高100%，且击破敌方目标弱点后对其额外造成等同于阮•梅100%冰属性击破伤害的击破伤害，最多计入20个祝福。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 物体呼吸中 | 晋阶2 | 我方全体击破特攻提高#1[i]%。 | 我方全体击破特攻提高20%。 | 信用点×5000、谐乐小调×3、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 日消遐思长 | 晋阶4 | 阮•梅的回合开始时，自身恢复#1[i]点能量。 | 阮•梅的回合开始时，自身恢复5点能量。 | 信用点×20000、家族颂歌×5、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 落烛照水燃 | 晋阶6 | 战斗中阮•梅的击破特攻大于#1[i]%时，每超过#2[i]%，则战技使我方全体伤害提高的效果额外提高#3[i]%，最高不超过#4[i]%。 | 战斗中阮•梅的击破特攻大于120%时，每超过10%，则战技使我方全体伤害提高的效果额外提高6%，最高不超过36%。 | 信用点×160000、群星乐章×8、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 防御力 | 22.5% |
+| DEF | 22.5% |
 | 击破特攻 | 37.3% |
-| 速度 | 5 |
+| SPD | 5 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Neuronic Embroidery | While the Ultimate's Zone is deployed, the DMG dealt by all allies ignores 20% of the target's DEF. |
 | E2 | Reedside Promenade | While Ruan Mei is on the field, all allies increase their ATK by 40% when dealing DMG to enemies that are Weakness Broken. |
@@ -260,58 +260,58 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 生命值 / 击破特攻
 
 **推荐副词条**：击破特攻 / 速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|机心戏梦的钟表匠]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|Watchmaker, Master of Dream Machinations]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|梦想之地匹诺康尼]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|Penacony, Land of the Dreams]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/镜中故我.md|镜中故我]]
+### [[zh_cn/lightcone/同谐/镜中故我.md|Past Self in Mirror]]
 
 - **基础属性**：生1058 攻529 防529
 - **推荐度**：★★★★★
 - **技能名**：彻骨梅香
 - **效果**：使装备者击破特攻提高【60%/70%/80%/90%/100%】。装备者施放终结技后，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续3回合，并且若装备者击破特攻大于等于150%，则恢复1个战技点。 每个波次开始时，我方全体立即恢复【10.0/12.5/15.0/17.5/20.0】点能量，同类技能无法重复生效。
 
-### [[zh_cn/lightcone/同谐/记忆中的模样.md|记忆中的模样]]
+### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★★
 - **技能名**：老相片
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/流萤_火_五星.md\|流萤]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
+| [[zh_cn/character/毁灭/流萤_火_五星.md\|Firefly]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
 | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/巡猎/波提欧_物理_五星.md\|波提欧]] |
 | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/毁灭/镜流_冰_五星.md\|镜流]] | [[zh_cn/character/智识/银枝_物理_五星.md\|银枝]] |
@@ -319,13 +319,13 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 气质温婉优雅的学者，「天才俱乐部」#81号会员，生命科学领域的专家。
 凭借天赋与惊人的执著得到了博识尊的瞩目，在秘密的角落开始了对生命本源的研究与探索。
 并因此被黑塔邀请，同螺丝咕姆、斯蒂芬联合开发了「模拟宇宙」。
 私下里，她十分喜爱传统戏剧与点心，对刺绣也很感兴趣。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 在童年时代，身为「科学家」的母亲就给予了她最初的启蒙。
 
@@ -349,7 +349,7 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 
 「阿阮，吃完青团子要把手指洗干净，才能碰实验台喔。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 在父母的葬礼上，她穿一身全黑的丧服。她依旧把头发束得很好，如墨的发丝遮掩着她的神情。
 
@@ -375,7 +375,7 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 在沉睡的「父母」将要睁开双眼的时刻——她几乎摧毁了整个星球原本的物种衍变规律，但她仍然在向着自己的目标前进。
 直到她从研究中抬起头，猛烈地望向天空：「智识」的瞥视降临到了她的身上。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 在被博识尊瞥视后，她离开了家乡，从此过上隐士的生活。
 
@@ -398,7 +398,7 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 当这些「震撼」美名贯穿银河学界时，总有人试图打破她隐士般的生活。
 她转头看向了桌上那封来自「天才俱乐部」的联络函——接着，又一次，随手把它扔进了垃圾桶。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 奇妙的小镇科学狂人、无机生命，以及人偶少女环绕着她。他们分享下午茶、他们共同研究，他们时而聒噪，有时欢笑。
 

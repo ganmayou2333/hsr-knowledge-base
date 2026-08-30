@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 巡猎*4欢愉*4 |
+| Name | Bounty Hunter |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 巡猎*4欢愉*4 |
 
 
-## 效果
+## Effect
 
 角色施放攻击造成暴击伤害后，有65%固定概率额外造成1次等同于原伤害1%~100%固定数值的暴击伤害，本次伤害视为追加攻击伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

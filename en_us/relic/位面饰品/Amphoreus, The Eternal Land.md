@@ -4,20 +4,20 @@
 > 实体ID：323
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/6270/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Amphoreus, The Eternal Land |
-| 类型 | 位面饰品 |
-| 实体ID | 323 |
-## 获取途径
+| Name | Amphoreus, The Eternal Land |
+| Type | 位面饰品 |
+| Entity ID | 323 |
+## Acquisition
 西风丛中·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's CRIT Rate by 8%. While the wearer's memosprite is on the field, increases all allies' SPD by 8%. This effect cannot be stacked.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：翁法罗斯的西风尽途
 **描述**：位面球中封装着「如我所书」中的一个章节：「一页永恒」。它被赋予了鲜花的芬芳，西风的温暖…以及一个开放的结局。
 **来历**：

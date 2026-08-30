@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Limited-Time Clearance Medal of Apocalyptic Shadow |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Limited-Time Clearance Medal of Apocalyptic Shadow |
+| Use | 贵重物品 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 本期末日幻影所有关卡取得3星，且获得星启模式关卡棱彩星可获得此勋章。
 
 
-## 获得途径
+## Acquisition
 
 - 末日幻影

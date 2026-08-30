@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Canopy of Mottled Metal |
-| 类型 | 祝福 |
-| 命途 | 智识 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Canopy of Mottled Metal |
+| Type | Blessing |
+| Path | 智识 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色施放群攻技能后，使防御力提高30%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 角色施放群攻技能后，使防御力提高40%，持续3回合。

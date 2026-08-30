@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Shield |
-| 用途 | 世界货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Shield |
+| Use | World Currency |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 贝洛伯格官方流通货币，可在特供商店购买商品。
 
 
-## 获得途径
+## Acquisition
 
 - 探索雅利洛-VI
 - 冒险任务

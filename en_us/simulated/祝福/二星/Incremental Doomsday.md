@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Incremental Doomsday |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Incremental Doomsday |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色受到攻击后，每有1层【战意】效果，则对攻击者造成等同于角色攻击力4%的附加伤害，该伤害无法消灭敌方目标。
 
-## 强化效果
+## Enhanced Effect
 
 角色受到攻击后，每有1层【战意】效果，则对攻击者造成等同于角色攻击力4%+已损失生命值2%的附加伤害，该伤害无法消灭敌方目标。

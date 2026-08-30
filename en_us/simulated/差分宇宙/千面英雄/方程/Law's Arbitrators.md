@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Law's Arbitrators |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 巡猎*2虚无*2 |
+| Name | Law's Arbitrators |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 巡猎*2虚无*2 |
 
 
-## 效果
+## Effect
 
 【呢喃】的充能每有清除阈值的1%，敌方目标受到的暴击伤害提高1.0%，最多提高150%。
 
-## 强化效果
+## Enhanced Effect
 
 -

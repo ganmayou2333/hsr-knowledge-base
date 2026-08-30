@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for Meaninglessness? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for Meaninglessness? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：众人在听罢少年的故事后久久沉默，然后，一个口哨打破了僵局。
 差分宇宙：「按座位顺序，现在应该轮到我了？」男人狼皮的兜帽下，是一条条愈合的伤疤。
 差分宇宙：「在我的家乡，也有个类似的游戏，说是仪式或许更贴切。」他故作轻浮，眼神里满是愁思。
 差分宇宙：「那年冬天，乘着点心船的伶人剧团来到村子里，异星的诡谲演出讲述着绝不重样的英雄史诗和滑稽故事，却也为即将开始的仪式带来几分不详。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 好古朴的开场。 | — |
 | 我也想去看演出！ | — |
@@ -65,6 +65,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 264 |  |

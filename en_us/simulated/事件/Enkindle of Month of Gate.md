@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Enkindle of Month of Gate |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_43.png` |
+| Name | Enkindle of Month of Gate |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_43.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 烧掉承载回忆的护符。 | 丢弃1个负面奇物，获得2个1-2星祝福。 |
 | 烧掉你们共同的画作。（2个负面奇物以上） | 丢弃2个负面奇物，获得2个1-2星奇物。 |
@@ -29,6 +29,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 627501 |  |

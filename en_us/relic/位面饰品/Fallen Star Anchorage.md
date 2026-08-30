@@ -4,20 +4,20 @@
 > 实体ID：327
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/7797/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Fallen Star Anchorage |
-| 类型 | 位面饰品 |
-| 实体ID | 327 |
-## 获取途径
+| Name | Fallen Star Anchorage |
+| Type | 位面饰品 |
+| Entity ID | 327 |
+## Acquisition
 虫虫来袭·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's CRIT Rate by 8%. When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by 32%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：启航地的搁浅列车
 **描述**：位面球中封装着曾坠落在此的星穹列车。沉默的星空，冷寂的引擎，一段战火交织的开拓之旅。
 **来历**：

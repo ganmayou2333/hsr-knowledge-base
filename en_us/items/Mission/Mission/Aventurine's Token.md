@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Aventurine's Token |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Aventurine's Token |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 星际和平公司的信物。你记得那位使节用它耍了个小把戏。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【喧哗与骚动-那些逐梦的年轻人】

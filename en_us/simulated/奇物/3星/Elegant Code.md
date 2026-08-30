@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Elegant Code |
-| 类型 | 奇物（同名合并） |
-| 星级 | 3星 |
+| Name | Elegant Code |
+| Type | 奇物（同名合并） |
+| Rarity | 3星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 6 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 51 | 将这段代码修复成正常的奇物需要花费3场战斗
 修复期间，角色施放战技后，使随机敌方目标行动提前35%
@@ -35,7 +35,7 @@ While the code is being fixed, a random enemy's action will be advanced by 35% e
 Once the code is fixed, this Curio advances characters' actions. |
 | 3052 | After a character uses a Skill, their action advances by 25% |
 
-## 背景故事
+## Story
 
 这段代码仅仅阅读都赏心悦目，但携带它的结果依然可怕。
 「没有一个字符是多余的…这是艺术。」

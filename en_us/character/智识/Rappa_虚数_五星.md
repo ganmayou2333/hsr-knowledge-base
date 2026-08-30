@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Rappa |
-| 命途 | Erudition |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 巡海游侠 |
-| 角色介绍 | 如丑时三刻的闪光弹一般现身在匹诺康尼，以忍者自居，将世间一切归因于「忍法」的奇妙少女。 贯彻吟诵忍•真言、绘制缭乱•忍符、修习忍•法帖的「忍•道」——即说唱，涂鸦，漫画——苦炼自身意志，驰骋星间行侠仗义。 身为「巡海游侠」的一员，始终追猎着名为「御猿•邪忍」的恶党，直至银河尽头。 |
-| 定位 | 乱破是一名擅长群体击破的输出型角色 |
+| Character Name | Rappa |
+| Path | Erudition |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 巡海游侠 |
+| Introduction | 如丑时三刻的闪光弹一般现身在匹诺康尼，以忍者自居，将世间一切归因于「忍法」的奇妙少女。 贯彻吟诵忍•真言、绘制缭乱•忍符、修习忍•法帖的「忍•道」——即说唱，涂鸦，漫画——苦炼自身意志，驰骋星间行侠仗义。 身为「巡海游侠」的一员，始终追猎着名为「御猿•邪忍」的恶党，直至银河尽头。 |
+| Role | 乱破是一名擅长群体击破的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 潘めぐみ |
-| 英语 | Kendell Byrd |
-| 中文 | 金娜 |
-| 韩语 | 김유림 |
+| Japanese | 潘めぐみ |
+| English | Kendell Byrd |
+| Chinese | 金娜 |
+| Korean | 김유림 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 718 |
-| 基础防御力 | 461 |
-| 基础速度 | 96 |
-| 嘲讽 | 75 |
-| 能量上限 | 140 |
+| Base HP | 1,087 |
+| Base ATK | 718 |
+| Base DEF | 461 |
+| Base SPD | 96 |
+| Taunt | 75 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/一曲合弦的幻景\|一曲合弦的幻景]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一曲合弦的幻景\|Chordal Mirage]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/凌乱草图\|凌乱草图]] | 12 |
-| [[zh_cn/items/Material/TracePath/动态线稿\|动态线稿]] | 53 |
-| [[zh_cn/items/Material/TracePath/精致色稿\|精致色稿]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/凌乱草图\|Rough Sketch]] | 12 |
+| [[zh_cn/items/Material/TracePath/动态线稿\|Dynamic Outlining]] | 53 |
+| [[zh_cn/items/Material/TracePath/精致色稿\|Exquisite Colored Draft]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 28 |
 
 ---
-## 战技
-### 普攻：Ninjutsu: Rise Above Tumbles
+## Skills
+### Basic ATK：Ninjutsu: Rise Above Tumbles
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 140% of Rappa's ATK to one designated enemy.
 
-### 战技：Ninja Strike: Rooted Resolute
+### Skill：Ninja Strike: Rooted Resolute
 - **类型**：Skill
 - **简述**：Deals Imaginary DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 60% |
   | Lv.2 | 66% |
@@ -127,7 +127,7 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 150% of Rappa's ATK to all enemies.
 
-### 终结技：Nindō Supreme: Aishiteru
+### Ultimate：Nindō Supreme: Aishiteru
 - **类型**：Ultimate
 - **简述**：Enters the "Sealform" state, gains an extra turn, obtains 3 points of "Chroma Ink," and increases Weakness Break Efficiency and Break Effect.
 While in the "Sealform" state, gains Enhanced Basic ATK. After using Enhanced Basic ATK, consumes 1 point of "Chroma Ink." When "Chroma Ink" is depleted, exits the "Sealform" state.
@@ -138,7 +138,7 @@ While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate can
 【结印】状态下普攻获得强化且无法施放战技和终结技，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 |
+| Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 50% | 10% | 3 |
   | Lv.2 | 50% | 12% | 3 |
@@ -165,7 +165,7 @@ While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate can
 While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of "Chroma Ink." When "Chroma Ink" is depleted, exits the "Sealform" state.
 【结印】状态下普攻获得强化且无法施放战技和终结技，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。
 
-### 天赋：Ninja Tech: Endurance Gauge
+### Talent：Ninja Tech: Endurance Gauge
 - **类型**：Talent
 - **简述**：When the enemy target is Weakness Broken, Rappa gains 1 point of Charge. When launching the third hit of "Ningu: Demonbane Petalblade," additionally deals Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce Toughness and consume all Charge, increasing the Break DMG multiplier and Toughness Reduction.
 - **最大等级**：15
@@ -174,7 +174,7 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 击破弱点时，触发虚数属性的弱点击破效果。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5(%) | 参数6 |
+| Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 10 | 0 | 30% | 2 | 25% | 1 |
   | Lv.2 | 10 | 0 | 33% | 2 | 27.5% | 1 |
@@ -204,14 +204,14 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 击破弱点时，触发虚数属性的弱点击破效果。
 
-### 秘技：Ninja Dash: By Leaps and Bounds
+### Technique：Ninja Dash: By Leaps and Bounds
 - **类型**：Technique
 - **简述**：Enters the "Graffiti" state. Moves forward rapidly for a set distance and attacks any enemies touched. After entering combat via attacking enemies, deals Toughness Reduction regardless of Weakness Type and Imaginary Break DMG to each enemy target and deals Imaginary Break DMG to their adjacent targets. At the same time, this unit regenerates Energy.
 - **最大等级**：1
 - **效果模板**：After using Technique, enters the "Graffiti" state for #1[i] seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals #5[i] Toughness Reduction regardless of Weakness Type and Break DMG equal to #2[i]% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates #4[i] Energy.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 20 | 200% | 180% | 10 | 30 |
 
@@ -224,27 +224,27 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 
 - **满级效果**：After using Technique, enters the "Graffiti" state for 20 seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals 30 Toughness Reduction regardless of Weakness Type and Break DMG equal to 200% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to 180% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates 10 Energy.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 忍法帖•魔天 | 晋阶2 | 精英级别及以上的敌方目标的弱点被击破时，乱破额外获得#2[i]点充能，并恢复#1[i]点能量。 | 精英级别及以上的敌方目标的弱点被击破时，乱破额外获得1点充能，并恢复10点能量。 | 信用点×5000、凌乱草图×3、同愿的遗音×1 |
 | 附加能力2 | 忍法帖•海鸣 | 晋阶4 | 【结印】状态期间，乱破施放强化普攻对处于弱点击破状态下的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次#1[i]%的超击破伤害。 | 【结印】状态期间，乱破施放强化普攻对处于弱点击破状态下的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次60%的超击破伤害。 | 信用点×20000、动态线稿×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 忍法帖•枯叶 | 晋阶6 | 敌方目标的弱点被击破时，受到的击破伤害提高#1[i]%，若乱破当前攻击力高于#2[i]点，每超过100点攻击力可使该数值额外提高#3[i]%，最多额外提高#4[i]%。效果持续#5[i]回合。 | 敌方目标的弱点被击破时，受到的击破伤害提高2%，若乱破当前攻击力高于2400点，每超过100点攻击力可使该数值额外提高1%，最多额外提高8%。效果持续2回合。 | 信用点×160000、精致色稿×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
+| ATK | 28% |
 | 击破特攻 | 13.3% |
-| 速度 | 9 |
+| SPD | 9 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Returned Is the Revenant With No Ferry Toll | During the "Sealform" state entered by using Ultimate, DMG dealt by Rappa ignores 15% of the targets' DEF. After exiting the "Sealform" state, regenerates 20 Energy. |
 | E2 | Free Is the Mind Enlightened by Haikus | The Enhanced Basic ATK's first 2 hits have their Toughness Reduction against the one designated enemy increased by 50%. |
@@ -255,74 +255,74 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 速度 / 攻击力 / 击破特攻
 
 **推荐副词条**：击破特攻 / 速度 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|机心戏梦的钟表匠]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|Watchmaker, Master of Dream Machinations]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|劫火莲灯铸炼宫]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|Forge of the Kalpagni Lantern]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/忍法帖•缭乱破魔.md|忍法帖•缭乱破魔]]
+### [[zh_cn/lightcone/智识/忍法帖•缭乱破魔.md|Ninjutsu Inscription Dazzling Evilbreaker]]
 
 - **基础属性**：生953 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：除邪
 - **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。进入战斗时立即恢复【30.0/32.5/35.0/37.5/40.0】点能量，且装备者施放终结技后获得【雷遁】，施放2次普攻后，装备者行动提前【50%/55%/60%/65%/70%】，并移除【雷遁】。装备者施放终结技后会重置【雷遁】。
 
-### [[zh_cn/lightcone/智识/谐乐静默之后.md|谐乐静默之后]]
+### [[zh_cn/lightcone/智识/谐乐静默之后.md|After the Charmony Fall]]
 
 - **基础属性**：生846 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：沉寂
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放终结技后，速度提高【8%/10%/12%/14%/16%】，持续2回合。
 
-### [[zh_cn/lightcone/智识/不息的演算.md|不息的演算]]
+### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：无界之思
 - **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/银河铁道之夜.md|银河铁道之夜]]
+### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★★
 - **技能名**：流星群
 - **效果**：场上每有1个敌方目标，使装备者的攻击力提高【9.0%/10.5%/12.0%/13.5%/15.0%】，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 主C/辅C | [[zh_cn/character/智识/乱破_虚数_五星.md\|乱破]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
-| [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
+| [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
 | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 如丑时三刻的闪光弹一般现身在匹诺康尼，以忍者自居，将世间一切归因于「忍法」的奇妙少女。贯彻吟诵忍•真言、绘制缭乱•忍符、修习忍•法帖的「忍•道」——即说唱，涂鸦，漫画——苦炼自身意志，驰骋星间行侠仗义。身为「巡海游侠」的一员，始终追猎着名为「御猿•邪忍」的恶党，直至银河尽头。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 银河忍法帖之缭乱破魔传•试炼节点：无慈悲的手里剑
  &gt;&gt;系统初始化&gt;&gt;
@@ -362,7 +362,7 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 试炼系统：开启属于你的《缭乱破魔传》吧！
 系统消息：用户【缭乱•忍侠】经验+10000，获得可大幅提升攻击力的【降魔•花弁】。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 银河忍法帖之缭乱破魔传•试炼节点：忍者之心大肚牛肠
 &gt;&gt;系统初始化&gt;&gt;
@@ -394,7 +394,7 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 试炼系统：他们说你是个沉浸在自己世界的可怜虫。
 试炼系统：但他们自己又何尝不是呢？
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 银河忍法帖之缭乱破魔传•试炼节点：忍侠之道是为何道
 &gt;&gt;系统初始化&gt;&gt;
@@ -428,7 +428,7 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 试炼系统：恭喜你，又一个村庄摆脱了邪祟——但你云游驱魔的速度，远比不上御猿•邪忍危害四方的效率。
 试炼系统：你来不及有一丝疲惫，接下来，你该往何处去？
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 银河忍法帖之缭乱破魔传•试炼节点：最初的和未来的
 &gt;&gt;系统初始化&gt;&gt;

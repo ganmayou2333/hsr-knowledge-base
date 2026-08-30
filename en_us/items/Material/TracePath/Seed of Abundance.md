@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Seed of Abundance |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / TracePath |
+| Item Name | Seed of Abundance |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 2★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 丰饶之神撒下的赐福种子。可小幅提升丰饶角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【边缘通路】
 - 余烬兑换

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dirty Ribbon Tied to a Bell |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Dirty Ribbon Tied to a Bell |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 沾满不明污垢的洁白缎带，已无法分辨其原本的模样。
 
 
-## 获得途径
+## Acquisition
 
 - 击败雅利洛-VI-铆钉镇的次元扑满获得

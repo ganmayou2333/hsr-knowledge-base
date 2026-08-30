@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Work Champion" Medal |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | "Work Champion" Medal |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 生命花园颁发的纪念奖章，用以表彰获得冠军的奇美拉小队所付出的辛劳与汗水。
 
 
-## 获得途径
+## Acquisition
 
 - 「嗷呜嗷呜事务所」活动

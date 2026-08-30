@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Cyrene |
-| 命途 | Remembrance |
-| 属性 | Ice |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。 哀丽秘榭的女儿，哺育「██」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放 ——「然后，一起写下不同以往的诗篇吧♪」 |
+| Character Name | Cyrene |
+| Path | Remembrance |
+| Attribute | Ice |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。 哀丽秘榭的女儿，哺育「██」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放 ——「然后，一起写下不同以往的诗篇吧♪」 |
 | 城邦 | 哀丽秘榭，？ |
 | 神权 | ……？ |
-| 定位 | 是一名能召唤忆灵「德谬歌」协助战斗的辅助型角色 |
+| Role | 是一名能召唤忆灵「德谬歌」协助战斗的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 井上麻里奈 |
-| 英语 | Aiden Dawn |
-| 中文 | 宴宁 |
-| 韩语 | 조경이 |
+| Japanese | 井上麻里奈 |
+| English | Aiden Dawn |
+| Chinese | 宴宁 |
+| Korean | 조경이 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,397 |
-| 基础攻击力 | 446 |
-| 基础防御力 | 582 |
-| 基础速度 | 101 |
-| 嘲讽 | 100 |
-| 能量上限 | 24 |
+| Base HP | 1,397 |
+| Base ATK | 446 |
+| Base DEF | 582 |
+| Base SPD | 101 |
+| Taunt | 100 |
+| Max Energy | 24 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/海妖残鳍\|海妖残鳍]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/海妖残鳍\|Sea Siren's Torn Fin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,818,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 8 |
-| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 42 |
-| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 86 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 25 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,818,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/思量的种\|Bīja of Consciousness]] | 8 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|Seedling of Manas]] | 42 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|Flower of Ālaya]] | 86 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|Daythunder Anamnesis]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 25 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 22 |
 
 ---
-## 战技
-### 普攻：Lo, Hope Takes Flight!
+## Skills
+### Basic ATK：Lo, Hope Takes Flight!
 - **类型**：Basic ATK
 - **简述**：Gains "Recollection" and deals minor Ice DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Gains #2[i] "Recollection" point(s) and deals Ice DMG equal to #1[i]% of Cyrene's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 25% | 1 |
   | Lv.2 | 30% | 1 |
@@ -100,14 +100,14 @@
 
 - **满级效果**：Gains 1 "Recollection" point(s) and deals Ice DMG equal to 70% of Cyrene's Max HP to one designated enemy.
 
-### 战技：Bloom, Elysium of Beyond
+### Skill：Bloom, Elysium of Beyond
 - **类型**：Skill
 - **简述**：Gains "Recollection" and deploys a Zone. Additionally deals True DMG after all ally targets deal DMG.
 - **最大等级**：15
 - **效果模板**：Gains #3[i] "Recollection" point(s) and deploys a Zone that lasts for #2[i] turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to #1[i]% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 12% | 2 | 3 |
   | Lv.2 | 13.2% | 2 | 3 |
@@ -132,7 +132,7 @@
 
 - **满级效果**：Gains 3 "Recollection" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 30% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
 
-### 终结技：Verse ◦ Vow ∞
+### Ultimate：Verse ◦ Vow ∞
 - **类型**：Ultimate
 - **简述**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state and gains Enhanced Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate, and deploys the Zone effect from Skill with no duration limit.
 - **最大等级**：15
@@ -141,7 +141,7 @@ Can only be used once per battle. Demiurge's initial Max HP equals to #1[i]% of 
 单场战斗中只能施放1次。德谬歌初始拥有等同于昔涟#1[i]%生命上限的生命上限。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 24 | 25% | 12 |
   | Lv.2 | 100% | 24 | 27.5% | 12 |
@@ -169,14 +169,14 @@ Can only be used once per battle. Demiurge's initial Max HP equals to #1[i]% of 
 Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP.
 单场战斗中只能施放1次。德谬歌初始拥有等同于昔涟100%生命上限的生命上限。
 
-### 天赋：Hearts Gather as One
+### Talent：Hearts Gather as One
 - **类型**：Talent
 - **简述**：When combat begins or after Cyrene takes action, teammates and their memosprites gain "Future." When ally targets with "Future" take action, Cyrene gains "Recollection." While Cyrene is on the field, increases DMG dealt by ally targets.
 - **最大等级**：15
 - **效果模板**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene #1[i] "Recollection" point(s). When Cyrene has #4[i] "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has #5[i] "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to #3[i] points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 1 | 10% | 27 | 24 | 12 |
   | Lv.2 | 1 | 11% | 27 | 24 | 12 |
@@ -203,14 +203,14 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 
 - **满级效果**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene 1 "Recollection" point(s). When Cyrene has 24 "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has 12 "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
 
-### 秘技：Peace at West Wind's End
+### Technique：Peace at West Wind's End
 - **类型**：Technique
 - **简述**：Creates a Special Dimension around the character. Enemies within this dimension enter the "This Moment, Forever" state while ally characters within this dimension have increased movement speed. After entering combat, deploys the Skill's Zone.
 - **最大等级**：1
 - **效果模板**：After using Technique, creates a Special Dimension that lasts for #1[i] second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have #2[i]% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) |
+| Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 30 | 50% |
 
@@ -220,27 +220,27 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 
 - **满级效果**：After using Technique, creates a Special Dimension that lasts for 30 second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have 50% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 记忆的净子 | 晋阶2 | 队友的忆灵被召唤时获得【未来】，忆灵持有的【未来】不会被消耗。 | 队友的忆灵被召唤时获得【未来】，忆灵持有的【未来】不会被消耗。 | 信用点×5000、思量的种×3、阳雷的遥想×1 |
 | 附加能力2 | 岁月的旅人 | 晋阶4 | 我方队伍中存在1名/2名/3名除昔涟外的黄金裔角色或「记忆」命途角色时，昔涟在战斗开始时获得#1[i]/#2[i]/#3[i]点【追忆】。 | 我方队伍中存在1名/2名/3名除昔涟外的黄金裔角色或「记忆」命途角色时，昔涟在战斗开始时获得2/3/6点【追忆】。 | 信用点×20000、末那芽苗×5、命运的足迹×1、阳雷的遥想×1 |
 | 附加能力3 | 三相的因果 | 晋阶6 | 昔涟的速度大于等于#1[i]点时，我方全体造成的伤害提高#4[i]%，之后每超过1点速度，昔涟与德谬歌的冰属性抗性穿透提高#2[i]%，最多计入#3[i]点超出的速度。 | 昔涟的速度大于等于180点时，我方全体造成的伤害提高20%，之后每超过1点速度，昔涟与德谬歌的冰属性抗性穿透提高2%，最多计入60点超出的速度。 | 信用点×160000、阿赖耶华×8、命运的足迹×1、阳雷的遥想×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 暴击伤害 | 37.3% |
-| 速度 | 9 |
+| SPD | 9 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Epics, Born on a Blank Slate | When Demiurge triggers the Memosprite Skill "Ode to Ego" during the use of "Minuet of Blooms and Plumes," gains 6 "Recollection" point(s) and increases the number of bounces for this attack by 12. |
 | E2 | A Tomorrow in Thirteen Shades | When entering combat, additionally gains 12 "Recollection" point(s). For every 1 different ally character that gains the Memosprite Skill buff from Demiurge, the DMG multiplier for the True DMG dealt by ally targets via the Skill's Zone increases by 6%, up to a max increase of 24%. |
@@ -251,73 +251,73 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 生命值 / 生命值
 
 **推荐副词条**：速度 / 暴击伤害 / 暴击率 / 生命值
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/再创天地的救世主\|再创天地的救世主]] | 装备者施放普攻或战技后，若装备者的忆灵在场，使装备者及其忆灵生命上限提高24%，我方全体造成的伤害提高15%，持续至装备者下次施放普攻或战技后。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/凯歌祝捷的英豪\|凯歌祝捷的英豪]] | 装备者的忆灵在场时，装备者的速度提高6%，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高30%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/再创天地的救世主\|World-Remaking Deliverer]] | 装备者施放普攻或战技后，若装备者的忆灵在场，使装备者及其忆灵生命上限提高24%，我方全体造成的伤害提高15%，持续至装备者下次施放普攻或战技后。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/凯歌祝捷的英豪\|Hero of Triumphant Song]] | 装备者的忆灵在场时，装备者的速度提高6%，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高30%，持续2回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/永恒之地翁法罗斯\|永恒之地翁法罗斯]] | 使装备者的暴击率提高8%。装备者的忆灵在场时，我方全体速度提高8%，该效果无法叠加。 |
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/渊思寂虑的巨树\|渊思寂虑的巨树]] | 使装备者的速度提高6%。当装备者的速度大于等于135/180时，使装备者及其忆灵的治疗量提高12%/20%。 |
+| [[zh_cn/relic/位面饰品/永恒之地翁法罗斯\|Amphoreus, The Eternal Land]] | 使装备者的暴击率提高8%。装备者的忆灵在场时，我方全体速度提高8%，该效果无法叠加。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/渊思寂虑的巨树\|Giant Tree of Rapt Brooding]] | 使装备者的速度提高6%。当装备者的速度大于等于135/180时，使装备者及其忆灵的治疗量提高12%/20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/记忆/爱如此刻永恒.md|爱如此刻永恒]]
+### [[zh_cn/lightcone/记忆/爱如此刻永恒.md|This Love, Forever]]
 - **基础属性**：生1270 攻476 防463
 - **推荐度**：★★★★★
 - **技能名**：约定
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者的忆灵对我方单体施放忆灵技时获得【空白】：敌方全体受到的伤害提高【10%/12%/14%/16%/18%】。装备者的忆灵对敌方施放忆灵技时获得【诗行】：我方全体的暴击伤害提高【16%/19%/22%/25%/28%】。装备者的忆灵同时持有【空白】和【诗行】时，【空白】和【诗行】的效果提高【60%/65%/70%/75%/80%】。
 
-### [[zh_cn/lightcone/记忆/记忆永不落幕.md|记忆永不落幕]]
+### [[zh_cn/lightcone/记忆/记忆永不落幕.md|Memory's Curtain Never Falls]]
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：收取
 - **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
 
-### [[zh_cn/lightcone/记忆/胜利只在朝夕间.md|胜利只在朝夕间]]
+### [[zh_cn/lightcone/记忆/胜利只在朝夕间.md|Victory In a Blink]]
 - **基础属性**：生847 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：最后一击
 - **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】，当装备者的忆灵对我方目标施放技能时，使我方全体目标造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
 
-## 推荐队伍
+## Recommended Teams
 
 > 官方 Wiki 配队推荐（角色去重，按推荐顺序列出，未严格按位置分组）
 
-- [[zh_cn/character/记忆/昔涟_冰_五星|昔涟]]
-- [[zh_cn/character/记忆/遐蝶_量子_五星|遐蝶]]
+- [[zh_cn/character/记忆/昔涟_冰_五星|Cyrene]]
+- [[zh_cn/character/记忆/遐蝶_量子_五星|Castorice]]
 - [[zh_cn/character/记忆/长夜月_冰_五星|长夜月]]
-- [[zh_cn/character/记忆/风堇_风_五星|风堇]]
-- [[zh_cn/character/毁灭/白厄_物理_五星|白厄]]
+- [[zh_cn/character/记忆/风堇_风_五星|Hyacine]]
+- [[zh_cn/character/毁灭/白厄_物理_五星|Phainon]]
 - [[zh_cn/character/同谐/刻律德菈_风_五星|刻律德菈]]
-- [[zh_cn/character/存护/丹恒•腾荒_物理_五星|丹恒•腾荒]]
+- [[zh_cn/character/存护/丹恒•腾荒_物理_五星|Dan Heng • Permansor Terrae]]
 - [[zh_cn/character/毁灭/万敌_虚数_五星|万敌]]
 
 ---
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。
 哀丽秘榭的女儿，哺育「真我」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放——
 「然后，一起写下不同以往的诗篇吧♪」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 >>>……
 >>>0、9、3
@@ -367,7 +367,7 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 第496000次。
 ——德谬歌的记录
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 第33550335个故事，我还在找寻那个答案。
 
@@ -401,7 +401,7 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 然后，以「昔涟」的名字，和流星一起，写下不同以往的浪漫故事♪
 ——「昔涟」的回忆
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 很久，很久，之前——
 
@@ -442,7 +442,7 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 
 ——昔涟，开拓者写下的故事
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 很久，很久以后——
 

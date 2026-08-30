@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Three Little Pigs |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_ThreePig.png` |
+| Name | Three Little Pigs |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_ThreePig.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 你不愿意伤害扑满 | 不用战斗直接得到2个随机2-3星祝福 |
 | 和序列扑满玩一下。 | 和三至扑满战斗，胜利获得200碎片，每击败一只扑满获得1个随机祝福 |
@@ -33,7 +33,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 11301 |  |
 | 111301 |  |

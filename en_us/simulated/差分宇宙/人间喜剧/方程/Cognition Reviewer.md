@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cognition Reviewer |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*3巡猎*2 |
+| Name | Cognition Reviewer |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*3巡猎*2 |
 
 
-## 效果
+## Effect
 
 角色攻击当前生命值百分比小于50%的非精英敌方目标后，有150%基础概率使其陷入【离神】状态，持续1回合，并对该目标造成等同于其当前生命值的固定数值的暴击伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

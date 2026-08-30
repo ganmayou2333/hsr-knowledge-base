@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sealing Wax of The Hunt |
-| 类型 | 加权奇物 |
+| Name | Sealing Wax of The Hunt |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

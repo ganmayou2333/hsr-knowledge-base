@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Longevous Disciple |
-| 用途 | 遗器展示 |
-| 评级 | ★★★★★ |
-| 类型 | Display / 遗器套装展示 |
+| Item Name | Longevous Disciple |
+| Use | 遗器展示 |
+| Rarity | ★★★★★ |
+| Type | Display / 遗器套装展示 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['侵蚀隧洞【丹鼎司】', '「万能合成机」- 遗器合成']

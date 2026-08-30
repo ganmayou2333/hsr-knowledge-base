@@ -4,20 +4,20 @@
 > 实体ID：106
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/579/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Guard of Wuthering Snow |
-| 类型 | 隧洞遗器 |
-| 实体ID | 106 |
-## 获取途径
+| Name | Guard of Wuthering Snow |
+| Type | 隧洞遗器 |
+| Entity ID | 106 |
+## Acquisition
 睿治之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Reduces DMG taken by 8%.
 ### 4 件套
 At the beginning of the turn, if the wearer's HP percentage is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy.
-## 部位
+## Pieces
 ### 手部：铁卫的银鳞手甲
 **描述**：闪耀着银光的金属手甲，复合的机械结构深藏其中。
 **来历**：

@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Anaxa |
-| 命途 | Erudition |
-| 属性 | Wind |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 神悟树庭，滋养知识的学府，诞育哲人的摇床。 但渎神的阿那克萨戈拉斯，诘问「理性」火种的黄金裔，试问：你甘愿身负恶名，也要违逆预言，将怀疑的枝杈刺入智慧的圣树？ ——「可笑。这世界遍地虚假，唯有我才是真实。」 |
+| Character Name | Anaxa |
+| Path | Erudition |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 神悟树庭，滋养知识的学府，诞育哲人的摇床。 但渎神的阿那克萨戈拉斯，诘问「理性」火种的黄金裔，试问：你甘愿身负恶名，也要违逆预言，将怀疑的枝杈刺入智慧的圣树？ ——「可笑。这世界遍地虚假，唯有我才是真实。」 |
 | 城邦 | 神悟树庭 |
 | 神权 | 「裂分之枝，瑟希斯」 |
-| 定位 | 可为敌方群体快速添加大量弱点的输出型角色 |
+| Role | 可为敌方群体快速添加大量弱点的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 内田雄馬 |
-| 英语 | Stephen Fu |
-| 中文 | 钱文青 |
-| 韩语 | 이상준 |
+| Japanese | 内田雄馬 |
+| English | Stephen Fu |
+| Chinese | 钱文青 |
+| Korean | 이상준 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 970 |
-| 基础攻击力 | 757 |
-| 基础防御力 | 558 |
-| 基础速度 | 97 |
-| 嘲讽 | 75 |
-| 能量上限 | 140 |
+| Base HP | 970 |
+| Base ATK | 757 |
+| Base DEF | 558 |
+| Base SPD | 97 |
+| Taunt | 75 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|一杯酩酊的时代]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|A Glass of the Besotted Era]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/凌乱草图\|凌乱草图]] | 12 |
-| [[zh_cn/items/Material/TracePath/动态线稿\|动态线稿]] | 53 |
-| [[zh_cn/items/Material/TracePath/精致色稿\|精致色稿]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/凌乱草图\|Rough Sketch]] | 12 |
+| [[zh_cn/items/Material/TracePath/动态线稿\|Dynamic Outlining]] | 53 |
+| [[zh_cn/items/Material/TracePath/精致色稿\|Exquisite Colored Draft]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 28 |
 
 ---
-## 战技
-### 普攻：Pain, Brews Truth
+## Skills
+### Basic ATK：Pain, Brews Truth
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -99,7 +99,7 @@
 
 - **满级效果**：Deals Wind DMG equal to 140% of Anaxa's ATK to one designated enemy.
 
-### 战技：Fractal, Exiles Fallacy
+### Skill：Fractal, Exiles Fallacy
 - **类型**：Skill
 - **简述**：Deals minor Wind DMG to one enemy and Bounces 5 times in total, prioritizing Bouncing to targets that have not been hit. The more enemy targets on the battlefield, the higher the DMG.
 - **最大等级**：15
@@ -108,7 +108,7 @@ When used, for each attackable enemy on the field, this Skill has its DMG dealt 
 施放时场上每有1个可攻击的敌方目标，本次战技造成的伤害提高#3[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 35% | 4 | 20% |
   | Lv.2 | 38.5% | 4 | 20% |
@@ -135,7 +135,7 @@ When used, for each attackable enemy on the field, this Skill has its DMG dealt 
 When used, for each attackable enemy on the field, this Skill has its DMG dealt increased by 20%.
 施放时场上每有1个可攻击的敌方目标，本次战技造成的伤害提高20%。
 
-### 终结技：Sprouting Life Sculpts Earth
+### Ultimate：Sprouting Life Sculpts Earth
 - **类型**：Ultimate
 - **简述**：Inflicts "Sublimation" on all enemies and deals Wind DMG. In the "Sublimation" state, targets will be simultaneously inflicted with 7 types of Weaknesses, and can't take action if they do not have Control RES.
 - **最大等级**：15
@@ -144,7 +144,7 @@ In the "Sublimation" state, the targets will be simultaneously inflicted with Ph
 【升华】状态下，目标同时被添加物理、火、冰、雷、风、量子、虚数属性弱点，持续至目标回合开始时。若目标不具有控制抵抗，则【升华】状态下无法行动。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
   | Lv.2 | 88% |
@@ -169,7 +169,7 @@ In the "Sublimation" state, the targets will be simultaneously inflicted with Ph
 In the "Sublimation" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the "Sublimation" state.
 【升华】状态下，目标同时被添加物理、火、冰、雷、风、量子、虚数属性弱点，持续至目标回合开始时。若目标不具有控制抵抗，则【升华】状态下无法行动。
 
-### 天赋：Tetrad Wisdom Reigns Thrice
+### Talent：Tetrad Wisdom Reigns Thrice
 - **类型**：Talent
 - **简述**：After hitting enemy targets, inflicts 1 random Weakness. Enemies whose Weaknesses reach 5 get inflicted with "Qualitative Disclosure." Anaxa deals increased DMG to targets in the "Qualitative Disclosure" state. After Anaxa uses Basic ATK or Skill on them, unleashes 1 additional instance of Skill without consumption.
 - **最大等级**：15
@@ -178,7 +178,7 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 那刻夏在场时，使拥有至少#3[i]个不同属性弱点的敌方目标陷入【质性揭露】状态。那刻夏对处于【质性揭露】状态的目标造成的伤害提高#1[i]%，此外对其施放普攻或战技后，对该目标额外施放1次战技。额外战技不消耗战技点且不会再次触发此效果。若额外战技施放前目标被消灭则对敌方随机单体施放。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 18% | 3 | 5 |
   | Lv.2 | 19.2% | 3 | 5 |
@@ -205,14 +205,14 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enemy targets that have at least 5 different Types of Weaknesses. Anaxa deals 36% increased DMG to targets afflicted with the "Qualitative Disclosure" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.
 那刻夏在场时，使拥有至少5个不同属性弱点的敌方目标陷入【质性揭露】状态。那刻夏对处于【质性揭露】状态的目标造成的伤害提高36%，此外对其施放普攻或战技后，对该目标额外施放1次战技。额外战技不消耗战技点且不会再次触发此效果。若额外战技施放前目标被消灭则对敌方随机单体施放。
 
-### 秘技：Prism of the Pupil
+### Technique：Prism of the Pupil
 - **类型**：Technique
 - **简述**：Inflicts the Terrified state on the surrounding enemies. Attacking a Terrified enemy will always be considered as entering battle via Weakness, and applies 1 Weakness of the attacker's Type to all enemies.
 - **最大等级**：1
 - **效果模板**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for #1[i] second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 10 | 3 |
 
@@ -222,9 +222,9 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 
 - **满级效果**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for 10 second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for 3 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 流浪的能指 | 晋阶2 | 施放普攻时，额外恢复#1[i]点能量。
 回合开始时，若场上不存在处于【质性揭露】状态的敌方目标，立即恢复#2[i]点能量。 | 施放普攻时，额外恢复10点能量。
@@ -236,18 +236,18 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 至少2名：我方全体造成的伤害提高50%。 | 信用点×20000、动态线稿×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 质性的嬗变 | 晋阶6 | 敌方目标每拥有1个不同属性的弱点，那刻夏对其造成的伤害无视#1[i]%的防御力，最多计入7个。 | 敌方目标每拥有1个不同属性的弱点，那刻夏对其造成的伤害无视4%的防御力，最多计入7个。 | 信用点×160000、精致色稿×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 暴击率 | 12% |
 | 风属性伤害提高 | 22.4% |
 
 ---
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Magician, Isolated by Stars | After using Skill for the first time, recovers 1 Skill Point(s). When using Skill to hit enemy targets, decreases the targets' DEF by 16%, lasting for 2 turn(s). |
 | E2 | Soul, True to History | When enemy targets enter the battlefield, triggers 1 instance of the Talent's Weakness Implant effect, and reduces their All-Type RES by 20%. |
@@ -258,83 +258,83 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 风属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/出云显世与高天神国\|出云显世与高天神国]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/出云显世与高天神国\|Izumo Gensei and Takama Divine Realm]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/生命当付之一炬.md|生命当付之一炬]]
+### [[zh_cn/lightcone/智识/生命当付之一炬.md|Life Should Be Cast to Flames]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：熔炼
 - **效果**：装备者回合开始时恢复10点能量。若敌方目标拥有装备者添加的弱点，装备者对其造成的伤害提高【60%/70%/80%/90%/100%】。 当敌方目标受到装备者攻击时，装备者使其防御力降低【12%/15%/18%/21%/24%】，持续2回合。同类效果无法叠加。
 
-### [[zh_cn/lightcone/智识/向着不可追问处.md|向着不可追问处]]
+### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
 - **基础属性**：生953 攻635 防463
 - **推荐度**：★★★★
 - **技能名**：思维游戏
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
 
-### [[zh_cn/lightcone/智识/不息的演算.md|不息的演算]]
+### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：无界之思
 - **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/宇宙大生意.md|宇宙大生意]]
+### [[zh_cn/lightcone/智识/宇宙大生意.md|The Great Cosmic Enterprise]]
 
 - **基础属性**：生953 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：互惠
 - **效果**：使装备者的攻击力提高【8%/10%/12%/14%/16%】。敌方目标每拥有1个不同属性的弱点，装备者对其造成的伤害提高【4%/5%/6%/7%/8%】，最多计入7个。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 |
 |---|---|
 | 副C | 光环/负面辅助 |
 | 生存/辅助 | [[zh_cn/character/智识/那刻夏_风_五星.md\|那刻夏]] |
-| [[zh_cn/character/智识/大黑塔_冰_五星.md\|大黑塔]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |
+| [[zh_cn/character/智识/大黑塔_冰_五星.md\|The Herta]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
-| [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | 生存/辅助 |
-| [[zh_cn/character/智识/那刻夏_风_五星.md\|那刻夏]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
-| [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | 生存/辅助 |
+| [[zh_cn/character/智识/那刻夏_风_五星.md\|那刻夏]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
+| [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |  |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 神悟树庭，滋养知识的学府，诞育哲人的摇床。
 但渎神的阿那克萨戈拉斯，诘问「理性」火种的黄金裔，试问：你甘愿身负恶名，也要违逆预言，将怀疑的枝杈刺入智慧的圣树？
 ——「可笑。这世界遍地虚假，唯有我才是真实。」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「呀，你出生于一座偏远城邦。父母早早离去，唯有姐姐与你相依为命、靠着驯养动物的微薄薪酬养家糊口。
 你从小就孤僻离群。当同龄人都在草地上嬉闹时，只有你躲进树影里，拾起地上的落叶。
@@ -360,7 +360,7 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 「别再翻我的脑子了，顽劣的泰坦。」
 男人从回忆中回过神来，那说不清是愤怒还是哀伤的情绪在右眼中一闪而逝。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 编号：13
 课题：黄金裔的金血实验
@@ -390,7 +390,7 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 
 ——那刻夏的灵魂学实验日志，原件已被销毁
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「树庭诸贤人：
 
@@ -411,7 +411,7 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 
 ——那刻夏于一次贤人会上的即兴申辩
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「时至今日，我也未曾认同那神神叨叨的逐火之旅。但唯有一句话令我印象深刻——逐火是不断失却的旅途。
 

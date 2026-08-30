@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | We Are Wildfire |
-| 命途 | Preservation |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | We Are Wildfire |
+| Path | Preservation |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 She got used to people losing their homes.
 And she got used to people losing their lives.
@@ -24,18 +24,18 @@ But crying alone was useless.
 "We are family. We are Wildfire."
 The moment that pair of big hands held her head, she could no longer hold back her tears.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 741 | 476 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Teary-Eyed
 
 At the start of the battle, the DMG dealt to all allies decreases by 8% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30% of the respective HP difference between the characters' Max HP and current HP.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

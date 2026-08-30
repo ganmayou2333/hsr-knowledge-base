@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Black Swan |
-| 命途 | Nihility |
-| 属性 | Wind |
-| 稀有度 | ★★★★★ |
-| 阵营 | 流光忆庭 |
-| 角色介绍 | 流光忆庭的忆者，慵懒神秘的占卜师。 耐心聆听他人「记忆」，诸般命运尽在掌握。 |
-| 定位 | 多种方式给敌方目标施加【奥迹】的输出型角色 |
+| Character Name | Black Swan |
+| Path | Nihility |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 流光忆庭 |
+| Introduction | 流光忆庭的忆者，慵懒神秘的占卜师。 耐心聆听他人「记忆」，诸般命运尽在掌握。 |
+| Role | 多种方式给敌方目标施加【奥迹】的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 生天目仁美 |
-| 英语 | Arryn Zech |
-| 中文 | 杨梦露 |
-| 韩语 | 김하영 |
+| Japanese | 生天目仁美 |
+| English | Arryn Zech |
+| Chinese | 杨梦露 |
+| Korean | 김하영 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 660 |
-| 基础防御力 | 485 |
-| 基础速度 | 102 |
-| 嘲讽 | 100 |
-| 能量上限 | 120 |
+| Base HP | 1,087 |
+| Base ATK | 660 |
+| Base DEF | 485 |
+| Base SPD | 102 |
+| Taunt | 100 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/天人遗垢\|天人遗垢]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/天人遗垢\|Ascendant Debris]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/炽情之灵\|炽情之灵]] | 12 |
-| [[zh_cn/items/Material/TracePath/星火之精\|星火之精]] | 53 |
-| [[zh_cn/items/Material/TracePath/焚天之魔\|焚天之魔]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/炽情之灵\|Fiery Spirit]] | 12 |
+| [[zh_cn/items/Material/TracePath/星火之精\|Starfire Essence]] | 53 |
+| [[zh_cn/items/Material/TracePath/焚天之魔\|Heaven Incinerator]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 28 |
 
 ---
-## 战技
-### 普攻：Percipience, Silent Dawn
+## Skills
+### Basic ATK：Percipience, Silent Dawn
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 30% | 50% | 50% |
   | Lv.2 | 36% | 53% | 53% |
@@ -99,14 +99,14 @@
 
 - **满级效果**：Deals Wind DMG equal to 84% of Black Swan's ATK to one designated enemy.
 
-### 战技：Decadence, False Twilight
+### Skill：Decadence, False Twilight
 - **类型**：Skill
 - **简述**：Deals minor Wind DMG to one enemy and adjacent targets, with a high chance of lowering the targets' DEF.
 - **最大等级**：15
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a #3[i]% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 45% | 100% | 100% | 14.8% | 3 |
   | Lv.2 | 49.5% | 100% | 100% | 15.4% | 3 |
@@ -133,7 +133,7 @@
 
 - **满级效果**：Deals Wind DMG equal to 112.5% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a 100% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for 100% turn(s).
 
-### 终结技：Bliss of Otherworld's Embrace
+### Ultimate：Bliss of Otherworld's Embrace
 - **类型**：Ultimate
 - **简述**：Inflicts the "Epiphany" state on all enemies. Increases the DMG taken by targets and has a chance to increase the number of stacks applied when stacking "Arcana". Additionally, "Arcana" stacks won't be halved after dealing DMG at the start of the next turn. Deals Wind DMG to all enemies.
 - **最大等级**：15
@@ -143,7 +143,7 @@ While in the "Epiphany" state, enemy targets take #3[i]% increased DMG. For ever
 对敌方全体造成等同于黑天鹅#1[i]%攻击力的风属性伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 72% | 2 | 15% | 1 |
   | Lv.2 | 76.8% | 2 | 16% | 1 |
@@ -172,7 +172,7 @@ While in the "Epiphany" state, enemy targets take 30% increased DMG. For every 1
 【揭露】状态下，敌方目标自身回合内受到的伤害提高30%，且当敌方目标处于【奥迹】状态时，也会被视为同时陷入了风化、裂伤、灼烧、触电状态，并且【奥迹】每回合开始造成伤害后不会重置层数。【奥迹】不会重置层数的效果在【揭露】状态持续时间内最多触发1次，再次陷入【揭露】状态会刷新触发次数。
 对敌方全体造成等同于黑天鹅144%攻击力的风属性伤害。
 
-### 天赋：Loom of Fate's Caprice
+### Talent：Loom of Fate's Caprice
 - **类型**：Talent
 - **简述**：When an enemy target receives DoT, there's a chance for it to be inflicted with "Arcana". "Arcana" is considered as Wind Shear, Bleed, Burn, and Shock. The target receives Wind DoT in each turn. Only at the start of the enemy target's turn, additionally deals Wind DoT to adjacent targets .
 "Arcana" can continue to stack after reaching its upper limit, and the excess stacks are removed after dealing DMG.
@@ -186,7 +186,7 @@ DMG from "Arcana" ignores #7[i]% of the target's DEF. Only when "Arcana" deals D
 大于等于#6[i]层：使本次造成的持续伤害无视该目标及其相邻目标#7[i]%的防御力。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7(%) | 参数8 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7(%) | 参数8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 96% | 50% | 4.8% | 3 | 72% | 7 | 20% | 50 |
   | Lv.2 | 111.84% | 51.5% | 5.59% | 3 | 83.88% | 7 | 20% | 50 |
@@ -222,14 +222,14 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 大于等于3层：对相邻目标造成等同于黑天鹅225%攻击力的风属性持续伤害，并且有72.5%的基础概率使相邻目标陷入1层【奥迹】。
 大于等于7层：使本次造成的持续伤害无视该目标及其相邻目标20%的防御力。
 
-### 秘技：From Façade to Vérité
+### Technique：From Façade to Vérité
 - **类型**：Technique
 - **简述**：After Technique is used, at the start of the next battle, there is a high chance for each enemy to be inflicted with "Arcana" repeatedly until "Arcana" fails to be inflicted.
 - **最大等级**：1
 - **效果模板**：After Technique is used, there is a #1[i]% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to #2[i]% of the base chance of the previous successful infliction of "Arcana" on that target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 150% | 50% |
 
@@ -239,9 +239,9 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 
 - **满级效果**：After Technique is used, there is a 150% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to 50% of the base chance of the previous successful infliction of "Arcana" on that target.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 脏中躁动 | 晋阶2 | 施放战技攻击陷入风化、裂伤、灼烧、触电状态的指定敌方单体后，分别各有#1[i]%的基础概率额外使目标陷入1层【奥迹】。 | 施放战技攻击陷入风化、裂伤、灼烧、触电状态的指定敌方单体后，分别各有65%的基础概率额外使目标陷入1层【奥迹】。 | 信用点×5000、炽情之灵×3、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 杯底端倪 | 晋阶4 | 在敌方目标进入战斗时，有#1[i]%的基础概率陷入1层【奥迹】。
@@ -249,19 +249,19 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 敌方目标在我方单次攻击内每受到1次持续伤害，有65%的基础概率陷入1层【奥迹】，单次攻击内最多陷入3层。 | 信用点×20000、星火之精×5、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 烛影朕兆 | 晋阶6 | 使自身造成的伤害提高，提高数值等同于效果命中的#1[i]%，最多使造成的伤害提高#2[i]%。 | 使自身造成的伤害提高，提高数值等同于效果命中的60%，最多使造成的伤害提高72%。 | 信用点×160000、焚天之魔×8、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
+| ATK | 28% |
 | 效果命中 | 10% |
 | 风属性伤害提高 | 14.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Seven Pillars of Wisdom | While Black Swan is active in combat, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%. |
 | E2 | Weep Not For Me, My Lamb | When an enemy target afflicted with "Arcana" is defeated, there is a 100% base chance of inflicting 6 stack(s) of "Arcana" on adjacent targets. |
@@ -272,83 +272,83 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：效果命中 / 攻击力 / 风属性伤害提高 / 攻击力
 
 **推荐副词条**：攻击力 / 效果命中 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|幽锁深牢的系囚]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|Prisoner in Deep Confinement]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/泛银河商业公司\|泛银河商业公司]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
-| [[zh_cn/relic/位面饰品/沉欢醉饮的海隅\|沉欢醉饮的海隅]] | 使装备者的攻击力提高12%。当装备者的攻击力大于等于2400/3600时，使造成的持续伤害额外提高12%/24%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/泛银河商业公司\|Pan-Cosmic Commercial Enterprise]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
+| [[zh_cn/relic/位面饰品/沉欢醉饮的海隅\|Revelry by the Sea]] | 使装备者的攻击力提高12%。当装备者的攻击力大于等于2400/3600时，使造成的持续伤害额外提高12%/24%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/重塑时光之忆.md|重塑时光之忆]]
+### [[zh_cn/lightcone/虚无/重塑时光之忆.md|Reforged Remembrance]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：结晶
 - **效果**：使装备者的效果命中提高【40%/45%/50%/55%/60%】。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加4层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高【5%/6%/7%/8%/9%】，造成的持续伤害无视目标【7.2%/7.9%/8.6%/9.3%/10.0%】的防御力。
 
-### [[zh_cn/lightcone/虚无/那无数个春天.md|那无数个春天]]
+### [[zh_cn/lightcone/虚无/那无数个春天.md|Those Many Springs]]
 
 - **基础属性**：生953 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：世事无痕
 - **效果**：使装备者的效果命中提高【60%/70%/80%/90%/100%】，装备者施放普攻、战技、终结技攻击敌方目标后，有60%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高【10%/12%/14%/16%/18%】，持续2回合。若目标处于装备者施加的持续伤害状态，则有60%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高【14%/16%/18%/20%/22%】，持续2回合，期间装备者无法对其施加【卸甲】。
 
-### [[zh_cn/lightcone/虚无/猎物的视线.md|猎物的视线]]
+### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：自信
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
 
-### [[zh_cn/lightcone/虚无/好戏开演.md|好戏开演]]
+### [[zh_cn/lightcone/虚无/好戏开演.md|It's Showtime]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：自娱自乐
 - **效果**：装备者对敌方目标施加负面状态后，获得一层【戏法】，每层【戏法】使装备者造成的伤害提高【6%/7%/8%/9%/10%】，最多叠加3层，持续1回合。当装备者的效果命中大于等于80%时，攻击力提高【20%/24%/28%/32%/36%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
-| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/桑博_风_四星.md\|桑博]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
+| [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
+| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/桑博_风_四星.md\|桑博]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「流光忆庭」的忆者，神秘优雅的占卜师。
 常挂着温柔的微笑，耐心聆听他人的言语，并借此走入「记忆」，掌握全盘信息。
 热衷于收集独一无二的记忆，背后的想法却难以看透。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「她呀，是个奇怪的孩子。我早就知道会这样，她出生的那天，云雀在树上鸣叫，月亮的淡影和初升的朝阳一起印在天上，手里的纸牌告诉我，一个眷恋过去的灵魂即将来到人世。从小时候开始，她最感兴趣的事情就是追问那些曾经的故事。她好奇我们是怎么来的，谁创造了我们，这个世界又是怎么来的，有时候那些问题让最博学的人也哑口无言。我知道有很多孩子笑她，但那些问题不重要吗？生命是一座迂回的迷宫，除了记忆，我们一无所有。」
 ——一位母亲的回忆
@@ -360,7 +360,7 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 
 「生命是一座迂回的迷宫，除了记忆，我们一无所有。」她第一次理解了这句话的含义。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「我以探险家的身份来到这颗星球，一如既往，我会统计河流的走向如何，研究街巷的砖瓦是怎样的材质，落差最大的道路有多少度，还有烟囱的个数和分布…这些工作符合人们的想象，对于保存一个星球「记忆」的想象。
 
@@ -390,7 +390,7 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 
 忆者们穿梭于诸多星球，在每一条路途，每一个转角间采撷城市的记忆，他们会确保自己不留下痕迹，以免被城市记得。除非他们遇到具备忆者资质的人，并将他们从这座城市的记忆中带走，带去更广阔的大海。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「许多人沉湎于过去的美好，幻想能活在回忆中，所以他们想要成为忆者。可惜，这样的人往往会变成为所欲为的焚化工，随意将回忆篡改成自己喜欢的样子。但她不一样…我看到了她对于记忆本身的尊重，以及强烈的意志与决心。按照惯例，成为忆者前的三个问题，她的回答如下：
 
@@ -408,7 +408,7 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 她睁开眼，记忆的碎片绕着她的身边旋转。
 「人们以为自己面对的是现在与未来，却无人知晓我们其实都在走向过去。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「地点：匹诺康尼 
 时间：██年██月██日

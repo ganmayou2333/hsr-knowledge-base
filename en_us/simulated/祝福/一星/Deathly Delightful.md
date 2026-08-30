@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Deathly Delightful |
-| 类型 | 祝福 |
-| 命途 | 欢愉&记忆 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Deathly Delightful |
+| Type | Blessing |
+| Path | 欢愉&记忆 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标造成欢愉伤害后，使敌方目标受到的伤害提高40%，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

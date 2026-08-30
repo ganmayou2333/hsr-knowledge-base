@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Stone Maze |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*4记忆*2 |
+| Name | Stone Maze |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*4记忆*2 |
 
 
-## 效果
+## Effect
 
 我方目标持有大于等于20层【执念】时，造成的追加攻击与附加伤害提高100%。进入战斗后，当在场的我方目标数量发生变化时，为【执念】层数最少的我方目标提供8层【执念】。
 
-## 强化效果
+## Enhanced Effect
 
 -

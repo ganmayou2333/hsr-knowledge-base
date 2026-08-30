@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Cross Rhythm |
-| 类型 | 祝福（同名合并） |
-| 命途 | 同谐 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Cross Rhythm |
+| Type | Blessing (merged) |
+| Path | 同谐 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616954 | When any ally target Breaks an enemy target's Weakness, increases all ally targets' Break Effect by 40% for 3 turn(s). |
 | 617954 | When any ally target Breaks an enemy target's Weakness, increases all ally targets' Break Effect by 40% for 3 turn(s). |

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mimesis: Tactile Pathway |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Mimesis: Tactile Pathway |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612843 | After characters use an attack, they deal Additional DMG to the attacked enemy target(s). For every enemy target that was attacked, increase Additional DMG by 15% of the character's ATK. |
 | 615842 | After characters use an attack, they deal Additional DMG to the attacked enemy target(s). For every enemy target that was attacked, increase Additional DMG by 15% of the character's ATK. |

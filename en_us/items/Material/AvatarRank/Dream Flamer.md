@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dream Flamer |
-| 用途 | 角色晋阶材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Dream Flamer |
+| Use | Character Ascension |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 一把能瞬间烹饪食物的喷枪，量子属性角色的晋升素材。
 
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【梦境边缘】
 - 「万能合成机」- 材料置换

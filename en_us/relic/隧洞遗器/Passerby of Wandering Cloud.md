@@ -4,20 +4,20 @@
 > 实体ID：101
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/571/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Passerby of Wandering Cloud |
-| 类型 | 隧洞遗器 |
-| 实体ID | 101 |
-## 获取途径
+| Name | Passerby of Wandering Cloud |
+| Type | 隧洞遗器 |
+| Entity ID | 101 |
+## Acquisition
 漂泊之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Outgoing Healing by 10%.
 ### 4 件套
 At the start of the battle, immediately regenerates 1 Skill Point.
-## 部位
+## Pieces
 ### 手部：过客的游龙臂鞲
 **描述**：如水的珊瑚金与未知的兽革制成的腕甲，唯有龙脉一族的巧匠才能打造出这等非凡工艺。
 **来历**：

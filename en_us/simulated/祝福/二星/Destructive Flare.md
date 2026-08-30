@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Destructive Flare |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Destructive Flare |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色当前生命值百分比小于50%时，造成的伤害提高40%。
 
-## 强化效果
+## Enhanced Effect
 
 角色当前生命值百分比小于50%时，造成的伤害提高50%，小于35%时，造成的伤害额外提高20%。

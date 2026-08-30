@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | If Time Were a Flower |
-| 命途 | Harmony |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | If Time Were a Flower |
+| Path | Harmony |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Mama, I want to hear another story!"
 "My sweet girl, how about a story about time?"
@@ -34,18 +34,18 @@ She opened her eyes—
 "It would surely become a sea of flowers," said the serene girl.
 "Of course it would!" Exclaimed the playful girl, cheering at her masterpiece.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,270 | 529 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Aspiration
 
 Increases the wearer's CRIT DMG by 36%. After the wearer launches Follow-Up ATK, additionally regenerates 12 Energy and gains "Presage," lasting for 2 turn(s). While the wearer has "Presage," all ally targets' CRIT DMG increases by 48%. When entering battle, the wearer regenerates 21 Energy and gains "Presage," lasting for 2 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

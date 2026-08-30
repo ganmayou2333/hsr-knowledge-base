@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Sunslayer" |
-| 用途 | 音乐专辑 |
-| 评级 | ★★★ |
-| 类型 | Usable / 音乐专辑 |
+| Item Name | "Sunslayer" |
+| Use | Music Album |
+| Rarity | ★★★ |
+| Type | Usable / 音乐专辑 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 活动/商店获得

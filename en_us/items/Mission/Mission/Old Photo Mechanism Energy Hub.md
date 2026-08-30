@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Old Photo: Mechanism Energy Hub |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Old Photo: Mechanism Energy Hub |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一幅旧照片，揭示了藏品「机关能源中枢」之所在。
 
-## 获得途径
+## Acquisition
 
 - 1.1活动冒险任务【藏品收集•机关能源中枢】

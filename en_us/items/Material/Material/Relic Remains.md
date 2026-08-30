@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Relic Remains |
-| 用途 | 消耗品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Relic Remains |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 遗器分解所获得的产物。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 遗器分解

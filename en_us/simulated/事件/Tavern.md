@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tavern |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 遭遇 |
-| 图片 | `image/simulated_event/PicRogueEvent_Battle.png` |
+| Name | Tavern |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 遭遇 |
+| Image | `image/simulated_event/PicRogueEvent_Battle.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 挑战弗朗斯先生的安保团队。 | 揭穿他破产的事实，挑战成功获得1个「命途1」的祝福。 |
 | 挑战亚威拉壮汉的佣兵集团。 | 撕下他的面具，挑战成功获得1个「命途2」的祝福。 |
@@ -40,7 +40,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 13601 |  |
 | 13602 |  |

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Silvermane Badge |
-| 用途 | 行迹材料 | 角色晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / CommonMonsterDrop |
+| Item Name | Silvermane Badge |
+| Use | Trace Material | Character Ascension |
+| Rarity | 2★ |
+| Type | Material / CommonMonsterDrop |
 
-## 说明
+## Description
 
 银鬃铁卫士兵佩戴的扣针徽章。强化所需的简单材料。
 
-## 获得途径
+## Acquisition
 
 - 永冬灾影、火焚灾影掉落
 - 银鬃铁卫、流浪者掉落

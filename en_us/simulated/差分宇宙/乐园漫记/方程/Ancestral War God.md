@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ancestral War God |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2巡猎+2记忆 |
+| Name | Ancestral War God |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2巡猎+2记忆 |
 
 
-## 效果
+## Effect
 
 我方目标暴击率提高25%，忆灵施放攻击后，额外为随机攻击目标添加3层【逆会心】。
 
-## 强化效果
+## Enhanced Effect
 
 -

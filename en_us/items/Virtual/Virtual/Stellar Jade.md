@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Stellar Jade |
-| 用途 | 稀有货币 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Stellar Jade |
+| Use | 稀有货币 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 星琼是一种稀有的星际通用货币，闪耀如流星划过夜空。可用于跃迁（抽卡）与购买补给等。
 
 
-## 获得途径
+## Acquisition
 
 - （暂未收录）

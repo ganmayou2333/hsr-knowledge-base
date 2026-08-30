@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Your Cabinet is Beautiful, You Know |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Your Cabinet is Beautiful, You Know |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616642 | For every Type of "Aftertaste" DMG an enemy target takes, increases their DMG taken by 3% until the end of their next action. |
 | 617642 | Increases "Dealer's" base SPD by 16 and advances their action by 50% when the battle starts. |

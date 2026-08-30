@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Wen Furui's Gift |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Wen Furui's Gift |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 精致包装的礼物包裹。至少在外观上，可以称得上「煞费苦心」。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【仙舟追爱记】

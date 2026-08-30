@@ -4,20 +4,20 @@
 > 实体ID：306
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/581/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Inert Salsotto |
-| 类型 | 位面饰品 |
-| 实体ID | 306 |
-## 获取途径
+| Name | Inert Salsotto |
+| Type | 位面饰品 |
+| Entity ID | 306 |
+## Acquisition
 第六世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the DMG dealt by the wearer's Ultimate and Follow-Up ATK increases by 15%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 连结绳：萨尔索图的晨昏界线
 **描述**：停止自转的萨尔索图星的日夜周期漫长无比，人们只有追逐着「晨昏交界线」不断迁徙，才能勉强维持住仅剩的生存空间。
 **来历**：

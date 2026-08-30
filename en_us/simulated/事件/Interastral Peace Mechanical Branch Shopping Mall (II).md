@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Interastral Peace Mechanical Branch Shopping Mall (II) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Bond.png` |
+| Name | Interastral Peace Mechanical Branch Shopping Mall (II) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Bond.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 升级香涎干酪。 | 失去奇物：{{图标/奇物\|小\|香涎干酪\|悬浮窗=是}}；获得奇物：{{图标/奇物\|小\|海绵王\|悬浮窗=是}}。 |
 | 升级测不准匣。 | 失去奇物：{{图标/奇物\|小\|测不准匣\|悬浮窗=是}}；获得奇物：{{图标/奇物\|小\|猜不透匣\|悬浮窗=是}}。 |
@@ -39,7 +39,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 320801 |  |
 | 420801 |  |

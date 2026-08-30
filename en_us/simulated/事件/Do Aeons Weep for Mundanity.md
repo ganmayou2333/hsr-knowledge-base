@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for Mundanity? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for Mundanity? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：「噗——本以为她不敢赴约，结果竟是我迟到了。」吹破泡泡糖的女孩个子不高，无奈溢于言表。
 差分宇宙：她？你们突然意识到，这里的每个人都见过那口若悬河的剧团长，乘着点心船的怪人。不知不觉间，众人纷纷谈起对她的第一印象。
 差分宇宙：「她自称是悲悼伶人，却比谁都爱笑」、「每到演出结束，她都会把演员收回故事书里」……
 差分宇宙：「她借了我10000信用点，准确来说，应该是欺诈」，智械女士说。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 好吧，这也算吧。 | — |
 | 你的画风怎么不一样？ | — |
@@ -65,6 +65,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 266 |  |

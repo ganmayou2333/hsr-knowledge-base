@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lepismat System: Massacre Saga (V) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Lepismat System: Massacre Saga (V) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：你来到一个只剩沙漠的世界。一位头发花白、脚腕扭曲的老者坐在*沙丘*和*兵俑*之间看着你。他用沙制的墙壁抵御虫灾，在此地圈出一片净土。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 善意地夸奖。 | 堆得很不错！ |
 | 伸出一根食指…… | 哼哼！把他花了十个自然年搭起来的沙丘推到！ |
@@ -51,6 +51,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 115901 |  |

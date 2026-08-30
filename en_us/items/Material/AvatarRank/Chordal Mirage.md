@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Chordal Mirage |
-| 用途 | 角色晋阶材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Chordal Mirage |
+| Use | Character Ascension |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 剧团乐师携带的红色乐器上的银弦，虚数属性角色的晋升素材。
 
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【匹诺康尼大剧院】
 - 「万能合成机」- 材料置换

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lost Crystal |
-| 用途 | 遗器经验材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Lost Crystal |
+| Use | Relic EXP |
+| Rarity | ★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 遗器强化材料，可为遗器提供1000点经验值。
 
 
-## 获得途径
+## Acquisition
 
 - 忘却之庭

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Lacrimi și Sfinți |
-| 类型 | 祝福（同名合并） |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Lacrimi și Sfinți |
+| Type | Blessing (merged) |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616241 | Every time an enemy target takes "Murmur" DMG, decreases their DMG dealt by 0.5% to a max reduction of 16%. |
 | 617241 | Every time an enemy target takes "Murmur" DMG, decreases their DMG dealt by 0.3% to a max reduction of 12%. |

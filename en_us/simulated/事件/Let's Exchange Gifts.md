@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Let's Exchange Gifts |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 交易 |
-| 图片 | `image/simulated_event/PicRogueEvent_Trade.png` |
+| Name | Let's Exchange Gifts |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 交易 |
+| Image | `image/simulated_event/PicRogueEvent_Trade.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 方程覆写 | 舍弃1个随机2星方程，并获得1个随机3星方程。 |
 | 祝福重铸 | 舍弃1个1-2星祝福，并随机获得3个方程所需的祝福。 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 13801 |  |
 | 113801 |  |

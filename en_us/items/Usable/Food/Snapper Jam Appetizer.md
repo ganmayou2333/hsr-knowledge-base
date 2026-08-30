@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Snapper Jam Appetizer |
-| 用途 | 食物 |
-| 评级 | ★★ |
-| 类型 | Usable / 食物 |
+| Item Name | Snapper Jam Appetizer |
+| Use | 食物 |
+| Rarity | ★★ |
+| Type | Usable / 食物 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['小吃摊']

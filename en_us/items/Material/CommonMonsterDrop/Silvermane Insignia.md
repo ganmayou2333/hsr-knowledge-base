@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Silvermane Insignia |
-| 用途 | 行迹材料 | 角色晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / CommonMonsterDrop |
+| Item Name | Silvermane Insignia |
+| Use | Trace Material | Character Ascension |
+| Rarity | 3★ |
+| Type | Material / CommonMonsterDrop |
 
-## 说明
+## Description
 
 银鬃铁卫队长佩戴的军衔标志。强化所需的普通材料。
 
-## 获得途径
+## Acquisition
 
 - 突破至均衡等级2后，永冬灾影、火焚灾影掉落
 - 突破至均衡等级2后，银鬃铁卫、流浪者掉落

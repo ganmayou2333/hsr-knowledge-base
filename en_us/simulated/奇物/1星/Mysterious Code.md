@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mysterious Code |
-| 类型 | 奇物（同名合并） |
-| 星级 | 1星 |
+| Name | Mysterious Code |
+| Type | 奇物（同名合并） |
+| Rarity | 1星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 6 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 53 | 将这段代码修复成正常的奇物需要花费3场战斗
 修复期间，角色消灭敌方目标后，其他敌方目标造成的伤害提高35%
@@ -35,7 +35,7 @@ While the code is being fixed, enemies deal 35% more DMG when another enemy unit
 Once the code is fixed, this Curio increases DMG dealt by all allies. |
 | 3054 | All allies deal 25% more DMG after an enemy is defeated. |
 
-## 背景故事
+## Story
 
 运行它是一种风险，写作它则是一种罪孽。
 「这谁写的？我能不能以蓄意伤害罪名起诉他？！」

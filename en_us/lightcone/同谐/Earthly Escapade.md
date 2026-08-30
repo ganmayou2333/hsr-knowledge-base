@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Earthly Escapade |
-| 命途 | Harmony |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Earthly Escapade |
+| Path | Harmony |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Just as fireworks can flicker, she too can shift between ten different colors in a minute.
 When the light show nears its end, she sits high above, regarding the bustling masses beneath her feet with boredom.
@@ -24,18 +24,18 @@ Thoughts flow and vanish, and slyness circulates across myriad eyes like a danci
 Bouncing and hopping, she glides through the crowds, her golden-red tail flitting in and out of sight.
 "Keep up! The brightest fireworks are just about to begin!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 529 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Capriciousness
 
 Increases the wearer's CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's teammates have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

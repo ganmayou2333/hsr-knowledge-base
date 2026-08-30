@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Borisin |
-| 类型 | 祝福 |
-| 命途 | 丰饶&毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Borisin |
+| Type | Blessing |
+| Path | 丰饶&毁灭 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 行动序列上出现【断灭花】：【珠露】破裂时会基于自身充能的600%为【断灭花】充能，行动时，对敌方全体造成充能值+1200%基础伤害的火属性伤害。我方全体每有1层【战意】都会使该伤害额外提高1.5%。
 
-## 强化效果
+## Enhanced Effect
 
 -

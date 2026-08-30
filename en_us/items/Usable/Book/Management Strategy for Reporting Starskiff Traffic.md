@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Management Strategy for Reporting Starskiff Traffic |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Management Strategy for Reporting Starskiff Traffic |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 星槎进出港报告管理办法
 
-## 获得途径
+## Acquisition
 
 - 仙舟「罗浮」-流云渡地图中拾取

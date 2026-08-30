@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Send-Off Carnival |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*2虚无*2 |
+| Name | Send-Off Carnival |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*2虚无*2 |
 
 
-## 效果
+## Effect
 
 敌方目标每持有1种负面效果，受到的追加攻击伤害提高6%，最多不超过60%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Edited Note |
-| 用途 | 任务道具 |
-| 评级 | ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Edited Note |
+| Use | Mission Item |
+| Rarity | ★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 娟丽字体写作的手记，出自佩拉之手。后续有你在裂界中找到的线索内容。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【旧城拾遗】

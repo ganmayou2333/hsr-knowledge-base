@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Slate |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Slate |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 波瑟芬妮藏在软垫中的石板。上面所记录的内容，似乎是哈德斯对她动手的主要理由。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【破碎的记忆】

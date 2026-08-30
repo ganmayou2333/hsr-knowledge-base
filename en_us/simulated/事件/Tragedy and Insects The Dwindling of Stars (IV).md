@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tragedy and Insects: The Dwindling of Stars (IV) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_03.png` |
+| Name | Tragedy and Insects: The Dwindling of Stars (IV) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_03.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·起源宇宙：一群人类曾行于「贪饕」的命途之上，他们通过观察被猎食者的痕迹来推敲「贪饕」巨物的所在，并对它们进行反向追猎。你在一尊石碑上看见他们篆刻下的图腾，像是一场晚宴前应尽的礼节——
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 按照上述记载行动。 | 你对此跃跃欲试！ |
 | 拒绝。 | 你匆匆走开了。 |
@@ -43,6 +43,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 117001 |  |

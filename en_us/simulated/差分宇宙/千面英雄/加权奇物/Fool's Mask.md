@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fool's Mask |
-| 类型 | 加权奇物 |
+| Name | Fool's Mask |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

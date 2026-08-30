@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Proboscis |
-| 类型 | 祝福 |
-| 命途 | 繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Proboscis |
+| Type | Blessing |
+| Path | 繁育 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 【蜕变】效果的持续时间延长1回合。当拥有【蜕变】效果的角色消灭敌方目标后，为命途回响恢复20%能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

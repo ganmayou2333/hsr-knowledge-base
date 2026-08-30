@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Candlelight Radiance |
-| 类型 | 祝福（同名合并） |
-| 命途 | 丰饶 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Candlelight Radiance |
+| Type | Blessing (merged) |
+| Path | 丰饶 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612343 | When a character provides healing to allies, increases the ATK of both units by 50% for 1 turn(s). |
 | 615342 | When a character provides healing to allies, increases the ATK of both units by 50% for 1 turn(s). |

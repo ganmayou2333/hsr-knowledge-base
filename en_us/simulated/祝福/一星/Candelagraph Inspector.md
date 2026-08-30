@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Candelagraph Inspector |
-| 类型 | 祝福 |
-| 命途 | 智识&记忆 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Candelagraph Inspector |
+| Type | Blessing |
+| Path | 智识&记忆 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色施放终结技时，每消耗10点能量，使攻击力提高4%，效果命中提高2%，最多叠加20层，持续2回合，每次施放终结技时至少视为消耗了80点能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

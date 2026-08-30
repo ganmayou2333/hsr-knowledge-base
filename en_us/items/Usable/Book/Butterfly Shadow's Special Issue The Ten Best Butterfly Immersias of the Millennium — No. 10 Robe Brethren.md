@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Butterfly Shadow's Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 10: Robe Brethren |
-| 用途 | 第十名 《袍哥》 阅读物 / 第九名《青丘》 阅读物 / 第八名《凯蒙凯》 阅读物 / 第七名《透帘细草》 阅读物 / 第六名《饮膳正要》 阅读物 / 第五名《深水长眠》 阅读物 / 第四名《计程槎飞行士》 阅读物 / 第三名《罗浮上最后的夜晚》 阅读物 / 第二名《帝弓司命》 阅读物 / 第一名《外婆桥》 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Butterfly Shadow's Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 10: Robe Brethren |
+| Use | 第十名 《袍哥》 阅读物 / 第九名《青丘》 阅读物 / 第八名《凯蒙凯》 阅读物 / 第七名《透帘细草》 阅读物 / 第六名《饮膳正要》 阅读物 / 第五名《深水长眠》 阅读物 / 第四名《计程槎飞行士》 阅读物 / 第三名《罗浮上最后的夜晚》 阅读物 / 第二名《帝弓司命》 阅读物 / 第一名《外婆桥》 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 10 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 仙舟「罗浮」-长乐天地图中的商店【三余书肆】处购买仙舟「罗浮」-长乐天地图中与武赫、南洁对话获得（第十名《袍哥》）

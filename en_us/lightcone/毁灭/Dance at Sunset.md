@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Dance at Sunset |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Dance at Sunset |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 In the resplendent twilight, a swift figure darts across the rooftops.
 "Lili, Guoguo, let's see who makes it to the finish line first!"
@@ -25,18 +25,18 @@ The warm evening breeze caresses her face, and the setting sun bathes the cat in
 She declares, wiping sweat from her brow and cradling the cat in her arms.
 Amidst a rising galaxy of stars, her unguarded smile dissolves into a bloom of innocence, akin to the layered twilight hues adrift in the sky.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 582 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Deeply Engrossed
 
 Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by 36%. After the wearer uses Ultimate, receives 1 stack of "Firedance," lasting for 2 turns and stacking up to 2 time(s). Each stack of "Firedance" increases the DMG dealt by the wearer's Follow-Up ATK by 36%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

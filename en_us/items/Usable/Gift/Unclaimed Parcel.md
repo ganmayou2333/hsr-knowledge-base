@@ -6,22 +6,22 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Unclaimed Parcel |
-| 用途 | 贵重物品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Unclaimed Parcel |
+| Use | 贵重物品 |
+| Rarity | ★★★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 逾期未取的邮包。打开或许能获得随机材料。
 
 
 
-## 获得途径
+## Acquisition
 
 - 仙舟「罗浮」-流云渡-过期邮包收购处

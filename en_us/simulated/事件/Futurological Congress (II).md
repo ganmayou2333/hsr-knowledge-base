@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Futurological Congress (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Futurological Congress (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：希冀独占遗产的斯坦德在唾骂中离场，星际能源学派提出调和式的建议——将95％的算力赐予四道足够伟大的寰宇难题。
 模拟宇宙：你很快看懂这出蹩脚的双簧。光辉的学士让你们做出选择，是让一个学派占据所有，还是由四个学派瓜分遗产，人人皆可染指残渣。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 一个完美学者。 | — |
 | 四个寰宇难题。 | — |
@@ -54,6 +54,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 203 |  |

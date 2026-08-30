@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Child of Calamity |
-| 类型 | 祝福 |
-| 命途 | 繁育&虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Child of Calamity |
+| Type | Blessing |
+| Path | 繁育&虚无 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标进入战斗时获得【蛀洞】：【蛀洞】会记录持有者获得的【孢子】数量，达到18个时，对敌方全体造成2200%基础伤害的量子属性伤害，每有1个负面状态，该伤害提高10%，最多提高100%，然后清空记录的数量。
 
-## 强化效果
+## Enhanced Effect
 
 -

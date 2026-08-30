@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Spying on Heaven (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Spying on Heaven (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：学派「战争」时常被史学家们批评名不副实。与动辄数十纪的诸多事件相比，它的时间太过短暂，局限于博识学会内部的冲突，亦缺乏对银河的深远影响，就像一只羸弱的蝴蝶。
 模拟宇宙：站在「权杖」的核心面前。惊恐、亢奋，肾上腺素和多巴胺刺激情绪，令思想短暂地定格。帕提维娅没来由地感到愤怒，被无知遮住双眼的愤怒，她失去所有的欲望，只剩下求知的冲动。
 模拟宇宙：所谓的无机仿生神经元集群，不过是对博识尊的拙劣模仿。帝皇制造出天体级的计算干涉装置，给予其解答的算力，却没有赋予它们「提问」的机能。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 工具无法替帝皇思考。 | — |
 | 工具不配替帝皇思考。 | — |
@@ -56,6 +56,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 217 |  |

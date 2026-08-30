@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | The Great Cosmic Enterprise |
-| 命途 | Erudition |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | The Great Cosmic Enterprise |
+| Path | Erudition |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 In a virtual exhibition hall sculpted from data, the exhibition representatives exchanged opinions.
 Two figures moved between the booths, delivering everything needed by each party.
@@ -26,18 +26,18 @@ Though their meetings were few and far between, they were as close as old friend
 "By the way, have you thought about my proposal..."
 "The Express is not for sale!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Mutual Benefit
 
 Increases the wearer's ATK by 8%. For every 1 different Weakness Type an enemy target has, increases the DMG dealt to it by the wearer by 4%. Up to a max of 7 Weakness Types can be taken into account for this effect.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

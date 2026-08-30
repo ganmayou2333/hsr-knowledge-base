@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Master of Fates |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4同谐+2巡猎 |
+| Name | Master of Fates |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4同谐+2巡猎 |
 
 
-## 效果
+## Effect
 
 我方目标攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次75%的超击破伤害，敌方目标每持有1层【逆会心】额外造成5%的超击破伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

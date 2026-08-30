@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter: Crimson Cleansing Chronicle (III) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Bounty Hunter: Crimson Cleansing Chronicle (III) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·余烬宇宙：你身后始终跟着一位赏金猎人的「血罪灵」。你对这聒噪的背附灵感到庆倦…
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 再帮他洗一次手。 | 作为回报：拭去水雾后，现象会揭开它自身的谜底。 |
 | 把它赶走。 | 第九千八十七次了；那双手洗不干净。 |
@@ -48,6 +48,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116301 |  |

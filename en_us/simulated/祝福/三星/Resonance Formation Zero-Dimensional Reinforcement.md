@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Zero-Dimensional Reinforcement |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Zero-Dimensional Reinforcement |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 命途回响「存护」造成的攻击必定造成暴击。当队伍中每有1个角色持有护盾时，暴击伤害提高15%。
 
-## 强化效果
+## Enhanced Effect
 
 -

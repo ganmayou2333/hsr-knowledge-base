@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Nameless Medal (Unopened) |
-| 用途 | 贵重物品 |
-| 评级 | ★★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Nameless Medal (Unopened) |
+| Use | 贵重物品 |
+| Rarity | ★★★★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 未开启的宝物，使用后可获得等同于购买一次「无名客的奖章」的效果。
 
-## 获得途径
+## Acquisition
 
 - 「跃迁测试」充值返还
 - 系统邮箱

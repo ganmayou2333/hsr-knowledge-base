@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sensory Labyrinth |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Sensory Labyrinth |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标陷入风化/裂伤/触电/灼烧状态的时间延长1回合。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标陷入风化/裂伤/触电/灼烧状态的时间延长2回合。

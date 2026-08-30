@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Yongren's Documentation |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Yongren's Documentation |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 神策府的机密文件，记录着永仁加入云骑的完整经历。
 
 
-## 获得途径
+## Acquisition
 
 - 调查丹鼎司的快递箱，与奄奄一息的机巧鸟对话

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Aberration Idol |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4毁灭+2繁育 |
+| Name | Aberration Idol |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4毁灭+2繁育 |
 
 
-## 效果
+## Effect
 
 【耀变】充能效率提高25%。【蝶魄】状态下施放普攻/战技发动攻击后，对攻击目标造成150%的【耀变】伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

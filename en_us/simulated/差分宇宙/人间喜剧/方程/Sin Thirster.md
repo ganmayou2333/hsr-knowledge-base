@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sin Thirster |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*3巡猎*2 |
+| Name | Sin Thirster |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*3巡猎*2 |
 
 
-## 效果
+## Effect
 
 角色造成的持续伤害可以暴击，造成持续伤害时，暴击伤害最高不超过100%。
 
-## 强化效果
+## Enhanced Effect
 
 -

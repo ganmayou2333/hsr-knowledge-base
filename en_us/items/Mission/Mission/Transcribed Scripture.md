@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Transcribed Scripture |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Transcribed Scripture |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一个仙舟风格的卷轴，上面抄写着五百遍《千手慈怀药王救世品》。仔细看就能发现，后面几百遍与前面的笔迹不尽相同。希望这不会被发现吧。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【蝮蛇鸩鸟，万寿迢迢】

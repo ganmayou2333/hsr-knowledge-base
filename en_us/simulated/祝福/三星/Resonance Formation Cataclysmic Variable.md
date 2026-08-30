@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Cataclysmic Variable |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Cataclysmic Variable |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 施放命途回响会消耗我方全体生命值至其生命上限的40%，命途回响「毁灭」造成的攻击伤害提高20%。消耗的生命值会转换为等量护盾，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

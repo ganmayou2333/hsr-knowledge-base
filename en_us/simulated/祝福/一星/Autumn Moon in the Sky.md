@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Autumn Moon in the Sky |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Autumn Moon in the Sky |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616453 | After defeating any enemy target, restores all ally targets' HP equal to 30% of their respective Max HP. |
 | 617453 | After defeating any enemy target, restores all ally targets' HP equal to 12% of their respective Max HP. |

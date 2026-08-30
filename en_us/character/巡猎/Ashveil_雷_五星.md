@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Ashveil |
-| 命途 | The Hunt |
-| 属性 | Lightning |
-| 稀有度 | ★★★★★ |
-| 阵营 | 巡海游侠 |
-| 角色介绍 | 随缘营业，硬核推理，全凭直觉却屡破奇案。 猴子当助手，一心盼退休，侦探睡在冰箱，只为等愿者上钩。 幻月下，恶兽长嗥，他的追猎游戏会如何收网？ |
-| 定位 | 是一名能标记敌方单体为【饲饵】并进行高频追加攻击的输出型角色 |
+| Character Name | Ashveil |
+| Path | The Hunt |
+| Attribute | Lightning |
+| Rarity | ★★★★★ |
+| Faction | 巡海游侠 |
+| Introduction | 随缘营业，硬核推理，全凭直觉却屡破奇案。 猴子当助手，一心盼退休，侦探睡在冰箱，只为等愿者上钩。 幻月下，恶兽长嗥，他的追猎游戏会如何收网？ |
+| Role | 是一名能标记敌方单体为【饲饵】并进行高频追加攻击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 子安武人 |
-| 英语 | Blythe Melin |
-| 中文 | 张沛 |
-| 韩语 | 강수진 |
+| Japanese | 子安武人 |
+| English | Blythe Melin |
+| Chinese | 张沛 |
+| Korean | 강수진 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 854 |
-| 基础攻击力 | 776 |
-| 基础防御力 | 388 |
-| 基础速度 | 106 |
-| 嘲讽 | 75 |
-| 能量上限 | 150 |
+| Base HP | 854 |
+| Base ATK | 776 |
+| Base DEF | 388 |
+| Base SPD | 106 |
+| Taunt | 75 |
+| Max Energy | 150 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/狂雷扫弦\|狂雷扫弦]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/狂雷扫弦\|Thunder Strum]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/纷争血尘\|纷争血尘]] | 12 |
-| [[zh_cn/items/Material/TracePath/战魂血珀\|战魂血珀]] | 53 |
-| [[zh_cn/items/Material/TracePath/天谴血矛\|天谴血矛]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/纷争血尘\|Grit of Strife]] | 12 |
+| [[zh_cn/items/Material/TracePath/战魂血珀\|Resin of Valor]] | 53 |
+| [[zh_cn/items/Material/TracePath/天谴血矛\|Lance of Retribution]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|Vanquished Flow's Reticence]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|Whimsy Wax]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|Dreamweave Steel]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|Lucid Awl]] | 28 |
 
 ---
-## 战技
-### 普攻：Talons: Inculcate Decorum
+## Skills
+### Basic ATK：Talons: Inculcate Decorum
 - **类型**：
 - **简述**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 - **最大等级**：10
 - **效果模板**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
-### 战技：Flog: Smite Evil
+### Skill：Flog: Smite Evil
 - **类型**：Skill
 - **简述**：Makes one designated enemy become the "Bait," dealing massive Lightning DMG to them. If the target is already the "Bait," additionally deals minor Lightning DMG to them, and recovers 1 Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When there is no "Bait" on the field, Ashveil immediately makes the enemy target
 场上不存在【饲饵】时，不死途立即使当前场上生命值最低的敌方单体目标成为【饲饵】，【饲饵】状态仅对最新被施加的目标生效。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 1 | 50% | 20% | 1 |
   | Lv.2 | 110% | 1 | 55% | 22% | 1 |
@@ -135,7 +135,7 @@ When there is no "Bait" on the field, Ashveil immediately makes the enemy target
 When there is no "Bait" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the "Bait." The "Bait" state only takes effect on the most recently applied target.
 场上不存在【饲饵】时，不死途立即使当前场上生命值最低的敌方单体目标成为【饲饵】，【饲饵】状态仅对最新被施加的目标生效。
 
-### 终结技：Banquet: Insatiable Appetite
+### Ultimate：Banquet: Insatiable Appetite
 - **类型**：Ultimate
 - **简述**：Makes one designated enemy become the "Bait," dealing massive Lightning DMG to them. Then, immediately launches against the "Bait" 1 instance of enhanced Talent's Follow-Up ATK. And Ashveil gains Charge.
 This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony" reaches 4 stack(s) or more, consumes 4 stack(s) of "Gluttony" to additionally deal massive Lightning DMG. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new "Bait". This triggers until "Gluttony" becomes lower than 4 stack(s).
@@ -146,7 +146,7 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
 强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗#3[i]层【婪酣】可额外造成1次等同于不死途#4[i]%攻击力的雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于#3[i]层。若当前场上的所有敌方目标都受到致命攻击后强化天赋追加攻击会立即结束。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 200% | 3 | 4 | 100% |
   | Lv.2 | 220% | 3 | 4 | 110% |
@@ -174,14 +174,14 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
 This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony" reaches 4 stack(s) or more, consumes 4 stack(s) of "Gluttony" to additionally deal 1 instance of Lightning DMG equal to 250% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new "Bait." This triggers until "Gluttony" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end.
 强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗4层【婪酣】可额外造成1次等同于不死途250%攻击力的雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于4层。若当前场上的所有敌方目标都受到致命攻击后强化天赋追加攻击会立即结束。
 
-### 天赋：Rancor: Enmity Reprisal
+### Talent：Rancor: Enmity Reprisal
 - **类型**：Talent
 - **简述**：After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of Energy, then consumes Charge to launch Follow-Up ATK against the "Bait," dealing massive Lightning DMG. Afterwards, gains 2 stack(s) of "Gluttony."
 - **最大等级**：15
 - **效果模板**：Ashveil has an initial Charge of #1[i] and can hold up to a max of #2[i]. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of #7[i] Energy, then consumes #3[i] Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to #4[i]% of Ashveil's ATK. Afterwards, gains #5[i] stack(s) of "Gluttony," which can stack up to #6[i].
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 | 参数7 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 3 | 1 | 100% | 2 | 12 | 8 |
   | Lv.2 | 2 | 3 | 1 | 110% | 2 | 12 | 8 |
@@ -210,7 +210,7 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
 
 - **满级效果**：Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to 250% of Ashveil's ATK. Afterwards, gains 2 stack(s) of "Gluttony," which can stack up to 12.
 
-### 秘技：Devour: O Loathsome Hand
+### Technique：Devour: O Loathsome Hand
 - **类型**：Technique
 - **简述**：Inflicts Daze on enemies within a set area. After entering combat via attacking a Dazed enemy, deals minor Lightning DMG to all enemies, and grants Ashveil 1 Charge.
 - **最大等级**：1
@@ -219,7 +219,7 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于不死途攻击力#2[i]%的雷属性伤害，且不死途获得#3[i]点充能。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 100% | 1 |
 
@@ -232,27 +232,27 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 When entering combat via actively attacking a Dazed enemy, deals Lightning DMG to all enemies equal to 100% of Ashveil's ATK, and grants Ashveil 1 Charge.
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于不死途攻击力100%的雷属性伤害，且不死途获得1点充能。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 罪途 | 晋阶2 | 不死途施放战技/终结技时，获得#1[i]/#2[i]层【婪酣】。不死途追加攻击过程中每有#3[i]个敌人受到致命攻击时，不死途获得#4[i]层【婪酣】。 | 不死途施放战技/终结技时，获得1/2层【婪酣】。不死途追加攻击过程中每有1个敌人受到致命攻击时，不死途获得1层【婪酣】。 | 信用点×5000、纷争血尘×3、灭流绝溢的缄默×1 |
 | 附加能力2 | 影肢 | 晋阶4 | 不死途追加攻击造成的伤害提高#1[i]%，且每有#2[i]层【婪酣】，追加攻击造成的伤害额外提高#3[i]%。 | 不死途追加攻击造成的伤害提高80%，且每有1层【婪酣】，追加攻击造成的伤害额外提高10%。 | 信用点×20000、战魂血珀×5、命运的足迹×1、灭流绝溢的缄默×1 |
 | 附加能力3 | 头狼 | 晋阶6 | 不死途在场时，我方目标造成的暴击伤害提高#1[i]%，我方目标追加攻击造成的暴击伤害额外提高#2[i]%。 | 不死途在场时，我方目标造成的暴击伤害提高40%，我方目标追加攻击造成的暴击伤害额外提高80%。 | 信用点×160000、天谴血矛×8、命运的足迹×1、灭流绝溢的缄默×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 10% |
+| ATK | 10% |
 | 暴击伤害 | 37.3% |
 | 雷属性伤害提高 | 14.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Beware: Venture Not at Full Moon | While Ashveil is on the field, increases DMG taken by all enemies by 24%. When an enemy target's current HP percentage is 50% or lower, the DMG they take increases to 36%. |
 | E2 | Knock: Where Snickers Echo | The max stack limit of "Gluttony" increases to 18. After each time Ashveil launches the enhanced Talent's Follow-Up ATK, refunds 35% of the removed "Gluttony" stacks. |
@@ -263,70 +263,70 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 雷属性伤害提高 / 攻击力
 
 **推荐副词条**：速度 / 暴击伤害 / 暴击率 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|毁烬焚骨的大公]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|风举云飞的勇烈]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|The Ashblazing Grand Duke]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/风举云飞的勇烈\|The Wind-Soaring Valorous]] | 使装备者的暴击率提高6%，装备者施放追加攻击时，使终结技造成的伤害提高36%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/千星荟萃之城\|千星荟萃之城]] | 装备者施放追加攻击时，攻击力提高24%，持续2回合。当敌方目标被消灭时，我方全体在本场战斗中暴击伤害提高12%，该效果无法叠加。 |
-| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|奔狼的都蓝王朝]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/千星荟萃之城\|City of Converging Stars]] | 装备者施放追加攻击时，攻击力提高24%，持续2回合。当敌方目标被消灭时，我方全体在本场战斗中暴击伤害提高12%，该效果无法叠加。 |
+| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/一场谎言的终幕.md|一场谎言的终幕]]
+### [[zh_cn/lightcone/巡猎/一场谎言的终幕.md|The Finale of a Lie]]
 
 - **基础属性**：生847 攻635 防529
 - **推荐度**：★★★★★
 - **技能名**：吞没
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。战斗开始时或装备者每累计施放4次追加攻击，使装备者获得【影噬】，持续3回合。当装备者持有【影噬】时，攻击力提高【40%/50%/60%/70%/80%】，并使敌方全体受到的伤害提高【20%/22.5%/25%/27.5%/30%】，同类效果无法叠加。
 
-### [[zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|纯粹思维的洗礼]]
+### [[zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|Baptism of Pure Thought]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：思想训练
 - **效果**：使装备者的暴击伤害提高【20%/23%/26%/29%/32%】。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高【8%/9%/10%/11%/12%】，最多叠加3层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高【36%/42%/48%/54%/60%】，追加攻击无视目标【24%/28%/32%/36%/40%】的防御力，该效果持续2回合。
 
-### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|烦恼着，幸福着]]
+### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：一个一个来
 - **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助/副C | 生存 |
 |---|---|---|
-| [[zh_cn/character/巡猎/不死途_雷_五星.md\|不死途]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] |
-| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|丹恒•腾荒]] | [[zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] | [[zh_cn/character/虚无/赛飞儿_量子_五星.md\|赛飞儿]] |
+| [[zh_cn/character/巡猎/不死途_雷_五星.md\|Ashveil]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] |
+| [[zh_cn/character/存护/丹恒•腾荒_物理_五星.md\|Dan Heng • Permansor Terrae]] | [[zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] | [[zh_cn/character/虚无/赛飞儿_量子_五星.md\|赛飞儿]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「在下是『不死神探事务所』的名侦探不死途，这是事务所的名片。我接取各类委托，不管是寻找走失狗猫，冒充家长参会，或者抓捕星际通缉犯，追查星神的下落——你想委托什么？」
 
 随缘营业，硬核推理，全凭直觉却屡破奇案。
@@ -337,7 +337,7 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 ✧「传奇死神体质」第1名 ✧
 ✧「我雇的侦探果然有问题」第1名 ✧
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 野兽派侦探故事集（一）
  
@@ -376,7 +376,7 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 ②不死途先生的梦话并不滑稽。
 ③不死途先生是人，不是一只冬眠的熊。）
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 野兽派侦探故事集（三）
  
@@ -409,7 +409,7 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 所幸，他还要去赚每天的香蕉费，还有许多微小琐碎的事情分散着他的孤独。
 「侦探守则第二条：珍惜你的同伴，就算它们是一群猴子。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 野兽派侦探故事集（八）
  
@@ -446,7 +446,7 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 但他早已为自己开好了药方：
 「侦探守则第三条：长夜里的牺牲，是换取明天的代价。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 野兽派侦探故事集（尾声）
 行文至此，我终于回想起了一些零碎的过往——在翁瓦克的雨林中变成原始生物之前，不死途先生的名字已常常出现在我们的谈话中。

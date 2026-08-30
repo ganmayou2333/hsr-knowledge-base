@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Phantom Strider |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Phantom Strider |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 战斗中精英敌人被消灭时可以获得额外50宇宙碎片，该效果每场战斗最多触发1次。处于黑夜时，对精英敌人的最终伤害提高30%，受到精英敌人的伤害降低10%。
 
-## 强化效果
+## Enhanced Effect
 
 -

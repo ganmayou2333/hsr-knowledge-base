@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ultimate Experience: Insensitivity |
-| 类型 | 祝福（同名合并） |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Ultimate Experience: Insensitivity |
+| Type | Blessing (merged) |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612142 | After Dissociation is removed from an enemy, there is a 50% base chance to Freeze the enemy for 1 turn(s). |
 | 615141 | After Dissociation is removed from an enemy, there is a 50% base chance to Freeze the enemy for 1 turn(s). |

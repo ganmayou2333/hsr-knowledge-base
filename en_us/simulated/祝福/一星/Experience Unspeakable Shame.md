@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Experience: Unspeakable Shame |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 一星 |
-| 特殊类型 | 体验 |
+| Name | Experience: Unspeakable Shame |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 1★ |
+| Special Type | 体验 |
 
 
-## 效果
+## Effect
 
 每拥有1个「记忆」的祝福，使敌方目标抵抗冻结状态的概率降低6%，该效果最多叠加6层。
 
-## 强化效果
+## Enhanced Effect
 
 每拥有1个「记忆」的祝福，使敌方目标抵抗冻结状态的概率降低8%，该效果最多叠加9层。

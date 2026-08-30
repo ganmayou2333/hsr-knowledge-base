@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Key of Knowledge |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / TracePath |
+| Item Name | Key of Knowledge |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 3★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 出现在诸界智者手中的幻之钥匙。可中幅提升智识角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【铆钉镇】
 - 「万能合成机」- 材料合成

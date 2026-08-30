@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Star Rail Special Pass |
-| 用途 | 限定跃迁道具 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Star Rail Special Pass |
+| Use | 限定跃迁道具 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 星穹列车直达车票，标注着特定世界的坐标，适合想从A地直达B地的乘客。用于限定跃迁「星轨专票」。
 
 
-## 获得途径
+## Acquisition
 
 - （暂未收录）

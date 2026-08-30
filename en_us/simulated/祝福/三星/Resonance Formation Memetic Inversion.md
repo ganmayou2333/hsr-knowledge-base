@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Memetic Inversion |
-| 类型 | 祝福 |
-| 命途 | 智识 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Memetic Inversion |
+| Type | Blessing |
+| Path | 智识 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 敌方目标出现时，命途回响回复等同于角色能量上限之和5.0%的能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Unsinkable |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 存护*3毁灭*2 |
+| Name | Unsinkable |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 存护*3毁灭*2 |
 
 
-## 效果
+## Effect
 
 角色获得的护盾量提高20%，每损失1%生命值，获得的护盾量额外提高0.8%。
 
-## 强化效果
+## Enhanced Effect
 
 -

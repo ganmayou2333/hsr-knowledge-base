@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Astral Ecology Care Worker |
-| 类型 | 祝福 |
-| 命途 | 智识&存护 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Astral Ecology Care Worker |
+| Type | Blessing |
+| Path | 智识&存护 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标受到的终结技伤害提高75%，角色持有护盾受到攻击时，为【罐中脑】充能12%。
 
-## 强化效果
+## Enhanced Effect
 
 -

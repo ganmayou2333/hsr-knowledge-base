@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Wrench Drenched Salad |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Wrench Drenched Salad |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后立即为我方全体回复等同于各自生命上限30%的生命值，我方全体在下次战斗中防御力提高20%。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「闭嘴」的吧台

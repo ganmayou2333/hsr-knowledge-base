@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Salvation From Damnation |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Salvation From Damnation |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 每当1个【珠露】破裂，有65%固定概率解除1个自身的负面效果。
 
-## 强化效果
+## Enhanced Effect
 
 每当1个【珠露】破裂，有100%固定概率解除1个自身的负面效果。

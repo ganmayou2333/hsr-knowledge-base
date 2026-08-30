@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Trailblazemon's Paw (Right) |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Trailblazemon's Paw (Right) |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 完成【二维市】【绘世学院】【鸽川区】【「世界尽头」酒馆】的「星轨之兔」挑战，与【二相乐园-世界酒馆-钟珊】对话，选择【我来取星轨之免的周边...】

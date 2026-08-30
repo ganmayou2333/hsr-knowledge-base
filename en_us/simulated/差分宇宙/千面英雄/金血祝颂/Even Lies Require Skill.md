@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Even Lies Require Skill |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Even Lies Require Skill |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 本次差分宇宙中，每触发1次该祝颂的获得宇宙碎片效果，处于黑夜时，施放攻击后，对攻击目标造成40%攻击力的附加伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

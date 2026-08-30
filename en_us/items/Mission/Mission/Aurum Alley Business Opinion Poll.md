@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Aurum Alley Business Opinion Poll |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Aurum Alley Business Opinion Poll |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 会长收集的商铺意向调查，更多的商铺们支持金人巷商会，并且看好金人巷复兴计划。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧·其四】

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | A Note Between Book Pages |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | A Note Between Book Pages |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 似乎是从某个密卷科科员的笔记本上撕下来的纸页，写满了是晦涩难明的奇怪符号与句子。纸页背面贴着可爱的猫咪贴纸，看得出作者应该是个爱猫之人。
 
 
-## 获得途径
+## Acquisition
 
 - 在空间站「黑塔」-主控舱段地图右下角，调查书架获得

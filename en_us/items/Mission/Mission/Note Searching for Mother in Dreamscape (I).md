@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Note: Searching for Mother in Dreamscape (I) |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Note: Searching for Mother in Dreamscape (I) |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 你在白日梦酒店的大堂遇到了一对父女，他们似乎是来匹诺康尼寻找离散多年的亲人的。或许你可以在匹诺康尼的梦境大都会里再次遇见他们。
 
-## 获得途径
+## Acquisition
 
 - 在匹诺康尼-「白日梦」酒店-现实旁听韦斯菜和佩内洛普的对话

@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Adventurous Moles: Hidden Treasure — Postface |
-| 用途 | 任务道具 / 阅读物 |
-| 评级 | ★★★ / ★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | The Adventurous Moles: Hidden Treasure — Postface |
+| Use | 任务道具 / 阅读物 |
+| Rarity | ★★★ / ★ |
+| Type | Mission / 任务道具 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 

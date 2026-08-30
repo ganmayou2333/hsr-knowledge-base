@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Stars Converge at Sword's Edge |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Stars Converge at Sword's Edge |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616440 | When an ally target's turn begins, they gain 1 stack(s) of "Critical Boost." |
 | 617440 | When an ally target deals DMG to an enemy target with "Reverse Critical Boost", increases CRIT Rate by 20%. For every stack of "Reverse Critical Boost", additionally increases CRIT DMG by 3%. |

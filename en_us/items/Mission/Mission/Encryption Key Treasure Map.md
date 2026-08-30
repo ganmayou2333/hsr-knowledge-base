@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Encryption Key Treasure Map |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Encryption Key Treasure Map |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在空间站「黑塔」的决胜乐园中，指引玩家寻找电梯解锁密钥的藏宝图。图中画着一只躲在房间里的呜呜伯，找到它或许就能得到「电梯解锁密钥」。
 
-## 获得途径
+## Acquisition
 
 - 1.4活动冒险任务【智斗！空间战「黑塔」】

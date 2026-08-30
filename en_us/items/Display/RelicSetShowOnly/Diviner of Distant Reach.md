@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Diviner of Distant Reach |
-| 用途 | 遗器展示 |
-| 评级 | ★★★★★ |
-| 类型 | Display / 遗器套装展示 |
+| Item Name | Diviner of Distant Reach |
+| Use | 遗器展示 |
+| Rarity | ★★★★★ |
+| Type | Display / 遗器套装展示 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - ['侵蚀隧洞【绘世学院】', '「万能合成机」- 遗器合成']

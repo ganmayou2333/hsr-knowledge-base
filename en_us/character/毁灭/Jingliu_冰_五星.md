@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Jingliu |
-| 命途 | Destruction |
-| 属性 | Ice |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟联盟 |
-| 角色介绍 | 曾经的罗浮剑首，云骑军不败盛名的缔造者。 而今其名字已被抹去，成为行走于魔阴身边缘的仙舟叛徒。 |
-| 定位 | 通过进入特殊状态增强自身攻击的输出型角色 |
+| Character Name | Jingliu |
+| Path | Destruction |
+| Attribute | Ice |
+| Rarity | ★★★★★ |
+| Faction | 仙舟联盟 |
+| Introduction | 曾经的罗浮剑首，云骑军不败盛名的缔造者。 而今其名字已被抹去，成为行走于魔阴身边缘的仙舟叛徒。 |
+| Role | 通过进入特殊状态增强自身攻击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 桑島法子 |
-| 英语 | AmaLee |
-| 中文 | 杜冥鸦 |
-| 韩语 | 박이서 |
+| Japanese | 桑島法子 |
+| English | AmaLee |
+| Chinese | 杜冥鸦 |
+| Korean | 박이서 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,436 |
-| 基础攻击力 | 679 |
-| 基础防御力 | 485 |
-| 基础速度 | 96 |
-| 嘲讽 | 125 |
-| 能量上限 | 140 |
+| Base HP | 1,436 |
+| Base ATK | 679 |
+| Base DEF | 485 |
+| Base SPD | 96 |
+| Taunt | 125 |
+| Max Energy | 140 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/苦寒晶壳\|苦寒晶壳]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/苦寒晶壳\|Gelid Chitin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 12 |
-| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 53 |
-| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|Shattered Blade]] | 12 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|Lifeless Blade]] | 53 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|Worldbreaker Blade]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
 
 ---
-## 战技
-### 普攻：Lucent Moonglow
+## Skills
+### Basic ATK：Lucent Moonglow
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of Jingliu's Max HP to one designated enemy.
 
-### 战技：Transcendent Flash
+### Skill：Transcendent Flash
 - **类型**：Skill
 - **简述**：Deals massive Ice DMG to one designated enemy and gains 1 stack of "Syzygy".
 - **最大等级**：15
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy and gains #2[i] stack(s) of "Syzygy."
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 100% | 1 |
   | Lv.2 | 110% | 1 |
@@ -128,14 +128,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 250% of Jingliu's Max HP to one designated enemy and gains 1 stack(s) of "Syzygy."
 
-### 终结技：Florephemeral Dreamflux
+### Ultimate：Florephemeral Dreamflux
 - **类型**：Ultimate
 - **简述**：Deals massive Ice DMG to one designated enemy and deals Ice DMG to their adjacent targets. Gains 1 stack of "Syzygy".
 - **最大等级**：15
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy, and deals Ice DMG equal to #3[i]% of Jingliu's Max HP to adjacent targets. Gains #2[i] stack(s) of "Syzygy" after the attack ends.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 180% | 1 | 90% | 1 |
   | Lv.2 | 192% | 1 | 96% | 1 |
@@ -161,14 +161,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 360% of Jingliu's Max HP to one designated enemy, and deals Ice DMG equal to 180% of Jingliu's Max HP to adjacent targets. Gains 1 stack(s) of "Syzygy" after the attack ends.
 
-### 天赋：Crescent Transmigration
+### Talent：Crescent Transmigration
 - **类型**：Talent
 - **简述**：When possessing 2 stack(s) of "Syzygy," Jingliu enters the "Spectral Transmigration" state with her action advanced by 100%, her CRIT Rate increased, and her Skill enhanced. Using an attack in the "Spectral Transmigration" state consumes HP from her teammates. And when ally targets receive DMG or consume HP, Jingliu's CRIT DMG increases. When "Syzygy" stacks become 0, exits the "Spectral Transmigration" state.
 - **最大等级**：15
 - **效果模板**：When Jingliu has #5[i] stacks of "Syzygy," she enters the "Spectral Transmigration" state with 1 extra stack of "Syzygy" gained, her action advanced by #6[i]%, and her CRIT Rate increased by #7[i]%. Then, Jingliu's Skill "Transcendent Flash" is enhanced to "Moon On Glacial River," and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to #2[i]% of their respective Max HP (this cannot reduce teammates' HP to lower than 1). During the "Spectral Transmigration" state, when ally targets receive DMG or consume HP, Jingliu gains 1 stack of "Moonlight." Each "Moonlight" stack increases Jingliu's CRIT DMG by #3[i]%, stacking up to #4[i] time(s). Jingliu cannot enter the "Spectral Transmigration" state again until the current "Spectral Transmigration" state ends. "Syzygy" can stack up to 4 times. When "Syzygy" stacks become 0, Jingliu will exit the "Spectral Transmigration" state and remove all "Moonlight." After ally targets receive DMG or consume HP for a total of #8[i] times, Jingliu gains 1 stack of "Syzygy." Each attack received by each target is only counted once.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6(%) | 参数7(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6(%) | 参数7(%) |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 30% | 4% | 540% | 90% | 2 | 100% | 40% |
   | Lv.2 | 30% | 4% | 540% | 99% | 2 | 100% | 41% |
@@ -197,14 +197,14 @@
 
 - **满级效果**：When Jingliu has 2 stacks of "Syzygy," she enters the "Spectral Transmigration" state with 1 extra stack of "Syzygy" gained, her action advanced by 100%, and her CRIT Rate increased by 55%. Then, Jingliu's Skill "Transcendent Flash" is enhanced to "Moon On Glacial River," and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to 4% of their respective Max HP (this cannot reduce teammates' HP to lower than 1). During the "Spectral Transmigration" state, when ally targets receive DMG or consume HP, Jingliu gains 1 stack of "Moonlight." Each "Moonlight" stack increases Jingliu's CRIT DMG by 540%, stacking up to 225% time(s). Jingliu cannot enter the "Spectral Transmigration" state again until the current "Spectral Transmigration" state ends. "Syzygy" can stack up to 4 times. When "Syzygy" stacks become 0, Jingliu will exit the "Spectral Transmigration" state and remove all "Moonlight." After ally targets receive DMG or consume HP for a total of #8[i] times, Jingliu gains 1 stack of "Syzygy." Each attack received by each target is only counted once.
 
-### 秘技：Shine of Truth
+### Technique：Shine of Truth
 - **类型**：Technique
 - **简述**：Creates a Special Dimension around this unit. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and gains 1 stack of "Syzygy" with a high chance to Freeze enemies.
 - **最大等级**：1
 - **效果模板**：After using Technique, creates a Special Dimension around this unit that lasts for #3[i] seconds. All enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of "Syzygy," with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and take Ice Additional DMG equal to #5[i]% of Jingliu's Max HP at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 1 | 100% | 20 | 1 | 80% | 15 |
 
@@ -218,27 +218,27 @@
 
 - **满级效果**：After using Technique, creates a Special Dimension around this unit that lasts for 20 seconds. All enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates 15 Energy and obtains 1 stack(s) of "Syzygy," with a 100% base chance of Freezing enemy targets for 1 turn(s). While Frozen, enemy targets cannot take action, and take Ice Additional DMG equal to 80% of Jingliu's Max HP at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 死境 | 晋阶2 | 【转魄】状态下，效果抵抗提高#1[i]%。 | 【转魄】状态下，效果抵抗提高35%。 | 信用点×5000、破碎残刃×3、无穷假身的遗恨×1 |
 | 附加能力2 | 剑首 | 晋阶4 | 施放【无罅飞光】后，下次行动提前#1[i]%。 | 施放【无罅飞光】后，下次行动提前10%。 | 信用点×20000、无生残刃×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 霜魄 | 晋阶6 | 【转魄】状态下，终结技造成的伤害提高#1[i]%。 | 【转魄】状态下，终结技造成的伤害提高20%。 | 信用点×160000、净世残刃×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 暴击伤害 | 37.3% |
-| 速度 | 9 |
+| SPD | 9 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Moon Crashes Tianguan Gate | When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn(s). If only one enemy target is attacked, the target will additionally be dealt Ice DMG equal to 100% of Jingliu's ATK. |
 | E2 | Crescent Shadows Qixing Dipper | After using Ultimate, increases the DMG of the next Enhanced Skill by 80%. |
@@ -249,71 +249,71 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 冰属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 生命值 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/此身为剑.md|此身为剑]]
+### [[zh_cn/lightcone/毁灭/此身为剑.md|I Shall Be My Own Sword]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★★
 - **技能名**：执此宵玉
 - **效果**：使装备者的暴击伤害提高【20%/23%/26%/29%/32%】。当队友受到攻击或消耗生命值后，装备者获得1层【月蚀】，最多叠加3层。每层【月蚀】使装备者下一次攻击造成的伤害提高【14%/16.5%/19%/21.5%/24%】。叠满3层时，额外使该次攻击无视目标【12%/14%/16%/18%/20%】的防御力。该效果在装备者施放攻击后解除。
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后,立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值,同时造成的伤害提高【24%/28%/32%/36%/40%】持续到自身下个回合结束。该效果不可叠加,每回合只可触发一次。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 生存 |
 |---|---|
 | 辅助位 | 辅助位 |
-| [[zh_cn/character/毁灭/镜流_冰_五星.md\|镜流]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
-| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |
+| [[zh_cn/character/毁灭/镜流_冰_五星.md\|镜流]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |
 | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 曾经的罗浮剑首，云骑军不败盛名的缔造者。
 而今其名已被抹去，成为行于魔阴边缘的仙舟叛徒。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 剑，长三尺七寸，轻如无物。
 它并非凡铁熔铸，而是一截坚冰凝成，幽幽含光，如握一线月光在手。
@@ -337,7 +337,7 @@
 即将溺死的片刻，她抓住了身边唯一的浮草。
 剑，长三尺七寸，重七斤有余。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 剑，长六尺五寸，重十四斤。
 此乃云骑重剑形制，需双手握持挥舞。锋刃蕴藏离火，在接敌瞬间足以切开器兽的惰性外甲。
@@ -364,7 +364,7 @@
 戎装女子转身离去，将她和断剑留在了演武室里。
 剑，长二尺一寸，只余残锋断锷。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 剑，长五尺，重若千钧，玄黑的锋刃上血色浮泛。
 剑以天外金石之瑛百炼所成，不遵兵仗规制，一如锻造它的那位短生种匠人般横逆不可当，狷狂已极。
@@ -396,7 +396,7 @@
 即便她手中握着的，是夸称仙舟第一的宝剑……
 剑，长五尺，重若千钧，玄黑的锋刃上血色浮泛。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 剑，长五尺，重若千钧，玄黑的锋刃上布满裂纹，剑尖不知所踪。
 在纷乱如雨的战事中，她曾手执此剑和战友弟子一同杀入千足之舟，斫下步离战首的狼头；也曾登上高耸入云的飞空城巢，削去羽卫们的翮羽；她与慧骃铁蹄相抗，将六足骏马的执辔者们尽数镇入牢狱…在她剑锋所向之下，孽物或死或败，无一幸免。

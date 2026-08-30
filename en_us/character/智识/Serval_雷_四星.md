@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Serval |
-| 命途 | Erudition |
-| 属性 | Lightning |
-| 稀有度 | ★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 贝洛伯格的机械师，曾任筑城者技术部研究员。身为杰帕德•朗道的姐姐，性格却与弟弟截然不同。钟爱大寒潮前一种名为「摇滚」的古老音乐艺术。 |
-| 定位 | 能够产点的、可以打dot队对群输出角色 |
+| Character Name | Serval |
+| Path | Erudition |
+| Attribute | Lightning |
+| Rarity | ★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 贝洛伯格的机械师，曾任筑城者技术部研究员。身为杰帕德•朗道的姐姐，性格却与弟弟截然不同。钟爱大寒潮前一种名为「摇滚」的古老音乐艺术。 |
+| Role | 能够产点的、可以打dot队对群输出角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 愛美 |
-| 英语 | Natalie Van Sistine |
-| 中文 | 穆雪婷 |
-| 韩语 | 민아 |
+| Japanese | 愛美 |
+| English | Natalie Van Sistine |
+| Chinese | 穆雪婷 |
+| Korean | 민아 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 917 |
-| 基础攻击力 | 653 |
-| 基础防御力 | 375 |
-| 基础速度 | 104 |
-| 嘲讽 | 75 |
-| 能量上限 | 100 |
+| Base HP | 917 |
+| Base ATK | 653 |
+| Base DEF | 375 |
+| Base SPD | 104 |
+| Taunt | 75 |
+| Max Energy | 100 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/往日之影的雷冠\|往日之影的雷冠]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的雷冠\|Lightning Crown of the Past Shadow]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/灵感之钥\|灵感之钥]] | 8 |
-| [[zh_cn/items/Material/TracePath/启迪之钥\|启迪之钥]] | 42 |
-| [[zh_cn/items/Material/TracePath/智识之钥\|智识之钥]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/灵感之钥\|Key of Inspiration]] | 8 |
+| [[zh_cn/items/Material/TracePath/启迪之钥\|Key of Knowledge]] | 42 |
+| [[zh_cn/items/Material/TracePath/智识之钥\|Key of Wisdom]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 20 |
 
 ---
-## 战技
-### 普攻：Roaring Thunderclap
+## Skills
+### Basic ATK：Roaring Thunderclap
 - **类型**：Basic ATK
 - **简述**：Deals minor Lightning DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Serval's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Lightning DMG equal to 140% of Serval's ATK to one designated enemy.
 
-### 战技：Lightning Flash
+### Skill：Lightning Flash
 - **类型**：Skill
 - **简述**：Deals Lightning DMG to one enemy and minor Lightning DMG to adjacent targets, with a high chance of applying Shock on the target.
 - **最大等级**：15
@@ -106,7 +106,7 @@ While Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the
 触电状态下，敌方目标每回合开始时受到等同于希露瓦#5[i]%攻击力的雷属性持续伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 70% | 30% | 80% | 2 | 40% |
   | Lv.2 | 77% | 33% | 80% | 2 | 44% |
@@ -135,14 +135,14 @@ While Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the
 While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the beginning of each turn.
 触电状态下，敌方目标每回合开始时受到等同于希露瓦130%攻击力的雷属性持续伤害。
 
-### 终结技：Here Comes the Mechanical Fever
+### Ultimate：Here Comes the Mechanical Fever
 - **类型**：Ultimate
 - **简述**：Deals Lightning DMG to all enemies and increases the duration of Shock.
 - **最大等级**：15
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 108% | 2 |
   | Lv.2 | 115.2% | 2 |
@@ -166,14 +166,14 @@ While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the b
 
 - **满级效果**：Deals Lightning DMG equal to 216% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).
 
-### 天赋：Galvanic Chords
+### Talent：Galvanic Chords
 - **类型**：Talent
 - **简述**：After attacking, deals a minor amount of Additional DMG to all Shocked enemies.
 - **最大等级**：15
 - **效果模板**：After Serval attacks, deals Lightning Additional DMG equal to #1[i]% of Serval's ATK to all Shocked enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 36% |
   | Lv.2 | 39.6% |
@@ -196,7 +196,7 @@ While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the b
 
 - **满级效果**：After Serval attacks, deals Lightning Additional DMG equal to 90% of Serval's ATK to all Shocked enemies.
 
-### 秘技：Good Night, Belobog
+### Technique：Good Night, Belobog
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor Lightning DMG to a random single enemy, with a high chance to Shock all enemy targets.
 - **最大等级**：1
@@ -205,7 +205,7 @@ While Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK a
 触电状态下，敌方目标每回合开始时受到等同于希露瓦#2[i]%攻击力的雷属性持续伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 50% | 3 | 50% |
 
@@ -219,17 +219,17 @@ While Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK a
 While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn.
 触电状态下，敌方目标每回合开始时受到等同于希露瓦50%攻击力的雷属性持续伤害。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 摇滚 | 晋阶2 | 施放战技时，使受到攻击的敌方目标陷入触电状态的基础概率提高#1[i]%。 | 施放战技时，使受到攻击的敌方目标陷入触电状态的基础概率提高20%。 | 信用点×4000、灵感之钥×2、守护者的悲愿×1 |
 | 附加能力2 | 电音 | 晋阶4 | 战斗开始时，立即恢复#1[i]点能量。 | 战斗开始时，立即恢复15点能量。 | 信用点×16000、启迪之钥×4、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 狂热 | 晋阶6 | 消灭敌方目标后，攻击力提高#1[i]%，持续#2[i]回合。 | 消灭敌方目标后，攻击力提高20%，持续2回合。 | 信用点×128000、智识之钥×6、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 暴击率 | 18.7% |
 | 效果命中 | 18% |
@@ -237,9 +237,9 @@ While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at t
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Echo Chamber | Basic ATK deals Lightning DMG equal to 60% of Basic ATK DMG to a random target adjacent to the target enemy. |
 | E2 | Encore! | Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy. |
@@ -250,83 +250,83 @@ While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at t
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 雷属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|激奏雷电的乐队]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|Band of Sizzling Thunder]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/拂晓之前.md|拂晓之前]]
+### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：长夜
 - **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后,获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
 
-### [[zh_cn/lightcone/智识/银河铁道之夜.md|银河铁道之夜]]
+### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：流星群
 - **效果**：场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/天才们的休憩.md|天才们的休憩]]
+### [[zh_cn/lightcone/智识/天才们的休憩.md|Geniuses' Repose]]
 
 - **基础属性**：生846 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：各得其所
 - **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，当装备者消灭敌方目标后，暴击伤害提高【24%/30%/36%/42%/48%】，持续3回合。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-### [[zh_cn/lightcone/智识/早餐的仪式感.md|早餐的仪式感]]
+### [[zh_cn/lightcone/智识/早餐的仪式感.md|The Seriousness of Breakfast]]
 
 - **基础属性**：生846 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：各就其位
 - **效果**：使装备者造成伤害提高【12%/15%/18%/21%/24%】。每消灭1个敌方目标，装备者的攻击力提高【4%/5%/6%/7%/8%】，该效果最多叠加3层。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/智识/希露瓦_雷_四星.md\|希露瓦]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|大黑塔]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
+| 副C | [[zh_cn/character/智识/希露瓦_雷_四星.md\|Serval]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|The Herta]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 自由叛逆的朗道家长女，曾是可可利亚的挚友，如今是兴趣使然的机械师。
 在永冬的贝洛伯格经营着名为「永动」的机械屋，时不时停业举办摇滚露天演出。
 如果有人过问机械屋怎么赚钱…「这是兴趣，亲爱的，我不缺钱。」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 这位正是全贝洛伯格最天才的机械师兼摇滚明星、银鬃铁卫戍卫官杰帕德•朗道的姐姐……
 
@@ -336,7 +336,7 @@ While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at t
 「…呃，没下文了吗？行吧，那我自己再补充点：有什么东西坏了的话——你可以来行政区的机械屋『永动』找我，我随时欢迎。」
 「什么，想来听摇滚？嘿，那我可更欢迎啦——你还是可以来行政区的机械屋『永动』，和『机械热潮』一起，让这座城市燥起来吧！」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 希露瓦•朗道在贝洛伯格行政区中心拥有一处地产——机械屋「永动」——名义上，她在此处靠机械维修营生。
 
@@ -349,7 +349,7 @@ While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at t
 「啊？你问生意怎么样？嗐，别打听那么多——知道我能在填饱肚子之余玩玩音乐就行啦。」
 「反正，我是从来没打算卯着劲挣钱…人生苦短，有时间还不如多搞搞自己的兴趣爱好。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 希露瓦得以重拾过往的音乐爱好，是在她与朗道家彻底割席后。
 
@@ -362,7 +362,7 @@ While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at t
 「…就像我当年做的那样。」
 「嗐，没事没事！你放心，我只是突然想起过去的事情了……」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 过去，人人都知道希露瓦•朗道曾是银鬃铁卫军中最聪慧的大脑——有关朗道家天才大小姐的诸多传闻中，有八成都与这件事相关。
 

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Hazardous Lucent Residue |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Hazardous Lucent Residue |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色施放终结技后，获得能够抵消等同于已损失生命值25%的护盾，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 角色施放终结技后，获得能够抵消等同于已损失生命值25%+生命上限7%的护盾，持续2回合。

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Supreme Inorganic: God's Three Revelations (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_08.png` |
+| Name | Supreme Inorganic: God's Three Revelations (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_08.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：从祂流溢的彩光中，无数「记忆」浮现、消失，那些不可知、不可论的过往皆成现实，一一应验。从那仿若永恒的一瞬中，烛墨学派记下了三段有关「记忆」——三个启示。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 判定「自我认知」- 获得第一个启示。 | — |
 | 判定「自我认知」- 获得第二个启示。 | — |
@@ -50,6 +50,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 156 |  |

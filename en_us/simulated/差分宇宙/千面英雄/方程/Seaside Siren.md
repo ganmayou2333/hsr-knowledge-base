@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Seaside Siren |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Seaside Siren |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 记忆*6
 欢愉*4 |
 
 
-## 效果
+## Effect
 
 我方角色及其忆灵获得【执念】时，为该角色累计相同层数的充能，充能达到50层后，进入【哀歌】状态。在【哀歌】状态下的我方角色发动攻击后，消耗16层充能并对受到攻击的敌方目标造成3次等同于角色150%生命上限的【回味】伤害，消耗到0层时退出该状态。【哀歌】状态下也可累计充能。
 
-## 强化效果
+## Enhanced Effect
 
 -

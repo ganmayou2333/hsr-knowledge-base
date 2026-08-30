@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Boundary Density Expansion Group |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Boundary Density Expansion Group |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色每次损失或治疗自身生命值，获得2层【战意】效果，该效果每次受到攻击最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 角色每次损失或治疗自身生命值，获得2层【战意】效果，并使随机1名队友获得1层【战意】效果，该效果每次受到攻击最多触发1次。

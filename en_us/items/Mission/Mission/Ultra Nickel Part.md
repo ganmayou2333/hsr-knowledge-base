@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ultra Nickel Part |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Ultra Nickel Part |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 散落于嘘实埋间中的精细零件，貌不惊人，已经上了点年头。铁与镍无疑是陨星的馈赠，但超镍则是极致神秘的工艺制成的超合金。即使已被「黑塔」淘汰，全宇宙也独此一家配享专利。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【致：黯淡星】

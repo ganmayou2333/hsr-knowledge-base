@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ace Gambler's Precious Part |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Ace Gambler's Precious Part |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 某位被称为「赌神」的智械宾客赠予你的零件，据说内里藏有极微型的发信器，能操控扭蛋机的结果，但现在已无法使用了。
 
 
-## 获得途径
+## Acquisition
 
 - 在黄金的时刻与赌神奥洛对话并完成后续隐藏剧情获得

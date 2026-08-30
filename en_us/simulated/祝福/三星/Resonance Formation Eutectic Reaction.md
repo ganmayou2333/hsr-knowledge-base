@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Eutectic Reaction |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Eutectic Reaction |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，为我方全体提供能抵消等同于各自生命上限1%伤害的护盾，持续2回合，并为我方全体施加【琥珀】状态。
 
-## 强化效果
+## Enhanced Effect
 
 -

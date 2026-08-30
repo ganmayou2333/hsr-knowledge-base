@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | This Love, Forever |
-| 命途 | Remembrance |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | This Love, Forever |
+| Path | Remembrance |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The azure sky reflects a brilliant tomorrow.
 One step, two steps... the maiden's path has been so long, but fortunately those cherished stories haven't been forgotten by the cycles of time.
@@ -29,18 +29,18 @@ The girl turns around to give a gentle smile.
 She rises onto her toes and steps into the past.
 And memory, transforming into ripples of past reverie, drifts toward tomorrow.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,270 | 476 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### A Promise
 
 Increases the wearer's SPD by 18%. When the wearer's memosprite uses Memosprite Skill on one ally, gains "Blank," which increases DMG taken by all enemies by 10%. When the wearer's memosprite uses Memosprite Skill on an enemy, gains "Verse," which increases CRIT DMG of all allies by 16%. When the wearer's memosprite has both "Blank" and "Verse," increases the effects of both "Blank" and "Verse" by 60%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

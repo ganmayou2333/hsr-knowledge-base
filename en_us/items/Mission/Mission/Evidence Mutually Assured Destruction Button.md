@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Evidence: "Mutually Assured Destruction" Button |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Evidence: "Mutually Assured Destruction" Button |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 据说只要按一下，就能将整个匹诺康尼夷为平地。谁敢说自己不想按一下试试？
 
-## 获得途径
+## Acquisition
 
 - 同行任务【假面双人舞】

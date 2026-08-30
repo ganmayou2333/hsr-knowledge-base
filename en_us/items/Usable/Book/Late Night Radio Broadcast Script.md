@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Late Night Radio Broadcast Script |
-| 用途 | 书籍 |
-| 评级 | ★ |
-| 类型 | Usable / 书籍 |
+| Item Name | Late Night Radio Broadcast Script |
+| Use | Book |
+| Rarity | ★ |
+| Type | Usable / 书籍 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 任务/探索获得

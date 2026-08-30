@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | The Dahlia |
-| 命途 | Nihility |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 焚化工 |
-| 角色介绍 | 美梦燃烧了永火官邸，也带走关于「她」的点滴。 「毁灭」、「记忆」…背叛的花朵盛放在所经之地—— 重返无人知晓的梦境，将她再度点燃的会是何方？ |
-| 定位 | 是一名能使我方在未击破敌方时也能造成超击破伤害的辅助型角色 |
+| Character Name | The Dahlia |
+| Path | Nihility |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 焚化工 |
+| Introduction | 美梦燃烧了永火官邸，也带走关于「她」的点滴。 「毁灭」、「记忆」…背叛的花朵盛放在所经之地—— 重返无人知晓的梦境，将她再度点燃的会是何方？ |
+| Role | 是一名能使我方在未击破敌方时也能造成超击破伤害的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 佐佐木未来 |
-| 英语 | Cristina Vee |
-| 中文 | 阮从青 |
-| 韩语 | 김도희 |
+| Japanese | 佐佐木未来 |
+| English | Cristina Vee |
+| Chinese | 阮从青 |
+| Korean | 김도희 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,087 |
-| 基础攻击力 | 679 |
-| 基础防御力 | 606 |
-| 基础速度 | 96 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 1,087 |
+| Base ATK | 679 |
+| Base DEF | 606 |
+| Base SPD | 96 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/明辉日珥\|明辉日珥]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/明辉日珥\|Radiant Prominence]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/炽情之灵\|炽情之灵]] | 12 |
-| [[zh_cn/items/Material/TracePath/星火之精\|星火之精]] | 53 |
-| [[zh_cn/items/Material/TracePath/焚天之魔\|焚天之魔]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/炽情之灵\|Fiery Spirit]] | 12 |
+| [[zh_cn/items/Material/TracePath/星火之精\|Starfire Essence]] | 53 |
+| [[zh_cn/items/Material/TracePath/焚天之魔\|Heaven Incinerator]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|Vanquished Flow's Reticence]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 28 |
 
 ---
-## 战技
-### 普攻：Fiddle... Fissured Memory
+## Skills
+### Basic ATK：Fiddle... Fissured Memory
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of The Dahlia's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy.
 
-### 战技：Lick... Enkindled Betrayal
+### Skill：Lick... Enkindled Betrayal
 - **类型**：Skill
 - **简述**：Deploys a Zone. Deals Fire DMG to one enemy and their adjacent targets.
 While the Zone lasts, increases all allies' Weakness Break Efficiency, and enemy targets will also take Super Break DMG even when they are not Weakness Broken.
@@ -108,7 +108,7 @@ While the Zone lasts, increases all allies' Weakness Break Efficiency by #3[i]%.
 结界持续期间，我方全体的弱点击破效率提高#3[i]%，敌方目标未处于弱点击破状态时承受的削韧值也能够转化为超击破伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 80% | 3 | 50% |
   | Lv.2 | 88% | 3 | 50% |
@@ -135,7 +135,7 @@ While the Zone lasts, increases all allies' Weakness Break Efficiency by #3[i]%.
 While the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG.
 结界持续期间，我方全体的弱点击破效率提高50%，敌方目标未处于弱点击破状态时承受的削韧值也能够转化为超击破伤害。
 
-### 终结技：Wallow... Entombed Ash
+### Ultimate：Wallow... Entombed Ash
 - **类型**：Ultimate
 - **简述**：Applies Weaknesses of Dance Partners' Types to all enemies and reduces their DEF. Deals massive Fire DMG, which is distributed evenly across all enemies.
 - **最大等级**：15
@@ -144,7 +144,7 @@ Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be 
 【败谢】状态下，敌方目标防御力降低#3[f1]%，并且会被添加所有【共舞者】属性的弱点。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 180% | 4 | 8% |
   | Lv.2 | 192% | 4 | 9% |
@@ -171,7 +171,7 @@ Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be 
 Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be implanted with Weakness of all Dance Partners' Types.
 【败谢】状态下，敌方目标防御力降低#3[f1]%，并且会被添加所有【共舞者】属性的弱点。
 
-### 天赋：Who's Afraid of Constance?
+### Talent：Who's Afraid of Constance?
 - **类型**：Talent
 - **简述**：When entering combat, The Dahlia regenerates Energy and becomes "Dance Partner" along with the teammate that triggered combat. When a "Dance Partner" attacks a Weakness Broken enemy target, additionally deals Super Break DMG.
 After an enemy target gets attacked by the other "Dance Partner," The Dahlia triggers Follow-Up ATK, deals minor Fire DMG to random enemies, and additionally deals Super Break DMG to Weakness Broken enemy targets, bouncing a total of 5 time(s).
@@ -184,7 +184,7 @@ This effect can only trigger once per turn. If the target is defeated before the
 该效果每回合最多触发1次，若追加攻击施放前目标被消灭则对敌方随机单体发动。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 5 | 100% | 35 | 30% |
   | Lv.2 | 16.5% | 5 | 110% | 35 | 33% |
@@ -215,7 +215,7 @@ This effect can only trigger once per turn. If the target is defeated before the
 敌方目标受到另一位【共舞者】攻击后，大丽花发动追加攻击，造成5次伤害，每次对敌方随机单体造成等同于大丽花37.5%攻击力的火属性伤害。每次对处于弱点击破状态的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次250%的超击破伤害。
 该效果每回合最多触发1次，若追加攻击施放前目标被消灭则对敌方随机单体发动。
 
-### 秘技：The Heart Makes the Finest Tomb
+### Technique：The Heart Makes the Finest Tomb
 - **类型**：Technique
 - **简述**：Creates a Special Dimension where enemies within will not attack ally targets. After entering combat with enemies in the dimension, The Dahlia immediately deploys a Zone and deals Super Break DMG to enemy targets in the Weakness Break state.
 - **最大等级**：1
@@ -224,7 +224,7 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 我方制造的领域效果最多存在1个。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) |
+| Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 20 | 60% |
 
@@ -236,26 +236,26 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 Only 1 Dimension Effect created by allies can exist at the same time.
 我方制造的领域效果最多存在1个。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 又一场葬礼 | 晋阶2 | 进入战斗时，使其他角色的击破特攻提高，提高数值等同于#1[i]%大丽花的击破特攻+#3[i]%，持续#2[i]回合。当大丽花受到队友提供的治疗效果或护盾时，再次触发该效果，持续#4[i]回合，单个回合内不可重复触发。 | 进入战斗时，使其他角色的击破特攻提高，提高数值等同于24%大丽花的击破特攻+50%，持续1回合。当大丽花受到队友提供的治疗效果或护盾时，再次触发该效果，持续3回合，单个回合内不可重复触发。 | 信用点×5000、炽情之灵×3、灭流绝溢的缄默×1 |
 | 附加能力2 | 致哀，故人 | 晋阶4 | 施放天赋的追加攻击时，为我方恢复1个战技点，该效果每施放#1[i]次天赋的追加攻击可触发1次。 | 施放天赋的追加攻击时，为我方恢复1个战技点，该效果每施放2次天赋的追加攻击可触发1次。 | 信用点×20000、星火之精×5、命运的足迹×1、灭流绝溢的缄默×1 |
 | 附加能力3 | 弃旧，恋新 | 晋阶6 | 我方目标为敌方目标添加弱点时，速度提高#3[i]%，持续#4[i]回合。若我方火属性角色施放攻击期间添加过弱点，则攻击后对每个添加弱点的目标额外造成#5[i]点火属性固定削韧，并恢复#2[i]%能量上限的能量，最多通过此效果恢复至能量上限的#1[i]%。 | 我方目标为敌方目标添加弱点时，速度提高30%，持续2回合。若我方火属性角色施放攻击期间添加过弱点，则攻击后对每个添加弱点的目标额外造成20点火属性固定削韧，并恢复10%能量上限的能量，最多通过此效果恢复至能量上限的50%。 | 信用点×160000、焚天之魔×8、命运的足迹×1、灭流绝溢的缄默×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 击破特攻 | 37.3% |
 | 效果抵抗 | 18% |
 
 ---
-| 速度 | 5 |
-## 星魂
+| SPD | 5 |
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | When a Bud Readies to Bloom | The Super Break DMG multiplier provided by Talent to "Dance Partners" now applies to all ally characters, with "Dance Partners" additionally receiving a 40% boost. After "Dance Partners" use an attack, additionally deals the attacked enemy targets a fixed amount of Toughness Reduction equal to 25% of their Max Toughness (minimum 10, maximum 300). This effect can only trigger once per enemy target, and this trigger count resets after the enemy target receives a killing blow. |
 | E2 | Fresh, Ethereal, and Beloved | When The Dahlia is on the field, decreases all enemies' All-Type RES by 20%. When an enemy target enters the field, immediately inflicts "Wilt" on them, lasting for 3 turn(s). |
@@ -266,80 +266,80 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 生命值 / 击破特攻
 
 **推荐副词条**：击破特攻 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|机心戏梦的钟表匠]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/机心戏梦的钟表匠\|Watchmaker, Master of Dream Machinations]] | 当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|劫火莲灯铸炼宫]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|Forge of the Kalpagni Lantern]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/勿忘她的火焰.md|勿忘她的火焰]]
+### [[zh_cn/lightcone/虚无/勿忘她的火焰.md|Never Forget Her Flame]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：焚身
 - **效果**：使装备者的击破特攻提高【60%/75%/90%/105%/120%】。进入战斗时，使装备者和另一位开战的队友造成的击破伤害提高【32%/42%/52%/62%/72%】，若不存在开战的队友则对装备者和击破特攻最高的队友生效，同类效果无法叠加。装备者为敌方目标添加弱点时，恢复1个战技点，该效果最多触发1次，施放终结技时重置可触发次数。
 
-### [[zh_cn/lightcone/虚无/长路终有归途.md|长路终有归途]]
+### [[zh_cn/lightcone/虚无/长路终有归途.md|Long Road Leads Home]]
 
 - **基础属性**：生952 攻476 防661
 - **推荐度**：★★★★★
 - **技能名**：新生
 - **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。当有敌方目标的弱点被击破时，有100%的基础概率使其陷入【焚灼】状态,受到的击破伤害提高【18%/21%/24%/27%/30%】，持续2回合，此效果可叠加2层。
 
-### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|谎言在风中飘扬]]
+### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|Lies Dance on the Breeze]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：欺瞒
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者施放攻击后，有120%的基础概率使敌方每个单体目标陷入【茫然】状态，【茫然】状态下的敌方目标防御力降低【16%/18%/20%/22%/24%】，持续2回合，若装备者的速度大于等于170，有120%的基础概率使敌方每个单体目标陷入【失窃】状态，【失窃】状态下的敌方目标防御力降低【8%/9%/10%/11%/12%】，持续2回合。【茫然】或【失窃】被重复施加时，仅最新施加的生效。
 
-### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|决心如汗珠般闪耀]]
+### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：回眸
 - **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/虚无/大丽花_火_五星.md\|大丽花]] | [[zh_cn/character/毁灭/流萤_火_五星.md\|流萤]] |
+| 副C | [[zh_cn/character/虚无/大丽花_火_五星.md\|大丽花]] | [[zh_cn/character/毁灭/流萤_火_五星.md\|Firefly]] |
 | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/虚无/大丽花_火_五星.md\|大丽花]] |
 | [[zh_cn/character/智识/乱破_虚数_五星.md\|乱破]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
 | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/虚无/大丽花_火_五星.md\|大丽花]] | [[zh_cn/character/巡猎/波提欧_物理_五星.md\|波提欧]] |
 | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] |
-| [[zh_cn/character/虚无/大丽花_火_五星.md\|大丽花]] | [[zh_cn/character/毁灭/流萤_火_五星.md\|流萤]] | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] |
+| [[zh_cn/character/虚无/大丽花_火_五星.md\|大丽花]] | [[zh_cn/character/毁灭/流萤_火_五星.md\|Firefly]] | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] |
 | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 美梦燃烧了永火官邸，也带走关于「她」的点滴。
 「毁灭」、「记忆」…背叛的花朵盛放在所经之地——
 重返无人知晓的梦境，将她再度点燃的会是何方？
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 她从奈落的最深处脱逃，沿途烧尽一切同她有关的记忆。
 我们循着一路的灼痕追至此地，无数忆庭之镜映照出少女孑然一人的身影。
@@ -366,7 +366,7 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 「忆者们以为我献上了一切往昔，但谁说，那就是『我』的往昔呢？」
 拨弄着魔尾上的火焰，她走向下一段回忆。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「康士坦丝…她不是兄弟姐妹中最年长的，却像我们的长姊。在教导我们时，她的魔尾虽然让人害怕，却从没有伤到我们。」
 ——「书吏」的记忆
@@ -388,7 +388,7 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 
 虚无的雨幕之下，谁也看不清她的表情，她是在微笑，啜泣，抑或……
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 她说，她叫康士坦丝。
 那是我第一次见她。一袭白色的连衣裙，为刚刚从培养仓里醒来的我梳发。
@@ -420,7 +420,7 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 或许正因如此，她才要一次又一次赶赴宴会。即使筵席上众人窃窃私语，怒骂她是哀悼和枯萎的象征。鲜有人记起，哀悼是对生命的献礼，枯萎之物也有极尽繁荣的往昔。
 ——来自某位星核猎手，一段受到扭曲的记忆
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 若让她参演「终末」的剧目，在亿万种可能性的汇流中，她都将以各种方式叛离。
 

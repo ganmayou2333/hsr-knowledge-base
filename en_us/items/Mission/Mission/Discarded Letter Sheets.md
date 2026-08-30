@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Discarded Letter Sheets |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Discarded Letter Sheets |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一叠弃置不用的信纸。主人似乎写了几页就不再继续，就像是突然涌现的学习热情。
 
-## 获得途径
+## Acquisition
 
 - 罗浮异闻-凶宅

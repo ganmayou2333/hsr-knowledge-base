@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tears of Souls |
-| 用途 | ? |
-| 评级 | ★ |
-| 类型 | Material / 怪物掉落 |
+| Item Name | Tears of Souls |
+| Use | ? |
+| Rarity | ★ |
+| Type | Material / 怪物掉落 |
 
 
-## 说明
+## Description
 
 封印了生命之灵的囚笼。可在敌方掉落素材不足时替换使用。不同稀有度素材所需的灵之珠泪替代比例不同。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「差分宇宙」中敌方掉落
 - 「模拟宇宙」中敌方掉落

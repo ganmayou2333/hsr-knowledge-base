@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Zero Age Main Sequence |
-| 类型 | 祝福 |
-| 命途 | 毁灭&欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Zero Age Main Sequence |
+| Type | Blessing |
+| Path | 毁灭&欢愉 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 角色发动追加攻击后，为命途回响恢复5%的能量，若该角色当前生命值百分比小于50%，为命途回响额外恢复5%的能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Make A Wish |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 / 交易 |
-| 图片 | `image/simulated_event/PicRogueEvent_Trade.png` |
+| Name | Make A Wish |
+| Type | 事件（同名合并） |
+| Attribute | 事件 / 交易 |
+| Image | `image/simulated_event/PicRogueEvent_Trade.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 获得1个随机2-3星方程。 | 全部角色各自损失99%当前生命值。 |
 | 让沉睡的士兵「再次醒来」。 | 他们的血液将会让巨树复苏…进入战斗，胜利后获得2个2-3星祝福。 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 13901 |  |
 | 113901 |  |

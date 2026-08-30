@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Interstellar Construct: Burst Lattice |
-| 类型 | 祝福 |
-| 命途 | 存护 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Interstellar Construct: Burst Lattice |
+| Type | Blessing |
+| Path | 存护 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色对敌方目标造成【反震】伤害时，有65%的基础概率使该目标陷入裂伤状态。
 
-## 强化效果
+## Enhanced Effect
 
 角色对敌方目标造成【反震】伤害时，有100%的基础概率使该目标陷入裂伤状态。

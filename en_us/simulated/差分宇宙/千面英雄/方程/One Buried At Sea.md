@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | One Buried At Sea |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*4欢愉*2 |
+| Name | One Buried At Sea |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*4欢愉*2 |
 
 
-## 效果
+## Effect
 
 【呢喃】的清除阈值提高120%。我方目标发动追加攻击后，使攻击目标的【呢喃】产生等同于原伤害20%的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

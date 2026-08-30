@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Clothes for "That Teacher" |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Clothes for "That Teacher" |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一位糊涂的老师出门前忘记穿衣服了，去把这件衣服交给他吧。
 
-## 获得途径
+## Acquisition
 
 - 在仙舟「罗浮」-流云渡左侧下方通道引航罗盘挑战中完成第一、二天（现实时间）所有挑战，并在第三天挑战中调查不开门的星槎后，前往星槎海中枢左下角与予衿对话获得

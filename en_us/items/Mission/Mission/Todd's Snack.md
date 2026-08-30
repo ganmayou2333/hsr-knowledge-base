@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Todd's Snack |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Todd's Snack |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 陶德想吃的玩意儿，对小孩来说或许有些幼稚，但对成年人来说却刚刚好。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【陶德·雷奥登的学术研究：续】

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Kremnos Traveler |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 巡猎*2毁灭*2 |
+| Name | Kremnos Traveler |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 巡猎*2毁灭*2 |
 
 
-## 效果
+## Effect
 
 我方目标获得护盾量提高30%。我方目标受到攻击后，若在该次攻击内未受到伤害，只会失去1层【会心】。
 
-## 强化效果
+## Enhanced Effect
 
 -

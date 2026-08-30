@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tweet-Tweet Toolbox |
-| 用途 | 材料 |
-| 评级 | ★★★ |
-| 类型 | Material / 三消V2物品 |
+| Item Name | Tweet-Tweet Toolbox |
+| Use | Materials |
+| Rarity | ★★★ |
+| Type | Material / 三消V2物品 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

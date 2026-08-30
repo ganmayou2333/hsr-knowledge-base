@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | 60% New Thermal Mining Pickaxe |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | 60% New Thermal Mining Pickaxe |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 经常被转手、倒卖的热动力矿镐。下层区矿民的标配，十分耐用。
 
-## 获得途径
+## Acquisition
 
 - 在雅利洛-Ⅵ-大矿区的凝滞虚影附近调查闪光点并损毁八成新的热动力矿镐后，回到磐岩镇与安东尼娜对话并支付信用点获得

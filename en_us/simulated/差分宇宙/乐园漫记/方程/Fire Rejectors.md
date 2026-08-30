@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fire Rejectors |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 6欢愉+4毁灭 |
+| Name | Fire Rejectors |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 6欢愉+4毁灭 |
 
 
-## 效果
+## Effect
 
 行动序列上出现【癫狂】，【发牌员】每点充能使其速度额外提高7：【癫狂】行动时，使我方全体目标造成伤害提高15%，最多叠加10次；并充能等同于各自生命上限与当前护盾值之和150%的【耀变】，使每个我方目标在发动下一次攻击后，对每个攻击目标造成7次80%的随机属性【耀变】伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Coordination: Resonance Nucleus |
-| 类型 | 祝福 |
-| 命途 | 智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Coordination: Resonance Nucleus |
+| Type | Blessing |
+| Path | 智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色使用【罐中脑】施放终结技后，攻击力提高60%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 角色使用【罐中脑】施放终结技后，攻击力提高90%，持续2回合。

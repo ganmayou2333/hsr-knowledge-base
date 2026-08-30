@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Disciples of Sanctus Medicus Letter |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Disciples of Sanctus Medicus Letter |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 来自「药王秘传」内部的信笺。只有落入收件人的手，才会显出正确的字迹内容。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【譬如朝露】

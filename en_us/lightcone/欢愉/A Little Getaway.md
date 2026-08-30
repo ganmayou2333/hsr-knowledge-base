@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | A Little Getaway |
-| 命途 | Elation |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | A Little Getaway |
+| Path | Elation |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Night falls. Stars twinkle outside the window. The light casts two silhouettes on the wall.
 "Sensing: Numby's Happiness Index: 97.9%."
@@ -28,18 +28,18 @@ The Intellitron girl smiles, recalling the long-obliterated civilization on that
 "It matters not, Jelena. The planet's historical prototype has entered the sketching phase. Progress: 85%."
 "For now, let's just enjoy our vacation."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 423 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Whisper
 
 Increases the wearer's Elation by 20%. During the use of Elation Skill by the wearer, ignores 8% of the target's DEF.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

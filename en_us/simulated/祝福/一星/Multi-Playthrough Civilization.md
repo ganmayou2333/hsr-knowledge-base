@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Multi-Playthrough Civilization |
-| 类型 | 祝福 |
-| 命途 | 智识&同谐 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Multi-Playthrough Civilization |
+| Type | Blessing |
+| Path | 智识&同谐 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标造成终结技伤害时弱点击破效率提高25%。处于弱点击破状态下的敌方目标受到的伤害提高40%。
 
-## 强化效果
+## Enhanced Effect
 
 -

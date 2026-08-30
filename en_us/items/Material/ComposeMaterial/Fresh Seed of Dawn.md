@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Fresh Seed of Dawn |
-| 用途 | 合成素材 |
-| 评级 | ★★★★ |
-| 类型 | Material / 合成素材 |
+| Item Name | Fresh Seed of Dawn |
+| Use | Synthesis Material |
+| Rarity | ★★★★ |
+| Type | Material / 合成素材 |
 
 
-## 说明
+## Description
 
 4级合成材料。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 天谴斗士等敌方掉落【「纷争荒墟」悬锋城】

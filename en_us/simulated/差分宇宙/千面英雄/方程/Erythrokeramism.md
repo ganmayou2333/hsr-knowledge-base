@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Erythrokeramism |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*4记忆*2 |
+| Name | Erythrokeramism |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*4记忆*2 |
 
 
-## 效果
+## Effect
 
 忆灵施放攻击后，为忆师的【罐中脑】充能8%。忆师使用【罐中脑】施放终结技后，忆灵的伤害提高240%，持续4回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

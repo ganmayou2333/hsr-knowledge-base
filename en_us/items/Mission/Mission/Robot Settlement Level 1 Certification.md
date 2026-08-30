@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Robot Settlement Level 1 Certification |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Robot Settlement Level 1 Certification |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 用于打开机械聚落大门的第一级认证。只有获得全部三级认证者才能取得开门权限。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【腐烂或燃烧】

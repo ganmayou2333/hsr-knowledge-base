@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | The Birth of the Self |
-| 命途 | Erudition |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | The Birth of the Self |
+| Path | Erudition |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 In the beginning, it had the exact same pose as the previous portrait.
 Looking at the face identical to hers, she was convinced that this was not her.
@@ -24,18 +24,18 @@ She tweaked its joints, opened its eyes, and made its fingers softer.
 She looked happy when all the changes were done.
 "Completely different from yesterday. This is more like who I am today."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### The Maiden in the Painting
 
 Increases DMG dealt by the wearer's Follow-Up ATKs by 24%. If the current HP percentage of the enemy target is below or equal to 50%, increases DMG dealt by Follow-Up ATKs by an extra 24%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

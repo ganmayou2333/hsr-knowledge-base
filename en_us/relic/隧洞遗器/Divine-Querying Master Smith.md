@@ -4,20 +4,20 @@
 > 实体ID：132
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/7644/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Divine-Querying Master Smith |
-| 类型 | 隧洞遗器 |
-| 实体ID | 132 |
-## 获取途径
+| Name | Divine-Querying Master Smith |
+| Type | 隧洞遗器 |
+| Entity ID | 132 |
+## Acquisition
 观火之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Max HP by 12%.
 ### 4 件套
 Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28%. After the wearer inflicts the DEF reduction state on an enemy target, all allies gain "Comburent" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with "Comburent" increases by 15%. This effect can be triggered again after the wearer uses an attack.
-## 部位
+## Pieces
 ### 手部：名冶的镔铁护手
 **描述**：朱明匠人的多功能护手，可在锻打时辅助发力。冷铁与焰纹相融，既取刚坚不摧之质，亦含驯火成锋之意。
 **来历**：

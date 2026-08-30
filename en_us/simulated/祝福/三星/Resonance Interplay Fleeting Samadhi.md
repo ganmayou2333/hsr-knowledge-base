@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Fleeting Samadhi |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Fleeting Samadhi |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响每溢出1%生命上限的治疗量，使角色造成的终结技伤害提高1%，该效果可叠加且最高不超过100%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Non-Inverse Antimatter Equation |
-| 类型 | 祝福 |
-| 命途 | 毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Non-Inverse Antimatter Equation |
+| Type | Blessing |
+| Path | 毁灭 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色当前生命值百分比小于50%时，视作拥有额外16层【战意】效果。
 
-## 强化效果
+## Enhanced Effect
 
 角色当前生命值百分比小于50%时，视作拥有额外20层【战意】效果。当前生命值每额外降低10%，额外拥有2层【战意】效果。

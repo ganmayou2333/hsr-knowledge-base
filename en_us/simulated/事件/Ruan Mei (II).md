@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ruan Mei (II) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_5.png` |
+| Name | Ruan Mei (II) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_5.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 一个突破想象力的惊喜。 | 获得1个3星方程；获得已有方程所需的随机祝福直到所有方程展开。 |
 | 给螺丝咕姆的课题加点料。 | 获得1个3星方程，随后获得该方程所需的随机祝福直到所有方程展开。 |
@@ -32,7 +32,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 112901 |  |
 | 412901 |  |

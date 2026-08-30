@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Meteoric Bullet |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / TracePath |
+| Item Name | Meteoric Bullet |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 2★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 铸之以猎杀怪物的铁球，上面的刻痕仿佛记录着死于其下的猎物之数。可小幅提升巡猎角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【苏乐达™热砂海选会场】
 - 余烬兑换

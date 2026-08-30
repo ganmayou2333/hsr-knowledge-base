@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bard |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*2智识*2 |
+| Name | Bard |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*2智识*2 |
 
 
-## 效果
+## Effect
 
 我方【执念】层数超过70层时，使终结技伤害提高75%，忆灵伤害提高75%。
 
-## 强化效果
+## Enhanced Effect
 
 -

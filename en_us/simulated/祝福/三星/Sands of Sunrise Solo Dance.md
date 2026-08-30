@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sands of Sunrise: Solo Dance |
-| 类型 | 祝福（同名合并） |
-| 命途 | 欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Sands of Sunrise: Solo Dance |
+| Type | Blessing (merged) |
+| Path | 欢愉 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616632 | After an ally target launches a Follow-Up ATK on any enemy target, the enemy target's action is delayed by 25%. This can trigger a max of 2 time(s) per turn per enemy target. |
 | 617632 | Increases ally targets' All-Type RES PEN by 10%. When Punchline reaches 50/100/200/300/500 for the first time, increases all ally targets' Elation by 20%. This effect can stack. |

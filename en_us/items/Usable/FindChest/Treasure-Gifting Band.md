@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Treasure-Gifting Band |
-| 用途 | 消耗品 |
-| 评级 | ★★★★★ |
-| 类型 | Usable / 宝箱 |
+| Item Name | Treasure-Gifting Band |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Usable / 宝箱 |
 
 
-## 说明
+## Description
 
 可无限次使用的寻宝小道具，使用后可以在「『黑塔』空间站」相关的地图中显示1个普通战利品的位置。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 「内购专员」积分奖励获得

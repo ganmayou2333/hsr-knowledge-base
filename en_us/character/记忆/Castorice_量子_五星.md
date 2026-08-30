@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Castorice |
-| 命途 | Remembrance |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 那敬爱死亡的国度，终日飘雪的哀地里亚，今日已沉入甘甜的酣眠。 冥河的女儿遐蝶，寻索「死亡」火种的黄金裔，启程吧。呵护世间魂灵的恸哭，拥抱命运的孤独 ——生死皆为旅途，当蝴蝶停落枝头，那凋零的又将新生。 |
+| Character Name | Castorice |
+| Path | Remembrance |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 那敬爱死亡的国度，终日飘雪的哀地里亚，今日已沉入甘甜的酣眠。 冥河的女儿遐蝶，寻索「死亡」火种的黄金裔，启程吧。呵护世间魂灵的恸哭，拥抱命运的孤独 ——生死皆为旅途，当蝴蝶停落枝头，那凋零的又将新生。 |
 | 城邦 | 斯缇科西亚，哀地里亚，奥赫玛 |
 | 神权 | 「灰黯之手，塞纳托斯」 |
-| 定位 | 召唤「死龙•玻吕刻斯」共同战斗的输出型角色 |
+| Role | 召唤「死龙•玻吕刻斯」共同战斗的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 斎藤千和 |
-| 英语 | Melody Muze |
-| 中文 | 阮从青 |
-| 韩语 | 이세레나 |
+| Japanese | 斎藤千和 |
+| English | Melody Muze |
+| Chinese | 阮从青 |
+| Korean | 이세레나 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,630 |
-| 基础攻击力 | 524 |
-| 基础防御力 | 485 |
-| 基础速度 | 95 |
-| 嘲讽 | 100 |
-| 能量上限 | 0 |
+| Base HP | 1,630 |
+| Base ATK | 524 |
+| Base DEF | 485 |
+| Base SPD | 95 |
+| Taunt | 100 |
+| Max Energy | 0 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/暗帷月华\|暗帷月华]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暗帷月华\|Darkveil Moonlight]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,818,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 8 |
-| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 42 |
-| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 86 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 25 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,818,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/思量的种\|Bīja of Consciousness]] | 8 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|Seedling of Manas]] | 42 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|Flower of Ālaya]] | 86 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 25 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 22 |
 
 ---
-## 战技
-### 普攻：Lament, Nethersea's Ripple
+## Skills
+### Basic ATK：Lament, Nethersea's Ripple
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -99,7 +99,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 70% of Castorice's Max HP to one designated enemy.
 
-### 战技：Silence, Wraithfly's Caress
+### Skill：Silence, Wraithfly's Caress
 - **类型**：Skill
 - **简述**：Consumes all allies' HP. Deals Quantum DMG to one enemy and minor Quantum DMG to adjacent targets.
 - **最大等级**：15
@@ -110,7 +110,7 @@ If Netherwing is on the battlefield, the Skill becomes "Boneclaw, Doomdrake's Em
 若死龙在场，战技替换为【骸爪，冥龙之环拥】。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 30% | 25% | 15% |
   | Lv.2 | 30% | 27.5% | 16.5% |
@@ -139,7 +139,7 @@ If Netherwing is on the battlefield, the Skill becomes "Boneclaw, Doomdrake's Em
 若当前生命值不足，最多使当前生命值降至1点。
 若死龙在场，战技替换为【骸爪，冥龙之环拥】。
 
-### 终结技：Doomshriek, Dawn's Chime
+### Ultimate：Doomshriek, Dawn's Chime
 - **类型**：Ultimate
 - **简述**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys a Territory that decreases All-Type RES for all enemies.
 - **最大等级**：15
@@ -148,7 +148,7 @@ After Netherwing experiences #2[i] turns or when its HP is 0, it disappears and 
 死龙#2[i]个回合后或生命值为0时消失，同时解除境界【遗世冥域】。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
+| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 165 | 3 | 100% | 10% | 0 |
   | Lv.2 | 165 | 3 | 100% | 11% | 0 |
@@ -177,7 +177,7 @@ After Netherwing experiences #2[i] turns or when its HP is 0, it disappears and 
 After Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory "Lost Netherland."
 死龙3个回合后或生命值为0时消失，同时解除境界【遗世冥域】。
 
-### 天赋：Desolation Across Palms
+### Talent：Desolation Across Palms
 - **类型**：Talent
 - **简述**：When allies lose HP, Castorice gains "Newbud". Increases Castorice's and Netherwing's DMG dealt. When "Newbud" reaches its maximum limit, can activate the Ultimate. While Netherwing is on the field, HP lost by allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
 - **最大等级**：15
@@ -186,7 +186,7 @@ When Netherwing is on the field, "Newbud" cannot be gained through Talent, and e
 死龙在场时无法通过天赋获得【新蕊】，除死龙以外我方全体每损失1点生命值会转化为死龙同等的生命值。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 0 | 10% | 3 | 3 |
   | Lv.2 | 0 | 11% | 3 | 3 |
@@ -214,7 +214,7 @@ When Netherwing is on the field, "Newbud" cannot be gained through Talent, and e
 When Netherwing is on the field, "Newbud" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
 死龙在场时无法通过天赋获得【新蕊】，除死龙以外我方全体每损失1点生命值会转化为死龙同等的生命值。
 
-### 秘技：Wail, Death's Herald
+### Technique：Wail, Death's Herald
 - **类型**：Technique
 - **简述**：Enters the "Netherveil" state. Enemies are unable to actively approach Castorice.
 During "Netherveil," attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%. Upon entering battle, consumes HP of all allies (except Netherwing).
@@ -229,7 +229,7 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 进入战斗后未召唤死龙则遐蝶获得等同于【新蕊】上限#4[i]%点数的【新蕊】。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 40% | 50% | 20 | 30% |
 
@@ -245,17 +245,17 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 【冥茫】状态下主动攻击会使所有范围内的敌人进入战斗，同时召唤忆灵死龙使其行动提前100%并展开境界【遗世冥域】，死龙拥有等同于【新蕊】上限50%的当前生命值。进入战斗后，消耗除死龙以外的我方全体40%当前生命值。
 进入战斗后未召唤死龙则遐蝶获得等同于【新蕊】上限30%点数的【新蕊】。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 收容的暗潮 | 晋阶2 | 除死龙以外的我方目标接受治疗后会将#1[i]%的治疗数值转化为【新蕊】，死龙在场时则转化为死龙生命值，我方每个目标累计转化值不超过【新蕊】上限的#2[i]%。任意单位行动后重置所有单位累计的转化值。 | 除死龙以外的我方目标接受治疗后会将100%的治疗数值转化为【新蕊】，死龙在场时则转化为死龙生命值，我方每个目标累计转化值不超过【新蕊】上限的12%。任意单位行动后重置所有单位累计的转化值。 | 信用点×5000、思量的种×3、吉光片羽×1 |
 | 附加能力2 | 倒置的火炬 | 晋阶4 | 遐蝶当前生命值大于等于自身生命上限的#1[i]%时，遐蝶速度提高#2[i]%。死龙施放【燎尽黯泽的焰息】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，死龙速度提高#3[i]%，持续1回合。 | 遐蝶当前生命值大于等于自身生命上限的50%时，遐蝶速度提高40%。死龙施放【燎尽黯泽的焰息】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，死龙速度提高100%，持续1回合。 | 信用点×20000、末那芽苗×5、命运的足迹×1、吉光片羽×1 |
 | 附加能力3 | 西风的驻足 | 晋阶6 | 死龙每次施放【燎尽黯泽的焰息】时，造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续至本回合结束。 | 死龙每次施放【燎尽黯泽的焰息】时，造成的伤害提高30%，该效果最多叠加6层，持续至本回合结束。 | 信用点×160000、阿赖耶华×8、命运的足迹×1、吉光片羽×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 暴击率 | 18.7% |
 | 暴击伤害 | 13.3% |
@@ -263,9 +263,9 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Snowbound Maiden, Memory to Tomb | When the enemy target's current HP is 80%/50% of Max HP or lower, the DMG dealt to it by "Boneclaw, Doomdrake's Embrace," "Claw Splits the Veil," "Breath Scorches the Shadow," and "Wings Sweep the Ruins" is 120%/140% of the original DMG respectively. |
 | E2 | Crown on Wings of Bloom | After summoning the memosprite Netherwing, Castorice gains 2 stack(s) of "Ardent Will." "Ardent Will" can stack up to 2 time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, "Breath Scorches the Shadow" and advance Castorice's action by 100%. When using the next Enhanced Skill, Castorice gains "Newbud" by an amount equal to 30% of max "Newbud." |
@@ -276,40 +276,40 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 生命值 / 量子属性伤害提高 / 生命值
 
 **推荐副词条**：暴击率 / 暴击伤害 / 生命值
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/哀歌覆国的诗人\|哀歌覆国的诗人]] | 使装备者的速度降低8%。进入战斗前，若装备者的速度小于110/95，使装备者的暴击率提高20%/32%。该效果同时对装备者的忆灵生效。 |
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|宝命长存的莳者]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
+| [[zh_cn/relic/隧洞遗器/哀歌覆国的诗人\|Poet of Mourning Collapse]] | 使装备者的速度降低8%。进入战斗前，若装备者的速度小于110/95，使装备者的暴击率提高20%/32%。该效果同时对装备者的忆灵生效。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|Longevous Disciple]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/记忆/让告别，更美一些.md|让告别，更美一些]]
+### [[zh_cn/lightcone/记忆/让告别，更美一些.md|Make Farewells More Beautiful]]
 
 - **基础属性**：生1270 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：铭刻
 - **效果**：使装备者的生命上限提高【30%/37%/45%/52%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次装备者每次施放终结技时重置触发次数。
 
-### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|多流汗，少流泪]]
+### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|Sweat Now, Cry Less]]
 
 - **基础属性**：生1058 攻529 防198
 - **推荐度**：★★★★
@@ -323,22 +323,22 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 - **技能名**：收取
 - **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助/副C | 辅助 | 生存 |
 |---|---|---|---|
-| [[zh_cn/character/记忆/遐蝶_量子_五星.md\|遐蝶]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
-| [[zh_cn/character/毁灭/万敌_虚数_五星.md\|万敌]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/记忆/风堇_风_五星.md\|风堇]] |
+| [[zh_cn/character/记忆/遐蝶_量子_五星.md\|Castorice]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
+| [[zh_cn/character/毁灭/万敌_虚数_五星.md\|万敌]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/记忆/风堇_风_五星.md\|Hyacine]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 那敬爱死亡的国度，终日飘雪的哀地里亚，今日已沉入甘甜的酣眠。
 冥河的女儿遐蝶，寻索「死亡」火种的黄金裔，启程吧。呵护世间魂灵的恸哭，拥抱命运的孤独
 ——生死皆为旅途，当蝴蝶停落枝头，那凋零的又将新生。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 自她有记忆的那天起，哀地里亚的雪一直都在，时间仿佛冻结在这片寂静的白色土地上。
 年幼的她曾问阿蒙内特，雪是什么？阿蒙内特说，雪是人世的悲欢离合。
@@ -372,7 +372,7 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 ……」
 ——少女写下的，名为「哀地里亚」的诗
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 离开哀地里亚的那一天，她踏上觐见塞纳托斯的旅途，一场不知终点在何处的征程。
 
@@ -402,7 +402,7 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 ……」
 ——少女写下的，名为「春天」的诗
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 她知晓自己的终点与逐火的同伴不同，却也逐渐开始拥有属于自己的一些小小的温暖瞬间。
 在金丝温柔的牵引下，她第一次笨拙地与人共舞。在那生机勃勃的花园，她与风堇一同制作如生般鲜活的干花。还有在树庭毕业的那日，阳光洒落她的长裙，有如蝶翅的碎影……
@@ -432,7 +432,7 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 ……」
 ——少女写下的，名为「逐火」的诗
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 她/他「也许…这就是在奥赫玛度过的最后一天了……」
 在苦旅的尽头，她终于寻到冥界的线索，前往那或许有来无回的地方之前，她还想再好好看一眼世界。

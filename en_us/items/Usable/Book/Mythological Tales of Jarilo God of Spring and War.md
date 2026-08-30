@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Mythological Tales of Jarilo: God of Spring and War |
-| 用途 | 神话故事 阅读物 / 解读 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Mythological Tales of Jarilo: God of Spring and War |
+| Use | 神话故事 阅读物 / 解读 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-Ⅵ-行政区的杂货铺购买

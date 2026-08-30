@@ -4,20 +4,20 @@
 > 实体ID：119
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/3165/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Iron Cavalry Against the Scourge |
-| 类型 | 隧洞遗器 |
-| 实体ID | 119 |
-## 获取途径
+| Name | Iron Cavalry Against the Scourge |
+| Type | 隧洞遗器 |
+| Entity ID | 119 |
+## Acquisition
 勇骑之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Break Effect by 16%.
 ### 4 件套
 If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF.
-## 部位
+## Pieces
 ### 手部：铁骑的摧坚铁腕
 **描述**：粉碎虫裔的强劲铁腕，尖锐而轻盈，坚硬又稳固。
 **来历**：

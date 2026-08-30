@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Belobog Academy's Mid-Term Exam Paper |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Belobog Academy's Mid-Term Exam Paper |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 贝洛伯格学院期中测试卷
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-行政区地图中拾取

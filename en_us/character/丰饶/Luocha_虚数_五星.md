@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Luocha |
-| 命途 | Abundance |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟联盟 |
-| 角色介绍 | 随身携带着棺椁，自天之外海而来的化外行商。 医术精湛。 |
-| 定位 | 回复生命值、解除负面状态和敌方增益的回复型角色 |
+| Character Name | Luocha |
+| Path | Abundance |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 仙舟联盟 |
+| Introduction | 随身携带着棺椁，自天之外海而来的化外行商。 医术精湛。 |
+| Role | 回复生命值、解除负面状态和敌方增益的回复型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 石田彰 |
-| 英语 | Craig Lee Thomas |
-| 中文 | 赵路 |
-| 韩语 | 신용우 |
+| Japanese | 石田彰 |
+| English | Craig Lee Thomas |
+| Chinese | 赵路 |
+| Korean | 신용우 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,281 |
-| 基础攻击力 | 757 |
-| 基础防御力 | 364 |
-| 基础速度 | 101 |
-| 嘲讽 | 100 |
-| 能量上限 | 100 |
+| Base HP | 1,281 |
+| Base ATK | 757 |
+| Base DEF | 364 |
+| Base SPD | 101 |
+| Taunt | 100 |
+| Max Energy | 100 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|往日之影的金饰]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|Golden Crown of the Past Shadow]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/丰饶之种\|丰饶之种]] | 12 |
-| [[zh_cn/items/Material/TracePath/生命之芽\|生命之芽]] | 53 |
-| [[zh_cn/items/Material/TracePath/永恒之花\|永恒之花]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/丰饶之种\|Seed of Abundance]] | 12 |
+| [[zh_cn/items/Material/TracePath/生命之芽\|Sprout of Life]] | 53 |
+| [[zh_cn/items/Material/TracePath/永恒之花\|Flower of Eternity]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|Artifex's Module]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|Artifex's Cogwheel]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|Artifex's Gyreheart]] | 28 |
 
 ---
-## 战技
-### 普攻：Thorns of the Abyss
+## Skills
+### Basic ATK：Thorns of the Abyss
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Luocha's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 140% of Luocha's ATK to one designated enemy.
 
-### 战技：Prayer of Abyss Flower
+### Skill：Prayer of Abyss Flower
 - **类型**：Skill
 - **简述**：Restores a single ally's HP and gains 1 stack of Abyss Flower.
 - **最大等级**：15
@@ -106,7 +106,7 @@ When any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to 
 当我方任意单体当前生命值百分比小于等于#3[i]%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在#4[i]回合后可再次触发。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 40% | 200 | 50% | 2 |
   | Lv.2 | 42.5% | 320 | 50% | 2 |
@@ -134,14 +134,14 @@ When any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to 
 When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).
 当我方任意单体当前生命值百分比小于等于50%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在2回合后可再次触发。
 
-### 终结技：Death Wish
+### Ultimate：Death Wish
 - **类型**：Ultimate
 - **简述**：Removes 1 buff from all enemies, deals Imaginary DMG to all enemies, and gains 1 stack of Abyss Flower.
 - **最大等级**：15
 - **效果模板**：Removes #2[i] buff(s) from all enemies and deals all enemies Imaginary DMG equal to #1[i]% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 120% | 1 |
   | Lv.2 | 128% | 1 |
@@ -165,7 +165,7 @@ When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luo
 
 - **满级效果**：Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
 
-### 天赋：Cycle of Life
+### Talent：Cycle of Life
 - **类型**：Talent
 - **简述**：Deploys a Zone when Abyss Flower reaches 2 stacks. While the Zone is active, allies will restore HP after they attack.
 - **最大等级**：15
@@ -176,7 +176,7 @@ The Zone's effect lasts for #3[i] turns. When Luocha is knocked down, the Zone w
 结界效果持续#3[i]回合。当罗刹陷入无法战斗状态时，结界也会被解除。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 12% | 2 | 60 |
   | Lv.2 | 2 | 12.75% | 2 | 96 |
@@ -206,7 +206,7 @@ The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will 
 处于结界中的任意敌方目标受到攻击后，施放攻击的我方目标立即回复等同于罗刹#2[f1]%攻击力+307.5的生命值。
 结界效果持续2回合。当罗刹陷入无法战斗状态时，结界也会被解除。
 
-### 秘技：Mercy of a Fool
+### Technique：Mercy of a Fool
 - **类型**：Technique
 - **简述**：After the Technique is used, immediately trigger the effect of the Talent at the start of the next battle.
 - **最大等级**：1
@@ -214,27 +214,27 @@ The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will 
 
 - **满级效果**：After the Technique is used, the Talent will be immediately triggered at the start of the next battle.（参数见等级数值表）
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 浸池苏生 | 晋阶2 | 触发战技效果时，解除指定我方单体的#1[i]个负面效果。 | 触发战技效果时，解除指定我方单体的1个负面效果。 | 信用点×5000、丰饶之种×3、守护者的悲愿×1 |
 | 附加能力2 | 浇灌尘身 | 晋阶4 | 处于结界中的任意敌方目标受到我方攻击后，除攻击者外的我方目标也会回复等同于罗刹#1[f1]%攻击力+#2[i]的生命值。 | 处于结界中的任意敌方目标受到我方攻击后，除攻击者外的我方目标也会回复等同于罗刹#1[f1]%攻击力+93的生命值。 | 信用点×20000、生命之芽×5、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 行过幽谷 | 晋阶6 | 抵抗控制类负面状态的概率提高#1[i]%。 | 抵抗控制类负面状态的概率提高70%。 | 信用点×160000、永恒之花×8、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| HP | 18% |
+| ATK | 28% |
+| DEF | 12.5% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Ablution of the Quick | While the Zone is active, ATK of all allies increases by 20%. |
 | E2 | Bestowal From the Pure | When his Skill is triggered, if the target ally's HP percentage is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP percentage is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns. |
@@ -245,83 +245,83 @@ The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：治疗量加成 / 速度 / 攻击力 / 攻击力
 
 **推荐副词条**：攻击力 / 速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|云无留迹的过客]] | 在战斗开始时，立即为我方恢复1个战技点。 |
-| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|重循苦旅的司铎]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|Passerby of Wandering Cloud]] | 在战斗开始时，立即为我方恢复1个战技点。 |
+| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/丰饶/棺的回响.md|棺的回响]]
+### [[zh_cn/lightcone/丰饶/棺的回响.md|Echoes of the Coffin]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★★
 - **技能名**：荆棘
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者施放攻击后，每击中1名不同的敌方目标，恢复【3.0/3.5/4.0/4.5/5.0】点能量，每次攻击最多通过该方式恢复3次能量。当装备者施放终结技后，使我方全体速度提高【12/14/16/18/20】点，持续1回合。
 
-### [[zh_cn/lightcone/丰饶/惊魂夜.md|惊魂夜]]
+### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：深度深呼吸
 - **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
 
-### [[zh_cn/lightcone/丰饶/等价交换.md|等价交换]]
+### [[zh_cn/lightcone/丰饶/等价交换.md|Quid Pro Quo]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：酣适
 - **效果**：当装备者的回合开始时，随机为1个当前能量百分比小于50%的我方其他目标恢复【8/10/12/14/16】点能量。
 
-### [[zh_cn/lightcone/丰饶/此时恰好.md|此时恰好]]
+### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：折射的视线
 - **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
 
-### [[zh_cn/lightcone/丰饶/时节不居.md|时节不居]]
+### [[zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
 
 - **基础属性**：生1270 攻476 防463
 - **推荐度**：★★★★
 - **技能名**：日有四时
 - **效果**：使装备者生命上限提高【18%/21%/24%/27%/30%】，治疗量提高【12%/14%/16%/18%/20%】。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的【36%/42%/48%/54%/60%】，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
+| 副C | [[zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
 | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] | [[zh_cn/character/同谐/驭空_虚数_四星.md\|驭空]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 金发俊雅的年轻人，背着巨大的棺椁。 
 身为天外行商的他，不幸被卷入仙舟「罗浮」的星核危机。 
 一手精湛医术莫名有了用武之地。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「您的身份是？」 
 「行商。」 
@@ -335,7 +335,7 @@ The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will 
 
 「罗刹先生，欢迎来到仙舟『罗浮』。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「哎，你还记得那个人吗？常来我们家光顾，背着个大箱子的……」 
 「您是说罗刹？」 
@@ -350,7 +350,7 @@ The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will 
 「你为何还穿着故乡的服饰？」谁人问道。 
 「它提醒我应保守的道路，仅此而已。」罗刹答道。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 仙舟人不认得棺椁。 
 每当罗刹带着棺材出现在街上时，都会引来好奇的目光。 
@@ -361,7 +361,7 @@ The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will 
 
 棺材以沉默作答。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 罗刹背上棺材，前往远方。 
 棺材没有发出声响，它并未抗议，也没有抗议的权利。 

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Supreme Organic: God's Three Revelations (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_11.png` |
+| Name | Supreme Organic: God's Three Revelations (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_11.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：「柯拉帕乌，我无法还原反有机方程。但我能拟造出另一种。」一位博士痛苦地写道，「我将宇宙资源和生命的总量在等式两侧配平，无限逼近，揣测反有机方程的逻辑。于是『贫穷』、『富有』、『暴力』、『权力』皆在推导中产生。同时出现的还有『痛苦』和『快乐』——这两种变量更难区分。我尝试切断它们间的联系——四千三百二十八次——接着，我失败了四千三百二十八次。」
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 再次切断。}} | — |
 
@@ -38,6 +38,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 157 |  |

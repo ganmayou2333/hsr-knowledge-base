@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Calamity Worker |
-| 类型 | 祝福 |
-| 命途 | 繁育&存护 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Calamity Worker |
+| Type | Blessing |
+| Path | 繁育&存护 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色获得护盾时，使2个随机敌方目标获得1个【孢子】。【孢子】伤害倍率提高原倍率的75%。
 
-## 强化效果
+## Enhanced Effect
 
 -

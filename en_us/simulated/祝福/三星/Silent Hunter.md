@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Silent Hunter |
-| 类型 | 祝福 |
-| 命途 | 记忆&巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Silent Hunter |
+| Type | Blessing |
+| Path | 记忆&巡猎 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标进入战斗时，有100%的基础概率陷入持续1回合的【离神】状态。【离神】状态下的敌方目标抵抗所有伤害，并记录所有受到的暴击伤害与击破伤害，解除时，额外对敌方全体造成等同于记录值150%的固定数值的暴击伤害。当记录值达到目标生命上限的50%时【离神】会立刻解除。
 
-## 强化效果
+## Enhanced Effect
 
 -

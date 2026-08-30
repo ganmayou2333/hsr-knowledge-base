@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Relative Winner |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2记忆+2毁灭 |
+| Name | Relative Winner |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2记忆+2毁灭 |
 
 
-## 效果
+## Effect
 
 我方目标消耗生命值后，获得5层【执念】，最多触发1次，任意单位行动后可再次触发。
 
-## 强化效果
+## Enhanced Effect
 
 -

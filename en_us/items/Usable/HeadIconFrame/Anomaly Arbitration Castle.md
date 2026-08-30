@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Anomaly Arbitration: Castle |
-| 用途 | 头像框 |
-| 评级 | ★★★★★ |
-| 类型 | Usable / 头像框 |
+| Item Name | Anomaly Arbitration: Castle |
+| Use | 头像框 |
+| Rarity | ★★★★★ |
+| Type | Usable / 头像框 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

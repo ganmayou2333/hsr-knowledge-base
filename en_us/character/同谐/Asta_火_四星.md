@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Asta |
-| 命途 | Harmony |
-| 属性 | Fire |
-| 稀有度 | ★★★★ |
-| 阵营 | 空间站「黑塔」 |
-| 角色介绍 | 空间站「黑塔」的站长，出身名门的大小姐。好奇心旺盛的天文研究者，擅长管理空间站各抒己见的科员。 |
-| 定位 | 可提高我方全体攻击力和速度的辅助角色 |
+| Character Name | Asta |
+| Path | Harmony |
+| Attribute | Fire |
+| Rarity | ★★★★ |
+| Faction | 空间站「黑塔」 |
+| Introduction | 空间站「黑塔」的站长，出身名门的大小姐。好奇心旺盛的天文研究者，擅长管理空间站各抒己见的科员。 |
+| Role | 可提高我方全体攻击力和速度的辅助角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 赤﨑千夏 |
-| 英语 | Felecia Angelle |
-| 中文 | 龟娘 |
-| 韩语 | 김현지 |
+| Japanese | 赤﨑千夏 |
+| English | Felecia Angelle |
+| Chinese | 龟娘 |
+| Korean | 김현지 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,023 |
-| 基础攻击力 | 512 |
-| 基础防御力 | 463 |
-| 基础速度 | 106 |
-| 嘲讽 | 100 |
-| 能量上限 | 120 |
+| Base HP | 1,023 |
+| Base ATK | 512 |
+| Base DEF | 463 |
+| Base SPD | 106 |
+| Taunt | 100 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/恒温晶壳\|恒温晶壳]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/恒温晶壳\|Endotherm Chitin]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 8 |
-| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 42 |
-| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|Harmonic Tune]] | 8 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|Ancestral Hymn]] | 42 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|Stellaris Symphony]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|Silvermane Badge]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|Silvermane Insignia]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|Silvermane Medal]] | 20 |
 
 ---
-## 战技
-### 普攻：Spectrum Beam
+## Skills
+### Basic ATK：Spectrum Beam
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Asta's ATK to one designated enemy.
 
-### 战技：Meteor Storm
+### Skill：Meteor Storm
 - **类型**：Skill
 - **简述**：Deals minor Fire DMG to single enemy targets with 5 Bounces in total.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to #1[i]% of Asta's ATK to a random enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 27.5% |
@@ -127,14 +127,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 62.5% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 62.5% of Asta's ATK to a random enemy.
 
-### 终结技：Astral Blessing
+### Ultimate：Astral Blessing
 - **类型**：Ultimate
 - **简述**：Increases SPD for all allies.
 - **最大等级**：15
 - **效果模板**：Increases SPD of all allies by #1[i] for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 36 | 2 |
   | Lv.2 | 37.4 | 2 |
@@ -158,7 +158,7 @@
 
 - **满级效果**：Increases SPD of all allies by 57 for 2 turn(s).
 
-### 天赋：Astrometry
+### Talent：Astrometry
 - **类型**：Talent
 - **简述**：The character will receive 1 stack of Charging for every different enemy they hit, for a maximum of 5 stacks. Every stack of Charging increases ATK for all allies. At the beginning of their turn, reduce Charging stacks.
 - **最大等级**：15
@@ -169,7 +169,7 @@ Starting from her second turn, Asta's Charging stack count is reduced by #3[i] a
 从自身的第2回合开始，艾丝妲每回合开始时蓄能层数减少#3[i]层。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 |
+| Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 7% | 5 | 3 |
   | Lv.2 | 7.7% | 5 | 3 |
@@ -198,14 +198,14 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 艾丝妲每拥有1层蓄能，会使我方全体攻击力提高#1[f1]%，该效果最多叠加5层。
 从自身的第2回合开始，艾丝妲每回合开始时蓄能层数减少3层。
 
-### 秘技：Miracle Flash
+### Technique：Miracle Flash
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor DMG to all enemies.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
 
@@ -214,9 +214,9 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 
 - **满级效果**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 火花 | 晋阶2 | 施放普攻时，有#1[i]%的基础概率使敌方目标陷入灼烧状态，持续#2[i]回合。
 灼烧状态下，敌方目标每回合开始时受到等同于艾丝妲普攻#3[i]%的火属性持续伤害。 | 施放普攻时，有80%的基础概率使敌方目标陷入灼烧状态，持续3回合。
@@ -224,19 +224,19 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 | 附加能力2 | 点燃 | 晋阶4 | 艾丝妲在场时，我方全体的火属性伤害提高#1[i]%。 | 艾丝妲在场时，我方全体的火属性伤害提高18%。 | 信用点×16000、家族颂歌×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 星座 | 晋阶6 | 艾丝妲每拥有1层蓄能，自身防御力提高#1[i]%。 | 艾丝妲每拥有1层蓄能，自身防御力提高6%。 | 信用点×128000、群星乐章×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 防御力 | 22.5% |
+| DEF | 22.5% |
 | 暴击率 | 6.7% |
 | 火属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Star Sings Sans Verses or Vocals | When using Skill, deals DMG for 1 extra time to a random enemy. |
 | E2 | Moon Speaks in Wax and Wane | After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn. |
@@ -247,98 +247,98 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 火属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：速度 / 攻击力 / 暴击率 / 暴击伤害
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|戍卫风雪的铁卫]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|Guard of Wuthering Snow]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/记忆中的模样.md|记忆中的模样]]
+### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
 - **基础属性**：生952 攻423 防398
 - **推荐度**：★★★★
 - **技能名**：老相片
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/镂月裁云之意.md|镂月裁云之意]]
+### [[zh_cn/lightcone/同谐/镂月裁云之意.md|Carve the Moon, Weave the Clouds]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：秘密
 - **效果**：在战斗开始时以及当装备者回合开始时,随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含:使我方全体攻击力提高【10%/12%/15%/17%/20%】;使我方全体暴击伤害提高【12%/15%/18%/21%/24%】;使我方全体能量恢复效率提高【6%/7%/9%/10%/12%】。同类效果无法叠加,在装备者陷入无法战斗状态时解除
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/同谐/与行星相会.md|与行星相会]]
+### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：启程
 - **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/同谐/过往未来.md|过往未来]]
+### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：旧日纸鸢
 - **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/轮契.md|轮契]]
+### [[zh_cn/lightcone/同谐/轮契.md|Meshing Cogs]]
 
 - **基础属性**：生846 攻317 防264
 - **推荐度**：★★
 - **技能名**：速决
 - **效果**：使装备者施放攻击或受到攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] | [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] |
+| 副C | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] | [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] |
 | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
 | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/桑博_风_四星.md\|桑博]] |
-| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|娜塔莎]] | [[zh_cn/character/虚无/卢卡_物理_四星.md\|卢卡]] |  |
+| [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] | [[zh_cn/character/虚无/卢卡_物理_四星.md\|卢卡]] |  |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 好奇心与精力都很旺盛的少女，空间站「黑塔」的名义站长。
 无论是管理各抒己见的科员，还是直接又不失礼貌地回复博识学会的种种刁难，对艾丝妲来说都易如反掌。
 毕竟指挥空间站…总比继承家业简单吧！
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 当艾丝妲年纪尚小，却已经开始自行挑选望远镜时，耳旁总隐隐约约传来长辈的赞叹。她对此颇为自豪，因为望远镜的主镜工艺、导星系统，她看一眼便知。
 
@@ -352,7 +352,7 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 「……」
 「喂，艾丝妲你去哪，艾丝妲！」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 她明白，她和母亲是否是合格的义工并不重要。人们只是希望她们出现在这里，仅此而已。
 
@@ -369,7 +369,7 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 
 ——时至今日，在艾丝妲心中，阿兰的那顿饭钱，在他说出要还钱的那个时刻，就已经结清了。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「星星尚且能遵循自己的轨迹穿行，那人类呢…人类真的无法掌握自己的命运吗？」
 
@@ -387,7 +387,7 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 
 人偶少女说完，头也不回地离去。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 成为空间站「黑塔」的站长后，艾丝妲的生活相较从前更为忙碌。她需要管理各抒己见的科员，替黑塔回复多如牛毛的信件，以及频繁和公司交涉，从各种渠道购置新的设备…但与此同时，她也在这里获得了最大的自由——
 

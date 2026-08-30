@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Law That Binds All Things |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Law That Binds All Things |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：是谁于鸿蒙初开之时，颁布约束万物的法律，令秩序通行寰字。
 差分宇宙：在那连泰坦都无法呼吸的压抑当中，时空交织如麻，襁褓中的翁法罗斯危在旦夕。
 差分宇宙：冷静沉着的塔兰顿，化身横贯混沌的天平，它呼唤姐妹分别怀抱时空立于天平两端，井宣告了世间第一道法律——空间与时间永远分离。
 差分宇宙：从此，空间如高山，岿然不动，让万物有依附之地；时间如长河，滚滚向前，令众生有变化之机。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 这到底是什么原理？ | — |
 | 确实是丰功伟绩。 | — |
@@ -58,6 +58,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 257 |  |

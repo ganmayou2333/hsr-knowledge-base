@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bounty Hunter: Crimson Cleansing Chronicle (IV) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_02.png` |
+| Name | Bounty Hunter: Crimson Cleansing Chronicle (IV) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_02.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·起源宇宙：蠹星多样性的虫类生态曾吸引近万光年内的星系赏金猎人前来猎捕，一时间宇宙中游行的猎人来往络绎不绝——他们正在为接下来的「工作」做准备。他们的领袖具有独特的个人魅力，她安抚人心，向大家说出危险又饶有趣味的言论：这不过是在编纂虫类图谱。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 我不想开枪。 | 痴迷因虚假而存在；爱却丑陋又伤人。 |
 | 清醒点！ | 对*你的*敌人开枪！ |
@@ -48,6 +48,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116401 |  |

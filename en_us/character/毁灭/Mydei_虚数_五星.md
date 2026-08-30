@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Mydei |
-| 命途 | Destruction |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 那沉入迷雾的悬锋，纷乱与战争之城！它的王室流着弑亲的血脉，它的神明以灾厄为名。 不死的迈德漠斯，离群的狮子，逐猎「纷争」火种的黄金裔。忍受万死，浴血还乡，孤身背负疯狂的宿命 ——弑王成王，弑神登神。征战的铁蹄踏遍荒野，终归要沾上故乡的血。 |
+| Character Name | Mydei |
+| Path | Destruction |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 那沉入迷雾的悬锋，纷乱与战争之城！它的王室流着弑亲的血脉，它的神明以灾厄为名。 不死的迈德漠斯，离群的狮子，逐猎「纷争」火种的黄金裔。忍受万死，浴血还乡，孤身背负疯狂的宿命 ——弑王成王，弑神登神。征战的铁蹄踏遍荒野，终归要沾上故乡的血。 |
 | 城邦 | 悬锋城 |
 | 神权 | 「天谴之矛，尼卡多利」 |
-| 定位 | 消耗生命获得强化的输出型角色 |
+| Role | 消耗生命获得强化的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 阿座上洋平 |
-| 英语 | Gabriel Warburton |
-| 中文 | 赵成晨 |
-| 韩语 | 안효민 |
+| Japanese | 阿座上洋平 |
+| English | Gabriel Warburton |
+| Chinese | 赵成晨 |
+| Korean | 안효민 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,552 |
-| 基础攻击力 | 427 |
-| 基础防御力 | 194 |
-| 基础速度 | 95 |
-| 嘲讽 | 125 |
-| 能量上限 | 160 |
+| Base HP | 1,552 |
+| Base ATK | 427 |
+| Base DEF | 194 |
+| Base SPD | 95 |
+| Taunt | 125 |
+| Max Energy | 160 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/纷争先兆\|纷争先兆]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/纷争先兆\|Harbinger of Strife]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/步离犬牙\|步离犬牙]] | 12 |
-| [[zh_cn/items/Material/TracePath/狼毒锯牙\|狼毒锯牙]] | 53 |
-| [[zh_cn/items/Material/TracePath/月狂獠牙\|月狂獠牙]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/步离犬牙\|Borisin Teeth]] | 12 |
+| [[zh_cn/items/Material/TracePath/狼毒锯牙\|Lupitoxin Sawteeth]] | 53 |
+| [[zh_cn/items/Material/TracePath/月狂獠牙\|Moon Rage Fang]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 28 |
 
 ---
-## 战技
-### 普攻：Vow of Voyage
+## Skills
+### Basic ATK：Vow of Voyage
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -99,7 +99,7 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 70% of Mydei's Max HP to one designated enemy.
 
-### 战技：Deaths are Legion, Regrets are None
+### Skill：Deaths are Legion, Regrets are None
 - **类型**：Skill
 - **简述**：Consumes HP and deals Imaginary DMG to one designated enemy unit and minor Imaginary DMG to adjacent targets.
 - **最大等级**：15
@@ -108,7 +108,7 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
 若当前生命值不足，施放战技时万敌的当前生命值降低至1点。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 45% | 25% | 50% |
   | Lv.2 | 49.5% | 27.5% | 50% |
@@ -135,14 +135,14 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
 If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.
 若当前生命值不足，施放战技时万敌的当前生命值降低至1点。
 
-### 终结技：Throne of Bones
+### Ultimate：Throne of Bones
 - **类型**：Ultimate
 - **简述**：Restores HP and accumulates Talent's Charge. Deals massive Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets, then Taunts the target and their adjacent targets.
 - **最大等级**：15
 - **效果模板**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates #5[i] Talent's Charge point(s). Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for #4[i] turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 96% | 60% | 15% | 2 | 20 |
   | Lv.2 | 102.4% | 64% | 15.5% | 2 | 20 |
@@ -169,7 +169,7 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
 
 - **满级效果**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates 20 Talent's Charge point(s). Deals Imaginary DMG equal to 192% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to 120% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for 2 turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
 
-### 天赋：Blood for Blood
+### Talent：Blood for Blood
 - **类型**：Talent
 - **简述**：When losing HP, accumulates Charge. When Charge is at 100, enters the "Vendetta" state, restores HP and advances action. During "Vendetta," Max HP increases and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
 When Charge reaches 150 during "Vendetta," Mydei immediately gains 1 extra turn and automatically uses "Godslayer Be God."
@@ -184,7 +184,7 @@ When receiving a killing blow during the "Vendetta" state, Mydei will not be kno
 【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身#4[i]%生命上限的生命值。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 0 | 150 | 50% | 50% |
   | Lv.2 | 16% | 0 | 150 | 50% | 50% |
@@ -215,7 +215,7 @@ When receiving a killing blow during the "Vendetta" state, Mydei will not be kno
 【血仇】状态期间充能达到150点时，万敌立即获得1个额外回合并自动施放【弑神登神】。
 【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身50%生命上限的生命值。
 
-### 秘技：Cage of Broken Lance
+### Technique：Cage of Broken Lance
 - **类型**：Technique
 - **简述**：Pulls in enemies within a certain area and inflicts Daze on them. After attacking Dazed enemies and entering battle, deals minor Imaginary DMG to all enemies and Taunts the targets. This unit accumulates Talent's Charge.
 - **最大等级**：1
@@ -224,7 +224,7 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌#2[i]%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续#4[i]回合。自身积攒#5[i]点天赋充能。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 10 | 80% | 1 | 1 | 50 |
 
@@ -239,26 +239,26 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to 80% of Mydei's Max HP to all enemies, and Taunts the targets, lasting for 1 turn(s). This unit accumulates 50 point(s) of Talent's Charge.
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌80%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续1回合。自身积攒50点天赋充能。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 水与泥土 | 晋阶2 | 【血仇】状态下万敌受到致命攻击时不会退出【血仇】状态。该效果单场战斗中可以触发#1[i]次。 | 【血仇】状态下万敌受到致命攻击时不会退出【血仇】状态。该效果单场战斗中可以触发3次。 | 信用点×5000、步离犬牙×3、吉光片羽×1 |
 | 附加能力2 | 三十僭主 | 晋阶4 | 【血仇】状态下万敌免疫控制类负面状态。 | 【血仇】状态下万敌免疫控制类负面状态。 | 信用点×20000、狼毒锯牙×5、命运的足迹×1、吉光片羽×1 |
 | 附加能力3 | 血祥罩衫 | 晋阶6 | 战斗开始时，若万敌的生命上限高于#1[i]点，每超过100点生命值可使自身暴击率提高#3[f1]%，万敌受到来自敌方目标伤害造成的充能比例提高#4[f1]%，受到治疗时的回复量提高#5[f2]%，超出部分最多计入#2[i]点生命值。 | 战斗开始时，若万敌的生命上限高于4000点，每超过100点生命值可使自身暴击率提高#3[f1]%，万敌受到来自敌方目标伤害造成的充能比例提高#4[f1]%，受到治疗时的回复量提高#5[f2]%，超出部分最多计入4000点生命值。 | 信用点×160000、月狂獠牙×8、命运的足迹×1、吉光片羽×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
+| HP | 18% |
 | 暴击伤害 | 37.3% |
-| 速度 | 5 |
+| SPD | 5 |
 
 ---
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Frost Hones Spine of Steel | Increases the DMG multiplier dealt by "Godslayer Be God" to the primary target by 30%. This ability now deals to all enemies Imaginary DMG equal to the DMG multiplier dealt to the primary target. |
 | E2 | Strife Beholds Cry of Dead | During "Vendetta," the DMG dealt by Mydei ignores 15% of enemy targets' DEF. After he receives healing, converts 40% of the healed amount to Charge. The tally of the converted Charge cannot exceed 40 point(s). Resets this tally of Charge after any unit takes action. |
@@ -269,81 +269,81 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：生命值 / 速度 / 虚数属性伤害提高 / 生命值
 
 **推荐副词条**：暴击率 / 暴击伤害 / 生命值 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|宝命长存的莳者]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
-| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|盗匪荒漠的废土客]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/宝命长存的莳者\|Longevous Disciple]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
+| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/血火啊，燃烧前路.md|血火啊，燃烧前路]]
+### [[zh_cn/lightcone/毁灭/血火啊，燃烧前路.md|Flame of Blood, Blaze My Path]]
 
 - **基础属性**：生1376 攻476 防397
 - **推荐度**：★★★★★
 - **技能名**：远望
 - **效果**：使装备者的生命上限提高【18%/21%/24%/27%/30%】，受到的治疗量提高【20%/25%/30%/35%/40%】，施放战技或终结技时消耗等同于自身【6%/6.5%/7%/7.5%/8%】生命上限的生命值，并使本次攻击造成的伤害提高【30%/35%/40%/45%/50%】，若该效果消耗的生命值高于500点，可使伤害额外提高【30%/35%/40%/45%/50%】。 若当前生命值不足，该效果最多使装备者的当前生命值降低至1点。
 
-### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|到不了的彼岸]]
+### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|The Unreachable Side]]
 
 - **基础属性**：生1270 攻582 防330
 - **推荐度**：★★★★
 - **技能名**：不得
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】，生命上限提高【18%/21%/24%/27%/30%】。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高【24%/28%/32%/36%/40%】，该效果在装备者施放攻击后解除。
 
-### [[zh_cn/lightcone/毁灭/忍事录•音律狩猎.md|忍事录•音律狩猎]]
+### [[zh_cn/lightcone/毁灭/忍事录•音律狩猎.md|Ninja Record Sound Hunt]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：开演！
 - **效果**：使装备者的生命上限提高【12%/15%/18%/21%/24%】，损失或回复自身生命值后，暴击伤害提高【18.0%/22.5%/27.0%/31.5%/36.0%】，持续2回合，该效果每回合只可触发1次。
 
-### [[zh_cn/lightcone/毁灭/在火的远处.md|在火的远处]]
+### [[zh_cn/lightcone/毁灭/在火的远处.md|Flames Afar]]
 
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：爆燃
 - **效果**：当装备者在单次受到攻击中累计损失的生命值超过最大生命值的25%，或单次消耗自身生命值超过最大生命值的25%，则立即回复等同于装备者生命上限15%的生命值，同时使装备者造成的伤害提高【25%/31%/37%/43%/50%】，持续2回合。该效果每3回合只能触发1次。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 生存 |
 |---|---|
 | 拉条辅助 | 光环/负面辅助 |
-| [[zh_cn/character/毁灭/万敌_虚数_五星.md\|万敌]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
-| [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/毁灭/万敌_虚数_五星.md\|万敌]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
+| [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] |  |
+| [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 那沉入迷雾的悬锋，纷乱与战争之城！它的王室流着弑亲的血脉，它的神明以灾厄为名。
 不死的迈德漠斯，离群的狮子，逐猎「纷争」火种的黄金裔。你要忍受万死，浴血还乡，孤身背负疯狂的宿命
 ——弑王成王，弑神登神。征战的铁蹄踏遍荒野，终归要沾上故乡的血。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「在沿海城邦古老的传说里，冥海曾诞育下堪比神明的生灵。据往来渔船所说，正有这样的『海王』以幼童的相貌出没于波涛之中，面目凶恶，红颜青唇，以侵肌蚀骨的冥海之水沐浴，与凶恶残暴的冥海之兽肉搏，渴饮鲜血，生啖骨肉。
 
@@ -365,7 +365,7 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 「强。」
 ——男人的字迹
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「那支孤军散发着浓烈的血腥，像一支染血的长枪。那名领军的战士即是枪尖，永远裹挟着深不见底的愤怒与仇恨刺向敌人。
 
@@ -385,7 +385,7 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 「赫菲斯辛、帕狄卡斯、莱昂、托勒密，朴塞塔…你们的名字，必不遗落于历史。」
 ——男人的字迹
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「迈德漠斯啊！你这忘恩负义的背叛者，断绝悬锋精神的懦夫！
 
@@ -407,7 +407,7 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 「继续迁移。」
 ——男人的批示
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「黎明圣城奥赫玛为此世之中黑潮尚无法侵扰的净土，但黑潮对其包围之势已显而易见。
 

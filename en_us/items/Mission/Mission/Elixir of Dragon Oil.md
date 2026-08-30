@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Elixir of Dragon Oil |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Elixir of Dragon Oil |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 西衍先生在故事中虚构的灵丹妙药。据他说可以让人「脱胎换骨、神功大成」，但名字听起来特别不吉利。
 
 
-## 获得途径
+## Acquisition
 
 - 1.2活动冒险任务【评书奇谭】

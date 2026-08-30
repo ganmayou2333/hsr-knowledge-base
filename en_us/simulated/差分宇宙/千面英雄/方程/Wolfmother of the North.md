@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Wolfmother of the North |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 繁育*4巡猎*2 |
+| Name | Wolfmother of the North |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 繁育*4巡猎*2 |
 
 
-## 效果
+## Effect
 
 我方目标造成的普攻/战技伤害的暴击伤害提高150%。【蝶魄】状态下，我方目标每施放1次攻击，退出【蝶魄】状态后【魂茧】立即获得2%的充能值，最多不超过40%。
 
-## 强化效果
+## Enhanced Effect
 
 -

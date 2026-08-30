@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Victory In a Blink |
-| 命途 | Remembrance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Victory In a Blink |
+| Path | Remembrance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The Titankins' all-consuming roars sweep across the battlefield. Two lightning-quick figures slaughter their way out of combat.
 "I alone will be enough to handle them."
@@ -28,18 +28,18 @@ Howls of anguish sound as the stealthy beasts behind them are struck down at onc
 Two voices can be heard at the same time.
 "That was my kill!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 847 | 476 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Final Hit
 
 Increases the wearer's CRIT DMG by 12%. When the wearer's memosprite uses an ability on an ally target, increases the DMG dealt by all ally targets by 8%, lasting for 3 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

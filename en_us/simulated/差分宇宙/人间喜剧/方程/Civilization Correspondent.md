@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Civilization Correspondent |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 存护*4智识*4 |
+| Name | Civilization Correspondent |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 存护*4智识*4 |
 
 
-## 效果
+## Effect
 
 角色施放终结技时，获得能够抵消等同于生命上限30%伤害的护盾，持续3回合。施放攻击造成终结技伤害后，对攻击目标造成等同于当前护盾量600%的【反震】伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

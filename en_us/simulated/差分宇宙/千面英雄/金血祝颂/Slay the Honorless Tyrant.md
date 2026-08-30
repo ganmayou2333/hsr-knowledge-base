@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Slay the Honorless Tyrant |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Slay the Honorless Tyrant |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 激活效果后，黑夜中每降低10%生命值，使回复量提高1.0%，造成的最终伤害提高1.0%，单个昼夜内最多提高40%回复量和40%最终伤害，昼夜切换后重置。
 
-## 强化效果
+## Enhanced Effect
 
 -

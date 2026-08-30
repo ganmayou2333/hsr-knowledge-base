@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | She Already Shut Her Eyes |
-| 命途 | Preservation |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | She Already Shut Her Eyes |
+| Path | Preservation |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The ache in the middle of her forehead will accompany her for the rest of her life, but it is only a fraction of what she had experienced in the past.
 She thought herself prescient until the departure of those for whom she cared.
@@ -23,13 +23,13 @@ She now "sees" the world ever-changing, the times ever-shifting...
 But she already shut her eyes, because the future has already been determined
 ...inside "the third eye."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,270 | 423 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Visioscape
 
@@ -37,6 +37,6 @@ Increases the wearer's Max HP by 24% and Energy Regeneration Rate by 12%. When t
 At the start of every wave, restores HP to all allies by an amount equal to 80% of their respective lost HP.
 每个波次开始时，为我方全体回复等同于各自已损失生命值80%的生命值。
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

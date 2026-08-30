@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Landau's Choice |
-| 命途 | Preservation |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Landau's Choice |
+| Path | Preservation |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Did you not hear me? Don't go there ever again! What could you possibly be learning from those commoners!"
 "But I've never heard any of the stories they tell about Belobog before..."
@@ -26,18 +26,18 @@ She went to bed angry after the argument, vowing to herself:
 "I will be a grown-up one day. And when that day comes, I will make choices..."
 "My own choices..."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 423 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Time Fleets Away
 
 The wearer is more likely to be attacked, and DMG taken is reduced by 16%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

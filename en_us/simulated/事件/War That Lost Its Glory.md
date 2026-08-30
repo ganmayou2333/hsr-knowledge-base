@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | War That Lost Its Glory |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | War That Lost Its Glory |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：让我们回顾一场失去荣耀的战争，被悬锋人所不齿的历史。
 差分宇宙：摈弃众多诋毁和恶评，尼卡多利并非愚昧野蛮的怪物，它看重荣耀，甚至高于胜利本身。
 差分宇宙：曾有「赤足的弗雷托」，自沿海的希罗科萨斯一路奔来。他的双脚如同领受了法吉娜的赐福，比海上的浪花还要迅速。
 差分宇宙：他向尼卡多利叫嚣，要与它比拼脚力。男人的傲慢与狂妄，甚至让泰坦都陷入沉寂。它随即放声大笑，并与其约定，只要弗雷托能比它的军队更早抵达希罗科萨斯，就向他承诺家乡的和平。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 奔跑是伟大的竞技。 | — |
 | 但没人能胜过神明。 | — |
@@ -55,6 +55,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 241 |  |

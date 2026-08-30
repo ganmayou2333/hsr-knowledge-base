@@ -4,20 +4,20 @@
 > 实体ID：124
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/4666/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Poet of Mourning Collapse |
-| 类型 | 隧洞遗器 |
-| 实体ID | 124 |
-## 获取途径
+| Name | Poet of Mourning Collapse |
+| Type | 隧洞遗器 |
+| Entity ID | 124 |
+## Acquisition
 弦歌之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Quantum DMG by 10%.
 ### 4 件套
 Decreases the wearer's SPD by 8%. Before entering battle, if the wearer's SPD is lower than 110/95, increases the wearer's CRIT Rate by 20%/32%. This effect applies to the wearer's memosprite at the same time.
-## 部位
+## Pieces
 ### 手部：诗人的贵金手镯
 **描述**：被人喜爱的金属打造的手镯，故事中的恶龙，也曾背负这样金属打造的枷锁。
 **来历**：

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Anicca |
-| 类型 | 祝福 |
-| 命途 | 丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Anicca |
+| Type | Blessing |
+| Path | 丰饶 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 施放命途回响后，解除所有角色的负面效果并提供1层【调伏诸厄】状态，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

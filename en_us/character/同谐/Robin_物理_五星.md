@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Robin |
-| 命途 | Harmony |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 匹诺康尼 |
-| 角色介绍 | 出生于匹诺康尼，闻名银河的天环族歌者，举止从容优雅的少女。 此次受家族宴请回到故乡，在「谐乐大典」为众宾献歌一曲。 可以依靠「同谐」的力量传递歌声，在歌迷乃至万界生灵之中展现「共鸣」。 |
-| 定位 | 通过【协奏】提高我方输出的辅助型角色 |
+| Character Name | Robin |
+| Path | Harmony |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 匹诺康尼 |
+| Introduction | 出生于匹诺康尼，闻名银河的天环族歌者，举止从容优雅的少女。 此次受家族宴请回到故乡，在「谐乐大典」为众宾献歌一曲。 可以依靠「同谐」的力量传递歌声，在歌迷乃至万界生灵之中展现「共鸣」。 |
+| Role | 通过【协奏】提高我方输出的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 名塚佳織 / 歌：Chevy |
-| 英语 | Alice Himora / Song vocals: Chevy |
-| 中文 | 钱琛 / 歌：Chevy |
-| 韩语 | 신온유 / 노래: Chevy |
+| Japanese | 名塚佳織 / 歌：Chevy |
+| English | Alice Himora / Song vocals: Chevy |
+| Chinese | 钱琛 / 歌：Chevy |
+| Korean | 신온유 / 노래: Chevy |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,281 |
-| 基础攻击力 | 640 |
-| 基础防御力 | 485 |
-| 基础速度 | 102 |
-| 嘲讽 | 100 |
-| 能量上限 | 160 |
+| Base HP | 1,281 |
+| Base ATK | 640 |
+| Base DEF | 485 |
+| Base SPD | 102 |
+| Taunt | 100 |
+| Max Energy | 160 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/星际和平工作证\|星际和平工作证]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/星际和平工作证\|IPC Work Permit]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/云际音符\|云际音符]] | 12 |
-| [[zh_cn/items/Material/TracePath/空际小节\|空际小节]] | 53 |
-| [[zh_cn/items/Material/TracePath/天外乐章\|天外乐章]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/云际音符\|Firmament Note]] | 12 |
+| [[zh_cn/items/Material/TracePath/空际小节\|Celestial Section]] | 53 |
+| [[zh_cn/items/Material/TracePath/天外乐章\|Heavenly Melody]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|Dream Collection Component]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|Dream Flow Valve]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|Dream Making Engine]] | 28 |
 
 ---
-## 战技
-### 普攻：Wingflip White Noise
+## Skills
+### Basic ATK：Wingflip White Noise
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of Robin's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of Robin's ATK to one designated enemy target.
 
-### 战技：Pinion's Aria
+### Skill：Pinion's Aria
 - **类型**：Skill
 - **简述**：Increases DMG dealt by all allies.
 - **最大等级**：15
 - **效果模板**：Increase DMG dealt by all allies by #1[i]%, lasting for #2[i] turn(s). This duration decreases by 1 at the start of Robin's every turn.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 25% | 3 |
   | Lv.2 | 27.5% | 3 |
@@ -128,7 +128,7 @@
 
 - **满级效果**：Increase DMG dealt by all allies by 62.5%, lasting for 3 turn(s). This duration decreases by 1 at the start of Robin's every turn.
 
-### 终结技：Vox Harmonique, Opus Cosmique
+### Ultimate：Vox Harmonique, Opus Cosmique
 - **类型**：Ultimate
 - **简述**：Enters the "Concerto" state, increases all allies' ATK, and causes all teammates to immediately take action. After an attack, Robin deals Physical Additional DMG. While "Concerto" lasts, Robin is immune to Crowd Control debuffs. Before Concerto ends, Robin won't take a turn or action, lasting until the end of the countdown.
 - **最大等级**：15
@@ -141,7 +141,7 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 行动序列上出现【协奏】倒计时，倒计时回合开始时知更鸟退出【协奏】状态并立即行动，倒计时固定拥有#2[i]点速度。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6(%) |
+| Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 15.2% | 90 | 50 | 72% | 100% | 150% |
   | Lv.2 | 15.96% | 90 | 65 | 76.8% | 100% | 150% |
@@ -175,14 +175,14 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 处于【协奏】状态时，知更鸟免疫控制类负面状态，【协奏】状态结束前不会进入自己的回合且无法行动。
 行动序列上出现【协奏】倒计时，倒计时回合开始时知更鸟退出【协奏】状态并立即行动，倒计时固定拥有90点速度。
 
-### 天赋：Tonal Resonance
+### Talent：Tonal Resonance
 - **类型**：Talent
 - **简述**：Increase all allies' CRIT DMG. After an ally target attacks the enemy, Robin additionally regenerates Energy.
 - **最大等级**：15
 - **效果模板**：Increase all allies' CRIT DMG by #1[f1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates #2[i] Energy for herself.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 5% | 2 |
   | Lv.2 | 6.5% | 2 |
@@ -206,14 +206,14 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 
 - **满级效果**：Increase all allies' CRIT DMG by #1[f1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates 2 Energy for herself.
 
-### 秘技：Overture of Inebriation
+### Technique：Overture of Inebriation
 - **类型**：Technique
 - **简述**：Creates a Special Dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.
 - **最大等级**：1
 - **效果模板**：After using Technique, creates a Special Dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 15 | 5 |
 
@@ -223,27 +223,27 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 
 - **满级效果**：After using Technique, creates a Special Dimension around the character that lasts for 15 seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates 5 Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 华彩花腔 | 晋阶2 | 战斗开始时，自身行动提前#1[i]%。 | 战斗开始时，自身行动提前25%。 | 信用点×5000、云际音符×3、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 即兴装饰 | 晋阶4 | 处于【协奏】状态时，我方全体发动追加攻击造成的暴击伤害提高#1[i]%。 | 处于【协奏】状态时，我方全体发动追加攻击造成的暴击伤害提高25%。 | 信用点×20000、空际小节×5、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 模进乐段 | 晋阶6 | 施放战技时额外恢复#1[i]点能量。 | 施放战技时额外恢复5点能量。 | 信用点×160000、天外乐章×8、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 28% |
-| 速度 | 5 |
+| HP | 18% |
+| ATK | 28% |
+| SPD | 5 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Land of Smiles | While the "Concerto" state is active, all allies' All-Type RES PEN increases by 24%. |
 | E2 | Afternoon Tea For Two | While the "Concerto" state is active, all allies' SPD increases by 16%. The Talent's Energy Regeneration effect additionally increases by 1. |
@@ -254,78 +254,78 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 攻击力 / 攻击力 / 能量恢复效率
 
 **推荐副词条**：攻击力 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
-| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|幽锁深牢的系囚]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|Prisoner in Deep Confinement]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/夜色流光溢彩.md|夜色流光溢彩]]
+### [[zh_cn/lightcone/同谐/夜色流光溢彩.md|Flowing Nightglow]]
 
 - **基础属性**：生952 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：抚慰
 - **效果**：我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高【3.0%/3.5%/4.0%/4.5%/5.0%】，最多叠加5层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高【48%/60%/72%/84%/96%】，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/为了明日的旅途.md|为了明日的旅途]]
+### [[zh_cn/lightcone/同谐/为了明日的旅途.md|For Tomorrow's Journey]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：联结
 - **效果**：使装备者的攻击力提高【16%/20%/24%/28%/32%】。装备者施放终结技后，造成的伤害提高【18%/21%/24%/27%/30%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/轮契.md|轮契]]
+### [[zh_cn/lightcone/同谐/轮契.md|Meshing Cogs]]
 
 - **基础属性**：生846 攻317 防264
 - **推荐度**：★★★
 - **技能名**：速决
 - **效果**：使装备者施放攻击或受到攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | 主C/辅助 | [[zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] |
-| [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/毁灭/云璃_物理_五星.md\|云璃]] |
-| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] |
+| [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/毁灭/云璃_物理_五星.md\|云璃]] |
+| [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] |
 | [[zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] | [[zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 出生于匹诺康尼，闻名银河的天环族歌者，举止从容优雅的少女。
 此次受家族宴请回到故乡，在「谐乐大典」为众宾献歌一曲。
 可以依靠「同谐」的力量传递歌声，在歌迷乃至万界生灵之中展现「共鸣」。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「她将自己的生活形容为一首歌，而那首歌的开始阴沉而苦涩。
 
@@ -349,7 +349,7 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 
 ——摘自《鸟儿与天空：知更鸟独家专访》
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「所幸这样沉闷的气氛没有持续多久，在我们分享了两杯莓果冰淇淋之后，她又变回了那个活泼的少女。
 
@@ -369,7 +369,7 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 
  ——摘自《鸟儿与天空：知更鸟独家专访》
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「在连续发布三张专辑之后，她的音乐生涯逐渐走向顶峰。《使一颗心免于哀伤》、《在最美丽的一天》等等歌曲刷新了银河各大音乐排行榜，成为脍炙人口的热门单曲。令人不解的是，她却选择在此时退出了大众的视野之中。
 
@@ -389,7 +389,7 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 
  ——摘自《鸟儿与天空：知更鸟独家专访》
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「时隔一年之后，我们收到邀请，来到匹诺康尼再度接续上次的采访。
 

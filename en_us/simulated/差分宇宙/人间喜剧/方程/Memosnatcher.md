@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Memosnatcher |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*5记忆*3 |
+| Name | Memosnatcher |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*5记忆*3 |
 
 
-## 效果
+## Effect
 
 角色施放攻击造成终结技伤害时，消耗等同于当前生命值5%的生命值，并在该次攻击后有50%基础概率使攻击目标陷入冻结状态，持续1回合。每有1层【战意】，角色效果命中提高2%。
 
-## 强化效果
+## Enhanced Effect
 
 -

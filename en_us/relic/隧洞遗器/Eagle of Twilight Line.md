@@ -4,20 +4,20 @@
 > 实体ID：110
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/570/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Eagle of Twilight Line |
-| 类型 | 隧洞遗器 |
-| 实体ID | 110 |
-## 获取途径
+| Name | Eagle of Twilight Line |
+| Type | 隧洞遗器 |
+| Entity ID | 110 |
+## Acquisition
 霜风之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Wind DMG by 10%.
 ### 4 件套
 After the wearer uses their Ultimate, their action is Advanced Forward by 25%.
-## 部位
+## Pieces
 ### 手部：翔鹰的鹰击指环
 **描述**：卓越空渔人大师所佩戴的指环，空渔鹰双翅纹样紧抱手指。
 **来历**：

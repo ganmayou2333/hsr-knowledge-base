@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Researchers' Memo Notes (V) |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Researchers' Memo Notes (V) |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 科员们的留言便条其五
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-主控舱段，地图左下方走廊的长椅上

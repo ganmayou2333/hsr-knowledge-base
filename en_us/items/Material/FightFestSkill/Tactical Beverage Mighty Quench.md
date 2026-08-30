@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Tactical Beverage: Mighty Quench |
-| 用途 | 斗技场技能 |
-| 评级 | ★★★★ |
-| 类型 | Material / 斗技场技能 |
+| Item Name | Tactical Beverage: Mighty Quench |
+| Use | 斗技场技能 |
+| Rarity | ★★★★ |
+| Type | Material / 斗技场技能 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

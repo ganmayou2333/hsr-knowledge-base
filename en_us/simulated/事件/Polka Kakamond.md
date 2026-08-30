@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Polka Kakamond |
-| 类型 | 事件 |
-| 属性 | 天才俱乐部#4 |
-| 图片 | `image/simulated_event/HoshinoKami_Herta6.png` |
+| Name | Polka Kakamond |
+| Type | Event |
+| Attribute | 天才俱乐部#4 |
+| Image | `image/simulated_event/HoshinoKami_Herta6.png` |
 
 
-## 事件文本
+## Event Text
 
 待补充
 
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 20 |  |

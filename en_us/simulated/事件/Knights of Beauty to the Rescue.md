@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Knights of Beauty to the Rescue |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_1.png` |
+| Name | Knights of Beauty to the Rescue |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_1.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 接受纯美骑士「斯狄洛特」的帮助。 | 获得2个强化过的3星祝福 |
 | 接受纯美骑士「憎」的帮助。 | 获得1个3星方程 |
@@ -38,7 +38,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 112201 |  |
 | 412201 |  |

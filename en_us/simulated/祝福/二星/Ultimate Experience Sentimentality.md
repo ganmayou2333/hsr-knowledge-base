@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ultimate Experience: Sentimentality |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Ultimate Experience: Sentimentality |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标受到冰属性伤害后，相邻目标受到等同于原伤害20%的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标受到冰属性伤害后，其余敌方目标受到等同于原伤害24%的伤害。

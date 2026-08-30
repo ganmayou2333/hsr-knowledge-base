@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Shattered Jade Seal |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Shattered Jade Seal |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 出入重地，打开门关所需的信物。把它「借」来的过程，似乎很不愉快啊。
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【迴星周旋，未卜知先】

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Compact Blaze |
-| 类型 | 祝福（同名合并） |
-| 命途 | 毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Compact Blaze |
+| Type | Blessing (merged) |
+| Path | 毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616540 | When an ally target is attacked, "Blazar" DMG multiplier increases by 20% of the original multiplier, stacking up to 2 time(s) and lasting for 2 turn(s). |
 | 617540 | When an ally target is attacked, "Blazar" DMG multiplier increases by 20% of the original multiplier, stacking up to 2 time(s) and lasting for 2 turn(s). |

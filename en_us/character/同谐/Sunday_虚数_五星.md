@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Sunday |
-| 命途 | Harmony |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★★ |
-| 阵营 | 银河 |
-| 角色介绍 | 「秩序」的美梦已然消散，但仍有人不会放下初愿。 ——折翼坠地的旅人，他的脚步将迈向何方？ |
-| 定位 | 使我方角色及其召唤物立即行动的辅助型角色 |
+| Character Name | Sunday |
+| Path | Harmony |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 银河 |
+| Introduction | 「秩序」的美梦已然消散，但仍有人不会放下初愿。 ——折翼坠地的旅人，他的脚步将迈向何方？ |
+| Role | 使我方角色及其召唤物立即行动的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 大塚剛央 |
-| 英语 | Griffin Puatu |
-| 中文 | 徐翔 |
-| 韩语 | 강성우 |
+| Japanese | 大塚剛央 |
+| English | Griffin Puatu |
+| Chinese | 徐翔 |
+| Korean | 강성우 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,242 |
-| 基础攻击力 | 640 |
-| 基础防御力 | 534 |
-| 基础速度 | 96 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 1,242 |
+| Base ATK | 640 |
+| Base DEF | 534 |
+| Base SPD | 96 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/一曲合弦的幻景\|一曲合弦的幻景]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一曲合弦的幻景\|Chordal Mirage]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/云际音符\|云际音符]] | 12 |
-| [[zh_cn/items/Material/TracePath/空际小节\|空际小节]] | 53 |
-| [[zh_cn/items/Material/TracePath/天外乐章\|天外乐章]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/云际音符\|Firmament Note]] | 12 |
+| [[zh_cn/items/Material/TracePath/空际小节\|Celestial Section]] | 53 |
+| [[zh_cn/items/Material/TracePath/天外乐章\|Heavenly Melody]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 28 |
 
 ---
-## 战技
-### 普攻：Gleaming Admonition
+## Skills
+### Basic ATK：Gleaming Admonition
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of Sunday's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 140% of Sunday's ATK to one designated enemy.
 
-### 战技：Benison of Paper and Rites
+### Skill：Benison of Paper and Rites
 - **类型**：Skill
 - **简述**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt. If the target has a summon, then the DMG dealt increase is further boosted.
 After using Skill on The Beatified, recovers 1 Skill Point.
@@ -112,7 +112,7 @@ When Sunday uses this ability on characters following the Path of Harmony, canno
 当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 1 | 15% | 2 | 25% |
   | Lv.2 | 1 | 16.5% | 2 | 27.5% |
@@ -142,7 +142,7 @@ When Sunday uses this ability on characters following the Path of Harmony, canno
 对【蒙福者】施放战技后恢复1个战技点。
 当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。
 
-### 终结技：Ode to Caress and Cicatrix
+### Ultimate：Ode to Caress and Cicatrix
 - **类型**：Ultimate
 - **简述**：Regenerates Energy for one designated ally character and turns the target and their summon into "The Beatified." "The Beatified" increases their CRIT DMG.
 - **最大等级**：15
@@ -151,7 +151,7 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续#3[i]回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 20% | 12% | 3 | 8% |
   | Lv.2 | 20% | 13.8% | 3 | 8.4% |
@@ -179,14 +179,14 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 At the start of Sunday's every turn, the duration of "The Beatified" decreases by 1 turn, lasting for a total of 3 turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, "The Beatified" will also be dispelled.
 星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续3回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。
 
-### 天赋：The Sorrowing Body
+### Talent：The Sorrowing Body
 - **类型**：Talent
 - **简述**：When using Skill, increases the target's CRIT Rate.
 - **最大等级**：15
 - **效果模板**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 10% | 3 |
   | Lv.2 | 11% | 3 |
@@ -210,14 +210,14 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 
 - **满级效果**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for 3 turn(s).
 
-### 秘技：The Glorious Mysteries
+### Technique：The Glorious Mysteries
 - **类型**：Technique
 - **简述**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases.
 - **最大等级**：1
 - **效果模板**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
 
@@ -227,27 +227,27 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 
 - **满级效果**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by 50%, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 主日渴慕 | 晋阶2 | 施放终结技时，若为目标恢复的能量不足#1[i]点，恢复的能量提高至#1[i]点。 | 施放终结技时，若为目标恢复的能量不足40点，恢复的能量提高至40点。 | 信用点×5000、云际音符×3、同愿的遗音×1 |
 | 附加能力2 | 崇高拂尘 | 晋阶4 | 战斗开始时，星期日恢复#1[i]点能量。 | 战斗开始时，星期日恢复25点能量。 | 信用点×20000、空际小节×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 掌中安港 | 晋阶6 | 施放战技时，解除目标的#1[i]个负面效果。 | 施放战技时，解除目标的1个负面效果。 | 信用点×160000、天外乐章×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 防御力 | 12.5% |
+| DEF | 12.5% |
 | 暴击伤害 | 37.3% |
 | 效果抵抗 | 18% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Millennium's Quietus | When Sunday uses Skill, the target character can ignore 16% of enemy target's DEF to deal DMG and their summon can ignore 40% of enemy target's DEF to deal DMG, lasting for 2 turn(s). |
 | E2 | Faith Outstrips Frailty | After the first use of Ultimate, recovers 2 Skill Point(s). The DMG dealt by "The Beatified" increases by 30%. |
@@ -258,76 +258,76 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 生命值 / 能量恢复效率
 
 **推荐副词条**：暴击伤害 / 速度 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|重循苦旅的司铎]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/回到大地的飞行.md|回到大地的飞行]]
+### [[zh_cn/lightcone/同谐/回到大地的飞行.md|A Grounded Ascent]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：再启程
 - **效果**：当装备者对我方单体角色施放战技或终结技后，装备者恢复【6.0/6.5/7.0/7.5/8.0】点能量，同时使技能目标获得1层【圣咏】，持续3回合，最多叠加3层，每层【圣咏】使持有者造成的伤害提高【15%/17%/19%/21%/24%】。装备者每对我方单体角色施放2次战技或终结技后，恢复1个战技点。
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/游戏尘寰.md|游戏尘寰]]
+### [[zh_cn/lightcone/同谐/游戏尘寰.md|Earthly Escapade]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：善变
 - **效果**：使装备者的暴击伤害提高【32%/39%/46%/53%/60%】。战斗开始时，使装备者获得【假面】，持续3回合。当装备者持有【假面】时，装备者的队友暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【28%/35%/42%/49%/56%】。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到4层后，移除所有【彩焰】并获得【假面】，持续4回合。
 
-### [[zh_cn/lightcone/同谐/过往未来.md|过往未来]]
+### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：旧日纸鸢
 - **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] | [[zh_cn/character/智识/景元_雷_五星.md\|景元]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
-| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
-| [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
-| [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|娜塔莎]] | [[zh_cn/character/巡猎/丹恒_风_四星.md\|丹恒]] |
+| [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[zh_cn/character/智识/景元_雷_五星.md\|景元]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
+| [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
+| [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] | [[zh_cn/character/巡猎/丹恒_风_四星.md\|丹恒]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「秩序」的美梦已然消散，但仍有人不会放下初愿。
 ——折翼坠地的旅人，他的脚步将迈向何方？
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「亲爱的妹妹：
 
@@ -349,7 +349,7 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 
 ——一封古旧的家书，珍藏于旅行箱的暗格中
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「亲爱的妹妹：
 
@@ -368,7 +368,7 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 
 ——一封泛黄的家书，放在唱片盒中
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「亲爱的妹妹：
 
@@ -391,7 +391,7 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 
 ——一封新近的家书，笔迹潦草，涂抹众多
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「亲爱的妹妹：
 

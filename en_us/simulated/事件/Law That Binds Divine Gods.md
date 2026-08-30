@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Law That Binds Divine Gods |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Law That Binds Divine Gods |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：是谁于天平将倾时，催动制约泰坦的咒语，令平衡回归大地。
 差分宇宙：扎格列斯曾取悦过所有泰坦，唯独没有逗笑塔兰顿，因为它怕自己的笑声会让天平颤抖。
 差分宇宙：顽劣的扎格列斯心生一计，它趁着黎明前最黑暗的时刻，悄悄愉走了天平，边把玩边向西飞去。而这么做的原因，只是因为它看不惯塔兰顿总板着脸。
 差分宇宙：那天，所有人抬头就能看到一颗硕大的飞星。飞星所经之处，巨树漂浮空中，河水倒灌农田，城内偷盗横行。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 平衡被打破了。 | — |
 | 规则被玩坏了。 | — |
@@ -63,6 +63,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 259 |  |

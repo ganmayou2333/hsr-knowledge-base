@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | {NICKNAME} |
-| 命途 | Destruction |
-| 属性 | Physical |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 登上星穹列车的少女/少年。为了消除星核带来的危机，选择与星穹列车同行。 |
-| 定位 | 通过终结技强化普攻和战技形态具备生命值回复的能力 |
+| Character Name | {NICKNAME} |
+| Path | Destruction |
+| Attribute | Physical |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 登上星穹列车的少女/少年。为了消除星核带来的危机，选择与星穹列车同行。 |
+| Role | 通过终结技强化普攻和战技形态具备生命值回复的能力 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 榎木淳弥/石川由依 |
-| 英语 | Caleb Yen/Rachael Chau |
-| 中文 | 秦且歌/陈婷婷 |
-| 韩语 | 김명준/김하루 |
+| Japanese | 榎木淳弥/石川由依 |
+| English | Caleb Yen/Rachael Chau |
+| Chinese | 秦且歌/陈婷婷 |
+| Korean | 김명준/김하루 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,203 |
-| 基础攻击力 | 621 |
-| 基础防御力 | 461 |
-| 基础速度 | 100 |
-| 嘲讽 | 125 |
-| 能量上限 | 120 |
+| Base HP | 1,203 |
+| Base ATK | 621 |
+| Base DEF | 461 |
+| Base SPD | 100 |
+| Taunt | 125 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|深邃的星外质]] | 28 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|Enigmatic Ectostella]] | 28 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 8 |
-| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 42 |
-| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|Shattered Blade]] | 8 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|Lifeless Blade]] | 42 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|Worldbreaker Blade]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 20 |
 
 ---
-## 战技
-### 普攻：Farewell Hit
+## Skills
+### Basic ATK：Farewell Hit
 - **类型**：Basic ATK
 - **简述**：Deals minor Physical DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Physical DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
 
-### 战技：RIP Home Run
+### Skill：RIP Home Run
 - **类型**：Skill
 - **简述**：Deals Physical DMG to one enemy and enemies adjacent to it.
 - **最大等级**：15
 - **效果模板**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 62.5% |
   | Lv.2 | 68.75% |
@@ -127,7 +127,7 @@
 
 - **满级效果**：Deals Physical DMG equal to 156.25% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
 
-### 终结技：Stardust Ace
+### Ultimate：Stardust Ace
 - **类型**：Ultimate
 - **简述**：Uses Single Target ATK or Blast to strike with full force.
 - **最大等级**：15
@@ -138,7 +138,7 @@
 【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者#2[i]%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者#3[i]%攻击力的物理属性伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 300% | 180% | 108% |
   | Lv.2 | 315% | 189% | 113.4% |
@@ -167,14 +167,14 @@
 【全胜•再见安打】：对指定敌方单体造成等同于开拓者525%攻击力的物理属性伤害。
 【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者315%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者189%攻击力的物理属性伤害。
 
-### 天赋：Perfect Pickoff
+### Talent：Perfect Pickoff
 - **类型**：Talent
 - **简述**：Every time this unit breaks an enemy target's Weakness, ATK increases.
 - **最大等级**：15
 - **效果模板**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by #1[i]%. This effect stacks up to #2[i] time(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 10% | 2 |
   | Lv.2 | 11% | 2 |
@@ -198,14 +198,14 @@
 
 - **满级效果**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by 25%. This effect stacks up to 2 time(s).
 
-### 秘技：Immortal Third Strike
+### Technique：Immortal Third Strike
 - **类型**：Technique
 - **简述**：After using Technique, immediately restores HP for team.
 - **最大等级**：1
 - **效果模板**：Immediately heals all allies for #1[i]% of their respective Max HP after using this Technique.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 15% |
 
@@ -214,27 +214,27 @@
 
 - **满级效果**：Immediately heals all allies for 15% of their respective Max HP after using this Technique.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 蓄势 | 晋阶2 | 战斗开始时，立即恢复#1[i]点能量。 | 战斗开始时，立即恢复15点能量。 | 信用点×4000、破碎残刃×2、毁灭者的末路×1 |
 | 附加能力2 | 坚韧 | 晋阶4 | 天赋的效果每层同时使开拓者的防御力提高#1[i]%。 | 天赋的效果每层同时使开拓者的防御力提高10%。 | 信用点×16000、无生残刃×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 斗志 | 晋阶6 | 施放战技或终结技【全胜•安息全垒打】时，对指定敌方目标造成的伤害提高#1[i]%。 | 施放战技或终结技【全胜•安息全垒打】时，对指定敌方目标造成的伤害提高25%。 | 信用点×128000、净世残刃×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| HP | 18% |
+| ATK | 28% |
+| DEF | 12.5% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | A Falling Star | When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack. |
 | E2 | An Unwilling Host | Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK. |
@@ -247,80 +247,80 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 物理属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|街头出身的拳王]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/街头出身的拳王\|Champion of Streetwise Boxing]] | 当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|记一位星神的陨落]]
+### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 - **基础属性**：生1058 攻529 防396
 - **推荐度**：★★★★★
 - **技能名**：扑火
 - **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
 
-### [[zh_cn/lightcone/毁灭/无可取代的东西.md|无可取代的东西]]
+### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：家人
 - **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
 
-### [[zh_cn/lightcone/毁灭/在蓝天下.md|在蓝天下]]
+### [[zh_cn/lightcone/毁灭/在蓝天下.md|Under the Blue Sky]]
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：暖阳麦浪
 - **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，当装备者消灭敌方目标后，暴击率提高【12%/15%/18%/21%/24%】，持续3回合。
 
-### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|鼹鼠党欢迎你]]
+### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：奇妙冒险
 - **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/毁灭/秘密誓心.md|秘密誓心]]
+### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 - **基础属性**：生1058 攻476 防264
 - **推荐度**：★★★★
 - **技能名**：竭力而为
 - **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比大于等于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
 
-## 推荐队伍
+## Recommended Teams
 
 > 官方 Wiki 配队推荐（角色去重，按推荐顺序列出，未严格按位置分组）
 
 - [[zh_cn/character/毁灭/开拓者_物理_五星|开拓者·毁灭]]
 - 仙舟三月七
 - [[zh_cn/character/同谐/停云_雷_四星|停云]]
-- [[zh_cn/character/存护/砂金_虚数_五星|砂金]]
-- [[zh_cn/character/智识/翡翠_量子_五星|翡翠]]
-- [[zh_cn/character/同谐/知更鸟_物理_五星|知更鸟]]
+- [[zh_cn/character/存护/砂金_虚数_五星|Aventurine]]
+- [[zh_cn/character/智识/翡翠_量子_五星|Jade]]
+- [[zh_cn/character/同谐/知更鸟_物理_五星|Robin]]
 - [[zh_cn/character/丰饶/加拉赫_火_四星|加拉赫]]
-- [[zh_cn/character/丰饶/娜塔莎_物理_四星|娜塔莎]]
+- [[zh_cn/character/丰饶/娜塔莎_物理_四星|Natasha]]
 
 ---
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 为了消除星核带来的危机，少年开拓者选择与星穹列车同行。
 
 ### 你的「故事」•一 完成开拓任务「旅途正在继续」后解锁

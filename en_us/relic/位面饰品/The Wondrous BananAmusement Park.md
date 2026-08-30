@@ -4,20 +4,20 @@
 > 实体ID：318
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/3871/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | The Wondrous BananAmusement Park |
-| 类型 | 位面饰品 |
-| 实体ID | 318 |
-## 获取途径
+| Name | The Wondrous BananAmusement Park |
+| Type | 位面饰品 |
+| Entity ID | 318 |
+## Acquisition
 蠹役饥肠·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's CRIT DMG by 16%. When a target summoned by the wearer is on the field, CRIT DMG additionally increases by 32%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：蕉乐园的蕉芯广场
 **描述**：位面球封装的是某个科研团体下设实验室之一，因为模因污染，信息的真实与虚假已经彻底混合，难以分清，现已被认知重塑为「蕉乐园」。
 **来历**：

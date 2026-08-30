@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Himeko |
-| 命途 | Erudition |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 星穹列车的修复者。 为了见证广阔的星空，选择与星穹列车同行。 爱好是制作手调咖啡。 |
-| 定位 | 通过击破敌方弱点累积充能释发动追击的输出型角色 |
+| Character Name | Himeko |
+| Path | Erudition |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 星穹列车的修复者。 为了见证广阔的星空，选择与星穹列车同行。 爱好是制作手调咖啡。 |
+| Role | 通过击破敌方弱点累积充能释发动追击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 田中理恵 |
-| 英语 | Cia Court |
-| 中文 | 林簌 |
-| 韩语 | 김보나 |
+| Japanese | 田中理恵 |
+| English | Cia Court |
+| Chinese | 林簌 |
+| Korean | 김보나 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 757 |
-| 基础防御力 | 437 |
-| 基础速度 | 96 |
-| 嘲讽 | 75 |
-| 能量上限 | 120 |
+| Base HP | 1,048 |
+| Base ATK | 757 |
+| Base DEF | 437 |
+| Base SPD | 96 |
+| Taunt | 75 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/恒温晶壳\|恒温晶壳]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/恒温晶壳\|Endotherm Chitin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/灵感之钥\|灵感之钥]] | 12 |
-| [[zh_cn/items/Material/TracePath/启迪之钥\|启迪之钥]] | 53 |
-| [[zh_cn/items/Material/TracePath/智识之钥\|智识之钥]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/灵感之钥\|Key of Inspiration]] | 12 |
+| [[zh_cn/items/Material/TracePath/启迪之钥\|Key of Knowledge]] | 53 |
+| [[zh_cn/items/Material/TracePath/智识之钥\|Key of Wisdom]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 28 |
 
 ---
-## 战技
-### 普攻：Sawblade Tuning
+## Skills
+### Basic ATK：Sawblade Tuning
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Himeko's ATK to one enemy.
 
-### 战技：Molten Detonation
+### Skill：Molten Detonation
 - **类型**：Skill
 - **简述**：Deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one designated enemy and Fire DMG equal to #2[i]% of Himeko's ATK to enemies adjacent to it.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 100% | 40% |
   | Lv.2 | 110% | 44% |
@@ -128,14 +128,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 250% of Himeko's ATK to one designated enemy and Fire DMG equal to 100% of Himeko's ATK to enemies adjacent to it.
 
-### 终结技：Heavenly Flare
+### Ultimate：Heavenly Flare
 - **类型**：Ultimate
 - **简述**：Deals Fire DMG to all enemies and regenerates Energy if enemies are defeated.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to all enemies. Himeko regenerates #2[i] extra Energy for each enemy defeated.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 138% | 5 |
   | Lv.2 | 147.2% | 5 |
@@ -159,7 +159,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 276% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.
 
-### 天赋：Victory Rush
+### Talent：Victory Rush
 - **类型**：Talent
 - **简述**：At the start of battle or when an enemy's Weakness is Broken, gains Charge.
 After any ally target performs an attack, if fully Charged, launches Follow-Up ATK and deals Fire DMG to all enemies, consuming all Charge points.
@@ -172,7 +172,7 @@ At the start of the battle, Himeko gains 1 point of Charge.
 战斗开始时获得1点充能。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 70% | 3 |
   | Lv.2 | 77% | 3 |
@@ -200,14 +200,14 @@ At the start of the battle, Himeko gains 1 point of Charge.
 当我方目标施放攻击后，若姬子的充能达到上限则立即发动1次追加攻击，对敌方全体目标造成等同于姬子175%攻击力的火属性伤害，并消耗全部充能。
 战斗开始时获得1点充能。
 
-### 秘技：Incomplete Combustion
+### Technique：Incomplete Combustion
 - **类型**：Technique
 - **简述**：Creates a Special Dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.
 - **最大等级**：1
 - **效果模板**：After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 10% | 2 | 15 |
 
@@ -219,9 +219,9 @@ At the start of the battle, Himeko gains 1 point of Charge.
 
 - **满级效果**：After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering battle with enemies in the Special Dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 星火 | 晋阶2 | 施放攻击后，有#1[i]%的基础概率使敌方目标陷入灼烧状态，持续#2[i]回合。
 灼烧状态下，敌方目标每回合开始时受到等同于姬子#3[i]%攻击力的火属性持续伤害。 | 施放攻击后，有50%的基础概率使敌方目标陷入灼烧状态，持续2回合。
@@ -229,19 +229,19 @@ At the start of the battle, Himeko gains 1 point of Charge.
 | 附加能力2 | 灼热 | 晋阶4 | 战技对灼烧状态下的敌方目标造成的伤害提高#1[i]%。 | 战技对灼烧状态下的敌方目标造成的伤害提高20%。 | 信用点×20000、启迪之钥×5、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 道标 | 晋阶6 | 若当前生命值百分比大于等于#1[i]%，则暴击率提高#2[i]%。 | 若当前生命值百分比大于等于80%，则暴击率提高15%。 | 信用点×160000、智识之钥×8、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
+| ATK | 18% |
 | 效果抵抗 | 10% |
 | 火属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Childhood | After "Victory Rush" is triggered, Himeko's SPD increases by 20% for 2 turn(s). |
 | E2 | Convergence | Deals 15% more DMG to enemies whose HP percentage is 50% or less. |
@@ -252,76 +252,76 @@ At the start of the battle, Himeko gains 1 point of Charge.
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 火属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|毁烬焚骨的大公]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
-| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|熔岩锻铸的火匠]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|The Ashblazing Grand Duke]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
+| [[zh_cn/relic/隧洞遗器/熔岩锻铸的火匠\|Firesmith of Lava-Forging]] | 使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/拂晓之前.md|拂晓之前]]
+### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：长夜
 - **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
 
-### [[zh_cn/lightcone/智识/银河铁道之夜.md|银河铁道之夜]]
+### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★★
 - **技能名**：流星群
 - **效果**：当场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-### [[zh_cn/lightcone/智识/天才们的休憩.md|天才们的休憩]]
+### [[zh_cn/lightcone/智识/天才们的休憩.md|Geniuses' Repose]]
 
 - **基础属性**：生846 攻476 防396
 - **推荐度**：★★★★
 - **技能名**：各得其所
 - **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，消灭敌方目标后,暴击伤害提高【24%/30%/36%/42%/48%】，持续3回合。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 辅C | [[zh_cn/character/智识/姬子_火_五星.md\|姬子]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|翡翠]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/毁灭/虎克_火_四星.md\|虎克]] |
+| 辅C | [[zh_cn/character/智识/姬子_火_五星.md\|Himeko]] | [[zh_cn/character/智识/翡翠_量子_五星.md\|Jade]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/毁灭/虎克_火_四星.md\|Hook]] |
 | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 充满冒险精神的科学家，少女时代在故乡遭遇了搁浅的星穹列车。
 若干年后，当姬子终于修复列车驶入群星时，她意识到这只是个开始。在「开拓」新世界的道路上，需要更多的同伴——
 即使同行的人们面朝不同的方向，他们仍处于同一片星空下。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 少女迷路了。
 
@@ -342,7 +342,7 @@ At the start of the battle, Himeko gains 1 point of Charge.
 「那是行至起点的旅程。」
 「走吧。」少女不假思索地说，「就像你带我回家那样，我会带你回家。」
 
-### 角色故事·其二 （解锁条件：角色等级20）
+### Character Story·2（解锁条件：Character Level 20）
 
 姬子有一个手提箱。
 
@@ -358,7 +358,7 @@ At the start of the battle, Himeko gains 1 point of Charge.
 
 然后，她会将那双眼见证的一切光景，还有那双脚履行的一切足迹，全部装进自己的手提箱中。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 姬子的记性非常好。
 
@@ -376,7 +376,7 @@ At the start of the battle, Himeko gains 1 point of Charge.
 
 正是记忆汇成她来时的路，终又必复归于起点的海。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 .「真是漫长的旅途。」她说。
 

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Emotion Prototype: The Moment of Betrayal |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Emotion Prototype: The Moment of Betrayal |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 你会永远记得那人信任与温柔，你会永远记得那些人的劝说与煽动，你会永远记得自己拔出刀的瞬间，你会永远记得那人惊讶的低语：
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【好兆头，我的朋友】

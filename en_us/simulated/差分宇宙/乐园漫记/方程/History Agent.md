@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | History Agent |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4记忆+2繁育 |
+| Name | History Agent |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4记忆+2繁育 |
 
 
-## 效果
+## Effect
 
 我方目标每持有1层【执念】，造成的普攻和战技伤害提高6%。我方角色离场、陷入无法战斗状态，或我方忆灵消失时，当前队伍中的第一位角色会获得其50%的【执念】层数，同时获得等量的【执念】层数上限，额外的层数上限在2个回合后消失。
 
-## 强化效果
+## Enhanced Effect
 
 -

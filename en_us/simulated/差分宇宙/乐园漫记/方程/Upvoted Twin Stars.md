@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Upvoted Twin Stars |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2欢愉+2毁灭 |
+| Name | Upvoted Twin Stars |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2欢愉+2毁灭 |
 
 
-## 效果
+## Effect
 
 【发牌员】每次行动后，【耀变】充能效率提高6%，最多叠加10次。
 
-## 强化效果
+## Enhanced Effect
 
 -

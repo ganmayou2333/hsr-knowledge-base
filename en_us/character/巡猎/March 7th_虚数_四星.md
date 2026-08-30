@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | March 7th |
-| 命途 | The Hunt |
-| 属性 | Imaginary |
-| 稀有度 | ★★★★ |
-| 阵营 | 星穹列车 |
-| 角色介绍 | 换上仙舟服饰的三月七，执剑的武侠少女。向云璃与彦卿拜师学艺，为在仙舟留下更多美好的「回忆」而跃跃欲试。 |
-| 定位 | 通过向队友拜师获得强化的输出型角色 |
+| Character Name | March 7th |
+| Path | The Hunt |
+| Attribute | Imaginary |
+| Rarity | ★★★★ |
+| Faction | 星穹列车 |
+| Introduction | 换上仙舟服饰的三月七，执剑的武侠少女。向云璃与彦卿拜师学艺，为在仙舟留下更多美好的「回忆」而跃跃欲试。 |
+| Role | 通过向队友拜师获得强化的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 小倉唯 |
-| 英语 | Skyler Davenport |
-| 中文 | 诺亚 |
-| 韩语 | 정혜원 |
+| Japanese | 小倉唯 |
+| English | Skyler Davenport |
+| Chinese | 诺亚 |
+| Korean | 정혜원 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,058 |
-| 基础攻击力 | 564 |
-| 基础防御力 | 441 |
-| 基础速度 | 102 |
-| 嘲讽 | 75 |
-| 能量上限 | 110 |
+| Base HP | 1,058 |
+| Base ATK | 564 |
+| Base DEF | 441 |
+| Base SPD | 102 |
+| Taunt | 75 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/风雪之角\|风雪之角]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/风雪之角\|Horn of Snow]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 8 |
-| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 42 |
-| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|Meteoric Bullet]] | 8 |
+| [[zh_cn/items/Material/TracePath/命定死因\|Destined Expiration]] | 42 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|Countertemporal Shot]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 20 |
 
 ---
-## 战技
-### 普攻：My Sword Zaps Demons
+## Skills
+### Basic ATK：My Sword Zaps Demons
 - **类型**：Basic ATK
 - **简述**：Deals minor Imaginary DMG to one enemy and gains 1 point(s) of Charge.
 - **最大等级**：10
 - **效果模板**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target and gains #2[i] point(s) of Charge.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 1 |
   | Lv.2 | 60% | 1 |
@@ -98,7 +98,7 @@
 
 - **满级效果**：Deals Imaginary DMG equal to 140% of March 7th's ATK to one designated enemy target and gains 1 point(s) of Charge.
 
-### 战技：Master, It's Tea Time!
+### Skill：Master, It's Tea Time!
 - **类型**：Skill
 - **简述**：Makes a single ally become "Shifu." When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the "Shifu"'s Path:
 Erudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG based on Shifu's Type.
@@ -115,7 +115,7 @@ Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of
 「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高#3[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 6% | 10% | 100% |
   | Lv.2 | 6.4% | 11% | 100% |
@@ -146,7 +146,7 @@ Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of
 「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成等同于三月七25%攻击力的基于【师父】属性的附加伤害。
 「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高100%。
 
-### 终结技：March 7th, the Apex Heroine
+### Ultimate：March 7th, the Apex Heroine
 - **类型**：Ultimate
 - **简述**：Deals Imaginary DMG to one enemy and increases the Hits Per Action and DMG chance of the next Enhanced Basic ATK.
 - **最大等级**：15
@@ -155,7 +155,7 @@ Increases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hi
 使下一次强化普攻的初始段数增加#2[i]段，额外造成伤害的固定概率提高#3[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 144% | 2 | 20% |
   | Lv.2 | 153.6% | 2 | 20% |
@@ -182,7 +182,7 @@ Increases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hi
 Increases the initial Hits Per Action of the next Enhanced Basic ATK by 2 hit(s) and increase the fixed chance of additionally dealing DMG by 20%.
 使下一次强化普攻的初始段数增加2段，额外造成伤害的固定概率提高20%。
 
-### 天赋：Master, I've Ascended!
+### Talent：Master, I've Ascended!
 - **类型**：Talent
 - **简述**：After Shifu uses an attack or Ultimate, March 7th gains Charge. When reaching 7 points of Charge, March 7th immediately takes action and increases the DMG she deals. Basic ATK gets Enhanced.
 - **最大等级**：15
@@ -191,7 +191,7 @@ Upon reaching #1[i] or more points of Charge, March 7th immediately takes action
 充能大于等于#1[i]点时，三月七立即行动，造成的伤害提高#2[i]%，普攻得到强化且无法施放战技。施放强化普攻后，消耗#1[i]点充能。充能上限#3[i]点。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 |
+| Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 7 | 40% | 10 |
   | Lv.2 | 7 | 44% | 10 |
@@ -218,7 +218,7 @@ Upon reaching #1[i] or more points of Charge, March 7th immediately takes action
 Upon reaching 7 or more points of Charge, March 7th immediately takes action and increases the DMG she deals by 100%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes 7 point(s) of Charge. Charge is capped at 10 points.
 充能大于等于7点时，三月七立即行动，造成的伤害提高100%，普攻得到强化且无法施放战技。施放强化普攻后，消耗7点充能。充能上限10点。
 
-### 秘技：Feast in One Go
+### Technique：Feast in One Go
 - **类型**：Technique
 - **简述**：Whenever a teammate uses Technique, March 7th gains Charge upon entering the next battle. Using Technique regenerates Energy upon entering the next battle.
 - **最大等级**：1
@@ -227,7 +227,7 @@ After using Technique, March 7th regenerates #2[i] Energy when the next battle s
 使用秘技后，下一次战斗开始时三月七恢复#2[i]点能量。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 3 | 30 |
 
@@ -239,27 +239,27 @@ After using Technique, March 7th regenerates #2[i] Energy when the next battle s
 After using Technique, March 7th regenerates 30 Energy when the next battle starts.
 使用秘技后，下一次战斗开始时三月七恢复30点能量。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 惊鸿 | 晋阶2 | 战斗开始时，三月七的行动提前#1[i]%。 | 战斗开始时，三月七的行动提前25%。 | 信用点×4000、陨铁弹丸×2、毁灭者的末路×1 |
 | 附加能力2 | 玲珑 | 晋阶4 | 三月七能够削减具有【师父】属性弱点的敌方目标的韧性。击破弱点时，触发虚数属性的弱点击破效果。 | 三月七能够削减具有【师父】属性弱点的敌方目标的韧性。击破弱点时，触发虚数属性的弱点击破效果。 | 信用点×16000、命定死因×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 斡波 | 晋阶6 | 施放强化普攻后，使【师父】的暴击伤害提高#1[i]%，击破特攻提高#2[i]%，持续#3[i]回合。 | 施放强化普攻后，使【师父】的暴击伤害提高60%，击破特攻提高36%，持续2回合。 | 信用点×128000、逆时一击×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
-| 防御力 | 12.5% |
+| ATK | 28% |
+| DEF | 12.5% |
 | 暴击伤害 | 24% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | My Sword Stirs Starlight | When Shifu is on the field, increases March 7th's SPD by 10%. |
 | E2 | Blade Dances on Waves' Fight | After "Shifu" uses Basic ATK or Skill to attack an enemy target, March 7th immediately launches a Follow-Up ATK and deals Imaginary DMG equal to 60% of March 7th's ATK to the primary target of this attack. Additionally, triggers the corresponding effect based on "Shifu"'s Path and then gains 1 point(s) of Charge. If there is no primary target available to attack, then she attacks a single random enemy instead. This effect can only trigger once per turn. |
@@ -270,90 +270,90 @@ After using Technique, March 7th regenerates 30 Energy when the next battle star
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 虚数属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|盗匪荒漠的废土客]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/繁星竞技场\|繁星竞技场]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
-| [[zh_cn/relic/位面饰品/出云显世与高天神国\|出云显世与高天神国]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[zh_cn/relic/位面饰品/出云显世与高天神国\|Izumo Gensei and Takama Divine Realm]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|烦恼着，幸福着]]
+### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：一个一个来
 - **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
 
-### [[zh_cn/lightcone/巡猎/星海巡航.md|星海巡航]]
+### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
 - **基础属性**：生952 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：猎逐
 - **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
 
-### [[zh_cn/lightcone/巡猎/如泥酣眠.md|如泥酣眠]]
+### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：美梦
 - **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
 
-### [[zh_cn/lightcone/巡猎/于夜色中.md|于夜色中]]
+### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：花与蝶
 - **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
 
-### [[zh_cn/lightcone/巡猎/论剑.md|论剑]]
+### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：各自的答案
 - **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
 
-### [[zh_cn/lightcone/巡猎/春水初生.md|春水初生]]
+### [[zh_cn/lightcone/巡猎/春水初生.md|River Flows in Spring]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：驱散余寒
 - **效果**：进入战斗后，使装备者速度提高【8%/9%/10%/11%/12%】，造成的伤害提高【12%/15%/18%/21%/24%】。当装备者受到伤害后该效果失效，下个回合结束时该效果恢复。
 
-## 推荐队伍
+## Recommended Teams
 
 | 辅助 | 生存 |
 |---|---|
 | 双C | [[zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] |
-| [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
-| [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+| [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 换上仙舟服饰的三月七，执剑的武侠少女。
 向云璃与彦卿拜师学艺，为在仙舟留下更多美好的「回忆」而跃跃欲试。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 为什么三月七要拍照？
 「第一，自己这样的女孩子应该喜欢这么做。」
@@ -369,7 +369,7 @@ After using Technique, March 7th regenerates 30 Energy when the next battle star
 所以三月七为什么不用手机拍照呢？
 「对哦，为什么呢——等等，什么为什么，这是仪式感嘛！」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 能力为「六相冰」，但三月七一直坚称那不是冰，而是某种凝聚态结晶。
 「拜托，你有见过这么好看的冰么？」
@@ -382,7 +382,7 @@ After using Technique, March 7th regenerates 30 Energy when the next battle star
 「小三月，听名字应该是大剑吧？」
 「嗯，但感觉好像不如冰雕…砸。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 相比「列车长」帕姆，「领航员」姬子，「护卫」丹恒，「什么都会的」瓦尔特，即使自称为「勇士」，连三月七都很难说清楚自己在列车上的分工。
 但三月七的一举一动，无时无刻都在影响列车组的行动方针。
@@ -395,7 +395,7 @@ After using Technique, March 7th regenerates 30 Energy when the next battle star
 与其说三月七容易让人放心不下，不如说她总是会让人放在心上。
 当然，三月七对此毫无察觉，她正在全力思考适合开拓者的列车组定位。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 即使种种迹象表明，对于一直在宇宙中漂流的三月七，她刚醒来的情况并不算糟。
 身处于一辆恰好路过的列车上，车上的人看上去也很亲切。
@@ -408,7 +408,7 @@ After using Technique, March 7th regenerates 30 Energy when the next battle star
 但三月七能选择的，只有现在的自己；她能望向的，也只有未来。
 她恐惧着，又庆幸着。
 
-### 角色故事·仙舟
+### Character Story·Xianzhou
 
 初入罗浮，建木灾异，演武仪典…她目睹了仙舟的变化，也见证了自己的成长。
 照片上的女孩子在花林之间腾挪移转，凌厉的剑招下，落花如雨，纷纷乱乱飘满了她的衣裳。

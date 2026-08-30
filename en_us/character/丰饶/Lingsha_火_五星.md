@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Lingsha |
-| 命途 | Abundance |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | 仙舟联盟 |
-| 角色介绍 | 仙舟「罗浮」丹鼎司新任司鼎，伶俐秀慧的持明医士。 嗅觉敏锐，常以此识别病症，并以香薰安定他人心神。 善于处理混杂的人际关系，即使心底暴躁如雷，表面上依旧滴水不漏。 |
-| 定位 | 召唤烟兽支援队友的回复型角色 |
+| Character Name | Lingsha |
+| Path | Abundance |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | 仙舟联盟 |
+| Introduction | 仙舟「罗浮」丹鼎司新任司鼎，伶俐秀慧的持明医士。 嗅觉敏锐，常以此识别病症，并以香薰安定他人心神。 善于处理混杂的人际关系，即使心底暴躁如雷，表面上依旧滴水不漏。 |
+| Role | 召唤烟兽支援队友的回复型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 前田佳織里 |
-| 英语 | Whitney Holland |
-| 中文 | 饶梓君 |
-| 韩语 | 장예나 |
+| Japanese | 前田佳織里 |
+| English | Whitney Holland |
+| Chinese | 饶梓君 |
+| Korean | 장예나 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,358 |
-| 基础攻击力 | 679 |
-| 基础防御力 | 437 |
-| 基础速度 | 98 |
-| 嘲讽 | 100 |
-| 能量上限 | 110 |
+| Base HP | 1,358 |
+| Base ATK | 679 |
+| Base DEF | 437 |
+| Base SPD | 98 |
+| Taunt | 100 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/忿火之心\|忿火之心]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/忿火之心\|Raging Heart]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/异木种籽\|异木种籽]] | 12 |
-| [[zh_cn/items/Material/TracePath/滋长花蜜\|滋长花蜜]] | 53 |
-| [[zh_cn/items/Material/TracePath/万相果实\|万相果实]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/异木种籽\|Alien Tree Seed]] | 12 |
+| [[zh_cn/items/Material/TracePath/滋长花蜜\|Nourishing Honey]] | 53 |
+| [[zh_cn/items/Material/TracePath/万相果实\|Myriad Fruit]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
 
 ---
-## 战技
-### 普攻：Votive Incense
+## Skills
+### Basic ATK：Votive Incense
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Lingsha's ATK to one designated enemy target.
 
-### 战技：Smoke and Splendor
+### Skill：Smoke and Splendor
 - **类型**：Skill
 - **简述**：Deals minor Fire DMG to all enemies and, at the same time, restores HP for all allies. Fuyuan's action advances.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #4[i]%.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 40% | 10% | 105 | 20% |
   | Lv.2 | 44% | 10.5% | 168 | 20% |
@@ -130,7 +130,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 100% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus 538.125 for all allies. Fuyuan's action advances by 20%.
 
-### 终结技：Dripping Mistscape
+### Ultimate：Dripping Mistscape
 - **类型**：Ultimate
 - **简述**：Increases Break DMG taken by all enemies, deals Fire DMG to all enemies, and at the same time, restores HP for all allies. Fuyuan's action advances.
 - **最大等级**：15
@@ -139,7 +139,7 @@ Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same 
 对敌方全体造成等同于灵砂#1[i]%攻击力的火属性伤害，同时为我方全体回复等同于灵砂#2[f1]%攻击力+#3[i]的生命值，使【浮元】行动提前#6[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 90% | 8% | 90 | 15% | 2 | 100% |
   | Lv.2 | 96% | 8.5% | 144 | 16% | 2 | 100% |
@@ -169,7 +169,7 @@ Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same 
 Deals Fire DMG equal to 180% of Lingsha's ATK to all enemies, and at the same time restores HP equal to #2[f1]% of Lingsha's ATK plus 461.25 for all allies. Fuyuan's action advances by 100%.
 对敌方全体造成等同于灵砂180%攻击力的火属性伤害，同时为我方全体回复等同于灵砂#2[f1]%攻击力+461.25的生命值，使【浮元】行动提前100%。
 
-### 天赋：Mistdance Manifest
+### Talent：Mistdance Manifest
 - **类型**：Talent
 - **简述**：Using Skill summons "Fuyuan": When taking action, launches Follow-Up ATK and deals minor Fire DMG to all enemies. Additionally deals minor Fire DMG to one random enemy, prioritizing targets with both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff from all allies, and restores HP.
 Using Skill repeatedly will increase "Fuyuan's" action count.
@@ -184,7 +184,7 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 【浮元】在场时，施放战技会增加#7[i]次【浮元】的行动次数。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 | 参数8(%) |
+| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 | 参数8(%) |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 90 | 37.5% | 8% | 90 | 5 | 1 | 3 | 37.5% |
   | Lv.2 | 90 | 41.25% | 8.5% | 144 | 5 | 1 | 3 | 41.25% |
@@ -220,14 +220,14 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 【浮元】最多累计5次行动次数，当次数为0或灵砂陷入无法战斗状态时【浮元】消失。
 【浮元】在场时，施放战技会增加3次【浮元】的行动次数。
 
-### 秘技：Wisps of Aurora
+### Technique：Wisps of Aurora
 - **类型**：Technique
 - **简述**：After using Technique, immediately summons Fuyuan at the start of the next battle and increases Break DMG taken by all enemies.
 - **最大等级**：1
 - **效果模板**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for #1[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
@@ -236,27 +236,27 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 
 - **满级效果**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 朱燎 | 晋阶2 | 使自身攻击力/治疗量提高，提高数值等同于击破特攻的#1[i]%/#2[i]%，最多使攻击力/治疗量提高#3[i]%/#4[i]%。 | 使自身攻击力/治疗量提高，提高数值等同于击破特攻的25%/10%，最多使攻击力/治疗量提高50%/20%。 | 信用点×5000、异木种籽×3、吉光片羽×1 |
 | 附加能力2 | 兰烟 | 晋阶4 | 施放普攻时额外恢复#1[i]点能量。 | 施放普攻时额外恢复10点能量。 | 信用点×20000、滋长花蜜×5、命运的足迹×1、吉光片羽×1 |
 | 附加能力3 | 遗爇 | 晋阶6 | 【浮元】在场时，我方任意角色受到伤害或消耗生命值时，若队伍中有存在当前生命值百分比小于等于#1[i]%的角色，【浮元】会立即对敌人发动天赋的追加攻击，此次触发不消耗【浮元】行动次数，该效果在#2[i]回合后可再次触发。 | 【浮元】在场时，我方任意角色受到伤害或消耗生命值时，若队伍中有存在当前生命值百分比小于等于60%的角色，【浮元】会立即对敌人发动天赋的追加攻击，此次触发不消耗【浮元】行动次数，该效果在2回合后可再次触发。 | 信用点×160000、万相果实×8、命运的足迹×1、吉光片羽×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 18% |
-| 攻击力 | 10% |
+| HP | 18% |
+| ATK | 10% |
 | 击破特攻 | 37.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Bloom on Vileward Bouquet | Lingsha's Weakness Break Efficiency increases by 50%. When an enemy unit's Weakness is Broken, reduces their DEF by 20%. |
 | E2 | Leisure in Carmine Smokeveil | When using Ultimate, increases all allies' Break Effect by 40%, lasting for 3 turn(s). |
@@ -267,76 +267,76 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：治疗量加成 / 速度 / 攻击力 / 能量恢复效率
 
 **推荐副词条**：击破特攻 / 速度 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|荡除蠹灾的铁骑]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|流星追迹的怪盗]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
-| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|云无留迹的过客]] | 在战斗开始时，立即为我方恢复1个战技点。 |
+| [[zh_cn/relic/隧洞遗器/荡除蠹灾的铁骑\|Iron Cavalry Against the Scourge]] | 当装备者的击破特攻大于等于150%时，对敌方目标造成的击破伤害无视其10%的防御力。当装备者的击破特攻大于等于250%时，对敌方目标造成的超击破伤害额外无视其15%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/流星追迹的怪盗\|Thief of Shooting Meteor]] | 使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。 |
+| [[zh_cn/relic/隧洞遗器/云无留迹的过客\|Passerby of Wandering Cloud]] | 在战斗开始时，立即为我方恢复1个战技点。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|劫火莲灯铸炼宫]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
+| [[zh_cn/relic/位面饰品/劫火莲灯铸炼宫\|Forge of the Kalpagni Lantern]] | 使装备者的速度提高6%。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高40%，持续1回合。 |
 | [[zh_cn/relic/位面饰品/盗贼公国塔利亚\|盗贼公国塔利亚]] | 使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/丰饶/唯有香如故.md|唯有香如故]]
+### [[zh_cn/lightcone/丰饶/唯有香如故.md|Scent Alone Stays True]]
 
 - **基础属性**：生1058 攻529 防529
 - **推荐度**：★★★★★
 - **技能名**：安心
 - **效果**：使装备者击破特攻提高【60%/70%/80%/90%/100%】。装备者施放终结技攻击敌方目标后，使其陷入【忘忧】状态，持续2回合，【忘忧】状态下的敌方目标受到的伤害提高【10%/12%/14%/16%/18%】，若装备者当前击破特攻大于等于150%，受到的伤害提高效果额外提高【8%/10%/12%/14%/16%】。
 
-### [[zh_cn/lightcone/丰饶/惊魂夜.md|惊魂夜]]
+### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
 - **基础属性**：生1164 攻476 防529
 - **推荐度**：★★★★★
 - **技能名**：深度深呼吸
 - **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
 
-### [[zh_cn/lightcone/丰饶/一场术后对话.md|一场术后对话]]
+### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：互相治愈
 - **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/丰饶/何物为真.md|何物为真]]
+### [[zh_cn/lightcone/丰饶/何物为真.md|What Is Real]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：假设
 - **效果**：使装备者的击破特攻提高【24%/30%/36%/42%/48%】。施放普攻后，装备者回复等同于【2.0%/2.5%/3.0%/3.5%/4.0%】生命上限+800点的生命值。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/流萤_火_五星.md\|流萤]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] |
+| [[zh_cn/character/毁灭/流萤_火_五星.md\|Firefly]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] | [[zh_cn/character/同谐/开拓者_虚数_五星.md\|开拓者•同谐]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/毁灭/雪衣_量子_四星.md\|雪衣]] |
 | [[zh_cn/character/虚无/忘归人_火_五星.md\|忘归人]] | [[zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 仙舟「罗浮」丹鼎司新任司鼎，伶俐秀慧的持明医士。
 嗅觉敏锐，常以此识别病症，并以香薰安定他人心神。
 善于处理混杂的人际关系，即使心底暴躁如雷，表面上依旧滴水不漏。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 丹鼎云烟缭绕，女孩不安分地坐在蒲团之上，亮晶晶的双眼盯着上下颠扑的丹炉盖。
 一声炸响，如焦糊卷子的女孩手捧晶莹的丹药，欢欣地跑向师傅的诊室。
@@ -362,7 +362,7 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 「…是，师父。」
 她看着师父温柔的微笑，心中的一丝疑惑却仍徘徊不去。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 在丹鼎司跟随云华学习的那段时间，是她一生中最为充实愉快的岁月。
 
@@ -384,7 +384,7 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 ——那是阴谋的味道。
 
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 她很快明白，或许离开是更好的选择。
 借着龙师的帮助，师徒二人离开罗浮，前往朱明。过往种种在她眼前闪现，她们只沉浸于丹药的炼制，却不知一张人心织就而成的大网早已笼罩而来。
@@ -407,7 +407,7 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 她将自己的名字改为「灵砂」
 ——其升降阴阳，既济水火，为扶危拯急之灵药，也是她希望自己成为的模样。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 她以燃香为引，巧妙融合罗浮丹术与朱明「金鳞燃犀」之法，渐渐成为联盟无人不知、无人不晓的医师。
 

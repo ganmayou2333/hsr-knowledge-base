@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Reforged in Hellfire |
-| 命途 | Nihility |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Reforged in Hellfire |
+| Path | Nihility |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 One moment, a rushing tide. The body sinks, plunging into the deepest reaches of the azure abyss.
 One moment, a desolate isle. Echoes of the past resonate through the mist, drifting further and further away.
@@ -26,18 +26,18 @@ With despair as the furnace and this body as the catalyst, he has lost count of 
 At the instant of rebirth, the flames scatter and surge toward the heavens, burning all the way to the edge of the farshore.
 In that moment, all karmic debts are settled. The new body, tempered through a thousand trials, has finally been forged.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,376 | 423 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Tempering
 
 Increases the wearer's Max HP by 30%. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the "Purgatory" state, lasting for 2 turn(s). While in the "Purgatory" state, the target receives 30% increased CRIT DMG and 30% additionally increased CRIT DMG from the wearer.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

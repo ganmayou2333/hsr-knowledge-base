@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Hex Pass |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Hex Pass |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 魔方秘社新推出的一项游戏付费订阅服务。按照「智囊」设计，玩家可以通过游玩「枘凿六合•Remake」获得不同阶段的奖励。
 
 
-## 获得途径
+## Acquisition
 
 - 游玩「枘凿六合•Remake」获得

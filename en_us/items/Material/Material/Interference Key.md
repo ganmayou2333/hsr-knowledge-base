@@ -6,22 +6,22 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Interference Key |
-| 用途 | 消耗品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Interference Key |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 使用变量骰子重新分配5星遗器的副属性时，可以选择1条副属性进行屏蔽，被屏蔽的副属性在该次重掷中不会被强化。
 
 
 
-## 获得途径
+## Acquisition
 
 - 异相仲裁

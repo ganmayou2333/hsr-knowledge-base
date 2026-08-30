@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Cipher |
-| 命途 | Nihility |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 失落的盗寇之都多洛斯，三百侠盗纵情游戏，横行无忌。 捷足的贼星赛法利娅，戏弄「诡计」火种的黄金裔，奔走吧。愿你的谎言随风同行，吹遍此世大地—— 「呵，还想诓我？没门！」 |
+| Character Name | Cipher |
+| Path | Nihility |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 失落的盗寇之都多洛斯，三百侠盗纵情游戏，横行无忌。 捷足的贼星赛法利娅，戏弄「诡计」火种的黄金裔，奔走吧。愿你的谎言随风同行，吹遍此世大地—— 「呵，还想诓我？没门！」 |
 | 城邦 | 多洛斯，奥赫玛…？ |
 | 神权 | 「翻飞之币，扎格列斯」 |
-| 定位 | 使敌方受到伤害提高的辅助型角色 |
+| Role | 使敌方受到伤害提高的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 伊藤彩沙 |
-| 英语 | Shea Fairaday |
-| 中文 | 王雅欣 |
-| 韩语 | 미소 |
+| Japanese | 伊藤彩沙 |
+| English | Shea Fairaday |
+| Chinese | 王雅欣 |
+| Korean | 미소 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 931 |
-| 基础攻击力 | 640 |
-| 基础防御力 | 509 |
-| 基础速度 | 106 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 931 |
+| Base ATK | 640 |
+| Base DEF | 509 |
+| Base SPD | 106 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/暗帷月华\|暗帷月华]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暗帷月华\|Darkveil Moonlight]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/炽情之灵\|炽情之灵]] | 12 |
-| [[zh_cn/items/Material/TracePath/星火之精\|星火之精]] | 53 |
-| [[zh_cn/items/Material/TracePath/焚天之魔\|焚天之魔]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/炽情之灵\|Fiery Spirit]] | 12 |
+| [[zh_cn/items/Material/TracePath/星火之精\|Starfire Essence]] | 53 |
+| [[zh_cn/items/Material/TracePath/焚天之魔\|Heaven Incinerator]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|Daythunder Anamnesis]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 28 |
 
 ---
-## 战技
-### 普攻：Oops, a Missed Catch
+## Skills
+### Basic ATK：Oops, a Missed Catch
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -99,14 +99,14 @@
 
 - **满级效果**：Deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy.
 
-### 战技：Hey, Jackpot for the Taking
+### Skill：Hey, Jackpot for the Taking
 - **类型**：Skill
 - **简述**：Has a high chance to decrease one enemy and adjacent targets' DMG dealt and increases Cipher's ATK. Deals Quantum DMG to one designated enemy and minor Quantum DMG to adjacent targets.
 - **最大等级**：15
 - **效果模板**：Has a #6[i]% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by #3[i]%) and increases Cipher's ATK by #5[i]%, lasting for #4[i] turn(s). Moreover, deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Cipher's ATK to the adjacent targets.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 50% | 10% | 2 | 30% | 120% |
   | Lv.2 | 110% | 55% | 10% | 2 | 30% | 120% |
@@ -134,14 +134,14 @@
 
 - **满级效果**：Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 250% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 125% of Cipher's ATK to the adjacent targets.
 
-### 终结技：Yours Truly, Kitty Phantom Thief!
+### Ultimate：Yours Truly, Kitty Phantom Thief!
 - **类型**：Ultimate
 - **简述**：Deals Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to one enemy. Moreover, deals minor Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to the one enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to #2[i]% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to #4[i]% of Cipher's ATK alongside True DMG equal to #3[i]% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 60% | 25% | 75% | 20% |
   | Lv.2 | 66% | 25% | 75% | 22% |
@@ -167,7 +167,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 50% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
 
-### 天赋：The Hospitable Dolosian
+### Talent：The Hospitable Dolosian
 - **类型**：Talent
 - **简述**：Cipher causes one enemy target to enter the "Patron" state. After the target in this state gets attacked by teammates, Cipher launches Follow-Up ATK, dealing Quantum DMG to the target. This can trigger 1 time(s) per turn.
 Cipher will keep a tally of the DMG dealt by allies to the target in the "Patron" state. After using Ultimate, clears this tally.
@@ -180,7 +180,7 @@ Cipher will tally #2[i]% of the non-True DMG dealt by ally targets to the "Patro
 赛飞儿会记录我方目标对【老主顾】造成的非真实伤害的#2[i]%，不记录溢出伤害，施放终结技后清空记录值。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 75% | 12% | 1 | 5 |
   | Lv.2 | 82.5% | 12% | 1 | 5 |
@@ -210,7 +210,7 @@ Cipher will tally 12% of the non-True DMG dealt by ally targets to the "Patron."
 【老主顾】受到我方其他目标攻击后，赛飞儿立即对【老主顾】发动追加攻击，造成等同于赛飞儿187.5%攻击力的量子属性伤害。该效果每回合最多触发1次，赛飞儿回合开始时重置可触发次数。
 赛飞儿会记录我方目标对【老主顾】造成的非真实伤害的12%，不记录溢出伤害，施放终结技后清空记录值。
 
-### 秘技：Puss in Boots
+### Technique：Puss in Boots
 - **类型**：Technique
 - **简述**：Gains "Zagreus's Blessing." While it is active, Cipher cannot be detected by enemies, and gains random Consumables when approaching them. When entering battle, Cipher deals minor Quantum DMG to all enemies.
 - **最大等级**：1
@@ -219,7 +219,7 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 持有【扎格列斯的祝福】期间进入战斗时，对敌方全体造成等同于赛飞儿#3[i]%攻击力的量子属性伤害，赛飞儿因该次伤害获得的记录值提高#2[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 15 | 200% | 100% | 50 |
 
@@ -233,27 +233,27 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal to 100% of Cipher's ATK to all enemies. And the tallied amount Cipher gains from this instance of DMG increases by 200%.
 持有【扎格列斯的祝福】期间进入战斗时，对敌方全体造成等同于赛飞儿100%攻击力的量子属性伤害，赛飞儿因该次伤害获得的记录值提高200%。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 神行宝鞋 | 晋阶2 | 赛飞儿的速度大于等于140/170时，暴击率提高#1[i]%/#2[i]%，获得的记录值提高#3[i]%/#4[i]%。 | 赛飞儿的速度大于等于140/170时，暴击率提高25%/50%，获得的记录值提高50%/100%。 | 信用点×5000、炽情之灵×3、阳雷的遥想×1 |
 | 附加能力2 | 三百侠盗 | 晋阶4 | 赛飞儿会记录我方目标对【老主顾】以外的敌方目标造成的非真实伤害的#1[i]%，不记录溢出伤害。 | 赛飞儿会记录我方目标对【老主顾】以外的敌方目标造成的非真实伤害的8%，不记录溢出伤害。 | 信用点×20000、星火之精×5、命运的足迹×1、阳雷的遥想×1 |
 | 附加能力3 | 偷天换日 | 晋阶6 | 天赋的追加攻击造成的暴击伤害提高#2[i]%。赛飞儿在场时，敌方全体目标受到的伤害提高#1[i]%。 | 天赋的追加攻击造成的暴击伤害提高100%。赛飞儿在场时，敌方全体目标受到的伤害提高40%。 | 信用点×160000、焚天之魔×8、命运的足迹×1、阳雷的遥想×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 效果命中 | 10% |
 | 量子属性伤害提高 | 14.4% |
-| 速度 | 14 |
+| SPD | 14 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Read the Room, Seek the Glee | Cipher's tally of DMG is 150% of its original value. When using the Talent's Follow-Up ATK, increases Cipher's ATK by 80%, lasting for 2 turn(s). |
 | E2 | In the Fray, Nab On a Spree | When Cipher hits an enemy target, there is a 120% base chance to increase the DMG it receives by 30%, lasting for 2 turn(s). |
@@ -264,61 +264,61 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 速度 / 量子属性伤害提高 / 攻击力
 
 **推荐副词条**：速度 / 攻击力 / 暴击伤害 / 暴击率
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|死水深潜的先驱]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|谎言在风中飘扬]]
+### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|Lies Dance on the Breeze]]
 
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：欺瞒
 - **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者施放攻击后，有120%的基础概率使敌方每个单体目标陷入【茫然】状态，【茫然】状态下的敌方目标防御力降低【16%/18%/20%/22%/24%】，持续2回合，若装备者的速度大于等于170，有120%的基础概率使敌方每个单体目标陷入【失窃】状态，【失窃】状态下的敌方目标防御力降低【8%/9%/10%/11%/12%】，持续2回合。【茫然】或【失窃】被重复施加时，仅最新施加的生效。
 
-### [[zh_cn/lightcone/虚无/行于流逝的岸.md|行于流逝的岸]]
+### [[zh_cn/lightcone/虚无/行于流逝的岸.md|Along the Passing Shore]]
 
 - **基础属性**：生1058 攻635 防396
 - **推荐度**：★★★★★
 - **技能名**：司渡
 - **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高【24%/28%/32%/36%/40%】，终结技造成的伤害额外提高【24%/28%/32%/36%/40%】。
 
-### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|决心如汗珠般闪耀]]
+### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：回眸
 - **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受一个负面状态，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】最多叠加3次。该效果对持续伤害也会生效。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C |
 |---|
@@ -326,22 +326,22 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 | 光环/负面辅助 |
 | 生存/辅助 |
 | [[zh_cn/character/虚无/赛飞儿_量子_五星.md\|赛飞儿]] |
-| [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] |
+| [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] |
 | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
-| [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] |
+| [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] |
 | [[zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] |
-| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
+| [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
-| [[zh_cn/character/记忆/遐蝶_量子_五星.md\|遐蝶]] |
+| [[zh_cn/character/记忆/遐蝶_量子_五星.md\|Castorice]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 失落的盗寇之都多洛斯，三百侠盗纵情游戏，横行无忌。
 捷足的贼星赛法利娅，戏弄「诡计」火种的黄金裔，奔走吧。愿你的谎言随风同行，吹遍此世大地
 ——「呵，还想诓我？没门！」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「拾线月末，神殿丢失面包若干，干果一袋，蜡烛数根。
 失物虽微，然而亵渎神圣，扰乱秩序，是为大罪。
@@ -379,7 +379,7 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 冰凉的河水淹没了她的思绪。
 在以生命为赌注的奔跑中，她赢得了第一次惨胜。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 流亡至黎明的圣城，她目睹黄金裔的传说在城中激荡。但当她看到那些逼仄肮脏的角落时，只觉得这里与多洛斯并无不同。
 
@@ -417,7 +417,7 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 只有你知道，你的终点在何方……」
 月下的身影从视野中消失，房间中只留下织者的喃喃自语。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「扎格列斯，旧日的诡计之神：
 
@@ -447,7 +447,7 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 
 「我能做到的，只有奔跑呀。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「致各邦司铎、主祭、辅祭，全世之座照耀下的信徒，以及一切有知的生灵：
 

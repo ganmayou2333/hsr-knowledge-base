@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Sleep Like the Dead |
-| 命途 | The Hunt |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Sleep Like the Dead |
+| Path | The Hunt |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The boy is still tightly grasping the sword even when fast asleep against the general's shoulder.
 The general gently taps the boy's cheek, and the boy mutters in his sleep.
@@ -24,18 +24,18 @@ The general pauses. He suddenly realizes that, compared to the boy trying to imp
 he himself has endured too many years and is used to stagnation.
 "You will soon be better than everyone, and that will only be the beginning..."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 582 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Sweet Dreams
 
 Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

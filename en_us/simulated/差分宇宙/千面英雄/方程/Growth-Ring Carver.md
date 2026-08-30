@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Growth-Ring Carver |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Growth-Ring Carver |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 虚无*6
 记忆*4 |
 
 
-## 效果
+## Effect
 
 敌方目标陷入冻结和持续伤害状态时，有150%的基础概率将该效果扩散给相邻目标，无相邻目标时扩散给自身，单次行动内同一目标只能扩散1次相同效果。单个敌方目标每累计扩散12次或被消灭，使该目标与相邻目标受到2500%基础伤害的冰属性伤害，我方每有1层【执念】，伤害提高1%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sand King: Tayzzyronth (IV) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_01.png` |
+| Name | Sand King: Tayzzyronth (IV) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_01.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 某位爵士，在他堕入疯狂之前曾记载… | 你也会变得有点儿*疯狂*。 |
 | 某擅长想象的头脑旅行家，在被禁闭后隔着玻璃墙喃喃自语… | 你试图钻进他的头脑。 |
@@ -51,6 +51,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 114901 |  |

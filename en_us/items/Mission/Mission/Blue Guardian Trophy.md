@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Blue Guardian" Trophy |
-| 用途 | 任务道具 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | "Blue Guardian" Trophy |
+| Use | Mission Item |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 《幻月新游戏》的奖杯将颁发给每一位献出愿力、守护蓝星的英雄！
 
 
-## 获得途径
+## Acquisition
 
 - 活动【幻月新游戏】

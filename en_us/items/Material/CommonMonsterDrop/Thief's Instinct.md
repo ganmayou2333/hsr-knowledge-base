@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Thief's Instinct |
-| 用途 | 行迹材料 | 角色晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / CommonMonsterDrop |
+| Item Name | Thief's Instinct |
+| Use | Trace Material | Character Ascension |
+| Rarity | 2★ |
+| Type | Material / CommonMonsterDrop |
 
-## 说明
+## Description
 
 微弱的反物质，强化所需的简单材料。
 
-## 获得途径
+## Acquisition
 
 - 反物质军团掉落
 - 「差分宇宙」中敌方掉落

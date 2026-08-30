@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Odd Code |
-| 类型 | 奇物（同名合并） |
-| 星级 | 1星 |
+| Name | Odd Code |
+| Type | 奇物（同名合并） |
+| Rarity | 1星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 6 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 47 | 将这段代码修复成正常的奇物需要花费3场战斗
 修复期间，角色每次施放终结技后，将损失等同于30%当前生命值的生命值
@@ -35,7 +35,7 @@ While the code is being fixed, a character loses 30% of their current HP every t
 Once the code is fixed, this Curio restores HP for characters |
 | 3048 | Every time a character uses their Ultimate, they restore HP equal to 30% of their Max HP. |
 
-## 背景故事
+## Story
 
 直觉告诉你这代码没什么问题，直觉也告诉你直觉不怎么可信。
 「这里好像写了个死循环，但也不是不能跑跑看……」

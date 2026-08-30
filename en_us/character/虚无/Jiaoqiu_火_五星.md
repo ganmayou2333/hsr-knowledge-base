@@ -7,78 +7,78 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Jiaoqiu |
-| 命途 | Nihility |
-| 属性 | Fire |
-| 稀有度 | ★★★★★ |
-| 阵营 | - |
-| 角色介绍 | 仙舟「曜青」的狐人医士、策士，常以笑脸迎人，实际颇有心计。 出身于丹鼎司名家，曾一度心死避世，不再行医，后为医治「天击将军」飞霄再度出山。 精于医食同源的丹方研究，尤其是能带给人痛感的辣味食物，发明了名为「九宫格」的鼎镬药式。 |
+| Character Name | Jiaoqiu |
+| Path | Nihility |
+| Attribute | Fire |
+| Rarity | ★★★★★ |
+| Faction | - |
+| Introduction | 仙舟「曜青」的狐人医士、策士，常以笑脸迎人，实际颇有心计。 出身于丹鼎司名家，曾一度心死避世，不再行医，后为医治「天击将军」飞霄再度出山。 精于医食同源的丹方研究，尤其是能带给人痛感的辣味食物，发明了名为「九宫格」的鼎镬药式。 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 豊永利行 |
-| 英语 | Mark Whitten |
-| 中文 | 陈张太康 |
-| 韩语 | 이정민 |
+| Japanese | 豊永利行 |
+| English | Mark Whitten |
+| Chinese | 陈张太康 |
+| Korean | 이정민 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,358 |
-| 基础攻击力 | 602 |
-| 基础防御力 | 509 |
-| 基础速度 | 98 |
-| 嘲讽 | 100 |
-| 能量上限 | 100 |
+| Base HP | 1,358 |
+| Base ATK | 602 |
+| Base DEF | 509 |
+| Base SPD | 98 |
+| Taunt | 100 |
+| Max Energy | 100 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/忿火之心\|忿火之心]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/忿火之心\|Raging Heart]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/炽情之灵\|炽情之灵]] | 12 |
-| [[zh_cn/items/Material/TracePath/星火之精\|星火之精]] | 53 |
-| [[zh_cn/items/Material/TracePath/焚天之魔\|焚天之魔]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/炽情之灵\|Fiery Spirit]] | 12 |
+| [[zh_cn/items/Material/TracePath/星火之精\|Starfire Essence]] | 53 |
+| [[zh_cn/items/Material/TracePath/焚天之魔\|Heaven Incinerator]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
 
 ---
-## 战技
-### 普攻：Heart Afire
+## Skills
+### Basic ATK：Heart Afire
 - **类型**：Basic ATK
 - **简述**：Deals minor Fire DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -96,14 +96,14 @@
 
 - **满级效果**：Deals Fire DMG equal to 140% of Jiaoqiu's ATK to one designated enemy target.
 
-### 战技：Scorch Onslaught
+### Skill：Scorch Onslaught
 - **类型**：Skill
 - **简述**：Deals Fire DMG to one enemy and minor Fire DMG to adjacent targets, with a high chance to inflict 1 stack of "Ashen Roast" on the primary target.
 - **最大等级**：15
 - **效果模板**：Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to one designated enemy target and Fire DMG equal to #2[i]% of Jiaoqiu's ATK to adjacent targets, with a #3[i]% base chance to inflict 1 stack of "Ashen Roast" on the primary target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 75% | 45% | 100% |
   | Lv.2 | 82.5% | 49.5% | 100% |
@@ -128,7 +128,7 @@
 
 - **满级效果**：Deals Fire DMG equal to 187.5% of Jiaoqiu's ATK to one designated enemy target and Fire DMG equal to 112.5% of Jiaoqiu's ATK to adjacent targets, with a 100% base chance to inflict 1 stack of "Ashen Roast" on the primary target.
 
-### 终结技：Pyrograph Arcanum
+### Ultimate：Pyrograph Arcanum
 - **类型**：Ultimate
 - **简述**：Sets the number of "Ashen Roast" stacks on enemy targets to the highest number of "Ashen Roast" stacks present on the battlefield. Then, activates a Zone and deals Fire DMG to all enemies. While inside the Zone, enemy targets receive increased Ultimate DMG, with a chance of being inflicted with 1 stack of Ashen Roast when taking action.
 - **最大等级**：15
@@ -139,7 +139,7 @@ The Zone lasts for #4[i] turn(s), and its duration decreases by 1 at the start o
 结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。当椒丘陷入无法战斗状态时，结界也会被解除。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 50% | 9% | 3 | 6 |
   | Lv.2 | 64% | 51% | 9.6% | 3 | 6 |
@@ -170,7 +170,7 @@ The Zone lasts for 3 turn(s), and its duration decreases by 1 at the start of th
 处于结界中时，敌方目标受到的终结技伤害提高#3[f1]%，且行动时有65%的基础概率被施加1层【烬煨】，结界存在期间该效果最多触发6次，且每个敌方目标每回合只能触发1次。椒丘每次施放终结技时重置触发次数。
 结界持续3回合，自身每回合开始时结界持续回合数减1。当椒丘陷入无法战斗状态时，结界也会被解除。
 
-### 天赋：Quartet Finesse, Octave Finery
+### Talent：Quartet Finesse, Octave Finery
 - **类型**：Talent
 - **简述**：When attacking with Basic ATK, Skill, or Ultimate, there is a high chance to inflict 1 stack of "Ashen Roast" on the target, causing the enemy to take increased DMG and also be considered as Burned at the same time.
 - **最大等级**：15
@@ -181,7 +181,7 @@ When an enemy target is afflicted with Ashen Roast, they are also considered as 
 当敌方目标处于【烬煨】状态时，也会被视为同时陷入了灼烧状态，每回合开始时受到等同于椒丘#6[i]%攻击力的火属性持续伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6(%) |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 7.5% | 2.5% | 5 | 2 | 90% |
   | Lv.2 | 100% | 8.25% | 2.75% | 5 | 2 | 99% |
@@ -213,14 +213,14 @@ When an enemy target is afflicted with Ashen Roast, they are also considered as 
 【烬煨】最多叠加5层，持续2回合。
 当敌方目标处于【烬煨】状态时，也会被视为同时陷入了灼烧状态，每回合开始时受到等同于椒丘225%攻击力的火属性持续伤害。
 
-### 秘技：Fiery Queller
+### Technique：Fiery Queller
 - **类型**：Technique
 - **简述**：Creates a Special Dimension. After entering combat with enemies in this dimension, deals minor Fire DMG to all enemies, with a high chance of applying 1 "Ashen Roast" stack.
 - **最大等级**：1
 - **效果模板**：After using Technique, creates a Special Dimension that lasts for #2[i] second(s). After entering combat with enemies in this Special Dimension, deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies, with a #3[i]% base chance of applying 1 "Ashen Roast" stack. Only 1 dimension created by allies can exist at the same time.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3(%) |
+| Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 100% | 15 | 100% |
 
@@ -231,27 +231,27 @@ When an enemy target is afflicted with Ashen Roast, they are also considered as 
 
 - **满级效果**：After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering combat with enemies in this Special Dimension, deals Fire DMG equal to 100% of Jiaoqiu's ATK to all enemies, with a 100% base chance of applying 1 "Ashen Roast" stack. Only 1 dimension created by allies can exist at the same time.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 爟火 | 晋阶2 | 战斗开始时，立即恢复#1[i]点能量。 | 战斗开始时，立即恢复15点能量。 | 信用点×5000、炽情之灵×3、无穷假身的遗恨×1 |
 | 附加能力2 | 举炊 | 晋阶4 | 椒丘效果命中大于#1[i]%时，每超过#2[i]%，则额外提高#3[i]%攻击力，最高不超过#4[i]%。 | 椒丘效果命中大于80%时，每超过15%，则额外提高60%攻击力，最高不超过240%。 | 信用点×20000、星火之精×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 炙香 | 晋阶6 | 结界存在时，敌方目标进入战斗时，会被施加【烬煨】，层数与结界展开期间【烬煨】层数最高者相同，最低为#1[i]层。 | 结界存在时，敌方目标进入战斗时，会被施加【烬煨】，层数与结界展开期间【烬煨】层数最高者相同，最低为1层。 | 信用点×160000、焚天之魔×8、命运的足迹×1、无穷假身的遗恨×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 效果命中 | 28% |
 | 火属性伤害提高 | 14.4% |
-| 速度 | 5 |
+| SPD | 5 |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Pentapathic Transference | Allies deal 40% increased DMG to enemy targets afflicted with Ashen Roast. Whenever inflicting Ashen Roast on an enemy target via triggering the Talent's effect, additionally increases the number of "Ashen Roast" stacks applied this time by 1. |
 | E2 | From Savor Comes Suffer | When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to this target by 300%. |
@@ -262,79 +262,79 @@ When an enemy target is afflicted with Ashen Roast, they are also considered as 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：效果命中 / 速度 / 火属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：效果命中 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|幽锁深牢的系囚]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|戍卫风雪的铁卫]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
+| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|Prisoner in Deep Confinement]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|Guard of Wuthering Snow]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/泛银河商业公司\|泛银河商业公司]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/泛银河商业公司\|Pan-Cosmic Commercial Enterprise]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/那无数个春天.md|那无数个春天]]
+### [[zh_cn/lightcone/虚无/那无数个春天.md|Those Many Springs]]
 - **基础属性**：生952 攻582 防529
 - **推荐度**：★★★★★
 - **技能名**：世事无痕
 - **效果**：使装备者的效果命中提高【60%/70%/80%/90%/100%】，装备者施放普攻、战技、终结技攻击敌方目标后，有60%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高【10%/12%/14%/16%/18%】，持续2回合。若目标处于装备者施加的持续伤害状态，则有60%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高【14%/16%/18%/20%/22%】，持续2回合，期间装备者无法对其施加【卸甲】。
 
-### [[zh_cn/lightcone/虚无/重塑时光之忆.md|重塑时光之忆]]
+### [[zh_cn/lightcone/虚无/重塑时光之忆.md|Reforged Remembrance]]
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：结晶
 - **效果**：使装备者的效果命中提高【40%/45%/50%/55%/60%】。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加4层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高【5%/6%/7%/8%/9%】，造成的持续伤害无视目标【7.2%/7.9%/8.6%/9.3%/10.0%】的防御力。
 
-### [[zh_cn/lightcone/虚无/猎物的视线.md|猎物的视线]]
+### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：自信
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
 
-## 推荐队伍
+## Recommended Teams
 
 > 官方 Wiki 配队推荐（角色去重，按推荐顺序列出，未严格按位置分组）
 
-- [[zh_cn/character/虚无/黄泉_雷_五星|黄泉]]
+- [[zh_cn/character/虚无/黄泉_雷_五星|Acheron]]
 - [[zh_cn/character/虚无/椒丘_火_五星|椒丘]]
-- [[zh_cn/character/虚无/佩拉_冰_四星|佩拉]]
+- [[zh_cn/character/虚无/佩拉_冰_四星|Pela]]
 - [[zh_cn/character/存护/符玄_量子_五星|符玄]]
-- [[zh_cn/character/存护/砂金_虚数_五星|砂金]]
+- [[zh_cn/character/存护/砂金_虚数_五星|Aventurine]]
 
 ---
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 仙舟「曜青」的狐人医士、策士，常以笑脸迎人，实际颇有心计。出身于丹鼎司名家，曾一度心死避世，不再行医，后为医治「天击将军」飞霄再度出山。精于医食同源的丹方研究，尤其是能带给人痛感的辣味食物，发明了名为「九宫格」的鼎镬药式。
 
-### 角色故事·其一
+### Character Story·1
 
 曜青，飞雨湖。荇藻开着黄花，游鱼在雨丝中跳跃，菱角荷花肆意生长，湖边石滩常有老龟晒背。狐人少年背着药篓，划着小舟，雨丝顺着他的耳廓流下，又被轻轻甩去。他捞取荇菜，撷取荷花，剥开鲜嫩的茭白，随手往嘴里扔去。「甘甜入脾，滋润可口……」摘毕，他撑起小船，轻盈地越过湖岸，换上了医者的服饰。……医馆内蒸汽氤氲，异香浮动。「脉象比上次好了些，只是还缺少调养，要不试试我的新药？」他撤去脉枕和金针，微笑着搬上一套崭新的医具。老者看着桌上的九宫铁锅，不禁苦笑。「别人一辈子也搞不出几种新药出来，你倒好，一天就能发明好几种。」「师父谬赞了，这是名为「九宫格」的鼎镬药式，制作简便，效果奇佳。」他倒出药篓中的食材，简单清洗后改刀切片，锅里的高汤开始冒泡沸腾。「一两天锦草，三钱苦木，四厘苁蓉，大骨熬煮，搭配深海贝可驱散苦味，助心神安眠。」「这白鳅和紫鱼片性温，最能滋养气血，只需涮两三秒即可。」「青菇、银针、雪藕…都是飞雨湖中我以药渣精心培植的作物，除了鲜美之外，兼有药性。」晶莹的鱼片滑入沸汤，师徒二人大快朵颐，雨天的湿寒一扫而空。杯盘狼藉之际，老者放下杯筷，仿佛看穿了什么。「这顿『九宫格』，看起来是醉翁之意不在酒。」他站了起来，郑重地行了个礼。「师父敏锐。是否进入丹鼎司，徒儿已有决定。「丹鼎司虽好，终究和徒儿悬壶济世的心愿不符。要问何处最需要医家，必是曜青征战之地。「而众多医家之中，唯有我等染指派强调药食同源，以饮食之乐解疾病之苦…『九宫格』之药，方便快捷，祛寒除湿，正是徒儿为战场所特制。「生死之间，人命至重。倘若我有一方济之，也算不辜负丹鼎司培养之恩。」老者似有言劝告，但最终却还是咽了下去。「战场苦寒异常，出发之前，记得…多带些热性的食材。」
 
-### 角色故事·其二
+### Character Story·2
 
 曜青军队常年征战域外星球，他又对鼎镬药式进行了诸多改进，以应对日渐艰巨又复杂多变的驻扎环境。因药式的罕见与奇效，他的名声迅速传遍曜青军队，赢得了诸位将士的信任。然而这些成就全然无法减轻他内心的沉重。每一日， 当出发的鸣笛响起之时，他曾治好的病患将重新踏上战场。每一日，当归营的脚步响起之时，围坐在鼎镬边的面孔，总会少上几个。就在刚刚，那位每次回营都嚷嚷着要吃鼎镬的士兵，永远地离开了。他完成了今日的问诊，走出临时搭建的战地医院，长叹了一口气。漫天风雪扑向他，而他似乎感受不到半分寒冷。鸣笛声已重新响起，军队已整备出发。很快，战地医院中又会挤满重伤的士兵。即便他使出生死人，肉白骨的医术，无休止的战争依然在吞噬那些年轻的生命。每晚，他都会同那位月御将军对谈，但这一日，他少见地沉默良久。「这段时日，我一直在思考…如果我医治的病患注定还要奔赴死亡，那医者的意义是什么？」病房中传来喑哑的哭声。他使劲眨了眨眼睛，才发现不知从何时起，自己的双眼已经干涩——干涩到流不出泪来。
 
-### 角色故事·其三
+### Character Story·3
 
 又到了将士出征的时候。但那恐怖的死状，居高不下的死亡率，终日喧响的炮火，浮现于天空的庞然巨物，预示着这场战争不同以往的惨烈。直到那一日，高耸入云的「瞰云镜」承载联盟万亿众生的愿力，终于得到了祂的回应。灼热的气浪毫无征兆地出现，弱小的丰饶孽物化作血雾，不可直视的光撕开天穹。他看到光浪所及之处，一切山峦化为齑粉。他看到未来得及撤离的仙舟军团和丰饶孽物一起化为尘埃。他听说紧跟月御将军的少女在即将覆灭的敌阵中奔走，试图带回剩余的士兵。在光之海的巨浪到达之前，他尽全力救下少女，而后在光芒的余波中失去了意识。……残破的军旗在风中猎猎作响，寥寥无几的幸存者围在火堆旁，无言对坐。叮当，叮当，叮当——坑坑洼洼的鼎镬被狂风吹着，在原野上滚动。身体理应早就习惯了所驻扎的这颗星球上的寒冷，但他从来都没觉得那么冷过，从里到外，都是冰凉的。他拾起铁锅，加水，烧开，放入所剩无几的食材，动作一气呵成。「还是好冷……」幸存者默默地咀嚼着食物，没有人说话。「放点辣吧。」他取出随身携带的药袋。「不够辣。」他放下了更多的辣椒。「还是不够。」他将随身携带的香料全数倒进鼎镬中。「没有更多了。」红油翻滚，他夹起野菜放进嘴中，当麻木的味觉被激活的时候，他第一次如此强烈地感到生命的存在——那是近乎于痛的滋味。
 
-### 角色故事·其四
+### Character Story·4
 
 曜青，飞雨湖。荇藻开着黄花，游鱼在雨丝中跳跃，菱角荷花肆意生长，湖边石滩常有老龟晒背。湖中，他背着药篓，划着小舟，雨丝顺着他的耳廓流下，沾湿了他的衣裳。他捞取荇菜，撷取荷花，剥开鲜嫩的茭白，随手往嘴里扔去。「唉，太淡了……」他摇了摇头。「先生，有一位老人在食馆找您，说是您的老相识——」门童的声音从对岸传来。他叹了口气，撑船往回而去。他岂不知来人何意，却早已厌倦了重操医业。「师父今日前来，是要试试飞雨食馆的鼎镬吗？我可要提个醒，这里只有重辣和重重辣。」老者坐在桌边，叹了口气。「我记得在从军之前，你的口味还清淡得很。」他端上鼎镬，眼中一抹怀念之色转瞬即逝。「人…总是会变的。」老者夹起一片紫鱼，在红油沸腾的锅里涮了涮。「那我也试试罢。但此次前来，并非仅仅为了吃食。还记得你救下的那个女孩么？「那位始终跟在前任将军身边的少女，飞霄。她如今已接任了曜青将军，需要一个医生追随，没人比你更合适了。」他无奈地笑了笑，那日口腔的刺痛不知为何又翻涌上来。「即便救下了，不过又是一条上阵蹈死的冤魂。这样的无用功，我不想再做。」老者放下筷子，摇摇头。「你误会了，我此次前来，并非劝你救治世人。我来，是想请这位将军…医好你的心死之病。「她会告诉你…医者的意义，究竟是什么。」

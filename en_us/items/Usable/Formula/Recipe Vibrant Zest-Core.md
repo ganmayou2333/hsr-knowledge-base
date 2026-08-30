@@ -6,22 +6,22 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Vibrant Zest-Core |
-| 用途 | 配方 |
-| 评级 | ★★★ |
-| 类型 | Usable / 配方 |
+| Item Name | Recipe: Vibrant Zest-Core |
+| Use | Formula |
+| Rarity | ★★★ |
+| Type | Usable / 配方 |
 
 
-## 说明
+## Description
 
 一行简洁的等式，输入合成机中可以解锁新的配方。
 
 
 
-## 获得途径
+## Acquisition
 
 - 2026 星穹铁道 x 芬达Fanta联动-联动兑换码

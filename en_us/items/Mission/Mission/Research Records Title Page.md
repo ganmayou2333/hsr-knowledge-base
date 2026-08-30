@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Research Records "Title Page" |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Research Records "Title Page" |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 三月七挥舞着这张想象中的扉页，言之凿凿地断言道：「这上面大概也许可能绝对写了接头暗号！」
 
-## 获得途径
+## Acquisition
 
 - 同行任务【异邦骑士】

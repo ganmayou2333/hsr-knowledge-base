@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Scroll |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Scroll |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一个破破烂烂的卷轴，根据记忆中所见，这玩意是拉达曼用来坑害两人的仿制品。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【破碎的记忆】

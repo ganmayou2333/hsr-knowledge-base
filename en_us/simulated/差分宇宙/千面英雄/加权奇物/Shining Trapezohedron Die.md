@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Shining Trapezohedron Die |
-| 类型 | 加权奇物 |
+| Name | Shining Trapezohedron Die |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

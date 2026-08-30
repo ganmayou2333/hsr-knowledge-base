@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Pika White Grape Soda |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Recipe: Pika White Grape Soda |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 解暑功效十分强劲的发酵白葡萄汽水，味道又酸又苦，饮用后常常导致打喷嚏、流鼻涕等现象。据尝试过的顾客称，感觉就像是被一只凉手贴住了脖颈。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【鸽群中的猫-外邦为何争闹？】

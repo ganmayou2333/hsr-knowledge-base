@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Hanu's Adventure Part 1, Chapter 4 |
-| 用途 | 阅读物 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Hanu's Adventure Part 1, Chapter 4 |
+| Use | Readable |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

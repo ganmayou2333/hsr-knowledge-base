@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Tragedy and Insects: The Dwindling of Stars (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_03.png` |
+| Name | Tragedy and Insects: The Dwindling of Stars (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_03.png` |
 
 
-## 事件文本
+## Event Text
 
 宇宙·虫潮宇宙：「繁育」的命途于孤独的尖啸中示现，而后塔伊兹育罗斯带领虫群奔向宇宙，无尽地侵蚀、吞没可见的一切，直至奥博洛斯出现在他的面前：「贪饕」与「繁育」的对垒波及寰宇三分之二的有生区域，无数星系因此消亡。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 抓起它的尾巴… | 小心…不要被它的尾巴扫到了。 |
 | 我不想靠近它… | 你的手里还有一把猎枪… |
@@ -49,6 +49,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 116801 |  |

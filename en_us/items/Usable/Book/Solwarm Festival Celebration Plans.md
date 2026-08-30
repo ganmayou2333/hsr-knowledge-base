@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Solwarm Festival Celebration Plans |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Solwarm Festival Celebration Plans |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 关于煦日节庆典相关事宜的安排
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-Ⅵ-铆钉镇地图中拾取

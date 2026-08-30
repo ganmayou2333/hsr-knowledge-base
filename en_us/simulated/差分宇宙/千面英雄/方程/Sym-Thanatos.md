@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sym-Thanatos |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 同谐*4毁灭*2 |
+| Name | Sym-Thanatos |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 同谐*4毁灭*2 |
 
 
-## 效果
+## Effect
 
 我方目标击破特攻提高100%，施放攻击击破敌方目标弱点时，获得能够抵消等同于自身生命上限30%伤害的护盾，持续5回合，并在攻击后对该目标造成等同于【耀变】300%的附加伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

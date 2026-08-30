@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Landscape in the Mist |
-| 类型 | 祝福 |
-| 命途 | 记忆&巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Landscape in the Mist |
+| Type | Blessing |
+| Path | 记忆&巡猎 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响造成的冻结状态被敌方目标解除或抵抗时，有150%基础概率使该目标的速度降低15%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

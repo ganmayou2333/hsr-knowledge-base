@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Accumbens Nucleus DBS-45 |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Accumbens Nucleus DBS-45 |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616831 | When an ally target deals fatal damage to any enemy target, Charges "Brain in a Vat" by 50%. |
 | 617831 | When an ally target deals fatal damage to any enemy target, Charges "Brain in a Vat" by 50%. |

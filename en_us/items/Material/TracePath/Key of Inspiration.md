@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Key of Inspiration |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / TracePath |
+| Item Name | Key of Inspiration |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 2★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 出现在苦思学者手中的幻之钥匙。可小幅提升智识角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【铆钉镇】
 - 余烬兑换

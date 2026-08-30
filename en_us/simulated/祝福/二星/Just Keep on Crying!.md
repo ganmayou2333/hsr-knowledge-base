@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Just Keep on Crying! |
-| 类型 | 祝福 |
-| 命途 | 欢愉 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Just Keep on Crying! |
+| Type | Blessing |
+| Path | 欢愉 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标每受到1种属性的【回味】伤害，受到的伤害提高8%，持续至下次行动后。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标每受到1种属性的【回味】伤害，受到的伤害提高12%，持续至下次行动后。

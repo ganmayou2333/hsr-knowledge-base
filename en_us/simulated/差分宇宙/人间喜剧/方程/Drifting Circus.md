@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Drifting Circus |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*3丰饶*2 |
+| Name | Drifting Circus |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*3丰饶*2 |
 
 
-## 效果
+## Effect
 
 角色每造成1次【回味】伤害，使生命值上限提高5%，最多叠加15层，持续1回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

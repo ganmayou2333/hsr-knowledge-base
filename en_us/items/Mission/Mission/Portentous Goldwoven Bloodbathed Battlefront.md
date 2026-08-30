@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Portentous Goldwoven: Bloodbathed Battlefront |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Portentous Goldwoven: Bloodbathed Battlefront |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。
 
 
-## 获得途径
+## Acquisition
 
 - 「浴血战端」的衣匠前哨站

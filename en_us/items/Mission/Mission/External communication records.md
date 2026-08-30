@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | External communication records |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | External communication records |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 拷贝自空间站终端系统的数据，完整且清晰地记录了终端上所有的对外通讯信息。
 
-## 获得途径
+## Acquisition
 
 - 1.6活动冒险任务【开局一人一狗•其三】

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Startling Breeze |
-| 类型 | 祝福 |
-| 命途 | 巡猎&欢愉 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Startling Breeze |
+| Type | Blessing |
+| Path | 巡猎&欢愉 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响后，使我方全体速度提高25点，该效果对角色召唤的目标也会生效，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

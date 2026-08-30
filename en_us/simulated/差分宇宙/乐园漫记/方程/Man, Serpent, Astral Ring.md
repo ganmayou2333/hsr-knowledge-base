@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Man, Serpent, Astral Ring |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4同谐+2智识 |
+| Name | Man, Serpent, Astral Ring |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4同谐+2智识 |
 
 
-## 效果
+## Effect
 
 敌方目标回合开始时，若处于弱点击破状态，则额外受到1次等同于【和音】原伤害200%的伤害。我方目标每次施放终结技，使【和音】伤害提高等同于原伤害的1%。
 
-## 强化效果
+## Enhanced Effect
 
 -

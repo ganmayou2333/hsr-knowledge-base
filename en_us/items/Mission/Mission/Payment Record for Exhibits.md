@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Payment Record for Exhibits |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Payment Record for Exhibits |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 码头工人阿丰的收支记录，在近日收到了来自星际和平公司分多次汇入的信用点。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧·其二】

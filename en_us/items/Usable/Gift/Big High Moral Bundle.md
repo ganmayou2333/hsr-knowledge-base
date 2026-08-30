@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Big High Moral Bundle |
-| 用途 | 贵重物品 |
-| 评级 | ★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Big High Moral Bundle |
+| Use | 贵重物品 |
+| Rarity | ★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 你实在太有道德了！以至于崇高道德凝聚成更为庞大的实体，来到了你身边。
 
 
-## 获得途径
+## Acquisition
 
 - 仙舟「罗浮」-竞锋舰-丐帮竞锋舰分舵

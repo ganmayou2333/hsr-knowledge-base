@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Enlightenment: Praise of the Abyss |
-| 类型 | 祝福（同名合并） |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Enlightenment: Praise of the Abyss |
+| Type | Blessing (merged) |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616144 | Characters' "Obsession" limit increases by 4 stack(s). |
 | 617144 | Characters' maximum "Obsession" increases by 4 stack(s). |

@@ -4,20 +4,20 @@
 > 实体ID：319
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/4975/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Bone Collection's Serene Demesne |
-| 类型 | 位面饰品 |
-| 实体ID | 319 |
-## 获取途径
+| Name | Bone Collection's Serene Demesne |
+| Type | 位面饰品 |
+| Entity ID | 319 |
+## Acquisition
 纷争不休·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's Max HP by 12%. When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：哀地里亚的殁名祭碑
 **描述**：位面球中封存着翁法罗斯的哀地里亚，信仰塞纳托斯的民众们在雪原上修筑起巨碑，敬奉为他们带来死亡祝福的圣女。
 **来历**：

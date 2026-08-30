@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Broken String's Roar |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Broken String's Roar |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方当前攻击力最高的角色在下次战斗时造成的伤害提高35%，被敌方目标攻击的概率大幅提高。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 自动乐坊

@@ -7,25 +7,25 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fool's Mask |
-| 类型 | 奇物（同名合并） |
-| 星级 | 2星 |
+| Name | Fool's Mask |
+| Type | 奇物（同名合并） |
+| Rarity | 2星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 3 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 115 | All Blessings in possession are swapped to random Blessings with their Enhancement levels retained, with a chance of being replaced by Blessings of higher rarity. |
 | 1115 | All Blessings in possession are swapped to random Blessings with their Enhancement levels retained, with a chance of being replaced by Blessings of higher rarity. |
 | 3115 | All Blessings in possession are swapped to random Blessings with their Enhancement levels retained, with a chance of being replaced by Blessings of higher rarity. |
 
-## 背景故事
+## Story
 
 假面愚者的面具象征着对「欢愉」的信仰，佩戴一份面具成为愚者在世界尽头酒馆集结时的入场凭证。它们质地厚重且色彩艳丽，笑容狂妄却笔触内敛，等待每份纵情的捉弄，附有假面愚者认证的虔诚——但好像都是从悲悼伶人的船上偷来的。

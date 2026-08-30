@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Exploration Points |
-| 用途 | 活动货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 普通材料 |
+| Item Name | Exploration Points |
+| Use | 活动货币 |
+| Rarity | ★★★ |
+| Type | Material / 普通材料 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 活动获得

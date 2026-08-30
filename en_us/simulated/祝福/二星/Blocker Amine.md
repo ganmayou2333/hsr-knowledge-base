@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Blocker Amine |
-| 类型 | 祝福 |
-| 命途 | 繁育 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Blocker Amine |
+| Type | Blessing |
+| Path | 繁育 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标受到【孢子】伤害后，防御力降低1%，该效果最多叠加15层。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标受到【孢子】伤害后，防御力降低1%，该效果最多叠加20层。

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Celestial Mortician |
-| 类型 | 祝福 |
-| 命途 | 巡猎&记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Celestial Mortician |
+| Type | Blessing |
+| Path | 巡猎&记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 每层【逆会心】额外造成等同于生命上限15%的伤害。在场的我方目标数量发生变化时，每变化1名，使敌方全体获得5层【逆会心】。
 
-## 强化效果
+## Enhanced Effect
 
 -

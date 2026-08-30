@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Tingyun |
-| 命途 | Harmony |
-| 属性 | Lightning |
-| 稀有度 | ★★★★ |
-| 阵营 | 仙舟「罗浮」 |
-| 角色介绍 | 仙舟「罗浮」天舶司的接渡使。随商团出使过众多世界，缔结贸易与盟谊。 |
-| 定位 | 可为我方指定角色恢复能量并使其伤害提高的辅助型角色 |
+| Character Name | Tingyun |
+| Path | Harmony |
+| Attribute | Lightning |
+| Rarity | ★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | 仙舟「罗浮」天舶司的接渡使。随商团出使过众多世界，缔结贸易与盟谊。 |
+| Role | 可为我方指定角色恢复能量并使其伤害提高的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 高田憂希 |
-| 英语 | Anya Floris |
-| 中文 | 蒋丽 |
-| 韩语 | 이명호 |
+| Japanese | 高田憂希 |
+| English | Anya Floris |
+| Chinese | 蒋丽 |
+| Korean | 이명호 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 847 |
-| 基础攻击力 | 529 |
-| 基础防御力 | 397 |
-| 基础速度 | 112 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 847 |
+| Base ATK | 529 |
+| Base DEF | 397 |
+| Base SPD | 112 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/往日之影的雷冠\|往日之影的雷冠]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的雷冠\|Lightning Crown of the Past Shadow]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 8 |
-| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 42 |
-| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|Harmonic Tune]] | 8 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|Ancestral Hymn]] | 42 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|Stellaris Symphony]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 20 |
 
 ---
-## 战技
-### 普攻：Dislodged
+## Skills
+### Basic ATK：Dislodged
 - **类型**：Basic ATK
 - **简述**：Deals minor Lightning DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Tingyun deals Lightning DMG equal to #1[i]% of her ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,7 +97,7 @@
 
 - **满级效果**：Tingyun deals Lightning DMG equal to 140% of her ATK to one designated enemy.
 
-### 战技：Soothing Melody
+### Skill：Soothing Melody
 - **类型**：Skill
 - **简述**：Increases the ATK of a single ally and grants them Benediction. Ally with Benediction additionally deals minor Lightning Additional DMG when attacking.
 - **最大等级**：15
@@ -108,7 +108,7 @@ Benediction lasts for #3[i] turn(s) and is only effective on the most recent rec
 【赐福】持续#3[i]回合且仅对停云战技最新的施放目标生效。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 20% | 25% | 3 | 15% |
   | Lv.2 | 22% | 27.5% | 3 | 16% |
@@ -138,14 +138,14 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 获得【赐福】的目标施放攻击后，会额外造成1次等同于其自身50%攻击力的雷属性附加伤害。
 【赐福】持续3回合且仅对停云战技最新的施放目标生效。
 
-### 终结技：Amidst the Rejoicing Clouds
+### Ultimate：Amidst the Rejoicing Clouds
 - **类型**：Ultimate
 - **简述**：Regenerates a target ally's Energy and increases their DMG dealt.
 - **最大等级**：15
 - **效果模板**：Regenerates #1[i] Energy for a single ally and increases the target's DMG by #3[i]% for #2[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) |
+| Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 50 | 2 | 20% |
   | Lv.2 | 50 | 2 | 23% |
@@ -170,14 +170,14 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 - **满级效果**：Regenerates 50 Energy for a single ally and increases the target's DMG by 65% for 2 turn(s).
 
-### 天赋：Violet Sparknado
+### Talent：Violet Sparknado
 - **类型**：Talent
 - **简述**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals minor Lightning Additional DMG to the same enemy.
 - **最大等级**：15
 - **效果模板**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to #1[i]% of that ally's ATK to the same enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 30% |
   | Lv.2 | 33% |
@@ -200,14 +200,14 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 - **满级效果**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to 75% of that ally's ATK to the same enemy.
 
-### 秘技：Gentle Breeze
+### Technique：Gentle Breeze
 - **类型**：Technique
 - **简述**：After using this Technique, this character immediately regenerates Energy for themselves.
 - **最大等级**：1
 - **效果模板**：Tingyun immediately regenerates #1[i] Energy upon using her Technique.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 50 |
 
@@ -216,27 +216,27 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 - **满级效果**：Tingyun immediately regenerates 50 Energy upon using her Technique.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 驻晴 | 晋阶2 | 施放战技时，停云自身速度提高#1[i]%，持续1回合。 | 施放战技时，停云自身速度提高20%，持续1回合。 | 信用点×4000、谐乐小调×2、毁灭者的末路×1 |
 | 附加能力2 | 止厄 | 晋阶4 | 普攻造成的伤害提高#1[i]%。 | 普攻造成的伤害提高40%。 | 信用点×16000、家族颂歌×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 亨通 | 晋阶6 | 停云的回合开始时，自身立即恢复#1[i]点能量。 | 停云的回合开始时，自身立即恢复5点能量。 | 信用点×128000、群星乐章×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
-| 防御力 | 22.5% |
+| ATK | 28% |
+| DEF | 22.5% |
 | 雷属性伤害提高 | 8% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Windfall of Lucky Springs | After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn. |
 | E2 | Gainfully Gives, Givingly Gains | The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn. |
@@ -247,85 +247,85 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 速度 / 攻击力 / 能量恢复效率
 
 **推荐副词条**：速度 / 攻击力 / 效果抵抗
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|重循苦旅的司铎]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
-| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|骇域漫游的信使]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
-| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|梦想之地匹诺康尼]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|Penacony, Land of the Dreams]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/但战斗还未结束.md|但战斗还未结束]]
+### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
 - **基础属性**：生1164 攻529 防463
 - **推荐度**：★★★★★
 - **技能名**：继承人
 - **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/镂月裁云之意.md|镂月裁云之意]]
+### [[zh_cn/lightcone/同谐/镂月裁云之意.md|Carve the Moon, Weave the Clouds]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：秘密
 - **效果**：在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：使我方全体攻击力提高【10%/12%/15%/17%/20%】；使我方全体暴击伤害提高【12%/15%/18%/21%/24%】；使我方全体能量恢复效率提高【6%/7%/9%/10%/12%】。同类效果无法叠加,在装备者陷入无法战斗状态时解除。
 
-### [[zh_cn/lightcone/同谐/与行星相会.md|与行星相会]]
+### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
 - **基础属性**：生1058 攻423 防330
 - **推荐度**：★★★★
 - **技能名**：启程
 - **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
 
-### [[zh_cn/lightcone/同谐/记忆中的模样.md|记忆中的模样]]
+### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：老相片
 - **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
 | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] |
 | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] | [[zh_cn/character/智识/景元_雷_五星.md\|景元]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
-| [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |
+| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星.md\|丹恒•饮月]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
+| [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |
 | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/智识/银枝_物理_五星.md\|银枝]] | [[zh_cn/character/丰饶/白露_雷_五星.md\|白露]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 八面玲珑的狐人少女，天舶司商团「鸣火」的首席代表。
 停云天生生得一副慧心妙舌，但凡她开口，人们就免不了想听她多说几句。在她的调度下，仙舟的贸易庆典逐渐声名远扬。
 能不战斗就尽量不去战斗，能劝为己用就尽量劝为己用——这便是停云的原则。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 世人常道：「狐人天生会行商」。若在茶馆「不夜侯」多作盘桓，便能深刻体会到这一事实。
 
@@ -339,7 +339,7 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 这一日，停云不仅谈成了一笔生意，更为联盟结交了一位长久的朋友。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 停云自幼便不同凡响。
 
@@ -349,7 +349,7 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 于是，罗浮的贸易史上便多了一颗耀眼的新星。狐人少女凭借自身温润的性格与才华，先后连接起十六个世界的贸易使团，还与星际和平公司重订了互惠协定。仙舟人的贸易节庆「海市」，在她的力促下也成为声名远扬星海的盛典。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 说起停云的六骨叠扇，乃是工造司的机巧名物。
 
@@ -363,7 +363,7 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 「——就再用力扇他，让他哪儿凉快哪儿呆着去！」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 然而，若想更进一步升任司舵，停云那温良的性格便要从助力变作绊脚石了——毕竟天舶司历任执掌者均是王牌飞行士，又个个是刀山火海里蹚过的战士——停云既无驾驶星槎的天分，也不善杀伤，与天舶司现任司舵驭空可谓是云泥之别。
 

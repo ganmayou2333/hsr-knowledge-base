@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dismantled Art Pieces |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Dismantled Art Pieces |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 现代雕塑「齿轮与智慧」的组成部分，不知被何人拆解成了无数细散的零件。这些零件明显经过了艺术处理，不具备实用价值。
 
-## 获得途径
+## Acquisition
 
 - 1.1活动冒险任务【漫藏诲盗•其二】

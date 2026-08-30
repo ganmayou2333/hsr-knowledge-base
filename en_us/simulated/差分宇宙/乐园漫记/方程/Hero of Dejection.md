@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Hero of Dejection |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4繁育+2虚无 |
+| Name | Hero of Dejection |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4繁育+2虚无 |
 
 
-## 效果
+## Effect
 
 敌方目标每受到1次持续伤害，为【魂茧】充能1%，若此时处于【蝶魄】状态，则使我方全体造成的伤害提高2%，最多叠加99层，持续至退出【蝶魄】。
 
-## 强化效果
+## Enhanced Effect
 
 -

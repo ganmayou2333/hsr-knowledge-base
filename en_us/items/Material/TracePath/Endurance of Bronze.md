@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Endurance of Bronze |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 2★ |
-| 类型 | Material / TracePath |
+| Item Name | Endurance of Bronze |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 2★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 青铜锤成的古老手盾，工艺粗糙却耐用。可小幅提升存护角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【支援舱段】
 - 余烬兑换

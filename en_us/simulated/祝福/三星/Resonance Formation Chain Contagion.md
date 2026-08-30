@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Chain Contagion |
-| 类型 | 祝福 |
-| 命途 | 智识 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Chain Contagion |
+| Type | Blessing |
+| Path | 智识 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 【突触共鸣】状态下的敌方目标被角色消灭后，会额外触发2次效果。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Species of the Galaxy: Tottonid |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Species of the Galaxy: Tottonid |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 星域界种指要：约特伍德体
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-主控舱段地图中拾取

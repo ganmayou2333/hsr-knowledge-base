@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Flame of Blood, Blaze My Path |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Flame of Blood, Blaze My Path |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Cold dew congealed on the blade, sliding down in crimson streaks.
 The rust-tainted wilderness still flickered with embers of battle, flames leaping upon the ashes.
@@ -31,13 +31,13 @@ Where this wandering would end, he did not know. The only certainty was this —
 As night deepened, he drank the bloodwine alone. A passing bard plucked at his strings, a wandering melody drifting through the air—
 "Home is the land of dreams, not a place one can ever reach."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,376 | 476 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Vista
 
@@ -45,6 +45,6 @@ Increases the wearer's Max HP by 18% and Incoming Healing by 20%. When using Ski
 If the current HP is not sufficient, this effect reduces the wearer's current HP down to 1.
 若当前生命值不足，该效果最多使装备者的当前生命值降低至1点。
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

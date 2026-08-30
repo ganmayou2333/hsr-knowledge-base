@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Pela |
-| 命途 | Nihility |
-| 属性 | Ice |
-| 稀有度 | ★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 银鬃铁卫的情报官。性格认真，深受铁卫成员们敬畏。 |
-| 定位 | 具有一定输出能力，能够解除敌方单体增益、降低敌方全体防御力的辅助型角色。 |
+| Character Name | Pela |
+| Path | Nihility |
+| Attribute | Ice |
+| Rarity | ★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 银鬃铁卫的情报官。性格认真，深受铁卫成员们敬畏。 |
+| Role | 具有一定输出能力，能够解除敌方单体增益、降低敌方全体防御力的辅助型角色。 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 諸星すみれ |
-| 英语 | Xanthe Huynh |
-| 中文 | 宴宁 |
-| 韩语 | 이다은 |
+| Japanese | 諸星すみれ |
+| English | Xanthe Huynh |
+| Chinese | 宴宁 |
+| Korean | 이다은 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 988 |
-| 基础攻击力 | 547 |
-| 基础防御力 | 463 |
-| 基础速度 | 105 |
-| 嘲讽 | 100 |
-| 能量上限 | 110 |
+| Base HP | 988 |
+| Base ATK | 547 |
+| Base DEF | 463 |
+| Base SPD | 105 |
+| Taunt | 100 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/风雪之角\|风雪之角]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/风雪之角\|Horn of Snow]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 8 |
-| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 42 |
-| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|Obsidian of Dread]] | 8 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|Obsidian of Desolation]] | 42 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|Obsidian of Obsession]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 20 |
 
 ---
-## 战技
-### 普攻：Frost Shot
+## Skills
+### Basic ATK：Frost Shot
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Pela's ATK to one designated enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of Pela's ATK to one designated enemy target.
 
-### 战技：Frostbite
+### Skill：Frostbite
 - **类型**：Skill
 - **简述**：Dispels 1 buff from one enemy target, and deals Ice DMG to the target enemy.
 - **最大等级**：15
 - **效果模板**：Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to one designated target enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 105% | 1 |
   | Lv.2 | 115.5% | 1 |
@@ -128,7 +128,7 @@
 
 - **满级效果**：Removes 1 buff(s) and deals Ice DMG equal to 262.5% of Pela's ATK to one designated target enemy.
 
-### 终结技：Zone Suppression
+### Ultimate：Zone Suppression
 - **类型**：Ultimate
 - **简述**：Has a high chance of lowering enemies' DEF and deals minor Ice DMG to all enemies.
 - **最大等级**：15
@@ -137,7 +137,7 @@ When Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).
 【通解】状态下，敌方目标防御力降低#2[i]%，持续#3[i]回合。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 30% | 2 | 60% |
   | Lv.2 | 100% | 31% | 2 | 64% |
@@ -165,14 +165,14 @@ When Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).
 When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
 【通解】状态下，敌方目标防御力降低45%，持续2回合。
 
-### 天赋：Data Collecting
+### Talent：Data Collecting
 - **类型**：Talent
 - **简述**：After using an attack, if the enemy target is currently inflicted with debuff(s), Pela regenerates Energy.
 - **最大等级**：15
 - **效果模板**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 5 |
   | Lv.2 | 5.5 |
@@ -195,14 +195,14 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
 
 - **满级效果**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
 
-### 秘技：Preemptive Strike
+### Technique：Preemptive Strike
 - **类型**：Technique
 - **简述**：Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of lowering the DEF of all enemy targets.
 - **最大等级**：1
 - **效果模板**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to #4[i]% of her ATK to a random enemy, with a #1[i]% base chance of lowering the DEF of all enemies by #2[i]% for #3[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 20% | 2 | 80% |
 
@@ -214,27 +214,27 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
 
 - **满级效果**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 痛击 | 晋阶2 | 对处于负面效果的敌方目标造成的伤害提高#1[i]%。 | 对处于负面效果的敌方目标造成的伤害提高20%。 | 信用点×4000、黯淡黑曜×2、守护者的悲愿×1 |
 | 附加能力2 | 秘策 | 晋阶4 | 佩拉在场时，我方全体的效果命中提高#1[i]%。 | 佩拉在场时，我方全体的效果命中提高10%。 | 信用点×16000、虚空黑曜×4、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 追歼 | 晋阶6 | 施放战技解除增益效果时，下一次攻击造成的伤害提高#1[i]%。 | 施放战技解除增益效果时，下一次攻击造成的伤害提高20%。 | 信用点×128000、沉沦黑曜×6、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 18% |
+| ATK | 18% |
 | 效果命中 | 10% |
 | 冰属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Victory Report | When an enemy is defeated, Pela regenerates 5 Energy. |
 | E2 | Adamant Charge | Using Skill to dispel buff(s) increases SPD by 10% for 2 turn(s). |
@@ -245,86 +245,86 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：效果命中 / 速度 / 生命值 / 能量恢复效率
 
 **推荐副词条**：速度 / 效果命中 / 暴击率 / 暴击伤害 / 攻击力
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|戍卫风雪的铁卫]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/戍卫风雪的铁卫\|Guard of Wuthering Snow]] | 回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|梦想之地匹诺康尼]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/折断的龙骨\|折断的龙骨]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
-| [[zh_cn/relic/位面饰品/生命的翁瓦克\|生命的翁瓦克]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+| [[zh_cn/relic/位面饰品/梦想之地匹诺康尼\|Penacony, Land of the Dreams]] | 使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/新手任务开始前.md|新手任务开始前]]
+### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：眼疾手快
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
 
-### [[zh_cn/lightcone/虚无/雨一直下.md|雨一直下]]
+### [[zh_cn/lightcone/虚无/雨一直下.md|Incessant Rain]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：幻影现实
 - **效果**：使装备者的效果命中提高【24%/28%/32%/36%/40%】。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高【12%/14%/16%/18%/20%】。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高【12%/14%/16%/18%/20%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|决心如汗珠般闪耀]]
+### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：回眸
 - **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助/副C | 辅助 | 生存 |
 |---|---|---|---|
-| [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
+| [[zh_cn/character/智识/青雀_量子_四星.md\|青雀]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 | [[zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] | [[zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/毁灭/镜流_冰_五星.md\|镜流]] |
-| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|黄泉]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |
+| [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] | [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |
 | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] | [[zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 行事周密的银鬃铁卫情报官，年纪不大但头脑出众。无论是部队调动、物资分配还是地形状况，佩拉都能冷静地即问即答，毫无错漏。至于佩拉的手机壳…「这与工作无关，长官。」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 以下内容摘录自《银鬃铁卫面试选拔记录•情报部•第二十四卷》一〇二页。  有关应试者的个人基本信息——  「本人的名字是佩拉格娅•谢尔盖耶夫娜，您可以叫我『佩拉』。」「本人毕业于贝洛伯格士官学校社会科学学院及理学院，获战争研究学与情报学双荣誉学士学位。」「您问兴趣爱好？不好意思，请给我一些组织语言的时间……」「…本人的爱好是『贝洛伯格史前音乐研究』。就是这样。」「没了，没有其他兴趣爱好了…真的，请相信我，大人。」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 以下内容摘录自《银鬃铁卫面试选拔记录•情报部•第二十四卷》一〇三页。  有关为何是荣誉学士学位——  「大人，请允许我向您复述《贝洛伯格士官教育及学位军衔授予规则》第三编第五章第二十三节第一条第七款中的相关内容……」「若学位授予对象未满足最低年龄需求、且已修满目标专业教学计划学分时，应授予对象『荣誉学士』学位头衔。」「是的，本人目前没有任何继续进修的计划——将来也不会有。」「实践胜于理论，大人。」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 雪夜的贝洛伯格，停滞的巨大座钟下，少女们的嬉笑声从某扇格栅窗中随温暖的灯光流溢而出。  「『贝洛伯格史前音乐研究』？！这也太扯了吧！可可利亚她就没追问吗？」稍显成熟的女性笑得前仰后合。  「请称呼她为可可利亚大人，希露瓦。」一位娇小的女孩撇了撇嘴，又将起了薄雾的圆框眼镜取下：「她肯定知道我在你的乐队里打下手。」  戴着猫耳绒帽的少女附和道——即使在室内，她也不愿摘下那顶可爱的帽子：「…真不愧是你。那可可利亚大人知道你的其他爱好是什么吗？」  「哈，她肯定不知道，」被称作希露瓦的女性从地铺上起身，「同住那么久，我就没见她读过小说——她说这东西纯属浪费时间……」  「好啦，佩拉、玲可——明天还要陪你们参加《奇谭》交流会呢，该睡了哦。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 如果你熟稔贝城大小坊间传闻，那你一定不会错过《雪国冒险奇谭》；如果你又恰巧是它的狂热粉丝，那你绝对听说过「《雪国冒险奇谭》交流会」——时间地点不定，且只有收到邀请才能前往会场、一睹其真实风貌。  交流会的参与者只分作两类：享受创作的「生产者」与享受前者创意结晶的「消费者」。他们皆怀着对《雪国冒险奇谭》的真情实感，为贝城文学史上这座不朽丰碑添砖加瓦。  在那之中，又诞生了这样一位传奇人物——传说她是娇小的女性；传说她从未错过任何一场交流会；传说她总是佩戴面具；传说她曾为某绝版画册一掷千金；传说她也偶有产出，每次创作都会引发整个粉丝圈子的巨大轰动……  「这么多传说，怎么不见与铁卫相关的……」「看来…我伪装得确实不错呢，哼哼~」

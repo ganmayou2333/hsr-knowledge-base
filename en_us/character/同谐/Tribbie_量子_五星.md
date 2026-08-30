@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Tribbie |
-| 命途 | Harmony |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 自那三相神谕垂怜的圣地，信使分作千身，启程远行。 雅努萨波利斯的圣女，缇里西庇俄丝，窃夺「门径」火种的黄金裔，为众生奔走，令救世的讯息晓喻大地 ——找寻那流淌黄金神血的人子，冲破世间至暗，去往星月满天的明日。 |
+| Character Name | Tribbie |
+| Path | Harmony |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 自那三相神谕垂怜的圣地，信使分作千身，启程远行。 雅努萨波利斯的圣女，缇里西庇俄丝，窃夺「门径」火种的黄金裔，为众生奔走，令救世的讯息晓喻大地 ——找寻那流淌黄金神血的人子，冲破世间至暗，去往星月满天的明日。 |
 | 城邦 | 雅努萨波利斯，奥赫玛 |
 | 神权 | 「万径之门，雅努斯」 |
-| 定位 | 展开结界增益我方的辅助型角色 |
+| Role | 展开结界增益我方的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 遠野ひかる |
-| 英语 | Hayden Daviau |
-| 中文 | 蔡书瑾 |
-| 韩语 | 방연지 |
+| Japanese | 遠野ひかる |
+| English | Hayden Daviau |
+| Chinese | 蔡书瑾 |
+| Korean | 방연지 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,048 |
-| 基础攻击力 | 524 |
-| 基础防御力 | 728 |
-| 基础速度 | 96 |
-| 嘲讽 | 100 |
-| 能量上限 | 120 |
+| Base HP | 1,048 |
+| Base ATK | 524 |
+| Base DEF | 728 |
+| Base SPD | 96 |
+| Taunt | 100 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/暗帷月华\|暗帷月华]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暗帷月华\|Darkveil Moonlight]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/云际音符\|云际音符]] | 12 |
-| [[zh_cn/items/Material/TracePath/空际小节\|空际小节]] | 53 |
-| [[zh_cn/items/Material/TracePath/天外乐章\|天外乐章]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/云际音符\|Firmament Note]] | 12 |
+| [[zh_cn/items/Material/TracePath/空际小节\|Celestial Section]] | 53 |
+| [[zh_cn/items/Material/TracePath/天外乐章\|Heavenly Melody]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 28 |
 
 ---
-## 战技
-### 普攻：Hundred Rockets
+## Skills
+### Basic ATK：Hundred Rockets
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one enemy and adjacent targets.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to #2[i]% of Tribbie's Max HP to adjacent targets.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 15% | 7.5% |
   | Lv.2 | 18% | 9% |
@@ -100,14 +100,14 @@
 
 - **满级效果**：Deals Quantum DMG equal to 42% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to 21% of Tribbie's Max HP to adjacent targets.
 
-### 战技：Where'd the Gifts Go
+### Skill：Where'd the Gifts Go
 - **类型**：Skill
 - **简述**：Gains "Numinosity," during which all ally targets have their All-Type RES PEN increased.
 - **最大等级**：15
 - **效果模板**：Gains "Numinosity," lasting for #2[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 |
+| Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 12% | 3 |
   | Lv.2 | 13.2% | 3 |
@@ -131,7 +131,7 @@
 
 - **满级效果**：Gains "Numinosity," lasting for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
 
-### 终结技：Guess Who Lives Here
+### Ultimate：Guess Who Lives Here
 - **类型**：Ultimate
 - **简述**：Activates a Zone and deals minor Quantum DMG to all enemies. While the Zone lasts, increases the DMG taken by enemies and deals minor Quantum Additional DMG to the target that has the highest HP among the hit targets based on the number of enemies attacked.
 - **最大等级**：15
@@ -142,7 +142,7 @@ The Zone lasts for #4[i] turn(s). This duration decreases by 1 at the start of t
 结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 15% | 15% | 6% | 2 |
   | Lv.2 | 16.5% | 16.5% | 6.6% | 2 |
@@ -172,14 +172,14 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 结界持续期间，敌方目标受到的伤害提高#2[f1]%。受到我方目标攻击后，每有1名目标受到攻击，会对被攻击目标中当前生命值最高的目标造成1次等同于缇宝#3[f1]%生命上限的量子属性附加伤害。
 结界持续2回合，自身每回合开始时结界持续回合数减1。
 
-### 天赋：Busy as Tribbie
+### Talent：Busy as Tribbie
 - **类型**：Talent
 - **简述**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing minor Quantum DMG to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters.
 - **最大等级**：15
 - **效果模板**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 9% |
   | Lv.2 | 9.9% |
@@ -202,14 +202,14 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 
 - **满级效果**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
 
-### 秘技：If You're Happy and You Know It
+### Technique：If You're Happy and You Know It
 - **类型**：Technique
 - **简述**：When entering battle, obtains "Numinosity."
 - **最大等级**：1
 - **效果模板**：After using Technique and upon entering battle, obtains "Numinosity," lasting for #1[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1 |
+| Level | 参数1 |
   |---|---|
   | Lv.1 | 3 |
 
@@ -218,27 +218,27 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 
 - **满级效果**：After using Technique and upon entering battle, obtains "Numinosity," lasting for 3 turn(s).
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 城墙外的羊羔儿… | 晋阶2 | 施放天赋的追加攻击后，缇宝造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续#3[i]回合。 | 施放天赋的追加攻击后，缇宝造成的伤害提高72%，该效果最多叠加3层，持续3回合。 | 信用点×5000、云际音符×3、同愿的遗音×1 |
 | 附加能力2 | 长翅膀的玻璃球！ | 晋阶4 | 结界持续期间，缇宝的生命上限提高，提高数值等同于我方全体角色生命上限之和的#1[i]%。 | 结界持续期间，缇宝的生命上限提高，提高数值等同于我方全体角色生命上限之和的9%。 | 信用点×20000、空际小节×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 岔路旁的小石子？ | 晋阶6 | 战斗开始时，缇宝恢复#1[i]点能量。我方其他目标攻击后，每击中1个目标使缇宝恢复#2[f1]点能量。 | 战斗开始时，缇宝恢复30点能量。我方其他目标攻击后，每击中1个目标使缇宝恢复#2[f1]点能量。 | 信用点×160000、天外乐章×8、命运的足迹×1、同愿的遗音×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
+| HP | 10% |
 | 暴击率 | 12% |
 | 暴击伤害 | 37.3% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Rite of Sugar Scoop | While the Zone lasts and after ally targets attack enemies, additionally deals True DMG equal to 24% of the total DMG of this attack to targets that have been dealt Additional DMG by the Zone. |
 | E2 | Guide of Dream Tour | The Additional DMG dealt by the Zone increases to 120% of the original DMG. When the Zone deals Additional DMG, further deals 1 instance(s) of Additional DMG. |
@@ -249,69 +249,69 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击伤害 / 生命值 / 量子属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 生命值
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/哀歌覆国的诗人\|哀歌覆国的诗人]] | 使装备者的速度降低8%。进入战斗前，若装备者的速度小于110/95，使装备者的暴击率提高20%/32%。该效果同时对装备者的忆灵生效。 |
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/哀歌覆国的诗人\|Poet of Mourning Collapse]] | 使装备者的速度降低8%。进入战斗前，若装备者的速度小于110/95，使装备者的暴击率提高20%/32%。该效果同时对装备者的忆灵生效。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/谧宁拾骨地\|Bone Collection's Serene Demesne]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/如果时间是一朵花.md|如果时间是一朵花]]
+### [[zh_cn/lightcone/同谐/如果时间是一朵花.md|If Time Were a Flower]]
 
 - **基础属性**：生1270 攻529 防397
 - **推荐度**：★★★★★
 - **技能名**：希冀
 - **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。装备者施放追加攻击后额外恢复12点能量，并获得【谕示】持续2回合。当装备者持有【谕示】时，我方全体目标的暴击伤害提高【48%/60%/72%/84%/96%】。进入战斗时，装备者恢复21点能量，并获得【谕示】，持续2回合。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-### [[zh_cn/lightcone/同谐/轮契.md|轮契]]
+### [[zh_cn/lightcone/同谐/轮契.md|Meshing Cogs]]
 
 - **基础属性**：生846 攻317 防294
 - **推荐度**：★★★
 - **技能名**：速决
 - **效果**：使装备者施放攻击或受到攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 辅C | [[zh_cn/character/同谐/缇宝_量子_五星.md\|缇宝]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|大黑塔]] |
-| [[zh_cn/character/智识/翡翠_量子_五星.md\|翡翠]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/智识/希露瓦_雷_四星.md\|希露瓦]] |
+| 辅C | [[zh_cn/character/同谐/缇宝_量子_五星.md\|Tribbie]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|The Herta]] |
+| [[zh_cn/character/智识/翡翠_量子_五星.md\|Jade]] | [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/智识/希露瓦_雷_四星.md\|Serval]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 自那三相神谕垂怜的圣地，信使分作千身，启程远行。
 雅努萨波利斯的圣女，缇里西庇俄丝，窃夺「门径」火种的黄金裔，要为众生奔走，令救世的讯息晓喻大地
 ——找寻那流淌黄金神血的人子，冲破世间至暗，去往星月满天的明日。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「▇▇▇月▇▇日
 逃离雅努萨波利斯，至今已有十年。
@@ -334,7 +334,7 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 ——一篇年代久远的日记
 纸张已薄如蝉翼，由缇安放在一个娃娃的怀中
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「▇▇▇月▇▇日
 『圣女呵，我们愿意倾听，在末世为我们指引方向吧，替我们祈祷战争的胜利吧。』那些王说。
@@ -365,7 +365,7 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 ——缇宁保存着的一篇日记
 上面画着划过天空的流星
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「▇▇▇月▇▇日
 我们初见阿雅的时候，她说喜欢缇里西庇俄丝这个名字，听起来又高贵又美丽，就像她编织的衣服。我们问她，就为了这个把我们留下？她摇摇头，说，主要是想听老师每天晚上讲故事。
@@ -384,7 +384,7 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 ——一封字迹虚弱的日记
 缇安在回忆，缇宁提笔写，缇宝来补充
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「▇▇▇月▇▇日
 梦越来越模糊了…听小风堇说，这是因为能记住的东西越来越少啦。

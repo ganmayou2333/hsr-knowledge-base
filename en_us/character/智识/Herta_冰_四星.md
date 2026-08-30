@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Herta |
-| 命途 | Erudition |
-| 属性 | Ice |
-| 稀有度 | ★★★★ |
-| 阵营 | 空间站「黑塔」 |
-| 角色介绍 | 「天才俱乐部」#83号会员，空间站的真正主人。智慧过人却毫无同理心的大科学家。 |
-| 定位 | 将敌人血量削减至一半以下触发追击的输出型角色 |
+| Character Name | Herta |
+| Path | Erudition |
+| Attribute | Ice |
+| Rarity | ★★★★ |
+| Faction | 空间站「黑塔」 |
+| Introduction | 「天才俱乐部」#83号会员，空间站的真正主人。智慧过人却毫无同理心的大科学家。 |
+| Role | 将敌人血量削减至一半以下触发追击的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 山崎はるか |
-| 英语 | PJ Mattson |
-| 中文 | 侯小菲 |
-| 韩语 | 김서영 |
+| Japanese | 山崎はるか |
+| English | PJ Mattson |
+| Chinese | 侯小菲 |
+| Korean | 김서영 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 953 |
-| 基础攻击力 | 582 |
-| 基础防御力 | 397 |
-| 基础速度 | 100 |
-| 嘲讽 | 75 |
-| 能量上限 | 110 |
+| Base HP | 953 |
+| Base ATK | 582 |
+| Base DEF | 397 |
+| Base SPD | 100 |
+| Taunt | 75 |
+| Max Energy | 110 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/风雪之角\|风雪之角]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/风雪之角\|Horn of Snow]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/灵感之钥\|灵感之钥]] | 8 |
-| [[zh_cn/items/Material/TracePath/启迪之钥\|启迪之钥]] | 42 |
-| [[zh_cn/items/Material/TracePath/智识之钥\|智识之钥]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/灵感之钥\|Key of Inspiration]] | 8 |
+| [[zh_cn/items/Material/TracePath/启迪之钥\|Key of Knowledge]] | 42 |
+| [[zh_cn/items/Material/TracePath/智识之钥\|Key of Wisdom]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|Extinguished Core]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|Glimmering Core]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|Squirming Core]] | 20 |
 
 ---
-## 战技
-### 普攻：What Are You Looking At?
+## Skills
+### Basic ATK：What Are You Looking At?
 - **类型**：Basic ATK
 - **简述**：Deals minor Ice DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Herta's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 140% of Herta's ATK to one designated enemy.
 
-### 战技：One-Time Offer
+### Skill：One-Time Offer
 - **类型**：Skill
 - **简述**：Deals minor Ice DMG to all enemies. Targets with higher HP will receive increased DMG.
 - **最大等级**：15
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies. If the enemy's HP percentage is #2[i]% or higher, DMG dealt to this target increases by #3[i]%.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 50% | 50% | 20% |
   | Lv.2 | 55% | 50% | 20% |
@@ -129,14 +129,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 125% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.
 
-### 终结技：It's Magic, I Added Some Magic
+### Ultimate：It's Magic, I Added Some Magic
 - **类型**：Ultimate
 - **简述**：Deals Ice DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 120% |
   | Lv.2 | 128% |
@@ -159,14 +159,14 @@
 
 - **满级效果**：Deals Ice DMG equal to 240% of Herta's ATK to all enemies.
 
-### 天赋：Fine, I'll Do It Myself
+### Talent：Fine, I'll Do It Myself
 - **类型**：Talent
 - **简述**：When any ally target's attack reduces the enemy target's current HP percentage to 50% or lower, Herta immediately launches Follow-Up ATK, dealing minor Ice DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：When an ally target's attack causes an enemy target's HP percentage to fall to #1[i]% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) |
+| Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 50% | 25% |
   | Lv.2 | 50% | 26.5% |
@@ -190,14 +190,14 @@
 
 - **满级效果**：When an ally target's attack causes an enemy target's HP percentage to fall to 50% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to 47.5% of Herta's ATK to all enemies.
 
-### 秘技：It Can Still Be Optimized
+### Technique：It Can Still Be Optimized
 - **类型**：Technique
 - **简述**：After using Technique, increases this unit's ATK at the start of the next battle.
 - **最大等级**：1
 - **效果模板**：After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 40% | 3 |
 
@@ -207,27 +207,27 @@
 
 - **满级效果**：After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 效率 | 晋阶2 | 施放战技时，对目标造成的伤害提高效果额外再提高#1[i]%。 | 施放战技时，对目标造成的伤害提高效果额外再提高25%。 | 信用点×4000、灵感之钥×2、毁灭者的末路×1 |
 | 附加能力2 | 人偶 | 晋阶4 | 抵抗控制类负面状态的概率提高#1[i]%。 | 抵抗控制类负面状态的概率提高35%。 | 信用点×16000、启迪之钥×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 冰结 | 晋阶6 | 施放终结技时，对冻结状态下的敌人造成的伤害提高#1[i]%。 | 施放终结技时，对冻结状态下的敌人造成的伤害提高20%。 | 信用点×128000、智识之钥×6、命运的足迹×1、毁灭者的末路×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 防御力 | 22.5% |
+| DEF | 22.5% |
 | 暴击率 | 6.7% |
 | 冰属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Kick You When You're Down | When using Basic ATK, if the designated enemy's HP percentage is at 50% or less, additionally deals Ice Additional DMG equal to 40% of Herta's ATK. |
 | E2 | Keep the Ball Rolling | Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s). |
@@ -238,76 +238,76 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 攻击力 / 冰属性伤害提高 / 攻击力
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|识海迷坠的学者]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[zh_cn/relic/隧洞遗器/密林卧雪的猎人\|Hunter of Glacial Forest]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
-| [[zh_cn/relic/位面饰品/停转的萨尔索图\|停转的萨尔索图]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
-| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|奔狼的都蓝王朝]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/智识/拂晓之前.md|拂晓之前]]
+### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：长夜
 - **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
 
-### [[zh_cn/lightcone/智识/银河铁道之夜.md|银河铁道之夜]]
+### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
 - **基础属性**：生1164 攻582 防396
 - **推荐度**：★★★★
 - **技能名**：流星群
 - **效果**：当场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
 
-### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|今日亦是和平的一日]]
+### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
 - **基础属性**：生846 攻529 防330
 - **推荐度**：★★★★
 - **技能名**：风雨将至
 - **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
 
-### [[zh_cn/lightcone/智识/「我」的诞生.md|「我」的诞生]]
+### [[zh_cn/lightcone/智识/「我」的诞生.md|The Birth of the Self]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：画像少女
 - **效果**：使装备者追加攻击造成的伤害提高【24%/30%/36%/42%/48%】。若该敌方目标当前生命值百分比小于等于50%，则追加攻击造成的伤害额外提高【24%/30%/36%/42%/48%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/智识/姬子_火_五星.md\|姬子]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
-| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|大黑塔]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
-| [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|佩拉]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|砂金]] |
+| [[zh_cn/character/智识/姬子_火_五星.md\|Himeko]] | [[zh_cn/character/智识/黑塔_冰_四星.md\|黑塔]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
+| [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/智识/大黑塔_冰_五星.md\|The Herta]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[zh_cn/character/丰饶/灵砂_火_五星.md\|灵砂]] | [[zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 空间站「黑塔」真正的主人。
 身为湛蓝星智商最高的人类，只做自己感兴趣的事，一旦失去兴趣就立刻走人——空间站就是最好的例子。
 平时以远程操纵的人偶形态登场：「跟我小时候比，勉强七分相似吧。」——黑塔本人。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 黑塔女士的手稿是极为宝贵的资产。
 
@@ -319,7 +319,7 @@
 
 当然，我们都坚信并认可，这并非黑塔女士怠于完成那部著作，所以将随手编写的稿纸到处乱放，方便以后应付投资方的时候，可以说一句——「写完了，但是找不到了」。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 众所周知，获得空间站「黑塔」的科研资格已成为了广大研究者的共同目标，今天我们就来采访一下空间站的主人，黑塔女士。黑塔女士，请问您成立这样一处科研绿洲的契机是什么呢？
 
@@ -331,7 +331,7 @@
 
 这…如此严厉的警告，一定是成就黑塔女士的必然要素。区区反物质军团，你也敢进黑塔女士的空间站，你不配被黑塔女士放在眼里！那么我们进入下一个问题！
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 最近空间站的研究进度受到事故的冲击，有所延后。不少科员捶胸顿足，为辜负了黑塔女士的信任与青睐而自责，请问黑塔女士，您有没有什么话想跟大家说？
 
@@ -349,7 +349,7 @@
 
 「那就回家睡觉呗。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 黑塔女士还真是体贴啊，确实，「天才俱乐部」成员们研究的东西一般人可能连标题都看不懂。那我们还是聊点别的，空间站里都是您忠诚的支持者，大家对您的个人情况也充满了好奇。比如说您一直在写的手稿，请问黑塔女士，您打算什么时候出版最新篇章呢？
 

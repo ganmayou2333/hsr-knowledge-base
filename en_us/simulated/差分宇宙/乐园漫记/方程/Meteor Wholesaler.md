@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Meteor Wholesaler |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 4巡猎+2繁育 |
+| Name | Meteor Wholesaler |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 4巡猎+2繁育 |
 
 
-## 效果
+## Effect
 
 我方目标每获得1%的行动提前效果，都会使下回合施放攻击后，额外造成等于原伤害0.5%的真实伤害，最多计入50%的真实伤害，【蝶魄】状态下额外造成原伤害50%的真实伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

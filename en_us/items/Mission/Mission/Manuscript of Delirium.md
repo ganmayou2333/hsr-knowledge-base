@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Manuscript of Delirium |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Manuscript of Delirium |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 只需要看一眼就能使人疯狂的禁书。每个受害者的疯狂体验不一而足，但大多危险无比。
 
 
-## 获得途径
+## Acquisition
 
 - 在太卜司与焦急的女人对话

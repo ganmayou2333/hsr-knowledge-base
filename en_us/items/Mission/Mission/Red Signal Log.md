@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Red Signal Log |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Red Signal Log |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 记录着莱斯莉的肯定回复与星震真相的转译录，既有最为醉人的甜蜜，也有最为残酷的隐秘。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【致：黯淡星】

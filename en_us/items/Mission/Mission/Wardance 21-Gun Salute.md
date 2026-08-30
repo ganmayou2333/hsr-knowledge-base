@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Wardance 21-Gun Salute" |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | "Wardance 21-Gun Salute" |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 竞锋舰火力系统工程师老白交予你的玉兆，里面存着他写好的程序，能够使竞锋舰射出二十一发礼炮。
 
 
-## 获得途径
+## Acquisition
 
 - 与【仙舟「罗浮」-竞锋舰-老白】对话获得

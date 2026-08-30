@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Die Austreibung des Anderen |
-| 类型 | 祝福（同名合并） |
-| 命途 | 虚无 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | Die Austreibung des Anderen |
+| Type | Blessing (merged) |
+| Path | 虚无 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616257 | Every time an enemy target receives a DoT, regenerates 1.0 Energy for a random ally target. Enemy targets can trigger this effect for a max of 20 time(s) in one turn. |
 | 617257 | Every time an enemy target takes 1 instance of DoT, regenerates 1.0 Energy for a random ally target. Enemy targets can trigger this effect for a max of 20 time(s) in one turn. |

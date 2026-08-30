@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Path Through the Woods |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Path Through the Woods |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方目标进入战斗时，获得30层【怀疑】。
 
-## 强化效果
+## Enhanced Effect
 
 敌方目标进入战斗时，获得45层【怀疑】。

@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Giant Bird That Covers the Land |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | Giant Bird That Covers the Land |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：当欧洛尼斯的幻夜尚且独占着天幕，无垠的永夜中，一只翅膀足以遮蔽大地的巨鸟睁开了眼眸。
 差分宇宙：艾格勒感受着身边的一切，它睁开第一双眼睛，可昏暗的世界让它无法看清；它睁开第二双眼睛，但黑暗仍然笼罩着万物。
@@ -25,7 +25,7 @@
 差分宇宙：当艾格勒看清这个世界，世界便也在它的眼中。它的眼中发出炽热而绝对的光亮，盖过了「永夜之帷」和嵌于其上的群星。
 差分宇宙：黑夜消散了，大地迎接着世界诞生以来的第一缕阳光。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 赞美阳光！ | — |
 | 还是星空更好。 | — |
@@ -64,6 +64,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 245 |  |

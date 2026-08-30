@@ -4,20 +4,20 @@
 > 实体ID：117
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/2371/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Pioneer Diver of Dead Waters |
-| 类型 | 隧洞遗器 |
-| 实体ID | 117 |
-## 获取途径
+| Name | Pioneer Diver of Dead Waters |
+| Type | 隧洞遗器 |
+| Entity ID | 117 |
+## Acquisition
 梦潜之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases DMG dealt to enemies with debuffs by 12%.
 ### 4 件套
 Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).
-## 部位
+## Pieces
 ### 手部：先驱的虚极罗盘
 **描述**：一块腕表式指南针，磁针已被拆去，不再能指示任何方向。
 **来历**：

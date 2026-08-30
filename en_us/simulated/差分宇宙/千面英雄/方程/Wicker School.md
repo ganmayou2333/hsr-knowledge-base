@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Wicker School |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*2欢愉*2 |
+| Name | Wicker School |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*2欢愉*2 |
 
 
-## 效果
+## Effect
 
 敌方目标受到的持续伤害提高20%，受到追加攻击后，为【呢喃】充能，充能值等同于清除阈值的2%。
 
-## 强化效果
+## Enhanced Effect
 
 -

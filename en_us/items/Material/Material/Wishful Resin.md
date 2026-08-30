@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Wishful Resin |
-| 用途 | 消耗品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Wishful Resin |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 用于定制遗器的稀世材料，可以指定合成最多两种副属性。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 无名勋礼
 - 「万能合成机」- 使用自塑尘脂合成

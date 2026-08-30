@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Rule-Sundering King |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Rule-Sundering King |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 白昼与黑夜切换间隔缩短25%，最多缩短50%。进入黑夜时，我方目标造成的最终伤害提高30%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

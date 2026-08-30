@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Before Dawn |
-| 命途 | Erudition |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Before Dawn |
+| Path | Erudition |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 "Do not make this decision lightly, general... Think about how you will be remembered in history..."
 The general of the Cloud Knights listens to his subordinates' words with eyes half-closed.
@@ -25,18 +25,18 @@ The general of the Cloud Knights listens to his subordinates' words with eyes ha
 A finch jumps down from his shoulder, and he extends his hand to catch the small creature.
 "I have simply made my own decision."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 582 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### Long Night
 
 Increases the wearer's CRIT DMG by 36%. Increases DMG dealt by the wearer's Skill and Ultimate by 18%. After the wearer uses Skill or Ultimate, gains "Somnus Corpus." Upon triggering a Follow-Up ATK, consumes "Somnus Corpus," and increases DMG dealt by Follow-Up ATK by 48%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

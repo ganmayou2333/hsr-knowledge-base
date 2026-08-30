@@ -7,25 +7,25 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Fortune Glue |
-| 类型 | 奇物（同名合并） |
-| 星级 | 2星 |
+| Name | Fortune Glue |
+| Type | 奇物（同名合并） |
+| Rarity | 2星 |
 
 
-## 效果
+## Effect
 
 > 该名称对应 3 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 7 | When choosing your Blessings after winning a battle, all Blessings that appear are guaranteed to be of 3-star rarity. This Curio will be destroyed once this effect has been triggered 1 time(s). |
 | 1007 | When choosing your Blessings after winning a battle, all Blessings that appear are guaranteed to be of 3-star rarity. This Curio will be destroyed once this effect has been triggered 1 time(s). |
 | 3007 | When choosing your Blessings after winning a battle, all Blessings that appear are guaranteed to be of 3-star rarity. This Curio will be destroyed once this effect has been triggered 1 time(s). |
 
-## 背景故事
+## Story
 
 运气是一种能力吗？也许；运气能够被改变吗？黑塔认为能。这位天才发明了「福灵胶」，将它涂抹在眼皮上，将获得整整24个系统时的好运。黑塔太空站的许多人欣喜若狂地试用这项发明，他们全都度过了波澜不惊的一天，这说明在动荡的世界上，能平凡地生活就已经很好运了。

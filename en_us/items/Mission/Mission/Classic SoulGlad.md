@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Classic SoulGlad |
-| 用途 | 任务道具 / 消耗品 |
-| 评级 | ★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Classic SoulGlad |
+| Use | 任务道具 / 消耗品 |
+| Rarity | ★★ |
+| Type | Mission / 任务道具 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 匹诺康尼-「白日梦」酒店-现实-安得森
 - 「万能合成机」

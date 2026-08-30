@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Butterflies on the Returning Road |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Butterflies on the Returning Road |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 我方目标每次生命值降低后，使造成的最终伤害提高2%，单次行动内最多触发1次，单个昼夜内最多叠加60%，昼夜切换后重置。
 
-## 强化效果
+## Enhanced Effect
 
 -

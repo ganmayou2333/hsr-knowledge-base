@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Starlight Bandits |
-| 类型 | 祝福（差分宇宙） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | Starlight Bandits |
+| Type | Blessing (DU) |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 【发牌员】行动时的攻击次数提高4次，且攻击目标更改为当前生命上限最高的敌方目标，造成伤害时，使其额外陷入2层【逆会心】，并在攻击后使我方全体行动提前25%，此效果每个敌方目标每回合最多触发1次。

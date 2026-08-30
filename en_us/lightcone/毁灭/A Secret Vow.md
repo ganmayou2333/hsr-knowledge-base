@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | A Secret Vow |
-| 命途 | Destruction |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | A Secret Vow |
+| Path | Destruction |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The boy would always make sure that his gloves and elbow guards were in good shape before leaving.
 He treasured his gloves more than anything because they were tight enough to hide secrets.
@@ -23,18 +23,18 @@ With this layer of protection, no one could see the bandages on his hand and the
 He would be treated as if he was normal, and he would be greeted just like everyone else.
 That was all he asked for.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 476 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Spare No Effort
 
 Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

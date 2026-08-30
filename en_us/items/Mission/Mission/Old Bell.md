@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Old Bell |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Old Bell |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 古旧的铃铛。能发出清脆的声音，似乎是用于招来小动物的道具。
 
-## 获得途径
+## Acquisition
 
 - 1.5活动冒险任务【罗浮异闻•凶宅】

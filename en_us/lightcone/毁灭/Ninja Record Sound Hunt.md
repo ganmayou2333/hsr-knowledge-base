@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Ninja Record: Sound Hunt |
-| 命途 | Destruction |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Ninja Record: Sound Hunt |
+| Path | Destruction |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 In the realm of Cosmic Ninjutsu, ever-changing grace,
 Hear the echoes of my hunting chase!
@@ -33,18 +33,18 @@ The Dazzling! The Dazzling! An epic foretold!
 Yo. Yo. In this wild world. Let the hearts go ablaze.
 Sing out loud, chant your soul, and let's embrace the utter craze!
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 476 | 265 |
 
-## 叠影效果
+## Superimposition
 
 ### Curtains Up!
 
 Increases the wearer's Max HP by 12%. When losing or restoring this unit's HP, increases CRIT DMG by 18%, lasting for 2 turn(s). This effect can only trigger once per turn.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Sparse Aether |
-| 用途 | 光锥经验材料 |
-| 评级 | ★★ |
-| 类型 | Material / 物品 |
+| Item Name | Sparse Aether |
+| Use | Light Cone EXP |
+| Rarity | ★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 光锥强化材料，可为光锥提供500点经验值。
 
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【回星港】
 - 拟造花萼【占卜司】

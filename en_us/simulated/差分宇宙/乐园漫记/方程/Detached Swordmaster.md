@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Detached Swordmaster |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2欢愉+2巡猎 |
+| Name | Detached Swordmaster |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2欢愉+2巡猎 |
 
 
-## 效果
+## Effect
 
 我方目标欢愉度提高25%，每有1名敌方目标被消灭，额外提高15%。
 
-## 强化效果
+## Enhanced Effect
 
 -

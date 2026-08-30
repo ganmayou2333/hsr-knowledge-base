@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Cold Snap |
-| 类型 | 祝福 |
-| 命途 | 存护&记忆 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Cold Snap |
+| Type | Blessing |
+| Path | 存护&记忆 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 命途回响「存护」攻击处于冻结状态下的敌方目标时，造成的伤害提高80%，并解除敌方目标陷入的冻结状态，【离神】不会被该效果解除。
 
-## 强化效果
+## Enhanced Effect
 
 -

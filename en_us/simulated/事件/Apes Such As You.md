@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Apes Such As You |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_21.png` |
+| Name | Apes Such As You |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_21.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 安全而和缓地抚摸。 | 获得150宇宙碎片/获得2个随机奇物。 |
 | 要勇于承担风险！ | 获得2个随机奇物、2个随机祝福和200宇宙碎片/获得2个随机奇物/进入战斗，胜利后获得获得2个随机奇物、2个随机祝福和200宇宙碎片。 |
@@ -29,6 +29,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 422001 |  |

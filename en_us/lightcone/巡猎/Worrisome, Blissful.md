@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Worrisome, Blissful |
-| 命途 | The Hunt |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Worrisome, Blissful |
+| Path | The Hunt |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 For a competent IPC professional, "feeling overwhelmed" is absolutely not allowed.
 Stand tall and take on whatever comes your way, be it burnout or overwork! 
@@ -25,18 +25,18 @@ A girl who just returned home from working overtime is pinned down by a group of
 They may not fully understand her words, simply nuzzling their round heads closer to her palm.
 The feeling of exhaustion gradually fades from her body, replaced by the warmth and comfort brought by stroking their fur.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 582 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### One At A Time
 
 Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

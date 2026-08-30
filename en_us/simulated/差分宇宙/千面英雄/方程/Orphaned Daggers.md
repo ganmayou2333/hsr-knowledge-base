@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Orphaned Daggers |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 巡猎*4毁灭*2 |
+| Name | Orphaned Daggers |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 巡猎*4毁灭*2 |
 
 
-## 效果
+## Effect
 
 【会心】上限提高4层。全队每累计损失等同于全体生命值之和15%的生命值，下一个行动的我方目标回合开始时立即获得1层【会心】。
 
-## 强化效果
+## Enhanced Effect
 
 -

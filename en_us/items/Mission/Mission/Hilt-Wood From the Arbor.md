@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Hilt-Wood From the Arbor |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Hilt-Wood From the Arbor |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在西衍先生的故事中，这是建木生长而成的兵器柄材。但在你的眼中，这就是个树杈子。
 
 
-## 获得途径
+## Acquisition
 
 - 1.2活动冒险任务【评书奇谭•第三回】

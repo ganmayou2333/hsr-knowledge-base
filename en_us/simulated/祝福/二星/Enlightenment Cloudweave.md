@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Enlightenment: Cloudweave |
-| 类型 | 祝福（同名合并） |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Enlightenment: Cloudweave |
+| Type | Blessing (merged) |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616140 | When an ally target is attacked, gain 2 stack(s) of "Obsession." |
 | 617140 | When an ally target is attacked, gains 2 stack(s) of "Obsession." |

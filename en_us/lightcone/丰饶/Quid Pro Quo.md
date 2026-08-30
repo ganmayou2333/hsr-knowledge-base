@@ -6,34 +6,34 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Quid Pro Quo |
-| 命途 | Abundance |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Quid Pro Quo |
+| Path | Abundance |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 After enjoying an intense massage from the dragon girl,
 the foxian girl held out her hand and playfully pinched the dragon girl's little chubby cheeks.
 The little girl then pouted her lips, clearly offended, only to elicit a gleeful giggle from the foxian girl.
 "Now that's what I call a proper quid pro quo."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 423 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Enjoy With Rapture
 
 At the start of the wearer's turn, regenerates 8 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

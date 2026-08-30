@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Clockwork Inspiration Notebook |
-| 用途 | 角色培养材料 |
-| 评级 | ★★★★ |
-| 类型 | Material / 普通材料 |
+| Item Name | Clockwork Inspiration Notebook |
+| Use | 角色培养材料 |
+| Rarity | ★★★★ |
+| Type | Material / 普通材料 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

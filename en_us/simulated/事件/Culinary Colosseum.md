@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Culinary Colosseum |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_15.png` |
+| Name | Culinary Colosseum |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_15.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 一起上吧，我赶时间。 | 和攻擂者们战斗，胜利后获得2个1星奇物和100宇宙碎片 |
 | 往对手的桶里丢垃圾。 | 和攻擂者们战斗，胜利后舍弃最多3个负面奇物。 |
@@ -28,6 +28,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 421201 |  |

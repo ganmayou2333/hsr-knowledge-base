@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Miners Weekly Issue 205 |
-| 用途 | 第205期 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Miners Weekly Issue 205 |
+| Use | 第205期 阅读物 |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 《矿工每周报》 第205期
 
-## 获得途径
+## Acquisition
 
 - 雅利洛-VI-大矿区地图中拾取

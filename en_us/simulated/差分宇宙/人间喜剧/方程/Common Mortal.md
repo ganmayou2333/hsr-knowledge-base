@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Common Mortal |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*3智识*2 |
+| Name | Common Mortal |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*3智识*2 |
 
 
-## 效果
+## Effect
 
 敌方目标被消灭时，每有1层【怀疑】效果，我方全体恢复0.30点能量。
 
-## 强化效果
+## Enhanced Effect
 
 -

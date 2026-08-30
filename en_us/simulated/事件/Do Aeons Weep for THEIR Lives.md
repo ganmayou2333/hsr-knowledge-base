@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Do Aeons Weep for THEIR Lives? |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_03.png` |
+| Name | Do Aeons Weep for THEIR Lives? |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_03.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：书接上回，让我想想，故事讲到哪儿来着？在古老的年代，八位悲悼伶人相聚在哈托彼亚，希冀用故事换得神的眼泪。
 差分宇宙：就在第五位伶人夸夸其谈的时候，一艘点心打造的巨船遮蔽了夜空，而后——
 差分宇宙：「我就从天上走到了这里，哎呦，真是累死我了。」
 差分宇宙：你总觉得自己在哪儿见过这女人，绯红的色彩，宛如跳动的疯狂之源。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 伶人的剧团长。 | — |
 | 逃跑的剧团长。 | — |
@@ -70,6 +70,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 269 |  |

@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The IPC Promotion Saga (IV) |
-| 类型 | 事件（同名合并） |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_Bond.png` |
+| Name | The IPC Promotion Saga (IV) |
+| Type | 事件（同名合并） |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_Bond.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 你望着四周空荡荡的一片。 | 你掌握了无尽权力，但你两手空空；失去所有宇宙碎片，强化所有祝福。 |
 | 直接挑衅「P-48」塔拉梵•基恩！ | 失去50宇宙碎片，强化3个随机祝福。 |
@@ -41,7 +41,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 114204 |  |
 | 414204 |  |

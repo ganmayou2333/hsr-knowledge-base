@@ -4,20 +4,20 @@
 > 实体ID：313
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/2588/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Sigonia, the Unclaimed Desolation |
-| 类型 | 位面饰品 |
-| 实体ID | 313 |
-## 获取途径
+| Name | Sigonia, the Unclaimed Desolation |
+| Type | 位面饰品 |
+| Entity ID | 313 |
+## Acquisition
 第九世界·模拟宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%, stacking up to 10 time(s).
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：茨冈尼亚的母神卧榻
 **描述**：位面封装的是茨冈尼亚-Ⅳ最宜居的地带——死寂荒漠「母神卧榻」。三重眼的地母神沉默而朴素，以其厚重的身躯无言地包罗茨冈尼亚的一切生者和死者。
 **来历**：

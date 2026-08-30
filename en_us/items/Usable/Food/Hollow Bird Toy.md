@@ -6,23 +6,23 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Hollow Bird" Toy |
-| 用途 | 消耗品 |
-| 评级 | ★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | "Hollow Bird" Toy |
+| Use | Consumable |
+| Rarity | ★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中速度提高20%，每回合开始时消耗等同于当前生命值20%的生命值，持续5回合。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 基尔克

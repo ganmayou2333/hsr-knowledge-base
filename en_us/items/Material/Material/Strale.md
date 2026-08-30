@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Strale |
-| 用途 | 世界货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Strale |
+| Use | World Currency |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 仙舟联盟内部货币，以「巡镝」为基本货币单位，可在特供商店购买商品。
 
 
-## 获得途径
+## Acquisition
 
 - 探索仙舟「罗浮」
 - 冒险任务

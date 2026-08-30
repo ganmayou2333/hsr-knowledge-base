@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Treasure Map: Cannon |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Treasure Map: Cannon |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一幅藏宝图，揭示了藏品「加农火炮」之所在。
 
-## 获得途径
+## Acquisition
 
 - 1.1活动冒险任务【藏品收集•加农火炮】

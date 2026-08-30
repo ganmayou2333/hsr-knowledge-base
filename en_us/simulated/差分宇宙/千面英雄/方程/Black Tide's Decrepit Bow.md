@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Black Tide's Decrepit Bow |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*2巡猎*2 |
+| Name | Black Tide's Decrepit Bow |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*2巡猎*2 |
 
 
-## 效果
+## Effect
 
 我方目标攻击力提高30%，我方全体累计5次回合结束时，使【呢喃】造成的伤害提高50%。
 
-## 强化效果
+## Enhanced Effect
 
 -

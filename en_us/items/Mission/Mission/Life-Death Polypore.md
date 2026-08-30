@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Life-Death Polypore |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Life-Death Polypore |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 西衍先生在故事中虚构的灵丹妙药。他声称这些丹药都有现实原型，但你又不傻。
 
 
-## 获得途径
+## Acquisition
 
 - 1.2活动冒险任务【评书奇谭】

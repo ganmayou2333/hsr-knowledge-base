@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Galaxy Ranger |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 四星 |
-| 特殊类型 | 普通祝福 |
+| Name | Galaxy Ranger |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 4★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 可消耗100点能量施放技能与命途「巡猎」产生临界回响，对敌方全体造成风属性伤害，并使我方全体行动提前100%，能量上限为200。
 
-## 强化效果
+## Enhanced Effect
 
 -

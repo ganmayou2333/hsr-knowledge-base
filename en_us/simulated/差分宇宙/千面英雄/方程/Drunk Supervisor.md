@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Drunk Supervisor |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 欢愉*4智识*2 |
+| Name | Drunk Supervisor |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 欢愉*4智识*2 |
 
 
-## 效果
+## Effect
 
 我方目标追加攻击造成的暴击伤害提高150%，利用【罐中脑】施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Wandering Meme |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 记忆*4繁育*4 |
+| Name | Wandering Meme |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 记忆*4繁育*4 |
 
 
-## 效果
+## Effect
 
 角色造成的普攻伤害提高200%，施放普攻发动攻击时，会将处于弱点击破状态下的敌人，视为陷入冻结状态。
 
-## 强化效果
+## Enhanced Effect
 
 -

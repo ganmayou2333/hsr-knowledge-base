@@ -6,12 +6,12 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Wish Upon a Star |
-| 类型 | 加权奇物 |
+| Name | Wish Upon a Star |
+| Type | 加权奇物 |
 
 ## 奇物效果
 

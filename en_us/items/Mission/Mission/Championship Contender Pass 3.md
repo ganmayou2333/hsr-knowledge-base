@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Championship Contender Pass 3 |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Championship Contender Pass 3 |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 在空间站「黑塔」的决胜乐园中，挑战冠军候补所需的三重凭证之一。在黑塔的不太情愿的许可下，以太战线决胜协会改装了空间站「黑塔」，为玩家设下了阻碍。
 
-## 获得途径
+## Acquisition
 
 - 1.4活动冒险任务【智斗！空间战「黑塔」】

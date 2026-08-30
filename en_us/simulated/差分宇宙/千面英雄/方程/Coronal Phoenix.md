@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Coronal Phoenix |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*4繁育*2 |
+| Name | Coronal Phoenix |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*4繁育*2 |
 
 
-## 效果
+## Effect
 
 【耀变】充能效率提高50%。【蝶魄】状态下施放普攻/战技发动攻击后，对攻击目标造成100%的【耀变】伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

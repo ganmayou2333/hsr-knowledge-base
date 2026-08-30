@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Walker of the Scorched |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*3虚无*2 |
+| Name | Walker of the Scorched |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*3虚无*2 |
 
 
-## 效果
+## Effect
 
 角色拥有【战意】时，全属性抗性穿透提高15%，每有1层【战意】，击破特攻提高3%。
 
-## 强化效果
+## Enhanced Effect
 
 -

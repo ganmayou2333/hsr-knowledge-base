@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Surprise Chest |
-| 用途 | 材料 |
-| 评级 | ★★★★ |
-| 类型 | Material /  idle直播物品 |
+| Item Name | Surprise Chest |
+| Use | Materials |
+| Rarity | ★★★★ |
+| Type | Material /  idle直播物品 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 暂无数据

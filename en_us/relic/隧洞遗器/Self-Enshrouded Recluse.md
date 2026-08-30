@@ -4,20 +4,20 @@
 > 实体ID：128
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/5917/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Self-Enshrouded Recluse |
-| 类型 | 隧洞遗器 |
-| 实体ID | 128 |
-## 获取途径
+| Name | Self-Enshrouded Recluse |
+| Type | 隧洞遗器 |
+| Entity ID | 128 |
+## Acquisition
 隐救之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 The provided Shield Effect increases by 10%.
 ### 4 件套
 Increases the Shield Effect provided by the wearer by 12%. When an ally target holds a Shield provided by the wearer, the ally target's CRIT DMG increases by 15%.
-## 部位
+## Pieces
 ### 手部：隐士的简雅腕表
 **描述**：漂亮的金属编织链带，以及简约的圆形表盘。冷静、精密、工业化；低调、实用、不张扬。
 **来历**：

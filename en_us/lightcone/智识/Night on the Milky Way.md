@@ -6,34 +6,34 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Night on the Milky Way |
-| 命途 | Erudition |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Night on the Milky Way |
+| Path | Erudition |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 If you are concerned for the road, just look up again.
 When the stars look gently down, the heart would already be soaring.
 Every thought and every whisper,
 becomes a life experience that would never leave.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,164 | 582 | 397 |
 
-## 叠影效果
+## Superimposition
 
 ### Meteor Swarm
 
 For every enemy on the field, increases the wearer's ATK by #2[f1]%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

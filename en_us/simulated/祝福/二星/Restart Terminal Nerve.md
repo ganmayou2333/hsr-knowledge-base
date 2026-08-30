@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Restart: Terminal Nerve |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Restart: Terminal Nerve |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616840 | When ally targets use their Ultimate via "Brain in a Vat," increases their CRIT DMG by 80%, lasting until this ability ends. |
 | 617840 | When ally targets use their Ultimate via "Brain in a Vat," increases their CRIT DMG by 80%, lasting until this ability ends. |

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Manuscript of Wisdom |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Manuscript of Wisdom |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 只有不识字之人才能够阅读的禁书。反倒是有学问的人阅读此书之后会有忘掉学问的风险。
 
 
-## 获得途径
+## Acquisition
 
 - 在金人巷与迷困惑的云骑对话

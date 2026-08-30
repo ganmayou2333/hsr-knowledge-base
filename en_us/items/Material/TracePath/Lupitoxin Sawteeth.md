@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Lupitoxin Sawteeth |
-| 用途 | 行迹材料 | 光锥晋阶材料 |
-| 评级 | 3★ |
-| 类型 | Material / TracePath |
+| Item Name | Lupitoxin Sawteeth |
+| Use | Trace Material | 光锥晋阶材料 |
+| Rarity | 3★ |
+| Type | Material / TracePath |
 
-## 说明
+## Description
 
 步离人征战时遗留的吮血尖牙。可中幅提升毁灭角色的命途行迹。
 
-## 获得途径
+## Acquisition
 
 - 拟造花萼【鳞渊境】
 - 「万能合成机」- 材料合成

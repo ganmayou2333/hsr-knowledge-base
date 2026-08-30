@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Gravedigger |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*3记忆*2 |
+| Name | Gravedigger |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*3记忆*2 |
 
 
-## 效果
+## Effect
 
 角色击破敌方目标后，有120%的基础概率使其陷入冻结状态，持续1回合，若该敌方目标已陷入冻结状态，则对其额外造成一次等同于本次击破伤害200%的击破伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

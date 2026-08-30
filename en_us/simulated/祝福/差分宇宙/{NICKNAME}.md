@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | {NICKNAME} |
-| 类型 | 祝福（差分宇宙·同名合并） |
-| 命途 | 无（差分宇宙） |
-| 星级 | 无（差分宇宙） |
-| 特殊类型 | 差分宇宙祝颂 |
+| Name | {NICKNAME} |
+| Type | 祝福（差分宇宙·同名合并） |
+| Path | N/A (DU) |
+| Rarity | N/A (DU) |
+| Special Type | DU Hymn |
 
-## 效果
+## Effect
 
 > 该名称对应 10 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 668001 | {NICKNAME}'s DMG is amplified in the Divergent Universe.
 Deals 35% more final DMG to enemy targets with HP percentage above 50%. |

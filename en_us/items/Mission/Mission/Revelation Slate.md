@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Revelation Slate |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Revelation Slate |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 持明族遗留的特殊石板。斑驳的纹样里似乎隐藏着有关「次序」的信息。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【有龙矫矫，其渊渺渺】

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Banned Word Hunter |
-| 类型 | 祝福 |
-| 命途 | 智识&毁灭 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Banned Word Hunter |
+| Type | Blessing |
+| Path | 智识&毁灭 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方角色攻击力提高150%，每施放一次终结技或在自身回合外施放其他技能后，使我方全体角色获得1层【人气】：当持有的【人气】大于等于2层时，受到攻击后，消耗2层【人气】，对攻击目标造成7次随机属性250%攻击力的附加伤害，该伤害无法消灭敌方目标。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Shield of Triumphant Return |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Shield of Triumphant Return |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 激活效果所需降低的生命值比例降低25%，激活效果时，全队回复等同于自身生命上限100%的生命值，且下5次攻击额外回复等同于自身生命上限30%的生命值。
 
-## 强化效果
+## Enhanced Effect
 
 -

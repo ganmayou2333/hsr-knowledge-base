@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Pyromancer |
-| 类型 | 祝福 |
-| 命途 | 丰饶&毁灭 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Pyromancer |
+| Type | Blessing |
+| Path | 丰饶&毁灭 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色生命上限提高50%，每造成10点实际削韧值，为我方全体的【珠露】充能3%，攻击处于弱点击破状态下的敌方目标时，为我方全体的【珠露】充能6%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | A Thankless Coronation |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | A Thankless Coronation |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 The girl's ears rang in the fantasia with the words conversed on that day.
 "This sword wasn't hard to pull out at all, Merlin."
@@ -27,18 +27,18 @@ Now, the girl had long since become aware of how profound that tragedy would be.
 The king does not speak and simply grasps the sword tightly.
 The stone again gives out a thundering roar as the sword is pulled out.
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 582 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### King of Knights
 
 Increases the wearer's CRIT DMG by 36%. When using Ultimate, increases the wearer's ATK by 40%, and if the wearer's Max Energy is greater than or equal to 300, regenerates a fixed amount of Energy equal to 10% of the wearer's Max Energy and once again increases the wearer's ATK by 40%, lasting for 2 turns.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

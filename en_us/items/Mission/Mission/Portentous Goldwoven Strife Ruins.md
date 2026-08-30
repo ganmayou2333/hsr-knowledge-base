@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Portentous Goldwoven: Strife Ruins |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Portentous Goldwoven: Strife Ruins |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。
 
 
-## 获得途径
+## Acquisition
 
 - 「纷争荒墟」的衣匠前哨站

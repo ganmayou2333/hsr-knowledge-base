@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Formation: Suffering and Sunshine |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 三星 |
-| 特殊类型 | 回响构音 |
+| Name | Resonance Formation: Suffering and Sunshine |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 3★ |
+| Special Type | 回响构音 |
 
 
-## 效果
+## Effect
 
 命途回响「虚无」造成的攻击有100%基础概率使敌方全体陷入2层【迷惘】效果和2层【空乏】效果，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

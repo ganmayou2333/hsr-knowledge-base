@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | The Forever Victual |
-| 命途 | Harmony |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | The Forever Victual |
+| Path | Harmony |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 *BOOM*...
 Outside the Maze, a storm rages endlessly.
@@ -32,18 +32,18 @@ Look, everyone's gathering around!
 At the fragrant feast, guests raised their glasses to toast to these wonderful times...
 May this dreamy paradise stay warm and joyful forever!
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### So Good!
 
 Increases the wearer's ATK by 16%. After the wearer uses Skill, increases ATK by 8%, stacking up to 3 times.
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

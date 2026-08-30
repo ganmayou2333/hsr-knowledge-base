@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Cerydra |
-| 命途 | Harmony |
-| 属性 | Wind |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 北境帝国，失落的王朝，寒冷的疆土燃烧着征伐的野心。 君主刻律德菈，执握「律法」火种的黄金裔，布局设子，与神相弈，审判异心的罪囚，为此世奠定逐火的基业 ——「这绝非终点，翁法罗斯的征途，当是银河群星！」 |
+| Character Name | Cerydra |
+| Path | Harmony |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 北境帝国，失落的王朝，寒冷的疆土燃烧着征伐的野心。 君主刻律德菈，执握「律法」火种的黄金裔，布局设子，与神相弈，审判异心的罪囚，为此世奠定逐火的基业 ——「这绝非终点，翁法罗斯的征途，当是银河群星！」 |
 | 城邦 | 奥赫玛 |
 | 神权 | 「公正之秤，塔兰顿」 |
-| 定位 | 可以使队友连续施放两次战技的辅助型角色 |
+| Role | 可以使队友连续施放两次战技的辅助型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 高尾奏音 |
-| 英语 | Rhiannon Moushall |
-| 中文 | 时欣蕾 |
-| 韩语 | 김윤채 |
+| Japanese | 高尾奏音 |
+| English | Rhiannon Moushall |
+| Chinese | 时欣蕾 |
+| Korean | 김윤채 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,358 |
-| 基础攻击力 | 621 |
-| 基础防御力 | 485 |
-| 基础速度 | 99 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 1,358 |
+| Base ATK | 621 |
+| Base DEF | 485 |
+| Base SPD | 99 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/暮晖烬蕾\|暮晖烬蕾]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暮晖烬蕾\|Charred Bud of Twilight]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/云际音符\|云际音符]] | 12 |
-| [[zh_cn/items/Material/TracePath/空际小节\|空际小节]] | 53 |
-| [[zh_cn/items/Material/TracePath/天外乐章\|天外乐章]] | 101 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 33 |
-| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 46 |
-| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/云际音符\|Firmament Note]] | 12 |
+| [[zh_cn/items/Material/TracePath/空际小节\|Celestial Section]] | 53 |
+| [[zh_cn/items/Material/TracePath/天外乐章\|Heavenly Melody]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|Daythunder Anamnesis]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|Ethereal Omen]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|Echoing Wail]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|Eternal Lament]] | 28 |
 
 ---
-## 战技
-### 普攻：King's Castling
+## Skills
+### Basic ATK：King's Castling
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Cerydra's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -99,14 +99,14 @@
 
 - **满级效果**：Deals Wind DMG equal to 140% of Cerydra's ATK to one designated enemy.
 
-### 战技：Pawn's Promotion
+### Skill：Pawn's Promotion
 - **类型**：Skill
 - **简述**：Grants "Military Merit" to an ally character and gives Charge to Cerydra. When Charge reaches 6 points, automatically upgrades the ally character's "Military Merit" to "Peerage." The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG, increases All-Type RES PEN, and can trigger Coup de Main.
 - **最大等级**：15
 - **效果模板**：Grants "Military Merit" to one designated ally character and gives Cerydra #2[i] points of Charge. Charge is capped at #3[i] points. When Charge reaches #4[i] points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by #1[i]%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes #4[i] points of Charge to revert "Peerage" to "Military Merit."
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 36% | 1 | 8 | 6 | 8% |
   | Lv.2 | 39.6% | 1 | 8 | 6 | 8.2% |
@@ -133,14 +133,14 @@
 
 - **满级效果**：Grants "Military Merit" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by 90%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert "Peerage" to "Military Merit."
 
-### 终结技：Scholar's Mate
+### Ultimate：Scholar's Mate
 - **类型**：Ultimate
 - **简述**：Gains Charge. Deals Wind DMG to all enemies.
 - **最大等级**：15
 - **效果模板**：Gains #2[i] Charge. Deals Wind DMG equal to #1[i]% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 144% | 2 |
   | Lv.2 | 153.6% | 2 |
@@ -164,14 +164,14 @@
 
 - **满级效果**：Gains 2 Charge. Deals Wind DMG equal to 288% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
 
-### 天赋：Ave Imperator
+### Talent：Ave Imperator
 - **类型**：Talent
 - **简述**：The character with "Military Merit" increases their ATK. When they use Basic ATK or Skill, Cerydra gains Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals minor Wind Additional DMG.
 - **最大等级**：15
 - **效果模板**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains #1[i] Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to #3[i]% of her ATK. This effect can trigger up to #4[i] time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3(%) | 参数4 |
+| Level | 参数1 | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 18% | 30% | 20 |
   | Lv.2 | 1 | 18.6% | 33% | 20 |
@@ -197,7 +197,7 @@
 
 - **满级效果**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 75% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
 
-### 秘技：First-Move Advantage
+### Technique：First-Move Advantage
 - **类型**：Technique
 - **简述**：Grants "Military Merit" to the current active character. Automatically uses Skill on the character with "Military Merit" at the start of the next battle.
 - **最大等级**：1
@@ -205,27 +205,27 @@
 
 - **满级效果**：After using Technique, gains "Military Merit." When switching the active character, "Military Merit" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Military Merit" without consuming any Skill Points.（参数见等级数值表）
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 来者 | 晋阶2 | 刻律德菈的攻击力大于#1[i]时，每超过#2[i]点攻击力可使自身暴击伤害提高#3[i]%，最多提高#4[i]%。 | 刻律德菈的攻击力大于2000时，每超过100点攻击力可使自身暴击伤害提高18%，最多提高360%。 | 信用点×5000、云际音符×3、阳雷的遥想×1 |
 | 附加能力2 | 见者 | 晋阶4 | 刻律德菈的暴击率提高#1[i]%。当刻律德菈的充能小于上限时，持有【军功】的角色施放终结技时使刻律德菈获得#2[i]点充能，该效果单场战斗中可以触发1次。 | 刻律德菈的暴击率提高100%。当刻律德菈的充能小于上限时，持有【军功】的角色施放终结技时使刻律德菈获得1点充能，该效果单场战斗中可以触发1次。 | 信用点×20000、空际小节×5、命运的足迹×1、阳雷的遥想×1 |
 | 附加能力3 | 征服者 | 晋阶6 | 施放战技时，使自身和持有【军功】的队友速度提高#2[i]点，持续#3[i]回合。持有【军功】的角色施放普攻或战技时，为刻律德菈恢复#1[i]点能量。 | 施放战技时，使自身和持有【军功】的队友速度提高20点，持续3回合。持有【军功】的角色施放普攻或战技时，为刻律德菈恢复5点能量。 | 信用点×160000、天外乐章×8、命运的足迹×1、阳雷的遥想×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 生命值 | 10% |
-| 攻击力 | 18% |
+| HP | 10% |
+| ATK | 18% |
 | 风属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Seize the Crowns of All | The character with "Military Merit" ignores 16% of the targets' DEF when dealing DMG. If "Military Merit" has been upgraded to "Peerage," then the character additionally ignores 20% of the targets' DEF when dealing Skill DMG. When Cerydra uses her Skill, regenerates 2 Energy for the designated ally target. |
 | E2 | Forge the Dreams of Many | The character with "Military Merit" deals 40% increased DMG. While a teammate on the field has "Military Merit," Cerydra's DMG dealt increases by 160%. |
@@ -236,77 +236,77 @@
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 速度 / 攻击力 / 能量恢复效率
 
 **推荐副词条**：攻击力 / 速度 / 暴击伤害
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|重循苦旅的司铎]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|沉陆海域露莎卡]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/同谐/金血铭刻的时代.md|金血铭刻的时代]]
+### [[zh_cn/lightcone/同谐/金血铭刻的时代.md|Epoch Etched in Golden Blood]]
 
 - **基础属性**：生952 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：征服
 - **效果**：使装备者的攻击力提高【64%/80%/96%/112%/128%】。施放终结技攻击后恢复1个战技点，装备者对我方单体角色施放战技后，使目标造成的战技伤害提高【54%/67.5%/81%/94.5%/108%】，持续3回合。
 
-### [[zh_cn/lightcone/同谐/夜色流光溢彩.md|夜色流光溢彩]]
+### [[zh_cn/lightcone/同谐/夜色流光溢彩.md|Flowing Nightglow]]
 
 - **基础属性**：生952 攻635 防463
 - **推荐度**：★★★★★
 - **技能名**：抚慰
 - **效果**：我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高【3.0%/3.5%/4.0%/4.5%/5.0%】，最多叠加5层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高【48%/60%/72%/84%/96%】，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续1回合。
 
-### [[zh_cn/lightcone/同谐/永远的迷境饭.md|永远的迷境饭]]
+### [[zh_cn/lightcone/同谐/永远的迷境饭.md|The Forever Victual]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：真香
 - **效果**：使装备者的攻击力提高【16%/20%/24%/28%/32%】。装备者施放战技后，攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加3层。
 
-### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|舞！舞！舞！]]
+### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
 - **基础属性**：生952 攻423 防396
 - **推荐度**：★★★★
 - **技能名**：停不下来啦！
 - **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/毁灭/白厄_物理_五星.md\|白厄]] | [[zh_cn/character/同谐/刻律德菈_风_五星.md\|刻律德菈]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] |
+| [[zh_cn/character/毁灭/白厄_物理_五星.md\|Phainon]] | [[zh_cn/character/同谐/刻律德菈_风_五星.md\|刻律德菈]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/智识/那刻夏_风_五星.md\|那刻夏]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
 | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/巡猎/Archer_量子_五星.md\|Archer]] | [[zh_cn/character/同谐/花火_量子_五星.md\|花火]] |
-| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|布洛妮娅]] |  |  |
+| [[zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] |  |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 北境帝国，失落的王朝，寒冷的疆土燃烧着征伐的野心。
 君主刻律德菈，执握「律法」火种的黄金裔，布局设子，与神相弈，审判异心的罪囚，为此世奠定逐火的基业
 ——「这绝非终点，翁法罗斯的征途，当是银河群星！」
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 北境帝国许珀耳，严寒的国土燃烧着不熄的野心。
 自那无嗣的君主陨落，继位者悬空，帝国已然四分五裂，内战不止。
@@ -342,7 +342,7 @@
 
 老师苦笑着掷下棋子，千百次的对弈中，已没有王女无法解开的棋局。
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 宫女与侍卫无权无势，却是流动的宫廷中无孔不入的眼线——
 她以恩惠拉拢，搜集情报，布下纵横交错的棋路。
@@ -378,7 +378,7 @@
 火光中，她戴上了那顶属于帝王的冠冕——她唯一的战利品。
 一簇幽蓝色的火苗自冠冕顶端燃起，此后再不曾熄灭。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 三相的神谕自雅努萨波利斯，传向大地上无尽纷争的城邦。
 「拯救世界…从来不是执棋者的兴趣。」
@@ -417,7 +417,7 @@
 「棋是牺牲的艺术。
 因此，棋手须首先立下必死的决心。」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「啪嗒……」
 血滴入水中，掀起金色的涟漪。

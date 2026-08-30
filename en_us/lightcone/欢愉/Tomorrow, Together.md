@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | Tomorrow, Together |
-| 命途 | Elation |
-| 评级 | ★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | Tomorrow, Together |
+| Path | Elation |
+| Rarity | ★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 A grand gift swoops down into the livestream.
 "It's a specially customized third anniversary cake from the fans for everyone!"
@@ -27,18 +27,18 @@ In the heartwarming atmosphere, everyone raises their glasses together, laughter
 "To the star-filled tomorrow—"
 "Cheers!"
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 476 | 331 |
 
-## 叠影效果
+## Superimposition
 
 ### Companion
 
 Increases the wearer's CRIT DMG by 12%. After the wearer uses their Ultimate, increases all allies' Elation by 8%, lasting for 1 turn(s).
 
-## 晋阶材料
+## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

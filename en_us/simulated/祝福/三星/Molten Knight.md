@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Molten Knight |
-| 类型 | 祝福 |
-| 命途 | 巡猎&繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | Molten Knight |
+| Type | Blessing |
+| Path | 巡猎&繁育 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方全体每获得9层【会心】或消灭敌方目标后，射出10根光矢攻击随机敌方目标，每支光矢造成400%基础伤害的风属性伤害并对攻击目标添加1个【孢子】并造成1次【孢子】爆裂的伤害，该效果期间【孢子】层数上限变为99。
 
-## 强化效果
+## Enhanced Effect
 
 -

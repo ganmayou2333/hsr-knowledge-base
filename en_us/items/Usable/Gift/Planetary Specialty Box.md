@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Planetary Specialty Box |
-| 用途 | 贵重物品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 礼物 |
+| Item Name | Planetary Specialty Box |
+| Use | 贵重物品 |
+| Rarity | ★★★ |
+| Type | Usable / 礼物 |
 
 
-## 说明
+## Description
 
 银河漫漫无奇不有，这只箱子就装着各个星球的特产，打开看看吧，也许里头有你需要的。

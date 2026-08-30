@@ -6,24 +6,24 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Variable Dice |
-| 用途 | 消耗品 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Variable Dice |
+| Use | Consumable |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
 
-## 说明
+## Description
 
 可用于重新分配满级5星遗器副属性的升级次数，并随机其数值。
 
 
 
 
-## 获得途径
+## Acquisition
 
 - 无名勋礼
 - 「万能合成机」- 材料合成

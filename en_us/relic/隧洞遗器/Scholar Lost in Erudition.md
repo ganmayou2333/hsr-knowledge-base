@@ -4,20 +4,20 @@
 > 实体ID：122
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/4262/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Scholar Lost in Erudition |
-| 类型 | 隧洞遗器 |
-| 实体ID | 122 |
-## 获取途径
+| Name | Scholar Lost in Erudition |
+| Type | 隧洞遗器 |
+| Entity ID | 122 |
+## Acquisition
 迷识之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases CRIT Rate by 8%.
 ### 4 件套
 Increases DMG dealt by Skill and Ultimate by 20%. After using Ultimate, additionally increases the DMG dealt by the next Skill by 25%.
-## 部位
+## Pieces
 ### 手部：学者的辅助指节
 **描述**：以合金制成、辅助手指活动的外骨骼，需要配合使用者手型订制，价值不菲。
 **来历**：

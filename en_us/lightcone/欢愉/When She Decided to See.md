@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | When She Decided to See |
-| 命途 | Elation |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | When She Decided to See |
+| Path | Elation |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Once again, within the Deca-Light Reflection Barrier, she watched as destiny intertwined like a shimmering web of pearls, reflecting and overlapping, with endless cause and effect.
 "What do you see?"
@@ -30,13 +30,13 @@ Yet she had also seized fleeting variables, flipping the Weal and Woe of the Yuq
 She wanted to find her own answer, even if it meant stepping into destined peril.
 "What I see matters not. What matters is what I can do."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 1,058 | 529 | 529 |
 
-## 叠影效果
+## Superimposition
 
 ### Game Changer
 
@@ -44,6 +44,6 @@ Increases the wearer's SPD by 18%. When the wearer enters combat or uses Ultimat
 At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
 每个波次开始时，装备者固定恢复15点能量。
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

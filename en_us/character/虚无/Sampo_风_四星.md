@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Sampo |
-| 命途 | Nihility |
-| 属性 | Wind |
-| 稀有度 | ★★★★ |
-| 阵营 | 贝洛伯格 |
-| 角色介绍 | 地表和地底之间来去自如的行商。自来熟，热情幽默，习惯插科打诨。 |
-| 定位 | 以持续伤害和多段弹射打击为主的输出角色 |
+| Character Name | Sampo |
+| Path | Nihility |
+| Attribute | Wind |
+| Rarity | ★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | 地表和地底之间来去自如的行商。自来熟，热情幽默，习惯插科打诨。 |
+| Role | 以持续伤害和多段弹射打击为主的输出角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 平川大輔 |
-| 英语 | Roger Rose |
-| 中文 | 刘圣博 |
-| 韩语 | 정재헌 |
+| Japanese | 平川大輔 |
+| English | Roger Rose |
+| Chinese | 刘圣博 |
+| Korean | 정재헌 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,023 |
-| 基础攻击力 | 617 |
-| 基础防御力 | 397 |
-| 基础速度 | 102 |
-| 嘲讽 | 100 |
-| 能量上限 | 120 |
+| Base HP | 1,023 |
+| Base ATK | 617 |
+| Base DEF | 397 |
+| Base SPD | 102 |
+| Taunt | 100 |
+| Max Energy | 120 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/Material/AvatarRank/暴风之眼\|暴风之眼]] | 50 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 12 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 13 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/暴风之眼\|Storm Eye]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 12 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 8 |
-| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 42 |
-| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 77 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 22 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 35 |
-| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|Obsidian of Dread]] | 8 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|Obsidian of Desolation]] | 42 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|Obsidian of Obsession]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|Ancient Part]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|Ancient Spindle]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|Ancient Engine]] | 20 |
 
 ---
-## 战技
-### 普攻：Dazzling Blades
+## Skills
+### Basic ATK：Dazzling Blades
 - **类型**：Basic ATK
 - **简述**：Deals minor Wind DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Wind DMG equal to 140% of Sampo's ATK to one designated enemy.
 
-### 战技：Ricochet Love
+### Skill：Ricochet Love
 - **类型**：Skill
 - **简述**：Deals minor Wind DMG to single enemy targets with 5 Bounces in total.
 - **最大等级**：15
 - **效果模板**：Deals Wind DMG equal to #2[i]% of Sampo's ATK to one designated enemy, and further deals DMG for #1[i] extra time(s), with each time dealing Wind DMG equal to #2[i]% of Sampo's ATK to a random enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) |
+| Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 4 | 28% |
   | Lv.2 | 4 | 30.8% |
@@ -128,14 +128,14 @@
 
 - **满级效果**：Deals Wind DMG equal to 70% of Sampo's ATK to one designated enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 70% of Sampo's ATK to a random enemy.
 
-### 终结技：Surprise Present
+### Ultimate：Surprise Present
 - **类型**：Ultimate
 - **简述**：Deals Wind DMG to all enemies, with a high chance to cause increased DoT taken to them.
 - **最大等级**：15
 - **效果模板**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to all enemies, with a #4[i]% base chance to increase the targets' DoT taken by #2[i]% for #3[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 96% | 20% | 2 | 100% |
   | Lv.2 | 102.4% | 21% | 2 | 100% |
@@ -161,7 +161,7 @@
 
 - **满级效果**：Deals Wind DMG equal to 192% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 35% for 2 turn(s).
 
-### 天赋：Windtorn Dagger
+### Talent：Windtorn Dagger
 - **类型**：Talent
 - **简述**：After hitting an enemy, there is a chance of inflicting Wind Shear on the target.
 - **最大等级**：15
@@ -170,7 +170,7 @@ Enemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's 
 风化状态下，敌方目标每回合开始时受到等同于桑博#2[i]%攻击力的风属性持续伤害。风化状态最多叠加#4[i]层。
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 65% | 20% | 3 | 5 |
   | Lv.2 | 65% | 22% | 3 | 5 |
@@ -198,7 +198,7 @@ Enemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's 
 Enemies inflicted with Wind Shear will take Wind DoT equal to 65% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).
 风化状态下，敌方目标每回合开始时受到等同于桑博65%攻击力的风属性持续伤害。风化状态最多叠加5层。
 
-### 秘技：Shining Bright
+### Technique：Shining Bright
 - **类型**：Technique
 - **简述**：Enemies in a set area are Blinded. When initiating battle against a Blinded enemy, there is a high chance to delay all enemies' actions.
 - **最大等级**：1
@@ -207,7 +207,7 @@ When initiating combat against a Blinded enemy, there is a #2[i]% fixed chance t
 若主动攻击陷入目盲状态的敌人，进入战斗时有#2[i]%固定概率使敌方每个单体目标行动延后#3[i]%。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) |
+| Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 10 | 100% | 25% |
 
@@ -220,27 +220,27 @@ When initiating combat against a Blinded enemy, there is a #2[i]% fixed chance t
 When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%.
 若主动攻击陷入目盲状态的敌人，进入战斗时有100%固定概率使敌方每个单体目标行动延后25%。
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 圈套 | 晋阶2 | 天赋使敌方陷入风化状态的持续时间延长#1[i]回合。 | 天赋使敌方陷入风化状态的持续时间延长1回合。 | 信用点×4000、黯淡黑曜×2、守护者的悲愿×1 |
 | 附加能力2 | 后手 | 晋阶4 | 施放终结技时，额外恢复#1[i]点能量。 | 施放终结技时，额外恢复10点能量。 | 信用点×16000、虚空黑曜×4、命运的足迹×1、守护者的悲愿×1 |
 | 附加能力3 | 加料 | 晋阶6 | 风化状态下的敌方目标对桑博造成的伤害降低#1[i]%。 | 风化状态下的敌方目标对桑博造成的伤害降低15%。 | 信用点×128000、沉沦黑曜×6、命运的足迹×1、守护者的悲愿×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 攻击力 | 28% |
+| ATK | 28% |
 | 效果命中 | 18% |
 | 效果抵抗 | 10% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Rising Love | When using Skill, deals DMG for 1 extra time(s) to a random enemy. |
 | E2 | Infectious Enthusiasm | Defeating an enemy afflicted with Wind Shear has a 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to that of Skill. |
@@ -251,83 +251,83 @@ When initiating combat against a Blinded enemy, there is a 100% fixed chance to 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：攻击力 / 速度 / 风属性伤害提高 / 攻击力
 
 **推荐副词条**：攻击力 / 速度 / 效果命中
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|晨昏交界的翔鹰]] | 当装备者施放终结技后，使其行动提前25%。 |
-| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|幽锁深牢的系囚]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+| [[zh_cn/relic/隧洞遗器/幽锁深牢的系囚\|Prisoner in Deep Confinement]] | 敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其6%的防御力，最多计入3个持续伤害效果。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
-| [[zh_cn/relic/位面饰品/泛银河商业公司\|泛银河商业公司]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/泛银河商业公司\|Pan-Cosmic Commercial Enterprise]] | 使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。 |
 | [[zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/虚无/晚安与睡颜.md|晚安与睡颜]]
+### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★★
 - **技能名**：劳碌者
 - **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
 
-### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|决心如汗珠般闪耀]]
+### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：回眸
 - **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
 
-### [[zh_cn/lightcone/虚无/以世界之名.md|以世界之名]]
+### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
 - **基础属性**：生1058 攻582 防463
 - **推荐度**：★★★★★
 - **技能名**：传承者
 - **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时，装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
 
-### [[zh_cn/lightcone/虚无/猎物的视线.md|猎物的视线]]
+### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：自信
 - **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
 
-### [[zh_cn/lightcone/虚无/延长记号.md|延长记号]]
+### [[zh_cn/lightcone/虚无/延长记号.md|Fermata]]
 
 - **基础属性**：生952 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：休止符
 - **效果**：使装备者的击破特攻提高【16%/20%/24%/28%/32%】，对处于触电或风化状态的敌方目标造成的伤害提高【16%/20%/24%/28%/32%】，该效果对持续伤害也会生效。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| 副C | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|卡芙卡]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|阮•梅]] |
+| 副C | [[zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] | [[zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] |
 | [[zh_cn/character/虚无/桑博_风_四星.md\|桑博]] | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/虚无/桂乃芬_火_四星.md\|桂乃芬]] |
 | [[zh_cn/character/同谐/艾丝妲_火_四星.md\|艾丝妲]] | [[zh_cn/character/丰饶/罗刹_虚数_五星.md\|罗刹]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |
 
 *文件生成时间：2026-08-26*
 
-## 角色故事
+## Character Story
 口若悬河的倒货商人，只要有「利」的地方，就有桑博的身影。
 桑博手中绝无仅有的情报让人不得不接近他，不过成为他的「客人」并不是什么好事。
 毕竟只要价钱合适，「客人」也随时可以转化为「商品」。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 「各位好，我是水晶日报记者布鲁海尔•波桑，我现在所处的位置是行政区的喷泉广场。我身边站着一位自称『深蓝骗局受害者互助协会』的成员，现在我将对他进行一段简短的采访。」
 
@@ -353,7 +353,7 @@ When initiating combat against a Blinded enemy, there is a 100% fixed chance to 
 
 「唔…有点道理。那你们听好了，工厂的地址是……」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 「名字。」
 
@@ -385,7 +385,7 @@ When initiating combat against a Blinded enemy, there is a 100% fixed chance to 
 
 「这就对了！记住，下周二——晚上二十点十七分之前，我要你连人带行李离开禁区！」
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 「唷，伙计。」
 
@@ -427,7 +427,7 @@ When initiating combat against a Blinded enemy, there is a 100% fixed chance to 
 
 「该死，肯是那个波桑搞的鬼！混账东西，老子和你没完！」
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 「早上好，女士。希望没有打扰到您。」
 

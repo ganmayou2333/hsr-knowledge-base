@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Recipe: Grudge Notebook |
-| 用途 | 配方 |
-| 评级 | ★★★ |
-| 类型 | Usable / 配方 |
+| Item Name | Recipe: Grudge Notebook |
+| Use | Formula |
+| Rarity | ★★★ |
+| Type | Usable / 配方 |
 
 
-## 说明
+## Description
 
 ...
 
-## 获得途径
+## Acquisition
 
 - 二相乐园-二维市-Oiiaiooo

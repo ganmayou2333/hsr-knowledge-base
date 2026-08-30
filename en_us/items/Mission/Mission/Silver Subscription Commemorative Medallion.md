@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Silver Subscription Commemorative Medallion |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Silver Subscription Commemorative Medallion |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 罗浮杂俎向订阅数量达到十万的博主发出的纪念奖牌。
 
 
-## 获得途径
+## Acquisition
 
 - 1.5活动冒险任务【捉鬼小队·银色奖牌】

@@ -7,19 +7,19 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Mirror Escaper |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `image/simulated_event/PicRogueEvent_32.png` |
+| Name | Mirror Escaper |
+| Type | Event |
+| Attribute | Event |
+| Image | `image/simulated_event/PicRogueEvent_32.png` |
 
 
-## 事件文本
+## Event Text
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 向嘈杂的方向游弋。使石镜获得：进入【战斗】或【事件】区域时触发 | 使石镜获得：30%概率获得随机奇物，可能包含负面奇物。-使石镜获得：触发概率提高20%/使石镜获得：不再能够获取负面奇物 |
 | 向静谧的方向游弋使石镜获得：进入【遭遇】或【奖励】区域时触发 | 使石镜获得：30%概率获得随机奇物，可能包含负面奇物。-使用石镜获得：触发概率提高20%/使石镜获得：不再能够获取负面奇物 |
@@ -29,6 +29,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 625401 |  |

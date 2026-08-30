@@ -4,20 +4,20 @@
 > 实体ID：111
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/569/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Thief of Shooting Meteor |
-| 类型 | 隧洞遗器 |
-| 实体ID | 111 |
-## 获取途径
+| Name | Thief of Shooting Meteor |
+| Type | 隧洞遗器 |
+| Entity ID | 111 |
+## Acquisition
 迅拳之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Break Effect by 16%.
 ### 4 件套
 Increases the wearer's Break Effect by 16%. After the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy.
-## 部位
+## Pieces
 ### 手部：怪盗的绘纹手套
 **描述**：编入纳米材料的特殊手套，可即时编写手套表面纹样。
 **来历**：

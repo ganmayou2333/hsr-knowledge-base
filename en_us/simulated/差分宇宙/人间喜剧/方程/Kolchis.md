@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Kolchis |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 智识*3繁育*2 |
+| Name | Kolchis |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 智识*3繁育*2 |
 
 
-## 效果
+## Effect
 
 角色每消耗1个战技点，造成的终结技伤害提高65%，最多提高130%，持续至施放终结技后。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Selfless Giant Turtle |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Selfless Giant Turtle |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 智识*6
 同谐*4 |
 
 
-## 效果
+## Effect
 
 行动序列上出现【巨龟吐息】：行动时使敌方全体受到的伤害提高50%，持续3回合，并扫射敌方全体3次，累计造成等同于6000%基础伤害的冰、火属性伤害，使其行动延后30%，并无视弱点属性削减敌方全体目标30点韧性值，击破敌方弱点时，触发冰、火属性弱点的击破效果。我方目标使用【罐中脑】激活终结技后，使【巨龟吐息】的行动提前15%。
 
-## 强化效果
+## Enhanced Effect
 
 -

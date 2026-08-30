@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: White Nights |
-| 类型 | 祝福 |
-| 命途 | 虚无&繁育 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: White Nights |
+| Type | Blessing |
+| Path | 虚无&繁育 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 角色的普攻可以使攻击目标当前承受的所有由命途回响「虚无」施加的持续伤害，立即产生相当于原伤害40%的伤害。
 
-## 强化效果
+## Enhanced Effect
 
 -

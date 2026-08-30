@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Geomarrow Activation Element |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Geomarrow Activation Element |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 贝洛伯格通用制式元件，可以用于激活地髓传导通路。
 
 
-## 获得途径
+## Acquisition
 
 - 玲可同行任务【比雪原更遥远】

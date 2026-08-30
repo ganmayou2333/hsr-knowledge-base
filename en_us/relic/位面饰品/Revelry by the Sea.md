@@ -4,20 +4,20 @@
 > 实体ID：322
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/5634/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Revelry by the Sea |
-| 类型 | 位面饰品 |
-| 实体ID | 322 |
-## 获取途径
+| Name | Revelry by the Sea |
+| Type | 位面饰品 |
+| Entity ID | 322 |
+## Acquisition
 月下朱殷·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's ATK by 12%. When the wearer's ATK is higher than or equal to 2400/3600, increases the DoT DMG dealt by 12%/24% respectively.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：酣歌海垠的礁屿灯塔
 **描述**：位面球中封装着沉浸在永世欢乐中的斯缇科西亚。长明的灯塔矗立海滨，演奏着不息的乐曲。循着欢歌的航船越过迷雾而来，旋即触礁沉没，空留残骸被浪涛吞吃。
 **来历**：

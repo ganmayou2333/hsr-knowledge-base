@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | "Trendy Headpiece" Giftbox |
-| 用途 | 礼物 |
-| 评级 | ★★★★★ |
-| 类型 | Usable / 平台绑定礼物 |
+| Item Name | "Trendy Headpiece" Giftbox |
+| Use | Gift |
+| Rarity | ★★★★★ |
+| Type | Usable / 平台绑定礼物 |
 
 
-## 说明
+## Description
 
 暂无数据
 
-## 获得途径
+## Acquisition
 
 - 活动/邮件获得

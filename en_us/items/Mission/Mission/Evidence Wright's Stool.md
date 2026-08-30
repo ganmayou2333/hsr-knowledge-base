@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Evidence: Wright's Stool |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Evidence: Wright's Stool |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 一个小板凳，上面有两个蜡笔画出来的小脚印，象征着它曾属于一位皮皮西店员。可能是这些「证物」里面做工最粗糙的一个…花火大人，就此跌落神坛。
 
-## 获得途径
+## Acquisition
 
 - 同行任务【假面双人舞】

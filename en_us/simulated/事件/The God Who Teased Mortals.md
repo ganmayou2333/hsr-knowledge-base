@@ -7,24 +7,24 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | The God Who Teased Mortals |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventTourn_02.png` |
+| Name | The God Who Teased Mortals |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventTourn_02.png` |
 
 
-## 事件文本
+## Event Text
 
 差分宇宙：可千万要小心戏耍人间之神，自它降临以来，世间便充斥纷乱。
 差分宇宙：它为世间带来的机运就像是一枚硬币，落在正面就走运，落在反面就只能认命，正如变化莫测的扎格列斯。它乐于见到好运连连的人被妒忌，也喜于目睹陡然的厄运令人家破人亡。
 差分宇宙：所以，哪怕是它的信徒，也只会在走投无路时向它祈祷，又在时来运转时忽视它的馈赠。
 差分宇宙：这就是扎格列斯的报应。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 没人真心信仰它。 | — |
 | 没人真心爱戴它。 | — |
@@ -65,6 +65,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 237 |  |

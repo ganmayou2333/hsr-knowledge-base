@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dream Fridge |
-| 用途 | 角色晋阶材料 |
-| 评级 | 4★ |
-| 类型 | Material / AvatarRank |
+| Item Name | Dream Fridge |
+| Use | Character Ascension |
+| Rarity | 4★ |
+| Type | Material / AvatarRank |
 
-## 说明
+## Description
 
 甜猿泰山携带的冰柜，冰属性角色的晋升素材。
 
-## 获得途径
+## Acquisition
 
 - 凝滞虚影【「白日梦」酒店-梦境】
 - 「万能合成机」- 材料置换

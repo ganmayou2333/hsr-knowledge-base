@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Conquer the Sky (I) |
-| 类型 | 事件 |
-| 属性 | 事件 |
-| 图片 | `-` |
+| Name | Conquer the Sky (I) |
+| Type | Event |
+| Attribute | Event |
+| Image | `-` |
 
 
-## 事件文本
+## Event Text
 
 待补充
 
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 729001 |  |

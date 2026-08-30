@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Those Remembered (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_10.png` |
+| Name | Those Remembered (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_10.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：「我实在跑不动了，导师，咱们休息一下吧。」小雅一屁股坐在杂草堆里。
 模拟宇宙：导师先停下来环视四周，接着从口袋里掏出一台仪器。「你先休息，我检测下这里的地质环境。」
@@ -34,7 +34,7 @@
 模拟宇宙：导师抚摸着你的顶盖。「你在下面好好待着，只要有你在，『他们』就还活着。」
 模拟宇宙：你不理解『他们』是谁，但你有一种感觉，很久都见不到导师和小雅了，于是你在心里默默告别。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 再见。 | — |
 | 我不想和你们分开。 | — |
@@ -55,6 +55,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 186 |  |

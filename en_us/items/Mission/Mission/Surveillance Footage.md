@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性   | 值    |
+| Attribute | Value |
 | ---- | ---- |
-| 物品名称 | Surveillance Footage |
-| 用途   | 任务道具 |
-| 评级   | ★★★  |
-| 类型   | Mission / 任务道具   |
+| Item Name | Surveillance Footage |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 黑塔全景监控系统的切片，凡诸科员凡诸妄动皆在千眼之下。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【致：黯淡星】

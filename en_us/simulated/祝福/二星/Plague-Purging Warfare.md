@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Plague-Purging Warfare |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Plague-Purging Warfare |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 角色回合开始时，若持有大于等于4层【会心】，速度提高24%，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 角色回合开始时，若持有大于等于4层【会心】，速度提高36%，持续2回合。

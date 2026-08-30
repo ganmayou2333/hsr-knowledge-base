@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Skyblade's Legion |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*2同谐*2 |
+| Name | Skyblade's Legion |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*2同谐*2 |
 
 
-## 效果
+## Effect
 
 获得的护盾量提高30%，击破敌方目标弱点后，我方全体获得等同于生命上限15%的护盾，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

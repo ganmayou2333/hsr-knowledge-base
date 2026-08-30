@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Rescuer |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*3毁灭*2 |
+| Name | Rescuer |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*3毁灭*2 |
 
 
-## 效果
+## Effect
 
 敌方目标在攻击中受到削韧伤害后，有100%基础概率陷入灼烧状态，回合开始时受到120%基础伤害的火属性伤害，持续2回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

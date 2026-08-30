@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Collapsed Cognition (II) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_13.png` |
+| Name | Collapsed Cognition (II) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_13.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你是星河涟漪号的导航智能，你指引星船穿越失去语言的克罗斯特亚，向着旧帝国的疆域深处航行。帝皇虽死，藏匿的反有机方程孑遗，却仍可能暗中将你纳入他们的运算进程。
 模拟宇宙：决策智能黑塔女士提议，最好把飞船换成自动驾驶。好吧，你就是那个自动驾驶程序。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 自动驾驶很酷好吧！ | — |
 | 凭什么黑塔是决策智能？ | — |
@@ -56,6 +56,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 215 |  |

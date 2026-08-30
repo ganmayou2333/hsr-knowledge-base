@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Celestial Ambrosia |
-| 用途 | 世界货币 |
-| 评级 | ★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Celestial Ambrosia |
+| Use | World Currency |
+| Rarity | ★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 翁法罗斯世界货币，可在特供商店购买商品。
 
 
-## 获得途径
+## Acquisition
 
 - 探索翁法罗斯
 - 开拓任务

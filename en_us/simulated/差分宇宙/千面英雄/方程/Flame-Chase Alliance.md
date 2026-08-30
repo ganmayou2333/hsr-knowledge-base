@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Flame-Chase Alliance |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
+| Name | Flame-Chase Alliance |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
 | 达成条件 | 同谐*6
 毁灭*4 |
 
 
-## 效果
+## Effect
 
 敌方目标受到击破伤害时，额外受到3次等同于【和音】上限50%的伤害，并为我方全体充能等同于各自生命上限的25%的【耀变】，该效果敌方目标每回合最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 -

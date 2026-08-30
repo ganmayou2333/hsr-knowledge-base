@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | All Abundance in One Mind |
-| 类型 | 祝福（同名合并） |
-| 命途 | 丰饶 |
-| 星级 | 三星 |
-| 特殊类型 | 普通祝福 |
+| Name | All Abundance in One Mind |
+| Type | Blessing (merged) |
+| Path | 丰饶 |
+| Rarity | 3★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 612332 | When a character provides healing, ally targets other than the healed target will also gain HP equal to 30% of the HP restored. |
 | 615332 | When a character provides healing, ally targets other than the healed target will also gain HP equal to 30% of the HP restored. |

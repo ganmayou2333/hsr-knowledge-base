@@ -6,22 +6,22 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Zagreus' Premium Viscorpus |
-| 用途 | 消耗品 |
-| 评级 | ★★★ |
-| 类型 | Usable / 消耗品 |
+| Item Name | Zagreus' Premium Viscorpus |
+| Use | Consumable |
+| Rarity | ★★★ |
+| Type | Usable / 消耗品 |
 
 
-## 说明
+## Description
 
 使用后我方全体在下次战斗中造成的冰属性伤害提高20%。
 
 
-## 获得途径
+## Acquisition
 
 - 翁法罗斯-「葬忆彼岸」时光
 - 归墟-巴特鲁斯的大胃袋

@@ -7,17 +7,17 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Rest Area |
-| 类型 | 事件（同名合并） |
-| 属性 | 休整 |
-| 图片 | `image/simulated_event/HoshinoKami_Herta.png` |
+| Name | Rest Area |
+| Type | 事件（同名合并） |
+| Attribute | 休整 |
+| Image | `image/simulated_event/HoshinoKami_Herta.png` |
 
 
-## 事件文本
+## Event Text
 
 待补充
 
@@ -28,7 +28,7 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 10000 |  |
 | 10001 |  |

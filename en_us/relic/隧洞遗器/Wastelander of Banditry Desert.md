@@ -4,20 +4,20 @@
 > 实体ID：112
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/572/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Wastelander of Banditry Desert |
-| 类型 | 隧洞遗器 |
-| 实体ID | 112 |
-## 获取途径
+| Name | Wastelander of Banditry Desert |
+| Type | 隧洞遗器 |
+| Entity ID | 112 |
+## Acquisition
 野焰之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases Imaginary DMG by 10%.
 ### 4 件套
 When dealing DMG to debuffed enemy targets, the wearer has their CRIT Rate increased by 10%. And when they deal DMG to Imprisoned enemy targets, their CRIT DMG increases by 20%.
-## 部位
+## Pieces
 ### 手部：废土客的荒漠终端
 **描述**：能检测电离辐射气体的多功能垃圾，会讲垃圾话。
 **来历**：

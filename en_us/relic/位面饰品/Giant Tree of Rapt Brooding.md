@@ -4,20 +4,20 @@
 > 实体ID：320
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/4974/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Giant Tree of Rapt Brooding |
-| 类型 | 位面饰品 |
-| 实体ID | 320 |
-## 获取途径
+| Name | Giant Tree of Rapt Brooding |
+| Type | 位面饰品 |
+| Entity ID | 320 |
+## Acquisition
 纷争不休·差分宇宙
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases the wearer's SPD by 6%. When the wearer's SPD is 135/180 or higher, the wearer and their memosprite's Outgoing Healing increases by 12%/20%.
 ### 4 件套
 -
-## 部位
+## Pieces
 ### 位面球：神悟树庭的沉思巨桹
 **描述**：位面球封装的是翁法罗斯的神悟树庭，「裂分之枝」瑟希斯的神躯在此沉思。「最初的学者」带领众人在林间建立起花园与庭院，分享学识，树庭由此初诞。
 **来历**：

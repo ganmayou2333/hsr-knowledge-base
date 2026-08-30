@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Terminal Encryption Key |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Terminal Encryption Key |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 可以启动铁卫禁区内齿轮栈桥终端的定制密钥，只有军官才能获得使用权限。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【冬兵进行曲】

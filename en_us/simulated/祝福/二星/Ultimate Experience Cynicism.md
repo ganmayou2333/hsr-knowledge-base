@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Ultimate Experience: Cynicism |
-| 类型 | 祝福 |
-| 命途 | 记忆 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Ultimate Experience: Cynicism |
+| Type | Blessing |
+| Path | 记忆 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 我方目标施放攻击后，有40%的基础概率使攻击目标陷入【离神】状态，该效果对每个敌方目标单场战斗最多触发1次。
 
-## 强化效果
+## Enhanced Effect
 
 我方目标施放攻击后，有60%的基础概率使攻击目标陷入【离神】状态，该效果对每个敌方目标单场战斗最多触发1次。

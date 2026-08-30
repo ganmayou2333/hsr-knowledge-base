@@ -7,20 +7,20 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Propagation: Slumbering Overlord (Second Praetorian) |
-| 类型 | 事件 |
-| 属性 | 虫群 |
-| 图片 | `image/simulated_event/PicRogueEvent_4.png` |
+| Name | Propagation: Slumbering Overlord (Second Praetorian) |
+| Type | Event |
+| Attribute | 虫群 |
+| Image | `image/simulated_event/PicRogueEvent_4.png` |
 
 
-## 事件文本
+## Event Text
 
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 「吸取」它的力量。 | 获得2个2星祝福。 |
 | 「给予」它力量 | 全部角色各自损失80%当前生命值，并强化2个随机祝福。{{颜色\|cdcdd8\|（后续可获得更好奖励。）}} |
@@ -35,6 +35,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 118902 |  |

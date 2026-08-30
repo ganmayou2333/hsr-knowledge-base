@@ -6,16 +6,16 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 光锥名称 | I Am As You Behold |
-| 命途 | Destruction |
-| 评级 | ★★★★★ |
-| 类型 | 光锥 |
+| Light Cone Name | I Am As You Behold |
+| Path | Destruction |
+| Rarity | ★★★★★ |
+| Type | Light Cone |
 
-## 背景故事
+## Story
 
 Treasure, power, conquest, challenges... A jumble of fragments played on repeat in his mind.
 In the flickering lamplight, the King drained his cup in one gulp.
@@ -25,18 +25,18 @@ A languid figure sank into the plush sofa, thoughts and musings dissipating like
 Even a king must occasionally surrender to his own desires and savor a moment of pleasure.
 "What does it matter what I seek or gain? The moments when life pulses freely at my whim are the moments I treasure most."
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 生命值 | 攻击力 | 防御力 |
+| HP | ATK | DEF |
 |---|---|---|
 | 953 | 635 | 463 |
 
-## 叠影效果
+## Superimposition
 
 ### At Will
 
 Increases the wearer's ATK by 18% and Energy Regeneration Rate by #2[f1]%. When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by #3[f2]%, up to a max increase of 72%. When the wearer enters combat or uses Ultimate, the wearer gains "King's Entertainment," lasting for 3 turn(s). While the wearer holds "King's Entertainment," increases all allies' CRIT DMG by 24%. Effects of the same type cannot stack.
 
-## 晋阶材料
+## Ascension Materials
 
 - 晋阶材料 / Level 80 / x385,000 / x4 / x12 / x15 / x20 / x20 / x14

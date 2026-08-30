@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Chili Oil Beef Offal Stew |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Chili Oil Beef Offal Stew |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 使用后立即为我方恢复4点秘技点。
 
 
-## 获得途径
+## Acquisition
 
 - 开拓任务【安灵布奠，天清路远】

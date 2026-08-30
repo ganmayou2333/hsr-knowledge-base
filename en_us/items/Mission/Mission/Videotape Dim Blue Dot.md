@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Videotape: Dim Blue Dot |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Videotape: Dim Blue Dot |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 记录了空间站内奇景秘闻之录像带。制作者为了防范他人窥探隐秘，在录像带中植入了非凡的防卫机制。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【向导佯谬】

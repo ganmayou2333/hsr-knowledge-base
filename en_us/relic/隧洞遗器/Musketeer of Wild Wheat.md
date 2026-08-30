@@ -4,20 +4,20 @@
 > 实体ID：102
 > 官方Wiki：https://bbs.mihoyo.com/sr/wiki/content/574/detail
 ---
-## 基本信息
-| 属性 | 值 |
+## Basic Info
+| Attribute | Value |
 |---|---|
-| 名称 | Musketeer of Wild Wheat |
-| 类型 | 隧洞遗器 |
-| 实体ID | 102 |
-## 获取途径
+| Name | Musketeer of Wild Wheat |
+| Type | 隧洞遗器 |
+| Entity ID | 102 |
+## Acquisition
 漂泊之径·侵蚀隧洞
-## 套装效果
+## Set Effects
 ### 2 件套
 Increases ATK by 12%.
 ### 4 件套
 The wearer's SPD increases by 6% and DMG dealt by Basic ATK increases by 10%.
-## 部位
+## Pieces
 ### 手部：快枪手的粗革手套
 **描述**：表面已经部分开裂的皮革手套，握枪处磨损尤其严重。
 **来历**：

@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Sizzling Thunder |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*5记忆*3 |
+| Name | Sizzling Thunder |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*5记忆*3 |
 
 
-## 效果
+## Effect
 
 敌方目标陷入冻结状态时，使其当前承受的所有持续伤害立即产生相当于原伤害180%的伤害，每有1个持续伤害状态，陷入1层【怀疑】效果。
 
-## 强化效果
+## Enhanced Effect
 
 -

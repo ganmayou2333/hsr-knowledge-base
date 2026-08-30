@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Bone Planter |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 虚无*2繁育*2 |
+| Name | Bone Planter |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 虚无*2繁育*2 |
 
 
-## 效果
+## Effect
 
 【呢喃】的清除阈值提高80%。消耗战技点后为敌方全体【呢喃】充能，充能值等同于清除阈值的4%。
 
-## 强化效果
+## Enhanced Effect
 
 -

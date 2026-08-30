@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Call of the Wilderness |
-| 类型 | 祝福 |
-| 命途 | 虚无 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Call of the Wilderness |
+| Type | Blessing |
+| Path | 虚无 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 敌方全体每有1层【怀疑】效果，攻击力降低0.3%，最多降低30%。
 
-## 强化效果
+## Enhanced Effect
 
 敌方全体每有1层【怀疑】效果，其攻击力降低0.4%，最多降低30%；效果抵抗降低0.4%，最多降低30%。

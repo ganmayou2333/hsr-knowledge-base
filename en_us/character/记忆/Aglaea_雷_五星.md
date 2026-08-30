@@ -7,81 +7,81 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Aglaea |
-| 命途 | Remembrance |
-| 属性 | Lightning |
-| 稀有度 | ★★★★★ |
-| 阵营 | 翁法罗斯 |
-| 角色介绍 | 在那黎明照拂的圣城，织者抚弄金丝，连缀命运。 背负「浪漫」火种的黄金裔，召集世间英雄，带领他们再度踏上漫长的征程 ——击落众神，归还神火，予以几近覆灭的翁法罗斯新生。 |
+| Character Name | Aglaea |
+| Path | Remembrance |
+| Attribute | Lightning |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | 在那黎明照拂的圣城，织者抚弄金丝，连缀命运。 背负「浪漫」火种的黄金裔，召集世间英雄，带领他们再度踏上漫长的征程 ——击落众神，归还神火，予以几近覆灭的翁法罗斯新生。 |
 | 城邦 | 奥赫玛 |
 | 神权 | 「黄金之茧，墨涅塔」 |
-| 定位 | 召唤忆灵「衣匠」协助战斗的输出型角色 |
+| Role | 召唤忆灵「衣匠」协助战斗的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 遠藤綾 |
-| 英语 | Morgan Lauré |
-| 中文 | 楚越 |
-| 韩语 | 오로아 |
+| Japanese | 遠藤綾 |
+| English | Morgan Lauré |
+| Chinese | 楚越 |
+| Korean | 오로아 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,242 |
-| 基础攻击力 | 699 |
-| 基础防御力 | 485 |
-| 基础速度 | 102 |
-| 嘲讽 | 100 |
-| 能量上限 | 350 |
+| Base HP | 1,242 |
+| Base ATK | 699 |
+| Base DEF | 485 |
+| Base SPD | 102 |
+| Taunt | 100 |
+| Max Energy | 350 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/兽棺之钉\|兽棺之钉]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/兽棺之钉\|Nail of the Beast Coffin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,818,500 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 8 |
-| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 42 |
-| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 86 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 25 |
-| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,818,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/思量的种\|Bīja of Consciousness]] | 8 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|Seedling of Manas]] | 42 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|Flower of Ālaya]] | 86 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 25 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 22 |
 
 ---
-## 战技
-### 普攻：Thorned Nectar
+## Skills
+### Basic ATK：Thorned Nectar
 - **类型**：Basic ATK
 - **简述**：Deals minor Lightning DMG to one enemy.
 - **最大等级**：10
 - **效果模板**：Deals Lightning DMG equal to #1[i]% of Aglaea's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 1 |
   | Lv.2 | 60% | 1 |
@@ -100,14 +100,14 @@
 
 - **满级效果**：Deals Lightning DMG equal to 140% of Aglaea's ATK to one designated enemy.
 
-### 战技：Rise, Exalted Renown
+### Skill：Rise, Exalted Renown
 - **类型**：Skill
 - **简述**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
 - **最大等级**：15
 - **效果模板**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 25% | 0 | 5 |
   | Lv.2 | 27.5% | 0 | 5 |
@@ -132,7 +132,7 @@
 
 - **满级效果**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
 
-### 终结技：Dance, Destined Weaveress
+### Ultimate：Dance, Destined Weaveress
 - **类型**：Ultimate
 - **简述**：Summons the memosprite Garmentmaker, enabling Aglaea to enter the "Supreme Stance" state, immediately take action, and gain Enhanced Basic ATK.
 - **最大等级**：15
@@ -143,7 +143,7 @@ A countdown appears in the Action Order, with its own SPD set at #4[i]. While th
 行动序列上出现倒计时，倒计时固定拥有#4[i]速度，倒计时存在期间再次施放终结技将重置倒计时，回合开始时使衣匠自毁。衣匠消失时阿格莱雅解除【至高之姿】状态。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 10% | 0 | 0 | 100 | 0 | 0 |
   | Lv.2 | 10.5% | 0 | 0 | 100 | 0 | 0 |
@@ -175,14 +175,14 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 【至高之姿】状态下，阿格莱雅获得衣匠忆灵天赋的速度提高层数，每层使自身速度提高#1[f1]%，普通攻击强化为【孤锋千吻】并且无法施放战技，衣匠免疫控制类负面状态。
 行动序列上出现倒计时，倒计时固定拥有100速度，倒计时存在期间再次施放终结技将重置倒计时，回合开始时使衣匠自毁。衣匠消失时阿格莱雅解除【至高之姿】状态。
 
-### 天赋：Rosy-Fingered
+### Talent：Rosy-Fingered
 - **类型**：Talent
 - **简述**：While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, deals minor Lightning Additional DMG.
 - **最大等级**：15
 - **效果模板**：The memosprite Garmentmaker has an initial SPD equal to #4[i]% of Aglaea's SPD and a Max HP equal to #5[i]% of Aglaea's Max HP plus #6[i]. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to #1[i]% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 12% | 0 | 0 | 35% | 44% | 180 |
   | Lv.2 | 13.8% | 0 | 0 | 35% | 46.75% | 247.5 |
@@ -210,14 +210,14 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 
 - **满级效果**：The memosprite Garmentmaker has an initial SPD equal to 35% of Aglaea's SPD and a Max HP equal to 77% of Aglaea's Max HP plus 990. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to 39% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
 
-### 秘技：Meteoric Sunder
+### Technique：Meteoric Sunder
 - **类型**：Technique
 - **简述**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates Energy and deals minor Lightning DMG to all enemies. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
 - **最大等级**：1
 - **效果模板**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates #2[i] Energy and deals Lightning DMG equal to #1[i]% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 |
+| Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 100% | 30 |
 
@@ -227,27 +227,27 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 
 - **满级效果**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates 30 Energy and deals Lightning DMG equal to 100% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 短视之惩 | 晋阶2 | 处于【至高之姿】状态时，阿格莱雅与衣匠的攻击力提高，提高数值等同于阿格莱雅速度的#1[i]%+衣匠速度的#2[i]%。 | 处于【至高之姿】状态时，阿格莱雅与衣匠的攻击力提高，提高数值等同于阿格莱雅速度的720%+衣匠速度的360%。 | 信用点×5000、思量的种×3、吉光片羽×1 |
 | 附加能力2 | 织运之竭 | 晋阶4 | 衣匠消失时，忆灵天赋的速度提高层数最多保留#1[i]层，衣匠再次被召唤时获得对应层数的速度提高效果。 | 衣匠消失时，忆灵天赋的速度提高层数最多保留1层，衣匠再次被召唤时获得对应层数的速度提高效果。 | 信用点×20000、末那芽苗×5、命运的足迹×1、吉光片羽×1 |
 | 附加能力3 | 飞驰之阳 | 晋阶6 | 战斗开始时，若自身能量不足#1[i]%，恢复自身能量至#2[i]%。 | 战斗开始时，若自身能量不足50%，恢复自身能量至50%。 | 信用点×160000、阿赖耶华×8、命运的足迹×1、吉光片羽×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
-| 防御力 | 12.5% |
+| DEF | 12.5% |
 | 暴击率 | 12% |
 | 雷属性伤害提高 | 22.4% |
 
 ---
 
-## 星魂
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | Drift at the Whim of Venus | The enemy afflicted with "Seam Stitch" takes 15% increased DMG. After Aglaea or Garmentmaker attacks this target, additionally regenerates 20 Energy. |
 | E2 | Sail on the Raft of Eyelids | When Aglaea or Garmentmaker takes action, enables the DMG dealt by Aglaea and Garmentmaker to ignore 14% of the target's DEF. This effect stacks up to 3 time(s) and lasts until any unit, other than Aglaea or Garmentmaker, actively uses an ability. |
@@ -258,69 +258,69 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 雷属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/凯歌祝捷的英豪\|凯歌祝捷的英豪]] | 装备者的忆灵在场时，装备者的速度提高6%，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高30%，持续2回合。 |
-| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|野穗伴行的快枪手]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
-| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|激奏雷电的乐队]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
+| [[zh_cn/relic/隧洞遗器/凯歌祝捷的英豪\|Hero of Triumphant Song]] | 装备者的忆灵在场时，装备者的速度提高6%，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高30%，持续2回合。 |
+| [[zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[zh_cn/relic/隧洞遗器/激奏雷电的乐队\|Band of Sizzling Thunder]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
-| [[zh_cn/relic/位面饰品/不老者的仙舟\|不老者的仙舟]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
-| [[zh_cn/relic/位面饰品/太空封印站\|太空封印站]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
 
 ---
 
-## 推荐光锥
+## Recommended Light Cones
 
-### [[zh_cn/lightcone/记忆/将光阴织成黄金.md|将光阴织成黄金]]
+### [[zh_cn/lightcone/记忆/将光阴织成黄金.md|Time Woven Into Gold]]
 
 - **基础属性**：生1058 攻635 防396
 - **推荐度**：★★★★★
 - **技能名**：创设
 - **效果**：使装备者的基础速度提高【12/14/16/18/20】，装备者和装备者的忆灵在攻击后使装备者获得1层【织锦】，每层【织锦】使装备者和装备者的忆灵暴击伤害提高【9%/10.5%/12%/13.5%/15%】，最多叠加6层。叠加至上限时，每层【织锦】额外使造成的普攻伤害提高【9%/10.5%/12%/13.5%/15%】。
 
-### [[zh_cn/lightcone/记忆/天才们的问候.md|天才们的问候]]
+### [[zh_cn/lightcone/记忆/天才们的问候.md|Geniuses' Greetings]]
 
 - **基础属性**：生953 攻476 防330
 - **推荐度**：★★★★
 - **技能名**：恭喜
 - **效果**：使装备者的攻击力提高【16%/20%/24%/28%/32%】，装备者施放终结技后，使装备者与忆灵造成的普攻伤害提高【20%/25%/30%/35%/40%】，持续3回合。
 
-### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|多流汗，少流泪]]
+### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|Sweat Now, Cry Less]]
 
 - **基础属性**：生1058 攻529 防198
 - **推荐度**：★★★★
 - **技能名**：来练！
 - **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】，装备者的忆灵在场上时，装备者与忆灵造成的伤害提高【24%/27%/30%/33%/36%】。
 
-## 推荐队伍
+## Recommended Teams
 
 | 主C | 辅助 | 生存 |
 |---|---|---|
-| [[zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|星期日]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|知更鸟]] |
+| [[zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
 | [[zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
 | [[zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 在那黎明照拂的圣城，织者抚弄金丝，连缀命运。
 背负「浪漫」火种的黄金裔，召集世间英雄，带领他们再度踏上漫长的征程
 ——击落众神，归还神火，予以几近覆灭的翁法罗斯新生。
 
-### 角色故事·其一 （解锁条件：角色等级20）
+### Character Story·1（解锁条件：Character Level 20）
 
 许多年之后，当她无意间找到少女时代织就的衣物，温柔自绸缎流淌而下，令她久无波动的心为之一颤。
 
@@ -347,7 +347,7 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 「可…美和美丽…不是一个意思吗？」
 「你呀，还不懂…不懂是好事，好事啊……」
 
-### 角色故事·其二 （解锁条件：角色等级40）
+### Character Story·2（解锁条件：Character Level 40）
 
 时光荏苒，她设计的服饰已如星空那般浩繁。
 不知为何，那华美广大的衣橱内，却保存着许多褴褛不堪的旧衣布片。
@@ -368,7 +368,7 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 很久以前，握住火种的那一刻，她突然在黑暗中「看见」了一幅从未见过的美丽景象——
 在那黄金般的未来里，再也没有纷争，也再没有死亡。
 
-### 角色故事·其三 （解锁条件：角色等级60）
+### Character Story·3（解锁条件：Character Level 60）
 
 他们说，那是「逐火」的旅途。他们也说，那是「失却」的旅途。
 
@@ -386,7 +386,7 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 
 连金丝也变得锋利，第一次染上血的气味。
 
-### 角色故事·其四 （解锁条件：角色等级80）
+### Character Story·4（解锁条件：Character Level 80）
 
 时至今日，沐浴神性的织机仍在不停轮转，众多衣匠飘摇于半空，无人知道它们是为何而舞动，又是为何而休止。
 「衣匠，请前往广场，那里有我们远道而来的客人……」

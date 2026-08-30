@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Oneiric Shard |
-| 用途 | 稀有货币 |
-| 评级 | ★★★★★ |
-| 类型 | Material / 物品 |
+| Item Name | Oneiric Shard |
+| Use | 稀有货币 |
+| Rarity | ★★★★★ |
+| Type | Material / 物品 |
 
-## 说明
+## Description
 
 古老梦华是星海中凝固的光，残留着远古巨兽的梦。可用于兑换跃迁道具等。
 
 
-## 获得途径
+## Acquisition
 
 - （暂未收录）

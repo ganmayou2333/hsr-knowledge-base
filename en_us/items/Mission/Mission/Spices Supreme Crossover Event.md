@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Spices Supreme Crossover Event |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Spices Supreme Crossover Event |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 尚滋味推出「特色联动套餐」，证明了金人巷作为「美食街」依然具有十足的竞争力。
 
-## 获得途径
+## Acquisition
 
 - 1.3活动冒险任务【金戺重喧·其四】

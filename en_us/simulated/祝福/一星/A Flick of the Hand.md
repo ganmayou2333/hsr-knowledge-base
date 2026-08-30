@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | A Flick of the Hand |
-| 类型 | 祝福（同名合并） |
-| 命途 | 巡猎 |
-| 星级 | 一星 |
-| 特殊类型 | 普通祝福 |
+| Name | A Flick of the Hand |
+| Type | Blessing (merged) |
+| Path | 巡猎 |
+| Rarity | 1★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616454 | After defeating any enemy targets, increases all allies' ATK by 6%. This effect can stack up to 4 time(s). |
 | 617454 | After defeating any enemy targets, increases all allies' ATK by 10%. This effect can stack up to 4 time(s). |

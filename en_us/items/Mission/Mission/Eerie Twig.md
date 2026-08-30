@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Eerie Twig |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Eerie Twig |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 散发着诡异气息的枝条，在某些丹方里是必不可少的珍稀药材。
 
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【陶德·雷奥登的学术研究：晚窥青囊】

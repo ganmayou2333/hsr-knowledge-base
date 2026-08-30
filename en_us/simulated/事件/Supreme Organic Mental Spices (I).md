@@ -7,23 +7,23 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Supreme Organic: Mental Spices (I) |
-| 类型 | 事件 |
-| 属性 | 秘闻 |
-| 图片 | `image/simulated_event/RoguePicEventDLC_08.png` |
+| Name | Supreme Organic: Mental Spices (I) |
+| Type | Event |
+| Attribute | Tale |
+| Image | `image/simulated_event/RoguePicEventDLC_08.png` |
 
 
-## 事件文本
+## Event Text
 
 模拟宇宙：你环视四周—一特劳拉•法恩莎举起红酒杯，向客人们讲述「她」的想法。
 模拟宇宙：哦…极具影响力的法恩莎！她的「护卫队」臭名昭著，他们与「合伙人」团队的矛盾已不再是秘密。
 模拟宇宙：加入法恩莎「护卫队」需要通过「授帽礼」——他们看向你。
 
-| 选项 | 结果 |
+| Option | Result |
 |---|---|
 | 接受授帽。}} | — |
 
@@ -38,6 +38,6 @@
 
 ## 实体记录
 
-| 实体ID | 属性 | 图片 |
+| Entity ID | Attribute | Image |
 |---|---|---|
 | 150 |  |

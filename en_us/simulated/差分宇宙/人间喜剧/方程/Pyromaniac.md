@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Pyromaniac |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 毁灭*3丰饶*2 |
+| Name | Pyromaniac |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 毁灭*3丰饶*2 |
 
 
-## 效果
+## Effect
 
 每层【战意】使角色的生命上限提高6%，但可回复的生命上限降低该数值的80%。
 
-## 强化效果
+## Enhanced Effect
 
 -

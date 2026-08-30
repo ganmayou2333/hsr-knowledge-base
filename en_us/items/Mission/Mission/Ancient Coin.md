@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Ancient Coin |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Ancient Coin |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 古老的硬币，来自贝洛伯格的金属资源还富余的时代。
 
 
-## 获得途径
+## Acquisition
 
 - 「雅利洛-Ⅵ」可破坏物掉落

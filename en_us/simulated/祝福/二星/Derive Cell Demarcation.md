@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Derive: Cell Demarcation |
-| 类型 | 祝福（同名合并） |
-| 命途 | 智识 |
-| 星级 | 二星 |
-| 特殊类型 | 普通祝福 |
+| Name | Derive: Cell Demarcation |
+| Type | Blessing (merged) |
+| Path | 智识 |
+| Rarity | 2★ |
+| Special Type | Normal Blessing |
 
 
-## 效果
+## Effect
 
 > 该名称对应 2 个不同实体ID，效果如下：
 
-| 实体ID | 效果 |
+| Entity ID | Effect |
 |---|---|
 | 616844 | After an ally target uses "Brain in a Vat" to use their Ultimate, their ATK increases by 60% for 2 turn(s). |
 | 617844 | After an ally target uses "Brain in a Vat" to use their Ultimate, their ATK increases by 60% for 2 turn(s). |

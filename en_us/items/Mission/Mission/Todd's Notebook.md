@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Todd's Notebook |
-| 用途 | 任务道具 |
-| 评级 | ★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Todd's Notebook |
+| Use | Mission Item |
+| Rarity | ★★★ |
+| Type | Mission / 任务道具 |
 
 
-## 说明
+## Description
 
 陶德总是随身携带着笔记本，旨在记录他对不同课题的深刻思考和研究。
 
-## 获得途径
+## Acquisition
 
 - 冒险任务【陶德・雷奥登的学术研究：龙图三变】

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Dreamy Cone (Three Flavors) |
-| 用途 | 任务道具 / 消耗品 |
-| 评级 | ★★★★ |
-| 类型 | Mission / 任务道具 |
+| Item Name | Dreamy Cone (Three Flavors) |
+| Use | 任务道具 / 消耗品 |
+| Rarity | ★★★★ |
+| Type | Mission / 任务道具 |
 
-## 说明
+## Description
 
 > 该名称对应 2 个不同实体ID，合并记录如下：
 
 
-## 获得途径
+## Acquisition
 
 - 匹诺康尼-黄金的时刻-冰淇淋推车
 - 匹诺康尼-克劳克影视乐园-沃尔纳

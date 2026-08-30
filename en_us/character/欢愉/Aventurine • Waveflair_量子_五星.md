@@ -7,79 +7,79 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 角色名称 | Aventurine • Waveflair |
-| 命途 | Elation |
-| 属性 | Quantum |
-| 稀有度 | ★★★★★ |
-| 阵营 | 星际和平公司 |
-| 角色介绍 | 盛典点亮海岸，风暴于狂欢中酝酿。 接过密令，他再度站到风口浪尖，搅动悠长假日—— 当险浪吞没身影，他又将如何破局？ |
-| 定位 | 是一名与全队攻击次数联动、可频繁施放欢愉技的输出型角色 |
+| Character Name | Aventurine • Waveflair |
+| Path | Elation |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 星际和平公司 |
+| Introduction | 盛典点亮海岸，风暴于狂欢中酝酿。 接过密令，他再度站到风口浪尖，搅动悠长假日—— 当险浪吞没身影，他又将如何破局？ |
+| Role | 是一名与全队攻击次数联动、可频繁施放欢愉技的输出型角色 |
 
-### 配音演员
+### Voice Actors
 
-| 语言 | 声优 |
+| Language | VA |
 |---|---|
-| 日语 | 河西健吾 |
-| 英语 | Camden Sutkowski |
-| 中文 | 杨超然 |
-| 韩语 | 박준원 |
+| Japanese | 河西健吾 |
+| English | Camden Sutkowski |
+| Chinese | 杨超然 |
+| Korean | 박준원 |
 
 ---
 
-## 基础属性（Lv.80）
+## Base Stats (Lv.80)
 
-| 属性 | 数值 |
+| Attribute | Value |
 |---|---|
-| 基础生命值 | 1,164 |
-| 基础攻击力 | 485 |
-| 基础防御力 | 606 |
-| 基础速度 | 107 |
-| 嘲讽 | 100 |
-| 能量上限 | 130 |
+| Base HP | 1,164 |
+| Base ATK | 485 |
+| Base DEF | 606 |
+| Base SPD | 107 |
+| Taunt | 100 |
+| Max Energy | 130 |
 
 ---
 
-## 晋阶材料（Lv.1 → Lv.80）
+## Ascension Materials (Lv.1 → Lv.80)
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/Material/AvatarRank/嗤笑丑面\|嗤笑丑面]] | 65 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/嗤笑丑面\|Sneering Harlequin]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
 
 ---
-## 技能材料
+## Skill Materials
 
 技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
 
-| 材料 | 数量 |
+| Materials | Qty |
 |---|---|
-| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,740,000 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|《绒绒号》手绘分镜稿]] | 11 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|《绒绒号》连载纪念刊]] | 41 |
-| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|《绒绒号》典藏版合集]] | 80 |
-| [[zh_cn/items/Material/WeeklyMonsterDrop/伪觉者的期许\|伪觉者的期许]] | 9 |
-| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 26 |
-| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 38 |
-| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,740,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|The Fluffy Hand-drawn Storyboards]] | 11 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|The Fluffy Serialization Memorial Issue]] | 41 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|The Fluffy Collector's Edition]] | 80 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/伪觉者的期许\|High Hopes of the Falsely Enlightened]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 26 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 22 |
 
 ---
-## 战技
-### 普攻：Dead Center, the Torrent Hits
+## Skills
+### Basic ATK：Dead Center, the Torrent Hits
 - **类型**：Basic ATK
 - **简述**：Deals minor Quantum DMG to one designated enemy.
 - **最大等级**：10
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to one designated enemy.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) |
+| Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -97,14 +97,14 @@
 
 - **满级效果**：Deals Quantum DMG equal to 140% of Aventurine • Waveflair's ATK to one designated enemy.
 
-### 战技：Kill Shot, the Sands Boil
+### Skill：Kill Shot, the Sands Boil
 - **类型**：Skill
 - **简述**：Deals Quantum DMG to all enemies. Gains Punchline and "Fervor."
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to all enemies. Gains #2[i] Punchline and #3[i] "Fervor."
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 120% | 4 | 4 |
   | Lv.2 | 132% | 4 | 4 |
@@ -129,14 +129,14 @@
 
 - **满级效果**：Deals Quantum DMG equal to 300% of Aventurine • Waveflair's ATK to all enemies. Gains 4 Punchline and 4 "Fervor."
 
-### 终结技：Grand Slam, Crest That High Tide
+### Ultimate：Grand Slam, Crest That High Tide
 - **类型**：Ultimate
 - **简述**：Deals massive Quantum DMG to all enemies. Gains Punchline and "Fervor." And increases SPD.
 - **最大等级**：15
 - **效果模板**：Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to all enemies. Gains #3[i] Punchline and #2[i] "Fervor." Increases this unit's SPD by #4[i]%, lasting for #5[i] turn(s).
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 |
+| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 240% | 8 | 6 | 12% | 4 |
   | Lv.2 | 256% | 8 | 6 | 13.8% | 4 |
@@ -163,7 +163,7 @@
 
 - **满级效果**：Deals Quantum DMG equal to 480% of Aventurine • Waveflair's ATK to all enemies. Gains 6 Punchline and 8 "Fervor." Increases this unit's SPD by 39%, lasting for 4 turn(s).
 
-### 天赋：Ante Up, the Abyss Answers
+### Talent：Ante Up, the Abyss Answers
 - **类型**：Talent
 - **简述**：The duration of Aventurine • Waveflair's "Certified Banger" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains "Fervor" and Punchline.
 When "Fervor" reaches a certain value, Aventurine • Waveflair immediately uses 1 instance of "Cheers! To Summer's Blaze" that takes into account a fixed amount of Punchline, and enhances the next Elation Skill used in the Aha Instant to "All In! To Summer's Blaze."
@@ -178,7 +178,7 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
 砂金•戏浪持有【好活当赏】时，战技额外对敌方全体造成#2[i]%量子属性欢愉伤害，终结技额外对敌方全体造成#3[i]%量子属性欢愉伤害。
 
 - **等级数值表**：
-  | 等级 | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5 | 参数6 | 参数7 |
+| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5 | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 10 | 20% | 36% | 30 | 20 | 1 | 1 |
   | Lv.2 | 10 | 22% | 39.6% | 30 | 20 | 1 | 1 |
@@ -211,14 +211,14 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
 【热意】达到10点时，砂金•戏浪会立即施放1次固定计入20笑点的【举杯！敬炽烈一夏】，并在施放后使自身下一次在阿哈时刻中施放的欢愉技强化为【All in！敬炽烈一夏】。
 砂金•戏浪持有【好活当赏】时，战技额外对敌方全体造成50%量子属性欢愉伤害，终结技额外对敌方全体造成90%量子属性欢愉伤害。
 
-### 秘技：Make Waves in Still Waters
+### Technique：Make Waves in Still Waters
 - **类型**：Technique
 - **简述**：Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains "Fervor" and "Certified Banger." Technique Points are not consumed if no enemies are hit.
 - **最大等级**：1
 - **效果模板**：Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via actively attacking enemies, deals Quantum DMG to all enemies equal to #1[i]% of Aventurine • Waveflair's ATK, and gains #2[i] "Fervor" and #3[i] "Certified Banger." Technique Points are not consumed if no enemies are hit.
 
 - **等级数值表**：
-  | 等级 | 参数1(%) | 参数2 | 参数3 |
+| Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 100% | 2 | 20 |
 
@@ -229,9 +229,9 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
 
 - **满级效果**：Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via actively attacking enemies, deals Quantum DMG to all enemies equal to 100% of Aventurine • Waveflair's ATK, and gains 2 "Fervor" and 20 "Certified Banger." Technique Points are not consumed if no enemies are hit.
 
-## 附加能力（行迹）
+## Trace Bonuses
 
-| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 极乐派对 | 晋阶2 | 速度大于等于#1[i]时，使自身欢愉度提高#2[i]%，之后每超过#3[i]点速度使自身欢愉度额外提高#4[i]%，最多计入#5[i]点超出的速度。 | 速度大于等于140时，使自身欢愉度提高30%，之后每超过1点速度使自身欢愉度额外提高1%，最多计入200点超出的速度。 | 信用点×5000、《绒绒号》手绘分镜稿×2、伪觉者的期许×1 |
 | 附加能力2 | 纵享惊涛 | 晋阶4 | 战斗开始时若队伍中存在砂金•戏浪以外的其他「欢愉」命途角色，砂金•戏浪在场时，我方全体欢愉度提高#5[i]%，砂金•戏浪额外提高#1[i]%。
@@ -239,18 +239,18 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
 战斗开始时若队伍中只存在砂金•戏浪1名「欢愉」命途角色，砂金•戏浪施放欢愉技造成伤害时，被视为发动了追加攻击。队友施放攻击后，砂金•戏浪获得2点【好活当赏】和1个笑点，并使阿哈速度提高25，速度提高效果持续到阿哈时刻结束。 | 信用点×20000、《绒绒号》连载纪念刊×4、命运的足迹×1、伪觉者的期许×1 |
 | 附加能力3 | 旧梦淘金 | 晋阶6 | 暴击伤害提高#1[i]%。队友施放普攻、战技、追加攻击或终结技后，使我方全体暴击伤害提高#2[i]%，持续#3[i]回合，并使砂金•戏浪额外获得#4[i]点【热意】，该效果最多触发#5[i]次，砂金•戏浪施放战技时重置可触发次数。 | 暴击伤害提高48%。队友施放普攻、战技、追加攻击或终结技后，使我方全体暴击伤害提高48%，持续3回合，并使砂金•戏浪额外获得2点【热意】，该效果最多触发6次，砂金•戏浪施放战技时重置可触发次数。 | 信用点×140000、《绒绒号》典藏版合集×8、命运的足迹×1、伪觉者的期许×1 |
 
-## 总属性加成
+## Stat Bonuses
 
-| 属性 | 加成 |
+| Attribute | 加成 |
 |---|---|
 | 暴击率 | 18.7% |
 | 欢愉度 | 10% |
 
 ---
-| 速度 | 9 |
-## 星魂
+| SPD | 9 |
+## Eidolons
 
-| 星魂 | 名称 | 效果 |
+| Eidolons | Name | Effect |
 |---|---|---|
 | E1 | A Holiday on the Line | Increases All-Type RES PEN by 24%.<br>Talent gets enhanced: When "Fervor" reaches 10/20/30 points, immediately uses "Cheers! To Summer's Blaze." |
 | E2 | Idle as the Turning Tide | Increases the upper limit of "Fervor" to 50 points. "Fervor" reaching 40/50 points can also trigger the Talent to use "Cheers! To Summer's Blaze." After using Elation Skill, additionally gains 4 "Fervor." |
@@ -261,32 +261,32 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
 
 ---
 
-## 推荐遗器
+## Recommended Relics
 
 **主词条推荐**：暴击率 / 速度 / 量子属性伤害提高 / 能量恢复效率
 
 **推荐副词条**：暴击率 / 暴击伤害 / 速度
 
-#### 4件套推荐
+#### 4-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|闪耀功勋的魔法少女]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
-| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|繁星璀璨的天才]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[zh_cn/relic/隧洞遗器/闪耀功勋的魔法少女\|Ever-Glorious Magical Girl]] | 装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。 |
+| [[zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
 
-#### 2件套推荐
+#### 2-Piece Set
 
-| 遗器套装 | 效果 |
+| Relic Set | Effect |
 |---|---|
-| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|零号关卡朋克洛德]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
-| [[zh_cn/relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
-| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|无主荒星茨冈尼亚]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
+| [[zh_cn/relic/位面饰品/零号关卡朋克洛德\|Punklorde Stage Zero]] | 使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。 |
+| [[zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[zh_cn/relic/位面饰品/无主荒星茨冈尼亚\|Sigonia, the Unclaimed Desolation]] | 使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。 |
 
 ---
 
 *文件生成时间：2026-08-27*
 
-## 角色故事
+## Character Story
 「朋友，又见面了！刚刚结束代言拍摄，在镜头前维持笑容还真是个体力活。不过好在升完P46之后，总算有空好好休假了。想和我一起放松下么？我保证会给你一个难以忘怀的假期。」
 
 盛典点亮海岸，风暴于狂欢中酝酿。

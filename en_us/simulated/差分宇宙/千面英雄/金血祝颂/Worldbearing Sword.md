@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Worldbearing Sword |
-| 类型 | 祝福 |
-| 命途 | 无（按所属角色）|
-| 星级 | 待补充 |
-| 特殊类型 | 金血祝颂|
+| Name | Worldbearing Sword |
+| Type | Blessing |
+| Path | 无（按所属角色） |
+| Rarity | TBD |
+| Special Type | 金血祝颂 |
 
 
-## 效果
+## Effect
 
 进入白昼时，当前队伍中的第一位角色获得【黎明】，持续2回合。持有【黎明】的角色，造成的最终伤害提高100%。
 
-## 强化效果
+## Enhanced Effect
 
 -

@@ -6,21 +6,21 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | Prescription: Draught of Draconic Surge |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | Prescription: Draught of Draconic Surge |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 药方：龙蟠虬跃
 
 
-## 获得途径
+## Acquisition
 
 - 完成仙舟「罗浮」1.0 版本所有主线任务后获得（《药王秘传·证物集册》五册之一）

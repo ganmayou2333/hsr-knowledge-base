@@ -7,21 +7,21 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Resonance Interplay: Waiting with Drawn Bow |
-| 类型 | 祝福 |
-| 命途 | 巡猎 |
-| 星级 | 三星 |
-| 特殊类型 | 回响交错 |
+| Name | Resonance Interplay: Waiting with Drawn Bow |
+| Type | Blessing |
+| Path | 巡猎 |
+| Rarity | 3★ |
+| Special Type | 回响交错 |
 
 
-## 效果
+## Effect
 
 施放命途回响时，使角色拥有的护盾持续时间延长5回合。
 
-## 强化效果
+## Enhanced Effect
 
 -

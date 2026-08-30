@@ -6,20 +6,20 @@
 
 ---
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 物品名称 | The Well-Kept Secret of the Maintenance Department |
-| 用途 | 阅读物 |
-| 评级 | ★ |
-| 类型 | Usable / 阅读物 |
+| Item Name | The Well-Kept Secret of the Maintenance Department |
+| Use | Readable |
+| Rarity | ★ |
+| Type | Usable / 阅读物 |
 
 
-## 说明
+## Description
 
 维修科室的不传之秘
 
-## 获得途径
+## Acquisition
 
 - 空间站「黑塔」-支援舱段地图中拾取

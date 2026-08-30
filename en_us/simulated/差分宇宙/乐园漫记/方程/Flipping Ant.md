@@ -7,22 +7,22 @@
 ---
 
 
-## 基本信息
+## Basic Info
 
-| 属性 | 值 |
+| Attribute | Value |
 |---|---|
-| 名称 | Flipping Ant |
-| 类型 | 祝福 |
-| 命途 | 无（按达成条件）|
-| 星级 | 待补充 |
-| 特殊类型 | 方程|
-| 达成条件 | 2繁育+2同谐 |
+| Name | Flipping Ant |
+| Type | Blessing |
+| Path | N/A (conditional) |
+| Rarity | TBD |
+| Special Type | Equation |
+| Condition | 2繁育+2同谐 |
 
 
-## 效果
+## Effect
 
 我方目标造成的普攻/战技伤害无视敌方目标25%的防御力，该效果对弱点击破状态下的敌方目标提高至40%。
 
-## 强化效果
+## Enhanced Effect
 
 -
