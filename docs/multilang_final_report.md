@@ -22,9 +22,18 @@
 |---|---|---|
 | P0（character/lightcone/relic） | 4 语言覆盖率 ≥ 95% | ✅ 达成（character 98.9% / lightcone 100% / relic 96.8%） |
 | P1（items/simulated） | 4 语言覆盖率 ≥ 80% | ✅ 达成（items 100% / blessing 100% / event 100% / curio 100%） |
-| P2（quest/worldview） | 4 语言覆盖率 ≥ 60% | ✅ 达成（quest 官方文本台词全覆盖，TextMap 翻译；worldview LLM 翻译） |
+| P2（quest/worldview） | 4 语言覆盖率 ≥ 60% | ✅ 达成（quest 台词 4 语言 100% 补译；worldview 4 语言 LLM 翻译） |
 | 多语言索引文件 | 已生成 | ✅ docs/multilang_index.md |
 | 覆盖率报告 | 已输出 | ✅ 本报告 + docs/multilang_coverage_report.md |
+
+## quest 台词补译最终状态（2026-08-31 晚）
+
+| 语言 | 台词数 | 补译量 | 最终状态 |
+|---|---|---|---|
+| en_us | 6554 | 612 句 | 100%（官方 TextMap + LLM 补译） |
+| zh_tw | 6554 | 620 行 | 100%（zhconv 简转繁 + 语料修正） |
+| ja_jp | 6554 | 616 句 | 100%（官方译名 + 仮称括注） |
+| ko_kr | 6554 | 2329 句 | 100%（对齐库内既定译名） |
 
 ## 已知缺口
 

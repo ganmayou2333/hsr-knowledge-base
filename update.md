@@ -3,9 +3,14 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-08-31
 
----
+### 四、阶段四 P2（剧情任务多语言）完成【2026-08-31 晚】
+- **数据源**：官方游戏文本 TextMap（DimbreathBot/TurnBasedGameData，46.6万条 hash→文本，CHS/EN/JP/KR/CHT 五语言，经 curl 下载至 temp/textmap/）。
+- **quest 剧情文本 167 文件 × 4 语言**：台词/任务名/列表/引用用 TextMap 官方映射翻译。
+- **quest 台词补译至 100%**：EN 612 句、zh_tw 620 行、ja_jp 616 句、ko_kr 2329 句（wiki 转写差异文本 LLM/zhconv 补译，subagent 并行）。
+- **worldview 8 文件 × 4 语言**：LLM 并行翻译（subagent），行数逐一对应、官方专名、双链保留。
+- **提交**：`47d55f0d`~`ad50efdc` 共 7 个 commit。
 
-## 2026-08-31（周一）
+---
 
 ### 一、多语言数据查找（阶段一~三完成：探查 / P0 基础迁移 / P1 物品与模拟宇宙）
 
