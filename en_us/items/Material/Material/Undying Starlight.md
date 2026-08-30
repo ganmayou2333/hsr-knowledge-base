@@ -1,0 +1,25 @@
+# Undying Starlight
+
+> 数据来源：StarRailRes items.json
+> 数据版本：4.6
+> 实体ID：252
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Undying Starlight |
+| 用途 | 稀有材料 |
+| 评级 | ★★★★★ |
+| 类型 | Material / 普通材料 |
+
+
+## 说明
+
+暂无数据
+
+## 获得途径
+
+- ['跃迁']

@@ -1,0 +1,34 @@
+# Sealing Wax Merchant (II)
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_events.json）
+> 数据版本：4.5
+> 实体ID：627102
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Sealing Wax Merchant (II) |
+| 类型 | 事件 |
+| 属性 | 事件 |
+| 图片 | `image/simulated_event/PicRogueEvent_37.png` |
+
+
+## 事件文本
+
+| 选项 | 结果 |
+|---|---|
+| 欣然收下。 | 立刻获得5-7个随机火漆奇物。 |
+| 讨要盘缠，再到外面闯一闯。 | 立刻获得3-4个随机火漆奇物，和2个方程所需祝福。 |
+
+
+> 图片共用：`image/simulated_event/PicRogueEvent_37.png` 与另外 2 个事件共用
+
+## 实体记录
+
+| 实体ID | 属性 | 图片 |
+|---|---|---|
+| 627102 |  |

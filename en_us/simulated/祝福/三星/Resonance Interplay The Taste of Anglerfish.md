@@ -1,0 +1,27 @@
+# Resonance Interplay: The Taste of Anglerfish
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612624
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Interplay: The Taste of Anglerfish |
+| 类型 | 祝福 |
+| 命途 | 欢愉&丰饶 |
+| 星级 | 三星 |
+| 特殊类型 | 回响交错 |
+
+
+## 效果
+
+命途回响「欢愉」造成伤害时，随机解除1名我方角色身上的1个负面效果。
+
+## 强化效果
+
+-

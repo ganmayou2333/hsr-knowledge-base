@@ -1,0 +1,28 @@
+# Wheel of Career Transition
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：677190
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Wheel of Career Transition |
+| 类型 | 祝福 |
+| 命途 | 无（按达成条件）|
+| 星级 | 待补充 |
+| 特殊类型 | 方程|
+| 达成条件 | 4记忆+2同谐 |
+
+
+## 效果
+
+我方目标【执念】上限提高4层，且全队每层【执念】额外提高0.3%速度，击破敌方目标弱点时，我方全体目标获得3层【执念】。
+
+## 强化效果
+
+-

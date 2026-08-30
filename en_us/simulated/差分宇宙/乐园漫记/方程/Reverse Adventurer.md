@@ -1,0 +1,28 @@
+# Reverse Adventurer
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：678260
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Reverse Adventurer |
+| 类型 | 祝福 |
+| 命途 | 无（按达成条件）|
+| 星级 | 待补充 |
+| 特殊类型 | 方程|
+| 达成条件 | 2虚无+2欢愉 |
+
+
+## 效果
+
+【发牌员】施放攻击后，使攻击目标陷入灼烧状态。回合开始时，受到150%基础伤害的火属性持续伤害，持续3回合。
+
+## 强化效果
+
+-

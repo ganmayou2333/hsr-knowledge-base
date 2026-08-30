@@ -1,0 +1,21 @@
+# Elixir Seekers — Abundance
+
+> 数据来源：https://hsr.nanoka.cc/item/191023
+> 数据版本：4.5
+> 实体ID：191023
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Elixir Seekers — Abundance |
+| 用途 | - 丰饶 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+求药使 - 丰饶

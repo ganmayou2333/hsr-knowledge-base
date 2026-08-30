@@ -1,0 +1,25 @@
+# The Well-Kept Secret of the Maintenance Department
+
+> 数据来源：https://hsr.nanoka.cc/item/190280
+> 数据版本：4.5
+> 实体ID：190280
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | The Well-Kept Secret of the Maintenance Department |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+维修科室的不传之秘
+
+## 获得途径
+
+- 空间站「黑塔」-支援舱段地图中拾取

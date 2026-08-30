@@ -1,0 +1,27 @@
+# Resonance Formation: Anicca
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612322
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: Anicca |
+| 类型 | 祝福 |
+| 命途 | 丰饶 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+施放命途回响后，解除所有角色的负面效果并提供1层【调伏诸厄】状态，持续1回合。
+
+## 强化效果
+
+-

@@ -1,0 +1,25 @@
+# March 7th: The Hunt's Eidolon
+
+> 数据来源：StarRailRes items.json
+> 数据版本：4.6
+> 实体ID：11224
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | March 7th: The Hunt's Eidolon |
+| 用途 | 星魂 |
+| 评级 | ★★★★ |
+| 类型 | Material / 星魂 |
+
+
+## 说明
+
+暂无数据
+
+## 获得途径
+
+- ['「初花习剑录」活动获得', '「星天演武仪典」活动获得']

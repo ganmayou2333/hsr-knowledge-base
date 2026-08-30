@@ -1,0 +1,27 @@
+# Experience: Unspeakable Shame
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612150
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Experience: Unspeakable Shame |
+| 类型 | 祝福 |
+| 命途 | 记忆 |
+| 星级 | 一星 |
+| 特殊类型 | 体验 |
+
+
+## 效果
+
+每拥有1个「记忆」的祝福，使敌方目标抵抗冻结状态的概率降低6%，该效果最多叠加6层。
+
+## 强化效果
+
+每拥有1个「记忆」的祝福，使敌方目标抵抗冻结状态的概率降低8%，该效果最多叠加9层。

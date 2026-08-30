@@ -1,0 +1,27 @@
+# Perfect in Fraud
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：634063
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Perfect in Fraud |
+| 类型 | 祝福 |
+| 命途 | 无（按所属角色）|
+| 星级 | 待补充 |
+| 特殊类型 | 金血祝颂|
+
+
+## 效果
+
+基础效果中，精英敌人被消灭时获得额外宇宙碎片的次数提高2次。
+
+## 强化效果
+
+-

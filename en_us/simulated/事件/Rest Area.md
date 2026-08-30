@@ -1,0 +1,35 @@
+# Rest Area
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_events.json）
+> 数据版本：4.5
+> 实体ID：10000 / 10001 / 10002
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Rest Area |
+| 类型 | 事件（同名合并） |
+| 属性 | 休整 |
+| 图片 | `image/simulated_event/HoshinoKami_Herta.png` |
+
+
+## 事件文本
+
+待补充
+
+
+> 注：该事件有 3 个实体（不同难度/选项），合并记录。
+
+> 图片共用：`image/simulated_event/HoshinoKami_Herta.png` 与另外 5 个事件共用
+
+## 实体记录
+
+| 实体ID | 属性 | 图片 |
+|---|---|---|
+| 10000 |  |
+| 10001 |  |
+| 10002 |  |

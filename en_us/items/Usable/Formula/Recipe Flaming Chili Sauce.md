@@ -1,0 +1,25 @@
+# Recipe: Flaming Chili Sauce
+
+> 数据来源：https://hsr.nanoka.cc/item/406031
+> 数据版本：4.5
+> 实体ID：406031
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Recipe: Flaming Chili Sauce |
+| 用途 | 配方 |
+| 评级 | ★★★ |
+| 类型 | Usable / 配方 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 2025 星穹铁道 x 肯德基联动 -「联动游戏礼包」兑换码

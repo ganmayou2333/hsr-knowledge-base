@@ -1,0 +1,25 @@
+# Musicians of Belobog True Ending
+
+> 数据来源：https://hsr.nanoka.cc/item/190232
+> 数据版本：4.5
+> 实体ID：190232
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Musicians of Belobog True Ending |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+《贝洛伯格的音乐家》真结局
+
+## 获得途径
+
+- 雅利洛-VI-磐岩镇，娜塔莎诊所内（药品柜上）

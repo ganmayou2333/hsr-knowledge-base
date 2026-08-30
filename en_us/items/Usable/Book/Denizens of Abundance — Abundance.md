@@ -1,0 +1,21 @@
+# Denizens of Abundance — Abundance
+
+> 数据来源：https://hsr.nanoka.cc/item/191022
+> 数据版本：4.5
+> 实体ID：191022
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Denizens of Abundance — Abundance |
+| 用途 | - 丰饶 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+丰饶之民 - 丰饶

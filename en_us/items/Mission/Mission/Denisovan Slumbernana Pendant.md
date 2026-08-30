@@ -1,0 +1,25 @@
+# Denisovan Slumbernana Pendant
+
+> 数据来源：https://hsr.nanoka.cc/item/140507
+> 数据版本：4.5
+> 实体ID：140507
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Denisovan Slumbernana Pendant |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+…
+
+## 获得途径
+
+- 开拓续闻【落水猴】

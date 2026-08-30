@@ -1,0 +1,25 @@
+# Artisanship Commission Jade Seal
+
+> 数据来源：https://hsr.nanoka.cc/item/140124
+> 数据版本：4.5
+> 实体ID：140124
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Artisanship Commission Jade Seal |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+出入重地，打开门关所需的信物。
+
+## 获得途径
+
+- 开拓任务【茸客鸣呦，玉角盘虬】

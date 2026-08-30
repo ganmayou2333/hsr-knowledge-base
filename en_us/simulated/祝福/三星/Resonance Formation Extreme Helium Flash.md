@@ -1,0 +1,27 @@
+# Resonance Formation: Extreme Helium Flash
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612522
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: Extreme Helium Flash |
+| 类型 | 祝福 |
+| 命途 | 毁灭 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+命途回响「毁灭」造成的攻击有150%基础概率使敌方目标陷入【熵灭笞罚】状态，持续2回合。
+
+## 强化效果
+
+-

@@ -1,0 +1,25 @@
+# "Fortress of Dome" Eye of Twilight Hymn Tablet
+
+> 数据来源：https://hsr.nanoka.cc/item/150077
+> 数据版本：4.5
+> 实体ID：150077
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | "Fortress of Dome" Eye of Twilight Hymn Tablet |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 解开「穹顶关塞」晨昏之眼的虫鸣秘闻

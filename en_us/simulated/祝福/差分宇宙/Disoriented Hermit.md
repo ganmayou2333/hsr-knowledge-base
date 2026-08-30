@@ -1,0 +1,21 @@
+# Disoriented Hermit
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5（差分宇宙）
+> 实体ID：675920
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Disoriented Hermit |
+| 类型 | 祝福（差分宇宙） |
+| 命途 | 无（差分宇宙） |
+| 星级 | 无（差分宇宙） |
+| 特殊类型 | 差分宇宙祝颂 |
+
+## 效果
+
+我方目标施放攻击使敌方目标陷入了负面状态时，为其添加1层【和音】，如果目标处于弱点击破状态则添加的层数翻倍。

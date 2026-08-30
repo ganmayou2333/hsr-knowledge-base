@@ -1,0 +1,28 @@
+# Signature Chili Oil Beef Offal Stew
+
+> 数据来源：https://hsr.nanoka.cc/item/408605
+> 数据版本：4.5
+> 实体ID：408605
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Signature Chili Oil Beef Offal Stew |
+| 用途 | 消耗品 |
+| 评级 | ★★★ |
+| 类型 | Usable / 消耗品 |
+
+
+## 说明
+
+使用后立即为我方恢复4点秘技点。
+
+
+
+
+## 获得途径
+
+- 美馔阁

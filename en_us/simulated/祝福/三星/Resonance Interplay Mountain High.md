@@ -1,0 +1,27 @@
+# Resonance Interplay: Mountain High
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612324
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Interplay: Mountain High |
+| 类型 | 祝福 |
+| 命途 | 丰饶&繁育 |
+| 星级 | 三星 |
+| 特殊类型 | 回响交错 |
+
+
+## 效果
+
+角色受到命途回响治疗后，若治疗量溢出，则恢复1个战技点，该效果每次施放命途回响最多触发1次。触发该效果后，使我方全体造成的伤害提高30%，持续2回合，该效果最多叠加2次。
+
+## 强化效果
+
+-

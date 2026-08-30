@@ -1,0 +1,21 @@
+# Researcher Profile: Hosea
+
+> 数据来源：https://hsr.nanoka.cc/item/190164
+> 数据版本：4.5
+> 实体ID：190164
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Researcher Profile: Hosea |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+【科员档案】何塞

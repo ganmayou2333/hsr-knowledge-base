@@ -1,0 +1,25 @@
+# Musicians of Belobog Volume 4
+
+> 数据来源：https://hsr.nanoka.cc/item/190229
+> 数据版本：4.5
+> 实体ID：190229
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Musicians of Belobog Volume 4 |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+《贝洛伯格的音乐家》卷四
+
+## 获得途径
+
+- 雅利洛-VI-磐岩镇，娜塔莎诊所内（木箱上）

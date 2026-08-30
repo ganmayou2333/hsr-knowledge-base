@@ -1,0 +1,27 @@
+# Astral Ecology Care Worker
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：671800
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Astral Ecology Care Worker |
+| 类型 | 祝福 |
+| 命途 | 智识&存护 |
+| 星级 | 二星 |
+| 特殊类型 | 普通祝福 |
+
+
+## 效果
+
+敌方目标受到的终结技伤害提高75%，角色持有护盾受到攻击时，为【罐中脑】充能12%。
+
+## 强化效果
+
+-

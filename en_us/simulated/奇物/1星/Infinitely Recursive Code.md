@@ -1,0 +1,43 @@
+# Infinitely Recursive Code
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_curios.json）
+> 数据版本：4.5
+> 实体ID：55 / 56 / 1055 / 1056 / 3055 / 3056
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Infinitely Recursive Code |
+| 类型 | 奇物（同名合并） |
+| 星级 | 1星 |
+
+
+## 效果
+
+> 该名称对应 6 个不同实体ID，效果如下：
+
+| 实体ID | 效果 |
+|---|---|
+| 55 | 将这段代码修复成正常的奇物需要花费3场战斗
+修复期间，角色施放战技后会额外消耗1点战技点
+代码修复后，该奇物能够使角色施放普攻额外恢复战技点 |
+| 56 | Recovers 1 extra Skill Point(s) when characters use Basic ATK. |
+| 1055 | Fixing this code into a normal Curio takes 3 battles.
+While the code is being fixed, each time after a character uses a Skill, they consume 1 extra Skill Points.
+Once the code is fixed, this Curio makes characters' Basic ATK recover extra Skill Points. |
+| 1056 | Recovers 1 extra Skill Point(s) when characters use Basic ATK. |
+| 3055 | Fixing this code into a normal Curio takes 3 battles.
+While the code is being fixed, each time after a character uses a Skill, they consume 1 extra Skill Points.
+Once the code is fixed, this Curio makes characters' Basic ATK recover extra Skill Points. |
+| 3056 | Recovers 1 extra Skill Point(s) when characters use Basic ATK. |
+
+## 背景故事
+
+你十分确定运行这段代码会导致栈溢出，填满存储空间。
+但这么做能让你收获大量宇宙碎片，所以何乐而不为呢？
+「伟大的机械公爵呵，我不明白你为什么允许这种代码存在于我们完美的项目中！」
+「前提：完美与错谬相悖。提问：现实宇宙是完美的吗？答案：否定。结论：模拟宇宙不应完美，模拟宇宙需要错谬。」

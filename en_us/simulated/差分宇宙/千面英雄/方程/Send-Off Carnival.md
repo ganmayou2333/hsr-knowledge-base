@@ -1,0 +1,28 @@
+# Send-Off Carnival
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：675620
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Send-Off Carnival |
+| 类型 | 祝福 |
+| 命途 | 无（按达成条件）|
+| 星级 | 待补充 |
+| 特殊类型 | 方程|
+| 达成条件 | 欢愉*2虚无*2 |
+
+
+## 效果
+
+敌方目标每持有1种负面效果，受到的追加攻击伤害提高6%，最多不超过60%。
+
+## 强化效果
+
+-

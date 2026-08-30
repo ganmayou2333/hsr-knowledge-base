@@ -1,0 +1,25 @@
+# Pixel Core Cartridge
+
+> 数据来源：StarRailRes items.json
+> 数据版本：4.6
+> 实体ID：268201
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Pixel Core Cartridge |
+| 用途 | 材料 |
+| 评级 | ★★★★★ |
+| 类型 | Material / PixAir材料 |
+
+
+## 说明
+
+暂无数据
+
+## 获得途径
+
+- 暂无数据

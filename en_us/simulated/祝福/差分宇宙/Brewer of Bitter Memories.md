@@ -1,0 +1,21 @@
+# Brewer of Bitter Memories
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5（差分宇宙）
+> 实体ID：674160
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Brewer of Bitter Memories |
+| 类型 | 祝福（差分宇宙） |
+| 命途 | 无（差分宇宙） |
+| 星级 | 无（差分宇宙） |
+| 特殊类型 | 差分宇宙祝颂 |
+
+## 效果
+
+每层【执念】额外提高我方全体目标1.5%攻击力。角色施放攻击后，其忆灵下次攻击视为追加攻击。

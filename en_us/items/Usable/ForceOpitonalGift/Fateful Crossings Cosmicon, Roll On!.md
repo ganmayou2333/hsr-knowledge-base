@@ -1,0 +1,25 @@
+# Fateful Crossings: "Cosmicon, Roll On!"
+
+> 数据来源：StarRailRes items.json
+> 数据版本：4.6
+> 实体ID：309010
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Fateful Crossings: "Cosmicon, Roll On!" |
+| 用途 | 礼物 |
+| 评级 | ★★★★ |
+| 类型 | Usable / 强制可选礼物 |
+
+
+## 说明
+
+暂无数据
+
+## 获得途径
+
+- 活动/邮件获得

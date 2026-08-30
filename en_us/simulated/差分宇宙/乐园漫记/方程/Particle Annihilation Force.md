@@ -1,0 +1,28 @@
+# Particle Annihilation Force
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：678970
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Particle Annihilation Force |
+| 类型 | 祝福 |
+| 命途 | 无（按达成条件）|
+| 星级 | 待补充 |
+| 特殊类型 | 方程|
+| 达成条件 | 2同谐+2繁育 |
+
+
+## 效果
+
+我方目标施放普攻/战技时无视敌方目标20%的全属性抗性，施放普攻/战技发动攻击后，无视弱点属性固定削减敌方目标15点韧性。
+
+## 强化效果
+
+-

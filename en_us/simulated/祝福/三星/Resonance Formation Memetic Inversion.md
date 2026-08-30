@@ -1,0 +1,27 @@
+# Resonance Formation: Memetic Inversion
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612823
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: Memetic Inversion |
+| 类型 | 祝福 |
+| 命途 | 智识 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+敌方目标出现时，命途回响回复等同于角色能量上限之和5.0%的能量。
+
+## 强化效果
+
+-

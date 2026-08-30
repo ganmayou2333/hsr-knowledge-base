@@ -1,0 +1,27 @@
+# Resonance Formation: Chain Contagion
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612822
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: Chain Contagion |
+| 类型 | 祝福 |
+| 命途 | 智识 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+【突触共鸣】状态下的敌方目标被角色消灭后，会额外触发2次效果。
+
+## 强化效果
+
+-

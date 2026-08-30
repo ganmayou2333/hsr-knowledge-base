@@ -1,0 +1,37 @@
+# Swordplay Practice
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_events.json）
+> 数据版本：4.5
+> 实体ID：627601
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Swordplay Practice |
+| 类型 | 事件 |
+| 属性 | 事件 |
+| 图片 | `image/simulated_event/PicRogueEvent_34.png` |
+
+
+## 事件文本
+
+| 选项 | 结果 |
+|---|---|
+| 米独自打靶。 | 获得250宇宙碎片，小概率增进技艺。 |
+| 找人陪练。 | 获得3个1星祝福，小概率增进技艺。 |
+| 去城外闯荡。 | 获得2个1-2星奇物，小概率增进技艺。 |
+| 我的剑术愈发娴熟。 | 技艺有所提升，获得50宇宙碎片。 |
+| 我已胜券在握。 | 你的技艺已臻巅峰。进入一场艰难的战斗，胜利后获得1个2-3星方程。 |
+
+
+> 图片共用：`image/simulated_event/PicRogueEvent_34.png` 与另外 6 个事件共用
+
+## 实体记录
+
+| 实体ID | 属性 | 图片 |
+|---|---|---|
+| 627601 |  |

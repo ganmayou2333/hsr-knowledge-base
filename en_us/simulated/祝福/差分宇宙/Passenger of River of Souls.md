@@ -1,0 +1,21 @@
+# Passenger of River of Souls
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5（差分宇宙）
+> 实体ID：675210
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Passenger of River of Souls |
+| 类型 | 祝福（差分宇宙） |
+| 命途 | 无（差分宇宙） |
+| 星级 | 无（差分宇宙） |
+| 特殊类型 | 差分宇宙祝颂 |
+
+## 效果
+
+我方目标造成的持续伤害提高50%。敌方目标进入战斗时，陷入【觉察】状态。回合开始时，受到75%基础伤害的火属性持续伤害，我方全体目标每有一层【执念】该伤害提高1%。

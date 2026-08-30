@@ -1,0 +1,25 @@
+# Research Records "Trying to Persuade"
+
+> 数据来源：https://hsr.nanoka.cc/item/140190
+> 数据版本：4.5
+> 实体ID：140190
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Research Records "Trying to Persuade" |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+人心都是肉长的，动之以理不如晓之以情。
+
+## 获得途径
+
+- 同行任务【异邦骑士】

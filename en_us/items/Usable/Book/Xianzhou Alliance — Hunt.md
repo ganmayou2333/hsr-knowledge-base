@@ -1,0 +1,21 @@
+# Xianzhou Alliance — Hunt
+
+> 数据来源：https://hsr.nanoka.cc/item/191019
+> 数据版本：4.5
+> 实体ID：191019
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Xianzhou Alliance — Hunt |
+| 用途 | - 巡猎 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+仙舟联盟 - 巡猎

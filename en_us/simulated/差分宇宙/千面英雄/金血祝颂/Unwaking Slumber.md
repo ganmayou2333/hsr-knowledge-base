@@ -1,0 +1,27 @@
+# Unwaking Slumber
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：634052
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Unwaking Slumber |
+| 类型 | 祝福 |
+| 命途 | 无（按所属角色）|
+| 星级 | 待补充 |
+| 特殊类型 | 金血祝颂|
+
+
+## 效果
+
+处于白昼时，敌方目标受到我方目标攻击后，按100%的比例触发1次【绝唱】的伤害。
+
+## 强化效果
+
+-

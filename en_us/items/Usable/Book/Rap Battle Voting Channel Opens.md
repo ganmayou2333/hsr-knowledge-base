@@ -1,0 +1,25 @@
+# Rap Battle Voting Channel Opens
+
+> 数据来源：https://hsr.nanoka.cc/item/190223
+> 数据版本：4.5
+> 实体ID：190223
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Rap Battle Voting Channel Opens |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+说唱大战投票通道开启
+
+## 获得途径
+
+- 雅利洛-VI-机械聚落地图中拾取

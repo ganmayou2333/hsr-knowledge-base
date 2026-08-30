@@ -1,0 +1,27 @@
+# Cleft Singularity
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：615550
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Cleft Singularity |
+| 类型 | 祝福 |
+| 命途 | 毁灭 |
+| 星级 | 一星 |
+| 特殊类型 | 普通祝福 |
+
+
+## 效果
+
+角色击破特攻提高50%。
+
+## 强化效果
+
+角色击破特攻提高75%。

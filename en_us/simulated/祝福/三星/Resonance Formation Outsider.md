@@ -1,0 +1,27 @@
+# Resonance Formation: Outsider
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612223
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: Outsider |
+| 类型 | 祝福 |
+| 命途 | 虚无 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+进入战斗时，命途回响恢复40%能量。当敌方目标受到持续伤害时，额外为命途回响恢复2%能量。
+
+## 强化效果
+
+-

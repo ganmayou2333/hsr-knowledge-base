@@ -1,0 +1,27 @@
+# Resonance Formation: First Love Once More
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612123
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: First Love Once More |
+| 类型 | 祝福 |
+| 命途 | 记忆 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+进入战斗时，命途回响恢复40%能量。当敌方目标陷入冻结状态时，额外为命途回响恢复5%能量。
+
+## 强化效果
+
+-

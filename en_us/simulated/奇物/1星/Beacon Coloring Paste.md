@@ -1,0 +1,31 @@
+# Beacon Coloring Paste
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_curios.json）
+> 数据版本：4.5
+> 实体ID：69 / 1069 / 3069
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Beacon Coloring Paste |
+| 类型 | 奇物（同名合并） |
+| 星级 | 1星 |
+
+
+## 效果
+
+> 该名称对应 3 个不同实体ID，效果如下：
+
+| 实体ID | 效果 |
+|---|---|
+| 69 | When choosing a Blessing after winning a battle, randomly enhance 1 Blessing(s) among the selection. |
+| 1069 | When choosing a Blessing after winning a battle, randomly enhance 1 Blessing(s) among the selection. |
+| 3069 | When choosing a Blessing after winning a battle, randomly enhance 1 Blessing(s) among the selection. |
+
+## 背景故事
+
+信标着色剂的强烈色彩与视觉刺激使星际救援队极易发现它所绘制的救援图案。它的发明者乃是一位画技卓绝的无名客。该无名客曾因航行事故受困于一片蛮荒的无人星区，借由白矮星碎片的边角料，他最终调制出了救援史上殊为伟大的信标着色剂。

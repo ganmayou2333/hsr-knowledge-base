@@ -1,0 +1,27 @@
+# Coordination: Resonance Nucleus
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：615846
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Coordination: Resonance Nucleus |
+| 类型 | 祝福 |
+| 命途 | 智识 |
+| 星级 | 二星 |
+| 特殊类型 | 普通祝福 |
+
+
+## 效果
+
+角色使用【罐中脑】施放终结技后，攻击力提高60%，持续2回合。
+
+## 强化效果
+
+角色使用【罐中脑】施放终结技后，攻击力提高90%，持续2回合。

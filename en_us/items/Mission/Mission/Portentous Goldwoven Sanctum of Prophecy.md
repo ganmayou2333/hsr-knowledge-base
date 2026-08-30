@@ -1,0 +1,25 @@
+# Portentous Goldwoven: Sanctum of Prophecy
+
+> 数据来源：https://hsr.nanoka.cc/item/150067
+> 数据版本：4.5
+> 实体ID：150067
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Portentous Goldwoven: Sanctum of Prophecy |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 「神谕圣地」的衣匠前哨站

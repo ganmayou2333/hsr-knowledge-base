@@ -1,0 +1,28 @@
+# Impoverished Kidnapper
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：677710
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Impoverished Kidnapper |
+| 类型 | 祝福 |
+| 命途 | 无（按达成条件）|
+| 星级 | 待补充 |
+| 特殊类型 | 方程|
+| 达成条件 | 4繁育+2记忆 |
+
+
+## 效果
+
+【蝶魄】的真实伤害倍率提高原倍率的60%，攻击次数增加4次。忆灵施放攻击后可造成【蝶魄】的真实伤害并消耗其攻击次数。
+
+## 强化效果
+
+-

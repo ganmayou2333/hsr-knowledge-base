@@ -1,0 +1,28 @@
+# Domesticated Comedic Angel
+
+> 数据来源：https://hsr.nanoka.cc/item/408443
+> 数据版本：4.5
+> 实体ID：408443
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Domesticated Comedic Angel |
+| 用途 | 消耗品 |
+| 评级 | ★★ |
+| 类型 | Usable / 消耗品 |
+
+
+## 说明
+
+使用后立即为我方恢复3点秘技点。
+
+
+
+
+## 获得途径
+
+- ∞<unbreak>11</unbreak>便利店

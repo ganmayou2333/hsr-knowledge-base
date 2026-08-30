@@ -1,0 +1,25 @@
+# Outlander King of Knights Puppet
+
+> 数据来源：https://hsr.nanoka.cc/item/140575
+> 数据版本：4.5
+> 实体ID：140575
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Outlander King of Knights Puppet |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 开拓续闻【命运/归还星之海洋】

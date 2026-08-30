@@ -1,0 +1,25 @@
+# "Take the Feast to Tomorrow"
+
+> 数据来源：https://hsr.nanoka.cc/item/140578
+> 数据版本：4.5
+> 实体ID：140578
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | "Take the Feast to Tomorrow" |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 冒险任务【瓶中清忆】

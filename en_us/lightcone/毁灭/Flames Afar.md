@@ -1,0 +1,44 @@
+# Flames Afar
+
+> 数据来源：https://hsr.nanoka.cc/lightcone/21038
+> 数据版本：4.5
+> 实体ID：21038
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 光锥名称 | Flames Afar |
+| 命途 | Destruction |
+| 评级 | ★★★★ |
+| 类型 | 光锥 |
+
+## 背景故事
+
+"Package secured. I'll leave covering our retreat to you."
+Their comrade's voice comes through the communicator.
+They glance around the surroundings, watching as the savaged remnants of their enemies continue to pass through the complex architecture inside the vast and abandoned structure. They are drawing ever closer.
+"Please hold."
+After a beat of quietude, a series of apocalyptic explosions rocket up into the sky. Waves of displaced air cast clouds of dust high across the battlefield, and smoke scatter in all directions, the blinding white cleaving light into the night.
+"You know they purposely planted loads of gunpowder in there, right?"
+With a rustle, they flung open the cape as if they just finished a leisurely stroll.
+"Of course."
+"So, let's light it up. All I need to do is play the part of the match."
+
+## 基础属性（Lv.80）
+
+| 生命值 | 攻击力 | 防御力 |
+|---|---|---|
+| 1,058 | 476 | 265 |
+
+## 叠影效果
+
+### Deflagration
+
+When the wearer's cumulative HP loss during one attack exceeds 25% of their Max HP, or if the amount of their own HP consumed at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP, and at the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).
+
+## 晋阶材料
+
+- Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12

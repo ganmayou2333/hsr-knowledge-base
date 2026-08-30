@@ -1,0 +1,30 @@
+# Human-Height Auspicious Crops
+
+> 数据来源：https://hsr.nanoka.cc/item/180009
+> 数据版本：4.5
+> 实体ID：180009
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Human-Height Auspicious Crops |
+| 用途 | 合成素材 |
+| 评级 | ★ |
+| 类型 | Material / 合成素材 |
+
+
+## 说明
+
+1级合成材料。
+
+
+
+
+## 获得途径
+
+- 委托奖励
+- 寿考堂
+- 拟造花萼（金）

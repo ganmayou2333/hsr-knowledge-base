@@ -1,0 +1,31 @@
+# Perpetual Motion Cuckoo Clock
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_curios.json）
+> 数据版本：4.5
+> 实体ID：67 / 1067 / 3067
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Perpetual Motion Cuckoo Clock |
+| 类型 | 奇物（同名合并） |
+| 星级 | 1星 |
+
+
+## 效果
+
+> 该名称对应 3 个不同实体ID，效果如下：
+
+| 实体ID | 效果 |
+|---|---|
+| 67 | Upon entering a new Domain, lose 5% of all Cosmic Fragment(s) currently in possession. |
+| 1067 | Upon entering a new Domain, lose 5% of all Cosmic Fragment(s) currently in possession. |
+| 3067 | Upon entering a new Domain, lose 5% of all Cosmic Fragment(s) currently in possession. |
+
+## 背景故事
+
+自从#76螺丝咕姆为机械生命争取来之不易的和平后，螺丝星迎来了第二次工业复兴运动，无数发明家层出不穷，他们创造诅咒机、概率机与糖果守卫，并热衷于研究七大不可思议课题，「永动」作为排行第二的课题被机械生命热衷，而螺丝星排行第十九的发明大师在生命的最后向大家展示了自己的永动咕咕钟——它的作品将利用阿基米利螺旋能量永不止熄，但发明大师却在得到莫大殊荣后亲手终止了自己的生命，原因不明。

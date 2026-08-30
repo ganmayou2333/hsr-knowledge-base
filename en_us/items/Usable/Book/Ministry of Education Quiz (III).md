@@ -1,0 +1,21 @@
+# Ministry of Education Quiz (III)
+
+> 数据来源：https://hsr.nanoka.cc/item/190305
+> 数据版本：4.5
+> 实体ID：190305
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Ministry of Education Quiz (III) |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+教育部的难题（之三）

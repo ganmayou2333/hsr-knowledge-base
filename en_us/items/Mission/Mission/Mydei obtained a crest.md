@@ -1,0 +1,20 @@
+# Mydei obtained a crest
+
+> 数据来源：https://hsr.nanoka.cc/item/140555
+> 数据版本：4.5
+> 实体ID：140555
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Mydei obtained a crest |
+| 用途 | 任务道具 |
+| 评级 | ★ |
+| 类型 | Mission / 任务道具 |
+
+## 说明
+
+暂无官方描述数据（数据源未收录）。

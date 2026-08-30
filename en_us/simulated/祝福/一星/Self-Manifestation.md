@@ -1,0 +1,27 @@
+# Self-Manifestation
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：615254
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Self-Manifestation |
+| 类型 | 祝福 |
+| 命途 | 虚无 |
+| 星级 | 一星 |
+| 特殊类型 | 普通祝福 |
+
+
+## 效果
+
+处于弱点击破状态下的敌方目标，防御力降低15%。
+
+## 强化效果
+
+处于弱点击破状态下的敌方目标，防御力降低20%。

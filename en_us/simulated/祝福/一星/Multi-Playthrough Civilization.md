@@ -1,0 +1,27 @@
+# Multi-Playthrough Civilization
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：678890
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Multi-Playthrough Civilization |
+| 类型 | 祝福 |
+| 命途 | 智识&同谐 |
+| 星级 | 一星 |
+| 特殊类型 | 普通祝福 |
+
+
+## 效果
+
+我方目标造成终结技伤害时弱点击破效率提高25%。处于弱点击破状态下的敌方目标受到的伤害提高40%。
+
+## 强化效果
+
+-

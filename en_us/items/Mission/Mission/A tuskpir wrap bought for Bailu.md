@@ -1,0 +1,26 @@
+# A tuskpir wrap bought for Bailu
+
+> 数据来源：https://hsr.nanoka.cc/item/140242
+> 数据版本：4.5
+> 实体ID：140242
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | A tuskpir wrap bought for Bailu |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+可爱到令人不忍下口的蛋糕卷。
+
+
+## 获得途径
+
+- 1.3活动冒险任务【金戺重喧•其一】

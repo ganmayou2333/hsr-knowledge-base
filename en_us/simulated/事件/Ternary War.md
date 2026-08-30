@@ -1,0 +1,31 @@
+# Ternary War
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_events.json）
+> 数据版本：4.5
+> 实体ID：421301
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Ternary War |
+| 类型 | 事件 |
+| 属性 | 事件 |
+| 图片 | `image/simulated_event/PicRogueEvent_16.png` |
+
+
+## 事件文本
+
+| 选项 | 结果 |
+|---|---|
+| 修复同化单元。 | 进入战斗，2轮内修复15台三进制同化单元可获得3个相同命途的随机祝福。 |
+
+
+## 实体记录
+
+| 实体ID | 属性 | 图片 |
+|---|---|---|
+| 421301 |  |

@@ -1,0 +1,25 @@
+# Kitchen Knife Sent to Spices Supreme
+
+> 数据来源：https://hsr.nanoka.cc/item/140276
+> 数据版本：4.5
+> 实体ID：140276
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Kitchen Knife Sent to Spices Supreme |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+被细绸裹住的锋锐厨刀，里面塞着一张来自「尚滋味」的店招广告。
+
+## 获得途径
+
+- 开拓任务【安灵布奠，天清路远】

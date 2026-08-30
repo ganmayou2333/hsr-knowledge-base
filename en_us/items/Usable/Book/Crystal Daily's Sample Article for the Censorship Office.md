@@ -1,0 +1,25 @@
+# Crystal Daily's Sample Article for the Censorship Office
+
+> 数据来源：https://hsr.nanoka.cc/item/190268
+> 数据版本：4.5
+> 实体ID：190268
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Crystal Daily's Sample Article for the Censorship Office |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+水晶日报的送审样稿
+
+## 获得途径
+
+- 雅利洛-VI-残响回廊地图中拾取

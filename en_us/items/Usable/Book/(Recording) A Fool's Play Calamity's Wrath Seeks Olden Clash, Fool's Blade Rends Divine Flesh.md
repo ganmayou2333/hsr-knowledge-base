@@ -1,0 +1,25 @@
+# (Recording) A Fool's Play: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh
+
+> 数据来源：https://hsr.nanoka.cc/item/190279
+> 数据版本：4.5
+> 实体ID：190279
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | (Recording) A Fool's Play: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+【录音带】愚人戏：祸祖砺兵寻旧恨，愚人挥剑斩金身
+
+## 获得途径
+
+- 空间站「黑塔」-主控舱段地图中拾取

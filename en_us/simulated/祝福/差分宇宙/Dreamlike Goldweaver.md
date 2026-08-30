@@ -1,0 +1,21 @@
+# Dreamlike Goldweaver
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5（差分宇宙）
+> 实体ID：634010
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Dreamlike Goldweaver |
+| 类型 | 祝福（差分宇宙） |
+| 命途 | 无（差分宇宙） |
+| 星级 | 无（差分宇宙） |
+| 特殊类型 | 差分宇宙祝颂 |
+
+## 效果
+
+处于白昼时，我方全体目标累计攻击8次后激活效果：白昼中速度提高40%，昼夜切换后重置。

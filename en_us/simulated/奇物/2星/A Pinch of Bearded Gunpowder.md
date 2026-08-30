@@ -1,0 +1,30 @@
+# A Pinch of Bearded Gunpowder
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_curios.json）
+> 数据版本：4.5
+> 实体ID：1119 / 3119
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | A Pinch of Bearded Gunpowder |
+| 类型 | 奇物（同名合并） |
+| 星级 | 2星 |
+
+
+## 效果
+
+> 该名称对应 2 个不同实体ID，效果如下：
+
+| 实体ID | 效果 |
+|---|---|
+| 1119 | Gains 1 cheat attempt(s) after obtaining this Curio. |
+| 3119 | Gains 1 cheat attempt(s) after obtaining this Curio. |
+
+## 背景故事
+
+相较石块、木料、黄金、超钛金属与货币，游牧矿工更热衷于挖掘「以太」。他们曾一度痴迷在矿地间用手指挖掘巨量「以太」的手感，但这种体验曾招来不幸：数名超巨型矿工终在不明区域被火药炸死，其间仅一位身材矮小的矿工得以幸存，它的胡须自此以后永远跳跃着一撮火焰。

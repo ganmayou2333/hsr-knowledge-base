@@ -1,0 +1,25 @@
+# Memchelin 4-Star Certificate
+
+> 数据来源：https://hsr.nanoka.cc/item/150089
+> 数据版本：4.5
+> 实体ID：150089
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Memchelin 4-Star Certificate |
+| 用途 | 任务道具 |
+| 评级 | ★★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 活动【黄金迷境大饭店】

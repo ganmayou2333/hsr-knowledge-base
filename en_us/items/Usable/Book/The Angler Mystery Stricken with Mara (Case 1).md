@@ -1,0 +1,25 @@
+# The Angler Mystery: Stricken with Mara (Case 1)
+
+> 数据来源：https://hsr.nanoka.cc/item/190356
+> 数据版本：4.5
+> 实体ID：190356
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | The Angler Mystery: Stricken with Mara (Case 1) |
+| 用途 | 第一案•令堕魔阴 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+…
+
+## 获得途径
+
+- 完成同行任务-【易邦骑士】后自动获取

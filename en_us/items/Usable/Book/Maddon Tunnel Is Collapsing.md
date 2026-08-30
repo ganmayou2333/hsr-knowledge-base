@@ -1,0 +1,25 @@
+# Maddon Tunnel Is Collapsing
+
+> 数据来源：https://hsr.nanoka.cc/item/190194
+> 数据版本：4.5
+> 实体ID：190194
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Maddon Tunnel Is Collapsing |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+梅登矿道要塌了
+
+## 获得途径
+
+- 雅利洛-VI-大矿区·梅登矿道，直接拾取

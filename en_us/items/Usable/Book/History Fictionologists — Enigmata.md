@@ -1,0 +1,21 @@
+# History Fictionologists — Enigmata
+
+> 数据来源：https://hsr.nanoka.cc/item/191035
+> 数据版本：4.5
+> 实体ID：191035
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | History Fictionologists — Enigmata |
+| 用途 | - 神秘 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+虚构史学家 - 神秘

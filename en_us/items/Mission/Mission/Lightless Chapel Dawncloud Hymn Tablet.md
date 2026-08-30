@@ -1,0 +1,25 @@
+# "Lightless Chapel" Dawncloud Hymn Tablet
+
+> 数据来源：https://hsr.nanoka.cc/item/150074
+> 数据版本：4.5
+> 实体ID：150074
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | "Lightless Chapel" Dawncloud Hymn Tablet |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 解开「无晖祈堂」黎明云崖的预言谜题

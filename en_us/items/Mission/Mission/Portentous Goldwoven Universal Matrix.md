@@ -1,0 +1,25 @@
+# Portentous Goldwoven: Universal Matrix
+
+> 数据来源：https://hsr.nanoka.cc/item/150091
+> 数据版本：4.5
+> 实体ID：150091
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Portentous Goldwoven: Universal Matrix |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+...
+
+## 获得途径
+
+- 「全世矩阵」的衣匠前哨站

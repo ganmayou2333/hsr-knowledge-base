@@ -1,0 +1,27 @@
+# Resonance Formation: Suffering and Sunshine
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612222
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: Suffering and Sunshine |
+| 类型 | 祝福 |
+| 命途 | 虚无 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+命途回响「虚无」造成的攻击有100%基础概率使敌方全体陷入2层【迷惘】效果和2层【空乏】效果，持续2回合。
+
+## 强化效果
+
+-

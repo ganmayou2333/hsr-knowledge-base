@@ -1,0 +1,27 @@
+# Resonance Formation: Crystal Pincers
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612723
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Resonance Formation: Crystal Pincers |
+| 类型 | 祝福 |
+| 命途 | 繁育 |
+| 星级 | 三星 |
+| 特殊类型 | 回响构音 |
+
+
+## 效果
+
+【蜕变】效果额外使角色造成的伤害提高40%。只有当角色处于【蜕变】效果时，可使【孢子】爆裂。角色每使1个【孢子】爆裂，会额外造成等同于角色攻击力80%的普攻伤害，对同一目标最多触发3次。
+
+## 强化效果
+
+-

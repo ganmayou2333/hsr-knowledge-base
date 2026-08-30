@@ -1,0 +1,28 @@
+# Truly Fortunate Chess
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：677650
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Truly Fortunate Chess |
+| 类型 | 祝福 |
+| 命途 | 无（按达成条件）|
+| 星级 | 待补充 |
+| 特殊类型 | 方程|
+| 达成条件 | 4欢愉+2毁灭 |
+
+
+## 效果
+
+【发牌员】每有3点充能，攻击段数增加1段。累计有10名我方目标受到攻击后，【发牌员】增加1点充能。
+
+## 强化效果
+
+-

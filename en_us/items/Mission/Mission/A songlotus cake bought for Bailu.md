@@ -1,0 +1,26 @@
+# A songlotus cake bought for Bailu
+
+> 数据来源：https://hsr.nanoka.cc/item/140243
+> 数据版本：4.5
+> 实体ID：140243
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | A songlotus cake bought for Bailu |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+罗浮经典小吃，由鸣藕制成的糕点。
+
+
+## 获得途径
+
+- 1.3活动冒险任务【金戺重喧•其一】

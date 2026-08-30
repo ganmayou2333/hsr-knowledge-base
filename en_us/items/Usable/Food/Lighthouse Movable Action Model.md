@@ -1,0 +1,28 @@
+# "Lighthouse" Movable Action Model
+
+> 数据来源：https://hsr.nanoka.cc/item/408452
+> 数据版本：4.5
+> 实体ID：408452
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | "Lighthouse" Movable Action Model |
+| 用途 | 消耗品 |
+| 评级 | ★★ |
+| 类型 | Usable / 消耗品 |
+
+
+## 说明
+
+使用后我方全体在下次战斗中防御力提高25%。
+
+
+
+
+## 获得途径
+
+- 曼佳的英雄屋

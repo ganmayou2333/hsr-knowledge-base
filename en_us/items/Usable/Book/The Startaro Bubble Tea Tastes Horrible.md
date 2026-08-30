@@ -1,0 +1,25 @@
+# The Startaro Bubble Tea Tastes Horrible
+
+> 数据来源：https://hsr.nanoka.cc/item/190258
+> 数据版本：4.5
+> 实体ID：190258
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | The Startaro Bubble Tea Tastes Horrible |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+这星芋啵啵也太难喝了吧
+
+## 获得途径
+
+- 仙舟「罗浮」-星槎海中枢地图中拾取

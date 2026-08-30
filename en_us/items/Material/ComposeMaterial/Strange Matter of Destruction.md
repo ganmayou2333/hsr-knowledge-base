@@ -1,0 +1,28 @@
+# Strange Matter of Destruction
+
+> 数据来源：https://hsr.nanoka.cc/item/182001
+> 数据版本：4.5
+> 实体ID：182001
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Strange Matter of Destruction |
+| 用途 | 合成素材 |
+| 评级 | ★★★ |
+| 类型 | Material / 合成素材 |
+
+
+## 说明
+
+3级合成材料。
+
+
+
+
+## 获得途径
+
+- 虚卒•掠夺者等敌方掉落【收容舱段】

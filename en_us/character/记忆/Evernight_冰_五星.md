@@ -1,0 +1,484 @@
+# Evernight
+
+> 数据来源：[https://hsr.nanoka.cc/character/1413](https://hsr.nanoka.cc/character/1413)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/5736/detail](https://bbs.mihoyo.com/sr/wiki/content/5736/detail)
+> 数据版本：4.5
+> 实体ID：1413
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 角色名称 | Evernight |
+| 命途 | Remembrance |
+| 属性 | Ice |
+| 稀有度 | ★★★★★ |
+| 阵营 | 翁法罗斯 |
+| 角色介绍 | 与世相隔的忆域，烛火映出过往，于迷雾中悄然熄去。 自那影中而来的记忆之子长夜月，隐匿「岁月」火种的黄金裔，掀起「忘却」的浪潮，守护镜中人的心愿 ——「别担心，我会为你看护『开拓』的前路…不惜任何代价♭」 |
+| 城邦 | 天外 |
+| 神权 | 「永夜之帷，欧洛尼斯」 |
+| 定位 | 召唤忆灵「长夜」进行作战的输出型角色 |
+
+### 配音演员
+
+| 语言 | 声优 |
+|---|---|
+| 日语 | 小仓唯 |
+| 英语 | Skyler Davenport |
+| 中文 | 诺亚 |
+| 韩语 | 정혜원 |
+
+---
+
+## 基础属性（Lv.80）
+
+| 属性 | 数值 |
+|---|---|
+| 基础生命值 | 1,319 |
+| 基础攻击力 | 543 |
+| 基础防御力 | 582 |
+| 基础速度 | 99 |
+| 嘲讽 | 100 |
+| 能量上限 | 240 |
+
+---
+
+## 晋阶材料（Lv.1 → Lv.80）
+
+| 材料 | 数量 |
+|---|---|
+| [[items/通用货币/信用点\|信用点]] | 308,000 |
+| [[items/角色晋阶材料/海妖残鳍\|海妖残鳍]] | 65 |
+| [[items/怪物掉落/预兆似有若无\|预兆似有若无]] | 15 |
+| [[items/怪物掉落/悲鸣由远及近\|悲鸣由远及近]] | 15 |
+| [[items/怪物掉落/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+
+---
+## 技能材料
+
+技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+
+| 材料 | 数量 |
+|---|---|
+| [[items/通用货币/信用点\|信用点]] | 1,818,500 |
+| [[items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
+| [[items/行迹素材/思量的种\|思量的种]] | 8 |
+| [[items/行迹素材/末那芽苗\|末那芽苗]] | 42 |
+| [[items/行迹素材/阿赖耶华\|阿赖耶华]] | 86 |
+| [[items/行迹材料/阳雷的遥想\|阳雷的遥想]] | 9 |
+| [[items/怪物掉落/预兆似有若无\|预兆似有若无]] | 25 |
+| [[items/怪物掉落/悲鸣由远及近\|悲鸣由远及近]] | 38 |
+| [[items/怪物掉落/哀叹漫无止息\|哀叹漫无止息]] | 22 |
+
+---
+## 战技
+### 普攻：Time Thence Blurs
+- **类型**：Basic ATK
+- **简述**：Deals minor Ice DMG to one designated enemy.
+- **最大等级**：10
+- **效果模板**：Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.
+
+- **等级数值表**：
+  | 等级 | 参数1(%) |
+  |---|---|
+  | Lv.1 | 25% |
+  | Lv.2 | 30% |
+  | Lv.3 | 35% |
+  | Lv.4 | 40% |
+  | Lv.5 | 45% |
+  | Lv.6 | 50% |
+  | Lv.7 | 55% |
+  | Lv.8 | 60% |
+  | Lv.9 | 65% |
+  | Lv.10 | 70% |
+
+- **参数说明**：
+  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于长夜月___%生命上限的冰属性」
+
+- **满级效果**：Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.
+
+### 战技：Day Gently Slips
+- **类型**：Skill
+- **简述**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
+- **最大等级**：15
+- **效果模板**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains #3[i] "Memoria." If in the "Darkest Riddle" state, additionally gains #5[i] "Memoria."
+
+- **等级数值表**：
+  | 等级 | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
+  |---|---|---|---|---|---|---|
+  | Lv.1 | 12% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.2 | 13.2% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.3 | 14.4% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.4 | 15.6% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.5 | 16.8% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.6 | 18% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.7 | 19.5% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.8 | 21% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.9 | 22.5% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.10 | 24% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.11 | 25.2% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.12 | 26.4% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.13 | 27.6% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.14 | 28.8% | 2 | 2 | 50% | 12 | 10% |
+  | Lv.15 | 30% | 2 | 2 | 50% | 12 | 10% |
+
+- **参数说明**：
+  - `#1[i]`% → 参数1(%)：上下文「同于长夜月暴击伤害的___%，持续#2[i]」
+  - `#2[i]`回 → 参数2：上下文「的#1[i]%，持续___回合，长夜月每回合」
+  - `#3[i]`点 → 参数3：上下文「生命值。施放时，获得___点【忆质】，若处于」
+  - `#4[i]`% → 参数4(%)：上下文「回复等同于其生命上限___%的生命值。施放时」
+  - `#5[i]`点 → 参数5：上下文「之谜】状态，额外获得___点【忆质】。」
+  - `#6[i]`% → 参数6(%)：上下文「消耗长夜月当前___%的生命值召唤忆灵」
+
+- **满级效果**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
+
+### 终结技：O Wakeful World, Goodnight
+- **类型**：Ultimate
+- **简述**：Deals Ice DMG to all enemies. Summons memosprite Evey and causes Evernight to enter the "Darkest Riddle" state, during which enemies take increased DMG and both Evernight and her memosprite deal increased DMG and are immune to Crowd Control debuffs.
+- **最大等级**：15
+- **效果模板**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to #1[i]% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take #4[i]% increased DMG while both Evernight and Evey deal #3[i]% increased DMG and are immune to Crowd Control debuffs. Gains #2[i] point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
+
+- **等级数值表**：
+  | 等级 | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
+  |---|---|---|---|---|
+  | Lv.1 | 100% | 2 | 30% | 15% |
+  | Lv.2 | 110% | 2 | 33% | 16.5% |
+  | Lv.3 | 120% | 2 | 36% | 18% |
+  | Lv.4 | 130% | 2 | 39% | 19.5% |
+  | Lv.5 | 140% | 2 | 42% | 21% |
+  | Lv.6 | 150% | 2 | 45% | 22.5% |
+  | Lv.7 | 162.5% | 2 | 48.75% | 24.37% |
+  | Lv.8 | 175% | 2 | 52.5% | 26.25% |
+  | Lv.9 | 187.5% | 2 | 56.25% | 28.12% |
+  | Lv.10 | 200% | 2 | 60% | 30% |
+  | Lv.11 | 210% | 2 | 63% | 31.5% |
+  | Lv.12 | 220% | 2 | 66% | 33% |
+  | Lv.13 | 230% | 2 | 69% | 34.5% |
+  | Lv.14 | 240% | 2 | 72% | 36% |
+  | Lv.15 | 250% | 2 | 75% | 37.5% |
+
+- **参数说明**：
+  - `#1[i]`% → 参数1(%)：上下文「体造成等同于「长夜」___%生命上限的冰属性」
+  - `#2[i]`点 → 参数2：上下文「控制类负面状态。获得___点【至暗之谜】的充」
+  - `#3[i]`% → 参数3(%)：上下文「长夜」造成的伤害提高___%，且免疫控制类负」
+  - `#4[i]`% → 参数4(%)：上下文「方全体受到的伤害提高___%，长夜月和忆灵「」
+
+- **满级效果**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
+
+### 天赋：With Me, This Night
+- **类型**：Talent
+- **简述**：When entering combat, summons memosprite Evey. Each time this unit or Evey loses HP, increases CRIT DMG for this unit and Evey, and gains "Memoria."
+When Evernight has 16 or more "Memoria," Evey immediately takes action.
+当长夜月持有的【忆质】数量大于等于16点时，使忆灵「长夜」立即行动。
+- **最大等级**：15
+- **效果模板**：When entering combat, summons memosprite Evey. Evey has an initial SPD of #4[i] and its Max HP equals to #5[i]% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by #2[i]% for #3[i] turn(s), and gains #1[i] "Memoria." This effect can trigger only once per target for each received attack.
+When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses "Dream, Dissolving, as Dew."
+长夜月持有的【忆质】大于等于#6[i]点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。
+
+- **等级数值表**：
+  | 等级 | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
+  |---|---|---|---|---|---|---|---|
+  | Lv.1 | 2 | 30% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.2 | 2 | 33% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.3 | 2 | 36% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.4 | 2 | 39% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.5 | 2 | 42% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.6 | 2 | 45% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.7 | 2 | 48.75% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.8 | 2 | 52.5% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.9 | 2 | 56.25% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.10 | 2 | 60% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.11 | 2 | 63% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.12 | 2 | 66% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.13 | 2 | 69% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.14 | 2 | 72% | 2 | 160 | 50% | 16 | 5% |
+  | Lv.15 | 2 | 75% | 2 | 160 | 50% | 16 | 5% |
+
+- **参数说明**：
+  - `#1[i]`点 → 参数1：上下文「3[i]回合，并获得___点【忆质】。该效果」
+  - `#2[i]`% → 参数2(%)：上下文「长夜」的暴击伤害提高___%，持续#3[i]」
+  - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合，并获得#1[」
+  - `#4[i]`点 → 参数4：上下文「忆灵「长夜」初始拥有___点速度，生命上限为」
+  - `#5[i]`% → 参数5(%)：上下文「，生命上限为长夜月的___%。长夜月或忆灵「」
+  - `#6[i]`点 → 参数6：上下文「有的【忆质】大于等于___点时，解除并免疫控」
+  - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
+
+- **满级效果**：When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 "Memoria." This effect can trigger only once per target for each received attack.
+When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses "Dream, Dissolving, as Dew."
+长夜月持有的【忆质】大于等于16点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。
+
+### 秘技：Let it Rain Cold On Thee
+- **类型**：Technique
+- **简述**：At the start of the next battle, obtains the same effect as the one from Skill that increases memosprite CRIT DMG, and additionally gains "Memoria."
+- **最大等级**：1
+- **效果模板**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains #1[i] "Memoria."
+
+- **等级数值表**：
+  | 等级 | 参数1 | 参数2 |
+  |---|---|---|
+  | Lv.1 | 1 | 1 |
+
+- **参数说明**：
+  - `#1[i]`点 → 参数1：上下文「击伤害的效果，并获得___点【忆质】。」
+  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
+
+- **满级效果**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains 1 "Memoria."
+
+## 附加能力（行迹）
+
+| 编号 | 名称 | 解锁条件 | 效果模板 | 效果 | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 天黑黑，月寂寂 | 晋阶2 | 长夜月和忆灵「长夜」的暴击率提高#1[i]%，施放技能时，消耗自身当前生命值的#2[i]%使双方的暴击伤害提高#3[i]%，持续#4[i]回合。忆灵「长夜」施放【迷梦，流失，如露】后，为我方恢复1个战技点。 | 长夜月和忆灵「长夜」的暴击率提高35%，施放技能时，消耗自身当前生命值的5%使双方的暴击伤害提高15%，持续2回合。忆灵「长夜」施放【迷梦，流失，如露】后，为我方恢复1个战技点。 | 信用点×5000、思量的种×3、阳雷的遥想×1 |
+| 附加能力2 | 烛火起，烛火熄 | 晋阶4 | 战斗开始时，长夜月恢复#2[i]点能量并获得#3[i]点【忆质】。长夜月或我方忆灵施放技能时，长夜月恢复#4[i]点能量并获得#1[i]点【忆质】。 | 战斗开始时，长夜月恢复70点能量并获得1点【忆质】。长夜月或我方忆灵施放技能时，长夜月恢复5点能量并获得1点【忆质】。 | 信用点×20000、末那芽苗×5、命运的足迹×1、阳雷的遥想×1 |
+| 附加能力3 | 天亮了，雨落了 | 晋阶6 | 队伍中「记忆」命途角色数量等于1/2/3/4或以上时，长夜月的战技持续期间额外使我方全体忆灵暴击伤害提高#1[i]%/#2[i]%/#3[i]%/#4[i]%。 | 队伍中「记忆」命途角色数量等于1/2/3/4或以上时，长夜月的战技持续期间额外使我方全体忆灵暴击伤害提高5%/15%/50%/65%。 | 信用点×160000、阿赖耶华×8、命运的足迹×1、阳雷的遥想×1 |
+
+## 总属性加成
+
+| 属性 | 加成 |
+|---|---|
+| 生命值 | 18% |
+| 暴击率 | 18.7% |
+| 暴击伤害 | 13.3% |
+
+---
+
+## 星魂
+
+| 星魂 | 名称 | 效果 |
+|---|---|---|
+| E1 | Sleep Tight, the Night Dreams Long | When Evernight is on the field, if there are (≥4)/3/2/1 enemy targets on the field, ally memosprites deal DMG equal to 120%/125%/130%/150% of their original DMG respectively. |
+| E2 | Listen Up, the Slumber Speaks Soft | Increases Evernight's and the memosprite Evey's CRIT DMG by 40%. Each time Evernight gains "Memoria," increases the amount of "Memoria" gain by 2 point(s). When using Ultimate, additionally gains 2 Charge for "Darkest Riddle." |
+| E3 | Fear Not, the Nightmare Lies Past | Skill Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10.<br>Memosprite Talent Lv. +1, up to a maximum of Lv. 10. |
+| E4 | Wake Up, the Tomorrow is Yours | While Evernight is on the field, ally memosprites' Weakness Break Efficiency increases by 25%, and the memosprite Evey's Weakness Break Efficiency additionally increases by 25%. |
+| E5 | Let Go, the "Me" in Memories | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15.<br>Memosprite Skill Lv. +1, up to a maximum of Lv. 10. |
+| E6 | Like This, Always | While Evernight is on the field, all ally targets' All-Type RES PEN increases by 20%. After the memosprite Evey uses "Dream, Dissolving, as Dew," Evernight gains 30% of the amount of "Memoria" consumed in this attack. |
+
+---
+
+## 推荐遗器
+
+**主词条推荐**：暴击伤害 / 速度 / 冰属性伤害提高 / 生命值
+
+**推荐副词条**：暴击率 / 暴击伤害 / 速度 / 生命值
+
+#### 4件套推荐
+
+| 遗器套装 | 效果 |
+|---|---|
+| [[relic/隧洞遗器/再创天地的救世主\|再创天地的救世主]] | 装备者施放普攻或战技后，若装备者的忆灵在场，使装备者及其忆灵生命上限提高24%，我方全体造成的伤害提高15%，持续至装备者下次施放普攻或战技后。 |
+| [[relic/隧洞遗器/密林卧雪的猎人\|密林卧雪的猎人]] | 当装备者施放终结技时，暴击伤害提高25%，持续2回合。 |
+| [[relic/隧洞遗器/宝命长存的莳者\|宝命长存的莳者]] | 当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。 |
+
+#### 2件套推荐
+
+| 遗器套装 | 效果 |
+|---|---|
+| [[relic/位面饰品/谧宁拾骨地\|谧宁拾骨地]] | 使装备者的生命上限提高12%。当装备者的生命上限大于等于5000点时，使装备者及其忆灵的暴击伤害提高28%。 |
+| [[relic/位面饰品/妖精织梦的乐园\|妖精织梦的乐园]] | 队伍中当前在场的我方目标数量不等于4时，每多/少1名我方目标，使装备者及其忆灵造成的伤害提高9%/12%，最多叠加4/3层。 |
+| [[relic/位面饰品/奇想蕉乐园\|奇想蕉乐园]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+
+---
+
+## 推荐光锥
+
+### [[lightcone/记忆/致长夜的星光.md|致长夜的星光]]
+- **基础属性**：生1164 攻529 防463
+- **推荐度**：★★★★★
+- **技能名**：未眠
+- **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】。装备者的忆灵施放技能时，使装备者获得【夜色】。装备者持有【夜色】时，我方全体忆灵造成的伤害无视目标【20%/22.5%/25%/27.5%/30%】的防御力，装备者和装备者忆灵造成的伤害提高【30%/37.5%/45%/52.5%/60%】，装备者的忆灵消失时为装备者恢复【8/10/12/14/16】点能量，同类效果无法叠加。
+
+### [[lightcone/记忆/让告别，更美一些.md|让告别，更美一些]]
+- **基础属性**：生1270 攻529 防396
+- **推荐度**：★★★★
+- **技能名**：铭刻
+- **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次，装备者每次施放终结技时重置触发次数。
+
+### [[lightcone/记忆/花儿不会忘记.md|花儿不会忘记]]
+- **基础属性**：生1058 攻529 防330
+- **推荐度**：★★★★
+- **技能名**：相依为命
+- **效果**：使装备者的暴击伤害提高【24%/28%/32%/36%/40%】。装备者忆灵造成的暴击伤害额外提高【24%/30%/36%/42%/48%】。
+
+### [[lightcone/记忆/记忆永不落幕.md|记忆永不落幕]]
+- **基础属性**：生1058 攻529 防396
+- **推荐度**：★★★★
+- **技能名**：收取
+- **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
+
+## 推荐队伍
+
+> 官方 Wiki 配队推荐（角色去重，按推荐顺序列出，未严格按位置分组）
+
+- [[character/记忆/长夜月_冰_五星|长夜月]]
+- [[character/记忆/遐蝶_量子_五星|遐蝶]]
+- [[character/同谐/缇宝_量子_五星|缇宝]]
+- [[character/记忆/风堇_风_五星|风堇]]
+- [[character/记忆/开拓者_冰_五星|开拓者•记忆]]
+- [[character/同谐/阮•梅_冰_五星|阮•梅]]
+
+---
+
+*文件生成时间：2026-08-27*
+
+## 角色故事
+与世相隔的忆域，烛火映出过往，于迷雾中悄然熄去。
+自那影中而来的记忆之子长夜月，隐匿「岁月」火种的黄金裔，掀起「忘却」的浪潮，守护镜中人的心愿
+——「别担心，我会为你看护『开拓』的前路…不惜任何代价♭」
+
+### 角色故事·其一 （解锁条件：角色等级20）
+
+「亲爱的三月七：
+
+见到你就像见到微露的晨光一样，令人期待。
+也许是我太过心急，就这样出现在了你面前，还好信息素的传播让你误认为那只是一场幻觉。
+
+上一次与你这样接近，还是在你试图查探过去的时候，和那时比，你似乎又成长了一些。
+你与你的伙伴们——开拓者，丹恒，姬子，瓦尔特，还有那位骑士友人——齐心协力在战斗…那样的大家伙，连我也需稍稍费些力气呢♭
+
+记忆就是这么奇妙，不知不觉，你的旅途已经开始了这么久。
+
+我仍记得无数贪婪的眼睛在闪烁的星痕后，窥视这具躯体，觊觎这份秘密。
+即使我能撕裂追捕者的罗网，忆庭的棱光始终追逐身后，任何雨雾或泪珠，在那光影上都会被蒸发为一缕真空。
+
+但去往哪里才能摆脱『过去』…摆脱『我』？
+是那早已失去情感的标本，无处寻觅的『纯美』吗？
+是那永远游弋，也永恒无归的『巡猎』吗？
+或是血泪交织，为人憎恨的『毁灭』？
+……
+
+直到一束刺眼的灯光自远处射来，让眼前的视野几近曝光泛白。
+但那瞬间确实启发了我。
+——你需要一个空白的『起点』。所以我闭上了眼睛。
+
+现在我有机会告诉你了——那是来自列车的灯光。像一颗流星。
+你的，
+『长夜月』♭」
+
+——深藏心底的声音
+
+### 角色故事·其二 （解锁条件：角色等级40）
+
+「亲爱的三月七：
+
+三月，永夜已然落下帷幕。安心睡吧。
+
+你关心的人们，我会替你记录他们的轨迹。
+待你醒来的那一天，你会知晓它们是否值得被记住，又是否需要被遗忘。
+
+碎作千身的少女，在你的帮助下才能安然踏上旅途。
+即便如此，等待着她的依旧是相似的命运：她们向世人宣告逐火的神谕，而其中的大多数仍旧凋零在那血与火的纷争之中。
+……
+歌声美妙的剑旗，与那燃冕的女王一同拉起弑神的大幕。
+可那些欢庆胜利的醉宴，彼此的救赎，在神明的践踏下如同空中纷舞的泡沫一般消散。
+……
+如果将这些岁月汇成一本关于逐火之旅的手账，那一定缀满了徒劳的词句，凋零的花朵。
+
+但我想，倘若你看到了，你也会赌上自己的生命，为同伴永远『开拓』下去，与未知的远方无数次相遇。
+就像你当时向我求援的那样，不是么？
+
+我会以『记忆』的力量，抚慰那些悲伤的岁月。
+我也会保护你那还未抵达的伙伴，让他们免受窃忆者的伤害。
+
+你的心中一直有着毫无保留的信任，信任你的伙伴会与英雄联手改写徒劳而悲伤的结局。
+信任「开拓」会为过往踏足的每个世界都带来改变。
+
+晚安，三月。
+希望你醒来的那一天，我能送给你…描绘着美好结局的「未来」♭
+你的，
+『长夜月』♭」
+
+——深藏心底的声音
+
+### 角色故事·其三 （解锁条件：角色等级60）
+
+「亲爱的三月七：
+
+夜是如此漫长…是因为听不到你的声音么？
+
+我庆幸你的沉睡，如此便不必亲眼目睹翁法罗斯的午夜，这处你最初抵达的遗迹，埋藏着最无情的，遗忘的气息。
+
+无边的噩梦从这里涌出，吞没银河…你不会喜欢的。
+就像我曾经的困惑一样——被记忆裹挟的「过去」，无法诞生任何新的「未来」。
+
+三千万世，那女孩徒劳地将记忆收集，向天外主宰记忆的神明祈祷。
+可那些伤痕累累的回忆，那粉饰为『英雄故事』的记忆的涟漪，都是毁灭的薪柴…他们，真的会有任何结果么？
+
+可奇怪的是，那女孩的一举一动，她所描绘的故事，有时让我想起了你。你也总在每次旅程之后，绘声绘色地讲述自己的冒险故事，想象奇妙的未来。
+
+你爱说，有一天，你会用相机的闪光灯，为大家照亮探索的前路。
+你曾说，你一定会用上『斩星破宙•大琉璃剑』保护列车组的所有人。
+你也说，你会变得成熟、优雅、强大，带领着大家前进。
+
+你的那些遐想…一笔一划都勾勒在我的沉眠中。
+
+那么…如果是你，在听到一个无缘未来的故事时，会想做怎样的润色呢？
+我也曾思考，怎样让那女孩讲的『故事』，不徘徊在周而复始的岁月里…你应该理所当然就会这么做吧？
+但当我透过岁月的罅隙窥视这个世界『记忆』的始末时…我知道那伪善的天父，祂早已背向翁法罗斯，将目光朝向『毁灭』。而祂狂热的信徒，也将追着记忆的残照，再次寻上你……
+
+纵然是你的伙伴，开拓的行者们，他们的到来不过延缓了孕育『毁灭』的进度——
+我们唯一的出路，一场彻底的『感官之雨』，它会涤净这里一切徒劳而惨烈的痕迹，你的伙伴，只需要一场沉睡，便能迎来再度启程的机会。
+
+这场『雨』不会持续太久，它会将一切痛苦的记忆冲刷殆尽——也许「忘却」才是唯一出口。
+然后，我就可以在这本名为「翁法罗斯」的手账中，真正贴上你想要的未来。
+
+不要睁眼，三月。
+残酷的事，就由我代劳吧♭
+
+你的，
+『长夜月』♭」
+
+——深藏心底的声音
+
+### 角色故事·其四 （解锁条件：角色等级80）
+
+「亲爱的三月七：
+
+天快亮了。
+我很庆幸，在最接近黑暗的时刻，又看见了那缕光。
+
+它们曾是我长眠时，如梦般的浮光掠影。
+我曾在匹诺康尼光怪陆离的记忆中梦见过，在鳞渊境惊叹过，雅利落-VI的风雪也无法阻挡它的温暖。
+
+如今，尽管我将要沉入熟悉的夜色，也能感知到身后的视线。
+他们在等待『你』。
+
+也许我不该假意被你说服。说不担心那是骗你的。你们真的能抵御「毁灭」的浊流吗。你能照顾好自己吗。他们能守护好你吗。你会变成什么模样呢。你自己有不一样的答案吗。你会后悔吗。
+我会后悔吗。
+我会后悔吗。
+我会后悔吗。
+
+你早已向我摊开所有回忆，毫无保留。我知道，你们所言的『开拓』是承载过去，连接现在，并勇敢驶向未来的旅程，而非建立在一张白纸上的海市蜃楼。
+我不知道你是否能成功，但也许无论结局如何，我此刻能选择的，只有现在的你。我能望向的，也只有未来的你。
+
+我也会想，如果有一天我离开了，要留给你什么呢？
+力量。否认。身份。告诫。习惯。祝福。
+可这本就是你的人生，我能留给你最好的礼物…就是待你自己描绘的一片空白。
+就像『三月七』这个名字，别出心裁，又多么贴切。
+更重要的是，它只属于你。
+
+去吧，三月。
+这场不期而至的相逢，就把它当成滋润你的一场细雨。
+将空白的未来，染上属于你的颜色♭
+
+你的，
+『长夜月』♭」
+
+——深藏心底的声音
+
+「亲爱的长夜月：
+
+不知道你能不能听到，我就在心里说啦~
+
+其实，我有听到一些你的心声哦，虽然你神秘又强大，但我知道，我们其实没有什么不一样的！说着要把记忆都烧光，明明你记得比我都清楚，对吧~
+偷偷和你说，我以前也时常会幻想能变成这样…就是那种…特别厉害，特别优雅的人！
+
+谢谢你保护了我的伙伴，也谢谢你为我们兜底！
+但人总是要学着长大，看，在迈向未来的路上，我迈出了一大步！
+我会一直走一直走，总有一天，我们会一起见证，『我』的过去，『我』的未来！
+
+你的，
+『三月七』」
+
+——深藏心底的声音

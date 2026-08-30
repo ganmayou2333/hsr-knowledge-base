@@ -1,0 +1,25 @@
+# Cosmos's Most Lucky Capsule Machine
+
+> 数据来源：StarRailRes items.json
+> 数据版本：4.6
+> 实体ID：223207
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Cosmos's Most Lucky Capsule Machine |
+| 用途 | 旅行手册贴纸 |
+| 评级 | ★★★★ |
+| 类型 | Usable / 旅行手册贴纸 |
+
+
+## 说明
+
+暂无数据
+
+## 获得途径
+
+- 旅行手册活动获得

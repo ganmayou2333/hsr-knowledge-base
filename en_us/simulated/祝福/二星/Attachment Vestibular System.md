@@ -1,0 +1,28 @@
+# Attachment: Vestibular System
+
+> 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_blessings.json）
+> 数据版本：4.5
+> 实体ID：612840 / 615840
+
+---
+
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 名称 | Attachment: Vestibular System |
+| 类型 | 祝福（同名合并） |
+| 命途 | 智识 |
+| 星级 | 二星 |
+| 特殊类型 | 普通祝福 |
+
+
+## 效果
+
+> 该名称对应 2 个不同实体ID，效果如下：
+
+| 实体ID | 效果 |
+|---|---|
+| 612840 | When characters use Ultimates via Brain in a Vat, their CRIT DMG increases by 80%, lasting until this ability ends. |
+| 615840 | When characters use Ultimates via Brain in a Vat, their CRIT DMG increases by 80%, lasting until this ability ends. |

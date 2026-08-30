@@ -1,0 +1,26 @@
+# Emotion Prototype: The Moment of Betrayal
+
+> 数据来源：https://hsr.nanoka.cc/item/140395
+> 数据版本：4.5
+> 实体ID：140395
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Emotion Prototype: The Moment of Betrayal |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+你会永远记得那人信任与温柔，你会永远记得那些人的劝说与煽动，你会永远记得自己拔出刀的瞬间，你会永远记得那人惊讶的低语：
+
+
+## 获得途径
+
+- 开拓任务【好兆头，我的朋友】

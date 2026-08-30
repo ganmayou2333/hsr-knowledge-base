@@ -1,0 +1,25 @@
+# Letter attached to a package
+
+> 数据来源：https://hsr.nanoka.cc/item/190187
+> 数据版本：4.5
+> 实体ID：190187
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Letter attached to a package |
+| 用途 | 阅读物 |
+| 评级 | ★ |
+| 类型 | Usable / 阅读物 |
+
+
+## 说明
+
+某个包裹上的附信
+
+## 获得途径
+
+- 雅利洛-VI-磐岩镇地图中拾取

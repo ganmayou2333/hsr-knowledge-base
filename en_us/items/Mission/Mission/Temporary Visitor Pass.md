@@ -1,0 +1,22 @@
+# Temporary Visitor Pass
+
+> 数据来源：https://hsr.nanoka.cc/item/140032
+> 数据版本：4.5
+> 实体ID：140032
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Temporary Visitor Pass |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+允许佩戴者进入铁卫禁区的临时凭证。
+

@@ -1,0 +1,25 @@
+# Cognition Chasm: The Xianzhou Alliance
+
+> 数据来源：https://hsr.nanoka.cc/item/140322
+> 数据版本：4.5
+> 实体ID：140322
+
+---
+
+## 基本信息
+
+| 属性 | 值 |
+|---|---|
+| 物品名称 | Cognition Chasm: The Xianzhou Alliance |
+| 用途 | 任务道具 |
+| 评级 | ★★★ |
+| 类型 | Mission / 任务道具 |
+
+
+## 说明
+
+“无实体但有生命的奇物…我倒是听说过类似的东西。”
+
+## 获得途径
+
+- 开拓续闻【庸人自扰】
