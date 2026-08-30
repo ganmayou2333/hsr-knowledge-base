@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 贝洛伯格下层区的医生，也是孩子们的照料者。性格温柔可亲、又藏着危险的一面。 |
-| Role | 可以提供持续治疗并解除负面效果的辅助角色 |
+| Introduction | A doctor in the lower district of Belobog, also a caretaker of the children. Gentle and approachable, yet hiding a dangerous side. |
+| Role | An auxiliary role that can provide continuous healing and remove negative status effects. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 异界 |
-| Introduction | 绝望轮番上演于过去与未来之间，无数理想曾在红色衣衫之间燃尽。但，请别被这一抹灰烬欺骗—— 若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。 无论身在何处，他始终是正义的伙伴。 |
-| Role | 可以在同一回合内，连续施放战技的输出型角色 |
+| Introduction | Despair alternates between past and future, with countless ideals having burned out in red robes. But do not be deceived by this single wisp of ash—should anyone fabricate illusory dreams under the guise of ideals, they will reignite and fight against the world's hypocrisy relentlessly. No matter where he is, he remains a partner of justice. |
+| Role | A damage-dealing character who can continuously unleash skills within the same turn. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「朱明」 |
-| Introduction | 仙舟「朱明」的猎剑士，备受「烛渊将军」怀炎宠爱的孙女，性格直率。 从小跟随怀炎学习剑艺与锻艺，乃「焰轮八叶」中次年幼的天才剑士。 对朱明流出的魔剑深恶痛绝，立誓要「搜猎魔剑，尽数断绝」。 |
-| Role | 可自动进行扩散反击的输出型角色 |
+| Introduction | Hunter of Xianzhou's Zhuming, the beloved granddaughter of General Huayan of the Zhuoyuan, with a straightforward personality. She has been learning swordsmanship and forging arts under Huayan since childhood, being a prodigious swordsman of the 'Yanlun Eight Leaves', the second youngest. She deeply detests the cursed swords that have flowed from Zhuming, vowing to 'hunt down all cursed swords and eradicate them completely'. |
+| Role | An output-type character that can automatically perform a spread counterattack. |
 
 ### Voice Actors
 

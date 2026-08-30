@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟「罗浮」十王司的判官之一。受命十王，执掌冥谶天笔，读取罪业种种，并下达业报判罚。 |
-| Role | 能够恢复战技点、提高指定目标速度和攻击力的辅助角色 |
+| Introduction | One of the judges of the Ten Kings' Bureau in Xianzhou's 'Luofu'. |
+| Role | An auxiliary character that can restore combat skill points, increase the speed and attack power of a designated target. |
 
 ### Voice Actors
 

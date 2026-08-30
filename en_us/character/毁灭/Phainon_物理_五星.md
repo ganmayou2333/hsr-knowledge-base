@@ -16,10 +16,10 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 哀丽秘榭，遗世独立的边陲村落，如今只余晦涩的传说。 无名的英雄█████，容纳「负世」火种的黄金裔，铭记全世的理想，背负万众的命运，为新世界带来第一缕曙光 ——「但倘若黎明从不存在，就让怒火燃尽此身，化作明日的烈阳！」 |
+| Introduction | Aeril Mishe, a secluded border village that now remains only as a cryptic legend. The nameless hero █████, a golden-blooded descendant containing the "Negative World" flame, remembering the ideals of all, bearing the fate of countless, bringing the first light to the new world —— "But if dawn never exists, let the fury consume this body, becoming the blazing sun of tomorrow!" |
 | 城邦 | 哀丽秘榭，奥赫玛 |
 | 神权 | …… |
-| Role | 可以变身为卡厄斯兰那并拥有多个强力技能的输出型角色。 |
+| Role | A damage-dealing character who can transform into Kaesarantha and possesses multiple powerful skills. |
 
 ### Voice Actors
 

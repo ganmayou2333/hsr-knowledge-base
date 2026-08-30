@@ -16,10 +16,10 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 那敬爱死亡的国度，终日飘雪的哀地里亚，今日已沉入甘甜的酣眠。 冥河的女儿遐蝶，寻索「死亡」火种的黄金裔，启程吧。呵护世间魂灵的恸哭，拥抱命运的孤独 ——生死皆为旅途，当蝴蝶停落枝头，那凋零的又将新生。 |
+| Introduction | The land that reveres death, eternally snow-covered Acheron, has now sunk into sweet slumber. Castorice, daughter of the River Styx, the golden-blooded seeker of the 'Death' flame, embarks on your journey. Guard the mournful cries of the world's souls, embrace the solitude of fate — life and death are but a journey; when the butterfly alights on the branch, the withered shall once again bloom. |
 | 城邦 | 斯缇科西亚，哀地里亚，奥赫玛 |
 | 神权 | 「灰黯之手，塞纳托斯」 |
-| Role | 召唤「死龙•玻吕刻斯」共同战斗的输出型角色 |
+| Role | A damage-dealing character who summons the 'Death Dragon • Polyktes' to fight alongside you. |
 
 ### Voice Actors
 

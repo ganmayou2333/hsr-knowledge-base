@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | 「星核猎手」的成员，潇洒从容的职业装丽人。 利用言灵术，设计令开拓者吸收星核。 爱好是购买及整理大衣。 |
-| Role | 使敌方陷入触电状态并引爆持续伤害的输出型角色 |
+| Introduction | Member of the Stellaron Hunters, a poised and composed woman in a professional outfit. Employs the art of words (Yan Ling technique) to design schemes that have the Trailblazer absorb stellaron. Hobby is buying and organizing coats. |
+| Role | An output-type character that causes enemies to enter a shocked state and detonate ongoing damage. |
 
 ### Voice Actors
 

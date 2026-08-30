@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 流光忆庭 |
-| Introduction | 流光忆庭的忆者，慵懒神秘的占卜师。 耐心聆听他人「记忆」，诸般命运尽在掌握。 |
-| Role | 多种方式给敌方目标施加【奥迹】的输出型角色 |
+| Introduction | One of the Rememberers of the Luminous Memory Courtyard, a lazy and enigmatic diviner. Patiently listens to others' "memories," with all fates under control. |
+| Role | Output role that can apply the [Omen] to enemy targets in various ways. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | 「天才俱乐部」#83号会员，空间站的真正主人。智慧过人却毫无同理心的大科学家。 |
-| Role | 将敌人血量削减至一半以下触发追击的输出型角色 |
+| Introduction | Member #83 of the "Genius Club," the true master of the space station. A brilliant scientist with no empathy. |
+| Role | An output-type role that triggers a chase when an enemy's health is reduced to below half. |
 
 ### Voice Actors
 

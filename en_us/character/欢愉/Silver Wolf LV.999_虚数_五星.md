@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | 新一轮欢愉赛季，无敌玩家「银狼LV.999」限时回归中！ 成为宇宙大赢家，银河通关全成就，接下来还要怎么玩？ 「走上『欢愉』巅峰？无聊到爆好嘛…既然卡带到手，就我说了算咯~」 |
-| Role | 可以变身【无敌玩家】施放强力技能的输出型角色 |
+| Introduction | New Joy Season is here! Invincible Player "Silver Wolf LV.999" is making a limited-time return! Become the universe's top player, complete all galaxy achievements, and decide how to play next? "Climb to the peak of Joy? Boring to the max... Since I've got the card, I call the shots~" |
+| Role | A damage-dealing character that can transform into [Invincible Player] to unleash powerful skills. |
 
 ### Voice Actors
 

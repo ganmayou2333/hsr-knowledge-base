@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 有人并肩，有人守望，「开拓」从不是孤帆远航。 她画下拓星的奇迹，银轨绵延，无名客们再次起航，照亮星河的长夜—— 终点处，她再度回望，启行的梦从未搁浅。 |
-| Role | 是一名可操控机甲并提供支援攻击的输出型角色 |
+| Introduction | Some walk beside you, others watch over you. The "Trailblazing" is never a solitary voyage. She draws the miracle of mapping stars, silver tracks stretch endlessly, the nameless travelers set sail once more, illuminating the long night of the starry river—At the end, she looks back once more—the dream of departure has never wavered. |
+| Role | A support attacker who can control mechs and provide auxiliary attacks. |
 
 ### Voice Actors
 

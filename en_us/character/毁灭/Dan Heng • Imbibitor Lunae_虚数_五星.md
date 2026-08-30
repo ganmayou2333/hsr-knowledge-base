@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 丹恒身为持明族的本相，其上一世「饮月君」所遗存的力量。 接受了额顶的峥嵘角冠，就要接受那罪人所立的一切功过。 |
-| Role | 可施放多种强化技能的输出型角色 |
+| Introduction | Dan Heng, as the true form of the Zhuying clan's embodiment, carries the power inherited from his previous life as the "Drinking Moon Lord." Accepting the jagged horn crown on his forehead means accepting the sins and merits of the criminal he became. |
+| Role | A damage-dealing character capable of releasing multiple strengthening skills. |
 
 ### Voice Actors
 

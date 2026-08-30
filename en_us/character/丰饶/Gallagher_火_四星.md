@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 匹诺康尼 |
-| Introduction | 匹诺康尼猎犬家系的治安官，对来访宾客以礼相待，但保有戒心。似乎有着诸多往事，却从不主动提及。 |
-| Role | 兼具进攻能力的回复型角色。其终结技可攻击全体敌方目标，并使其陷入【酩酊】状态，同时强化加拉赫下一次普攻。我方攻击陷入【酩酊】状态的敌方目标后，回复攻击者生命值。 |
+| Introduction | Penacony's Law Enforcement Officer of the Hound Clan, politely welcoming visiting guests while maintaining vigilance. Seems to have many past events but never mentions them proactively. |
+| Role | A healing-type role with offensive capabilities. Its ultimate skill attacks all enemy targets, applying 【Besotted】, and enhances Gallagher's next normal attack. When our side attacks an enemy in 【Besotted】 state, recover the attacker's HP. |
 
 ### Voice Actors
 

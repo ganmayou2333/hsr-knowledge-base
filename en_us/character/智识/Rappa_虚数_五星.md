@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠 |
-| Introduction | 如丑时三刻的闪光弹一般现身在匹诺康尼，以忍者自居，将世间一切归因于「忍法」的奇妙少女。 贯彻吟诵忍•真言、绘制缭乱•忍符、修习忍•法帖的「忍•道」——即说唱，涂鸦，漫画——苦炼自身意志，驰骋星间行侠仗义。 身为「巡海游侠」的一员，始终追猎着名为「御猿•邪忍」的恶党，直至银河尽头。 |
-| Role | 乱破是一名擅长群体击破的输出型角色 |
+| Introduction | Appearing in Penacony like a flashbang at the darkest hour of night, this peculiar girl styles herself as a ninja and attributes everything in the world to "ninjutsu." She upholds the "Way of the Ninja" — reciting ninja mantras, drawing Dazzling Ninja Seals, and studying ninja scrolls, namely rap, graffiti, and manga — rigorously tempering her will as she roams the stars to uphold justice. As a member of the Galaxy Rangers, she relentlessly pursues the villain known as "Evil Ninja Osaru" all the way to the very edge of the galaxy. |
+| Role | Rappa is a damage-dealing character specialized in dealing Break DMG to multiple enemies. |
 
 ### Voice Actors
 

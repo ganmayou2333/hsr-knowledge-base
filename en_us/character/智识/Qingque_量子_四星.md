@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟「罗浮」太卜司的卜者，兼书库管理员。因工作一再偷闲摸鱼，即将贬无可贬成为「掌门人」。 |
-| Role | 通过抽取四张同色琼玉牌，获得强化普攻的输出角色 |
+| Introduction | Diviner and library administrator of Xianzhou's "Luofu" Astronomical Office. Due to repeatedly slacking at work, he is about to be demoted to "Master" with no further punishment. |
+| Role | Output role that gains enhanced normal attacks by drawing four same-colored Jade Cards. |
 
 ### Voice Actors
 

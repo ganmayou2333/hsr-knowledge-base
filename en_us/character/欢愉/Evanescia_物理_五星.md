@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 二相乐园 |
-| Introduction | 一季幻月满盈，一季人世更迭，神秘少女再度现身二相乐园！ 落英易散，她的停留也不过刹那。新时代的一切令她痴迷，绝不容许有人破坏—— 一把尺刀裁定正邪，可谁又能知，己身善恶几何？ |
-| Role | 快速积累【好活当赏】的输出型角色 |
+| Introduction | Through a season of full moon and a season of world renewal, the enigmatic girl reappears in the Two-Phase Garden! Falling petals fade away, yet her stay is but a fleeting moment. Entranced by the new era's wonders, she will not allow anyone to disrupt it— a measuring blade judges righteousness and wickedness, yet who can truly discern her own morality? |
+| Role | A damage-dealing character specialized in rapidly accumulating 【Good Living Rewards】 |
 
 ### Voice Actors
 

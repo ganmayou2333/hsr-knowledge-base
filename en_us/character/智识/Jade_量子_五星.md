@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 星际和平公司 |
-| Introduction | 星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「典贷翡翠」。 冷艳优雅的放贷人，善于洞悉人心，有着名为「慈玉典押」的个人爱好。 愿意为获取高价值的事物耐心等待，也擅长从看似一无所有的客户身上榨取价值。 |
-| Role | 通过获得充能点，以触发追加攻击的输出型角色 |
+| Introduction | A high-ranking official in the Interstellar Peace Company's Strategic Investment Department, one of the "Stone Heart Ten," with the foundation stone "Jade Loan." A cold and elegant lender skilled at understanding people, with a personal hobby called "Mercy Jade Mortgage." Willing to wait patiently for high-value items and adept at extracting value from clients who seem to have nothing. |
+| Role | A damage-dealing character that triggers additional attacks by obtaining energy points. |
 
 ### Voice Actors
 

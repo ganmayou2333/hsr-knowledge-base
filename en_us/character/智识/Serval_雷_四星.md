@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 贝洛伯格的机械师，曾任筑城者技术部研究员。身为杰帕德•朗道的姐姐，性格却与弟弟截然不同。钟爱大寒潮前一种名为「摇滚」的古老音乐艺术。 |
-| Role | 能够产点的、可以打dot队对群输出角色 |
+| Introduction | A mech technician from Belobog, former researcher at the Fortification Department. As the sister of Jepard Langdon, her personality is completely different from her brother. She adores an ancient musical art called "rock" from before the Great Cold Wave. |
+| Role | Can deal damage over time (dot) and has area-of-effect (aoe) group damage capabilities. |
 
 ### Voice Actors
 

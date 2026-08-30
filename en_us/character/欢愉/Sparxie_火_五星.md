@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 假面愚者 |
-| Introduction | 点赞！关注！直播！流量！狂欢直到世界尽头！ 火花和花火，假面与愚者本无不同—— 谁被看见，谁被喜欢，谁就是正确答案！ |
-| Role | 是一名能产生大量笑点的输出型角色 |
+| Introduction | Like! Follow! Live stream! Traffic! Party until the end of the world! Sparxie and Firefly, masks and fools are no different— whoever is seen, whoever is liked, that's the correct answer! |
+| Role | A damage-dealing character who generates a lot of comedic moments. |
 
 ### Voice Actors
 

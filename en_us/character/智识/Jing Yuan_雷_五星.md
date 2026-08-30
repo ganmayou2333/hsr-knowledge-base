@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟联盟帝弓七天将之一，负责节制罗浮云骑军的「神策将军」。 师从前代「罗浮」剑首，但并不显名于武力。 |
-| Role | 景元召唤「神君」协同作战 |
+| Introduction | One of the seven generals of the Xianzhou Alliance's Imperial Bow, responsible for regulating the Luofu Cloud Cavalry's "God's Strategy General." Studied under the former "Luofu" sword master but is not renowned for martial prowess. |
+| Role | Jing Yuan summons the "God's Sovereign" to cooperate in battle. |
 
 ### Voice Actors
 

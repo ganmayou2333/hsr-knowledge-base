@@ -16,10 +16,10 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。 哀丽秘榭的女儿，哺育「██」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放 ——「然后，一起写下不同以往的诗篇吧♪」 |
+| Introduction | A meteor streaks across the night sky, ripples stir in the river of life, shimmering with thirteen hues. Daughter of the Aerie Secret Garden, the golden descendant who nurtures 「██」, planting seeds of memory, allowing the flowers of the past to bloom anew tomorrow —— "Then, let's write a poem unlike any before, together♪" |
 | 城邦 | 哀丽秘榭，？ |
 | 神权 | ……？ |
-| Role | 是一名能召唤忆灵「德谬歌」协助战斗的辅助型角色 |
+| Role | An auxiliary character who can summon the memory spirit "Demogorgon" to assist in battle. |
 
 ### Voice Actors
 

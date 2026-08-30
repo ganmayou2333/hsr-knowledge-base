@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 对自己的过去讳莫如深，清冷寡言的青年。为了躲避血裔同族，选择与星穹列车同行。 |
-| Role | 通过大招以及天赋风穿透打出单体伤害的主C角色 |
+| Introduction | A cold and reserved young man who keeps his past a well-guarded secret. To evade his bloodline kin, he chose to travel with the Astral Express. |
+| Role | A main damage dealer who deals single-target damage using ultimate skills and the talent Wind Penetration. |
 
 ### Voice Actors
 

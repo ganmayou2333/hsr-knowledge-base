@@ -16,10 +16,10 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 神悟树庭，滋养知识的学府，诞育哲人的摇床。 但渎神的阿那克萨戈拉斯，诘问「理性」火种的黄金裔，试问：你甘愿身负恶名，也要违逆预言，将怀疑的枝杈刺入智慧的圣树？ ——「可笑。这世界遍地虚假，唯有我才是真实。」 |
+| Introduction | The God Tree Academy, a sanctuary of knowledge, cradle of philosophers. Yet the heretical Anaxa, the golden-blooded seeker of reason, questions: Would you bear the infamy, defy prophecy, and plant the branch of doubt into the sacred tree of wisdom? —— "How absurd. This world is filled with falsehoods; only I am the truth." |
 | 城邦 | 神悟树庭 |
 | 神权 | 「裂分之枝，瑟希斯」 |
-| Role | 可为敌方群体快速添加大量弱点的输出型角色 |
+| Role | A damage-dealing role capable of rapidly applying numerous weaknesses to enemy groups. |
 
 ### Voice Actors
 

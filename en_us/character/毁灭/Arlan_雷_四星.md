@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | 空间站「黑塔」的防卫科负责人。不善言辞，希望保护珍视研究的人们顺利完成他们的研究。 |
-| Role | 通过降低自身生命值来获得伤害提高的输出角色 |
+| Introduction | Head of the Defense Department at Space Station 'Herta'. Reticent, hoping to protect those who value research so they can complete their studies successfully. |
+| Role | A damage-dealing role that gains increased damage by reducing its own health. |
 
 ### Voice Actors
 

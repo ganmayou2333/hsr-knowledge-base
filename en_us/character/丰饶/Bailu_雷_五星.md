@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟「罗浮」持明族的尊长，有「衔药龙女」之称的医士。以独门医理和唯有龙脉方可施行的「医疗手段」救死扶伤。 |
-| Role | 为队友附加「生息」状态的治疗角色 |
+| Introduction | Xianzhou 'Luofu' Zhimings' elder, known as the 'Dragon-Dragon Female Who Swallows Medicines,' a physician who uses her exclusive medical theories and the 'medical techniques' that can only be performed through the Dragon Vein to save lives and heal the wounded. |
+| Role | Healing role that adds the 'Invigoration' status to allies. |
 
 ### Voice Actors
 

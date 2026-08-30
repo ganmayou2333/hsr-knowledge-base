@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 异界 |
-| Introduction | 来自宇宙之外，某个存在着魔法与魔术的世界，不断精进自我的少女魔术师——冬木市魔术世家，远坂家第六代当家。 |
-| Role | 是一名利用【宝石能量】强化战技爆发的输出型角色 |
+| Introduction | From beyond the cosmos, a world where magic and sorcery exist, a young sorceress constantly refining herself—sixth-generation head of the Tohsaka family, a prestigious magical lineage in Tokyo-3. |
+| Role | A damage-dealing character who enhances combat techniques through [Gem Energy]. |
 
 ### Voice Actors
 

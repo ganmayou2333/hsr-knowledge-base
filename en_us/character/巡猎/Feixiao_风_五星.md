@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | 仙舟「曜青」的天击将军，帝弓七天将之一，为人不拘一格，率直潇洒。 精通百般武艺，炼化躯体至极致，享有「大捷将军」美名，深受仙舟军民爱戴。 但身负「月狂」之症，如要在时限内猎尽孽物——飞霄唯一的敌手，便是自己。 |
-| Role | 可以变身【无敌玩家】施放强力技能的输出型角色 |
+| Introduction | Celestial General of Xianzhou "Yaoqing", one of the Seven Heavenly Generals of the Imperial Bow. Unconventional and straightforward, he is a master of countless martial arts, having refined his body to its peak, earning the title "Great Victory General", deeply loved by Xianzhou's military and civilians. However, he suffers from the "Lunar Madness" curse. If he is to hunt down all the evils within the time limit, Feixiao's only enemy is himself. |
+| Role | A damage-dealing character who can transform into [Invincible Player] to unleash powerful skills. |
 
 ### Voice Actors
 

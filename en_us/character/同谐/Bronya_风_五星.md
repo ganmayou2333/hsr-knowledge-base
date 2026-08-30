@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 贝洛伯格「大守护者」的继承人。兼有公主的高傲和军人的坚贞。 |
-| Role | 使我方目标立即行动并提供全队增益的角色 |
+| Introduction | Belobog's 【Great Guardian】 successor. Combines the pride of a princess and the steadfastness of a soldier. |
+| Role | A role that makes our side targets act immediately and provides a team-wide boost. |
 
 ### Voice Actors
 

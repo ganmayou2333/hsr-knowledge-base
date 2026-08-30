@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | 尊贵的「天才俱乐部」#83，人类，女性，年轻，貌美，可爱。 传说她隐居在银河边境，几乎不踏出其间，想必此次现身—— 一定是为了某个不得不亲自出马的问题吧？ |
-| Role | 通过强化战技输出的对群输出型角色 |
+| Introduction | The esteemed "Genius Club" #83, human, female, young, beautiful, and adorable. It is said she has retreated to the galactic border, rarely stepping out of it, so her appearance this time—must surely be for a matter that demands her personal involvement? |
+| Role | A crowd control damage dealer specializing in enhanced combat skill output |
 
 ### Voice Actors
 

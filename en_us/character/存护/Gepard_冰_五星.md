@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 银鬃铁卫的戍卫官，贝洛伯格数一数二的战士。表里如一，一丝不苟，从不懈怠。 |
-| Role | 可以为全体友方提供护盾的防御型角色 |
+| Introduction | Guardian of the Silver Wolf, one of Belobog's top warriors. Straightforward and meticulous, never complacent. |
+| Role | A defensive role that can provide shields for all allied units. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟「罗浮」上监察生死的机构「十王司」的判官。早已身死道消多年，借偃偶身躯「还阳」，履行使命。 |
-| Role | 通过削减敌方韧性触发追加攻击的输出型角色 |
+| Introduction | A judge of the Ten Kings' Bureau, an institution overseeing the judgment of life and death on Xianzhou "Luofu". Having been dead for many years, they have returned to life through a Yanshou body to fulfill their duty. |
+| Role | An output-type character that triggers additional attacks by reducing enemy resilience. |
 
 ### Voice Actors
 

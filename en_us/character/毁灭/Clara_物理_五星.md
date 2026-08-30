@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 与机械生活在一起的流浪少女。 内向、温柔，有一颗纯粹的心。 渴望下层区的大家都能成为彼此的「家人」。 |
-| Role | 通过受击反击的输出方式来对敌方释放高额伤害。 |
+| Introduction | A wandering girl living with machinery. Introverted, gentle, with a pure heart. Yearns for everyone in the lower district to become each other's "family". |
+| Role | Outputting high damage to enemies through counterattacks upon being hit. |
 
 ### Voice Actors
 

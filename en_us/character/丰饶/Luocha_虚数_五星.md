@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | 随身携带着棺椁，自天之外海而来的化外行商。 医术精湛。 |
-| Role | 回复生命值、解除负面状态和敌方增益的回复型角色 |
+| Introduction | Carries a coffin, an outsider merchant from the sea beyond the heavens. Skilled in medicine. |
+| Role | Support role that heals HP, removes debuffs, and counters enemy buffs. |
 
 ### Voice Actors
 

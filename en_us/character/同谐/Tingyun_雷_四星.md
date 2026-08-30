@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟「罗浮」天舶司的接渡使。随商团出使过众多世界，缔结贸易与盟谊。 |
-| Role | 可为我方指定角色恢复能量并使其伤害提高的辅助型角色 |
+| Introduction | The Guide of the Celestial Vessel of Xianzhou's 'Luofu' Celestial Vessel Bureau. Has accompanied merchant groups on missions to numerous worlds, forging trade agreements and alliances. |
+| Role | An auxiliary character that can restore energy to a designated ally and enhance their damage output. |
 
 ### Voice Actors
 

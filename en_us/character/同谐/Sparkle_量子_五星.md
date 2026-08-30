@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 假面愚者 |
-| Introduction | 「假面愚者」的成员之一，难以捉摸，不择手段。 危险的戏剧大师，沉迷于扮演，身怀千张假面，能化万种面相。 财富、地位、权力…于花火而言都不重要，能让她出手的，唯有「乐趣」。 |
-| Role | 恢复战技点、提高我方战技点上限的辅助型角色 |
+| Introduction | One of the members of 'The Masked Fool,' elusive and unscrupulous. A dangerous dramatist obsessed with role-playing, possessing a thousand masks and the ability to transform into myriad faces. To Sparkle, wealth, status, and power are irrelevant; only 'fun' can make her act. |
+| Role | An auxiliary character that recovers and increases the maximum amount of combat skill points for our side. |
 
 ### Voice Actors
 

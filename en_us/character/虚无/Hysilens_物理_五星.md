@@ -16,10 +16,10 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 斯缇科西亚，醉与梦的海滨之城，旧日的歌声仍在浮浪间回荡。 大海的女儿海列屈拉，清洗「海洋」火种的黄金裔，驱散污浊的暗流，为天外的英雄奏响不醉不归的盛宴 ——散场之时未到，纵然希望如泡沫般易碎，浪花也将一往无前。 |
+| Introduction | Styxosia, the city of drunkenness and dreams by the sea, where the songs of old still echo among the waves. Halektra, the daughter of the sea, the golden descendant who purifies the "Ocean" spark, dispels the murky currents, and plays an endless feast for heroes from the heavens — the curtain has not yet fallen, even if hope is as fragile as a bubble, the waves will press forward without end. |
 | 城邦 | 斯缇科西亚，奥赫玛 |
 | 神权 | 「满溢之杯，法吉娜」 |
-| Role | 可依据目标持续伤害数量，额外造成相应次数持续伤害的输出型角色 |
+| Role | An output-type character that deals additional continuous damage instances based on the number of targets. |
 
 ### Voice Actors
 

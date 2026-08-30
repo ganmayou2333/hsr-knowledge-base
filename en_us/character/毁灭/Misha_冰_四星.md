@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 匹诺康尼 |
-| Introduction | 匹诺康尼酒店的门童侍应，乖巧懂事的小男孩。对无名客抱有极大憧憬，梦想有朝一日自己也能踏上旅途。 |
-| Role | 兼具控制能力的输出型角色 |
+| Introduction | A hotel bellboy at Penacony Hotel, a well-mannered and thoughtful young boy. He harbors great aspirations towards nameless travelers, dreaming of one day embarking on his own journey. |
+| Role | A damage-dealing character with control abilities. |
 
 ### Voice Actors
 

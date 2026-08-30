@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | 「星核猎手」的成员，弃身锋刃的剑客。 效忠于「命运的奴隶」，拥有可怖的自愈能力。 |
-| Role | 消耗生命获得强化的输出型角色 |
+| Introduction | Member of the Stellaron Hunters, a swordsman who discards their own blade. Loyal to "Slave of Fate," possesses a terrifying self-healing ability. |
+| Role | An output-type character who gains enhancements by consuming life. |
 
 ### Voice Actors
 

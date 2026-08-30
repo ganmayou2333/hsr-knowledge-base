@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 八面玲珑的狐人少女，样貌、名字、身份皆被人夺去。 命运为她留下一线生机，而「毁灭」的烙印仍在蠢蠢欲动。 历经生死、重获新生的忘归人，何时才能返乡？ |
-| Role | 使我方全体更频繁地触发击破以及超击破伤害的辅助型角色 |
+| Introduction | A versatile fox-human girl whose appearance, name, and identity have all been taken away. Fate leaves her a sliver of hope, yet the 'Annihilation' mark still stirs. When will the Fugue, who has endured life and death, return home? |
+| Role | An auxiliary character that increases the frequency of break and super break damage triggers for our entire team. |
 
 ### Voice Actors
 

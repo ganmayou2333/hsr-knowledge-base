@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| Role | 是一名能使队友立即施放欢愉技的辅助型角色 |
+| Introduction | A {F#Girl}{M#Boy} who boarded the Astral Express. To eliminate the crisis caused by the stellaron, they chose to travel with the Astral Express. |
+| Role | An auxiliary role that allows teammates to immediately unleash their Joy Technique. |
 
 ### Voice Actors
 

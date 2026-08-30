@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | - |
-| Introduction | 仙舟「曜青」的狐人医士、策士，常以笑脸迎人，实际颇有心计。 出身于丹鼎司名家，曾一度心死避世，不再行医，后为医治「天击将军」飞霄再度出山。 精于医食同源的丹方研究，尤其是能带给人痛感的辣味食物，发明了名为「九宫格」的鼎镬药式。 |
+| Introduction | A Foxian healer and counselor from the Xianzhou Yaoqing. He always greets people with a smile on his face and a scheme in his heart. Born into a prestigious family of the Alchemy Commission, he once lost the will to live and withdrew from the world, giving up medicine — until he returned to treat "the Merlin's Claw," General Feixiao. Skilled in the study of medicinal formulas that treat food as medicine, especially spicy dishes that bring a sensation of pain, he invented the cauldron-based medicinal formula known as the "nine-squared grid." |
 
 ### Voice Actors
 

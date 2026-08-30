@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 焚化工 |
-| Introduction | 美梦燃烧了永火官邸，也带走关于「她」的点滴。 「毁灭」、「记忆」…背叛的花朵盛放在所经之地—— 重返无人知晓的梦境，将她再度点燃的会是何方？ |
-| Role | 是一名能使我方在未击破敌方时也能造成超击破伤害的辅助型角色 |
+| Introduction | The sweet dream burned the Eternal Flame Manor, also taking away fragments of memories about 'her'. 'Destruction', 'Memory'... the flowers of betrayal bloom where she has passed— returning to the dream unknown to all, who will reignite her once more? |
+| Role | A support-type character who can deal super critical damage to enemies without breaking them, allowing our side to do so. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星际和平公司 |
-| Introduction | 星际和平公司旗下「战略投资部」高级干部托帕，领导特殊债务纠察小组。 年纪轻轻便已成为「石心十人」之一，基石为「催讨黄玉」。 搭档次元扑满「账账」则能敏锐感知「财富」所在，即便是安保、催债、精算等工作也不在话下。 如今他们正一同巡行银河，追究各类影响公司业务开展的债务纠纷。 |
-| Role | 托帕与工作搭档「账账」一同行动。战斗中，账账将自动攻击敌人，托帕则可以强化账账的输出能力。探索时，账账将和托帕一起行动，账账可发现未获取的战利品。 |
+| Introduction | Topaz, a senior executive of the Interstellar Peace Company's Strategic Investment Department, leads the Special Debt Enforcement Unit. A young prodigy who has become one of the "Stoneheart Ten", with the foundation of "Recovery of the Yellow Jade". Paired with the deng yuan puman "Numby", who can keenly sense the location of "wealth", even tasks such as security, debt collection, and financial calculations are no problem. Now they are traveling the galaxy together, pursuing various debt disputes that affect the company's business operations. |
+| Role | Topaz acts alongside their work partner "Numby". In battle, Numby will automatically attack enemies, while Topaz can enhance Numby's damage output. During exploration, Numby will accompany Topaz, and Numby can detect unclaimed loot. |
 
 ### Voice Actors
 

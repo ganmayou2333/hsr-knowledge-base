@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | 身如春木，心若死灰，指尖仍留工匠的火星。 累世宿怨再度点燃，他许诺将自己与神明一同送往彼岸—— 支离此身，千冶成刃…会铸就何种答案？ |
-| Role | 通过展开特殊结界获得强化和全新技能的输出型角色 |
+| Introduction | His form is like a spring tree, his heart ashen, yet his fingertips still hold the sparks of a craftsman. The long-standing grievances of ages are reignited; he vows to send himself and the deity to the other shore—disassemble this body, forge the thousand forges into a blade… what answer will be shaped? |
+| Role | An output-type character who gains enhancements and new skills by deploying special barriers. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 地底冒险团队「鼹鼠党」的老大（自封）。热爱自由，将生活视为一场又一场冒险。 |
-| Role | 利用灼伤提高输出，回复生命值与能量的输出型角色 |
+| Introduction | Leader (self-proclaimed) of the underground adventure team "Mole Party". Loves freedom and views life as an endless series of adventures. |
+| Role | An output-type character that enhances damage through burning, and recovers health and energy. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 异界 |
-| Introduction | 孤独的英灵走过命运的长夜， 圆桌的旗帜仍在梦中舒展。卡美洛的骑士之王，此时尚未抵达理想乡。 仍是少女的她于这场特殊的「圣杯战争」中应召前来，当再度面临石中剑的抉择，她将如何突破过往的幻境？ ——「我未实现的愿望，也将在此作结。」 |
-| Role | 终结技对敌方全体造成大量输出的角色 |
+| Introduction | The lone spirit walks through the long night of fate, the banner of the Round Table still unfurls in dreams. Camelot's Knight King, who has yet to reach the Promised Land. She, still a maiden, has been summoned to this special 'Holy Grail War,' and when once again facing the choice of the sword from the stone, how will she break through the illusion of the past? —— "My unfulfilled wishes shall also conclude here." |
+| Role | Finishing Move that deals massive damage to all enemies. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | 空间站「黑塔」的站长，出身名门的大小姐。好奇心旺盛的天文研究者，擅长管理空间站各抒己见的科员。 |
-| Role | 可提高我方全体攻击力和速度的辅助角色 |
+| Introduction | Station Manager of the space station "Herta", a noble-born young lady. A curious astronomer who is skilled at managing the station's staff who have diverse opinions. |
+| Role | An auxiliary role that can enhance the attack power and speed of the entire party. |
 
 ### Voice Actors
 

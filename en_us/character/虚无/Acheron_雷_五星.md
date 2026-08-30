@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠/自灭者 |
-| Introduction | 自称「巡海游侠」的旅人，本名不详。 身佩一柄长刀，独行银河。 |
-| Role | 敌人陷入负面效果积攒充能点施放终结技输出型角色 |
+| Introduction | A traveler who calls themselves the "Sea-Wandering Outlaw," with an unknown true name. Wields a long blade and roams the galaxy alone. |
+| Role | Enemy-Inflicted Negative Effects: Accumulate Energy Points to Release a Finishing Move for High-Damage Output |
 
 ### Voice Actors
 

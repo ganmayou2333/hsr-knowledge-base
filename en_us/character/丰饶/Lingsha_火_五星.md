@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | 仙舟「罗浮」丹鼎司新任司鼎，伶俐秀慧的持明医士。 嗅觉敏锐，常以此识别病症，并以香薰安定他人心神。 善于处理混杂的人际关系，即使心底暴躁如雷，表面上依旧滴水不漏。 |
-| Role | 召唤烟兽支援队友的回复型角色 |
+| Introduction | Xianzhou 'Luofu' Dan Ding Bureau's newly appointed Grand Potentate, a clever and bright Celestial Physician. With a keen sense of smell, they often use it to identify illnesses and calm others with aromatherapy. Skilled in managing complex interpersonal relationships, even if their temper is as volatile as thunder, they maintain a flawless exterior. |
+| Role | A healing-type character who summons the Smoke Beast to support teammates. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | 仙舟「罗浮」太卜司之首。 凭借第三眼与穷观阵为仙舟占算航路，预卜事务吉凶。 |
-| Role | 能够替我方全体分摊伤害并提供增益的防御型角色 |
+| Introduction | Head of the Astral Bureau of Xianzhou's Luofu. Utilizes the third eye and the Exhausting Array to calculate routes for Xianzhou and predict the auspiciousness of affairs. |
+| Role | A defensive role that can distribute damage among our entire side and provide buffs. |
 
 ### Voice Actors
 

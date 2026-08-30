@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 匹诺康尼 |
-| Introduction | 飞越晴空蓝海，羽翼掠起浪花，化作新声。 循着回忆的遗音，她拥抱一路意外，寻觅变奏的灵感—— 谐乐之外，「同谐」还能怎样歌唱？ |
-| Role | 召唤忆灵「晴空乐手」协助战斗的辅助型角色 |
+| Introduction | Soaring over the azure blue sea, wings sweep across the waves, transforming into a new melody. Following the echoes of memories, she embraces a journey of unexpected twists, seeking inspiration for variations—Beyond harmony, how can 'Same Harmony' sing? |
+| Role | An auxiliary-type character who summons the memory spirit "Skyward Musician" to assist in battle. |
 
 ### Voice Actors
 

@@ -16,10 +16,10 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 与世相隔的忆域，烛火映出过往，于迷雾中悄然熄去。 自那影中而来的记忆之子长夜月，隐匿「岁月」火种的黄金裔，掀起「忘却」的浪潮，守护镜中人的心愿 ——「别担心，我会为你看护『开拓』的前路…不惜任何代价♭」 |
+| Introduction | The secluded realm of memories, candlelight casting shadows of the past, fading into the mist silently. The child of memory, Evernight, a golden lineage concealing the "Years" ember, spawning the tide of "forgetting," safeguarding the wish of the mirror being — "Don't worry, I will guard your "Trailblazing" path... at any cost ♭" |
 | 城邦 | 天外 |
 | 神权 | 「永夜之帷，欧洛尼斯」 |
-| Role | 召唤忆灵「长夜」进行作战的输出型角色 |
+| Role | An output-type character who summons the memory spirit "Evernight" for combat |
 
 ### Voice Actors
 

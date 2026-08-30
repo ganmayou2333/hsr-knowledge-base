@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 出生于仙舟「曜青」，前往「罗浮」云骑军接受历练的新兵。身佩母亲赠予的家传剑器，憧憬着自己即将书写的未来。 |
-| Role | 能够造成附加伤害，拥有高破韧效率的对单输出角色 |
+| Introduction | Born in the Xianzhou region of Yaoqing, a new recruit heading to the Luofu Cloud Cavalry for training. Wears her mother's heirloom sword passed down through generations, aspiring to write her own future. |
+| Role | A single-target damage dealer capable of inflicting additional damage with high breaking resistance efficiency. |
 
 ### Voice Actors
 

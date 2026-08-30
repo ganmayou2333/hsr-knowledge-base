@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| Role | 火属性的防御型角色，其战技可对敌方全体施加嘲讽、吸引敌方火力，具备较强的承伤能力，可为我方角色提供更多的输出机会。 |
+| Introduction | {F#Girl} and {M#Boy} who have boarded the Astral Express. To eliminate the crisis caused by the stellaron, they have chosen to travel with the Astral Express. |
+| Role | A fire attribute defense-type character. Its skill can apply taunt to all enemies, drawing enemy fire, with strong damage absorption capacity, providing more output opportunities for our side's characters. |
 
 ### Voice Actors
 

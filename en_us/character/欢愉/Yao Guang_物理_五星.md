@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「玉阙」 |
-| Introduction | 神秘，大胆，激进，求变之举令人瞠目结舌。 以巡猎之「眼」遍观吉凶，明知天意难违，「戎韬将军」仍旧孤身涉险。 这一支下下签，如何能够改运换天？ |
-| Role | 是一名能触发额外「阿哈时刻」的辅助型角色 |
+| Introduction | Mysterious, bold, radical, and their desperate attempts to change fate are astonishing. With the Eye of the Hunt, they survey fortune and misfortune, knowing fate cannot be defied, yet General Rongtao still ventures alone. How can this dire omen change fate and the heavens? |
+| Role | A supportive character who can trigger additional "Aha Moments." |
 
 ### Voice Actors
 

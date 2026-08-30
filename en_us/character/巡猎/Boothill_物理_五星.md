@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠 |
-| Introduction | 浪迹银河的改造人牛仔，极度乐观、放荡不羁。 身为「巡海游侠」的一员，为惩奸除恶，可以无所不用其极—— 高调行事的背后，渴望以此引起复仇对象「星际和平公司」的注意。 |
-| Role | 擅长与敌方决斗的输出型角色 |
+| Introduction | A cyborg cowboy wandering through the galaxy, extremely optimistic and carefree. As a member of the "Sea-Wandering Outlaws," he's willing to do anything to punish villains and eliminate evil—beneath his flamboyant demeanor, he yearns to draw the attention of his target for revenge, the "Interstellar Peace Company." |
+| Role | A damage-dealing character skilled in duels against enemies. |
 
 ### Voice Actors
 

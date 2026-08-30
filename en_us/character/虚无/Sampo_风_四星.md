@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 地表和地底之间来去自如的行商。自来熟，热情幽默，习惯插科打诨。 |
-| Role | 以持续伤害和多段弹射打击为主的输出角色 |
+| Introduction | A merchant who moves freely between the surface and the underground. Sociable, enthusiastic, and humorous, accustomed to making jokes and humorous remarks. |
+| Role | A damage-dealing character focused on sustained damage and multi-stage projectile attacks. |
 
 ### Voice Actors
 

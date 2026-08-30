@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 匹诺康尼 |
-| Introduction | 出生于匹诺康尼，闻名银河的天环族歌者，举止从容优雅的少女。 此次受家族宴请回到故乡，在「谐乐大典」为众宾献歌一曲。 可以依靠「同谐」的力量传递歌声，在歌迷乃至万界生灵之中展现「共鸣」。 |
-| Role | 通过【协奏】提高我方输出的辅助型角色 |
+| Introduction | Born in Penacony, a renowned Celestial Ring tribe singer known throughout the galaxy, a graceful and composed young lady. This time, she has returned to her hometown at her family's invitation to perform a song at the 【Harmonic Grand Ceremony】 for the guests. She can use the power of 【Harmonic Resonance】 to transmit her song, showcasing 【Resonance】 among her fans and beings across the multiverse. |
+| Role | An auxiliary character that enhances our side's output through 【Cadenza】. |
 
 ### Voice Actors
 

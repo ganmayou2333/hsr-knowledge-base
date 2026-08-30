@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 贝洛伯格的雪原探险家，朗道家的小妹妹。性格淡定，行动力极强。常常孤身前往雪原探险。 |
-| Role | 能够提高我方生命上限、持续治疗以及解除负面效果的治疗角色 |
+| Introduction | Belobog's snowfield explorer, the youngest sister of the Langdao family. Calm personality, highly action-oriented. Often ventures alone into the snowfield expeditions. |
+| Role | A healing role that can increase our side's maximum HP, provide continuous healing, and remove negative status effects. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 星际和平公司 |
-| Introduction | 星际和平公司「战略投资部」的高层成员。 风险爱好者，常面带笑容，真心却难以揣测。 |
-| Role | 为我方全体提供可叠加护盾量的特殊护盾 |
+| Introduction | A senior member of the Interstellar Peace Company's Strategic Investment Department. A risk enthusiast who often smiles, but his true intentions are hard to decipher. |
+| Role | Provides a special shield that can stack shield amounts for the entire party. |
 
 ### Voice Actors
 

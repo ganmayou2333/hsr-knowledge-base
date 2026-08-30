@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 星穹列车的修复者。 为了见证广阔的星空，选择与星穹列车同行。 爱好是制作手调咖啡。 |
-| Role | 通过击破敌方弱点累积充能释发动追击的输出型角色 |
+| Introduction | Astral Express's repairer. To witness the vast stars, chose to travel with the Astral Express. Hobby is making handcrafted coffee. |
+| Role | Output-type role that accumulates energy by breaking enemy weaknesses to trigger a follow-up attack. |
 
 ### Voice Actors
 

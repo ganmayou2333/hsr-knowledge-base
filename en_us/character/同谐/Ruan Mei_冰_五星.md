@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | 天才俱乐部会员，生命科学领域专家，与黑塔等人联手研发模拟宇宙。 |
-| Role | 提高击破效率、速度和全属性抗性穿透的辅助型角色 |
+| Introduction | Member of the Genius Club, expert in the field of life sciences, collaborated with Herta and others to develop the simulation universe. |
+| Role | Auxiliary role that enhances critical hit efficiency, speed, and penetration against all attributes. |
 
 ### Voice Actors
 

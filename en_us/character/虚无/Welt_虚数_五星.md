@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 老成持重的列车组前辈。 享受着久违的冒险奇遇，心底埋藏的热血再度燃烧。 偶尔还会将经历的冒险旅程画在本子里。 |
-| Role | 能减缓敌方行动的输出型角色 |
+| Introduction | A seasoned and composed train crew veteran. Enjoying a long-awaited adventure, the fervor buried in their heart is reignited. Occasionally sketching their adventure journeys in a notebook. |
+| Role | An output-type character capable of slowing down enemy actions. |
 
 ### Voice Actors
 

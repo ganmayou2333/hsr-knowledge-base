@@ -16,10 +16,10 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 自那三相神谕垂怜的圣地，信使分作千身，启程远行。 雅努萨波利斯的圣女，缇里西庇俄丝，窃夺「门径」火种的黄金裔，为众生奔走，令救世的讯息晓喻大地 ——找寻那流淌黄金神血的人子，冲破世间至暗，去往星月满天的明日。 |
+| Introduction | From the sacred site where the triune divine decree bestowed grace, messengers divided into myriad forms, embarking on distant journeys. The Holy Maiden of Yanhusaplis, Thirysipios, the golden-blooded descendant who stole the 【Path】's flame, toils for all beings, spreading the message of salvation across the land — seeking the one who flows with golden divine blood, breaking through the world's deepest darkness, heading toward a tomorrow where stars and moons shine brightly. |
 | 城邦 | 雅努萨波利斯，奥赫玛 |
 | 神权 | 「万径之门，雅努斯」 |
-| Role | 展开结界增益我方的辅助型角色 |
+| Role | A support character who opens barriers to enhance our side. |
 
 ### Voice Actors
 

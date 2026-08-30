@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 星际和平公司 |
-| Introduction | 盛典点亮海岸，风暴于狂欢中酝酿。 接过密令，他再度站到风口浪尖，搅动悠长假日—— 当险浪吞没身影，他又将如何破局？ |
-| Role | 是一名与全队攻击次数联动、可频繁施放欢愉技的输出型角色 |
+| Introduction | The festival illuminates the coast, storms brewing amidst revelry. Accepting the secret mission, he once again stands at the storm's forefront, stirring the long holiday—when perilous waves swallow his form, how will he break the deadlock? |
+| Role | A damage-dealing character whose abilities synergize with the team's attack count, capable of frequently deploying Cheerful Techniques. |
 
 ### Voice Actors
 

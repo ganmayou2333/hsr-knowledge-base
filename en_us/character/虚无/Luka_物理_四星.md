@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 贝洛伯格下层区的冠军拳手，「地火」的得力干将之一。搏击俱乐部的蝉联冠军，以自身的热情激励着下层区有梦想的孩子们。 |
-| Role | 通过持续伤害、引爆裂伤为辅助机制的副C角色 |
+| Introduction | Belobog Lower District's champion boxer, one of Dihuo's key subordinates. The reigning champion of the Combat Club, inspiring the children of the lower district who dare to dream. |
+| Role | A sub-C role that uses sustained damage and explosive laceration as auxiliary mechanisms. |
 
 ### Voice Actors
 

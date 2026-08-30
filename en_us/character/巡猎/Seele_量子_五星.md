@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 地底反抗组织「地火」的骨干，别号「蝴蝶」。性格率真直爽，内心隐藏着细腻敏锐的一面。 |
-| Role | 通过击杀目标触发【再现】，多次行动的量子属性角色 |
+| Introduction | A core member of the underground resistance organization 「Geiho」, nicknamed 「Butterfly」. Straightforward and honest in nature, with a subtle and sharp side hidden within. |
+| Role | A quantum attribute character that triggers 【Reappearance】 by defeating targets, capable of multiple actions. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| Role | 能够使我方对弱点击破状态下的敌人额外造成多次超击破伤害的辅助型角色。终结技期间，我方削减的韧性值越高，超击破伤害越高。当敌方弱点被击破时，开拓者（同谐•虚数）立即恢复一定能量。 |
+| Introduction | The {F#Girl}{M#Boy} who boarded the Astral Express. To eliminate the crisis caused by the Stellaron, they chose to travel with the Astral Express. |
+| Role | A support character that enables allies to deal additional instances of Super Break DMG to enemies in the Weakness Broken state. During the Ultimate, the higher the Toughness Reduction dealt by allies, the higher the Super Break DMG. When an enemy's Weakness is Broken, the Trailblazer (Harmony • Imaginary) immediately recovers a certain amount of Energy. |
 
 ### Voice Actors
 

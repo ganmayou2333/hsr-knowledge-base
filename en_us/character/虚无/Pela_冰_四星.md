@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | 银鬃铁卫的情报官。性格认真，深受铁卫成员们敬畏。 |
-| Role | 具有一定输出能力，能够解除敌方单体增益、降低敌方全体防御力的辅助型角色。 |
+| Introduction | Intelligence officer of the Silver Wolf. Serious-minded, deeply respected by the members of the Silver Wolf. |
+| Role | A support-type character with moderate damage output capable of removing single-target enemy buffs and reducing the defense of all enemies. |
 
 ### Voice Actors
 

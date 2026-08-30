@@ -16,10 +16,10 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 失落的盗寇之都多洛斯，三百侠盗纵情游戏，横行无忌。 捷足的贼星赛法利娅，戏弄「诡计」火种的黄金裔，奔走吧。愿你的谎言随风同行，吹遍此世大地—— 「呵，还想诓我？没门！」 |
+| Introduction | The Lost City of Thieves, Dolos, where three hundred thieves revel in their games, running rampant without restraint. The swift thief star, Sefalia, the golden-blooded who mocks the 'Deception' fireseed. Go forth. May your lies travel with the wind, sweeping across this world's lands— 'Hmph, still trying to deceive me? Not a chance!' |
 | 城邦 | 多洛斯，奥赫玛…？ |
 | 神权 | 「翻飞之币，扎格列斯」 |
-| Role | 使敌方受到伤害提高的辅助型角色 |
+| Role | An auxiliary-type role that increases the damage dealt to enemies. |
 
 ### Voice Actors
 

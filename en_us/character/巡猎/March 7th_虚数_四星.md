@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 换上仙舟服饰的三月七，执剑的武侠少女。向云璃与彦卿拜师学艺，为在仙舟留下更多美好的「回忆」而跃跃欲试。 |
-| Role | 通过向队友拜师获得强化的输出型角色 |
+| Introduction | March 7th dressed in Xianzhou attire, a sword-wielding wuxia maiden. Studying under Yunli and Yanqing, eager to leave more beautiful 'memories' in Xianzhou. |
+| Role | An output-type character whose power is enhanced by learning from teammates. |
 
 ### Voice Actors
 

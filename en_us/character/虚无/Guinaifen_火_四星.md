@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 客居仙舟「罗浮」的行为艺术家——或者说，街头艺人。在三餐温饱之余，追逐着自己在罗浮的新生活。 |
-| Role | 可使敌方陷入灼烧，提高群体易伤的辅助角色 |
+| Introduction | A guest residing in Xianzhou's "Luofu," a performance artist—or rather, a street performer. After securing basic meals and sustenance, they pursue their new life in Luofu. |
+| Role | A supportive role that can cause enemies to burn and increase group vulnerability. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 登上星穹列车的{F#少女}{M#少年}。 为了消除星核带来的危机，选择与星穹列车同行。 |
-| Role | 召唤忆灵「迷迷」并提供真实伤害的辅助型角色 |
+| Introduction | The {F#Girl}{M#Boy} who boarded the Astral Express. To eliminate the crisis caused by the stellaron, they chose to accompany the Astral Express. |
+| Role | Support role that summons the memory spirit 'Mimi' and deals true damage. |
 
 ### Voice Actors
 

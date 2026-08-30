@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟「罗浮」天舶司的首领，久历战阵的飞行士与射手。而今却陷于繁冗公务，难以抽身。 |
-| Role | 能够提高我方全体攻击力、暴击率、暴击伤害的辅助角色 |
+| Introduction | Leader of the Celestial Vessel Bureau in Xianzhou's Luofu, a seasoned flyer and marksman. Now trapped in endless bureaucratic duties, unable to escape. |
+| Role | An auxiliary role that enhances the attack power, critical rate, and critical damage of all allies. |
 
 ### Voice Actors
 

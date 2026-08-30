@@ -16,10 +16,10 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 那沉入迷雾的悬锋，纷乱与战争之城！它的王室流着弑亲的血脉，它的神明以灾厄为名。 不死的迈德漠斯，离群的狮子，逐猎「纷争」火种的黄金裔。忍受万死，浴血还乡，孤身背负疯狂的宿命 ——弑王成王，弑神登神。征战的铁蹄踏遍荒野，终归要沾上故乡的血。 |
+| Introduction | The suspended blade sunk into mist, the city of chaos and war! Its royal family flows with the blood of patricide, its god is named Disaster. The immortal Mydei, the lone lion, the golden-blooded lineage pursuing the 'Strife' spark. Enduring ten thousand deaths, returning home with bloodstained armor, bearing the maddest fate alone — slaying the king to become king, slaying the god to ascend as a god. |
 | 城邦 | 悬锋城 |
 | 神权 | 「天谴之矛，尼卡多利」 |
-| Role | 消耗生命获得强化的输出型角色 |
+| Role | An output-type character that gains enhancement by consuming life. |
 
 ### Voice Actors
 

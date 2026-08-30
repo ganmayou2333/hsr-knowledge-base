@@ -16,10 +16,10 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 吉奥里亚的胸膛，伏龙的身躯支撑破碎的大地，忍耐千年苦痛。 无名客丹恒，捍卫「大地」火种的黄金裔，扶八荒之将倾，将地上生灵送往远方的天地 ——百川归海，群山合鸣，不朽的道途将绵延万里。 |
+| Introduction | Gioria's chest, the body of a dragon supports the shattered earth, enduring a millennium of suffering. The nameless guest Dan Heng, the golden-blooded descendant who guards the 'Earth' flame, upholds the impending collapse of the Eight Directions, guiding earthly beings to distant realms — All rivers flow to the sea, all mountains echo in harmony; the path of eternal existence will stretch for ten thousand miles. |
 | 城邦 | 天外 |
 | 神权 | 「磐岩之脊，吉奥里亚」 |
-| Role | 能为我方单体召唤【龙灵】的防御型角色 |
+| Role | A defensive character capable of summoning the [Dragon Spirit] for a single ally of our side. |
 
 ### Voice Actors
 

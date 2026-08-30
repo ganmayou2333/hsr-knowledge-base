@@ -16,10 +16,10 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 云间城邦随岁月离析，昏光庭院再度敞开门扉，为永夜捎来微光。 医师雅辛忒丝，守望「天空」火种的黄金裔。继承先祖的意志，缝补破裂的晨昏 ——愿虹光洒落，仇怨消融，黎明重回大地。 |
+| Introduction | As the Cloudspire City-State fractures with the passage of time, the Dusky Glow Courtyard reopens its doors, bringing a glimmer to the eternal night. Doctor Yashintes, the Golden-blooded guardian of the 'Sky' ember. Carrying on the legacy of their ancestors, mending the fractured dawn and dusk — May the rainbow light descend, dissolving hatred, and restoring dawn to the earth. |
 | 城邦 | 昏光庭院，奥赫玛 |
 | 神权 | 「晨昏之眼，艾格勒」…？ |
-| Role | 召唤忆灵「小伊卡」提高全体生命上限的回复型角色 |
+| Role | A healing-type role that summons the memory spirit "Little Ika" to increase the maximum HP of all allies. |
 
 ### Voice Actors
 

@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | 曾经的罗浮剑首，云骑军不败盛名的缔造者。 而今其名字已被抹去，成为行走于魔阴身边缘的仙舟叛徒。 |
-| Role | 通过进入特殊状态增强自身攻击的输出型角色 |
+| Introduction | Once the swordmaster of Luofu, the creator of the Cloud Cavalry's undefeated reputation. Now his name has been erased, becoming a heretic of Xianzhou who walks on the edge of the Demon King's shadow. |
+| Role | A damage-dealing character who enhances their own attack through entering a special state. |
 
 ### Voice Actors
 

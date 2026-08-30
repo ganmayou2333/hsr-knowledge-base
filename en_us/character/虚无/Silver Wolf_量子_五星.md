@@ -16,8 +16,8 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | 「星核猎手」的成员，骇客高手。 将宇宙视作大型沉浸式模拟游戏，玩乐其中。 掌握了能够修改现实数据的「以太编辑」。 |
-| Role | 通过添加弱点削减抗性削弱敌方的角色 |
+| Introduction | Member of the 'Stellaron Hunters,' a hacker expert. Views the universe as a large-scale immersive simulation game, playing within it. Masters the 'Ether Editing' technique capable of modifying reality data. |
+| Role | A role that weakens enemy characters by adding weaknesses to reduce their resistance. |
 
 ### Voice Actors
 

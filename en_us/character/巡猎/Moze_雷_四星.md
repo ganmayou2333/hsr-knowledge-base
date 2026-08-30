@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 仙舟「曜青」 |
-| Introduction | 仙舟「曜青」的影卫，沉默寡言、独来独往。专司情报与不见光的事务，鲜少在人前露面。貊泽显露锋芒时，便是敌人的死期。刺杀手段丰富，对整洁和条理有超乎寻常的执着。 |
-| Role | 以标记敌人为【猎物】造成附加伤害的输出型角色 |
+| Introduction | Shadow Sentinel of Xianzhou's "Yaoqing," silent and reclusive, specializing in intelligence and shadowy affairs. Rarely seen in public, Moze's prowess marks the enemy's demise. Mastery in diverse assassination techniques, with obsessive dedication to tidiness and order. |
+| Role | Output role that marks enemies as [Prey] to deal additional damage. |
 
 ### Voice Actors
 

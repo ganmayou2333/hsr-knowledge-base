@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 博识学会 |
-| Introduction | 博识学会学者。 性情古怪、言辞刻薄却又风度翩翩。 奇异石膏头雕下的面容似乎出人意料的俊美。 |
-| Role | 可在自身或队友攻击时触发追加攻击的输出型角色。 |
+| Introduction | Scholar of the Erudite Society. Eccentric, sharp-tongued yet charming. The face hidden beneath the peculiar plaster head sculpture seems surprisingly handsome. |
+| Role | An output-type character that can trigger additional attacks when attacking alone or with teammates. |
 
 ### Voice Actors
 

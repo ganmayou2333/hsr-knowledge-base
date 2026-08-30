@@ -16,8 +16,8 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 自称「本小姐」的天真少女。对自己的过去一无所知，被开拓者从冰封中唤醒后便加入了星穹列车。 |
-| Role | 能够提供单体护盾，解除负面效果的防御型角色 |
+| Introduction | An innocent girl who calls herself "Miss". She has no memory of her past and joined the Astral Express after being awakened from an ice-bound state by the Trailblazer. |
+| Role | A defensive character that can provide single-target shields and remove negative status effects. |
 
 ### Voice Actors
 

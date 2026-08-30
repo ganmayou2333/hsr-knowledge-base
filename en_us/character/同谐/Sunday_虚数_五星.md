@@ -16,8 +16,8 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 银河 |
-| Introduction | 「秩序」的美梦已然消散，但仍有人不会放下初愿。 ——折翼坠地的旅人，他的脚步将迈向何方？ |
-| Role | 使我方角色及其召唤物立即行动的辅助型角色 |
+| Introduction | The beauty of 【Order】 has already faded, but there are still those who will not abandon their original vow. ——The traveler who has fallen from the sky, where will his steps lead? |
+| Role | A supporting role that allows our side's characters and their summoned creatures to act immediately. |
 
 ### Voice Actors
 

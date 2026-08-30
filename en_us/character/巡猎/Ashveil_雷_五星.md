@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠 |
-| Introduction | 随缘营业，硬核推理，全凭直觉却屡破奇案。 猴子当助手，一心盼退休，侦探睡在冰箱，只为等愿者上钩。 幻月下，恶兽长嗥，他的追猎游戏会如何收网？ |
-| Role | 是一名能标记敌方单体为【饲饵】并进行高频追加攻击的输出型角色 |
+| Introduction | Going with the flow, running the show, relying entirely on instinct yet solving countless mysteries. Monkey serving as an assistant, desperately hoping to retire, the detective rests in the fridge, waiting for the willing to come hooking. Under the moon's illusion, the beast howls—how will his hunting game conclude? |
+| Role | A damage-dealing role capable of marking a single enemy as [Bait] and performing high-frequency follow-up attacks. |
 
 ### Voice Actors
 

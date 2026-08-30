@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | 登上星穹列车的少女/少年。为了消除星核带来的危机，选择与星穹列车同行。 |
-| Role | 通过终结技强化普攻和战技形态具备生命值回复的能力 |
+| Introduction | A young girl or boy who has boarded the Astral Express. To eliminate the crisis caused by the star core, they chose to travel with the Astral Express. |
+| Role | Enhances normal attacks and skill attacks through the ultimate skill, granting life recovery capability. |
 
 ### Voice Actors
 

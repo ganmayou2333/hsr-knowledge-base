@@ -16,10 +16,10 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 在那黎明照拂的圣城，织者抚弄金丝，连缀命运。 背负「浪漫」火种的黄金裔，召集世间英雄，带领他们再度踏上漫长的征程 ——击落众神，归还神火，予以几近覆灭的翁法罗斯新生。 |
+| Introduction | In the sacred city bathed in dawn's light, the weaver manipulates golden threads, weaving fate. The golden-blooded bearer of the "Romance" flame assembles the world's heroes, leading them once more on a long journey—to fell the gods, reclaim the divine flame, and grant new life to the nearly extinguished Amphoreus. |
 | 城邦 | 奥赫玛 |
 | 神权 | 「黄金之茧，墨涅塔」 |
-| Role | 召唤忆灵「衣匠」协助战斗的输出型角色 |
+| Role | A damage-dealing character who summons the memory spirit "Tailor" to assist in battle. |
 
 ### Voice Actors
 

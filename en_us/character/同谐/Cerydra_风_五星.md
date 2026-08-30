@@ -16,10 +16,10 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | 北境帝国，失落的王朝，寒冷的疆土燃烧着征伐的野心。 君主刻律德菈，执握「律法」火种的黄金裔，布局设子，与神相弈，审判异心的罪囚，为此世奠定逐火的基业 ——「这绝非终点，翁法罗斯的征途，当是银河群星！」 |
+| Introduction | The Northern Empire, a lost dynasty, its frozen lands burning with the ambition of conquest. Monarch Cerydra, the golden-blooded wielder of the 'Law' flame, setting up pieces, playing chess with the gods, judging the traitorous prisoners, laying the foundation for this world's fire-forged legacy —— "This is no end, the journey of Amphoreus shall be the Milky Way's stars!" |
 | 城邦 | 奥赫玛 |
 | 神权 | 「公正之秤，塔兰顿」 |
-| Role | 可以使队友连续施放两次战技的辅助型角色 |
+| Role | An auxiliary-type character that allows teammates to continuously release two combat techniques in succession. |
 
 ### Voice Actors
 

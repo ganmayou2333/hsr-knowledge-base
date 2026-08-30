@@ -16,8 +16,8 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 纯美骑士团 |
-| Introduction | 「纯美骑士团」的古典骑士，虔诚地仰慕着已失踪的「纯美」星神伊德莉拉。 为人正直、光明磊落，于宇宙中漫游，宣扬伊德莉拉的美名。 |
-| Role | 施放更强力终结技的对群输出型角色 |
+| Introduction | A classical knight of the "Pure Beauty Knights," devoutly venerating the missing star deity "Idelira, the Star God of Pure Beauty." Upright and principled, wandering through the cosmos to proclaim the glory of Idelira. |
+| Role | A group-targeting damage dealer specializing in powerful finishing skills. |
 
 ### Voice Actors
 

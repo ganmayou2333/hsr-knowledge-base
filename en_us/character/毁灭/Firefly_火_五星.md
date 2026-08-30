@@ -16,8 +16,8 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | 星核猎手成员，身着机械装甲「萨姆」战斗。忠于任务，性格坚强。 作为战胜虫群的兵器而诞生，其生长速度异于常人，但生命非常短暂。 为了找寻「生」的机会而加入星核猎手，找寻违抗命运的方式。 |
-| Role | 通过终结技进入状态获得技能强化的输出型角色 |
+| Introduction | Stellaron Hunters member, wearing mechanical armor "Sam" for combat. Loyal to the mission, strong-willed personality. Born as a weapon to defeat the swarm, growing at an unnatural rate but with a very short lifespan. Joined the Stellaron Hunters to seek "Invigoration" and defy fate. |
+| Role | Damage-dealing role that gains skill boosts through a Finishing Move-induced status. |
 
 ### Voice Actors
 

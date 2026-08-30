@@ -16,8 +16,8 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | 仙舟罗浮的十王司见习判官，被岁阳附身的狐人小女孩。 性格怯懦，弱小可怜，害怕种种怪异之事却肩负起勾摄邪魔的职责。 |
-| Role | 为群体恢复能量、提高攻击力，回复生命值的回复型角色 |
+| Introduction | An apprentice judge of the Ten Kings' Bureau in Xianzhou Luofu, a fox-human girl possessed by Suiyang. Timid and weak, she fears strange phenomena but bears the duty of capturing demons. |
+| Role | A healing-type role that restores energy for the team, increases attack power, and recovers health points. |
 
 ### Voice Actors
 

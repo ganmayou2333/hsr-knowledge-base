@@ -16,8 +16,8 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 异界 |
-| Introduction | 在宇宙之外的某个世界中，人类历史最初的英雄王。 三分之二是神、三分之一是人的他，理所当然地拥有支配一切的特权（自称）。 |
-| Role | 是一名由自身【兴致】驱动、通过终结技爆发的输出型角色 |
+| Introduction | The first hero king of human history. Two-thirds god and one-third human, he naturally possesses the privilege of ruling everything (self-proclaimed). |
+| Role | An output-type character driven by his own [interest], unleashing a burst through a finishing move. |
 
 ### Voice Actors
 
