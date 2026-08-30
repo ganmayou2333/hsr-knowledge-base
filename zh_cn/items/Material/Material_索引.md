@@ -24,7 +24,7 @@
 - [[zh_cn/items/Material/HipplenOutfit/HipplenOutfit_索引|HipplenOutfit（希莉儿服装）]]（17）
 - [[zh_cn/items/Material/IdleLiveItem/IdleLiveItem_索引|IdleLiveItem（直播物品）]]（4）
 - [[zh_cn/items/Material/MatchThreeV2/MatchThreeV2_索引|MatchThreeV2（三消V2物品）]]（1）
-- [[zh_cn/items/Material/Material/Material_索引|Material（普通材料）]]（65）
+- [[zh_cn/items/Material/Material_索引|Material（普通材料）]]（65）
 - [[zh_cn/items/Material/MuseumExhibit/MuseumExhibit_索引|MuseumExhibit（博物馆展品）]]（21）
 - [[zh_cn/items/Material/MuseumStuff/MuseumStuff_索引|MuseumStuff（博物馆藏品）]]（33）
 - [[zh_cn/items/Material/PixAirMaterial/PixAirMaterial_索引|PixAirMaterial（PixAir材料）]]（1）

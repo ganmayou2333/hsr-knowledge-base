@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/冷藏梦箱\|冷藏梦箱]] | 50 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蓄梦元件\|蓄梦元件]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/流梦阀门\|流梦阀门]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/造梦马达\|造梦马达]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/冷藏梦箱\|冷藏梦箱]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/步离犬牙\|步离犬牙]] | 8 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/狼毒锯牙\|狼毒锯牙]] | 42 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/月狂獠牙\|月狂獠牙]] | 77 |
-| [[zh_cn/items/行迹材料/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蓄梦元件\|蓄梦元件]] | 22 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/流梦阀门\|流梦阀门]] | 35 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/造梦马达\|造梦马达]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/步离犬牙\|步离犬牙]] | 8 |
+| [[zh_cn/items/Material/TracePath/狼毒锯牙\|狼毒锯牙]] | 42 |
+| [[zh_cn/items/Material/TracePath/月狂獠牙\|月狂獠牙]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 20 |
 
 ---
 ## 战技

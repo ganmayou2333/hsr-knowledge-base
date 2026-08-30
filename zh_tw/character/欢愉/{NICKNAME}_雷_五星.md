@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/深邃的星外质\|深邃的星外质]] | 28 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/深邃的星外质\|深邃的星外质]] | 28 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,392,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹素材/《绒绒号》手绘分镜稿\|《绒绒号》手绘分镜稿]] | 7 |
-| [[zh_cn/items/行迹素材/《绒绒号》连载纪念刊\|《绒绒号》连载纪念刊]] | 31 |
-| [[zh_cn/items/行迹素材/《绒绒号》典藏版合集\|《绒绒号》典藏版合集]] | 61 |
-| [[zh_cn/items/行迹材料/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 17 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 29 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 16 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,392,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿\|《绒绒号》手绘分镜稿]] | 7 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊\|《绒绒号》连载纪念刊]] | 31 |
+| [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集\|《绒绒号》典藏版合集]] | 61 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 17 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 29 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 16 |
 
 ---
 ## 战技

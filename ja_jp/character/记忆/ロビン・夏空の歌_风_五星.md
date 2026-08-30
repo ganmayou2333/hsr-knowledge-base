@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/暮晖烬蕾\|暮晖烬蕾]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蓄梦元件\|蓄梦元件]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/流梦阀门\|流梦阀门]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/造梦马达\|造梦马达]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暮晖烬蕾\|暮晖烬蕾]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,818,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/思量的种\|思量的种]] | 8 |
-| [[zh_cn/items/行迹素材/末那芽苗\|末那芽苗]] | 42 |
-| [[zh_cn/items/行迹素材/阿赖耶华\|阿赖耶华]] | 86 |
-| [[zh_cn/items/行迹材料/伪觉者的期许\|伪觉者的期许]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蓄梦元件\|蓄梦元件]] | 25 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/流梦阀门\|流梦阀门]] | 38 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/造梦马达\|造梦马达]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,818,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 8 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 42 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 86 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/伪觉者的期许\|伪觉者的期许]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 25 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 22 |
 
 ---
 ## 战技

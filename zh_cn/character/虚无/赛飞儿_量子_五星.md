@@ -49,11 +49,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/暗帷月华\|暗帷月华]] | 65 |
-| [[zh_cn/items/怪物掉落/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/怪物掉落/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/怪物掉落/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/暗帷月华\|暗帷月华]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
 
 ---
 ## 技能材料
@@ -62,15 +62,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/炽情之灵\|炽情之灵]] | 12 |
-| [[zh_cn/items/行迹素材/星火之精\|星火之精]] | 53 |
-| [[zh_cn/items/行迹素材/焚天之魔\|焚天之魔]] | 101 |
-| [[zh_cn/items/行迹材料/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/怪物掉落/预兆似有若无\|预兆似有若无]] | 33 |
-| [[zh_cn/items/怪物掉落/悲鸣由远及近\|悲鸣由远及近]] | 46 |
-| [[zh_cn/items/怪物掉落/哀叹漫无止息\|哀叹漫无止息]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/炽情之灵\|炽情之灵]] | 12 |
+| [[zh_cn/items/Material/TracePath/星火之精\|星火之精]] | 53 |
+| [[zh_cn/items/Material/TracePath/焚天之魔\|焚天之魔]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 28 |
 
 ---
 ## 战技

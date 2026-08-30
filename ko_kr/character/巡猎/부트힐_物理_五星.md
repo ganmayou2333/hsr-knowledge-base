@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/星际和平工作证\|星际和平工作证]] | 65 |
-| [[zh_cn/items/怪物掉落/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/怪物掉落/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/怪物掉落/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/星际和平工作证\|星际和平工作证]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/陨铁弹丸\|陨铁弹丸]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/命定死因\|命定死因]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/逆时一击\|逆时一击]] | 101 |
-| [[zh_cn/items/行迹材料/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/怪物掉落/思绪末屑\|思绪末屑]] | 33 |
-| [[zh_cn/items/怪物掉落/印象残晶\|印象残晶]] | 46 |
-| [[zh_cn/items/怪物掉落/欲念碎镜\|欲念碎镜]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 12 |
+| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 53 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 28 |
 
 ---
 ## 战技

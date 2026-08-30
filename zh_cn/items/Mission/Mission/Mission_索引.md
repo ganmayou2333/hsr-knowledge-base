@@ -372,7 +372,7 @@
 - [[zh_cn/items/Mission/Mission/泯灭帮收到的邀请函|泯灭帮收到的邀请函]]（ID: 140441）
 - [[zh_cn/items/Mission/Mission/流云渡的资格徽章|流云渡的资格徽章]]（ID: 250402）
 - [[zh_cn/items/Mission/Mission/流云集|流云集]]（ID: 140230）
-- [[zh_cn/items/Mission/Mission/流星碎片|流星碎片]]（ID: 140211）
+- [[zh_cn/items/Material/MuseumExhibit/流星碎片|流星碎片]]（ID: 140211）
 - [[zh_cn/items/Mission/Mission/浮脂记事|浮脂记事]]（ID: 150094）
 - [[zh_cn/items/Mission/Mission/海瑟音的陶杯|海瑟音的陶杯]]（ID: 140590）
 - [[zh_cn/items/Mission/Mission/海瑟音的陶杯_140594|海瑟音的陶杯]]（ID: 140594）

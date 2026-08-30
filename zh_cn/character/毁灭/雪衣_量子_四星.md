@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/苍猿之钉\|苍猿之钉]] | 50 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/熄灭原核\|熄灭原核]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/微光原核\|微光原核]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蠢动原核\|蠢动原核]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/苍猿之钉\|苍猿之钉]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/破碎残刃\|破碎残刃]] | 8 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/无生残刃\|无生残刃]] | 42 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/净世残刃\|净世残刃]] | 77 |
-| [[zh_cn/items/行迹材料/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/熄灭原核\|熄灭原核]] | 22 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/微光原核\|微光原核]] | 35 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蠢动原核\|蠢动原核]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/破碎残刃\|破碎残刃]] | 8 |
+| [[zh_cn/items/Material/TracePath/无生残刃\|无生残刃]] | 42 |
+| [[zh_cn/items/Material/TracePath/净世残刃\|净世残刃]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 20 |
 
 ---
 ## 战技

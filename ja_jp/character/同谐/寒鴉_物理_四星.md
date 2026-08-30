@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/幽府通令\|幽府通令]] | 50 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/幽府通令\|幽府通令]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/谐乐小调\|谐乐小调]] | 8 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/家族颂歌\|家族颂歌]] | 42 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/群星乐章\|群星乐章]] | 77 |
-| [[zh_cn/items/行迹材料/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 22 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 35 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 8 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 42 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 20 |
 
 ---
 ## 战技

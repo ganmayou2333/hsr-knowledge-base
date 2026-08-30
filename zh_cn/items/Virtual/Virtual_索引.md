@@ -9,5 +9,5 @@
 
 ## sub_type 索引
 
-- [[zh_cn/items/Virtual/Virtual/Virtual_索引|Virtual（虚拟物品）]]（45）
+- [[zh_cn/items/Virtual/Virtual_索引|Virtual（虚拟物品）]]（45）
 

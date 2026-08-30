@@ -23,7 +23,7 @@
 - [[zh_cn/items/Usable/Food/《绒绒号》多功能应援棒|《绒绒号》多功能应援棒]]（ID: 408804）
 - [[zh_cn/items/Usable/Food/一次性动力炮|一次性动力炮]]（ID: 403003）
 - [[zh_cn/items/Usable/Food/一次性动力臂|一次性动力臂]]（ID: 403001）
-- [[zh_cn/items/Usable/Food/万寿无情丹|万寿无情丹]]（ID: 403006）
+- [[zh_cn/items/Mission/Mission/万寿无情丹|万寿无情丹]]（ID: 403006）
 - [[zh_cn/items/Usable/Food/君王的执棋|君王的执棋]]（ID: 403014）
 - [[zh_cn/items/Usable/Food/唤鱼骨笛|唤鱼骨笛]]（ID: 403015）
 - [[zh_cn/items/Usable/Food/天帷包裹|天帷包裹]]（ID: 403013）
@@ -36,7 +36,7 @@
 - [[zh_cn/items/Usable/Food/热烈的气氛|热烈的气氛]]（ID: 403010）
 - [[zh_cn/items/Usable/Food/琥珀王跳墙|琥珀王跳墙]]（ID: 403017）
 - [[zh_cn/items/Usable/Food/糖球炒视肉|糖球炒视肉]]（ID: 403007）
-- [[zh_cn/items/Usable/Food/美梦脆筒（三种口味）|美梦脆筒（三种口味）]]（ID: 408801）
+- [[zh_cn/items/Mission/Mission/美梦脆筒（三种口味）|美梦脆筒（三种口味）]]（ID: 408801）
 - [[zh_cn/items/Usable/Food/自动木人桩|自动木人桩]]（ID: 403008）
 - [[zh_cn/items/Usable/Food/要你命三千|要你命三千]]（ID: 403012）
 - [[zh_cn/items/Usable/Food/钢卷|钢卷]]（ID: 403016）
@@ -63,7 +63,7 @@
 - [[zh_cn/items/Usable/Food/卡利白|卡利白]]（ID: 408005）
 - [[zh_cn/items/Usable/Food/反物质力场生成器|反物质力场生成器]]（ID: 402004）
 - [[zh_cn/items/Usable/Food/吉姆•罗杰面包味汽水|吉姆•罗杰面包味汽水]]（ID: 408004）
-- [[zh_cn/items/Usable/Food/噼咔白葡萄汽水|噼咔白葡萄汽水]]（ID: 408613）
+- [[zh_cn/items/Mission/Mission/噼咔白葡萄汽水|噼咔白葡萄汽水]]（ID: 408613）
 - [[zh_cn/items/Usable/Food/垃圾桶的尊严|垃圾桶的尊严]]（ID: 408003）
 - [[zh_cn/items/Usable/Food/大地兽肉排|大地兽肉排]]（ID: 402032）
 - [[zh_cn/items/Usable/Food/太阳薄饼|太阳薄饼]]（ID: 408606）
@@ -97,7 +97,7 @@
 - [[zh_cn/items/Usable/Food/敌人的丑闻|敌人的丑闻]]（ID: 408633）
 - [[zh_cn/items/Usable/Food/断弦咆哮|断弦咆哮]]（ID: 408626）
 - [[zh_cn/items/Usable/Food/无声自满|无声自满]]（ID: 408627）
-- [[zh_cn/items/Usable/Food/橡木蛋糕卷|橡木蛋糕卷]]（ID: 408612）
+- [[zh_cn/items/Mission/Mission/橡木蛋糕卷|橡木蛋糕卷]]（ID: 408612）
 - [[zh_cn/items/Usable/Food/泳装号|泳装号]]（ID: 408644）
 - [[zh_cn/items/Usable/Food/海妖之触|海妖之触]]（ID: 408643）
 - [[zh_cn/items/Usable/Food/烈焰椒椒酱|烈焰椒椒酱]]（ID: 402031）
@@ -118,18 +118,18 @@
 - [[zh_cn/items/Usable/Food/花火脊髓剑|花火脊髓剑]]（ID: 402030）
 - [[zh_cn/items/Usable/Food/苜蓿色拉|苜蓿色拉]]（ID: 402025）
 - [[zh_cn/items/Usable/Food/蕉错就错|蕉错就错]]（ID: 408635）
-- [[zh_cn/items/Usable/Food/薯条圣代|薯条圣代]]（ID: 408611）
+- [[zh_cn/items/Mission/Mission/薯条圣代|薯条圣代]]（ID: 408611）
 - [[zh_cn/items/Usable/Food/记仇小本|记仇小本]]（ID: 402036）
 - [[zh_cn/items/Usable/Food/豆汁儿寿喜烧|豆汁儿寿喜烧]]（ID: 402038）
-- [[zh_cn/items/Usable/Food/贝洛伯格红肠|贝洛伯格红肠]]（ID: 408601）
+- [[zh_cn/items/Usable/Book/贝洛伯格红肠|贝洛伯格红肠]]（ID: 408601）
 - [[zh_cn/items/Usable/Food/选择背叛的刹那|选择背叛的刹那]]（ID: 402026）
 - [[zh_cn/items/Usable/Food/金钢镚骑士团|金钢镚骑士团]]（ID: 408629）
 - [[zh_cn/items/Usable/Food/金钢镚骑士团_408630|金钢镚骑士团]]（ID: 408630）
 - [[zh_cn/items/Usable/Food/金黄睡蕉|金黄睡蕉]]（ID: 408634）
-- [[zh_cn/items/Usable/Food/钟表披萨（整张）|钟表披萨（整张）]]（ID: 408610）
+- [[zh_cn/items/Mission/Mission/钟表披萨（整张）|钟表披萨（整张）]]（ID: 408610）
 - [[zh_cn/items/Usable/Food/铁窗牌药王口服液|铁窗牌药王口服液]]（ID: 408632）
-- [[zh_cn/items/Usable/Food/雪原大乱炖|雪原大乱炖]]（ID: 402018）
-- [[zh_cn/items/Usable/Food/飞碟堡|飞碟堡]]（ID: 408609）
+- [[zh_cn/items/Mission/Mission/雪原大乱炖|雪原大乱炖]]（ID: 402018）
+- [[zh_cn/items/Mission/Mission/飞碟堡|飞碟堡]]（ID: 408609）
 - [[zh_cn/items/Usable/Food/飞驰喷射冲浪板|飞驰喷射冲浪板]]（ID: 408645）
 
 ### ★★
@@ -143,10 +143,10 @@
 - [[zh_cn/items/Usable/Food/「酸梦」牌软糖|「酸梦」牌软糖]]（ID: 401026）
 - [[zh_cn/items/Usable/Food/「鲱鱼先生」柠檬挞|「鲱鱼先生」柠檬挞]]（ID: 401023）
 - [[zh_cn/items/Usable/Food/不求人|不求人]]（ID: 401016）
-- [[zh_cn/items/Usable/Food/信任的证明|信任的证明]]（ID: 408426）
+- [[zh_cn/items/Mission/Mission/信任的证明|信任的证明]]（ID: 408426）
 - [[zh_cn/items/Usable/Food/健康炒米|健康炒米]]（ID: 401012）
 - [[zh_cn/items/Usable/Food/全自动绘梦喷罐|全自动绘梦喷罐]]（ID: 408435）
-- [[zh_cn/items/Usable/Food/冷吃夕红鱼|冷吃夕红鱼]]（ID: 408401）
+- [[zh_cn/items/Usable/Book/冷吃夕红鱼|冷吃夕红鱼]]（ID: 408401）
 - [[zh_cn/items/Usable/Food/冷笑话|冷笑话]]（ID: 408447）
 - [[zh_cn/items/Usable/Food/切片蛋糕「仰望星空」|切片蛋糕「仰望星空」]]（ID: 401022）
 - [[zh_cn/items/Usable/Food/别太蕉绿|别太蕉绿]]（ID: 408433）
@@ -199,7 +199,7 @@
 - [[zh_cn/items/Usable/Food/稻花|稻花]]（ID: 401010）
 - [[zh_cn/items/Usable/Food/简易护具|简易护具]]（ID: 401009）
 - [[zh_cn/items/Usable/Food/粗制秘酿|粗制秘酿]]（ID: 401032）
-- [[zh_cn/items/Usable/Food/经典苏乐达|经典苏乐达]]（ID: 401025）
+- [[zh_cn/items/Mission/Mission/经典苏乐达|经典苏乐达]]（ID: 401025）
 - [[zh_cn/items/Usable/Food/缭乱忍法兵粮丸|缭乱忍法兵粮丸]]（ID: 408436）
 - [[zh_cn/items/Usable/Food/罐装快乐水|罐装快乐水]]（ID: 401008）
 - [[zh_cn/items/Usable/Food/美梦糖浆|美梦糖浆]]（ID: 408418）
@@ -214,7 +214,7 @@
 - [[zh_cn/items/Usable/Food/铁窗牌沐浴露|铁窗牌沐浴露]]（ID: 408427）
 - [[zh_cn/items/Usable/Food/阿斯德纳白橡木|阿斯德纳白橡木]]（ID: 408425）
 - [[zh_cn/items/Usable/Food/难吃的炒饭|难吃的炒饭]]（ID: 401004）
-- [[zh_cn/items/Usable/Food/霜纹鲑面包|霜纹鲑面包]]（ID: 408409）
+- [[zh_cn/items/Mission/Mission/霜纹鲑面包|霜纹鲑面包]]（ID: 408409）
 - [[zh_cn/items/Usable/Food/面包「干」|面包「干」]]（ID: 401036）
 - [[zh_cn/items/Usable/Food/食欲如雷鸣炸响|食欲如雷鸣炸响]]（ID: 408416）
 - [[zh_cn/items/Usable/Food/香炸蜜酪|香炸蜜酪]]（ID: 401035）
@@ -229,7 +229,7 @@
 - [[zh_cn/items/Usable/Food/大还丹|大还丹]]（ID: 408206）
 - [[zh_cn/items/Usable/Food/奇巧零食|奇巧零食]]（ID: 400006）
 - [[zh_cn/items/Usable/Food/小还丹|小还丹]]（ID: 408207）
-- [[zh_cn/items/Usable/Food/岩烧山珍串|岩烧山珍串]]（ID: 408204）
+- [[zh_cn/items/Mission/Mission/岩烧山珍串|岩烧山珍串]]（ID: 408204）
 - [[zh_cn/items/Usable/Food/惩戒粮食|惩戒粮食]]（ID: 400005）
 - [[zh_cn/items/Usable/Food/报纸|报纸]]（ID: 408208）
 - [[zh_cn/items/Usable/Food/斗舰福牌|斗舰福牌]]（ID: 408205）
@@ -241,5 +241,5 @@
 - [[zh_cn/items/Usable/Food/良心|良心]]（ID: 408210）
 - [[zh_cn/items/Usable/Food/貘馍卷|貘馍卷]]（ID: 408201）
 - [[zh_cn/items/Usable/Food/飞剑模型|飞剑模型]]（ID: 408209）
-- [[zh_cn/items/Usable/Food/黑面包汽水冰山|黑面包汽水冰山]]（ID: 408203）
+- [[zh_cn/items/Usable/Book/黑面包汽水冰山|黑面包汽水冰山]]（ID: 408203）
 

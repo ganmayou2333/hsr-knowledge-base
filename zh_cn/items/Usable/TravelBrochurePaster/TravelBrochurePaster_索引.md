@@ -20,7 +20,7 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/1_1000星穹列车模型|1:1000星穹列车模型]]（ID: 223109）
 - [[zh_cn/items/Usable/TravelBrochurePaster/3...2...1...开拍|3...2...1...开拍]]（ID: 223504）
 - [[zh_cn/items/Usable/TravelBrochurePaster/W？|W？]]（ID: 223406）
-- [[zh_cn/items/Usable/TravelBrochurePaster/{NICKNAME}|{NICKNAME}]]（ID: 225028）
+- [[zh_cn/items/Material/DiceCombatAvatar/{NICKNAME}|{NICKNAME}]]（ID: 225028）
 - [[zh_cn/items/Usable/TravelBrochurePaster/{NICKNAME}_225029|{NICKNAME}]]（ID: 225029）
 - [[zh_cn/items/Usable/TravelBrochurePaster/「别惹我」火箭筒|「别惹我」火箭筒]]（ID: 223257）
 - [[zh_cn/items/Usable/TravelBrochurePaster/「慈善家」|「慈善家」]]（ID: 223506）
@@ -89,7 +89,7 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/学者|学者]]（ID: 223054）
 - [[zh_cn/items/Usable/TravelBrochurePaster/完美结局•其一|完美结局•其一]]（ID: 225033）
 - [[zh_cn/items/Usable/TravelBrochurePaster/完美结局•其二|完美结局•其二]]（ID: 225034）
-- [[zh_cn/items/Usable/TravelBrochurePaster/家族|家族]]（ID: 223050）
+- [[zh_cn/items/Usable/Book/家族|家族]]（ID: 223050）
 - [[zh_cn/items/Usable/TravelBrochurePaster/家族建设局|家族建设局]]（ID: 223300）
 - [[zh_cn/items/Usable/TravelBrochurePaster/家族需要你！|家族需要你！]]（ID: 223154）
 - [[zh_cn/items/Usable/TravelBrochurePaster/对，都是你的|对，都是你的]]（ID: 223205）
@@ -113,7 +113,7 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/旧友|旧友]]（ID: 223807）
 - [[zh_cn/items/Usable/TravelBrochurePaster/明星|明星]]（ID: 223051）
 - [[zh_cn/items/Usable/TravelBrochurePaster/星光聚集之处|星光聚集之处]]（ID: 224003）
-- [[zh_cn/items/Usable/TravelBrochurePaster/星期日|星期日]]（ID: 223008）
+- [[zh_cn/items/Material/DiceCombatAvatar/星期日|星期日]]（ID: 223008）
 - [[zh_cn/items/Usable/TravelBrochurePaster/星期日_225015|星期日]]（ID: 225015）
 - [[zh_cn/items/Usable/TravelBrochurePaster/暴君|暴君]]（ID: 223053）
 - [[zh_cn/items/Usable/TravelBrochurePaster/最伟大的钟表小子|最伟大的钟表小子]]（ID: 223150）
@@ -139,7 +139,7 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/波提欧|波提欧]]（ID: 223011）
 - [[zh_cn/items/Usable/TravelBrochurePaster/波提欧_225016|波提欧]]（ID: 225016）
 - [[zh_cn/items/Usable/TravelBrochurePaster/洄游的记忆|洄游的记忆]]（ID: 223354）
-- [[zh_cn/items/Usable/TravelBrochurePaster/流萤|流萤]]（ID: 223004）
+- [[zh_cn/items/Material/DiceCombatAvatar/流萤|流萤]]（ID: 223004）
 - [[zh_cn/items/Usable/TravelBrochurePaster/流萤_225001|流萤]]（ID: 225001）
 - [[zh_cn/items/Usable/TravelBrochurePaster/海盗|海盗]]（ID: 223304）
 - [[zh_cn/items/Usable/TravelBrochurePaster/涂鸦•一|涂鸦•一]]（ID: 223800）
@@ -163,12 +163,12 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/真理医生_225006|真理医生]]（ID: 225006）
 - [[zh_cn/items/Usable/TravelBrochurePaster/睡城|睡城]]（ID: 223808）
 - [[zh_cn/items/Usable/TravelBrochurePaster/瞧！他叫哈努兄弟|瞧！他叫哈努兄弟]]（ID: 223256）
-- [[zh_cn/items/Usable/TravelBrochurePaster/知更鸟|知更鸟]]（ID: 223006）
+- [[zh_cn/items/Material/DiceCombatAvatar/知更鸟|知更鸟]]（ID: 223006）
 - [[zh_cn/items/Usable/TravelBrochurePaster/知更鸟_223712|知更鸟]]（ID: 223712）
 - [[zh_cn/items/Usable/TravelBrochurePaster/知更鸟_225014|知更鸟]]（ID: 225014）
 - [[zh_cn/items/Usable/TravelBrochurePaster/石头先生|石头先生]]（ID: 223308）
 - [[zh_cn/items/Usable/TravelBrochurePaster/石头老板的名句|石头老板的名句]]（ID: 223534）
-- [[zh_cn/items/Usable/TravelBrochurePaster/砂金|砂金]]（ID: 223000）
+- [[zh_cn/items/Material/DiceCombatAvatar/砂金|砂金]]（ID: 223000）
 - [[zh_cn/items/Usable/TravelBrochurePaster/砂金_225003|砂金]]（ID: 225003）
 - [[zh_cn/items/Usable/TravelBrochurePaster/神的存在|神的存在]]（ID: 223806）
 - [[zh_cn/items/Usable/TravelBrochurePaster/禁止明火|禁止明火]]（ID: 223505）
@@ -202,7 +202,7 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/舞者•一|舞者•一]]（ID: 224005）
 - [[zh_cn/items/Usable/TravelBrochurePaster/舞者•三|舞者•三]]（ID: 224007）
 - [[zh_cn/items/Usable/TravelBrochurePaster/舞者•二|舞者•二]]（ID: 224006）
-- [[zh_cn/items/Usable/TravelBrochurePaster/艾迪恩代币|艾迪恩代币]]（ID: 223204）
+- [[zh_cn/items/Material/Material/艾迪恩代币|艾迪恩代币]]（ID: 223204）
 - [[zh_cn/items/Usable/TravelBrochurePaster/艾迪恩先生|艾迪恩先生]]（ID: 223705）
 - [[zh_cn/items/Usable/TravelBrochurePaster/艾迪恩公园|艾迪恩公园]]（ID: 223200）
 - [[zh_cn/items/Usable/TravelBrochurePaster/节目单|节目单]]（ID: 224004）
@@ -245,7 +245,7 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/邂逅与告别•其二|邂逅与告别•其二]]（ID: 225031）
 - [[zh_cn/items/Usable/TravelBrochurePaster/醉于盛会的此刻|醉于盛会的此刻]]（ID: 224009）
 - [[zh_cn/items/Usable/TravelBrochurePaster/金主|金主]]（ID: 223904）
-- [[zh_cn/items/Usable/TravelBrochurePaster/金表钞|金表钞]]（ID: 223203）
+- [[zh_cn/items/Material/Material/金表钞|金表钞]]（ID: 223203）
 - [[zh_cn/items/Usable/TravelBrochurePaster/钟表匠的礼帽|钟表匠的礼帽]]（ID: 223804）
 - [[zh_cn/items/Usable/TravelBrochurePaster/钟表小子|钟表小子]]（ID: 225021）
 - [[zh_cn/items/Usable/TravelBrochurePaster/钟表小子的名句|钟表小子的名句]]（ID: 223531）
@@ -261,7 +261,7 @@
 - [[zh_cn/items/Usable/TravelBrochurePaster/飞碟汉堡|飞碟汉堡]]（ID: 223107）
 - [[zh_cn/items/Usable/TravelBrochurePaster/鸢尾花|鸢尾花]]（ID: 223704）
 - [[zh_cn/items/Usable/TravelBrochurePaster/鸢尾花家训|鸢尾花家训]]（ID: 223735）
-- [[zh_cn/items/Usable/TravelBrochurePaster/黄泉|黄泉]]（ID: 223003）
+- [[zh_cn/items/Material/DiceCombatAvatar/黄泉|黄泉]]（ID: 223003）
 - [[zh_cn/items/Usable/TravelBrochurePaster/黄泉_225009|黄泉]]（ID: 225009）
 - [[zh_cn/items/Usable/TravelBrochurePaster/黄金中央车站|黄金中央车站]]（ID: 223102）
 - [[zh_cn/items/Usable/TravelBrochurePaster/黄金公子|黄金公子]]（ID: 225027）

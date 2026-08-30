@@ -9,5 +9,5 @@
 
 ## sub_type 索引
 
-- [[zh_cn/items/Mission/Mission/Mission_索引|Mission（任务道具）]]（667）
+- [[zh_cn/items/Mission/Mission_索引|Mission（任务道具）]]（667）
 

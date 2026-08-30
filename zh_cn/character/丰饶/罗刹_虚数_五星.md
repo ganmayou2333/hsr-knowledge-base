@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/往日之影的金饰\|往日之影的金饰]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|往日之影的金饰]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/丰饶之种\|丰饶之种]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/生命之芽\|生命之芽]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/永恒之花\|永恒之花]] | 101 |
-| [[zh_cn/items/行迹材料/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/丰饶之种\|丰饶之种]] | 12 |
+| [[zh_cn/items/Material/TracePath/生命之芽\|生命之芽]] | 53 |
+| [[zh_cn/items/Material/TracePath/永恒之花\|永恒之花]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 28 |
 
 ---
 ## 战技

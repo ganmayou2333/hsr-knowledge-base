@@ -49,11 +49,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/纷争先兆\|纷争先兆]] | 65 |
-| [[zh_cn/items/怪物掉落/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/怪物掉落/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/怪物掉落/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/纷争先兆\|纷争先兆]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
 
 ---
 ## 技能材料
@@ -62,15 +62,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/步离犬牙\|步离犬牙]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/狼毒锯牙\|狼毒锯牙]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/月狂獠牙\|月狂獠牙]] | 101 |
-| [[zh_cn/items/行迹材料/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/怪物掉落/恐惧踏碎血肉\|恐惧踏碎血肉]] | 33 |
-| [[zh_cn/items/怪物掉落/勇气撕裂胸膛\|勇气撕裂胸膛]] | 46 |
-| [[zh_cn/items/怪物掉落/荣耀洗礼身躯\|荣耀洗礼身躯]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/步离犬牙\|步离犬牙]] | 12 |
+| [[zh_cn/items/Material/TracePath/狼毒锯牙\|狼毒锯牙]] | 53 |
+| [[zh_cn/items/Material/TracePath/月狂獠牙\|月狂獠牙]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 28 |
 
 ---
 ## 战技

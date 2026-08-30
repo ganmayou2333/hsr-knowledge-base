@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/一曲合弦的幻景\|一曲合弦的幻景]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蓄梦元件\|蓄梦元件]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/流梦阀门\|流梦阀门]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/造梦马达\|造梦马达]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一曲合弦的幻景\|一曲合弦的幻景]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/凌乱草图\|凌乱草图]] | 12 |
-| [[zh_cn/items/行迹素材/动态线稿\|动态线稿]] | 53 |
-| [[zh_cn/items/行迹素材/精致色稿\|精致色稿]] | 101 |
-| [[zh_cn/items/行迹材料/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蓄梦元件\|蓄梦元件]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/流梦阀门\|流梦阀门]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/造梦马达\|造梦马达]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/凌乱草图\|凌乱草图]] | 12 |
+| [[zh_cn/items/Material/TracePath/动态线稿\|动态线稿]] | 53 |
+| [[zh_cn/items/Material/TracePath/精致色稿\|精致色稿]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蓄梦元件\|蓄梦元件]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/流梦阀门\|流梦阀门]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦马达\|造梦马达]] | 28 |
 
 ---
 ## 战技

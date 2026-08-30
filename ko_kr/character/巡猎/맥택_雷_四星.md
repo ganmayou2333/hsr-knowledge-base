@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/兽棺之钉\|兽棺之钉]] | 50 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/兽棺之钉\|兽棺之钉]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/陨铁弹丸\|陨铁弹丸]] | 8 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/命定死因\|命定死因]] | 42 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/逆时一击\|逆时一击]] | 77 |
-| [[zh_cn/items/行迹材料/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 22 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 35 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 8 |
+| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 42 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 20 |
 
 ---
 ## 战技

@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/风雪之角\|风雪之角]] | 50 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/风雪之角\|风雪之角]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/陨铁弹丸\|陨铁弹丸]] | 8 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/命定死因\|命定死因]] | 42 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/逆时一击\|逆时一击]] | 77 |
-| [[zh_cn/items/行迹材料/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 22 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 35 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 8 |
+| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 42 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 20 |
 
 ---
 ## 战技

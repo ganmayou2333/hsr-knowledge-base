@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/忿火之心\|忿火之心]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/永寿幼芽\|永寿幼芽]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/永寿天华\|永寿天华]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/永寿荣枝\|永寿荣枝]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/忿火之心\|忿火之心]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/异木种籽\|异木种籽]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/滋长花蜜\|滋长花蜜]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/万相果实\|万相果实]] | 101 |
-| [[zh_cn/items/行迹材料/吉光片羽\|吉光片羽]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/永寿幼芽\|永寿幼芽]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/永寿天华\|永寿天华]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/永寿荣枝\|永寿荣枝]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/异木种籽\|异木种籽]] | 12 |
+| [[zh_cn/items/Material/TracePath/滋长花蜜\|滋长花蜜]] | 53 |
+| [[zh_cn/items/Material/TracePath/万相果实\|万相果实]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|吉光片羽]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|永寿幼芽]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿天华\|永寿天华]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|永寿荣枝]] | 28 |
 
 ---
 ## 战技

@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/恒温晶壳\|恒温晶壳]] | 50 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫扣饰\|铁卫扣饰]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫军徽\|铁卫军徽]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫勋章\|铁卫勋章]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/恒温晶壳\|恒温晶壳]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/谐乐小调\|谐乐小调]] | 8 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/家族颂歌\|家族颂歌]] | 42 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/群星乐章\|群星乐章]] | 77 |
-| [[zh_cn/items/行迹材料/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫扣饰\|铁卫扣饰]] | 22 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫军徽\|铁卫军徽]] | 35 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫勋章\|铁卫勋章]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/谐乐小调\|谐乐小调]] | 8 |
+| [[zh_cn/items/Material/TracePath/家族颂歌\|家族颂歌]] | 42 |
+| [[zh_cn/items/Material/TracePath/群星乐章\|群星乐章]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 20 |
 
 ---
 ## 战技

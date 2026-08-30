@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 246,400 |
-| [[zh_cn/items/角色晋阶材料/铁狼碎齿\|铁狼碎齿]] | 50 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/古代零件\|古代零件]] | 12 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/古代转轴\|古代转轴]] | 13 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/古代引擎\|古代引擎]] | 12 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 246,400 |
+| [[zh_cn/items/Material/AvatarRank/铁狼碎齿\|铁狼碎齿]] | 50 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 12 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 13 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 12 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,758,000 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 3 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/黯淡黑曜\|黯淡黑曜]] | 8 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/虚空黑曜\|虚空黑曜]] | 42 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/沉沦黑曜\|沉沦黑曜]] | 77 |
-| [[zh_cn/items/行迹材料/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/古代零件\|古代零件]] | 22 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/古代转轴\|古代转轴]] | 35 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/古代引擎\|古代引擎]] | 20 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,758,000 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 3 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 8 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 42 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 77 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代零件\|古代零件]] | 22 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代转轴\|古代转轴]] | 35 |
+| [[zh_cn/items/Material/CommonMonsterDrop/古代引擎\|古代引擎]] | 20 |
 
 ---
 ## 战技

@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/往日之影的金饰\|往日之影的金饰]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫扣饰\|铁卫扣饰]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫军徽\|铁卫军徽]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫勋章\|铁卫勋章]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/往日之影的金饰\|往日之影的金饰]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/黯淡黑曜\|黯淡黑曜]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/虚空黑曜\|虚空黑曜]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/沉沦黑曜\|沉沦黑曜]] | 101 |
-| [[zh_cn/items/行迹材料/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫扣饰\|铁卫扣饰]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫军徽\|铁卫军徽]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/铁卫勋章\|铁卫勋章]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/黯淡黑曜\|黯淡黑曜]] | 12 |
+| [[zh_cn/items/Material/TracePath/虚空黑曜\|虚空黑曜]] | 53 |
+| [[zh_cn/items/Material/TracePath/沉沦黑曜\|沉沦黑曜]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫扣饰\|铁卫扣饰]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫军徽\|铁卫军徽]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/铁卫勋章\|铁卫勋章]] | 28 |
 
 ---
 ## 战技

@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/炙梦喷枪\|炙梦喷枪]] | 65 |
-| [[zh_cn/items/怪物掉落/思绪末屑\|思绪末屑]] | 15 |
-| [[zh_cn/items/怪物掉落/印象残晶\|印象残晶]] | 15 |
-| [[zh_cn/items/怪物掉落/欲念碎镜\|欲念碎镜]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/炙梦喷枪\|炙梦喷枪]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/云际音符\|云际音符]] | 12 |
-| [[zh_cn/items/行迹素材/空际小节\|空际小节]] | 53 |
-| [[zh_cn/items/行迹素材/天外乐章\|天外乐章]] | 101 |
-| [[zh_cn/items/行迹材料/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
-| [[zh_cn/items/怪物掉落/思绪末屑\|思绪末屑]] | 33 |
-| [[zh_cn/items/怪物掉落/印象残晶\|印象残晶]] | 46 |
-| [[zh_cn/items/怪物掉落/欲念碎镜\|欲念碎镜]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/云际音符\|云际音符]] | 12 |
+| [[zh_cn/items/Material/TracePath/空际小节\|空际小节]] | 53 |
+| [[zh_cn/items/Material/TracePath/天外乐章\|天外乐章]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|蛀星孕灾的旧恶]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|思绪末屑]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/印象残晶\|印象残晶]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|欲念碎镜]] | 28 |
 
 ---
 ## 战技

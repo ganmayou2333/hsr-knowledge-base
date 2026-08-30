@@ -67,7 +67,7 @@
 - [[zh_cn/items/Virtual/Virtual/遥控骰子|遥控骰子]]（ID: 281016）
 - [[zh_cn/items/Virtual/Virtual/里程|里程]]（ID: 22）
 - [[zh_cn/items/Virtual/Virtual/重抛硬币|重抛硬币]]（ID: 281017）
-- [[zh_cn/items/Virtual/Virtual/金币|金币]]（ID: 281031）
+- [[zh_cn/items/Material/IdleLiveItem/金币|金币]]（ID: 281031）
 - [[zh_cn/items/Virtual/Virtual/银河声望|银河声望]]（ID: 281028）
 - [[zh_cn/items/Virtual/Virtual/黄金邀请券|黄金邀请券]]（ID: 281037）
 

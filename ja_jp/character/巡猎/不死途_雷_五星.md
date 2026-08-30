@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/狂雷扫弦\|狂雷扫弦]] | 65 |
-| [[zh_cn/items/怪物掉落/童真蜡笔\|童真蜡笔]] | 15 |
-| [[zh_cn/items/怪物掉落/造梦蘸钢\|造梦蘸钢]] | 15 |
-| [[zh_cn/items/怪物掉落/梦现管锥\|梦现管锥]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/狂雷扫弦\|狂雷扫弦]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/纷争血尘\|纷争血尘]] | 12 |
-| [[zh_cn/items/行迹素材/战魂血珀\|战魂血珀]] | 53 |
-| [[zh_cn/items/行迹素材/天谴血矛\|天谴血矛]] | 101 |
-| [[zh_cn/items/行迹材料/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
-| [[zh_cn/items/怪物掉落/童真蜡笔\|童真蜡笔]] | 33 |
-| [[zh_cn/items/怪物掉落/造梦蘸钢\|造梦蘸钢]] | 46 |
-| [[zh_cn/items/怪物掉落/梦现管锥\|梦现管锥]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/纷争血尘\|纷争血尘]] | 12 |
+| [[zh_cn/items/Material/TracePath/战魂血珀\|战魂血珀]] | 53 |
+| [[zh_cn/items/Material/TracePath/天谴血矛\|天谴血矛]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/灭流绝溢的缄默\|灭流绝溢的缄默]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔\|童真蜡笔]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢\|造梦蘸钢]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥\|梦现管锥]] | 28 |
 
 ---
 ## 战技

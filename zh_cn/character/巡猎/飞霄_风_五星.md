@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/一杯酩酊的时代\|一杯酩酊的时代]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|一杯酩酊的时代]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/陨铁弹丸\|陨铁弹丸]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/命定死因\|命定死因]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/逆时一击\|逆时一击]] | 101 |
-| [[zh_cn/items/行迹材料/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造机杼\|工造机杼]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造迴轮\|工造迴轮]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/工造浑心\|工造浑心]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/陨铁弹丸\|陨铁弹丸]] | 12 |
+| [[zh_cn/items/Material/TracePath/命定死因\|命定死因]] | 53 |
+| [[zh_cn/items/Material/TracePath/逆时一击\|逆时一击]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造机杼\|工造机杼]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造迴轮\|工造迴轮]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/工造浑心\|工造浑心]] | 28 |
 
 ---
 ## 战技

@@ -37,34 +37,34 @@
 - [[zh_cn/items/Usable/Book/《公民亚历珊德拉》场刊|《公民亚历珊德拉》场刊]]（ID: 190114）
 - [[zh_cn/items/Usable/Book/《公民亚历珊德拉》场刊 第三页|《公民亚历珊德拉》场刊 第三页]]（ID: 190116）
 - [[zh_cn/items/Usable/Book/《公民亚历珊德拉》场刊 第二页|《公民亚历珊德拉》场刊 第二页]]（ID: 190115）
-- [[zh_cn/items/Usable/Book/《冒险鼹鼠队：隐形的宝藏》「货箱便是钥匙」|《冒险鼹鼠队：隐形的宝藏》「货箱便是钥匙」]]（ID: 190905）
-- [[zh_cn/items/Usable/Book/《冒险鼹鼠队：隐形的宝藏》前言|《冒险鼹鼠队：隐形的宝藏》前言]]（ID: 190902）
-- [[zh_cn/items/Usable/Book/《冒险鼹鼠队：隐形的宝藏》后记|《冒险鼹鼠队：隐形的宝藏》后记]]（ID: 190907）
-- [[zh_cn/items/Usable/Book/《冒险鼹鼠队：隐形的宝藏》意外的羊皮纸|《冒险鼹鼠队：隐形的宝藏》意外的羊皮纸]]（ID: 190903）
-- [[zh_cn/items/Usable/Book/《冒险鼹鼠队：隐形的宝藏》战地追迹|《冒险鼹鼠队：隐形的宝藏》战地追迹]]（ID: 190906）
-- [[zh_cn/items/Usable/Book/《冒险鼹鼠队：隐形的宝藏》消失的矿灯|《冒险鼹鼠队：隐形的宝藏》消失的矿灯]]（ID: 190904）
-- [[zh_cn/items/Usable/Book/《冒险鼹鼠队：隐形的宝藏》目录|《冒险鼹鼠队：隐形的宝藏》目录]]（ID: 190901）
+- [[zh_cn/items/Mission/Mission/《冒险鼹鼠队：隐形的宝藏》「货箱便是钥匙」|《冒险鼹鼠队：隐形的宝藏》「货箱便是钥匙」]]（ID: 190905）
+- [[zh_cn/items/Mission/Mission/《冒险鼹鼠队：隐形的宝藏》前言|《冒险鼹鼠队：隐形的宝藏》前言]]（ID: 190902）
+- [[zh_cn/items/Mission/Mission/《冒险鼹鼠队：隐形的宝藏》后记|《冒险鼹鼠队：隐形的宝藏》后记]]（ID: 190907）
+- [[zh_cn/items/Mission/Mission/《冒险鼹鼠队：隐形的宝藏》意外的羊皮纸|《冒险鼹鼠队：隐形的宝藏》意外的羊皮纸]]（ID: 190903）
+- [[zh_cn/items/Mission/Mission/《冒险鼹鼠队：隐形的宝藏》战地追迹|《冒险鼹鼠队：隐形的宝藏》战地追迹]]（ID: 190906）
+- [[zh_cn/items/Mission/Mission/《冒险鼹鼠队：隐形的宝藏》消失的矿灯|《冒险鼹鼠队：隐形的宝藏》消失的矿灯]]（ID: 190904）
+- [[zh_cn/items/Mission/Mission/《冒险鼹鼠队：隐形的宝藏》目录|《冒险鼹鼠队：隐形的宝藏》目录]]（ID: 190901）
 - [[zh_cn/items/Usable/Book/《匹诺康尼艺术史》节选|《匹诺康尼艺术史》节选]]（ID: 190703）
 - [[zh_cn/items/Usable/Book/《匹诺康尼飞艇设计史》片段|《匹诺康尼飞艇设计史》片段]]（ID: 190659）
 - [[zh_cn/items/Usable/Book/《合巹记》唱本|《合巹记》唱本]]（ID: 190531）
 - [[zh_cn/items/Usable/Book/《哈努兄弟外传》|《哈努兄弟外传》]]（ID: 190636）
-- [[zh_cn/items/Usable/Book/《圣甲虫计划》|《圣甲虫计划》]]（ID: 190608）
+- [[zh_cn/items/Mission/Mission/《圣甲虫计划》|《圣甲虫计划》]]（ID: 190608）
 - [[zh_cn/items/Usable/Book/《地底百科：动物》|《地底百科：动物》]]（ID: 190189）
 - [[zh_cn/items/Usable/Book/《地底百科：动物》 其二|《地底百科：动物》 其二]]（ID: 190190）
 - [[zh_cn/items/Usable/Book/《地底百科：植物和菌类》|《地底百科：植物和菌类》]]（ID: 190143）
 - [[zh_cn/items/Usable/Book/《地底百科：植物和菌类》 其二|《地底百科：植物和菌类》 其二]]（ID: 190144）
 - [[zh_cn/items/Usable/Book/《奥帝•艾弗法传》节选|《奥帝•艾弗法传》节选]]（ID: 190704）
 - [[zh_cn/items/Usable/Book/《小小哈努行动》上篇 第一章|《小小哈努行动》上篇 第一章]]（ID: 190557）
-- [[zh_cn/items/Usable/Book/《小小哈努行动》上篇 第三章|《小小哈努行动》上篇 第三章]]（ID: 190559）
-- [[zh_cn/items/Usable/Book/《小小哈努行动》上篇 第二章|《小小哈努行动》上篇 第二章]]（ID: 190558）
-- [[zh_cn/items/Usable/Book/《小小哈努行动》上篇 第四章|《小小哈努行动》上篇 第四章]]（ID: 190560）
+- [[zh_cn/items/Mission/Mission/《小小哈努行动》上篇 第三章|《小小哈努行动》上篇 第三章]]（ID: 190559）
+- [[zh_cn/items/Mission/Mission/《小小哈努行动》上篇 第二章|《小小哈努行动》上篇 第二章]]（ID: 190558）
+- [[zh_cn/items/Mission/Mission/《小小哈努行动》上篇 第四章|《小小哈努行动》上篇 第四章]]（ID: 190560）
 - [[zh_cn/items/Usable/Book/《小小哈努行动》下篇 第一章|《小小哈努行动》下篇 第一章]]（ID: 190631）
 - [[zh_cn/items/Usable/Book/《小小哈努行动》下篇 第二章|《小小哈努行动》下篇 第二章]]（ID: 190632）
 - [[zh_cn/items/Usable/Book/《小小哈努行动》中篇 第一章|《小小哈努行动》中篇 第一章]]（ID: 190619）
 - [[zh_cn/items/Usable/Book/《小小哈努行动》中篇 第三章|《小小哈努行动》中篇 第三章]]（ID: 190621）
 - [[zh_cn/items/Usable/Book/《小小哈努行动》中篇 第二章|《小小哈努行动》中篇 第二章]]（ID: 190620）
 - [[zh_cn/items/Usable/Book/《小小哈努行动》中篇 第四章|《小小哈努行动》中篇 第四章]]（ID: 190622）
-- [[zh_cn/items/Usable/Book/《小小哈努行动》前言|《小小哈努行动》前言]]（ID: 190556）
+- [[zh_cn/items/Mission/Mission/《小小哈努行动》前言|《小小哈努行动》前言]]（ID: 190556）
 - [[zh_cn/items/Usable/Book/《布鲁斯之夜》宣传单|《布鲁斯之夜》宣传单]]（ID: 190565）
 - [[zh_cn/items/Usable/Book/《帝弓迹躔歌》注疏|《帝弓迹躔歌》注疏]]（ID: 190344）
 - [[zh_cn/items/Usable/Book/《帝弓迹躔歌》注疏 其三|《帝弓迹躔歌》注疏 其三]]（ID: 190346）
@@ -246,7 +246,7 @@
 - [[zh_cn/items/Usable/Book/不完整的录音自动转译文档|不完整的录音自动转译文档]]（ID: 190285）
 - [[zh_cn/items/Usable/Book/不明访客的留言|不明访客的留言]]（ID: 191945）
 - [[zh_cn/items/Usable/Book/不死的弥卡斯王|不死的弥卡斯王]]（ID: 190737）
-- [[zh_cn/items/Usable/Book/不死途的侦探笔记|不死途的侦探笔记]]（ID: 192105）
+- [[zh_cn/items/Mission/Mission/不死途的侦探笔记|不死途的侦探笔记]]（ID: 192105）
 - [[zh_cn/items/Usable/Book/不死途的简历|不死途的简历]]（ID: 192014）
 - [[zh_cn/items/Usable/Book/不赦十恶详解|不赦十恶详解]]（ID: 190524）
 - [[zh_cn/items/Usable/Book/不适合人偶的职业|不适合人偶的职业]]（ID: 190316）
@@ -634,7 +634,7 @@
 - [[zh_cn/items/Usable/Book/机密：梦境大型异常记录|机密：梦境大型异常记录]]（ID: 190615）
 - [[zh_cn/items/Usable/Book/机铠幻造指南|机铠幻造指南]]（ID: 192047）
 - [[zh_cn/items/Usable/Book/机铠自由宣言|机铠自由宣言]]（ID: 192111）
-- [[zh_cn/items/Usable/Book/来历不明的信笺|来历不明的信笺]]（ID: 190511）
+- [[zh_cn/items/Mission/Mission/来历不明的信笺|来历不明的信笺]]（ID: 190511）
 - [[zh_cn/items/Usable/Book/来历不明的餐品清单|来历不明的餐品清单]]（ID: 190665）
 - [[zh_cn/items/Usable/Book/来历不明的饮料最好别碰|来历不明的饮料最好别碰]]（ID: 192052）
 - [[zh_cn/items/Usable/Book/来自「玉阙」仙舟的监察报告|来自「玉阙」仙舟的监察报告]]（ID: 190403）
@@ -664,7 +664,7 @@
 - [[zh_cn/items/Usable/Book/某个民间科学家的日记 其二|某个民间科学家的日记 其二]]（ID: 190129）
 - [[zh_cn/items/Usable/Book/某个民间科学家的日记 其四|某个民间科学家的日记 其四]]（ID: 190131）
 - [[zh_cn/items/Usable/Book/某人的宝物|某人的宝物]]（ID: 190626）
-- [[zh_cn/items/Usable/Book/某人的遗失物|某人的遗失物]]（ID: 190625）
+- [[zh_cn/items/Mission/Mission/某人的遗失物|某人的遗失物]]（ID: 190625）
 - [[zh_cn/items/Usable/Book/某位界种科科员的周记残页|某位界种科科员的周记残页]]（ID: 190294）
 - [[zh_cn/items/Usable/Book/某投机分子的日记|某投机分子的日记]]（ID: 192108）
 - [[zh_cn/items/Usable/Book/某持明少年的笔记|某持明少年的笔记]]（ID: 190464）
@@ -673,8 +673,8 @@
 - [[zh_cn/items/Usable/Book/树庭植物的导引石版摘|树庭植物的导引石版摘]]（ID: 190826）
 - [[zh_cn/items/Usable/Book/校园留言板|校园留言板]]（ID: 190709）
 - [[zh_cn/items/Usable/Book/桂乃芬的美食探店台本|桂乃芬的美食探店台本]]（ID: 190483）
-- [[zh_cn/items/Usable/Book/案情简述•其一|案情简述•其一]]（ID: 190552）
-- [[zh_cn/items/Usable/Book/案情简述•其二|案情简述•其二]]（ID: 190553）
+- [[zh_cn/items/Mission/Mission/案情简述•其一|案情简述•其一]]（ID: 190552）
+- [[zh_cn/items/Mission/Mission/案情简述•其二|案情简述•其二]]（ID: 190553）
 - [[zh_cn/items/Usable/Book/桑博的留言|桑博的留言]]（ID: 190450）
 - [[zh_cn/items/Usable/Book/桑博的谏言？|桑博的谏言？]]（ID: 190554）
 - [[zh_cn/items/Usable/Book/梁沐的信件|梁沐的信件]]（ID: 190355）
@@ -689,7 +689,7 @@
 - [[zh_cn/items/Usable/Book/梦境童谣•七口之家|梦境童谣•七口之家]]（ID: 190548）
 - [[zh_cn/items/Usable/Book/梦泡手记|梦泡手记]]（ID: 190667）
 - [[zh_cn/items/Usable/Book/梦泡电影发展史（节选）|梦泡电影发展史（节选）]]（ID: 190886）
-- [[zh_cn/items/Usable/Book/梦的谢幕礼|梦的谢幕礼]]（ID: 191959）
+- [[zh_cn/items/Mission/Mission/梦的谢幕礼|梦的谢幕礼]]（ID: 191959）
 - [[zh_cn/items/Usable/Book/梦的谢幕礼_191960|梦的谢幕礼]]（ID: 191960）
 - [[zh_cn/items/Usable/Book/梦路交通事故集锦|梦路交通事故集锦]]（ID: 190698）
 - [[zh_cn/items/Usable/Book/椒丘的复诊报告书|椒丘的复诊报告书]]（ID: 190693）
@@ -850,7 +850,7 @@
 - [[zh_cn/items/Usable/Book/科员们的留言便条其四|科员们的留言便条其四]]（ID: 190290）
 - [[zh_cn/items/Usable/Book/科员荣仓终的日记|科员荣仓终的日记]]（ID: 190160）
 - [[zh_cn/items/Usable/Book/科员间的聊天记录|科员间的聊天记录]]（ID: 190295）
-- [[zh_cn/items/Usable/Book/科鲁泽的信件|科鲁泽的信件]]（ID: 190195）
+- [[zh_cn/items/Mission/Mission/科鲁泽的信件|科鲁泽的信件]]（ID: 190195）
 - [[zh_cn/items/Usable/Book/空间站介绍手册|空间站介绍手册]]（ID: 190282）
 - [[zh_cn/items/Usable/Book/空间站体检事项公告|空间站体检事项公告]]（ID: 190281）
 - [[zh_cn/items/Usable/Book/空间站员工餐厅反馈记录表|空间站员工餐厅反馈记录表]]（ID: 190293）
@@ -954,7 +954,7 @@
 - [[zh_cn/items/Usable/Book/讯号转译录：琥珀2157纪44月-47月|讯号转译录：琥珀2157纪44月-47月]]（ID: 190176）
 - [[zh_cn/items/Usable/Book/讯号转译录：琥珀2157纪48月-51月|讯号转译录：琥珀2157纪48月-51月]]（ID: 190177）
 - [[zh_cn/items/Usable/Book/记一位老友|记一位老友]]（ID: 192040）
-- [[zh_cn/items/Usable/Book/记载着神秘仪式的卷轴|记载着神秘仪式的卷轴]]（ID: 190751）
+- [[zh_cn/items/Mission/Mission/记载着神秘仪式的卷轴|记载着神秘仪式的卷轴]]（ID: 190751）
 - [[zh_cn/items/Usable/Book/记长乐天夜游|记长乐天夜游]]（ID: 190254）
 - [[zh_cn/items/Usable/Book/讲义：幻造种演化假说选|讲义：幻造种演化假说选]]（ID: 191967）
 - [[zh_cn/items/Usable/Book/论仪式的地域性特征（节选）|论仪式的地域性特征（节选）]]（ID: 190828）
@@ -1014,7 +1014,7 @@
 - [[zh_cn/items/Usable/Book/都市传说：消失的巨人|都市传说：消失的巨人]]（ID: 191994）
 - [[zh_cn/items/Usable/Book/酒馆夜谭：天环族特辑|酒馆夜谭：天环族特辑]]（ID: 190656）
 - [[zh_cn/items/Usable/Book/酒馆宣言|酒馆宣言]]（ID: 191977）
-- [[zh_cn/items/Usable/Book/采翼的交换日记|采翼的交换日记]]（ID: 190442）
+- [[zh_cn/items/Mission/Mission/采翼的交换日记|采翼的交换日记]]（ID: 190442）
 - [[zh_cn/items/Usable/Book/采访报告一则|采访报告一则]]（ID: 191970）
 - [[zh_cn/items/Usable/Book/采购清单|采购清单]]（ID: 192122）
 - [[zh_cn/items/Usable/Book/重返「晖长石号」|重返「晖长石号」]]（ID: 190658）
@@ -1077,7 +1077,7 @@
 - [[zh_cn/items/Usable/Book/飞岛神木传说|飞岛神木传说]]（ID: 192085）
 - [[zh_cn/items/Usable/Book/饮月大逆判牍|饮月大逆判牍]]（ID: 190457）
 - [[zh_cn/items/Usable/Book/马库斯•安塔利档案|马库斯•安塔利档案]]（ID: 192039）
-- [[zh_cn/items/Usable/Book/驭空的交换日记|驭空的交换日记]]（ID: 190441）
+- [[zh_cn/items/Mission/Mission/驭空的交换日记|驭空的交换日记]]（ID: 190441）
 - [[zh_cn/items/Usable/Book/高压线处罚|高压线处罚]]（ID: 192138）
 - [[zh_cn/items/Usable/Book/高等学校历史必修：新纪元的汽笛声|高等学校历史必修：新纪元的汽笛声]]（ID: 192010）
 - [[zh_cn/items/Usable/Book/高等学校历史必修：画中世界|高等学校历史必修：画中世界]]（ID: 192009）

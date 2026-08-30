@@ -49,11 +49,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/一杯酩酊的时代\|一杯酩酊的时代]] | 65 |
-| [[zh_cn/items/怪物掉落/预兆似有若无\|预兆似有若无]] | 15 |
-| [[zh_cn/items/怪物掉落/悲鸣由远及近\|悲鸣由远及近]] | 15 |
-| [[zh_cn/items/怪物掉落/哀叹漫无止息\|哀叹漫无止息]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/一杯酩酊的时代\|一杯酩酊的时代]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 15 |
 
 ---
 ## 技能材料
@@ -62,15 +62,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/凌乱草图\|凌乱草图]] | 12 |
-| [[zh_cn/items/行迹素材/动态线稿\|动态线稿]] | 53 |
-| [[zh_cn/items/行迹素材/精致色稿\|精致色稿]] | 101 |
-| [[zh_cn/items/行迹材料/同愿的遗音\|同愿的遗音]] | 9 |
-| [[zh_cn/items/怪物掉落/预兆似有若无\|预兆似有若无]] | 33 |
-| [[zh_cn/items/怪物掉落/悲鸣由远及近\|悲鸣由远及近]] | 46 |
-| [[zh_cn/items/怪物掉落/哀叹漫无止息\|哀叹漫无止息]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/凌乱草图\|凌乱草图]] | 12 |
+| [[zh_cn/items/Material/TracePath/动态线稿\|动态线稿]] | 53 |
+| [[zh_cn/items/Material/TracePath/精致色稿\|精致色稿]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|同愿的遗音]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/预兆似有若无\|预兆似有若无]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/悲鸣由远及近\|悲鸣由远及近]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/哀叹漫无止息\|哀叹漫无止息]] | 28 |
 
 ---
 ## 战技

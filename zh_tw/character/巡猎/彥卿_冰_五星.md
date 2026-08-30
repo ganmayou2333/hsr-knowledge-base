@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/苦寒晶壳\|苦寒晶壳]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/苦寒晶壳\|苦寒晶壳]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/猎兽之矢\|猎兽之矢]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/屠魔之矢\|屠魔之矢]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/逐星之矢\|逐星之矢]] | 101 |
-| [[zh_cn/items/行迹材料/守护者的悲愿\|守护者的悲愿]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/猎兽之矢\|猎兽之矢]] | 12 |
+| [[zh_cn/items/Material/TracePath/屠魔之矢\|屠魔之矢]] | 53 |
+| [[zh_cn/items/Material/TracePath/逐星之矢\|逐星之矢]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|守护者的悲愿]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 28 |
 
 ---
 ## 战技

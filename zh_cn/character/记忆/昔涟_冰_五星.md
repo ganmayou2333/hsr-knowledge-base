@@ -49,11 +49,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/海妖残鳍\|海妖残鳍]] | 65 |
-| [[zh_cn/items/怪物掉落/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
-| [[zh_cn/items/怪物掉落/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
-| [[zh_cn/items/怪物掉落/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/海妖残鳍\|海妖残鳍]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 15 |
 
 ---
 ## 技能材料
@@ -62,15 +62,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 1,818,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/思量的种\|思量的种]] | 8 |
-| [[zh_cn/items/行迹素材/末那芽苗\|末那芽苗]] | 42 |
-| [[zh_cn/items/行迹素材/阿赖耶华\|阿赖耶华]] | 86 |
-| [[zh_cn/items/行迹材料/阳雷的遥想\|阳雷的遥想]] | 9 |
-| [[zh_cn/items/怪物掉落/恐惧踏碎血肉\|恐惧踏碎血肉]] | 25 |
-| [[zh_cn/items/怪物掉落/勇气撕裂胸膛\|勇气撕裂胸膛]] | 38 |
-| [[zh_cn/items/怪物掉落/荣耀洗礼身躯\|荣耀洗礼身躯]] | 22 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 1,818,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/思量的种\|思量的种]] | 8 |
+| [[zh_cn/items/Material/TracePath/末那芽苗\|末那芽苗]] | 42 |
+| [[zh_cn/items/Material/TracePath/阿赖耶华\|阿赖耶华]] | 86 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/阳雷的遥想\|阳雷的遥想]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|恐惧踏碎血肉]] | 25 |
+| [[zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|勇气撕裂胸膛]] | 38 |
+| [[zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|荣耀洗礼身躯]] | 22 |
 
 ---
 ## 战技

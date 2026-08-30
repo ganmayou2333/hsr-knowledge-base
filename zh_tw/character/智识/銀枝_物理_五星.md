@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/幽府通令\|幽府通令]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/熄灭原核\|熄灭原核]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/微光原核\|微光原核]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蠢动原核\|蠢动原核]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/幽府通令\|幽府通令]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/灵感之钥\|灵感之钥]] | 12 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/启迪之钥\|启迪之钥]] | 53 |
-| [[zh_cn/items/行迹材料_光锥晋阶材料/智识之钥\|智识之钥]] | 101 |
-| [[zh_cn/items/行迹材料/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/熄灭原核\|熄灭原核]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/微光原核\|微光原核]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/蠢动原核\|蠢动原核]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/灵感之钥\|灵感之钥]] | 12 |
+| [[zh_cn/items/Material/TracePath/启迪之钥\|启迪之钥]] | 53 |
+| [[zh_cn/items/Material/TracePath/智识之钥\|智识之钥]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|无穷假身的遗恨]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/熄灭原核\|熄灭原核]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/微光原核\|微光原核]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/蠢动原核\|蠢动原核]] | 28 |
 
 ---
 ## 战技

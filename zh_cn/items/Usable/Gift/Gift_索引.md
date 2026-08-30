@@ -73,8 +73,8 @@
 - [[zh_cn/items/Usable/Gift/《冒险鼹鼠队：隐形的宝藏》|《冒险鼹鼠队：隐形的宝藏》]]（ID: 300200）
 - [[zh_cn/items/Usable/Gift/信甩点|信甩点]]（ID: 300202）
 - [[zh_cn/items/Usable/Gift/星球特产箱|星球特产箱]]（ID: 300055）
-- [[zh_cn/items/Usable/Gift/记载预言的金织-「命运重渊」|记载预言的金织-「命运重渊」]]（ID: 300210）
-- [[zh_cn/items/Usable/Gift/记载预言的金织-「无晖祈堂」|记载预言的金织-「无晖祈堂」]]（ID: 300211）
+- [[zh_cn/items/Mission/Mission/记载预言的金织-「命运重渊」|记载预言的金织-「命运重渊」]]（ID: 300210）
+- [[zh_cn/items/Mission/Mission/记载预言的金织-「无晖祈堂」|记载预言的金织-「无晖祈堂」]]（ID: 300211）
 - [[zh_cn/items/Usable/Gift/逾期未取的邮包|逾期未取的邮包]]（ID: 300051）
 - [[zh_cn/items/Usable/Gift/黑塔 • 冒险共享协议|黑塔 • 冒险共享协议]]（ID: 310003）
 

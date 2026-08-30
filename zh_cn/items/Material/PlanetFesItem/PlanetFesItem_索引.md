@@ -133,11 +133,11 @@
 - [[zh_cn/items/Material/PlanetFesItem/造物之柱-Ⅰ|造物之柱-Ⅰ]]（ID: 252373）
 - [[zh_cn/items/Material/PlanetFesItem/造物之柱-Ⅱ|造物之柱-Ⅱ]]（ID: 252374）
 - [[zh_cn/items/Material/PlanetFesItem/造物之柱-Ⅲ|造物之柱-Ⅲ]]（ID: 252375）
-- [[zh_cn/items/Material/PlanetFesItem/金币|金币]]（ID: 252127）
+- [[zh_cn/items/Material/IdleLiveItem/金币|金币]]（ID: 252127）
 - [[zh_cn/items/Material/PlanetFesItem/钟表小子雕像-Ⅰ|钟表小子雕像-Ⅰ]]（ID: 252445）
 - [[zh_cn/items/Material/PlanetFesItem/钟表小子雕像-Ⅱ|钟表小子雕像-Ⅱ]]（ID: 252446）
 - [[zh_cn/items/Material/PlanetFesItem/钟表小子雕像-Ⅲ|钟表小子雕像-Ⅲ]]（ID: 252447）
-- [[zh_cn/items/Material/PlanetFesItem/钻石|钻石]]（ID: 252125）
+- [[zh_cn/items/Material/IdleLiveItem/钻石|钻石]]（ID: 252125）
 - [[zh_cn/items/Material/PlanetFesItem/镇恶门-Ⅰ|镇恶门-Ⅰ]]（ID: 252400）
 - [[zh_cn/items/Material/PlanetFesItem/镇恶门-Ⅱ|镇恶门-Ⅱ]]（ID: 252401）
 - [[zh_cn/items/Material/PlanetFesItem/镇恶门-Ⅲ|镇恶门-Ⅲ]]（ID: 252402）

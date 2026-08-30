@@ -47,11 +47,11 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 308,000 |
-| [[zh_cn/items/角色晋阶材料/嗤笑丑面\|嗤笑丑面]] | 65 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 15 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 15 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 308,000 |
+| [[zh_cn/items/Material/AvatarRank/嗤笑丑面\|嗤笑丑面]] | 65 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 15 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 15 |
 
 ---
 ## 技能材料
@@ -60,15 +60,15 @@
 
 | 材料 | 数量 |
 |---|---|
-| [[zh_cn/items/通用货币/信用点\|信用点]] | 2,197,500 |
-| [[zh_cn/items/行迹材料/命运的足迹\|命运的足迹]] | 6 |
-| [[zh_cn/items/行迹素材/天体模型\|天体模型]] | 12 |
-| [[zh_cn/items/行迹素材/星系框架\|星系框架]] | 53 |
-| [[zh_cn/items/行迹素材/银河沙盘\|银河沙盘]] | 101 |
-| [[zh_cn/items/行迹材料/毁灭者的末路\|毁灭者的末路]] | 9 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/掠夺的本能\|掠夺的本能]] | 33 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/篡改的野心\|篡改的野心]] | 46 |
-| [[zh_cn/items/行迹材料_角色晋阶材料/践踏的意志\|践踏的意志]] | 28 |
+| [[zh_cn/items/Virtual/Virtual/信用点\|信用点]] | 2,197,500 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|命运的足迹]] | 6 |
+| [[zh_cn/items/Material/TracePath/天体模型\|天体模型]] | 12 |
+| [[zh_cn/items/Material/TracePath/星系框架\|星系框架]] | 53 |
+| [[zh_cn/items/Material/TracePath/银河沙盘\|银河沙盘]] | 101 |
+| [[zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|毁灭者的末路]] | 9 |
+| [[zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|掠夺的本能]] | 33 |
+| [[zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|篡改的野心]] | 46 |
+| [[zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|践踏的意志]] | 28 |
 
 ---
 ## 战技
