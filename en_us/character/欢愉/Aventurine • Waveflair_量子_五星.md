@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 140% of Aventurine • Waveflair's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to all enemies. Gains #2[i] Punchline and #3[i] "Fervor."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 120% | 4 | 4 |
   | Lv.2 | 132% | 4 | 4 |
@@ -123,9 +123,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 300% | 4 | 4 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
-  - `#2[i]`个 → 参数2：上下文「的量子属性伤害，获得___个笑点和#3[i]」
-  - `#3[i]`点 → 参数3：上下文「得#2[i]个笑点和___点【热意】。」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
+  - `#2[i]`个 → Param 2: 上下文「的量子属性伤害，获得___个笑点和#3[i]」
+  - `#3[i]`点 → Param 3: 上下文「得#2[i]个笑点和___点【热意】。」
 
 - **Max Effect**：Deals Quantum DMG equal to 300% of Aventurine • Waveflair's ATK to all enemies. Gains 4 Punchline and 4 "Fervor."
 
@@ -136,7 +136,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to all enemies. Gains #3[i] Punchline and #2[i] "Fervor." Increases this unit's SPD by #4[i]%, lasting for #5[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 240% | 8 | 6 | 12% | 4 |
   | Lv.2 | 256% | 8 | 6 | 13.8% | 4 |
@@ -155,11 +155,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 480% | 8 | 6 | 39% | 4 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
-  - `#2[i]`点 → 参数2：上下文「得#3[i]个笑点和___点【热意】。并使自」
-  - `#3[i]`个 → 参数3：上下文「的量子属性伤害，获得___个笑点和#2[i]」
-  - `#4[i]`% → 参数4(%)：上下文「】。并使自身速度提高___%，持续#5[i]」
-  - `#5[i]`回 → 参数5：上下文「高#4[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
+  - `#2[i]`点 → Param 2: 上下文「得#3[i]个笑点和___点【热意】。并使自」
+  - `#3[i]`个 → Param 3: 上下文「的量子属性伤害，获得___个笑点和#2[i]」
+  - `#4[i]`% → Param 4 (%): 上下文「】。并使自身速度提高___%，持续#5[i]」
+  - `#5[i]`回 → Param 5: 上下文「高#4[i]%，持续___回合。」
 
 - **Max Effect**：Deals Quantum DMG equal to 480% of Aventurine • Waveflair's ATK to all enemies. Gains 6 Punchline and 8 "Fervor." Increases this unit's SPD by 39%, lasting for 4 turn(s).
 
@@ -178,7 +178,7 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
 砂金•戏浪持有【好活当赏】时，战技额外对敌方全体造成#2[i]%量子属性欢愉伤害，终结技额外对敌方全体造成#3[i]%量子属性欢愉伤害。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5 | 参数6 | 参数7 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 | Param 5 | Param 6 | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 10 | 20% | 36% | 30 | 20 | 1 | 1 |
   | Lv.2 | 10 | 22% | 39.6% | 30 | 20 | 1 | 1 |
@@ -197,13 +197,13 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
   | Lv.15 | 10 | 50% | 90% | 30 | 20 | 1 | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「]点。 【热意】达到___点时，砂金•戏浪会」
-  - `#2[i]`% → 参数2(%)：上下文「技额外对敌方全体造成___%量子属性欢愉伤害」
-  - `#3[i]`% → 参数3(%)：上下文「技额外对敌方全体造成___%量子属性欢愉伤害」
-  - `#4[i]`点 → 参数4：上下文「笑点，【热意】上限为___点。 【热意】达到」
-  - `#5[i]`笑 → 参数5：上下文「立即施放1次固定计入___笑点的【举杯！敬炽」
-  - `#6[i]`个 → 参数6：上下文「[i]点【热意】以及___个笑点，【热意】上」
-  - `#7[i]`点 → 参数7：上下文「击后，砂金•戏浪获得___点【热意】以及#6」
+  - `#1[i]`点 → Param 1: 上下文「]点。 【热意】达到___点时，砂金•戏浪会」
+  - `#2[i]`% → Param 2 (%): 上下文「技额外对敌方全体造成___%量子属性欢愉伤害」
+  - `#3[i]`% → Param 3 (%): 上下文「技额外对敌方全体造成___%量子属性欢愉伤害」
+  - `#4[i]`点 → Param 4: 上下文「笑点，【热意】上限为___点。 【热意】达到」
+  - `#5[i]`笑 → Param 5: 上下文「立即施放1次固定计入___笑点的【举杯！敬炽」
+  - `#6[i]`个 → Param 6: 上下文「[i]点【热意】以及___个笑点，【热意】上」
+  - `#7[i]`点 → Param 7: 上下文「击后，砂金•戏浪获得___点【热意】以及#6」
 
 - **Max Effect**：The duration of Aventurine • Waveflair's "Certified Banger" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains 1 "Fervor" and 1 Punchline. "Fervor" is capped at 30 points.
 When "Fervor" reaches 10, Aventurine • Waveflair uses 1 instance of "Cheers! To Summer's Blaze" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into "All In! To Summer's Blaze."
@@ -217,14 +217,14 @@ While Aventurine • Waveflair holds "Certified Banger," Skill additionally deal
 - **Effect Template**：Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via actively attacking enemies, deals Quantum DMG to all enemies equal to #1[i]% of Aventurine • Waveflair's ATK, and gains #2[i] "Fervor" and #3[i] "Certified Banger." Technique Points are not consumed if no enemies are hit.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 100% | 2 | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
-  - `#2[i]`点 → 参数2：上下文「性伤害，并使自身获得___点【热意】和#3[」
-  - `#3[i]`点 → 参数3：上下文「2[i]点【热意】和___点【好活当赏】。未」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于砂金•戏浪___%攻击力的量子属性」
+  - `#2[i]`点 → Param 2: 上下文「性伤害，并使自身获得___点【热意】和#3[」
+  - `#3[i]`点 → Param 3: 上下文「2[i]点【热意】和___点【好活当赏】。未」
 
 - **Max Effect**：Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via actively attacking enemies, deals Quantum DMG to all enemies equal to 100% of Aventurine • Waveflair's ATK, and gains 2 "Fervor" and 20 "Certified Banger." Technique Points are not consumed if no enemies are hit.
 

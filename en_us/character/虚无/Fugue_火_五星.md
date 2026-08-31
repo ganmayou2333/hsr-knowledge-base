@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于忘归人___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于忘归人___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Fugue's ATK to one designated enemy.
 
@@ -110,7 +110,7 @@ While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an 
 处于【炽灼】状态时，忘归人普攻获得强化。持有【狐祈】的我方目标每次施放攻击时，忘归人有#3[i]%的基础概率使受到攻击的敌方目标防御力降低#4[i]%，持续#5[i]回合。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 (%) | Param 5 | Param 6 (%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 3 | 15% | 100% | 8% | 2 | 50% |
   | Lv.2 | 3 | 16.5% | 100% | 9% | 2 | 50% |
@@ -129,12 +129,12 @@ While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an 
   | Lv.15 | 3 | 37.5% | 100% | 23% | 2 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「入【炽灼】状态，持续___回合，忘归人每回合」
-  - `#2[i]`% → 参数2(%)：上下文「方目标，击破特攻提高___%，攻击没有对应属」
-  - `#3[i]`% → 参数3(%)：上下文「施放攻击时，忘归人有___%的基础概率使受到」
-  - `#4[i]`% → 参数4(%)：上下文「的敌方目标防御力降低___%，持续#5[i]」
-  - `#5[i]`回 → 参数5：上下文「低#4[i]%，持续___回合。」
-  - `#6[i]`% → 参数6(%)：上下文「效果等同于原削韧值的___%，无法与其他无视」
+  - `#1[i]`回 → Param 1: 上下文「入【炽灼】状态，持续___回合，忘归人每回合」
+  - `#2[i]`% → Param 2 (%): 上下文「方目标，击破特攻提高___%，攻击没有对应属」
+  - `#3[i]`% → Param 3 (%): 上下文「施放攻击时，忘归人有___%的基础概率使受到」
+  - `#4[i]`% → Param 4 (%): 上下文「的敌方目标防御力降低___%，持续#5[i]」
+  - `#5[i]`回 → Param 5: 上下文「低#4[i]%，持续___回合。」
+  - `#6[i]`% → Param 6 (%): 上下文「效果等同于原削韧值的___%，无法与其他无视」
 
 - **Max Effect**：Grants one designated ally "Foxian Prayer". Enters the "Torrid Scorch" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. "Foxian Prayer" only takes effect on the most recent target of Fugue's Skill.
 The ally target with "Foxian Prayer" increases their Break Effect by 37.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.
@@ -147,7 +147,7 @@ While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an 
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 100% |
   | Lv.2 | 110% |
@@ -166,7 +166,7 @@ While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an 
   | Lv.15 | 250% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于忘归人___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于忘归人___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 250% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.
 
@@ -179,7 +179,7 @@ While Fugue is on the field and after allies attack Weakness Broken enemy target
 忘归人在场时，我方攻击处于弱点击破状态的敌方目标后，会将本次攻击的削韧值转化为1次#1[i]%的超击破伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 50% | 40% |
   | Lv.2 | 55% | 40% |
@@ -198,8 +198,8 @@ While Fugue is on the field and after allies attack Weakness Broken enemy target
   | Lv.15 | 125% | 40% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「击的削韧值转化为1次___%的超击破伤害。」
-  - `#2[i]`% → 参数2(%)：上下文「上等同于自身韧性上限___%的【云火昭】，在」
+  - `#1[i]`% → Param 1 (%): 上下文「击的削韧值转化为1次___%的超击破伤害。」
+  - `#2[i]`% → Param 2 (%): 上下文「上等同于自身韧性上限___%的【云火昭】，在」
 
 - **Max Effect**：While Fugue is on the field, enemy targets will get additionally afflicted with "Cloudflame Luster," equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, "Cloudflame Luster" can continue to be reduced. When "Cloudflame Luster" is reduced to 0, the enemy will receive Weakness Break DMG again.
 While Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 125% Super Break DMG.
@@ -213,15 +213,15 @@ After entering battle via actively attacking Dazed enemies, Fugue's action advan
 若主动攻击陷入晕眩状态的敌人，进入战斗后忘归人行动提前#4[i]%，并有#2[i]%的基础概率使敌方每个单体目标陷入与忘归人战技相同的防御力降低状态，持续#3[i]回合。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 10 | 100% | 2 | 40% |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
-  - `#2[i]`% → 参数2(%)：上下文「前#4[i]%，并有___%的基础概率使敌方」
-  - `#3[i]`回 → 参数3：上下文「防御力降低状态，持续___回合。」
-  - `#4[i]`% → 参数4(%)：上下文「战斗后忘归人行动提前___%，并有#2[i]」
+  - `#1[i]`秒 → Param 1: 上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
+  - `#2[i]`% → Param 2 (%): 上下文「前#4[i]%，并有___%的基础概率使敌方」
+  - `#3[i]`回 → Param 3: 上下文「防御力降低状态，持续___回合。」
+  - `#4[i]`% → Param 4 (%): 上下文「战斗后忘归人行动提前___%，并有#2[i]」
 
 - **Max Effect**：After using Technique, inflicts Daze on enemies within a certain area, lasting for 10 second(s). While Dazed, enemies will not actively attack ally targets.
 After entering battle via actively attacking Dazed enemies, Fugue's action advances by 40%, with a 100% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for 2 turn(s).

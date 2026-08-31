@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Boothill's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于波提欧___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于波提欧___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Boothill's ATK to one designated enemy target.
 
@@ -108,7 +108,7 @@ This Skill cannot regenerate Energy. After using this Skill, the current turn do
 处于【绝命对峙】的敌方目标陷入嘲讽状态。该目标/波提欧受到对方攻击时，受到的伤害提高#1[i]%/#2[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 15% | 15% | 2 |
   | Lv.2 | 16.5% | 15% | 2 |
@@ -127,9 +127,9 @@ This Skill cannot regenerate Energy. After using this Skill, the current turn do
   | Lv.15 | 37.5% | 15% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「击时，受到的伤害提高___%/#2[i]%。」
-  - `#2[i]`% → 参数2(%)：上下文「害提高#1[i]%/___%。 该目标被消灭」
-  - `#3[i]`回 → 参数3：上下文「且无法施放战技，持续___回合，波提欧每回合」
+  - `#1[i]`% → Param 1 (%): 上下文「击时，受到的伤害提高___%/#2[i]%。」
+  - `#2[i]`% → Param 2 (%): 上下文「害提高#1[i]%/___%。 该目标被消灭」
+  - `#3[i]`回 → Param 3: 上下文「且无法施放战技，持续___回合，波提欧每回合」
 
 - **Max Effect**：Forces Boothill and one designated enemy target into the "Standoff" state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for 2 turn(s). This duration decreases by 1 at the start of Boothill's every turn.
 The enemy target in the "Standoff" becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by 37.5%/15%.
@@ -145,7 +145,7 @@ Deals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays th
 对该目标造成等同于波提欧#1[i]%攻击力的物理属性伤害，并使其行动延后#2[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 240% | 30% | 2 |
   | Lv.2 | 256% | 31% | 2 |
@@ -164,9 +164,9 @@ Deals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays th
   | Lv.15 | 480% | 45% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于波提欧___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「伤害，并使其行动延后___%。」
-  - `#3[i]`回 → 参数3：上下文「体添加物理弱点，持续___回合。 对该目标造」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于波提欧___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「伤害，并使其行动延后___%。」
+  - `#3[i]`回 → Param 3: 上下文「体添加物理弱点，持续___回合。 对该目标造」
 
 - **Max Effect**：Applies Physical Weakness to one designated enemy target, lasting for 2 turn(s).
 Deals Physical DMG equal to 480% of Boothill's ATK to the target and delays their action by 45%.
@@ -181,7 +181,7 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 施放强化普攻期间，若目标处于弱点击破状态，基于【优势口袋】层数，对目标造成等同于波提欧#1[i]%/#2[i]%/#3[i]%物理属性击破伤害的击破伤害，该伤害计入的韧性上限不超过普攻【蹄铁裂颅】基础削韧值的#6[i]倍。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 (%) | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 35% | 60% | 85% | 50% | 3 | 16 |
   | Lv.2 | 38.5% | 66% | 93.5% | 50% | 3 | 16 |
@@ -200,12 +200,12 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
   | Lv.15 | 87.5% | 150% | 212.5% | 50% | 3 | 16 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于波提欧___%/#2[i]%/」
-  - `#2[i]`% → 参数2(%)：上下文「波提欧#1[i]%/___%/#3[i]%物」
-  - `#3[i]`% → 参数3(%)：上下文「]%/#2[i]%/___%物理属性击破伤害」
-  - `#4[i]`% → 参数4(%)：上下文「强化普攻的削韧值提高___%，最多叠加#5[」
-  - `#5[i]`层 → 参数5：上下文「4[i]%，最多叠加___层。 施放强化普攻」
-  - `#6[i]`倍 → 参数6：上下文「铁裂颅】基础削韧值的___倍。 战斗胜利后，」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于波提欧___%/#2[i]%/」
+  - `#2[i]`% → Param 2 (%): 上下文「波提欧#1[i]%/___%/#3[i]%物」
+  - `#3[i]`% → Param 3 (%): 上下文「]%/#2[i]%/___%物理属性击破伤害」
+  - `#4[i]`% → Param 4 (%): 上下文「强化普攻的削韧值提高___%，最多叠加#5[」
+  - `#5[i]`层 → Param 5: 上下文「4[i]%，最多叠加___层。 施放强化普攻」
+  - `#6[i]`倍 → Param 6: 上下文「铁裂颅】基础削韧值的___倍。 战斗胜利后，」
 
 - **Max Effect**：Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by 50%, stacking up to 3 time(s).
 If the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target equal to 87.5%/150%/212.5% of Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed 16 times the base Toughness Reduction of the Basic Attack "Skullcrush Spurs."
@@ -218,12 +218,12 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 - **Effect Template**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for #1[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「相同的物理弱点，持续___回合。」
+  - `#1[i]`回 → Param 1: 上下文「相同的物理弱点，持续___回合。」
 
 - **Max Effect**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for 2 turn(s).
 

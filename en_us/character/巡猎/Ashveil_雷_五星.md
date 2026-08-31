@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于不死途___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于不死途___%攻击力的雷属性伤」
 
 - **Max Effect**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 When there is no "Bait" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the "Bait." The "Bait" state only takes effect on the most recently applied target.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 1 | 50% | 20% | 1 |
   | Lv.2 | 110% | 1 | 55% | 22% | 1 |
@@ -124,11 +124,11 @@ When there is no "Bait" on the field, Ashveil immediately makes the enemy target
   | Lv.15 | 250% | 1 | 125% | 50% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「对其造成等同于不死途___%攻击力的雷属性伤」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「对其造成等同于不死途___%攻击力的雷属性伤」
-  - `#4[i]`% → 参数4(%)：上下文「，敌方全体防御力降低___%。 场上不存在【」
-  - `#5[i]`点 → 参数5：上下文「的雷属性伤害，并恢复___点战技点。场上存在」
+  - `#1[i]`% → Param 1 (%): 上下文「对其造成等同于不死途___%攻击力的雷属性伤」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「对其造成等同于不死途___%攻击力的雷属性伤」
+  - `#4[i]`% → Param 4 (%): 上下文「，敌方全体防御力降低___%。 场上不存在【」
+  - `#5[i]`点 → Param 5: 上下文「的雷属性伤害，并恢复___点战技点。场上存在」
 
 - **Max Effect**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to 250% of Ashveil's ATK. If the target is already the "Bait," additionally deals it Lightning DMG equal to 125% of Ashveil's ATK, and recovers 1 Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced by 50%.
 When there is no "Bait" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the "Bait." The "Bait" state only takes effect on the most recently applied target.
@@ -144,7 +144,7 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
 强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗#3[i]层【婪酣】可额外造成1次等同于不死途#4[i]%攻击力的雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于#3[i]层。若当前场上的所有敌方目标都受到致命攻击后强化天赋追加攻击会立即结束。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 200% | 3 | 4 | 100% |
   | Lv.2 | 220% | 3 | 4 | 110% |
@@ -163,10 +163,10 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
   | Lv.15 | 500% | 3 | 4 | 250% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「对其造成等同于不死途___%攻击力的雷属性伤」
-  - `#2[i]`点 → 参数2：上下文「加攻击，且不死途获得___点充能。 强化天赋」
-  - `#3[i]`层 → 参数3：上下文「害，直至【婪酣】小于___层。若当前场上的所」
-  - `#4[i]`% → 参数4(%)：上下文「造成1次等同于不死途___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「对其造成等同于不死途___%攻击力的雷属性伤」
+  - `#2[i]`点 → Param 2: 上下文「加攻击，且不死途获得___点充能。 强化天赋」
+  - `#3[i]`层 → Param 3: 上下文「害，直至【婪酣】小于___层。若当前场上的所」
+  - `#4[i]`% → Param 4 (%): 上下文「造成1次等同于不死途___%攻击力的雷属性伤」
 
 - **Max Effect**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to 500% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the "Bait." And Ashveil gains 3 Charge.
 This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony" reaches 4 stack(s) or more, consumes 4 stack(s) of "Gluttony" to additionally deal 1 instance of Lightning DMG equal to 250% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new "Bait." This triggers until "Gluttony" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end.
@@ -178,7 +178,7 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
 - **Effect Template**：Ashveil has an initial Charge of #1[i] and can hold up to a max of #2[i]. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of #7[i] Energy, then consumes #3[i] Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to #4[i]% of Ashveil's ATK. Afterwards, gains #5[i] stack(s) of "Gluttony," which can stack up to #6[i].
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 | 参数7 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 (%) | Param 5 | Param 6 | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 3 | 1 | 100% | 2 | 12 | 8 |
   | Lv.2 | 2 | 3 | 1 | 110% | 2 | 12 | 8 |
@@ -197,13 +197,13 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
   | Lv.15 | 2 | 3 | 1 | 250% | 2 | 12 | 8 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「不死途初始拥有___点充能，最多拥有#」
-  - `#2[i]`点 → 参数2：上下文「i]点充能，最多拥有___点充能。【饲饵】受」
-  - `#3[i]`点 → 参数3：上下文「i]点能量，随后消耗___点充能对【饲饵】发」
-  - `#4[i]`% → 参数4(%)：上下文「击，造成等同于不死途___%攻击力的雷属性伤」
-  - `#5[i]`层 → 参数5：上下文「雷属性伤害，随后获得___层【婪酣】，最多叠」
-  - `#6[i]`层 → 参数6：上下文「层【婪酣】，最多叠加___层。」
-  - `#7[i]`点 → 参数7：上下文「击后，不死途固定恢复___点能量，随后消耗#」
+  - `#1[i]`点 → Param 1: 上下文「不死途初始拥有___点充能，最多拥有#」
+  - `#2[i]`点 → Param 2: 上下文「i]点充能，最多拥有___点充能。【饲饵】受」
+  - `#3[i]`点 → Param 3: 上下文「i]点能量，随后消耗___点充能对【饲饵】发」
+  - `#4[i]`% → Param 4 (%): 上下文「击，造成等同于不死途___%攻击力的雷属性伤」
+  - `#5[i]`层 → Param 5: 上下文「雷属性伤害，随后获得___层【婪酣】，最多叠」
+  - `#6[i]`层 → Param 6: 上下文「层【婪酣】，最多叠加___层。」
+  - `#7[i]`点 → Param 7: 上下文「击后，不死途固定恢复___点能量，随后消耗#」
 
 - **Max Effect**：Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to 250% of Ashveil's ATK. Afterwards, gains 2 stack(s) of "Gluttony," which can stack up to 12.
 
@@ -216,14 +216,14 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于不死途攻击力#2[i]%的雷属性伤害，且不死途获得#3[i]点充能。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 10 | 100% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
-  - `#2[i]`% → 参数2(%)：上下文「成等同于不死途攻击力___%的雷属性伤害，且」
-  - `#3[i]`点 → 参数3：上下文「性伤害，且不死途获得___点充能。」
+  - `#1[i]`秒 → Param 1: 上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
+  - `#2[i]`% → Param 2 (%): 上下文「成等同于不死途攻击力___%的雷属性伤害，且」
+  - `#3[i]`点 → Param 3: 上下文「性伤害，且不死途获得___点充能。」
 
 - **Max Effect**：After using Technique, inflicts Daze on enemies within a set area for 10 second(s). Dazed enemies will not actively attack ally targets.
 When entering combat via actively attacking a Dazed enemy, deals Lightning DMG to all enemies equal to 100% of Ashveil's ATK, and grants Ashveil 1 Charge.

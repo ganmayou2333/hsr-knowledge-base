@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Ruan Mei's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于阮•梅___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于阮•梅___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of Ruan Mei's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 16% | 50% | 3 |
   | Lv.2 | 17.6% | 50% | 3 |
@@ -123,9 +123,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 40% | 50% | 3 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「%，弱点击破效率提高___%。」
-  - `#3[i]`回 → 参数3：上下文「获得【弦外音】，持续___回合，阮•梅每回合」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「%，弱点击破效率提高___%。」
+  - `#3[i]`回 → Param 3: 上下文「获得【弦外音】，持续___回合，阮•梅每回合」
 
 - **Max Effect**：After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by 50%.
 
@@ -141,7 +141,7 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
 【残梅绽】会在敌方目标尝试从弱点击破状态恢复时触发，延长目标的弱点击破状态并使其行动延后，延后数值等同于阮•梅#3[i]%的击破特攻+#4[i]%，并对其造成等同于阮•梅#5[i]%冰属性击破伤害的击破伤害。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 (%) | Param 5 (%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 2 | 20% | 10% | 30% |
   | Lv.2 | 16% | 2 | 20% | 10% | 32% |
@@ -160,11 +160,11 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
   | Lv.15 | 30% | 2 | 20% | 10% | 60% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`回 → 参数2：上下文「阮•梅展开结界，持续___回合，自身每回合开」
-  - `#3[i]`% → 参数3(%)：上下文「延后数值等同于阮•梅___%的击破特攻+#4」
-  - `#4[i]`% → 参数4(%)：上下文「[i]%的击破特攻+___%，并对其造成等同」
-  - `#5[i]`% → 参数5(%)：上下文「对其造成等同于阮•梅___%冰属性击破伤害的」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`回 → Param 2: 上下文「阮•梅展开结界，持续___回合，自身每回合开」
+  - `#3[i]`% → Param 3 (%): 上下文「延后数值等同于阮•梅___%的击破特攻+#4」
+  - `#4[i]`% → Param 4 (%): 上下文「[i]%的击破特攻+___%，并对其造成等同」
+  - `#5[i]`% → Param 5 (%): 上下文「对其造成等同于阮•梅___%冰属性击破伤害的」
 
 - **Max Effect**：Ruan Mei deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of her turn.
 While inside the Zone, all allies' All-Type RES PEN increases by #1[f1]% and their attacks apply Thanatoplum Rebloom to the enemies hit.
@@ -179,7 +179,7 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
 - **Effect Template**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 8% | 60% |
   | Lv.2 | 8.2% | 66% |
@@ -198,8 +198,8 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
   | Lv.15 | 11% | 1.5 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
 
@@ -212,15 +212,15 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 在模拟宇宙、差分宇宙中，当阮•梅拥有【拭琴抚罗袂】时，我方主动攻击敌人时总会视为利用弱点进入战斗，且本次攻击可以无视弱点属性削减敌方全体的韧性。击破弱点时，触发攻击者自身属性的弱点击破效果。每拥有1个祝福，本次攻击的削韧值额外提高#2[i]%，且击破敌方目标弱点后对其额外造成等同于阮•梅#3[i]%冰属性击破伤害的击破伤害，最多计入#4[i]个祝福。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 100% | 100% | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`次 → 参数1：上下文「次战斗开始时自动触发___次战技，此次触发不」
-  - `#2[i]`% → 参数2(%)：上下文「攻击的削韧值额外提高___%，且击破敌方目标」
-  - `#3[i]`% → 参数3(%)：上下文「额外造成等同于阮•梅___%冰属性击破伤害的」
-  - `#4[i]`个 → 参数4：上下文「的击破伤害，最多计入___个祝福。」
+  - `#1[i]`次 → Param 1: 上下文「次战斗开始时自动触发___次战技，此次触发不」
+  - `#2[i]`% → Param 2 (%): 上下文「攻击的削韧值额外提高___%，且击破敌方目标」
+  - `#3[i]`% → Param 3 (%): 上下文「额外造成等同于阮•梅___%冰属性击破伤害的」
+  - `#4[i]`个 → Param 4: 上下文「的击破伤害，最多计入___个祝福。」
 
 - **Max Effect**：After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for 1 time(s) without consuming Skill Points.
 In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter combat, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a max of 20 Blessings will be taken into account), additionally increases the Toughness Reduction of this attack by 100%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to 100% of Ruan Mei's Ice Break DMG.

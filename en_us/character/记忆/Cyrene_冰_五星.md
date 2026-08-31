@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains #2[i] "Recollection" point(s) and deals Ice DMG equal to #1[i]% of Cyrene's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 25% | 1 |
   | Lv.2 | 30% | 1 |
@@ -95,8 +95,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于昔涟___%生命上限的冰属性」
-  - `#2[i]`点 → 参数2：上下文「获得___点【追忆】并对指定」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于昔涟___%生命上限的冰属性」
+  - `#2[i]`点 → Param 2: 上下文「获得___点【追忆】并对指定」
 
 - **Max Effect**：Gains 1 "Recollection" point(s) and deals Ice DMG equal to 70% of Cyrene's Max HP to one designated enemy.
 
@@ -107,7 +107,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains #3[i] "Recollection" point(s) and deploys a Zone that lasts for #2[i] turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to #1[i]% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 12% | 2 | 3 |
   | Lv.2 | 13.2% | 2 | 3 |
@@ -126,9 +126,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 30% | 2 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成1次等同于原伤害___%的真实伤害。当昔」
-  - `#2[i]`回 → 参数2：上下文「忆】并展开结界，持续___回合，昔涟每回合开」
-  - `#3[i]`点 → 参数3：上下文「获得___点【追忆】并展开结」
+  - `#1[i]`% → Param 1 (%): 上下文「造成1次等同于原伤害___%的真实伤害。当昔」
+  - `#2[i]`回 → Param 2: 上下文「忆】并展开结界，持续___回合，昔涟每回合开」
+  - `#3[i]`点 → Param 3: 上下文「获得___点【追忆】并展开结」
 
 - **Max Effect**：Gains 3 "Recollection" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 30% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
 
@@ -141,7 +141,7 @@ Can only be used once per battle. Demiurge's initial Max HP equals to #1[i]% of 
 单场战斗中只能施放1次。德谬歌初始拥有等同于昔涟#1[i]%生命上限的生命上限。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 24 | 25% | 12 |
   | Lv.2 | 100% | 24 | 27.5% | 12 |
@@ -160,10 +160,10 @@ Can only be used once per battle. Demiurge's initial Max HP equals to #1[i]% of 
   | Lv.15 | 100% | 24 | 62.5% | 12 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「歌初始拥有等同于昔涟___%生命上限的生命上」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「和德谬歌的暴击率提高___%，展开战技的结界」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「歌初始拥有等同于昔涟___%生命上限的生命上」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「和德谬歌的暴击率提高___%，展开战技的结界」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state. Enhances Basic ATK to "To Love and Tomorrow ♪" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 62.5%, and deploys the Zone effect from Skill with no duration limit.
 Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP.
@@ -175,7 +175,7 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 - **Effect Template**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene #1[i] "Recollection" point(s). When Cyrene has #4[i] "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has #5[i] "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to #3[i] points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 1 | 10% | 27 | 24 | 12 |
   | Lv.2 | 1 | 11% | 27 | 24 | 12 |
@@ -194,11 +194,11 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
   | Lv.15 | 1 | 25% | 27 | 24 | 12 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「耗【未来】使昔涟获得___点【追忆】。昔涟在」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`点 → 参数3：上下文「上限后还可最多溢出至___点。昔涟在场时，我」
-  - `#4[i]`点 → 参数4：上下文「。昔涟在【追忆】达到___点时可激活终结技并」
-  - `#5[i]`点 → 参数5：上下文「状态时在【追忆】达到___点时可激活终结技，」
+  - `#1[i]`点 → Param 1: 上下文「耗【未来】使昔涟获得___点【追忆】。昔涟在」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`点 → Param 3: 上下文「上限后还可最多溢出至___点。昔涟在场时，我」
+  - `#4[i]`点 → Param 4: 上下文「。昔涟在【追忆】达到___点时可激活终结技并」
+  - `#5[i]`点 → Param 5: 上下文「状态时在【追忆】达到___点时可激活终结技，」
 
 - **Max Effect**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene 1 "Recollection" point(s). When Cyrene has 24 "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has 12 "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
 
@@ -209,13 +209,13 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 - **Effect Template**：After using Technique, creates a Special Dimension that lasts for #1[i] second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have #2[i]% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) |
+| Level | Param 1 | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 30 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「自身周围制造1片持续___秒的特殊领域，处于」
-  - `#2[i]`% → 参数2(%)：上下文「我方角色移动速度提高___%。持续时间内进入」
+  - `#1[i]`秒 → Param 1: 上下文「自身周围制造1片持续___秒的特殊领域，处于」
+  - `#2[i]`% → Param 2 (%): 上下文「我方角色移动速度提高___%。持续时间内进入」
 
 - **Max Effect**：After using Technique, creates a Special Dimension that lasts for 30 second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have 50% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
 

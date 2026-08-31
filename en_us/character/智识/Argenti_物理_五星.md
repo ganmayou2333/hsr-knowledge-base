@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于银枝___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于银枝___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Argenti's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 60% |
   | Lv.2 | 66% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 150% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于银枝___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于银枝___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 150% of Argenti's ATK to all enemies.
 
@@ -134,7 +134,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Consumes #2[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 96% | 90 |
   | Lv.2 | 102.4% | 90 |
@@ -153,8 +153,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 192% | 90 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于银枝___%攻击力的物理属性」
-  - `#2[i]`点 → 参数2：上下文「消耗___点能量，对敌方全体」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于银枝___%攻击力的物理属性」
+  - `#2[i]`点 → Param 2: 上下文「消耗___点能量，对敌方全体」
 
 - **Max Effect**：Consumes 90 Energy and deals Physical DMG equal to 192% of Argenti's ATK to all enemies.
 
@@ -165,7 +165,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by #1[i], and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to #3[i] time(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 3 | 1% | 10 |
   | Lv.2 | 3 | 1.15% | 10 |
@@ -184,9 +184,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 3 | 3.25% | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「敌方目标，为银枝恢复___点能量并获得1层【」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`层 → 参数3：上下文「]%，该效果最多叠加___层。」
+  - `#1[i]`点 → Param 1: 上下文「敌方目标，为银枝恢复___点能量并获得1层【」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`层 → Param 3: 上下文「]%，该效果最多叠加___层。」
 
 - **Max Effect**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to 10 time(s).
 
@@ -199,14 +199,14 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于银枝#2[i]%攻击力的物理属性伤害，并使银枝恢复#3[i]点能量。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 10 | 80% | 15 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
-  - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于银枝___%攻击力的物理属性」
-  - `#3[i]`点 → 参数3：上下文「性伤害，并使银枝恢复___点能量。」
+  - `#1[i]`秒 → Param 1: 上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
+  - `#2[i]`% → Param 2 (%): 上下文「方全体造成等同于银枝___%攻击力的物理属性」
+  - `#3[i]`点 → Param 3: 上下文「性伤害，并使银枝恢复___点能量。」
 
 - **Max Effect**：After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team.
 When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15.

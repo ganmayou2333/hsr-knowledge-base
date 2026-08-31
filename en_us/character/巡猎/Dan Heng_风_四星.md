@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 140% of Dan Heng's ATK to one enemy.
 
@@ -106,7 +106,7 @@ When DMG dealt by Skill triggers CRIT Hit, there is a #4[i]% base chance to redu
 战技造成的伤害触发暴击时，有#4[i]%的基础概率使受到攻击的敌方目标速度降低#2[i]%，持续#3[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 130% | 12% | 2 | 100% |
   | Lv.2 | 143% | 12% | 2 | 100% |
@@ -125,10 +125,10 @@ When DMG dealt by Skill triggers CRIT Hit, there is a #4[i]% base chance to redu
   | Lv.15 | 325% | 12% | 2 | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「击的敌方目标速度降低___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
-  - `#4[i]`% → 参数4(%)：上下文「的伤害触发暴击时，有___%的基础概率使受到」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「击的敌方目标速度降低___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「低#2[i]%，持续___回合。」
+  - `#4[i]`% → Param 4 (%): 上下文「的伤害触发暴击时，有___%的基础概率使受到」
 
 - **Max Effect**：Deals Wind DMG equal to 325% of Dan Heng's ATK to one designated enemy.
 When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12%, lasting for 2 turn(s).
@@ -140,7 +140,7 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by #2[i]%.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 240% | 72% |
   | Lv.2 | 256% | 76.8% |
@@ -159,8 +159,8 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
   | Lv.15 | 480% | 144% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「技造成的伤害倍率提高___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「技造成的伤害倍率提高___%。」
 
 - **Max Effect**：Deals Wind DMG equal to 480% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by 144%.
 
@@ -171,7 +171,7 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 - **Effect Template**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 18% | 2 |
   | Lv.2 | 19.8% | 2 |
@@ -190,8 +190,8 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
   | Lv.15 | 45% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的风属性抗性穿透提高___%。该效果在#2[」
-  - `#2[i]`回 → 参数2：上下文「1[i]%。该效果在___回合后可再次触发。」
+  - `#1[i]`% → Param 1 (%): 上下文「的风属性抗性穿透提高___%。该效果在#2[」
+  - `#2[i]`回 → Param 2: 上下文「1[i]%。该效果在___回合后可再次触发。」
 
 - **Max Effect**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by 45%. This effect can be triggered again after 2 turn(s).
 
@@ -202,13 +202,13 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 - **Effect Template**：After Dan Heng uses his Technique, his ATK increases by #1[i]% at the start of the next battle for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 40% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「开始时丹恒攻击力提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「开始时丹恒攻击力提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
 
 - **Max Effect**：After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s).
 

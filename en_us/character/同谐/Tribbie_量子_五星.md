@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to #2[i]% of Tribbie's Max HP to adjacent targets.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 15% | 7.5% |
   | Lv.2 | 18% | 9% |
@@ -95,8 +95,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 42% | 21% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于缇宝___%生命上限的量子属」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于缇宝___%生命上限的量子属」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于缇宝___%生命上限的量子属」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于缇宝___%生命上限的量子属」
 
 - **Max Effect**：Deals Quantum DMG equal to 42% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to 21% of Tribbie's Max HP to adjacent targets.
 
@@ -107,7 +107,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains "Numinosity," lasting for #2[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 12% | 3 |
   | Lv.2 | 13.2% | 3 |
@@ -126,8 +126,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 30% | 3 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`回 → 参数2：上下文「获得【神启】，持续___回合，自身每回合开」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`回 → Param 2: 上下文「获得【神启】，持续___回合，自身每回合开」
 
 - **Max Effect**：Gains "Numinosity," lasting for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
 
@@ -142,7 +142,7 @@ The Zone lasts for #4[i] turn(s). This duration decreases by 1 at the start of t
 结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 15% | 15% | 6% | 2 |
   | Lv.2 | 16.5% | 16.5% | 6.6% | 2 |
@@ -161,10 +161,10 @@ The Zone lasts for #4[i] turn(s). This duration decreases by 1 at the start of t
   | Lv.15 | 37.5% | 37.5% | 15% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于缇宝___%生命上限的量子属」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「附加伤害。 结界持续___回合，自身每回合开」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于缇宝___%生命上限的量子属」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「附加伤害。 结界持续___回合，自身每回合开」
 
 - **Max Effect**：Activates a Zone and deals Quantum DMG equal to 37.5% of Tribbie's Max HP to all enemies.
 While the Zone lasts, increases enemy targets' DMG taken by #2[f1]%. After an ally target attacks, for every 1 target hit, deals 1 instance of Quantum Additional DMG equal to #3[f1]% of Tribbie's Max HP to the target that has the highest HP among the hit targets.
@@ -178,7 +178,7 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 - **Effect Template**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 9% |
   | Lv.2 | 9.9% |
@@ -197,7 +197,7 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
   | Lv.15 | 22.5% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
 
@@ -208,12 +208,12 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 - **Effect Template**：After using Technique and upon entering battle, obtains "Numinosity," lasting for #1[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「时获得【神启】，持续___回合。」
+  - `#1[i]`回 → Param 1: 上下文「时获得【神启】，持续___回合。」
 
 - **Max Effect**：After using Technique and upon entering battle, obtains "Numinosity," lasting for 3 turn(s).
 

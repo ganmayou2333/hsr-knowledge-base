@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于貊泽___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于貊泽___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 140% of Moze's ATK to one designated enemy target.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 When there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's "Prey" state.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 75% | 9 |
   | Lv.2 | 82.5% | 9 |
@@ -124,8 +124,8 @@ When there are no other characters on the field that are capable of combat, Moze
   | Lv.15 | 187.5% | 9 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「并对其造成等同于貊泽___%攻击力的雷属性伤」
-  - `#2[i]`点 → 参数2：上下文「的雷属性伤害，并获得___点充能。 当场上没」
+  - `#1[i]`% → Param 1 (%): 上下文「并对其造成等同于貊泽___%攻击力的雷属性伤」
+  - `#2[i]`点 → Param 2: 上下文「的雷属性伤害，并获得___点充能。 当场上没」
 
 - **Max Effect**：Marks a designated single enemy target as "Prey" and deals to it Lightning DMG equal to 187.5% of Moze's ATK, and gains 9 points of Charge.
 When there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's "Prey" state.
@@ -137,7 +137,7 @@ When there are no other characters on the field that are capable of combat, Moze
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 162% |
   | Lv.2 | 172.8% |
@@ -156,7 +156,7 @@ When there are no other characters on the field that are capable of combat, Moze
   | Lv.15 | 324% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于貊泽___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于貊泽___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 324% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
 
@@ -171,7 +171,7 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身#1[i]%攻击力的雷属性附加伤害，并消耗1点充能。每消耗#2[i]点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身#3[i]%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。天赋的追加攻击不会消耗充能。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 15% | 3 | 80% |
   | Lv.2 | 16.5% | 3 | 88% |
@@ -190,9 +190,9 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
   | Lv.15 | 37.5% | 3 | 200% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「外造成1次等同于自身___%攻击力的雷属性附」
-  - `#2[i]`点 → 参数2：上下文「消耗1点充能。每消耗___点充能，貊泽会对【」
-  - `#3[i]`% → 参数3(%)：上下文「攻击，造成等同于自身___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「外造成1次等同于自身___%攻击力的雷属性附」
+  - `#2[i]`点 → Param 2: 上下文「消耗1点充能。每消耗___点充能，貊泽会对【」
+  - `#3[i]`% → Param 3 (%): 上下文「攻击，造成等同于自身___%攻击力的雷属性伤」
 
 - **Max Effect**：When "Prey" exists on the field, Moze will enter the Departed state.
 After ally targets attack "Prey," Moze will additionally deal 1 instance of Lightning Additional DMG equal to 37.5% of his ATK and consumes 1 point of Charge. For every 3 point(s) of Charge consumed, Moze launches 1 Follow-Up ATK to "Prey," dealing Lightning DMG equal to 200% of his ATK. When Charge reaches 0, dispels the target's "Prey" state and resets the tally of Charge points required to launch Follow-Up ATK. Talent's Follow-Up ATK does not consume Charge.
@@ -204,14 +204,14 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 - **Effect Template**：After using Technique, enters the Stealth state for #1[i] second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by #2[i]%, lasting for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 20 | 30% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的隐身状态。隐身」
-  - `#2[i]`% → 参数2(%)：上下文「人进入战斗时伤害提高___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。」
+  - `#1[i]`秒 → Param 1: 上下文「使用秘技后进入持续___秒的隐身状态。隐身」
+  - `#2[i]`% → Param 2 (%): 上下文「人进入战斗时伤害提高___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「高#2[i]%，持续___回合。」
 
 - **Max Effect**：After using Technique, enters the Stealth state for 20 second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by 30%, lasting for 2 turn(s).
 

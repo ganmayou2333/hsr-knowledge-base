@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Aglaea's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 50% | 1 |
   | Lv.2 | 60% | 1 |
@@ -95,8 +95,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于阿格莱雅___%攻击力的雷属性伤」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于阿格莱雅___%攻击力的雷属性伤」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Lightning DMG equal to 140% of Aglaea's ATK to one designated enemy.
 
@@ -107,7 +107,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 25% | 0 | 5 |
   | Lv.2 | 27.5% | 0 | 5 |
@@ -126,9 +126,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 62.5% | 0 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「为衣匠回复等同于其___%生命上限的生命值」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「为衣匠回复等同于其___%生命上限的生命值」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
 
@@ -143,7 +143,7 @@ A countdown appears in the Action Order, with its own SPD set at #4[i]. While th
 行动序列上出现倒计时，倒计时固定拥有#4[i]速度，倒计时存在期间再次施放终结技将重置倒计时，回合开始时使衣匠自毁。衣匠消失时阿格莱雅解除【至高之姿】状态。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 10% | 0 | 0 | 100 | 0 | 0 |
   | Lv.2 | 10.5% | 0 | 0 | 100 | 0 | 0 |
@@ -162,12 +162,12 @@ A countdown appears in the Action Order, with its own SPD set at #4[i]. While th
   | Lv.15 | 17.5% | 0 | 0 | 100 | 0 | 0 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`速 → 参数4：上下文「计时，倒计时固定拥有___速度，倒计时存在期」
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`速 → Param 4: 上下文「计时，倒计时固定拥有___速度，倒计时存在期」
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the "Supreme Stance" state and immediately takes action.
 While in "Supreme Stance," Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing this unit's SPD by #1[f1]%. Enhances Basic ATK to "Slash by a Thousandfold Kiss," and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.
@@ -181,7 +181,7 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 - **Effect Template**：The memosprite Garmentmaker has an initial SPD equal to #4[i]% of Aglaea's SPD and a Max HP equal to #5[i]% of Aglaea's Max HP plus #6[i]. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to #1[i]% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 (%) | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 12% | 0 | 0 | 35% | 44% | 180 |
   | Lv.2 | 13.8% | 0 | 0 | 35% | 46.75% | 247.5 |
@@ -200,12 +200,12 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
   | Lv.15 | 39% | 0 | 0 | 35% | 77% | 990 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「等同于阿格莱雅攻击力___%的雷属性附加伤害」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`% → 参数4(%)：上下文「始拥有等同于阿格莱雅___%速度的速度以及等」
-  - `#5[i]`% → 参数5(%)：上下文「度以及等同于阿格莱雅___%生命上限+#6[」
-  - `#6[i]`的 → 参数6：上下文「5[i]%生命上限+___的生命上限。衣匠在」
+  - `#1[i]`% → Param 1 (%): 上下文「等同于阿格莱雅攻击力___%的雷属性附加伤害」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「始拥有等同于阿格莱雅___%速度的速度以及等」
+  - `#5[i]`% → Param 5 (%): 上下文「度以及等同于阿格莱雅___%生命上限+#6[」
+  - `#6[i]`的 → Param 6: 上下文「5[i]%生命上限+___的生命上限。衣匠在」
 
 - **Max Effect**：The memosprite Garmentmaker has an initial SPD equal to 35% of Aglaea's SPD and a Max HP equal to 77% of Aglaea's Max HP plus 990. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to 39% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
 
@@ -216,13 +216,13 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 - **Effect Template**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates #2[i] Energy and deals Lightning DMG equal to #1[i]% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 100% | 30 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「标造成等同于阿格莱雅___%攻击力的雷属性伤」
-  - `#2[i]`点 → 参数2：上下文「击，进入战斗后，恢复___点能量，并对敌方全」
+  - `#1[i]`% → Param 1 (%): 上下文「标造成等同于阿格莱雅___%攻击力的雷属性伤」
+  - `#2[i]`点 → Param 2: 上下文「击，进入战斗后，恢复___点能量，并对敌方全」
 
 - **Max Effect**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates 30 Energy and deals Lightning DMG equal to 100% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
 

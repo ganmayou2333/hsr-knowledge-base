@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Jing Yuan deals Lightning DMG equal to #1[i]% of his ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于景元___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于景元___%攻击力的雷属性伤」
 
 - **Max Effect**：Jing Yuan deals Lightning DMG equal to 140% of his ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
   | Lv.2 | 55% | 2 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 125% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于景元___%攻击力的雷属性伤」
-  - `#2[i]`段 → 参数2：上下文「雷属性伤害，同时增加___段【神君】下回合的」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于景元___%攻击力的雷属性伤」
+  - `#2[i]`段 → Param 2: 上下文「雷属性伤害，同时增加___段【神君】下回合的」
 
 - **Max Effect**：Deals Lightning DMG equal to 125% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.
 
@@ -135,7 +135,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 120% | 3 |
   | Lv.2 | 128% | 3 |
@@ -154,8 +154,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 240% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于景元___%攻击力的雷属性伤」
-  - `#2[i]`段 → 参数2：上下文「雷属性伤害。同时增加___段【神君】下回合的」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于景元___%攻击力的雷属性伤」
+  - `#2[i]`段 → Param 2: 上下文「雷属性伤害。同时增加___段【神君】下回合的」
 
 - **Max Effect**：Deals Lightning DMG equal to 240% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.
 
@@ -170,7 +170,7 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 【神君】最多累计#6[i]段攻击段数且每增加1段攻击段数，速度提高#3[i]点，行动结束后速度和攻击段数恢复至初始状态。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 | Param 5 (%) | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60 | 33% | 10 | 3 | 25% | 10 |
   | Lv.2 | 60 | 36.3% | 10 | 3 | 25% | 10 |
@@ -189,12 +189,12 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
   | Lv.15 | 60 | 82.5% | 10 | 3 | 25% | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「】。【神君】初始拥有___点速度以及#4[i」
-  - `#2[i]`% → 参数2(%)：上下文「造成等同于景元攻击力___%的雷属性伤害，同」
-  - `#3[i]`点 → 参数3：上下文「段攻击段数，速度提高___点，行动结束后速度」
-  - `#4[i]`段 → 参数4：上下文「#1[i]点速度以及___段攻击段数，行动时」
-  - `#5[i]`% → 参数5(%)：上下文「目标造成等同于主目标___%的雷属性伤害。」
-  - `#6[i]`段 → 参数6：上下文「。 【神君】最多累计___段攻击段数且每增加」
+  - `#1[i]`点 → Param 1: 上下文「】。【神君】初始拥有___点速度以及#4[i」
+  - `#2[i]`% → Param 2 (%): 上下文「造成等同于景元攻击力___%的雷属性伤害，同」
+  - `#3[i]`点 → Param 3: 上下文「段攻击段数，速度提高___点，行动结束后速度」
+  - `#4[i]`段 → Param 4: 上下文「#1[i]点速度以及___段攻击段数，行动时」
+  - `#5[i]`% → Param 5 (%): 上下文「目标造成等同于主目标___%的雷属性伤害。」
+  - `#6[i]`段 → Param 6: 上下文「。 【神君】最多累计___段攻击段数且每增加」
 
 - **Max Effect**：Summons "Lightning-Lord" at the start of the battle. "Lightning-Lord" has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to 82.5% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy.
 The Lightning-Lord's Hits Per Action can reach a max of 10. Every time "Lightning-Lord's" Hits Per Action increases by 1, its SPD increases by 10. After the "Lightning-Lord's" action ends, its SPD and Hits Per Action return to their base values.
@@ -208,12 +208,12 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 - **Effect Template**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by #1[i] at the start of the next battle.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`段 → 参数1：上下文「1回合的攻击段数增加___段。」
+  - `#1[i]`段 → Param 1: 上下文「1回合的攻击段数增加___段。」
 
 - **Max Effect**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle.
 

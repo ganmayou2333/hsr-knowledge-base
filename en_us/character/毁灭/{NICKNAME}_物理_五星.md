@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于开拓者___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 62.5% |
   | Lv.2 | 68.75% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 156.25% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于开拓者___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于开拓者___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 156.25% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
 
@@ -138,7 +138,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者#2[i]%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者#3[i]%攻击力的物理属性伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 300% | 180% | 108% |
   | Lv.2 | 315% | 189% | 113.4% |
@@ -157,9 +157,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 525% | 315% | 189% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「单体造成等同于开拓者___%攻击力的物理属性」
-  - `#3[i]`% → 参数3(%)：上下文「目标造成等同于开拓者___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于开拓者___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「单体造成等同于开拓者___%攻击力的物理属性」
+  - `#3[i]`% → Param 3 (%): 上下文「目标造成等同于开拓者___%攻击力的物理属性」
 
 - **Max Effect**：Choose between two attack modes to deliver a full strike.
 "Blowout: Farewell Hit" deals Physical DMG equal to 525% of the Trailblazer's ATK to one designated enemy.
@@ -172,7 +172,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by #1[i]%. This effect stacks up to #2[i] time(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 10% | 2 |
   | Lv.2 | 11% | 2 |
@@ -191,8 +191,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 25% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的弱点后，攻击力提高___%，该效果最多叠加」
-  - `#2[i]`层 → 参数2：上下文「]%，该效果最多叠加___层。」
+  - `#1[i]`% → Param 1 (%): 上下文「的弱点后，攻击力提高___%，该效果最多叠加」
+  - `#2[i]`层 → Param 2: 上下文「]%，该效果最多叠加___层。」
 
 - **Max Effect**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by 25%. This effect stacks up to 2 time(s).
 
@@ -203,12 +203,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Immediately heals all allies for #1[i]% of their respective Max HP after using this Technique.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 15% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「复等同于各自生命上限___%的生命值。」
+  - `#1[i]`% → Param 1 (%): 上下文「复等同于各自生命上限___%的生命值。」
 
 - **Max Effect**：Immediately heals all allies for 15% of their respective Max HP after using this Technique.
 

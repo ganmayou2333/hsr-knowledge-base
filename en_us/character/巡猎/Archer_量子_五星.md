@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -92,7 +92,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.9 | 130% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于Archer___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 130% of Archer's ATK to one designated enemy.
 
@@ -103,7 +103,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill #5[i] time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 180% | 60% | 2 | 1 | 5 |
   | Lv.2 | 198% | 64% | 2 | 1 | 5 |
@@ -122,11 +122,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 450% | 120% | 2 | 1 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「r战技造成的伤害提高___%，该效果可以叠加」
-  - `#3[i]`层 → 参数3：上下文「]%，该效果可以叠加___层，持续至退出【回」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`次 → 参数5：上下文「连接】状态。主动施放___次战技后或战技点不」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于Archer___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「r战技造成的伤害提高___%，该效果可以叠加」
+  - `#3[i]`层 → Param 3: 上下文「]%，该效果可以叠加___层，持续至退出【回」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`次 → Param 5: 上下文「连接】状态。主动施放___次战技后或战技点不」
 
 - **Max Effect**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to 450% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by 120%. This effect can stack up to 2 time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill 5 time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
 
@@ -137,7 +137,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy and gains #2[i] point(s) of Charge, up to a maximum of #3[i].
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 600% | 2 | 4 |
   | Lv.2 | 640% | 2 | 4 |
@@ -156,9 +156,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 1200% | 2 | 4 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
-  - `#2[i]`点 → 参数2：上下文「量子属性伤害，并获得___点充能，最多可拥有」
-  - `#3[i]`点 → 参数3：上下文「]点充能，最多可拥有___点充能。」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于Archer___%攻击力的量子属性」
+  - `#2[i]`点 → Param 2: 上下文「量子属性伤害，并获得___点充能，最多可拥有」
+  - `#3[i]`点 → Param 3: 上下文「]点充能，最多可拥有___点充能。」
 
 - **Max Effect**：Deals Quantum DMG equal to 1200% of Archer's ATK to one designated enemy and gains 2 point(s) of Charge, up to a maximum of 4.
 
@@ -169,7 +169,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to #1[i]% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 100% |
   | Lv.2 | 110% |
@@ -188,7 +188,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于Archer___%攻击力的量子属性」
 
 - **Max Effect**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to 250% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
 
@@ -199,13 +199,13 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to #1[i]% of Archer's ATK to all enemies and gains #2[i] point(s) of Charge.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 200% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
-  - `#2[i]`点 → 参数2：上下文「量子属性伤害，并获得___点充能。」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于Archer___%攻击力的量子属性」
+  - `#2[i]`点 → Param 2: 上下文「量子属性伤害，并获得___点充能。」
 
 - **Max Effect**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to 200% of Archer's ATK to all enemies and gains 1 point(s) of Charge.
 

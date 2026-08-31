@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Guinaifen's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy and Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies, with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 20% | 100% | 83.9% | 2 |
   | Lv.2 | 66% | 22% | 100% | 92.3% | 2 |
@@ -123,11 +123,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 150% | 50% | 100% | 272.77% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「目标造成等同于桂乃芬___%攻击力的火属性伤」
-  - `#3[i]`% → 参数3(%)：上下文「击力的火属性伤害，有___%的基础概率使目标」
-  - `#4[i]`% → 参数4(%)：上下文「始时受到等同于桂乃芬___%攻击力的火属性持」
-  - `#5[i]`回 → 参数5：上下文「火属性持续伤害，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「目标造成等同于桂乃芬___%攻击力的火属性伤」
+  - `#3[i]`% → Param 3 (%): 上下文「击力的火属性伤害，有___%的基础概率使目标」
+  - `#4[i]`% → Param 4 (%): 上下文「始时受到等同于桂乃芬___%攻击力的火属性持」
+  - `#5[i]`回 → Param 5: 上下文「火属性持续伤害，持续___回合。」
 
 - **Max Effect**：Deals Fire DMG equal to 150% of Guinaifen's ATK to one designated enemy and Fire DMG equal to 50% of Guinaifen's ATK to any adjacent enemies, with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 272.77% of Guinaifen's ATK at the beginning of each turn, lasting for 2 turn(s).
 
@@ -138,7 +138,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to #2[i]% of their original DMG.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) |
+| Level | Param 1 | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 72% | 72% |
   | Lv.2 | 76.8% | 74% |
@@ -157,8 +157,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 1.44 | 102% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「立即产生相当于原伤害___%的伤害。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「立即产生相当于原伤害___%的伤害。」
 
 - **Max Effect**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to 102% of their original DMG.
 
@@ -169,7 +169,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When Guinaifen is on the field, there is a #1[i]% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for #5[i] turn(s) and can stack up to #6[i] time(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 0 | 0 | 4% | 3 | 3 |
   | Lv.2 | 100% | 0 | 0 | 4.3% | 3 | 3 |
@@ -188,12 +188,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 100% | 0 | 0 | 8.5% | 3 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「烧状态触发伤害后，有___%的基础概率陷入【」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`回 → 参数5：上下文「#4[f1]%，持续___回合，最多叠加#6」
-  - `#6[i]`层 → 参数6：上下文「[i]回合，最多叠加___层。」
+  - `#1[i]`% → Param 1 (%): 上下文「烧状态触发伤害后，有___%的基础概率陷入【」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`回 → Param 5: 上下文「#4[f1]%，持续___回合，最多叠加#6」
+  - `#6[i]`层 → Param 6: 上下文「[i]回合，最多叠加___层。」
 
 - **Max Effect**：When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).
 
@@ -204,14 +204,14 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 50% | 4 | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
-  - `#2[i]`次 → 参数2：上下文「敌人，进入战斗后造成___次伤害，每次伤害对」
-  - `#3[i]`% → 参数3(%)：上下文「击力的火属性伤害并有___%的基础概率使目标」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
+  - `#2[i]`次 → Param 2: 上下文「敌人，进入战斗后造成___次伤害，每次伤害对」
+  - `#3[i]`% → Param 3 (%): 上下文「击力的火属性伤害并有___%的基础概率使目标」
 
 - **Max Effect**：Immediately attacks the enemy. After entering battle, deals DMG for 4 time(s), dealing Fire DMG equal to 50% of Guinaifen's ATK to a random single enemy target each time, with a 100% base chance of inflicting Firekiss on them.
 

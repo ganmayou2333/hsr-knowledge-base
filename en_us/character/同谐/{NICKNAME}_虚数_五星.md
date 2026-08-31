@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于开拓者___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a random enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 25% | 2 |
   | Lv.2 | 27.5% | 2 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 62.5% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的虚数属性」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于开拓者___%攻击力的虚数属性」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Imaginary DMG equal to 62.5% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to 62.5% of the Trailblazer's ATK to a random enemy.
 
@@ -135,7 +135,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) |
+| Level | Param 1 | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 3 | 1 | 15% |
   | Lv.2 | 3 | 1 | 16.5% |
@@ -154,9 +154,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 3 | 1 | 37.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「上【伴舞】效果，持续___回合，开拓者每回合」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「我方目标击破特攻提高___%，并且攻击处于弱」
+  - `#1[i]`回 → Param 1: 上下文「上【伴舞】效果，持续___回合，开拓者每回合」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「我方目标击破特攻提高___%，并且攻击处于弱」
 
 - **Max Effect**：Grants all allies the Backup Dancer effect, lasting for 3 turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by 37.5%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
 
@@ -167,7 +167,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 5 |
   | Lv.2 | 5.5 |
@@ -186,7 +186,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 12.5 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
 
@@ -197,13 +197,13 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by #1[i]%, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 30% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体的击破特攻提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体的击破特攻提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
 
 - **Max Effect**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by 30%, lasting for 2 turn(s).
 

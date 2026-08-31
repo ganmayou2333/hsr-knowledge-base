@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于长夜月___%生命上限的冰属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于长夜月___%生命上限的冰属性」
 
 - **Max Effect**：Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.
 
@@ -106,7 +106,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains #3[i] "Memoria." If in the "Darkest Riddle" state, additionally gains #5[i] "Memoria."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 | Param 6 (%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 12% | 2 | 2 | 50% | 12 | 10% |
   | Lv.2 | 13.2% | 2 | 2 | 50% | 12 | 10% |
@@ -125,12 +125,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 30% | 2 | 2 | 50% | 12 | 10% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「同于长夜月暴击伤害的___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「的#1[i]%，持续___回合，长夜月每回合」
-  - `#3[i]`点 → 参数3：上下文「生命值。施放时，获得___点【忆质】，若处于」
-  - `#4[i]`% → 参数4(%)：上下文「回复等同于其生命上限___%的生命值。施放时」
-  - `#5[i]`点 → 参数5：上下文「之谜】状态，额外获得___点【忆质】。」
-  - `#6[i]`% → 参数6(%)：上下文「消耗长夜月当前___%的生命值召唤忆灵」
+  - `#1[i]`% → Param 1 (%): 上下文「同于长夜月暴击伤害的___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「的#1[i]%，持续___回合，长夜月每回合」
+  - `#3[i]`点 → Param 3: 上下文「生命值。施放时，获得___点【忆质】，若处于」
+  - `#4[i]`% → Param 4 (%): 上下文「回复等同于其生命上限___%的生命值。施放时」
+  - `#5[i]`点 → Param 5: 上下文「之谜】状态，额外获得___点【忆质】。」
+  - `#6[i]`% → Param 6 (%): 上下文「消耗长夜月当前___%的生命值召唤忆灵」
 
 - **Max Effect**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
 
@@ -141,7 +141,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to #1[i]% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take #4[i]% increased DMG while both Evernight and Evey deal #3[i]% increased DMG and are immune to Crowd Control debuffs. Gains #2[i] point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 2 | 30% | 15% |
   | Lv.2 | 110% | 2 | 33% | 16.5% |
@@ -160,10 +160,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% | 2 | 75% | 37.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于「长夜」___%生命上限的冰属性」
-  - `#2[i]`点 → 参数2：上下文「控制类负面状态。获得___点【至暗之谜】的充」
-  - `#3[i]`% → 参数3(%)：上下文「长夜」造成的伤害提高___%，且免疫控制类负」
-  - `#4[i]`% → 参数4(%)：上下文「方全体受到的伤害提高___%，长夜月和忆灵「」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于「长夜」___%生命上限的冰属性」
+  - `#2[i]`点 → Param 2: 上下文「控制类负面状态。获得___点【至暗之谜】的充」
+  - `#3[i]`% → Param 3 (%): 上下文「长夜」造成的伤害提高___%，且免疫控制类负」
+  - `#4[i]`% → Param 4 (%): 上下文「方全体受到的伤害提高___%，长夜月和忆灵「」
 
 - **Max Effect**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
 
@@ -178,7 +178,7 @@ When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debu
 长夜月持有的【忆质】大于等于#6[i]点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 | Param 5 (%) | Param 6 | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 30% | 2 | 160 | 50% | 16 | 5% |
   | Lv.2 | 2 | 33% | 2 | 160 | 50% | 16 | 5% |
@@ -197,13 +197,13 @@ When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debu
   | Lv.15 | 2 | 75% | 2 | 160 | 50% | 16 | 5% |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「3[i]回合，并获得___点【忆质】。该效果」
-  - `#2[i]`% → 参数2(%)：上下文「长夜」的暴击伤害提高___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合，并获得#1[」
-  - `#4[i]`点 → 参数4：上下文「忆灵「长夜」初始拥有___点速度，生命上限为」
-  - `#5[i]`% → 参数5(%)：上下文「，生命上限为长夜月的___%。长夜月或忆灵「」
-  - `#6[i]`点 → 参数6：上下文「有的【忆质】大于等于___点时，解除并免疫控」
-  - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`点 → Param 1: 上下文「3[i]回合，并获得___点【忆质】。该效果」
+  - `#2[i]`% → Param 2 (%): 上下文「长夜」的暴击伤害提高___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「高#2[i]%，持续___回合，并获得#1[」
+  - `#4[i]`点 → Param 4: 上下文「忆灵「长夜」初始拥有___点速度，生命上限为」
+  - `#5[i]`% → Param 5 (%): 上下文「，生命上限为长夜月的___%。长夜月或忆灵「」
+  - `#6[i]`点 → Param 6: 上下文「有的【忆质】大于等于___点时，解除并免疫控」
+  - Param 7: No corresponding `#7[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 "Memoria." This effect can trigger only once per target for each received attack.
 When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses "Dream, Dissolving, as Dew."
@@ -215,13 +215,13 @@ When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs
 - **Effect Template**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains #1[i] "Memoria."
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 1 | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「击伤害的效果，并获得___点【忆质】。」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`点 → Param 1: 上下文「击伤害的效果，并获得___点【忆质】。」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains 1 "Memoria."
 

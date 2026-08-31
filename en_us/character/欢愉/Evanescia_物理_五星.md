@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于绯英___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于绯英___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #2[i]% of Evanescia's ATK to one designated enemy and Physical DMG equal to #3[i]% of Evanescia's ATK to adjacent targets. Additionally gains #4[i] Punchline.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 150% | 75% | 10 |
   | Lv.2 | 1 | 165% | 82.5% | 10 |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 1 | 375% | 187.5% | 10 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于绯英___%攻击力的物理属性」
-  - `#3[i]`% → 参数3(%)：上下文「邻目标造成等同于绯英___%攻击力的物理属性」
-  - `#4[i]`点 → 参数4：上下文「属性伤害，并额外获得___点笑点。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「方单体造成等同于绯英___%攻击力的物理属性」
+  - `#3[i]`% → Param 3 (%): 上下文「邻目标造成等同于绯英___%攻击力的物理属性」
+  - `#4[i]`点 → Param 4: 上下文「属性伤害，并额外获得___点笑点。」
 
 - **Max Effect**：Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 187.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.
 
@@ -137,7 +137,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to #3[i]% of Evanescia's ATK to one random enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 80% | 5 | 72% | 88 |
   | Lv.2 | 88% | 5 | 76.8% | 88 |
@@ -156,10 +156,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 200% | 5 | 144% | 88 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于绯英___%攻击力的物理属性」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「机单体造成等同于绯英___%攻击力的物理属性」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于绯英___%攻击力的物理属性」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「机单体造成等同于绯英___%攻击力的物理属性」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.
 
@@ -178,7 +178,7 @@ Master Fox's Follow-Up ATK deals #2[i]% Physical Elation DMG to all enemies.
 【狐狸老师】的追加攻击可对敌方全体造成#2[i]%的物理属性欢愉伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6(%) | 参数7 | 参数8(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 (%) | Param 6 (%) | Param 7 | Param 8 (%) |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 50% | 12.5% | 240 | 10 | 20% | 12% | 8% | 14% |
   | Lv.2 | 55% | 13.75% | 240 | 10 | 20% | 13.2% | 8.8% | 15.4% |
@@ -197,14 +197,14 @@ Master Fox's Follow-Up ATK deals #2[i]% Physical Elation DMG to all enemies.
   | Lv.15 | 125% | 31.25% | 240 | 10 | 20% | 30% | 20% | 35% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于绯英___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「攻击可对敌方全体造成___%的物理属性欢愉伤」
-  - `#3[i]`点 → 参数3：上下文「次获得能量时最多获得___点累计值。当绯英持」
-  - `#4[i]`点 → 参数4：上下文「属性伤害，为绯英恢复___点能量，单次获得能」
-  - `#5[i]`% → 参数5(%)：上下文「英获得等同于暴击伤害___%的欢愉度。绯英获」
-  - `#6[i]`% → 参数6(%)：上下文「结技可对敌方全体造成___%的物理属性欢愉伤」
-  - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
-  - `#8[i]`% → 参数8(%)：上下文「成伤害的敌方目标造成___%的物理属性欢愉伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于绯英___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「攻击可对敌方全体造成___%的物理属性欢愉伤」
+  - `#3[i]`点 → Param 3: 上下文「次获得能量时最多获得___点累计值。当绯英持」
+  - `#4[i]`点 → Param 4: 上下文「属性伤害，为绯英恢复___点能量，单次获得能」
+  - `#5[i]`% → Param 5 (%): 上下文「英获得等同于暴击伤害___%的欢愉度。绯英获」
+  - `#6[i]`% → Param 6 (%): 上下文「结技可对敌方全体造成___%的物理属性欢愉伤」
+  - Param 7: No corresponding `#7[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#8[i]`% → Param 8 (%): 上下文「成伤害的敌方目标造成___%的物理属性欢愉伤」
 
 - **Max Effect**：Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger." When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. The amount of "Certified Banger" taken into calculation via this method cannot exceed 100 points in a single instance.
 After accumulating 240 Energy, she consumes this accumulation of 240, and "Master Fox" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds "Certified Banger":
@@ -220,13 +220,13 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
 - **Effect Template**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 100% | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于绯英___%攻击力的物理属性」
-  - `#2[i]`点 → 参数2：上下文「的物理属性伤害并获得___点【好活当赏】。」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于绯英___%攻击力的物理属性」
+  - `#2[i]`点 → Param 2: 上下文「的物理属性伤害并获得___点【好活当赏】。」
 
 - **Max Effect**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of "Certified Banger."
 

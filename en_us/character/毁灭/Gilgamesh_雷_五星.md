@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
 
 - **Max Effect**：
 
@@ -106,7 +106,7 @@ Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to one designated enemy, 
 对指定敌方单体造成等同于吉尔伽美什#1[i]%攻击力的雷属性伤害，对相邻目标造成等同于吉尔伽美什#2[i]%攻击力的雷属性伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 (%) | Param 6 | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 140% | 70% | 10% | 10 | 15% | 3 | 2 |
   | Lv.2 | 154% | 77% | 11% | 10 | 16.5% | 3 | 2 |
@@ -125,13 +125,13 @@ Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to one designated enemy, 
   | Lv.15 | 350% | 175% | 25% | 10 | 37.5% | 3 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`% → 参数5(%)：上下文「身造成伤害时无视目标___%的防御力，持续#」
-  - `#6[i]`回 → 参数6：上下文「i]%的防御力，持续___回合。 对指定敌方」
-  - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`% → Param 5 (%): 上下文「身造成伤害时无视目标___%的防御力，持续#」
+  - `#6[i]`回 → Param 6: 上下文「i]%的防御力，持续___回合。 对指定敌方」
+  - Param 7: No corresponding `#7[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Gains "King's Acknowledgement," allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).
 Deals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets.
@@ -143,7 +143,7 @@ Deals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, an
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to all enemies, and additionally deals #3[i] instance(s) of DMG, with each instance dealing Lightning DMG equal to #2[i]% of Gilgamesh's ATK to one random enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 200% | 50% | 10 |
   | Lv.2 | 220% | 55% | 10 |
@@ -162,9 +162,9 @@ Deals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, an
   | Lv.15 | 500% | 125% | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
-  - `#3[i]`次 → 参数3：上下文「属性伤害。并额外造成___次伤害，每次对敌方」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
+  - `#3[i]`次 → Param 3: 上下文「属性伤害。并额外造成___次伤害，每次对敌方」
 
 - **Max Effect**：Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.
 
@@ -183,7 +183,7 @@ When "Interest" reaches #2[i] for the first time, enters the "Interest Piqued!" 
 当【兴致】首次达到#2[i]点时，进入【来兴致了！】状态，该状态下仅能施放战技，且持续整场战斗。施放战技后，清空自身【兴致】。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 3 | 10 | 20% | 10% |
   | Lv.2 | 3 | 10 | 22% | 10% |
@@ -202,10 +202,10 @@ When "Interest" reaches #2[i] for the first time, enters the "Interest Piqued!" 
   | Lv.15 | 3 | 10 | 50% | 10% |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「高#3[i]%，持续___回合。 初始自身回」
-  - `#2[i]`点 → 参数2：上下文「当【兴致】首次达到___点时，进入【来兴致」
-  - `#3[i]`% → 参数3(%)：上下文「造成的终结技伤害提高___%，持续#1[i]」
-  - `#4[i]`% → 参数4(%)：上下文「兴致】使自身速度提高___%。 当【兴致】首」
+  - `#1[i]`回 → Param 1: 上下文「高#3[i]%，持续___回合。 初始自身回」
+  - `#2[i]`点 → Param 2: 上下文「当【兴致】首次达到___点时，进入【来兴致」
+  - `#3[i]`% → Param 3 (%): 上下文「造成的终结技伤害提高___%，持续#1[i]」
+  - `#4[i]`% → Param 4 (%): 上下文「兴致】使自身速度提高___%。 当【兴致】首」
 
 - **Max Effect**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).
 Initially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of "Interest." For each point of "Interest" in possession, increases this unit's SPD by 10%.
@@ -222,14 +222,14 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 主动攻击陷入【王来允许】的敌人进入战斗时，使所有处于【王来允许】状态的敌人同时进入战斗，进入战斗后对敌方全体造成等同于吉尔伽美什#2[i]%攻击力的雷属性伤害，且吉尔伽美什立即获得#3[i]点【兴致】。我方制造的领域效果最多存在1个。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 10 | 200% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「秘技后，制造1片持续___秒的特殊领域，处于」
-  - `#2[i]`% → 参数2(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
-  - `#3[i]`点 → 参数3：上下文「且吉尔伽美什立即获得___点【兴致】。我方制」
+  - `#1[i]`秒 → Param 1: 上下文「秘技后，制造1片持续___秒的特殊领域，处于」
+  - `#2[i]`% → Param 2 (%): 上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
+  - `#3[i]`点 → Param 3: 上下文「且吉尔伽美什立即获得___点【兴致】。我方制」
 
 - **Max Effect**：After using Technique, creates 1 Special Dimension lasting for 10 second(s). Enemies in the Special Dimension enter the "King's Permission" state. Enemies in the "King's Permission" state will cease all actions.
 When entering combat by actively attacking an enemy in the "King's Permission" state, causes all enemies in the "King's Permission" state to enter combat, and deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains 3 "Interest." Only 1 Dimension Effect created by allies can exist at the same time.

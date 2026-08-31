@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于千冶•刃___%生命上限的火属性」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于千冶•刃___%生命上限的火属性」
 
 - **Max Effect**：Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 36% | 4 | 12% | 10% |
   | Lv.2 | 39.6% | 4 | 13.2% | 10% |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 90% | 4 | 30% | 10% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于千冶•刃___%生命上限的火属性」
-  - `#2[i]`次 → 参数2：上下文「属性伤害，并额外造成___次伤害，每次伤害对」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于千冶•刃___%生命上限的火属性」
+  - `#2[i]`次 → Param 2: 上下文「属性伤害，并额外造成___次伤害，每次伤害对」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：
 
@@ -144,7 +144,7 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 获得【无量忿怒】状态时，行动序列上出现对应倒计时，倒计时固定拥有#5[i]速度，倒计时回合开始时结界解除且退出【无量忿怒】状态。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7 | 参数8 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 | Param 6 (%) | Param 7 | Param 8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 20% | 20% | 30% | 30% | 70 | 50% | 20% | 2 |
   | Lv.2 | 20% | 20% | 33% | 32% | 70 | 50% | 21% | 2 |
@@ -163,14 +163,14 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
   | Lv.15 | 20% | 20% | 75% | 60% | 70 | 50% | 35% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「同于千冶•刃生命上限___%的生命值展开结界」
-  - `#2[i]`% → 参数2(%)：上下文「怒】状态下暴击率提高___%，暴击伤害提高#」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`速 → 参数5：上下文「计时，倒计时固定拥有___速度，倒计时回合开」
-  - `#6[i]`% → 参数6(%)：上下文「状态并回复等同于自身___%生命上限的生命值」
-  - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
-  - `#8[i]`回 → 参数8：上下文「#4[f1]%，持续___回合。随后消耗等同」
+  - `#1[i]`% → Param 1 (%): 上下文「同于千冶•刃生命上限___%的生命值展开结界」
+  - `#2[i]`% → Param 2 (%): 上下文「怒】状态下暴击率提高___%，暴击伤害提高#」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`速 → Param 5: 上下文「计时，倒计时固定拥有___速度，倒计时回合开」
+  - `#6[i]`% → Param 6 (%): 上下文「状态并回复等同于自身___%生命上限的生命值」
+  - Param 7: No corresponding `#7[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#8[i]`回 → Param 8: 上下文「#4[f1]%，持续___回合。随后消耗等同」
 
 - **Max Effect**：Inflicts "Balefire Bind" on all enemies. Enemy targets in the "Balefire Bind" state have their DEF reduced by #7[f1]% and the DMG they receive increases by #4[f1]%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the "Infinite Fury" state.
 During the "Infinite Fury" state, increases CRIT Rate by 20%, increases CRIT DMG by #3[f1]%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate "Tenax Per Ignem." When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the "Infinite Fury" state, and restore HP equal to 50% of this unit's Max HP.
@@ -185,7 +185,7 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 - **Effect Template**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches #1[i] points and the current HP is more than 1, consumes #1[i] Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 9 | 15 |
   | Lv.2 | 9 | 16 |
@@ -204,8 +204,8 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
   | Lv.15 | 9 | 30 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「生命值大于1时，消耗___点充能，恢复#2[」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`点 → Param 1: 上下文「生命值大于1时，消耗___点充能，恢复#2[」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
 
@@ -216,13 +216,13 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 - **Effect Template**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by #1[i]% for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 90% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「使自身受到的伤害降低___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「低#1[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「使自身受到的伤害降低___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「低#1[i]%，持续___回合。」
 
 - **Max Effect**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).
 

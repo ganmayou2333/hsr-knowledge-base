@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Bailu's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于白露___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于白露___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 140% of Bailu's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Heals a single ally for #1[f1]% of Bailu's Max HP plus #2[i]. Bailu then heals random allies #4[i] time(s). After each healing, HP restored from the next healing is reduced by #3[i]%.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 7.8% | 78 | 15% | 2 |
   | Lv.2 | 8.29% | 124.8 | 15% | 2 |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 13.65% | 399.75 | 15% | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，然后白露」
-  - `#3[i]`% → 参数3(%)：上下文「疗回复的生命值会降低___%。」
-  - `#4[i]`次 → 参数4：上下文「露随机为我方单体进行___次治疗，每提供1次」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值，然后白露」
+  - `#3[i]`% → Param 3 (%): 上下文「疗回复的生命值会降低___%。」
+  - `#4[i]`次 → Param 4: 上下文「露随机为我方单体进行___次治疗，每提供1次」
 
 - **Max Effect**：Heals a single ally for #1[f1]% of Bailu's Max HP plus 399.75. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.
 
@@ -140,7 +140,7 @@ The effect of Invigoration can last for #3[i] turn(s). This effect cannot stack.
 【生息】可持续#3[i]回合，该效果不可叠加。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 9% | 90 | 2 |
   | Lv.2 | 9.56% | 144 | 2 |
@@ -159,9 +159,9 @@ The effect of Invigoration can last for #3[i] turn(s). This effect cannot stack.
   | Lv.15 | 15.75% | 461.25 | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值。 对于没」
-  - `#3[i]`回 → 参数3：上下文「合。 【生息】可持续___回合，该效果不可叠」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值。 对于没」
+  - `#3[i]`回 → Param 3: 上下文「合。 【生息】可持续___回合，该效果不可叠」
 
 - **Max Effect**：Heals all allies for #1[f1]% of Bailu's Max HP plus 461.25.
 Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.
@@ -178,7 +178,7 @@ When Bailu's teammate receives a killing blow, they will not be knocked down. Ba
 当白露的队友受到致命攻击时，不会陷入无法战斗状态，白露会立即为其提供治疗，回复等同于白露#3[f1]%生命上限+#4[i]的生命值。该效果单场战斗中可以触发1次。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 3.6% | 36 | 12% | 120 | 2 |
   | Lv.2 | 3.82% | 57.6 | 12.75% | 192 | 2 |
@@ -197,11 +197,11 @@ When Bailu's teammate receives a killing blow, they will not be knocked down. Ba
   | Lv.15 | 6.3% | 184.5 | 21% | 615 | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，该效果可」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值。该效果单」
-  - `#5[i]`次 → 参数5：上下文「命值，该效果可以触发___次。 当白露的队友」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值，该效果可」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`的 → Param 4: 上下文「[f1]%生命上限+___的生命值。该效果单」
+  - `#5[i]`次 → Param 5: 上下文「命值，该效果可以触发___次。 当白露的队友」
 
 - **Max Effect**：After an ally target with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus 184.5. This effect can trigger 2 time(s).
 When Bailu's teammate receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[f1]% of Bailu's Max HP plus 615 HP. This effect can be triggered 1 time per battle.
@@ -214,12 +214,12 @@ When Bailu's teammate receives a killing blow, they will not be knocked down. Ba
 - **Effect Template**：After Technique is used, at the start of the next battle, all allies are granted Invigoration for #1[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「体附上【生息】，持续___回合。」
+  - `#1[i]`回 → Param 1: 上下文「体附上【生息】，持续___回合。」
 
 - **Max Effect**：After Technique is used, at the start of the next battle, all allies are granted Invigoration for 2 turn(s).
 

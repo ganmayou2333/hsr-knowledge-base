@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Cerydra's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于刻律德菈___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于刻律德菈___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 140% of Cerydra's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Grants "Military Merit" to one designated ally character and gives Cerydra #2[i] points of Charge. Charge is capped at #3[i] points. When Charge reaches #4[i] points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by #1[i]%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes #4[i] points of Charge to revert "Peerage" to "Military Merit."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 36% | 1 | 8 | 6 | 8% |
   | Lv.2 | 39.6% | 1 | 8 | 6 | 8.2% |
@@ -125,11 +125,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 90% | 1 | 8 | 6 | 11% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「技伤害的暴击伤害提高___%、全属性抗性穿透」
-  - `#2[i]`点 → 参数2：上下文「功】并使刻律德菈获得___点充能。充能上限#」
-  - `#3[i]`点 → 参数3：上下文「i]点充能。充能上限___点。当充能达到#4」
-  - `#4[i]`点 → 参数4：上下文「袭。奇袭结束后，消耗___点充能使【爵位】变」
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「技伤害的暴击伤害提高___%、全属性抗性穿透」
+  - `#2[i]`点 → Param 2: 上下文「功】并使刻律德菈获得___点充能。充能上限#」
+  - `#3[i]`点 → Param 3: 上下文「i]点充能。充能上限___点。当充能达到#4」
+  - `#4[i]`点 → Param 4: 上下文「袭。奇袭结束后，消耗___点充能使【爵位】变」
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Grants "Military Merit" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by 90%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert "Peerage" to "Military Merit."
 
@@ -140,7 +140,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains #2[i] Charge. Deals Wind DMG equal to #1[i]% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 144% | 2 |
   | Lv.2 | 153.6% | 2 |
@@ -159,8 +159,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 288% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于刻律德菈___%攻击力的风属性伤」
-  - `#2[i]`点 → 参数2：上下文「获得___点充能。对敌方全体」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于刻律德菈___%攻击力的风属性伤」
+  - `#2[i]`点 → Param 2: 上下文「获得___点充能。对敌方全体」
 
 - **Max Effect**：Gains 2 Charge. Deals Wind DMG equal to 288% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
 
@@ -171,7 +171,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains #1[i] Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to #3[i]% of her ATK. This effect can trigger up to #4[i] time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 18% | 30% | 20 |
   | Lv.2 | 1 | 18.6% | 33% | 20 |
@@ -190,10 +190,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 1 | 27% | 75% | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「战技时使刻律德菈获得___点充能，奇袭期间无」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「成1次等同于刻律德菈___%攻击力的风属性附」
-  - `#4[i]`次 → 参数4：上下文「伤害，该效果最多触发___次，刻律德菈每次施」
+  - `#1[i]`点 → Param 1: 上下文「战技时使刻律德菈获得___点充能，奇袭期间无」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「成1次等同于刻律德菈___%攻击力的风属性附」
+  - `#4[i]`次 → Param 4: 上下文「伤害，该效果最多触发___次，刻律德菈每次施」
 
 - **Max Effect**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 75% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
 

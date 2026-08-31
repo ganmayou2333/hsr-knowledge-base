@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Natasha's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于娜塔莎___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于娜塔莎___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Natasha's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Restores a single ally for #1[f1]% of Natasha's Max HP plus #4[i]. Restores the ally for another #2[f1]% of Natasha's Max HP plus #5[i] at the beginning of each turn for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 7% | 4.8% | 2 | 70 | 48 |
   | Lv.2 | 7.44% | 5.1% | 2 | 112 | 76.8 |
@@ -123,11 +123,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 12.25% | 8.4% | 2 | 358.75 | 246 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「[i]的生命值，持续___回合。」
-  - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值，同时目标」
-  - `#5[i]`的 → 参数5：上下文「[f1]%生命上限+___的生命值，持续#3」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「[i]的生命值，持续___回合。」
+  - `#4[i]`的 → Param 4: 上下文「[f1]%生命上限+___的生命值，同时目标」
+  - `#5[i]`的 → Param 5: 上下文「[f1]%生命上限+___的生命值，持续#3」
 
 - **Max Effect**：Restores a single ally for #1[f1]% of Natasha's Max HP plus 358.75. Restores the ally for another #2[f1]% of Natasha's Max HP plus 246 at the beginning of each turn for 2 turn(s).
 
@@ -138,7 +138,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Heals all allies for #1[f1]% of Natasha's Max HP plus #2[i].
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 9.2% | 92 |
   | Lv.2 | 9.78% | 147.2 |
@@ -157,8 +157,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 16.1% | 471.5 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值。」
 
 - **Max Effect**：Heals all allies for #1[f1]% of Natasha's Max HP plus 471.5.
 
@@ -169,7 +169,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When healing allies with HP percentage at #1[i]% or lower, increases Natasha's Outgoing Healing by #2[i]%. This effect also works on continuous healing.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 30% | 25% |
   | Lv.2 | 30% | 27.5% |
@@ -188,8 +188,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 30% | 62.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「生命值百分比小于等于___%的我方目标提供治」
-  - `#2[i]`% → 参数2(%)：上下文「，娜塔莎的治疗量提高___%，该效果对持续治」
+  - `#1[i]`% → Param 1 (%): 上下文「生命值百分比小于等于___%的我方目标提供治」
+  - `#2[i]`% → Param 2 (%): 上下文「，娜塔莎的治疗量提高___%，该效果对持续治」
 
 - **Max Effect**：When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 62.5%. This effect also works on continuous healing.
 
@@ -202,15 +202,15 @@ While Weakened, enemies deal #2[i]% less DMG to allies for #3[i] turn(s).
 虚弱状态下的敌方目标对我方造成的伤害降低#2[i]%，持续#3[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 30% | 1 | 80% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的物理属性伤害，并有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「对我方造成的伤害降低___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
-  - `#4[i]`% → 参数4(%)：上下文「单体造成等同于娜塔莎___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「的物理属性伤害，并有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「对我方造成的伤害降低___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「低#2[i]%，持续___回合。」
+  - `#4[i]`% → Param 4 (%): 上下文「单体造成等同于娜塔莎___%攻击力的物理属性」
 
 - **Max Effect**：Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies.
 While Weakened, enemies deal 30% less DMG to allies for 1 turn(s).

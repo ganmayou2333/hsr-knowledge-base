@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Huohuo's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于藿藿___%生命上限的风属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于藿藿___%生命上限的风属性」
 
 - **Max Effect**：Deals Wind DMG equal to 70% of Huohuo's Max HP to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Dispels #5[i] debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus #2[i]. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #4[i].
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 14% | 140 | 11.2% | 112 | 1 |
   | Lv.2 | 14.87% | 224 | 11.9% | 179.2 | 1 |
@@ -123,11 +123,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 24.5% | 717.5 | 19.6% | 574 | 1 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，同时为其」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值。」
-  - `#5[i]`个 → 参数5：上下文「解除指定我方单体的___个负面效果，立即为」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值，同时为其」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`的 → Param 4: 上下文「[f1]%生命上限+___的生命值。」
+  - `#5[i]`个 → Param 5: 上下文「解除指定我方单体的___个负面效果，立即为」
 
 - **Max Effect**：Dispels 1 debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus 717.5. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus 574.
 
@@ -138,7 +138,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 15% | 24% | 2 |
   | Lv.2 | 15.5% | 25.6% | 2 |
@@ -157,9 +157,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 22.5% | 48% | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「#2[f1]%，持续___回合。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「#2[f1]%，持续___回合。」
 
 - **Max Effect**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for 2 turn(s).
 
@@ -172,7 +172,7 @@ When "Divine Provision" is triggered to heal an ally target, dispels #2[i] debuf
 触发【禳命】为我方目标提供治疗时，解除该目标#2[i]个负面效果，该效果可以触发#7[i]次，再次施放战技后将刷新效果可触发次数。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 (%) | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 1 | 3% | 0 | 30 | 50% | 6 |
   | Lv.2 | 2 | 1 | 3.19% | 0 | 48 | 50% | 6 |
@@ -191,13 +191,13 @@ When "Divine Provision" is triggered to heal an ally target, dispels #2[i] debuf
   | Lv.15 | 2 | 1 | 5.25% | 0 | 153.75 | 50% | 6 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「藿获得【禳命】，持续___回合，藿藿每回合开」
-  - `#2[i]`个 → 参数2：上下文「供治疗时，解除该目标___个负面效果，该效果」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`的 → 参数5：上下文「[f1]%生命上限+___的生命值，同时对每」
-  - `#6[i]`% → 参数6(%)：上下文「生命值百分比小于等于___%的我方目标各产生」
-  - `#7[i]`次 → 参数7：上下文「效果，该效果可以触发___次，再次施放战技后」
+  - `#1[i]`回 → Param 1: 上下文「藿获得【禳命】，持续___回合，藿藿每回合开」
+  - `#2[i]`个 → Param 2: 上下文「供治疗时，解除该目标___个负面效果，该效果」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`的 → Param 5: 上下文「[f1]%生命上限+___的生命值，同时对每」
+  - `#6[i]`% → Param 6 (%): 上下文「生命值百分比小于等于___%的我方目标各产生」
+  - `#7[i]`次 → Param 7: 上下文「效果，该效果可以触发___次，再次施放战技后」
 
 - **Max Effect**：After using her Skill or Ultimate, Huohuo gains "Divine Provision," lasting for 2 turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has "Divine Provision" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75. Then, restores HP for every ally with a current HP percentage at or below 50% by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75.
 When "Divine Provision" is triggered to heal an ally target, dispels 1 debuff(s) from that target. This effect can be triggered 6 time(s). Gaining "Divine Provision" again resets the effect's trigger count.
@@ -209,15 +209,15 @@ When "Divine Provision" is triggered to heal an ally target, dispels 1 debuff(s)
 - **Effect Template**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for #4[i] second(s). When entering combat with enemies in "Horror-Struck," there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 25% | 2 | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「个单体目标攻击力降低___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
-  - `#4[i]`秒 → 参数4：上下文「藿藿的方向逃跑，持续___秒。与陷入【魄散】」
+  - `#1[i]`% → Param 1 (%): 上下文「的敌人进入战斗后，有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「个单体目标攻击力降低___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「低#2[i]%，持续___回合。」
+  - `#4[i]`秒 → Param 4: 上下文「藿藿的方向逃跑，持续___秒。与陷入【魄散】」
 
 - **Max Effect**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for 10 second(s). When entering combat with enemies in "Horror-Struck," there is a 100% base chance of reducing every single enemy's ATK by 25% for 2 turn(s).
 

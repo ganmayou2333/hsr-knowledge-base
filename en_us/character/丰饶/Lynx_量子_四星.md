@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of this character's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于自身___%生命上限的量子属」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于自身___%生命上限的量子属」
 
 - **Max Effect**：Deals Quantum DMG equal to 70% of this character's Max HP to one designated enemy.
 
@@ -106,7 +106,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].
 使该目标回复等同于玲可#4[f1]%生命上限+#5[i]的生命值。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 5% | 50 | 2 | 8% | 80 | 5 |
   | Lv.2 | 5.25% | 80 | 2 | 8.5% | 128 | 5 |
@@ -125,12 +125,12 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].
   | Lv.15 | 8.75% | 256.25 | 2 | 14% | 410 | 5 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命上限，若该目」
-  - `#3[i]`回 → 参数3：上下文「高，【求生反应】持续___回合。 使该目标回」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`的 → 参数5：上下文「[f1]%生命上限+___的生命值。」
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命上限，若该目」
+  - `#3[i]`回 → Param 3: 上下文「高，【求生反应】持续___回合。 使该目标回」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`的 → Param 5: 上下文「[f1]%生命上限+___的生命值。」
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Applies "Survival Response" to a single target ally and increases their Max HP by #1[f1]% of Lynx's Max HP plus 256.25. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. "Survival Response" lasts for 2 turn(s).
 Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
@@ -143,7 +143,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 - **Effect Template**：Dispels #1[i] debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i].
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 1 | 9% | 90 |
   | Lv.2 | 1 | 9.56% | 144 |
@@ -162,9 +162,9 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
   | Lv.15 | 1 | 15.75% | 461.25 |
 
 - **Parameter Notes**：
-  - `#1[i]`个 → 参数1：上下文「解除我方全体的___个负面效果，立即为」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`的 → 参数3：上下文「[f1]%生命上限+___的生命值。」
+  - `#1[i]`个 → Param 1: 上下文「解除我方全体的___个负面效果，立即为」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`的 → Param 3: 上下文「[f1]%生命上限+___的生命值。」
 
 - **Max Effect**：Dispels 1 debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus 461.25.
 
@@ -175,7 +175,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 - **Effect Template**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 2 | 2.4% | 24 | 3% | 30 |
   | Lv.2 | 2 | 2.55% | 38.4 | 3.19% | 48 |
@@ -194,11 +194,11 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
   | Lv.15 | 2 | 4.2% | 123 | 5.25% | 153.75 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「技时，使我方目标获得___回合的持续治疗效果」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`的 → 参数3：上下文「[f1]%生命上限+___的生命值。若该目标」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`的 → 参数5：上下文「[f1]%生命上限+___的生命值。」
+  - `#1[i]`回 → Param 1: 上下文「技时，使我方目标获得___回合的持续治疗效果」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`的 → Param 3: 上下文「[f1]%生命上限+___的生命值。若该目标」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`的 → Param 5: 上下文「[f1]%生命上限+___的生命值。」
 
 - **Max Effect**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus 123 at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus 153.75.
 
@@ -209,12 +209,12 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 - **Effect Template**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「的持续治疗效果，持续___回合。」
+  - `#1[i]`回 → Param 1: 上下文「的持续治疗效果，持续___回合。」
 
 - **Max Effect**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for 2 turn(s).
 

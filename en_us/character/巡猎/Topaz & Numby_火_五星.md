@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Topaz's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于托帕___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于托帕___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Topaz's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ Numby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this S
 使账账对该目标造成等同于托帕#1[i]%攻击力的火属性伤害。施放此战技造成伤害时，被视为发动了追加攻击。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 75% | 25% |
   | Lv.2 | 82.5% | 27.5% |
@@ -125,8 +125,8 @@ Numby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this S
   | Lv.15 | 187.5% | 62.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于托帕___%攻击力的火属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「到的追加攻击伤害提高___%。【负债证明】仅」
+  - `#1[i]`% → Param 1 (%): 上下文「该目标造成等同于托帕___%攻击力的火属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「到的追加攻击伤害提高___%。【负债证明】仅」
 
 - **Max Effect**：Inflicts one designated enemy target with a "Proof of Debt" state, increasing the Follow-Up ATK DMG it receives by 62.5%. "Proof of Debt" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with "Proof of Debt" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with "Proof of Debt."
 Numby deals Fire DMG equal to 187.5% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a Follow-Up ATK.
@@ -138,7 +138,7 @@ Numby deals Fire DMG equal to 187.5% of Topaz's ATK to this target. Using this S
 - **Effect Template**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by #1[i]% and CRIT DMG increases by #2[i]%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by #3[i]%. Numby exits the Windfall Bonanza! state after using #4[i] attacks.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 75% | 12.5% | 50% | 2 |
   | Lv.2 | 82.5% | 13.75% | 50% | 2 |
@@ -157,10 +157,10 @@ Numby deals Fire DMG equal to 187.5% of Topaz's ATK to this target. Using this S
   | Lv.15 | 187.5% | 31.25% | 50% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「】状态，伤害倍率提高___%，暴击伤害提高#」
-  - `#2[i]`% → 参数2(%)：上下文「i]%，暴击伤害提高___%，且当陷入【负债」
-  - `#3[i]`% → 参数3(%)：上下文「攻击时，账账行动提前___%。账账施放#4[」
-  - `#4[i]`次 → 参数4：上下文「3[i]%。账账施放___次攻击后退出【涨幅」
+  - `#1[i]`% → Param 1 (%): 上下文「】状态，伤害倍率提高___%，暴击伤害提高#」
+  - `#2[i]`% → Param 2 (%): 上下文「i]%，暴击伤害提高___%，且当陷入【负债」
+  - `#3[i]`% → Param 3 (%): 上下文「攻击时，账账行动提前___%。账账施放#4[」
+  - `#4[i]`次 → Param 4: 上下文「3[i]%。账账施放___次攻击后退出【涨幅」
 
 - **Max Effect**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 187.5% and CRIT DMG increases by 31.25%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by 50%. Numby exits the Windfall Bonanza! state after using 2 attacks.
 
@@ -176,7 +176,7 @@ When Topaz is downed, Numby disappears.
 陷入【负债证明】状态下的敌方目标受到我方的追加攻击时，账账行动提前#3[i]%。在账账自身回合内，无法触发行动提前效果。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 80 | 75% | 50% |
   | Lv.2 | 80 | 82.5% | 50% |
@@ -195,9 +195,9 @@ When Topaz is downed, Numby disappears.
   | Lv.15 | 80 | 187.5% | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「唤账账。账账初始拥有___点速度，行动时发动」
-  - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于托帕___%攻击力的火属性伤」
-  - `#3[i]`% → 参数3(%)：上下文「攻击时，账账行动提前___%。在账账自身回合」
+  - `#1[i]`点 → Param 1: 上下文「唤账账。账账初始拥有___点速度，行动时发动」
+  - `#2[i]`% → Param 2 (%): 上下文「方单体造成等同于托帕___%攻击力的火属性伤」
+  - `#3[i]`% → Param 3 (%): 上下文「攻击时，账账行动提前___%。在账账自身回合」
 
 - **Max Effect**：Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches Follow-Up ATKs on one enemy target afflicted with "Proof of Debt," dealing Fire DMG equal to 187.5% of Topaz's ATK.
 When enemies afflicted with "Proof of Debt" receive an ally's Follow-Up ATKs, Numby's action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby's own turn.
@@ -215,13 +215,13 @@ After using her Technique and defeating enemies in Simulated Universe or Diverge
 主动施放秘技与大地图内的敌人战斗胜利后，若托帕仍在队伍中，则在获取信用点时额外获取少量信用点，每个地球日内最多额外获取#2[i]点。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 60 | 10000 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「首次攻击后，托帕恢复___点能量。 主动施放」
-  - `#2[i]`点 → 参数2：上下文「地球日内最多额外获取___点。 主动施放秘技」
+  - `#1[i]`点 → Param 1: 上下文「首次攻击后，托帕恢复___点能量。 主动施放」
+  - `#2[i]`点 → Param 2: 上下文「地球日内最多额外获取___点。 主动施放秘技」
 
 - **Max Effect**：Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.
 Using her Technique will regenerate 60 Energy for Topaz after Numby's first attack in the next battle.

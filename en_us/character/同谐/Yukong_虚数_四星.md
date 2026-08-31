@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals #1[i]% of Yukong's ATK as Imaginary DMG to a target enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于驭空___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于驭空___%攻击力的虚数属性」
 
 - **Max Effect**：Deals 140% of Yukong's ATK as Imaginary DMG to a target enemy.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roaring Bowstrings" will not be removed.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) |
+| Level | Param 1 | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 2 | 40% |
   | Lv.2 | 2 | 44% |
@@ -124,8 +124,8 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
   | Lv.15 | 2 | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`层 → 参数1：上下文「获得___层【鸣弦号令】，最」
-  - `#2[i]`% → 参数2(%)：上下文「，我方全体攻击力提高___%，且每次我方目标」
+  - `#1[i]`层 → Param 1: 上下文「获得___层【鸣弦号令】，最」
+  - `#2[i]`% → Param 2 (%): 上下文「，我方全体攻击力提高___%，且每次我方目标」
 
 - **Max Effect**：Obtains 2 stack(s) of "Roaring Bowstrings" (to a maximum of 2 stacks). When "Roaring Bowstrings" is active, the ATK of all allies increases by 100%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of "Roaring Bowstrings."
 When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roaring Bowstrings" will not be removed.
@@ -137,7 +137,7 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 - **Effect Template**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by #3[i]%. At the same time, deals Imaginary DMG equal to #1[i]% of Yukong's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 228% | 21% | 39% |
   | Lv.2 | 243.2% | 21.7% | 41.6% |
@@ -156,9 +156,9 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
   | Lv.15 | 456% | 31.5% | 78% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于驭空___%攻击力的虚数属性」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「1]%，暴击伤害提高___%。同时对指定敌方」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于驭空___%攻击力的虚数属性」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「1]%，暴击伤害提高___%。同时对指定敌方」
 
 - **Max Effect**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by 78%. At the same time, deals Imaginary DMG equal to 456% of Yukong's ATK to one designated enemy.
 
@@ -169,7 +169,7 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 - **Effect Template**：Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness Reduction of this attack by #2[i]%. This effect can be triggered again after #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 40% | 100% | 1 |
   | Lv.2 | 44% | 100% | 1 |
@@ -188,9 +188,9 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
   | Lv.15 | 100% | 100% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「可额外造成等同于驭空___%攻击力的虚数属性」
-  - `#2[i]`% → 参数2(%)：上下文「本次攻击的削韧值提高___%，该效果在#3[」
-  - `#3[i]`回 → 参数3：上下文「2[i]%，该效果在___回合后可再次触发。」
+  - `#1[i]`% → Param 1 (%): 上下文「可额外造成等同于驭空___%攻击力的虚数属性」
+  - `#2[i]`% → Param 2 (%): 上下文「本次攻击的削韧值提高___%，该效果在#3[」
+  - `#3[i]`回 → Param 3: 上下文「2[i]%，该效果在___回合后可再次触发。」
 
 - **Max Effect**：Basic ATK additionally deals Imaginary DMG equal to 100% of Yukong's ATK, and increases the Toughness Reduction of this attack by 100%. This effect can be triggered again after 1 turn(s).
 
@@ -201,14 +201,14 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 - **Effect Template**：After using her Technique, Yukong enters Sprint mode for #1[i] seconds. In Sprint mode, her movement speed increases by #2[i]%, and Yukong gains #3[i] stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 20 | 35% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的冲刺状态。冲刺」
-  - `#2[i]`% → 参数2(%)：上下文「态下自身移动速度提高___%，且主动攻击敌人」
-  - `#3[i]`层 → 参数3：上下文「进入战斗时，驭空获得___层【鸣弦号令】。」
+  - `#1[i]`秒 → Param 1: 上下文「使用秘技后进入持续___秒的冲刺状态。冲刺」
+  - `#2[i]`% → Param 2 (%): 上下文「态下自身移动速度提高___%，且主动攻击敌人」
+  - `#3[i]`层 → Param 3: 上下文「进入战斗时，驭空获得___层【鸣弦号令】。」
 
 - **Max Effect**：After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her movement speed increases by 35%, and Yukong gains 2 stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
 

@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于瓦尔特___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于瓦尔特___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of Welt's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to #1[i]% of Welt's ATK to one random enemy. On hit, there is a #2[i]% base chance to reduce the enemy's SPD by #3[i]% for #4[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 36% | 65% | 10% | 2 |
   | Lv.2 | 39.6% | 66% | 10% | 2 |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 90% | 80% | 10% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于瓦尔特___%攻击力的虚数属性」
-  - `#2[i]`% → 参数2(%)：上下文「性伤害。攻击命中时有___%的基础概率使受到」
-  - `#3[i]`% → 参数3(%)：上下文「击的敌方目标速度降低___%，持续#4[i]」
-  - `#4[i]`回 → 参数4：上下文「低#3[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于瓦尔特___%攻击力的虚数属性」
+  - `#2[i]`% → Param 2 (%): 上下文「性伤害。攻击命中时有___%的基础概率使受到」
+  - `#3[i]`% → Param 3 (%): 上下文「击的敌方目标速度降低___%，持续#4[i]」
+  - `#4[i]`回 → Param 4: 上下文「低#3[i]%，持续___回合。」
 
 - **Max Effect**：Deals Imaginary DMG equal to 90% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to 90% of Welt's ATK to one random enemy. On hit, there is a 80% base chance to reduce the enemy's SPD by 10% for 2 turn(s).
 
@@ -139,7 +139,7 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
 禁锢状态下，敌方目标行动延后#2[f1]%，速度降低#4[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 90% | 32% | 100% | 10% |
   | Lv.2 | 96% | 32.8% | 100% | 10% |
@@ -158,10 +158,10 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
   | Lv.15 | 180% | 44% | 100% | 10% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于瓦尔特___%攻击力的虚数属性」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「力的虚数属性伤害，有___%的基础概率使受到」
-  - `#4[i]`% → 参数4(%)：上下文「[f1]%，速度降低___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于瓦尔特___%攻击力的虚数属性」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「力的虚数属性伤害，有___%的基础概率使受到」
+  - `#4[i]`% → Param 4 (%): 上下文「[f1]%，速度降低___%。」
 
 - **Max Effect**：Deals Imaginary DMG equal to 180% of Welt's ATK to all enemies. Has a 100% base chance to Imprison hit enemy targets for 1 turn.
 While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their SPD reduced by 10%. After using his Ultimate, inflicts the "Weightless" state on all enemies. When targets in "Weightless" state get attacked, their actions are delayed by #5[f1]%. This effect can trigger up to #6[i] time(s) per target per turn. "Weightless" lasts for #7[i] turn(s).
@@ -174,7 +174,7 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
 - **Effect Template**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to #1[i]% of his ATK to the enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 30% |
   | Lv.2 | 33% |
@@ -193,7 +193,7 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
   | Lv.15 | 75% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成1次等同于瓦尔特___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「造成1次等同于瓦尔特___%攻击力的虚数属性」
 
 - **Max Effect**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to 75% of his ATK to the enemy.
 
@@ -206,16 +206,16 @@ Imprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]
 禁锢状态下，敌方目标行动延后#2[i]%，速度降低#3[i]%。我方制造的领域效果最多存在1个。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 | Param 5 (%) |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 20% | 10% | 15 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「下，敌方目标行动延后___%，速度降低#3[」
-  - `#3[i]`% → 参数3(%)：上下文「2[i]%，速度降低___%。我方制造的领域」
-  - `#4[i]`秒 → 参数4：上下文「秘技后，制造1片持续___秒的特殊领域。处于」
-  - `#5[i]`% → 参数5(%)：上下文「内的敌人移动速度降低___%。与处于特殊领域」
+  - `#1[i]`% → Param 1 (%): 上下文「的敌人进入战斗后，有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「下，敌方目标行动延后___%，速度降低#3[」
+  - `#3[i]`% → Param 3 (%): 上下文「2[i]%，速度降低___%。我方制造的领域」
+  - `#4[i]`秒 → Param 4: 上下文「秘技后，制造1片持续___秒的特殊领域。处于」
+  - `#5[i]`% → Param 5 (%): 上下文「内的敌人移动速度降低___%。与处于特殊领域」
 
 - **Max Effect**：After using Welt's Technique, create a Special Dimension that lasts for 15 second(s). Enemies in this Special Dimension have their movement speed reduced by 50%. After entering combat with enemies in the Special Dimension, there is a 100% base chance to Imprison the enemies for 1 turn.
 Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 Dimension Effect created by allies can exist at the same time.

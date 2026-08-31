@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Clara's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于克拉拉___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于克拉拉___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Clara's ATK to one designated enemy.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 All Marks of Counter will be removed after this Skill is used.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 60% | 60% |
   | Lv.2 | 66% | 66% |
@@ -124,8 +124,8 @@ All Marks of Counter will be removed after this Skill is used.
   | Lv.15 | 150% | 150% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于克拉拉___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「额外造成等同于克拉拉___%攻击力物理属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于克拉拉___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「额外造成等同于克拉拉___%攻击力物理属性伤」
 
 - **Max Effect**：Deals Physical DMG equal to 150% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 150% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.
 All Marks of Counter will be removed after this Skill is used.
@@ -139,7 +139,7 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
 同时史瓦罗的反击得到强化，当任意我方目标受到攻击后史瓦罗立即施放反击，对敌方目标造成的伤害倍率提高#2[i]%，并对其相邻目标造成相当于主目标50%的伤害。强化效果可生效#5[i]次。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 5 | 96% | 2 | 15% | 2 |
   | Lv.2 | 5 | 102.4% | 2 | 16% | 2 |
@@ -158,11 +158,11 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
   | Lv.15 | 5 | 192% | 2 | 30% | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「标造成的伤害倍率提高___%，并对其相邻目标」
-  - `#3[i]`回 → 参数3：上下文「的概率大幅提高，持续___回合。 同时史瓦罗」
-  - `#4[i]`% → 参数4(%)：上下文「拉受到的伤害额外降低___%且被敌方目标攻击」
-  - `#5[i]`次 → 参数5：上下文「伤害。强化效果可生效___次。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「标造成的伤害倍率提高___%，并对其相邻目标」
+  - `#3[i]`回 → Param 3: 上下文「的概率大幅提高，持续___回合。 同时史瓦罗」
+  - `#4[i]`% → Param 4 (%): 上下文「拉受到的伤害额外降低___%且被敌方目标攻击」
+  - `#5[i]`次 → Param 5: 上下文「伤害。强化效果可生效___次。」
 
 - **Max Effect**：After Clara uses Ultimate, DMG dealt to her is reduced by an extra 30%, and she has greatly increased chances of being attacked by enemies for 2 turn(s).
 In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 192%. Enemies adjacent to it take 50% of the DMG dealt to the primary target enemy. Enhanced Counter(s) can take effect 2 time(s).
@@ -174,7 +174,7 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
 - **Effect Template**：Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by #3[i]%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to #2[i]% of Clara's ATK.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 1 | 80% | 10% |
   | Lv.2 | 1 | 88% | 10% |
@@ -193,9 +193,9 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
   | Lv.15 | 1 | 200% | 10% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「对其造成等同于克拉拉___%攻击力的物理属性」
-  - `#3[i]`% → 参数3(%)：上下文「方目标攻击的伤害降低___%。攻击克拉拉的敌」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「对其造成等同于克拉拉___%攻击力的物理属性」
+  - `#3[i]`% → Param 3 (%): 上下文「方目标攻击的伤害降低___%。攻击克拉拉的敌」
 
 - **Max Effect**：Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 200% of Clara's ATK.
 
@@ -206,13 +206,13 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
 - **Effect Template**：Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for #1[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 2 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「攻击的概率提高，持续___回合。」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`回 → Param 1: 上下文「攻击的概率提高，持续___回合。」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s).
 

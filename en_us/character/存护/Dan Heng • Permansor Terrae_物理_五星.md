@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Dan Heng • Permansor Terrae's ATK to one designated enemy.
 
@@ -107,7 +107,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 "Bondmate" only applies to the most recent target of Dan Heng • Permansor Terrae's Skill.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4(%) |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 14% | 100 | 3 | 300% |
   | Lv.2 | 14.75% | 160 | 3 | 300% |
@@ -126,10 +126,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 23% | 512.5 | 3 | 300% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`伤 → 参数2：上下文「1[f1]%攻击力+___伤害的护盾，持续#」
-  - `#3[i]`回 → 参数3：上下文「i]伤害的护盾，持续___回合。重复获得丹恒」
-  - `#4[i]`% → 参数4(%)：上下文「前战技提供的护盾量的___%。 【同袍】仅对」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`伤 → Param 2: 上下文「1[f1]%攻击力+___伤害的护盾，持续#」
+  - `#3[i]`回 → Param 3: 上下文「i]伤害的护盾，持续___回合。重复获得丹恒」
+  - `#4[i]`% → Param 4 (%): 上下文「前战技提供的护盾量的___%。 【同袍】仅对」
 
 - **Max Effect**：Designates one ally character as the "Bondmate" and provides all allies with a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus 512.5 for 3 turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.
 "Bondmate" only applies to the most recent target of Dan Heng • Permansor Terrae's Skill.
@@ -143,7 +143,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 使【龙灵】获得强化，【龙灵】行动时，发动追加攻击，对敌方全体造成等同于丹恒•腾荒#2[i]%攻击力的物理属性伤害和等同于【同袍】#8[f1]%攻击力的相应属性附加伤害。强化持续【龙灵】#3[i]次行动。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7(%) | 参数8 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 | Param 6 | Param 7 (%) | Param 8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 150% | 40% | 2 | 14% | 100 | 3 | 300% | 40% |
   | Lv.2 | 165% | 44% | 2 | 14.75% | 160 | 3 | 300% | 44% |
@@ -162,14 +162,14 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 375% | 100% | 2 | 23% | 512.5 | 3 | 300% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
-  - `#3[i]`次 → 参数3：上下文「害。强化持续【龙灵】___次行动。」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`伤 → 参数5：上下文「4[f1]%攻击力+___伤害的护盾，持续#」
-  - `#6[i]`回 → 参数6：上下文「i]伤害的护盾，持续___回合。重复获得丹恒」
-  - `#7[i]`% → 参数7(%)：上下文「前战技提供的护盾量的___%。 使【龙灵】获」
-  - 参数8：效果模板中无对应 `#8[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
+  - `#3[i]`次 → Param 3: 上下文「害。强化持续【龙灵】___次行动。」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`伤 → Param 5: 上下文「4[f1]%攻击力+___伤害的护盾，持续#」
+  - `#6[i]`回 → Param 6: 上下文「i]伤害的护盾，持续___回合。重复获得丹恒」
+  - `#7[i]`% → Param 7 (%): 上下文「前战技提供的护盾量的___%。 使【龙灵】获」
+  - Param 8: No corresponding `#8[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Physical DMG equal to 375% of Dan Heng • Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to #4[f1]% of Dan Heng • Permansor Terrae's ATK plus 512.5, lasting for 3 turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.
 "Souldragon" becomes enhanced. When "Souldragon" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 100% of Dan Heng • Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to #8[f1]% of the Bondmate's ATK. The enhancement lasts for 2 "Souldragon" action(s).
@@ -187,7 +187,7 @@ When Dan Heng • Permansor Terrae or the "Bondmate" is knocked down, "Souldrago
 【龙灵】行动时，解除我方全体的#6[i]个负面效果，并提供能够抵消等同于丹恒•腾荒#1[f1]%攻击力+#2[i]伤害的护盾，持续#3[i]回合。丹恒•腾荒和【龙灵】提供的护盾量可以叠加，最高不超过丹恒•腾荒战技提供的护盾量的#4[i]%。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 (%) | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 7% | 50 | 3 | 300% | 165 | 1 |
   | Lv.2 | 7.38% | 80 | 3 | 300% | 165 | 1 |
@@ -206,12 +206,12 @@ When Dan Heng • Permansor Terrae or the "Bondmate" is knocked down, "Souldrago
   | Lv.15 | 11.5% | 256.25 | 3 | 300% | 165 | 1 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`伤 → 参数2：上下文「1[f1]%攻击力+___伤害的护盾，持续#」
-  - `#3[i]`回 → 参数3：上下文「i]伤害的护盾，持续___回合。丹恒•腾荒和」
-  - `#4[i]`% → 参数4(%)：上下文「荒战技提供的护盾量的___%。 丹恒•腾荒或」
-  - `#5[i]`点 → 参数5：上下文「】，【龙灵】初始拥有___点速度。 【龙灵】」
-  - `#6[i]`个 → 参数6：上下文「动时，解除我方全体的___个负面效果，并提供」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`伤 → Param 2: 上下文「1[f1]%攻击力+___伤害的护盾，持续#」
+  - `#3[i]`回 → Param 3: 上下文「i]伤害的护盾，持续___回合。丹恒•腾荒和」
+  - `#4[i]`% → Param 4 (%): 上下文「荒战技提供的护盾量的___%。 丹恒•腾荒或」
+  - `#5[i]`点 → Param 5: 上下文「】，【龙灵】初始拥有___点速度。 【龙灵】」
+  - `#6[i]`个 → Param 6: 上下文「动时，解除我方全体的___个负面效果，并提供」
 
 - **Max Effect**：When an ally character becomes the "Bondmate," Dan Heng • Permansor Terrae summons "Souldragon" for them, which has an initial SPD of 165.
 When "Souldragon" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus 256.25 for 3 turn(s). The Shield Effect provided by Dan Heng • Permansor Terrae and "Souldragon" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng • Permansor Terrae's Skill.
@@ -226,12 +226,12 @@ When Dan Heng • Permansor Terrae or the "Bondmate" is knocked down, "Souldrago
 When switching the active character, "Bondmate" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Bondmate" without consuming any Skill Points.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
+  - `#1[i]`秒 → Param 1: 上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
 
 - **Max Effect**：After using Technique, gains "Bondmate" and inflict Daze on enemies within a certain area for 10 second(s). Dazed enemies will not actively attack ally targets.
 When switching the active character, "Bondmate" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Bondmate" without consuming any Skill Points.

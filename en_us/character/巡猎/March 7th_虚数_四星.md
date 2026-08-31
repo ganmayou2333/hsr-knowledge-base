@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target and gains #2[i] point(s) of Charge.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 50% | 1 |
   | Lv.2 | 60% | 1 |
@@ -93,8 +93,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于三月七___%攻击力的虚数属性」
-  - `#2[i]`点 → 参数2：上下文「数属性伤害，随后获得___点充能。」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于三月七___%攻击力的虚数属性」
+  - `#2[i]`点 → Param 2: 上下文「数属性伤害，随后获得___点充能。」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of March 7th's ATK to one designated enemy target and gains 1 point(s) of Charge.
 
@@ -114,7 +114,7 @@ Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of
 「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高#3[i]%。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 6% | 10% | 100% |
   | Lv.2 | 6.4% | 11% | 100% |
@@ -133,9 +133,9 @@ Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of
   | Lv.15 | 12% | 25% | 100% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「额外造成等同于三月七___%攻击力的基于【师」
-  - `#3[i]`% → 参数3(%)：上下文「本次伤害的削韧值提高___%。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「额外造成等同于三月七___%攻击力的基于【师」
+  - `#3[i]`% → Param 3 (%): 上下文「本次伤害的削韧值提高___%。」
 
 - **Max Effect**：Designates one ally (excluding this unit) as "Shifu" and increases "Shifu"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as "Shifu."
 Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if "Shifu" with the specified Path is present on the field:
@@ -151,7 +151,7 @@ Increases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hi
 使下一次强化普攻的初始段数增加#2[i]段，额外造成伤害的固定概率提高#3[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 144% | 2 | 20% |
   | Lv.2 | 153.6% | 2 | 20% |
@@ -170,9 +170,9 @@ Increases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hi
   | Lv.15 | 288% | 2 | 20% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于三月七___%攻击力的虚数属性」
-  - `#2[i]`段 → 参数2：上下文「化普攻的初始段数增加___段，额外造成伤害的」
-  - `#3[i]`% → 参数3(%)：上下文「成伤害的固定概率提高___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于三月七___%攻击力的虚数属性」
+  - `#2[i]`段 → Param 2: 上下文「化普攻的初始段数增加___段，额外造成伤害的」
+  - `#3[i]`% → Param 3 (%): 上下文「成伤害的固定概率提高___%。」
 
 - **Max Effect**：Deals Imaginary DMG equal to 288% of March 7th's ATK to one designated enemy target.
 Increases the initial Hits Per Action of the next Enhanced Basic ATK by 2 hit(s) and increase the fixed chance of additionally dealing DMG by 20%.
@@ -186,7 +186,7 @@ Upon reaching #1[i] or more points of Charge, March 7th immediately takes action
 充能大于等于#1[i]点时，三月七立即行动，造成的伤害提高#2[i]%，普攻得到强化且无法施放战技。施放强化普攻后，消耗#1[i]点充能。充能上限#3[i]点。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 7 | 40% | 10 |
   | Lv.2 | 7 | 44% | 10 |
@@ -205,9 +205,9 @@ Upon reaching #1[i] or more points of Charge, March 7th immediately takes action
   | Lv.15 | 7 | 100% | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「施放强化普攻后，消耗___点充能。充能上限#」
-  - `#2[i]`% → 参数2(%)：上下文「行动，造成的伤害提高___%，普攻得到强化且」
-  - `#3[i]`点 → 参数3：上下文「i]点充能。充能上限___点。」
+  - `#1[i]`点 → Param 1: 上下文「施放强化普攻后，消耗___点充能。充能上限#」
+  - `#2[i]`% → Param 2 (%): 上下文「行动，造成的伤害提高___%，普攻得到强化且」
+  - `#3[i]`点 → Param 3: 上下文「i]点充能。充能上限___点。」
 
 - **Max Effect**：After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.
 Upon reaching 7 or more points of Charge, March 7th immediately takes action and increases the DMG she deals by 100%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes 7 point(s) of Charge. Charge is capped at 10 points.
@@ -221,13 +221,13 @@ After using Technique, March 7th regenerates #2[i] Energy when the next battle s
 使用秘技后，下一次战斗开始时三月七恢复#2[i]点能量。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 3 | 30 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「得1点充能，最多获得___点。 使用秘技后，」
-  - `#2[i]`点 → 参数2：上下文「战斗开始时三月七恢复___点能量。」
+  - `#1[i]`点 → Param 1: 上下文「得1点充能，最多获得___点。 使用秘技后，」
+  - `#2[i]`点 → Param 2: 上下文「战斗开始时三月七恢复___点能量。」
 
 - **Max Effect**：If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of 3 point(s).
 After using Technique, March 7th regenerates 30 Energy when the next battle starts.

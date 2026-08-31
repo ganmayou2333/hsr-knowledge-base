@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于白厄___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于白厄___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Phainon's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains #3[i] point(s) of "Coreflame," dealing Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy and Physical DMG equal to #2[i]% of Phainon's ATK to adjacent targets.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 150% | 60% | 2 |
   | Lv.2 | 165% | 66% | 2 |
@@ -125,9 +125,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 375% | 150% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于白厄___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于白厄___%攻击力的物理属性」
-  - `#3[i]`点 → 参数3：上下文「获得___点【火种】，对指定」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于白厄___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于白厄___%攻击力的物理属性」
+  - `#3[i]`点 → Param 3: 上下文「获得___点【火种】，对指定」
 
 - **Max Effect**：Gains 2 point(s) of "Coreflame," dealing Physical DMG equal to 375% of Phainon's ATK to one designated enemy and Physical DMG equal to 150% of Phainon's ATK to adjacent targets.
 
@@ -142,7 +142,7 @@ Khaslana does not enter his own turn, but has #4[i] Khaslana's extra turn(s), wi
 卡厄斯兰那不会进入自己的回合，但拥有#4[i]个卡厄斯兰那的额外回合，速度固定为卡厄斯兰那基础速度的#3[i]%。最后的卡厄斯兰那的额外回合开始时立即发动最后一击，造成等同于卡厄斯兰那#1[i]%攻击力的物理属性终结技伤害，由敌方全体均分。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 480% | 12 | 60% | 8 |
   | Lv.2 | 528% | 12 | 60% | 8 |
@@ -161,10 +161,10 @@ Khaslana does not enter his own turn, but has #4[i] Khaslana's extra turn(s), wi
   | Lv.15 | 1200% | 12 | 60% | 8 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于卡厄斯兰那___%攻击力的物理属性」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「卡厄斯兰那基础速度的___%。最后的卡厄斯兰」
-  - `#4[i]`个 → 参数4：上下文「入自己的回合，但拥有___个卡厄斯兰那的额外」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于卡厄斯兰那___%攻击力的物理属性」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「卡厄斯兰那基础速度的___%。最后的卡厄斯兰」
+  - `#4[i]`个 → Param 4: 上下文「入自己的回合，但拥有___个卡厄斯兰那的额外」
 
 - **Max Effect**：Transforms into Khaslana. During the transformation, deploys the Territory "Ruinous Irontomb." Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.
 Khaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 1200% of Khaslana's ATK that is distributed evenly across all enemies.
@@ -180,7 +180,7 @@ When Phainon is targeted by an ability from any other target, gains 1 "Coreflame
 当白厄成为其他任意目标的技能目标时，获得1点【火种】。若施放者为白厄的队友，还会使白厄的暴击伤害提高#1[i]%，持续#2[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 15% | 3 | 3 | 12 |
   | Lv.2 | 16.5% | 3 | 3 | 12 |
@@ -199,10 +199,10 @@ When Phainon is targeted by an ability from any other target, gains 1 "Coreflame
   | Lv.15 | 37.5% | 3 | 3 | 12 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「使白厄的暴击伤害提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
-  - `#3[i]`点 → 参数3：上下文「到上限后还可最多溢出___点，变身结束时会基」
-  - `#4[i]`点 → 参数4：上下文「的天赋。【火种】达到___点时可激活终结技，」
+  - `#1[i]`% → Param 1 (%): 上下文「使白厄的暴击伤害提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
+  - `#3[i]`点 → Param 3: 上下文「到上限后还可最多溢出___点，变身结束时会基」
+  - `#4[i]`点 → Param 4: 上下文「的天赋。【火种】达到___点时可激活终结技，」
 
 - **Max Effect**：Phainon's Talent. When "Coreflame" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains "Coreflame" based on the number of overflow points.
 When Phainon is targeted by an ability from any other target, gains 1 "Coreflame" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 37.5% for 3 turn(s).
@@ -219,15 +219,15 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，为我方队友恢复#3[i]点能量，获得#2[i]点【毁伤】和#4[i]个战技点，并且每个波次开始时对敌方全体造成等同于白厄#1[i]%攻击力的物理属性伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 200% | 2 | 25 | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于白厄___%攻击力的物理属性」
-  - `#2[i]`点 → 参数2：上下文「3[i]点能量，获得___点【毁伤】和#4[」
-  - `#3[i]`点 → 参数3：上下文「斗后，为我方队友恢复___点能量，获得#2[」
-  - `#4[i]`个 → 参数4：上下文「2[i]点【毁伤】和___个战技点，并且每个」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于白厄___%攻击力的物理属性」
+  - `#2[i]`点 → Param 2: 上下文「3[i]点能量，获得___点【毁伤】和#4[」
+  - `#3[i]`点 → Param 3: 上下文「斗后，为我方队友恢复___点能量，获得#2[」
+  - `#4[i]`个 → Param 4: 上下文「2[i]点【毁伤】和___个战技点，并且每个」
 
 - **Max Effect**：While Phainon is in the team, increases Max Technique Points by 3.
 When actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates 25 Energy for allies and gains 2 "Scourge" and 1 Skill Point(s). Deals Physical DMG equal to 200% of Phainon's ATK to all enemies at the start of each wave.

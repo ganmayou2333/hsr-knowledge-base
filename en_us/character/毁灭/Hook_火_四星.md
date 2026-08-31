@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于虎克___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于虎克___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Hook's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's A
 灼烧状态下，敌方目标每回合开始时受到等同于虎克#4[i]%攻击力的火属性持续伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 120% | 100% | 2 | 25% |
   | Lv.2 | 132% | 100% | 2 | 27.5% |
@@ -125,10 +125,10 @@ When afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's A
   | Lv.15 | 300% | 100% | 2 | 81.25% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于虎克___%攻击力的火属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「的火属性伤害，同时有___%的基础概率使其陷」
-  - `#3[i]`回 → 参数3：上下文「其陷入灼烧状态，持续___回合。 灼烧状态下」
-  - `#4[i]`% → 参数4(%)：上下文「开始时受到等同于虎克___%攻击力的火属性持」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于虎克___%攻击力的火属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「的火属性伤害，同时有___%的基础概率使其陷」
+  - `#3[i]`回 → Param 3: 上下文「其陷入灼烧状态，持续___回合。 灼烧状态下」
+  - `#4[i]`% → Param 4 (%): 上下文「开始时受到等同于虎克___%攻击力的火属性持」
 
 - **Max Effect**：Deals Fire DMG equal to 300% of Hook's ATK to one designated enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.
 When afflicted with Burn, enemies will take Fire DoT equal to 81.25% of Hook's ATK at the beginning of each turn.
@@ -141,7 +141,7 @@ When afflicted with Burn, enemies will take Fire DoT equal to 81.25% of Hook's A
 After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to one designated enemy and enemies adjacent to it.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 240% |
   | Lv.2 | 256% |
@@ -160,7 +160,7 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
   | Lv.15 | 480% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于虎克___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于虎克___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 480% of Hook's ATK to one designated enemy.
 After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to one designated enemy and enemies adjacent to it.
@@ -172,7 +172,7 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
 - **Effect Template**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to #1[i]% of Hook's ATK and regenerates #2[i] extra Energy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 50% | 5 |
   | Lv.2 | 55% | 5 |
@@ -191,8 +191,8 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
   | Lv.15 | 125% | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「，追加1次等同于虎克___%攻击力的火属性附」
-  - `#2[i]`点 → 参数2：上下文「附加伤害，并额外恢复___点能量。」
+  - `#1[i]`% → Param 1 (%): 上下文「，追加1次等同于虎克___%攻击力的火属性附」
+  - `#2[i]`点 → Param 2: 上下文「附加伤害，并额外恢复___点能量。」
 
 - **Max Effect**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to 125% of Hook's ATK and regenerates 5 extra Energy.
 
@@ -205,15 +205,15 @@ When afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's A
 灼烧状态下，敌方目标每回合开始时受到等同于虎克#2[i]%攻击力的火属性持续伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 50% | 3 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的火属性伤害，同时有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「开始时受到等同于虎克___%攻击力的火属性持」
-  - `#3[i]`回 → 参数3：上下文「标陷入灼烧状态，持续___回合。 灼烧状态下」
-  - `#4[i]`% → 参数4(%)：上下文「机单体造成等同于虎克___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「的火属性伤害，同时有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「开始时受到等同于虎克___%攻击力的火属性持」
+  - `#3[i]`回 → Param 3: 上下文「标陷入灼烧状态，持续___回合。 灼烧状态下」
+  - `#4[i]`% → Param 4 (%): 上下文「机单体造成等同于虎克___%攻击力的火属性伤」
 
 - **Max Effect**：Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s).
 When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn.

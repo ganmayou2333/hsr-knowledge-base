@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于希儿___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于希儿___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 140% of Seele's ATK to one designated enemy.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 110% | 25% | 2 |
   | Lv.2 | 121% | 25% | 2 |
@@ -124,9 +124,9 @@ After an ally target attacks, if the attack target's current HP percentage is #4
   | Lv.15 | 275% | 25% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于希儿___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「使希儿的速度提高___%，并对指定敌方单」
-  - `#3[i]`回 → 参数3：上下文「害，速度提高效果持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于希儿___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「使希儿的速度提高___%，并对指定敌方单」
+  - `#3[i]`回 → Param 3: 上下文「害，速度提高效果持续___回合。」
 
 - **Max Effect**：Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 275% of Seele's ATK to one designated enemy.
 After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
@@ -138,7 +138,7 @@ After an ally target attacks, if the attack target's current HP percentage is #4
 - **Effect Template**：Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 255% |
   | Lv.2 | 272% |
@@ -157,7 +157,7 @@ After an ally target attacks, if the attack target's current HP percentage is #4
   | Lv.15 | 510% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于希儿___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于希儿___%攻击力的量子属性」
 
 - **Max Effect**：Seele enters the Amplification state and deals Quantum DMG equal to 510% of her ATK to one designated enemy.
 
@@ -169,7 +169,7 @@ After an ally target attacks, if the attack target's current HP percentage is #4
 Enemies defeated in the extra turn provided by "Resurgence" will not trigger another "Resurgence."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 40% | 1 |
   | Lv.2 | 44% | 1 |
@@ -188,8 +188,8 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
   | Lv.15 | 100% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「放攻击造成的伤害提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。 若希儿在因」
+  - `#1[i]`% → Param 1 (%): 上下文「放攻击造成的伤害提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。 若希儿在因」
 
 - **Max Effect**：Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by 100% for 1 turn(s).
 Enemies defeated in the extra turn provided by "Resurgence" will not trigger another "Resurgence."
@@ -201,12 +201,12 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 - **Effect Template**：After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的隐身状态。隐身」
+  - `#1[i]`秒 → Param 1: 上下文「使用秘技后进入持续___秒的隐身状态。隐身」
 
 - **Max Effect**：After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
 

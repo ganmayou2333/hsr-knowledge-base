@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Sunday's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于星期日___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于星期日___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of Sunday's ATK to one designated enemy.
 
@@ -110,7 +110,7 @@ After using Skill on The Beatified, recovers 1 Skill Point.
 When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 1 | 15% | 2 | 25% |
   | Lv.2 | 1 | 16.5% | 2 | 27.5% |
@@ -129,10 +129,10 @@ When Sunday uses this ability on characters following the Path of Harmony, canno
   | Lv.15 | 1 | 37.5% | 2 | 62.5% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「并使其造成的伤害提高___%，若目标拥有召唤」
-  - `#3[i]`回 → 参数3：上下文「高#4[i]%，持续___回合。 对【蒙福者」
-  - `#4[i]`% → 参数4(%)：上下文「伤害提高效果额外提高___%，持续#3[i]」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「并使其造成的伤害提高___%，若目标拥有召唤」
+  - `#3[i]`回 → Param 3: 上下文「高#4[i]%，持续___回合。 对【蒙福者」
+  - `#4[i]`% → Param 4 (%): 上下文「伤害提高效果额外提高___%，持续#3[i]」
 
 - **Max Effect**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by 37.5%. If the target has a summon, then the DMG Boost effect is further boosted by an additional 62.5%, lasting for 2 turn(s).
 After using Skill on The Beatified, recovers 1 Skill Point.
@@ -147,7 +147,7 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续#3[i]回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 20% | 12% | 3 | 8% |
   | Lv.2 | 20% | 13.8% | 3 | 8.4% |
@@ -166,10 +166,10 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
   | Lv.15 | 20% | 39% | 3 | 14% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「持续回合减1，共持续___回合。且仅对除星期」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「持续回合减1，共持续___回合。且仅对除星期」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.
 At the start of Sunday's every turn, the duration of "The Beatified" decreases by 1 turn, lasting for a total of 3 turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, "The Beatified" will also be dispelled.
@@ -181,7 +181,7 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 - **Effect Template**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 10% | 3 |
   | Lv.2 | 11% | 3 |
@@ -200,8 +200,8 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
   | Lv.15 | 25% | 3 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`回 → 参数2：上下文「#1[f1]%，持续___回合。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`回 → Param 2: 上下文「#1[f1]%，持续___回合。」
 
 - **Max Effect**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for 3 turn(s).
 
@@ -212,13 +212,13 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 - **Effect Template**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「使目标造成的伤害提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「使目标造成的伤害提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
 
 - **Max Effect**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by 50%, lasting for 2 turn(s).
 

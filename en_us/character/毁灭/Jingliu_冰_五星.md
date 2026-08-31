@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于镜流___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于镜流___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of Jingliu's Max HP to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy and gains #2[i] stack(s) of "Syzygy."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 100% | 1 |
   | Lv.2 | 110% | 1 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于镜流___%攻击力的冰属性伤」
-  - `#2[i]`层 → 参数2：上下文「的冰属性伤害，并获得___层【朔望】。」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于镜流___%攻击力的冰属性伤」
+  - `#2[i]`层 → Param 2: 上下文「的冰属性伤害，并获得___层【朔望】。」
 
 - **Max Effect**：Deals Ice DMG equal to 250% of Jingliu's Max HP to one designated enemy and gains 1 stack(s) of "Syzygy."
 
@@ -135,7 +135,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy, and deals Ice DMG equal to #3[i]% of Jingliu's Max HP to adjacent targets. Gains #2[i] stack(s) of "Syzygy" after the attack ends.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 180% | 1 | 90% | 1 |
   | Lv.2 | 192% | 1 | 96% | 1 |
@@ -154,10 +154,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 360% | 1 | 180% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于镜流___%攻击力的冰属性伤」
-  - `#2[i]`层 → 参数2：上下文「伤害。攻击结束后获得___层【朔望】。」
-  - `#3[i]`% → 参数3(%)：上下文「邻目标造成等同于镜流___%攻击力的冰属性伤」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于镜流___%攻击力的冰属性伤」
+  - `#2[i]`层 → Param 2: 上下文「伤害。攻击结束后获得___层【朔望】。」
+  - `#3[i]`% → Param 3 (%): 上下文「邻目标造成等同于镜流___%攻击力的冰属性伤」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Ice DMG equal to 360% of Jingliu's Max HP to one designated enemy, and deals Ice DMG equal to 180% of Jingliu's Max HP to adjacent targets. Gains 1 stack(s) of "Syzygy" after the attack ends.
 
@@ -168,7 +168,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When Jingliu has #5[i] stacks of "Syzygy," she enters the "Spectral Transmigration" state with 1 extra stack of "Syzygy" gained, her action advanced by #6[i]%, and her CRIT Rate increased by #7[i]%. Then, Jingliu's Skill "Transcendent Flash" is enhanced to "Moon On Glacial River," and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to #2[i]% of their respective Max HP (this cannot reduce teammates' HP to lower than 1). During the "Spectral Transmigration" state, when ally targets receive DMG or consume HP, Jingliu gains 1 stack of "Moonlight." Each "Moonlight" stack increases Jingliu's CRIT DMG by #3[i]%, stacking up to #4[i] time(s). Jingliu cannot enter the "Spectral Transmigration" state again until the current "Spectral Transmigration" state ends. "Syzygy" can stack up to 4 times. When "Syzygy" stacks become 0, Jingliu will exit the "Spectral Transmigration" state and remove all "Moonlight." After ally targets receive DMG or consume HP for a total of #8[i] times, Jingliu gains 1 stack of "Syzygy." Each attack received by each target is only counted once.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6(%) | 参数7(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 (%) | Param 5 | Param 6 (%) | Param 7 (%) |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 30% | 4% | 540% | 90% | 2 | 100% | 40% |
   | Lv.2 | 30% | 4% | 540% | 99% | 2 | 100% | 41% |
@@ -187,13 +187,13 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 30% | 4% | 540% | 225% | 2 | 100% | 55% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「施放攻击时，消耗队友___%生命上限的生命值」
-  - `#3[i]`% → 参数3(%)：上下文「全体生命值消耗总量的___%提高镜流攻击力，」
-  - `#4[i]`% → 参数4(%)：上下文「超过镜流基础攻击力的___%，持续至本次攻击」
-  - `#5[i]`层 → 参数5：上下文「当拥有___层【朔望】时，镜流」
-  - `#6[i]`% → 参数6(%)：上下文「】状态，并使行动提前___%、暴击率提高#7」
-  - `#7[i]`% → 参数7(%)：上下文「[i]%、暴击率提高___%，随后战技【无罅」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「施放攻击时，消耗队友___%生命上限的生命值」
+  - `#3[i]`% → Param 3 (%): 上下文「全体生命值消耗总量的___%提高镜流攻击力，」
+  - `#4[i]`% → Param 4 (%): 上下文「超过镜流基础攻击力的___%，持续至本次攻击」
+  - `#5[i]`层 → Param 5: 上下文「当拥有___层【朔望】时，镜流」
+  - `#6[i]`% → Param 6 (%): 上下文「】状态，并使行动提前___%、暴击率提高#7」
+  - `#7[i]`% → Param 7 (%): 上下文「[i]%、暴击率提高___%，随后战技【无罅」
 
 - **Max Effect**：When Jingliu has 2 stacks of "Syzygy," she enters the "Spectral Transmigration" state with 1 extra stack of "Syzygy" gained, her action advanced by 100%, and her CRIT Rate increased by 55%. Then, Jingliu's Skill "Transcendent Flash" is enhanced to "Moon On Glacial River," and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to 4% of their respective Max HP (this cannot reduce teammates' HP to lower than 1). During the "Spectral Transmigration" state, when ally targets receive DMG or consume HP, Jingliu gains 1 stack of "Moonlight." Each "Moonlight" stack increases Jingliu's CRIT DMG by 540%, stacking up to 225% time(s). Jingliu cannot enter the "Spectral Transmigration" state again until the current "Spectral Transmigration" state ends. "Syzygy" can stack up to 4 times. When "Syzygy" stacks become 0, Jingliu will exit the "Spectral Transmigration" state and remove all "Moonlight." After ally targets receive DMG or consume HP for a total of #8[i] times, Jingliu gains 1 stack of "Syzygy." Each attack received by each target is only counted once.
 
@@ -204,17 +204,17 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After using Technique, creates a Special Dimension around this unit that lasts for #3[i] seconds. All enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of "Syzygy," with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and take Ice Additional DMG equal to #5[i]% of Jingliu's Max HP at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 | Param 5 (%) | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 1 | 100% | 20 | 1 | 80% | 15 |
 
 - **Parameter Notes**：
-  - `#1[i]`层 → 参数1：上下文「6[i]点能量、获得___层【朔望】并有#2」
-  - `#2[i]`% → 参数2(%)：上下文「[i]层【朔望】并有___%的基础概率使敌方」
-  - `#3[i]`秒 → 参数3：上下文「自身周围制造1片持续___秒的特殊领域，处于」
-  - `#4[i]`回 → 参数4：上下文「标陷入冻结状态，持续___回合。冻结状态下，」
-  - `#5[i]`% → 参数5(%)：上下文「开始时受到等同于镜流___%攻击力的冰属性附」
-  - `#6[i]`点 → 参数6：上下文「斗后，立即为自身恢复___点能量、获得#1[」
+  - `#1[i]`层 → Param 1: 上下文「6[i]点能量、获得___层【朔望】并有#2」
+  - `#2[i]`% → Param 2 (%): 上下文「[i]层【朔望】并有___%的基础概率使敌方」
+  - `#3[i]`秒 → Param 3: 上下文「自身周围制造1片持续___秒的特殊领域，处于」
+  - `#4[i]`回 → Param 4: 上下文「标陷入冻结状态，持续___回合。冻结状态下，」
+  - `#5[i]`% → Param 5 (%): 上下文「开始时受到等同于镜流___%攻击力的冰属性附」
+  - `#6[i]`点 → Param 6: 上下文「斗后，立即为自身恢复___点能量、获得#1[」
 
 - **Max Effect**：After using Technique, creates a Special Dimension around this unit that lasts for 20 seconds. All enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates 15 Energy and obtains 1 stack(s) of "Syzygy," with a 100% base chance of Freezing enemy targets for 1 turn(s). While Frozen, enemy targets cannot take action, and take Ice Additional DMG equal to 80% of Jingliu's Max HP at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.
 

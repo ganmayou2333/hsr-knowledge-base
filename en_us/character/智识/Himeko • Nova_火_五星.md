@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to one enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于姬子•启行___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于姬子•启行___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Himeko • Nova's ATK to one enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for #2[i] turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by #1[i]%. At the start of every turn, immediately recovers 1 Assist Skill use.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 10% | 3 |
   | Lv.2 | 11% | 3 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 25% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成的伤害提高___%，每个回合开始时」
-  - `#2[i]`回 → 参数2：上下文「得【领航旗语】，持续___回合，姬子•启行每」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成的伤害提高___%，每个回合开始时」
+  - `#2[i]`回 → Param 2: 上下文「得【领航旗语】，持续___回合，姬子•启行每」
 
 - **Max Effect**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by 25%. At the start of every turn, immediately recovers 1 Assist Skill use.
 
@@ -136,7 +136,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 当【超频粒子光束】次数耗尽时，会自动发动【轨道歼灭脉冲】，随后发动最后一击，造成#6[i]次伤害，每次伤害对敌方随机单体造成等同于姬子•启行#7[i]%攻击力的火属性伤害。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7(%) | 参数8 | 参数9(%) | 参数10(%) |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 | Param 7 (%) | Param 8 | Param 9 (%) | Param 10 (%) |
   |---|---|---|---|---|---|---|---|---|---|---|
   | Lv.1 | 16% | 1 | 10% | 1 | 15% | 3 | 40% | 3 | 381% | 126% |
   | Lv.2 | 17.6% | 1 | 11% | 1 | 16.5% | 3 | 44% | 3 | 419.1% | 138.6% |
@@ -155,16 +155,16 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 40% | 1 | 25% | 1 | 37.5% | 3 | 100% | 3 | 952.5% | 315% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
-  - `#6[i]`次 → 参数6：上下文「后发动最后一击，造成___次伤害，每次伤害对」
-  - `#7[i]`% → 参数7(%)：上下文「造成等同于姬子•启行___%攻击力的火属性伤」
-  - 参数8：效果模板中无对应 `#8[i]` 占位符（预留参数/其他属性）
-  - `#9[i]`% → 参数9(%)：上下文「造成等同于姬子•启行___%攻击力的火属性伤」
-  - `#10[i]`% → 参数10(%)：上下文「造成等同于姬子•启行___%攻击力的火属性伤」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#6[i]`次 → Param 6: 上下文「后发动最后一击，造成___次伤害，每次伤害对」
+  - `#7[i]`% → Param 7 (%): 上下文「造成等同于姬子•启行___%攻击力的火属性伤」
+  - Param 8: No corresponding `#8[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#9[i]`% → Param 9 (%): 上下文「造成等同于姬子•启行___%攻击力的火属性伤」
+  - `#10[i]`% → Param 10 (%): 上下文「造成等同于姬子•启行___%攻击力的火属性伤」
 
 - **Max Effect**：Deals 1 instance(s) of DMG, each dealing Fire DMG to one random enemy.
 
@@ -181,7 +181,7 @@ When ally characters other than Himeko • Nova use their Assist Skill, regenera
 除姬子•启行外的我方角色使用助战技时，会使其恢复#3[i]点能量。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 40% | 10% | 4 |
   | Lv.2 | 44% | 11% | 4 |
@@ -200,9 +200,9 @@ When ally characters other than Himeko • Nova use their Assist Skill, regenera
   | Lv.15 | 100% | 25% | 4 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「i]%、暴击伤害提高___%，攻击时可无视弱」
-  - `#2[i]`% → 参数2(%)：上下文「得全属性抗性穿透提高___%、暴击伤害提高#」
-  - `#3[i]`点 → 参数3：上下文「助战技时，会使其恢复___点能量。」
+  - `#1[i]`% → Param 1 (%): 上下文「i]%、暴击伤害提高___%，攻击时可无视弱」
+  - `#2[i]`% → Param 2 (%): 上下文「得全属性抗性穿透提高___%、暴击伤害提高#」
+  - `#3[i]`点 → Param 3: 上下文「助战技时，会使其恢复___点能量。」
 
 - **Max Effect**：While Himeko • Nova is on the field, immediately deploys the Territory "Starblazer Visioscape," summoning "Starblazer" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon "Starblazer" to attack enemies.
 Using Assist Skill is considered as Himeko • Nova using her Skill. Himeko • Nova gains 25% increased All-Type RES PEN and 100% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.
@@ -220,12 +220,12 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 使用秘技后进入持续#1[i]秒的【巡航】状态，主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，每个波次开始时立即施放1次战技。
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 30 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的【巡航】状态，」
+  - `#1[i]`秒 → Param 1: 上下文「使用秘技后进入持续___秒的【巡航】状态，」
 
 - **Max Effect**：When Himeko • Nova is in the team, increases the max Technique Points by 3.
 After using Technique, enters the "Cruise" state for 30 seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.

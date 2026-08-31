@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于寒鸦___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于寒鸦___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Hanya's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发#2[i]次战技点恢复效果后自动解除。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 120% | 2 |
   | Lv.2 | 132% | 2 |
@@ -125,8 +125,8 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
   | Lv.15 | 300% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于寒鸦___%攻击力的物理属性」
-  - `#2[i]`次 → 参数2：上下文「目标生效，并会在触发___次战技点恢复效果后」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于寒鸦___%攻击力的物理属性」
+  - `#2[i]`次 → Param 2: 上下文「目标生效，并会在触发___次战技点恢复效果后」
 
 - **Max Effect**：Deals Physical DMG equal to 300% of Hanya's ATK to one designated enemy target, then applies "Burden" to them.
 For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden," allies will immediately recover 1 Skill Point. "Burden" is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times.
@@ -138,7 +138,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 - **Effect Template**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by #1[i]%, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 36% | 2 | 15% |
   | Lv.2 | 38.4% | 2 | 15.5% |
@@ -157,9 +157,9 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
   | Lv.15 | 72% | 2 | 22.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「并使该目标攻击力提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「并使该目标攻击力提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by 72%, lasting for 2 turn(s).
 
@@ -170,7 +170,7 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 - **Effect Template**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
   | Lv.2 | 16.5% | 2 |
@@ -189,8 +189,8 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
   | Lv.15 | 37.5% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「技时，造成的伤害提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「技时，造成的伤害提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
 
 - **Max Effect**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 37.5%, lasting for 2 turn(s).
 

@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于姬子___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于姬子___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Himeko's ATK to one enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one designated enemy and Fire DMG equal to #2[i]% of Himeko's ATK to enemies adjacent to it.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 100% | 40% |
   | Lv.2 | 110% | 44% |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于姬子___%攻击力的火属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于姬子___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于姬子___%攻击力的火属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于姬子___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 250% of Himeko's ATK to one designated enemy and Fire DMG equal to 100% of Himeko's ATK to enemies adjacent to it.
 
@@ -135,7 +135,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to all enemies. Himeko regenerates #2[i] extra Energy for each enemy defeated.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 138% | 5 |
   | Lv.2 | 147.2% | 5 |
@@ -154,8 +154,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 276% | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于姬子___%攻击力的火属性伤」
-  - `#2[i]`点 → 参数2：上下文「敌方目标额外恢复姬子___点能量。」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于姬子___%攻击力的火属性伤」
+  - `#2[i]`点 → Param 2: 上下文「敌方目标额外恢复姬子___点能量。」
 
 - **Max Effect**：Deals Fire DMG equal to 276% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.
 
@@ -171,7 +171,7 @@ At the start of the battle, Himeko gains 1 point of Charge.
 当我方目标施放攻击后，若姬子的充能达到上限则立即发动1次追加攻击，对敌方全体目标造成等同于姬子#1[i]%攻击力的火属性伤害，并消耗全部充能。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 70% | 3 |
   | Lv.2 | 77% | 3 |
@@ -190,8 +190,8 @@ At the start of the battle, Himeko gains 1 point of Charge.
   | Lv.15 | 175% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体目标造成等同于姬子___%攻击力的火属性伤」
-  - `#2[i]`点 → 参数2：上下文「，姬子获得充能，上限___点。 当我方目标施」
+  - `#1[i]`% → Param 1 (%): 上下文「体目标造成等同于姬子___%攻击力的火属性伤」
+  - `#2[i]`点 → Param 2: 上下文「，姬子获得充能，上限___点。 当我方目标施」
 
 - **Max Effect**：When an enemy target is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).
 If Himeko is fully Charged when an ally target performs an attack, Himeko immediately performs 1 Follow-Up ATK and deals Fire DMG equal to 175% of her ATK to all enemies, consuming all Charge points.
@@ -204,15 +204,15 @@ At the start of the battle, Himeko gains 1 point of Charge.
 - **Effect Template**：After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 10% | 2 | 15 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「受到的火属性伤害提高___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。我方制造的领」
-  - `#4[i]`秒 → 参数4：上下文「秘技后，制造1片持续___秒的特殊领域。与处」
+  - `#1[i]`% → Param 1 (%): 上下文「的敌人进入战斗后，有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「受到的火属性伤害提高___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「高#2[i]%，持续___回合。我方制造的领」
+  - `#4[i]`秒 → Param 4: 上下文「秘技后，制造1片持续___秒的特殊领域。与处」
 
 - **Max Effect**：After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering battle with enemies in the Special Dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 

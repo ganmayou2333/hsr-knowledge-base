@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of The Dahlia's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于大丽花___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于大丽花___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy.
 
@@ -108,7 +108,7 @@ While the Zone lasts, increases all allies' Weakness Break Efficiency by #3[i]%.
 结界持续期间，我方全体的弱点击破效率提高#3[i]%，敌方目标未处于弱点击破状态时承受的削韧值也能够转化为超击破伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 80% | 3 | 50% |
   | Lv.2 | 88% | 3 | 50% |
@@ -127,9 +127,9 @@ While the Zone lasts, increases all allies' Weakness Break Efficiency by #3[i]%.
   | Lv.15 | 200% | 3 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于大丽花___%攻击力的火属性伤」
-  - `#2[i]`回 → 参数2：上下文「开启结界，持续___回合，大丽花回合开」
-  - `#3[i]`% → 参数3(%)：上下文「体的弱点击破效率提高___%，敌方目标未处于」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于大丽花___%攻击力的火属性伤」
+  - `#2[i]`回 → Param 2: 上下文「开启结界，持续___回合，大丽花回合开」
+  - `#3[i]`% → Param 3 (%): 上下文「体的弱点击破效率提高___%，敌方目标未处于」
 
 - **Max Effect**：Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 200% of The Dahlia's ATK to one designated enemy and their adjacent targets.
 While the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG.
@@ -143,7 +143,7 @@ Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be 
 【败谢】状态下，敌方目标防御力降低#3[f1]%，并且会被添加所有【共舞者】属性的弱点。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 180% | 4 | 8% |
   | Lv.2 | 192% | 4 | 9% |
@@ -162,9 +162,9 @@ Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be 
   | Lv.15 | 360% | 4 | 23% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「随后造成等同于大丽花___%攻击力的火属性伤」
-  - `#2[i]`回 → 参数2：上下文「入【败谢】状态，持续___回合。随后造成等同」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「随后造成等同于大丽花___%攻击力的火属性伤」
+  - `#2[i]`回 → Param 2: 上下文「入【败谢】状态，持续___回合。随后造成等同」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Inflicts a "Wilt" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 360% of The Dahlia's ATK, which is distributed evenly across all enemies.
 Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be implanted with Weakness of all Dance Partners' Types.
@@ -182,7 +182,7 @@ This effect can only trigger once per turn. If the target is defeated before the
 敌方目标受到另一位【共舞者】攻击后，大丽花发动追加攻击，造成#2[i]次伤害，每次对敌方随机单体造成等同于大丽花#1[i]%攻击力的火属性伤害。每次对处于弱点击破状态的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次#3[i]%的超击破伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 | Param 5 (%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 5 | 100% | 35 | 30% |
   | Lv.2 | 16.5% | 5 | 110% | 35 | 33% |
@@ -201,11 +201,11 @@ This effect can only trigger once per turn. If the target is defeated before the
   | Lv.15 | 37.5% | 5 | 250% | 35 | 75% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于大丽花___%攻击力的火属性伤」
-  - `#2[i]`次 → 参数2：上下文「花发动追加攻击，造成___次伤害，每次对敌方」
-  - `#3[i]`% → 参数3(%)：上下文「害的削韧值转化为1次___%的超击破伤害。」
-  - `#4[i]`点 → 参数4：上下文「入战斗时，大丽花恢复___点能量，并使自身和」
-  - `#5[i]`% → 参数5(%)：上下文「击的削韧值转化为1次___%的超击破伤害。」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于大丽花___%攻击力的火属性伤」
+  - `#2[i]`次 → Param 2: 上下文「花发动追加攻击，造成___次伤害，每次对敌方」
+  - `#3[i]`% → Param 3 (%): 上下文「害的削韧值转化为1次___%的超击破伤害。」
+  - `#4[i]`点 → Param 4: 上下文「入战斗时，大丽花恢复___点能量，并使自身和」
+  - `#5[i]`% → Param 5 (%): 上下文「击的削韧值转化为1次___%的超击破伤害。」
 
 - **Max Effect**：When entering combat, The Dahlia regenerates 35 Energy and becomes "Dance Partners" along with the teammate that triggered combat. Whenever there is no other "Dance Partner" on the field, this unit and the teammate with the highest Break Effect become "Dance Partners" together. After a "Dance Partner" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 75%.
 After an enemy target gets attacked by the other "Dance Partner," The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 37.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 250%.
@@ -219,13 +219,13 @@ This effect can only trigger once per turn. If the target is defeated before the
 Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) |
+| Level | Param 1 | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 20 | 60% |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「秘技后，制造1片持续___秒的特殊领域。处于」
-  - `#2[i]`% → 参数2(%)：上下文「开战削韧值转化为1次___%的超击破伤害。」
+  - `#1[i]`秒 → Param 1: 上下文「秘技后，制造1片持续___秒的特殊领域。处于」
+  - `#2[i]`% → Param 2 (%): 上下文「开战削韧值转化为1次___%的超击破伤害。」
 
 - **Max Effect**：After using Technique, creates a Special Dimension that lasts for 20 second(s). Enemies within this dimension will not actively attack ally targets. After entering combat with enemies in the Special Dimension, The Dahlia immediately deploys her Skill's Zone, and converts the combat-triggering Toughness Reduction into 1 instance of Super Break DMG at 60% against enemy targets that are Weakness Broken.
 Only 1 Dimension Effect created by allies can exist at the same time.

@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「「银狼LV.999」___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「「银狼LV.999」___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains #2[i] Punchline point(s) and deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 80% | 5 |
   | Lv.2 | 88% | 5 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 200% | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「「银狼LV.999」___%攻击力的虚数属性」
-  - `#2[i]`个 → 参数2：上下文「获得___个笑点，对敌方全体」
+  - `#1[i]`% → Param 1 (%): 上下文「「银狼LV.999」___%攻击力的虚数属性」
+  - `#2[i]`个 → Param 2: 上下文「获得___个笑点，对敌方全体」
 
 - **Max Effect**：Gains 5 Punchline point(s) and deals Imaginary DMG equal to 200% of Silver Wolf LV.999's ATK to all enemies.
 
@@ -155,7 +155,7 @@ The initial fixed chance to trigger the effect is 100%. After a successfully tri
 触发该效果的初始固定概率为100%，成功触发后下一次触发的固定概率降低至当前概率的#4[i]%。若触发前目标被消灭则对新入场的敌方目标触发。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) | 参数6 | 参数7 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 (%) | Param 5 (%) | Param 6 | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 60 | 0 | 45% | 20% | 20% | 3 | 2 |
   | Lv.2 | 60 | 0 | 49.5% | 20% | 20% | 3 | 2 |
@@ -174,13 +174,13 @@ The initial fixed chance to trigger the effect is 100%. After a successfully tri
   | Lv.15 | 60 | 0 | 112.5% | 20% | 20% | 3 | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「头号补给盲盒】：造成___%的虚数属性欢愉伤」
-  - `#4[i]`% → 参数4(%)：上下文「概率降低至当前概率的___%。若触发前目标被」
-  - `#5[i]`% → 参数5(%)：上下文「成等同于本次总伤害值___%的真实伤害； 【」
-  - `#6[i]`个 → 参数6：上下文「【怪怪怪味豆】：获得___个笑点。 触发该效」
-  - `#7[i]`个 → 参数7：上下文「【爆爆爆炸蛋】：恢复___个战技点； 【怪怪」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「头号补给盲盒】：造成___%的虚数属性欢愉伤」
+  - `#4[i]`% → Param 4 (%): 上下文「概率降低至当前概率的___%。若触发前目标被」
+  - `#5[i]`% → Param 5 (%): 上下文「成等同于本次总伤害值___%的真实伤害； 【」
+  - `#6[i]`个 → Param 6: 上下文「【怪怪怪味豆】：获得___个笑点。 触发该效」
+  - `#7[i]`个 → Param 7: 上下文「【爆爆爆炸蛋】：恢复___个战技点； 【怪怪」
 
 - **Max Effect**：Enters the "Godmode Player" state, and advances action by 100%.
 Deploys a Zone while in the "Godmode Player" state. While Silver Wolf LV.999 holds "Certified Banger," for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's "Top Loot Box": Deals 112.5% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:
@@ -207,7 +207,7 @@ While holding "Certified Banger," using Basic ATK or Skill deals #3[i]% Imaginar
 持有【好活当赏】时，施放普攻、战技对受到攻击的敌方目标造成#3[i]%的虚数属性欢愉伤害，强化普攻的技能伤害改为相同倍率的欢愉伤害。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60 | 240 | 20% | 0.2% | 3 | 0.4% |
   | Lv.2 | 60 | 240 | 22% | 0.22% | 3 | 0.44% |
@@ -226,12 +226,12 @@ While holding "Certified Banger," using Basic ATK or Skill deals #3[i]% Imaginar
   | Lv.15 | 60 | 240 | 50% | 0.5% | 3 | 1% |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「【隐藏分】达到___点后可激活终结技，」
-  - `#2[i]`点 → 参数2：上下文「，达到上限后还可溢出___点。 获得笑点时，」
-  - `#3[i]`% → 参数3(%)：上下文「到攻击的敌方目标造成___%的虚数属性欢愉伤」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`次 → 参数5：上下文「强化欢愉技，完整施放___次强化普攻后退出【」
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`点 → Param 1: 上下文「【隐藏分】达到___点后可激活终结技，」
+  - `#2[i]`点 → Param 2: 上下文「，达到上限后还可溢出___点。 获得笑点时，」
+  - `#3[i]`% → Param 3 (%): 上下文「到攻击的敌方目标造成___%的虚数属性欢愉伤」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`次 → Param 5: 上下文「强化欢愉技，完整施放___次强化普攻后退出【」
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：After "Hidden MMR" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).
 When gaining Punchline, Silver Wolf LV.999 gains an equal amount of "Hidden MMR." Each point of "Hidden MMR" increases CRIT Rate by #4[f2]%. Once CRIT Rate reaches 100%, each additional point of "Hidden MMR" instead increases CRIT DMG by #6[f2]%.
@@ -254,12 +254,12 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 【怪怪怪味豆】在场时，进入战斗后每个波次开始时触发1次【怪怪怪味豆】对应的【头号补给盲盒】，本次造成的欢愉伤害固定计入#1[i]点【好活当赏】。
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 99 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「成的欢愉伤害固定计入___点【好活当赏】。」
+  - `#1[i]`点 → Param 1: 上下文「成的欢愉伤害固定计入___点【好活当赏】。」
 
 - **Max Effect**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.
 "Funky Munch Bean" causes Normal Enemies within a certain range to enter a Terrified state. It will also automatically search for and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.

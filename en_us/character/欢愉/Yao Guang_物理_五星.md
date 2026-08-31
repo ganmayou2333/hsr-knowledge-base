@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 45% | 15% |
   | Lv.2 | 54% | 18% |
@@ -93,8 +93,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 126% | 42% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于爻光___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于爻光___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于爻光___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于爻光___%攻击力的物理属性」
 
 - **Max Effect**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deploys a Zone for #1[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #2[f1]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains #3[i] Punchline.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 3 | 10% | 3 |
   | Lv.2 | 3 | 11% | 3 |
@@ -124,9 +124,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 3 | 25% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「展开结界，持续___回合，自身每回合开」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`个 → 参数3：上下文「施放普攻、战技后获得___个笑点。」
+  - `#1[i]`回 → Param 1: 上下文「展开结界，持续___回合，自身每回合开」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`个 → Param 3: 上下文「施放普攻、战技后获得___个笑点。」
 
 - **Max Effect**：Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #2[f1]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.
 
@@ -137,7 +137,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains #1[i] Punchline. Aha immediately gains 1 extra turn where a fixed amount of #4[i] Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by #2[f1]% for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 5 | 10% | 3 | 20 | 1 |
   | Lv.2 | 5 | 11% | 3 | 20 | 1 |
@@ -156,11 +156,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 5 | 25% | 3 | 20 | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`个 → 参数1：上下文「获得___个笑点。使阿哈立即」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「#2[f1]%，持续___回合。」
-  - `#4[i]`笑 → 参数4：上下文「立即获得1个固定计入___笑点的额外回合，该」
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`个 → Param 1: 上下文「获得___个笑点。使阿哈立即」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「#2[f1]%，持续___回合。」
+  - `#4[i]`笑 → Param 4: 上下文「立即获得1个固定计入___笑点的额外回合，该」
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by #2[f1]% for 3 turn(s).
 
@@ -175,7 +175,7 @@ Triggering the "Great Boon" effect is not considered as using 1 instance of atta
 使我方目标施放攻击后触发【大吉大利】效果，对随机1个击中的目标额外造成1次#1[f1]%的对应属性欢愉伤害，本次攻击若消耗战技点，则额外触发1次【大吉大利】效果。
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 10% |
   | Lv.2 | 11% |
@@ -194,7 +194,7 @@ Triggering the "Great Boon" effect is not considered as using 1 instance of atta
   | Lv.15 | 25% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：While Yao Guang holds "Certified Banger":
 After an ally target uses an attack, triggers the "Great Boon" effect, dealing 1 additional instance of #1[f1]% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers "Great Boon" 1 time.
@@ -209,12 +209,12 @@ Triggering the "Great Boon" effect is not considered as using 1 instance of atta
 - **Effect Template**：After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to #1[i] within every Earth Week.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 8 |
 
 - **Parameter Notes**：
-  - `#1[i]`个 → 参数1：上下文「每个地球周内最多获得___个。」
+  - `#1[i]`个 → Param 1: 上下文「每个地球周内最多获得___个。」
 
 - **Max Effect**：After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.
 

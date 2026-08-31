@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Hyacine's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于风堇___%生命上限的风属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于风堇___%生命上限的风属性」
 
 - **Max Effect**：Deals Wind DMG equal to 70% of Hyacine's Max HP to one designated enemy.
 
@@ -106,7 +106,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus #4[i] for Little Ica.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 4% | 40 | 5% | 50 |
   | Lv.2 | 4.5% | 64 | 5.63% | 80 |
@@ -125,10 +125,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 10% | 205 | 12.5% | 256.25 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值。为小伊卡」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值。为小伊卡」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`的 → Param 4: 上下文「[f1]%生命上限+___的生命值。」
 
 - **Max Effect**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 205 for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus 256.25 for Little Ica.
 
@@ -139,7 +139,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus #7[i] for Little Ica. Hyacine enters the "After Rain" state, lasting for #5[i] turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus #4[i].
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 5% | 50 | 15% | 150 | 3 | 6% | 60 |
   | Lv.2 | 5.63% | 80 | 16.5% | 240 | 3 | 6.75% | 96 |
@@ -158,13 +158,13 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 12.5% | 256.25 | 37.5% | 768.75 | 3 | 15% | 307.5 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，为小伊卡」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`点 → 参数4：上下文「提高#3[f1]%+___点。」
-  - `#5[i]`回 → 参数5：上下文「雨过天晴】状态，持续___回合，风堇每回合开」
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
-  - `#7[i]`的 → 参数7：上下文「[f1]%生命上限+___的生命值。风堇进入」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值，为小伊卡」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`点 → Param 4: 上下文「提高#3[f1]%+___点。」
+  - `#5[i]`回 → Param 5: 上下文「雨过天晴】状态，持续___回合，风堇每回合开」
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#7[i]`的 → Param 7: 上下文「[f1]%生命上限+___的生命值。风堇进入」
 
 - **Max Effect**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 256.25 for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus 307.5 for Little Ica. Hyacine enters the "After Rain" state, lasting for 3 turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus 768.75.
 
@@ -175,7 +175,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：The memosprite Little Ica initially has Max HP equal to #1[i]% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by #3[i]% for #4[i] turn(s). Stacks up to #5[i] time(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 50% | 1 | 40% | 2 | 3 |
   | Lv.2 | 50% | 1 | 44% | 2 | 3 |
@@ -194,11 +194,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 50% | 1 | 100% | 2 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「卡初始拥有等同于风堇___%生命上限的生命上」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「小伊卡造成的伤害提高___%，持续#4[i]」
-  - `#4[i]`回 → 参数4：上下文「高#3[i]%，持续___回合，最多可叠加#」
-  - `#5[i]`层 → 参数5：上下文「i]回合，最多可叠加___层。」
+  - `#1[i]`% → Param 1 (%): 上下文「卡初始拥有等同于风堇___%生命上限的生命上」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「小伊卡造成的伤害提高___%，持续#4[i]」
+  - `#4[i]`回 → Param 4: 上下文「高#3[i]%，持续___回合，最多可叠加#」
+  - `#5[i]`层 → Param 5: 上下文「i]回合，最多可叠加___层。」
 
 - **Max Effect**：The memosprite Little Ica initially has Max HP equal to 50% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by 100% for 2 turn(s). Stacks up to 3 time(s).
 
@@ -209,15 +209,15 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When the next battle starts, restores HP by an amount equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies and increases Max HP by #3[i]%, lasting for #4[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 30% | 600 | 20% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体回复等同于风堇___%生命上限+#2[」
-  - `#2[i]`的 → 参数2：上下文「1[i]%生命上限+___的生命值并使生命上」
-  - `#3[i]`% → 参数3(%)：上下文「命值并使生命上限提高___%，持续#4[i]」
-  - `#4[i]`回 → 参数4：上下文「高#3[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体回复等同于风堇___%生命上限+#2[」
+  - `#2[i]`的 → Param 2: 上下文「1[i]%生命上限+___的生命值并使生命上」
+  - `#3[i]`% → Param 3 (%): 上下文「命值并使生命上限提高___%，持续#4[i]」
+  - `#4[i]`回 → Param 4: 上下文「高#3[i]%，持续___回合。」
 
 - **Max Effect**：When the next battle starts, restores HP by an amount equal to 30% of Hyacine's Max HP plus 600 for all allies and increases Max HP by 20%, lasting for 2 turn(s).
 

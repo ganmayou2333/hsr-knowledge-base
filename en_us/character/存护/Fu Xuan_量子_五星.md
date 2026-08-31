@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于符玄___%生命上限的量子属」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于符玄___%生命上限的量子属」
 
 - **Max Effect**：Deals Quantum DMG equal to 70% of Fu Xuan's Max HP to one designated enemy.
 
@@ -107,7 +107,7 @@ When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.
 处于【穷观阵】的我方全体获得【鉴知】。【鉴知】状态下的我方目标生命上限提高，提高数值等同于符玄生命上限的#4[f1]%，暴击率提高#5[f1]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 65% | 0 | 3 | 3% | 6% |
   | Lv.2 | 65% | 0 | 3 | 3.3% | 6.6% |
@@ -126,11 +126,11 @@ When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.
   | Lv.15 | 65% | 0 | 3 | 7.5% | 15% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「护盾抵挡之前的伤害的___%分摊给符玄，持续」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「]%分摊给符玄，持续___回合。 处于【穷观」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「护盾抵挡之前的伤害的___%分摊给符玄，持续」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「]%分摊给符玄，持续___回合。 处于【穷观」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Activates Matrix of Prescience, via which Fu Xuan's teammates will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s).
 While affected by Matrix of Prescience, all ally targets gain the Knowledge effect, which increases their respective Max HP by #4[f1]% of Fu Xuan's Max HP, and increases CRIT Rate by #5[f1]%.
@@ -144,7 +144,7 @@ When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 60% |
   | Lv.2 | 64% |
@@ -163,7 +163,7 @@ When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.
   | Lv.15 | 120% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于符玄___%生命上限的量子属」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于符玄___%生命上限的量子属」
 
 - **Max Effect**：Deals Quantum DMG equal to 120% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.
 
@@ -178,7 +178,7 @@ When Fu Xuan's current HP percentage falls to #2[i]% of her Max HP or less, HP R
 当符玄当前生命值百分比小于等于#2[i]%时触发生命回复，使自身回复等同于已损失生命值#3[i]%的生命值，受到致命攻击时无法触发该效果。该效果初始拥有1次触发次数，最多可拥有2次触发次数。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 10% | 50% | 80% |
   | Lv.2 | 10.8% | 50% | 81% |
@@ -197,9 +197,9 @@ When Fu Xuan's current HP percentage falls to #2[i]% of her Max HP or less, HP R
   | Lv.15 | 22% | 50% | 95% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「生命值百分比小于等于___%时触发生命回复，」
-  - `#3[i]`% → 参数3(%)：上下文「复等同于已损失生命值___%的生命值，受到致」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「生命值百分比小于等于___%时触发生命回复，」
+  - `#3[i]`% → Param 3 (%): 上下文「复等同于已损失生命值___%的生命值，受到致」
 
 - **Max Effect**：While Fu Xuan is still active in combat, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[f1]% less DMG.
 When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by 95% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.
@@ -211,13 +211,13 @@ When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Rest
 - **Effect Template**：After the Technique is used, all team members receive a Barrier, lasting for #1[i] seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 20 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「后，我方全体获得持续___秒的屏障。该屏障可」
-  - `#2[i]`回 → 参数2：上下文「开启【穷观阵】，持续___回合。」
+  - `#1[i]`秒 → Param 1: 上下文「后，我方全体获得持续___秒的屏障。该屏障可」
+  - `#2[i]`回 → Param 2: 上下文「开启【穷观阵】，持续___回合。」
 
 - **Max Effect**：After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s).
 

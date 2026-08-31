@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 30% | 50% | 50% |
   | Lv.2 | 36% | 53% | 53% |
@@ -93,9 +93,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 84% | 77% | 77% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于黑天鹅___%攻击力的风属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「击力的风属性伤害，有___%的基础概率使目标」
-  - `#3[i]`% → 参数3(%)：上下文「态的目标后，分别各有___%的基础概率额外使」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于黑天鹅___%攻击力的风属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「击力的风属性伤害，有___%的基础概率使目标」
+  - `#3[i]`% → Param 3 (%): 上下文「态的目标后，分别各有___%的基础概率额外使」
 
 - **Max Effect**：Deals Wind DMG equal to 84% of Black Swan's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a #3[i]% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 45% | 100% | 100% | 14.8% | 3 |
   | Lv.2 | 49.5% | 100% | 100% | 15.4% | 3 |
@@ -125,11 +125,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 112.5% | 100% | 100% | 23.8% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于黑天鹅___%攻击力的风属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「的风属性伤害，同时有___%的基础概率使目标」
-  - `#3[i]`% → 参数3(%)：上下文「1层【奥迹】，此外有___%的基础概率使目标」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`回 → 参数5：上下文「#4[f1]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于黑天鹅___%攻击力的风属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「的风属性伤害，同时有___%的基础概率使目标」
+  - `#3[i]`% → Param 3 (%): 上下文「1层【奥迹】，此外有___%的基础概率使目标」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`回 → Param 5: 上下文「#4[f1]%，持续___回合。」
 
 - **Max Effect**：Deals Wind DMG equal to 112.5% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a 100% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for 100% turn(s).
 
@@ -143,7 +143,7 @@ While in the "Epiphany" state, enemy targets take #3[i]% increased DMG. For ever
 对敌方全体造成等同于黑天鹅#1[i]%攻击力的风属性伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 72% | 2 | 15% | 1 |
   | Lv.2 | 76.8% | 2 | 16% | 1 |
@@ -162,10 +162,10 @@ While in the "Epiphany" state, enemy targets take #3[i]% increased DMG. For ever
   | Lv.15 | 144% | 2 | 30% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于黑天鹅___%攻击力的风属性伤」
-  - `#2[i]`回 → 参数2：上下文「入【揭露】状态，持续___回合。 【揭露】状」
-  - `#3[i]`% → 参数3(%)：上下文「回合内受到的伤害提高___%，且当敌方目标处」
-  - `#4[i]`次 → 参数4：上下文「态持续时间内最多触发___次，再次陷入【揭露」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于黑天鹅___%攻击力的风属性伤」
+  - `#2[i]`回 → Param 2: 上下文「入【揭露】状态，持续___回合。 【揭露】状」
+  - `#3[i]`% → Param 3 (%): 上下文「回合内受到的伤害提高___%，且当敌方目标处」
+  - `#4[i]`次 → Param 4: 上下文「态持续时间内最多触发___次，再次陷入【揭露」
 
 - **Max Effect**：Inflicts "Epiphany" state on all enemies for 2 turn(s). Then deals Wind DMG to all enemies equal to 144% of Black Swan's ATK.
 While in the "Epiphany" state, enemy targets take 30% increased DMG. For every 1 stack of "Arcana inflicted," there is a 1% fixed chance to additionally increase the number of "Arcana" stacked this time by 1. And "Arcana" stacks won't be halved after dealing DMG at the start of the turn.
@@ -183,7 +183,7 @@ DMG from "Arcana" ignores #7[i]% of the target's DEF. Only when "Arcana" deals D
 大于等于#6[i]层：使本次造成的持续伤害无视该目标及其相邻目标#7[i]%的防御力。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7(%) | 参数8 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 (%) | Param 6 | Param 7 (%) | Param 8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 96% | 50% | 4.8% | 3 | 72% | 7 | 20% | 50 |
   | Lv.2 | 111.84% | 51.5% | 5.59% | 3 | 83.88% | 7 | 20% | 50 |
@@ -202,14 +202,14 @@ DMG from "Arcana" ignores #7[i]% of the target's DEF. Only when "Arcana" deals D
   | Lv.15 | 300% | 72.5% | 15% | 3 | 225% | 7 | 20% | 50 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「始时受到等同于黑天鹅___%攻击力的风属性持」
-  - `#2[i]`% → 参数2(%)：上下文「属性持续伤害，并且有___%的基础概率使相邻」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`层 → 参数4：上下文「额外效果： 大于等于___层：对相邻目标造成」
-  - `#5[i]`% → 参数5(%)：上下文「目标造成等同于黑天鹅___%攻击力的风属性持」
-  - `#6[i]`层 → 参数6：上下文「【奥迹】。 大于等于___层：使本次造成的持」
-  - `#7[i]`% → 参数7(%)：上下文「视该目标及其相邻目标___%的防御力。」
-  - `#8[i]`层 → 参数8：上下文「层。【奥迹】最多叠加___层。 仅在敌方目标」
+  - `#1[i]`% → Param 1 (%): 上下文「始时受到等同于黑天鹅___%攻击力的风属性持」
+  - `#2[i]`% → Param 2 (%): 上下文「属性持续伤害，并且有___%的基础概率使相邻」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`层 → Param 4: 上下文「额外效果： 大于等于___层：对相邻目标造成」
+  - `#5[i]`% → Param 5 (%): 上下文「目标造成等同于黑天鹅___%攻击力的风属性持」
+  - `#6[i]`层 → Param 6: 上下文「【奥迹】。 大于等于___层：使本次造成的持」
+  - `#7[i]`% → Param 7 (%): 上下文「视该目标及其相邻目标___%的防御力。」
+  - `#8[i]`层 → Param 8: 上下文「层。【奥迹】最多叠加___层。 仅在敌方目标」
 
 - **Max Effect**：Every time an enemy target receives 1 instance of DoT, there is a 72.5% base chance for it to be inflicted with 1 stack of "Arcana".
 While an enemy target is in the "Arcana" state, they are also considered to be simultaneously afflicted with Wind Shear, Bleed, Burn, and Shock. The target receives Wind DoT equal to 300% of Black Swan's ATK at the start of each turn, after which the number of stacks is halved. Each stack of "Arcana" increases this DMG multiplier by #3[f1]%. "Arcana" can stack 50 times, and can continue to stack beyond this limit, with the excess stacks removed after dealing DMG.
@@ -223,13 +223,13 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 - **Effect Template**：After Technique is used, there is a #1[i]% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to #2[i]% of the base chance of the previous successful infliction of "Arcana" on that target.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 150% | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「，下一次战斗开始时有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「奥迹】时的基础概率的___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「，下一次战斗开始时有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「奥迹】时的基础概率的___%。」
 
 - **Max Effect**：After Technique is used, there is a 150% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to 50% of the base chance of the previous successful infliction of "Arcana" on that target.
 

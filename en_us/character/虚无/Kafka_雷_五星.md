@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Kafka's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于卡芙卡___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于卡芙卡___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 140% of Kafka's ATK to one designated enemy.
 
@@ -108,7 +108,7 @@ If the designated enemy or the adjacent targets are currently afflicted with DoT
 若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害#2[i]%的伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 80% | 60% | 30% |
   | Lv.2 | 88% | 61.5% | 33% |
@@ -127,9 +127,9 @@ If the designated enemy or the adjacent targets are currently afflicted with DoT
   | Lv.15 | 200% | 82.5% | 75% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于卡芙卡___%攻击力的雷属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「立即产生相当于原伤害___%的伤害。」
-  - `#3[i]`% → 参数3(%)：上下文「目标造成等同于卡芙卡___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于卡芙卡___%攻击力的雷属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「立即产生相当于原伤害___%的伤害。」
+  - `#3[i]`% → Param 3 (%): 上下文「目标造成等同于卡芙卡___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 200% of Kafka's ATK to one designated enemy and Lightning DMG equal to 75% of Kafka's ATK to adjacent targets.
 If the designated enemy or the adjacent targets are currently afflicted with DoT, all DoTs currently placed on those enemies immediately produces DMG equal to 82.5% or #4[i]% of the original DMG.
@@ -145,7 +145,7 @@ While Shocked, enemy targets receive Lightning DoT equal to #4[i]% of Kafka's AT
 触电状态下，敌方目标每回合开始时受到等同于卡芙卡#4[i]%攻击力的雷属性持续伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) | Param 5 (%) |
   |---|---|---|---|---|---|
   | Lv.1 | 48% | 100% | 2 | 116% | 80% |
   | Lv.2 | 51.2% | 100% | 2 | 126.88% | 82% |
@@ -164,11 +164,11 @@ While Shocked, enemy targets receive Lightning DoT equal to #4[i]% of Kafka's AT
   | Lv.15 | 96% | 100% | 2 | 360.69% | 110% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于卡芙卡___%攻击力的雷属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「击力的雷属性伤害，有___%的基础概率使受到」
-  - `#3[i]`回 → 参数3：上下文「的伤害。触电状态持续___回合。 触电状态下」
-  - `#4[i]`% → 参数4(%)：上下文「始时受到等同于卡芙卡___%攻击力的雷属性持」
-  - `#5[i]`% → 参数5(%)：上下文「立即产生相当于原伤害___%的伤害。触电状态」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于卡芙卡___%攻击力的雷属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「击力的雷属性伤害，有___%的基础概率使受到」
+  - `#3[i]`回 → Param 3: 上下文「的伤害。触电状态持续___回合。 触电状态下」
+  - `#4[i]`% → Param 4 (%): 上下文「始时受到等同于卡芙卡___%攻击力的雷属性持」
+  - `#5[i]`% → Param 5 (%): 上下文「立即产生相当于原伤害___%的伤害。触电状态」
 
 - **Max Effect**：Deals Lightning DMG equal to 96% of Kafka's ATK to all enemies, with a 100% base chance for enemy targets hit to become Shocked and immediately take DMG from their current DoT debuff(s), equal to 110% of the original DMG. Shock lasts for 2 turn(s).
 While Shocked, enemy targets receive Lightning DoT equal to 360.69% of Kafka's ATK at the beginning of each turn.
@@ -180,7 +180,7 @@ While Shocked, enemy targets receive Lightning DoT equal to 360.69% of Kafka's A
 - **Effect Template**：After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to #1[i]% of Kafka's ATK to the primary target, with a #2[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for #3[i] turns. This effect can trigger up to #5[i] time(s), #4[i] of which can be regained at the end of Kafka's turn.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 42% | 100% | 2 |
   | Lv.2 | 51.8% | 100% | 2 |
@@ -199,9 +199,9 @@ While Shocked, enemy targets receive Lightning DoT equal to 360.69% of Kafka's A
   | Lv.15 | 189% | 100% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于卡芙卡___%攻击力的雷属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「力的雷属性伤害，并有___%的基础概率使受到」
-  - `#3[i]`回 → 参数3：上下文「相同的触电状态，持续___回合，该效果每回合」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于卡芙卡___%攻击力的雷属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「力的雷属性伤害，并有___%的基础概率使受到」
+  - `#3[i]`回 → Param 3: 上下文「相同的触电状态，持续___回合，该效果每回合」
 
 - **Max Effect**：After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to 189% of Kafka's ATK to the primary target, with a 100% base chance to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for 2 turns. This effect can trigger up to #5[i] time(s), #4[i] of which can be regained at the end of Kafka's turn.
 
@@ -212,14 +212,14 @@ While Shocked, enemy targets receive Lightning DoT equal to 360.69% of Kafka's A
 - **Effect Template**：Immediately attacks all enemies within a set range. After entering combat, deals Lightning DMG equal to #3[i]% of Kafka's ATK to all enemies, with a #1[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on every enemy target for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 100% | 2 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的雷属性伤害，同时有___%的基础概率使敌方」
-  - `#2[i]`回 → 参数2：上下文「相同的触电状态，持续___回合。」
-  - `#3[i]`% → 参数3(%)：上下文「全体造成等同于卡芙卡___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「的雷属性伤害，同时有___%的基础概率使敌方」
+  - `#2[i]`回 → Param 2: 上下文「相同的触电状态，持续___回合。」
+  - `#3[i]`% → Param 3 (%): 上下文「全体造成等同于卡芙卡___%攻击力的雷属性伤」
 
 - **Max Effect**：Immediately attacks all enemies within a set range. After entering combat, deals Lightning DMG equal to 50% of Kafka's ATK to all enemies, with a 100% base chance to inflict Shock (equivalent to that applied by her Ultimate) on every enemy target for 2 turn(s).
 

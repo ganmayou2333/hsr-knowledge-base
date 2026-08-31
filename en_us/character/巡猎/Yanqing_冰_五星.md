@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of Yanqing's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 110% |
   | Lv.2 | 121% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 275% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 275% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
 
@@ -134,7 +134,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Increases Yanqing's CRIT Rate by #1[i]%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra #2[i]%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to #3[i]% of Yanqing's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 60% | 30% | 210% |
   | Lv.2 | 60% | 32% | 224% |
@@ -153,9 +153,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 60% | 60% | 420% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「提高自身___%暴击率，若彦卿处」
-  - `#2[i]`% → 参数2(%)：上下文「使其暴击伤害额外提高___%，增益效果持续1」
-  - `#3[i]`% → 参数3(%)：上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「提高自身___%暴击率，若彦卿处」
+  - `#2[i]`% → Param 2 (%): 上下文「使其暴击伤害额外提高___%，增益效果持续1」
+  - `#3[i]`% → Param 3 (%): 上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
 
 - **Max Effect**：Increases Yanqing's CRIT Rate by 60%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra 60%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 420% of Yanqing's ATK to one designated enemy.
 
@@ -171,7 +171,7 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于彦卿#5[i]%攻击力的冰属性附加伤害。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5(%) | 参数6(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 (%) | Param 5 (%) | Param 6 (%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 15% | 15% | 50% | 25% | 25% | 65% |
   | Lv.2 | 15.5% | 16.5% | 51% | 27.5% | 27.5% | 65% |
@@ -190,12 +190,12 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
   | Lv.15 | 22.5% | 37.5% | 65% | 62.5% | 62.5% | 65% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「1[f1]%暴击率和___%暴击伤害。对敌方」
-  - `#3[i]`% → 参数3(%)：上下文「方目标施放攻击后，有___%的固定概率发动追」
-  - `#4[i]`% → 参数4(%)：上下文「对目标造成等同于彦卿___%攻击力的冰属性伤」
-  - `#5[i]`% → 参数5(%)：上下文「开始时受到等同于彦卿___%攻击力的冰属性附」
-  - `#6[i]`% → 参数6(%)：上下文「力的冰属性伤害，并有___%的基础概率使其陷」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「1[f1]%暴击率和___%暴击伤害。对敌方」
+  - `#3[i]`% → Param 3 (%): 上下文「方目标施放攻击后，有___%的固定概率发动追」
+  - `#4[i]`% → Param 4 (%): 上下文「对目标造成等同于彦卿___%攻击力的冰属性伤」
+  - `#5[i]`% → Param 5 (%): 上下文「开始时受到等同于彦卿___%攻击力的冰属性附」
+  - `#6[i]`% → Param 6 (%): 上下文「力的冰属性伤害，并有___%的基础概率使其陷」
 
 - **Max Effect**：When "Soulsteel Sync" is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by 37.5%. After Yanqing attacks an enemy, there is a 65% fixed chance to launch Follow-Up ATK, dealing Ice DMG equal to 62.5% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn.
 The Frozen target cannot take action and receives Ice Additional DMG equal to 62.5% of Yanqing's ATK at the beginning of each turn.
@@ -208,14 +208,14 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 - **Effect Template**：After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP percentage is #1[i]% or higher.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 50% | 30% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「生命值百分比大于等于___%的敌方目标造成的」
-  - `#2[i]`% → 参数2(%)：上下文「方目标造成的伤害提高___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「生命值百分比大于等于___%的敌方目标造成的」
+  - `#2[i]`% → Param 2 (%): 上下文「方目标造成的伤害提高___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「高#2[i]%，持续___回合。」
 
 - **Max Effect**：After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP percentage is 50% or higher.
 

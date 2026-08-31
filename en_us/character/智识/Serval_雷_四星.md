@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Serval's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于希露瓦___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于希露瓦___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 140% of Serval's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ While Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the
 触电状态下，敌方目标每回合开始时受到等同于希露瓦#5[i]%攻击力的雷属性持续伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 | Param 5 (%) |
   |---|---|---|---|---|---|
   | Lv.1 | 70% | 30% | 80% | 2 | 40% |
   | Lv.2 | 77% | 33% | 80% | 2 | 44% |
@@ -125,11 +125,11 @@ While Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the
   | Lv.15 | 175% | 75% | 80% | 2 | 130% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于希露瓦___%攻击力的雷属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「目标造成等同于希露瓦___%攻击力的雷属性伤」
-  - `#3[i]`% → 参数3(%)：上下文「的雷属性伤害，此外有___%的基础概率使受到」
-  - `#4[i]`回 → 参数4：上下文「标陷入触电状态，持续___回合。 触电状态下」
-  - `#5[i]`% → 参数5(%)：上下文「始时受到等同于希露瓦___%攻击力的雷属性持」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于希露瓦___%攻击力的雷属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「目标造成等同于希露瓦___%攻击力的雷属性伤」
+  - `#3[i]`% → Param 3 (%): 上下文「的雷属性伤害，此外有___%的基础概率使受到」
+  - `#4[i]`回 → Param 4: 上下文「标陷入触电状态，持续___回合。 触电状态下」
+  - `#5[i]`% → Param 5 (%): 上下文「始时受到等同于希露瓦___%攻击力的雷属性持」
 
 - **Max Effect**：Deals Lightning DMG equal to 175% of Serval's ATK to one designated enemy and Lightning DMG equal to 75% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s).
 While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the beginning of each turn.
@@ -141,7 +141,7 @@ While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the b
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 108% | 2 |
   | Lv.2 | 115.2% | 2 |
@@ -160,8 +160,8 @@ While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the b
   | Lv.15 | 216% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于希露瓦___%攻击力的雷属性伤」
-  - `#2[i]`回 → 参数2：上下文「状态下的敌方目标延长___回合的触电状态。」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于希露瓦___%攻击力的雷属性伤」
+  - `#2[i]`回 → Param 2: 上下文「状态下的敌方目标延长___回合的触电状态。」
 
 - **Max Effect**：Deals Lightning DMG equal to 216% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).
 
@@ -172,7 +172,7 @@ While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the b
 - **Effect Template**：After Serval attacks, deals Lightning Additional DMG equal to #1[i]% of Serval's ATK to all Shocked enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 36% |
   | Lv.2 | 39.6% |
@@ -191,7 +191,7 @@ While Shocked, enemies take Lightning DoT equal to 130% of Serval's ATK at the b
   | Lv.15 | 90% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于希露瓦___%攻击力的雷属性附」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于希露瓦___%攻击力的雷属性附」
 
 - **Max Effect**：After Serval attacks, deals Lightning Additional DMG equal to 90% of Serval's ATK to all Shocked enemies.
 
@@ -204,15 +204,15 @@ While Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK a
 触电状态下，敌方目标每回合开始时受到等同于希露瓦#2[i]%攻击力的雷属性持续伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 50% | 3 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的雷属性伤害，同时有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「始时受到等同于希露瓦___%攻击力的雷属性持」
-  - `#3[i]`回 → 参数3：上下文「标陷入触电状态，持续___回合。 触电状态下」
-  - `#4[i]`% → 参数4(%)：上下文「单体造成等同于希露瓦___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「的雷属性伤害，同时有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「始时受到等同于希露瓦___%攻击力的雷属性持」
+  - `#3[i]`回 → Param 3: 上下文「标陷入触电状态，持续___回合。 触电状态下」
+  - `#4[i]`% → Param 4 (%): 上下文「单体造成等同于希露瓦___%攻击力的雷属性伤」
 
 - **Max Effect**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% base chance for all enemies to become Shocked for 3 turn(s).
 While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn.

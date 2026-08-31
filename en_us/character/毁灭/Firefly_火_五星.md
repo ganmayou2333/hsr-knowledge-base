@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of SAM's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Consumes HP equal to #2[i]% of this unit's Max HP and regenerates a fixed amount of Energy equal to #3[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by #4[i]%.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 40% | 50% | 25% |
   | Lv.2 | 110% | 40% | 51% | 25% |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% | 40% | 65% | 25% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「耗等同于自身生命上限___%的生命值固定恢复」
-  - `#3[i]`% → 参数3(%)：上下文「值固定恢复等同于自身___%能量上限的能量，」
-  - `#4[i]`% → 参数4(%)：上下文「使自身下一次行动提前___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「耗等同于自身生命上限___%的生命值固定恢复」
+  - `#3[i]`% → Param 3 (%): 上下文「值固定恢复等同于自身___%能量上限的能量，」
+  - `#4[i]`% → Param 4 (%): 上下文「使自身下一次行动提前___%。」
 
 - **Max Effect**：Consumes HP equal to 40% of this unit's Max HP and regenerates a fixed amount of Energy equal to 65% of this unit's Max Energy. Deals Fire DMG equal to 250% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by 25%.
 
@@ -140,7 +140,7 @@ SAM cannot use Ultimate while in Complete Combustion.
 行动序列上出现「完全燃烧」倒计时，倒计时回合开始时装甲「萨姆」解除「完全燃烧」状态，倒计时固定拥有#4[i]速度。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 10% | 50% | 30 | 70 |
   | Lv.2 | 11% | 50% | 33 | 70 |
@@ -159,10 +159,10 @@ SAM cannot use Ultimate while in Complete Combustion.
   | Lv.15 | 25% | 50% | 75 | 70 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「自身弱点击破效率提高___%、使敌方目标受到」
-  - `#3[i]`点 → 参数3：上下文「燃烧」状态下速度提高___点，且施放强化普攻」
-  - `#4[i]`速 → 参数4：上下文「状态，倒计时固定拥有___速度。 「完全燃烧」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「自身弱点击破效率提高___%、使敌方目标受到」
+  - `#3[i]`点 → Param 3: 上下文「燃烧」状态下速度提高___点，且施放强化普攻」
+  - `#4[i]`速 → Param 4: 上下文「状态，倒计时固定拥有___速度。 「完全燃烧」
 
 - **Max Effect**：Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by 75, and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by 50% and increases the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.
 A countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of 70.
@@ -177,7 +177,7 @@ If Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[
 战斗开始时若能量不足#2[i]%则使其恢复至#2[i]%。当能量恢复至上限时解除自身所有负面效果。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 20% | 50% | 20% | 10% |
   | Lv.2 | 22% | 50% | 20% | 12% |
@@ -196,10 +196,10 @@ If Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[
   | Lv.15 | 50% | 50% | 20% | 40% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「达到最大值，最多降低___%。「完全燃烧」状」
-  - `#2[i]`% → 参数2(%)：上下文「[i]%则使其恢复至___%。当能量恢复至上」
-  - `#3[i]`% → 参数3(%)：上下文「越低，生命值小于等于___%时减伤效果达到最」
-  - `#4[i]`% → 参数4(%)：上下文「最大值，效果抵抗提高___%。 战斗开始时若」
+  - `#1[i]`% → Param 1 (%): 上下文「达到最大值，最多降低___%。「完全燃烧」状」
+  - `#2[i]`% → Param 2 (%): 上下文「[i]%则使其恢复至___%。当能量恢复至上」
+  - `#3[i]`% → Param 3 (%): 上下文「越低，生命值小于等于___%时减伤效果达到最」
+  - `#4[i]`% → Param 4 (%): 上下文「最大值，效果抵抗提高___%。 战斗开始时若」
 
 - **Max Effect**：The lower the HP, the less DMG received. When HP is 20% or lower, the DMG Reduction reaches its maximum effect, reducing up to 50%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by 40%.
 If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.
@@ -211,14 +211,14 @@ If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. O
 - **Effect Template**：Leaps into the air and moves about freely for #1[i] seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for #3[i] turn(s). Then, deals Fire DMG equal to #2[i]% of SAM's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 5 | 200% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「并进行自由移动，持续___秒，此时施放下落攻」
-  - `#2[i]`% → 参数2(%)：上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
-  - `#3[i]`回 → 参数3：上下文「添加火属性弱点，持续___回合，此后对敌方全」
+  - `#1[i]`秒 → Param 1: 上下文「并进行自由移动，持续___秒，此时施放下落攻」
+  - `#2[i]`% → Param 2 (%): 上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
+  - `#3[i]`回 → Param 3: 上下文「添加火属性弱点，持续___回合，此后对敌方全」
 
 - **Max Effect**：Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.
 

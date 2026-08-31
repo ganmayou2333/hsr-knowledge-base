@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to #1[i]% of Qingque's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于青雀___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于青雀___%攻击力的量子属性」
 
 - **Max Effect**：Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 140% of Qingque's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Immediately draws #1[i] jade tile(s) and increases DMG by #2[i]% until the end of the current turn. This effect can stack up to #3[i] time(s). The turn will not end after this Skill is used.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 2 | 14% | 4 |
   | Lv.2 | 2 | 15.4% | 4 |
@@ -123,9 +123,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 2 | 35% | 4 |
 
 - **Parameter Notes**：
-  - `#1[i]`张 → 参数1：上下文「立即抽取___张琼玉牌，使自身造」
-  - `#2[i]`% → 参数2(%)：上下文「使自身造成的伤害提高___%，持续至本回合结」
-  - `#3[i]`层 → 参数3：上下文「结束。该效果可以叠加___层。施放该战技后，」
+  - `#1[i]`张 → Param 1: 上下文「立即抽取___张琼玉牌，使自身造」
+  - `#2[i]`% → Param 2 (%): 上下文「使自身造成的伤害提高___%，持续至本回合结」
+  - `#3[i]`层 → Param 3: 上下文「结束。该效果可以叠加___层。施放该战技后，」
 
 - **Max Effect**：Immediately draws 2 jade tile(s) and increases DMG by 35% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.
 
@@ -136,7 +136,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 120% |
   | Lv.2 | 128% |
@@ -155,7 +155,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 240% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于青雀___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于青雀___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 240% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.
 
@@ -169,7 +169,7 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 处于【暗杠】状态时无法再次施放战技，同时使自身攻击力提高#1[i]%，普攻【门前清】强化为【杠上开花！】，【暗杠】状态会在施放【杠上开花！】后结束。
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 36% |
   | Lv.2 | 39.6% |
@@ -188,7 +188,7 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
   | Lv.15 | 90% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「同时使自身攻击力提高___%，普攻【门前清】」
+  - `#1[i]`% → Param 1 (%): 上下文「同时使自身攻击力提高___%，普攻【门前清】」
 
 - **Max Effect**：When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.
 If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state.
@@ -201,12 +201,12 @@ While in this state, Qingque cannot use her Skill again. At the same time, Qingq
 - **Effect Template**：After using Technique, Qingque draws #1[i] jade tile(s) when the battle starts.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`张 → 参数1：上下文「进入战斗时青雀会抽取___张琼玉牌。」
+  - `#1[i]`张 → Param 1: 上下文「进入战斗时青雀会抽取___张琼玉牌。」
 
 - **Max Effect**：After using Technique, Qingque draws 2 jade tile(s) when the battle starts.
 

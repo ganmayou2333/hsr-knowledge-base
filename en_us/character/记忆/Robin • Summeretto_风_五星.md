@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Robin • Summeretto's Max HP to one enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「成等同于知更鸟•晴歌___%生命上限的风属性」
+  - `#1[i]`% → Param 1 (%): 上下文「成等同于知更鸟•晴歌___%生命上限的风属性」
 
 - **Max Effect**：Deals Wind DMG equal to 70% of Robin • Summeretto's Max HP to one enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Summons the memosprite "Summer Songbirds" Bessie. If any member of the "Summer Songbirds" is already on the field, restores their HP by an amount equal to #1[i]% of "Summer Songbirds'" Max HP, and gains #2[i] Vibes.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 50% | 6 |
   | Lv.2 | 55% | 6 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 125% | 6 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「「晴空乐手」生命上限___%的生命值，并获得」
-  - `#2[i]`点 → 参数2：上下文「]%的生命值，并获得___点气氛值。」
+  - `#1[i]`% → Param 1 (%): 上下文「「晴空乐手」生命上限___%的生命值，并获得」
+  - `#2[i]`点 → Param 2: 上下文「]%的生命值，并获得___点气氛值。」
 
 - **Max Effect**：Summons the memosprite "Summer Songbirds" Bessie. If any member of the "Summer Songbirds" is already on the field, restores their HP by an amount equal to 125% of "Summer Songbirds'" Max HP, and gains 6 Vibes.
 
@@ -135,7 +135,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Advances the action of one designated ally character (excluding Robin • Summeretto) by #1[i]% and regenerates a fixed amount of Energy equal to #3[f1]% of their Max Energy. Then, grants them the "Special Guest" effect. When the "Special Guest" character or their summon attacks, they additionally grant Robin • Summeretto #2[i] Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 2 | 12% | 0 |
   | Lv.2 | 100% | 2 | 12.8% | 0 |
@@ -154,10 +154,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 100% | 2 | 24% | 0 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「我方单体角色行动提前___%并固定恢复等同于」
-  - `#2[i]`点 → 参数2：上下文「外使知更鸟•晴歌获得___点气氛值，且无法使」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「我方单体角色行动提前___%并固定恢复等同于」
+  - `#2[i]`点 → Param 2: 上下文「外使知更鸟•晴歌获得___点气氛值，且无法使」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Advances the action of one designated ally character (excluding Robin • Summeretto) by 100% and regenerates a fixed amount of Energy equal to #3[f1]% of their Max Energy. Then, grants them the "Special Guest" effect. When the "Special Guest" character or their summon attacks, they additionally grant Robin • Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.
 
@@ -172,7 +172,7 @@ While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are 
 处于【Fever】状态时，知更鸟•晴歌与「晴空乐手」免疫控制类负面状态，【Fever】状态结束前知更鸟•晴歌不会进入自己的回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 | 参数8 | 参数9 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 | Param 6 | Param 7 | Param 8 | Param 9 |
   |---|---|---|---|---|---|---|---|---|---|
   | Lv.1 | 70% | 180% | 0 | 0 | 50 | 6 | 12 | 10% | 0.5% |
   | Lv.2 | 70% | 180% | 0 | 0 | 50 | 6 | 12 | 10.5% | 0.5% |
@@ -191,15 +191,15 @@ While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are 
   | Lv.15 | 70% | 180% | 0 | 0 | 50 | 6 | 12 | 17.5% | 0.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「有等同于知更鸟•晴歌___%生命上限的生命上」
-  - `#2[i]`% → 参数2(%)：上下文「和等同于知更鸟•晴歌___%速度的速度。我方」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`点 → 参数5：上下文「获得1点气氛值，上限___点。「晴空乐手」贝」
-  - `#6[i]`点 → 参数6：上下文「晴歌的气氛值大于等于___点，立即召唤「晴空」
-  - `#7[i]`点 → 参数7：上下文「米，若气氛值大于等于___点，立即召唤「晴空」
-  - 参数8：效果模板中无对应 `#8[i]` 占位符（预留参数/其他属性）
-  - 参数9：效果模板中无对应 `#9[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「有等同于知更鸟•晴歌___%生命上限的生命上」
+  - `#2[i]`% → Param 2 (%): 上下文「和等同于知更鸟•晴歌___%速度的速度。我方」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`点 → Param 5: 上下文「获得1点气氛值，上限___点。「晴空乐手」贝」
+  - `#6[i]`点 → Param 6: 上下文「晴歌的气氛值大于等于___点，立即召唤「晴空」
+  - `#7[i]`点 → Param 7: 上下文「米，若气氛值大于等于___点，立即召唤「晴空」
+  - Param 8: No corresponding `#8[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 9: No corresponding `#9[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Memosprite "Summer Songbirds" has an initial Max HP equal to 70% of Robin • Summeretto's Max HP and an initial SPD equal to 180% of Robin • Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin • Summeretto gains Vibes by 1 point, capped at 50. While "Summer Songbirds" Bessie is on the field, if Robin • Summeretto's Vibes is 6 or higher, immediately summons "Summer Songbirds" Drummie, and if Vibes is 12 or higher, immediately summons "Summer Songbirds" Paddie. When all "Summer Songbirds" take the stage, dispels all Crowd Control debuffs inflicted upon Robin • Summeretto and the "Summer Songbirds", starts the "Fever" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (#8[f1]% + Vibes × #9[f1]%).
 While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are immune to Crowd Control debuffs. Robin • Summeretto will not enter her turn until the "Fever" state ends.
@@ -212,14 +212,14 @@ While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are 
 - **Effect Template**：After using Technique, advances action by #3[i]% at the start of the next battle, immediately gains #1[i] Vibes, and increases all allies' DMG dealt by #2[i]%, lasting for 2 turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 6 | 30% | 20% |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「3[i]%，立即获得___点气氛值，并使我方」
-  - `#2[i]`% → 参数2(%)：上下文「方全体造成的伤害提高___%，持续2回合。」
-  - `#3[i]`% → 参数3(%)：上下文「次战斗开始时行动提前___%，立即获得#1[」
+  - `#1[i]`点 → Param 1: 上下文「3[i]%，立即获得___点气氛值，并使我方」
+  - `#2[i]`% → Param 2 (%): 上下文「方全体造成的伤害提高___%，持续2回合。」
+  - `#3[i]`% → Param 3 (%): 上下文「次战斗开始时行动提前___%，立即获得#1[」
 
 - **Max Effect**：After using Technique, advances action by 20% at the start of the next battle, immediately gains 6 Vibes, and increases all allies' DMG dealt by 30%, lasting for 2 turn(s).
 

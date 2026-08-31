@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Sparxie's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于火花___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于火花___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. During this ability, "Engagement Farming" can be triggered repeatedly, up to #1[i] time(s). Using this ability is not considered as using a Skill.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 20 | 28 | 3 | 7 | 4 |
   | Lv.2 | 20 | 28 | 3 | 7 | 4 |
@@ -123,11 +123,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 20 | 28 | 3 | 7 | 4 |
 
 - **Parameter Notes**：
-  - `#1[i]`次 → 参数1：上下文「互动陷阱】，最多发动___次。施放本技能不视」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`次 → Param 1: 上下文「互动陷阱】，最多发动___次。施放本技能不视」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. During this ability, "Engagement Farming" can be triggered repeatedly, up to 20 time(s). Using this ability is not considered as using a Skill.
 
@@ -138,7 +138,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Gains #1[i] Punchline point(s). Deals Fire DMG equal to (#3[f1] × Elation + #2[f1]%) of Sparxie's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 2 | 30% | 60% |
   | Lv.2 | 2 | 32% | 60% |
@@ -157,9 +157,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 2 | 60% | 60% |
 
 - **Parameter Notes**：
-  - `#1[i]`个 → 参数1：上下文「获得___个笑点。对敌方全体」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`个 → Param 1: 上下文「获得___个笑点。对敌方全体」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Gains 2 Punchline point(s). Deals Fire DMG equal to (#3[f1] × Elation + #2[f1]%) of Sparxie's ATK to all enemies.
 
@@ -174,7 +174,7 @@ Using Ultimate deals #2[i]% Fire Elation DMG to all enemies.
 施放终结技可对敌方全体造成#2[i]%的火属性欢愉伤害。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 10% | 24% | 20% | 10% |
   | Lv.2 | 11% | 26.4% | 22% | 11% |
@@ -193,10 +193,10 @@ Using Ultimate deals #2[i]% Fire Elation DMG to all enemies.
   | Lv.15 | 25% | 60% | 50% | 25% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「结技可对敌方全体造成___%的火属性欢愉伤害」
-  - `#3[i]`% → 参数3(%)：上下文「可对指定敌方单体造成___%的火属性欢愉伤害」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「结技可对敌方全体造成___%的火属性欢愉伤害」
+  - `#3[i]`% → Param 3 (%): 上下文「可对指定敌方单体造成___%的火属性欢愉伤害」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：While Sparxie holds "Certified Banger":
 Using Enhanced Basic ATK deals 50% Fire Elation DMG to one designated enemy, and #4[f1]% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of "Engagement Farming" triggered, the Enhanced Basic ATK deals 1 extra instance of #1[f1]% Fire Elation DMG to 1 random attacked enemy target.
@@ -212,14 +212,14 @@ After entering combat via actively attacking a "Blocked" enemy, deals Fire DMG t
 若主动攻击陷入【拉黑】状态的敌人，进入战斗后，对敌方全体造成等同于火花#2[i]%攻击力的火属性伤害，并为我方恢复#1[i]个战技点。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 2 | 50% | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`个 → 参数1：上下文「性伤害，并为我方恢复___个战技点。」
-  - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于火花___%攻击力的火属性伤」
-  - `#3[i]`秒 → 参数3：上下文「一定区域内的敌人陷入___秒的【拉黑】状态，」
+  - `#1[i]`个 → Param 1: 上下文「性伤害，并为我方恢复___个战技点。」
+  - `#2[i]`% → Param 2 (%): 上下文「方全体造成等同于火花___%攻击力的火属性伤」
+  - `#3[i]`秒 → Param 3: 上下文「一定区域内的敌人陷入___秒的【拉黑】状态，」
 
 - **Max Effect**：After using the Technique, inflicts enemies within a set area with "Block" for 10 second(s). "Blocked" enemies cannot detect ally targets.
 After entering combat via actively attacking a "Blocked" enemy, deals Fire DMG to all enemies equal to 50% of Sparxie's ATK and recovers 2 Skill Point(s) for allies.

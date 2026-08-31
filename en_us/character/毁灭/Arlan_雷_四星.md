@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 140% of Arlan's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Consumes Arlan's HP equal to #1[i]% of his Max HP to deal Lightning DMG equal to #2[i]% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 15% | 120% |
   | Lv.2 | 15% | 132% |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 15% | 300% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「耗等同于阿兰生命上限___%的生命值对指定敌」
-  - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「耗等同于阿兰生命上限___%的生命值对指定敌」
+  - `#2[i]`% → Param 2 (%): 上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
 
 - **Max Effect**：Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 300% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
 
@@ -135,7 +135,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy and Lightning DMG equal to #2[i]% of Arlan's ATK to enemies adjacent to it.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 192% | 96% |
   | Lv.2 | 204.8% | 102.4% |
@@ -154,8 +154,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 384% | 192% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于阿兰___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于阿兰___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 384% of Arlan's ATK to one designated enemy and Lightning DMG equal to 192% of Arlan's ATK to enemies adjacent to it.
 
@@ -166,7 +166,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of #1[i]% DMG dealt by Arlan.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 36% |
   | Lv.2 | 39.6% |
@@ -185,7 +185,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 90% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「使阿兰造成的伤害提高___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「使阿兰造成的伤害提高___%。」
 
 - **Max Effect**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of 90% DMG dealt by Arlan.
 
@@ -196,12 +196,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #1[i]% of Arlan's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 80% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于阿兰___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于阿兰___%攻击力的雷属性伤」
 
 - **Max Effect**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies.
 

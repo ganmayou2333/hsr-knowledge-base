@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于万敌___%生命上限的虚数属」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于万敌___%生命上限的虚数属」
 
 - **Max Effect**：Deals Imaginary DMG equal to 70% of Mydei's Max HP to one designated enemy.
 
@@ -107,7 +107,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 45% | 25% | 50% |
   | Lv.2 | 49.5% | 27.5% | 50% |
@@ -126,9 +126,9 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
   | Lv.15 | 112.5% | 62.5% | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于万敌___%生命上限的虚数属」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于万敌___%生命上限的虚数属」
-  - `#3[i]`% → 参数3(%)：上下文「等同于万敌当前生命值___%的生命值，对指定」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于万敌___%生命上限的虚数属」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于万敌___%生命上限的虚数属」
+  - `#3[i]`% → Param 3 (%): 上下文「等同于万敌当前生命值___%的生命值，对指定」
 
 - **Max Effect**：Consumes HP by an amount equal to 50% of Mydei's current HP. Deals Imaginary DMG equal to 112.5% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to 62.5% of Mydei's Max HP to adjacent targets.
 If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.
@@ -140,7 +140,7 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
 - **Effect Template**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates #5[i] Talent's Charge point(s). Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for #4[i] turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 96% | 60% | 15% | 2 | 20 |
   | Lv.2 | 102.4% | 64% | 15.5% | 2 | 20 |
@@ -159,11 +159,11 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
   | Lv.15 | 192% | 120% | 22.5% | 2 | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于万敌___%生命上限的虚数属」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于万敌___%生命上限的虚数属」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「标陷入嘲讽状态，持续___回合。下一次【弑神」
-  - `#5[i]`点 → 参数5：上下文「命上限的生命值并积攒___点天赋充能。对指定」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于万敌___%生命上限的虚数属」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于万敌___%生命上限的虚数属」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「标陷入嘲讽状态，持续___回合。下一次【弑神」
+  - `#5[i]`点 → Param 5: 上下文「命上限的生命值并积攒___点天赋充能。对指定」
 
 - **Max Effect**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates 20 Talent's Charge point(s). Deals Imaginary DMG equal to 192% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to 120% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for 2 turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
 
@@ -182,7 +182,7 @@ When receiving a killing blow during the "Vendetta" state, Mydei will not be kno
 【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身#4[i]%生命上限的生命值。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 (%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 0 | 150 | 50% | 50% |
   | Lv.2 | 16% | 0 | 150 | 50% | 50% |
@@ -201,11 +201,11 @@ When receiving a killing blow during the "Vendetta" state, Mydei will not be kno
   | Lv.15 | 30% | 0 | 150 | 50% | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「状态并回复等同于万敌___%生命上限的生命值」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`点 → 参数3：上下文「仇】状态期间充能达到___点时，万敌立即获得」
-  - `#4[i]`% → 参数4(%)：上下文「状态并回复等同于自身___%生命上限的生命值」
-  - `#5[i]`% → 参数5(%)：上下文「等同于当前生命上限的___%，防御力保持为0」
+  - `#1[i]`% → Param 1 (%): 上下文「状态并回复等同于万敌___%生命上限的生命值」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`点 → Param 3: 上下文「仇】状态期间充能达到___点时，万敌立即获得」
+  - `#4[i]`% → Param 4 (%): 上下文「状态并回复等同于自身___%生命上限的生命值」
+  - `#5[i]`% → Param 5 (%): 上下文「等同于当前生命上限的___%，防御力保持为0」
 
 - **Max Effect**：For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the "Vendetta" state, restores HP equal to 30% of Mydei's Max HP, and advances action by 100%. While the "Vendetta" state is active, Max HP increases by 50% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
 When Charge reaches 150 points during the "Vendetta" state, Mydei immediately gains 1 extra turn and automatically uses "Godslayer Be God."
@@ -220,16 +220,16 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌#2[i]%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续#4[i]回合。自身积攒#5[i]点天赋充能。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 10 | 80% | 1 | 1 | 50 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「域内的敌人并使其陷入___秒的晕眩状态，晕眩」
-  - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于万敌___%生命上限的虚数属」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「标陷入嘲讽状态，持续___回合。自身积攒#5」
-  - `#5[i]`点 → 参数5：上下文「[i]回合。自身积攒___点天赋充能。」
+  - `#1[i]`秒 → Param 1: 上下文「域内的敌人并使其陷入___秒的晕眩状态，晕眩」
+  - `#2[i]`% → Param 2 (%): 上下文「方全体造成等同于万敌___%生命上限的虚数属」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「标陷入嘲讽状态，持续___回合。自身积攒#5」
+  - `#5[i]`点 → Param 5: 上下文「[i]回合。自身积攒___点天赋充能。」
 
 - **Max Effect**：After using Technique, pulls in enemies within a certain area and inflicts Daze on them for 10 second(s). Dazed enemies will not actively attack ally targets.
 If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to 80% of Mydei's Max HP to all enemies, and Taunts the targets, lasting for 1 turn(s). This unit accumulates 50 point(s) of Talent's Charge.

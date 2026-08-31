@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 50% | 3 | 1 | 30% |
   | Lv.2 | 60% | 3 | 1 | 30% |
@@ -93,10 +93,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% | 3 | 1 | 30% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于大黑塔___%攻击力的冰属性伤」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于大黑塔___%攻击力的冰属性伤」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Ice DMG equal to 140% of The Herta's ATK to one designated enemy.
 
@@ -107,7 +107,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy, and inflicts #2[i] stack(s) of "Interpretation." Deals Ice DMG equal to #1[i]% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 35% | 1 |
   | Lv.2 | 38.5% | 1 |
@@ -126,8 +126,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 87.5% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于大黑塔___%攻击力的冰属性伤」
-  - `#2[i]`层 → 参数2：上下文「力的冰属性伤害并施加___层【解读】。对本次」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于大黑塔___%攻击力的冰属性伤」
+  - `#2[i]`层 → Param 2: 上下文「力的冰属性伤害并施加___层【解读】。对本次」
 
 - **Max Effect**：Deals Ice DMG equal to 87.5% of The Herta's ATK to one designated enemy, and inflicts 1 stack(s) of "Interpretation." Deals Ice DMG equal to 87.5% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
 
@@ -138,7 +138,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to #1[i]% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by #4[i]%, lasting for #5[i] turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to #6[i] time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 2 | 1 | 40% | 3 | 4 |
   | Lv.2 | 110% | 2 | 1 | 44% | 3 | 4 |
@@ -157,12 +157,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% | 2 | 1 | 100% | 3 | 4 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于大黑塔___%攻击力的冰属性伤」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`% → 参数4(%)：上下文「，使大黑塔攻击力提高___%，持续#5[i]」
-  - `#5[i]`回 → 参数5：上下文「高#4[i]%，持续___回合，施放后使大黑」
-  - `#6[i]`层 → 参数6：上下文「】。【灵感】最多持有___层，持有【灵感】时」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于大黑塔___%攻击力的冰属性伤」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「，使大黑塔攻击力提高___%，持续#5[i]」
+  - `#5[i]`回 → Param 5: 上下文「高#4[i]%，持续___回合，施放后使大黑」
+  - `#6[i]`层 → Param 6: 上下文「】。【灵感】最多持有___层，持有【灵感】时」
 
 - **Max Effect**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to 250% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by 100%, lasting for 3 turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to 4 time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
 
@@ -173,7 +173,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies #6[i] stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to #3[i] time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 4% | 2% | 42 | 1 | 42 | 25 |
   | Lv.2 | 4.4% | 2.2% | 42 | 1 | 42 | 25 |
@@ -192,12 +192,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 10% | 5% | 42 | 1 | 42 | 25 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`层 → 参数3：上下文「。【解读】最多可叠加___层，使用强化战技时」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
-  - `#6[i]`层 → 参数6：上下文「一个随机敌方目标施加___层【解读】，优先施」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`层 → Param 3: 上下文「。【解读】最多可叠加___层，使用强化战技时」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#6[i]`层 → Param 6: 上下文「一个随机敌方目标施加___层【解读】，优先施」
 
 - **Max Effect**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies 25 stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to 42 time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
 
@@ -214,17 +214,17 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 在模拟宇宙、差分宇宙中使用秘技进入战斗后，每个波次开始时对精英级别以下的敌方目标造成等同于目标#4[i]%生命上限的真实伤害，对精英级别及以上的目标造成等同于目标#5[i]%生命上限的真实伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 (%) | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60% | 2 | 3 | 99% | 30% | 25 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「始时大黑塔攻击力提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。 若当前场景」
-  - `#3[i]`个 → 参数3：上下文「，使用秘技后标记最多___个普通战利品的位置」
-  - `#4[i]`% → 参数4(%)：上下文「方目标造成等同于目标___%生命上限的真实伤」
-  - `#5[i]`% → 参数5(%)：上下文「的目标造成等同于目标___%生命上限的真实伤」
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「始时大黑塔攻击力提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。 若当前场景」
+  - `#3[i]`个 → Param 3: 上下文「，使用秘技后标记最多___个普通战利品的位置」
+  - `#4[i]`% → Param 4 (%): 上下文「方目标造成等同于目标___%生命上限的真实伤」
+  - `#5[i]`% → Param 5 (%): 上下文「的目标造成等同于目标___%生命上限的真实伤」
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：After using Technique, increases The Herta's ATK by 60% at the start of the next battle, lasting for 2 turn(s).
 If there are Basic Treasures in this current map, using Technique can mark up to 3 Basic Treasures' locations.

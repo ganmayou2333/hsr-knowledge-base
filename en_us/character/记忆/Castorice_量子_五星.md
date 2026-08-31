@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 30% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于遐蝶___%生命上限的量子属」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于遐蝶___%生命上限的量子属」
 
 - **Max Effect**：Deals Quantum DMG equal to 70% of Castorice's Max HP to one designated enemy.
 
@@ -108,7 +108,7 @@ If the current HP is insufficient, reduces the current HP down to 1.
 If Netherwing is on the battlefield, the Skill becomes "Boneclaw, Doomdrake's Embrace" instead.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 30% | 25% | 15% |
   | Lv.2 | 30% | 27.5% | 16.5% |
@@ -127,9 +127,9 @@ If Netherwing is on the battlefield, the Skill becomes "Boneclaw, Doomdrake's Em
   | Lv.15 | 30% | 62.5% | 37.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「消耗我方全体当前___%的生命值，对指定」
-  - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于遐蝶___%生命上限的量子属」
-  - `#3[i]`% → 参数3(%)：上下文「邻目标造成等同于遐蝶___%生命上限的量子属」
+  - `#1[i]`% → Param 1 (%): 上下文「消耗我方全体当前___%的生命值，对指定」
+  - `#2[i]`% → Param 2 (%): 上下文「方单体造成等同于遐蝶___%生命上限的量子属」
+  - `#3[i]`% → Param 3 (%): 上下文「邻目标造成等同于遐蝶___%生命上限的量子属」
 
 - **Max Effect**：Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 62.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 37.5% of Castorice's Max HP to adjacent targets.
 If the current HP is insufficient, reduces the current HP down to 1.
@@ -144,7 +144,7 @@ After Netherwing experiences #2[i] turns or when its HP is 0, it disappears and 
 死龙#2[i]个回合后或生命值为0时消失，同时解除境界【遗世冥域】。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 165 | 3 | 100% | 10% | 0 |
   | Lv.2 | 165 | 3 | 100% | 11% | 0 |
@@ -163,11 +163,11 @@ After Netherwing experiences #2[i] turns or when its HP is 0, it disappears and 
   | Lv.15 | 165 | 3 | 100% | 25% | 0 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「至死龙。死龙初始拥有___点速度以及等同于【」
-  - `#2[i]`个 → 参数2：上下文「固定生命上限。 死龙___个回合后或生命值为」
-  - `#3[i]`% → 参数3(%)：上下文「及等同于【新蕊】上限___%的固定生命上限。」
-  - `#4[i]`% → 参数4(%)：上下文「方全体全属性抗性降低___%，若遐蝶持有天赋」
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`点 → Param 1: 上下文「至死龙。死龙初始拥有___点速度以及等同于【」
+  - `#2[i]`个 → Param 2: 上下文「固定生命上限。 死龙___个回合后或生命值为」
+  - `#3[i]`% → Param 3 (%): 上下文「及等同于【新蕊】上限___%的固定生命上限。」
+  - `#4[i]`% → Param 4 (%): 上下文「方全体全属性抗性降低___%，若遐蝶持有天赋」
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory "Lost Netherland," which decreases all enemies' All-Type RES by 25%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max "Newbud."
 After Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory "Lost Netherland."
@@ -180,7 +180,7 @@ After Netherwing experiences 3 turns or when its HP is 0, it disappears and disp
 When Netherwing is on the field, "Newbud" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 0 | 10% | 3 | 3 |
   | Lv.2 | 0 | 11% | 3 | 3 |
@@ -199,10 +199,10 @@ When Netherwing is on the field, "Newbud" cannot be gained through Talent, and e
   | Lv.15 | 0 | 25% | 3 | 3 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「与死龙造成的伤害提高___%，该效果最多叠加」
-  - `#3[i]`层 → 参数3：上下文「]%，该效果最多叠加___层，持续#4[i]」
-  - `#4[i]`回 → 参数4：上下文「加#3[i]层，持续___回合。 死龙在场时」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「与死龙造成的伤害提高___%，该效果最多叠加」
+  - `#3[i]`层 → Param 3: 上下文「]%，该效果最多叠加___层，持续#4[i]」
+  - `#4[i]`回 → Param 4: 上下文「加#3[i]层，持续___回合。 死龙在场时」
 
 - **Max Effect**：The maximum limit of "Newbud" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of "Newbud." When "Newbud" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 25%. This effect can stack up to 3 time(s), lasting for 3 turn(s).
 When Netherwing is on the field, "Newbud" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
@@ -222,15 +222,15 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 进入战斗后未召唤死龙则遐蝶获得等同于【新蕊】上限#4[i]%点数的【新蕊】。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 40% | 50% | 20 | 30% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「除死龙以外的我方全体___%当前生命值。 进」
-  - `#2[i]`% → 参数2(%)：上下文「有等同于【新蕊】上限___%的当前生命值。进」
-  - `#3[i]`秒 → 参数3：上下文「使用秘技后进入持续___秒的【冥茫】状态。」
-  - `#4[i]`% → 参数4(%)：上下文「得等同于【新蕊】上限___%点数的【新蕊】。」
+  - `#1[i]`% → Param 1 (%): 上下文「除死龙以外的我方全体___%当前生命值。 进」
+  - `#2[i]`% → Param 2 (%): 上下文「有等同于【新蕊】上限___%的当前生命值。进」
+  - `#3[i]`秒 → Param 3: 上下文「使用秘技后进入持续___秒的【冥茫】状态。」
+  - `#4[i]`% → Param 4 (%): 上下文「得等同于【新蕊】上限___%点数的【新蕊】。」
 
 - **Max Effect**：After using Technique, enters the "Netherveil" state that lasts for 20 seconds. While "Netherveil" is active, enemies are unable to actively approach Castorice.
 During "Netherveil," active attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%, and deploys the Territory "Lost Netherland." Netherwing has its current HP equal to 50% of max "Newbud." After entering battle, consumes 40% of the current HP of all allies (except Netherwing).

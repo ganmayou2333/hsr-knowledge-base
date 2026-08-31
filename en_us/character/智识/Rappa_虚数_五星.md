@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于乱破___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于乱破___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of Rappa's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 60% |
   | Lv.2 | 66% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 150% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于乱破___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于乱破___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 150% of Rappa's ATK to all enemies.
 
@@ -137,7 +137,7 @@ While in the "Sealform" state, gains Enhanced Basic ATK. After using Enhanced Ba
 While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of "Chroma Ink." When "Chroma Ink" is depleted, exits the "Sealform" state.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 50% | 10% | 3 |
   | Lv.2 | 50% | 12% | 3 |
@@ -156,9 +156,9 @@ While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate can
   | Lv.15 | 50% | 40% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「同时弱点击破效率提高___%，击破特攻提高#」
-  - `#2[i]`% → 参数2(%)：上下文「i]%，击破特攻提高___%。 【结印】状态」
-  - `#3[i]`点 → 参数3：上下文「得1个额外回合并获得___点【彩墨】，同时弱」
+  - `#1[i]`% → Param 1 (%): 上下文「同时弱点击破效率提高___%，击破特攻提高#」
+  - `#2[i]`% → Param 2 (%): 上下文「i]%，击破特攻提高___%。 【结印】状态」
+  - `#3[i]`点 → Param 3: 上下文「得1个额外回合并获得___点【彩墨】，同时弱」
 
 - **Max Effect**：Enters the "Sealform" state, immediately gains 1 extra turn, obtains 3 points of "Chroma Ink," and increases Weakness Break Efficiency by 50% and Break Effect by 40%.
 While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of "Chroma Ink." When "Chroma Ink" is depleted, exits the "Sealform" state.
@@ -171,7 +171,7 @@ While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate can
 When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5(%) | 参数6 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 | Param 5 (%) | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 10 | 0 | 30% | 2 | 25% | 1 |
   | Lv.2 | 10 | 0 | 33% | 2 | 27.5% | 1 |
@@ -190,12 +190,12 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
   | Lv.15 | 10 | 0 | 75% | 2 | 62.5% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「得1点充能，最多拥有___点充能。乱破下一次」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「方全体造成等同于乱破___%虚数属性击破伤害」
-  - `#4[i]`点 → 参数4：上下文「害可无视弱点属性削减___点韧性，并消耗所有」
-  - `#5[i]`% → 参数5(%)：上下文「本次击破伤害倍率提高___%，并使无视弱点属」
-  - `#6[i]`点 → 参数6：上下文「弱点属性的削韧值提高___点。 击破弱点时，」
+  - `#1[i]`点 → Param 1: 上下文「得1点充能，最多拥有___点充能。乱破下一次」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「方全体造成等同于乱破___%虚数属性击破伤害」
+  - `#4[i]`点 → Param 4: 上下文「害可无视弱点属性削减___点韧性，并消耗所有」
+  - `#5[i]`% → Param 5 (%): 上下文「本次击破伤害倍率提高___%，并使无视弱点属」
+  - `#6[i]`点 → Param 6: 上下文「弱点属性的削韧值提高___点。 击破弱点时，」
 
 - **Max Effect**：Each time the enemy target is Weakness Broken, Rappa gains 1 point of Charge, up to a max of 10 points of Charge. When Rappa next launches the third hit of "Ningu: Demonbane Petalblade," additionally deals Break DMG equal to 75% of Rappa's Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce 2 Toughness, consuming all Charge. Each point of Charge increases the Break DMG multiplier by 62.5% and increases the Toughness Reduction that can ignore Weakness Type by 1.
 When Breaking Weakness, triggers the Imaginary Weakness Break effect.
@@ -207,16 +207,16 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 - **Effect Template**：After using Technique, enters the "Graffiti" state for #1[i] seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals #5[i] Toughness Reduction regardless of Weakness Type and Break DMG equal to #2[i]% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates #4[i] Energy.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 20 | 200% | 180% | 10 | 30 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的【涂鸦】状态。」
-  - `#2[i]`% → 参数2(%)：上下文「削韧，以及等同于乱破___%虚数属性击破伤害」
-  - `#3[i]`% → 参数3(%)：上下文「邻目标造成等同于乱破___%虚数属性击破伤害」
-  - `#4[i]`点 → 参数4：上下文「伤害，同时使自身获得___点能量。」
-  - `#5[i]`点 → 参数5：上下文「，对每个敌方目标造成___点无视弱点属性的削」
+  - `#1[i]`秒 → Param 1: 上下文「使用秘技后进入持续___秒的【涂鸦】状态。」
+  - `#2[i]`% → Param 2 (%): 上下文「削韧，以及等同于乱破___%虚数属性击破伤害」
+  - `#3[i]`% → Param 3 (%): 上下文「邻目标造成等同于乱破___%虚数属性击破伤害」
+  - `#4[i]`点 → Param 4: 上下文「伤害，同时使自身获得___点能量。」
+  - `#5[i]`点 → Param 5: 上下文「，对每个敌方目标造成___点无视弱点属性的削」
 
 - **Max Effect**：After using Technique, enters the "Graffiti" state for 20 seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals 30 Toughness Reduction regardless of Weakness Type and Break DMG equal to 200% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to 180% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates 10 Energy.
 

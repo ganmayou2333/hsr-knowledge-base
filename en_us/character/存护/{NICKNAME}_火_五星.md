@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于开拓者___%攻击力的火属性伤」
 
 - **Max Effect**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to 140% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Increases the Trailblazer's DMG Reduction by #1[i]% and gains 1 stack of Magma Will, with a #2[i]% base chance to Taunt all enemies for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 40% | 100% | 1 |
   | Lv.2 | 41% | 100% | 1 |
@@ -123,9 +123,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 55% | 100% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「开拓者受到的伤害降低___%并叠加1层【灼热」
-  - `#2[i]`% → 参数2(%)：上下文「【灼热意志】，此外有___%基础概率使敌方全」
-  - `#3[i]`回 → 参数3：上下文「体陷入嘲讽状态，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「开拓者受到的伤害降低___%并叠加1层【灼热」
+  - `#2[i]`% → Param 2 (%): 上下文「【灼热意志】，此外有___%基础概率使敌方全」
+  - `#3[i]`回 → Param 3: 上下文「体陷入嘲讽状态，持续___回合。」
 
 - **Max Effect**：Increases the Trailblazer's DMG Reduction by 55% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).
 
@@ -136,7 +136,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 50% | 75% |
   | Lv.2 | 55% | 82.5% |
@@ -155,8 +155,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 125% | 187.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于开拓者___%攻击力+#2[i」
-  - `#2[i]`% → 参数2(%)：上下文「#1[i]%攻击力+___%防御力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于开拓者___%攻击力+#2[i」
+  - `#2[i]`% → Param 2 (%): 上下文「#1[i]%攻击力+___%防御力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 125% of the Trailblazer's ATK plus 187.5% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
 
@@ -170,7 +170,7 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
 开拓者施放普攻、战技、终结技后，为我方全体提供能够抵消等同于开拓者#1[f1]%防御力+#4[i]伤害的护盾，持续#2[i]回合。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 4% | 2 | 8 | 20 |
   | Lv.2 | 4.25% | 2 | 8 | 32 |
@@ -189,10 +189,10 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
   | Lv.15 | 7% | 2 | 8 | 102.5 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`回 → 参数2：上下文「i]伤害的护盾，持续___回合。」
-  - `#3[i]`层 → 参数3：上下文「热意志】，最多可叠加___层。 【灼热意志】」
-  - `#4[i]`伤 → 参数4：上下文「1[f1]%防御力+___伤害的护盾，持续#」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`回 → Param 2: 上下文「i]伤害的护盾，持续___回合。」
+  - `#3[i]`层 → Param 3: 上下文「热意志】，最多可叠加___层。 【灼热意志】」
+  - `#4[i]`伤 → Param 4: 上下文「1[f1]%防御力+___伤害的护盾，持续#」
 
 - **Max Effect**：Each time the Trailblazer is hit, they gain 1 stack of "Magma Will" for a max of 8 stack(s).
 When "Magma Will" has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to one designated enemy and enemies adjacent to it.
@@ -206,14 +206,14 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
 - **Effect Template**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 30% | 384 | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「能够抵消等同于开拓者___%防御力+#2[i」
-  - `#2[i]`伤 → 参数2：上下文「#1[i]%防御力+___伤害的护盾，持续#」
-  - `#3[i]`回 → 参数3：上下文「i]伤害的护盾，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「能够抵消等同于开拓者___%防御力+#2[i」
+  - `#2[i]`伤 → Param 2: 上下文「#1[i]%防御力+___伤害的护盾，持续#」
+  - `#3[i]`回 → Param 3: 上下文「i]伤害的护盾，持续___回合。」
 
 - **Max Effect**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s).
 

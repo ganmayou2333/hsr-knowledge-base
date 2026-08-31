@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于灵砂___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于灵砂___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Lingsha's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #4[i]%.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 40% | 10% | 105 | 20% |
   | Lv.2 | 44% | 10.5% | 168 | 20% |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 100% | 16% | 538.125 | 20% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`的 → 参数3：上下文「2[f1]%攻击力+___的生命值，使【浮元」
-  - `#4[i]`% → 参数4(%)：上下文「，使【浮元】行动提前___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`的 → Param 3: 上下文「2[f1]%攻击力+___的生命值，使【浮元」
+  - `#4[i]`% → Param 4 (%): 上下文「，使【浮元】行动提前___%。」
 
 - **Max Effect**：Deals Fire DMG equal to 100% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus 538.125 for all allies. Fuyuan's action advances by 20%.
 
@@ -139,7 +139,7 @@ Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same 
 对敌方全体造成等同于灵砂#1[i]%攻击力的火属性伤害，同时为我方全体回复等同于灵砂#2[f1]%攻击力+#3[i]的生命值，使【浮元】行动提前#6[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 | Param 6 (%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 90% | 8% | 90 | 15% | 2 | 100% |
   | Lv.2 | 96% | 8.5% | 144 | 16% | 2 | 100% |
@@ -158,12 +158,12 @@ Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same 
   | Lv.15 | 180% | 14% | 461.25 | 30% | 2 | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`的 → 参数3：上下文「2[f1]%攻击力+___的生命值，使【浮元」
-  - `#4[i]`% → 参数4(%)：上下文「标受到的击破伤害提高___%，持续#5[i]」
-  - `#5[i]`回 → 参数5：上下文「高#4[i]%，持续___回合。 对敌方全体」
-  - `#6[i]`% → 参数6(%)：上下文「，使【浮元】行动提前___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`的 → Param 3: 上下文「2[f1]%攻击力+___的生命值，使【浮元」
+  - `#4[i]`% → Param 4 (%): 上下文「标受到的击破伤害提高___%，持续#5[i]」
+  - `#5[i]`回 → Param 5: 上下文「高#4[i]%，持续___回合。 对敌方全体」
+  - `#6[i]`% → Param 6 (%): 上下文「，使【浮元】行动提前___%。」
 
 - **Max Effect**：Inflicts "Befog" on all enemies. While in "Befog," targets receive 30% increased Break DMG, lasting for 2 turn(s).
 Deals Fire DMG equal to 180% of Lingsha's ATK to all enemies, and at the same time restores HP equal to #2[f1]% of Lingsha's ATK plus 461.25 for all allies. Fuyuan's action advances by 100%.
@@ -184,7 +184,7 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 【浮元】在场时，施放战技会增加#7[i]次【浮元】的行动次数。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 | 参数8(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 | Param 5 | Param 6 | Param 7 | Param 8 (%) |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 90 | 37.5% | 8% | 90 | 5 | 1 | 3 | 37.5% |
   | Lv.2 | 90 | 41.25% | 8.5% | 144 | 5 | 1 | 3 | 41.25% |
@@ -203,14 +203,14 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
   | Lv.15 | 90 | 93.75% | 14% | 461.25 | 5 | 1 | 3 | 93.75% |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「唤【浮元】，初始拥有___点速度以及#7[i」
-  - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`的 → 参数4：上下文「3[f1]%攻击力+___的生命值。 【浮元」
-  - `#5[i]`次 → 参数5：上下文「。 【浮元】最多累计___次行动次数，当次数」
-  - `#6[i]`个 → 参数6：上下文「目标。解除我方全体的___个负面效果，并回复」
-  - `#7[i]`次 → 参数7：上下文「场时，施放战技会增加___次【浮元】的行动次」
-  - `#8[i]`% → 参数8(%)：上下文「方单体造成等同于灵砂___%攻击力的火属性伤」
+  - `#1[i]`点 → Param 1: 上下文「唤【浮元】，初始拥有___点速度以及#7[i」
+  - `#2[i]`% → Param 2 (%): 上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`的 → Param 4: 上下文「3[f1]%攻击力+___的生命值。 【浮元」
+  - `#5[i]`次 → Param 5: 上下文「。 【浮元】最多累计___次行动次数，当次数」
+  - `#6[i]`个 → Param 6: 上下文「目标。解除我方全体的___个负面效果，并回复」
+  - `#7[i]`次 → Param 7: 上下文「场时，施放战技会增加___次【浮元】的行动次」
+  - `#8[i]`% → Param 8 (%): 上下文「方单体造成等同于灵砂___%攻击力的火属性伤」
 
 - **Max Effect**：When using Skill, summons "Fuyuan," with an initial SPD of 90 and an initial action count of 3.
 When taking action, "Fuyuan" launches Follow-Up ATK, dealing Fire DMG equal to 93.75% of Lingsha's ATK to all enemies. Additionally deals Fire DMG equal to 93.75% of Lingsha's ATK to one random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff(s) from all allies and restores HP equal to #3[f1]% of Lingsha's ATK plus 461.25.
@@ -225,12 +225,12 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 - **Effect Template**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for #1[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「入【醇醉】状态，持续___回合。」
+  - `#1[i]`回 → Param 1: 上下文「入【醇醉】状态，持续___回合。」
 
 - **Max Effect**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for 2 turn(s).
 

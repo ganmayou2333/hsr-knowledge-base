@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Has a #6[i]% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by #3[i]%) and increases Cipher's ATK by #5[i]%, lasting for #4[i] turn(s). Moreover, deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Cipher's ATK to the adjacent targets.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 | Param 5 (%) | Param 6 (%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 50% | 10% | 2 | 30% | 120% |
   | Lv.2 | 110% | 55% | 10% | 2 | 30% | 120% |
@@ -125,12 +125,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% | 125% | 10% | 2 | 30% | 120% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「目标造成等同于赛飞儿___%攻击力的量子属性」
-  - `#3[i]`% → 参数3(%)：上下文「状态，造成的伤害降低___%，使赛飞儿的攻击」
-  - `#4[i]`回 → 参数4：上下文「高#5[i]%，持续___回合，并对指定敌方」
-  - `#5[i]`% → 参数5(%)：上下文「使赛飞儿的攻击力提高___%，持续#4[i]」
-  - `#6[i]`% → 参数6(%)：上下文「有___%的基础概率使指定」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「目标造成等同于赛飞儿___%攻击力的量子属性」
+  - `#3[i]`% → Param 3 (%): 上下文「状态，造成的伤害降低___%，使赛飞儿的攻击」
+  - `#4[i]`回 → Param 4: 上下文「高#5[i]%，持续___回合，并对指定敌方」
+  - `#5[i]`% → Param 5 (%): 上下文「使赛飞儿的攻击力提高___%，持续#4[i]」
+  - `#6[i]`% → Param 6 (%): 上下文「有___%的基础概率使指定」
 
 - **Max Effect**：Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 250% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 125% of Cipher's ATK to the adjacent targets.
 
@@ -141,7 +141,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to #2[i]% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to #4[i]% of Cipher's ATK alongside True DMG equal to #3[i]% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 60% | 25% | 75% | 20% |
   | Lv.2 | 66% | 25% | 75% | 22% |
@@ -160,10 +160,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 150% | 25% | 75% | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「等同于当前天赋记录值___%的真实伤害，并对」
-  - `#3[i]`% → 参数3(%)：上下文「等同于当前天赋记录值___%的真实伤害，该真」
-  - `#4[i]`% → 参数4(%)：上下文「目标造成等同于赛飞儿___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「等同于当前天赋记录值___%的真实伤害，并对」
+  - `#3[i]`% → Param 3 (%): 上下文「等同于当前天赋记录值___%的真实伤害，该真」
+  - `#4[i]`% → Param 4 (%): 上下文「目标造成等同于赛飞儿___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 50% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
 
@@ -180,7 +180,7 @@ Cipher will tally #2[i]% of the non-True DMG dealt by ally targets to the "Patro
 赛飞儿会记录我方目标对【老主顾】造成的非真实伤害的#2[i]%，不记录溢出伤害，施放终结技后清空记录值。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 75% | 12% | 1 | 5 |
   | Lv.2 | 82.5% | 12% | 1 | 5 |
@@ -199,10 +199,10 @@ Cipher will tally #2[i]% of the non-True DMG dealt by ally targets to the "Patro
   | Lv.15 | 187.5% | 12% | 1 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「击，造成等同于赛飞儿___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「】造成的非真实伤害的___%，不记录溢出伤害」
-  - `#3[i]`次 → 参数3：上下文「该效果每回合最多触发___次，赛飞儿回合开始」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「击，造成等同于赛飞儿___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「】造成的非真实伤害的___%，不记录溢出伤害」
+  - `#3[i]`次 → Param 3: 上下文「该效果每回合最多触发___次，赛飞儿回合开始」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：When there are no enemy targets in the "Patron" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the "Patron." When using Skill and Ultimate, the primary target becomes the "Patron." The "Patron" state only takes effect on the most recent target.
 After the "Patron" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the "Patron," dealing Quantum DMG equal to 187.5% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.
@@ -217,15 +217,15 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 持有【扎格列斯的祝福】期间进入战斗时，对敌方全体造成等同于赛飞儿#3[i]%攻击力的量子属性伤害，赛飞儿因该次伤害获得的记录值提高#2[i]%。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 15 | 200% | 100% | 50 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「格列斯的祝福】，持续___秒，期间赛飞儿不会」
-  - `#2[i]`% → 参数2(%)：上下文「伤害获得的记录值提高___%。」
-  - `#3[i]`% → 参数3(%)：上下文「全体造成等同于赛飞儿___%攻击力的量子属性」
-  - `#4[i]`次 → 参数4：上下文「每个地球日内最多获取___次。 持有【扎格列」
+  - `#1[i]`秒 → Param 1: 上下文「格列斯的祝福】，持续___秒，期间赛飞儿不会」
+  - `#2[i]`% → Param 2 (%): 上下文「伤害获得的记录值提高___%。」
+  - `#3[i]`% → Param 3 (%): 上下文「全体造成等同于赛飞儿___%攻击力的量子属性」
+  - `#4[i]`次 → Param 4: 上下文「每个地球日内最多获取___次。 持有【扎格列」
 
 - **Max Effect**：Gains "Zagreus's Blessing" that lasts for 15 second(s). During this time, Cipher will be undetectable by enemies and her movement speed increases by 50%. When approaching an enemy in the overworld/Simulated Universe/Divergent Universe, can immediately gain a random Consumable. Consumables can be gained this way for up to 50 time(s) in each Earth day.
 When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal to 100% of Cipher's ATK to all enemies. And the tallied amount Cipher gains from this instance of DMG increases by 200%.

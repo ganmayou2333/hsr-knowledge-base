@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于艾丝妲___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于艾丝妲___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Asta's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to #1[i]% of Asta's ATK to a random enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 27.5% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 62.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于艾丝妲___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于艾丝妲___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 62.5% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 62.5% of Asta's ATK to a random enemy.
 
@@ -134,7 +134,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Increases SPD of all allies by #1[i] for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 36 | 2 |
   | Lv.2 | 37.4 | 2 |
@@ -153,8 +153,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 57 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「使我方全体速度提高___点，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]点，持续___回合。」
+  - `#1[i]`点 → Param 1: 上下文「使我方全体速度提高___点，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]点，持续___回合。」
 
 - **Max Effect**：Increases SPD of all allies by 57 for 2 turn(s).
 
@@ -169,7 +169,7 @@ Starting from her second turn, Asta's Charging stack count is reduced by #3[i] a
 从自身的第2回合开始，艾丝妲每回合开始时蓄能层数减少#3[i]层。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 7% | 5 | 3 |
   | Lv.2 | 7.7% | 5 | 3 |
@@ -188,9 +188,9 @@ Starting from her second turn, Asta's Charging stack count is reduced by #3[i] a
   | Lv.15 | 17.5% | 5 | 3 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`层 → 参数2：上下文「]%，该效果最多叠加___层。 从自身的第2」
-  - `#3[i]`层 → 参数3：上下文「合开始时蓄能层数减少___层。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`层 → Param 2: 上下文「]%，该效果最多叠加___层。 从自身的第2」
+  - `#3[i]`层 → Param 3: 上下文「合开始时蓄能层数减少___层。」
 
 - **Max Effect**：Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.
 For every stack of Charging Asta has, all allies' ATK increases by #1[f1]%, up to 5 time(s).
@@ -204,12 +204,12 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 - **Effect Template**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标造成等同于艾丝妲___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「目标造成等同于艾丝妲___%攻击力的火属性伤」
 
 - **Max Effect**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies.
 

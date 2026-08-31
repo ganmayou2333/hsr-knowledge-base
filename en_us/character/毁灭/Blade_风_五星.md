@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Blade's Max HP to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「敌方单体造成等同于刃___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「敌方单体造成等同于刃___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 140% of Blade's Max HP to one designated enemy.
 
@@ -108,7 +108,7 @@ This Skill does not regenerate Energy. Using this Skill does not end the current
 处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高#4[i]%，普攻【支离剑】强化为【无间剑树】，持续#2[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 30% | 3 | 1 | 12% |
   | Lv.2 | 30% | 3 | 1 | 14.8% |
@@ -127,10 +127,10 @@ This Skill does not regenerate Energy. Using this Skill does not end the current
   | Lv.15 | 30% | 3 | 1 | 54% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「消耗等同于刃生命上限___%的生命值，进入【」
-  - `#2[i]`回 → 参数2：上下文「为【无间剑树】，持续___回合。 若当前生命」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`% → 参数4(%)：上下文「使自身造成的伤害提高___%，普攻【支离剑】」
+  - `#1[i]`% → Param 1 (%): 上下文「消耗等同于刃生命上限___%的生命值，进入【」
+  - `#2[i]`回 → Param 2: 上下文「为【无间剑树】，持续___回合。 若当前生命」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「使自身造成的伤害提高___%，普攻【支离剑】」
 
 - **Max Effect**：Consumes HP equal to 30% of Blade's Max HP to enter the "Hellscape" state.
 While "Hellscape" is active, his Skill cannot be used, his DMG dealt increases by 54%, his chance of getting attacked by enemy targets greatly increases, and his Basic ATK "Shard Sword" is enhanced to "Forest of Swords" for 3 turn(s).
@@ -146,7 +146,7 @@ The tally of Blade's HP loss in the current battle is capped at #7[i]% of his Ma
 本场战斗中累计已损失生命值最高不超过刃生命上限的#7[i]%，施放终结技后会清空并进行重新累计。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) | 参数6(%) | 参数7(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) | Param 5 (%) | Param 6 (%) | Param 7 (%) |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 24% | 60% | 9.6% | 24% | 60% | 24% | 90% |
   | Lv.2 | 25.6% | 64% | 10.24% | 25.6% | 64% | 25.6% | 90% |
@@ -165,13 +165,13 @@ The tally of Blade's HP loss in the current battle is capped at #7[i]% of his Ma
   | Lv.15 | 48% | 120% | 19.2% | 48% | 120% | 48% | 90% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「敌方单体造成等同于刃___%攻击力+#2[i」
-  - `#2[i]`% → 参数2(%)：上下文「#1[i]%攻击力+___%生命上限+#5[」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`% → 参数4(%)：上下文「3[f1]%攻击力+___%生命上限+#6[」
-  - `#5[i]`% → 参数5(%)：上下文「2[i]%生命上限+___%本场战斗中累计已」
-  - `#6[i]`% → 参数6(%)：上下文「4[i]%生命上限+___%本场战斗中累计已」
-  - `#7[i]`% → 参数7(%)：上下文「高不超过刃生命上限的___%，施放终结技后会」
+  - `#1[i]`% → Param 1 (%): 上下文「敌方单体造成等同于刃___%攻击力+#2[i」
+  - `#2[i]`% → Param 2 (%): 上下文「#1[i]%攻击力+___%生命上限+#5[」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「3[f1]%攻击力+___%生命上限+#6[」
+  - `#5[i]`% → Param 5 (%): 上下文「2[i]%生命上限+___%本场战斗中累计已」
+  - `#6[i]`% → Param 6 (%): 上下文「4[i]%生命上限+___%本场战斗中累计已」
+  - `#7[i]`% → Param 7 (%): 上下文「高不超过刃生命上限的___%，施放终结技后会」
 
 - **Max Effect**：Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to 48% of his Max HP plus 120% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to #3[f1]% of his Max HP plus 48% of the tally of his HP loss in the current battle.
 The tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.
@@ -185,7 +185,7 @@ When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up 
 当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃#2[i]%攻击力+#4[i]%生命上限的风属性伤害并回复等同于刃生命上限#3[i]%的生命值，施放追加攻击后，消耗所有充能。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 3 | 22% | 25% | 55% |
   | Lv.2 | 3 | 24.2% | 25% | 60.5% |
@@ -204,10 +204,10 @@ When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up 
   | Lv.15 | 3 | 55% | 25% | 137.5% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`% → 参数2(%)：上下文「加攻击，造成等同于刃___%攻击力+#4[i」
-  - `#3[i]`% → 参数3(%)：上下文「回复等同于刃生命上限___%的生命值，施放追」
-  - `#4[i]`% → 参数4(%)：上下文「#2[i]%攻击力+___%生命上限的风属性」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「加攻击，造成等同于刃___%攻击力+#4[i」
+  - `#3[i]`% → Param 3 (%): 上下文「回复等同于刃生命上限___%的生命值，施放追」
+  - `#4[i]`% → Param 4 (%): 上下文「#2[i]%攻击力+___%生命上限的风属性」
 
 - **Max Effect**：When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.
 When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up ATK on all enemies, dealing Wind DMG equal to 55% of Blade's Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the Follow-Up ATK, all Charges are consumed.
@@ -220,13 +220,13 @@ When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up 
 If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 40% | 20% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成等同于刃生命上限___%的风属性伤害。」
-  - `#2[i]`% → 参数2(%)：上下文「消耗等同于刃生命上限___%的生命值，同时对」
+  - `#1[i]`% → Param 1 (%): 上下文「造成等同于刃生命上限___%的风属性伤害。」
+  - `#2[i]`% → Param 2 (%): 上下文「消耗等同于刃生命上限___%的生命值，同时对」
 
 - **Max Effect**：Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies.
 If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.

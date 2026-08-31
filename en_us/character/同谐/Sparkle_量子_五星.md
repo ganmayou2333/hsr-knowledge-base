@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于花火___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于花火___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 140% of Sparkle's ATK to one designated enemy.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 When Sparkle uses this ability on herself, the Action Advance effect will not trigger.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4(%) |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 12% | 27% | 1 | 50% |
   | Lv.2 | 13.2% | 28.8% | 1 | 50% |
@@ -124,10 +124,10 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
   | Lv.15 | 30% | 54% | 1 | 50% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「#2[f1]%，持续___回合，并使该目标行」
-  - `#4[i]`% → 参数4(%)：上下文「，并使该目标行动提前___%。 当花火对自身」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「#2[f1]%，持续___回合，并使该目标行」
+  - `#4[i]`% → Param 4 (%): 上下文「，并使该目标行动提前___%。 当花火对自身」
 
 - **Max Effect**：Increases the CRIT DMG of a designated ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for 1 turn(s). And at the same time, advances this ally's action by 50%.
 When Sparkle uses this ability on herself, the Action Advance effect will not trigger.
@@ -139,7 +139,7 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 - **Effect Template**：Recovers #2[i] Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for #4[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 4 | 6% | 2 |
   | Lv.2 | 2 | 4 | 6.4% | 2 |
@@ -158,10 +158,10 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
   | Lv.15 | 2 | 4 | 12% | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`个 → 参数2：上下文「为我方恢复___个战技点，并使我方」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「#3[f1]%，持续___回合。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`个 → Param 2: 上下文「为我方恢复___个战技点，并使我方」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「#3[f1]%，持续___回合。」
 
 - **Max Effect**：Recovers 4 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for 2 turn(s).
 
@@ -172,7 +172,7 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 - **Effect Template**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 3% | 2 | 3 |
   | Lv.2 | 2 | 3.3% | 2 | 3 |
@@ -191,10 +191,10 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
   | Lv.15 | 2 | 7.5% | 2 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「f1]%，该效果持续___回合，最多可叠加#」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`点 → 参数3：上下文「，战技点上限额外增加___点。当我方目标每消」
-  - `#4[i]`层 → 参数4：上下文「i]回合，最多可叠加___层。」
+  - `#1[i]`回 → Param 1: 上下文「f1]%，该效果持续___回合，最多可叠加#」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`点 → Param 3: 上下文「，战技点上限额外增加___点。当我方目标每消」
+  - `#4[i]`层 → Param 4: 上下文「i]回合，最多可叠加___层。」
 
 - **Max Effect**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).
 
@@ -205,13 +205,13 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 - **Effect Template**：After using Technique, grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers #1[i] Skill Point(s) for the team and regenerates #2[i] Energy for Sparkle.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 3 | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`个 → 参数1：上下文「进入战斗时为我方恢复___个战技点。」
-  - `#2[i]`秒 → 参数2：上下文「后，我方全体进入持续___秒的【迷误】状态。」
+  - `#1[i]`个 → Param 1: 上下文「进入战斗时为我方恢复___个战技点。」
+  - `#2[i]`秒 → Param 2: 上下文「后，我方全体进入持续___秒的【迷误】状态。」
 
 - **Max Effect**：After using Technique, grants all allies Misdirect for 20 seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers 3 Skill Point(s) for the team and regenerates 20 Energy for Sparkle.
 

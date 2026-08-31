@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Gallagher's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于加拉赫___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于加拉赫___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Gallagher's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Immediately heals a target ally for #1[i] HP.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 200 |
   | Lv.2 | 340 |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 2020 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「即为指定我方单体回复___点生命值。」
+  - `#1[i]`点 → Param 1: 上下文「即为指定我方单体回复___点生命值。」
 
 - **Max Effect**：Immediately heals a target ally for 2020 HP.
 
@@ -134,7 +134,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Inflicts Besotted on all enemies, lasting for #2[i] turn(s). At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 75% | 2 |
   | Lv.2 | 82.5% | 2 |
@@ -153,8 +153,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 187.5% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于加拉赫___%攻击力的火属性伤」
-  - `#2[i]`回 → 参数2：上下文「入【酩酊】状态，持续___回合，同时对敌方全」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于加拉赫___%攻击力的火属性伤」
+  - `#2[i]`回 → Param 2: 上下文「入【酩酊】状态，持续___回合，同时对敌方全」
 
 - **Max Effect**：Inflicts Besotted on all enemies, lasting for 2 turn(s). At the same time, deals Fire DMG equal to 187.5% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
 
@@ -165,7 +165,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by #2[i].
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 6% | 80 |
   | Lv.2 | 6.6% | 136 |
@@ -184,8 +184,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 15% | 808 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`点 → 参数2：上下文「攻击后，会回复攻击者___点生命值。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`点 → Param 2: 上下文「攻击后，会回复攻击者___点生命值。」
 
 - **Max Effect**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by 808.
 
@@ -196,13 +196,13 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for #1[i] turn(s). And deals Fire DMG equal to #2[i]% of Gallagher's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) |
+| Level | Param 1 | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 2 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`回 → 参数1：上下文「入【酩酊】状态，持续___回合，并对敌方全体」
-  - `#2[i]`% → 参数2(%)：上下文「全体造成等同于加拉赫___%攻击力的火属性伤」
+  - `#1[i]`回 → Param 1: 上下文「入【酩酊】状态，持续___回合，并对敌方全体」
+  - `#2[i]`% → Param 2 (%): 上下文「全体造成等同于加拉赫___%攻击力的火属性伤」
 
 - **Max Effect**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turn(s). And deals Fire DMG equal to 50% of Gallagher's ATK to all enemies.
 

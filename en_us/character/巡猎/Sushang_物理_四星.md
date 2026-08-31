@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于素裳___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于素裳___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Sushang's ATK to one designated enemy.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to trigger.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 105% | 50% | 33% |
   | Lv.2 | 115.5% | 55% | 33% |
@@ -124,9 +124,9 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
   | Lv.15 | 262.5% | 125% | 33% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于素裳___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「对目标造成等同于素裳___%攻击力的物理属性」
-  - `#3[i]`% → 参数3(%)：上下文「害。同时最后一击后有___%概率发动【剑势】」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于素裳___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「对目标造成等同于素裳___%攻击力的物理属性」
+  - `#3[i]`% → Param 3 (%): 上下文「害。同时最后一击后有___%概率发动【剑势】」
 
 - **Max Effect**：Deals Physical DMG equal to 262.5% of Sushang's ATK to one designated enemy. In addition, there is a 33% chance to trigger "Sword Stance" on the final hit, dealing Physical Additional DMG equal to 125% of Sushang's ATK to the enemy.
 If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to trigger.
@@ -140,7 +140,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 通过额外判定发动的【剑势】伤害为原伤害的#3[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 192% | 2 | 50% | 18% |
   | Lv.2 | 204.8% | 2 | 50% | 19.2% |
@@ -159,10 +159,10 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
   | Lv.15 | 384% | 2 | 50% | 36% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于素裳___%攻击力的物理属性」
-  - `#2[i]`回 → 参数2：上下文「势】的发动判定，持续___回合。 通过额外判」
-  - `#3[i]`% → 参数3(%)：上下文「剑势】伤害为原伤害的___%。」
-  - `#4[i]`% → 参数4(%)：上下文「。同时使其攻击力提高___%，且施放战技时额」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于素裳___%攻击力的物理属性」
+  - `#2[i]`回 → Param 2: 上下文「势】的发动判定，持续___回合。 通过额外判」
+  - `#3[i]`% → Param 3 (%): 上下文「剑势】伤害为原伤害的___%。」
+  - `#4[i]`% → Param 4 (%): 上下文「。同时使其攻击力提高___%，且施放战技时额」
 
 - **Max Effect**：Deals Physical DMG equal to 384% of Sushang's ATK to one designated enemy target, and she immediately takes action. In addition, Sushang's ATK increases by 36% and using her Skill has 2 extra chances to trigger "Sword Stance" for 2 turn(s).
 "Sword Stance" triggered from the extra chances deals 50% of the original DMG.
@@ -174,7 +174,7 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 - **Effect Template**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
   | Lv.2 | 15.5% | 2 |
@@ -193,8 +193,8 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
   | Lv.15 | 22.5% | 2 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`回 → 参数2：上下文「#1[f2]%，持续___回合。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`回 → Param 2: 上下文「#1[f2]%，持续___回合。」
 
 - **Max Effect**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for 2 turn(s).
 
@@ -205,12 +205,12 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 - **Effect Template**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 80% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于素裳___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于素裳___%攻击力的物理属性」
 
 - **Max Effect**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies.
 

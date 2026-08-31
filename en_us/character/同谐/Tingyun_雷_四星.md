@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Tingyun deals Lightning DMG equal to #1[i]% of her ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于停云___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于停云___%攻击力的雷属性伤」
 
 - **Max Effect**：Tingyun deals Lightning DMG equal to 140% of her ATK to one designated enemy.
 
@@ -108,7 +108,7 @@ Benediction lasts for #3[i] turn(s) and is only effective on the most recent rec
 【赐福】持续#3[i]回合且仅对停云战技最新的施放目标生效。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 20% | 25% | 3 | 15% |
   | Lv.2 | 22% | 27.5% | 3 | 16% |
@@ -127,10 +127,10 @@ Benediction lasts for #3[i] turn(s) and is only effective on the most recent rec
   | Lv.15 | 50% | 62.5% | 3 | 30% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「造成1次等同于其自身___%攻击力的雷属性附」
-  - `#2[i]`% → 参数2(%)：上下文「福】，使其攻击力提高___%，最高不超过停云」
-  - `#3[i]`回 → 参数3：上下文「伤害。 【赐福】持续___回合且仅对停云战技」
-  - `#4[i]`% → 参数4(%)：上下文「超过停云当前攻击力的___%。 获得【赐福】」
+  - `#1[i]`% → Param 1 (%): 上下文「造成1次等同于其自身___%攻击力的雷属性附」
+  - `#2[i]`% → Param 2 (%): 上下文「福】，使其攻击力提高___%，最高不超过停云」
+  - `#3[i]`回 → Param 3: 上下文「伤害。 【赐福】持续___回合且仅对停云战技」
+  - `#4[i]`% → Param 4 (%): 上下文「超过停云当前攻击力的___%。 获得【赐福】」
 
 - **Max Effect**：Grants a single ally with Benediction to increase their ATK by 62.5%, up to 30% of Tingyun's current ATK.
 When the ally with Benediction attacks, they will deal Lightning Additional DMG equal to 50% of that ally's ATK for 1 time.
@@ -143,7 +143,7 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 - **Effect Template**：Regenerates #1[i] Energy for a single ally and increases the target's DMG by #3[i]% for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) |
+| Level | Param 1 | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 50 | 2 | 20% |
   | Lv.2 | 50 | 2 | 23% |
@@ -162,9 +162,9 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
   | Lv.15 | 50 | 2 | 65% |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「为指定我方单体恢复___点能量，同时使目标」
-  - `#2[i]`回 → 参数2：上下文「高#3[i]%，持续___回合。」
-  - `#3[i]`% → 参数3(%)：上下文「使目标造成的伤害提高___%，持续#2[i]」
+  - `#1[i]`点 → Param 1: 上下文「为指定我方单体恢复___点能量，同时使目标」
+  - `#2[i]`回 → Param 2: 上下文「高#3[i]%，持续___回合。」
+  - `#3[i]`% → Param 3 (%): 上下文「使目标造成的伤害提高___%，持续#2[i]」
 
 - **Max Effect**：Regenerates 50 Energy for a single ally and increases the target's DMG by 65% for 2 turn(s).
 
@@ -175,7 +175,7 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 - **Effect Template**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to #1[i]% of that ally's ATK to the same enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 30% |
   | Lv.2 | 33% |
@@ -194,7 +194,7 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
   | Lv.15 | 75% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「即对其造成等同于自身___%攻击力的雷属性附」
+  - `#1[i]`% → Param 1 (%): 上下文「即对其造成等同于自身___%攻击力的雷属性附」
 
 - **Max Effect**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to 75% of that ally's ATK to the same enemy.
 
@@ -205,12 +205,12 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 - **Effect Template**：Tingyun immediately regenerates #1[i] Energy upon using her Technique.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 50 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「秘技后立即为自身恢复___点能量。」
+  - `#1[i]`点 → Param 1: 上下文「秘技后立即为自身恢复___点能量。」
 
 - **Max Effect**：Tingyun immediately regenerates 50 Energy upon using her Technique.
 

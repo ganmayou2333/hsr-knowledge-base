@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Aventurine's DEF to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于砂金___%防御力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于砂金___%防御力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of Aventurine's DEF to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus #2[i], lasting for #3[i] turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to #4[i]% of the current Shield Effect provided by the Skill.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4(%) |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 16% | 80 | 3 | 200% |
   | Lv.2 | 17% | 128 | 3 | 200% |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 28% | 410 | 3 | 200% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`伤 → 参数2：上下文「1[f1]%防御力+___伤害的护盾【坚垣筹」
-  - `#3[i]`回 → 参数3：上下文「盾【坚垣筹码】，持续___回合。重复获得【坚」
-  - `#4[i]`% → 参数4(%)：上下文「前战技提供的护盾量的___%。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`伤 → Param 2: 上下文「1[f1]%防御力+___伤害的护盾【坚垣筹」
+  - `#3[i]`回 → Param 3: 上下文「盾【坚垣筹码】，持续___回合。重复获得【坚」
+  - `#4[i]`% → Param 4 (%): 上下文「前战技提供的护盾量的___%。」
 
 - **Max Effect**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus 410, lasting for 3 turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to 200% of the current Shield Effect provided by the Skill.
 
@@ -137,7 +137,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Randomly gains 1 to #1[i] points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for #4[i] turn(s) and deals Imaginary DMG equal to #2[i]% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 7 | 162% | 9% | 3 |
   | Lv.2 | 7 | 172.8% | 9.6% | 3 |
@@ -156,10 +156,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 7 | 324% | 18% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「随机获得1到___点【盲注】，随后使」
-  - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于砂金___%防御力的虚数属性」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「入【惊惶】状态，持续___回合，并对指定敌方」
+  - `#1[i]`点 → Param 1: 上下文「随机获得1到___点【盲注】，随后使」
+  - `#2[i]`% → Param 2 (%): 上下文「方单体造成等同于砂金___%防御力的虚数属性」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「入【惊惶】状态，持续___回合，并对指定敌方」
 
 - **Max Effect**：Randomly gains 1 to 7 points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for 3 turn(s) and deals Imaginary DMG equal to 324% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
 
@@ -170,7 +170,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after #5[i] turn(s). Aventurine additionally gains #1[i] point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a #2[i]-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to #3[i]% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 1 | 7 | 12.5% | 25% | 2 |
   | Lv.2 | 1 | 7 | 13.75% | 27.5% | 2 |
@@ -189,11 +189,11 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 1 | 7 | 31.25% | 62.5% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「在受到攻击后额外获得___点【盲注】。【盲注」
-  - `#2[i]`段 → 参数2：上下文「砂金消耗7点充能发动___段追加攻击，每段攻」
-  - `#3[i]`% → 参数3(%)：上下文「方单体造成等同于砂金___%防御力的虚数属性」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`回 → 参数5：上下文「类负面状态，该效果在___回合后可再次触发，」
+  - `#1[i]`点 → Param 1: 上下文「在受到攻击后额外获得___点【盲注】。【盲注」
+  - `#2[i]`段 → Param 2: 上下文「砂金消耗7点充能发动___段追加攻击，每段攻」
+  - `#3[i]`% → Param 3 (%): 上下文「方单体造成等同于砂金___%防御力的虚数属性」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`回 → Param 5: 上下文「类负面状态，该效果在___回合后可再次触发，」
 
 - **Max Effect**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after 2 turn(s). Aventurine additionally gains 1 point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a 7-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to 31.25% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
 
@@ -213,15 +213,15 @@ When the next battle starts, increases all allies' DEF by the corresponding valu
 下一次战斗开始时，使我方全体提高对应数值的防御力，持续#4[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 24% | 36% | 60% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「定概率获得防御力提高___%； 大概率获得防」
-  - `#2[i]`% → 参数2(%)：上下文「大概率获得防御力提高___%； 小概率获得防」
-  - `#3[i]`% → 参数3(%)：上下文「小概率获得防御力提高___%。 重复使用时保」
-  - `#4[i]`回 → 参数4：上下文「应数值的防御力，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「定概率获得防御力提高___%； 大概率获得防」
+  - `#2[i]`% → Param 2 (%): 上下文「大概率获得防御力提高___%； 小概率获得防」
+  - `#3[i]`% → Param 3 (%): 上下文「小概率获得防御力提高___%。 重复使用时保」
+  - `#4[i]`回 → Param 4: 上下文「应数值的防御力，持续___回合。」
 
 - **Max Effect**：After using the Technique, 1 of the following effects will be granted:
 There is a chance for DEF to increase by 24%.

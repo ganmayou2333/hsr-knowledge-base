@@ -78,7 +78,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -92,7 +92,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于椒丘___%攻击力的火属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于椒丘___%攻击力的火属性伤」
 
 - **Max Effect**：Deals Fire DMG equal to 140% of Jiaoqiu's ATK to one designated enemy target.
 
@@ -103,7 +103,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to one designated enemy target and Fire DMG equal to #2[i]% of Jiaoqiu's ATK to adjacent targets, with a #3[i]% base chance to inflict 1 stack of "Ashen Roast" on the primary target.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 75% | 45% | 100% |
   | Lv.2 | 82.5% | 49.5% | 100% |
@@ -122,9 +122,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 187.5% | 112.5% | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于椒丘___%攻击力的火属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于椒丘___%攻击力的火属性伤」
-  - `#3[i]`% → 参数3(%)：上下文「击力的火属性伤害，有___%的基础概率对主目」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于椒丘___%攻击力的火属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于椒丘___%攻击力的火属性伤」
+  - `#3[i]`% → Param 3 (%): 上下文「击力的火属性伤害，有___%的基础概率对主目」
 
 - **Max Effect**：Deals Fire DMG equal to 187.5% of Jiaoqiu's ATK to one designated enemy target and Fire DMG equal to 112.5% of Jiaoqiu's ATK to adjacent targets, with a 100% base chance to inflict 1 stack of "Ashen Roast" on the primary target.
 
@@ -139,7 +139,7 @@ The Zone lasts for #4[i] turn(s), and its duration decreases by 1 at the start o
 结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。当椒丘陷入无法战斗状态时，结界也会被解除。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 50% | 9% | 3 | 6 |
   | Lv.2 | 64% | 51% | 9.6% | 3 | 6 |
@@ -158,11 +158,11 @@ The Zone lasts for #4[i] turn(s), and its duration decreases by 1 at the start o
   | Lv.15 | 120% | 65% | 18% | 3 | 6 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于椒丘___%攻击力的火属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「f1]%，且行动时有___%的基础概率被施加」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「触发次数。 结界持续___回合，自身每回合开」
-  - `#5[i]`次 → 参数5：上下文「在期间该效果最多触发___次，且每个敌方目标」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于椒丘___%攻击力的火属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「f1]%，且行动时有___%的基础概率被施加」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「触发次数。 结界持续___回合，自身每回合开」
+  - `#5[i]`次 → Param 5: 上下文「在期间该效果最多触发___次，且每个敌方目标」
 
 - **Max Effect**：Sets the number of "Ashen Roast" stacks on enemy targets to the highest number of "Ashen Roast" stacks present on the battlefield. Then, activates a Zone and deals Fire DMG equal to 120% of Jiaoqiu's ATK to all enemies.
 While inside the Zone, enemy targets receive #3[f1]% increased Ultimate DMG, with a 65% base chance of being inflicted with 1 stack of Ashen Roast when taking action. While the Zone exists, this effect can trigger up to 6 time(s). And for each enemy target, it can only trigger once per turn. This trigger count resets every time Jiaoqiu uses Ultimate.
@@ -180,7 +180,7 @@ When an enemy target is afflicted with Ashen Roast, they are also considered as 
 当敌方目标处于【烬煨】状态时，也会被视为同时陷入了灼烧状态，每回合开始时受到等同于椒丘#6[i]%攻击力的火属性持续伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 (%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 7.5% | 2.5% | 5 | 2 | 90% |
   | Lv.2 | 100% | 8.25% | 2.75% | 5 | 2 | 99% |
@@ -199,12 +199,12 @@ When an enemy target is afflicted with Ashen Roast, they are also considered as 
   | Lv.15 | 100% | 18.75% | 6.25% | 5 | 2 | 225% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「终结技击中敌人时，有___%的基础概率对其施」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`层 → 参数4：上下文「。 【烬煨】最多叠加___层，持续#5[i]」
-  - `#5[i]`回 → 参数5：上下文「加#4[i]层，持续___回合。 当敌方目标」
-  - `#6[i]`% → 参数6(%)：上下文「开始时受到等同于椒丘___%攻击力的火属性持」
+  - `#1[i]`% → Param 1 (%): 上下文「终结技击中敌人时，有___%的基础概率对其施」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`层 → Param 4: 上下文「。 【烬煨】最多叠加___层，持续#5[i]」
+  - `#5[i]`回 → Param 5: 上下文「加#4[i]层，持续___回合。 当敌方目标」
+  - `#6[i]`% → Param 6 (%): 上下文「开始时受到等同于椒丘___%攻击力的火属性持」
 
 - **Max Effect**：When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a 100% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by #2[f1]%. Then, each subsequent stack increases this by #3[f1]%.
 Ashen Roast is capped at 5 stack(s) and lasts for 2 turn(s).
@@ -217,14 +217,14 @@ When an enemy target is afflicted with Ashen Roast, they are also considered as 
 - **Effect Template**：After using Technique, creates a Special Dimension that lasts for #2[i] second(s). After entering combat with enemies in this Special Dimension, deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies, with a #3[i]% base chance of applying 1 "Ashen Roast" stack. Only 1 dimension created by allies can exist at the same time.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 100% | 15 | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于椒丘___%攻击力的火属性伤」
-  - `#2[i]`秒 → 参数2：上下文「秘技后，制造1片持续___秒的特殊领域。与处」
-  - `#3[i]`% → 参数3(%)：上下文「力的火属性伤害，并有___%的基础概率施加1」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于椒丘___%攻击力的火属性伤」
+  - `#2[i]`秒 → Param 2: 上下文「秘技后，制造1片持续___秒的特殊领域。与处」
+  - `#3[i]`% → Param 3 (%): 上下文「力的火属性伤害，并有___%的基础概率施加1」
 
 - **Max Effect**：After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering combat with enemies in this Special Dimension, deals Fire DMG equal to 100% of Jiaoqiu's ATK to all enemies, with a 100% base chance of applying 1 "Ashen Roast" stack. Only 1 dimension created by allies can exist at the same time.
 

@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals #1[i]% of Xueyi's ATK as Quantum DMG to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于雪衣___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于雪衣___%攻击力的量子属性」
 
 - **Max Effect**：Deals 140% of Xueyi's ATK as Quantum DMG to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Xueyi's ATK to any adjacent enemies.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 70% | 35% |
   | Lv.2 | 77% | 38.5% |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 175% | 87.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于雪衣___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于雪衣___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于雪衣___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于雪衣___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 175% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to 87.5% of Xueyi's ATK to any adjacent enemies.
 
@@ -137,7 +137,7 @@ In this attack, the more Toughness is reduced, the higher the DMG will be dealt,
 在本次攻击中，削减的韧性越多，造成的伤害越高，最多提高#3[f1]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 150% | 9% | 36% |
   | Lv.2 | 160% | 9.6% | 38.4% |
@@ -156,9 +156,9 @@ In this attack, the more Toughness is reduced, the higher the DMG will be dealt,
   | Lv.15 | 300% | 18% | 72% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于雪衣___%攻击力的量子属性」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于雪衣___%攻击力的量子属性」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Quantum DMG equal to 300% of Xueyi's ATK to one designated enemy target. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.
 In this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of #3[f1]% increase.
@@ -175,7 +175,7 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣#2[i]%攻击力的量子属性伤害。本次追加攻击无法叠加【恶报】。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 8 | 45% | 1 |
   | Lv.2 | 8 | 49.5% | 1 |
@@ -194,9 +194,9 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
   | Lv.15 | 8 | 112.5% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`层 → 参数1：上下文「】层数越多，可以叠加___层。 当雪衣的队友」
-  - `#2[i]`% → 参数2(%)：上下文「机单体造成等同于雪衣___%攻击力的量子属性」
-  - `#3[i]`层 → 参数3：上下文「敌方韧性后，雪衣叠加___层【恶报】。 当【」
+  - `#1[i]`层 → Param 1: 上下文「】层数越多，可以叠加___层。 当雪衣的队友」
+  - `#2[i]`% → Param 2 (%): 上下文「机单体造成等同于雪衣___%攻击力的量子属性」
+  - `#3[i]`层 → Param 3: 上下文「敌方韧性后，雪衣叠加___层【恶报】。 当【」
 
 - **Max Effect**：When Xueyi reduces enemy Toughness with attacks, "Karma" will be stacked. The more Toughness is reduced, the more stacks of "Karma" are added, up to 8 stacks.
 When Xueyi's teammates reduce enemy Toughness with attacks, Xueyi gains 1 stack(s) of "Karma."
@@ -209,12 +209,12 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 - **Effect Template**：Immediately attacks the enemy. After entering combat, deals #1[i]% of Xueyi's ATK as Quantum DMG to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 80% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于雪衣___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于雪衣___%攻击力的量子属性」
 
 - **Max Effect**：Immediately attacks the enemy. After entering combat, deals 80% of Xueyi's ATK as Quantum DMG to all enemies.
 

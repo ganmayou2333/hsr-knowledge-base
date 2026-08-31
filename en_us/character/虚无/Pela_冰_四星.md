@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Pela's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于佩拉___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于佩拉___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of Pela's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to one designated target enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 105% | 1 |
   | Lv.2 | 115.5% | 1 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 262.5% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「，同时造成等同于佩拉___%攻击力的冰属性伤」
-  - `#2[i]`个 → 参数2：上下文「解除指定敌方单体的___个增益效果，同时造」
+  - `#1[i]`% → Param 1 (%): 上下文「，同时造成等同于佩拉___%攻击力的冰属性伤」
+  - `#2[i]`个 → Param 2: 上下文「解除指定敌方单体的___个增益效果，同时造」
 
 - **Max Effect**：Removes 1 buff(s) and deals Ice DMG equal to 262.5% of Pela's ATK to one designated target enemy.
 
@@ -137,7 +137,7 @@ When Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).
 【通解】状态下，敌方目标防御力降低#2[i]%，持续#3[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 30% | 2 | 60% |
   | Lv.2 | 100% | 31% | 2 | 64% |
@@ -156,10 +156,10 @@ When Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).
   | Lv.15 | 100% | 45% | 2 | 120% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「，敌方目标防御力降低___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
-  - `#4[i]`% → 参数4(%)：上下文「方全体造成等同于佩拉___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「，敌方目标防御力降低___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「低#2[i]%，持续___回合。」
+  - `#4[i]`% → Param 4 (%): 上下文「方全体造成等同于佩拉___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 120% of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies.
 When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
@@ -171,7 +171,7 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
 - **Effect Template**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
 
 - **Level Table**：
-| Level | 参数1 |
+| Level | Param 1 |
   |---|---|
   | Lv.1 | 5 |
   | Lv.2 | 5.5 |
@@ -190,7 +190,7 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
   | Lv.15 | 12.5 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
 
@@ -201,15 +201,15 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
 - **Effect Template**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to #4[i]% of her ATK to a random enemy, with a #1[i]% base chance of lowering the DEF of all enemies by #2[i]% for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 20% | 2 | 80% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的冰属性伤害，同时有___%的基础概率使敌方」
-  - `#2[i]`% → 参数2(%)：上下文「个单体目标防御力降低___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
-  - `#4[i]`% → 参数4(%)：上下文「机单体造成等同于佩拉___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「的冰属性伤害，同时有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「个单体目标防御力降低___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「低#2[i]%，持续___回合。」
+  - `#4[i]`% → Param 4 (%): 上下文「机单体造成等同于佩拉___%攻击力的冰属性伤」
 
 - **Max Effect**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s).
 

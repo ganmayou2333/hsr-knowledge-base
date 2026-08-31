@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于米沙___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于米沙___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of Misha's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Increases the Hits Per Action for Misha's next Ultimate by #3[i] hit(s). Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target, and Ice DMG equal to #2[i]% of Misha's ATK to adjacent targets.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 100% | 40% | 1 |
   | Lv.2 | 110% | 44% | 1 |
@@ -123,9 +123,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% | 100% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于米沙___%攻击力的冰属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于米沙___%攻击力的冰属性伤」
-  - `#3[i]`段 → 参数3：上下文「增加___段米沙下一次终结技」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于米沙___%攻击力的冰属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于米沙___%攻击力的冰属性伤」
+  - `#3[i]`段 → Param 3: 上下文「增加___段米沙下一次终结技」
 
 - **Max Effect**：Increases the Hits Per Action for Misha's next Ultimate by 1 hit(s). Deals Ice DMG equal to 250% of Misha's ATK to one designated enemy target, and Ice DMG equal to 100% of Misha's ATK to adjacent targets.
 
@@ -140,7 +140,7 @@ This Ultimate can possess up to #5[i] Hits Per Action. After the Ultimate is use
 终结技最多累计#5[i]段攻击段数，施放终结技后攻击段数恢复至初始状态。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 3 | 36% | 12% | 18% | 10 |
   | Lv.2 | 3 | 38.4% | 12.8% | 19.2% | 10 |
@@ -159,11 +159,11 @@ This Ultimate can possess up to #5[i] Hits Per Action. After the Ultimate is use
   | Lv.15 | 3 | 72% | 24% | 36% | 10 |
 
 - **Parameter Notes**：
-  - `#1[i]`段 → 参数1：上下文「初始拥有___段攻击段数。首先施」
-  - `#2[i]`% → 参数2(%)：上下文「机单体造成等同于米沙___%攻击力的冰属性伤」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`% → 参数4(%)：上下文「开始时受到等同于米沙___%攻击力的冰属性附」
-  - `#5[i]`段 → 参数5：上下文「害。 终结技最多累计___段攻击段数，施放终」
+  - `#1[i]`段 → Param 1: 上下文「初始拥有___段攻击段数。首先施」
+  - `#2[i]`% → Param 2 (%): 上下文「机单体造成等同于米沙___%攻击力的冰属性伤」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「开始时受到等同于米沙___%攻击力的冰属性附」
+  - `#5[i]`段 → Param 5: 上下文「害。 终结技最多累计___段攻击段数，施放终」
 
 - **Max Effect**：Has 3 Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to 72% of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals Ice DMG equal to 72% of Misha's ATK to one random enemy. Just before each hit lands, there is a #3[f1]% base chance to Freeze the target, lasting for 1 turn.
 While Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive Ice Additional DMG equal to 36% of Misha's ATK.
@@ -176,7 +176,7 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 - **Effect Template**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers #2[i] more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 1 | 1 |
   | Lv.2 | 1.1 | 1 |
@@ -195,8 +195,8 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
   | Lv.15 | 2.5 | 1 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`段 → 参数2：上下文「消耗1个战技点，增加___段米沙下一次终结技」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`段 → Param 2: 上下文「消耗1个战技点，增加___段米沙下一次终结技」
 
 - **Max Effect**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers 1 more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
 
@@ -207,13 +207,13 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 - **Effect Template**：After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 15 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「秘技后，制造1片持续___秒的特殊领域。处于」
-  - `#2[i]`段 → 参数2：上下文「敌人进入战斗后，增加___段米沙下一次终结技」
+  - `#1[i]`秒 → Param 1: 上下文「秘技后，制造1片持续___秒的特殊领域。处于」
+  - `#2[i]`段 → Param 2: 上下文「敌人进入战斗后，增加___段米沙下一次终结技」
 
 - **Max Effect**：After using the Technique, creates a Special Dimension that lasts for 15 seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by 2 hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
 

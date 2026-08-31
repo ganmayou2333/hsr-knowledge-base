@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于远坂凛___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于远坂凛___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 90% |
   | Lv.2 | 99% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 225% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于远坂凛___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于远坂凛___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy.
 
@@ -134,7 +134,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Rin Tohsaka's ATK to other enemy targets. When used, recovers #4[i] Skill Point(s) for allies, and increases the DMG taken by all enemies by #5[i]%, lasting for #6[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 (%) | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 300% | 100% | 12 | 1 | 10% | 3 |
   | Lv.2 | 330% | 110% | 12 | 1 | 11% | 3 |
@@ -153,12 +153,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 750% | 250% | 12 | 1 | 25% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于远坂凛___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「目标造成等同于远坂凛___%攻击力的量子属性」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`个 → 参数4：上下文「。施放时，为我方恢复___个战技点，并使敌方」
-  - `#5[i]`% → 参数5(%)：上下文「方全体受到的伤害提高___%，持续#6[i]」
-  - `#6[i]`回 → 参数6：上下文「高#5[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于远坂凛___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「目标造成等同于远坂凛___%攻击力的量子属性」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`个 → Param 4: 上下文「。施放时，为我方恢复___个战技点，并使敌方」
+  - `#5[i]`% → Param 5 (%): 上下文「方全体受到的伤害提高___%，持续#6[i]」
+  - `#6[i]`回 → Param 6: 上下文「高#5[i]%，持续___回合。」
 
 - **Max Effect**：Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s).
 
@@ -169,7 +169,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When entering combat, gains #1[i] "Gem Energy." When an ally target consumes or recovers Skill Points, increases their CRIT DMG by #3[i]% for #2[i] turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 "Gem Energy." If Rin Tohsaka holds #5[i] or more "Gem Energy," or if the current Skill Points are #4[i] or more, her Skill is enhanced to "Second Magic Experiment."
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 20 | 2 | 35% | 7 | 15 | 999 |
   | Lv.2 | 20 | 2 | 38.5% | 7 | 15 | 999 |
@@ -188,12 +188,12 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 20 | 2 | 87.5% | 7 | 15 | 999 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「进入战斗时，获得___点【宝石能量】。我」
-  - `#2[i]`回 → 参数2：上下文「高#3[i]%，持续___回合，且每消耗或恢」
-  - `#3[i]`% → 参数3(%)：上下文「时，使其暴击伤害提高___%，持续#2[i]」
-  - `#4[i]`点 → 参数4：上下文「或当前战技点大于等于___点，战技强化为【第」
-  - `#5[i]`点 → 参数5：上下文「【宝石能量】大于等于___点或当前战技点大于」
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`点 → Param 1: 上下文「进入战斗时，获得___点【宝石能量】。我」
+  - `#2[i]`回 → Param 2: 上下文「高#3[i]%，持续___回合，且每消耗或恢」
+  - `#3[i]`% → Param 3 (%): 上下文「时，使其暴击伤害提高___%，持续#2[i]」
+  - `#4[i]`点 → Param 4: 上下文「或当前战技点大于等于___点，战技强化为【第」
+  - `#5[i]`点 → Param 5: 上下文「【宝石能量】大于等于___点或当前战技点大于」
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：When entering combat, gains 20 "Gem Energy." When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 "Gem Energy." If Rin Tohsaka holds 15 or more "Gem Energy," or if the current Skill Points are 7 or more, her Skill is enhanced to "Second Magic Experiment."
 
@@ -204,14 +204,14 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After using Technique, gains #1[i] "Gem Energy" at the start of the next battle.
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 |
+| Level | Param 1 | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 10 | 2 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「下一次战斗开始时获得___点【宝石能量】。」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`点 → Param 1: 上下文「下一次战斗开始时获得___点【宝石能量】。」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：After using Technique, gains 10 "Gem Energy" at the start of the next battle.
 

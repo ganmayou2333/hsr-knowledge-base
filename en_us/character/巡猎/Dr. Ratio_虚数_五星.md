@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于真理医生___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于真理医生___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of Dr. Ratio's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 75% |
   | Lv.2 | 82.5% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 187.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于真理医生___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于真理医生___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 187.5% of Dr. Ratio's ATK to one designated enemy target.
 
@@ -136,7 +136,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 【智者的短见】效果最多触发#2[i]次且仅对真理医生终结技最新施放的目标生效。施放终结技后重置该效果触发次数。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 144% | 2 |
   | Lv.2 | 153.6% | 2 |
@@ -155,8 +155,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 288% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于真理医生___%攻击力的虚数属性」
-  - `#2[i]`次 → 参数2：上下文「的短见】效果最多触发___次且仅对真理医生终」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于真理医生___%攻击力的虚数属性」
+  - `#2[i]`次 → Param 2: 上下文「的短见】效果最多触发___次且仅对真理医生终」
 
 - **Max Effect**：Deals Imaginary DMG equal to 288% of Dr. Ratio's ATK to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.
 "Wiseman's Folly" can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.
@@ -168,7 +168,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When using his Skill, Dr. Ratio has a #2[i]% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by #3[i]%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 135% | 40% | 20% |
   | Lv.2 | 148.5% | 40% | 20% |
@@ -187,9 +187,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 337.5% | 40% | 20% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「，造成等同于真理医生___%攻击力的虚数属性」
-  - `#2[i]`% → 参数2(%)：上下文「施放战技时，有___%的固定概率对该目」
-  - `#3[i]`% → 参数3(%)：上下文「击发动的固定概率提高___%。若追加攻击施放」
+  - `#1[i]`% → Param 1 (%): 上下文「，造成等同于真理医生___%攻击力的虚数属性」
+  - `#2[i]`% → Param 2 (%): 上下文「施放战技时，有___%的固定概率对该目」
+  - `#3[i]`% → Param 3 (%): 上下文「击发动的固定概率提高___%。若追加攻击施放」
 
 - **Max Effect**：When using his Skill, Dr. Ratio has a 40% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to 337.5% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by 20%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
 
@@ -200,15 +200,15 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this Special Dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 10 | 100% | 15% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「域嘲讽附近敌人，持续___秒。与处于特殊领域」
-  - `#2[i]`% → 参数2(%)：上下文「的敌人进入战斗后，有___%基础概率使敌方每」
-  - `#3[i]`% → 参数3(%)：上下文「每个单体目标速度降低___%，持续#4[i]」
-  - `#4[i]`回 → 参数4：上下文「低#3[i]%，持续___回合。我方制造的领」
+  - `#1[i]`秒 → Param 1: 上下文「域嘲讽附近敌人，持续___秒。与处于特殊领域」
+  - `#2[i]`% → Param 2 (%): 上下文「的敌人进入战斗后，有___%基础概率使敌方每」
+  - `#3[i]`% → Param 3 (%): 上下文「每个单体目标速度降低___%，持续#4[i]」
+  - `#4[i]`回 → Param 4: 上下文「低#3[i]%，持续___回合。我方制造的领」
 
 - **Max Effect**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for 10 second(s). After entering battle with enemies in this Special Dimension, there is a 100% base chance to reduce each single enemy target's SPD by 15% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 

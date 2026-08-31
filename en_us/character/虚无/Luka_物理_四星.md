@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于卢卡___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于卢卡___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Luka's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的#4[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 100% | 24% | 130% | 3 |
   | Lv.2 | 66% | 100% | 24% | 143% | 3 |
@@ -125,11 +125,11 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
   | Lv.15 | 150% | 100% | 24% | 422.5% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于卢卡___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「物理属性伤害，随后有___%的基础概率使目标」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`% → 参数4(%)：上下文「多不超过卢卡攻击力的___%。」
-  - `#5[i]`回 → 参数5：上下文「标陷入裂伤状态，持续___回合。 裂伤状态下」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于卢卡___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「物理属性伤害，随后有___%的基础概率使目标」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「多不超过卢卡攻击力的___%。」
+  - `#5[i]`回 → Param 5: 上下文「标陷入裂伤状态，持续___回合。 裂伤状态下」
 
 - **Max Effect**：Deals Physical DMG equal to 150% of Luka's ATK to one designated enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s).
 While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 422.5% of Luka's ATK.
@@ -142,7 +142,7 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
 - **Effect Template**：Receives #5[i] stack(s) of "Fighting Will," with a #2[i]% base chance to increase one designated enemy target's DMG received by #3[f1]% for #4[i] turn(s). Then, deals Physical DMG equal to #1[i]% of Luka's ATK to the target.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 198% | 100% | 12% | 3 | 2 |
   | Lv.2 | 211.2% | 100% | 12.8% | 3 | 2 |
@@ -161,11 +161,11 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
   | Lv.15 | 396% | 100% | 24% | 3 | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于卢卡___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「i]层【斗志】，并有___%的基础概率使指定」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「#3[f1]%，持续___回合，随后对该目标」
-  - `#5[i]`层 → 参数5：上下文「获得___层【斗志】，并有#」
+  - `#1[i]`% → Param 1 (%): 上下文「该目标造成等同于卢卡___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「i]层【斗志】，并有___%的基础概率使指定」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「#3[f1]%，持续___回合，随后对该目标」
+  - `#5[i]`层 → Param 5: 上下文「获得___层【斗志】，并有#」
 
 - **Max Effect**：Receives 2 stack(s) of "Fighting Will," with a 100% base chance to increase one designated enemy target's DMG received by #3[f1]% for 3 turn(s). Then, deals Physical DMG equal to 396% of Luka's ATK to the target.
 
@@ -178,7 +178,7 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 - **Effect Template**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives #1[i] stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to #2[i]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) |
+| Level | Param 1 | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 1 | 68% |
   | Lv.2 | 1 | 69.7% |
@@ -197,8 +197,8 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
   | Lv.15 | 1 | 93.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`层 → 参数1：上下文「技【裂伤拳】后，获得___层【斗志】，最多可」
-  - `#2[i]`% → 参数2(%)：上下文「产生1次相当于原伤害___%的伤害。战斗开始」
+  - `#1[i]`层 → Param 1: 上下文「技【裂伤拳】后，获得___层【斗志】，最多可」
+  - `#2[i]`% → Param 2 (%): 上下文「产生1次相当于原伤害___%的伤害。战斗开始」
 
 - **Max Effect**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives 1 stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 93.5% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
 
@@ -209,13 +209,13 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 - **Effect Template**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to #1[i]% of his ATK to a random single enemy with a #2[i]% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 50% | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「机单体造成等同于卢卡___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「的物理属性伤害，并有___%的基础概率使目标」
+  - `#1[i]`% → Param 1 (%): 上下文「机单体造成等同于卢卡___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「的物理属性伤害，并有___%的基础概率使目标」
 
 - **Max Effect**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
 

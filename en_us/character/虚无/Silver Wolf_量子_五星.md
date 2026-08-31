@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于银狼___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于银狼___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 140% of Silver Wolf's ATK to one designated enemy.
 
@@ -109,7 +109,7 @@ Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this target.
 对该目标造成等同于银狼#1[i]%攻击力的量子属性伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) | 参数6 | 参数7 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) | Param 5 (%) | Param 6 | Param 7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 98% | 75% | 2 | 20% | 100% | 7.5% | 2 |
   | Lv.2 | 107.8% | 76% | 2 | 20% | 100% | 7.75% | 2 |
@@ -128,13 +128,13 @@ Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this target.
   | Lv.15 | 245% | 90% | 2 | 20% | 100% | 11.25% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于银狼___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「有___%的基础概率为指定」
-  - `#3[i]`回 → 参数3：上下文「低#4[i]%，持续___回合。若添加的是敌」
-  - `#4[i]`% → 参数4(%)：上下文「点对应属性的抗性降低___%，持续#3[i]」
-  - `#5[i]`% → 参数5(%)：上下文「最新添加的弱点。 有___%的基础概率额外使」
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
-  - `#7[i]`回 → 参数7：上下文「#6[f1]%，持续___回合。 对该目标造」
+  - `#1[i]`% → Param 1 (%): 上下文「该目标造成等同于银狼___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「有___%的基础概率为指定」
+  - `#3[i]`回 → Param 3: 上下文「低#4[i]%，持续___回合。若添加的是敌」
+  - `#4[i]`% → Param 4 (%): 上下文「点对应属性的抗性降低___%，持续#3[i]」
+  - `#5[i]`% → Param 5 (%): 上下文「最新添加的弱点。 有___%的基础概率额外使」
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#7[i]`回 → Param 7: 上下文「#6[f1]%，持续___回合。 对该目标造」
 
 - **Max Effect**：There is a 90% base chance to add 1 Weakness of an on-field ally target's Type to one designated enemy target (prioritizing the implant of a Weakness that matches the first character in the team lineup). This also reduces the enemy target's RES to that Weakness Type by 20% for 2 turn(s). If the enemy target already has that Type of Weakness, the RES reduction effect to that Type will not be triggered.
 Each enemy target can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be retained.
@@ -149,7 +149,7 @@ Deals Quantum DMG equal to 245% of Silver Wolf's ATK to this target.
 - **Effect Template**：Has a #2[i]% base chance to reduce the DEF of all enemies by #3[f1]% for #4[i] turn(s). At the same time, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 228% | 85% | 36% | 3 |
   | Lv.2 | 243.2% | 86.5% | 36.9% | 3 |
@@ -168,10 +168,10 @@ Deals Quantum DMG equal to 245% of Silver Wolf's ATK to this target.
   | Lv.15 | 456% | 107.5% | 49.5% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于银狼___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「有___%的基础概率使指定」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「#3[f1]%，持续___回合，同时对该目标」
+  - `#1[i]`% → Param 1 (%): 上下文「该目标造成等同于银狼___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「有___%的基础概率使指定」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「#3[f1]%，持续___回合，同时对该目标」
 
 - **Max Effect**：Has a 107.5% base chance to reduce the DEF of all enemies by #3[f1]% for 3 turn(s). At the same time, deals Quantum DMG equal to 456% of Silver Wolf's ATK to all enemies.
 
@@ -185,7 +185,7 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 银狼每次施放攻击后有#4[i]%的基础概率给受到攻击的敌方目标植入1个随机【缺陷】，持续#5[i]回合。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 (%) | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 5% | 4% | 3% | 60% | 3 |
   | Lv.2 | 5.5% | 4.4% | 3.3% | 61.2% | 3 |
@@ -204,11 +204,11 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
   | Lv.15 | 12.5% | 10% | 7.5% | 78% | 3 |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`% → 参数4(%)：上下文「银狼每次施放攻击后有___%的基础概率给受到」
-  - `#5[i]`回 → 参数5：上下文「个随机【缺陷】，持续___回合。」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「银狼每次施放攻击后有___%的基础概率给受到」
+  - `#5[i]`回 → Param 5: 上下文「个随机【缺陷】，持续___回合。」
 
 - **Max Effect**：Silver Wolf can create three types of "Bugs": Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.
 After every attack launched by Silver Wolf, she has a 78% base chance to implant 1 random "Bug" that lasts for 3 turn(s) in the attacked enemy target. 
@@ -221,12 +221,12 @@ When the enemy target gets defeated, the Weakness Silver Wolf implanted on it wi
 - **Effect Template**：Immediately attacks the enemy. After entering combat, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies, and reduces Toughness of all enemies regardless of Weakness Types. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 80% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于银狼___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于银狼___%攻击力的量子属性」
 
 - **Max Effect**：Immediately attacks the enemy. After entering combat, deals Quantum DMG equal to 80% of Silver Wolf's ATK to all enemies, and reduces Toughness of all enemies regardless of Weakness Types. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.
 

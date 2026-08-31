@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Herta's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于黑塔___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于黑塔___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of Herta's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies. If the enemy's HP percentage is #2[i]% or higher, DMG dealt to this target increases by #3[i]%.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 50% | 50% | 20% |
   | Lv.2 | 55% | 50% | 20% |
@@ -123,9 +123,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 125% | 50% | 20% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「生命值百分比大于等于___%，则对该目标造成」
-  - `#3[i]`% → 参数3(%)：上下文「该目标造成的伤害提高___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「生命值百分比大于等于___%，则对该目标造成」
+  - `#3[i]`% → Param 3 (%): 上下文「该目标造成的伤害提高___%。」
 
 - **Max Effect**：Deals Ice DMG equal to 125% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.
 
@@ -136,7 +136,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 120% |
   | Lv.2 | 128% |
@@ -155,7 +155,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 240% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 240% of Herta's ATK to all enemies.
 
@@ -166,7 +166,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：When an ally target's attack causes an enemy target's HP percentage to fall to #1[i]% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 50% | 25% |
   | Lv.2 | 50% | 26.5% |
@@ -185,8 +185,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 50% | 47.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「生命值百分比小于等于___%时，黑塔发动追加」
-  - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「生命值百分比小于等于___%时，黑塔发动追加」
+  - `#2[i]`% → Param 2 (%): 上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
 
 - **Max Effect**：When an ally target's attack causes an enemy target's HP percentage to fall to 50% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to 47.5% of Herta's ATK to all enemies.
 
@@ -197,13 +197,13 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 40% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「开始时黑塔攻击力提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「开始时黑塔攻击力提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
 
 - **Max Effect**：After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle.
 

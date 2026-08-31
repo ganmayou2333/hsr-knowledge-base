@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of Gepard's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于杰帕德___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于杰帕德___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of Gepard's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
 冻结状态下，敌方目标不能行动同时每回合开始时受到等同于杰帕德#4[i]%攻击力的冰属性附加伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 65% | 1 | 30% |
   | Lv.2 | 110% | 65% | 1 | 33% |
@@ -125,10 +125,10 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
   | Lv.15 | 250% | 65% | 1 | 75% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于杰帕德___%攻击力的冰属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「的冰属性伤害，同时有___%的基础概率使受到」
-  - `#3[i]`回 → 参数3：上下文「标陷入冻结状态，持续___回合。 冻结状态下」
-  - `#4[i]`% → 参数4(%)：上下文「始时受到等同于杰帕德___%攻击力的冰属性附」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于杰帕德___%攻击力的冰属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「的冰属性伤害，同时有___%的基础概率使受到」
+  - `#3[i]`回 → Param 3: 上下文「标陷入冻结状态，持续___回合。 冻结状态下」
+  - `#4[i]`% → Param 4 (%): 上下文「始时受到等同于杰帕德___%攻击力的冰属性附」
 
 - **Max Effect**：Deals Ice DMG equal to 250% of Gepard's ATK to one designated enemy, with a 65% base chance to Freeze the enemy for 1 turn(s).
 While Frozen, the enemy cannot take action and will take Ice Additional DMG equal to 75% of Gepard's ATK at the beginning of each turn.
@@ -140,7 +140,7 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
 - **Effect Template**：Applies a Shield to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 30% | 3 | 150 |
   | Lv.2 | 31.87% | 3 | 240 |
@@ -159,9 +159,9 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
   | Lv.15 | 52.5% | 3 | 768.75 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「能够抵消等同于杰帕德___%防御力+#3[i」
-  - `#2[i]`回 → 参数2：上下文「i]伤害的护盾，持续___回合。」
-  - `#3[i]`伤 → 参数3：上下文「#1[i]%防御力+___伤害的护盾，持续#」
+  - `#1[i]`% → Param 1 (%): 上下文「能够抵消等同于杰帕德___%防御力+#3[i」
+  - `#2[i]`回 → Param 2: 上下文「i]伤害的护盾，持续___回合。」
+  - `#3[i]`伤 → Param 3: 上下文「#1[i]%防御力+___伤害的护盾，持续#」
 
 - **Max Effect**：Applies a Shield to all allies, absorbing DMG equal to 52.5% of Gepard's DEF plus 768.75 for 3 turn(s).
 
@@ -172,7 +172,7 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
 - **Effect Template**：When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to #1[i]% of his Max HP. This effect can only trigger once per battle.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 25% |
   | Lv.2 | 27.5% |
@@ -191,7 +191,7 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
   | Lv.15 | 62.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「复等同于自身生命上限___%的生命值。该效果」
+  - `#1[i]`% → Param 1 (%): 上下文「复等同于自身生命上限___%的生命值。该效果」
 
 - **Max Effect**：When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to 62.5% of his Max HP. This effect can only trigger once per battle.
 
@@ -202,14 +202,14 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
 - **Effect Template**：After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 24% | 2 | 150 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「能够抵消等同于杰帕德___%防御力+#3[i」
-  - `#2[i]`回 → 参数2：上下文「i]伤害的护盾，持续___回合。」
-  - `#3[i]`伤 → 参数3：上下文「#1[i]%防御力+___伤害的护盾，持续#」
+  - `#1[i]`% → Param 1 (%): 上下文「能够抵消等同于杰帕德___%防御力+#3[i」
+  - `#2[i]`回 → Param 2: 上下文「i]伤害的护盾，持续___回合。」
+  - `#3[i]`伤 → Param 3: 上下文「#1[i]%防御力+___伤害的护盾，持续#」
 
 - **Max Effect**：After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s).
 

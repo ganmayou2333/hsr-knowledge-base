@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -95,7 +95,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于那刻夏___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于那刻夏___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 140% of Anaxa's ATK to one designated enemy.
 
@@ -108,7 +108,7 @@ When used, for each attackable enemy on the field, this Skill has its DMG dealt 
 施放时场上每有1个可攻击的敌方目标，本次战技造成的伤害提高#3[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 35% | 4 | 20% |
   | Lv.2 | 38.5% | 4 | 20% |
@@ -127,9 +127,9 @@ When used, for each attackable enemy on the field, this Skill has its DMG dealt 
   | Lv.15 | 87.5% | 4 | 20% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于那刻夏___%攻击力的风属性伤」
-  - `#2[i]`次 → 参数2：上下文「属性伤害，并额外造成___次伤害。每次伤害对」
-  - `#3[i]`% → 参数3(%)：上下文「次战技造成的伤害提高___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于那刻夏___%攻击力的风属性伤」
+  - `#2[i]`次 → Param 2: 上下文「属性伤害，并额外造成___次伤害。每次伤害对」
+  - `#3[i]`% → Param 3 (%): 上下文「次战技造成的伤害提高___%。」
 
 - **Max Effect**：Deals Wind DMG equal to 87.5% of Anaxa's ATK to one designated enemy and additionally deals 4 instance(s) of DMG. Each instance of DMG deals Wind DMG equal to 87.5% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.
 When used, for each attackable enemy on the field, this Skill has its DMG dealt increased by 20%.
@@ -142,7 +142,7 @@ When used, for each attackable enemy on the field, this Skill has its DMG dealt 
 In the "Sublimation" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the "Sublimation" state.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 80% |
   | Lv.2 | 88% |
@@ -161,7 +161,7 @@ In the "Sublimation" state, the targets will be simultaneously inflicted with Ph
   | Lv.15 | 200% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于那刻夏___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于那刻夏___%攻击力的风属性伤」
 
 - **Max Effect**：Inflicts the "Sublimation" state on all enemies, then deals Wind DMG equal to 200% of Anaxa's ATK to all enemies.
 In the "Sublimation" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the "Sublimation" state.
@@ -175,7 +175,7 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 那刻夏在场时，使拥有至少#3[i]个不同属性弱点的敌方目标陷入【质性揭露】状态。那刻夏对处于【质性揭露】状态的目标造成的伤害提高#1[i]%，此外对其施放普攻或战技后，对该目标额外施放1次战技。额外战技不消耗战技点且不会再次触发此效果。若额外战技施放前目标被消灭则对敌方随机单体施放。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 18% | 3 | 5 |
   | Lv.2 | 19.2% | 3 | 5 |
@@ -194,9 +194,9 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
   | Lv.15 | 36% | 3 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「的目标造成的伤害提高___%，此外对其施放普」
-  - `#2[i]`回 → 参数2：上下文「个随机属性弱点，持续___回合，优先添加目标」
-  - `#3[i]`个 → 参数3：上下文「夏在场时，使拥有至少___个不同属性弱点的敌」
+  - `#1[i]`% → Param 1 (%): 上下文「的目标造成的伤害提高___%，此外对其施放普」
+  - `#2[i]`回 → Param 2: 上下文「个随机属性弱点，持续___回合，优先添加目标」
+  - `#3[i]`个 → Param 3: 上下文「夏在场时，使拥有至少___个不同属性弱点的敌」
 
 - **Max Effect**：Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for 3 turn(s), with priority to the Weakness Type that the target doesn't already possess.
 While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enemy targets that have at least 5 different Types of Weaknesses. Anaxa deals 36% increased DMG to targets afflicted with the "Qualitative Disclosure" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.
@@ -208,13 +208,13 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 - **Effect Template**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for #1[i] second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1 | 参数2 |
+| Level | Param 1 | Param 2 |
   |---|---|---|
   | Lv.1 | 10 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「刻夏的方向逃跑，持续___秒。我方主动攻击陷」
-  - `#2[i]`回 → 参数2：上下文「击者属性的弱点，持续___回合。」
+  - `#1[i]`秒 → Param 1: 上下文「刻夏的方向逃跑，持续___秒。我方主动攻击陷」
+  - `#2[i]`回 → Param 2: 上下文「击者属性的弱点，持续___回合。」
 
 - **Max Effect**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for 10 second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for 3 turn(s).
 

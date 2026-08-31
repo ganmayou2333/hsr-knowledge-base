@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的雷属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于开拓者___%攻击力的雷属性伤」
 
 - **Max Effect**：Deals Lightning DMG equal to 140% of Trailblazer's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Lightning DMG equal to #1[i]% of the Trailblazer's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 30% | 20 |
   | Lv.2 | 33% | 20 |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 75% | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于开拓者___%攻击力的雷属性伤」
-  - `#2[i]`点 → 参数2：上下文「力的雷属性伤害，获得___点【好活当赏】。」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于开拓者___%攻击力的雷属性伤」
+  - `#2[i]`点 → Param 2: 上下文「力的雷属性伤害，获得___点【好活当赏】。」
 
 - **Max Effect**：Deals Lightning DMG equal to 75% of the Trailblazer's ATK to all enemies and gains 20 point(s) of "Certified Banger."
 
@@ -139,7 +139,7 @@ If the target does not have Elation Skill, their action advances by #3[i]%.
 若目标不拥有欢愉技，使其行动提前#3[i]%。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 30% | 3 | 50% | 10 | 20 | 5 |
   | Lv.2 | 32% | 3 | 50% | 10 | 20 | 5 |
@@ -158,12 +158,12 @@ If the target does not have Elation Skill, their action advances by #3[i]%.
   | Lv.15 | 60% | 3 | 50% | 10 | 20 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「我方单体暴击伤害提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合，并解除该目标」
-  - `#3[i]`% → 参数3(%)：上下文「欢愉技，使其行动提前___%。」
-  - `#4[i]`点 → 参数4：上下文「欢愉技，目标额外获得___点【好活当赏】，并」
-  - `#5[i]`笑 → 参数5：上下文「立即施放1次固定计入___笑点的欢愉技，若欢」
-  - `#6[i]`个 → 参数6：上下文「获得___个笑点，使指定我方」
+  - `#1[i]`% → Param 1 (%): 上下文「我方单体暴击伤害提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合，并解除该目标」
+  - `#3[i]`% → Param 3 (%): 上下文「欢愉技，使其行动提前___%。」
+  - `#4[i]`点 → Param 4: 上下文「欢愉技，目标额外获得___点【好活当赏】，并」
+  - `#5[i]`笑 → Param 5: 上下文「立即施放1次固定计入___笑点的欢愉技，若欢」
+  - `#6[i]`个 → Param 6: 上下文「获得___个笑点，使指定我方」
 
 - **Max Effect**：Gains 5 Punchline point(s). Increases the CRIT DMG of one designated ally by 60% for 3 turn(s), and dispels Crowd Control debuffs on them.
 If the target has Elation Skill, they additionally gain 10 point(s) of "Certified Banger" and immediately use their Elation Skill 1 time, taking into account a fixed amount of 20 Punchline point(s). If the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target.
@@ -180,7 +180,7 @@ When the Trailblazer holds "Certified Banger," their Skill additionally deals #3
 开拓者持有【好活当赏】时，战技对敌方全体额外造成#3[i]%的雷属性欢愉伤害，此伤害使用我方最高的【好活当赏】数值计算。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3(%) |
+| Level | Param 1 | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 10 | 3 | 15% |
   | Lv.2 | 10 | 3 | 16.5% |
@@ -199,9 +199,9 @@ When the Trailblazer holds "Certified Banger," their Skill additionally deals #3
   | Lv.15 | 10 | 3 | 37.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「施放攻击后，固定恢复___点能量并获得#2[」
-  - `#2[i]`个 → 参数2：上下文「1[i]点能量并获得___个笑点。 开拓者持」
-  - `#3[i]`% → 参数3(%)：上下文「技对敌方全体额外造成___%的雷属性欢愉伤害」
+  - `#1[i]`点 → Param 1: 上下文「施放攻击后，固定恢复___点能量并获得#2[」
+  - `#2[i]`个 → Param 2: 上下文「1[i]点能量并获得___个笑点。 开拓者持」
+  - `#3[i]`% → Param 3 (%): 上下文「技对敌方全体额外造成___%的雷属性欢愉伤害」
 
 - **Max Effect**：After using an attack, regenerates a fixed amount of 10 Energy and gains 3 Punchline point(s).
 When the Trailblazer holds "Certified Banger," their Skill additionally deals 37.5% Lightning Elation DMG to all enemies. This DMG is calculated using the highest "Certified Banger" value among all allies.
@@ -219,16 +219,16 @@ When the next battle begins, increases all allies' Elation stat by the correspon
 下一次战斗开始时，使我方全体提高对应数值的欢愉度，持续#5[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 30% | 10% | 20% | 10% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「怀大笑】：欢愉度提高___%。 大概率获得【」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`% → 参数3(%)：上下文「俊不禁】：欢愉度提高___%。 下一次战斗开」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`回 → 参数5：上下文「应数值的欢愉度，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「怀大笑】：欢愉度提高___%。 大概率获得【」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`% → Param 3 (%): 上下文「俊不禁】：欢愉度提高___%。 下一次战斗开」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`回 → Param 5: 上下文「应数值的欢愉度，持续___回合。」
 
 - **Max Effect**：After using Technique, randomly gains 1 of the following effects:
 A low chance to gain "Hearty Laughter": Increases Elation by 30%.

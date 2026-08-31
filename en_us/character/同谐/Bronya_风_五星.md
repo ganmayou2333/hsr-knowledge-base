@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Bronya's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「体造成等同于布洛妮娅___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于布洛妮娅___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 140% of Bronya's ATK to one designated enemy.
 
@@ -105,7 +105,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 When this Skill is used on Bronya herself, she cannot immediately take action again.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 33% | 0 | 1 | 1 |
   | Lv.2 | 36.3% | 0 | 1 | 1 |
@@ -124,10 +124,10 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
   | Lv.15 | 82.5% | 0 | 1 | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「行动，造成的伤害提高___%，持续#3[i]」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「高#1[i]%，持续___回合。 当对自身施」
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「行动，造成的伤害提高___%，持续#3[i]」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「高#1[i]%，持续___回合。 当对自身施」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 82.5% for 1 turn(s).
 When this Skill is used on Bronya herself, she cannot immediately take action again.
@@ -139,7 +139,7 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 - **Effect Template**：Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for #4[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 33% | 12% | 12% | 2 |
   | Lv.2 | 35.2% | 12.4% | 12.8% | 2 |
@@ -158,10 +158,10 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
   | Lv.15 | 66% | 18% | 24% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「使我方全体攻击力提高___%，同时提高等同于」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`回 → 参数4：上下文「]%的暴击伤害，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「使我方全体攻击力提高___%，同时提高等同于」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「]%的暴击伤害，持续___回合。」
 
 - **Max Effect**：Increases the ATK of all allies by 66%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for 2 turn(s).
 
@@ -172,7 +172,7 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 - **Effect Template**：After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 15% |
   | Lv.2 | 16.5% |
@@ -191,7 +191,7 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
   | Lv.15 | 37.5% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「妮娅的下一次行动提前___%。」
+  - `#1[i]`% → Param 1 (%): 上下文「妮娅的下一次行动提前___%。」
 
 - **Max Effect**：After using her Basic ATK, Bronya's next action will be Advanced Forward by 37.5%.
 
@@ -202,13 +202,13 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 - **Effect Template**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「使我方全体攻击力提高___%，持续#2[i]」
-  - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「使我方全体攻击力提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
 
 - **Max Effect**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).
 

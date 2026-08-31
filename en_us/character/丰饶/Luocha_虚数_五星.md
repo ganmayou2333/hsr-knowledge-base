@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Luocha's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于罗刹___%攻击力的虚数属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于罗刹___%攻击力的虚数属性」
 
 - **Max Effect**：Deals Imaginary DMG equal to 140% of Luocha's ATK to one designated enemy.
 
@@ -106,7 +106,7 @@ When any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to 
 当我方任意单体当前生命值百分比小于等于#3[i]%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在#4[i]回合后可再次触发。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 40% | 200 | 50% | 2 |
   | Lv.2 | 42.5% | 320 | 50% | 2 |
@@ -125,10 +125,10 @@ When any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to 
   | Lv.15 | 70% | 1025 | 50% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体回复等同于罗刹___%攻击力+#2[i」
-  - `#2[i]`的 → 参数2：上下文「#1[i]%攻击力+___的生命值，并使罗刹」
-  - `#3[i]`% → 参数3(%)：上下文「生命值百分比小于等于___%时，罗刹会立即对」
-  - `#4[i]`回 → 参数4：上下文「消耗战技点。该效果在___回合后可再次触发。」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体回复等同于罗刹___%攻击力+#2[i」
+  - `#2[i]`的 → Param 2: 上下文「#1[i]%攻击力+___的生命值，并使罗刹」
+  - `#3[i]`% → Param 3 (%): 上下文「生命值百分比小于等于___%时，罗刹会立即对」
+  - `#4[i]`回 → Param 4: 上下文「消耗战技点。该效果在___回合后可再次触发。」
 
 - **Max Effect**：After using his Skill, Luocha immediately restores the target ally's HP equal to 70% of Luocha's ATK plus 1025. Meanwhile, Luocha gains 1 stack of Abyss Flower.
 When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).
@@ -140,7 +140,7 @@ When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luo
 - **Effect Template**：Removes #2[i] buff(s) from all enemies and deals all enemies Imaginary DMG equal to #1[i]% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 120% | 1 |
   | Lv.2 | 128% | 1 |
@@ -159,8 +159,8 @@ When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luo
   | Lv.15 | 240% | 1 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于罗刹___%攻击力的虚数属性」
-  - `#2[i]`个 → 参数2：上下文「解除敌方全体___个增益效果，并对敌」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于罗刹___%攻击力的虚数属性」
+  - `#2[i]`个 → Param 2: 上下文「解除敌方全体___个增益效果，并对敌」
 
 - **Max Effect**：Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
 
@@ -175,7 +175,7 @@ The Zone's effect lasts for #3[i] turns. When Luocha is knocked down, the Zone w
 结界效果持续#3[i]回合。当罗刹陷入无法战斗状态时，结界也会被解除。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 12% | 2 | 60 |
   | Lv.2 | 2 | 12.75% | 2 | 96 |
@@ -194,10 +194,10 @@ The Zone's effect lasts for #3[i] turns. When Luocha is knocked down, the Zone w
   | Lv.15 | 2 | 21% | 2 | 307.5 |
 
 - **Parameter Notes**：
-  - `#1[i]`层 → 参数1：上下文「当【白花之刻】达到___层时，罗刹会消耗全」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - `#3[i]`回 → 参数3：上下文「命值。 结界效果持续___回合。当罗刹陷入无」
-  - `#4[i]`的 → 参数4：上下文「2[f1]%攻击力+___的生命值。 结界效」
+  - `#1[i]`层 → Param 1: 上下文「当【白花之刻】达到___层时，罗刹会消耗全」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「命值。 结界效果持续___回合。当罗刹陷入无」
+  - `#4[i]`的 → Param 4: 上下文「2[f1]%攻击力+___的生命值。 结界效」
 
 - **Max Effect**：When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Zone against the enemy.
 When any enemy in the Zone is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to #2[f1]% of Luocha's ATK plus 307.5.

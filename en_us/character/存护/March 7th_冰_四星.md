@@ -78,7 +78,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Ice DMG equal to #1[i]% of March 7th's ATK to one enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -92,7 +92,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于三月七___%攻击力的冰属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于三月七___%攻击力的冰属性伤」
 
 - **Max Effect**：Deals Ice DMG equal to 140% of March 7th's ATK to one enemy.
 
@@ -105,7 +105,7 @@ If the ally's current HP percentage is #3[i]% or higher, greatly increases the c
 若该目标当前生命值百分比大于等于#3[i]%，被敌方攻击的概率大幅提高。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 38% | 3 | 30% | 190 | 5 |
   | Lv.2 | 40.37% | 3 | 30% | 304 | 5 |
@@ -124,11 +124,11 @@ If the ally's current HP percentage is #3[i]% or higher, greatly increases the c
   | Lv.15 | 66.5% | 3 | 30% | 973.75 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「能够抵消等同于三月七___%防御力+#4[i」
-  - `#2[i]`回 → 参数2：上下文「i]伤害的护盾，持续___回合。 若该目标当」
-  - `#3[i]`% → 参数3(%)：上下文「生命值百分比大于等于___%，被敌方攻击的概」
-  - `#4[i]`伤 → 参数4：上下文「#1[i]%防御力+___伤害的护盾，持续#」
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「能够抵消等同于三月七___%防御力+#4[i」
+  - `#2[i]`回 → Param 2: 上下文「i]伤害的护盾，持续___回合。 若该目标当」
+  - `#3[i]`% → Param 3 (%): 上下文「生命值百分比大于等于___%，被敌方攻击的概」
+  - `#4[i]`伤 → Param 4: 上下文「#1[i]%防御力+___伤害的护盾，持续#」
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Provides a single ally with a Shield that can absorb DMG equal to 66.5% of March 7th's DEF plus 973.75 for 3 turn(s).
 If the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.
@@ -142,7 +142,7 @@ While Frozen, enemies cannot take action and will receive Ice Additional DMG equ
 冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七#4[i]%攻击力的冰属性附加伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 90% | 50% | 1 | 30% |
   | Lv.2 | 96% | 50% | 1 | 33% |
@@ -161,10 +161,10 @@ While Frozen, enemies cannot take action and will receive Ice Additional DMG equ
   | Lv.15 | 180% | 50% | 1 | 75% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于三月七___%攻击力的冰属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「受到攻击的敌方目标有___%基础概率陷入冻结」
-  - `#3[i]`回 → 参数3：上下文「率陷入冻结状态，持续___回合。 冻结状态下」
-  - `#4[i]`% → 参数4(%)：上下文「始时受到等同于三月七___%攻击力的冰属性附」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于三月七___%攻击力的冰属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「受到攻击的敌方目标有___%基础概率陷入冻结」
+  - `#3[i]`回 → Param 3: 上下文「率陷入冻结状态，持续___回合。 冻结状态下」
+  - `#4[i]`% → Param 4 (%): 上下文「始时受到等同于三月七___%攻击力的冰属性附」
 
 - **Max Effect**：Deals Ice DMG equal to 180% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s).
 While Frozen, enemies cannot take action and will receive Ice Additional DMG equal to 75% of March 7th's ATK at the beginning of each turn.
@@ -176,7 +176,7 @@ While Frozen, enemies cannot take action and will receive Ice Additional DMG equ
 - **Effect Template**：After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to #1[i]% of her ATK. This effect can be triggered #2[i] time(s) each turn.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
   | Lv.2 | 55% | 2 |
@@ -195,8 +195,8 @@ While Frozen, enemies cannot take action and will receive Ice Additional DMG equ
   | Lv.15 | 125% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「对其造成等同于三月七___%攻击力的冰属性伤」
-  - `#2[i]`次 → 参数2：上下文「，该效果每回合可触发___次。」
+  - `#1[i]`% → Param 1 (%): 上下文「对其造成等同于三月七___%攻击力的冰属性伤」
+  - `#2[i]`次 → Param 2: 上下文「，该效果每回合可触发___次。」
 
 - **Max Effect**：After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 125% of her ATK. This effect can be triggered 2 time(s) each turn.
 
@@ -209,14 +209,14 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
 冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七#3[i]%攻击力的冰属性附加伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 100% | 1 | 50% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「击敌人，进入战斗后有___%的基础概率使随机」
-  - `#2[i]`回 → 参数2：上下文「体陷入冻结状态，持续___回合。 冻结状态下」
-  - `#3[i]`% → 参数3(%)：上下文「始时受到等同于三月七___%攻击力的冰属性附」
+  - `#1[i]`% → Param 1 (%): 上下文「击敌人，进入战斗后有___%的基础概率使随机」
+  - `#2[i]`回 → Param 2: 上下文「体陷入冻结状态，持续___回合。 冻结状态下」
+  - `#3[i]`% → Param 3 (%): 上下文「始时受到等同于三月七___%攻击力的冰属性附」
 
 - **Max Effect**：Immediately attacks the enemy. After entering battle, there is a 100% base chance to Freeze a random enemy for 1 turn(s).
 While Frozen, the enemy cannot take action and will take Ice Additional DMG equal to 50% of March 7th's ATK at the beginning of each turn.

@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于桑博___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于桑博___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 140% of Sampo's ATK to one designated enemy.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #2[i]% of Sampo's ATK to one designated enemy, and further deals DMG for #1[i] extra time(s), with each time dealing Wind DMG equal to #2[i]% of Sampo's ATK to a random enemy.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) |
+| Level | Param 1 | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 4 | 28% |
   | Lv.2 | 4 | 30.8% |
@@ -123,8 +123,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 4 | 70% |
 
 - **Parameter Notes**：
-  - `#1[i]`次 → 参数1：上下文「属性伤害，并额外造成___次伤害，每次伤害对」
-  - `#2[i]`% → 参数2(%)：上下文「机单体造成等同于桑博___%攻击力的风属性伤」
+  - `#1[i]`次 → Param 1: 上下文「属性伤害，并额外造成___次伤害，每次伤害对」
+  - `#2[i]`% → Param 2 (%): 上下文「机单体造成等同于桑博___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 70% of Sampo's ATK to one designated enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 70% of Sampo's ATK to a random enemy.
 
@@ -135,7 +135,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to all enemies, with a #4[i]% base chance to increase the targets' DoT taken by #2[i]% for #3[i] turn(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 96% | 20% | 2 | 100% |
   | Lv.2 | 102.4% | 21% | 2 | 100% |
@@ -154,10 +154,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 192% | 35% | 2 | 100% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于桑博___%攻击力的风属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「标受到的持续伤害提高___%，持续#3[i]」
-  - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。」
-  - `#4[i]`% → 参数4(%)：上下文「的风属性伤害，同时有___%的基础概率使被攻」
+  - `#1[i]`% → Param 1 (%): 上下文「方全体造成等同于桑博___%攻击力的风属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「标受到的持续伤害提高___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「高#2[i]%，持续___回合。」
+  - `#4[i]`% → Param 4 (%): 上下文「的风属性伤害，同时有___%的基础概率使被攻」
 
 - **Max Effect**：Deals Wind DMG equal to 192% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 35% for 2 turn(s).
 
@@ -170,7 +170,7 @@ Enemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's 
 风化状态下，敌方目标每回合开始时受到等同于桑博#2[i]%攻击力的风属性持续伤害。风化状态最多叠加#4[i]层。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 65% | 20% | 3 | 5 |
   | Lv.2 | 65% | 22% | 3 | 5 |
@@ -189,10 +189,10 @@ Enemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's 
   | Lv.15 | 65% | 65% | 3 | 5 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「桑博击中敌方目标后有___%的基础概率使目标」
-  - `#2[i]`% → 参数2(%)：上下文「开始时受到等同于桑博___%攻击力的风属性持」
-  - `#3[i]`回 → 参数3：上下文「标陷入风化状态，持续___回合。 风化状态下」
-  - `#4[i]`层 → 参数4：上下文「害。风化状态最多叠加___层。」
+  - `#1[i]`% → Param 1 (%): 上下文「桑博击中敌方目标后有___%的基础概率使目标」
+  - `#2[i]`% → Param 2 (%): 上下文「开始时受到等同于桑博___%攻击力的风属性持」
+  - `#3[i]`回 → Param 3: 上下文「标陷入风化状态，持续___回合。 风化状态下」
+  - `#4[i]`层 → Param 4: 上下文「害。风化状态最多叠加___层。」
 
 - **Max Effect**：Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s).
 Enemies inflicted with Wind Shear will take Wind DoT equal to 65% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).
@@ -206,14 +206,14 @@ When initiating combat against a Blinded enemy, there is a #2[i]% fixed chance t
 若主动攻击陷入目盲状态的敌人，进入战斗时有#2[i]%固定概率使敌方每个单体目标行动延后#3[i]%。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 10 | 100% | 25% |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的目盲状态，目盲」
-  - `#2[i]`% → 参数2(%)：上下文「的敌人，进入战斗时有___%固定概率使敌方每」
-  - `#3[i]`% → 参数3(%)：上下文「每个单体目标行动延后___%。」
+  - `#1[i]`秒 → Param 1: 上下文「一定区域内的敌人陷入___秒的目盲状态，目盲」
+  - `#2[i]`% → Param 2 (%): 上下文「的敌人，进入战斗时有___%固定概率使敌方每」
+  - `#3[i]`% → Param 3 (%): 上下文「每个单体目标行动延后___%。」
 
 - **Max Effect**：After Sampo uses his Technique, enemies in a set area are afflicted with Blind for 10 second(s). Blinded enemies cannot detect ally targets.
 When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%.

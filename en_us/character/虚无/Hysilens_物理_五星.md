@@ -81,7 +81,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Hysilens's ATK to one designated enemy.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 |
+| Level | Param 1 (%) | Param 2 | Param 3 |
   |---|---|---|---|
   | Lv.1 | 50% | 1 | 3 |
   | Lv.2 | 60% | 1 | 3 |
@@ -95,9 +95,9 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% | 1 | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「单体造成等同于海瑟音___%攻击力的物理属性」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于海瑟音___%攻击力的物理属性」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Hysilens's ATK to one designated enemy.
 
@@ -108,7 +108,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Has a #2[i]% base chance to increase the DMG taken by all enemies by #3[i]%, lasting for #4[i] turn(s). At the same time, deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 70% | 100% | 10% | 3 |
   | Lv.2 | 77% | 100% | 11% | 3 |
@@ -127,10 +127,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 175% | 100% | 25% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于海瑟音___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「有___%的基础概率使敌方」
-  - `#3[i]`% → 参数3(%)：上下文「方全体受到的伤害提高___%，持续#4[i]」
-  - `#4[i]`回 → 参数4：上下文「高#3[i]%，持续___回合，同时对敌方全」
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于海瑟音___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「有___%的基础概率使敌方」
+  - `#3[i]`% → Param 3 (%): 上下文「方全体受到的伤害提高___%，持续#4[i]」
+  - `#4[i]`回 → Param 4: 上下文「高#3[i]%，持续___回合，同时对敌方全」
 
 - **Max Effect**：Has a 100% base chance to increase the DMG taken by all enemies by 25%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 175% of Hysilens's ATK to all enemies.
 
@@ -145,7 +145,7 @@ The Zone lasts for #2[i] turn(s) and this duration decreases by 1 at the start o
 结界持续#2[i]回合，自身每回合开始时结界持续回合数减1。当海瑟音陷入无法战斗状态时，结界也会被解除。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 120% | 3 | 15% | 32% | 8 | 15% |
   | Lv.2 | 128% | 3 | 16% | 37.28% | 8 | 15% |
@@ -164,12 +164,12 @@ The Zone lasts for #2[i] turn(s) and this duration decreases by 1 at the start o
   | Lv.15 | 240% | 3 | 30% | 1 | 8 | 15% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「全体造成等同于海瑟音___%攻击力的物理属性」
-  - `#2[i]`回 → 参数2：上下文「发此效果。 结界持续___回合，自身每回合开」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`次 → 参数5：上下文「击后触发，且最多触发___次。该伤害不会重复」
-  - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
+  - `#1[i]`% → Param 1 (%): 上下文「全体造成等同于海瑟音___%攻击力的物理属性」
+  - `#2[i]`回 → Param 2: 上下文「发此效果。 结界持续___回合，自身每回合开」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`次 → Param 5: 上下文「击后触发，且最多触发___次。该伤害不会重复」
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
 
 - **Max Effect**：Hysilens deploys a Zone that reduces enemy targets' ATK by #6[f1]% and DEF by #3[f1]%, and deals Physical DMG equal to 240% of Hysilens's ATK to all enemies.
 For every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to #4[f1]% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.
@@ -187,7 +187,7 @@ While in the Bleed state, at the start of each turn, the enemy target takes Phys
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过海瑟音攻击力的#4[f1]%，持续#5[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 | Param 5 |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 10% | 20% | 10% | 2 |
   | Lv.2 | 100% | 11.65% | 20% | 11.65% | 2 |
@@ -206,11 +206,11 @@ While in the Bleed state, at the start of each turn, the enemy target takes Phys
   | Lv.15 | 100% | 31.25% | 20% | 31.25% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「目标攻击时，海瑟音有___%的基础概率使被击」
-  - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
-  - `#5[i]`回 → 参数5：上下文「#4[f1]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「目标攻击时，海瑟音有___%的基础概率使被击」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`回 → Param 5: 上下文「#4[f1]%，持续___回合。」
 
 - **Max Effect**：When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.
 While in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to #2[f1]% of Hysilens's ATK for 2 turn(s).
@@ -227,14 +227,14 @@ After entering combat with "Soulstruck" enemies, there is a #2[i]% base chance t
 与处于【醉心】状态下的敌人进入战斗后，有#2[i]%的基础概率使敌方每个单体目标陷入与海瑟音天赋效果相同的风化/裂伤/灼烧/触电其中#3[i]种状态。我方制造的领域效果最多存在1个。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 20 | 100% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「秘技后，制造一个持续___秒并自动向前移动的」
-  - `#2[i]`% → 参数2(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
-  - `#3[i]`种 → 参数3：上下文「裂伤/灼烧/触电其中___种状态。我方制造的」
+  - `#1[i]`秒 → Param 1: 上下文「秘技后，制造一个持续___秒并自动向前移动的」
+  - `#2[i]`% → Param 2 (%): 上下文「的敌人进入战斗后，有___%的基础概率使敌方」
+  - `#3[i]`种 → Param 3: 上下文「裂伤/灼烧/触电其中___种状态。我方制造的」
 
 - **Max Effect**：After using Technique, creates a Special Dimension that lasts for 20 seconds and automatically moves forward. Enemies within the Special Dimension enter the "Soulstruck" state. "Soulstruck" enemies will not attack ally targets and will follow the dimension while it persists.
 After entering combat with "Soulstruck" enemies, there is a 100% base chance to inflict each enemy target with 2 of the following states: Wind Shear/Bleed/Burn/Shock, all of which are equivalent to those provided by Hysilens's Talent effect. Only 1 Dimension Effect created by allies can exist at the same time.

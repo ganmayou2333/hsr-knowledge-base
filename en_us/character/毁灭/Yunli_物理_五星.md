@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于云璃___%攻击力的物理属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于云璃___%攻击力的物理属性」
 
 - **Max Effect**：Deals Physical DMG equal to 140% of Yunli's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Restores HP equal to #3[f1]% of Yunli's ATK plus #4[i]. Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 60% | 30% | 20% | 50 |
   | Lv.2 | 66% | 33% | 21.25% | 80 |
@@ -123,10 +123,10 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 150% | 75% | 35% | 256.25 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于云璃___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于云璃___%攻击力的物理属性」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`的 → 参数4：上下文「3[f1]%攻击力+___的生命值，并对指定」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于云璃___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于云璃___%攻击力的物理属性」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`的 → Param 4: 上下文「3[f1]%攻击力+___的生命值，并对指定」
 
 - **Max Effect**：Restores HP equal to #3[f1]% of Yunli's ATK plus 256.25. Deals Physical DMG equal to 150% of Yunli's ATK to one designated enemy target and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.
 
@@ -142,7 +142,7 @@ When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
 【勘破•灭】：对目标造成等同于云璃#1[i]%攻击力的物理属性伤害，对其相邻目标造成等同于云璃#6[i]%攻击力的物理属性伤害，随后额外造成#4[i]次伤害，每次伤害对随机敌方单体造成等同于云璃#7[i]%攻击力的物理伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7(%) | 参数8 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 | Param 5 | Param 6 (%) | Param 7 (%) | Param 8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 132% | 60% | 0 | 6 | 0 | 66% | 43.2% | 120 |
   | Lv.2 | 140.8% | 64% | 0 | 6 | 0 | 70.4% | 46.08% | 120 |
@@ -161,14 +161,14 @@ When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
   | Lv.15 | 264% | 120% | 0 | 6 | 0 | 132% | 86.4% | 120 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「对目标造成等同于云璃___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「击造成的暴击伤害提高___%。触发天赋的反击」
-  - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
-  - `#4[i]`次 → 参数4：上下文「性伤害，随后额外造成___次伤害，每次伤害对」
-  - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
-  - `#6[i]`% → 参数6(%)：上下文「邻目标造成等同于云璃___%攻击力的物理属性」
-  - `#7[i]`% → 参数7(%)：上下文「方单体造成等同于云璃___%攻击力的物理伤害」
-  - `#8[i]`点 → 参数8：上下文「消耗___点能量，云璃获得【」
+  - `#1[i]`% → Param 1 (%): 上下文「对目标造成等同于云璃___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「击造成的暴击伤害提高___%。触发天赋的反击」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`次 → Param 4: 上下文「性伤害，随后额外造成___次伤害，每次伤害对」
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#6[i]`% → Param 6 (%): 上下文「邻目标造成等同于云璃___%攻击力的物理属性」
+  - `#7[i]`% → Param 7 (%): 上下文「方单体造成等同于云璃___%攻击力的物理伤害」
+  - `#8[i]`点 → Param 8: 上下文「消耗___点能量，云璃获得【」
 
 - **Max Effect**：Consumes 120 Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by 120%. When triggering the Counter effect from Talent, launches the Counter "Intuit: Cull" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter "Intuit: Slash" on a random enemy target.
 "Intuit: Slash": Deals Physical DMG equal to 264% of Yunli's ATK to the target, and deals Physical DMG equal to 132% of Yunli's ATK to adjacent targets.
@@ -183,7 +183,7 @@ When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
 If there is no immediate target to Counter, then Counters a random enemy target instead.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 60% | 30% | 15 |
   | Lv.2 | 66% | 33% | 15 |
@@ -202,9 +202,9 @@ If there is no immediate target to Counter, then Counters a random enemy target 
   | Lv.15 | 150% | 75% | 15 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「，对其造成等同于云璃___%攻击力的物理属性」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于云璃___%攻击力的物理属性」
-  - `#3[i]`点 → 参数3：上下文「目标攻击后，额外恢复___点能量，并立即向攻」
+  - `#1[i]`% → Param 1 (%): 上下文「，对其造成等同于云璃___%攻击力的物理属性」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于云璃___%攻击力的物理属性」
+  - `#3[i]`点 → Param 3: 上下文「目标攻击后，额外恢复___点能量，并立即向攻」
 
 - **Max Effect**：When Yunli gets attacked by an enemy target, additionally regenerates 15 Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to 150% of Yunli's ATK to the attacker and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.
 If there is no immediate target to Counter, then Counters a random enemy target instead.
@@ -216,13 +216,13 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 - **Effect Template**：This unit gains the Ward effect, lasting for #2[i] seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by #1[i]%.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 |
+| Level | Param 1 (%) | Param 2 |
   |---|---|---|
   | Lv.1 | 80% | 20 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「次攻击造成的伤害提高___%。」
-  - `#2[i]`秒 → 参数2：上下文「得【招架】效果，持续___秒，期间攻击敌人或」
+  - `#1[i]`% → Param 1 (%): 上下文「次攻击造成的伤害提高___%。」
+  - `#2[i]`秒 → Param 2: 上下文「得【招架】效果，持续___秒，期间攻击敌人或」
 
 - **Max Effect**：This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by 80%.
 

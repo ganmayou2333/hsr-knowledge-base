@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 50% |
   | Lv.2 | 60% |
@@ -93,7 +93,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 140% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于飞霄___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于飞霄___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 140% of Feixiao's ATK to one designated enemy target.
 
@@ -104,7 +104,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
 
 - **Level Table**：
-| Level | 参数1(%) |
+| Level | Param 1 (%) |
   |---|---|
   | Lv.1 | 100% |
   | Lv.2 | 110% |
@@ -123,7 +123,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.15 | 250% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于飞霄___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于飞霄___%攻击力的风属性伤」
 
 - **Max Effect**：Deals Wind DMG equal to 250% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
 
@@ -138,7 +138,7 @@ Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy #3[i] time(s). Deal
 其中，飞霄先对该目标发动【闪裂刃舞】或【钺贯天冲】，总计#3[i]次。最后对该目标造成等同于飞霄#1[i]%攻击力的风属性伤害。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 (%) |
   |---|---|---|---|---|
   | Lv.1 | 96% | 100% | 6 | 402% |
   | Lv.2 | 102.4% | 100% | 6 | 431.8% |
@@ -157,10 +157,10 @@ Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy #3[i] time(s). Deal
   | Lv.15 | 192% | 100% | 6 | 849% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于飞霄___%攻击力的风属性伤」
-  - `#2[i]`% → 参数2(%)：上下文「霄的弱点击破效率提高___%。 其中，飞霄先」
-  - `#3[i]`次 → 参数3：上下文「或【钺贯天冲】，总计___次。最后对该目标造」
-  - `#4[i]`% → 参数4(%)：上下文「体造成最多等同于飞霄___%攻击力的风属性伤」
+  - `#1[i]`% → Param 1 (%): 上下文「该目标造成等同于飞霄___%攻击力的风属性伤」
+  - `#2[i]`% → Param 2 (%): 上下文「霄的弱点击破效率提高___%。 其中，飞霄先」
+  - `#3[i]`次 → Param 3: 上下文「或【钺贯天冲】，总计___次。最后对该目标造」
+  - `#4[i]`% → Param 4 (%): 上下文「体造成最多等同于飞霄___%攻击力的风属性伤」
 
 - **Max Effect**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
 Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy 6 time(s). Deals Wind DMG at the end.
@@ -176,7 +176,7 @@ After Feixiao's teammates attack an Enemy target, Feixiao immediately launches F
 当飞霄的队友对敌方目标施放攻击后，飞霄立即对主目标发动追加攻击，造成等同于飞霄#1[i]%攻击力的风属性伤害。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次，飞霄回合开始时重置可触发次数。发动此攻击时使自身造成的伤害提高#5[i]%，持续#6[i]回合。
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5(%) | 参数6 |
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 | Param 5 (%) | Param 6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 55% | 2 | 6 | 12 | 30% | 2 |
   | Lv.2 | 60.5% | 2 | 6 | 12 | 33% | 2 |
@@ -195,12 +195,12 @@ After Feixiao's teammates attack an Enemy target, Feixiao immediately launches F
   | Lv.15 | 137.5% | 2 | 6 | 12 | 75% | 2 |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「攻击，造成等同于飞霄___%攻击力的风属性伤」
-  - `#2[i]`次 → 参数2：上下文「]点。我方目标每施放___次攻击，飞霄获得1」
-  - `#3[i]`点 → 参数3：上下文「【飞黄】达到___点时可激活终结技，」
-  - `#4[i]`点 → 参数4：上下文「激活终结技，最多累计___点。我方目标每施放」
-  - `#5[i]`% → 参数5(%)：上下文「使自身造成的伤害提高___%，持续#6[i]」
-  - `#6[i]`回 → 参数6：上下文「高#5[i]%，持续___回合。」
+  - `#1[i]`% → Param 1 (%): 上下文「攻击，造成等同于飞霄___%攻击力的风属性伤」
+  - `#2[i]`次 → Param 2: 上下文「]点。我方目标每施放___次攻击，飞霄获得1」
+  - `#3[i]`点 → Param 3: 上下文「【飞黄】达到___点时可激活终结技，」
+  - `#4[i]`点 → Param 4: 上下文「激活终结技，最多累计___点。我方目标每施放」
+  - `#5[i]`% → Param 5 (%): 上下文「使自身造成的伤害提高___%，持续#6[i]」
+  - `#6[i]`回 → Param 6: 上下文「高#5[i]%，持续___回合。」
 
 - **Max Effect**：Can activate Ultimate when "Flying Aureus" reaches 6 points, accumulating up to 12 points. Feixiao gains 1 point of "Flying Aureus" for every 2 attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.
 After Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to 137.5% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by 75%, lasting for 2 turn(s).
@@ -216,17 +216,17 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 【陷锋】状态下主动攻击会使所有牵引的敌人进入战斗。进入战斗后，每个波次开始时对敌方全体造成等同于飞霄#3[i]%攻击力的风属性伤害，该伤害必定造成暴击。若牵引了超过1个敌人，每超过1个敌人，该伤害的倍率提高#5[i]%，最多提高至#6[i]%。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 | Param 5 (%) | Param 6 (%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 20 | 50% | 200% | 1 | 100% | 1000% |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的【陷锋】状态。」
-  - `#2[i]`% → 参数2(%)：上下文「并且自身移动速度提高___%，进入战斗后获得」
-  - `#3[i]`% → 参数3(%)：上下文「方全体造成等同于飞霄___%攻击力的风属性伤」
-  - `#4[i]`点 → 参数4：上下文「]%，进入战斗后获得___点【飞黄】。 【陷」
-  - `#5[i]`% → 参数5(%)：上下文「人，该伤害的倍率提高___%，最多提高至#6」
-  - `#6[i]`% → 参数6(%)：上下文「[i]%，最多提高至___%。」
+  - `#1[i]`秒 → Param 1: 上下文「使用秘技后进入持续___秒的【陷锋】状态。」
+  - `#2[i]`% → Param 2 (%): 上下文「并且自身移动速度提高___%，进入战斗后获得」
+  - `#3[i]`% → Param 3 (%): 上下文「方全体造成等同于飞霄___%攻击力的风属性伤」
+  - `#4[i]`点 → Param 4: 上下文「]%，进入战斗后获得___点【飞黄】。 【陷」
+  - `#5[i]`% → Param 5 (%): 上下文「人，该伤害的倍率提高___%，最多提高至#6」
+  - `#6[i]`% → Param 6 (%): 上下文「[i]%，最多提高至___%。」
 
 - **Max Effect**：After using Technique, enters the "Onrush" state, lasting for 20 seconds. While in "Onrush," pulls in enemies within a certain range, and increases this unit's movement speed by 50%. After entering battle, gains 1 point(s) of "Flying Aureus."
 While in "Onrush," actively attacking will start battle with all pulled enemies. After entering battle, deals Wind DMG equal to 200% of Feixiao's ATK to all enemies at the start of each wave. This DMG is guaranteed to CRIT. If more than 1 enemy is pulled in, increases the multiplier of this DMG by 100% for each additional enemy pulled in, up to a maximum of 1000%.

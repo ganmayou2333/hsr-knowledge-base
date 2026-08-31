@@ -79,7 +79,7 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
 - **Effect Template**：Deals Quantum DMG equal to #1[i]% of Jade's ATK to one designated enemy target, and Quantum DMG equal to #2[i]% of Jade's ATK to adjacent enemies.
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2(%) |
+| Level | Param 1 (%) | Param 2 (%) |
   |---|---|---|
   | Lv.1 | 45% | 15% |
   | Lv.2 | 54% | 18% |
@@ -93,8 +93,8 @@ Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→1
   | Lv.10 | 126% | 42% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于翡翠___%攻击力的量子属性」
-  - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于翡翠___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于翡翠___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「邻目标造成等同于翡翠___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 126% of Jade's ATK to one designated enemy target, and Quantum DMG equal to 42% of Jade's ATK to adjacent enemies.
 
@@ -109,7 +109,7 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
 【收债人】施放攻击后，对每个击中的敌方目标造成1次等同于翡翠#3[i]%攻击力的量子属性附加伤害，并消耗【收债人】生命上限#2[i]%的生命值，若当前生命值不足，当前生命值降至1点。
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 |
   |---|---|---|---|---|
   | Lv.1 | 30 | 2% | 15% | 3 |
   | Lv.2 | 30 | 2% | 16% | 3 |
@@ -128,10 +128,10 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
   | Lv.15 | 30 | 2% | 30% | 3 |
 
 - **Parameter Notes**：
-  - `#1[i]`点 → 参数1：上下文「债人】，使其速度提高___点，持续#4[i]」
-  - `#2[i]`% → 参数2(%)：上下文「耗【收债人】生命上限___%的生命值，若当前」
-  - `#3[i]`% → 参数3(%)：上下文「标造成1次等同于翡翠___%攻击力的量子属性」
-  - `#4[i]`回 → 参数4：上下文「高#1[i]点，持续___回合。 【收债人】」
+  - `#1[i]`点 → Param 1: 上下文「债人】，使其速度提高___点，持续#4[i]」
+  - `#2[i]`% → Param 2 (%): 上下文「耗【收债人】生命上限___%的生命值，若当前」
+  - `#3[i]`% → Param 3 (%): 上下文「标造成1次等同于翡翠___%攻击力的量子属性」
+  - `#4[i]`回 → Param 4: 上下文「高#1[i]点，持续___回合。 【收债人】」
 
 - **Max Effect**：Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s).
 After the Debt Collector attacks, deals 1 instance of Quantum Additional DMG equal to 30% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to 2% of their Max HP. If the current HP is insufficient, reduces HP to 1.
@@ -145,7 +145,7 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
 - **Effect Template**：Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by #1[i]%. This enhancement can take effect #2[i] time(s).
 
 - **Level Table**：
-| Level | 参数1(%) | 参数2 | 参数3(%) |
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
   |---|---|---|---|
   | Lv.1 | 40% | 2 | 120% |
   | Lv.2 | 44% | 2 | 132% |
@@ -164,9 +164,9 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
   | Lv.15 | 100% | 2 | 300% |
 
 - **Parameter Notes**：
-  - `#1[i]`% → 参数1(%)：上下文「击造成的伤害倍率提高___%。强化效果可生效」
-  - `#2[i]`次 → 参数2：上下文「]%。强化效果可生效___次。」
-  - `#3[i]`% → 参数3(%)：上下文「方全体造成等同于翡翠___%攻击力的量子属性」
+  - `#1[i]`% → Param 1 (%): 上下文「击造成的伤害倍率提高___%。强化效果可生效」
+  - `#2[i]`次 → Param 2: 上下文「]%。强化效果可生效___次。」
+  - `#3[i]`% → Param 3 (%): 上下文「方全体造成等同于翡翠___%攻击力的量子属性」
 
 - **Max Effect**：Deals Quantum DMG equal to 300% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by 100%. This enhancement can take effect 2 time(s).
 
@@ -181,7 +181,7 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains #4[i] stack(s)
 翡翠发动天赋的追加攻击时立即获得#4[i]层【当品】，每层【当品】使暴击伤害提高#1[f1]%，最多叠加#2[i]层。
 
 - **Level Table**：
-| Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5(%) |
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 (%) |
   |---|---|---|---|---|---|
   | Lv.1 | 1.2% | 50 | 8 | 5 | 60% |
   | Lv.2 | 1.32% | 50 | 8 | 5 | 66% |
@@ -200,11 +200,11 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains #4[i] stack(s)
   | Lv.15 | 3% | 50 | 8 | 5 | 150% |
 
 - **Parameter Notes**：
-  - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
-  - `#2[i]`层 → 参数2：上下文「[f1]%，最多叠加___层。」
-  - `#3[i]`点 → 参数3：上下文「___点后，消耗___点充能，发动1次追」
-  - `#4[i]`层 → 参数4：上下文「的追加攻击时立即获得___层【当品】，每层【」
-  - `#5[i]`% → 参数5(%)：上下文「体目标造成等同于翡翠___%攻击力的量子属性」
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`层 → Param 2: 上下文「[f1]%，最多叠加___层。」
+  - `#3[i]`点 → Param 3: 上下文「___点后，消耗___点充能，发动1次追」
+  - `#4[i]`层 → Param 4: 上下文「的追加攻击时立即获得___层【当品】，每层【」
+  - `#5[i]`% → Param 5 (%): 上下文「体目标造成等同于翡翠___%攻击力的量子属性」
 
 - **Max Effect**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG equal to 150% of Jade's ATK to all enemies. This Follow-Up ATK does not generate Charge.
 When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of "Pawned Asset," with each stack increasing CRIT DMG by #1[f1]%, stacking up to 50 times.
@@ -217,14 +217,14 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of 
 - **Effect Template**：After using the Technique, inflicts enemies within a set area with Blind Fealty for #1[i] second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to #2[i]% of Jade's ATK to all enemies, and immediately gains #3[i] stack(s) of Pawned Asset.
 
 - **Level Table**：
-| Level | 参数1 | 参数2(%) | 参数3 |
+| Level | Param 1 | Param 2 (%) | Param 3 |
   |---|---|---|---|
   | Lv.1 | 10 | 50% | 15 |
 
 - **Parameter Notes**：
-  - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒【盲从】。【盲从」
-  - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于翡翠___%攻击力的量子属性」
-  - `#3[i]`层 → 参数3：上下文「子属性伤害，立即获得___层【当品】。」
+  - `#1[i]`秒 → Param 1: 上下文「一定区域内的敌人陷入___秒【盲从】。【盲从」
+  - `#2[i]`% → Param 2 (%): 上下文「方全体造成等同于翡翠___%攻击力的量子属性」
+  - `#3[i]`层 → Param 3: 上下文「子属性伤害，立即获得___层【当品】。」
 
 - **Max Effect**：After using the Technique, inflicts enemies within a set area with Blind Fealty for 10 second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to 50% of Jade's ATK to all enemies, and immediately gains 15 stack(s) of Pawned Asset.
 
