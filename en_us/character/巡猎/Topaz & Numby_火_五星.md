@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Deficit...
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to an enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Topaz's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to an enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Topaz's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于托帕___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Topaz's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Topaz's ATK to one designated enemy.
 
 ### Skill：Difficulty Paying?
-- **类型**：Skill
-- **简述**：Inflicts one enemy with a "Proof of Debt" state and causes it to receive increased Follow-Up ATK DMG. Numby deals Fire DMG to the target.
-- **最大等级**：15
-- **效果模板**：Inflicts one designated enemy target with a "Proof of Debt" state, increasing the Follow-Up ATK DMG it receives by #2[i]%. "Proof of Debt" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with "Proof of Debt" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with "Proof of Debt."
+- **Type**：Skill
+- **Summary**：Inflicts one enemy with a "Proof of Debt" state and causes it to receive increased Follow-Up ATK DMG. Numby deals Fire DMG to the target.
+- **Max Level**：15
+- **Effect Template**：Inflicts one designated enemy target with a "Proof of Debt" state, increasing the Follow-Up ATK DMG it receives by #2[i]%. "Proof of Debt" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with "Proof of Debt" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with "Proof of Debt."
 Numby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a Follow-Up ATK.
 使账账对该目标造成等同于托帕#1[i]%攻击力的火属性伤害。施放此战技造成伤害时，被视为发动了追加攻击。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 75% | 25% |
@@ -124,21 +124,20 @@ Numby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this S
   | Lv.14 | 180% | 60% |
   | Lv.15 | 187.5% | 62.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于托帕___%攻击力的火属性伤」
   - `#2[i]`% → 参数2(%)：上下文「到的追加攻击伤害提高___%。【负债证明】仅」
 
-- **满级效果**：Inflicts one designated enemy target with a "Proof of Debt" state, increasing the Follow-Up ATK DMG it receives by 62.5%. "Proof of Debt" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with "Proof of Debt" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with "Proof of Debt."
+- **Max Effect**：Inflicts one designated enemy target with a "Proof of Debt" state, increasing the Follow-Up ATK DMG it receives by 62.5%. "Proof of Debt" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with "Proof of Debt" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with "Proof of Debt."
 Numby deals Fire DMG equal to 187.5% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a Follow-Up ATK.
-使账账对该目标造成等同于托帕187.5%攻击力的火属性伤害。施放此战技造成伤害时，被视为发动了追加攻击。
 
 ### Ultimate：Turn a Profit!
-- **类型**：Ultimate
-- **简述**：Numby enters the Windfall Bonanza! state and increases its DMG multiplier and CRIT DMG.
-- **最大等级**：15
-- **效果模板**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by #1[i]% and CRIT DMG increases by #2[i]%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by #3[i]%. Numby exits the Windfall Bonanza! state after using #4[i] attacks.
+- **Type**：Ultimate
+- **Summary**：Numby enters the Windfall Bonanza! state and increases its DMG multiplier and CRIT DMG.
+- **Max Level**：15
+- **Effect Template**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by #1[i]% and CRIT DMG increases by #2[i]%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by #3[i]%. Numby exits the Windfall Bonanza! state after using #4[i] attacks.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 75% | 12.5% | 50% | 2 |
@@ -157,27 +156,26 @@ Numby deals Fire DMG equal to 187.5% of Topaz's ATK to this target. Using this S
   | Lv.14 | 180% | 30% | 50% | 2 |
   | Lv.15 | 187.5% | 31.25% | 50% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「】状态，伤害倍率提高___%，暴击伤害提高#」
   - `#2[i]`% → 参数2(%)：上下文「i]%，暴击伤害提高___%，且当陷入【负债」
   - `#3[i]`% → 参数3(%)：上下文「攻击时，账账行动提前___%。账账施放#4[」
   - `#4[i]`次 → 参数4：上下文「3[i]%。账账施放___次攻击后退出【涨幅」
 
-- **满级效果**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 187.5% and CRIT DMG increases by 31.25%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by 50%. Numby exits the Windfall Bonanza! state after using 2 attacks.
+- **Max Effect**：Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 187.5% and CRIT DMG increases by 31.25%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by 50%. Numby exits the Windfall Bonanza! state after using 2 attacks.
 
 ### Talent：Trotter Market!?
-- **类型**：Talent
-- **简述**：At the start of the battle, summons Numby. When Numby takes action, it launches Follow-Up ATK on a target afflicted with "Proof of Debt", dealing Fire DMG.
+- **Type**：Talent
+- **Summary**：At the start of the battle, summons Numby. When Numby takes action, it launches Follow-Up ATK on a target afflicted with "Proof of Debt", dealing Fire DMG.
 When an enemy afflicted with "Proof of Debt" receives Follow-Up ATK, Numby's action advances.
 陷入【负债证明】的敌人受到追加攻击时账账行动提前。
-- **最大等级**：15
-- **效果模板**：Summons Numby at the start of battle. Numby has #1[i] SPD by default. When taking action, Numby launches Follow-Up ATKs on one enemy target afflicted with "Proof of Debt," dealing Fire DMG equal to #2[i]% of Topaz's ATK.
+- **Max Level**：15
+- **Effect Template**：Summons Numby at the start of battle. Numby has #1[i] SPD by default. When taking action, Numby launches Follow-Up ATKs on one enemy target afflicted with "Proof of Debt," dealing Fire DMG equal to #2[i]% of Topaz's ATK.
 When enemies afflicted with "Proof of Debt" receive an ally's Follow-Up ATKs, Numby's action is Advanced Forward by #3[i]%. The action Advance Forward effect cannot be triggered during Numby's own turn.
 When Topaz is downed, Numby disappears.
 陷入【负债证明】状态下的敌方目标受到我方的追加攻击时，账账行动提前#3[i]%。在账账自身回合内，无法触发行动提前效果。
-当托帕陷入无法战斗状态时账账消失。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 80 | 75% | 50% |
@@ -196,45 +194,39 @@ When Topaz is downed, Numby disappears.
   | Lv.14 | 80 | 180% | 50% |
   | Lv.15 | 80 | 187.5% | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「唤账账。账账初始拥有___点速度，行动时发动」
   - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于托帕___%攻击力的火属性伤」
   - `#3[i]`% → 参数3(%)：上下文「攻击时，账账行动提前___%。在账账自身回合」
 
-- **满级效果**：Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches Follow-Up ATKs on one enemy target afflicted with "Proof of Debt," dealing Fire DMG equal to 187.5% of Topaz's ATK.
+- **Max Effect**：Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches Follow-Up ATKs on one enemy target afflicted with "Proof of Debt," dealing Fire DMG equal to 187.5% of Topaz's ATK.
 When enemies afflicted with "Proof of Debt" receive an ally's Follow-Up ATKs, Numby's action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby's own turn.
 When Topaz is downed, Numby disappears.
-陷入【负债证明】状态下的敌方目标受到我方的追加攻击时，账账行动提前50%。在账账自身回合内，无法触发行动提前效果。
-当托帕陷入无法战斗状态时账账消失。
 
 ### Technique：Explicit Subsidy
-- **类型**：Technique
-- **简述**：Summons Numby to tag along in a map. Numby will automatically search for Basic Treasures and Trotters nearby. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.
-- **最大等级**：1
-- **效果模板**：Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.
+- **Type**：Technique
+- **Summary**：Summons Numby to tag along in a map. Numby will automatically search for Basic Treasures and Trotters nearby. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.
+- **Max Level**：1
+- **Effect Template**：Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.
 Using her Technique will regenerate #1[i] Energy for Topaz after Numby's first attack in the next battle.
 If Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of #2[i] bonus credits can be received per calendar day.
 After using her Technique and defeating enemies in Simulated Universe or Divergent Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.
 主动施放秘技使下一场战斗中账账施放首次攻击后，托帕恢复#1[i]点能量。
 主动施放秘技与大地图内的敌人战斗胜利后，若托帕仍在队伍中，则在获取信用点时额外获取少量信用点，每个地球日内最多额外获取#2[i]点。
-主动施放秘技与模拟宇宙、差分宇宙内的敌人战斗胜利后，额外获取少量宇宙碎片并有小概率获得1个随机奇物。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 60 | 10000 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「首次攻击后，托帕恢复___点能量。 主动施放」
   - `#2[i]`点 → 参数2：上下文「地球日内最多额外获取___点。 主动施放秘技」
 
-- **满级效果**：Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.
+- **Max Effect**：Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.
 Using her Technique will regenerate 60 Energy for Topaz after Numby's first attack in the next battle.
 If Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of 10000 bonus credits can be received per calendar day.
 After using her Technique and defeating enemies in Simulated Universe or Divergent Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.
-主动施放秘技使下一场战斗中账账施放首次攻击后，托帕恢复60点能量。
-主动施放秘技与大地图内的敌人战斗胜利后，若托帕仍在队伍中，则在获取信用点时额外获取少量信用点，每个地球日内最多额外获取10000点。
-主动施放秘技与模拟宇宙、差分宇宙内的敌人战斗胜利后，额外获取少量宇宙碎片并有小概率获得1个随机奇物。
 
 ## Trace Bonuses
 
@@ -295,31 +287,31 @@ After using her Technique and defeating enemies in Simulated Universe or Diverge
 
 ### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：一个一个来
-- **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：One At A Time
+- **Effect**：Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★
-- **技能名**：美梦
-- **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Behind the Kindness
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Natasha's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Natasha's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于娜塔莎___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Natasha's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Natasha's ATK to one designated enemy.
 
 ### Skill：Love, Heal, and Choose
-- **类型**：Skill
-- **简述**：Restores HP for a single ally and provides Healing Over Time to them.
-- **最大等级**：15
-- **效果模板**：Restores a single ally for #1[f1]% of Natasha's Max HP plus #4[i]. Restores the ally for another #2[f1]% of Natasha's Max HP plus #5[i] at the beginning of each turn for #3[i] turn(s).
+- **Type**：Skill
+- **Summary**：Restores HP for a single ally and provides Healing Over Time to them.
+- **Max Level**：15
+- **Effect Template**：Restores a single ally for #1[f1]% of Natasha's Max HP plus #4[i]. Restores the ally for another #2[f1]% of Natasha's Max HP plus #5[i] at the beginning of each turn for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 7% | 4.8% | 2 | 70 | 48 |
@@ -122,22 +122,22 @@
   | Lv.14 | 11.9% | 8.16% | 2 | 343 | 235.2 |
   | Lv.15 | 12.25% | 8.4% | 2 | 358.75 | 246 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`回 → 参数3：上下文「[i]的生命值，持续___回合。」
   - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值，同时目标」
   - `#5[i]`的 → 参数5：上下文「[f1]%生命上限+___的生命值，持续#3」
 
-- **满级效果**：Restores a single ally for #1[f1]% of Natasha's Max HP plus 358.75. Restores the ally for another #2[f1]% of Natasha's Max HP plus 246 at the beginning of each turn for 2 turn(s).
+- **Max Effect**：Restores a single ally for #1[f1]% of Natasha's Max HP plus 358.75. Restores the ally for another #2[f1]% of Natasha's Max HP plus 246 at the beginning of each turn for 2 turn(s).
 
 ### Ultimate：Gift of Rebirth
-- **类型**：Ultimate
-- **简述**：Restores HP for all allies.
-- **最大等级**：15
-- **效果模板**：Heals all allies for #1[f1]% of Natasha's Max HP plus #2[i].
+- **Type**：Ultimate
+- **Summary**：Restores HP for all allies.
+- **Max Level**：15
+- **Effect Template**：Heals all allies for #1[f1]% of Natasha's Max HP plus #2[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 9.2% | 92 |
@@ -156,19 +156,19 @@
   | Lv.14 | 15.64% | 450.8 |
   | Lv.15 | 16.1% | 471.5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值。」
 
-- **满级效果**：Heals all allies for #1[f1]% of Natasha's Max HP plus 471.5.
+- **Max Effect**：Heals all allies for #1[f1]% of Natasha's Max HP plus 471.5.
 
 ### Talent：Innervation
-- **类型**：Talent
-- **简述**：When healing allies with low HP percentage, increases Outgoing Healing. This effect also works on continuous healing.
-- **最大等级**：15
-- **效果模板**：When healing allies with HP percentage at #1[i]% or lower, increases Natasha's Outgoing Healing by #2[i]%. This effect also works on continuous healing.
+- **Type**：Talent
+- **Summary**：When healing allies with low HP percentage, increases Outgoing Healing. This effect also works on continuous healing.
+- **Max Level**：15
+- **Effect Template**：When healing allies with HP percentage at #1[i]% or lower, increases Natasha's Outgoing Healing by #2[i]%. This effect also works on continuous healing.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 30% | 25% |
@@ -187,34 +187,33 @@
   | Lv.14 | 30% | 60% |
   | Lv.15 | 30% | 62.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「生命值百分比小于等于___%的我方目标提供治」
   - `#2[i]`% → 参数2(%)：上下文「，娜塔莎的治疗量提高___%，该效果对持续治」
 
-- **满级效果**：When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 62.5%. This effect also works on continuous healing.
+- **Max Effect**：When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 62.5%. This effect also works on continuous healing.
 
 ### Technique：Hypnosis Research
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Weaken to all enemy targets.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering battle, deals Physical DMG equal to #4[i]% of Natasha's ATK to a random enemy, with a #1[i]% base chance to Weaken all enemies.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Weaken to all enemy targets.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering battle, deals Physical DMG equal to #4[i]% of Natasha's ATK to a random enemy, with a #1[i]% base chance to Weaken all enemies.
 While Weakened, enemies deal #2[i]% less DMG to allies for #3[i] turn(s).
 虚弱状态下的敌方目标对我方造成的伤害降低#2[i]%，持续#3[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 30% | 1 | 80% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的物理属性伤害，并有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「对我方造成的伤害降低___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
   - `#4[i]`% → 参数4(%)：上下文「单体造成等同于娜塔莎___%攻击力的物理属性」
 
-- **满级效果**：Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies.
+- **Max Effect**：Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies.
 While Weakened, enemies deal 30% less DMG to allies for 1 turn(s).
-虚弱状态下的敌方目标对我方造成的伤害降低30%，持续1回合。
 
 ## Trace Bonuses
 
@@ -275,38 +274,38 @@ While Weakened, enemies deal 30% less DMG to allies for 1 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
 
-- **基础属性**：生1270 攻476 防463
-- **推荐度**：★★★★★
-- **技能名**：日有四时
-- **效果**：使装备者生命上限提高【18%/21%/24%/27%/30%】，治疗量提高【12%/14%/16%/18%/20%】。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的【36%/42%/48%/54%/60%】，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
+- **Base Stats**：HP1270 ATK476 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Morn, Noon, Dusk, and Night
+- **Effect**：Increases the wearer's Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.
 
 ### [[zh_cn/lightcone/丰饶/嘿，我在这儿.md|Hey, Over Here]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★★
-- **技能名**：不怕不怕啦
-- **效果**：使装备者的生命上限提高【8%/9%/10%/11%/12%】。当装备者施放战技时，治疗量提高【16%/19%/22%/25%/28%】，持续2回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：I'm Not Afraid!
+- **Effect**：Increases the wearer's Max HP by 8%. When the wearer uses their Skill, increases Outgoing Healing by 16%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/同一种心情.md|Shared Feeling]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：救治与维修
-- **效果**：使装备者的治疗量提高【10%/12%/15%/17%/20%】，并在施放战技时为我方全体恢复【2.0/2.5/3.0/3.5/4.0】点能量。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cure and Repair
+- **Effect**：Increases the wearer's Outgoing Healing by 10%. When using Skill, regenerates #2[f1] Energy for all allies.
 
 ### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：折射的视线
-- **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Refraction of Sightline
+- **Effect**：Increases the wearer's Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.
 
 ### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：互相治愈
-- **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Mutual Healing
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Trilateral Wiltcross
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Acheron's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Acheron's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于黄泉___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 140% of Acheron's ATK to one designated enemy target.
+- **Max Effect**：Deals Lightning DMG equal to 140% of Acheron's ATK to one designated enemy target.
 
 ### Skill：Octobolt Flash
-- **类型**：Skill
-- **简述**：Gains 1 point(s) of Slashed Dream. Inflicts 1 stack(s) of Crimson Knot on one enemy, dealing Lightning DMG to this target, as well as minor Lightning DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Gains #3[i] point(s) of "Slashed Dream." Inflicts #3[i] stack(s) of "Crimson Knot" on one designated enemy target, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to this target, as well as Lightning DMG equal to #2[i]% of Acheron's ATK to adjacent targets.
+- **Type**：Skill
+- **Summary**：Gains 1 point(s) of Slashed Dream. Inflicts 1 stack(s) of Crimson Knot on one enemy, dealing Lightning DMG to this target, as well as minor Lightning DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Gains #3[i] point(s) of "Slashed Dream." Inflicts #3[i] stack(s) of "Crimson Knot" on one designated enemy target, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to this target, as well as Lightning DMG equal to #2[i]% of Acheron's ATK to adjacent targets.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 80% | 30% | 1 |
@@ -122,26 +122,25 @@
   | Lv.14 | 192% | 72% | 1 |
   | Lv.15 | 200% | 75% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「，对其造成等同于黄泉___%攻击力的雷属性伤」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于黄泉___%攻击力的雷属性伤」
   - `#3[i]`层 → 参数3：上下文「，为指定敌方单体附上___层【集真赤】，对其」
 
-- **满级效果**：Gains 1 point(s) of "Slashed Dream." Inflicts 1 stack(s) of "Crimson Knot" on one designated enemy target, dealing Lightning DMG equal to 200% of Acheron's ATK to this target, as well as Lightning DMG equal to 75% of Acheron's ATK to adjacent targets.
+- **Max Effect**：Gains 1 point(s) of "Slashed Dream." Inflicts 1 stack(s) of "Crimson Knot" on one designated enemy target, dealing Lightning DMG equal to 200% of Acheron's ATK to this target, as well as Lightning DMG equal to 75% of Acheron's ATK to adjacent targets.
 
 ### Ultimate：Slashed Dream Cries in Red
-- **类型**：Ultimate
-- **简述**：Deals 3 hits of minor Lightning DMG to one enemy. If "Crimson Knot" is removed from the target, then deals minor Lightning DMG to all enemies. Finally, deals 1 hit of Lightning DMG to all enemies and removes all "Crimson Knots."
-- **最大等级**：15
-- **效果模板**：Sequentially unleash "Rainblade" 3 times and "Stygian Resurge" 1 time, dealing Lightning DMG up to #6[i]% of Acheron's ATK to one designated enemy target, as well as Lightning DMG up to #7[i]% of Acheron's ATK to other targets.
+- **Type**：Ultimate
+- **Summary**：Deals 3 hits of minor Lightning DMG to one enemy. If "Crimson Knot" is removed from the target, then deals minor Lightning DMG to all enemies. Finally, deals 1 hit of Lightning DMG to all enemies and removes all "Crimson Knots."
+- **Max Level**：15
+- **Effect Template**：Sequentially unleash "Rainblade" 3 times and "Stygian Resurge" 1 time, dealing Lightning DMG up to #6[i]% of Acheron's ATK to one designated enemy target, as well as Lightning DMG up to #7[i]% of Acheron's ATK to other targets.
 "Rainblade": Deals Lightning DMG equal to #1[f1]% of Acheron's ATK to one designated enemy target and removes up to 3 stacks of "Crimson Knot" from the target. When "Crimson Knot" is removed, immediately deals Lightning DMG equal to #2[f1]% of Acheron's ATK to all enemies. For every stack of "Crimson Knot" removed, this DMG Multiplier is additionally increased, up to a maximum of #5[f1]%.
 "Stygian Resurge": Deals Lightning DMG equal to #3[i]% of Acheron's ATK to all enemies and remove all "Crimson Knots."
 "Crimson Knot" cannot be applied to enemies during the Ultimate.
 【啼泽雨斩】：对指定敌方单体造成等同于黄泉攻击力#1[f1]%的雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，立即对敌方全体造成等同于黄泉#2[f1]%攻击力的雷属性伤害，每消去1层【集真赤】本次伤害倍率额外提高，最多提高至#5[f1]%。
 【黄泉返渡】：对敌方全体造成等同于黄泉#3[i]%攻击力的雷属性伤害并移除所有【集真赤】。
-终结技期间无法为敌方附上【集真赤】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6(%) | 参数7(%) |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 14.4% | 9% | 72% | 9 | 36% | 223.2% | 180% |
@@ -160,7 +159,7 @@
   | Lv.14 | 27.84% | 17.4% | 139.2% | 9 | 69.6% | 431.52% | 348% |
   | Lv.15 | 28.8% | 18% | 144% | 9 | 72% | 446.4% | 360% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「方全体造成等同于黄泉___%攻击力的雷属性伤」
@@ -169,27 +168,23 @@
   - `#6[i]`% → 参数6(%)：上下文「体最多造成等同于黄泉___%攻击力的雷属性伤」
   - `#7[i]`% → 参数7(%)：上下文「标最多造成等同于黄泉___%攻击力的雷属性伤」
 
-- **满级效果**：Sequentially unleash "Rainblade" 3 times and "Stygian Resurge" 1 time, dealing Lightning DMG up to 446.4% of Acheron's ATK to one designated enemy target, as well as Lightning DMG up to 360% of Acheron's ATK to other targets.
+- **Max Effect**：Sequentially unleash "Rainblade" 3 times and "Stygian Resurge" 1 time, dealing Lightning DMG up to 446.4% of Acheron's ATK to one designated enemy target, as well as Lightning DMG up to 360% of Acheron's ATK to other targets.
 "Rainblade": Deals Lightning DMG equal to #1[f1]% of Acheron's ATK to one designated enemy target and removes up to 3 stacks of "Crimson Knot" from the target. When "Crimson Knot" is removed, immediately deals Lightning DMG equal to #2[f1]% of Acheron's ATK to all enemies. For every stack of "Crimson Knot" removed, this DMG Multiplier is additionally increased, up to a maximum of #5[f1]%.
 "Stygian Resurge": Deals Lightning DMG equal to 144% of Acheron's ATK to all enemies and remove all "Crimson Knots."
 "Crimson Knot" cannot be applied to enemies during the Ultimate.
 【啼泽雨斩】：对指定敌方单体造成等同于黄泉攻击力#1[f1]%的雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，立即对敌方全体造成等同于黄泉#2[f1]%攻击力的雷属性伤害，每消去1层【集真赤】本次伤害倍率额外提高，最多提高至#5[f1]%。
-【黄泉返渡】：对敌方全体造成等同于黄泉144%攻击力的雷属性伤害并移除所有【集真赤】。
-终结技期间无法为敌方附上【集真赤】。
 
 ### Talent：Atop Rainleaf Hangs Oneness
-- **类型**：Talent
-- **简述**：When Slashed Dream reaches its upper limit, the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES.
+- **Type**：Talent
+- **Summary**：When Slashed Dream reaches its upper limit, the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES.
 When any unit inflicts debuffs on an enemy target while using their ability, Acheron gains Slashed Dream and inflicts Crimson Knot on an enemy target.
 任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得【残梦】并为敌方目标附上【集真赤】。
-- **最大等级**：15
-- **效果模板**：When Slashed Dream reaches #1[i] point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by #2[i]%, lasting until the end of the Ultimate.
+- **Max Level**：15
+- **Effect Template**：When Slashed Dream reaches #1[i] point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by #2[i]%, lasting until the end of the Ultimate.
 When any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on a target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once for every ability use.
 After an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.
-任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得1点【残梦】并为目标附上1层【集真赤】，若使多个目标陷入负面效果，则为其中【集真赤】最多的敌方目标附上1层【集真赤】。该效果每次施放技能最多触发1次。
-黄泉在场时，敌方目标离场或被任意单位消灭后，其持有的【集真赤】会转移至全场【集真赤】最多的敌方目标。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 9 | 10% |
@@ -208,42 +203,37 @@ After an enemy target exits the field or gets defeated by any unit while Acheron
   | Lv.14 | 9 | 24% |
   | Lv.15 | 9 | 25% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「【残梦】达到___点时可激活终结技。」
   - `#2[i]`% → 参数2(%)：上下文「方全体全属性抗性降低___%，持续至终结技结」
 
-- **满级效果**：When Slashed Dream reaches 9 point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by 25%, lasting until the end of the Ultimate.
+- **Max Effect**：When Slashed Dream reaches 9 point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by 25%, lasting until the end of the Ultimate.
 When any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on a target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once for every ability use.
 After an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.
-任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得1点【残梦】并为目标附上1层【集真赤】，若使多个目标陷入负面效果，则为其中【集真赤】最多的敌方目标附上1层【集真赤】。该效果每次施放技能最多触发1次。
-黄泉在场时，敌方目标离场或被任意单位消灭后，其持有的【集真赤】会转移至全场【集真赤】最多的敌方目标。
 
 ### Technique：Quadrivalent Ascendance
-- **类型**：Technique
-- **简述**：Attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG to all enemies and reducing Toughness regardless of Weakness Types.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG to all enemies and reducing Toughness regardless of Weakness Types.
 If attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.
 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.
 Quadrivalent Ascendance: After using the Ultimate, Acheron gains #2[i] point(s) of Slashed Dream and inflicts #2[i] stack(s) of Crimson Knot on a single random enemy.
 If attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.
 【四相断我】：施放终结技后黄泉获得#2[i]点【残梦】，并为敌方随机单体附上#2[i]层【集真赤】。
-若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 200% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于黄泉___%攻击力的雷属性伤」
   - `#2[i]`层 → 参数2：上下文「并为敌方随机单体附上___层【集真赤】。 若」
 
-- **满级效果**：Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to 200% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.
+- **Max Effect**：Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to 200% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.
 Quadrivalent Ascendance: After using the Ultimate, Acheron gains 1 point(s) of Slashed Dream and inflicts 1 stack(s) of Crimson Knot on a single random enemy.
 If attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.
-【四相断我】：施放终结技后黄泉获得1点【残梦】，并为敌方随机单体附上1层【集真赤】。
-若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
 ## Trace Bonuses
 
@@ -304,24 +294,24 @@ If attacking a normal enemy, immediately defeats them without entering combat. W
 
 ### [[zh_cn/lightcone/虚无/行于流逝的岸.md|Along the Passing Shore]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：司渡
-- **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高【24%/28%/32%/36%/40%】，终结技造成的伤害额外提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Steerer
+- **Effect**：Increases the wearer's CRIT DMG by 36%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by 24%.
 
 ### [[zh_cn/lightcone/虚无/无边曼舞.md|Boundless Choreo]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：试探
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】。装备者对处于防御降低或减速状态下的敌人造成的暴击伤害提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Scrutinize
+- **Effect**：Increase the wearer's CRIT Rate by 8%. The wearer deals 24% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.
 
 ### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★
-- **技能名**：传承者
-- **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时，装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Inheritor
+- **Effect**：Increases the wearer's DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.
 
 ## Recommended Teams
 

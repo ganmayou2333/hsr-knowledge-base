@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Percipience, Silent Dawn
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 30% | 50% | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 78% | 74% | 74% |
   | Lv.10 | 84% | 77% | 77% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于黑天鹅___%攻击力的风属性伤」
   - `#2[i]`% → 参数2(%)：上下文「击力的风属性伤害，有___%的基础概率使目标」
   - `#3[i]`% → 参数3(%)：上下文「态的目标后，分别各有___%的基础概率额外使」
 
-- **满级效果**：Deals Wind DMG equal to 84% of Black Swan's ATK to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 84% of Black Swan's ATK to one designated enemy.
 
 ### Skill：Decadence, False Twilight
-- **类型**：Skill
-- **简述**：Deals minor Wind DMG to one enemy and adjacent targets, with a high chance of lowering the targets' DEF.
-- **最大等级**：15
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a #3[i]% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for #2[i] turn(s).
+- **Type**：Skill
+- **Summary**：Deals minor Wind DMG to one enemy and adjacent targets, with a high chance of lowering the targets' DEF.
+- **Max Level**：15
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a #3[i]% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 45% | 100% | 100% | 14.8% | 3 |
@@ -124,25 +124,25 @@
   | Lv.14 | 108% | 100% | 100% | 23.2% | 3 |
   | Lv.15 | 112.5% | 100% | 100% | 23.8% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于黑天鹅___%攻击力的风属性伤」
   - `#2[i]`% → 参数2(%)：上下文「的风属性伤害，同时有___%的基础概率使目标」
   - `#3[i]`% → 参数3(%)：上下文「1层【奥迹】，此外有___%的基础概率使目标」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
   - `#5[i]`回 → 参数5：上下文「#4[f1]%，持续___回合。」
 
-- **满级效果**：Deals Wind DMG equal to 112.5% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a 100% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for 100% turn(s).
+- **Max Effect**：Deals Wind DMG equal to 112.5% of Black Swan's ATK to one designated enemy and adjacent targets. At the same time, there is a 100% base chance of reducing the DEF of the enemy target and the adjacent targets by #4[f1]%, lasting for 100% turn(s).
 
 ### Ultimate：Bliss of Otherworld's Embrace
-- **类型**：Ultimate
-- **简述**：Inflicts the "Epiphany" state on all enemies. Increases the DMG taken by targets and has a chance to increase the number of stacks applied when stacking "Arcana". Additionally, "Arcana" stacks won't be halved after dealing DMG at the start of the next turn. Deals Wind DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Inflicts "Epiphany" state on all enemies for #2[i] turn(s). Then deals Wind DMG to all enemies equal to #1[i]% of Black Swan's ATK.
+- **Type**：Ultimate
+- **Summary**：Inflicts the "Epiphany" state on all enemies. Increases the DMG taken by targets and has a chance to increase the number of stacks applied when stacking "Arcana". Additionally, "Arcana" stacks won't be halved after dealing DMG at the start of the next turn. Deals Wind DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Inflicts "Epiphany" state on all enemies for #2[i] turn(s). Then deals Wind DMG to all enemies equal to #1[i]% of Black Swan's ATK.
 While in the "Epiphany" state, enemy targets take #3[i]% increased DMG. For every 1 stack of "Arcana inflicted," there is a #4[i]% fixed chance to additionally increase the number of "Arcana" stacked this time by 1. And "Arcana" stacks won't be halved after dealing DMG at the start of the turn.
 【揭露】状态下，敌方目标自身回合内受到的伤害提高#3[i]%，且当敌方目标处于【奥迹】状态时，也会被视为同时陷入了风化、裂伤、灼烧、触电状态，并且【奥迹】每回合开始造成伤害后不会重置层数。【奥迹】不会重置层数的效果在【揭露】状态持续时间内最多触发#4[i]次，再次陷入【揭露】状态会刷新触发次数。
 对敌方全体造成等同于黑天鹅#1[i]%攻击力的风属性伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 72% | 2 | 15% | 1 |
@@ -161,31 +161,28 @@ While in the "Epiphany" state, enemy targets take #3[i]% increased DMG. For ever
   | Lv.14 | 139.2% | 2 | 29% | 1 |
   | Lv.15 | 144% | 2 | 30% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于黑天鹅___%攻击力的风属性伤」
   - `#2[i]`回 → 参数2：上下文「入【揭露】状态，持续___回合。 【揭露】状」
   - `#3[i]`% → 参数3(%)：上下文「回合内受到的伤害提高___%，且当敌方目标处」
   - `#4[i]`次 → 参数4：上下文「态持续时间内最多触发___次，再次陷入【揭露」
 
-- **满级效果**：Inflicts "Epiphany" state on all enemies for 2 turn(s). Then deals Wind DMG to all enemies equal to 144% of Black Swan's ATK.
+- **Max Effect**：Inflicts "Epiphany" state on all enemies for 2 turn(s). Then deals Wind DMG to all enemies equal to 144% of Black Swan's ATK.
 While in the "Epiphany" state, enemy targets take 30% increased DMG. For every 1 stack of "Arcana inflicted," there is a 1% fixed chance to additionally increase the number of "Arcana" stacked this time by 1. And "Arcana" stacks won't be halved after dealing DMG at the start of the turn.
-【揭露】状态下，敌方目标自身回合内受到的伤害提高30%，且当敌方目标处于【奥迹】状态时，也会被视为同时陷入了风化、裂伤、灼烧、触电状态，并且【奥迹】每回合开始造成伤害后不会重置层数。【奥迹】不会重置层数的效果在【揭露】状态持续时间内最多触发1次，再次陷入【揭露】状态会刷新触发次数。
-对敌方全体造成等同于黑天鹅144%攻击力的风属性伤害。
 
 ### Talent：Loom of Fate's Caprice
-- **类型**：Talent
-- **简述**：When an enemy target receives DoT, there's a chance for it to be inflicted with "Arcana". "Arcana" is considered as Wind Shear, Bleed, Burn, and Shock. The target receives Wind DoT in each turn. Only at the start of the enemy target's turn, additionally deals Wind DoT to adjacent targets .
+- **Type**：Talent
+- **Summary**：When an enemy target receives DoT, there's a chance for it to be inflicted with "Arcana". "Arcana" is considered as Wind Shear, Bleed, Burn, and Shock. The target receives Wind DoT in each turn. Only at the start of the enemy target's turn, additionally deals Wind DoT to adjacent targets .
 "Arcana" can continue to stack after reaching its upper limit, and the excess stacks are removed after dealing DMG.
-- **最大等级**：15
-- **效果模板**：Every time an enemy target receives 1 instance of DoT, there is a #2[i]% base chance for it to be inflicted with 1 stack of "Arcana".
+- **Max Level**：15
+- **Effect Template**：Every time an enemy target receives 1 instance of DoT, there is a #2[i]% base chance for it to be inflicted with 1 stack of "Arcana".
 While an enemy target is in the "Arcana" state, they are also considered to be simultaneously afflicted with Wind Shear, Bleed, Burn, and Shock. The target receives Wind DoT equal to #1[i]% of Black Swan's ATK at the start of each turn, after which the number of stacks is halved. Each stack of "Arcana" increases this DMG multiplier by #3[f1]%. "Arcana" can stack #8[i] times, and can continue to stack beyond this limit, with the excess stacks removed after dealing DMG.
 DMG from "Arcana" ignores #7[i]% of the target's DEF. Only when "Arcana" deals DMG at the start of the enemy target's turn, adjacent targets take 1 additional instance of Wind DoT equal to #5[i]% of Black Swan's ATK.
 【奥迹】状态下，敌方目标每回合开始时受到等同于黑天鹅#1[i]%攻击力的风属性持续伤害，每层【奥迹】使此伤害倍率提高#3[f1]%，随后重置为1层。【奥迹】最多叠加#8[i]层。
-仅在敌方目标回合开始【奥迹】造成伤害时，黑天鹅根据目标陷入的【奥迹】层数触发额外效果：
 大于等于#4[i]层：对相邻目标造成等同于黑天鹅#5[i]%攻击力的风属性持续伤害，并且有#2[i]%的基础概率使相邻目标陷入1层【奥迹】。
 大于等于#6[i]层：使本次造成的持续伤害无视该目标及其相邻目标#7[i]%的防御力。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7(%) | 参数8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 96% | 50% | 4.8% | 3 | 72% | 7 | 20% | 50 |
@@ -204,7 +201,7 @@ DMG from "Arcana" ignores #7[i]% of the target's DEF. Only when "Arcana" deals D
   | Lv.14 | 288% | 71% | 14.4% | 3 | 216% | 7 | 20% | 50 |
   | Lv.15 | 300% | 72.5% | 15% | 3 | 225% | 7 | 20% | 50 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「始时受到等同于黑天鹅___%攻击力的风属性持」
   - `#2[i]`% → 参数2(%)：上下文「属性持续伤害，并且有___%的基础概率使相邻」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -214,30 +211,27 @@ DMG from "Arcana" ignores #7[i]% of the target's DEF. Only when "Arcana" deals D
   - `#7[i]`% → 参数7(%)：上下文「视该目标及其相邻目标___%的防御力。」
   - `#8[i]`层 → 参数8：上下文「层。【奥迹】最多叠加___层。 仅在敌方目标」
 
-- **满级效果**：Every time an enemy target receives 1 instance of DoT, there is a 72.5% base chance for it to be inflicted with 1 stack of "Arcana".
+- **Max Effect**：Every time an enemy target receives 1 instance of DoT, there is a 72.5% base chance for it to be inflicted with 1 stack of "Arcana".
 While an enemy target is in the "Arcana" state, they are also considered to be simultaneously afflicted with Wind Shear, Bleed, Burn, and Shock. The target receives Wind DoT equal to 300% of Black Swan's ATK at the start of each turn, after which the number of stacks is halved. Each stack of "Arcana" increases this DMG multiplier by #3[f1]%. "Arcana" can stack 50 times, and can continue to stack beyond this limit, with the excess stacks removed after dealing DMG.
 DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG at the start of the enemy target's turn, adjacent targets take 1 additional instance of Wind DoT equal to 225% of Black Swan's ATK.
 【奥迹】状态下，敌方目标每回合开始时受到等同于黑天鹅300%攻击力的风属性持续伤害，每层【奥迹】使此伤害倍率提高#3[f1]%，随后重置为1层。【奥迹】最多叠加50层。
-仅在敌方目标回合开始【奥迹】造成伤害时，黑天鹅根据目标陷入的【奥迹】层数触发额外效果：
-大于等于3层：对相邻目标造成等同于黑天鹅225%攻击力的风属性持续伤害，并且有72.5%的基础概率使相邻目标陷入1层【奥迹】。
-大于等于7层：使本次造成的持续伤害无视该目标及其相邻目标20%的防御力。
 
 ### Technique：From Façade to Vérité
-- **类型**：Technique
-- **简述**：After Technique is used, at the start of the next battle, there is a high chance for each enemy to be inflicted with "Arcana" repeatedly until "Arcana" fails to be inflicted.
-- **最大等级**：1
-- **效果模板**：After Technique is used, there is a #1[i]% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to #2[i]% of the base chance of the previous successful infliction of "Arcana" on that target.
+- **Type**：Technique
+- **Summary**：After Technique is used, at the start of the next battle, there is a high chance for each enemy to be inflicted with "Arcana" repeatedly until "Arcana" fails to be inflicted.
+- **Max Level**：1
+- **Effect Template**：After Technique is used, there is a #1[i]% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to #2[i]% of the base chance of the previous successful infliction of "Arcana" on that target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 150% | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「，下一次战斗开始时有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「奥迹】时的基础概率的___%。」
 
-- **满级效果**：After Technique is used, there is a 150% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to 50% of the base chance of the previous successful infliction of "Arcana" on that target.
+- **Max Effect**：After Technique is used, there is a 150% base chance for each enemy to be inflicted with 1 stack of "Arcana" at the start of the next battle. For each successful application of "Arcana" on a target, inflicts another stack of "Arcana" on the same target. This process repeats until "Arcana" fails to be inflicted on this target. For each successive application of "Arcana" on a target, its base chance of success is equal to 50% of the base chance of the previous successful infliction of "Arcana" on that target.
 
 ## Trace Bonuses
 
@@ -246,7 +240,6 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 | 附加能力1 | 脏中躁动 | 晋阶2 | 施放战技攻击陷入风化、裂伤、灼烧、触电状态的指定敌方单体后，分别各有#1[i]%的基础概率额外使目标陷入1层【奥迹】。 | 施放战技攻击陷入风化、裂伤、灼烧、触电状态的指定敌方单体后，分别各有65%的基础概率额外使目标陷入1层【奥迹】。 | 信用点×5000、炽情之灵×3、蛀星孕灾的旧恶×1 |
 | 附加能力2 | 杯底端倪 | 晋阶4 | 在敌方目标进入战斗时，有#1[i]%的基础概率陷入1层【奥迹】。
 敌方目标在我方单次攻击内每受到1次持续伤害，有#1[i]%的基础概率陷入1层【奥迹】，单次攻击内最多陷入#2[i]层。 | 在敌方目标进入战斗时，有65%的基础概率陷入1层【奥迹】。
-敌方目标在我方单次攻击内每受到1次持续伤害，有65%的基础概率陷入1层【奥迹】，单次攻击内最多陷入3层。 | 信用点×20000、星火之精×5、命运的足迹×1、蛀星孕灾的旧恶×1 |
 | 附加能力3 | 烛影朕兆 | 晋阶6 | 使自身造成的伤害提高，提高数值等同于效果命中的#1[i]%，最多使造成的伤害提高#2[i]%。 | 使自身造成的伤害提高，提高数值等同于效果命中的60%，最多使造成的伤害提高72%。 | 信用点×160000、焚天之魔×8、命运的足迹×1、蛀星孕灾的旧恶×1 |
 
 ## Stat Bonuses
@@ -300,38 +293,38 @@ DMG from "Arcana" ignores 20% of the target's DEF. Only when "Arcana" deals DMG 
 
 ### [[zh_cn/lightcone/虚无/重塑时光之忆.md|Reforged Remembrance]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：结晶
-- **效果**：使装备者的效果命中提高【40%/45%/50%/55%/60%】。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加4层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高【5%/6%/7%/8%/9%】，造成的持续伤害无视目标【7.2%/7.9%/8.6%/9.3%/10.0%】的防御力。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Crystallize
+- **Effect**：Increases the wearer's Effect Hit Rate by 40%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by 5% and enables the DoT dealt to ignore #3[f1]% of the target's DEF.
 
 ### [[zh_cn/lightcone/虚无/那无数个春天.md|Those Many Springs]]
 
-- **基础属性**：生953 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：世事无痕
-- **效果**：使装备者的效果命中提高【60%/70%/80%/90%/100%】，装备者施放普攻、战技、终结技攻击敌方目标后，有60%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高【10%/12%/14%/16%/18%】，持续2回合。若目标处于装备者施加的持续伤害状态，则有60%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高【14%/16%/18%/20%/22%】，持续2回合，期间装备者无法对其施加【卸甲】。
+- **Base Stats**：HP953 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Worldly Affairs Leave No Mark
+- **Effect**：Increases the wearer's Effect Hit Rate by 60%. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a 60% base chance to inflict "Unarmored" on the target. While in the Unarmored state, the enemy target receives 10% increased DMG, lasting for 2 turn(s). If the target is under a DoT state inflicted by the wearer, there is a 60% base chance to upgrade the "Unarmored" state inflicted by the wearer to the "Cornered" state, which additionally increases the DMG the enemy target receives by 14%, lasting for 2 turn(s). During this period, the wearer cannot inflict "Unarmored" on the target.
 
 ### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：自信
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Self-Confidence
+- **Effect**：Increases the wearer's Effect Hit Rate by 20% and increases DoT by 24%.
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ### [[zh_cn/lightcone/虚无/好戏开演.md|It's Showtime]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：自娱自乐
-- **效果**：装备者对敌方目标施加负面状态后，获得一层【戏法】，每层【戏法】使装备者造成的伤害提高【6%/7%/8%/9%/10%】，最多叠加3层，持续1回合。当装备者的效果命中大于等于80%时，攻击力提高【20%/24%/28%/32%/36%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Self-Amusement
+- **Effect**：When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by 6%, stacking up to 3 time(s). This effect lasts for 1 turn(s). When the wearer's Effect Hit Rate is 80% or higher, increases ATK by 20%.
 
 ## Recommended Teams
 

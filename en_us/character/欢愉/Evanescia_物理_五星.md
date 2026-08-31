@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Syllabus: Pop Quiz
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于绯英___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.
 
 ### Skill：Discipline: Final Verdict
-- **类型**：Skill
-- **简述**：Deals massive Physical DMG to one enemy and Physical DMG to adjacent targets. Additionally gains Punchline.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #2[i]% of Evanescia's ATK to one designated enemy and Physical DMG equal to #3[i]% of Evanescia's ATK to adjacent targets. Additionally gains #4[i] Punchline.
+- **Type**：Skill
+- **Summary**：Deals massive Physical DMG to one enemy and Physical DMG to adjacent targets. Additionally gains Punchline.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #2[i]% of Evanescia's ATK to one designated enemy and Physical DMG equal to #3[i]% of Evanescia's ATK to adjacent targets. Additionally gains #4[i] Punchline.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 150% | 75% | 10 |
@@ -122,21 +122,21 @@
   | Lv.14 | 1 | 360% | 180% | 10 |
   | Lv.15 | 1 | 375% | 187.5% | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于绯英___%攻击力的物理属性」
   - `#3[i]`% → 参数3(%)：上下文「邻目标造成等同于绯英___%攻击力的物理属性」
   - `#4[i]`点 → 参数4：上下文「属性伤害，并额外获得___点笑点。」
 
-- **满级效果**：Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 187.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.
+- **Max Effect**：Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 187.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.
 
 ### Ultimate：Swordsong: Absolution Denied
-- **类型**：Ultimate
-- **简述**：Deals Physical DMG to all enemies. Then, deals Physical DMG to one random enemy, bouncing a total of 5 times.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to #3[i]% of Evanescia's ATK to one random enemy.
+- **Type**：Ultimate
+- **Summary**：Deals Physical DMG to all enemies. Then, deals Physical DMG to one random enemy, bouncing a total of 5 times.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to #3[i]% of Evanescia's ATK to one random enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 80% | 5 | 72% | 88 |
@@ -155,19 +155,19 @@
   | Lv.14 | 192% | 5 | 139.2% | 88 |
   | Lv.15 | 200% | 5 | 144% | 88 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于绯英___%攻击力的物理属性」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「机单体造成等同于绯英___%攻击力的物理属性」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.
+- **Max Effect**：Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.
 
 ### Talent：Youth: Halcyon Evermore
-- **类型**：Talent
-- **简述**：When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger". When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. After a certain amount of Energy is accumulated, "Master Fox" launches Follow-Up ATK, dealing minor Physical DMG to all enemies, and regenerates Energy for Evanescia. While Evanescia holds "Certified Banger," using Skill, Ultimate, or Master Fox's Follow-Up ATK can deal minor Physical Elation DMG to enemies.
-- **最大等级**：15
-- **效果模板**：Evanescia gains Elation equal to #5[i]% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger." When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. The amount of "Certified Banger" taken into calculation via this method cannot exceed 100 points in a single instance.
+- **Type**：Talent
+- **Summary**：When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger". When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. After a certain amount of Energy is accumulated, "Master Fox" launches Follow-Up ATK, dealing minor Physical DMG to all enemies, and regenerates Energy for Evanescia. While Evanescia holds "Certified Banger," using Skill, Ultimate, or Master Fox's Follow-Up ATK can deal minor Physical Elation DMG to enemies.
+- **Max Level**：15
+- **Effect Template**：Evanescia gains Elation equal to #5[i]% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger." When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. The amount of "Certified Banger" taken into calculation via this method cannot exceed 100 points in a single instance.
 After accumulating #3[i] Energy, she consumes this accumulation of #3[i], and "Master Fox" launches Follow-Up ATK, dealing Physical DMG equal to #1[i]% of Evanescia's ATK to all enemies, and regenerates #4[i] Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of #3[i]. While Evanescia holds "Certified Banger":
 Using Skill can deal #7[f1]% Physical Elation DMG to the attacked enemy targets.
 Using Ultimate can deal #6[i]% Physical Elation DMG to all enemies and also deals #8[i]% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of "Certified Banger" taken into account is at least equal to Max Energy.
@@ -177,7 +177,7 @@ Master Fox's Follow-Up ATK deals #2[i]% Physical Elation DMG to all enemies.
 施放终结技可对敌方全体造成#6[i]%的物理属性欢愉伤害，并对终结技随机造成伤害的敌方目标造成#8[i]%的物理属性欢愉伤害，终结技造成欢愉伤害时至少计入等同于能量上限的【好活当赏】。
 【狐狸老师】的追加攻击可对敌方全体造成#2[i]%的物理属性欢愉伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6(%) | 参数7 | 参数8(%) |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 50% | 12.5% | 240 | 10 | 20% | 12% | 8% | 14% |
@@ -196,7 +196,7 @@ Master Fox's Follow-Up ATK deals #2[i]% Physical Elation DMG to all enemies.
   | Lv.14 | 120% | 30% | 240 | 10 | 20% | 28.8% | 19.2% | 33.6% |
   | Lv.15 | 125% | 31.25% | 240 | 10 | 20% | 30% | 20% | 35% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于绯英___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「攻击可对敌方全体造成___%的物理属性欢愉伤」
   - `#3[i]`点 → 参数3：上下文「次获得能量时最多获得___点累计值。当绯英持」
@@ -206,32 +206,29 @@ Master Fox's Follow-Up ATK deals #2[i]% Physical Elation DMG to all enemies.
   - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
   - `#8[i]`% → 参数8(%)：上下文「成伤害的敌方目标造成___%的物理属性欢愉伤」
 
-- **满级效果**：Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger." When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. The amount of "Certified Banger" taken into calculation via this method cannot exceed 100 points in a single instance.
+- **Max Effect**：Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of "Certified Banger." When Evanescia gains "Certified Banger," she will simultaneously gain an equal amount of Energy. The amount of "Certified Banger" taken into calculation via this method cannot exceed 100 points in a single instance.
 After accumulating 240 Energy, she consumes this accumulation of 240, and "Master Fox" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds "Certified Banger":
 Using Skill can deal #7[f1]% Physical Elation DMG to the attacked enemy targets.
 Using Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of "Certified Banger" taken into account is at least equal to Max Energy.
 Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
-累计获得240点能量时，消耗240点累计值，【狐狸老师】发动追加攻击对敌方全体造成等同于绯英125%攻击力的物理属性伤害，为绯英恢复10点能量，单次获得能量时最多获得240点累计值。当绯英持有【好活当赏】时：
 施放战技可对受到攻击的敌方目标造成#7[f1]%的物理属性欢愉伤害。
-施放终结技可对敌方全体造成30%的物理属性欢愉伤害，并对终结技随机造成伤害的敌方目标造成35%的物理属性欢愉伤害，终结技造成欢愉伤害时至少计入等同于能量上限的【好活当赏】。
-【狐狸老师】的追加攻击可对敌方全体造成31.25%的物理属性欢愉伤害。
 
 ### Technique：Petalfall: Floral Reminiscence
-- **类型**：Technique
-- **简述**：Immediately attacks all enemies within a certain range. After entering combat, deals minor Physical DMG to all enemies and gains "Certified Banger".
-- **最大等级**：1
-- **效果模板**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
+- **Type**：Technique
+- **Summary**：Immediately attacks all enemies within a certain range. After entering combat, deals minor Physical DMG to all enemies and gains "Certified Banger".
+- **Max Level**：1
+- **Effect Template**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 100% | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于绯英___%攻击力的物理属性」
   - `#2[i]`点 → 参数2：上下文「的物理属性伤害并获得___点【好活当赏】。」
 
-- **满级效果**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of "Certified Banger."
+- **Max Effect**：Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of "Certified Banger."
 
 ## Trace Bonuses
 
@@ -292,24 +289,24 @@ Master Fox's Follow-Up ATK deals 31.25% Physical Elation DMG to all enemies.
 
 ### [[zh_cn/lightcone/欢愉/邂逅于下一个花季.md|Until the Flowers Bloom Again]]
 
-- **基础属性**：生952 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：遐想
-- **效果**：使装备者的暴击伤害提高【60%/75%/90%/105%/120%】，能量恢复效率提高【10%/11.5%/13%/14.5%/16%】。 装备者的能量上限大于120时，每超出10点能量上限额外使能量恢复效率提高0.3%，最多计入360点超出的能量上限。装备者施放欢愉技时，使敌方全体受到的伤害提高【15%/18.8%/22.5%/26.3%/30%】，持续2回合，同类效果无法叠加。
+- **Base Stats**：HP952 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Daydream
+- **Effect**：Increases the wearer's CRIT DMG by 60% and Energy Regeneration Rate by #4[f1]%. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by #6[f1]%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by #2[f1]% for 2 turn(s). Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
 
-- **基础属性**：生952 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：抉择
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
+- **Base Stats**：HP952 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Decision
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses an Elation Skill, increases Elation by 12%, stacking up to 2 times.
 
 ### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：同行
-- **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Companion
+- **Effect**：Increases the wearer's CRIT DMG by 12%. After the wearer uses their Ultimate, increases all allies' Elation by 8%, lasting for 1 turn(s).
 
 ## Recommended Teams
 

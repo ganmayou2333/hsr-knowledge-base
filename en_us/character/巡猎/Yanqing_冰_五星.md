@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Frost Thorn
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 140% of Yanqing's ATK to one designated enemy.
+- **Max Effect**：Deals Ice DMG equal to 140% of Yanqing's ATK to one designated enemy.
 
 ### Skill：Darting Ironthorn
-- **类型**：Skill
-- **简述**：Deals Ice DMG to one designated enemy and activates the "Soulsteel Sync."
-- **最大等级**：15
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
+- **Type**：Skill
+- **Summary**：Deals Ice DMG to one designated enemy and activates the "Soulsteel Sync."
+- **Max Level**：15
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 110% |
@@ -122,18 +122,18 @@
   | Lv.14 | 264% |
   | Lv.15 | 275% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 275% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
+- **Max Effect**：Deals Ice DMG equal to 275% of Yanqing's ATK to one designated enemy and activates "Soulsteel Sync" for 1 turn.
 
 ### Ultimate：Amidst the Raining Bliss
-- **类型**：Ultimate
-- **简述**：Increases Yanqing's CRIT Rate. Enhances "Soulsteel Sync" and deals massive Ice DMG to one enemy.
-- **最大等级**：15
-- **效果模板**：Increases Yanqing's CRIT Rate by #1[i]%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra #2[i]%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to #3[i]% of Yanqing's ATK to one designated enemy.
+- **Type**：Ultimate
+- **Summary**：Increases Yanqing's CRIT Rate. Enhances "Soulsteel Sync" and deals massive Ice DMG to one enemy.
+- **Max Level**：15
+- **Effect Template**：Increases Yanqing's CRIT Rate by #1[i]%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra #2[i]%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to #3[i]% of Yanqing's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 60% | 30% | 210% |
@@ -152,26 +152,25 @@
   | Lv.14 | 60% | 58% | 406% |
   | Lv.15 | 60% | 60% | 420% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「提高自身___%暴击率，若彦卿处」
   - `#2[i]`% → 参数2(%)：上下文「使其暴击伤害额外提高___%，增益效果持续1」
   - `#3[i]`% → 参数3(%)：上下文「方单体造成等同于彦卿___%攻击力的冰属性伤」
 
-- **满级效果**：Increases Yanqing's CRIT Rate by 60%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra 60%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 420% of Yanqing's ATK to one designated enemy.
+- **Max Effect**：Increases Yanqing's CRIT Rate by 60%. When "Soulsteel Sync" is active, increases Yanqing's CRIT DMG by an extra 60%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 420% of Yanqing's ATK to one designated enemy.
 
 ### Talent：One With the Sword
-- **类型**：Talent
-- **简述**：During "Soulsteel Sync", reduces the chance of this character being attacked and increases their CRIT Rate and CRIT DMG. After attacking an enemy, there is a chance of launching a Follow-Up ATK, dealing Ice DMG with a chance to Freeze the target.
+- **Type**：Talent
+- **Summary**：During "Soulsteel Sync", reduces the chance of this character being attacked and increases their CRIT Rate and CRIT DMG. After attacking an enemy, there is a chance of launching a Follow-Up ATK, dealing Ice DMG with a chance to Freeze the target.
 "Soulsteel Sync" will be removed after this character receives damage.
 自身受到伤害后，【智剑连心】消失。
-- **最大等级**：15
-- **效果模板**：When "Soulsteel Sync" is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by #2[i]%. After Yanqing attacks an enemy, there is a #3[i]% fixed chance to launch Follow-Up ATK, dealing Ice DMG equal to #4[i]% of Yanqing's ATK to the enemy, which has a #6[i]% base chance to Freeze the enemy for 1 turn.
+- **Max Level**：15
+- **Effect Template**：When "Soulsteel Sync" is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by #2[i]%. After Yanqing attacks an enemy, there is a #3[i]% fixed chance to launch Follow-Up ATK, dealing Ice DMG equal to #4[i]% of Yanqing's ATK to the enemy, which has a #6[i]% base chance to Freeze the enemy for 1 turn.
 The Frozen target cannot take action and receives Ice Additional DMG equal to #5[i]% of Yanqing's ATK at the beginning of each turn.
 When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于彦卿#5[i]%攻击力的冰属性附加伤害。
-当彦卿受到伤害后，【智剑连心】将会消失。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 15% | 15% | 50% | 25% | 25% | 65% |
@@ -190,7 +189,7 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
   | Lv.14 | 22% | 36% | 64% | 60% | 60% | 65% |
   | Lv.15 | 22.5% | 37.5% | 65% | 62.5% | 62.5% | 65% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「1[f1]%暴击率和___%暴击伤害。对敌方」
   - `#3[i]`% → 参数3(%)：上下文「方目标施放攻击后，有___%的固定概率发动追」
@@ -198,29 +197,27 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
   - `#5[i]`% → 参数5(%)：上下文「开始时受到等同于彦卿___%攻击力的冰属性附」
   - `#6[i]`% → 参数6(%)：上下文「力的冰属性伤害，并有___%的基础概率使其陷」
 
-- **满级效果**：When "Soulsteel Sync" is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by 37.5%. After Yanqing attacks an enemy, there is a 65% fixed chance to launch Follow-Up ATK, dealing Ice DMG equal to 62.5% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn.
+- **Max Effect**：When "Soulsteel Sync" is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by 37.5%. After Yanqing attacks an enemy, there is a 65% fixed chance to launch Follow-Up ATK, dealing Ice DMG equal to 62.5% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn.
 The Frozen target cannot take action and receives Ice Additional DMG equal to 62.5% of Yanqing's ATK at the beginning of each turn.
 When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
-冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于彦卿62.5%攻击力的冰属性附加伤害。
-当彦卿受到伤害后，【智剑连心】将会消失。
 
 ### Technique：The One True Sword
-- **类型**：Technique
-- **简述**：After this character uses Technique, at the start of the next battle, increases the DMG dealt by this character to enemy targets whose HP percentage is 50% or higher.
-- **最大等级**：1
-- **效果模板**：After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP percentage is #1[i]% or higher.
+- **Type**：Technique
+- **Summary**：After this character uses Technique, at the start of the next battle, increases the DMG dealt by this character to enemy targets whose HP percentage is 50% or higher.
+- **Max Level**：1
+- **Effect Template**：After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP percentage is #1[i]% or higher.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 50% | 30% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「生命值百分比大于等于___%的敌方目标造成的」
   - `#2[i]`% → 参数2(%)：上下文「方目标造成的伤害提高___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。」
 
-- **满级效果**：After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP percentage is 50% or higher.
+- **Max Effect**：After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP percentage is 50% or higher.
 
 ## Trace Bonuses
 
@@ -281,38 +278,38 @@ When Yanqing receives DMG, the "Soulsteel Sync" effect will disappear.
 
 ### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：美梦
-- **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：花与蝶
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Flowers and Butterflies
+- **Effect**：Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by 6%. At the same time, increases the CRIT DMG of Ultimate by 12%. This effect can stack up to 6 time(s).
 
 ### [[zh_cn/lightcone/巡猎/最后的赢家.md|Final Victor]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：下注
-- **效果**：使装备者的攻击力提高【12%/14%/16%/18%/20%】。当装备者对敌方目标造成暴击后获得一层【好运】，最多叠加4层。每层【好运】使装备者的暴击伤害提高【8%/9%/10%/11%/12%】，【好运】在装备者的回合结束时移除。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Wager
+- **Effect**：Increases the wearer's ATK by 12%. When the wearer lands a CRIT hit on enemies, gains 1 stack of Good Fortune. This can stack up to 4 time(s). Every stack of Good Fortune increases the wearer's CRIT DMG by 8%. Good Fortune will be removed at the end of the wearer's turn.
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：I Want to Help
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Clara's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Clara's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于克拉拉___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Clara's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Clara's ATK to one designated enemy.
 
 ### Skill：Svarog Watches Over You
-- **类型**：Skill
-- **简述**：Deals Physical DMG to all enemies. Additionally deals Physical DMG to targets with Marks of Counter.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to #2[i]% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.
+- **Type**：Skill
+- **Summary**：Deals Physical DMG to all enemies. Additionally deals Physical DMG to targets with Marks of Counter.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to #2[i]% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.
 All Marks of Counter will be removed after this Skill is used.
-战技施放后所有【反击标记】失效。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 60% | 60% |
@@ -124,23 +123,22 @@ All Marks of Counter will be removed after this Skill is used.
   | Lv.14 | 144% | 144% |
   | Lv.15 | 150% | 150% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于克拉拉___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「额外造成等同于克拉拉___%攻击力物理属性伤」
 
-- **满级效果**：Deals Physical DMG equal to 150% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 150% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.
+- **Max Effect**：Deals Physical DMG equal to 150% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 150% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.
 All Marks of Counter will be removed after this Skill is used.
-战技施放后所有【反击标记】失效。
 
 ### Ultimate：Promise, Not Command
-- **类型**：Ultimate
-- **简述**：Reduces DMG received, increases chance to be attacked by enemies, and enhances Counters.
-- **最大等级**：15
-- **效果模板**：After Clara uses Ultimate, DMG dealt to her is reduced by an extra #4[i]%, and she has greatly increased chances of being attacked by enemies for #3[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Reduces DMG received, increases chance to be attacked by enemies, and enhances Counters.
+- **Max Level**：15
+- **Effect Template**：After Clara uses Ultimate, DMG dealt to her is reduced by an extra #4[i]%, and she has greatly increased chances of being attacked by enemies for #3[i] turn(s).
 In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by #2[i]%. Enemies adjacent to it take 50% of the DMG dealt to the primary target enemy. Enhanced Counter(s) can take effect #5[i] time(s).
 同时史瓦罗的反击得到强化，当任意我方目标受到攻击后史瓦罗立即施放反击，对敌方目标造成的伤害倍率提高#2[i]%，并对其相邻目标造成相当于主目标50%的伤害。强化效果可生效#5[i]次。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 5 | 96% | 2 | 15% | 2 |
@@ -159,24 +157,23 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
   | Lv.14 | 5 | 185.6% | 2 | 29% | 2 |
   | Lv.15 | 5 | 192% | 2 | 30% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「标造成的伤害倍率提高___%，并对其相邻目标」
   - `#3[i]`回 → 参数3：上下文「的概率大幅提高，持续___回合。 同时史瓦罗」
   - `#4[i]`% → 参数4(%)：上下文「拉受到的伤害额外降低___%且被敌方目标攻击」
   - `#5[i]`次 → 参数5：上下文「伤害。强化效果可生效___次。」
 
-- **满级效果**：After Clara uses Ultimate, DMG dealt to her is reduced by an extra 30%, and she has greatly increased chances of being attacked by enemies for 2 turn(s).
+- **Max Effect**：After Clara uses Ultimate, DMG dealt to her is reduced by an extra 30%, and she has greatly increased chances of being attacked by enemies for 2 turn(s).
 In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 192%. Enemies adjacent to it take 50% of the DMG dealt to the primary target enemy. Enhanced Counter(s) can take effect 2 time(s).
-同时史瓦罗的反击得到强化，当任意我方目标受到攻击后史瓦罗立即施放反击，对敌方目标造成的伤害倍率提高192%，并对其相邻目标造成相当于主目标50%的伤害。强化效果可生效2次。
 
 ### Talent：Because We're Family
-- **类型**：Talent
-- **简述**：DMG received from enemy attacks is reduced. Enemies who attack Clara will be marked with a Mark of Counter and met with Svarog's Counter, dealing Physical DMG.
-- **最大等级**：15
-- **效果模板**：Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by #3[i]%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to #2[i]% of Clara's ATK.
+- **Type**：Talent
+- **Summary**：DMG received from enemy attacks is reduced. Enemies who attack Clara will be marked with a Mark of Counter and met with Svarog's Counter, dealing Physical DMG.
+- **Max Level**：15
+- **Effect Template**：Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by #3[i]%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to #2[i]% of Clara's ATK.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 1 | 80% | 10% |
@@ -195,29 +192,29 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
   | Lv.14 | 1 | 192% | 10% |
   | Lv.15 | 1 | 200% | 10% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「对其造成等同于克拉拉___%攻击力的物理属性」
   - `#3[i]`% → 参数3(%)：上下文「方目标攻击的伤害降低___%。攻击克拉拉的敌」
 
-- **满级效果**：Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 200% of Clara's ATK.
+- **Max Effect**：Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 200% of Clara's ATK.
 
 ### Technique：A Small Price for Victory
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, this character's chance of being attacked by enemies increases.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for #1[i] turn(s).
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, this character's chance of being attacked by enemies increases.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for #1[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 2 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「攻击的概率提高，持续___回合。」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s).
+- **Max Effect**：Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -278,38 +275,38 @@ In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog imme
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ### [[zh_cn/lightcone/毁灭/落日时起舞.md|Dance at Sunset]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：沉酣
-- **效果**：使装备者受到攻击的概率大幅提高，暴击伤害提高【36%/42%/48%/54%/60%】。当装备者施放终结技后，获得1层【火舞】，持续2回合，最多叠加2层。每层【火舞】使装备者追加攻击造成的伤害提高【36%/42%/48%/54%/60%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Deeply Engrossed
+- **Effect**：Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by 36%. After the wearer uses Ultimate, receives 1 stack of "Firedance," lasting for 2 turns and stacking up to 2 time(s). Each stack of "Firedance" increases the DMG dealt by the wearer's Follow-Up ATK by 36%.
 
 ### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|Brighter Than the Sun]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：抵死
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】最多叠加2层。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Defiant Till Death
+- **Effect**：Increases the wearer's CRIT Rate by 18%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call, lasting for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by 18% and Energy Regeneration Rate by #5[f1]%. Dragon's Call can be stacked up to 2 times.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：竭力而为
-- **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比大于等于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Spare No Effort
+- **Effect**：Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.
 
 ## Recommended Teams
 

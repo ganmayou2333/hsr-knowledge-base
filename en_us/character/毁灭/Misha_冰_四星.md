@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：E—Excuse Me, Please!
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于米沙___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 140% of Misha's ATK to one designated enemy target.
+- **Max Effect**：Deals Ice DMG equal to 140% of Misha's ATK to one designated enemy target.
 
 ### Skill：R—Room Service!
-- **类型**：Skill
-- **简述**：Deals Ice DMG to an enemy and minor Ice DMG to enemies adjacent to them. In addition, increases Misha's next Ultimate's Hits Per Action.
-- **最大等级**：15
-- **效果模板**：Increases the Hits Per Action for Misha's next Ultimate by #3[i] hit(s). Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target, and Ice DMG equal to #2[i]% of Misha's ATK to adjacent targets.
+- **Type**：Skill
+- **Summary**：Deals Ice DMG to an enemy and minor Ice DMG to enemies adjacent to them. In addition, increases Misha's next Ultimate's Hits Per Action.
+- **Max Level**：15
+- **Effect Template**：Increases the Hits Per Action for Misha's next Ultimate by #3[i] hit(s). Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target, and Ice DMG equal to #2[i]% of Misha's ATK to adjacent targets.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 100% | 40% | 1 |
@@ -122,24 +122,24 @@
   | Lv.14 | 240% | 96% | 1 |
   | Lv.15 | 250% | 100% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于米沙___%攻击力的冰属性伤」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于米沙___%攻击力的冰属性伤」
   - `#3[i]`段 → 参数3：上下文「增加___段米沙下一次终结技」
 
-- **满级效果**：Increases the Hits Per Action for Misha's next Ultimate by 1 hit(s). Deals Ice DMG equal to 250% of Misha's ATK to one designated enemy target, and Ice DMG equal to 100% of Misha's ATK to adjacent targets.
+- **Max Effect**：Increases the Hits Per Action for Misha's next Ultimate by 1 hit(s). Deals Ice DMG equal to 250% of Misha's ATK to one designated enemy target, and Ice DMG equal to 100% of Misha's ATK to adjacent targets.
 
 ### Ultimate：G—Gonna Be Late!
-- **类型**：Ultimate
-- **简述**：Deals minor Ice DMG to single enemies. The attack bounces 3 times by default and up to a maximum of 10 times. Before each hit lands, there is a minor chance to Freeze the target.
-- **最大等级**：15
-- **效果模板**：Has #1[i] Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to #2[i]% of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals Ice DMG equal to #2[i]% of Misha's ATK to one random enemy. Just before each hit lands, there is a #3[f1]% base chance to Freeze the target, lasting for 1 turn.
+- **Type**：Ultimate
+- **Summary**：Deals minor Ice DMG to single enemies. The attack bounces 3 times by default and up to a maximum of 10 times. Before each hit lands, there is a minor chance to Freeze the target.
+- **Max Level**：15
+- **Effect Template**：Has #1[i] Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to #2[i]% of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals Ice DMG equal to #2[i]% of Misha's ATK to one random enemy. Just before each hit lands, there is a #3[f1]% base chance to Freeze the target, lasting for 1 turn.
 While Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive Ice Additional DMG equal to #4[i]% of Misha's ATK.
 This Ultimate can possess up to #5[i] Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.
 冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于米沙#4[i]%攻击力的冰属性附加伤害。
 终结技最多累计#5[i]段攻击段数，施放终结技后攻击段数恢复至初始状态。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 3 | 36% | 12% | 18% | 10 |
@@ -158,26 +158,24 @@ This Ultimate can possess up to #5[i] Hits Per Action. After the Ultimate is use
   | Lv.14 | 3 | 69.6% | 23.2% | 34.8% | 10 |
   | Lv.15 | 3 | 72% | 24% | 36% | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`段 → 参数1：上下文「初始拥有___段攻击段数。首先施」
   - `#2[i]`% → 参数2(%)：上下文「机单体造成等同于米沙___%攻击力的冰属性伤」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`% → 参数4(%)：上下文「开始时受到等同于米沙___%攻击力的冰属性附」
   - `#5[i]`段 → 参数5：上下文「害。 终结技最多累计___段攻击段数，施放终」
 
-- **满级效果**：Has 3 Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to 72% of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals Ice DMG equal to 72% of Misha's ATK to one random enemy. Just before each hit lands, there is a #3[f1]% base chance to Freeze the target, lasting for 1 turn.
+- **Max Effect**：Has 3 Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to 72% of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals Ice DMG equal to 72% of Misha's ATK to one random enemy. Just before each hit lands, there is a #3[f1]% base chance to Freeze the target, lasting for 1 turn.
 While Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive Ice Additional DMG equal to 36% of Misha's ATK.
 This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.
-冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于米沙36%攻击力的冰属性附加伤害。
-终结技最多累计10段攻击段数，施放终结技后攻击段数恢复至初始状态。
 
 ### Talent：Horological Escapement
-- **类型**：Talent
-- **简述**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers more Hits Per Action, and Misha regenerates his Energy.
-- **最大等级**：15
-- **效果模板**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers #2[i] more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
+- **Type**：Talent
+- **Summary**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers more Hits Per Action, and Misha regenerates his Energy.
+- **Max Level**：15
+- **Effect Template**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers #2[i] more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 1 | 1 |
@@ -196,28 +194,28 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
   | Lv.14 | 2.4 | 1 |
   | Lv.15 | 2.5 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`段 → 参数2：上下文「消耗1个战技点，增加___段米沙下一次终结技」
 
-- **满级效果**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers 1 more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
+- **Max Effect**：For every 1 Skill Point allies consume, Misha's next Ultimate delivers 1 more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.
 
 ### Technique：Wait, You Are So Beautiful!
-- **类型**：Technique
-- **简述**：Creates a Special Dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.
-- **最大等级**：1
-- **效果模板**：After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.
+- **Max Level**：1
+- **Effect Template**：After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 15 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「秘技后，制造1片持续___秒的特殊领域。处于」
   - `#2[i]`段 → 参数2：上下文「敌人进入战斗后，增加___段米沙下一次终结技」
 
-- **满级效果**：After using the Technique, creates a Special Dimension that lasts for 15 seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by 2 hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
+- **Max Effect**：After using the Technique, creates a Special Dimension that lasts for 15 seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by 2 hit(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 ## Trace Bonuses
 
@@ -278,31 +276,31 @@ This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, 
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：奇妙冒险
-- **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Fantastic Adventure
+- **Effect**：When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12%.
 
 ### [[zh_cn/lightcone/毁灭/铭记于心的约定.md|Indelible Promise]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：传承
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。当装备者施放终结技时，暴击率提高【15%/18%/22%/26%/30%】，持续2回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Inheritance
+- **Effect**：Increases the wearer's Break Effect by 28%. When the wearer uses their Ultimate, increases CRIT Rate by 15%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★★
-- **技能名**：竭力而为
-- **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比高于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★★
+- **Skill Name**：Spare No Effort
+- **Effect**：Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Enkindle the First Lodestar
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to one enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to one enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于姬子•启行___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Himeko • Nova's ATK to one enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Himeko • Nova's ATK to one enemy.
 
 ### Skill：Upraise the Vanward Cresset
-- **类型**：Skill
-- **简述**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore." When Himeko • Nova has "Navigator's Semaphore," DMG dealt increases. At the start of every turn, immediately regains 1 Assist Skill use.
-- **最大等级**：15
-- **效果模板**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for #2[i] turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by #1[i]%. At the start of every turn, immediately recovers 1 Assist Skill use.
+- **Type**：Skill
+- **Summary**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore." When Himeko • Nova has "Navigator's Semaphore," DMG dealt increases. At the start of every turn, immediately regains 1 Assist Skill use.
+- **Max Level**：15
+- **Effect Template**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for #2[i] turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by #1[i]%. At the start of every turn, immediately recovers 1 Assist Skill use.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 10% | 3 |
@@ -122,21 +122,20 @@
   | Lv.14 | 24% | 3 |
   | Lv.15 | 25% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成的伤害提高___%，每个回合开始时」
   - `#2[i]`回 → 参数2：上下文「得【领航旗语】，持续___回合，姬子•启行每」
 
-- **满级效果**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by 25%. At the start of every turn, immediately recovers 1 Assist Skill use.
+- **Max Effect**：After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains "Navigator's Semaphore," lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has "Navigator's Semaphore," DMG dealt by all allies increases by 25%. At the start of every turn, immediately recovers 1 Assist Skill use.
 
 ### Ultimate：We, Too, Stride the Stars
-- **类型**：Ultimate
-- **简述**：Deals 0 instance(s) of DMG, each dealing Fire DMG to one random enemy.
-- **最大等级**：15
-- **效果模板**：Deals #2[i] instance(s) of DMG, each dealing Fire DMG to one random enemy.
+- **Type**：Ultimate
+- **Summary**：Deals 0 instance(s) of DMG, each dealing Fire DMG to one random enemy.
+- **Max Level**：15
+- **Effect Template**：Deals #2[i] instance(s) of DMG, each dealing Fire DMG to one random enemy.
 当【超频粒子光束】次数耗尽时，会自动发动【轨道歼灭脉冲】，随后发动最后一击，造成#6[i]次伤害，每次伤害对敌方随机单体造成等同于姬子•启行#7[i]%攻击力的火属性伤害。
-施放【超频粒子光束】或【轨道歼灭脉冲】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，会立即发动最后一击。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7(%) | 参数8 | 参数9(%) | 参数10(%) |
   |---|---|---|---|---|---|---|---|---|---|---|
   | Lv.1 | 16% | 1 | 10% | 1 | 15% | 3 | 40% | 3 | 381% | 126% |
@@ -155,7 +154,7 @@
   | Lv.14 | 38.4% | 1 | 24% | 1 | 36% | 3 | 96% | 3 | 914.4% | 302.4% |
   | Lv.15 | 40% | 1 | 25% | 1 | 37.5% | 3 | 100% | 3 | 952.5% | 315% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -167,23 +166,21 @@
   - `#9[i]`% → 参数9(%)：上下文「造成等同于姬子•启行___%攻击力的火属性伤」
   - `#10[i]`% → 参数10(%)：上下文「造成等同于姬子•启行___%攻击力的火属性伤」
 
-- **满级效果**：Deals 1 instance(s) of DMG, each dealing Fire DMG to one random enemy.
-当【超频粒子光束】次数耗尽时，会自动发动【轨道歼灭脉冲】，随后发动最后一击，造成3次伤害，每次伤害对敌方随机单体造成等同于姬子•启行100%攻击力的火属性伤害。
-施放【超频粒子光束】或【轨道歼灭脉冲】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，会立即发动最后一击。
+- **Max Effect**：Deals 1 instance(s) of DMG, each dealing Fire DMG to one random enemy.
 
 ### Talent：Of Fire and Far Faring
-- **类型**：Talent
-- **简述**：When Himeko • Nova is on the field, deploys a Territory, granting all ally characters Assist Skill. When an ally character uses Assist Skill, Himeko • Nova gains increased All-Type RES PEN and increased CRIT DMG. When attacking, ignores Weakness Types to reduce Toughness.
+- **Type**：Talent
+- **Summary**：When Himeko • Nova is on the field, deploys a Territory, granting all ally characters Assist Skill. When an ally character uses Assist Skill, Himeko • Nova gains increased All-Type RES PEN and increased CRIT DMG. When attacking, ignores Weakness Types to reduce Toughness.
 When ally characters other than Himeko • Nova use Assist Skill, regenerates Energy for them.
 除姬子•启行外的我方角色使用助战技时，会使其恢复能量。
-- **最大等级**：15
-- **效果模板**：While Himeko • Nova is on the field, immediately deploys the Territory "Starblazer Visioscape," summoning "Starblazer" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon "Starblazer" to attack enemies.
+- **Max Level**：15
+- **Effect Template**：While Himeko • Nova is on the field, immediately deploys the Territory "Starblazer Visioscape," summoning "Starblazer" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon "Starblazer" to attack enemies.
 Using Assist Skill is considered as Himeko • Nova using her Skill. Himeko • Nova gains #2[i]% increased All-Type RES PEN and #1[i]% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.
 When ally characters other than Himeko • Nova use their Assist Skill, regenerates #3[i] Energy for them.
 使用助战技视为姬子•启行施放了战技，姬子•启行获得全属性抗性穿透提高#2[i]%、暴击伤害提高#1[i]%，攻击时可无视弱点属性削减敌方韧性，击破弱点时，触发火属性的弱点击破效果。
 除姬子•启行外的我方角色使用助战技时，会使其恢复#3[i]点能量。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 40% | 10% | 4 |
@@ -202,42 +199,37 @@ When ally characters other than Himeko • Nova use their Assist Skill, regenera
   | Lv.14 | 96% | 24% | 4 |
   | Lv.15 | 100% | 25% | 4 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「i]%、暴击伤害提高___%，攻击时可无视弱」
   - `#2[i]`% → 参数2(%)：上下文「得全属性抗性穿透提高___%、暴击伤害提高#」
   - `#3[i]`点 → 参数3：上下文「助战技时，会使其恢复___点能量。」
 
-- **满级效果**：While Himeko • Nova is on the field, immediately deploys the Territory "Starblazer Visioscape," summoning "Starblazer" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon "Starblazer" to attack enemies.
+- **Max Effect**：While Himeko • Nova is on the field, immediately deploys the Territory "Starblazer Visioscape," summoning "Starblazer" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon "Starblazer" to attack enemies.
 Using Assist Skill is considered as Himeko • Nova using her Skill. Himeko • Nova gains 25% increased All-Type RES PEN and 100% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.
 When ally characters other than Himeko • Nova use their Assist Skill, regenerates 4 Energy for them.
-使用助战技视为姬子•启行施放了战技，姬子•启行获得全属性抗性穿透提高25%、暴击伤害提高100%，攻击时可无视弱点属性削减敌方韧性，击破弱点时，触发火属性的弱点击破效果。
-除姬子•启行外的我方角色使用助战技时，会使其恢复4点能量。
 
 ### Technique：Starcharter Cruise
-- **类型**：Technique
-- **简述**：Increases the max Technique Points by 3. After actively using Technique, enters the "Cruise" state and consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, uses Skill 1 time at the start of each wave.
+- **Type**：Technique
+- **Summary**：Increases the max Technique Points by 3. After actively using Technique, enters the "Cruise" state and consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, uses Skill 1 time at the start of each wave.
 If attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
-- **最大等级**：1
-- **效果模板**：When Himeko • Nova is in the team, increases the max Technique Points by 3.
+- **Max Level**：1
+- **Effect Template**：When Himeko • Nova is in the team, increases the max Technique Points by 3.
 After using Technique, enters the "Cruise" state for #1[i] seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.
 If attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
 使用秘技后进入持续#1[i]秒的【巡航】状态，主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，每个波次开始时立即施放1次战技。
-若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 30 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的【巡航】状态，」
 
-- **满级效果**：When Himeko • Nova is in the team, increases the max Technique Points by 3.
+- **Max Effect**：When Himeko • Nova is in the team, increases the max Technique Points by 3.
 After using Technique, enters the "Cruise" state for 30 seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.
 If attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
-使用秘技后进入持续30秒的【巡航】状态，主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，每个波次开始时立即施放1次战技。
-若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
 ## Trace Bonuses
 
@@ -298,24 +290,24 @@ If attacking a Normal Enemy, immediately defeats them without entering combat. N
 
 ### [[zh_cn/lightcone/智识/当一颗星照亮夜空.md|A Star That Lights the Night]]
 
-- **基础属性**：生847 攻635 防529
-- **推荐度**：★★★★★
-- **技能名**：初愿
-- **效果**：使装备者造成伤害时无视目标【32%/36%40%/44%/48%】的防御力。当装备者施放助战技时，恢复6点能量并获得【启航】，持续2回合，最多叠加3层。每层【启航】使助战技伤害提高【20%/25%/30%/35%/40%】，【启航】达到3层时，每层【启航】使终结技伤害提高【20%/25%/30%/35%/40%】。
+- **Base Stats**：HP847 ATK635 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：First Wish
+- **Effect**：The wearer ignores 32% of the target's DEF when dealing DMG. When the wearer uses Assist Skill, they regenerate 6 Energy and gain "Sail," lasting for 2 turns and stacking up to 3 time(s). Each stack of "Sail" increases Assist Skill DMG by 20%. When "Sail" reaches 3 stacks, each stack of "Sail" increases Ultimate DMG by 20%.
 
 ### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
-- **基础属性**：生953 攻635 防463
-- **推荐度**：★★★★
-- **技能名**：思维游戏
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
+- **Base Stats**：HP953 ATK635 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Mind Game
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses their Ultimate, increases the wearer's Skill DMG and Ultimate DMG dealt by 60%, lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.
 
 ### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：无界之思
-- **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Boundless Thought
+- **Effect**：Increases the wearer's ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8%, lasting for 1 turn(s).
 
 ## Recommended Teams
 

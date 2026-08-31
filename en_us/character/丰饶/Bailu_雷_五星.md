@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Diagnostic Kick
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Bailu's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Bailu's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于白露___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 140% of Bailu's ATK to one designated enemy.
+- **Max Effect**：Deals Lightning DMG equal to 140% of Bailu's ATK to one designated enemy.
 
 ### Skill：Singing Among Clouds
-- **类型**：Skill
-- **简述**：Restores HP for a single ally, then heals random allies.
-- **最大等级**：15
-- **效果模板**：Heals a single ally for #1[f1]% of Bailu's Max HP plus #2[i]. Bailu then heals random allies #4[i] time(s). After each healing, HP restored from the next healing is reduced by #3[i]%.
+- **Type**：Skill
+- **Summary**：Restores HP for a single ally, then heals random allies.
+- **Max Level**：15
+- **Effect Template**：Heals a single ally for #1[f1]% of Bailu's Max HP plus #2[i]. Bailu then heals random allies #4[i] time(s). After each healing, HP restored from the next healing is reduced by #3[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 7.8% | 78 | 15% | 2 |
@@ -122,25 +122,24 @@
   | Lv.14 | 13.26% | 382.2 | 15% | 2 |
   | Lv.15 | 13.65% | 399.75 | 15% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，然后白露」
   - `#3[i]`% → 参数3(%)：上下文「疗回复的生命值会降低___%。」
   - `#4[i]`次 → 参数4：上下文「露随机为我方单体进行___次治疗，每提供1次」
 
-- **满级效果**：Heals a single ally for #1[f1]% of Bailu's Max HP plus 399.75. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.
+- **Max Effect**：Heals a single ally for #1[f1]% of Bailu's Max HP plus 399.75. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.
 
 ### Ultimate：Felicitous Thunderleap
-- **类型**：Ultimate
-- **简述**：Restores HP for all allies, and grants them Invigoration, or prolongs the duration of their Invigoration.
-- **最大等级**：15
-- **效果模板**：Heals all allies for #1[f1]% of Bailu's Max HP plus #2[i].
+- **Type**：Ultimate
+- **Summary**：Restores HP for all allies, and grants them Invigoration, or prolongs the duration of their Invigoration.
+- **Max Level**：15
+- **Effect Template**：Heals all allies for #1[f1]% of Bailu's Max HP plus #2[i].
 Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.
 The effect of Invigoration can last for #3[i] turn(s). This effect cannot stack.
-对于没有【生息】的我方目标，白露使其附上【生息】，对于已拥有【生息】的我方目标，白露使其已有的【生息】持续时间延长1回合。
 【生息】可持续#3[i]回合，该效果不可叠加。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 9% | 90 | 2 |
@@ -159,28 +158,26 @@ The effect of Invigoration can last for #3[i] turn(s). This effect cannot stack.
   | Lv.14 | 15.3% | 441 | 2 |
   | Lv.15 | 15.75% | 461.25 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值。 对于没」
   - `#3[i]`回 → 参数3：上下文「合。 【生息】可持续___回合，该效果不可叠」
 
-- **满级效果**：Heals all allies for #1[f1]% of Bailu's Max HP plus 461.25.
+- **Max Effect**：Heals all allies for #1[f1]% of Bailu's Max HP plus 461.25.
 Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.
 The effect of Invigoration can last for 2 turn(s). This effect cannot stack.
-对于没有【生息】的我方目标，白露使其附上【生息】，对于已拥有【生息】的我方目标，白露使其已有的【生息】持续时间延长1回合。
-【生息】可持续2回合，该效果不可叠加。
 
 ### Talent：Gourdful of Elixir
-- **类型**：Talent
-- **简述**：When an ally target with Invigoration is attacked, restores HP for the ally.
+- **Type**：Talent
+- **Summary**：When an ally target with Invigoration is attacked, restores HP for the ally.
 When a teammate suffers a killing blow, Bailu immediately restores their HP. This effect can only trigger 1 time per battle.
 当队友受到致命攻击时，白露立即为其回复生命值。该效果单场战斗中可以触发1次。
-- **最大等级**：15
-- **效果模板**：After an ally target with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).
+- **Max Level**：15
+- **Effect Template**：After an ally target with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).
 When Bailu's teammate receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[f1]% of Bailu's Max HP plus #4[i] HP. This effect can be triggered 1 time per battle.
 当白露的队友受到致命攻击时，不会陷入无法战斗状态，白露会立即为其提供治疗，回复等同于白露#3[f1]%生命上限+#4[i]的生命值。该效果单场战斗中可以触发1次。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 3.6% | 36 | 12% | 120 | 2 |
@@ -199,32 +196,32 @@ When Bailu's teammate receives a killing blow, they will not be knocked down. Ba
   | Lv.14 | 6.12% | 176.4 | 20.4% | 588 | 2 |
   | Lv.15 | 6.3% | 184.5 | 21% | 615 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，该效果可」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值。该效果单」
   - `#5[i]`次 → 参数5：上下文「命值，该效果可以触发___次。 当白露的队友」
 
-- **满级效果**：After an ally target with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus 184.5. This effect can trigger 2 time(s).
+- **Max Effect**：After an ally target with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus 184.5. This effect can trigger 2 time(s).
 When Bailu's teammate receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[f1]% of Bailu's Max HP plus 615 HP. This effect can be triggered 1 time per battle.
 当白露的队友受到致命攻击时，不会陷入无法战斗状态，白露会立即为其提供治疗，回复等同于白露#3[f1]%生命上限+615的生命值。该效果单场战斗中可以触发1次。
 
 ### Technique：Saunter in the Rain
-- **类型**：Technique
-- **简述**：After this character uses Technique, at the start of the next battle, all allies are granted Invigoration.
-- **最大等级**：1
-- **效果模板**：After Technique is used, at the start of the next battle, all allies are granted Invigoration for #1[i] turn(s).
+- **Type**：Technique
+- **Summary**：After this character uses Technique, at the start of the next battle, all allies are granted Invigoration.
+- **Max Level**：1
+- **Effect Template**：After Technique is used, at the start of the next battle, all allies are granted Invigoration for #1[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「体附上【生息】，持续___回合。」
 
-- **满级效果**：After Technique is used, at the start of the next battle, all allies are granted Invigoration for 2 turn(s).
+- **Max Effect**：After Technique is used, at the start of the next battle, all allies are granted Invigoration for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -285,31 +282,31 @@ When Bailu's teammate receives a killing blow, they will not be knocked down. Ba
 
 ### [[zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
 
-- **基础属性**：生1270 攻476 防463
-- **推荐度**：★★★★★
-- **技能名**：日有四时
-- **效果**：使装备者生命上限提高【18%/21%/24%/27%/30%】，治疗量提高【12%/14%/16%/18%/20%】。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的【36%/42%/48%/54%/60%】，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
+- **Base Stats**：HP1270 ATK476 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Morn, Noon, Dusk, and Night
+- **Effect**：Increases the wearer's Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.
 
 ### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：互相治愈
-- **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Mutual Healing
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.
 
 ### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★
-- **技能名**：深度深呼吸
-- **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Deep, Deep Breaths
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：折射的视线
-- **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Refraction of Sightline
+- **Effect**：Increases the wearer's Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.
 
 ## Recommended Teams
 

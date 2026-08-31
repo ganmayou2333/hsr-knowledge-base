@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Whistlebolt Sings Joy
-- **类型**：
-- **简述**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
-- **最大等级**：10
-- **效果模板**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
+- **Type**：
+- **Summary**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
+- **Max Level**：10
+- **Effect Template**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 45% | 15% |
@@ -92,19 +92,19 @@
   | Lv.9 | 117% | 39% |
   | Lv.10 | 126% | 42% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于爻光___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于爻光___%攻击力的物理属性」
 
-- **满级效果**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
+- **Max Effect**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
 ### Skill：Decalight Unveils All
-- **类型**：Skill
-- **简述**：Deploys a Zone that increases Elation for all ally targets. After Yao Guang uses Basic ATK or Skill, gains Punchline.
-- **最大等级**：15
-- **效果模板**：Deploys a Zone for #1[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #2[f1]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains #3[i] Punchline.
+- **Type**：Skill
+- **Summary**：Deploys a Zone that increases Elation for all ally targets. After Yao Guang uses Basic ATK or Skill, gains Punchline.
+- **Max Level**：15
+- **Effect Template**：Deploys a Zone for #1[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #2[f1]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains #3[i] Punchline.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 3 | 10% | 3 |
@@ -123,20 +123,20 @@
   | Lv.14 | 3 | 24% | 3 |
   | Lv.15 | 3 | 25% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「展开结界，持续___回合，自身每回合开」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`个 → 参数3：上下文「施放普攻、战技后获得___个笑点。」
 
-- **满级效果**：Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #2[f1]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.
+- **Max Effect**：Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #2[f1]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.
 
 ### Ultimate：Hexagram of Feathered Fortune
-- **类型**：Ultimate
-- **简述**：Gains Punchline. Immediately grants Aha 1 extra turn where a fixed amount of Punchline is taken into account, and increases all allies' All-Type RES PEN.
-- **最大等级**：15
-- **效果模板**：Gains #1[i] Punchline. Aha immediately gains 1 extra turn where a fixed amount of #4[i] Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by #2[f1]% for #3[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Gains Punchline. Immediately grants Aha 1 extra turn where a fixed amount of Punchline is taken into account, and increases all allies' All-Type RES PEN.
+- **Max Level**：15
+- **Effect Template**：Gains #1[i] Punchline. Aha immediately gains 1 extra turn where a fixed amount of #4[i] Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by #2[f1]% for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 5 | 10% | 3 | 20 | 1 |
@@ -155,28 +155,26 @@
   | Lv.14 | 5 | 24% | 3 | 20 | 1 |
   | Lv.15 | 5 | 25% | 3 | 20 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`个 → 参数1：上下文「获得___个笑点。使阿哈立即」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`回 → 参数3：上下文「#2[f1]%，持续___回合。」
   - `#4[i]`笑 → 参数4：上下文「立即获得1个固定计入___笑点的额外回合，该」
   - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by #2[f1]% for 3 turn(s).
+- **Max Effect**：Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by #2[f1]% for 3 turn(s).
 
 ### Talent：Behold Wherever Light Unfolds
-- **类型**：Talent
-- **简述**：While Yao Guang is in possession of "Certified Banger," after an ally target uses an attack, triggers "Great Boon": Additionally deals 1 instance of minor Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, this effect triggers 1 extra time. This effect is not considered as using 1 instance of attack.
-- **最大等级**：15
-- **效果模板**：While Yao Guang holds "Certified Banger":
+- **Type**：Talent
+- **Summary**：While Yao Guang is in possession of "Certified Banger," after an ally target uses an attack, triggers "Great Boon": Additionally deals 1 instance of minor Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, this effect triggers 1 extra time. This effect is not considered as using 1 instance of attack.
+- **Max Level**：15
+- **Effect Template**：While Yao Guang holds "Certified Banger":
 After an ally target uses an attack, triggers the "Great Boon" effect, dealing 1 additional instance of #1[f1]% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers "Great Boon" 1 time.
 When triggering the "Great Boon" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.
 Triggering the "Great Boon" effect is not considered as using 1 instance of attack.
 使我方目标施放攻击后触发【大吉大利】效果，对随机1个击中的目标额外造成1次#1[f1]%的对应属性欢愉伤害，本次攻击若消耗战技点，则额外触发1次【大吉大利】效果。
-触发【大吉大利】效果时若攻击者欢愉度低于爻光，则该次欢愉伤害使用爻光欢愉度来计算。
-触发【大吉大利】效果不视为1次攻击。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 10% |
@@ -195,32 +193,30 @@ Triggering the "Great Boon" effect is not considered as using 1 instance of atta
   | Lv.14 | 24% |
   | Lv.15 | 25% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：While Yao Guang holds "Certified Banger":
+- **Max Effect**：While Yao Guang holds "Certified Banger":
 After an ally target uses an attack, triggers the "Great Boon" effect, dealing 1 additional instance of #1[f1]% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers "Great Boon" 1 time.
 When triggering the "Great Boon" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.
 Triggering the "Great Boon" effect is not considered as using 1 instance of attack.
 使我方目标施放攻击后触发【大吉大利】效果，对随机1个击中的目标额外造成1次#1[f1]%的对应属性欢愉伤害，本次攻击若消耗战技点，则额外触发1次【大吉大利】效果。
-触发【大吉大利】效果时若攻击者欢愉度低于爻光，则该次欢愉伤害使用爻光欢愉度来计算。
-触发【大吉大利】效果不视为1次攻击。
 
 ### Technique：Untethered Glimmer Sails Far
-- **类型**：Technique
-- **简述**：Upon entering combat, automatically triggers Skill 1 time. When Yao Guang is in the team, immediately gains Fortune Pouch when breaking destructible objects.
-- **最大等级**：1
-- **效果模板**：After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to #1[i] within every Earth Week.
+- **Type**：Technique
+- **Summary**：Upon entering combat, automatically triggers Skill 1 time. When Yao Guang is in the team, immediately gains Fortune Pouch when breaking destructible objects.
+- **Max Level**：1
+- **Effect Template**：After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to #1[i] within every Earth Week.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 8 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`个 → 参数1：上下文「每个地球周内最多获得___个。」
 
-- **满级效果**：After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.
+- **Max Effect**：After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.
 
 ## Trace Bonuses
 
@@ -278,22 +274,24 @@ Triggering the "Great Boon" effect is not considered as using 1 instance of atta
 ## Recommended Light Cones
 
 ### [[zh_cn/lightcone/欢愉/当她决定看见.md|When She Decided to See]]
-- **基础属性**：生1058 攻529 防529
-- **推荐度**：★★★★★
-- **技能名**：破局
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者进入战斗或对我方目标施放终结技时，使装备者获得【上上签】，持续3回合。当装备者持有【上上签】时，我方全体暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【30%/37.5%/45%/52.5%/60%】，装备者自身能量恢复效率提高【12%/14%/16%/18%/20%】。 每个波次开始时，装备者固定恢复15点能量。
+- **Base Stats**：HP1058 ATK529 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Game Changer
+- **Effect**：Increases the wearer's SPD by 18%. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains "Great Fortune" for 3 turn(s). While the wearer holds "Great Fortune," all allies' CRIT Rate increases by 10%, CRIT DMG increases by 30%, and the wearer's Energy Regeneration Rate increases by 12%.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
 
 ### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
-- **基础属性**：生847 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：乱斗
-- **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
+- **Base Stats**：HP847 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Rumble
+- **Effect**：Increases the wearer's Elation by 12%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by 6% for 2 turn(s).
 
 ### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
-- **基础属性**：生953 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：憧憬
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
+- **Base Stats**：HP953 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Decision
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses an Elation Skill, increases Elation by 12%, stacking up to 2 times.
 
 ## Recommended Teams
 

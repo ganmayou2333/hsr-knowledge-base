@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Lash of Riches
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Jade's ATK to one designated enemy target, and Quantum DMG equal to #2[i]% of Jade's ATK to adjacent enemies.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Jade's ATK to one designated enemy target, and Quantum DMG equal to #2[i]% of Jade's ATK to adjacent enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 45% | 15% |
@@ -92,25 +92,23 @@
   | Lv.9 | 117% | 39% |
   | Lv.10 | 126% | 42% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于翡翠___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于翡翠___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 126% of Jade's ATK to one designated enemy target, and Quantum DMG equal to 42% of Jade's ATK to adjacent enemies.
+- **Max Effect**：Deals Quantum DMG equal to 126% of Jade's ATK to one designated enemy target, and Quantum DMG equal to 42% of Jade's ATK to adjacent enemies.
 
 ### Skill：Acquisition Surety
-- **类型**：Skill
-- **简述**：Makes a single ally become the Debt Collector and increases their SPD. After the Debt Collector attacks, deals minor Quantum Additional DMG to each enemy target hit and consume the Debt Collector's own HP. When Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume her HP.
-- **最大等级**：15
-- **效果模板**：Makes a single target ally become the Debt Collector and increases their SPD by #1[i], lasting for #4[i] turn(s).
+- **Type**：Skill
+- **Summary**：Makes a single ally become the Debt Collector and increases their SPD. After the Debt Collector attacks, deals minor Quantum Additional DMG to each enemy target hit and consume the Debt Collector's own HP. When Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume her HP.
+- **Max Level**：15
+- **Effect Template**：Makes a single target ally become the Debt Collector and increases their SPD by #1[i], lasting for #4[i] turn(s).
 After the Debt Collector attacks, deals 1 instance of Quantum Additional DMG equal to #3[i]% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to #2[i]% of their Max HP. If the current HP is insufficient, reduces HP to 1.
 If Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.
 When the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration decreases by 1 turn.
 【收债人】施放攻击后，对每个击中的敌方目标造成1次等同于翡翠#3[i]%攻击力的量子属性附加伤害，并消耗【收债人】生命上限#2[i]%的生命值，若当前生命值不足，当前生命值降至1点。
-若翡翠成为【收债人】时，无法获得速度提高效果且攻击后不消耗生命值。
-当场上存在【收债人】时，翡翠无法施放战技，翡翠每回合开始时【收债人】状态持续回合数减1。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 30 | 2% | 15% | 3 |
@@ -129,27 +127,24 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
   | Lv.14 | 30 | 2% | 29% | 3 |
   | Lv.15 | 30 | 2% | 30% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「债人】，使其速度提高___点，持续#4[i]」
   - `#2[i]`% → 参数2(%)：上下文「耗【收债人】生命上限___%的生命值，若当前」
   - `#3[i]`% → 参数3(%)：上下文「标造成1次等同于翡翠___%攻击力的量子属性」
   - `#4[i]`回 → 参数4：上下文「高#1[i]点，持续___回合。 【收债人】」
 
-- **满级效果**：Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s).
+- **Max Effect**：Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s).
 After the Debt Collector attacks, deals 1 instance of Quantum Additional DMG equal to 30% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to 2% of their Max HP. If the current HP is insufficient, reduces HP to 1.
 If Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.
 When the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration decreases by 1 turn.
-【收债人】施放攻击后，对每个击中的敌方目标造成1次等同于翡翠30%攻击力的量子属性附加伤害，并消耗【收债人】生命上限2%的生命值，若当前生命值不足，当前生命值降至1点。
-若翡翠成为【收债人】时，无法获得速度提高效果且攻击后不消耗生命值。
-当场上存在【收债人】时，翡翠无法施放战技，翡翠每回合开始时【收债人】状态持续回合数减1。
 
 ### Ultimate：Vow of the Deep
-- **类型**：Ultimate
-- **简述**：Deals Quantum DMG to all enemy units, and this unit's Talent's Follow-Up ATK DMG multiplier increases.
-- **最大等级**：15
-- **效果模板**：Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by #1[i]%. This enhancement can take effect #2[i] time(s).
+- **Type**：Ultimate
+- **Summary**：Deals Quantum DMG to all enemy units, and this unit's Talent's Follow-Up ATK DMG multiplier increases.
+- **Max Level**：15
+- **Effect Template**：Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by #1[i]%. This enhancement can take effect #2[i] time(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 40% | 2 | 120% |
@@ -168,24 +163,24 @@ When the Debt Collector exists on the field, Jade cannot use her Skill. At the s
   | Lv.14 | 96% | 2 | 288% |
   | Lv.15 | 100% | 2 | 300% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「击造成的伤害倍率提高___%。强化效果可生效」
   - `#2[i]`次 → 参数2：上下文「]%。强化效果可生效___次。」
   - `#3[i]`% → 参数3(%)：上下文「方全体造成等同于翡翠___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 300% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by 100%. This enhancement can take effect 2 time(s).
+- **Max Effect**：Deals Quantum DMG equal to 300% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by 100%. This enhancement can take effect 2 time(s).
 
 ### Talent：Fang of Flare Flaying
-- **类型**：Talent
-- **简述**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG to all enemies.
+- **Type**：Talent
+- **Summary**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG to all enemies.
 When Jade launches the Follow-Up ATK, gains "Pawned Asset" and increases CRIT DMG, stacking up to 50 times.
 翡翠发动追加攻击时获得【当品】，使暴击伤害提高，最多叠加50层。
-- **最大等级**：15
-- **效果模板**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching #3[i] points of Charge, consumes the #3[i] points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG equal to #5[i]% of Jade's ATK to all enemies. This Follow-Up ATK does not generate Charge.
+- **Max Level**：15
+- **Effect Template**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching #3[i] points of Charge, consumes the #3[i] points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG equal to #5[i]% of Jade's ATK to all enemies. This Follow-Up ATK does not generate Charge.
 When launching her Talent's Follow-Up ATK, Jade immediately gains #4[i] stack(s) of "Pawned Asset," with each stack increasing CRIT DMG by #1[f1]%, stacking up to #2[i] times.
 翡翠发动天赋的追加攻击时立即获得#4[i]层【当品】，每层【当品】使暴击伤害提高#1[f1]%，最多叠加#2[i]层。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 1.2% | 50 | 8 | 5 | 60% |
@@ -204,34 +199,34 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains #4[i] stack(s)
   | Lv.14 | 2.88% | 50 | 8 | 5 | 144% |
   | Lv.15 | 3% | 50 | 8 | 5 | 150% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`层 → 参数2：上下文「[f1]%，最多叠加___层。」
   - `#3[i]`点 → 参数3：上下文「___点后，消耗___点充能，发动1次追」
   - `#4[i]`层 → 参数4：上下文「的追加攻击时立即获得___层【当品】，每层【」
   - `#5[i]`% → 参数5(%)：上下文「体目标造成等同于翡翠___%攻击力的量子属性」
 
-- **满级效果**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG equal to 150% of Jade's ATK to all enemies. This Follow-Up ATK does not generate Charge.
+- **Max Effect**：After Jade or the "Debt Collector" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG equal to 150% of Jade's ATK to all enemies. This Follow-Up ATK does not generate Charge.
 When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of "Pawned Asset," with each stack increasing CRIT DMG by #1[f1]%, stacking up to 50 times.
 翡翠发动天赋的追加攻击时立即获得5层【当品】，每层【当品】使暴击伤害提高#1[f1]%，最多叠加50层。
 
 ### Technique：Visionary Predation
-- **类型**：Technique
-- **简述**：Inflicts Blind Fealty on enemies within a set area. Attacking an enemy with Blind Fealty causes all enemies with Blind Fealty to enter combat simultaneously. Upon entering combat, deals minor Quantum DMG to all enemies and immediately gains 15 stack(s) of Pawned Asset.
-- **最大等级**：1
-- **效果模板**：After using the Technique, inflicts enemies within a set area with Blind Fealty for #1[i] second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to #2[i]% of Jade's ATK to all enemies, and immediately gains #3[i] stack(s) of Pawned Asset.
+- **Type**：Technique
+- **Summary**：Inflicts Blind Fealty on enemies within a set area. Attacking an enemy with Blind Fealty causes all enemies with Blind Fealty to enter combat simultaneously. Upon entering combat, deals minor Quantum DMG to all enemies and immediately gains 15 stack(s) of Pawned Asset.
+- **Max Level**：1
+- **Effect Template**：After using the Technique, inflicts enemies within a set area with Blind Fealty for #1[i] second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to #2[i]% of Jade's ATK to all enemies, and immediately gains #3[i] stack(s) of Pawned Asset.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 50% | 15 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒【盲从】。【盲从」
   - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于翡翠___%攻击力的量子属性」
   - `#3[i]`层 → 参数3：上下文「子属性伤害，立即获得___层【当品】。」
 
-- **满级效果**：After using the Technique, inflicts enemies within a set area with Blind Fealty for 10 second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to 50% of Jade's ATK to all enemies, and immediately gains 15 stack(s) of Pawned Asset.
+- **Max Effect**：After using the Technique, inflicts enemies within a set area with Blind Fealty for 10 second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to 50% of Jade's ATK to all enemies, and immediately gains 15 stack(s) of Pawned Asset.
 
 ## Trace Bonuses
 
@@ -292,31 +287,31 @@ When launching her Talent's Follow-Up ATK, Jade immediately gains 5 stack(s) of 
 
 ### [[zh_cn/lightcone/智识/偏偏希望无价.md|Yet Hope Is Priceless]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：承诺
-- **效果**：使装备者的暴击率提高【16%/19%/22%/25%/28%】。当装备者在战斗中暴击伤害大于120%时，每超过20%，追加攻击造成的伤害提高【12%/14%/16%/18%/20%】，该效果可叠加4层。战斗开始时和装备者施放普攻后，使终结技或追加攻击造成的伤害无视目标【20%/24%/28%/32%/36%】的防御，持续2回合。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Promise
+- **Effect**：Increases the wearer's CRIT Rate by 16%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 1.2, the DMG dealt by Follow-Up ATK increases by 12%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables the DMG dealt by Ultimate or Follow-Up ATK to ignore 20% of the target's DEF, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：无界之思
-- **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Boundless Thought
+- **Effect**：Increases the wearer's ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★★
-- **技能名**：流星群
-- **效果**：场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Meteor Swarm
+- **Effect**：For every enemy on the field, increases the wearer's ATK by #2[f1]%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.
 
 ### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
-- **基础属性**：生846 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：风雨将至
-- **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
+- **Base Stats**：HP846 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：A Storm Is Coming
+- **Effect**：After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
 ## Recommended Teams
 

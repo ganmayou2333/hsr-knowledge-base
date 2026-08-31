@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Stride to Deliverance
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -94,18 +94,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于白厄___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Phainon's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Phainon's ATK to one designated enemy.
 
 ### Skill：Let There Be Light
-- **类型**：Skill
-- **简述**：Gains 2 point(s) of "Coreflame", dealing massive Physical DMG to one enemy and Physical DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Gains #3[i] point(s) of "Coreflame," dealing Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy and Physical DMG equal to #2[i]% of Phainon's ATK to adjacent targets.
+- **Type**：Skill
+- **Summary**：Gains 2 point(s) of "Coreflame", dealing massive Physical DMG to one enemy and Physical DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Gains #3[i] point(s) of "Coreflame," dealing Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy and Physical DMG equal to #2[i]% of Phainon's ATK to adjacent targets.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 150% | 60% | 2 |
@@ -124,24 +124,24 @@
   | Lv.14 | 360% | 144% | 2 |
   | Lv.15 | 375% | 150% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于白厄___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于白厄___%攻击力的物理属性」
   - `#3[i]`点 → 参数3：上下文「获得___点【火种】，对指定」
 
-- **满级效果**：Gains 2 point(s) of "Coreflame," dealing Physical DMG equal to 375% of Phainon's ATK to one designated enemy and Physical DMG equal to 150% of Phainon's ATK to adjacent targets.
+- **Max Effect**：Gains 2 point(s) of "Coreflame," dealing Physical DMG equal to 375% of Phainon's ATK to one designated enemy and Physical DMG equal to 150% of Phainon's ATK to adjacent targets.
 
 ### Ultimate：He Who Bears the World Must Burn
-- **类型**：Ultimate
-- **简述**：Transforms into Khaslana and deploys a Territory: Teammates depart and cannot take action, and all enemies have Physical Weaknesses.
+- **Type**：Ultimate
+- **Summary**：Transforms into Khaslana and deploys a Territory: Teammates depart and cannot take action, and all enemies have Physical Weaknesses.
 Khaslana does not enter his own turn, but has 8 Khaslana's extra turn(s). In the final turn, launches a final hit and deals massive Physical DMG that is distributed evenly across all enemies.
 卡厄斯兰那不会进入自己的回合但拥有8个卡厄斯兰那的额外回合，最后的回合内发动最后一击，造成由敌方全体均分的大量物理属性伤害。
-- **最大等级**：15
-- **效果模板**：Transforms into Khaslana. During the transformation, deploys the Territory "Ruinous Irontomb." Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.
+- **Max Level**：15
+- **Effect Template**：Transforms into Khaslana. During the transformation, deploys the Territory "Ruinous Irontomb." Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.
 Khaslana does not enter his own turn, but has #4[i] Khaslana's extra turn(s), with a SPD set at #3[i]% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to #1[i]% of Khaslana's ATK that is distributed evenly across all enemies.
 卡厄斯兰那不会进入自己的回合，但拥有#4[i]个卡厄斯兰那的额外回合，速度固定为卡厄斯兰那基础速度的#3[i]%。最后的卡厄斯兰那的额外回合开始时立即发动最后一击，造成等同于卡厄斯兰那#1[i]%攻击力的物理属性终结技伤害，由敌方全体均分。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 480% | 12 | 60% | 8 |
@@ -160,27 +160,26 @@ Khaslana does not enter his own turn, but has #4[i] Khaslana's extra turn(s), wi
   | Lv.14 | 1152% | 12 | 60% | 8 |
   | Lv.15 | 1200% | 12 | 60% | 8 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于卡厄斯兰那___%攻击力的物理属性」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「卡厄斯兰那基础速度的___%。最后的卡厄斯兰」
   - `#4[i]`个 → 参数4：上下文「入自己的回合，但拥有___个卡厄斯兰那的额外」
 
-- **满级效果**：Transforms into Khaslana. During the transformation, deploys the Territory "Ruinous Irontomb." Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.
+- **Max Effect**：Transforms into Khaslana. During the transformation, deploys the Territory "Ruinous Irontomb." Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.
 Khaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to 1200% of Khaslana's ATK that is distributed evenly across all enemies.
-卡厄斯兰那不会进入自己的回合，但拥有8个卡厄斯兰那的额外回合，速度固定为卡厄斯兰那基础速度的60%。最后的卡厄斯兰那的额外回合开始时立即发动最后一击，造成等同于卡厄斯兰那1200%攻击力的物理属性终结技伤害，由敌方全体均分。
 
 ### Talent：Pyric Corpus
-- **类型**：Talent
-- **简述**：Phainon's Talent. When "Coreflame" reaches 12, can activate Ultimate.
+- **Type**：Talent
+- **Summary**：Phainon's Talent. When "Coreflame" reaches 12, can activate Ultimate.
 When Phainon is targeted by abilities from other targets, gains "Coreflame". When targeted by a teammate's ability, increases CRIT DMG.
 当白厄成为其他目标的技能目标时，获得【火种】。成为队友的技能目标时，暴击伤害提高。
-- **最大等级**：15
-- **效果模板**：Phainon's Talent. When "Coreflame" reaches #4[i] point(s), can activate Ultimate. Even after reaching the limit, can still hold up to #3[i] overflow point(s). When the transformation ends, gains "Coreflame" based on the number of overflow points.
+- **Max Level**：15
+- **Effect Template**：Phainon's Talent. When "Coreflame" reaches #4[i] point(s), can activate Ultimate. Even after reaching the limit, can still hold up to #3[i] overflow point(s). When the transformation ends, gains "Coreflame" based on the number of overflow points.
 When Phainon is targeted by an ability from any other target, gains 1 "Coreflame" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by #1[i]% for #2[i] turn(s).
 当白厄成为其他任意目标的技能目标时，获得1点【火种】。若施放者为白厄的队友，还会使白厄的暴击伤害提高#1[i]%，持续#2[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 15% | 3 | 3 | 12 |
@@ -199,44 +198,40 @@ When Phainon is targeted by an ability from any other target, gains 1 "Coreflame
   | Lv.14 | 36% | 3 | 3 | 12 |
   | Lv.15 | 37.5% | 3 | 3 | 12 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「使白厄的暴击伤害提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
   - `#3[i]`点 → 参数3：上下文「到上限后还可最多溢出___点，变身结束时会基」
   - `#4[i]`点 → 参数4：上下文「的天赋。【火种】达到___点时可激活终结技，」
 
-- **满级效果**：Phainon's Talent. When "Coreflame" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains "Coreflame" based on the number of overflow points.
+- **Max Effect**：Phainon's Talent. When "Coreflame" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains "Coreflame" based on the number of overflow points.
 When Phainon is targeted by an ability from any other target, gains 1 "Coreflame" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by 37.5% for 3 turn(s).
-当白厄成为其他任意目标的技能目标时，获得1点【火种】。若施放者为白厄的队友，还会使白厄的暴击伤害提高37.5%，持续3回合。
 
 ### Technique：Beginning of the End
-- **类型**：Technique
-- **简述**：Increases Max Technique Points by 3. When actively using this Technique, consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, regenerates Energy for allies and gains Skill Points and "Scourge." Deals Physical DMG to all enemies at the start of each wave.
+- **Type**：Technique
+- **Summary**：Increases Max Technique Points by 3. When actively using this Technique, consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, regenerates Energy for allies and gains Skill Points and "Scourge." Deals Physical DMG to all enemies at the start of each wave.
 If attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
-- **最大等级**：1
-- **效果模板**：While Phainon is in the team, increases Max Technique Points by 3.
+- **Max Level**：1
+- **Effect Template**：While Phainon is in the team, increases Max Technique Points by 3.
 When actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates #3[i] Energy for allies and gains #2[i] "Scourge" and #4[i] Skill Point(s). Deals Physical DMG equal to #1[i]% of Phainon's ATK to all enemies at the start of each wave.
 If attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
 主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，为我方队友恢复#3[i]点能量，获得#2[i]点【毁伤】和#4[i]个战技点，并且每个波次开始时对敌方全体造成等同于白厄#1[i]%攻击力的物理属性伤害。
-若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 200% | 2 | 25 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于白厄___%攻击力的物理属性」
   - `#2[i]`点 → 参数2：上下文「3[i]点能量，获得___点【毁伤】和#4[」
   - `#3[i]`点 → 参数3：上下文「斗后，为我方队友恢复___点能量，获得#2[」
   - `#4[i]`个 → 参数4：上下文「2[i]点【毁伤】和___个战技点，并且每个」
 
-- **满级效果**：While Phainon is in the team, increases Max Technique Points by 3.
+- **Max Effect**：While Phainon is in the team, increases Max Technique Points by 3.
 When actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates 25 Energy for allies and gains 2 "Scourge" and 1 Skill Point(s). Deals Physical DMG equal to 200% of Phainon's ATK to all enemies at the start of each wave.
 If attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.
-主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，为我方队友恢复25点能量，获得2点【毁伤】和1个战技点，并且每个波次开始时对敌方全体造成等同于白厄200%攻击力的物理属性伤害。
-若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。
 
 ## Trace Bonuses
 
@@ -245,7 +240,6 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 | 附加能力1 | 行向世界终点 | 晋阶2 | 战斗开始时，获得#2[i]点【火种】。变身结束时，获得#1[i]点【火种】。 | 战斗开始时，获得1点【火种】。变身结束时，获得3点【火种】。 | 信用点×5000、步离犬牙×3、阳雷的遥想×1 |
 | 附加能力2 | 身承炎炬万千 | 晋阶4 | 受到队友提供的治疗效果或护盾时，造成的伤害提高#1[i]%，持续#2[i]回合。该效果单个回合内不可重复触发。
 受到队友提供的能量恢复的技能效果时，获得#3[i]点【火种】。 | 受到队友提供的治疗效果或护盾时，造成的伤害提高45%，持续4回合。该效果单个回合内不可重复触发。
-受到队友提供的能量恢复的技能效果时，获得1点【火种】。 | 信用点×20000、狼毒锯牙×5、命运的足迹×1、阳雷的遥想×1 |
 | 附加能力3 | 照见英雄本色 | 晋阶6 | 进入战斗或变身结束时，攻击力提高#1[i]%。该效果最多叠加#2[i]层。 | 进入战斗或变身结束时，攻击力提高50%。该效果最多叠加2层。 | 信用点×160000、月狂獠牙×8、命运的足迹×1、阳雷的遥想×1 |
 
 ## Stat Bonuses
@@ -298,24 +292,24 @@ If attacking a normal enemy, immediately defeats them without entering combat. N
 
 ### [[zh_cn/lightcone/毁灭/黎明恰如此燃烧.md|Thus Burns the Dawn]]
 
-- **基础属性**：生952 攻687 防396
-- **推荐度**：★★★★★
-- **技能名**：失却
-- **效果**：使装备者的基础速度提高【12/14/16/18/20】，造成伤害时无视目标【18%/22%/27%/31%/36%】的防御力。装备者施放终结技后，获得【烈阳】，回合开始时移除。持有【烈阳】时，装备者造成的伤害提高【60%/78%/96%/114%/132%】。
+- **Base Stats**：HP952 ATK687 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Dispossession
+- **Effect**：The wearer's base SPD increases by 12. When dealing DMG, ignores 18% of the target's DEF. After the wearer uses Ultimate, gains "Blazing Sun," which is removed at the start of the turn. While holding "Blazing Sun," increases the wearer's DMG dealt by 60%.
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ## Recommended Teams
 

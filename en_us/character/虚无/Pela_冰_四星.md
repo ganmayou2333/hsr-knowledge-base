@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Frost Shot
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Pela's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Pela's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于佩拉___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 140% of Pela's ATK to one designated enemy target.
+- **Max Effect**：Deals Ice DMG equal to 140% of Pela's ATK to one designated enemy target.
 
 ### Skill：Frostbite
-- **类型**：Skill
-- **简述**：Dispels 1 buff from one enemy target, and deals Ice DMG to the target enemy.
-- **最大等级**：15
-- **效果模板**：Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to one designated target enemy.
+- **Type**：Skill
+- **Summary**：Dispels 1 buff from one enemy target, and deals Ice DMG to the target enemy.
+- **Max Level**：15
+- **Effect Template**：Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to one designated target enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 105% | 1 |
@@ -122,21 +122,21 @@
   | Lv.14 | 252% | 1 |
   | Lv.15 | 262.5% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「，同时造成等同于佩拉___%攻击力的冰属性伤」
   - `#2[i]`个 → 参数2：上下文「解除指定敌方单体的___个增益效果，同时造」
 
-- **满级效果**：Removes 1 buff(s) and deals Ice DMG equal to 262.5% of Pela's ATK to one designated target enemy.
+- **Max Effect**：Removes 1 buff(s) and deals Ice DMG equal to 262.5% of Pela's ATK to one designated target enemy.
 
 ### Ultimate：Zone Suppression
-- **类型**：Ultimate
-- **简述**：Has a high chance of lowering enemies' DEF and deals minor Ice DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Deals Ice DMG equal to #4[i]% of Pela's ATK to all enemies, with a #1[i]% base chance to inflict Exposed on all enemies.
+- **Type**：Ultimate
+- **Summary**：Has a high chance of lowering enemies' DEF and deals minor Ice DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Deals Ice DMG equal to #4[i]% of Pela's ATK to all enemies, with a #1[i]% base chance to inflict Exposed on all enemies.
 When Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).
 【通解】状态下，敌方目标防御力降低#2[i]%，持续#3[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 30% | 2 | 60% |
@@ -155,23 +155,22 @@ When Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).
   | Lv.14 | 100% | 44% | 2 | 116% |
   | Lv.15 | 100% | 45% | 2 | 120% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「，敌方目标防御力降低___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
   - `#4[i]`% → 参数4(%)：上下文「方全体造成等同于佩拉___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 120% of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies.
+- **Max Effect**：Deals Ice DMG equal to 120% of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies.
 When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
-【通解】状态下，敌方目标防御力降低45%，持续2回合。
 
 ### Talent：Data Collecting
-- **类型**：Talent
-- **简述**：After using an attack, if the enemy target is currently inflicted with debuff(s), Pela regenerates Energy.
-- **最大等级**：15
-- **效果模板**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
+- **Type**：Talent
+- **Summary**：After using an attack, if the enemy target is currently inflicted with debuff(s), Pela regenerates Energy.
+- **Max Level**：15
+- **Effect Template**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 5 |
@@ -190,29 +189,29 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
   | Lv.14 | 12 |
   | Lv.15 | 12.5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
+- **Max Effect**：If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.
 
 ### Technique：Preemptive Strike
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of lowering the DEF of all enemy targets.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to #4[i]% of her ATK to a random enemy, with a #1[i]% base chance of lowering the DEF of all enemies by #2[i]% for #3[i] turn(s).
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of lowering the DEF of all enemy targets.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to #4[i]% of her ATK to a random enemy, with a #1[i]% base chance of lowering the DEF of all enemies by #2[i]% for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 20% | 2 | 80% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的冰属性伤害，同时有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「个单体目标防御力降低___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
   - `#4[i]`% → 参数4(%)：上下文「机单体造成等同于佩拉___%攻击力的冰属性伤」
 
-- **满级效果**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s).
+- **Max Effect**：Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -273,31 +272,31 @@ When Exposed, enemies' DEF is reduced by 45% for 2 turn(s).
 
 ### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：眼疾手快
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Quick on the Draw
+- **Effect**：Increases the wearer's Effect Hit Rate by 20%. When the wearer attacks DEF-reduced enemies, regenerates 4 Energy.
 
 ### [[zh_cn/lightcone/虚无/雨一直下.md|Incessant Rain]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：幻影现实
-- **效果**：使装备者的效果命中提高【24%/28%/32%/36%/40%】。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高【12%/14%/16%/18%/20%】。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高【12%/14%/16%/18%/20%】，持续1回合。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Mirage of Reality
+- **Effect**：Increases the wearer's Effect Hit Rate by 24%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by 12%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 1 base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12% increased DMG for 1 turn.
 
 ### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：回眸
-- **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Glance Back
+- **Effect**：When the wearer hits an enemy and if the hit enemy is not already "Ensnared," then there is a 60% base chance to "Ensnare" the hit enemy. "Ensnared" enemies' DEF decreases by 12% for 1 turn(s).
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ## Recommended Teams
 

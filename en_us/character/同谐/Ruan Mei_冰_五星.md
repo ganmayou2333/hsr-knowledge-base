@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Threading Fragrance
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Ruan Mei's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Ruan Mei's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于阮•梅___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 140% of Ruan Mei's ATK to one designated enemy target.
+- **Max Effect**：Deals Ice DMG equal to 140% of Ruan Mei's ATK to one designated enemy target.
 
 ### Skill：String Sings Slow Swirls
-- **类型**：Skill
-- **简述**：After using her Skill, Ruan Mei gains Overtone. When Ruan Mei has Overtone, increase all allies' DMG and Weakness Break Efficiency.
-- **最大等级**：15
-- **效果模板**：After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.
+- **Type**：Skill
+- **Summary**：After using her Skill, Ruan Mei gains Overtone. When Ruan Mei has Overtone, increase all allies' DMG and Weakness Break Efficiency.
+- **Max Level**：15
+- **Effect Template**：After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 16% | 50% | 3 |
@@ -122,26 +122,25 @@
   | Lv.14 | 38.4% | 50% | 3 |
   | Lv.15 | 40% | 50% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「%，弱点击破效率提高___%。」
   - `#3[i]`回 → 参数3：上下文「获得【弦外音】，持续___回合，阮•梅每回合」
 
-- **满级效果**：After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by 50%.
+- **Max Effect**：After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by 50%.
 
 ### Ultimate：Petals to Stream, Repose in Dream
-- **类型**：Ultimate
-- **简述**：Increases All-Type RES PEN for all allies, and their attacks apply Thanatoplum Rebloom to enemies hit.
-- **最大等级**：15
-- **效果模板**：Ruan Mei deploys a Zone that lasts for #2[i] turns. The Zone's duration decreases by 1 at the start of her turn.
+- **Type**：Ultimate
+- **Summary**：Increases All-Type RES PEN for all allies, and their attacks apply Thanatoplum Rebloom to enemies hit.
+- **Max Level**：15
+- **Effect Template**：Ruan Mei deploys a Zone that lasts for #2[i] turns. The Zone's duration decreases by 1 at the start of her turn.
 While inside the Zone, all allies' All-Type RES PEN increases by #1[f1]% and their attacks apply Thanatoplum Rebloom to the enemies hit.
 When these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to #3[i]% of Ruan Mei's Break Effect plus #4[i]%, and dealing Break DMG equal to #5[i]% of Ruan Mei's Ice Break DMG.
 Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.
 处于结界中时我方全体全属性抗性穿透提高#1[f1]%，且攻击后会对敌方目标施加【残梅绽】。
 【残梅绽】会在敌方目标尝试从弱点击破状态恢复时触发，延长目标的弱点击破状态并使其行动延后，延后数值等同于阮•梅#3[i]%的击破特攻+#4[i]%，并对其造成等同于阮•梅#5[i]%冰属性击破伤害的击破伤害。
-敌方目标从弱点击破状态恢复前不可被再次附加【残梅绽】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 2 | 20% | 10% | 30% |
@@ -160,28 +159,26 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
   | Lv.14 | 29% | 2 | 20% | 10% | 58% |
   | Lv.15 | 30% | 2 | 20% | 10% | 60% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`回 → 参数2：上下文「阮•梅展开结界，持续___回合，自身每回合开」
   - `#3[i]`% → 参数3(%)：上下文「延后数值等同于阮•梅___%的击破特攻+#4」
   - `#4[i]`% → 参数4(%)：上下文「[i]%的击破特攻+___%，并对其造成等同」
   - `#5[i]`% → 参数5(%)：上下文「对其造成等同于阮•梅___%冰属性击破伤害的」
 
-- **满级效果**：Ruan Mei deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of her turn.
+- **Max Effect**：Ruan Mei deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of her turn.
 While inside the Zone, all allies' All-Type RES PEN increases by #1[f1]% and their attacks apply Thanatoplum Rebloom to the enemies hit.
 When these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to 20% of Ruan Mei's Break Effect plus 10%, and dealing Break DMG equal to 60% of Ruan Mei's Ice Break DMG.
 Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.
 处于结界中时我方全体全属性抗性穿透提高#1[f1]%，且攻击后会对敌方目标施加【残梅绽】。
-【残梅绽】会在敌方目标尝试从弱点击破状态恢复时触发，延长目标的弱点击破状态并使其行动延后，延后数值等同于阮•梅20%的击破特攻+10%，并对其造成等同于阮•梅60%冰属性击破伤害的击破伤害。
-敌方目标从弱点击破状态恢复前不可被再次附加【残梅绽】。
 
 ### Talent：Somatotypical Helix
-- **类型**：Talent
-- **简述**：Increases SPD for all teammates (i.e., excluding this unit). Breaking an enemy target's Weakness will additionally deal Ice Break DMG.
-- **最大等级**：15
-- **效果模板**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
+- **Type**：Talent
+- **Summary**：Increases SPD for all teammates (i.e., excluding this unit). Breaking an enemy target's Weakness will additionally deal Ice Break DMG.
+- **Max Level**：15
+- **Effect Template**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 8% | 60% |
@@ -200,34 +197,33 @@ Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they reco
   | Lv.14 | 10.8% | 1.44 |
   | Lv.15 | 11% | 1.5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
+- **Max Effect**：Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.
 
 ### Technique：Silken Serenade
-- **类型**：Technique
-- **简述**：The next time entering battle, automatically triggers the Skill for 1 time(s). After using the Technique, allies attacking enemies in Simulated Universe or Divergent Universe will always be regarded as attacking their Weakness to enter combat, and their Toughness is reduced regardless of Weakness types. For every Blessing in possession, increases Toughness Reduction and additionally deals Break DMG when breaking Weakness.
-- **最大等级**：1
-- **效果模板**：After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for #1[i] time(s) without consuming Skill Points.
+- **Type**：Technique
+- **Summary**：The next time entering battle, automatically triggers the Skill for 1 time(s). After using the Technique, allies attacking enemies in Simulated Universe or Divergent Universe will always be regarded as attacking their Weakness to enter combat, and their Toughness is reduced regardless of Weakness types. For every Blessing in possession, increases Toughness Reduction and additionally deals Break DMG when breaking Weakness.
+- **Max Level**：1
+- **Effect Template**：After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for #1[i] time(s) without consuming Skill Points.
 In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter combat, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a max of #4[i] Blessings will be taken into account), additionally increases the Toughness Reduction of this attack by #2[i]%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to #3[i]% of Ruan Mei's Ice Break DMG.
 在模拟宇宙、差分宇宙中，当阮•梅拥有【拭琴抚罗袂】时，我方主动攻击敌人时总会视为利用弱点进入战斗，且本次攻击可以无视弱点属性削减敌方全体的韧性。击破弱点时，触发攻击者自身属性的弱点击破效果。每拥有1个祝福，本次攻击的削韧值额外提高#2[i]%，且击破敌方目标弱点后对其额外造成等同于阮•梅#3[i]%冰属性击破伤害的击破伤害，最多计入#4[i]个祝福。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 100% | 100% | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`次 → 参数1：上下文「次战斗开始时自动触发___次战技，此次触发不」
   - `#2[i]`% → 参数2(%)：上下文「攻击的削韧值额外提高___%，且击破敌方目标」
   - `#3[i]`% → 参数3(%)：上下文「额外造成等同于阮•梅___%冰属性击破伤害的」
   - `#4[i]`个 → 参数4：上下文「的击破伤害，最多计入___个祝福。」
 
-- **满级效果**：After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for 1 time(s) without consuming Skill Points.
+- **Max Effect**：After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for 1 time(s) without consuming Skill Points.
 In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter combat, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a max of 20 Blessings will be taken into account), additionally increases the Toughness Reduction of this attack by 100%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to 100% of Ruan Mei's Ice Break DMG.
-在模拟宇宙、差分宇宙中，当阮•梅拥有【拭琴抚罗袂】时，我方主动攻击敌人时总会视为利用弱点进入战斗，且本次攻击可以无视弱点属性削减敌方全体的韧性。击破弱点时，触发攻击者自身属性的弱点击破效果。每拥有1个祝福，本次攻击的削韧值额外提高100%，且击破敌方目标弱点后对其额外造成等同于阮•梅100%冰属性击破伤害的击破伤害，最多计入20个祝福。
 
 ## Trace Bonuses
 
@@ -288,24 +284,26 @@ In Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, 
 
 ### [[zh_cn/lightcone/同谐/镜中故我.md|Past Self in Mirror]]
 
-- **基础属性**：生1058 攻529 防529
-- **推荐度**：★★★★★
-- **技能名**：彻骨梅香
-- **效果**：使装备者击破特攻提高【60%/70%/80%/90%/100%】。装备者施放终结技后，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续3回合，并且若装备者击破特攻大于等于150%，则恢复1个战技点。 每个波次开始时，我方全体立即恢复【10.0/12.5/15.0/17.5/20.0】点能量，同类技能无法重复生效。
+- **Base Stats**：HP1058 ATK529 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：The Plum Fragrance In My Bones
+- **Effect**：Increases the wearer's Break Effect by 60%. When the wearer uses their Ultimate, increases all allies' DMG by 24%, lasting for 3 turn(s). If the wearer's Break Effect exceeds or equals 1.5, 1 Skill Point will be recovered.
+At the start of each wave, all allies regenerate #5[f1] Energy immediately. Abilities of the same type cannot stack.
+At the start of each wave, all allies regenerate #5[f1] Energy immediately. Abilities of the same type cannot stack.
 
 ### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★★
-- **技能名**：老相片
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Old Photo
+- **Effect**：Increases the wearer's Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ## Recommended Teams
 

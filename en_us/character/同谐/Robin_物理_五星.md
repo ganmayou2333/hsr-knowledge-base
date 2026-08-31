@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Wingflip White Noise
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Robin's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Robin's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于知更鸟___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Robin's ATK to one designated enemy target.
+- **Max Effect**：Deals Physical DMG equal to 140% of Robin's ATK to one designated enemy target.
 
 ### Skill：Pinion's Aria
-- **类型**：Skill
-- **简述**：Increases DMG dealt by all allies.
-- **最大等级**：15
-- **效果模板**：Increase DMG dealt by all allies by #1[i]%, lasting for #2[i] turn(s). This duration decreases by 1 at the start of Robin's every turn.
+- **Type**：Skill
+- **Summary**：Increases DMG dealt by all allies.
+- **Max Level**：15
+- **Effect Template**：Increase DMG dealt by all allies by #1[i]%, lasting for #2[i] turn(s). This duration decreases by 1 at the start of Robin's every turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 25% | 3 |
@@ -122,25 +122,24 @@
   | Lv.14 | 60% | 3 |
   | Lv.15 | 62.5% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成的伤害提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合，知更鸟每回合」
 
-- **满级效果**：Increase DMG dealt by all allies by 62.5%, lasting for 3 turn(s). This duration decreases by 1 at the start of Robin's every turn.
+- **Max Effect**：Increase DMG dealt by all allies by 62.5%, lasting for 3 turn(s). This duration decreases by 1 at the start of Robin's every turn.
 
 ### Ultimate：Vox Harmonique, Opus Cosmique
-- **类型**：Ultimate
-- **简述**：Enters the "Concerto" state, increases all allies' ATK, and causes all teammates to immediately take action. After an attack, Robin deals Physical Additional DMG. While "Concerto" lasts, Robin is immune to Crowd Control debuffs. Before Concerto ends, Robin won't take a turn or action, lasting until the end of the countdown.
-- **最大等级**：15
-- **效果模板**：Robin enters the "Concerto" state and makes all teammates (i.e., excluding this unit) immediately take action.
+- **Type**：Ultimate
+- **Summary**：Enters the "Concerto" state, increases all allies' ATK, and causes all teammates to immediately take action. After an attack, Robin deals Physical Additional DMG. While "Concerto" lasts, Robin is immune to Crowd Control debuffs. Before Concerto ends, Robin won't take a turn or action, lasting until the end of the countdown.
+- **Max Level**：15
+- **Effect Template**：Robin enters the "Concerto" state and makes all teammates (i.e., excluding this unit) immediately take action.
 While in the "Concerto" state, increases all allies' ATK by #1[f1]% of Robin's ATK plus #3[i]. Moreover, after every attack by ally targets, Robin deals Physical Additional DMG equal to #4[i]% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at #5[i]% and fixed CRIT DMG set at #6[i]%.
 While in the "Concerto" state, Robin is immune to Crowd Control debuffs and cannot enter her turn or take action until the "Concerto" state ends.
 A "Concerto" countdown appears in the Action Order. When the countdown's turn begins, Robin exits the "Concerto" state and immediately takes action. The countdown has its own fixed SPD of #2[i].
 处于【协奏】状态时，我方全体攻击力提高，提高数值等同于知更鸟攻击力的#1[f1]%+#3[i]点，且我方目标每次施放攻击后，知更鸟会额外造成1次等同于其自身#4[i]%攻击力的物理属性附加伤害，该伤害暴击率固定为#5[i]%，暴击伤害固定为#6[i]%。
-处于【协奏】状态时，知更鸟免疫控制类负面状态，【协奏】状态结束前不会进入自己的回合且无法行动。
 行动序列上出现【协奏】倒计时，倒计时回合开始时知更鸟退出【协奏】状态并立即行动，倒计时固定拥有#2[i]点速度。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 15.2% | 90 | 50 | 72% | 100% | 150% |
@@ -159,7 +158,7 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
   | Lv.14 | 25.84% | 90 | 260 | 139.2% | 100% | 150% |
   | Lv.15 | 26.6% | 90 | 275 | 144% | 100% | 150% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`点 → 参数2：上下文「行动，倒计时固定拥有___点速度。」
   - `#3[i]`点 → 参数3：上下文「力的#1[f1]%+___点，且我方目标每次」
@@ -167,21 +166,19 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
   - `#5[i]`% → 参数5(%)：上下文「，该伤害暴击率固定为___%，暴击伤害固定为」
   - `#6[i]`% → 参数6(%)：上下文「]%，暴击伤害固定为___%。 处于【协奏】」
 
-- **满级效果**：Robin enters the "Concerto" state and makes all teammates (i.e., excluding this unit) immediately take action.
+- **Max Effect**：Robin enters the "Concerto" state and makes all teammates (i.e., excluding this unit) immediately take action.
 While in the "Concerto" state, increases all allies' ATK by #1[f1]% of Robin's ATK plus 275. Moreover, after every attack by ally targets, Robin deals Physical Additional DMG equal to 144% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at 100% and fixed CRIT DMG set at 150%.
 While in the "Concerto" state, Robin is immune to Crowd Control debuffs and cannot enter her turn or take action until the "Concerto" state ends.
 A "Concerto" countdown appears in the Action Order. When the countdown's turn begins, Robin exits the "Concerto" state and immediately takes action. The countdown has its own fixed SPD of 90.
 处于【协奏】状态时，我方全体攻击力提高，提高数值等同于知更鸟攻击力的#1[f1]%+275点，且我方目标每次施放攻击后，知更鸟会额外造成1次等同于其自身144%攻击力的物理属性附加伤害，该伤害暴击率固定为100%，暴击伤害固定为150%。
-处于【协奏】状态时，知更鸟免疫控制类负面状态，【协奏】状态结束前不会进入自己的回合且无法行动。
-行动序列上出现【协奏】倒计时，倒计时回合开始时知更鸟退出【协奏】状态并立即行动，倒计时固定拥有90点速度。
 
 ### Talent：Tonal Resonance
-- **类型**：Talent
-- **简述**：Increase all allies' CRIT DMG. After an ally target attacks the enemy, Robin additionally regenerates Energy.
-- **最大等级**：15
-- **效果模板**：Increase all allies' CRIT DMG by #1[f1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates #2[i] Energy for herself.
+- **Type**：Talent
+- **Summary**：Increase all allies' CRIT DMG. After an ally target attacks the enemy, Robin additionally regenerates Energy.
+- **Max Level**：15
+- **Effect Template**：Increase all allies' CRIT DMG by #1[f1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates #2[i] Energy for herself.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 5% | 2 |
@@ -200,28 +197,28 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
   | Lv.14 | 26% | 2 |
   | Lv.15 | 27.5% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`点 → 参数2：上下文「知更鸟额外为自身恢复___点能量。」
 
-- **满级效果**：Increase all allies' CRIT DMG by #1[f1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates 2 Energy for herself.
+- **Max Effect**：Increase all allies' CRIT DMG by #1[f1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates 2 Energy for herself.
 
 ### Technique：Overture of Inebriation
-- **类型**：Technique
-- **简述**：Creates a Special Dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.
-- **最大等级**：1
-- **效果模板**：After using Technique, creates a Special Dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates a Special Dimension around the character that lasts for #1[i] seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates #2[i] Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 15 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「，在自身周围展开持续___秒的特殊领域，处于」
   - `#2[i]`点 → 参数2：上下文「波次开始时知更鸟恢复___点能量。我方制造的」
 
-- **满级效果**：After using Technique, creates a Special Dimension around the character that lasts for 15 seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates 5 Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.
+- **Max Effect**：After using Technique, creates a Special Dimension around the character that lasts for 15 seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates 5 Energy at the start of each wave. Only 1 Dimension Effect created by allies can exist at the same time.
 
 ## Trace Bonuses
 
@@ -282,31 +279,31 @@ A "Concerto" countdown appears in the Action Order. When the countdown's turn be
 
 ### [[zh_cn/lightcone/同谐/夜色流光溢彩.md|Flowing Nightglow]]
 
-- **基础属性**：生952 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：抚慰
-- **效果**：我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高【3.0%/3.5%/4.0%/4.5%/5.0%】，最多叠加5层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高【48%/60%/72%/84%/96%】，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续1回合。
+- **Base Stats**：HP952 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Pacify
+- **Effect**：Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer's Energy Regeneration Rate by #1[f1]%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer's ATK by 48% and increases all allies' DMG dealt by 24%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/为了明日的旅途.md|For Tomorrow's Journey]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：联结
-- **效果**：使装备者的攻击力提高【16%/20%/24%/28%/32%】。装备者施放终结技后，造成的伤害提高【18%/21%/24%/27%/30%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Bonds
+- **Effect**：Increases the wearer's ATK by 16%. After the wearer uses their Ultimate, increases their DMG dealt by 18%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/轮契.md|Meshing Cogs]]
 
-- **基础属性**：生846 攻317 防264
-- **推荐度**：★★★
-- **技能名**：速决
-- **效果**：使装备者施放攻击或受到攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
+- **Base Stats**：HP846 ATK317 DEF264
+- **Rating**：★★★
+- **Skill Name**：Fleet Triumph
+- **Effect**：After the wearer uses attacks or gets hit, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
 ## Recommended Teams
 

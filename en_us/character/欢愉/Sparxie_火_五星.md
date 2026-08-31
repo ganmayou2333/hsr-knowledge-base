@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Cat Got Your Flametongue?
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Sparxie's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Sparxie's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于火花___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Sparxie's ATK to one designated enemy.
 
 ### Skill：Boom! Sparxicle's Poppin'
-- **类型**：Skill
-- **简述**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. "Engagement Farming" can be triggered repeatedly during this ability.
-- **最大等级**：15
-- **效果模板**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. During this ability, "Engagement Farming" can be triggered repeatedly, up to #1[i] time(s). Using this ability is not considered as using a Skill.
+- **Type**：Skill
+- **Summary**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. "Engagement Farming" can be triggered repeatedly during this ability.
+- **Max Level**：15
+- **Effect Template**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. During this ability, "Engagement Farming" can be triggered repeatedly, up to #1[i] time(s). Using this ability is not considered as using a Skill.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 20 | 28 | 3 | 7 | 4 |
@@ -122,22 +122,22 @@
   | Lv.14 | 20 | 28 | 3 | 7 | 4 |
   | Lv.15 | 20 | 28 | 3 | 7 | 4 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`次 → 参数1：上下文「互动陷阱】，最多发动___次。施放本技能不视」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
   - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. During this ability, "Engagement Farming" can be triggered repeatedly, up to 20 time(s). Using this ability is not considered as using a Skill.
+- **Max Effect**：Start a livestream to turn Basic ATK into "Bloom! Winner Takes All" and trigger "Engagement Farming" 1 time. During this ability, "Engagement Farming" can be triggered repeatedly, up to 20 time(s). Using this ability is not considered as using a Skill.
 
 ### Ultimate：Party's Wildin' and Camera's Rollin'
-- **类型**：Ultimate
-- **简述**：Gains Punchline. Deals Fire DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Gains #1[i] Punchline point(s). Deals Fire DMG equal to (#3[f1] × Elation + #2[f1]%) of Sparxie's ATK to all enemies.
+- **Type**：Ultimate
+- **Summary**：Gains Punchline. Deals Fire DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Gains #1[i] Punchline point(s). Deals Fire DMG equal to (#3[f1] × Elation + #2[f1]%) of Sparxie's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 2 | 30% | 60% |
@@ -156,24 +156,24 @@
   | Lv.14 | 2 | 58% | 60% |
   | Lv.15 | 2 | 60% | 60% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`个 → 参数1：上下文「获得___个笑点。对敌方全体」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Gains 2 Punchline point(s). Deals Fire DMG equal to (#3[f1] × Elation + #2[f1]%) of Sparxie's ATK to all enemies.
+- **Max Effect**：Gains 2 Punchline point(s). Deals Fire DMG equal to (#3[f1] × Elation + #2[f1]%) of Sparxie's ATK to all enemies.
 
 ### Talent：Sleight of Sparx Hand
-- **类型**：Talent
-- **简述**：While Sparxie holds "Certified Banger," using Enhanced Basic ATK or Ultimate deals Fire Elation DMG to enemies.
-- **最大等级**：15
-- **效果模板**：While Sparxie holds "Certified Banger":
+- **Type**：Talent
+- **Summary**：While Sparxie holds "Certified Banger," using Enhanced Basic ATK or Ultimate deals Fire Elation DMG to enemies.
+- **Max Level**：15
+- **Effect Template**：While Sparxie holds "Certified Banger":
 Using Enhanced Basic ATK deals #3[i]% Fire Elation DMG to one designated enemy, and #4[f1]% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of "Engagement Farming" triggered, the Enhanced Basic ATK deals 1 extra instance of #1[f1]% Fire Elation DMG to 1 random attacked enemy target.
 Using Ultimate deals #2[i]% Fire Elation DMG to all enemies.
 施放强化普攻可对指定敌方单体造成#3[i]%的火属性欢愉伤害，并对其相邻目标造成#4[f1]%的火属性欢愉伤害。且每发动1次【互动陷阱】会使强化普攻攻击时，额外对随机1个受到攻击的敌方目标造成1次#1[f1]%的火属性欢愉伤害。
 施放终结技可对敌方全体造成#2[i]%的火属性欢愉伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 10% | 24% | 20% | 10% |
@@ -192,39 +192,37 @@ Using Ultimate deals #2[i]% Fire Elation DMG to all enemies.
   | Lv.14 | 24% | 57.6% | 48% | 24% |
   | Lv.15 | 25% | 60% | 50% | 25% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「结技可对敌方全体造成___%的火属性欢愉伤害」
   - `#3[i]`% → 参数3(%)：上下文「可对指定敌方单体造成___%的火属性欢愉伤害」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：While Sparxie holds "Certified Banger":
+- **Max Effect**：While Sparxie holds "Certified Banger":
 Using Enhanced Basic ATK deals 50% Fire Elation DMG to one designated enemy, and #4[f1]% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of "Engagement Farming" triggered, the Enhanced Basic ATK deals 1 extra instance of #1[f1]% Fire Elation DMG to 1 random attacked enemy target.
 Using Ultimate deals 60% Fire Elation DMG to all enemies.
 施放强化普攻可对指定敌方单体造成50%的火属性欢愉伤害，并对其相邻目标造成#4[f1]%的火属性欢愉伤害。且每发动1次【互动陷阱】会使强化普攻攻击时，额外对随机1个受到攻击的敌方目标造成1次#1[f1]%的火属性欢愉伤害。
-施放终结技可对敌方全体造成60%的火属性欢愉伤害。
 
 ### Technique：Content Monetization
-- **类型**：Technique
-- **简述**：Inflicts "Block" on all enemies within a set area. After entering combat via attacking a "Blocked" enemy, deals minor Fire DMG to all enemies and recovers Skill Points.
-- **最大等级**：1
-- **效果模板**：After using the Technique, inflicts enemies within a set area with "Block" for #3[i] second(s). "Blocked" enemies cannot detect ally targets.
+- **Type**：Technique
+- **Summary**：Inflicts "Block" on all enemies within a set area. After entering combat via attacking a "Blocked" enemy, deals minor Fire DMG to all enemies and recovers Skill Points.
+- **Max Level**：1
+- **Effect Template**：After using the Technique, inflicts enemies within a set area with "Block" for #3[i] second(s). "Blocked" enemies cannot detect ally targets.
 After entering combat via actively attacking a "Blocked" enemy, deals Fire DMG to all enemies equal to #2[i]% of Sparxie's ATK and recovers #1[i] Skill Point(s) for allies.
 若主动攻击陷入【拉黑】状态的敌人，进入战斗后，对敌方全体造成等同于火花#2[i]%攻击力的火属性伤害，并为我方恢复#1[i]个战技点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 2 | 50% | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`个 → 参数1：上下文「性伤害，并为我方恢复___个战技点。」
   - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于火花___%攻击力的火属性伤」
   - `#3[i]`秒 → 参数3：上下文「一定区域内的敌人陷入___秒的【拉黑】状态，」
 
-- **满级效果**：After using the Technique, inflicts enemies within a set area with "Block" for 10 second(s). "Blocked" enemies cannot detect ally targets.
+- **Max Effect**：After using the Technique, inflicts enemies within a set area with "Block" for 10 second(s). "Blocked" enemies cannot detect ally targets.
 After entering combat via actively attacking a "Blocked" enemy, deals Fire DMG to all enemies equal to 50% of Sparxie's ATK and recovers 2 Skill Point(s) for allies.
-若主动攻击陷入【拉黑】状态的敌人，进入战斗后，对敌方全体造成等同于火花50%攻击力的火属性伤害，并为我方恢复2个战技点。
 
 ## Trace Bonuses
 
@@ -284,24 +282,24 @@ After entering combat via actively attacking a "Blocked" enemy, deals Fire DMG t
 
 ### [[zh_cn/lightcone/欢愉/花花世界迷人眼.md|Dazzled by a Flowery World]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：瞩目
-- **效果**：使装备者的暴击伤害提高【48%/56%/64%/72%/80%】。装备者在场时，队伍中每有1名「欢愉」命途的角色，战技点上限提高1点，最多提高3点；装备者每消耗1个战技点使自身造成的欢愉伤害无视敌方目标【5%/6%/7%/8%/9%】的防御力，最多叠加4层，若在同一回合内消耗大于等于4个战技点则使装备者获得【推流】。装备者持有【推流】时，我方全体欢愉度提高【20%/24%/28%/32%/36%】。同类光锥效果无法叠加。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Center of Attention
+- **Effect**：Increases the wearer's CRIT DMG by 48%. While the wearer is on the field, for every 1 Elation character in the team, increases the Skill Point upper limit by 1, up to a max increase of 3. For every 1 Skill Point the wearer consumes, enables the Elation DMG dealt by this unit to ignore #6[f1]% of enemy targets' DEF, stacking up to 4 times. If 4 or more Skill Points are consumed in the same turn, the wearer gains "Stream Promo," which increases all allies' Elation by 20%. Light Cone effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
 
-- **基础属性**：生953 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：憧憬
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
+- **Base Stats**：HP953 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Decision
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses an Elation Skill, increases Elation by 12%, stacking up to 2 times.
 
 ### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
 
-- **基础属性**：生847 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：乱斗
-- **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
+- **Base Stats**：HP847 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Rumble
+- **Effect**：Increases the wearer's Elation by 12%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by 6% for 2 turn(s).
 
 ## Recommended Teams
 

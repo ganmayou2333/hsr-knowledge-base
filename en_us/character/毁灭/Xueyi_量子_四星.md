@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Mara-Sunder Awl
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals #1[i]% of Xueyi's ATK as Quantum DMG to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals #1[i]% of Xueyi's ATK as Quantum DMG to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于雪衣___%攻击力的量子属性」
 
-- **满级效果**：Deals 140% of Xueyi's ATK as Quantum DMG to one designated enemy target.
+- **Max Effect**：Deals 140% of Xueyi's ATK as Quantum DMG to one designated enemy target.
 
 ### Skill：Iniquity Obliteration
-- **类型**：Skill
-- **简述**：Deals Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.
-- **最大等级**：15
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Xueyi's ATK to any adjacent enemies.
+- **Type**：Skill
+- **Summary**：Deals Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.
+- **Max Level**：15
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Xueyi's ATK to any adjacent enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 70% | 35% |
@@ -122,21 +122,21 @@
   | Lv.14 | 168% | 84% |
   | Lv.15 | 175% | 87.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于雪衣___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于雪衣___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 175% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to 87.5% of Xueyi's ATK to any adjacent enemies.
+- **Max Effect**：Deals Quantum DMG equal to 175% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to 87.5% of Xueyi's ATK to any adjacent enemies.
 
 ### Ultimate：Divine Castigation
-- **类型**：Ultimate
-- **简述**：Deals massive Quantum DMG to one enemy. This attack ignores Weakness Types and reduces the target's Toughness. The more Toughness is reduced, the higher the DMG will be dealt.
-- **最大等级**：15
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy target. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.
+- **Type**：Ultimate
+- **Summary**：Deals massive Quantum DMG to one enemy. This attack ignores Weakness Types and reduces the target's Toughness. The more Toughness is reduced, the higher the DMG will be dealt.
+- **Max Level**：15
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy target. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.
 In this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of #3[f1]% increase.
 在本次攻击中，削减的韧性越多，造成的伤害越高，最多提高#3[f1]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 150% | 9% | 36% |
@@ -155,26 +155,26 @@ In this attack, the more Toughness is reduced, the higher the DMG will be dealt,
   | Lv.14 | 290% | 17.4% | 69.6% |
   | Lv.15 | 300% | 18% | 72% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于雪衣___%攻击力的量子属性」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Deals Quantum DMG equal to 300% of Xueyi's ATK to one designated enemy target. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.
+- **Max Effect**：Deals Quantum DMG equal to 300% of Xueyi's ATK to one designated enemy target. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.
 In this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of #3[f1]% increase.
 在本次攻击中，削减的韧性越多，造成的伤害越高，最多提高#3[f1]%。
 
 ### Talent：Karmic Perpetuation
-- **类型**：Talent
-- **简述**：When Xueyi or her teammates reduce enemy Toughness with attacks, she gains stacks of "Karma." When "Karma" reaches the max number of stacks, immediately launches Follow-Up ATK, dealing minor Quantum DMG to one enemy target, bouncing for 3 times and consuming all "Karma."
-- **最大等级**：15
-- **效果模板**：When Xueyi reduces enemy Toughness with attacks, "Karma" will be stacked. The more Toughness is reduced, the more stacks of "Karma" are added, up to #1[i] stacks.
+- **Type**：Talent
+- **Summary**：When Xueyi or her teammates reduce enemy Toughness with attacks, she gains stacks of "Karma." When "Karma" reaches the max number of stacks, immediately launches Follow-Up ATK, dealing minor Quantum DMG to one enemy target, bouncing for 3 times and consuming all "Karma."
+- **Max Level**：15
+- **Effect Template**：When Xueyi reduces enemy Toughness with attacks, "Karma" will be stacked. The more Toughness is reduced, the more stacks of "Karma" are added, up to #1[i] stacks.
 When Xueyi's teammates reduce enemy Toughness with attacks, Xueyi gains #3[i] stack(s) of "Karma."
 When "Karma" reaches the max number of stacks, consumes all current "Karma" stacks and immediately launches Follow-Up ATK against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to #2[i]% of Xueyi's ATK to a single random enemy. This Follow-Up ATK will not add "Karma" stacks.
 当雪衣的队友施放攻击削减敌方韧性后，雪衣叠加#3[i]层【恶报】。
 当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣#2[i]%攻击力的量子属性伤害。本次追加攻击无法叠加【恶报】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 8 | 45% | 1 |
@@ -193,32 +193,30 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
   | Lv.14 | 8 | 108% | 1 |
   | Lv.15 | 8 | 112.5% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`层 → 参数1：上下文「】层数越多，可以叠加___层。 当雪衣的队友」
   - `#2[i]`% → 参数2(%)：上下文「机单体造成等同于雪衣___%攻击力的量子属性」
   - `#3[i]`层 → 参数3：上下文「敌方韧性后，雪衣叠加___层【恶报】。 当【」
 
-- **满级效果**：When Xueyi reduces enemy Toughness with attacks, "Karma" will be stacked. The more Toughness is reduced, the more stacks of "Karma" are added, up to 8 stacks.
+- **Max Effect**：When Xueyi reduces enemy Toughness with attacks, "Karma" will be stacked. The more Toughness is reduced, the more stacks of "Karma" are added, up to 8 stacks.
 When Xueyi's teammates reduce enemy Toughness with attacks, Xueyi gains 1 stack(s) of "Karma."
 When "Karma" reaches the max number of stacks, consumes all current "Karma" stacks and immediately launches Follow-Up ATK against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to 112.5% of Xueyi's ATK to a single random enemy. This Follow-Up ATK will not add "Karma" stacks.
-当雪衣的队友施放攻击削减敌方韧性后，雪衣叠加1层【恶报】。
-当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣112.5%攻击力的量子属性伤害。本次追加攻击无法叠加【恶报】。
 
 ### Technique：Summary Execution
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor Quantum DMG to all enemies.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering combat, deals #1[i]% of Xueyi's ATK as Quantum DMG to all enemies.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor Quantum DMG to all enemies.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering combat, deals #1[i]% of Xueyi's ATK as Quantum DMG to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于雪衣___%攻击力的量子属性」
 
-- **满级效果**：Immediately attacks the enemy. After entering combat, deals 80% of Xueyi's ATK as Quantum DMG to all enemies.
+- **Max Effect**：Immediately attacks the enemy. After entering combat, deals 80% of Xueyi's ATK as Quantum DMG to all enemies.
 
 ## Trace Bonuses
 
@@ -279,38 +277,38 @@ When "Karma" reaches the max number of stacks, consumes all current "Karma" stac
 
 ### [[zh_cn/lightcone/毁灭/梦应归于何处.md|Whereabouts Should Dreams Rest]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：蜕变
-- **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。当装备者对敌方目标造成击破伤害时，使敌方陷入【溃败】状态，持续2回合。【溃败】状态下目标受到装备者造成的击破伤害提高【24.0%/28.0%/32.0%/36.0%/40.0%】，速度降低20%，同类效果无法叠加。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Metamorphosis
+- **Effect**：Increases the wearer's Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turn(s). Targets afflicted with Routed receive #2[f1]% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the same type cannot be stacked.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|Brighter Than the Sun]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：抵死
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】 最多叠加2层。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Defiant Till Death
+- **Effect**：Increases the wearer's CRIT Rate by 18%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call, lasting for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by 18% and Energy Regeneration Rate by #5[f1]%. Dragon's Call can be stacked up to 2 times.
 
 ### [[zh_cn/lightcone/毁灭/在蓝天下.md|Under the Blue Sky]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：暖阳麦浪
-- **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，消灭敌方目标后，暴击率提高【12%/15%/18%/21%/24%】，持续3回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Rye Under the Sun
+- **Effect**：Increases the wearer's ATK by 16%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12% for 3 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
-- **基础属性**：生1054 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：奇妙冒险
-- **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1054 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Fantastic Adventure
+- **Effect**：When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12%.
 
 ## Recommended Teams
 

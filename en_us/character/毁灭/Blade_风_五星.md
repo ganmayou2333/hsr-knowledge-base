@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Shard Sword
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Blade's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Blade's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,24 +92,22 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「敌方单体造成等同于刃___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 140% of Blade's Max HP to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 140% of Blade's Max HP to one designated enemy.
 
 ### Skill：Hellscape
-- **类型**：Skill
-- **简述**：Consumes HP to enhance Basic ATK. Increases the chance of getting attacked. And this turn does not end after this Skill is used.
-- **最大等级**：15
-- **效果模板**：Consumes HP equal to #1[i]% of Blade's Max HP to enter the "Hellscape" state.
+- **Type**：Skill
+- **Summary**：Consumes HP to enhance Basic ATK. Increases the chance of getting attacked. And this turn does not end after this Skill is used.
+- **Max Level**：15
+- **Effect Template**：Consumes HP equal to #1[i]% of Blade's Max HP to enter the "Hellscape" state.
 While "Hellscape" is active, his Skill cannot be used, his DMG dealt increases by #4[i]%, his chance of getting attacked by enemy targets greatly increases, and his Basic ATK "Shard Sword" is enhanced to "Forest of Swords" for #2[i] turn(s).
 If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill.
 This Skill does not regenerate Energy. Using this Skill does not end the current turn.
 处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高#4[i]%，普攻【支离剑】强化为【无间剑树】，持续#2[i]回合。
-若当前生命值不足，施放战技时刃的当前生命值降低至1点。
-该战技无法恢复能量。施放该战技后，本回合不会结束。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 30% | 3 | 1 | 12% |
@@ -128,29 +126,26 @@ This Skill does not regenerate Energy. Using this Skill does not end the current
   | Lv.14 | 30% | 3 | 1 | 51.2% |
   | Lv.15 | 30% | 3 | 1 | 54% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「消耗等同于刃生命上限___%的生命值，进入【」
   - `#2[i]`回 → 参数2：上下文「为【无间剑树】，持续___回合。 若当前生命」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`% → 参数4(%)：上下文「使自身造成的伤害提高___%，普攻【支离剑】」
 
-- **满级效果**：Consumes HP equal to 30% of Blade's Max HP to enter the "Hellscape" state.
+- **Max Effect**：Consumes HP equal to 30% of Blade's Max HP to enter the "Hellscape" state.
 While "Hellscape" is active, his Skill cannot be used, his DMG dealt increases by 54%, his chance of getting attacked by enemy targets greatly increases, and his Basic ATK "Shard Sword" is enhanced to "Forest of Swords" for 3 turn(s).
 If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill.
 This Skill does not regenerate Energy. Using this Skill does not end the current turn.
-处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高54%，普攻【支离剑】强化为【无间剑树】，持续3回合。
-若当前生命值不足，施放战技时刃的当前生命值降低至1点。
-该战技无法恢复能量。施放该战技后，本回合不会结束。
 
 ### Ultimate：Death Sentence
-- **类型**：Ultimate
-- **简述**：Sets current HP to 50% of Max HP. Deals massive Wind DMG to one enemy and Wind DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to #1[i]% of his Max HP plus #5[i]% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to #3[f1]% of his Max HP plus #6[i]% of the tally of his HP loss in the current battle.
+- **Type**：Ultimate
+- **Summary**：Sets current HP to 50% of Max HP. Deals massive Wind DMG to one enemy and Wind DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to #1[i]% of his Max HP plus #5[i]% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to #3[f1]% of his Max HP plus #6[i]% of the tally of his HP loss in the current battle.
 The tally of Blade's HP loss in the current battle is capped at #7[i]% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.
 本场战斗中累计已损失生命值最高不超过刃生命上限的#7[i]%，施放终结技后会清空并进行重新累计。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) | 参数6(%) | 参数7(%) |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 24% | 60% | 9.6% | 24% | 60% | 24% | 90% |
@@ -169,7 +164,7 @@ The tally of Blade's HP loss in the current battle is capped at #7[i]% of his Ma
   | Lv.14 | 46.4% | 116% | 18.56% | 46.4% | 116% | 46.4% | 90% |
   | Lv.15 | 48% | 120% | 19.2% | 48% | 120% | 48% | 90% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「敌方单体造成等同于刃___%攻击力+#2[i」
   - `#2[i]`% → 参数2(%)：上下文「#1[i]%攻击力+___%生命上限+#5[」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -178,19 +173,18 @@ The tally of Blade's HP loss in the current battle is capped at #7[i]% of his Ma
   - `#6[i]`% → 参数6(%)：上下文「4[i]%生命上限+___%本场战斗中累计已」
   - `#7[i]`% → 参数7(%)：上下文「高不超过刃生命上限的___%，施放终结技后会」
 
-- **满级效果**：Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to 48% of his Max HP plus 120% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to #3[f1]% of his Max HP plus 48% of the tally of his HP loss in the current battle.
+- **Max Effect**：Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to 48% of his Max HP plus 120% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to #3[f1]% of his Max HP plus 48% of the tally of his HP loss in the current battle.
 The tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.
-本场战斗中累计已损失生命值最高不超过刃生命上限的90%，施放终结技后会清空并进行重新累计。
 
 ### Talent：Shuhu's Gift
-- **类型**：Talent
-- **简述**：When Blade's HP decreases, gains 1 stack of Charge. Upon reaching maximum Charge, launches Follow-Up ATK, dealing Wind DMG to all enemies, restoring HP, and consuming all Charges.
-- **最大等级**：15
-- **效果模板**：When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.
+- **Type**：Talent
+- **Summary**：When Blade's HP decreases, gains 1 stack of Charge. Upon reaching maximum Charge, launches Follow-Up ATK, dealing Wind DMG to all enemies, restoring HP, and consuming all Charges.
+- **Max Level**：15
+- **Effect Template**：When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.
 When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up ATK on all enemies, dealing Wind DMG equal to #2[i]% of Blade's Max HP. At the same time, restores Blade's HP by #3[i]% of his Max HP. After the Follow-Up ATK, all Charges are consumed.
 当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃#2[i]%攻击力+#4[i]%生命上限的风属性伤害并回复等同于刃生命上限#3[i]%的生命值，施放追加攻击后，消耗所有充能。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 3 | 22% | 25% | 55% |
@@ -209,36 +203,33 @@ When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up 
   | Lv.14 | 3 | 52.8% | 25% | 132% |
   | Lv.15 | 3 | 55% | 25% | 137.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「加攻击，造成等同于刃___%攻击力+#4[i」
   - `#3[i]`% → 参数3(%)：上下文「回复等同于刃生命上限___%的生命值，施放追」
   - `#4[i]`% → 参数4(%)：上下文「#2[i]%攻击力+___%生命上限的风属性」
 
-- **满级效果**：When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.
+- **Max Effect**：When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.
 When Charge stack reaches maximum, immediately launches 1 instance of Follow-Up ATK on all enemies, dealing Wind DMG equal to 55% of Blade's Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the Follow-Up ATK, all Charges are consumed.
-当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃55%攻击力+137.5%生命上限的风属性伤害并回复等同于刃生命上限25%的生命值，施放追加攻击后，消耗所有充能。
 
 ### Technique：Karma Wind
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering combat, consumes own HP and deals Wind DMG to all enemies.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering combat, consumes #2[i]% of Blade's Max HP while dealing Wind DMG equal to #1[i]% of his Max HP to all enemies.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering combat, consumes own HP and deals Wind DMG to all enemies.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering combat, consumes #2[i]% of Blade's Max HP while dealing Wind DMG equal to #1[i]% of his Max HP to all enemies.
 If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.
-若当前生命值不足，施放秘技时刃的当前生命值降低至1点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 40% | 20% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于刃生命上限___%的风属性伤害。」
   - `#2[i]`% → 参数2(%)：上下文「消耗等同于刃生命上限___%的生命值，同时对」
 
-- **满级效果**：Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies.
+- **Max Effect**：Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies.
 If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.
-若当前生命值不足，施放秘技时刃的当前生命值降低至1点。
 
 ## Trace Bonuses
 
@@ -299,31 +290,31 @@ If Blade's current HP is insufficient, his HP will be reduced to 1 when this Tec
 
 ### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|The Unreachable Side]]
 
-- **基础属性**：生1270 攻582 防330
-- **推荐度**：★★★★★
-- **技能名**：不得
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】，生命上限提高【18%/21%/24%/27%/30%】。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高【24%/28%/32%/36%/40%】，该效果在装备者施放攻击后解除。
+- **Base Stats**：HP1270 ATK582 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Unfulfilled Yearning
+- **Effect**：Increases the wearer's CRIT Rate by 18% and increases their Max HP by 18%. When the wearer is attacked or consumes their own HP, their DMG increases by 24%. This effect is removed after the wearer uses an attack.
 
 ### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：竭力而为
-- **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比大于等于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Spare No Effort
+- **Effect**：Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ### [[zh_cn/lightcone/毁灭/忍事录•音律狩猎.md|Ninja Record Sound Hunt]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：开演！
-- **效果**：使装备者的生命上限提高【12%/15%/18%/21%/24%】，损失或回复自身生命值后，暴击伤害提高【18.0%/22.5%/27.0%/31.5%/36.0%】，持续2回合，该效果每回合只可触发1次。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Curtains Up!
+- **Effect**：Increases the wearer's Max HP by 12%. When losing or restoring this unit's HP, increases CRIT DMG by 18%, lasting for 2 turn(s). This effect can only trigger once per turn.
 
 ## Recommended Teams
 

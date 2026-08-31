@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Thorned Nectar
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Aglaea's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Aglaea's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 1 |
@@ -94,19 +94,19 @@
   | Lv.9 | 130% | 1 |
   | Lv.10 | 140% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于阿格莱雅___%攻击力的雷属性伤」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Deals Lightning DMG equal to 140% of Aglaea's ATK to one designated enemy.
+- **Max Effect**：Deals Lightning DMG equal to 140% of Aglaea's ATK to one designated enemy.
 
 ### Skill：Rise, Exalted Renown
-- **类型**：Skill
-- **简述**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
-- **最大等级**：15
-- **效果模板**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
+- **Type**：Skill
+- **Summary**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
+- **Max Level**：15
+- **Effect Template**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 25% | 0 | 5 |
@@ -125,24 +125,24 @@
   | Lv.14 | 60% | 0 | 5 |
   | Lv.15 | 62.5% | 0 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「为衣匠回复等同于其___%生命上限的生命值」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
+- **Max Effect**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
 
 ### Ultimate：Dance, Destined Weaveress
-- **类型**：Ultimate
-- **简述**：Summons the memosprite Garmentmaker, enabling Aglaea to enter the "Supreme Stance" state, immediately take action, and gain Enhanced Basic ATK.
-- **最大等级**：15
-- **效果模板**：Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the "Supreme Stance" state and immediately takes action.
+- **Type**：Ultimate
+- **Summary**：Summons the memosprite Garmentmaker, enabling Aglaea to enter the "Supreme Stance" state, immediately take action, and gain Enhanced Basic ATK.
+- **Max Level**：15
+- **Effect Template**：Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the "Supreme Stance" state and immediately takes action.
 While in "Supreme Stance," Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing this unit's SPD by #1[f1]%. Enhances Basic ATK to "Slash by a Thousandfold Kiss," and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.
 A countdown appears in the Action Order, with its own SPD set at #4[i]. While the countdown exists, using Ultimate again will reset the countdown. When the countdown's turn starts, Garmentmaker self-destructs. When Garmentmaker disappears, Aglaea dispels the "Supreme Stance" state.
 【至高之姿】状态下，阿格莱雅获得衣匠忆灵天赋的速度提高层数，每层使自身速度提高#1[f1]%，普通攻击强化为【孤锋千吻】并且无法施放战技，衣匠免疫控制类负面状态。
 行动序列上出现倒计时，倒计时固定拥有#4[i]速度，倒计时存在期间再次施放终结技将重置倒计时，回合开始时使衣匠自毁。衣匠消失时阿格莱雅解除【至高之姿】状态。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 10% | 0 | 0 | 100 | 0 | 0 |
@@ -161,7 +161,7 @@ A countdown appears in the Action Order, with its own SPD set at #4[i]. While th
   | Lv.14 | 17% | 0 | 0 | 100 | 0 | 0 |
   | Lv.15 | 17.5% | 0 | 0 | 100 | 0 | 0 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -169,19 +169,18 @@ A countdown appears in the Action Order, with its own SPD set at #4[i]. While th
   - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
   - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the "Supreme Stance" state and immediately takes action.
+- **Max Effect**：Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the "Supreme Stance" state and immediately takes action.
 While in "Supreme Stance," Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing this unit's SPD by #1[f1]%. Enhances Basic ATK to "Slash by a Thousandfold Kiss," and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.
 A countdown appears in the Action Order, with its own SPD set at 100. While the countdown exists, using Ultimate again will reset the countdown. When the countdown's turn starts, Garmentmaker self-destructs. When Garmentmaker disappears, Aglaea dispels the "Supreme Stance" state.
 【至高之姿】状态下，阿格莱雅获得衣匠忆灵天赋的速度提高层数，每层使自身速度提高#1[f1]%，普通攻击强化为【孤锋千吻】并且无法施放战技，衣匠免疫控制类负面状态。
-行动序列上出现倒计时，倒计时固定拥有100速度，倒计时存在期间再次施放终结技将重置倒计时，回合开始时使衣匠自毁。衣匠消失时阿格莱雅解除【至高之姿】状态。
 
 ### Talent：Rosy-Fingered
-- **类型**：Talent
-- **简述**：While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, deals minor Lightning Additional DMG.
-- **最大等级**：15
-- **效果模板**：The memosprite Garmentmaker has an initial SPD equal to #4[i]% of Aglaea's SPD and a Max HP equal to #5[i]% of Aglaea's Max HP plus #6[i]. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to #1[i]% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
+- **Type**：Talent
+- **Summary**：While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, deals minor Lightning Additional DMG.
+- **Max Level**：15
+- **Effect Template**：The memosprite Garmentmaker has an initial SPD equal to #4[i]% of Aglaea's SPD and a Max HP equal to #5[i]% of Aglaea's Max HP plus #6[i]. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to #1[i]% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 12% | 0 | 0 | 35% | 44% | 180 |
@@ -200,7 +199,7 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
   | Lv.14 | 37.2% | 0 | 0 | 35% | 74.8% | 936 |
   | Lv.15 | 39% | 0 | 0 | 35% | 77% | 990 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「等同于阿格莱雅攻击力___%的雷属性附加伤害」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -208,24 +207,24 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
   - `#5[i]`% → 参数5(%)：上下文「度以及等同于阿格莱雅___%生命上限+#6[」
   - `#6[i]`的 → 参数6：上下文「5[i]%生命上限+___的生命上限。衣匠在」
 
-- **满级效果**：The memosprite Garmentmaker has an initial SPD equal to 35% of Aglaea's SPD and a Max HP equal to 77% of Aglaea's Max HP plus 990. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to 39% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
+- **Max Effect**：The memosprite Garmentmaker has an initial SPD equal to 35% of Aglaea's SPD and a Max HP equal to 77% of Aglaea's Max HP plus 990. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to 39% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
 
 ### Technique：Meteoric Sunder
-- **类型**：Technique
-- **简述**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates Energy and deals minor Lightning DMG to all enemies. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
-- **最大等级**：1
-- **效果模板**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates #2[i] Energy and deals Lightning DMG equal to #1[i]% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
+- **Type**：Technique
+- **Summary**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates Energy and deals minor Lightning DMG to all enemies. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
+- **Max Level**：1
+- **Effect Template**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates #2[i] Energy and deals Lightning DMG equal to #1[i]% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 100% | 30 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「标造成等同于阿格莱雅___%攻击力的雷属性伤」
   - `#2[i]`点 → 参数2：上下文「击，进入战斗后，恢复___点能量，并对敌方全」
 
-- **满级效果**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates 30 Energy and deals Lightning DMG equal to 100% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
+- **Max Effect**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates 30 Energy and deals Lightning DMG equal to 100% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
 
 ## Trace Bonuses
 
@@ -286,24 +285,24 @@ A countdown appears in the Action Order, with its own SPD set at 100. While the 
 
 ### [[zh_cn/lightcone/记忆/将光阴织成黄金.md|Time Woven Into Gold]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：创设
-- **效果**：使装备者的基础速度提高【12/14/16/18/20】，装备者和装备者的忆灵在攻击后使装备者获得1层【织锦】，每层【织锦】使装备者和装备者的忆灵暴击伤害提高【9%/10.5%/12%/13.5%/15%】，最多叠加6层。叠加至上限时，每层【织锦】额外使造成的普攻伤害提高【9%/10.5%/12%/13.5%/15%】。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Establishment
+- **Effect**：Increases the wearer's base SPD by 12. After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of "Brocade." Each stack of "Brocade" increases the wearer's and their memosprite's CRIT DMG by #4[f1]%, stacking up to 6 time(s). When reaching maximum stacks, each "Brocade" stack additionally increases Basic ATK DMG dealt by #3[f1]%.
 
 ### [[zh_cn/lightcone/记忆/天才们的问候.md|Geniuses' Greetings]]
 
-- **基础属性**：生953 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：恭喜
-- **效果**：使装备者的攻击力提高【16%/20%/24%/28%/32%】，装备者施放终结技后，使装备者与忆灵造成的普攻伤害提高【20%/25%/30%/35%/40%】，持续3回合。
+- **Base Stats**：HP953 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Congratulations
+- **Effect**：Increases the wearer's ATK by 16%. After the wearer uses Ultimate, increases the Basic ATK DMG dealt by the wearer and their memosprite by 20%, lasting for 3 turn(s).
 
 ### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|Sweat Now, Cry Less]]
 
-- **基础属性**：生1058 攻529 防198
-- **推荐度**：★★★★
-- **技能名**：来练！
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】，装备者的忆灵在场上时，装备者与忆灵造成的伤害提高【24%/27%/30%/33%/36%】。
+- **Base Stats**：HP1058 ATK529 DEF198
+- **Rating**：★★★★
+- **Skill Name**：Come Train!
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer's memosprite is on the field, increases the DMG dealt by the wearer and their memosprite by 24%.
 
 ## Recommended Teams
 

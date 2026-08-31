@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Dazzling Blades
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于桑博___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 140% of Sampo's ATK to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 140% of Sampo's ATK to one designated enemy.
 
 ### Skill：Ricochet Love
-- **类型**：Skill
-- **简述**：Deals minor Wind DMG to single enemy targets with 5 Bounces in total.
-- **最大等级**：15
-- **效果模板**：Deals Wind DMG equal to #2[i]% of Sampo's ATK to one designated enemy, and further deals DMG for #1[i] extra time(s), with each time dealing Wind DMG equal to #2[i]% of Sampo's ATK to a random enemy.
+- **Type**：Skill
+- **Summary**：Deals minor Wind DMG to single enemy targets with 5 Bounces in total.
+- **Max Level**：15
+- **Effect Template**：Deals Wind DMG equal to #2[i]% of Sampo's ATK to one designated enemy, and further deals DMG for #1[i] extra time(s), with each time dealing Wind DMG equal to #2[i]% of Sampo's ATK to a random enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 4 | 28% |
@@ -122,19 +122,19 @@
   | Lv.14 | 4 | 67.2% |
   | Lv.15 | 4 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`次 → 参数1：上下文「属性伤害，并额外造成___次伤害，每次伤害对」
   - `#2[i]`% → 参数2(%)：上下文「机单体造成等同于桑博___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 70% of Sampo's ATK to one designated enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 70% of Sampo's ATK to a random enemy.
+- **Max Effect**：Deals Wind DMG equal to 70% of Sampo's ATK to one designated enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 70% of Sampo's ATK to a random enemy.
 
 ### Ultimate：Surprise Present
-- **类型**：Ultimate
-- **简述**：Deals Wind DMG to all enemies, with a high chance to cause increased DoT taken to them.
-- **最大等级**：15
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to all enemies, with a #4[i]% base chance to increase the targets' DoT taken by #2[i]% for #3[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Deals Wind DMG to all enemies, with a high chance to cause increased DoT taken to them.
+- **Max Level**：15
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Sampo's ATK to all enemies, with a #4[i]% base chance to increase the targets' DoT taken by #2[i]% for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 96% | 20% | 2 | 100% |
@@ -153,23 +153,23 @@
   | Lv.14 | 185.6% | 34% | 2 | 100% |
   | Lv.15 | 192% | 35% | 2 | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于桑博___%攻击力的风属性伤」
   - `#2[i]`% → 参数2(%)：上下文「标受到的持续伤害提高___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。」
   - `#4[i]`% → 参数4(%)：上下文「的风属性伤害，同时有___%的基础概率使被攻」
 
-- **满级效果**：Deals Wind DMG equal to 192% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 35% for 2 turn(s).
+- **Max Effect**：Deals Wind DMG equal to 192% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 35% for 2 turn(s).
 
 ### Talent：Windtorn Dagger
-- **类型**：Talent
-- **简述**：After hitting an enemy, there is a chance of inflicting Wind Shear on the target.
-- **最大等级**：15
-- **效果模板**：Sampo's attacks have a #1[i]% base chance to inflict Wind Shear for #3[i] turn(s).
+- **Type**：Talent
+- **Summary**：After hitting an enemy, there is a chance of inflicting Wind Shear on the target.
+- **Max Level**：15
+- **Effect Template**：Sampo's attacks have a #1[i]% base chance to inflict Wind Shear for #3[i] turn(s).
 Enemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to #4[i] time(s).
 风化状态下，敌方目标每回合开始时受到等同于桑博#2[i]%攻击力的风属性持续伤害。风化状态最多叠加#4[i]层。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 65% | 20% | 3 | 5 |
@@ -188,37 +188,35 @@ Enemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's 
   | Lv.14 | 65% | 62.4% | 3 | 5 |
   | Lv.15 | 65% | 65% | 3 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「桑博击中敌方目标后有___%的基础概率使目标」
   - `#2[i]`% → 参数2(%)：上下文「开始时受到等同于桑博___%攻击力的风属性持」
   - `#3[i]`回 → 参数3：上下文「标陷入风化状态，持续___回合。 风化状态下」
   - `#4[i]`层 → 参数4：上下文「害。风化状态最多叠加___层。」
 
-- **满级效果**：Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s).
+- **Max Effect**：Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s).
 Enemies inflicted with Wind Shear will take Wind DoT equal to 65% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).
-风化状态下，敌方目标每回合开始时受到等同于桑博65%攻击力的风属性持续伤害。风化状态最多叠加5层。
 
 ### Technique：Shining Bright
-- **类型**：Technique
-- **简述**：Enemies in a set area are Blinded. When initiating battle against a Blinded enemy, there is a high chance to delay all enemies' actions.
-- **最大等级**：1
-- **效果模板**：After Sampo uses his Technique, enemies in a set area are afflicted with Blind for #1[i] second(s). Blinded enemies cannot detect ally targets.
+- **Type**：Technique
+- **Summary**：Enemies in a set area are Blinded. When initiating battle against a Blinded enemy, there is a high chance to delay all enemies' actions.
+- **Max Level**：1
+- **Effect Template**：After Sampo uses his Technique, enemies in a set area are afflicted with Blind for #1[i] second(s). Blinded enemies cannot detect ally targets.
 When initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.
 若主动攻击陷入目盲状态的敌人，进入战斗时有#2[i]%固定概率使敌方每个单体目标行动延后#3[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 10 | 100% | 25% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的目盲状态，目盲」
   - `#2[i]`% → 参数2(%)：上下文「的敌人，进入战斗时有___%固定概率使敌方每」
   - `#3[i]`% → 参数3(%)：上下文「每个单体目标行动延后___%。」
 
-- **满级效果**：After Sampo uses his Technique, enemies in a set area are afflicted with Blind for 10 second(s). Blinded enemies cannot detect ally targets.
+- **Max Effect**：After Sampo uses his Technique, enemies in a set area are afflicted with Blind for 10 second(s). Blinded enemies cannot detect ally targets.
 When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%.
-若主动攻击陷入目盲状态的敌人，进入战斗时有100%固定概率使敌方每个单体目标行动延后25%。
 
 ## Trace Bonuses
 
@@ -279,38 +277,38 @@ When initiating combat against a Blinded enemy, there is a 100% fixed chance to 
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：回眸
-- **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Glance Back
+- **Effect**：When the wearer hits an enemy and if the hit enemy is not already "Ensnared," then there is a 60% base chance to "Ensnare" the hit enemy. "Ensnared" enemies' DEF decreases by 12% for 1 turn(s).
 
 ### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：传承者
-- **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时，装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Inheritor
+- **Effect**：Increases the wearer's DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.
 
 ### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：自信
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Self-Confidence
+- **Effect**：Increases the wearer's Effect Hit Rate by 20% and increases DoT by 24%.
 
 ### [[zh_cn/lightcone/虚无/延长记号.md|Fermata]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：休止符
-- **效果**：使装备者的击破特攻提高【16%/20%/24%/28%/32%】，对处于触电或风化状态的敌方目标造成的伤害提高【16%/20%/24%/28%/32%】，该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Semibreve Rest
+- **Effect**：Increases the wearer's Break Effect by 16%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 16%. This also applies to DoT.
 
 ## Recommended Teams
 

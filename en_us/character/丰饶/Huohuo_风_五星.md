@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Banner: Stormcaller
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Huohuo's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Huohuo's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -92,18 +92,18 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于藿藿___%生命上限的风属性」
 
-- **满级效果**：Deals Wind DMG equal to 70% of Huohuo's Max HP to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 70% of Huohuo's Max HP to one designated enemy.
 
 ### Skill：Talisman: Protection
-- **类型**：Skill
-- **简述**：Dispels 1 debuff from one ally and restores HP to that ally and their adjacent allies.
-- **最大等级**：15
-- **效果模板**：Dispels #5[i] debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus #2[i]. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #4[i].
+- **Type**：Skill
+- **Summary**：Dispels 1 debuff from one ally and restores HP to that ally and their adjacent allies.
+- **Max Level**：15
+- **Effect Template**：Dispels #5[i] debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus #2[i]. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #4[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 14% | 140 | 11.2% | 112 | 1 |
@@ -122,22 +122,22 @@
   | Lv.14 | 23.8% | 686 | 19.04% | 548.8 | 1 |
   | Lv.15 | 24.5% | 717.5 | 19.6% | 574 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，同时为其」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值。」
   - `#5[i]`个 → 参数5：上下文「解除指定我方单体的___个负面效果，立即为」
 
-- **满级效果**：Dispels 1 debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus 717.5. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus 574.
+- **Max Effect**：Dispels 1 debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus 717.5. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus 574.
 
 ### Ultimate：Tail: Spiritual Domination
-- **类型**：Ultimate
-- **简述**：Regenerates Energy for all teammates (i.e., excluding this unit) and increases their ATK.
-- **最大等级**：15
-- **效果模板**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for #3[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Regenerates Energy for all teammates (i.e., excluding this unit) and increases their ATK.
+- **Max Level**：15
+- **Effect Template**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 15% | 24% | 2 |
@@ -156,22 +156,22 @@
   | Lv.14 | 22% | 46.4% | 2 |
   | Lv.15 | 22.5% | 48% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`回 → 参数3：上下文「#2[f1]%，持续___回合。」
 
-- **满级效果**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for 2 turn(s).
+- **Max Effect**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for 2 turn(s).
 
 ### Talent：Possession: Ethereal Metaflow
-- **类型**：Talent
-- **简述**：Huohuo gains "Divine Provision" after using her Skill or Ultimate. If Huohuo possesses "Divine Provision," when an ally target's turn starts or when an ally uses Ultimate, restores the HP of this unit and an ally target with the lowest HP percentage. Then, every ally target with low HP receives healing once. When "Divine Provision" is triggered to heal an ally target, dispel 1 debuff from that ally.
-- **最大等级**：15
-- **效果模板**：After using her Skill or Ultimate, Huohuo gains "Divine Provision," lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has "Divine Provision" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. Then, restores HP for every ally with a current HP percentage at or below #6[i]% by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i].
+- **Type**：Talent
+- **Summary**：Huohuo gains "Divine Provision" after using her Skill or Ultimate. If Huohuo possesses "Divine Provision," when an ally target's turn starts or when an ally uses Ultimate, restores the HP of this unit and an ally target with the lowest HP percentage. Then, every ally target with low HP receives healing once. When "Divine Provision" is triggered to heal an ally target, dispel 1 debuff from that ally.
+- **Max Level**：15
+- **Effect Template**：After using her Skill or Ultimate, Huohuo gains "Divine Provision," lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has "Divine Provision" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. Then, restores HP for every ally with a current HP percentage at or below #6[i]% by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i].
 When "Divine Provision" is triggered to heal an ally target, dispels #2[i] debuff(s) from that target. This effect can be triggered #7[i] time(s). Gaining "Divine Provision" again resets the effect's trigger count.
 触发【禳命】为我方目标提供治疗时，解除该目标#2[i]个负面效果，该效果可以触发#7[i]次，再次施放战技后将刷新效果可触发次数。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 1 | 3% | 0 | 30 | 50% | 6 |
@@ -190,7 +190,7 @@ When "Divine Provision" is triggered to heal an ally target, dispels #2[i] debuf
   | Lv.14 | 2 | 1 | 5.1% | 0 | 147 | 50% | 6 |
   | Lv.15 | 2 | 1 | 5.25% | 0 | 153.75 | 50% | 6 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「藿获得【禳命】，持续___回合，藿藿每回合开」
   - `#2[i]`个 → 参数2：上下文「供治疗时，解除该目标___个负面效果，该效果」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -199,28 +199,27 @@ When "Divine Provision" is triggered to heal an ally target, dispels #2[i] debuf
   - `#6[i]`% → 参数6(%)：上下文「生命值百分比小于等于___%的我方目标各产生」
   - `#7[i]`次 → 参数7：上下文「效果，该效果可以触发___次，再次施放战技后」
 
-- **满级效果**：After using her Skill or Ultimate, Huohuo gains "Divine Provision," lasting for 2 turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has "Divine Provision" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75. Then, restores HP for every ally with a current HP percentage at or below 50% by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75.
+- **Max Effect**：After using her Skill or Ultimate, Huohuo gains "Divine Provision," lasting for 2 turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has "Divine Provision" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75. Then, restores HP for every ally with a current HP percentage at or below 50% by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75.
 When "Divine Provision" is triggered to heal an ally target, dispels 1 debuff(s) from that target. This effect can be triggered 6 time(s). Gaining "Divine Provision" again resets the effect's trigger count.
-触发【禳命】为我方目标提供治疗时，解除该目标1个负面效果，该效果可以触发6次，再次施放战技后将刷新效果可触发次数。
 
 ### Technique：Fiend: Impeachment of Evil
-- **类型**：Technique
-- **简述**：Causes surrounding enemies to become "Horror-Struck." After entering combat with enemies afflicted with "Horror-Struck," there is a high chance of reducing the ATK of the enemy targets.
-- **最大等级**：1
-- **效果模板**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for #4[i] second(s). When entering combat with enemies in "Horror-Struck," there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).
+- **Type**：Technique
+- **Summary**：Causes surrounding enemies to become "Horror-Struck." After entering combat with enemies afflicted with "Horror-Struck," there is a high chance of reducing the ATK of the enemy targets.
+- **Max Level**：1
+- **Effect Template**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for #4[i] second(s). When entering combat with enemies in "Horror-Struck," there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 25% | 2 | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「个单体目标攻击力降低___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
   - `#4[i]`秒 → 参数4：上下文「藿藿的方向逃跑，持续___秒。与陷入【魄散】」
 
-- **满级效果**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for 10 second(s). When entering combat with enemies in "Horror-Struck," there is a 100% base chance of reducing every single enemy's ATK by 25% for 2 turn(s).
+- **Max Effect**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for 10 second(s). When entering combat with enemies in "Horror-Struck," there is a 100% base chance of reducing every single enemy's ATK by 25% for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -281,31 +280,31 @@ When "Divine Provision" is triggered to heal an ally target, dispels 1 debuff(s)
 
 ### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：深度深呼吸
-- **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deep, Deep Breaths
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
 
-- **基础属性**：生1270 攻476 防463
-- **推荐度**：★★★★
-- **技能名**：日有四时
-- **效果**：使装备者生命上限提高【18%/21%/24%/27%/30%】，治疗量提高【12%/14%/16%/18%/20%】。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的【36%/42%/48%/54%/60%】，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
+- **Base Stats**：HP1270 ATK476 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Morn, Noon, Dusk, and Night
+- **Effect**：Increases the wearer's Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.
 
 ### [[zh_cn/lightcone/丰饶/嘿，我在这儿.md|Hey, Over Here]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：不怕不怕啦
-- **效果**：使装备者的生命上限提高【8%/9%/10%/11%/12%】。当装备者施放战技时，治疗量提高【16%/19%/22%/25%/28%】，持续2回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：I'm Not Afraid!
+- **Effect**：Increases the wearer's Max HP by 8%. When the wearer uses their Skill, increases Outgoing Healing by 16%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/同一种心情.md|Shared Feeling]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：救治与维修
-- **效果**：使装备者的治疗量提高【10%/12%/15%/17%/20%】，并在施放战技时为我方全体恢复【2.0/2.5/3.0/3.5/4.0】点能量。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cure and Repair
+- **Effect**：Increases the wearer's Outgoing Healing by 10%. When using Skill, regenerates #2[f1] Energy for all allies.
 
 ## Recommended Teams
 

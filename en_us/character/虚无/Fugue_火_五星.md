@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Radiant Streak
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,24 +92,24 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于忘归人___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Fugue's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Fugue's ATK to one designated enemy.
 
 ### Skill：Virtue Beckons Bliss
-- **类型**：Skill
-- **简述**：Grants one ally "Foxian Prayer", which increases Break Effect, and enables to reduce Toughness when attacking enemies that don't have the corresponding Weakness Type.
+- **Type**：Skill
+- **Summary**：Grants one ally "Foxian Prayer", which increases Break Effect, and enables to reduce Toughness when attacking enemies that don't have the corresponding Weakness Type.
 Makes this unit enter the "Torrid Scorch" state, enhancing Basic ATK. When ally units with "Foxian Prayer" attack, Fugue has a high chance to reduce the enemy target's DEF.
 使自身进入【炽灼】状态，普攻获得强化。持有【狐祈】的我方单位攻击时，忘归人有大概率使敌方目标防御力降低。
-- **最大等级**：15
-- **效果模板**：Grants one designated ally "Foxian Prayer". Enters the "Torrid Scorch" state, lasting for #1[i] turn(s). The duration decreases by 1 at the start of Fugue's every turn. "Foxian Prayer" only takes effect on the most recent target of Fugue's Skill.
+- **Max Level**：15
+- **Effect Template**：Grants one designated ally "Foxian Prayer". Enters the "Torrid Scorch" state, lasting for #1[i] turn(s). The duration decreases by 1 at the start of Fugue's every turn. "Foxian Prayer" only takes effect on the most recent target of Fugue's Skill.
 The ally target with "Foxian Prayer" increases their Break Effect by #2[i]% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to #6[i]% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.
 While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an ally target with "Foxian Prayer" attacks, Fugue has a #3[i]% base chance to reduce the attacked enemy target's DEF by #4[i]%, lasting for #5[i] turn(s).
 持有【狐祈】的我方目标，击破特攻提高#2[i]%，攻击没有对应属性弱点的敌人也能削减韧性，效果等同于原削韧值的#6[i]%，无法与其他无视弱点属性削韧效果叠加。
 处于【炽灼】状态时，忘归人普攻获得强化。持有【狐祈】的我方目标每次施放攻击时，忘归人有#3[i]%的基础概率使受到攻击的敌方目标防御力降低#4[i]%，持续#5[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 3 | 15% | 100% | 8% | 2 | 50% |
@@ -128,7 +128,7 @@ While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an 
   | Lv.14 | 3 | 36% | 100% | 22% | 2 | 50% |
   | Lv.15 | 3 | 37.5% | 100% | 23% | 2 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「入【炽灼】状态，持续___回合，忘归人每回合」
   - `#2[i]`% → 参数2(%)：上下文「方目标，击破特攻提高___%，攻击没有对应属」
   - `#3[i]`% → 参数3(%)：上下文「施放攻击时，忘归人有___%的基础概率使受到」
@@ -136,19 +136,17 @@ While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an 
   - `#5[i]`回 → 参数5：上下文「低#4[i]%，持续___回合。」
   - `#6[i]`% → 参数6(%)：上下文「效果等同于原削韧值的___%，无法与其他无视」
 
-- **满级效果**：Grants one designated ally "Foxian Prayer". Enters the "Torrid Scorch" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. "Foxian Prayer" only takes effect on the most recent target of Fugue's Skill.
+- **Max Effect**：Grants one designated ally "Foxian Prayer". Enters the "Torrid Scorch" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. "Foxian Prayer" only takes effect on the most recent target of Fugue's Skill.
 The ally target with "Foxian Prayer" increases their Break Effect by 37.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.
 While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an ally target with "Foxian Prayer" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 23%, lasting for 2 turn(s).
-持有【狐祈】的我方目标，击破特攻提高37.5%，攻击没有对应属性弱点的敌人也能削减韧性，效果等同于原削韧值的50%，无法与其他无视弱点属性削韧效果叠加。
-处于【炽灼】状态时，忘归人普攻获得强化。持有【狐祈】的我方目标每次施放攻击时，忘归人有100%的基础概率使受到攻击的敌方目标防御力降低23%，持续2回合。
 
 ### Ultimate：Solar Splendor Shines Upon All
-- **类型**：Ultimate
-- **简述**：Deals Fire DMG to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.
+- **Type**：Ultimate
+- **Summary**：Deals Fire DMG to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 100% |
@@ -167,20 +165,20 @@ While in the "Torrid Scorch" state, Fugue enhances her Basic ATK. Every time an 
   | Lv.14 | 240% |
   | Lv.15 | 250% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于忘归人___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 250% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.
+- **Max Effect**：Deals Fire DMG equal to 250% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.
 
 ### Talent：Fortune Follows Where Virtue Spreads
-- **类型**：Talent
-- **简述**：While Fugue is on the field, enemy targets will get additionally afflicted with "Cloudflame Luster." When "Cloudflame Luster" is reduced to 0, the enemy will take Weakness Break DMG again. After allies attack Weakness Broken enemy targets, additionally deals Super Break DMG.
-- **最大等级**：15
-- **效果模板**：While Fugue is on the field, enemy targets will get additionally afflicted with "Cloudflame Luster," equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, "Cloudflame Luster" can continue to be reduced. When "Cloudflame Luster" is reduced to 0, the enemy will receive Weakness Break DMG again.
+- **Type**：Talent
+- **Summary**：While Fugue is on the field, enemy targets will get additionally afflicted with "Cloudflame Luster." When "Cloudflame Luster" is reduced to 0, the enemy will take Weakness Break DMG again. After allies attack Weakness Broken enemy targets, additionally deals Super Break DMG.
+- **Max Level**：15
+- **Effect Template**：While Fugue is on the field, enemy targets will get additionally afflicted with "Cloudflame Luster," equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, "Cloudflame Luster" can continue to be reduced. When "Cloudflame Luster" is reduced to 0, the enemy will receive Weakness Break DMG again.
 While Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of #1[i]% Super Break DMG.
 忘归人在场时，我方攻击处于弱点击破状态的敌方目标后，会将本次攻击的削韧值转化为1次#1[i]%的超击破伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 50% | 40% |
@@ -199,36 +197,34 @@ While Fugue is on the field and after allies attack Weakness Broken enemy target
   | Lv.14 | 120% | 40% |
   | Lv.15 | 125% | 40% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「击的削韧值转化为1次___%的超击破伤害。」
   - `#2[i]`% → 参数2(%)：上下文「上等同于自身韧性上限___%的【云火昭】，在」
 
-- **满级效果**：While Fugue is on the field, enemy targets will get additionally afflicted with "Cloudflame Luster," equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, "Cloudflame Luster" can continue to be reduced. When "Cloudflame Luster" is reduced to 0, the enemy will receive Weakness Break DMG again.
+- **Max Effect**：While Fugue is on the field, enemy targets will get additionally afflicted with "Cloudflame Luster," equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, "Cloudflame Luster" can continue to be reduced. When "Cloudflame Luster" is reduced to 0, the enemy will receive Weakness Break DMG again.
 While Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 125% Super Break DMG.
-忘归人在场时，我方攻击处于弱点击破状态的敌方目标后，会将本次攻击的削韧值转化为1次125%的超击破伤害。
 
 ### Technique：Percipient Shine
-- **类型**：Technique
-- **简述**：Inflicts Daze on enemies within a certain area. After entering battle via attacking Dazed enemies, Fugue's action advances, with a high chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill.
-- **最大等级**：1
-- **效果模板**：After using Technique, inflicts Daze on enemies within a certain area, lasting for #1[i] second(s). While Dazed, enemies will not actively attack ally targets.
+- **Type**：Technique
+- **Summary**：Inflicts Daze on enemies within a certain area. After entering battle via attacking Dazed enemies, Fugue's action advances, with a high chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill.
+- **Max Level**：1
+- **Effect Template**：After using Technique, inflicts Daze on enemies within a certain area, lasting for #1[i] second(s). While Dazed, enemies will not actively attack ally targets.
 After entering battle via actively attacking Dazed enemies, Fugue's action advances by #4[i]%, with a #2[i]% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for #3[i] turn(s).
 若主动攻击陷入晕眩状态的敌人，进入战斗后忘归人行动提前#4[i]%，并有#2[i]%的基础概率使敌方每个单体目标陷入与忘归人战技相同的防御力降低状态，持续#3[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 10 | 100% | 2 | 40% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
   - `#2[i]`% → 参数2(%)：上下文「前#4[i]%，并有___%的基础概率使敌方」
   - `#3[i]`回 → 参数3：上下文「防御力降低状态，持续___回合。」
   - `#4[i]`% → 参数4(%)：上下文「战斗后忘归人行动提前___%，并有#2[i]」
 
-- **满级效果**：After using Technique, inflicts Daze on enemies within a certain area, lasting for 10 second(s). While Dazed, enemies will not actively attack ally targets.
+- **Max Effect**：After using Technique, inflicts Daze on enemies within a certain area, lasting for 10 second(s). While Dazed, enemies will not actively attack ally targets.
 After entering battle via actively attacking Dazed enemies, Fugue's action advances by 40%, with a 100% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for 2 turn(s).
-若主动攻击陷入晕眩状态的敌人，进入战斗后忘归人行动提前40%，并有100%的基础概率使敌方每个单体目标陷入与忘归人战技相同的防御力降低状态，持续2回合。
 
 ## Trace Bonuses
 
@@ -288,31 +284,31 @@ After entering battle via actively attacking Dazed enemies, Fugue's action advan
 
 ### [[zh_cn/lightcone/虚无/长路终有归途.md|Long Road Leads Home]]
 
-- **基础属性**：生952 攻476 防661
-- **推荐度**：★★★★★
-- **技能名**：新生
-- **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。当有敌方目标的弱点被击破时，有100%的基础概率使其陷入【焚灼】状态,受到的击破伤害提高【18%/21%/24%/27%/30%】，持续2回合，此效果可叠加2层。
+- **Base Stats**：HP952 ATK476 DEF661
+- **Rating**：★★★★★
+- **Skill Name**：Rebirth
+- **Effect**：Increases the wearer's Break Effect by 60%. When an enemy target's Weakness gets broken, there is a 1 base chance to inflict the "Charring" state on it, which increases its Break DMG taken by 18%, lasting for 2 turn(s). This effect can stack 2 time(s).
 
 ### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：回眸
-- **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Glance Back
+- **Effect**：When the wearer hits an enemy and if the hit enemy is not already "Ensnared," then there is a 60% base chance to "Ensnare" the hit enemy. "Ensnared" enemies' DEF decreases by 12% for 1 turn(s).
 
 ### [[zh_cn/lightcone/虚无/孤独的疗愈.md|Solitary Healing]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：混沌灵药
-- **效果**：使装备者的击破特攻提高【20%/25%/30%/35%/40%】。当装备者施放终结技时，使装备者造成的持续伤害提高【24%/30%/36%/42%/48%】，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复【4.0/4.5/5.0/5.5/6.0】点能量。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Chaos Elixir
+- **Effect**：Increases the wearer's Break Effect by 20%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates #4[f1] Energy for the wearer.
 
 ### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：眼疾手快
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Quick on the Draw
+- **Effect**：Increases the wearer's Effect Hit Rate by 20%. When the wearer attacks DEF-reduced enemies, regenerates 4 Energy.
 
 ## Recommended Teams
 

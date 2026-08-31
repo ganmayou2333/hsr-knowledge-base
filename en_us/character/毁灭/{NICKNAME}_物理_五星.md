@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Farewell Hit
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
 
 ### Skill：RIP Home Run
-- **类型**：Skill
-- **简述**：Deals Physical DMG to one enemy and enemies adjacent to it.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
+- **Type**：Skill
+- **Summary**：Deals Physical DMG to one enemy and enemies adjacent to it.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 62.5% |
@@ -122,22 +122,22 @@
   | Lv.14 | 150% |
   | Lv.15 | 156.25% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于开拓者___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 156.25% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
+- **Max Effect**：Deals Physical DMG equal to 156.25% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.
 
 ### Ultimate：Stardust Ace
-- **类型**：Ultimate
-- **简述**：Uses Single Target ATK or Blast to strike with full force.
-- **最大等级**：15
-- **效果模板**：Choose between two attack modes to deliver a full strike.
+- **Type**：Ultimate
+- **Summary**：Uses Single Target ATK or Blast to strike with full force.
+- **Max Level**：15
+- **Effect Template**：Choose between two attack modes to deliver a full strike.
 "Blowout: Farewell Hit" deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
 "Blowout: RIP Home Run" deals Physical DMG equal to #2[i]% of the Trailblazer's ATK to one designated enemy, and Physical DMG equal to #3[i]% of the Trailblazer's ATK to enemies adjacent to it.
 【全胜•再见安打】：对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害。
 【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者#2[i]%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者#3[i]%攻击力的物理属性伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 300% | 180% | 108% |
@@ -156,24 +156,22 @@
   | Lv.14 | 510% | 306% | 183.6% |
   | Lv.15 | 525% | 315% | 189% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「单体造成等同于开拓者___%攻击力的物理属性」
   - `#3[i]`% → 参数3(%)：上下文「目标造成等同于开拓者___%攻击力的物理属性」
 
-- **满级效果**：Choose between two attack modes to deliver a full strike.
+- **Max Effect**：Choose between two attack modes to deliver a full strike.
 "Blowout: Farewell Hit" deals Physical DMG equal to 525% of the Trailblazer's ATK to one designated enemy.
 "Blowout: RIP Home Run" deals Physical DMG equal to 315% of the Trailblazer's ATK to one designated enemy, and Physical DMG equal to 189% of the Trailblazer's ATK to enemies adjacent to it.
-【全胜•再见安打】：对指定敌方单体造成等同于开拓者525%攻击力的物理属性伤害。
-【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者315%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者189%攻击力的物理属性伤害。
 
 ### Talent：Perfect Pickoff
-- **类型**：Talent
-- **简述**：Every time this unit breaks an enemy target's Weakness, ATK increases.
-- **最大等级**：15
-- **效果模板**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by #1[i]%. This effect stacks up to #2[i] time(s).
+- **Type**：Talent
+- **Summary**：Every time this unit breaks an enemy target's Weakness, ATK increases.
+- **Max Level**：15
+- **Effect Template**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by #1[i]%. This effect stacks up to #2[i] time(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 10% | 2 |
@@ -192,27 +190,27 @@
   | Lv.14 | 24% | 2 |
   | Lv.15 | 25% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的弱点后，攻击力提高___%，该效果最多叠加」
   - `#2[i]`层 → 参数2：上下文「]%，该效果最多叠加___层。」
 
-- **满级效果**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by 25%. This effect stacks up to 2 time(s).
+- **Max Effect**：Each time after this character inflicts Weakness Break on an enemy, ATK increases by 25%. This effect stacks up to 2 time(s).
 
 ### Technique：Immortal Third Strike
-- **类型**：Technique
-- **简述**：After using Technique, immediately restores HP for team.
-- **最大等级**：1
-- **效果模板**：Immediately heals all allies for #1[i]% of their respective Max HP after using this Technique.
+- **Type**：Technique
+- **Summary**：After using Technique, immediately restores HP for team.
+- **Max Level**：1
+- **Effect Template**：Immediately heals all allies for #1[i]% of their respective Max HP after using this Technique.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 15% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「复等同于各自生命上限___%的生命值。」
 
-- **满级效果**：Immediately heals all allies for 15% of their respective Max HP after using this Technique.
+- **Max Effect**：Immediately heals all allies for 15% of their respective Max HP after using this Technique.
 
 ## Trace Bonuses
 
@@ -274,34 +272,34 @@
 ## Recommended Light Cones
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ### [[zh_cn/lightcone/毁灭/在蓝天下.md|Under the Blue Sky]]
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：暖阳麦浪
-- **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，当装备者消灭敌方目标后，暴击率提高【12%/15%/18%/21%/24%】，持续3回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Rye Under the Sun
+- **Effect**：Increases the wearer's ATK by 16%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12% for 3 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：奇妙冒险
-- **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Fantastic Adventure
+- **Effect**：When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12%.
 
 ### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：竭力而为
-- **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比大于等于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Spare No Effort
+- **Effect**：Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.
 
 ## Recommended Teams
 

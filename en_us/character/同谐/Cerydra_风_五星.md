@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：King's Castling
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Cerydra's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Cerydra's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -94,18 +94,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于刻律德菈___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 140% of Cerydra's ATK to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 140% of Cerydra's ATK to one designated enemy.
 
 ### Skill：Pawn's Promotion
-- **类型**：Skill
-- **简述**：Grants "Military Merit" to an ally character and gives Charge to Cerydra. When Charge reaches 6 points, automatically upgrades the ally character's "Military Merit" to "Peerage." The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG, increases All-Type RES PEN, and can trigger Coup de Main.
-- **最大等级**：15
-- **效果模板**：Grants "Military Merit" to one designated ally character and gives Cerydra #2[i] points of Charge. Charge is capped at #3[i] points. When Charge reaches #4[i] points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by #1[i]%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes #4[i] points of Charge to revert "Peerage" to "Military Merit."
+- **Type**：Skill
+- **Summary**：Grants "Military Merit" to an ally character and gives Charge to Cerydra. When Charge reaches 6 points, automatically upgrades the ally character's "Military Merit" to "Peerage." The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG, increases All-Type RES PEN, and can trigger Coup de Main.
+- **Max Level**：15
+- **Effect Template**：Grants "Military Merit" to one designated ally character and gives Cerydra #2[i] points of Charge. Charge is capped at #3[i] points. When Charge reaches #4[i] points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by #1[i]%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes #4[i] points of Charge to revert "Peerage" to "Military Merit."
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 36% | 1 | 8 | 6 | 8% |
@@ -124,22 +124,22 @@
   | Lv.14 | 86.4% | 1 | 8 | 6 | 10.8% |
   | Lv.15 | 90% | 1 | 8 | 6 | 11% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「技伤害的暴击伤害提高___%、全属性抗性穿透」
   - `#2[i]`点 → 参数2：上下文「功】并使刻律德菈获得___点充能。充能上限#」
   - `#3[i]`点 → 参数3：上下文「i]点充能。充能上限___点。当充能达到#4」
   - `#4[i]`点 → 参数4：上下文「袭。奇袭结束后，消耗___点充能使【爵位】变」
   - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Grants "Military Merit" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by 90%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert "Peerage" to "Military Merit."
+- **Max Effect**：Grants "Military Merit" to one designated ally character and gives Cerydra 1 points of Charge. Charge is capped at 8 points. When Charge reaches 6 points, automatically upgrades the character's "Military Merit" to "Peerage" and dispels their Crowd Control debuffs. The character with "Peerage" is considered to have "Military Merit" simultaneously. The character with "Peerage" increases the CRIT DMG for their dealt Skill DMG by 90%, increases their All-Type RES PEN by #5[f1]%, and triggers Coup de Main when using their Skill on enemy targets. After Coup de Main ends, consumes 6 points of Charge to revert "Peerage" to "Military Merit."
 
 ### Ultimate：Scholar's Mate
-- **类型**：Ultimate
-- **简述**：Gains Charge. Deals Wind DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Gains #2[i] Charge. Deals Wind DMG equal to #1[i]% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
+- **Type**：Ultimate
+- **Summary**：Gains Charge. Deals Wind DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Gains #2[i] Charge. Deals Wind DMG equal to #1[i]% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 144% | 2 |
@@ -158,19 +158,19 @@
   | Lv.14 | 278.4% | 2 |
   | Lv.15 | 288% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于刻律德菈___%攻击力的风属性伤」
   - `#2[i]`点 → 参数2：上下文「获得___点充能。对敌方全体」
 
-- **满级效果**：Gains 2 Charge. Deals Wind DMG equal to 288% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
+- **Max Effect**：Gains 2 Charge. Deals Wind DMG equal to 288% of Cerydra's ATK to all enemies. If no character on the field has "Military Merit," prioritizes granting "Military Merit" to the first character in the current team.
 
 ### Talent：Ave Imperator
-- **类型**：Talent
-- **简述**：The character with "Military Merit" increases their ATK. When they use Basic ATK or Skill, Cerydra gains Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals minor Wind Additional DMG.
-- **最大等级**：15
-- **效果模板**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains #1[i] Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to #3[i]% of her ATK. This effect can trigger up to #4[i] time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
+- **Type**：Talent
+- **Summary**：The character with "Military Merit" increases their ATK. When they use Basic ATK or Skill, Cerydra gains Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals minor Wind Additional DMG.
+- **Max Level**：15
+- **Effect Template**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains #1[i] Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to #3[i]% of her ATK. This effect can trigger up to #4[i] time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 1 | 18% | 30% | 20 |
@@ -189,21 +189,21 @@
   | Lv.14 | 1 | 26.4% | 72% | 20 |
   | Lv.15 | 1 | 27% | 75% | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「战技时使刻律德菈获得___点充能，奇袭期间无」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「成1次等同于刻律德菈___%攻击力的风属性附」
   - `#4[i]`次 → 参数4：上下文「伤害，该效果最多触发___次，刻律德菈每次施」
 
-- **满级效果**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 75% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
+- **Max Effect**：The character with "Military Merit" increases ATK by an amount equal to #2[f1]% of Cerydra's ATK. When the character uses Basic ATK or Skill, Cerydra gains 1 Charge. During Coup de Main, Cerydra cannot gain Charge. After the character with "Military Merit" uses an attack, Cerydra additionally deals 1 instance of Wind Additional DMG equal to 75% of her ATK. This effect can trigger up to 20 time(s). The trigger count resets every time Cerydra uses her Ultimate. "Military Merit" only takes effect on the most recent target. When the target changes, Cerydra's Charge is reset to 0.
 
 ### Technique：First-Move Advantage
-- **类型**：Technique
-- **简述**：Grants "Military Merit" to the current active character. Automatically uses Skill on the character with "Military Merit" at the start of the next battle.
-- **最大等级**：1
-- **效果模板**：After using Technique, gains "Military Merit." When switching the active character, "Military Merit" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Military Merit" without consuming any Skill Points.
+- **Type**：Technique
+- **Summary**：Grants "Military Merit" to the current active character. Automatically uses Skill on the character with "Military Merit" at the start of the next battle.
+- **Max Level**：1
+- **Effect Template**：After using Technique, gains "Military Merit." When switching the active character, "Military Merit" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Military Merit" without consuming any Skill Points.
 
-- **满级效果**：After using Technique, gains "Military Merit." When switching the active character, "Military Merit" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Military Merit" without consuming any Skill Points.（参数见等级数值表）
+- **Max Effect**：After using Technique, gains "Military Merit." When switching the active character, "Military Merit" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Military Merit" without consuming any Skill Points.（参数见等级数值表）
 
 ## Trace Bonuses
 
@@ -264,31 +264,31 @@
 
 ### [[zh_cn/lightcone/同谐/金血铭刻的时代.md|Epoch Etched in Golden Blood]]
 
-- **基础属性**：生952 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：征服
-- **效果**：使装备者的攻击力提高【64%/80%/96%/112%/128%】。施放终结技攻击后恢复1个战技点，装备者对我方单体角色施放战技后，使目标造成的战技伤害提高【54%/67.5%/81%/94.5%/108%】，持续3回合。
+- **Base Stats**：HP952 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Conquer
+- **Effect**：Increases the wearer's ATK by 64%. After using Ultimate to attack, recovers 1 Skill Point(s). After the wearer uses their Skill on one ally character, increases the Skill DMG dealt by the target by #4[f1]% for 3 turn(s).
 
 ### [[zh_cn/lightcone/同谐/夜色流光溢彩.md|Flowing Nightglow]]
 
-- **基础属性**：生952 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：抚慰
-- **效果**：我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高【3.0%/3.5%/4.0%/4.5%/5.0%】，最多叠加5层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高【48%/60%/72%/84%/96%】，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续1回合。
+- **Base Stats**：HP952 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Pacify
+- **Effect**：Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer's Energy Regeneration Rate by #1[f1]%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer's ATK by 48% and increases all allies' DMG dealt by 24%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/永远的迷境饭.md|The Forever Victual]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：真香
-- **效果**：使装备者的攻击力提高【16%/20%/24%/28%/32%】。装备者施放战技后，攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加3层。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：So Good!
+- **Effect**：Increases the wearer's ATK by 16%. After the wearer uses Skill, increases ATK by 8%, stacking up to 3 times.
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ## Recommended Teams
 

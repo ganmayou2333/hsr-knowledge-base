@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Beneficent Lotus
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Uses a 2-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Uses a 2-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,26 +92,23 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于丹恒•饮月___%攻击力的虚数属性」
 
-- **满级效果**：Uses a 2-hit attack and deals Imaginary DMG equal to 140% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.
+- **Max Effect**：Uses a 2-hit attack and deals Imaginary DMG equal to 140% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.
 
 ### Skill：Dracore Libre
-- **类型**：Skill
-- **简述**：Enhances the Basic ATK Beneficent Lotus to Transcendence, Divine Spear, or Fulgurant Leap.
-- **最大等级**：15
-- **效果模板**：Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.
+- **Type**：Skill
+- **Summary**：Enhances the Basic ATK Beneficent Lotus to Transcendence, Divine Spear, or Fulgurant Leap.
+- **Max Level**：15
+- **Effect Template**：Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.
 Enhanced once, Beneficent Lotus becomes Transcendence.
 Enhanced twice, Beneficent Lotus becomes Divine Spear.
 Enhanced thrice, Beneficent Lotus becomes Fulgurant Leap.
 When using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by #1[f1]%, for a max of #2[i] stacks. These stacks last until the end of his turn.
-强化1次，【泽芝】变为【瞬华】。
-强化2次，【泽芝】变为【天矢阴】。
-强化3次，【泽芝】变为【盘拏耀跃】。
 施放【天矢阴】或【盘拏耀跃】时，从第4段攻击开始每段攻击前获得1层【叱咤】，使丹恒•饮月的暴击伤害提高#1[f1]%，该效果最多叠加#2[i]层，持续至自身回合结束。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 6% | 4 |
@@ -130,29 +127,26 @@ When using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack
   | Lv.14 | 14.4% | 4 |
   | Lv.15 | 15% | 4 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`层 → 参数2：上下文「]%，该效果最多叠加___层，持续至自身回合」
 
-- **满级效果**：Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.
+- **Max Effect**：Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.
 Enhanced once, Beneficent Lotus becomes Transcendence.
 Enhanced twice, Beneficent Lotus becomes Divine Spear.
 Enhanced thrice, Beneficent Lotus becomes Fulgurant Leap.
 When using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by #1[f1]%, for a max of 4 stacks. These stacks last until the end of his turn.
-强化1次，【泽芝】变为【瞬华】。
-强化2次，【泽芝】变为【天矢阴】。
-强化3次，【泽芝】变为【盘拏耀跃】。
 施放【天矢阴】或【盘拏耀跃】时，从第4段攻击开始每段攻击前获得1层【叱咤】，使丹恒•饮月的暴击伤害提高#1[f1]%，该效果最多叠加4层，持续至自身回合结束。
 
 ### Ultimate：Azure's Aqua Ablutes All
-- **类型**：Ultimate
-- **简述**：Deals massive Imaginary DMG to one enemy, deals Imaginary DMG to adjacent targets, and gains 2 "Squama Sacrosancta," which can offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.
-- **最大等级**：15
-- **效果模板**：Uses a 3-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target. At the same time, deals Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains #3[i] "Squama Sacrosancta."
+- **Type**：Ultimate
+- **Summary**：Deals massive Imaginary DMG to one enemy, deals Imaginary DMG to adjacent targets, and gains 2 "Squama Sacrosancta," which can offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.
+- **Max Level**：15
+- **Effect Template**：Uses a 3-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target. At the same time, deals Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains #3[i] "Squama Sacrosancta."
 It's possible to hold up to #4[i] "Squama Sacrosancta," which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming "Squama Sacrosancta" is considered equivalent to consuming skill points.
 【逆鳞】最多持有#4[i]个，可用来抵扣丹恒•饮月的战技点消耗。消耗【逆鳞】视为消耗战技点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 180% | 84% | 2 | 3 |
@@ -171,23 +165,22 @@ It's possible to hold up to #4[i] "Squama Sacrosancta," which can be used to off
   | Lv.14 | 348% | 162.4% | 2 | 3 |
   | Lv.15 | 360% | 168% | 2 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于丹恒•饮月___%攻击力的虚数属性」
   - `#2[i]`% → 参数2(%)：上下文「造成等同于丹恒•饮月___%攻击力的虚数属性」
   - `#3[i]`个 → 参数3：上下文「性伤害。并使自身获得___个【逆鳞】。 【逆」
   - `#4[i]`个 → 参数4：上下文「。 【逆鳞】最多持有___个，可用来抵扣丹恒」
 
-- **满级效果**：Uses a 3-hit attack and deals Imaginary DMG equal to 360% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target. At the same time, deals Imaginary DMG equal to 168% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 "Squama Sacrosancta."
+- **Max Effect**：Uses a 3-hit attack and deals Imaginary DMG equal to 360% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target. At the same time, deals Imaginary DMG equal to 168% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 "Squama Sacrosancta."
 It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming "Squama Sacrosancta" is considered equivalent to consuming skill points.
-【逆鳞】最多持有3个，可用来抵扣丹恒•饮月的战技点消耗。消耗【逆鳞】视为消耗战技点。
 
 ### Talent：Righteous Heart
-- **类型**：Talent
-- **简述**：Increases DMG for every hit dealt. This effect is stackable and lasts until the end of this character's turn.
-- **最大等级**：15
-- **效果模板**：After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by #1[f1]%. This effect can stack up to #2[i] time(s), lasting until the end of his turn.
+- **Type**：Talent
+- **Summary**：Increases DMG for every hit dealt. This effect is stackable and lasts until the end of this character's turn.
+- **Max Level**：15
+- **Effect Template**：After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by #1[f1]%. This effect can stack up to #2[i] time(s), lasting until the end of his turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 5% | 6 |
@@ -206,29 +199,29 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
   | Lv.14 | 12% | 6 |
   | Lv.15 | 12.5% | 6 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`层 → 参数2：上下文「]%，该效果可以叠加___层，持续至自身回合」
 
-- **满级效果**：After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by #1[f1]%. This effect can stack up to 6 time(s), lasting until the end of his turn.
+- **Max Effect**：After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by #1[f1]%. This effect can stack up to 6 time(s), lasting until the end of his turn.
 
 ### Technique：Heaven-Quelling Prismadrakon
-- **类型**：Technique
-- **简述**：Enters the Leaping Dragon state. Attacking will cause this character to move forward rapidly for a set distance and attack all enemies touched. After entering combat via attacking enemies, deals Imaginary DMG to all enemies, and gains 1 Squama Sacrosancta.
-- **最大等级**：1
-- **效果模板**：After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for #2[i] seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to #3[i]% of his ATK to all enemies, and gains #1[i] Squama Sacrosancta.
+- **Type**：Technique
+- **Summary**：Enters the Leaping Dragon state. Attacking will cause this character to move forward rapidly for a set distance and attack all enemies touched. After entering combat via attacking enemies, deals Imaginary DMG to all enemies, and gains 1 Squama Sacrosancta.
+- **Max Level**：1
+- **Effect Template**：After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for #2[i] seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to #3[i]% of his ATK to all enemies, and gains #1[i] Squama Sacrosancta.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 1 | 20 | 120% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`个 → 参数1：上下文「性伤害，并使自身获得___个【逆鳞】。」
   - `#2[i]`秒 → 参数2：上下文「使用秘技后进入持续___秒的【蟠跃】状态。」
   - `#3[i]`% → 参数3(%)：上下文「造成等同于丹恒•饮月___%攻击力的虚数属性」
 
-- **满级效果**：After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta.
+- **Max Effect**：After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta.
 
 ## Trace Bonuses
 
@@ -289,24 +282,24 @@ It's possible to hold up to 3 "Squama Sacrosancta," which can be used to offset 
 
 ### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|Brighter Than the Sun]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：抵死
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】 最多叠加2层。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Defiant Till Death
+- **Effect**：Increases the wearer's CRIT Rate by 18%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call, lasting for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by 18% and Energy Regeneration Rate by #5[f1]%. Dragon's Call can be stacked up to 2 times.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/在蓝天下.md|Under the Blue Sky]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：暖阳麦浪
-- **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，消灭敌方目标后，暴击率提高【12%/15%/18%/21%/24%】，持续3回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Rye Under the Sun
+- **Effect**：Increases the wearer's ATK by 16%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12% for 3 turn(s).
 
 ## Recommended Teams
 

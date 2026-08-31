@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Hundred Rockets
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy and adjacent targets.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to #2[i]% of Tribbie's Max HP to adjacent targets.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy and adjacent targets.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to #2[i]% of Tribbie's Max HP to adjacent targets.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 15% | 7.5% |
@@ -94,19 +94,19 @@
   | Lv.9 | 39% | 19.5% |
   | Lv.10 | 42% | 21% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于缇宝___%生命上限的量子属」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于缇宝___%生命上限的量子属」
 
-- **满级效果**：Deals Quantum DMG equal to 42% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to 21% of Tribbie's Max HP to adjacent targets.
+- **Max Effect**：Deals Quantum DMG equal to 42% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to 21% of Tribbie's Max HP to adjacent targets.
 
 ### Skill：Where'd the Gifts Go
-- **类型**：Skill
-- **简述**：Gains "Numinosity," during which all ally targets have their All-Type RES PEN increased.
-- **最大等级**：15
-- **效果模板**：Gains "Numinosity," lasting for #2[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
+- **Type**：Skill
+- **Summary**：Gains "Numinosity," during which all ally targets have their All-Type RES PEN increased.
+- **Max Level**：15
+- **Effect Template**：Gains "Numinosity," lasting for #2[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 12% | 3 |
@@ -125,23 +125,23 @@
   | Lv.14 | 28.8% | 3 |
   | Lv.15 | 30% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`回 → 参数2：上下文「获得【神启】，持续___回合，自身每回合开」
 
-- **满级效果**：Gains "Numinosity," lasting for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
+- **Max Effect**：Gains "Numinosity," lasting for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has "Numinosity," increases all ally targets' All-Type RES PEN by #1[f1]%.
 
 ### Ultimate：Guess Who Lives Here
-- **类型**：Ultimate
-- **简述**：Activates a Zone and deals minor Quantum DMG to all enemies. While the Zone lasts, increases the DMG taken by enemies and deals minor Quantum Additional DMG to the target that has the highest HP among the hit targets based on the number of enemies attacked.
-- **最大等级**：15
-- **效果模板**：Activates a Zone and deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to all enemies.
+- **Type**：Ultimate
+- **Summary**：Activates a Zone and deals minor Quantum DMG to all enemies. While the Zone lasts, increases the DMG taken by enemies and deals minor Quantum Additional DMG to the target that has the highest HP among the hit targets based on the number of enemies attacked.
+- **Max Level**：15
+- **Effect Template**：Activates a Zone and deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to all enemies.
 While the Zone lasts, increases enemy targets' DMG taken by #2[f1]%. After an ally target attacks, for every 1 target hit, deals 1 instance of Quantum Additional DMG equal to #3[f1]% of Tribbie's Max HP to the target that has the highest HP among the hit targets.
 The Zone lasts for #4[i] turn(s). This duration decreases by 1 at the start of this unit's every turn.
 结界持续期间，敌方目标受到的伤害提高#2[f1]%。受到我方目标攻击后，每有1名目标受到攻击，会对被攻击目标中当前生命值最高的目标造成1次等同于缇宝#3[f1]%生命上限的量子属性附加伤害。
 结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 15% | 15% | 6% | 2 |
@@ -160,25 +160,24 @@ The Zone lasts for #4[i] turn(s). This duration decreases by 1 at the start of t
   | Lv.14 | 36% | 36% | 14.4% | 2 |
   | Lv.15 | 37.5% | 37.5% | 15% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于缇宝___%生命上限的量子属」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`回 → 参数4：上下文「附加伤害。 结界持续___回合，自身每回合开」
 
-- **满级效果**：Activates a Zone and deals Quantum DMG equal to 37.5% of Tribbie's Max HP to all enemies.
+- **Max Effect**：Activates a Zone and deals Quantum DMG equal to 37.5% of Tribbie's Max HP to all enemies.
 While the Zone lasts, increases enemy targets' DMG taken by #2[f1]%. After an ally target attacks, for every 1 target hit, deals 1 instance of Quantum Additional DMG equal to #3[f1]% of Tribbie's Max HP to the target that has the highest HP among the hit targets.
 The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this unit's every turn.
 结界持续期间，敌方目标受到的伤害提高#2[f1]%。受到我方目标攻击后，每有1名目标受到攻击，会对被攻击目标中当前生命值最高的目标造成1次等同于缇宝#3[f1]%生命上限的量子属性附加伤害。
-结界持续2回合，自身每回合开始时结界持续回合数减1。
 
 ### Talent：Busy as Tribbie
-- **类型**：Talent
-- **简述**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing minor Quantum DMG to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters.
-- **最大等级**：15
-- **效果模板**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
+- **Type**：Talent
+- **Summary**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing minor Quantum DMG to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters.
+- **Max Level**：15
+- **Effect Template**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 9% |
@@ -197,26 +196,26 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
   | Lv.14 | 21.6% |
   | Lv.15 | 22.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
+- **Max Effect**：After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.
 
 ### Technique：If You're Happy and You Know It
-- **类型**：Technique
-- **简述**：When entering battle, obtains "Numinosity."
-- **最大等级**：1
-- **效果模板**：After using Technique and upon entering battle, obtains "Numinosity," lasting for #1[i] turn(s).
+- **Type**：Technique
+- **Summary**：When entering battle, obtains "Numinosity."
+- **Max Level**：1
+- **Effect Template**：After using Technique and upon entering battle, obtains "Numinosity," lasting for #1[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「时获得【神启】，持续___回合。」
 
-- **满级效果**：After using Technique and upon entering battle, obtains "Numinosity," lasting for 3 turn(s).
+- **Max Effect**：After using Technique and upon entering battle, obtains "Numinosity," lasting for 3 turn(s).
 
 ## Trace Bonuses
 
@@ -277,24 +276,24 @@ The Zone lasts for 2 turn(s). This duration decreases by 1 at the start of this 
 
 ### [[zh_cn/lightcone/同谐/如果时间是一朵花.md|If Time Were a Flower]]
 
-- **基础属性**：生1270 攻529 防397
-- **推荐度**：★★★★★
-- **技能名**：希冀
-- **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。装备者施放追加攻击后额外恢复12点能量，并获得【谕示】持续2回合。当装备者持有【谕示】时，我方全体目标的暴击伤害提高【48%/60%/72%/84%/96%】。进入战斗时，装备者恢复21点能量，并获得【谕示】，持续2回合。
+- **Base Stats**：HP1270 ATK529 DEF397
+- **Rating**：★★★★★
+- **Skill Name**：Aspiration
+- **Effect**：Increases the wearer's CRIT DMG by 36%. After the wearer launches Follow-Up ATK, additionally regenerates 12 Energy and gains "Presage," lasting for 2 turn(s). While the wearer has "Presage," all ally targets' CRIT DMG increases by 48%. When entering battle, the wearer regenerates 21 Energy and gains "Presage," lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ### [[zh_cn/lightcone/同谐/轮契.md|Meshing Cogs]]
 
-- **基础属性**：生846 攻317 防294
-- **推荐度**：★★★
-- **技能名**：速决
-- **效果**：使装备者施放攻击或受到攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
+- **Base Stats**：HP846 ATK317 DEF294
+- **Rating**：★★★
+- **Skill Name**：Fleet Triumph
+- **Effect**：After the wearer uses attacks or gets hit, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
 ## Recommended Teams
 

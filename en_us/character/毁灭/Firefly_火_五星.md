@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Order: Flare Propulsion
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of SAM's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of SAM's ATK to one designated enemy.
 
 ### Skill：Order: Aerial Bombardment
-- **类型**：Skill
-- **简述**：Consumes a portion of this unit's own HP to regenerate Energy. Deals Fire DMG to one enemy. Advances this unit's next Action.
-- **最大等级**：15
-- **效果模板**：Consumes HP equal to #2[i]% of this unit's Max HP and regenerates a fixed amount of Energy equal to #3[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by #4[i]%.
+- **Type**：Skill
+- **Summary**：Consumes a portion of this unit's own HP to regenerate Energy. Deals Fire DMG to one enemy. Advances this unit's next Action.
+- **Max Level**：15
+- **Effect Template**：Consumes HP equal to #2[i]% of this unit's Max HP and regenerates a fixed amount of Energy equal to #3[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by #4[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 40% | 50% | 25% |
@@ -122,25 +122,24 @@
   | Lv.14 | 240% | 40% | 64% | 25% |
   | Lv.15 | 250% | 40% | 65% | 25% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
   - `#2[i]`% → 参数2(%)：上下文「耗等同于自身生命上限___%的生命值固定恢复」
   - `#3[i]`% → 参数3(%)：上下文「值固定恢复等同于自身___%能量上限的能量，」
   - `#4[i]`% → 参数4(%)：上下文「使自身下一次行动提前___%。」
 
-- **满级效果**：Consumes HP equal to 40% of this unit's Max HP and regenerates a fixed amount of Energy equal to 65% of this unit's Max Energy. Deals Fire DMG equal to 250% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by 25%.
+- **Max Effect**：Consumes HP equal to 40% of this unit's Max HP and regenerates a fixed amount of Energy equal to 65% of this unit's Max Energy. Deals Fire DMG equal to 250% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by 25%.
 
 ### Ultimate：Fyrefly Type-IV: Complete Combustion
-- **类型**：Ultimate
-- **简述**：Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break Efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.
-- **最大等级**：15
-- **效果模板**：Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #3[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by #2[i]% and increases the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.
+- **Type**：Ultimate
+- **Summary**：Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break Efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.
+- **Max Level**：15
+- **Effect Template**：Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #3[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by #2[i]% and increases the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.
 A countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of #4[i].
 SAM cannot use Ultimate while in Complete Combustion.
 行动序列上出现「完全燃烧」倒计时，倒计时回合开始时装甲「萨姆」解除「完全燃烧」状态，倒计时固定拥有#4[i]速度。
-「完全燃烧」状态下装甲「萨姆」无法施放终结技。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 10% | 50% | 30 | 70 |
@@ -159,27 +158,25 @@ SAM cannot use Ultimate while in Complete Combustion.
   | Lv.14 | 24% | 50% | 72 | 70 |
   | Lv.15 | 25% | 50% | 75 | 70 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「自身弱点击破效率提高___%、使敌方目标受到」
   - `#3[i]`点 → 参数3：上下文「燃烧」状态下速度提高___点，且施放强化普攻」
   - `#4[i]`速 → 参数4：上下文「状态，倒计时固定拥有___速度。 「完全燃烧」
 
-- **满级效果**：Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by 75, and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by 50% and increases the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.
+- **Max Effect**：Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by 75, and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by 50% and increases the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.
 A countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of 70.
 SAM cannot use Ultimate while in Complete Combustion.
-行动序列上出现「完全燃烧」倒计时，倒计时回合开始时装甲「萨姆」解除「完全燃烧」状态，倒计时固定拥有70速度。
-「完全燃烧」状态下装甲「萨姆」无法施放终结技。
 
 ### Talent：Chrysalid Pyronexus
-- **类型**：Talent
-- **简述**：The lower the HP, the less DMG received. During the Complete Combustion state, the DMG Reduction effect remains at its maximum extent and Effect RES is increased. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.
-- **最大等级**：15
-- **效果模板**：The lower the HP, the less DMG received. When HP is #3[i]% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #4[i]%.
+- **Type**：Talent
+- **Summary**：The lower the HP, the less DMG received. During the Complete Combustion state, the DMG Reduction effect remains at its maximum extent and Effect RES is increased. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.
+- **Max Level**：15
+- **Effect Template**：The lower the HP, the less DMG received. When HP is #3[i]% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #4[i]%.
 If Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[i]%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.
 战斗开始时若能量不足#2[i]%则使其恢复至#2[i]%。当能量恢复至上限时解除自身所有负面效果。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 20% | 50% | 20% | 10% |
@@ -198,33 +195,32 @@ If Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[
   | Lv.14 | 48% | 50% | 20% | 38% |
   | Lv.15 | 50% | 50% | 20% | 40% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「达到最大值，最多降低___%。「完全燃烧」状」
   - `#2[i]`% → 参数2(%)：上下文「[i]%则使其恢复至___%。当能量恢复至上」
   - `#3[i]`% → 参数3(%)：上下文「越低，生命值小于等于___%时减伤效果达到最」
   - `#4[i]`% → 参数4(%)：上下文「最大值，效果抵抗提高___%。 战斗开始时若」
 
-- **满级效果**：The lower the HP, the less DMG received. When HP is 20% or lower, the DMG Reduction reaches its maximum effect, reducing up to 50%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by 40%.
+- **Max Effect**：The lower the HP, the less DMG received. When HP is 20% or lower, the DMG Reduction reaches its maximum effect, reducing up to 50%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by 40%.
 If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.
-战斗开始时若能量不足50%则使其恢复至50%。当能量恢复至上限时解除自身所有负面效果。
 
 ### Technique：Δ Order: Meteoric Incineration
-- **类型**：Technique
-- **简述**：Leaps into the air and moves about freely. After a few seconds of movement, plunges and attacks all enemies within range. At the start of each wave, applies a Fire Weakness to all enemies and deals Fire DMG to them.
-- **最大等级**：1
-- **效果模板**：Leaps into the air and moves about freely for #1[i] seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for #3[i] turn(s). Then, deals Fire DMG equal to #2[i]% of SAM's ATK to all enemies.
+- **Type**：Technique
+- **Summary**：Leaps into the air and moves about freely. After a few seconds of movement, plunges and attacks all enemies within range. At the start of each wave, applies a Fire Weakness to all enemies and deals Fire DMG to them.
+- **Max Level**：1
+- **Effect Template**：Leaps into the air and moves about freely for #1[i] seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for #3[i] turn(s). Then, deals Fire DMG equal to #2[i]% of SAM's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 5 | 200% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「并进行自由移动，持续___秒，此时施放下落攻」
   - `#2[i]`% → 参数2(%)：上下文「成等同于装甲「萨姆」___%攻击力的火属性伤」
   - `#3[i]`回 → 参数3：上下文「添加火属性弱点，持续___回合，此后对敌方全」
 
-- **满级效果**：Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.
+- **Max Effect**：Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.
 
 ## Trace Bonuses
 
@@ -285,31 +281,31 @@ If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. O
 
 ### [[zh_cn/lightcone/毁灭/梦应归于何处.md|Whereabouts Should Dreams Rest]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：蜕变
-- **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。当装备者对敌方目标造成击破伤害时，使敌方陷入【溃败】状态，持续2回合。【溃败】状态下目标受到装备者造成的击破伤害提高【24.0%/28.0%/32.0%/36.0%/40.0%】，速度降低20%，同类效果无法叠加。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Metamorphosis
+- **Effect**：Increases the wearer's Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turn(s). Targets afflicted with Routed receive #2[f1]% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the same type cannot be stacked.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/铭记于心的约定.md|Indelible Promise]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：传承
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。当装备者释放终结技时，暴击率提高【15%/18%/22%/26%/30%】，持续2回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Inheritance
+- **Effect**：Increases the wearer's Break Effect by 28%. When the wearer uses their Ultimate, increases CRIT Rate by 15%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ## Recommended Teams
 

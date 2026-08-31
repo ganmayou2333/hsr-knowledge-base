@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Cloudlancer Art: North Wind
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 140% of Dan Heng's ATK to one enemy.
+- **Max Effect**：Deals Wind DMG equal to 140% of Dan Heng's ATK to one enemy.
 
 ### Skill：Cloudlancer Art: Torrent
-- **类型**：Skill
-- **简述**：Deals Wind DMG to one enemy. Upon a CRIT Hit, there is a high chance of Slowing the enemy.
-- **最大等级**：15
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy.
+- **Type**：Skill
+- **Summary**：Deals Wind DMG to one enemy. Upon a CRIT Hit, there is a high chance of Slowing the enemy.
+- **Max Level**：15
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy.
 When DMG dealt by Skill triggers CRIT Hit, there is a #4[i]% base chance to reduce the target's SPD by #2[i]%, lasting for #3[i] turn(s).
 战技造成的伤害触发暴击时，有#4[i]%的基础概率使受到攻击的敌方目标速度降低#2[i]%，持续#3[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 130% | 12% | 2 | 100% |
@@ -124,23 +124,22 @@ When DMG dealt by Skill triggers CRIT Hit, there is a #4[i]% base chance to redu
   | Lv.14 | 312% | 12% | 2 | 100% |
   | Lv.15 | 325% | 12% | 2 | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
   - `#2[i]`% → 参数2(%)：上下文「击的敌方目标速度降低___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「低#2[i]%，持续___回合。」
   - `#4[i]`% → 参数4(%)：上下文「的伤害触发暴击时，有___%的基础概率使受到」
 
-- **满级效果**：Deals Wind DMG equal to 325% of Dan Heng's ATK to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 325% of Dan Heng's ATK to one designated enemy.
 When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12%, lasting for 2 turn(s).
-战技造成的伤害触发暴击时，有100%的基础概率使受到攻击的敌方目标速度降低12%，持续2回合。
 
 ### Ultimate：Ethereal Dream
-- **类型**：Ultimate
-- **简述**：Deals massive Wind DMG to one enemy. If the enemy is Slowed, DMG multiplier dealt will be increased.
-- **最大等级**：15
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by #2[i]%.
+- **Type**：Ultimate
+- **Summary**：Deals massive Wind DMG to one enemy. If the enemy is Slowed, DMG multiplier dealt will be increased.
+- **Max Level**：15
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by #2[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 240% | 72% |
@@ -159,19 +158,19 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
   | Lv.14 | 464% | 139.2% |
   | Lv.15 | 480% | 144% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于丹恒___%攻击力的风属性伤」
   - `#2[i]`% → 参数2(%)：上下文「技造成的伤害倍率提高___%。」
 
-- **满级效果**：Deals Wind DMG equal to 480% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by 144%.
+- **Max Effect**：Deals Wind DMG equal to 480% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by 144%.
 
 ### Talent：Superiority of Reach
-- **类型**：Talent
-- **简述**：When this unit becomes the target of an ally's ability, this unit's next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.
-- **最大等级**：15
-- **效果模板**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).
+- **Type**：Talent
+- **Summary**：When this unit becomes the target of an ally's ability, this unit's next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.
+- **Max Level**：15
+- **Effect Template**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 18% | 2 |
@@ -190,28 +189,28 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
   | Lv.14 | 43.2% | 2 |
   | Lv.15 | 45% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的风属性抗性穿透提高___%。该效果在#2[」
   - `#2[i]`回 → 参数2：上下文「1[i]%。该效果在___回合后可再次触发。」
 
-- **满级效果**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by 45%. This effect can be triggered again after 2 turn(s).
+- **Max Effect**：When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by 45%. This effect can be triggered again after 2 turn(s).
 
 ### Technique：Splitting Spearhead
-- **类型**：Technique
-- **简述**：After they use their Technique, their ATK is increased at the start of the next battle.
-- **最大等级**：1
-- **效果模板**：After Dan Heng uses his Technique, his ATK increases by #1[i]% at the start of the next battle for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：After they use their Technique, their ATK is increased at the start of the next battle.
+- **Max Level**：1
+- **Effect Template**：After Dan Heng uses his Technique, his ATK increases by #1[i]% at the start of the next battle for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 40% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「开始时丹恒攻击力提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
 
-- **满级效果**：After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s).
+- **Max Effect**：After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s).
 
 ## Trace Bonuses
 
@@ -272,31 +271,31 @@ When DMG dealt by Skill triggers CRIT Hit, there is a 100% base chance to reduce
 
 ### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：花与蝶
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Flowers and Butterflies
+- **Effect**：Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by 6%. At the same time, increases the CRIT DMG of Ultimate by 12%. This effect can stack up to 6 time(s).
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：美梦
-- **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
 ## Recommended Teams
 

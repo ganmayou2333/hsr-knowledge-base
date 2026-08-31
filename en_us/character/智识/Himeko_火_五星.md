@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Sawblade Tuning
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于姬子___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Himeko's ATK to one enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Himeko's ATK to one enemy.
 
 ### Skill：Molten Detonation
-- **类型**：Skill
-- **简述**：Deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one designated enemy and Fire DMG equal to #2[i]% of Himeko's ATK to enemies adjacent to it.
+- **Type**：Skill
+- **Summary**：Deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to one designated enemy and Fire DMG equal to #2[i]% of Himeko's ATK to enemies adjacent to it.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 100% | 40% |
@@ -122,19 +122,19 @@
   | Lv.14 | 240% | 96% |
   | Lv.15 | 250% | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于姬子___%攻击力的火属性伤」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于姬子___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 250% of Himeko's ATK to one designated enemy and Fire DMG equal to 100% of Himeko's ATK to enemies adjacent to it.
+- **Max Effect**：Deals Fire DMG equal to 250% of Himeko's ATK to one designated enemy and Fire DMG equal to 100% of Himeko's ATK to enemies adjacent to it.
 
 ### Ultimate：Heavenly Flare
-- **类型**：Ultimate
-- **简述**：Deals Fire DMG to all enemies and regenerates Energy if enemies are defeated.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to all enemies. Himeko regenerates #2[i] extra Energy for each enemy defeated.
+- **Type**：Ultimate
+- **Summary**：Deals Fire DMG to all enemies and regenerates Energy if enemies are defeated.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Himeko's ATK to all enemies. Himeko regenerates #2[i] extra Energy for each enemy defeated.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 138% | 5 |
@@ -153,25 +153,24 @@
   | Lv.14 | 266.8% | 5 |
   | Lv.15 | 276% | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于姬子___%攻击力的火属性伤」
   - `#2[i]`点 → 参数2：上下文「敌方目标额外恢复姬子___点能量。」
 
-- **满级效果**：Deals Fire DMG equal to 276% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.
+- **Max Effect**：Deals Fire DMG equal to 276% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.
 
 ### Talent：Victory Rush
-- **类型**：Talent
-- **简述**：At the start of battle or when an enemy's Weakness is Broken, gains Charge.
+- **Type**：Talent
+- **Summary**：At the start of battle or when an enemy's Weakness is Broken, gains Charge.
 After any ally target performs an attack, if fully Charged, launches Follow-Up ATK and deals Fire DMG to all enemies, consuming all Charge points.
 我方目标攻击后，若充能达到上限则发动追加攻击，对敌方全体造成火属性伤害，消耗全部充能。
-- **最大等级**：15
-- **效果模板**：When an enemy target is inflicted with Weakness Break, Himeko gains 1 point of Charge (max #2[i] points).
+- **Max Level**：15
+- **Effect Template**：When an enemy target is inflicted with Weakness Break, Himeko gains 1 point of Charge (max #2[i] points).
 If Himeko is fully Charged when an ally target performs an attack, Himeko immediately performs 1 Follow-Up ATK and deals Fire DMG equal to #1[i]% of her ATK to all enemies, consuming all Charge points.
 At the start of the battle, Himeko gains 1 point of Charge.
 当我方目标施放攻击后，若姬子的充能达到上限则立即发动1次追加攻击，对敌方全体目标造成等同于姬子#1[i]%攻击力的火属性伤害，并消耗全部充能。
-战斗开始时获得1点充能。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 70% | 3 |
@@ -190,34 +189,32 @@ At the start of the battle, Himeko gains 1 point of Charge.
   | Lv.14 | 168% | 3 |
   | Lv.15 | 175% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体目标造成等同于姬子___%攻击力的火属性伤」
   - `#2[i]`点 → 参数2：上下文「，姬子获得充能，上限___点。 当我方目标施」
 
-- **满级效果**：When an enemy target is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).
+- **Max Effect**：When an enemy target is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).
 If Himeko is fully Charged when an ally target performs an attack, Himeko immediately performs 1 Follow-Up ATK and deals Fire DMG equal to 175% of her ATK to all enemies, consuming all Charge points.
 At the start of the battle, Himeko gains 1 point of Charge.
-当我方目标施放攻击后，若姬子的充能达到上限则立即发动1次追加攻击，对敌方全体目标造成等同于姬子175%攻击力的火属性伤害，并消耗全部充能。
-战斗开始时获得1点充能。
 
 ### Technique：Incomplete Combustion
-- **类型**：Technique
-- **简述**：Creates a Special Dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.
-- **最大等级**：1
-- **效果模板**：After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 10% | 2 | 15 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「受到的火属性伤害提高___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。我方制造的领」
   - `#4[i]`秒 → 参数4：上下文「秘技后，制造1片持续___秒的特殊领域。与处」
 
-- **满级效果**：After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering battle with enemies in the Special Dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
+- **Max Effect**：After using Technique, creates a Special Dimension that lasts for 15 second(s). After entering battle with enemies in the Special Dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 ## Trace Bonuses
 
@@ -225,7 +222,6 @@ At the start of the battle, Himeko gains 1 point of Charge.
 |---|---|---|---|---|---|
 | 附加能力1 | 星火 | 晋阶2 | 施放攻击后，有#1[i]%的基础概率使敌方目标陷入灼烧状态，持续#2[i]回合。
 灼烧状态下，敌方目标每回合开始时受到等同于姬子#3[i]%攻击力的火属性持续伤害。 | 施放攻击后，有50%的基础概率使敌方目标陷入灼烧状态，持续2回合。
-灼烧状态下，敌方目标每回合开始时受到等同于姬子30%攻击力的火属性持续伤害。 | 信用点×5000、灵感之钥×3、毁灭者的末路×1 |
 | 附加能力2 | 灼热 | 晋阶4 | 战技对灼烧状态下的敌方目标造成的伤害提高#1[i]%。 | 战技对灼烧状态下的敌方目标造成的伤害提高20%。 | 信用点×20000、启迪之钥×5、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 道标 | 晋阶6 | 若当前生命值百分比大于等于#1[i]%，则暴击率提高#2[i]%。 | 若当前生命值百分比大于等于80%，则暴击率提高15%。 | 信用点×160000、智识之钥×8、命运的足迹×1、毁灭者的末路×1 |
 
@@ -280,31 +276,31 @@ At the start of the battle, Himeko gains 1 point of Charge.
 
 ### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：长夜
-- **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Long Night
+- **Effect**：Increases the wearer's CRIT DMG by 36%. Increases DMG dealt by the wearer's Skill and Ultimate by 18%. After the wearer uses Skill or Ultimate, gains "Somnus Corpus." Upon triggering a Follow-Up ATK, consumes "Somnus Corpus," and increases DMG dealt by Follow-Up ATK by 48%.
 
 ### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★★
-- **技能名**：流星群
-- **效果**：当场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Meteor Swarm
+- **Effect**：For every enemy on the field, increases the wearer's ATK by #2[f1]%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.
 
 ### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
-- **基础属性**：生846 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：风雨将至
-- **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
+- **Base Stats**：HP846 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：A Storm Is Coming
+- **Effect**：After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
 ### [[zh_cn/lightcone/智识/天才们的休憩.md|Geniuses' Repose]]
 
-- **基础属性**：生846 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：各得其所
-- **效果**：使装备者攻击力提高【16%/20%/24%/28%/32%】，消灭敌方目标后,暴击伤害提高【24%/30%/36%/42%/48%】，持续3回合。
+- **Base Stats**：HP846 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Each Now Has a Role to Play
+- **Effect**：Increases the wearer's ATK by 16%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24% for 3 turn(s).
 
 ## Recommended Teams
 

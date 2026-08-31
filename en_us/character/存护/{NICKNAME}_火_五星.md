@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Ice-Breaking Light
-- **类型**：Basic ATK
-- **简述**：Consumes "Magma Will," then deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.
-- **最大等级**：10
-- **效果模板**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
+- **Type**：Basic ATK
+- **Summary**：Consumes "Magma Will," then deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.
+- **Max Level**：10
+- **Effect Template**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的火属性伤」
 
-- **满级效果**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to 140% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
+- **Max Effect**：Consumes 4 stacks of "Magma Will" to enhance Basic ATK, dealing Fire DMG equal to 140% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.
 
 ### Skill：Ever-Burning Amber
-- **类型**：Skill
-- **简述**：Reduces DMG taken and gains Magma Will, with a high chance to Taunt all enemies.
-- **最大等级**：15
-- **效果模板**：Increases the Trailblazer's DMG Reduction by #1[i]% and gains 1 stack of Magma Will, with a #2[i]% base chance to Taunt all enemies for #3[i] turn(s).
+- **Type**：Skill
+- **Summary**：Reduces DMG taken and gains Magma Will, with a high chance to Taunt all enemies.
+- **Max Level**：15
+- **Effect Template**：Increases the Trailblazer's DMG Reduction by #1[i]% and gains 1 stack of Magma Will, with a #2[i]% base chance to Taunt all enemies for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 40% | 100% | 1 |
@@ -122,20 +122,20 @@
   | Lv.14 | 54% | 100% | 1 |
   | Lv.15 | 55% | 100% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「开拓者受到的伤害降低___%并叠加1层【灼热」
   - `#2[i]`% → 参数2(%)：上下文「【灼热意志】，此外有___%基础概率使敌方全」
   - `#3[i]`回 → 参数3：上下文「体陷入嘲讽状态，持续___回合。」
 
-- **满级效果**：Increases the Trailblazer's DMG Reduction by 55% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).
+- **Max Effect**：Increases the Trailblazer's DMG Reduction by 55% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).
 
 ### Ultimate：War-Flaming Lance
-- **类型**：Ultimate
-- **简述**：Deals Fire DMG to all enemies and enhances this unit's next Basic ATK.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
+- **Type**：Ultimate
+- **Summary**：Deals Fire DMG to all enemies and enhances this unit's next Basic ATK.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 50% | 75% |
@@ -154,23 +154,22 @@
   | Lv.14 | 120% | 180% |
   | Lv.15 | 125% | 187.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于开拓者___%攻击力+#2[i」
   - `#2[i]`% → 参数2(%)：上下文「#1[i]%攻击力+___%防御力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 125% of the Trailblazer's ATK plus 187.5% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
+- **Max Effect**：Deals Fire DMG equal to 125% of the Trailblazer's ATK plus 187.5% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.
 
 ### Talent：Treasure of the Architects
-- **类型**：Talent
-- **简述**：When attacked, stacks "Magma Will." When "Magma Will" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.
-- **最大等级**：15
-- **效果模板**：Each time the Trailblazer is hit, they gain 1 stack of "Magma Will" for a max of #3[i] stack(s).
+- **Type**：Talent
+- **Summary**：When attacked, stacks "Magma Will." When "Magma Will" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.
+- **Max Level**：15
+- **Effect Template**：Each time the Trailblazer is hit, they gain 1 stack of "Magma Will" for a max of #3[i] stack(s).
 When "Magma Will" has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to one designated enemy and enemies adjacent to it.
 When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).
-【灼热意志】层数不低于4时，普攻将获得强化，对指定敌方单体及其相邻目标同时造成伤害。
 开拓者施放普攻、战技、终结技后，为我方全体提供能够抵消等同于开拓者#1[f1]%防御力+#4[i]伤害的护盾，持续#2[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 4% | 2 | 8 | 20 |
@@ -189,35 +188,34 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
   | Lv.14 | 6.8% | 2 | 8 | 98 |
   | Lv.15 | 7% | 2 | 8 | 102.5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`回 → 参数2：上下文「i]伤害的护盾，持续___回合。」
   - `#3[i]`层 → 参数3：上下文「热意志】，最多可叠加___层。 【灼热意志】」
   - `#4[i]`伤 → 参数4：上下文「1[f1]%防御力+___伤害的护盾，持续#」
 
-- **满级效果**：Each time the Trailblazer is hit, they gain 1 stack of "Magma Will" for a max of 8 stack(s).
+- **Max Effect**：Each time the Trailblazer is hit, they gain 1 stack of "Magma Will" for a max of 8 stack(s).
 When "Magma Will" has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to one designated enemy and enemies adjacent to it.
 When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus 102.5. The Shield lasts for 2 turn(s).
-【灼热意志】层数不低于4时，普攻将获得强化，对指定敌方单体及其相邻目标同时造成伤害。
 开拓者施放普攻、战技、终结技后，为我方全体提供能够抵消等同于开拓者#1[f1]%防御力+102.5伤害的护盾，持续2回合。
 
 ### Technique：Call of the Guardian
-- **类型**：Technique
-- **简述**：After using Technique, provides a Shield for this unit at the start of the next battle.
-- **最大等级**：1
-- **效果模板**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).
+- **Type**：Technique
+- **Summary**：After using Technique, provides a Shield for this unit at the start of the next battle.
+- **Max Level**：1
+- **Effect Template**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 30% | 384 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「能够抵消等同于开拓者___%防御力+#2[i」
   - `#2[i]`伤 → 参数2：上下文「#1[i]%防御力+___伤害的护盾，持续#」
   - `#3[i]`回 → 参数3：上下文「i]伤害的护盾，持续___回合。」
 
-- **满级效果**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s).
+- **Max Effect**：After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s).
 
 ## Trace Bonuses
 
@@ -278,38 +276,38 @@ When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all a
 
 ### [[zh_cn/lightcone/存护/制胜的瞬间.md|Moment of Victory]]
 
-- **基础属性**：生1058 攻476 防595
-- **推荐度**：★★★★★
-- **技能名**：决断
-- **效果**：使装备者的防御力提高【24%/28%/32%/36%/40%】，效果命中提高【24%/28%/32%/36%/40%】，同时使自身受到攻击的概率提高。当装备者受到攻击后，防御力额外提高【24%/28%/32%/36%/40%】，持续到自身回合结束。
+- **Base Stats**：HP1058 ATK476 DEF595
+- **Rating**：★★★★★
+- **Skill Name**：Verdict
+- **Effect**：Increases the wearer's DEF by 24% and Effect Hit Rate by 24%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 24% until the end of the wearer's turn.
 
 ### [[zh_cn/lightcone/存护/余生的第一天.md|Day One of My New Life]]
 
-- **基础属性**：生952 攻370 防463
-- **推荐度**：★★★★★
-- **技能名**：此刻定格
-- **效果**：使装备者的防御力提高【16%/18%/20%/22%/24%】。进入战斗后，使我方全体的全属性抗性提高【8%/9%/10%/11%/12%】。同类技能无法重复生效。
+- **Base Stats**：HP952 ATK370 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：At This Very Moment
+- **Effect**：Increases the wearer's DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Abilities of the same type cannot stack.
 
 ### [[zh_cn/lightcone/存护/朗道的选择.md|Landau's Choice]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：时光如梭
-- **效果**：使装备者受到攻击的概率提高，同时受到的伤害降低【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Time Fleets Away
+- **Effect**：The wearer is more likely to be attacked, and DMG taken is reduced by 16%.
 
 ### [[zh_cn/lightcone/存护/记忆的质料.md|Texture of Memories]]
 
-- **基础属性**：生1058 攻423 防529
-- **推荐度**：★★★★
-- **技能名**：珍存
-- **效果**：使装备者的效果抵抗提高【8%/10%/12%/14%/16%】，当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者【16%/20%/24%/28%/32%】生命上限的护盾，持续2回合。该效果每3回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Treasure
+- **Effect**：Increases the wearer's Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%.
 
 ### [[zh_cn/lightcone/存护/宇宙市场趋势.md|Trend of the Universal Market]]
 
-- **基础属性**：生1058 攻370 防396
-- **推荐度**：★★★★
-- **技能名**：新一轮洗牌
-- **效果**：使装备者的防御力提高【16%/20%/24%/28%/32%】。当装备者受到攻击后，有【100%/105%/110%/115%/120%】的基础概率使敌方目标陷入灼烧状态，每回合造成等同于装备者【40%/50%/60%/70%/80%】防御力的持续伤害，持续2回合。
+- **Base Stats**：HP1058 ATK370 DEF396
+- **Rating**：★★★★
+- **Skill Name**：A New Round of Shuffling
+- **Effect**：Increases the wearer's DEF by 16%. When the wearer is attacked, there is a 1 base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40% of the wearer's DEF for 2 turn(s).
 
 ## Recommended Teams
 

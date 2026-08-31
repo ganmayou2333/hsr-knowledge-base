@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Lament, Nethersea's Ripple
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -94,22 +94,20 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于遐蝶___%生命上限的量子属」
 
-- **满级效果**：Deals Quantum DMG equal to 70% of Castorice's Max HP to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 70% of Castorice's Max HP to one designated enemy.
 
 ### Skill：Silence, Wraithfly's Caress
-- **类型**：Skill
-- **简述**：Consumes all allies' HP. Deals Quantum DMG to one enemy and minor Quantum DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Consumes #1[i]% of all allies' current HP. Deals Quantum DMG equal to #2[i]% of Castorice's Max HP to one designated enemy and Quantum DMG equal to #3[i]% of Castorice's Max HP to adjacent targets.
+- **Type**：Skill
+- **Summary**：Consumes all allies' HP. Deals Quantum DMG to one enemy and minor Quantum DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Consumes #1[i]% of all allies' current HP. Deals Quantum DMG equal to #2[i]% of Castorice's Max HP to one designated enemy and Quantum DMG equal to #3[i]% of Castorice's Max HP to adjacent targets.
 If the current HP is insufficient, reduces the current HP down to 1.
 If Netherwing is on the battlefield, the Skill becomes "Boneclaw, Doomdrake's Embrace" instead.
-若当前生命值不足，最多使当前生命值降至1点。
-若死龙在场，战技替换为【骸爪，冥龙之环拥】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 30% | 25% | 15% |
@@ -128,26 +126,24 @@ If Netherwing is on the battlefield, the Skill becomes "Boneclaw, Doomdrake's Em
   | Lv.14 | 30% | 60% | 36% |
   | Lv.15 | 30% | 62.5% | 37.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「消耗我方全体当前___%的生命值，对指定」
   - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于遐蝶___%生命上限的量子属」
   - `#3[i]`% → 参数3(%)：上下文「邻目标造成等同于遐蝶___%生命上限的量子属」
 
-- **满级效果**：Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 62.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 37.5% of Castorice's Max HP to adjacent targets.
+- **Max Effect**：Consumes 30% of all allies' current HP. Deals Quantum DMG equal to 62.5% of Castorice's Max HP to one designated enemy and Quantum DMG equal to 37.5% of Castorice's Max HP to adjacent targets.
 If the current HP is insufficient, reduces the current HP down to 1.
 If Netherwing is on the battlefield, the Skill becomes "Boneclaw, Doomdrake's Embrace" instead.
-若当前生命值不足，最多使当前生命值降至1点。
-若死龙在场，战技替换为【骸爪，冥龙之环拥】。
 
 ### Ultimate：Doomshriek, Dawn's Chime
-- **类型**：Ultimate
-- **简述**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys a Territory that decreases All-Type RES for all enemies.
-- **最大等级**：15
-- **效果模板**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory "Lost Netherland," which decreases all enemies' All-Type RES by #4[i]%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of #1[i] and a set Max HP equal to #3[i]% of max "Newbud."
+- **Type**：Ultimate
+- **Summary**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys a Territory that decreases All-Type RES for all enemies.
+- **Max Level**：15
+- **Effect Template**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory "Lost Netherland," which decreases all enemies' All-Type RES by #4[i]%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of #1[i] and a set Max HP equal to #3[i]% of max "Newbud."
 After Netherwing experiences #2[i] turns or when its HP is 0, it disappears and dispels the Territory "Lost Netherland."
 死龙#2[i]个回合后或生命值为0时消失，同时解除境界【遗世冥域】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 165 | 3 | 100% | 10% | 0 |
@@ -166,26 +162,24 @@ After Netherwing experiences #2[i] turns or when its HP is 0, it disappears and 
   | Lv.14 | 165 | 3 | 100% | 24% | 0 |
   | Lv.15 | 165 | 3 | 100% | 25% | 0 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「至死龙。死龙初始拥有___点速度以及等同于【」
   - `#2[i]`个 → 参数2：上下文「固定生命上限。 死龙___个回合后或生命值为」
   - `#3[i]`% → 参数3(%)：上下文「及等同于【新蕊】上限___%的固定生命上限。」
   - `#4[i]`% → 参数4(%)：上下文「方全体全属性抗性降低___%，若遐蝶持有天赋」
   - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory "Lost Netherland," which decreases all enemies' All-Type RES by 25%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max "Newbud."
+- **Max Effect**：Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory "Lost Netherland," which decreases all enemies' All-Type RES by 25%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max "Newbud."
 After Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory "Lost Netherland."
-死龙3个回合后或生命值为0时消失，同时解除境界【遗世冥域】。
 
 ### Talent：Desolation Across Palms
-- **类型**：Talent
-- **简述**：When allies lose HP, Castorice gains "Newbud". Increases Castorice's and Netherwing's DMG dealt. When "Newbud" reaches its maximum limit, can activate the Ultimate. While Netherwing is on the field, HP lost by allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
-- **最大等级**：15
-- **效果模板**：The maximum limit of "Newbud" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of "Newbud." When "Newbud" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting for #4[i] turn(s).
+- **Type**：Talent
+- **Summary**：When allies lose HP, Castorice gains "Newbud". Increases Castorice's and Netherwing's DMG dealt. When "Newbud" reaches its maximum limit, can activate the Ultimate. While Netherwing is on the field, HP lost by allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
+- **Max Level**：15
+- **Effect Template**：The maximum limit of "Newbud" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of "Newbud." When "Newbud" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting for #4[i] turn(s).
 When Netherwing is on the field, "Newbud" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
-死龙在场时无法通过天赋获得【新蕊】，除死龙以外我方全体每损失1点生命值会转化为死龙同等的生命值。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 0 | 10% | 3 | 3 |
@@ -204,46 +198,43 @@ When Netherwing is on the field, "Newbud" cannot be gained through Talent, and e
   | Lv.14 | 0 | 24% | 3 | 3 |
   | Lv.15 | 0 | 25% | 3 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「与死龙造成的伤害提高___%，该效果最多叠加」
   - `#3[i]`层 → 参数3：上下文「]%，该效果最多叠加___层，持续#4[i]」
   - `#4[i]`回 → 参数4：上下文「加#3[i]层，持续___回合。 死龙在场时」
 
-- **满级效果**：The maximum limit of "Newbud" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of "Newbud." When "Newbud" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 25%. This effect can stack up to 3 time(s), lasting for 3 turn(s).
+- **Max Effect**：The maximum limit of "Newbud" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of "Newbud." When "Newbud" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by 25%. This effect can stack up to 3 time(s), lasting for 3 turn(s).
 When Netherwing is on the field, "Newbud" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.
-死龙在场时无法通过天赋获得【新蕊】，除死龙以外我方全体每损失1点生命值会转化为死龙同等的生命值。
 
 ### Technique：Wail, Death's Herald
-- **类型**：Technique
-- **简述**：Enters the "Netherveil" state. Enemies are unable to actively approach Castorice.
+- **Type**：Technique
+- **Summary**：Enters the "Netherveil" state. Enemies are unable to actively approach Castorice.
 During "Netherveil," attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%. Upon entering battle, consumes HP of all allies (except Netherwing).
 If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by an amount equal to 30% of max "Newbud."
 【冥茫】状态下攻击会使所有范围内的敌人进入战斗，同时召唤忆灵死龙使其行动提前100%。进入战斗时，消耗除死龙以外的我方全体生命值。
 进入战斗后未召唤死龙遐蝶回复等同于【新蕊】上限30%点数的【新蕊】。
-- **最大等级**：1
-- **效果模板**：After using Technique, enters the "Netherveil" state that lasts for #3[i] seconds. While "Netherveil" is active, enemies are unable to actively approach Castorice.
+- **Max Level**：1
+- **Effect Template**：After using Technique, enters the "Netherveil" state that lasts for #3[i] seconds. While "Netherveil" is active, enemies are unable to actively approach Castorice.
 During "Netherveil," active attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%, and deploys the Territory "Lost Netherland." Netherwing has its current HP equal to #2[i]% of max "Newbud." After entering battle, consumes #1[i]% of the current HP of all allies (except Netherwing).
 If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by an amount equal to #4[i]% of max "Newbud."
 【冥茫】状态下主动攻击会使所有范围内的敌人进入战斗，同时召唤忆灵死龙使其行动提前100%并展开境界【遗世冥域】，死龙拥有等同于【新蕊】上限#2[i]%的当前生命值。进入战斗后，消耗除死龙以外的我方全体#1[i]%当前生命值。
 进入战斗后未召唤死龙则遐蝶获得等同于【新蕊】上限#4[i]%点数的【新蕊】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 40% | 50% | 20 | 30% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「除死龙以外的我方全体___%当前生命值。 进」
   - `#2[i]`% → 参数2(%)：上下文「有等同于【新蕊】上限___%的当前生命值。进」
   - `#3[i]`秒 → 参数3：上下文「使用秘技后进入持续___秒的【冥茫】状态。」
   - `#4[i]`% → 参数4(%)：上下文「得等同于【新蕊】上限___%点数的【新蕊】。」
 
-- **满级效果**：After using Technique, enters the "Netherveil" state that lasts for 20 seconds. While "Netherveil" is active, enemies are unable to actively approach Castorice.
+- **Max Effect**：After using Technique, enters the "Netherveil" state that lasts for 20 seconds. While "Netherveil" is active, enemies are unable to actively approach Castorice.
 During "Netherveil," active attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%, and deploys the Territory "Lost Netherland." Netherwing has its current HP equal to 50% of max "Newbud." After entering battle, consumes 40% of the current HP of all allies (except Netherwing).
 If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by an amount equal to 30% of max "Newbud."
-【冥茫】状态下主动攻击会使所有范围内的敌人进入战斗，同时召唤忆灵死龙使其行动提前100%并展开境界【遗世冥域】，死龙拥有等同于【新蕊】上限50%的当前生命值。进入战斗后，消耗除死龙以外的我方全体40%当前生命值。
-进入战斗后未召唤死龙则遐蝶获得等同于【新蕊】上限30%点数的【新蕊】。
 
 ## Trace Bonuses
 
@@ -304,24 +295,28 @@ If Netherwing is not summoned after entering battle, Castorice gains "Newbud" by
 
 ### [[zh_cn/lightcone/记忆/让告别，更美一些.md|Make Farewells More Beautiful]]
 
-- **基础属性**：生1270 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：铭刻
-- **效果**：使装备者的生命上限提高【30%/37%/45%/52%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次装备者每次施放终结技时重置触发次数。
+- **Base Stats**：HP1270 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Engrave
+- **Effect**：Increases the wearer's Max HP by 30%. When the wearer or their memosprite loses HP during their own turn, the wearer gains "Death Flower." "Death Flower" allows the wearer and their memosprite to ignore 30% of the target's DEF when dealing DMG, lasting for 2 turn(s).
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
+When the wearer's memosprite disappears, advances the wearer's action by #4[i]%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
 
 ### [[zh_cn/lightcone/记忆/多流汗，少流泪.md|Sweat Now, Cry Less]]
 
-- **基础属性**：生1058 攻529 防198
-- **推荐度**：★★★★
-- **技能名**：来练！
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】，装备者的忆灵在场上时，装备者与忆灵造成的伤害提高【24%/27%/30%/33%/36%】。 记忆永不落幕
+- **Base Stats**：HP1058 ATK529 DEF198
+- **Rating**：★★★★
+- **Skill Name**：Come Train!
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer's memosprite is on the field, increases the DMG dealt by the wearer and their memosprite by 24%.
 
 ### (配诗人套不能超过叠影2级）
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：收取
-- **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Come Train!
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer's memosprite is on the field, increases the DMG dealt by the wearer and their memosprite by 24%.
 
 ## Recommended Teams
 

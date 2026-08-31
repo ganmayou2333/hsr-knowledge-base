@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Windrider Bullet
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Bronya's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Bronya's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于布洛妮娅___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 140% of Bronya's ATK to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 140% of Bronya's ATK to one designated enemy.
 
 ### Skill：Combat Redeployment
-- **类型**：Skill
-- **简述**：Dispels 1 debuff from a single ally, increases the damage they deal, and allows them to immediately take action.
-- **最大等级**：15
-- **效果模板**：Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by #1[i]% for #3[i] turn(s).
+- **Type**：Skill
+- **Summary**：Dispels 1 debuff from a single ally, increases the damage they deal, and allows them to immediately take action.
+- **Max Level**：15
+- **Effect Template**：Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by #1[i]% for #3[i] turn(s).
 When this Skill is used on Bronya herself, she cannot immediately take action again.
-当对自身施放该技能时，无法触发立即行动效果。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 33% | 0 | 1 | 1 |
@@ -124,23 +123,22 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
   | Lv.14 | 79.2% | 0 | 1 | 1 |
   | Lv.15 | 82.5% | 0 | 1 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「行动，造成的伤害提高___%，持续#3[i]」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`回 → 参数3：上下文「高#1[i]%，持续___回合。 当对自身施」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 82.5% for 1 turn(s).
+- **Max Effect**：Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 82.5% for 1 turn(s).
 When this Skill is used on Bronya herself, she cannot immediately take action again.
-当对自身施放该技能时，无法触发立即行动效果。
 
 ### Ultimate：The Belobog March
-- **类型**：Ultimate
-- **简述**：Increases ATK and CRIT DMG of all allies.
-- **最大等级**：15
-- **效果模板**：Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for #4[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Increases ATK and CRIT DMG of all allies.
+- **Max Level**：15
+- **Effect Template**：Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for #4[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 33% | 12% | 12% | 2 |
@@ -159,21 +157,21 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
   | Lv.14 | 63.8% | 17.6% | 23.2% | 2 |
   | Lv.15 | 66% | 18% | 24% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「使我方全体攻击力提高___%，同时提高等同于」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`回 → 参数4：上下文「]%的暴击伤害，持续___回合。」
 
-- **满级效果**：Increases the ATK of all allies by 66%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for 2 turn(s).
+- **Max Effect**：Increases the ATK of all allies by 66%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for 2 turn(s).
 
 ### Talent：Leading the Way
-- **类型**：Talent
-- **简述**：After this character uses Basic ATK, their next action will be Advanced Forward.
-- **最大等级**：15
-- **效果模板**：After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.
+- **Type**：Talent
+- **Summary**：After this character uses Basic ATK, their next action will be Advanced Forward.
+- **Max Level**：15
+- **Effect Template**：After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 15% |
@@ -192,27 +190,27 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
   | Lv.14 | 36% |
   | Lv.15 | 37.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「妮娅的下一次行动提前___%。」
 
-- **满级效果**：After using her Basic ATK, Bronya's next action will be Advanced Forward by 37.5%.
+- **Max Effect**：After using her Basic ATK, Bronya's next action will be Advanced Forward by 37.5%.
 
 ### Technique：Banner of Command
-- **类型**：Technique
-- **简述**：After this character uses Technique, increases all allies' ATK at the start of the next battle.
-- **最大等级**：1
-- **效果模板**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：After this character uses Technique, increases all allies' ATK at the start of the next battle.
+- **Max Level**：1
+- **Effect Template**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「使我方全体攻击力提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
 
-- **满级效果**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).
+- **Max Effect**：After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -273,31 +271,31 @@ When this Skill is used on Bronya herself, she cannot immediately take action ag
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量回复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下1个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：旧日纸鸢
-- **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/回到大地的飞行.md|A Grounded Ascent]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★
-- **技能名**：再启程
-- **效果**：当装备者对我方单体角色施放战技或终结技后，装备者恢复【6.0/6.5/7.0/7.5/8.0】点能量，同时使技能目标获得1层【圣咏】，持续3回合，最多叠加3层，每层【圣咏】使持有者造成的伤害提高【15%/17%/19%/21%/24%】。装备者每对我方单体角色施放2次战技或终结技后，恢复1个战技点。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Departing Anew
+- **Effect**：After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates #1[f1] Energy and the ability's target receives 1 stack of "Hymn" for 3 turn(s), stacking up to 3 time(s). Each stack of "Hymn" increases its holder's DMG dealt by 15%. After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ## Recommended Teams
 

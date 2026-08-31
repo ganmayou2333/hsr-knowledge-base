@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：A Broken Blade Still Slays
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy and inflicts the Taunt state on the target.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy and inflicts the Taunt state on the target.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -92,21 +92,18 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于千冶•刃___%生命上限的火属性」
 
-- **满级效果**：Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
+- **Max Effect**：Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.
 
 ### Skill：A Rain of Blades Seals Fate
-- **类型**：Skill
-- **简述**：
-- **最大等级**：15
-- **效果模板**：
-若当前生命值不足，施放战技时千冶•刃的当前生命值降低至1点。
-未处于【无量忿怒】状态或当前生命值小于等于1时，千冶•刃无法施放战技。
-施放战技时不消耗战技点。
+- **Type**：Skill
+- **Summary**：
+- **Max Level**：15
+- **Effect Template**：
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 36% | 4 | 12% | 10% |
@@ -125,32 +122,28 @@
   | Lv.14 | 86.4% | 4 | 28.8% | 10% |
   | Lv.15 | 90% | 4 | 30% | 10% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于千冶•刃___%生命上限的火属性」
   - `#2[i]`次 → 参数2：上下文「属性伤害，并额外造成___次伤害，每次伤害对」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：
-若当前生命值不足，施放战技时千冶•刃的当前生命值降低至1点。
-未处于【无量忿怒】状态或当前生命值小于等于1时，千冶•刃无法施放战技。
-施放战技时不消耗战技点。
+- **Max Effect**：
 
 ### Ultimate：Fornax Ex Corpore
-- **类型**：Ultimate
-- **简述**：Inflicts "Balefire Bind" on all enemies, causing the targets to decrease their DEF and increase the DMG they receive. Then, consumes this unit's HP to activate a Zone. While the Zone is active, this unit gains the "Infinite Fury" state, increases CRIT Rate, increases CRIT DMG, enhances Basic ATK, unlocks Skill, and gains a new Ultimate, lasting until the countdown ends.
+- **Type**：Ultimate
+- **Summary**：Inflicts "Balefire Bind" on all enemies, causing the targets to decrease their DEF and increase the DMG they receive. Then, consumes this unit's HP to activate a Zone. While the Zone is active, this unit gains the "Infinite Fury" state, increases CRIT Rate, increases CRIT DMG, enhances Basic ATK, unlocks Skill, and gains a new Ultimate, lasting until the countdown ends.
 When Mortenax Blade receives a killing blow, the Zone is dispelled.
 千冶•刃受到致命攻击时解除结界。
-- **最大等级**：15
-- **效果模板**：Inflicts "Balefire Bind" on all enemies. Enemy targets in the "Balefire Bind" state have their DEF reduced by #7[f1]% and the DMG they receive increases by #4[f1]%, lasting for #8[i] turn(s). Then, consumes HP equal to #1[i]% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the "Infinite Fury" state.
+- **Max Level**：15
+- **Effect Template**：Inflicts "Balefire Bind" on all enemies. Enemy targets in the "Balefire Bind" state have their DEF reduced by #7[f1]% and the DMG they receive increases by #4[f1]%, lasting for #8[i] turn(s). Then, consumes HP equal to #1[i]% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the "Infinite Fury" state.
 During the "Infinite Fury" state, increases CRIT Rate by #2[i]%, increases CRIT DMG by #3[f1]%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate "Tenax Per Ignem." When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the "Infinite Fury" state, and restore HP equal to #6[i]% of this unit's Max HP.
 When gaining the "Infinite Fury" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of #5[i]. At the start of the countdown's turn, dispels the Zone and exits the "Infinite Fury" state.
 If the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.
 【无量忿怒】状态下暴击率提高#2[i]%，暴击伤害提高#3[f1]%，普攻获得强化，同时解放战技并获得全新终结技【千冶铸一，万劫烬灭】，若受到致命攻击时，不会陷入无法战斗状态，但会解除结界退出【无量忿怒】状态并回复等同于自身#6[i]%生命上限的生命值。
 获得【无量忿怒】状态时，行动序列上出现对应倒计时，倒计时固定拥有#5[i]速度，倒计时回合开始时结界解除且退出【无量忿怒】状态。
-若当前生命值不足，施放本技能时千冶•刃的当前生命值降低至1点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7 | 参数8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 20% | 20% | 30% | 30% | 70 | 50% | 20% | 2 |
@@ -169,7 +162,7 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
   | Lv.14 | 20% | 20% | 72% | 58% | 70 | 50% | 34% | 2 |
   | Lv.15 | 20% | 20% | 75% | 60% | 70 | 50% | 35% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「同于千冶•刃生命上限___%的生命值展开结界」
   - `#2[i]`% → 参数2(%)：上下文「怒】状态下暴击率提高___%，暴击伤害提高#」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -179,21 +172,19 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
   - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
   - `#8[i]`回 → 参数8：上下文「#4[f1]%，持续___回合。随后消耗等同」
 
-- **满级效果**：Inflicts "Balefire Bind" on all enemies. Enemy targets in the "Balefire Bind" state have their DEF reduced by #7[f1]% and the DMG they receive increases by #4[f1]%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the "Infinite Fury" state.
+- **Max Effect**：Inflicts "Balefire Bind" on all enemies. Enemy targets in the "Balefire Bind" state have their DEF reduced by #7[f1]% and the DMG they receive increases by #4[f1]%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the "Infinite Fury" state.
 During the "Infinite Fury" state, increases CRIT Rate by 20%, increases CRIT DMG by #3[f1]%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate "Tenax Per Ignem." When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the "Infinite Fury" state, and restore HP equal to 50% of this unit's Max HP.
 When gaining the "Infinite Fury" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the "Infinite Fury" state.
 If the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.
 【无量忿怒】状态下暴击率提高20%，暴击伤害提高#3[f1]%，普攻获得强化，同时解放战技并获得全新终结技【千冶铸一，万劫烬灭】，若受到致命攻击时，不会陷入无法战斗状态，但会解除结界退出【无量忿怒】状态并回复等同于自身50%生命上限的生命值。
-获得【无量忿怒】状态时，行动序列上出现对应倒计时，倒计时固定拥有70速度，倒计时回合开始时结界解除且退出【无量忿怒】状态。
-若当前生命值不足，施放本技能时千冶•刃的当前生命值降低至1点。
 
 ### Talent：All Karma Comes Due
-- **类型**：Talent
-- **简述**：While the Zone is active, after an ally target attacks an enemy, inflicts the "Balefire Bind" state on the enemy and grants Charge to Mortenax Blade. When Charge reaches 9 points and his HP is higher than 1, consumes 9 Charge to regenerate Energy, and enables Mortenax Blade to use his Skill 1 extra time.
-- **最大等级**：15
-- **效果模板**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches #1[i] points and the current HP is more than 1, consumes #1[i] Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
+- **Type**：Talent
+- **Summary**：While the Zone is active, after an ally target attacks an enemy, inflicts the "Balefire Bind" state on the enemy and grants Charge to Mortenax Blade. When Charge reaches 9 points and his HP is higher than 1, consumes 9 Charge to regenerate Energy, and enables Mortenax Blade to use his Skill 1 extra time.
+- **Max Level**：15
+- **Effect Template**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches #1[i] points and the current HP is more than 1, consumes #1[i] Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 9 | 15 |
@@ -212,28 +203,28 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
   | Lv.14 | 9 | 29 |
   | Lv.15 | 9 | 30 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「生命值大于1时，消耗___点充能，恢复#2[」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
+- **Max Effect**：While the Zone is active, after each attack an ally target uses on an enemy, inflicts the "Balefire Bind" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.
 
 ### Technique：Blade's Reach Spares None
-- **类型**：Technique
-- **简述**：Attacks all enemies within range. After entering combat, inflicts the Taunt state on all enemies and reduces DMG taken by this unit.
-- **最大等级**：1
-- **效果模板**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by #1[i]% for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：Attacks all enemies within range. After entering combat, inflicts the Taunt state on all enemies and reduces DMG taken by this unit.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by #1[i]% for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 90% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「使自身受到的伤害降低___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「低#1[i]%，持续___回合。」
 
-- **满级效果**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).
+- **Max Effect**：Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -294,38 +285,38 @@ If the current HP is insufficient, Mortenax Blade's current HP will be reduced t
 
 ### [[zh_cn/lightcone/虚无/灼尽炼狱的新骸.md|Reforged in Hellfire]]
 
-- **基础属性**：生1376 攻423 防463
-- **推荐度**：★★★★★
-- **技能名**：淬炼
-- **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】，装备者回合开始时，固定恢复20点能量，该效果每个波次可触发1次。装备者施放战技攻击后，使目标陷入【炼狱】状态，持续2回合，【炼狱】状态下目标受到的暴击伤害提高【30%/37.5%/45%/52.5%/60%】，受到来自装备者的暴击伤害额外提高【30%/37.5%/45%/52.5%/60%】。
+- **Base Stats**：HP1376 ATK423 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Tempering
+- **Effect**：Increases the wearer's Max HP by 30%. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the "Purgatory" state, lasting for 2 turn(s). While in the "Purgatory" state, the target receives 30% increased CRIT DMG and 30% additionally increased CRIT DMG from the wearer.
 
 ### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：眼疾手快
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Quick on the Draw
+- **Effect**：Increases the wearer's Effect Hit Rate by 20%. When the wearer attacks DEF-reduced enemies, regenerates 4 Energy.
 
 ### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：回眸
-- **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Glance Back
+- **Effect**：When the wearer hits an enemy and if the hit enemy is not already "Ensnared," then there is a 60% base chance to "Ensnare" the hit enemy. "Ensnared" enemies' DEF decreases by 12% for 1 turn(s).
 
 ### [[zh_cn/lightcone/虚无/假日浴场大冒险.md|Holiday Thermae Escapade]]
 
-- **基础属性**：生1058 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：冷静一下
-- **效果**：使装备者造成的伤害提高【16%/20%/24%/28%/32%】。装备者攻击后，有100%基础概率使受到攻击的目标陷入易伤状态，受到的伤害提高【10%/11.5%/13%/14.5%/16%】，持续2回合。同类效果无法叠加。
+- **Base Stats**：HP1058 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Chill Out
+- **Effect**：Increases the wearer's DMG dealt by 16%. After the wearer attacks, there is a 1 base chance to inflict the attacked target with Vulnerability, increasing the DMG they receive by 10% for 2 turn(s). Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|Lies Dance on the Breeze]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★
-- **技能名**：欺瞒
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者施放攻击后，有120%的基础概率使敌方每个单体目标陷入【茫然】状态，【茫然】状态下的敌方目标防御力降低【16%/18%/20%/22%/24%】，持续2回合，若装备者的速度大于等于170，有120%的基础概率使敌方每个单体目标陷入【失窃】状态，【失窃】状态下的敌方目标防御力降低【8%/9%/10%/11%/12%】，持续2回合。【茫然】或【失窃】被重复施加时，仅最新施加的生效。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Deceit
+- **Effect**：Increases the wearer's SPD by 18%. After the wearer uses an attack, there is a 1.2 base chance to inflict the "Bamboozle" state on every enemy target. While under the "Bamboozle" state, enemy targets have their DEF decreased by 16% for 2 turn(s). If the wearer's SPD is higher than or equal to 170, there is a 1.2 base chance to inflict the "Theft" state on every enemy target. While under the "Theft" state, enemy targets have their DEF decreased by 8% for 2 turn(s). When "Bamboozle" or "Theft" is repeatedly inflicted, only the most recently inflicted instance takes effect.
 
 ## Recommended Teams
 

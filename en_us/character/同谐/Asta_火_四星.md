@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Spectrum Beam
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于艾丝妲___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Asta's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Asta's ATK to one designated enemy.
 
 ### Skill：Meteor Storm
-- **类型**：Skill
-- **简述**：Deals minor Fire DMG to single enemy targets with 5 Bounces in total.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to #1[i]% of Asta's ATK to a random enemy.
+- **Type**：Skill
+- **Summary**：Deals minor Fire DMG to single enemy targets with 5 Bounces in total.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to #1[i]% of Asta's ATK to a random enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -122,18 +122,18 @@
   | Lv.14 | 60% |
   | Lv.15 | 62.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于艾丝妲___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 62.5% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 62.5% of Asta's ATK to a random enemy.
+- **Max Effect**：Deals Fire DMG equal to 62.5% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 62.5% of Asta's ATK to a random enemy.
 
 ### Ultimate：Astral Blessing
-- **类型**：Ultimate
-- **简述**：Increases SPD for all allies.
-- **最大等级**：15
-- **效果模板**：Increases SPD of all allies by #1[i] for #2[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Increases SPD for all allies.
+- **Max Level**：15
+- **Effect Template**：Increases SPD of all allies by #1[i] for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 36 | 2 |
@@ -152,23 +152,23 @@
   | Lv.14 | 55.6 | 2 |
   | Lv.15 | 57 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「使我方全体速度提高___点，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]点，持续___回合。」
 
-- **满级效果**：Increases SPD of all allies by 57 for 2 turn(s).
+- **Max Effect**：Increases SPD of all allies by 57 for 2 turn(s).
 
 ### Talent：Astrometry
-- **类型**：Talent
-- **简述**：The character will receive 1 stack of Charging for every different enemy they hit, for a maximum of 5 stacks. Every stack of Charging increases ATK for all allies. At the beginning of their turn, reduce Charging stacks.
-- **最大等级**：15
-- **效果模板**：Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.
+- **Type**：Talent
+- **Summary**：The character will receive 1 stack of Charging for every different enemy they hit, for a maximum of 5 stacks. Every stack of Charging increases ATK for all allies. At the beginning of their turn, reduce Charging stacks.
+- **Max Level**：15
+- **Effect Template**：Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.
 For every stack of Charging Asta has, all allies' ATK increases by #1[f1]%, up to #2[i] time(s).
 Starting from her second turn, Asta's Charging stack count is reduced by #3[i] at the beginning of every turn.
 艾丝妲每拥有1层蓄能，会使我方全体攻击力提高#1[f1]%，该效果最多叠加#2[i]层。
 从自身的第2回合开始，艾丝妲每回合开始时蓄能层数减少#3[i]层。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 7% | 5 | 3 |
@@ -187,32 +187,31 @@ Starting from her second turn, Asta's Charging stack count is reduced by #3[i] a
   | Lv.14 | 16.8% | 5 | 3 |
   | Lv.15 | 17.5% | 5 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`层 → 参数2：上下文「]%，该效果最多叠加___层。 从自身的第2」
   - `#3[i]`层 → 参数3：上下文「合开始时蓄能层数减少___层。」
 
-- **满级效果**：Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.
+- **Max Effect**：Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.
 For every stack of Charging Asta has, all allies' ATK increases by #1[f1]%, up to 5 time(s).
 Starting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.
 艾丝妲每拥有1层蓄能，会使我方全体攻击力提高#1[f1]%，该效果最多叠加5层。
-从自身的第2回合开始，艾丝妲每回合开始时蓄能层数减少3层。
 
 ### Technique：Miracle Flash
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor DMG to all enemies.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor DMG to all enemies.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于艾丝妲___%攻击力的火属性伤」
 
-- **满级效果**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies.
+- **Max Effect**：Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies.
 
 ## Trace Bonuses
 
@@ -220,7 +219,6 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 |---|---|---|---|---|---|
 | 附加能力1 | 火花 | 晋阶2 | 施放普攻时，有#1[i]%的基础概率使敌方目标陷入灼烧状态，持续#2[i]回合。
 灼烧状态下，敌方目标每回合开始时受到等同于艾丝妲普攻#3[i]%的火属性持续伤害。 | 施放普攻时，有80%的基础概率使敌方目标陷入灼烧状态，持续3回合。
-灼烧状态下，敌方目标每回合开始时受到等同于艾丝妲普攻50%的火属性持续伤害。 | 信用点×4000、谐乐小调×2、毁灭者的末路×1 |
 | 附加能力2 | 点燃 | 晋阶4 | 艾丝妲在场时，我方全体的火属性伤害提高#1[i]%。 | 艾丝妲在场时，我方全体的火属性伤害提高18%。 | 信用点×16000、家族颂歌×4、命运的足迹×1、毁灭者的末路×1 |
 | 附加能力3 | 星座 | 晋阶6 | 艾丝妲每拥有1层蓄能，自身防御力提高#1[i]%。 | 艾丝妲每拥有1层蓄能，自身防御力提高6%。 | 信用点×128000、群星乐章×6、命运的足迹×1、毁灭者的末路×1 |
 
@@ -275,52 +273,52 @@ Starting from her second turn, Asta's Charging stack count is reduced by 3 at th
 
 ### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
-- **基础属性**：生952 攻423 防398
-- **推荐度**：★★★★
-- **技能名**：老相片
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
+- **Base Stats**：HP952 ATK423 DEF398
+- **Rating**：★★★★
+- **Skill Name**：Old Photo
+- **Effect**：Increases the wearer's Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/镂月裁云之意.md|Carve the Moon, Weave the Clouds]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：秘密
-- **效果**：在战斗开始时以及当装备者回合开始时,随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含:使我方全体攻击力提高【10%/12%/15%/17%/20%】;使我方全体暴击伤害提高【12%/15%/18%/21%/24%】;使我方全体能量恢复效率提高【6%/7%/9%/10%/12%】。同类效果无法叠加,在装备者陷入无法战斗状态时解除
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Secret
+- **Effect**：At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by 10%, all allies' CRIT DMG increases by 12%, or all allies' Energy Regeneration Rate increases by 6%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the same type cannot be stacked.
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：启程
-- **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Departure
+- **Effect**：After entering battle, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%.
 
 ### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：旧日纸鸢
-- **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/轮契.md|Meshing Cogs]]
 
-- **基础属性**：生846 攻317 防264
-- **推荐度**：★★
-- **技能名**：速决
-- **效果**：使装备者施放攻击或受到攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
+- **Base Stats**：HP846 ATK317 DEF264
+- **Rating**：★★
+- **Skill Name**：Fleet Triumph
+- **Effect**：After the wearer uses attacks or gets hit, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Corkage Fee
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Gallagher's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Gallagher's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于加拉赫___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Gallagher's ATK to one designated enemy target.
+- **Max Effect**：Deals Fire DMG equal to 140% of Gallagher's ATK to one designated enemy target.
 
 ### Skill：Special Brew
-- **类型**：Skill
-- **简述**：Immediately restores an ally's HP.
-- **最大等级**：15
-- **效果模板**：Immediately heals a target ally for #1[i] HP.
+- **Type**：Skill
+- **Summary**：Immediately restores an ally's HP.
+- **Max Level**：15
+- **Effect Template**：Immediately heals a target ally for #1[i] HP.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 200 |
@@ -122,18 +122,18 @@
   | Lv.14 | 1936 |
   | Lv.15 | 2020 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「即为指定我方单体回复___点生命值。」
 
-- **满级效果**：Immediately heals a target ally for 2020 HP.
+- **Max Effect**：Immediately heals a target ally for 2020 HP.
 
 ### Ultimate：Champagne Etiquette
-- **类型**：Ultimate
-- **简述**：Inflicts Besotted on all enemies and deals Fire DMG to them at the same time. Enhances the next Basic ATK to Nectar Blitz.
-- **最大等级**：15
-- **效果模板**：Inflicts Besotted on all enemies, lasting for #2[i] turn(s). At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
+- **Type**：Ultimate
+- **Summary**：Inflicts Besotted on all enemies and deals Fire DMG to them at the same time. Enhances the next Basic ATK to Nectar Blitz.
+- **Max Level**：15
+- **Effect Template**：Inflicts Besotted on all enemies, lasting for #2[i] turn(s). At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 75% | 2 |
@@ -152,19 +152,19 @@
   | Lv.14 | 180% | 2 |
   | Lv.15 | 187.5% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于加拉赫___%攻击力的火属性伤」
   - `#2[i]`回 → 参数2：上下文「入【酩酊】状态，持续___回合，同时对敌方全」
 
-- **满级效果**：Inflicts Besotted on all enemies, lasting for 2 turn(s). At the same time, deals Fire DMG equal to 187.5% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
+- **Max Effect**：Inflicts Besotted on all enemies, lasting for 2 turn(s). At the same time, deals Fire DMG equal to 187.5% of Gallagher's ATK to all enemies, and enhances his next Basic ATK to Nectar Blitz.
 
 ### Talent：Tipsy Tussle
-- **类型**：Talent
-- **简述**：The Besotted state makes targets receive more Break DMG. Every time the target gets attacked by an ally character, the attacker's HP is restored.
-- **最大等级**：15
-- **效果模板**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by #2[i].
+- **Type**：Talent
+- **Summary**：The Besotted state makes targets receive more Break DMG. Every time the target gets attacked by an ally character, the attacker's HP is restored.
+- **Max Level**：15
+- **Effect Template**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by #2[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 6% | 80 |
@@ -183,28 +183,28 @@
   | Lv.14 | 14.4% | 774.4 |
   | Lv.15 | 15% | 808 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`点 → 参数2：上下文「攻击后，会回复攻击者___点生命值。」
 
-- **满级效果**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by 808.
+- **Max Effect**：The Besotted state makes targets receive #1[f1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by 808.
 
 ### Technique：Artisan Elixir
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, inflicts Besotted to all enemies and deals minor Fire DMG to all enemies.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for #1[i] turn(s). And deals Fire DMG equal to #2[i]% of Gallagher's ATK to all enemies.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, inflicts Besotted to all enemies and deals minor Fire DMG to all enemies.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for #1[i] turn(s). And deals Fire DMG equal to #2[i]% of Gallagher's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 2 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「入【酩酊】状态，持续___回合，并对敌方全体」
   - `#2[i]`% → 参数2(%)：上下文「全体造成等同于加拉赫___%攻击力的火属性伤」
 
-- **满级效果**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turn(s). And deals Fire DMG equal to 50% of Gallagher's ATK to all enemies.
+- **Max Effect**：Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turn(s). And deals Fire DMG equal to 50% of Gallagher's ATK to all enemies.
 
 ## Trace Bonuses
 
@@ -265,31 +265,31 @@
 
 ### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：深度深呼吸
-- **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deep, Deep Breaths
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：互相治愈
-- **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Mutual Healing
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.
 
 ### [[zh_cn/lightcone/丰饶/何物为真.md|What Is Real]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：假设
-- **效果**：使装备者的击破特攻提高【24%/30%/36%/42%/48%】。施放普攻后，装备者回复等同于【2.0%/2.5%/3.0%/3.5%/4.0%】生命上限+800点的生命值。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Hypothesis
+- **Effect**：Increases the wearer's Break Effect by 24%. After using Basic ATK, restores HP for the wearer by an amount equal to #2[f1]% of Max HP plus 800.
 
 ### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：折射的视线
-- **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Refraction of Sightline
+- **Effect**：Increases the wearer's Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.
 
 ## Recommended Teams
 

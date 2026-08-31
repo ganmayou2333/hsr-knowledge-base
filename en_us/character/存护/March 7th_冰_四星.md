@@ -55,7 +55,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -72,12 +72,12 @@
 ---
 ## Skills
 ### Basic ATK：Frigid Cold Arrow
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of March 7th's ATK to one enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of March 7th's ATK to one enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -91,20 +91,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于三月七___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 140% of March 7th's ATK to one enemy.
+- **Max Effect**：Deals Ice DMG equal to 140% of March 7th's ATK to one enemy.
 
 ### Skill：The Power of Cuteness
-- **类型**：Skill
-- **简述**：Applies a Shield on a single ally.
-- **最大等级**：15
-- **效果模板**：Provides a single ally with a Shield that can absorb DMG equal to #1[i]% of March 7th's DEF plus #4[i] for #2[i] turn(s).
+- **Type**：Skill
+- **Summary**：Applies a Shield on a single ally.
+- **Max Level**：15
+- **Effect Template**：Provides a single ally with a Shield that can absorb DMG equal to #1[i]% of March 7th's DEF plus #4[i] for #2[i] turn(s).
 If the ally's current HP percentage is #3[i]% or higher, greatly increases the chance of enemies attacking that ally.
 若该目标当前生命值百分比大于等于#3[i]%，被敌方攻击的概率大幅提高。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 38% | 3 | 30% | 190 | 5 |
@@ -123,26 +123,25 @@ If the ally's current HP percentage is #3[i]% or higher, greatly increases the c
   | Lv.14 | 64.6% | 3 | 30% | 931 | 5 |
   | Lv.15 | 66.5% | 3 | 30% | 973.75 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「能够抵消等同于三月七___%防御力+#4[i」
   - `#2[i]`回 → 参数2：上下文「i]伤害的护盾，持续___回合。 若该目标当」
   - `#3[i]`% → 参数3(%)：上下文「生命值百分比大于等于___%，被敌方攻击的概」
   - `#4[i]`伤 → 参数4：上下文「#1[i]%防御力+___伤害的护盾，持续#」
   - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Provides a single ally with a Shield that can absorb DMG equal to 66.5% of March 7th's DEF plus 973.75 for 3 turn(s).
+- **Max Effect**：Provides a single ally with a Shield that can absorb DMG equal to 66.5% of March 7th's DEF plus 973.75 for 3 turn(s).
 If the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.
-若该目标当前生命值百分比大于等于30%，被敌方攻击的概率大幅提高。
 
 ### Ultimate：Glacial Cascade
-- **类型**：Ultimate
-- **简述**：Deals Ice DMG to all enemies, with a chance of Freezing them.
-- **最大等级**：15
-- **效果模板**：Deals Ice DMG equal to #1[i]% of March 7th's ATK to all enemies. Hit enemies have a #2[i]% base chance to be Frozen for #3[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Deals Ice DMG to all enemies, with a chance of Freezing them.
+- **Max Level**：15
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of March 7th's ATK to all enemies. Hit enemies have a #2[i]% base chance to be Frozen for #3[i] turn(s).
 While Frozen, enemies cannot take action and will receive Ice Additional DMG equal to #4[i]% of March 7th's ATK at the beginning of each turn.
 冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七#4[i]%攻击力的冰属性附加伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 90% | 50% | 1 | 30% |
@@ -161,23 +160,22 @@ While Frozen, enemies cannot take action and will receive Ice Additional DMG equ
   | Lv.14 | 174% | 50% | 1 | 72% |
   | Lv.15 | 180% | 50% | 1 | 75% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于三月七___%攻击力的冰属性伤」
   - `#2[i]`% → 参数2(%)：上下文「受到攻击的敌方目标有___%基础概率陷入冻结」
   - `#3[i]`回 → 参数3：上下文「率陷入冻结状态，持续___回合。 冻结状态下」
   - `#4[i]`% → 参数4(%)：上下文「始时受到等同于三月七___%攻击力的冰属性附」
 
-- **满级效果**：Deals Ice DMG equal to 180% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s).
+- **Max Effect**：Deals Ice DMG equal to 180% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s).
 While Frozen, enemies cannot take action and will receive Ice Additional DMG equal to 75% of March 7th's ATK at the beginning of each turn.
-冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七75%攻击力的冰属性附加伤害。
 
 ### Talent：Girl Power
-- **类型**：Talent
-- **简述**：After a Shielded ally is attacked by an enemy, March 7th immediately launches a Counter against the attacker, dealing minor Ice DMG.
-- **最大等级**：15
-- **效果模板**：After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to #1[i]% of her ATK. This effect can be triggered #2[i] time(s) each turn.
+- **Type**：Talent
+- **Summary**：After a Shielded ally is attacked by an enemy, March 7th immediately launches a Counter against the attacker, dealing minor Ice DMG.
+- **Max Level**：15
+- **Effect Template**：After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to #1[i]% of her ATK. This effect can be triggered #2[i] time(s) each turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
@@ -196,33 +194,32 @@ While Frozen, enemies cannot take action and will receive Ice Additional DMG equ
   | Lv.14 | 120% | 2 |
   | Lv.15 | 125% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「对其造成等同于三月七___%攻击力的冰属性伤」
   - `#2[i]`次 → 参数2：上下文「，该效果每回合可触发___次。」
 
-- **满级效果**：After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 125% of her ATK. This effect can be triggered 2 time(s) each turn.
+- **Max Effect**：After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 125% of her ATK. This effect can be triggered 2 time(s) each turn.
 
 ### Technique：Freezing Beauty
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, there is a high chance of inflicting Freeze on a random enemy.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering battle, there is a #1[i]% base chance to Freeze a random enemy for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, there is a high chance of inflicting Freeze on a random enemy.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering battle, there is a #1[i]% base chance to Freeze a random enemy for #2[i] turn(s).
 While Frozen, the enemy cannot take action and will take Ice Additional DMG equal to #3[i]% of March 7th's ATK at the beginning of each turn.
 冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七#3[i]%攻击力的冰属性附加伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 100% | 1 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「击敌人，进入战斗后有___%的基础概率使随机」
   - `#2[i]`回 → 参数2：上下文「体陷入冻结状态，持续___回合。 冻结状态下」
   - `#3[i]`% → 参数3(%)：上下文「始时受到等同于三月七___%攻击力的冰属性附」
 
-- **满级效果**：Immediately attacks the enemy. After entering battle, there is a 100% base chance to Freeze a random enemy for 1 turn(s).
+- **Max Effect**：Immediately attacks the enemy. After entering battle, there is a 100% base chance to Freeze a random enemy for 1 turn(s).
 While Frozen, the enemy cannot take action and will take Ice Additional DMG equal to 50% of March 7th's ATK at the beginning of each turn.
-冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七50%攻击力的冰属性附加伤害。
 
 ## Trace Bonuses
 
@@ -282,38 +279,38 @@ While Frozen, the enemy cannot take action and will take Ice Additional DMG equa
 
 ### [[zh_cn/lightcone/存护/命运从未公平.md|Inherently Unjust Destiny]]
 
-- **基础属性**：生1058 攻423 防661
-- **推荐度**：★★★★★
-- **技能名**：全下
-- **效果**：使装备者的防御力提高【40%/46%/52%/58%/64%】，当装备者为我方目标提供护盾时，使装备者的暴击伤害提高【40%/46%/52%/58%/64%】，持续2回合。当装备者发动追加攻击击中敌方目标时，有【100%/115%/130%/145%/160%】的基础概率使受到攻击的敌方目标受到的伤害提高【10.0%/11.5%/13.0%/14.5%/16.0%】，持续2回合。
+- **Base Stats**：HP1058 ATK423 DEF661
+- **Rating**：★★★★★
+- **Skill Name**：All-In
+- **Effect**：Increases the wearer's DEF by 40%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40%, lasting for 2 turn(s). When the wearer's Follow-Up ATK hits an enemy target, there is a 1 base chance to increase the DMG taken by the attacked enemy target by #5[f1]%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/存护/制胜的瞬间.md|Moment of Victory]]
 
-- **基础属性**：生1058 攻476 防595
-- **推荐度**：★★★★★
-- **技能名**：决断
-- **效果**：使装备者的防御力提高【24%/28%/32%/36%/40%】，效果命中提高【24%/28%/32%/36%/40%】，同时使自身受到攻击的概率提高。当装备者受到攻击后，防御力额外提高【24%/28%/32%/36%/40%】，持续到自身回合结束。
+- **Base Stats**：HP1058 ATK476 DEF595
+- **Rating**：★★★★★
+- **Skill Name**：Verdict
+- **Effect**：Increases the wearer's DEF by 24% and Effect Hit Rate by 24%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 24% until the end of the wearer's turn.
 
 ### [[zh_cn/lightcone/存护/记忆的质料.md|Texture of Memories]]
 
-- **基础属性**：生1058 攻423 防529
-- **推荐度**：★★★★
-- **技能名**：珍存
-- **效果**：使装备者的效果抵抗提高【8%/10%/12%/14%/16%】，当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者【16%/20%/24%/28%/32%】生命上限的护盾，持续2回合。该效果每3回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Treasure
+- **Effect**：Increases the wearer's Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%.
 
 ### [[zh_cn/lightcone/存护/余生的第一天.md|Day One of My New Life]]
 
-- **基础属性**：生952 攻370 防463
-- **推荐度**：★★★★
-- **技能名**：此刻定格
-- **效果**：使装备者的防御力提高【16%/18%/20%/22%/24%】。进入战斗后，使我方全体的全属性抗性提高【8%/9%/10%/11%/12%】。同类技能无法重复生效。
+- **Base Stats**：HP952 ATK370 DEF463
+- **Rating**：★★★★
+- **Skill Name**：At This Very Moment
+- **Effect**：Increases the wearer's DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Abilities of the same type cannot stack.
 
 ### [[zh_cn/lightcone/存护/朗道的选择.md|Landau's Choice]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：时光如梭
-- **效果**：使装备者受到攻击的概率提高，同时受到的伤害降低【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Time Fleets Away
+- **Effect**：The wearer is more likely to be attacked, and DMG taken is reduced by 16%.
 
 ## Recommended Teams
 

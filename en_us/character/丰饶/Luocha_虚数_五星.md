@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Thorns of the Abyss
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Luocha's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Luocha's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于罗刹___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of Luocha's ATK to one designated enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Luocha's ATK to one designated enemy.
 
 ### Skill：Prayer of Abyss Flower
-- **类型**：Skill
-- **简述**：Restores a single ally's HP and gains 1 stack of Abyss Flower.
-- **最大等级**：15
-- **效果模板**：After using his Skill, Luocha immediately restores the target ally's HP equal to #1[i]% of Luocha's ATK plus #2[i]. Meanwhile, Luocha gains 1 stack of Abyss Flower.
+- **Type**：Skill
+- **Summary**：Restores a single ally's HP and gains 1 stack of Abyss Flower.
+- **Max Level**：15
+- **Effect Template**：After using his Skill, Luocha immediately restores the target ally's HP equal to #1[i]% of Luocha's ATK plus #2[i]. Meanwhile, Luocha gains 1 stack of Abyss Flower.
 When any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after #4[i] turn(s).
 当我方任意单体当前生命值百分比小于等于#3[i]%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在#4[i]回合后可再次触发。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 40% | 200 | 50% | 2 |
@@ -124,23 +124,22 @@ When any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to 
   | Lv.14 | 68% | 980 | 50% | 2 |
   | Lv.15 | 70% | 1025 | 50% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体回复等同于罗刹___%攻击力+#2[i」
   - `#2[i]`的 → 参数2：上下文「#1[i]%攻击力+___的生命值，并使罗刹」
   - `#3[i]`% → 参数3(%)：上下文「生命值百分比小于等于___%时，罗刹会立即对」
   - `#4[i]`回 → 参数4：上下文「消耗战技点。该效果在___回合后可再次触发。」
 
-- **满级效果**：After using his Skill, Luocha immediately restores the target ally's HP equal to 70% of Luocha's ATK plus 1025. Meanwhile, Luocha gains 1 stack of Abyss Flower.
+- **Max Effect**：After using his Skill, Luocha immediately restores the target ally's HP equal to 70% of Luocha's ATK plus 1025. Meanwhile, Luocha gains 1 stack of Abyss Flower.
 When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).
-当我方任意单体当前生命值百分比小于等于50%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在2回合后可再次触发。
 
 ### Ultimate：Death Wish
-- **类型**：Ultimate
-- **简述**：Removes 1 buff from all enemies, deals Imaginary DMG to all enemies, and gains 1 stack of Abyss Flower.
-- **最大等级**：15
-- **效果模板**：Removes #2[i] buff(s) from all enemies and deals all enemies Imaginary DMG equal to #1[i]% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
+- **Type**：Ultimate
+- **Summary**：Removes 1 buff from all enemies, deals Imaginary DMG to all enemies, and gains 1 stack of Abyss Flower.
+- **Max Level**：15
+- **Effect Template**：Removes #2[i] buff(s) from all enemies and deals all enemies Imaginary DMG equal to #1[i]% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 120% | 1 |
@@ -159,23 +158,23 @@ When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luo
   | Lv.14 | 232% | 1 |
   | Lv.15 | 240% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于罗刹___%攻击力的虚数属性」
   - `#2[i]`个 → 参数2：上下文「解除敌方全体___个增益效果，并对敌」
 
-- **满级效果**：Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
+- **Max Effect**：Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.
 
 ### Talent：Cycle of Life
-- **类型**：Talent
-- **简述**：Deploys a Zone when Abyss Flower reaches 2 stacks. While the Zone is active, allies will restore HP after they attack.
-- **最大等级**：15
-- **效果模板**：When Abyss Flower reaches #1[i] stacks, Luocha consumes all stacks of Abyss Flower to deploy a Zone against the enemy.
+- **Type**：Talent
+- **Summary**：Deploys a Zone when Abyss Flower reaches 2 stacks. While the Zone is active, allies will restore HP after they attack.
+- **Max Level**：15
+- **Effect Template**：When Abyss Flower reaches #1[i] stacks, Luocha consumes all stacks of Abyss Flower to deploy a Zone against the enemy.
 When any enemy in the Zone is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to #2[f1]% of Luocha's ATK plus #4[i].
 The Zone's effect lasts for #3[i] turns. When Luocha is knocked down, the Zone will be dispelled.
 处于结界中的任意敌方目标受到攻击后，施放攻击的我方目标立即回复等同于罗刹#2[f1]%攻击力+#4[i]的生命值。
 结界效果持续#3[i]回合。当罗刹陷入无法战斗状态时，结界也会被解除。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 12% | 2 | 60 |
@@ -194,25 +193,24 @@ The Zone's effect lasts for #3[i] turns. When Luocha is knocked down, the Zone w
   | Lv.14 | 2 | 20.4% | 2 | 294 |
   | Lv.15 | 2 | 21% | 2 | 307.5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`层 → 参数1：上下文「当【白花之刻】达到___层时，罗刹会消耗全」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`回 → 参数3：上下文「命值。 结界效果持续___回合。当罗刹陷入无」
   - `#4[i]`的 → 参数4：上下文「2[f1]%攻击力+___的生命值。 结界效」
 
-- **满级效果**：When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Zone against the enemy.
+- **Max Effect**：When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Zone against the enemy.
 When any enemy in the Zone is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to #2[f1]% of Luocha's ATK plus 307.5.
 The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will be dispelled.
 处于结界中的任意敌方目标受到攻击后，施放攻击的我方目标立即回复等同于罗刹#2[f1]%攻击力+307.5的生命值。
-结界效果持续2回合。当罗刹陷入无法战斗状态时，结界也会被解除。
 
 ### Technique：Mercy of a Fool
-- **类型**：Technique
-- **简述**：After the Technique is used, immediately trigger the effect of the Talent at the start of the next battle.
-- **最大等级**：1
-- **效果模板**：After the Technique is used, the Talent will be immediately triggered at the start of the next battle.
+- **Type**：Technique
+- **Summary**：After the Technique is used, immediately trigger the effect of the Talent at the start of the next battle.
+- **Max Level**：1
+- **Effect Template**：After the Technique is used, the Talent will be immediately triggered at the start of the next battle.
 
-- **满级效果**：After the Technique is used, the Talent will be immediately triggered at the start of the next battle.（参数见等级数值表）
+- **Max Effect**：After the Technique is used, the Talent will be immediately triggered at the start of the next battle.（参数见等级数值表）
 
 ## Trace Bonuses
 
@@ -273,38 +271,38 @@ The Zone's effect lasts for 2 turns. When Luocha is knocked down, the Zone will 
 
 ### [[zh_cn/lightcone/丰饶/棺的回响.md|Echoes of the Coffin]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★★
-- **技能名**：荆棘
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者施放攻击后，每击中1名不同的敌方目标，恢复【3.0/3.5/4.0/4.5/5.0】点能量，每次攻击最多通过该方式恢复3次能量。当装备者施放终结技后，使我方全体速度提高【12/14/16/18/20】点，持续1回合。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Thorns
+- **Effect**：Increases the wearer's ATK by 24%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates #3[f1] Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12 SPD for 1 turn.
 
 ### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：深度深呼吸
-- **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deep, Deep Breaths
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/等价交换.md|Quid Pro Quo]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：酣适
-- **效果**：当装备者的回合开始时，随机为1个当前能量百分比小于50%的我方其他目标恢复【8/10/12/14/16】点能量。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Enjoy With Rapture
+- **Effect**：At the start of the wearer's turn, regenerates 8 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.
 
 ### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：折射的视线
-- **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Refraction of Sightline
+- **Effect**：Increases the wearer's Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.
 
 ### [[zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
 
-- **基础属性**：生1270 攻476 防463
-- **推荐度**：★★★★
-- **技能名**：日有四时
-- **效果**：使装备者生命上限提高【18%/21%/24%/27%/30%】，治疗量提高【12%/14%/16%/18%/20%】。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的【36%/42%/48%/54%/60%】，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
+- **Base Stats**：HP1270 ATK476 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Morn, Noon, Dusk, and Night
+- **Effect**：Increases the wearer's Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.
 
 ## Recommended Teams
 

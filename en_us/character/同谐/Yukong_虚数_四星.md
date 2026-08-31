@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Arrowslinger
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to an enemy.
-- **最大等级**：10
-- **效果模板**：Deals #1[i]% of Yukong's ATK as Imaginary DMG to a target enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to an enemy.
+- **Max Level**：10
+- **Effect Template**：Deals #1[i]% of Yukong's ATK as Imaginary DMG to a target enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于驭空___%攻击力的虚数属性」
 
-- **满级效果**：Deals 140% of Yukong's ATK as Imaginary DMG to a target enemy.
+- **Max Effect**：Deals 140% of Yukong's ATK as Imaginary DMG to a target enemy.
 
 ### Skill：Emboldening Salvo
-- **类型**：Skill
-- **简述**：Obtains 2 stacks of Roaring Bowstrings. All allies' ATK increases when Roaring Bowstrings is active on this character.
-- **最大等级**：15
-- **效果模板**：Obtains #1[i] stack(s) of "Roaring Bowstrings" (to a maximum of 2 stacks). When "Roaring Bowstrings" is active, the ATK of all allies increases by #2[i]%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of "Roaring Bowstrings."
+- **Type**：Skill
+- **Summary**：Obtains 2 stacks of Roaring Bowstrings. All allies' ATK increases when Roaring Bowstrings is active on this character.
+- **Max Level**：15
+- **Effect Template**：Obtains #1[i] stack(s) of "Roaring Bowstrings" (to a maximum of 2 stacks). When "Roaring Bowstrings" is active, the ATK of all allies increases by #2[i]%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of "Roaring Bowstrings."
 When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roaring Bowstrings" will not be removed.
-驭空施放战技获得【鸣弦号令】的回合，不会移除【鸣弦号令】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 2 | 40% |
@@ -124,21 +123,20 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
   | Lv.14 | 2 | 96% |
   | Lv.15 | 2 | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`层 → 参数1：上下文「获得___层【鸣弦号令】，最」
   - `#2[i]`% → 参数2(%)：上下文「，我方全体攻击力提高___%，且每次我方目标」
 
-- **满级效果**：Obtains 2 stack(s) of "Roaring Bowstrings" (to a maximum of 2 stacks). When "Roaring Bowstrings" is active, the ATK of all allies increases by 100%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of "Roaring Bowstrings."
+- **Max Effect**：Obtains 2 stack(s) of "Roaring Bowstrings" (to a maximum of 2 stacks). When "Roaring Bowstrings" is active, the ATK of all allies increases by 100%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of "Roaring Bowstrings."
 When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roaring Bowstrings" will not be removed.
-驭空施放战技获得【鸣弦号令】的回合，不会移除【鸣弦号令】。
 
 ### Ultimate：Diving Kestrel
-- **类型**：Ultimate
-- **简述**：When "Roaring Bowstrings" is active on this character, increases the CRIT Rate and CRIT DMG of all allies and deals massive Imaginary DMG to one enemy.
-- **最大等级**：15
-- **效果模板**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by #3[i]%. At the same time, deals Imaginary DMG equal to #1[i]% of Yukong's ATK to one designated enemy.
+- **Type**：Ultimate
+- **Summary**：When "Roaring Bowstrings" is active on this character, increases the CRIT Rate and CRIT DMG of all allies and deals massive Imaginary DMG to one enemy.
+- **Max Level**：15
+- **Effect Template**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by #3[i]%. At the same time, deals Imaginary DMG equal to #1[i]% of Yukong's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 228% | 21% | 39% |
@@ -157,20 +155,20 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
   | Lv.14 | 440.8% | 30.8% | 75.4% |
   | Lv.15 | 456% | 31.5% | 78% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于驭空___%攻击力的虚数属性」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「1]%，暴击伤害提高___%。同时对指定敌方」
 
-- **满级效果**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by 78%. At the same time, deals Imaginary DMG equal to 456% of Yukong's ATK to one designated enemy.
+- **Max Effect**：If "Roaring Bowstrings" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by #2[f1]% and CRIT DMG by 78%. At the same time, deals Imaginary DMG equal to 456% of Yukong's ATK to one designated enemy.
 
 ### Talent：Seven Layers, One Arrow
-- **类型**：Talent
-- **简述**：Basic Attack additionally deals minor DMG, and the Toughness Reduction of this Basic Attack is increased. This effect can be triggered again after 1 turn has passed.
-- **最大等级**：15
-- **效果模板**：Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness Reduction of this attack by #2[i]%. This effect can be triggered again after #3[i] turn(s).
+- **Type**：Talent
+- **Summary**：Basic Attack additionally deals minor DMG, and the Toughness Reduction of this Basic Attack is increased. This effect can be triggered again after 1 turn has passed.
+- **Max Level**：15
+- **Effect Template**：Basic ATK additionally deals Imaginary DMG equal to #1[i]% of Yukong's ATK, and increases the Toughness Reduction of this attack by #2[i]%. This effect can be triggered again after #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 40% | 100% | 1 |
@@ -189,30 +187,30 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
   | Lv.14 | 96% | 100% | 1 |
   | Lv.15 | 100% | 100% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「可额外造成等同于驭空___%攻击力的虚数属性」
   - `#2[i]`% → 参数2(%)：上下文「本次攻击的削韧值提高___%，该效果在#3[」
   - `#3[i]`回 → 参数3：上下文「2[i]%，该效果在___回合后可再次触发。」
 
-- **满级效果**：Basic ATK additionally deals Imaginary DMG equal to 100% of Yukong's ATK, and increases the Toughness Reduction of this attack by 100%. This effect can be triggered again after 1 turn(s).
+- **Max Effect**：Basic ATK additionally deals Imaginary DMG equal to 100% of Yukong's ATK, and increases the Toughness Reduction of this attack by 100%. This effect can be triggered again after 1 turn(s).
 
 ### Technique：Windchaser
-- **类型**：Technique
-- **简述**：This unit's movement speed increases. After attacking an enemy and entering battle, gains 2 stacks of Roaring Bowstrings.
-- **最大等级**：1
-- **效果模板**：After using her Technique, Yukong enters Sprint mode for #1[i] seconds. In Sprint mode, her movement speed increases by #2[i]%, and Yukong gains #3[i] stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
+- **Type**：Technique
+- **Summary**：This unit's movement speed increases. After attacking an enemy and entering battle, gains 2 stacks of Roaring Bowstrings.
+- **Max Level**：1
+- **Effect Template**：After using her Technique, Yukong enters Sprint mode for #1[i] seconds. In Sprint mode, her movement speed increases by #2[i]%, and Yukong gains #3[i] stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 20 | 35% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的冲刺状态。冲刺」
   - `#2[i]`% → 参数2(%)：上下文「态下自身移动速度提高___%，且主动攻击敌人」
   - `#3[i]`层 → 参数3：上下文「进入战斗时，驭空获得___层【鸣弦号令】。」
 
-- **满级效果**：After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her movement speed increases by 35%, and Yukong gains 2 stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
+- **Max Effect**：After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her movement speed increases by 35%, and Yukong gains 2 stack(s) of "Roaring Bowstrings" when she enters combat by attacking enemies.
 
 ## Trace Bonuses
 
@@ -273,38 +271,38 @@ When it's the turn where Yukong gains "Roaring Bowstrings" by using Skill, "Roar
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/游戏尘寰.md|Earthly Escapade]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：善变
-- **效果**：使装备者的暴击伤害提高【32%/39%/46%/53%/60%】。战斗开始时，使装备者获得【假面】，持续3回合。当装备者持有【假面】时，装备者的队友暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【28%/35%/42%/49%/56%】。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到4层后，移除所有【彩焰】并获得【假面】，持续4回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Capriciousness
+- **Effect**：Increases the wearer's CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's teammates have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turn(s).
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★★
-- **技能名**：旧日纸鸢
-- **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：启程
-- **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Departure
+- **Effect**：After entering battle, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%.
 
 ## Recommended Teams
 

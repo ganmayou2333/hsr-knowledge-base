@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Votive Incense
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于灵砂___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Lingsha's ATK to one designated enemy target.
+- **Max Effect**：Deals Fire DMG equal to 140% of Lingsha's ATK to one designated enemy target.
 
 ### Skill：Smoke and Splendor
-- **类型**：Skill
-- **简述**：Deals minor Fire DMG to all enemies and, at the same time, restores HP for all allies. Fuyuan's action advances.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #4[i]%.
+- **Type**：Skill
+- **Summary**：Deals minor Fire DMG to all enemies and, at the same time, restores HP for all allies. Fuyuan's action advances.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #4[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 40% | 10% | 105 | 20% |
@@ -122,23 +122,23 @@
   | Lv.14 | 96% | 15.6% | 514.5 | 20% |
   | Lv.15 | 100% | 16% | 538.125 | 20% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`的 → 参数3：上下文「2[f1]%攻击力+___的生命值，使【浮元」
   - `#4[i]`% → 参数4(%)：上下文「，使【浮元】行动提前___%。」
 
-- **满级效果**：Deals Fire DMG equal to 100% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus 538.125 for all allies. Fuyuan's action advances by 20%.
+- **Max Effect**：Deals Fire DMG equal to 100% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus 538.125 for all allies. Fuyuan's action advances by 20%.
 
 ### Ultimate：Dripping Mistscape
-- **类型**：Ultimate
-- **简述**：Increases Break DMG taken by all enemies, deals Fire DMG to all enemies, and at the same time, restores HP for all allies. Fuyuan's action advances.
-- **最大等级**：15
-- **效果模板**：Inflicts "Befog" on all enemies. While in "Befog," targets receive #4[i]% increased Break DMG, lasting for #5[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Increases Break DMG taken by all enemies, deals Fire DMG to all enemies, and at the same time, restores HP for all allies. Fuyuan's action advances.
+- **Max Level**：15
+- **Effect Template**：Inflicts "Befog" on all enemies. While in "Befog," targets receive #4[i]% increased Break DMG, lasting for #5[i] turn(s).
 Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same time restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #6[i]%.
 对敌方全体造成等同于灵砂#1[i]%攻击力的火属性伤害，同时为我方全体回复等同于灵砂#2[f1]%攻击力+#3[i]的生命值，使【浮元】行动提前#6[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 90% | 8% | 90 | 15% | 2 | 100% |
@@ -157,7 +157,7 @@ Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same 
   | Lv.14 | 174% | 13.6% | 441 | 29% | 2 | 100% |
   | Lv.15 | 180% | 14% | 461.25 | 30% | 2 | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`的 → 参数3：上下文「2[f1]%攻击力+___的生命值，使【浮元」
@@ -165,17 +165,17 @@ Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same 
   - `#5[i]`回 → 参数5：上下文「高#4[i]%，持续___回合。 对敌方全体」
   - `#6[i]`% → 参数6(%)：上下文「，使【浮元】行动提前___%。」
 
-- **满级效果**：Inflicts "Befog" on all enemies. While in "Befog," targets receive 30% increased Break DMG, lasting for 2 turn(s).
+- **Max Effect**：Inflicts "Befog" on all enemies. While in "Befog," targets receive 30% increased Break DMG, lasting for 2 turn(s).
 Deals Fire DMG equal to 180% of Lingsha's ATK to all enemies, and at the same time restores HP equal to #2[f1]% of Lingsha's ATK plus 461.25 for all allies. Fuyuan's action advances by 100%.
 对敌方全体造成等同于灵砂180%攻击力的火属性伤害，同时为我方全体回复等同于灵砂#2[f1]%攻击力+461.25的生命值，使【浮元】行动提前100%。
 
 ### Talent：Mistdance Manifest
-- **类型**：Talent
-- **简述**：Using Skill summons "Fuyuan": When taking action, launches Follow-Up ATK and deals minor Fire DMG to all enemies. Additionally deals minor Fire DMG to one random enemy, prioritizing targets with both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff from all allies, and restores HP.
+- **Type**：Talent
+- **Summary**：Using Skill summons "Fuyuan": When taking action, launches Follow-Up ATK and deals minor Fire DMG to all enemies. Additionally deals minor Fire DMG to one random enemy, prioritizing targets with both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff from all allies, and restores HP.
 Using Skill repeatedly will increase "Fuyuan's" action count.
 重复施放战技会增加【浮元】行动次数。
-- **最大等级**：15
-- **效果模板**：When using Skill, summons "Fuyuan," with an initial SPD of #1[i] and an initial action count of #7[i].
+- **Max Level**：15
+- **Effect Template**：When using Skill, summons "Fuyuan," with an initial SPD of #1[i] and an initial action count of #7[i].
 When taking action, "Fuyuan" launches Follow-Up ATK, dealing Fire DMG equal to #2[i]% of Lingsha's ATK to all enemies. Additionally deals Fire DMG equal to #8[i]% of Lingsha's ATK to one random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and Fire Weakness. Dispels #6[i] debuff(s) from all allies and restores HP equal to #3[f1]% of Lingsha's ATK plus #4[i].
 "Fuyuan's" action count can accumulate up to #5[i]. When the action count reaches 0 or when Lingsha is knocked down, "Fuyuan" disappears.
 While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count by #7[i].
@@ -183,7 +183,7 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 【浮元】最多累计#5[i]次行动次数，当次数为0或灵砂陷入无法战斗状态时【浮元】消失。
 【浮元】在场时，施放战技会增加#7[i]次【浮元】的行动次数。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 | 参数8(%) |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 90 | 37.5% | 8% | 90 | 5 | 1 | 3 | 37.5% |
@@ -202,7 +202,7 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
   | Lv.14 | 90 | 90% | 13.6% | 441 | 5 | 1 | 3 | 90% |
   | Lv.15 | 90 | 93.75% | 14% | 461.25 | 5 | 1 | 3 | 93.75% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「唤【浮元】，初始拥有___点速度以及#7[i」
   - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于灵砂___%攻击力的火属性伤」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -212,29 +212,27 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
   - `#7[i]`次 → 参数7：上下文「场时，施放战技会增加___次【浮元】的行动次」
   - `#8[i]`% → 参数8(%)：上下文「方单体造成等同于灵砂___%攻击力的火属性伤」
 
-- **满级效果**：When using Skill, summons "Fuyuan," with an initial SPD of 90 and an initial action count of 3.
+- **Max Effect**：When using Skill, summons "Fuyuan," with an initial SPD of 90 and an initial action count of 3.
 When taking action, "Fuyuan" launches Follow-Up ATK, dealing Fire DMG equal to 93.75% of Lingsha's ATK to all enemies. Additionally deals Fire DMG equal to 93.75% of Lingsha's ATK to one random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff(s) from all allies and restores HP equal to #3[f1]% of Lingsha's ATK plus 461.25.
 "Fuyuan's" action count can accumulate up to 5. When the action count reaches 0 or when Lingsha is knocked down, "Fuyuan" disappears.
 While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count by 3.
 【浮元】行动时发动追加攻击，对敌方全体造成等同于灵砂93.75%攻击力的火属性伤害。额外对随机敌方单体造成等同于灵砂93.75%攻击力的火属性伤害，本次伤害优先选择韧性值大于0且有火属性弱点的目标。解除我方全体的1个负面效果，并回复等同于灵砂#3[f1]%攻击力+461.25的生命值。
-【浮元】最多累计5次行动次数，当次数为0或灵砂陷入无法战斗状态时【浮元】消失。
-【浮元】在场时，施放战技会增加3次【浮元】的行动次数。
 
 ### Technique：Wisps of Aurora
-- **类型**：Technique
-- **简述**：After using Technique, immediately summons Fuyuan at the start of the next battle and increases Break DMG taken by all enemies.
-- **最大等级**：1
-- **效果模板**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for #1[i] turn(s).
+- **Type**：Technique
+- **Summary**：After using Technique, immediately summons Fuyuan at the start of the next battle and increases Break DMG taken by all enemies.
+- **Max Level**：1
+- **Effect Template**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for #1[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「入【醇醉】状态，持续___回合。」
 
-- **满级效果**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for 2 turn(s).
+- **Max Effect**：After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts "Befog" on all enemies, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -295,31 +293,31 @@ While "Fuyuan" is on the field, using Skill can increase "Fuyuan's" action count
 
 ### [[zh_cn/lightcone/丰饶/唯有香如故.md|Scent Alone Stays True]]
 
-- **基础属性**：生1058 攻529 防529
-- **推荐度**：★★★★★
-- **技能名**：安心
-- **效果**：使装备者击破特攻提高【60%/70%/80%/90%/100%】。装备者施放终结技攻击敌方目标后，使其陷入【忘忧】状态，持续2回合，【忘忧】状态下的敌方目标受到的伤害提高【10%/12%/14%/16%/18%】，若装备者当前击破特攻大于等于150%，受到的伤害提高效果额外提高【8%/10%/12%/14%/16%】。
+- **Base Stats**：HP1058 ATK529 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Contentment
+- **Effect**：Increases the wearer's Break Effect by 60%. After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the "Woefree" state, lasting for 2 turn(s). While in "Woefree," enemy targets take 10% increased DMG. The effect of increasing DMG taken is additionally boosted by 8% if the wearer's current Break Effect is 1.5 or higher.
 
 ### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：深度深呼吸
-- **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deep, Deep Breaths
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：互相治愈
-- **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Mutual Healing
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.
 
 ### [[zh_cn/lightcone/丰饶/何物为真.md|What Is Real]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：假设
-- **效果**：使装备者的击破特攻提高【24%/30%/36%/42%/48%】。施放普攻后，装备者回复等同于【2.0%/2.5%/3.0%/3.5%/4.0%】生命上限+800点的生命值。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Hypothesis
+- **Effect**：Increases the wearer's Break Effect by 24%. After using Basic ATK, restores HP for the wearer by an amount equal to #2[f1]% of Max HP plus 800.
 
 ## Recommended Teams
 

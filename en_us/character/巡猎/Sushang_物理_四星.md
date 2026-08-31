@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Cloudfencer Art: Starshine
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于素裳___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Sushang's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Sushang's ATK to one designated enemy.
 
 ### Skill：Cloudfencer Art: Mountainfall
-- **类型**：Skill
-- **简述**：Deals Physical DMG to one enemy with a small chance of triggering "Sword Stance". If the enemy has Weakness Break, "Sword Stance" is guaranteed to trigger.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy. In addition, there is a #3[i]% chance to trigger "Sword Stance" on the final hit, dealing Physical Additional DMG equal to #2[i]% of Sushang's ATK to the enemy.
+- **Type**：Skill
+- **Summary**：Deals Physical DMG to one enemy with a small chance of triggering "Sword Stance". If the enemy has Weakness Break, "Sword Stance" is guaranteed to trigger.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy. In addition, there is a #3[i]% chance to trigger "Sword Stance" on the final hit, dealing Physical Additional DMG equal to #2[i]% of Sushang's ATK to the enemy.
 If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to trigger.
-若该目标处于弱点击破状态，则【剑势】必定发动。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 105% | 50% | 33% |
@@ -124,24 +123,23 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
   | Lv.14 | 252% | 120% | 33% |
   | Lv.15 | 262.5% | 125% | 33% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于素裳___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「对目标造成等同于素裳___%攻击力的物理属性」
   - `#3[i]`% → 参数3(%)：上下文「害。同时最后一击后有___%概率发动【剑势】」
 
-- **满级效果**：Deals Physical DMG equal to 262.5% of Sushang's ATK to one designated enemy. In addition, there is a 33% chance to trigger "Sword Stance" on the final hit, dealing Physical Additional DMG equal to 125% of Sushang's ATK to the enemy.
+- **Max Effect**：Deals Physical DMG equal to 262.5% of Sushang's ATK to one designated enemy. In addition, there is a 33% chance to trigger "Sword Stance" on the final hit, dealing Physical Additional DMG equal to 125% of Sushang's ATK to the enemy.
 If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to trigger.
-若该目标处于弱点击破状态，则【剑势】必定发动。
 
 ### Ultimate：Shape of Taixu: Dawn Herald
-- **类型**：Ultimate
-- **简述**：Deals massive Physical DMG to one enemy, enhances "Sword Stance's" effect, and takes action immediately.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy target, and she immediately takes action. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger "Sword Stance" for #2[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Deals massive Physical DMG to one enemy, enhances "Sword Stance's" effect, and takes action immediately.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy target, and she immediately takes action. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger "Sword Stance" for #2[i] turn(s).
 "Sword Stance" triggered from the extra chances deals #3[i]% of the original DMG.
 通过额外判定发动的【剑势】伤害为原伤害的#3[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 192% | 2 | 50% | 18% |
@@ -160,23 +158,22 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
   | Lv.14 | 371.2% | 2 | 50% | 34.8% |
   | Lv.15 | 384% | 2 | 50% | 36% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于素裳___%攻击力的物理属性」
   - `#2[i]`回 → 参数2：上下文「势】的发动判定，持续___回合。 通过额外判」
   - `#3[i]`% → 参数3(%)：上下文「剑势】伤害为原伤害的___%。」
   - `#4[i]`% → 参数4(%)：上下文「。同时使其攻击力提高___%，且施放战技时额」
 
-- **满级效果**：Deals Physical DMG equal to 384% of Sushang's ATK to one designated enemy target, and she immediately takes action. In addition, Sushang's ATK increases by 36% and using her Skill has 2 extra chances to trigger "Sword Stance" for 2 turn(s).
+- **Max Effect**：Deals Physical DMG equal to 384% of Sushang's ATK to one designated enemy target, and she immediately takes action. In addition, Sushang's ATK increases by 36% and using her Skill has 2 extra chances to trigger "Sword Stance" for 2 turn(s).
 "Sword Stance" triggered from the extra chances deals 50% of the original DMG.
-通过额外判定发动的【剑势】伤害为原伤害的50%。
 
 ### Talent：Dancing Blade
-- **类型**：Talent
-- **简述**：When an enemy on the field has its Weakness Broken, this character's SPD increases.
-- **最大等级**：15
-- **效果模板**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for #2[i] turn(s).
+- **Type**：Talent
+- **Summary**：When an enemy on the field has its Weakness Broken, this character's SPD increases.
+- **Max Level**：15
+- **Effect Template**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
@@ -195,27 +192,27 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
   | Lv.14 | 22% | 2 |
   | Lv.15 | 22.5% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`回 → 参数2：上下文「#1[f2]%，持续___回合。」
 
-- **满级效果**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for 2 turn(s).
+- **Max Effect**：When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for 2 turn(s).
 
 ### Technique：Cloudfencer Art: Warcry
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor Physical DMG to all enemies.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor Physical DMG to all enemies.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于素裳___%攻击力的物理属性」
 
-- **满级效果**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies.
+- **Max Effect**：Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies.
 
 ## Trace Bonuses
 
@@ -276,31 +273,31 @@ If the enemy is inflicted with Weakness Break, "Sword Stance" is guaranteed to t
 
 ### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：花与蝶
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Flowers and Butterflies
+- **Effect**：Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by 6%. At the same time, increases the CRIT DMG of Ultimate by 12%. This effect can stack up to 6 time(s).
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：美梦
-- **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ## Recommended Teams
 

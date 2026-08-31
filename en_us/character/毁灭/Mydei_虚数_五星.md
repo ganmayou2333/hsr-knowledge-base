@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Vow of Voyage
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -94,20 +94,19 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于万敌___%生命上限的虚数属」
 
-- **满级效果**：Deals Imaginary DMG equal to 70% of Mydei's Max HP to one designated enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 70% of Mydei's Max HP to one designated enemy.
 
 ### Skill：Deaths are Legion, Regrets are None
-- **类型**：Skill
-- **简述**：Consumes HP and deals Imaginary DMG to one designated enemy unit and minor Imaginary DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Consumes HP by an amount equal to #3[i]% of Mydei's current HP. Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets.
+- **Type**：Skill
+- **Summary**：Consumes HP and deals Imaginary DMG to one designated enemy unit and minor Imaginary DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Consumes HP by an amount equal to #3[i]% of Mydei's current HP. Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets.
 If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.
-若当前生命值不足，施放战技时万敌的当前生命值降低至1点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 45% | 25% | 50% |
@@ -126,22 +125,21 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
   | Lv.14 | 108% | 60% | 50% |
   | Lv.15 | 112.5% | 62.5% | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于万敌___%生命上限的虚数属」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于万敌___%生命上限的虚数属」
   - `#3[i]`% → 参数3(%)：上下文「等同于万敌当前生命值___%的生命值，对指定」
 
-- **满级效果**：Consumes HP by an amount equal to 50% of Mydei's current HP. Deals Imaginary DMG equal to 112.5% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to 62.5% of Mydei's Max HP to adjacent targets.
+- **Max Effect**：Consumes HP by an amount equal to 50% of Mydei's current HP. Deals Imaginary DMG equal to 112.5% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to 62.5% of Mydei's Max HP to adjacent targets.
 If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.
-若当前生命值不足，施放战技时万敌的当前生命值降低至1点。
 
 ### Ultimate：Throne of Bones
-- **类型**：Ultimate
-- **简述**：Restores HP and accumulates Talent's Charge. Deals massive Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets, then Taunts the target and their adjacent targets.
-- **最大等级**：15
-- **效果模板**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates #5[i] Talent's Charge point(s). Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for #4[i] turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
+- **Type**：Ultimate
+- **Summary**：Restores HP and accumulates Talent's Charge. Deals massive Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets, then Taunts the target and their adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates #5[i] Talent's Charge point(s). Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for #4[i] turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 96% | 60% | 15% | 2 | 20 |
@@ -160,30 +158,30 @@ If the current HP is not sufficient, using Skill reduces Mydei's current HP to 1
   | Lv.14 | 185.6% | 116% | 22% | 2 | 20 |
   | Lv.15 | 192% | 120% | 22.5% | 2 | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于万敌___%生命上限的虚数属」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于万敌___%生命上限的虚数属」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`回 → 参数4：上下文「标陷入嘲讽状态，持续___回合。下一次【弑神」
   - `#5[i]`点 → 参数5：上下文「命上限的生命值并积攒___点天赋充能。对指定」
 
-- **满级效果**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates 20 Talent's Charge point(s). Deals Imaginary DMG equal to 192% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to 120% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for 2 turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
+- **Max Effect**：Restores HP by #3[f1]% of Mydei's Max HP and accumulates 20 Talent's Charge point(s). Deals Imaginary DMG equal to 192% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to 120% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for 2 turn(s). The next use of "Godslayer Be God" prioritizes attacking one designated enemy, and this effect only works on the latest target.
 
 ### Talent：Blood for Blood
-- **类型**：Talent
-- **简述**：When losing HP, accumulates Charge. When Charge is at 100, enters the "Vendetta" state, restores HP and advances action. During "Vendetta," Max HP increases and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
+- **Type**：Talent
+- **Summary**：When losing HP, accumulates Charge. When Charge is at 100, enters the "Vendetta" state, restores HP and advances action. During "Vendetta," Max HP increases and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
 When Charge reaches 150 during "Vendetta," Mydei immediately gains 1 extra turn and automatically uses "Godslayer Be God."
 When Mydei receives a killing blow, he exits the "Vendetta" state.
 【血仇】状态期间充能达到150时，万敌立即获得1个额外回合并自动施放【弑神登神】。
 万敌受到致命攻击时退出【血仇】状态。
-- **最大等级**：15
-- **效果模板**：For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the "Vendetta" state, restores HP equal to #1[i]% of Mydei's Max HP, and advances action by 100%. While the "Vendetta" state is active, Max HP increases by #5[i]% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
+- **Max Level**：15
+- **Effect Template**：For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the "Vendetta" state, restores HP equal to #1[i]% of Mydei's Max HP, and advances action by 100%. While the "Vendetta" state is active, Max HP increases by #5[i]% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
 When Charge reaches #3[i] points during the "Vendetta" state, Mydei immediately gains 1 extra turn and automatically uses "Godslayer Be God."
 When receiving a killing blow during the "Vendetta" state, Mydei will not be knocked down, but will clear his Charge, exits the "Vendetta" state, and restores HP by #4[i]% of his Max HP.
 【血仇】状态期间充能达到#3[i]点时，万敌立即获得1个额外回合并自动施放【弑神登神】。
 【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身#4[i]%生命上限的生命值。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 0 | 150 | 50% | 50% |
@@ -202,42 +200,39 @@ When receiving a killing blow during the "Vendetta" state, Mydei will not be kno
   | Lv.14 | 29% | 0 | 150 | 50% | 50% |
   | Lv.15 | 30% | 0 | 150 | 50% | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「状态并回复等同于万敌___%生命上限的生命值」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`点 → 参数3：上下文「仇】状态期间充能达到___点时，万敌立即获得」
   - `#4[i]`% → 参数4(%)：上下文「状态并回复等同于自身___%生命上限的生命值」
   - `#5[i]`% → 参数5(%)：上下文「等同于当前生命上限的___%，防御力保持为0」
 
-- **满级效果**：For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the "Vendetta" state, restores HP equal to 30% of Mydei's Max HP, and advances action by 100%. While the "Vendetta" state is active, Max HP increases by 50% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
+- **Max Effect**：For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the "Vendetta" state, restores HP equal to 30% of Mydei's Max HP, and advances action by 100%. While the "Vendetta" state is active, Max HP increases by 50% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses "Kingslayer Be King."
 When Charge reaches 150 points during the "Vendetta" state, Mydei immediately gains 1 extra turn and automatically uses "Godslayer Be God."
 When receiving a killing blow during the "Vendetta" state, Mydei will not be knocked down, but will clear his Charge, exits the "Vendetta" state, and restores HP by 50% of his Max HP.
-【血仇】状态期间充能达到150点时，万敌立即获得1个额外回合并自动施放【弑神登神】。
-【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身50%生命上限的生命值。
 
 ### Technique：Cage of Broken Lance
-- **类型**：Technique
-- **简述**：Pulls in enemies within a certain area and inflicts Daze on them. After attacking Dazed enemies and entering battle, deals minor Imaginary DMG to all enemies and Taunts the targets. This unit accumulates Talent's Charge.
-- **最大等级**：1
-- **效果模板**：After using Technique, pulls in enemies within a certain area and inflicts Daze on them for #1[i] second(s). Dazed enemies will not actively attack ally targets.
+- **Type**：Technique
+- **Summary**：Pulls in enemies within a certain area and inflicts Daze on them. After attacking Dazed enemies and entering battle, deals minor Imaginary DMG to all enemies and Taunts the targets. This unit accumulates Talent's Charge.
+- **Max Level**：1
+- **Effect Template**：After using Technique, pulls in enemies within a certain area and inflicts Daze on them for #1[i] second(s). Dazed enemies will not actively attack ally targets.
 If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to #2[i]% of Mydei's Max HP to all enemies, and Taunts the targets, lasting for #4[i] turn(s). This unit accumulates #5[i] point(s) of Talent's Charge.
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌#2[i]%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续#4[i]回合。自身积攒#5[i]点天赋充能。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 10 | 80% | 1 | 1 | 50 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「域内的敌人并使其陷入___秒的晕眩状态，晕眩」
   - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于万敌___%生命上限的虚数属」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`回 → 参数4：上下文「标陷入嘲讽状态，持续___回合。自身积攒#5」
   - `#5[i]`点 → 参数5：上下文「[i]回合。自身积攒___点天赋充能。」
 
-- **满级效果**：After using Technique, pulls in enemies within a certain area and inflicts Daze on them for 10 second(s). Dazed enemies will not actively attack ally targets.
+- **Max Effect**：After using Technique, pulls in enemies within a certain area and inflicts Daze on them for 10 second(s). Dazed enemies will not actively attack ally targets.
 If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to 80% of Mydei's Max HP to all enemies, and Taunts the targets, lasting for 1 turn(s). This unit accumulates 50 point(s) of Talent's Charge.
-若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌80%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续1回合。自身积攒50点天赋充能。
 
 ## Trace Bonuses
 
@@ -297,31 +292,33 @@ If actively attacking Dazed enemies, when entering battle, deals Imaginary DMG e
 
 ### [[zh_cn/lightcone/毁灭/血火啊，燃烧前路.md|Flame of Blood, Blaze My Path]]
 
-- **基础属性**：生1376 攻476 防397
-- **推荐度**：★★★★★
-- **技能名**：远望
-- **效果**：使装备者的生命上限提高【18%/21%/24%/27%/30%】，受到的治疗量提高【20%/25%/30%/35%/40%】，施放战技或终结技时消耗等同于自身【6%/6.5%/7%/7.5%/8%】生命上限的生命值，并使本次攻击造成的伤害提高【30%/35%/40%/45%/50%】，若该效果消耗的生命值高于500点，可使伤害额外提高【30%/35%/40%/45%/50%】。 若当前生命值不足，该效果最多使装备者的当前生命值降低至1点。
+- **Base Stats**：HP1376 ATK476 DEF397
+- **Rating**：★★★★★
+- **Skill Name**：Vista
+- **Effect**：Increases the wearer's Max HP by 18% and Incoming Healing by 20%. When using Skill or Ultimate, consumes HP equal to #2[f1]% of the wearer's Max HP and increases the DMG dealt by this attack by 30%. If this effect's consumed HP is greater than 500, the DMG additionally increases by 30%.
+If the current HP is not sufficient, this effect reduces the wearer's current HP down to 1.
+If the current HP is not sufficient, this effect reduces the wearer's current HP down to 1.
 
 ### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|The Unreachable Side]]
 
-- **基础属性**：生1270 攻582 防330
-- **推荐度**：★★★★
-- **技能名**：不得
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】，生命上限提高【18%/21%/24%/27%/30%】。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高【24%/28%/32%/36%/40%】，该效果在装备者施放攻击后解除。
+- **Base Stats**：HP1270 ATK582 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Unfulfilled Yearning
+- **Effect**：Increases the wearer's CRIT Rate by 18% and increases their Max HP by 18%. When the wearer is attacked or consumes their own HP, their DMG increases by 24%. This effect is removed after the wearer uses an attack.
 
 ### [[zh_cn/lightcone/毁灭/忍事录•音律狩猎.md|Ninja Record Sound Hunt]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：开演！
-- **效果**：使装备者的生命上限提高【12%/15%/18%/21%/24%】，损失或回复自身生命值后，暴击伤害提高【18.0%/22.5%/27.0%/31.5%/36.0%】，持续2回合，该效果每回合只可触发1次。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Curtains Up!
+- **Effect**：Increases the wearer's Max HP by 12%. When losing or restoring this unit's HP, increases CRIT DMG by 18%, lasting for 2 turn(s). This effect can only trigger once per turn.
 
 ### [[zh_cn/lightcone/毁灭/在火的远处.md|Flames Afar]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：爆燃
-- **效果**：当装备者在单次受到攻击中累计损失的生命值超过最大生命值的25%，或单次消耗自身生命值超过最大生命值的25%，则立即回复等同于装备者生命上限15%的生命值，同时使装备者造成的伤害提高【25%/31%/37%/43%/50%】，持续2回合。该效果每3回合只能触发1次。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Deflagration
+- **Effect**：When the wearer's cumulative HP loss during one attack exceeds 25% of their Max HP, or if the amount of their own HP consumed at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP, and at the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).
 
 ## Recommended Teams
 

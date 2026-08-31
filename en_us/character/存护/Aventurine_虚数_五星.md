@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Straight Bet
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one designated enemy target.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Aventurine's DEF to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy target.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Aventurine's DEF to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于砂金___%防御力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of Aventurine's DEF to one designated enemy target.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Aventurine's DEF to one designated enemy target.
 
 ### Skill：Cornerstone Deluxe
-- **类型**：Skill
-- **简述**：Provides all allies with a Fortified Wager shield, whose Shield Effect is stackable.
-- **最大等级**：15
-- **效果模板**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus #2[i], lasting for #3[i] turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to #4[i]% of the current Shield Effect provided by the Skill.
+- **Type**：Skill
+- **Summary**：Provides all allies with a Fortified Wager shield, whose Shield Effect is stackable.
+- **Max Level**：15
+- **Effect Template**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus #2[i], lasting for #3[i] turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to #4[i]% of the current Shield Effect provided by the Skill.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 16% | 80 | 3 | 200% |
@@ -122,21 +122,21 @@
   | Lv.14 | 27.2% | 392 | 3 | 200% |
   | Lv.15 | 28% | 410 | 3 | 200% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`伤 → 参数2：上下文「1[f1]%防御力+___伤害的护盾【坚垣筹」
   - `#3[i]`回 → 参数3：上下文「盾【坚垣筹码】，持续___回合。重复获得【坚」
   - `#4[i]`% → 参数4(%)：上下文「前战技提供的护盾量的___%。」
 
-- **满级效果**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus 410, lasting for 3 turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to 200% of the current Shield Effect provided by the Skill.
+- **Max Effect**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus 410, lasting for 3 turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to 200% of the current Shield Effect provided by the Skill.
 
 ### Ultimate：Roulette Shark
-- **类型**：Ultimate
-- **简述**：Gains a random amount of "Blind Bet" points and inflicts "Unnerved "on one enemy, dealing Imaginary DMG. When an ally target hits an "Unnerved" enemy, the CRIT DMG dealt increases.
-- **最大等级**：15
-- **效果模板**：Randomly gains 1 to #1[i] points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for #4[i] turn(s) and deals Imaginary DMG equal to #2[i]% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
+- **Type**：Ultimate
+- **Summary**：Gains a random amount of "Blind Bet" points and inflicts "Unnerved "on one enemy, dealing Imaginary DMG. When an ally target hits an "Unnerved" enemy, the CRIT DMG dealt increases.
+- **Max Level**：15
+- **Effect Template**：Randomly gains 1 to #1[i] points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for #4[i] turn(s) and deals Imaginary DMG equal to #2[i]% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 7 | 162% | 9% | 3 |
@@ -155,21 +155,21 @@
   | Lv.14 | 7 | 313.2% | 17.4% | 3 |
   | Lv.15 | 7 | 324% | 18% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「随机获得1到___点【盲注】，随后使」
   - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于砂金___%防御力的虚数属性」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`回 → 参数4：上下文「入【惊惶】状态，持续___回合，并对指定敌方」
 
-- **满级效果**：Randomly gains 1 to 7 points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for 3 turn(s) and deals Imaginary DMG equal to 324% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
+- **Max Effect**：Randomly gains 1 to 7 points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for 3 turn(s) and deals Imaginary DMG equal to 324% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
 
 ### Talent：Shot Loaded Right
-- **类型**：Talent
-- **简述**：For any single ally with "Fortified Wager," their Effect RES increases, and when they get attacked, Aventurine accumulates "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a Follow-Up ATK that deals minor Imaginary DMG to random single enemy targets, bouncing a total of 7 times.
-- **最大等级**：15
-- **效果模板**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after #5[i] turn(s). Aventurine additionally gains #1[i] point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a #2[i]-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to #3[i]% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
+- **Type**：Talent
+- **Summary**：For any single ally with "Fortified Wager," their Effect RES increases, and when they get attacked, Aventurine accumulates "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a Follow-Up ATK that deals minor Imaginary DMG to random single enemy targets, bouncing a total of 7 times.
+- **Max Level**：15
+- **Effect Template**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after #5[i] turn(s). Aventurine additionally gains #1[i] point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a #2[i]-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to #3[i]% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 1 | 7 | 12.5% | 25% | 2 |
@@ -188,20 +188,20 @@
   | Lv.14 | 1 | 7 | 30% | 60% | 2 |
   | Lv.15 | 1 | 7 | 31.25% | 62.5% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「在受到攻击后额外获得___点【盲注】。【盲注」
   - `#2[i]`段 → 参数2：上下文「砂金消耗7点充能发动___段追加攻击，每段攻」
   - `#3[i]`% → 参数3(%)：上下文「方单体造成等同于砂金___%防御力的虚数属性」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
   - `#5[i]`回 → 参数5：上下文「类负面状态，该效果在___回合后可再次触发，」
 
-- **满级效果**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after 2 turn(s). Aventurine additionally gains 1 point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a 7-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to 31.25% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
+- **Max Effect**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after 2 turn(s). Aventurine additionally gains 1 point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a 7-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to 31.25% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
 
 ### Technique：The Red or the Black
-- **类型**：Technique
-- **简述**：Using the Technique randomly grants one out of the three DEF Boost effects with different buff values. After entering the next battle, increases all allies' DEF by the corresponding value.
-- **最大等级**：1
-- **效果模板**：After using the Technique, 1 of the following effects will be granted:
+- **Type**：Technique
+- **Summary**：Using the Technique randomly grants one out of the three DEF Boost effects with different buff values. After entering the next battle, increases all allies' DEF by the corresponding value.
+- **Max Level**：1
+- **Effect Template**：After using the Technique, 1 of the following effects will be granted:
 There is a chance for DEF to increase by #1[i]%.
 There is a high chance for DEF to increase by #2[i]%.
 There is a small chance for DEF to increase by #3[i]%.
@@ -210,31 +210,25 @@ When the next battle starts, increases all allies' DEF by the corresponding valu
 一定概率获得防御力提高#1[i]%；
 大概率获得防御力提高#2[i]%；
 小概率获得防御力提高#3[i]%。
-重复使用时保留数值最高的效果。
 下一次战斗开始时，使我方全体提高对应数值的防御力，持续#4[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 24% | 36% | 60% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「定概率获得防御力提高___%； 大概率获得防」
   - `#2[i]`% → 参数2(%)：上下文「大概率获得防御力提高___%； 小概率获得防」
   - `#3[i]`% → 参数3(%)：上下文「小概率获得防御力提高___%。 重复使用时保」
   - `#4[i]`回 → 参数4：上下文「应数值的防御力，持续___回合。」
 
-- **满级效果**：After using the Technique, 1 of the following effects will be granted:
+- **Max Effect**：After using the Technique, 1 of the following effects will be granted:
 There is a chance for DEF to increase by 24%.
 There is a high chance for DEF to increase by 36%.
 There is a small chance for DEF to increase by 60%.
 When this Technique is used repeatedly, the acquired effect with the highest buff value is retained.
 When the next battle starts, increases all allies' DEF by the corresponding value, lasting for 3 turn(s).
-一定概率获得防御力提高24%；
-大概率获得防御力提高36%；
-小概率获得防御力提高60%。
-重复使用时保留数值最高的效果。
-下一次战斗开始时，使我方全体提高对应数值的防御力，持续3回合。
 
 ## Trace Bonuses
 
@@ -295,38 +289,38 @@ When the next battle starts, increases all allies' DEF by the corresponding valu
 
 ### [[zh_cn/lightcone/存护/命运从未公平.md|Inherently Unjust Destiny]]
 
-- **基础属性**：生1058 攻423 防661
-- **推荐度**：★★★★★
-- **技能名**：全下
-- **效果**：使装备者的防御力提高【40%/46%/52%/58%/64%】，当装备者为我方目标提供护盾时，使装备者的暴击伤害提高【40%/46%/52%/58%/64%】，持续2回合。当装备者发动追加攻击击中敌方目标时，有【100%/115%/130%/145%/160%】的基础概率使受到攻击的敌方目标受到的伤害提高【10.0%/11.5%/13.0%/14.5%/16.0%】，持续2回合。
+- **Base Stats**：HP1058 ATK423 DEF661
+- **Rating**：★★★★★
+- **Skill Name**：All-In
+- **Effect**：Increases the wearer's DEF by 40%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40%, lasting for 2 turn(s). When the wearer's Follow-Up ATK hits an enemy target, there is a 1 base chance to increase the DMG taken by the attacked enemy target by #5[f1]%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/存护/制胜的瞬间.md|Moment of Victory]]
 
-- **基础属性**：生1058 攻476 防595
-- **推荐度**：★★★★★
-- **技能名**：决断
-- **效果**：使装备者的防御力提高【24%/28%/32%/36%/40%】，效果命中提高【24%/28%/32%/36%/40%】，同时使自身受到攻击的概率提高。当装备者受到攻击后，防御力额外提高【24%/28%/32%/36%/40%】，持续到自身回合结束。
+- **Base Stats**：HP1058 ATK476 DEF595
+- **Rating**：★★★★★
+- **Skill Name**：Verdict
+- **Effect**：Increases the wearer's DEF by 24% and Effect Hit Rate by 24%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 24% until the end of the wearer's turn.
 
 ### [[zh_cn/lightcone/存护/两个人的演唱会.md|Concert for Two]]
 
-- **基础属性**：生952 攻370 防463
-- **推荐度**：★★★★
-- **技能名**：鼓舞
-- **效果**：使装备者的防御力提高【16%/20%/24%/28%/32%】。场上每有一名持有护盾的角色，装备者造成的伤害提高【4%/5%/6%/7%/8%】。
+- **Base Stats**：HP952 ATK370 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Inspire
+- **Effect**：Increases the wearer's DEF by 16%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 4%.
 
 ### [[zh_cn/lightcone/存护/记忆的质料.md|Texture of Memories]]
 
-- **基础属性**：生1058 攻423 防529
-- **推荐度**：★★★★
-- **技能名**：珍存
-- **效果**：使装备者的效果抵抗提高【8%/10%/12%/14%/16%】，当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者【16%/20%/24%/28%/32%】生命上限的护盾，持续2回合。该效果每3回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Treasure
+- **Effect**：Increases the wearer's Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%.
 
 ### [[zh_cn/lightcone/存护/余生的第一天.md|Day One of My New Life]]
 
-- **基础属性**：生952 攻370 防463
-- **推荐度**：★★★★
-- **技能名**：此刻定格
-- **效果**：使装备者的防御力提高【16%/18%/20%/22%/24%】。进入战斗后，使我方全体的全属性抗性提高【8%/9%/10%/11%/12%】。同类技能无法重复生效。
+- **Base Stats**：HP952 ATK370 DEF463
+- **Rating**：★★★★
+- **Skill Name**：At This Very Moment
+- **Effect**：Increases the wearer's DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Abilities of the same type cannot stack.
 
 ## Recommended Teams
 

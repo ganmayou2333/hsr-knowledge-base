@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Time Thence Blurs
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -94,18 +94,18 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于长夜月___%生命上限的冰属性」
 
-- **满级效果**：Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.
+- **Max Effect**：Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.
 
 ### Skill：Day Gently Slips
-- **类型**：Skill
-- **简述**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
-- **最大等级**：15
-- **效果模板**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains #3[i] "Memoria." If in the "Darkest Riddle" state, additionally gains #5[i] "Memoria."
+- **Type**：Skill
+- **Summary**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
+- **Max Level**：15
+- **Effect Template**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains #3[i] "Memoria." If in the "Darkest Riddle" state, additionally gains #5[i] "Memoria."
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 12% | 2 | 2 | 50% | 12 | 10% |
@@ -124,7 +124,7 @@
   | Lv.14 | 28.8% | 2 | 2 | 50% | 12 | 10% |
   | Lv.15 | 30% | 2 | 2 | 50% | 12 | 10% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「同于长夜月暴击伤害的___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「的#1[i]%，持续___回合，长夜月每回合」
   - `#3[i]`点 → 参数3：上下文「生命值。施放时，获得___点【忆质】，若处于」
@@ -132,15 +132,15 @@
   - `#5[i]`点 → 参数5：上下文「之谜】状态，额外获得___点【忆质】。」
   - `#6[i]`% → 参数6(%)：上下文「消耗长夜月当前___%的生命值召唤忆灵」
 
-- **满级效果**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
+- **Max Effect**：Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 "Memoria." If in the "Darkest Riddle" state, additionally gains 12 "Memoria."
 
 ### Ultimate：O Wakeful World, Goodnight
-- **类型**：Ultimate
-- **简述**：Deals Ice DMG to all enemies. Summons memosprite Evey and causes Evernight to enter the "Darkest Riddle" state, during which enemies take increased DMG and both Evernight and her memosprite deal increased DMG and are immune to Crowd Control debuffs.
-- **最大等级**：15
-- **效果模板**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to #1[i]% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take #4[i]% increased DMG while both Evernight and Evey deal #3[i]% increased DMG and are immune to Crowd Control debuffs. Gains #2[i] point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
+- **Type**：Ultimate
+- **Summary**：Deals Ice DMG to all enemies. Summons memosprite Evey and causes Evernight to enter the "Darkest Riddle" state, during which enemies take increased DMG and both Evernight and her memosprite deal increased DMG and are immune to Crowd Control debuffs.
+- **Max Level**：15
+- **Effect Template**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to #1[i]% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take #4[i]% increased DMG while both Evernight and Evey deal #3[i]% increased DMG and are immune to Crowd Control debuffs. Gains #2[i] point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 2 | 30% | 15% |
@@ -159,25 +159,25 @@
   | Lv.14 | 240% | 2 | 72% | 36% |
   | Lv.15 | 250% | 2 | 75% | 37.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于「长夜」___%生命上限的冰属性」
   - `#2[i]`点 → 参数2：上下文「控制类负面状态。获得___点【至暗之谜】的充」
   - `#3[i]`% → 参数3(%)：上下文「长夜」造成的伤害提高___%，且免疫控制类负」
   - `#4[i]`% → 参数4(%)：上下文「方全体受到的伤害提高___%，长夜月和忆灵「」
 
-- **满级效果**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
+- **Max Effect**：Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the "Darkest Riddle" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for "Darkest Riddle." And Evey consumes 1 point after it uses "Dream, Dissolving, as Dew." At the start of Evernight's turn, if no Charge remains, exits the "Darkest Riddle" state.
 
 ### Talent：With Me, This Night
-- **类型**：Talent
-- **简述**：When entering combat, summons memosprite Evey. Each time this unit or Evey loses HP, increases CRIT DMG for this unit and Evey, and gains "Memoria."
+- **Type**：Talent
+- **Summary**：When entering combat, summons memosprite Evey. Each time this unit or Evey loses HP, increases CRIT DMG for this unit and Evey, and gains "Memoria."
 When Evernight has 16 or more "Memoria," Evey immediately takes action.
 当长夜月持有的【忆质】数量大于等于16点时，使忆灵「长夜」立即行动。
-- **最大等级**：15
-- **效果模板**：When entering combat, summons memosprite Evey. Evey has an initial SPD of #4[i] and its Max HP equals to #5[i]% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by #2[i]% for #3[i] turn(s), and gains #1[i] "Memoria." This effect can trigger only once per target for each received attack.
+- **Max Level**：15
+- **Effect Template**：When entering combat, summons memosprite Evey. Evey has an initial SPD of #4[i] and its Max HP equals to #5[i]% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by #2[i]% for #3[i] turn(s), and gains #1[i] "Memoria." This effect can trigger only once per target for each received attack.
 When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses "Dream, Dissolving, as Dew."
 长夜月持有的【忆质】大于等于#6[i]点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 30% | 2 | 160 | 50% | 16 | 5% |
@@ -196,7 +196,7 @@ When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debu
   | Lv.14 | 2 | 72% | 2 | 160 | 50% | 16 | 5% |
   | Lv.15 | 2 | 75% | 2 | 160 | 50% | 16 | 5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「3[i]回合，并获得___点【忆质】。该效果」
   - `#2[i]`% → 参数2(%)：上下文「长夜」的暴击伤害提高___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合，并获得#1[」
@@ -205,26 +205,25 @@ When Evernight has #6[i] or more points of "Memoria," dispels Crowd Control debu
   - `#6[i]`点 → 参数6：上下文「有的【忆质】大于等于___点时，解除并免疫控」
   - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 "Memoria." This effect can trigger only once per target for each received attack.
+- **Max Effect**：When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 "Memoria." This effect can trigger only once per target for each received attack.
 When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses "Dream, Dissolving, as Dew."
-长夜月持有的【忆质】大于等于16点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。
 
 ### Technique：Let it Rain Cold On Thee
-- **类型**：Technique
-- **简述**：At the start of the next battle, obtains the same effect as the one from Skill that increases memosprite CRIT DMG, and additionally gains "Memoria."
-- **最大等级**：1
-- **效果模板**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains #1[i] "Memoria."
+- **Type**：Technique
+- **Summary**：At the start of the next battle, obtains the same effect as the one from Skill that increases memosprite CRIT DMG, and additionally gains "Memoria."
+- **Max Level**：1
+- **Effect Template**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains #1[i] "Memoria."
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 1 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「击伤害的效果，并获得___点【忆质】。」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains 1 "Memoria."
+- **Max Effect**：After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains 1 "Memoria."
 
 ## Trace Bonuses
 
@@ -284,28 +283,30 @@ When Evernight has 16 or more points of "Memoria," dispels Crowd Control debuffs
 ## Recommended Light Cones
 
 ### [[zh_cn/lightcone/记忆/致长夜的星光.md|To Evernight's Stars]]
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：未眠
-- **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】。装备者的忆灵施放技能时，使装备者获得【夜色】。装备者持有【夜色】时，我方全体忆灵造成的伤害无视目标【20%/22.5%/25%/27.5%/30%】的防御力，装备者和装备者忆灵造成的伤害提高【30%/37.5%/45%/52.5%/60%】，装备者的忆灵消失时为装备者恢复【8/10/12/14/16】点能量，同类效果无法叠加。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Sleepless
+- **Effect**：Increases the wearer's Max HP by 30%. When the wearer's memosprite uses an ability, the wearer gains "Noctis." While the wearer has "Noctis," the DMG dealt by all ally memosprites ignores 20% of the targets' DEF. Increases the DMG dealt by the wearer and their memosprite by 30%. When the wearer's memosprite disappears, the wearer recovers 8 Energy. Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/记忆/让告别，更美一些.md|Make Farewells More Beautiful]]
-- **基础属性**：生1270 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：铭刻
-- **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次，装备者每次施放终结技时重置触发次数。
+- **Base Stats**：HP1270 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Engrave
+- **Effect**：Increases the wearer's Max HP by 30%. When the wearer or their memosprite loses HP during their own turn, the wearer gains "Death Flower." "Death Flower" allows the wearer and their memosprite to ignore 30% of the target's DEF when dealing DMG, lasting for 2 turn(s).
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
 
 ### [[zh_cn/lightcone/记忆/花儿不会忘记.md|The Flower Remembers]]
-- **基础属性**：生1058 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：相依为命
-- **效果**：使装备者的暴击伤害提高【24%/28%/32%/36%/40%】。装备者忆灵造成的暴击伤害额外提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP1058 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Interdependence
+- **Effect**：Increases the wearer's CRIT DMG by 24%. The CRIT DMG dealt by the wearer's memosprite increases by 24%.
 
 ### [[zh_cn/lightcone/记忆/记忆永不落幕.md|Memory's Curtain Never Falls]]
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：收取
-- **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Reception
+- **Effect**：Increases the wearer's SPD by #1[f1]%. After the wearer uses Skill, increases the DMG dealt by all allies by 8%, lasting for 3 turn(s).
 
 ## Recommended Teams
 

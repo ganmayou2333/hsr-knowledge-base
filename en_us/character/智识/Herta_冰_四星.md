@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：What Are You Looking At?
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Herta's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Herta's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于黑塔___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 140% of Herta's ATK to one designated enemy.
+- **Max Effect**：Deals Ice DMG equal to 140% of Herta's ATK to one designated enemy.
 
 ### Skill：One-Time Offer
-- **类型**：Skill
-- **简述**：Deals minor Ice DMG to all enemies. Targets with higher HP will receive increased DMG.
-- **最大等级**：15
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies. If the enemy's HP percentage is #2[i]% or higher, DMG dealt to this target increases by #3[i]%.
+- **Type**：Skill
+- **Summary**：Deals minor Ice DMG to all enemies. Targets with higher HP will receive increased DMG.
+- **Max Level**：15
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies. If the enemy's HP percentage is #2[i]% or higher, DMG dealt to this target increases by #3[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 50% | 50% | 20% |
@@ -122,20 +122,20 @@
   | Lv.14 | 120% | 50% | 20% |
   | Lv.15 | 125% | 50% | 20% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
   - `#2[i]`% → 参数2(%)：上下文「生命值百分比大于等于___%，则对该目标造成」
   - `#3[i]`% → 参数3(%)：上下文「该目标造成的伤害提高___%。」
 
-- **满级效果**：Deals Ice DMG equal to 125% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.
+- **Max Effect**：Deals Ice DMG equal to 125% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.
 
 ### Ultimate：It's Magic, I Added Some Magic
-- **类型**：Ultimate
-- **简述**：Deals Ice DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies.
+- **Type**：Ultimate
+- **Summary**：Deals Ice DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 120% |
@@ -154,18 +154,18 @@
   | Lv.14 | 232% |
   | Lv.15 | 240% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
 
-- **满级效果**：Deals Ice DMG equal to 240% of Herta's ATK to all enemies.
+- **Max Effect**：Deals Ice DMG equal to 240% of Herta's ATK to all enemies.
 
 ### Talent：Fine, I'll Do It Myself
-- **类型**：Talent
-- **简述**：When any ally target's attack reduces the enemy target's current HP percentage to 50% or lower, Herta immediately launches Follow-Up ATK, dealing minor Ice DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：When an ally target's attack causes an enemy target's HP percentage to fall to #1[i]% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.
+- **Type**：Talent
+- **Summary**：When any ally target's attack reduces the enemy target's current HP percentage to 50% or lower, Herta immediately launches Follow-Up ATK, dealing minor Ice DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：When an ally target's attack causes an enemy target's HP percentage to fall to #1[i]% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 50% | 25% |
@@ -184,28 +184,28 @@
   | Lv.14 | 50% | 46% |
   | Lv.15 | 50% | 47.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「生命值百分比小于等于___%时，黑塔发动追加」
   - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于黑塔___%攻击力的冰属性伤」
 
-- **满级效果**：When an ally target's attack causes an enemy target's HP percentage to fall to 50% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to 47.5% of Herta's ATK to all enemies.
+- **Max Effect**：When an ally target's attack causes an enemy target's HP percentage to fall to 50% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to 47.5% of Herta's ATK to all enemies.
 
 ### Technique：It Can Still Be Optimized
-- **类型**：Technique
-- **简述**：After using Technique, increases this unit's ATK at the start of the next battle.
-- **最大等级**：1
-- **效果模板**：After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.
+- **Type**：Technique
+- **Summary**：After using Technique, increases this unit's ATK at the start of the next battle.
+- **Max Level**：1
+- **Effect Template**：After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 40% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「开始时黑塔攻击力提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
 
-- **满级效果**：After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle.
+- **Max Effect**：After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle.
 
 ## Trace Bonuses
 
@@ -266,31 +266,31 @@
 
 ### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：长夜
-- **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Long Night
+- **Effect**：Increases the wearer's CRIT DMG by 36%. Increases DMG dealt by the wearer's Skill and Ultimate by 18%. After the wearer uses Skill or Ultimate, gains "Somnus Corpus." Upon triggering a Follow-Up ATK, consumes "Somnus Corpus," and increases DMG dealt by Follow-Up ATK by 48%.
 
 ### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★
-- **技能名**：流星群
-- **效果**：当场上每有1个敌方目标，使装备者的攻击力提高【9%/10.5%/12%/13.5%/15%】，最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Meteor Swarm
+- **Effect**：For every enemy on the field, increases the wearer's ATK by #2[f1]%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.
 
 ### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
-- **基础属性**：生846 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：风雨将至
-- **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
+- **Base Stats**：HP846 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：A Storm Is Coming
+- **Effect**：After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
 ### [[zh_cn/lightcone/智识/「我」的诞生.md|The Birth of the Self]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：画像少女
-- **效果**：使装备者追加攻击造成的伤害提高【24%/30%/36%/42%/48%】。若该敌方目标当前生命值百分比小于等于50%，则追加攻击造成的伤害额外提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：The Maiden in the Painting
+- **Effect**：Increases DMG dealt by the wearer's Follow-Up ATKs by 24%. If the current HP percentage of the enemy target is below or equal to 50%, increases DMG dealt by Follow-Up ATKs by an extra 24%.
 
 ## Recommended Teams
 

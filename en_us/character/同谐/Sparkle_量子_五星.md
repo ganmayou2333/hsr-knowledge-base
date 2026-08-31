@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Monodrama
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于花火___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 140% of Sparkle's ATK to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 140% of Sparkle's ATK to one designated enemy.
 
 ### Skill：Dreamdiver
-- **类型**：Skill
-- **简述**：Increases an ally's CRIT DMG and advances their action.
-- **最大等级**：15
-- **效果模板**：Increases the CRIT DMG of a designated ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for #3[i] turn(s). And at the same time, advances this ally's action by #4[i]%.
+- **Type**：Skill
+- **Summary**：Increases an ally's CRIT DMG and advances their action.
+- **Max Level**：15
+- **Effect Template**：Increases the CRIT DMG of a designated ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for #3[i] turn(s). And at the same time, advances this ally's action by #4[i]%.
 When Sparkle uses this ability on herself, the Action Advance effect will not trigger.
-当花火对自身施放该技能时，无法触发行动提前效果。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 12% | 27% | 1 | 50% |
@@ -124,23 +123,22 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
   | Lv.14 | 28.8% | 52.2% | 1 | 50% |
   | Lv.15 | 30% | 54% | 1 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`回 → 参数3：上下文「#2[f1]%，持续___回合，并使该目标行」
   - `#4[i]`% → 参数4(%)：上下文「，并使该目标行动提前___%。 当花火对自身」
 
-- **满级效果**：Increases the CRIT DMG of a designated ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for 1 turn(s). And at the same time, advances this ally's action by 50%.
+- **Max Effect**：Increases the CRIT DMG of a designated ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for 1 turn(s). And at the same time, advances this ally's action by 50%.
 When Sparkle uses this ability on herself, the Action Advance effect will not trigger.
-当花火对自身施放该技能时，无法触发行动提前效果。
 
 ### Ultimate：The Hero with a Thousand Faces
-- **类型**：Ultimate
-- **简述**：Recovers Skill Points for allies and additionally increases the Vulnerability effect provided by Sparkle's Talent.
-- **最大等级**：15
-- **效果模板**：Recovers #2[i] Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for #4[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Recovers Skill Points for allies and additionally increases the Vulnerability effect provided by Sparkle's Talent.
+- **Max Level**：15
+- **Effect Template**：Recovers #2[i] Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for #4[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 4 | 6% | 2 |
@@ -159,21 +157,21 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
   | Lv.14 | 2 | 4 | 11.6% | 2 |
   | Lv.15 | 2 | 4 | 12% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`个 → 参数2：上下文「为我方恢复___个战技点，并使我方」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`回 → 参数4：上下文「#3[f1]%，持续___回合。」
 
-- **满级效果**：Recovers 4 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for 2 turn(s).
+- **Max Effect**：Recovers 4 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies "Cipher." For ally targets with "Cipher," each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for 2 turn(s).
 
 ### Talent：Red Herring
-- **类型**：Talent
-- **简述**：Increases the team's Max Skill Points. Whenever an ally target consumes Skill Points, Sparkle gains 1 stack of "Figment." Each stack of "Figment" increases the DMG taken by all enemies.
-- **最大等级**：15
-- **效果模板**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).
+- **Type**：Talent
+- **Summary**：Increases the team's Max Skill Points. Whenever an ally target consumes Skill Points, Sparkle gains 1 stack of "Figment." Each stack of "Figment" increases the DMG taken by all enemies.
+- **Max Level**：15
+- **Effect Template**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 2 | 3% | 2 | 3 |
@@ -192,30 +190,30 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
   | Lv.14 | 2 | 7.2% | 2 | 3 |
   | Lv.15 | 2 | 7.5% | 2 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「f1]%，该效果持续___回合，最多可叠加#」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`点 → 参数3：上下文「，战技点上限额外增加___点。当我方目标每消」
   - `#4[i]`层 → 参数4：上下文「i]回合，最多可叠加___层。」
 
-- **满级效果**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).
+- **Max Effect**：While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of "Figment," with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).
 
 ### Technique：Unreliable Narrator
-- **类型**：Technique
-- **简述**：After using Technique, grants all allies Misdirect. Characters with Misdirect will not be detected by enemies, and entering combat while in Misdirect recovers Skill Points for allies and regenerates Energy for Sparkle.
-- **最大等级**：1
-- **效果模板**：After using Technique, grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers #1[i] Skill Point(s) for the team and regenerates #2[i] Energy for Sparkle.
+- **Type**：Technique
+- **Summary**：After using Technique, grants all allies Misdirect. Characters with Misdirect will not be detected by enemies, and entering combat while in Misdirect recovers Skill Points for allies and regenerates Energy for Sparkle.
+- **Max Level**：1
+- **Effect Template**：After using Technique, grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers #1[i] Skill Point(s) for the team and regenerates #2[i] Energy for Sparkle.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 3 | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`个 → 参数1：上下文「进入战斗时为我方恢复___个战技点。」
   - `#2[i]`秒 → 参数2：上下文「后，我方全体进入持续___秒的【迷误】状态。」
 
-- **满级效果**：After using Technique, grants all allies Misdirect for 20 seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers 3 Skill Point(s) for the team and regenerates 20 Energy for Sparkle.
+- **Max Effect**：After using Technique, grants all allies Misdirect for 20 seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers 3 Skill Point(s) for the team and regenerates 20 Energy for Sparkle.
 
 ## Trace Bonuses
 
@@ -276,45 +274,45 @@ When Sparkle uses this ability on herself, the Action Advance effect will not tr
 
 ### [[zh_cn/lightcone/同谐/游戏尘寰.md|Earthly Escapade]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：善变
-- **效果**：使装备者的暴击伤害提高【32%/39%/46%/53%/60%】。战斗开始时，使装备者获得【假面】，持续3回合。当装备者持有【假面】时，装备者的队友暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【28%/35%/42%/49%/56%】。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到4层后，移除所有【彩焰】并获得【假面】，持续4回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Capriciousness
+- **Effect**：Increases the wearer's CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's teammates have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turn(s).
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：旧日纸鸢
-- **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
 ### 与行星相会（量子队可用）
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：启程
-- **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/回到大地的飞行.md|A Grounded Ascent]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：再启程
-- **效果**：当装备者对我方单体角色施放战技或终结技后，装备者恢复【6.0/6.5/7.0/7.5/8.0】点能量，同时使技能目标获得1层【圣咏】，持续3回合，最多叠加3层，每层【圣咏】使持有者造成的伤害提高【15%/17%/19%/21%/24%】。装备者每对我方单体角色施放2次战技或终结技后，恢复1个战技点。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Departing Anew
+- **Effect**：After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates #1[f1] Energy and the ability's target receives 1 stack of "Hymn" for 3 turn(s), stacking up to 3 time(s). Each stack of "Hymn" increases its holder's DMG dealt by 15%. After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.
 
 ## Recommended Teams
 

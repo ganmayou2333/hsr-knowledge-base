@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Swing Dance Etiquette
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of the Trailblazer's ATK to one designated enemy.
 
 ### Skill：Halftime to Make It Rain
-- **类型**：Skill
-- **简述**：Deals minor Imaginary DMG to single enemy targets with 5 Bounces in total.
-- **最大等级**：15
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a random enemy.
+- **Type**：Skill
+- **Summary**：Deals minor Imaginary DMG to single enemy targets with 5 Bounces in total.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a random enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 25% | 2 |
@@ -122,19 +122,19 @@
   | Lv.14 | 60% | 2 |
   | Lv.15 | 62.5% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的虚数属性」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Deals Imaginary DMG equal to 62.5% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to 62.5% of the Trailblazer's ATK to a random enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 62.5% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to 62.5% of the Trailblazer's ATK to a random enemy.
 
 ### Ultimate：All-Out Footlight Parade
-- **类型**：Ultimate
-- **简述**：Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deal Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.
-- **最大等级**：15
-- **效果模板**：Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
+- **Type**：Ultimate
+- **Summary**：Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their Break Effect increased and additionally deal Super Break DMG 1 time when they attack enemy targets that are Weakness Broken.
+- **Max Level**：15
+- **Effect Template**：Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 3 | 1 | 15% |
@@ -153,20 +153,20 @@
   | Lv.14 | 3 | 1 | 36% |
   | Lv.15 | 3 | 1 | 37.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「上【伴舞】效果，持续___回合，开拓者每回合」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「我方目标击破特攻提高___%，并且攻击处于弱」
 
-- **满级效果**：Grants all allies the Backup Dancer effect, lasting for 3 turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by 37.5%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
+- **Max Effect**：Grants all allies the Backup Dancer effect, lasting for 3 turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by 37.5%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.
 
 ### Talent：Full-on Aerial Dance
-- **类型**：Talent
-- **简述**：The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.
-- **最大等级**：15
-- **效果模板**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
+- **Type**：Talent
+- **Summary**：The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.
+- **Max Level**：15
+- **Effect Template**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 5 |
@@ -185,27 +185,27 @@
   | Lv.14 | 12 |
   | Lv.15 | 12.5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
+- **Max Effect**：The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.
 
 ### Technique：Now! I'm the Band!
-- **类型**：Technique
-- **简述**：At the start of the next battle, increases all allies' Break Effect.
-- **最大等级**：1
-- **效果模板**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by #1[i]%, lasting for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：At the start of the next battle, increases all allies' Break Effect.
+- **Max Level**：1
+- **Effect Template**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by #1[i]%, lasting for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 30% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体的击破特攻提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
 
-- **满级效果**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by 30%, lasting for 2 turn(s).
+- **Max Effect**：After the Technique is used, at the start of the next battle, all allies' Break Effect increases by 30%, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -266,31 +266,33 @@
 
 ### [[zh_cn/lightcone/同谐/镜中故我.md|Past Self in Mirror]]
 
-- **基础属性**：生1058 攻529 防529
-- **推荐度**：★★★★★
-- **技能名**：彻骨梅香
-- **效果**：使装备者击破特攻提高【60%/70%/80%/90%/100%】。装备者施放终结技后，使我方全体造成的伤害提高【24%/28%/32%/36%/40%】，持续3回合，并且若装备者击破特攻大于等于150%，则恢复1个战技点。 每个波次开始时，我方全体立即恢复【10.0/12.5/15.0/17.5/20.0】点能量，同类技能无法重复生效。
+- **Base Stats**：HP1058 ATK529 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：The Plum Fragrance In My Bones
+- **Effect**：Increases the wearer's Break Effect by 60%. When the wearer uses their Ultimate, increases all allies' DMG by 24%, lasting for 3 turn(s). If the wearer's Break Effect exceeds or equals 1.5, 1 Skill Point will be recovered.
+At the start of each wave, all allies regenerate #5[f1] Energy immediately. Abilities of the same type cannot stack.
+At the start of each wave, all allies regenerate #5[f1] Energy immediately. Abilities of the same type cannot stack.
 
 ### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★★
-- **技能名**：老相片
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Old Photo
+- **Effect**：Increases the wearer's Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ## Recommended Teams
 

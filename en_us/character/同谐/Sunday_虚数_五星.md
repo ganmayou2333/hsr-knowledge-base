@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Gleaming Admonition
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Sunday's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Sunday's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,26 +92,24 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于星期日___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of Sunday's ATK to one designated enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Sunday's ATK to one designated enemy.
 
 ### Skill：Benison of Paper and Rites
-- **类型**：Skill
-- **简述**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt. If the target has a summon, then the DMG dealt increase is further boosted.
+- **Type**：Skill
+- **Summary**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt. If the target has a summon, then the DMG dealt increase is further boosted.
 After using Skill on The Beatified, recovers 1 Skill Point.
 When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.
 对【蒙福者】施放战技后恢复1个战技点。
 当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。
-- **最大等级**：15
-- **效果模板**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by #2[i]%. If the target has a summon, then the DMG Boost effect is further boosted by an additional #4[i]%, lasting for #3[i] turn(s).
+- **Max Level**：15
+- **Effect Template**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by #2[i]%. If the target has a summon, then the DMG Boost effect is further boosted by an additional #4[i]%, lasting for #3[i] turn(s).
 After using Skill on The Beatified, recovers 1 Skill Point.
 When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.
-对【蒙福者】施放战技后恢复1个战技点。
-当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 1 | 15% | 2 | 25% |
@@ -130,27 +128,25 @@ When Sunday uses this ability on characters following the Path of Harmony, canno
   | Lv.14 | 1 | 36% | 2 | 60% |
   | Lv.15 | 1 | 37.5% | 2 | 62.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「并使其造成的伤害提高___%，若目标拥有召唤」
   - `#3[i]`回 → 参数3：上下文「高#4[i]%，持续___回合。 对【蒙福者」
   - `#4[i]`% → 参数4(%)：上下文「伤害提高效果额外提高___%，持续#3[i]」
 
-- **满级效果**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by 37.5%. If the target has a summon, then the DMG Boost effect is further boosted by an additional 62.5%, lasting for 2 turn(s).
+- **Max Effect**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by 37.5%. If the target has a summon, then the DMG Boost effect is further boosted by an additional 62.5%, lasting for 2 turn(s).
 After using Skill on The Beatified, recovers 1 Skill Point.
 When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.
-对【蒙福者】施放战技后恢复1个战技点。
-当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。
 
 ### Ultimate：Ode to Caress and Cicatrix
-- **类型**：Ultimate
-- **简述**：Regenerates Energy for one designated ally character and turns the target and their summon into "The Beatified." "The Beatified" increases their CRIT DMG.
-- **最大等级**：15
-- **效果模板**：Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.
+- **Type**：Ultimate
+- **Summary**：Regenerates Energy for one designated ally character and turns the target and their summon into "The Beatified." "The Beatified" increases their CRIT DMG.
+- **Max Level**：15
+- **Effect Template**：Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.
 At the start of Sunday's every turn, the duration of "The Beatified" decreases by 1 turn, lasting for a total of #3[i] turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, "The Beatified" will also be dispelled.
 星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续#3[i]回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 20% | 12% | 3 | 8% |
@@ -169,23 +165,22 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
   | Lv.14 | 20% | 37.2% | 3 | 13.6% |
   | Lv.15 | 20% | 39% | 3 | 14% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`回 → 参数3：上下文「持续回合减1，共持续___回合。且仅对除星期」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.
+- **Max Effect**：Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.
 At the start of Sunday's every turn, the duration of "The Beatified" decreases by 1 turn, lasting for a total of 3 turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, "The Beatified" will also be dispelled.
-星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续3回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。
 
 ### Talent：The Sorrowing Body
-- **类型**：Talent
-- **简述**：When using Skill, increases the target's CRIT Rate.
-- **最大等级**：15
-- **效果模板**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for #2[i] turn(s).
+- **Type**：Talent
+- **Summary**：When using Skill, increases the target's CRIT Rate.
+- **Max Level**：15
+- **Effect Template**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 10% | 3 |
@@ -204,28 +199,28 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
   | Lv.14 | 24% | 3 |
   | Lv.15 | 25% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`回 → 参数2：上下文「#1[f1]%，持续___回合。」
 
-- **满级效果**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for 3 turn(s).
+- **Max Effect**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for 3 turn(s).
 
 ### Technique：The Glorious Mysteries
-- **类型**：Technique
-- **简述**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases.
-- **最大等级**：1
-- **效果模板**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases.
+- **Max Level**：1
+- **Effect Template**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「使目标造成的伤害提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
 
-- **满级效果**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by 50%, lasting for 2 turn(s).
+- **Max Effect**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by 50%, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -286,31 +281,31 @@ At the start of Sunday's every turn, the duration of "The Beatified" decreases b
 
 ### [[zh_cn/lightcone/同谐/回到大地的飞行.md|A Grounded Ascent]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：再启程
-- **效果**：当装备者对我方单体角色施放战技或终结技后，装备者恢复【6.0/6.5/7.0/7.5/8.0】点能量，同时使技能目标获得1层【圣咏】，持续3回合，最多叠加3层，每层【圣咏】使持有者造成的伤害提高【15%/17%/19%/21%/24%】。装备者每对我方单体角色施放2次战技或终结技后，恢复1个战技点。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Departing Anew
+- **Effect**：After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates #1[f1] Energy and the ability's target receives 1 stack of "Hymn" for 3 turn(s), stacking up to 3 time(s). Each stack of "Hymn" increases its holder's DMG dealt by 15%. After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/游戏尘寰.md|Earthly Escapade]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：善变
-- **效果**：使装备者的暴击伤害提高【32%/39%/46%/53%/60%】。战斗开始时，使装备者获得【假面】，持续3回合。当装备者持有【假面】时，装备者的队友暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【28%/35%/42%/49%/56%】。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到4层后，移除所有【彩焰】并获得【假面】，持续4回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Capriciousness
+- **Effect**：Increases the wearer's CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's teammates have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turn(s).
 
 ### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：旧日纸鸢
-- **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
 ## Recommended Teams
 

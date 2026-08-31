@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Talons: Inculcate Decorum
-- **类型**：
-- **简述**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
-- **最大等级**：10
-- **效果模板**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
+- **Type**：
+- **Summary**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
+- **Max Level**：10
+- **Effect Template**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于不死途___%攻击力的雷属性伤」
 
-- **满级效果**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
+- **Max Effect**：Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.
 
 ### Skill：Flog: Smite Evil
-- **类型**：Skill
-- **简述**：Makes one designated enemy become the "Bait," dealing massive Lightning DMG to them. If the target is already the "Bait," additionally deals minor Lightning DMG to them, and recovers 1 Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced.
-- **最大等级**：15
-- **效果模板**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to #1[i]% of Ashveil's ATK. If the target is already the "Bait," additionally deals it Lightning DMG equal to #3[i]% of Ashveil's ATK, and recovers #5[i] Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced by #4[i]%.
+- **Type**：Skill
+- **Summary**：Makes one designated enemy become the "Bait," dealing massive Lightning DMG to them. If the target is already the "Bait," additionally deals minor Lightning DMG to them, and recovers 1 Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced.
+- **Max Level**：15
+- **Effect Template**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to #1[i]% of Ashveil's ATK. If the target is already the "Bait," additionally deals it Lightning DMG equal to #3[i]% of Ashveil's ATK, and recovers #5[i] Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced by #4[i]%.
 When there is no "Bait" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the "Bait." The "Bait" state only takes effect on the most recently applied target.
-场上不存在【饲饵】时，不死途立即使当前场上生命值最低的敌方单体目标成为【饲饵】，【饲饵】状态仅对最新被施加的目标生效。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 1 | 50% | 20% | 1 |
@@ -124,28 +123,27 @@ When there is no "Bait" on the field, Ashveil immediately makes the enemy target
   | Lv.14 | 240% | 1 | 120% | 48% | 1 |
   | Lv.15 | 250% | 1 | 125% | 50% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「对其造成等同于不死途___%攻击力的雷属性伤」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「对其造成等同于不死途___%攻击力的雷属性伤」
   - `#4[i]`% → 参数4(%)：上下文「，敌方全体防御力降低___%。 场上不存在【」
   - `#5[i]`点 → 参数5：上下文「的雷属性伤害，并恢复___点战技点。场上存在」
 
-- **满级效果**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to 250% of Ashveil's ATK. If the target is already the "Bait," additionally deals it Lightning DMG equal to 125% of Ashveil's ATK, and recovers 1 Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced by 50%.
+- **Max Effect**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to 250% of Ashveil's ATK. If the target is already the "Bait," additionally deals it Lightning DMG equal to 125% of Ashveil's ATK, and recovers 1 Skill Point(s). When the "Bait" exists on the field, all enemies' DEF gets reduced by 50%.
 When there is no "Bait" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the "Bait." The "Bait" state only takes effect on the most recently applied target.
-场上不存在【饲饵】时，不死途立即使当前场上生命值最低的敌方单体目标成为【饲饵】，【饲饵】状态仅对最新被施加的目标生效。
 
 ### Ultimate：Banquet: Insatiable Appetite
-- **类型**：Ultimate
-- **简述**：Makes one designated enemy become the "Bait," dealing massive Lightning DMG to them. Then, immediately launches against the "Bait" 1 instance of enhanced Talent's Follow-Up ATK. And Ashveil gains Charge.
+- **Type**：Ultimate
+- **Summary**：Makes one designated enemy become the "Bait," dealing massive Lightning DMG to them. Then, immediately launches against the "Bait" 1 instance of enhanced Talent's Follow-Up ATK. And Ashveil gains Charge.
 This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony" reaches 4 stack(s) or more, consumes 4 stack(s) of "Gluttony" to additionally deal massive Lightning DMG. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new "Bait". This triggers until "Gluttony" becomes lower than 4 stack(s).
 强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗4层【婪酣】可额外造成大量雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于4层。
-- **最大等级**：15
-- **效果模板**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to #1[i]% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the "Bait." And Ashveil gains #2[i] Charge.
+- **Max Level**：15
+- **Effect Template**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to #1[i]% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the "Bait." And Ashveil gains #2[i] Charge.
 This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony" reaches #3[i] stack(s) or more, consumes #3[i] stack(s) of "Gluttony" to additionally deal 1 instance of Lightning DMG equal to #4[i]% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new "Bait." This triggers until "Gluttony" becomes lower than #3[i] stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end.
 强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗#3[i]层【婪酣】可额外造成1次等同于不死途#4[i]%攻击力的雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于#3[i]层。若当前场上的所有敌方目标都受到致命攻击后强化天赋追加攻击会立即结束。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 200% | 3 | 4 | 100% |
@@ -164,23 +162,22 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
   | Lv.14 | 480% | 3 | 4 | 240% |
   | Lv.15 | 500% | 3 | 4 | 250% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「对其造成等同于不死途___%攻击力的雷属性伤」
   - `#2[i]`点 → 参数2：上下文「加攻击，且不死途获得___点充能。 强化天赋」
   - `#3[i]`层 → 参数3：上下文「害，直至【婪酣】小于___层。若当前场上的所」
   - `#4[i]`% → 参数4(%)：上下文「造成1次等同于不死途___%攻击力的雷属性伤」
 
-- **满级效果**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to 500% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the "Bait." And Ashveil gains 3 Charge.
+- **Max Effect**：Makes one designated enemy become the "Bait," dealing it Lightning DMG equal to 500% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the "Bait." And Ashveil gains 3 Charge.
 This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony" reaches 4 stack(s) or more, consumes 4 stack(s) of "Gluttony" to additionally deal 1 instance of Lightning DMG equal to 250% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new "Bait." This triggers until "Gluttony" becomes lower than 4 stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end.
-强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗4层【婪酣】可额外造成1次等同于不死途250%攻击力的雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于4层。若当前场上的所有敌方目标都受到致命攻击后强化天赋追加攻击会立即结束。
 
 ### Talent：Rancor: Enmity Reprisal
-- **类型**：Talent
-- **简述**：After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of Energy, then consumes Charge to launch Follow-Up ATK against the "Bait," dealing massive Lightning DMG. Afterwards, gains 2 stack(s) of "Gluttony."
-- **最大等级**：15
-- **效果模板**：Ashveil has an initial Charge of #1[i] and can hold up to a max of #2[i]. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of #7[i] Energy, then consumes #3[i] Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to #4[i]% of Ashveil's ATK. Afterwards, gains #5[i] stack(s) of "Gluttony," which can stack up to #6[i].
+- **Type**：Talent
+- **Summary**：After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of Energy, then consumes Charge to launch Follow-Up ATK against the "Bait," dealing massive Lightning DMG. Afterwards, gains 2 stack(s) of "Gluttony."
+- **Max Level**：15
+- **Effect Template**：Ashveil has an initial Charge of #1[i] and can hold up to a max of #2[i]. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of #7[i] Energy, then consumes #3[i] Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to #4[i]% of Ashveil's ATK. Afterwards, gains #5[i] stack(s) of "Gluttony," which can stack up to #6[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 2 | 3 | 1 | 100% | 2 | 12 | 8 |
@@ -199,7 +196,7 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
   | Lv.14 | 2 | 3 | 1 | 240% | 2 | 12 | 8 |
   | Lv.15 | 2 | 3 | 1 | 250% | 2 | 12 | 8 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「不死途初始拥有___点充能，最多拥有#」
   - `#2[i]`点 → 参数2：上下文「i]点充能，最多拥有___点充能。【饲饵】受」
   - `#3[i]`点 → 参数3：上下文「i]点能量，随后消耗___点充能对【饲饵】发」
@@ -208,29 +205,28 @@ This enhanced Talent's Follow-Up ATK does not consume Charge. Whenever "Gluttony
   - `#6[i]`层 → 参数6：上下文「层【婪酣】，最多叠加___层。」
   - `#7[i]`点 → 参数7：上下文「击后，不死途固定恢复___点能量，随后消耗#」
 
-- **满级效果**：Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to 250% of Ashveil's ATK. Afterwards, gains 2 stack(s) of "Gluttony," which can stack up to 12.
+- **Max Effect**：Ashveil has an initial Charge of 2 and can hold up to a max of 3. After the "Bait" gets attacked by other ally targets, Ashveil regenerates a fixed amount of 8 Energy, then consumes 1 Charge to launch Follow-Up ATK against the "Bait," dealing Lightning DMG equal to 250% of Ashveil's ATK. Afterwards, gains 2 stack(s) of "Gluttony," which can stack up to 12.
 
 ### Technique：Devour: O Loathsome Hand
-- **类型**：Technique
-- **简述**：Inflicts Daze on enemies within a set area. After entering combat via attacking a Dazed enemy, deals minor Lightning DMG to all enemies, and grants Ashveil 1 Charge.
-- **最大等级**：1
-- **效果模板**：After using Technique, inflicts Daze on enemies within a set area for #1[i] second(s). Dazed enemies will not actively attack ally targets.
+- **Type**：Technique
+- **Summary**：Inflicts Daze on enemies within a set area. After entering combat via attacking a Dazed enemy, deals minor Lightning DMG to all enemies, and grants Ashveil 1 Charge.
+- **Max Level**：1
+- **Effect Template**：After using Technique, inflicts Daze on enemies within a set area for #1[i] second(s). Dazed enemies will not actively attack ally targets.
 When entering combat via actively attacking a Dazed enemy, deals Lightning DMG to all enemies equal to #2[i]% of Ashveil's ATK, and grants Ashveil #3[i] Charge.
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于不死途攻击力#2[i]%的雷属性伤害，且不死途获得#3[i]点充能。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 100% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
   - `#2[i]`% → 参数2(%)：上下文「成等同于不死途攻击力___%的雷属性伤害，且」
   - `#3[i]`点 → 参数3：上下文「性伤害，且不死途获得___点充能。」
 
-- **满级效果**：After using Technique, inflicts Daze on enemies within a set area for 10 second(s). Dazed enemies will not actively attack ally targets.
+- **Max Effect**：After using Technique, inflicts Daze on enemies within a set area for 10 second(s). Dazed enemies will not actively attack ally targets.
 When entering combat via actively attacking a Dazed enemy, deals Lightning DMG to all enemies equal to 100% of Ashveil's ATK, and grants Ashveil 1 Charge.
-若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于不死途攻击力100%的雷属性伤害，且不死途获得1点充能。
 
 ## Trace Bonuses
 
@@ -291,31 +287,31 @@ When entering combat via actively attacking a Dazed enemy, deals Lightning DMG t
 
 ### [[zh_cn/lightcone/巡猎/一场谎言的终幕.md|The Finale of a Lie]]
 
-- **基础属性**：生847 攻635 防529
-- **推荐度**：★★★★★
-- **技能名**：吞没
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。战斗开始时或装备者每累计施放4次追加攻击，使装备者获得【影噬】，持续3回合。当装备者持有【影噬】时，攻击力提高【40%/50%/60%/70%/80%】，并使敌方全体受到的伤害提高【20%/22.5%/25%/27.5%/30%】，同类效果无法叠加。
+- **Base Stats**：HP847 ATK635 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Subsume
+- **Effect**：Increases the wearer's CRIT Rate by 18%. At the start of battle or for every 4 instance(s) of Follow-Up ATK the wearer uses, the wearer gains "Umbra Devourer," lasting for 3 turn(s). While the wearer holds "Umbra Devourer," increases ATK by 40% and increases the DMG taken by all enemies by 20%. Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|Baptism of Pure Thought]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：思想训练
-- **效果**：使装备者的暴击伤害提高【20%/23%/26%/29%/32%】。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高【8%/9%/10%/11%/12%】，最多叠加3层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高【36%/42%/48%/54%/60%】，追加攻击无视目标【24%/28%/32%/36%/40%】的防御力，该效果持续2回合。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Mental Training
+- **Effect**：Increases the wearer's CRIT DMG by 20%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target additionally increases by 8%, stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the "Disputation" effect, which increases DMG dealt by 36% and enables their Follow-Up ATKs to ignore 24% of the target's DEF. This effect lasts for 2 turns.
 
 ### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：一个一个来
-- **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：One At A Time
+- **Effect**：Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ## Recommended Teams
 

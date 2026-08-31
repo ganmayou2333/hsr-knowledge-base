@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Direct Punch
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于卢卡___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Luka's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Luka's ATK to one designated enemy.
 
 ### Skill：Lacerating Fist
-- **类型**：Skill
-- **简述**：Deals Physical DMG to one enemy, with a high chance of causing Bleed.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy target. In addition, there is a #2[i]% base chance to inflict Bleed on them, lasting for #5[i] turn(s).
+- **Type**：Skill
+- **Summary**：Deals Physical DMG to one enemy, with a high chance of causing Bleed.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy target. In addition, there is a #2[i]% base chance to inflict Bleed on them, lasting for #5[i] turn(s).
 While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than #4[i]% of Luka's ATK.
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的#4[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 100% | 24% | 130% | 3 |
@@ -124,24 +124,24 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
   | Lv.14 | 144% | 100% | 24% | 405.6% | 3 |
   | Lv.15 | 150% | 100% | 24% | 422.5% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于卢卡___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「物理属性伤害，随后有___%的基础概率使目标」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`% → 参数4(%)：上下文「多不超过卢卡攻击力的___%。」
   - `#5[i]`回 → 参数5：上下文「标陷入裂伤状态，持续___回合。 裂伤状态下」
 
-- **满级效果**：Deals Physical DMG equal to 150% of Luka's ATK to one designated enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s).
+- **Max Effect**：Deals Physical DMG equal to 150% of Luka's ATK to one designated enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s).
 While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 422.5% of Luka's ATK.
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的422.5%。
 
 ### Ultimate：Coup de Grâce
-- **类型**：Ultimate
-- **简述**：Receives 2 stack(s) of "Fighting Will," with a high chance of increasing the one enemy's DMG received, and deals massive Physical DMG to the target.
-- **最大等级**：15
-- **效果模板**：Receives #5[i] stack(s) of "Fighting Will," with a #2[i]% base chance to increase one designated enemy target's DMG received by #3[f1]% for #4[i] turn(s). Then, deals Physical DMG equal to #1[i]% of Luka's ATK to the target.
+- **Type**：Ultimate
+- **Summary**：Receives 2 stack(s) of "Fighting Will," with a high chance of increasing the one enemy's DMG received, and deals massive Physical DMG to the target.
+- **Max Level**：15
+- **Effect Template**：Receives #5[i] stack(s) of "Fighting Will," with a #2[i]% base chance to increase one designated enemy target's DMG received by #3[f1]% for #4[i] turn(s). Then, deals Physical DMG equal to #1[i]% of Luka's ATK to the target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 198% | 100% | 12% | 3 | 2 |
@@ -160,24 +160,24 @@ While Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at t
   | Lv.14 | 382.8% | 100% | 23.2% | 3 | 2 |
   | Lv.15 | 396% | 100% | 24% | 3 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于卢卡___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「i]层【斗志】，并有___%的基础概率使指定」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`回 → 参数4：上下文「#3[f1]%，持续___回合，随后对该目标」
   - `#5[i]`层 → 参数5：上下文「获得___层【斗志】，并有#」
 
-- **满级效果**：Receives 2 stack(s) of "Fighting Will," with a 100% base chance to increase one designated enemy target's DMG received by #3[f1]% for 3 turn(s). Then, deals Physical DMG equal to 396% of Luka's ATK to the target.
+- **Max Effect**：Receives 2 stack(s) of "Fighting Will," with a 100% base chance to increase one designated enemy target's DMG received by #3[f1]% for 3 turn(s). Then, deals Physical DMG equal to 396% of Luka's ATK to the target.
 
 ### Talent：Flying Sparks
-- **类型**：Talent
-- **简述**：After using the Basic ATK "Direct Punch" or the Skill "Lacerating Fist," receives 1 stack of Fighting Will. When 2 or more stacks of Fighting Will are present, Basic ATK becomes Enhanced.
+- **Type**：Talent
+- **Summary**：After using the Basic ATK "Direct Punch" or the Skill "Lacerating Fist," receives 1 stack of Fighting Will. When 2 or more stacks of Fighting Will are present, Basic ATK becomes Enhanced.
 If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra DMG for 1 time.
 若敌方目标处于裂伤状态，则强化普攻使裂伤状态额外产生1次伤害。
-- **最大等级**：15
-- **效果模板**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives #1[i] stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to #2[i]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
+- **Max Level**：15
+- **Effect Template**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives #1[i] stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to #2[i]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 1 | 68% |
@@ -196,28 +196,28 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
   | Lv.14 | 1 | 91.8% |
   | Lv.15 | 1 | 93.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`层 → 参数1：上下文「技【裂伤拳】后，获得___层【斗志】，最多可」
   - `#2[i]`% → 参数2(%)：上下文「产生1次相当于原伤害___%的伤害。战斗开始」
 
-- **满级效果**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives 1 stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 93.5% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
+- **Max Effect**：After Luka uses his Basic ATK "Direct Punch" or Skill "Lacerating Fist," he receives 1 stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK "Direct Punch" is enhanced to "Sky-Shatter Fist." After his Enhanced Basic ATK's "Rising Uppercut" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 93.5% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.
 
 ### Technique：Anticipator
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Bleed to the target. Then, gains 1 stack of Fighting Will.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to #1[i]% of his ATK to a random single enemy with a #2[i]% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Bleed to the target. Then, gains 1 stack of Fighting Will.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to #1[i]% of his ATK to a random single enemy with a #2[i]% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 50% | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「机单体造成等同于卢卡___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「的物理属性伤害，并有___%的基础概率使目标」
 
-- **满级效果**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
+- **Max Effect**：Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.
 
 ## Trace Bonuses
 
@@ -278,45 +278,47 @@ If the enemy is Bleeding, the Enhanced Basic ATK will cause Bleed to deal extra 
 
 ### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：传承者
-- **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时,装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Inheritor
+- **Effect**：Increases the wearer's DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.
 
 ### [[zh_cn/lightcone/虚无/雨一直下.md|Incessant Rain]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：幻影现实
-- **效果**：使装备者的效果命中提高【24%/28%/32%/36%/40%】。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高【12%/14%/16%/18%/20%】。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高【12%/14%/16%/18%/20%】，持续1回合。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Mirage of Reality
+- **Effect**：Increases the wearer's Effect Hit Rate by 24%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by 12%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 1 base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12% increased DMG for 1 turn.
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ### [[zh_cn/lightcone/虚无/孤独的疗愈.md|Solitary Healing]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：混沌灵药
-- **效果**：使装备者的击破特攻提高【20%/25%/30%/35%/40%】。当装备者施放终结技时，使装备者造成的持续伤害提高【24%/30%/36%/42%/48%】，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复【4.0/4.5/5.0/5.5/6.0】点能量。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Chaos Elixir
+- **Effect**：Increases the wearer's Break Effect by 20%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates #4[f1] Energy for the wearer.
 
 ### [[zh_cn/lightcone/虚无/只需等待.md|Patience Is All You Need]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：蜘蛛的网
-- **效果**：使装备者造成的伤害提高【24%/28%/32%/36%/40%】。装备者每次施放攻击后，速度提高【4.8%/5.6%/6.4%/7.2%/8.0%】，最多叠加3层。 当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者【60%/70%/80%/90%/100%】攻击力的雷属性持续伤害，持续1回合。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Spider Web
+- **Effect**：Increases DMG dealt by the wearer by 24%. After every attack launched by wearer, their SPD increases by #3[f1]%, stacking up to 3 times.
+If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60% of the wearer's ATK, lasting for 1 turn(s).
+If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60% of the wearer's ATK, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：自信
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Self-Confidence
+- **Effect**：Increases the wearer's Effect Hit Rate by 20% and increases DoT by 24%.
 
 ## Recommended Teams
 

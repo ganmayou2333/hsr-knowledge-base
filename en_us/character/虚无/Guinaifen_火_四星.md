@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Standing Ovation
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Guinaifen's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Guinaifen's ATK to one designated enemy.
 
 ### Skill：Blazing Welcome
-- **类型**：Skill
-- **简述**：Deals Fire DMG to one enemy and minor Fire DMG to adjacent enemies, with a high chance of Burning them.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy and Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies, with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).
+- **Type**：Skill
+- **Summary**：Deals Fire DMG to one enemy and minor Fire DMG to adjacent enemies, with a high chance of Burning them.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy and Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies, with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 60% | 20% | 100% | 83.9% | 2 |
@@ -122,22 +122,22 @@
   | Lv.14 | 144% | 48% | 100% | 261.86% | 2 |
   | Lv.15 | 150% | 50% | 100% | 272.77% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
   - `#2[i]`% → 参数2(%)：上下文「目标造成等同于桂乃芬___%攻击力的火属性伤」
   - `#3[i]`% → 参数3(%)：上下文「击力的火属性伤害，有___%的基础概率使目标」
   - `#4[i]`% → 参数4(%)：上下文「始时受到等同于桂乃芬___%攻击力的火属性持」
   - `#5[i]`回 → 参数5：上下文「火属性持续伤害，持续___回合。」
 
-- **满级效果**：Deals Fire DMG equal to 150% of Guinaifen's ATK to one designated enemy and Fire DMG equal to 50% of Guinaifen's ATK to any adjacent enemies, with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 272.77% of Guinaifen's ATK at the beginning of each turn, lasting for 2 turn(s).
+- **Max Effect**：Deals Fire DMG equal to 150% of Guinaifen's ATK to one designated enemy and Fire DMG equal to 50% of Guinaifen's ATK to any adjacent enemies, with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 272.77% of Guinaifen's ATK at the beginning of each turn, lasting for 2 turn(s).
 
 ### Ultimate：Watch This Showstopper
-- **类型**：Ultimate
-- **简述**：Deals Fire DMG to all enemies. If the enemies are inflicted with Burn, the Burn status deals DMG 1 extra time.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to #2[i]% of their original DMG.
+- **Type**：Ultimate
+- **Summary**：Deals Fire DMG to all enemies. If the enemies are inflicted with Burn, the Burn status deals DMG 1 extra time.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to #2[i]% of their original DMG.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 72% | 72% |
@@ -156,19 +156,19 @@
   | Lv.14 | 1.392 | 100% |
   | Lv.15 | 1.44 | 102% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「立即产生相当于原伤害___%的伤害。」
 
-- **满级效果**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to 102% of their original DMG.
+- **Max Effect**：Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to 102% of their original DMG.
 
 ### Talent：PatrAeon Benefits
-- **类型**：Talent
-- **简述**：After the Burn status causes DMG on the enemy, there is a high chance of applying Firekiss to the enemy.
-- **最大等级**：15
-- **效果模板**：When Guinaifen is on the field, there is a #1[i]% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for #5[i] turn(s) and can stack up to #6[i] time(s).
+- **Type**：Talent
+- **Summary**：After the Burn status causes DMG on the enemy, there is a high chance of applying Firekiss to the enemy.
+- **Max Level**：15
+- **Effect Template**：When Guinaifen is on the field, there is a #1[i]% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for #5[i] turn(s) and can stack up to #6[i] time(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 0 | 0 | 4% | 3 | 3 |
@@ -187,7 +187,7 @@
   | Lv.14 | 100% | 0 | 0 | 8.2% | 3 | 3 |
   | Lv.15 | 100% | 0 | 0 | 8.5% | 3 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「烧状态触发伤害后，有___%的基础概率陷入【」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -195,25 +195,25 @@
   - `#5[i]`回 → 参数5：上下文「#4[f1]%，持续___回合，最多叠加#6」
   - `#6[i]`层 → 参数6：上下文「[i]回合，最多叠加___层。」
 
-- **满级效果**：When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).
+- **Max Effect**：When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).
 
 ### Technique：Skill Showcase
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor Fire DMG to one enemy target with a high chance of applying Firekiss, with a total of 4 Bounces.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor Fire DMG to one enemy target with a high chance of applying Firekiss, with a total of 4 Bounces.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 50% | 4 | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于桂乃芬___%攻击力的火属性伤」
   - `#2[i]`次 → 参数2：上下文「敌人，进入战斗后造成___次伤害，每次伤害对」
   - `#3[i]`% → 参数3(%)：上下文「击力的火属性伤害并有___%的基础概率使目标」
 
-- **满级效果**：Immediately attacks the enemy. After entering battle, deals DMG for 4 time(s), dealing Fire DMG equal to 50% of Guinaifen's ATK to a random single enemy target each time, with a 100% base chance of inflicting Firekiss on them.
+- **Max Effect**：Immediately attacks the enemy. After entering battle, deals DMG for 4 time(s), dealing Fire DMG equal to 50% of Guinaifen's ATK to a random single enemy target each time, with a 100% base chance of inflicting Firekiss on them.
 
 ## Trace Bonuses
 
@@ -274,24 +274,24 @@
 
 ### [[zh_cn/lightcone/虚无/猎物的视线.md|Eyes of the Prey]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：自信
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】，同时造成的持续伤害提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Self-Confidence
+- **Effect**：Increases the wearer's Effect Hit Rate by 20% and increases DoT by 24%.
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ### [[zh_cn/lightcone/虚无/孤独的疗愈.md|Solitary Healing]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：混沌灵药
-- **效果**：使装备者的击破特攻提高【20%/25%/30%/35%/40%】。当装备者施放终结技时，使装备者造成的持续伤害提高【24%/30%/36%/42%/48%】，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复【4.0/4.5/5.0/5.5/6.0】点能量。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Chaos Elixir
+- **Effect**：Increases the wearer's Break Effect by 20%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates #4[f1] Energy for the wearer.
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Make Some Noise
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于开拓者___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 140% of Trailblazer's ATK to one designated enemy.
+- **Max Effect**：Deals Lightning DMG equal to 140% of Trailblazer's ATK to one designated enemy.
 
 ### Skill：Let the Storm Rage On
-- **类型**：Skill
-- **简述**：Deals minor Lightning DMG to all enemies and gains "Certified Banger."
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of the Trailblazer's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
+- **Type**：Skill
+- **Summary**：Deals minor Lightning DMG to all enemies and gains "Certified Banger."
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of the Trailblazer's ATK to all enemies and gains #2[i] point(s) of "Certified Banger."
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 30% | 20 |
@@ -122,23 +122,23 @@
   | Lv.14 | 72% | 20 |
   | Lv.15 | 75% | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于开拓者___%攻击力的雷属性伤」
   - `#2[i]`点 → 参数2：上下文「力的雷属性伤害，获得___点【好活当赏】。」
 
-- **满级效果**：Deals Lightning DMG equal to 75% of the Trailblazer's ATK to all enemies and gains 20 point(s) of "Certified Banger."
+- **Max Effect**：Deals Lightning DMG equal to 75% of the Trailblazer's ATK to all enemies and gains 20 point(s) of "Certified Banger."
 
 ### Ultimate：May the Trailblaze Fly You Starward
-- **类型**：Ultimate
-- **简述**：Gains Punchline. Increases the CRIT DMG of one designated ally, and dispels Crowd Control debuffs on that target. If the target has Elation Skill, the target additionally gains "Certified Banger" and immediately uses their Elation Skill. Otherwise, their action advances.
-- **最大等级**：15
-- **效果模板**：Gains #6[i] Punchline point(s). Increases the CRIT DMG of one designated ally by #1[i]% for #2[i] turn(s), and dispels Crowd Control debuffs on them.
+- **Type**：Ultimate
+- **Summary**：Gains Punchline. Increases the CRIT DMG of one designated ally, and dispels Crowd Control debuffs on that target. If the target has Elation Skill, the target additionally gains "Certified Banger" and immediately uses their Elation Skill. Otherwise, their action advances.
+- **Max Level**：15
+- **Effect Template**：Gains #6[i] Punchline point(s). Increases the CRIT DMG of one designated ally by #1[i]% for #2[i] turn(s), and dispels Crowd Control debuffs on them.
 If the target has Elation Skill, they additionally gain #4[i] point(s) of "Certified Banger" and immediately use their Elation Skill 1 time, taking into account a fixed amount of #5[i] Punchline point(s). If the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target.
 If the target does not have Elation Skill, their action advances by #3[i]%.
 若目标拥有欢愉技，目标额外获得#4[i]点【好活当赏】，并使其立即施放1次固定计入#5[i]笑点的欢愉技，若欢愉技施放前敌方目标被消灭则对新入场的敌方目标发动欢愉技。
 若目标不拥有欢愉技，使其行动提前#3[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 30% | 3 | 50% | 10 | 20 | 5 |
@@ -157,7 +157,7 @@ If the target does not have Elation Skill, their action advances by #3[i]%.
   | Lv.14 | 58% | 3 | 50% | 10 | 20 | 5 |
   | Lv.15 | 60% | 3 | 50% | 10 | 20 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「我方单体暴击伤害提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合，并解除该目标」
   - `#3[i]`% → 参数3(%)：上下文「欢愉技，使其行动提前___%。」
@@ -165,23 +165,21 @@ If the target does not have Elation Skill, their action advances by #3[i]%.
   - `#5[i]`笑 → 参数5：上下文「立即施放1次固定计入___笑点的欢愉技，若欢」
   - `#6[i]`个 → 参数6：上下文「获得___个笑点，使指定我方」
 
-- **满级效果**：Gains 5 Punchline point(s). Increases the CRIT DMG of one designated ally by 60% for 3 turn(s), and dispels Crowd Control debuffs on them.
+- **Max Effect**：Gains 5 Punchline point(s). Increases the CRIT DMG of one designated ally by 60% for 3 turn(s), and dispels Crowd Control debuffs on them.
 If the target has Elation Skill, they additionally gain 10 point(s) of "Certified Banger" and immediately use their Elation Skill 1 time, taking into account a fixed amount of 20 Punchline point(s). If the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target.
 If the target does not have Elation Skill, their action advances by 50%.
-若目标拥有欢愉技，目标额外获得10点【好活当赏】，并使其立即施放1次固定计入20笑点的欢愉技，若欢愉技施放前敌方目标被消灭则对新入场的敌方目标发动欢愉技。
-若目标不拥有欢愉技，使其行动提前50%。
 
 ### Talent：That Smile Hits Different
-- **类型**：Talent
-- **简述**：After using an attack, regenerates Energy and gains Punchline.
+- **Type**：Talent
+- **Summary**：After using an attack, regenerates Energy and gains Punchline.
 When the Trailblazer holds "Certified Banger," their Skill additionally deals minor Lightning Elation DMG to all enemies.
 开拓者持有【好活当赏】时，战技对敌方全体额外造成少量雷属性欢愉伤害。
-- **最大等级**：15
-- **效果模板**：After using an attack, regenerates a fixed amount of #1[i] Energy and gains #2[i] Punchline point(s).
+- **Max Level**：15
+- **Effect Template**：After using an attack, regenerates a fixed amount of #1[i] Energy and gains #2[i] Punchline point(s).
 When the Trailblazer holds "Certified Banger," their Skill additionally deals #3[i]% Lightning Elation DMG to all enemies. This DMG is calculated using the highest "Certified Banger" value among all allies.
 开拓者持有【好活当赏】时，战技对敌方全体额外造成#3[i]%的雷属性欢愉伤害，此伤害使用我方最高的【好活当赏】数值计算。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 10 | 3 | 15% |
@@ -200,20 +198,19 @@ When the Trailblazer holds "Certified Banger," their Skill additionally deals #3
   | Lv.14 | 10 | 3 | 36% |
   | Lv.15 | 10 | 3 | 37.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「施放攻击后，固定恢复___点能量并获得#2[」
   - `#2[i]`个 → 参数2：上下文「1[i]点能量并获得___个笑点。 开拓者持」
   - `#3[i]`% → 参数3(%)：上下文「技对敌方全体额外造成___%的雷属性欢愉伤害」
 
-- **满级效果**：After using an attack, regenerates a fixed amount of 10 Energy and gains 3 Punchline point(s).
+- **Max Effect**：After using an attack, regenerates a fixed amount of 10 Energy and gains 3 Punchline point(s).
 When the Trailblazer holds "Certified Banger," their Skill additionally deals 37.5% Lightning Elation DMG to all enemies. This DMG is calculated using the highest "Certified Banger" value among all allies.
-开拓者持有【好活当赏】时，战技对敌方全体额外造成37.5%的雷属性欢愉伤害，此伤害使用我方最高的【好活当赏】数值计算。
 
 ### Technique：We Are So Back!
-- **类型**：Technique
-- **简述**：After using Technique, increases all allies' Elation when entering the next battle.
-- **最大等级**：1
-- **效果模板**：After using Technique, randomly gains 1 of the following effects:
+- **Type**：Technique
+- **Summary**：After using Technique, increases all allies' Elation when entering the next battle.
+- **Max Level**：1
+- **Effect Template**：After using Technique, randomly gains 1 of the following effects:
 A low chance to gain "Hearty Laughter": Increases Elation by #1[i]%.
 A high chance to gain "Irrepressible Laughter": Increases Elation by #3[i]%.
 When the next battle begins, increases all allies' Elation stat by the corresponding amount for #5[i] turn(s).
@@ -221,25 +218,22 @@ When the next battle begins, increases all allies' Elation stat by the correspon
 大概率获得【忍俊不禁】：欢愉度提高#3[i]%。
 下一次战斗开始时，使我方全体提高对应数值的欢愉度，持续#5[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 30% | 10% | 20% | 10% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「怀大笑】：欢愉度提高___%。 大概率获得【」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「俊不禁】：欢愉度提高___%。 下一次战斗开」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
   - `#5[i]`回 → 参数5：上下文「应数值的欢愉度，持续___回合。」
 
-- **满级效果**：After using Technique, randomly gains 1 of the following effects:
+- **Max Effect**：After using Technique, randomly gains 1 of the following effects:
 A low chance to gain "Hearty Laughter": Increases Elation by 30%.
 A high chance to gain "Irrepressible Laughter": Increases Elation by 20%.
 When the next battle begins, increases all allies' Elation stat by the corresponding amount for 3 turn(s).
-小概率获得【开怀大笑】：欢愉度提高30%。
-大概率获得【忍俊不禁】：欢愉度提高20%。
-下一次战斗开始时，使我方全体提高对应数值的欢愉度，持续3回合。
 
 ## Trace Bonuses
 
@@ -300,31 +294,33 @@ When the next battle begins, increases all allies' Elation stat by the correspon
 
 ### [[zh_cn/lightcone/欢愉/当她决定看见.md|When She Decided to See]]
 
-- **基础属性**：生1058 攻529 防529
-- **推荐度**：★★★★★
-- **技能名**：破局
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者进入战斗或对我方目标施放终结技时，使装备者获得【上上签】，持续3回合。当装备者持有【上上签】时，我方全体暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【30%/37.5%/45%/52.5%/60%】，装备者自身能量恢复效率提高【12%/14%/16%/18%/20%】。 每个波次开始时，装备者固定恢复15点能量。
+- **Base Stats**：HP1058 ATK529 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Game Changer
+- **Effect**：Increases the wearer's SPD by 18%. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains "Great Fortune" for 3 turn(s). While the wearer holds "Great Fortune," all allies' CRIT Rate increases by 10%, CRIT DMG increases by 30%, and the wearer's Energy Regeneration Rate increases by 12%.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
 
 ### [[zh_cn/lightcone/欢愉/欢愉满溢祝福.md|Elation Brimming With Blessings]]
 
-- **基础属性**：生953 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：开场
-- **效果**：使装备者的攻击力提高【20%/25%/30%/35%/40%】。当装备者对我方单体角色施放战技或终结技后，使目标欢愉度提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP953 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Opening
+- **Effect**：Increases the wearer's ATK by 20%. After the wearer uses Skill or Ultimate on one ally character, increases the target's Elation stat by 12% for 2 turn(s).
 
 ### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
 
-- **基础属性**：生847 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：乱斗
-- **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
+- **Base Stats**：HP847 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Rumble
+- **Effect**：Increases the wearer's Elation by 12%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by 6% for 2 turn(s).
 
 ### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
-- **基础属性**：生953 攻476 防331
-- **推荐度**：★★★★
-- **技能名**：同行
-- **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
+- **Base Stats**：HP953 ATK476 DEF331
+- **Rating**：★★★★
+- **Skill Name**：Companion
+- **Effect**：Increases the wearer's CRIT DMG by 12%. After the wearer uses their Ultimate, increases all allies' Elation by 8%, lasting for 1 turn(s).
 
 ## Recommended Teams
 

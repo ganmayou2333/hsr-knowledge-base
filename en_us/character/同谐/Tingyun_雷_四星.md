@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Dislodged
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Tingyun deals Lightning DMG equal to #1[i]% of her ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Tingyun deals Lightning DMG equal to #1[i]% of her ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,22 +92,22 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于停云___%攻击力的雷属性伤」
 
-- **满级效果**：Tingyun deals Lightning DMG equal to 140% of her ATK to one designated enemy.
+- **Max Effect**：Tingyun deals Lightning DMG equal to 140% of her ATK to one designated enemy.
 
 ### Skill：Soothing Melody
-- **类型**：Skill
-- **简述**：Increases the ATK of a single ally and grants them Benediction. Ally with Benediction additionally deals minor Lightning Additional DMG when attacking.
-- **最大等级**：15
-- **效果模板**：Grants a single ally with Benediction to increase their ATK by #2[i]%, up to #4[i]% of Tingyun's current ATK.
+- **Type**：Skill
+- **Summary**：Increases the ATK of a single ally and grants them Benediction. Ally with Benediction additionally deals minor Lightning Additional DMG when attacking.
+- **Max Level**：15
+- **Effect Template**：Grants a single ally with Benediction to increase their ATK by #2[i]%, up to #4[i]% of Tingyun's current ATK.
 When the ally with Benediction attacks, they will deal Lightning Additional DMG equal to #1[i]% of that ally's ATK for 1 time.
 Benediction lasts for #3[i] turn(s) and is only effective on the most recent receiver of Tingyun's Skill.
 获得【赐福】的目标施放攻击后，会额外造成1次等同于其自身#1[i]%攻击力的雷属性附加伤害。
 【赐福】持续#3[i]回合且仅对停云战技最新的施放目标生效。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 20% | 25% | 3 | 15% |
@@ -126,25 +126,23 @@ Benediction lasts for #3[i] turn(s) and is only effective on the most recent rec
   | Lv.14 | 48% | 60% | 3 | 29% |
   | Lv.15 | 50% | 62.5% | 3 | 30% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成1次等同于其自身___%攻击力的雷属性附」
   - `#2[i]`% → 参数2(%)：上下文「福】，使其攻击力提高___%，最高不超过停云」
   - `#3[i]`回 → 参数3：上下文「伤害。 【赐福】持续___回合且仅对停云战技」
   - `#4[i]`% → 参数4(%)：上下文「超过停云当前攻击力的___%。 获得【赐福】」
 
-- **满级效果**：Grants a single ally with Benediction to increase their ATK by 62.5%, up to 30% of Tingyun's current ATK.
+- **Max Effect**：Grants a single ally with Benediction to increase their ATK by 62.5%, up to 30% of Tingyun's current ATK.
 When the ally with Benediction attacks, they will deal Lightning Additional DMG equal to 50% of that ally's ATK for 1 time.
 Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.
-获得【赐福】的目标施放攻击后，会额外造成1次等同于其自身50%攻击力的雷属性附加伤害。
-【赐福】持续3回合且仅对停云战技最新的施放目标生效。
 
 ### Ultimate：Amidst the Rejoicing Clouds
-- **类型**：Ultimate
-- **简述**：Regenerates a target ally's Energy and increases their DMG dealt.
-- **最大等级**：15
-- **效果模板**：Regenerates #1[i] Energy for a single ally and increases the target's DMG by #3[i]% for #2[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Regenerates a target ally's Energy and increases their DMG dealt.
+- **Max Level**：15
+- **Effect Template**：Regenerates #1[i] Energy for a single ally and increases the target's DMG by #3[i]% for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 50 | 2 | 20% |
@@ -163,20 +161,20 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
   | Lv.14 | 50 | 2 | 62% |
   | Lv.15 | 50 | 2 | 65% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「为指定我方单体恢复___点能量，同时使目标」
   - `#2[i]`回 → 参数2：上下文「高#3[i]%，持续___回合。」
   - `#3[i]`% → 参数3(%)：上下文「使目标造成的伤害提高___%，持续#2[i]」
 
-- **满级效果**：Regenerates 50 Energy for a single ally and increases the target's DMG by 65% for 2 turn(s).
+- **Max Effect**：Regenerates 50 Energy for a single ally and increases the target's DMG by 65% for 2 turn(s).
 
 ### Talent：Violet Sparknado
-- **类型**：Talent
-- **简述**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals minor Lightning Additional DMG to the same enemy.
-- **最大等级**：15
-- **效果模板**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to #1[i]% of that ally's ATK to the same enemy.
+- **Type**：Talent
+- **Summary**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals minor Lightning Additional DMG to the same enemy.
+- **Max Level**：15
+- **Effect Template**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to #1[i]% of that ally's ATK to the same enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 30% |
@@ -195,26 +193,26 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
   | Lv.14 | 72% |
   | Lv.15 | 75% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「即对其造成等同于自身___%攻击力的雷属性附」
 
-- **满级效果**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to 75% of that ally's ATK to the same enemy.
+- **Max Effect**：When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to 75% of that ally's ATK to the same enemy.
 
 ### Technique：Gentle Breeze
-- **类型**：Technique
-- **简述**：After using this Technique, this character immediately regenerates Energy for themselves.
-- **最大等级**：1
-- **效果模板**：Tingyun immediately regenerates #1[i] Energy upon using her Technique.
+- **Type**：Technique
+- **Summary**：After using this Technique, this character immediately regenerates Energy for themselves.
+- **Max Level**：1
+- **Effect Template**：Tingyun immediately regenerates #1[i] Energy upon using her Technique.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 50 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「秘技后立即为自身恢复___点能量。」
 
-- **满级效果**：Tingyun immediately regenerates 50 Energy upon using her Technique.
+- **Max Effect**：Tingyun immediately regenerates 50 Energy upon using her Technique.
 
 ## Trace Bonuses
 
@@ -275,38 +273,38 @@ Benediction lasts for 3 turn(s) and is only effective on the most recent receive
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/镂月裁云之意.md|Carve the Moon, Weave the Clouds]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：秘密
-- **效果**：在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：使我方全体攻击力提高【10%/12%/15%/17%/20%】；使我方全体暴击伤害提高【12%/15%/18%/21%/24%】；使我方全体能量恢复效率提高【6%/7%/9%/10%/12%】。同类效果无法叠加,在装备者陷入无法战斗状态时解除。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Secret
+- **Effect**：At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by 10%, all allies' CRIT DMG increases by 12%, or all allies' Energy Regeneration Rate increases by 6%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the same type cannot be stacked.
 
 ### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：启程
-- **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Departure
+- **Effect**：After entering battle, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%.
 
 ### [[zh_cn/lightcone/同谐/记忆中的模样.md|Memories of the Past]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：老相片
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放攻击后，额外恢复【4/5/6/7/8】点能量，该效果单个回合内不可重复触发。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Old Photo
+- **Effect**：Increases the wearer's Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ## Recommended Teams
 

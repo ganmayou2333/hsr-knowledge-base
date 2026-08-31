@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：The Sea Sings in My Key
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Robin • Summeretto's Max HP to one enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Robin • Summeretto's Max HP to one enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -92,18 +92,18 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于知更鸟•晴歌___%生命上限的风属性」
 
-- **满级效果**：Deals Wind DMG equal to 70% of Robin • Summeretto's Max HP to one enemy.
+- **Max Effect**：Deals Wind DMG equal to 70% of Robin • Summeretto's Max HP to one enemy.
 
 ### Skill：Summer Strums the Soul
-- **类型**：Skill
-- **简述**：Summons memosprite "Summer Songbirds" Bessie. If "Summer Songbirds" is already on the field, restores HP for "Summer Songbirds" and gains Vibes.
-- **最大等级**：15
-- **效果模板**：Summons the memosprite "Summer Songbirds" Bessie. If any member of the "Summer Songbirds" is already on the field, restores their HP by an amount equal to #1[i]% of "Summer Songbirds'" Max HP, and gains #2[i] Vibes.
+- **Type**：Skill
+- **Summary**：Summons memosprite "Summer Songbirds" Bessie. If "Summer Songbirds" is already on the field, restores HP for "Summer Songbirds" and gains Vibes.
+- **Max Level**：15
+- **Effect Template**：Summons the memosprite "Summer Songbirds" Bessie. If any member of the "Summer Songbirds" is already on the field, restores their HP by an amount equal to #1[i]% of "Summer Songbirds'" Max HP, and gains #2[i] Vibes.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 6 |
@@ -122,19 +122,19 @@
   | Lv.14 | 120% | 6 |
   | Lv.15 | 125% | 6 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「「晴空乐手」生命上限___%的生命值，并获得」
   - `#2[i]`点 → 参数2：上下文「]%的生命值，并获得___点气氛值。」
 
-- **满级效果**：Summons the memosprite "Summer Songbirds" Bessie. If any member of the "Summer Songbirds" is already on the field, restores their HP by an amount equal to 125% of "Summer Songbirds'" Max HP, and gains 6 Vibes.
+- **Max Effect**：Summons the memosprite "Summer Songbirds" Bessie. If any member of the "Summer Songbirds" is already on the field, restores their HP by an amount equal to 125% of "Summer Songbirds'" Max HP, and gains 6 Vibes.
 
 ### Ultimate：Ascend That Rhapsody in Blue
-- **类型**：Ultimate
-- **简述**：Advances the action of one designated ally character (excluding Robin • Summeretto) and regenerates Energy. Then, grants them the "Special Guest" effect. When this character or their summon attacks, they additionally grant Robin • Summeretto Vibes, but cannot make other friendly targets gain the action advance effect.
-- **最大等级**：15
-- **效果模板**：Advances the action of one designated ally character (excluding Robin • Summeretto) by #1[i]% and regenerates a fixed amount of Energy equal to #3[f1]% of their Max Energy. Then, grants them the "Special Guest" effect. When the "Special Guest" character or their summon attacks, they additionally grant Robin • Summeretto #2[i] Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.
+- **Type**：Ultimate
+- **Summary**：Advances the action of one designated ally character (excluding Robin • Summeretto) and regenerates Energy. Then, grants them the "Special Guest" effect. When this character or their summon attacks, they additionally grant Robin • Summeretto Vibes, but cannot make other friendly targets gain the action advance effect.
+- **Max Level**：15
+- **Effect Template**：Advances the action of one designated ally character (excluding Robin • Summeretto) by #1[i]% and regenerates a fixed amount of Energy equal to #3[f1]% of their Max Energy. Then, grants them the "Special Guest" effect. When the "Special Guest" character or their summon attacks, they additionally grant Robin • Summeretto #2[i] Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 2 | 12% | 0 |
@@ -153,25 +153,25 @@
   | Lv.14 | 100% | 2 | 23.2% | 0 |
   | Lv.15 | 100% | 2 | 24% | 0 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「我方单体角色行动提前___%并固定恢复等同于」
   - `#2[i]`点 → 参数2：上下文「外使知更鸟•晴歌获得___点气氛值，且无法使」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Advances the action of one designated ally character (excluding Robin • Summeretto) by 100% and regenerates a fixed amount of Energy equal to #3[f1]% of their Max Energy. Then, grants them the "Special Guest" effect. When the "Special Guest" character or their summon attacks, they additionally grant Robin • Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.
+- **Max Effect**：Advances the action of one designated ally character (excluding Robin • Summeretto) by 100% and regenerates a fixed amount of Energy equal to #3[f1]% of their Max Energy. Then, grants them the "Special Guest" effect. When the "Special Guest" character or their summon attacks, they additionally grant Robin • Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.
 
 ### Talent：Wings Heed No Borders
-- **类型**：Talent
-- **简述**：When an ally target uses an attack, or provides healing or Shield, Robin • Summeretto gains Vibes. Once Vibes reaches a certain value, summons "Summer Songbirds" Drummie and "Summer Songbirds" Paddie respectively. After all "Summer Songbirds" take the stage, Robin • Summeretto and the "Summer Songbirds" enter the "Fever" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore a portion of enemy targets' DEF.
+- **Type**：Talent
+- **Summary**：When an ally target uses an attack, or provides healing or Shield, Robin • Summeretto gains Vibes. Once Vibes reaches a certain value, summons "Summer Songbirds" Drummie and "Summer Songbirds" Paddie respectively. After all "Summer Songbirds" take the stage, Robin • Summeretto and the "Summer Songbirds" enter the "Fever" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore a portion of enemy targets' DEF.
 While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are immune to Crowd Control debuffs. Robin • Summeretto will not enter her turn until the "Fever" state ends.
 处于【Fever】状态时，知更鸟•晴歌与「晴空乐手」免疫控制类负面状态，【Fever】状态结束前知更鸟•晴歌不会进入自己的回合。
-- **最大等级**：15
-- **效果模板**：Memosprite "Summer Songbirds" has an initial Max HP equal to #1[i]% of Robin • Summeretto's Max HP and an initial SPD equal to #2[i]% of Robin • Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin • Summeretto gains Vibes by 1 point, capped at #5[i]. While "Summer Songbirds" Bessie is on the field, if Robin • Summeretto's Vibes is #6[i] or higher, immediately summons "Summer Songbirds" Drummie, and if Vibes is #7[i] or higher, immediately summons "Summer Songbirds" Paddie. When all "Summer Songbirds" take the stage, dispels all Crowd Control debuffs inflicted upon Robin • Summeretto and the "Summer Songbirds", starts the "Fever" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (#8[f1]% + Vibes × #9[f1]%).
+- **Max Level**：15
+- **Effect Template**：Memosprite "Summer Songbirds" has an initial Max HP equal to #1[i]% of Robin • Summeretto's Max HP and an initial SPD equal to #2[i]% of Robin • Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin • Summeretto gains Vibes by 1 point, capped at #5[i]. While "Summer Songbirds" Bessie is on the field, if Robin • Summeretto's Vibes is #6[i] or higher, immediately summons "Summer Songbirds" Drummie, and if Vibes is #7[i] or higher, immediately summons "Summer Songbirds" Paddie. When all "Summer Songbirds" take the stage, dispels all Crowd Control debuffs inflicted upon Robin • Summeretto and the "Summer Songbirds", starts the "Fever" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (#8[f1]% + Vibes × #9[f1]%).
 While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are immune to Crowd Control debuffs. Robin • Summeretto will not enter her turn until the "Fever" state ends.
 处于【Fever】状态时，知更鸟•晴歌与「晴空乐手」免疫控制类负面状态，【Fever】状态结束前知更鸟•晴歌不会进入自己的回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 | 参数8 | 参数9 |
   |---|---|---|---|---|---|---|---|---|---|
   | Lv.1 | 70% | 180% | 0 | 0 | 50 | 6 | 12 | 10% | 0.5% |
@@ -190,7 +190,7 @@ While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are 
   | Lv.14 | 70% | 180% | 0 | 0 | 50 | 6 | 12 | 17% | 0.5% |
   | Lv.15 | 70% | 180% | 0 | 0 | 50 | 6 | 12 | 17.5% | 0.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「有等同于知更鸟•晴歌___%生命上限的生命上」
   - `#2[i]`% → 参数2(%)：上下文「和等同于知更鸟•晴歌___%速度的速度。我方」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -201,27 +201,27 @@ While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are 
   - 参数8：效果模板中无对应 `#8[i]` 占位符（预留参数/其他属性）
   - 参数9：效果模板中无对应 `#9[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Memosprite "Summer Songbirds" has an initial Max HP equal to 70% of Robin • Summeretto's Max HP and an initial SPD equal to 180% of Robin • Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin • Summeretto gains Vibes by 1 point, capped at 50. While "Summer Songbirds" Bessie is on the field, if Robin • Summeretto's Vibes is 6 or higher, immediately summons "Summer Songbirds" Drummie, and if Vibes is 12 or higher, immediately summons "Summer Songbirds" Paddie. When all "Summer Songbirds" take the stage, dispels all Crowd Control debuffs inflicted upon Robin • Summeretto and the "Summer Songbirds", starts the "Fever" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (#8[f1]% + Vibes × #9[f1]%).
+- **Max Effect**：Memosprite "Summer Songbirds" has an initial Max HP equal to 70% of Robin • Summeretto's Max HP and an initial SPD equal to 180% of Robin • Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin • Summeretto gains Vibes by 1 point, capped at 50. While "Summer Songbirds" Bessie is on the field, if Robin • Summeretto's Vibes is 6 or higher, immediately summons "Summer Songbirds" Drummie, and if Vibes is 12 or higher, immediately summons "Summer Songbirds" Paddie. When all "Summer Songbirds" take the stage, dispels all Crowd Control debuffs inflicted upon Robin • Summeretto and the "Summer Songbirds", starts the "Fever" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (#8[f1]% + Vibes × #9[f1]%).
 While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are immune to Crowd Control debuffs. Robin • Summeretto will not enter her turn until the "Fever" state ends.
 处于【Fever】状态时，知更鸟•晴歌与「晴空乐手」免疫控制类负面状态，【Fever】状态结束前知更鸟•晴歌不会进入自己的回合。
 
 ### Technique：We Are the Melody
-- **类型**：Technique
-- **简述**：Upon entering combat, advances action, immediately gains Vibes, and increases all allies' DMG dealt.
-- **最大等级**：1
-- **效果模板**：After using Technique, advances action by #3[i]% at the start of the next battle, immediately gains #1[i] Vibes, and increases all allies' DMG dealt by #2[i]%, lasting for 2 turn(s).
+- **Type**：Technique
+- **Summary**：Upon entering combat, advances action, immediately gains Vibes, and increases all allies' DMG dealt.
+- **Max Level**：1
+- **Effect Template**：After using Technique, advances action by #3[i]% at the start of the next battle, immediately gains #1[i] Vibes, and increases all allies' DMG dealt by #2[i]%, lasting for 2 turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 6 | 30% | 20% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「3[i]%，立即获得___点气氛值，并使我方」
   - `#2[i]`% → 参数2(%)：上下文「方全体造成的伤害提高___%，持续2回合。」
   - `#3[i]`% → 参数3(%)：上下文「次战斗开始时行动提前___%，立即获得#1[」
 
-- **满级效果**：After using Technique, advances action by 20% at the start of the next battle, immediately gains 6 Vibes, and increases all allies' DMG dealt by 30%, lasting for 2 turn(s).
+- **Max Effect**：After using Technique, advances action by 20% at the start of the next battle, immediately gains 6 Vibes, and increases all allies' DMG dealt by 30%, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -282,38 +282,40 @@ While in the "Fever" state, Robin • Summeretto and the "Summer Songbirds" are 
 
 ### [[zh_cn/lightcone/记忆/你将起身歌唱.md|Rise and Sing]]
 
-- **基础属性**：生1164 攻582 防397
-- **推荐度**：★★★★★
-- **技能名**：即兴
-- **效果**：使装备者的生命上限提高【30%/38%/45%/53%/60%】，装备者施放终结技后，为我方恢复1个战技点。进入战斗时，使装备者的行动提前【30%/33%/35%/38%/40%】，并使装备者获得【新声】，持续2回合。装备者持有【新声】时，我方整体速度提高【20%/25%/30%/35%/40%】。
+- **Base Stats**：HP1164 ATK582 DEF397
+- **Rating**：★★★★★
+- **Skill Name**：Improvisation
+- **Effect**：Increases the wearer's Max HP by 30%. After the wearer uses Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by 30% and grants the wearer "New Melody," lasting for 2 turn(s). While the wearer holds "New Melody," all allies' SPD increases by 20%.
 
 ### [[zh_cn/lightcone/记忆/致长夜的星光.md|To Evernight's Stars]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：未眠
-- **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】。装备者的忆灵施放技能时，使装备者获得【夜色】。装备者持有【夜色】时，我方全体忆灵造成的伤害无视目标【20%/22.5%/25%/27.5%/30%】的防御力，装备者和装备者忆灵造成的伤害提高【30%/37.5%/45%/52.5%/60%】，装备者的忆灵消失时为装备者恢复【8/10/12/14/16】点能量，同类效果无法叠加。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Sleepless
+- **Effect**：Increases the wearer's Max HP by 30%. When the wearer's memosprite uses an ability, the wearer gains "Noctis." While the wearer has "Noctis," the DMG dealt by all ally memosprites ignores 20% of the targets' DEF. Increases the DMG dealt by the wearer and their memosprite by 30%. When the wearer's memosprite disappears, the wearer recovers 8 Energy. Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/记忆/愿虹光永驻天空.md|Long May Rainbows Adorn the Sky]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★
-- **技能名**：包容
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者施放普攻、战技和终结技时消耗我方全体等同于当前生命值【1%/1.25%/1.5%/1.75%/2%】的生命值并使装备者的忆灵下一次攻击后额外对攻击目标造成1次等同于【250%/312.5%/375%/437.5%/500%】生命值消耗总量的基于装备者的忆灵属性的附加伤害，随后清空生命值消耗总量。装备者的忆灵施放忆灵技时，使敌方全体受到的伤害提高【18%/22.5%/27%/31.5%/36%】，持续2回合。同类效果无法叠加。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Tolerant
+- **Effect**：Increases the wearer's SPD by 18%. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to #2[f1]% of their current HP, and after the next attack of the wearer's memosprite, enables it to additionally deal 1 instance of Additional DMG equal to #6[f1]% of the total consumed HP to the attacked target, with the damage type based on the memosprite's type. Then, the total consumed HP is reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by #4[f1]%, lasting for 2 turn(s). Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/记忆/让告别，更美一些.md|Make Farewells More Beautiful]]
 
-- **基础属性**：生1270 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：铭刻
-- **效果**：使装备者的生命上限提高【30%/37.5%/45%/52.5%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。 当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次，装备者每次施放终结技时重置触发次数。
+- **Base Stats**：HP1270 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Engrave
+- **Effect**：Increases the wearer's Max HP by 30%. When the wearer or their memosprite loses HP during their own turn, the wearer gains "Death Flower." "Death Flower" allows the wearer and their memosprite to ignore 30% of the target's DEF when dealing DMG, lasting for 2 turn(s).
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
 
 ### [[zh_cn/lightcone/记忆/故事的下一页.md|The Story's Next Page]]
 
-- **基础属性**：生1058 攻370 防396
-- **推荐度**：★★★★
-- **技能名**：书写
-- **效果**：使装备者的生命上限提高【16%/20%/24%/28%/32%】。装备者的忆灵攻击后，使装备者与忆灵的治疗量提高 【12%/15%/18%/21%/24%】，持续1回合。
+- **Base Stats**：HP1058 ATK370 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Written Down
+- **Effect**：Increases the wearer's Max HP by 16%. After the wearer's memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by 12%, lasting for 1 turn(s).
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Glistening Light
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Jing Yuan deals Lightning DMG equal to #1[i]% of his ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Jing Yuan deals Lightning DMG equal to #1[i]% of his ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于景元___%攻击力的雷属性伤」
 
-- **满级效果**：Jing Yuan deals Lightning DMG equal to 140% of his ATK to one designated enemy.
+- **Max Effect**：Jing Yuan deals Lightning DMG equal to 140% of his ATK to one designated enemy.
 
 ### Skill：Rifting Zenith
-- **类型**：Skill
-- **简述**：Deals minor Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
+- **Type**：Skill
+- **Summary**：Deals minor Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 2 |
@@ -122,19 +122,19 @@
   | Lv.14 | 120% | 2 |
   | Lv.15 | 125% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于景元___%攻击力的雷属性伤」
   - `#2[i]`段 → 参数2：上下文「雷属性伤害，同时增加___段【神君】下回合的」
 
-- **满级效果**：Deals Lightning DMG equal to 125% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.
+- **Max Effect**：Deals Lightning DMG equal to 125% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.
 
 ### Ultimate：Lightbringer
-- **类型**：Ultimate
-- **简述**：Deals Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
+- **Type**：Ultimate
+- **Summary**：Deals Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 120% | 3 |
@@ -153,25 +153,23 @@
   | Lv.14 | 232% | 3 |
   | Lv.15 | 240% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于景元___%攻击力的雷属性伤」
   - `#2[i]`段 → 参数2：上下文「雷属性伤害。同时增加___段【神君】下回合的」
 
-- **满级效果**：Deals Lightning DMG equal to 240% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.
+- **Max Effect**：Deals Lightning DMG equal to 240% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.
 
 ### Talent：Prana Extirpated
-- **类型**：Talent
-- **简述**：At the start of the battle, summons "Lightning-Lord." When "Lightning-Lord" takes action, launches Follow-Up ATK to automatically deal minor Lightning DMG to one random enemy and adjacent targets.
-- **最大等级**：15
-- **效果模板**：Summons "Lightning-Lord" at the start of the battle. "Lightning-Lord" has #1[i] base SPD and #4[i] base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to #2[i]% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to #5[i]% of the DMG dealt to the primary target enemy.
+- **Type**：Talent
+- **Summary**：At the start of the battle, summons "Lightning-Lord." When "Lightning-Lord" takes action, launches Follow-Up ATK to automatically deal minor Lightning DMG to one random enemy and adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Summons "Lightning-Lord" at the start of the battle. "Lightning-Lord" has #1[i] base SPD and #4[i] base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to #2[i]% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to #5[i]% of the DMG dealt to the primary target enemy.
 The Lightning-Lord's Hits Per Action can reach a max of #6[i]. Every time "Lightning-Lord's" Hits Per Action increases by 1, its SPD increases by #3[i]. After the "Lightning-Lord's" action ends, its SPD and Hits Per Action return to their base values.
 When Jing Yuan is knocked down, the "Lightning-Lord" will disappear.
 When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unable to take action.
 【神君】最多累计#6[i]段攻击段数且每增加1段攻击段数，速度提高#3[i]点，行动结束后速度和攻击段数恢复至初始状态。
-当景元陷入无法战斗状态时【神君】消失。
-当景元受到控制类负面状态影响时【神君】也无法行动。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60 | 33% | 10 | 3 | 25% | 10 |
@@ -190,7 +188,7 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
   | Lv.14 | 60 | 79.2% | 10 | 3 | 25% | 10 |
   | Lv.15 | 60 | 82.5% | 10 | 3 | 25% | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「】。【神君】初始拥有___点速度以及#4[i」
   - `#2[i]`% → 参数2(%)：上下文「造成等同于景元攻击力___%的雷属性伤害，同」
   - `#3[i]`点 → 参数3：上下文「段攻击段数，速度提高___点，行动结束后速度」
@@ -198,29 +196,26 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
   - `#5[i]`% → 参数5(%)：上下文「目标造成等同于主目标___%的雷属性伤害。」
   - `#6[i]`段 → 参数6：上下文「。 【神君】最多累计___段攻击段数且每增加」
 
-- **满级效果**：Summons "Lightning-Lord" at the start of the battle. "Lightning-Lord" has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to 82.5% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy.
+- **Max Effect**：Summons "Lightning-Lord" at the start of the battle. "Lightning-Lord" has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to 82.5% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy.
 The Lightning-Lord's Hits Per Action can reach a max of 10. Every time "Lightning-Lord's" Hits Per Action increases by 1, its SPD increases by 10. After the "Lightning-Lord's" action ends, its SPD and Hits Per Action return to their base values.
 When Jing Yuan is knocked down, the "Lightning-Lord" will disappear.
 When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unable to take action.
-【神君】最多累计10段攻击段数且每增加1段攻击段数，速度提高10点，行动结束后速度和攻击段数恢复至初始状态。
-当景元陷入无法战斗状态时【神君】消失。
-当景元受到控制类负面状态影响时【神君】也无法行动。
 
 ### Technique：Spiritus Invocation
-- **类型**：Technique
-- **简述**：After using Technique, for the next battle, increases Lightning-Lord's Hits Per Action.
-- **最大等级**：1
-- **效果模板**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by #1[i] at the start of the next battle.
+- **Type**：Technique
+- **Summary**：After using Technique, for the next battle, increases Lightning-Lord's Hits Per Action.
+- **Max Level**：1
+- **Effect Template**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by #1[i] at the start of the next battle.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`段 → 参数1：上下文「1回合的攻击段数增加___段。」
 
-- **满级效果**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle.
+- **Max Effect**：After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle.
 
 ## Trace Bonuses
 
@@ -281,31 +276,31 @@ When Jing Yuan is affected by Crowd Control debuff, the "Lightning-Lord" is unab
 
 ### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：长夜
-- **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后,获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Long Night
+- **Effect**：Increases the wearer's CRIT DMG by 36%. Increases DMG dealt by the wearer's Skill and Ultimate by 18%. After the wearer uses Skill or Ultimate, gains "Somnus Corpus." Upon triggering a Follow-Up ATK, consumes "Somnus Corpus," and increases DMG dealt by Follow-Up ATK by 48%.
 
 ### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
-- **基础属性**：生846 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：风雨将至
-- **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
+- **Base Stats**：HP846 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：A Storm Is Coming
+- **Effect**：After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
 ### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★
-- **技能名**：流星群
-- **效果**：场上每有1个敌方目标，使装备者的攻击力提高【9.0%/10.5%/12.0%/13.5%/15.0%】，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Meteor Swarm
+- **Effect**：For every enemy on the field, increases the wearer's ATK by #2[f1]%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.
 
 ### [[zh_cn/lightcone/智识/「我」的诞生.md|The Birth of the Self]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：画像少女
-- **效果**：使装备者追加攻击造成的伤害提高【24%/30%/36%/42%/48%】。若该敌方目标当前生命值百分比小于等于50%，则追加攻击造成的伤害额外提高【24%/30%/36%/42%/48%】。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：The Maiden in the Painting
+- **Effect**：Increases DMG dealt by the wearer's Follow-Up ATKs by 24%. If the current HP percentage of the enemy target is below or equal to 50%, increases DMG dealt by Follow-Up ATKs by an extra 24%.
 
 ## Recommended Teams
 

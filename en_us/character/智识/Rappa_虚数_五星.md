@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Ninjutsu: Rise Above Tumbles
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于乱破___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of Rappa's ATK to one designated enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Rappa's ATK to one designated enemy.
 
 ### Skill：Ninja Strike: Rooted Resolute
-- **类型**：Skill
-- **简述**：Deals Imaginary DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to all enemies.
+- **Type**：Skill
+- **Summary**：Deals Imaginary DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 60% |
@@ -122,22 +122,21 @@
   | Lv.14 | 144% |
   | Lv.15 | 150% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于乱破___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 150% of Rappa's ATK to all enemies.
+- **Max Effect**：Deals Imaginary DMG equal to 150% of Rappa's ATK to all enemies.
 
 ### Ultimate：Nindō Supreme: Aishiteru
-- **类型**：Ultimate
-- **简述**：Enters the "Sealform" state, gains an extra turn, obtains 3 points of "Chroma Ink," and increases Weakness Break Efficiency and Break Effect.
+- **Type**：Ultimate
+- **Summary**：Enters the "Sealform" state, gains an extra turn, obtains 3 points of "Chroma Ink," and increases Weakness Break Efficiency and Break Effect.
 While in the "Sealform" state, gains Enhanced Basic ATK. After using Enhanced Basic ATK, consumes 1 point of "Chroma Ink." When "Chroma Ink" is depleted, exits the "Sealform" state.
 【结印】状态下获得强化普攻，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。
-- **最大等级**：15
-- **效果模板**：Enters the "Sealform" state, immediately gains 1 extra turn, obtains #3[i] points of "Chroma Ink," and increases Weakness Break Efficiency by #1[i]% and Break Effect by #2[i]%.
+- **Max Level**：15
+- **Effect Template**：Enters the "Sealform" state, immediately gains 1 extra turn, obtains #3[i] points of "Chroma Ink," and increases Weakness Break Efficiency by #1[i]% and Break Effect by #2[i]%.
 While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of "Chroma Ink." When "Chroma Ink" is depleted, exits the "Sealform" state.
-【结印】状态下普攻获得强化且无法施放战技和终结技，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 50% | 10% | 3 |
@@ -156,24 +155,22 @@ While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate can
   | Lv.14 | 50% | 38% | 3 |
   | Lv.15 | 50% | 40% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「同时弱点击破效率提高___%，击破特攻提高#」
   - `#2[i]`% → 参数2(%)：上下文「i]%，击破特攻提高___%。 【结印】状态」
   - `#3[i]`点 → 参数3：上下文「得1个额外回合并获得___点【彩墨】，同时弱」
 
-- **满级效果**：Enters the "Sealform" state, immediately gains 1 extra turn, obtains 3 points of "Chroma Ink," and increases Weakness Break Efficiency by 50% and Break Effect by 40%.
+- **Max Effect**：Enters the "Sealform" state, immediately gains 1 extra turn, obtains 3 points of "Chroma Ink," and increases Weakness Break Efficiency by 50% and Break Effect by 40%.
 While in the "Sealform" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of "Chroma Ink." When "Chroma Ink" is depleted, exits the "Sealform" state.
-【结印】状态下普攻获得强化且无法施放战技和终结技，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。
 
 ### Talent：Ninja Tech: Endurance Gauge
-- **类型**：Talent
-- **简述**：When the enemy target is Weakness Broken, Rappa gains 1 point of Charge. When launching the third hit of "Ningu: Demonbane Petalblade," additionally deals Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce Toughness and consume all Charge, increasing the Break DMG multiplier and Toughness Reduction.
-- **最大等级**：15
-- **效果模板**：Each time the enemy target is Weakness Broken, Rappa gains 1 point of Charge, up to a max of #1[i] points of Charge. When Rappa next launches the third hit of "Ningu: Demonbane Petalblade," additionally deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce #4[i] Toughness, consuming all Charge. Each point of Charge increases the Break DMG multiplier by #5[i]% and increases the Toughness Reduction that can ignore Weakness Type by #6[i].
+- **Type**：Talent
+- **Summary**：When the enemy target is Weakness Broken, Rappa gains 1 point of Charge. When launching the third hit of "Ningu: Demonbane Petalblade," additionally deals Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce Toughness and consume all Charge, increasing the Break DMG multiplier and Toughness Reduction.
+- **Max Level**：15
+- **Effect Template**：Each time the enemy target is Weakness Broken, Rappa gains 1 point of Charge, up to a max of #1[i] points of Charge. When Rappa next launches the third hit of "Ningu: Demonbane Petalblade," additionally deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce #4[i] Toughness, consuming all Charge. Each point of Charge increases the Break DMG multiplier by #5[i]% and increases the Toughness Reduction that can ignore Weakness Type by #6[i].
 When Breaking Weakness, triggers the Imaginary Weakness Break effect.
-击破弱点时，触发虚数属性的弱点击破效果。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 10 | 0 | 30% | 2 | 25% | 1 |
@@ -192,7 +189,7 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
   | Lv.14 | 10 | 0 | 72% | 2 | 60% | 1 |
   | Lv.15 | 10 | 0 | 75% | 2 | 62.5% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「得1点充能，最多拥有___点充能。乱破下一次」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「方全体造成等同于乱破___%虚数属性击破伤害」
@@ -200,29 +197,28 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
   - `#5[i]`% → 参数5(%)：上下文「本次击破伤害倍率提高___%，并使无视弱点属」
   - `#6[i]`点 → 参数6：上下文「弱点属性的削韧值提高___点。 击破弱点时，」
 
-- **满级效果**：Each time the enemy target is Weakness Broken, Rappa gains 1 point of Charge, up to a max of 10 points of Charge. When Rappa next launches the third hit of "Ningu: Demonbane Petalblade," additionally deals Break DMG equal to 75% of Rappa's Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce 2 Toughness, consuming all Charge. Each point of Charge increases the Break DMG multiplier by 62.5% and increases the Toughness Reduction that can ignore Weakness Type by 1.
+- **Max Effect**：Each time the enemy target is Weakness Broken, Rappa gains 1 point of Charge, up to a max of 10 points of Charge. When Rappa next launches the third hit of "Ningu: Demonbane Petalblade," additionally deals Break DMG equal to 75% of Rappa's Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce 2 Toughness, consuming all Charge. Each point of Charge increases the Break DMG multiplier by 62.5% and increases the Toughness Reduction that can ignore Weakness Type by 1.
 When Breaking Weakness, triggers the Imaginary Weakness Break effect.
-击破弱点时，触发虚数属性的弱点击破效果。
 
 ### Technique：Ninja Dash: By Leaps and Bounds
-- **类型**：Technique
-- **简述**：Enters the "Graffiti" state. Moves forward rapidly for a set distance and attacks any enemies touched. After entering combat via attacking enemies, deals Toughness Reduction regardless of Weakness Type and Imaginary Break DMG to each enemy target and deals Imaginary Break DMG to their adjacent targets. At the same time, this unit regenerates Energy.
-- **最大等级**：1
-- **效果模板**：After using Technique, enters the "Graffiti" state for #1[i] seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals #5[i] Toughness Reduction regardless of Weakness Type and Break DMG equal to #2[i]% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates #4[i] Energy.
+- **Type**：Technique
+- **Summary**：Enters the "Graffiti" state. Moves forward rapidly for a set distance and attacks any enemies touched. After entering combat via attacking enemies, deals Toughness Reduction regardless of Weakness Type and Imaginary Break DMG to each enemy target and deals Imaginary Break DMG to their adjacent targets. At the same time, this unit regenerates Energy.
+- **Max Level**：1
+- **Effect Template**：After using Technique, enters the "Graffiti" state for #1[i] seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals #5[i] Toughness Reduction regardless of Weakness Type and Break DMG equal to #2[i]% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates #4[i] Energy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 20 | 200% | 180% | 10 | 30 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的【涂鸦】状态。」
   - `#2[i]`% → 参数2(%)：上下文「削韧，以及等同于乱破___%虚数属性击破伤害」
   - `#3[i]`% → 参数3(%)：上下文「邻目标造成等同于乱破___%虚数属性击破伤害」
   - `#4[i]`点 → 参数4：上下文「伤害，同时使自身获得___点能量。」
   - `#5[i]`点 → 参数5：上下文「，对每个敌方目标造成___点无视弱点属性的削」
 
-- **满级效果**：After using Technique, enters the "Graffiti" state for 20 seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals 30 Toughness Reduction regardless of Weakness Type and Break DMG equal to 200% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to 180% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates 10 Energy.
+- **Max Effect**：After using Technique, enters the "Graffiti" state for 20 seconds. While in the "Graffiti" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the "Graffiti" state can end the state's duration early. After entering combat via attacking enemies, deals 30 Toughness Reduction regardless of Weakness Type and Break DMG equal to 200% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to 180% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates 10 Energy.
 
 ## Trace Bonuses
 
@@ -283,31 +279,31 @@ When Breaking Weakness, triggers the Imaginary Weakness Break effect.
 
 ### [[zh_cn/lightcone/智识/忍法帖•缭乱破魔.md|Ninjutsu Inscription Dazzling Evilbreaker]]
 
-- **基础属性**：生953 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：除邪
-- **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。进入战斗时立即恢复【30.0/32.5/35.0/37.5/40.0】点能量，且装备者施放终结技后获得【雷遁】，施放2次普攻后，装备者行动提前【50%/55%/60%/65%/70%】，并移除【雷遁】。装备者施放终结技后会重置【雷遁】。
+- **Base Stats**：HP953 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Exorcism
+- **Effect**：Increases the wearer's Break Effect by 60%. When entering battle, immediately regenerates #2[f1] Energy. After the wearer uses Ultimate, obtains "Raiton." After using 2 Basic ATKs, advances the wearer's action by 50% and removes "Raiton." After the wearer uses Ultimate, resets "Raiton."
 
 ### [[zh_cn/lightcone/智识/谐乐静默之后.md|After the Charmony Fall]]
 
-- **基础属性**：生846 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：沉寂
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。装备者施放终结技后，速度提高【8%/10%/12%/14%/16%】，持续2回合。
+- **Base Stats**：HP846 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Quiescence
+- **Effect**：Increases the wearer's Break Effect by 28%. After the wearer uses Ultimate, increases SPD by 8%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：无界之思
-- **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Boundless Thought
+- **Effect**：Increases the wearer's ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/智识/银河铁道之夜.md|Night on the Milky Way]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★★
-- **技能名**：流星群
-- **效果**：场上每有1个敌方目标，使装备者的攻击力提高【9.0%/10.5%/12.0%/13.5%/15.0%】，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Meteor Swarm
+- **Effect**：For every enemy on the field, increases the wearer's ATK by #2[f1]%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.
 
 ## Recommended Teams
 

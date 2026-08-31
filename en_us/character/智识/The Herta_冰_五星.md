@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Did You Get It
-- **类型**：Basic ATK
-- **简述**：Deals minor Ice DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Ice DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 50% | 3 | 1 | 30% |
@@ -92,21 +92,21 @@
   | Lv.9 | 130% | 3 | 1 | 30% |
   | Lv.10 | 140% | 3 | 1 | 30% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于大黑塔___%攻击力的冰属性伤」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Deals Ice DMG equal to 140% of The Herta's ATK to one designated enemy.
+- **Max Effect**：Deals Ice DMG equal to 140% of The Herta's ATK to one designated enemy.
 
 ### Skill：Big Brain Energy
-- **类型**：Skill
-- **简述**：Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times.
-- **最大等级**：15
-- **效果模板**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy, and inflicts #2[i] stack(s) of "Interpretation." Deals Ice DMG equal to #1[i]% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
+- **Type**：Skill
+- **Summary**：Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times.
+- **Max Level**：15
+- **Effect Template**：Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy, and inflicts #2[i] stack(s) of "Interpretation." Deals Ice DMG equal to #1[i]% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 35% | 1 |
@@ -125,19 +125,19 @@
   | Lv.14 | 84% | 1 |
   | Lv.15 | 87.5% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于大黑塔___%攻击力的冰属性伤」
   - `#2[i]`层 → 参数2：上下文「力的冰属性伤害并施加___层【解读】。对本次」
 
-- **满级效果**：Deals Ice DMG equal to 87.5% of The Herta's ATK to one designated enemy, and inflicts 1 stack(s) of "Interpretation." Deals Ice DMG equal to 87.5% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
+- **Max Effect**：Deals Ice DMG equal to 87.5% of The Herta's ATK to one designated enemy, and inflicts 1 stack(s) of "Interpretation." Deals Ice DMG equal to 87.5% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.
 
 ### Ultimate：Told Ya! Magic Happens
-- **类型**：Ultimate
-- **简述**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG to all enemies. After use, enhances Skill and immediately takes action.
-- **最大等级**：15
-- **效果模板**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to #1[i]% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by #4[i]%, lasting for #5[i] turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to #6[i] time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
+- **Type**：Ultimate
+- **Summary**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG to all enemies. After use, enhances Skill and immediately takes action.
+- **Max Level**：15
+- **Effect Template**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to #1[i]% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by #4[i]%, lasting for #5[i] turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to #6[i] time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 2 | 1 | 40% | 3 | 4 |
@@ -156,7 +156,7 @@
   | Lv.14 | 240% | 2 | 1 | 96% | 3 | 4 |
   | Lv.15 | 250% | 2 | 1 | 100% | 3 | 4 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于大黑塔___%攻击力的冰属性伤」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -164,15 +164,15 @@
   - `#5[i]`回 → 参数5：上下文「高#4[i]%，持续___回合，施放后使大黑」
   - `#6[i]`层 → 参数6：上下文「】。【灵感】最多持有___层，持有【灵感】时」
 
-- **满级效果**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to 250% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by 100%, lasting for 3 turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to 4 time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
+- **Max Effect**：Rearranges the numbers of "Interpretation" stacks on all enemies, prioritizing the transfer of the higher numbers of "Interpretation" stacks to Elite-level targets and above. Then, deals Ice DMG equal to 250% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by 100%, lasting for 3 turn(s). After the use, The Herta immediately takes action and gains 1 stack of "Inspiration." "Inspiration" can stack up to 4 time(s). While having "Inspiration," enhances Skill to "Hear Me Out."
 
 ### Talent：Hand Them Over
-- **类型**：Talent
-- **简述**：Enhanced Skill increases the DMG dealt based on the target's "Interpretation" stacks.
-- **最大等级**：15
-- **效果模板**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies #6[i] stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to #3[i] time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
+- **Type**：Talent
+- **Summary**：Enhanced Skill increases the DMG dealt based on the target's "Interpretation" stacks.
+- **Max Level**：15
+- **Effect Template**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies #6[i] stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to #3[i] time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 4% | 2% | 42 | 1 | 42 | 25 |
@@ -191,7 +191,7 @@
   | Lv.14 | 9.6% | 4.8% | 42 | 1 | 42 | 25 |
   | Lv.15 | 10% | 5% | 42 | 1 | 42 | 25 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`层 → 参数3：上下文「。【解读】最多可叠加___层，使用强化战技时」
@@ -199,26 +199,26 @@
   - 参数5：效果模板中无对应 `#5[i]` 占位符（预留参数/其他属性）
   - `#6[i]`层 → 参数6：上下文「一个随机敌方目标施加___层【解读】，优先施」
 
-- **满级效果**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies 25 stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to 42 time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
+- **Max Effect**：When enemy targets enter combat, The Herta inflicts 1 stack of "Interpretation" on them. At the start of each wave, applies 25 stack(s) of "Interpretation" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has "Interpretation," the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. "Interpretation" can stack up to 42 time(s). When using the Enhanced Skill, resets the number of "Interpretation" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, "Interpretation" will be transferred, prioritizing the transfer to Elite-level targets and above.
 
 ### Technique：Vibe Checker
-- **类型**：Technique
-- **简述**：After using Technique, can mark several Basic Treasures' locations, and increases The Herta's ATK at the start of the next battle.
+- **Type**：Technique
+- **Summary**：After using Technique, can mark several Basic Treasures' locations, and increases The Herta's ATK at the start of the next battle.
 After entering battle by using Technique in Simulated Universe or Divergent Universe, deals massive True DMG to all enemies at the start of each wave.
 在模拟宇宙、差分宇宙使用秘技进战后，每个波次开始时对敌方全体造成大量真实伤害。
-- **最大等级**：1
-- **效果模板**：After using Technique, increases The Herta's ATK by #1[i]% at the start of the next battle, lasting for #2[i] turn(s).
+- **Max Level**：1
+- **Effect Template**：After using Technique, increases The Herta's ATK by #1[i]% at the start of the next battle, lasting for #2[i] turn(s).
 If there are Basic Treasures in this current map, using Technique can mark up to #3[i] Basic Treasures' locations.
 After entering battle by using Technique in Simulated Universe or Divergent Universe, at the start of each wave, deals True DMG to enemy targets lower than Elite-level by an amount equal to #4[i]% of the targets' Max HP, and deals True DMG to enemy targets at Elite-level and above by an amount equal to #5[i]% of the targets' Max HP.
 若当前场景存在普通战利品，使用秘技后标记最多#3[i]个普通战利品的位置。
 在模拟宇宙、差分宇宙中使用秘技进入战斗后，每个波次开始时对精英级别以下的敌方目标造成等同于目标#4[i]%生命上限的真实伤害，对精英级别及以上的目标造成等同于目标#5[i]%生命上限的真实伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4(%) | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60% | 2 | 3 | 99% | 30% | 25 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「始时大黑塔攻击力提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。 若当前场景」
   - `#3[i]`个 → 参数3：上下文「，使用秘技后标记最多___个普通战利品的位置」
@@ -226,11 +226,9 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
   - `#5[i]`% → 参数5(%)：上下文「的目标造成等同于目标___%生命上限的真实伤」
   - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：After using Technique, increases The Herta's ATK by 60% at the start of the next battle, lasting for 2 turn(s).
+- **Max Effect**：After using Technique, increases The Herta's ATK by 60% at the start of the next battle, lasting for 2 turn(s).
 If there are Basic Treasures in this current map, using Technique can mark up to 3 Basic Treasures' locations.
 After entering battle by using Technique in Simulated Universe or Divergent Universe, at the start of each wave, deals True DMG to enemy targets lower than Elite-level by an amount equal to 99% of the targets' Max HP, and deals True DMG to enemy targets at Elite-level and above by an amount equal to 30% of the targets' Max HP.
-若当前场景存在普通战利品，使用秘技后标记最多3个普通战利品的位置。
-在模拟宇宙、差分宇宙中使用秘技进入战斗后，每个波次开始时对精英级别以下的敌方目标造成等同于目标99%生命上限的真实伤害，对精英级别及以上的目标造成等同于目标30%生命上限的真实伤害。
 
 ## Trace Bonuses
 
@@ -291,31 +289,31 @@ After entering battle by using Technique in Simulated Universe or Divergent Univ
 
 ### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
-- **基础属性**：生953 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：思维游戏
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
+- **Base Stats**：HP953 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Mind Game
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses their Ultimate, increases the wearer's Skill DMG and Ultimate DMG dealt by 60%, lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.
 
 ### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：无界之思
-- **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Boundless Thought
+- **Effect**：Increases the wearer's ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
-- **基础属性**：生846 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：风雨将至
-- **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
+- **Base Stats**：HP846 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：A Storm Is Coming
+- **Effect**：After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
 ### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★
-- **技能名**：长夜
-- **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后,获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Long Night
+- **Effect**：Increases the wearer's CRIT DMG by 36%. Increases DMG dealt by the wearer's Skill and Ultimate by 18%. After the wearer uses Skill or Ultimate, gains "Somnus Corpus." Upon triggering a Follow-Up ATK, consumes "Somnus Corpus," and increases DMG dealt by Follow-Up ATK by 48%.
 
 ## Recommended Teams
 

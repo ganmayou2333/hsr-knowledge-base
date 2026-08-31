@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Galespin Summersault
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于云璃___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Yunli's ATK to one designated enemy target.
+- **Max Effect**：Deals Physical DMG equal to 140% of Yunli's ATK to one designated enemy target.
 
 ### Skill：Bladeborne Quake
-- **类型**：Skill
-- **简述**：Restores this unit's HP. Deals Physical DMG to one enemy and minor Physical DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Restores HP equal to #3[f1]% of Yunli's ATK plus #4[i]. Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.
+- **Type**：Skill
+- **Summary**：Restores this unit's HP. Deals Physical DMG to one enemy and minor Physical DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Restores HP equal to #3[f1]% of Yunli's ATK plus #4[i]. Deals Physical DMG equal to #1[i]% of Yunli's ATK to one designated enemy target and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 60% | 30% | 20% | 50 |
@@ -122,27 +122,26 @@
   | Lv.14 | 144% | 72% | 34% | 245 |
   | Lv.15 | 150% | 75% | 35% | 256.25 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于云璃___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于云璃___%攻击力的物理属性」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`的 → 参数4：上下文「3[f1]%攻击力+___的生命值，并对指定」
 
-- **满级效果**：Restores HP equal to #3[f1]% of Yunli's ATK plus 256.25. Deals Physical DMG equal to 150% of Yunli's ATK to one designated enemy target and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.
+- **Max Effect**：Restores HP equal to #3[f1]% of Yunli's ATK plus 256.25. Deals Physical DMG equal to 150% of Yunli's ATK to one designated enemy target and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.
 
 ### Ultimate：Earthbind, Etherbreak
-- **类型**：Ultimate
-- **简述**：Enters "Parry" and taunts all enemies. When attacked during this period, triggers powerful Counter and deals Physical DMG to the attacker and adjacent targets. Then, deals minor Physical DMG to one enemy that bounces 6 times. If no Counter is triggered while "Parry" is active, deals Physical DMG to a random enemy target and adjacent targets when "Parry" ends.
-- **最大等级**：15
-- **效果模板**：Consumes #8[i] Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by #2[i]%. When triggering the Counter effect from Talent, launches the Counter "Intuit: Cull" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter "Intuit: Slash" on a random enemy target.
+- **Type**：Ultimate
+- **Summary**：Enters "Parry" and taunts all enemies. When attacked during this period, triggers powerful Counter and deals Physical DMG to the attacker and adjacent targets. Then, deals minor Physical DMG to one enemy that bounces 6 times. If no Counter is triggered while "Parry" is active, deals Physical DMG to a random enemy target and adjacent targets when "Parry" ends.
+- **Max Level**：15
+- **Effect Template**：Consumes #8[i] Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by #2[i]%. When triggering the Counter effect from Talent, launches the Counter "Intuit: Cull" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter "Intuit: Slash" on a random enemy target.
 "Intuit: Slash": Deals Physical DMG equal to #1[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #6[i]% of Yunli's ATK to adjacent targets.
 "Intuit: Cull": Deals Physical DMG equal to #1[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #6[i]% of Yunli's ATK to adjacent targets. Then, additionally deals #4[i] instances of DMG, each dealing Physical DMG equal to #7[i]% of Yunli's ATK to a random single enemy.
 When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
 【勘破•斩】：对目标造成等同于云璃#1[i]%攻击力的物理属性伤害，对其相邻目标造成等同于云璃#6[i]%攻击力的物理属性伤害。
 【勘破•灭】：对目标造成等同于云璃#1[i]%攻击力的物理属性伤害，对其相邻目标造成等同于云璃#6[i]%攻击力的物理属性伤害，随后额外造成#4[i]次伤害，每次伤害对随机敌方单体造成等同于云璃#7[i]%攻击力的物理伤害。
-云璃通过此技能造成伤害时，被视为造成了终结技伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6(%) | 参数7(%) | 参数8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 132% | 60% | 0 | 6 | 0 | 66% | 43.2% | 120 |
@@ -161,7 +160,7 @@ When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
   | Lv.14 | 255.2% | 116% | 0 | 6 | 0 | 127.6% | 83.52% | 120 |
   | Lv.15 | 264% | 120% | 0 | 6 | 0 | 132% | 86.4% | 120 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「对目标造成等同于云璃___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「击造成的暴击伤害提高___%。触发天赋的反击」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -171,23 +170,19 @@ When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
   - `#7[i]`% → 参数7(%)：上下文「方单体造成等同于云璃___%攻击力的物理伤害」
   - `#8[i]`点 → 参数8：上下文「消耗___点能量，云璃获得【」
 
-- **满级效果**：Consumes 120 Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by 120%. When triggering the Counter effect from Talent, launches the Counter "Intuit: Cull" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter "Intuit: Slash" on a random enemy target.
+- **Max Effect**：Consumes 120 Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by 120%. When triggering the Counter effect from Talent, launches the Counter "Intuit: Cull" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter "Intuit: Slash" on a random enemy target.
 "Intuit: Slash": Deals Physical DMG equal to 264% of Yunli's ATK to the target, and deals Physical DMG equal to 132% of Yunli's ATK to adjacent targets.
 "Intuit: Cull": Deals Physical DMG equal to 264% of Yunli's ATK to the target, and deals Physical DMG equal to 132% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to 86.4% of Yunli's ATK to a random single enemy.
 When Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.
-【勘破•斩】：对目标造成等同于云璃264%攻击力的物理属性伤害，对其相邻目标造成等同于云璃132%攻击力的物理属性伤害。
-【勘破•灭】：对目标造成等同于云璃264%攻击力的物理属性伤害，对其相邻目标造成等同于云璃132%攻击力的物理属性伤害，随后额外造成6次伤害，每次伤害对随机敌方单体造成等同于云璃86.4%攻击力的物理伤害。
-云璃通过此技能造成伤害时，被视为造成了终结技伤害。
 
 ### Talent：Flashforge
-- **类型**：Talent
-- **简述**：When Yunli is attacked by any enemy target, additionally regenerates Energy and immediately Counters, dealing Physical DMG to the attacker and minor Physical DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：When Yunli gets attacked by an enemy target, additionally regenerates #3[i] Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to #1[i]% of Yunli's ATK to the attacker and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.
+- **Type**：Talent
+- **Summary**：When Yunli is attacked by any enemy target, additionally regenerates Energy and immediately Counters, dealing Physical DMG to the attacker and minor Physical DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：When Yunli gets attacked by an enemy target, additionally regenerates #3[i] Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to #1[i]% of Yunli's ATK to the attacker and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.
 If there is no immediate target to Counter, then Counters a random enemy target instead.
-若不存在可反击的目标，则反击敌方随机目标。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 60% | 30% | 15 |
@@ -206,31 +201,30 @@ If there is no immediate target to Counter, then Counters a random enemy target 
   | Lv.14 | 144% | 72% | 15 |
   | Lv.15 | 150% | 75% | 15 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「，对其造成等同于云璃___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于云璃___%攻击力的物理属性」
   - `#3[i]`点 → 参数3：上下文「目标攻击后，额外恢复___点能量，并立即向攻」
 
-- **满级效果**：When Yunli gets attacked by an enemy target, additionally regenerates 15 Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to 150% of Yunli's ATK to the attacker and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.
+- **Max Effect**：When Yunli gets attacked by an enemy target, additionally regenerates 15 Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to 150% of Yunli's ATK to the attacker and Physical DMG equal to 75% of Yunli's ATK to adjacent targets.
 If there is no immediate target to Counter, then Counters a random enemy target instead.
-若不存在可反击的目标，则反击敌方随机目标。
 
 ### Technique：Posterior Precedence
-- **类型**：Technique
-- **简述**：This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy.
-- **最大等级**：1
-- **效果模板**：This unit gains the Ward effect, lasting for #2[i] seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by #1[i]%.
+- **Type**：Technique
+- **Summary**：This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy.
+- **Max Level**：1
+- **Effect Template**：This unit gains the Ward effect, lasting for #2[i] seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by #1[i]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 80% | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「次攻击造成的伤害提高___%。」
   - `#2[i]`秒 → 参数2：上下文「得【招架】效果，持续___秒，期间攻击敌人或」
 
-- **满级效果**：This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by 80%.
+- **Max Effect**：This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts "Intuit: Cull" on a random enemy, and increases the DMG dealt by this attack by 80%.
 
 ## Trace Bonuses
 
@@ -291,31 +285,31 @@ If there is no immediate target to Counter, then Counters a random enemy target 
 
 ### [[zh_cn/lightcone/毁灭/落日时起舞.md|Dance at Sunset]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：沉酣
-- **效果**：使装备者受到攻击的概率大幅提高，暴击伤害提高【36%/42%/48%/54%/60%】。当装备者施放终结技后，获得1层【火舞】，持续2回合，最多叠加2层。每层【火舞】使装备者追加攻击造成的伤害提高【36%/42%/48%/54%/60%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Deeply Engrossed
+- **Effect**：Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by 36%. After the wearer uses Ultimate, receives 1 stack of "Firedance," lasting for 2 turns and stacking up to 2 time(s). Each stack of "Firedance" increases the DMG dealt by the wearer's Follow-Up ATK by 36%.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★
-- **技能名**：奇妙冒险
-- **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★
+- **Skill Name**：Fantastic Adventure
+- **Effect**：When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12%.
 
 ## Recommended Teams
 

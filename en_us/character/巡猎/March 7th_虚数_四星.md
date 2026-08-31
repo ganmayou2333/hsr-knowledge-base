@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：My Sword Zaps Demons
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one enemy and gains 1 point(s) of Charge.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target and gains #2[i] point(s) of Charge.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one enemy and gains 1 point(s) of Charge.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target and gains #2[i] point(s) of Charge.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 1 |
@@ -92,29 +92,28 @@
   | Lv.9 | 130% | 1 |
   | Lv.10 | 140% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于三月七___%攻击力的虚数属性」
   - `#2[i]`点 → 参数2：上下文「数属性伤害，随后获得___点充能。」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of March 7th's ATK to one designated enemy target and gains 1 point(s) of Charge.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of March 7th's ATK to one designated enemy target and gains 1 point(s) of Charge.
 
 ### Skill：Master, It's Tea Time!
-- **类型**：Skill
-- **简述**：Makes a single ally become "Shifu." When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the "Shifu"'s Path:
+- **Type**：Skill
+- **Summary**：Makes a single ally become "Shifu." When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the "Shifu"'s Path:
 Erudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG based on Shifu's Type.
 Harmony, Nihility, Preservation, Abundance: Toughness Reduction increases.
 「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成基于【师父】属性的附加伤害。
 「同谐」、「虚无」、「存护」、「丰饶」：削韧值提高。
-- **最大等级**：15
-- **效果模板**：Designates one ally (excluding this unit) as "Shifu" and increases "Shifu"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as "Shifu."
+- **Max Level**：15
+- **Effect Template**：Designates one ally (excluding this unit) as "Shifu" and increases "Shifu"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as "Shifu."
 Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if "Shifu" with the specified Path is present on the field:
 Erudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG (DMG Type based on "Shifu"'s Combat Type) equal to #2[i]% of March 7th's ATK.
 Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by #3[i]%.
-每当施放普攻或造成1段强化普攻的伤害时，若场上存在指定命途的【师父】，则触发对应效果：
 「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成等同于三月七#2[i]%攻击力的基于【师父】属性的附加伤害。
 「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高#3[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 6% | 10% | 100% |
@@ -133,28 +132,25 @@ Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of
   | Lv.14 | 11.6% | 24% | 100% |
   | Lv.15 | 12% | 25% | 100% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`% → 参数2(%)：上下文「额外造成等同于三月七___%攻击力的基于【师」
   - `#3[i]`% → 参数3(%)：上下文「本次伤害的削韧值提高___%。」
 
-- **满级效果**：Designates one ally (excluding this unit) as "Shifu" and increases "Shifu"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as "Shifu."
+- **Max Effect**：Designates one ally (excluding this unit) as "Shifu" and increases "Shifu"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as "Shifu."
 Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if "Shifu" with the specified Path is present on the field:
 Erudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG (DMG Type based on "Shifu"'s Combat Type) equal to 25% of March 7th's ATK.
 Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by 100%.
-每当施放普攻或造成1段强化普攻的伤害时，若场上存在指定命途的【师父】，则触发对应效果：
-「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成等同于三月七25%攻击力的基于【师父】属性的附加伤害。
-「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高100%。
 
 ### Ultimate：March 7th, the Apex Heroine
-- **类型**：Ultimate
-- **简述**：Deals Imaginary DMG to one enemy and increases the Hits Per Action and DMG chance of the next Enhanced Basic ATK.
-- **最大等级**：15
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target.
+- **Type**：Ultimate
+- **Summary**：Deals Imaginary DMG to one enemy and increases the Hits Per Action and DMG chance of the next Enhanced Basic ATK.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target.
 Increases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hit(s) and increase the fixed chance of additionally dealing DMG by #3[i]%.
 使下一次强化普攻的初始段数增加#2[i]段，额外造成伤害的固定概率提高#3[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 144% | 2 | 20% |
@@ -173,24 +169,23 @@ Increases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hi
   | Lv.14 | 278.4% | 2 | 20% |
   | Lv.15 | 288% | 2 | 20% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于三月七___%攻击力的虚数属性」
   - `#2[i]`段 → 参数2：上下文「化普攻的初始段数增加___段，额外造成伤害的」
   - `#3[i]`% → 参数3(%)：上下文「成伤害的固定概率提高___%。」
 
-- **满级效果**：Deals Imaginary DMG equal to 288% of March 7th's ATK to one designated enemy target.
+- **Max Effect**：Deals Imaginary DMG equal to 288% of March 7th's ATK to one designated enemy target.
 Increases the initial Hits Per Action of the next Enhanced Basic ATK by 2 hit(s) and increase the fixed chance of additionally dealing DMG by 20%.
-使下一次强化普攻的初始段数增加2段，额外造成伤害的固定概率提高20%。
 
 ### Talent：Master, I've Ascended!
-- **类型**：Talent
-- **简述**：After Shifu uses an attack or Ultimate, March 7th gains Charge. When reaching 7 points of Charge, March 7th immediately takes action and increases the DMG she deals. Basic ATK gets Enhanced.
-- **最大等级**：15
-- **效果模板**：After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.
+- **Type**：Talent
+- **Summary**：After Shifu uses an attack or Ultimate, March 7th gains Charge. When reaching 7 points of Charge, March 7th immediately takes action and increases the DMG she deals. Basic ATK gets Enhanced.
+- **Max Level**：15
+- **Effect Template**：After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.
 Upon reaching #1[i] or more points of Charge, March 7th immediately takes action and increases the DMG she deals by #2[i]%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes #1[i] point(s) of Charge. Charge is capped at #3[i] points.
 充能大于等于#1[i]点时，三月七立即行动，造成的伤害提高#2[i]%，普攻得到强化且无法施放战技。施放强化普攻后，消耗#1[i]点充能。充能上限#3[i]点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 7 | 40% | 10 |
@@ -209,35 +204,33 @@ Upon reaching #1[i] or more points of Charge, March 7th immediately takes action
   | Lv.14 | 7 | 96% | 10 |
   | Lv.15 | 7 | 100% | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「施放强化普攻后，消耗___点充能。充能上限#」
   - `#2[i]`% → 参数2(%)：上下文「行动，造成的伤害提高___%，普攻得到强化且」
   - `#3[i]`点 → 参数3：上下文「i]点充能。充能上限___点。」
 
-- **满级效果**：After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.
+- **Max Effect**：After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.
 Upon reaching 7 or more points of Charge, March 7th immediately takes action and increases the DMG she deals by 100%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes 7 point(s) of Charge. Charge is capped at 10 points.
-充能大于等于7点时，三月七立即行动，造成的伤害提高100%，普攻得到强化且无法施放战技。施放强化普攻后，消耗7点充能。充能上限10点。
 
 ### Technique：Feast in One Go
-- **类型**：Technique
-- **简述**：Whenever a teammate uses Technique, March 7th gains Charge upon entering the next battle. Using Technique regenerates Energy upon entering the next battle.
-- **最大等级**：1
-- **效果模板**：If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of #1[i] point(s).
+- **Type**：Technique
+- **Summary**：Whenever a teammate uses Technique, March 7th gains Charge upon entering the next battle. Using Technique regenerates Energy upon entering the next battle.
+- **Max Level**：1
+- **Effect Template**：If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of #1[i] point(s).
 After using Technique, March 7th regenerates #2[i] Energy when the next battle starts.
 使用秘技后，下一次战斗开始时三月七恢复#2[i]点能量。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 3 | 30 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「得1点充能，最多获得___点。 使用秘技后，」
   - `#2[i]`点 → 参数2：上下文「战斗开始时三月七恢复___点能量。」
 
-- **满级效果**：If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of 3 point(s).
+- **Max Effect**：If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of 3 point(s).
 After using Technique, March 7th regenerates 30 Energy when the next battle starts.
-使用秘技后，下一次战斗开始时三月七恢复30点能量。
 
 ## Trace Bonuses
 
@@ -298,45 +291,45 @@ After using Technique, March 7th regenerates 30 Energy when the next battle star
 
 ### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：一个一个来
-- **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：One At A Time
+- **Effect**：Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：美梦
-- **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：花与蝶
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Flowers and Butterflies
+- **Effect**：Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by 6%. At the same time, increases the CRIT DMG of Ultimate by 12%. This effect can stack up to 6 time(s).
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ### [[zh_cn/lightcone/巡猎/春水初生.md|River Flows in Spring]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：驱散余寒
-- **效果**：进入战斗后，使装备者速度提高【8%/9%/10%/11%/12%】，造成的伤害提高【12%/15%/18%/21%/24%】。当装备者受到伤害后该效果失效，下个回合结束时该效果恢复。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Stave Off the Lingering Cold
+- **Effect**：After entering battle, increases the wearer's SPD by 8% and DMG by 12%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.
 
 ## Recommended Teams
 

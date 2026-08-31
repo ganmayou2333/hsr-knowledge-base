@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Skullcrush Spurs
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Boothill's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Boothill's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,24 +92,22 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于波提欧___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Boothill's ATK to one designated enemy target.
+- **Max Effect**：Deals Physical DMG equal to 140% of Boothill's ATK to one designated enemy target.
 
 ### Skill：Sizzlin' Tango
-- **类型**：Skill
-- **简述**：Initiates Standoff. After the target in the Standoff is defeated or Weakness Broken, Boothill receives Pocket Trickshot and dispels the Standoff. Boothill gains Enhanced Basic ATK and this turn does not end.
-- **最大等级**：15
-- **效果模板**：Forces Boothill and one designated enemy target into the "Standoff" state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Boothill's every turn.
+- **Type**：Skill
+- **Summary**：Initiates Standoff. After the target in the Standoff is defeated or Weakness Broken, Boothill receives Pocket Trickshot and dispels the Standoff. Boothill gains Enhanced Basic ATK and this turn does not end.
+- **Max Level**：15
+- **Effect Template**：Forces Boothill and one designated enemy target into the "Standoff" state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Boothill's every turn.
 The enemy target in the "Standoff" becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by #1[i]%/#2[i]%.
 After this target is defeated or becomes Weakness Broken, Boothill gains 1 stack of "Pocket Trickshot," then dispels the "Standoff."
 This Skill cannot regenerate Energy. After using this Skill, the current turn does not end.
 处于【绝命对峙】的敌方目标陷入嘲讽状态。该目标/波提欧受到对方攻击时，受到的伤害提高#1[i]%/#2[i]%。
-该目标被消灭或弱点被击破后，波提欧均可获得1层【优势口袋】，随后解除【绝命对峙】。
-该战技无法恢复能量。施放该战技后，本回合不会结束。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 15% | 15% | 2 |
@@ -128,28 +126,25 @@ This Skill cannot regenerate Energy. After using this Skill, the current turn do
   | Lv.14 | 36% | 15% | 2 |
   | Lv.15 | 37.5% | 15% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「击时，受到的伤害提高___%/#2[i]%。」
   - `#2[i]`% → 参数2(%)：上下文「害提高#1[i]%/___%。 该目标被消灭」
   - `#3[i]`回 → 参数3：上下文「且无法施放战技，持续___回合，波提欧每回合」
 
-- **满级效果**：Forces Boothill and one designated enemy target into the "Standoff" state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for 2 turn(s). This duration decreases by 1 at the start of Boothill's every turn.
+- **Max Effect**：Forces Boothill and one designated enemy target into the "Standoff" state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for 2 turn(s). This duration decreases by 1 at the start of Boothill's every turn.
 The enemy target in the "Standoff" becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by 37.5%/15%.
 After this target is defeated or becomes Weakness Broken, Boothill gains 1 stack of "Pocket Trickshot," then dispels the "Standoff."
 This Skill cannot regenerate Energy. After using this Skill, the current turn does not end.
-处于【绝命对峙】的敌方目标陷入嘲讽状态。该目标/波提欧受到对方攻击时，受到的伤害提高37.5%/15%。
-该目标被消灭或弱点被击破后，波提欧均可获得1层【优势口袋】，随后解除【绝命对峙】。
-该战技无法恢复能量。施放该战技后，本回合不会结束。
 
 ### Ultimate：Dust Devil's Sunset Rodeo
-- **类型**：Ultimate
-- **简述**：Applies Physical Weakness to one enemy, deals massive Physical DMG to them, and delays their action.
-- **最大等级**：15
-- **效果模板**：Applies Physical Weakness to one designated enemy target, lasting for #3[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Applies Physical Weakness to one enemy, deals massive Physical DMG to them, and delays their action.
+- **Max Level**：15
+- **Effect Template**：Applies Physical Weakness to one designated enemy target, lasting for #3[i] turn(s).
 Deals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays their action by #2[i]%.
 对该目标造成等同于波提欧#1[i]%攻击力的物理属性伤害，并使其行动延后#2[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 240% | 30% | 2 |
@@ -168,26 +163,24 @@ Deals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays th
   | Lv.14 | 464% | 44% | 2 |
   | Lv.15 | 480% | 45% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于波提欧___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「伤害，并使其行动延后___%。」
   - `#3[i]`回 → 参数3：上下文「体添加物理弱点，持续___回合。 对该目标造」
 
-- **满级效果**：Applies Physical Weakness to one designated enemy target, lasting for 2 turn(s).
+- **Max Effect**：Applies Physical Weakness to one designated enemy target, lasting for 2 turn(s).
 Deals Physical DMG equal to 480% of Boothill's ATK to the target and delays their action by 45%.
-对该目标造成等同于波提欧480%攻击力的物理属性伤害，并使其行动延后45%。
 
 ### Talent：Five Peas in a Pod
-- **类型**：Talent
-- **简述**：Pocket Trickshot increases the Enhanced Basic ATK's Toughness Reduction and additionally deals Physical Break DMG if the target is Weakness Broken. After winning the battle, retains Pocket Trickshot for the next battle.
-- **最大等级**：15
-- **效果模板**：Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by #4[i]%, stacking up to #5[i] time(s).
+- **Type**：Talent
+- **Summary**：Pocket Trickshot increases the Enhanced Basic ATK's Toughness Reduction and additionally deals Physical Break DMG if the target is Weakness Broken. After winning the battle, retains Pocket Trickshot for the next battle.
+- **Max Level**：15
+- **Effect Template**：Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by #4[i]%, stacking up to #5[i] time(s).
 If the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target equal to #1[i]%/#2[i]%/#3[i]% of Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed #6[i] times the base Toughness Reduction of the Basic Attack "Skullcrush Spurs."
 After winning the battle, Boothill can retain Pocket Trickshot for the next battle.
 施放强化普攻期间，若目标处于弱点击破状态，基于【优势口袋】层数，对目标造成等同于波提欧#1[i]%/#2[i]%/#3[i]%物理属性击破伤害的击破伤害，该伤害计入的韧性上限不超过普攻【蹄铁裂颅】基础削韧值的#6[i]倍。
-战斗胜利后，波提欧能够将【优势口袋】保留至下一次战斗中。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 35% | 60% | 85% | 50% | 3 | 16 |
@@ -206,7 +199,7 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
   | Lv.14 | 84% | 144% | 204% | 50% | 3 | 16 |
   | Lv.15 | 87.5% | 150% | 212.5% | 50% | 3 | 16 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于波提欧___%/#2[i]%/」
   - `#2[i]`% → 参数2(%)：上下文「波提欧#1[i]%/___%/#3[i]%物」
   - `#3[i]`% → 参数3(%)：上下文「]%/#2[i]%/___%物理属性击破伤害」
@@ -214,27 +207,25 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
   - `#5[i]`层 → 参数5：上下文「4[i]%，最多叠加___层。 施放强化普攻」
   - `#6[i]`倍 → 参数6：上下文「铁裂颅】基础削韧值的___倍。 战斗胜利后，」
 
-- **满级效果**：Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by 50%, stacking up to 3 time(s).
+- **Max Effect**：Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by 50%, stacking up to 3 time(s).
 If the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target equal to 87.5%/150%/212.5% of Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed 16 times the base Toughness Reduction of the Basic Attack "Skullcrush Spurs."
 After winning the battle, Boothill can retain Pocket Trickshot for the next battle.
-施放强化普攻期间，若目标处于弱点击破状态，基于【优势口袋】层数，对目标造成等同于波提欧87.5%/150%/212.5%物理属性击破伤害的击破伤害，该伤害计入的韧性上限不超过普攻【蹄铁裂颅】基础削韧值的16倍。
-战斗胜利后，波提欧能够将【优势口袋】保留至下一次战斗中。
 
 ### Technique：3-9× Smile
-- **类型**：Technique
-- **简述**：After the Technique is used, inflicts Physical Weakness on one enemy when casting the Skill for the first time in the next battle.
-- **最大等级**：1
-- **效果模板**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for #1[i] turn(s).
+- **Type**：Technique
+- **Summary**：After the Technique is used, inflicts Physical Weakness on one enemy when casting the Skill for the first time in the next battle.
+- **Max Level**：1
+- **Effect Template**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for #1[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「相同的物理弱点，持续___回合。」
 
-- **满级效果**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for 2 turn(s).
+- **Max Effect**：After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -295,38 +286,38 @@ After winning the battle, Boothill can retain Pocket Trickshot for the next batt
 
 ### [[zh_cn/lightcone/巡猎/驶向第二次生命.md|Sailing Towards a Second Life]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：苦航
-- **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】，造成的击破伤害无视目标【20%/23%/26%/29%/32%】的防御力。当装备者在战斗中击破特攻大于等于150%时，速度提高【12%/14%/16%/18%/20%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Rough Water
+- **Effect**：Increases the wearer's Break Effect by 60%. The Break DMG dealt by the wearer ignores 20% of the target's DEF. When the wearer's Break Effect in battle is at 1.5 or greater, increases their SPD by 12%.
 
 ### [[zh_cn/lightcone/巡猎/黑夜如影随行.md|Shadowed by Night]]
 
-- **基础属性**：生846 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：隐匿
-- **效果**：使装备者的击破特攻提高【28%/35%/42%/49%/56%】。进入战斗时或造成击破伤害后，速度提高【8%/9%/10%/11%/12%】，持续2回合，该效果每回合只可触发1次。
+- **Base Stats**：HP846 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Concealment
+- **Effect**：Increases the wearer's Break Effect by 28%. When entering battle or after dealing Break DMG, increases SPD by 8%, lasting for 2 turn(s). This effect can only trigger once per turn.
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ### [[zh_cn/lightcone/巡猎/春水初生.md|River Flows in Spring]]
 
-- **基础属性**：生846 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：驱散余寒
-- **效果**：进入战斗后，使装备者速度提高【8%/9%/10%/11%/12%】，造成的伤害提高【12%/15%/18%/21%/24%】。当装备者受到伤害后该效果失效，下个回合结束时该效果恢复。
+- **Base Stats**：HP846 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Stave Off the Lingering Cold
+- **Effect**：After entering battle, increases the wearer's SPD by 8% and DMG by 12%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.
 
 ## Recommended Teams
 

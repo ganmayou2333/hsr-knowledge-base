@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：One Punch!
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「「银狼LV.999」___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to one designated enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Silver Wolf LV.999's ATK to one designated enemy.
 
 ### Skill：Trigger Happy
-- **类型**：Skill
-- **简述**：Gains Punchline. Deals Imaginary DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Gains #2[i] Punchline point(s) and deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to all enemies.
+- **Type**：Skill
+- **Summary**：Gains Punchline. Deals Imaginary DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Gains #2[i] Punchline point(s) and deals Imaginary DMG equal to #1[i]% of Silver Wolf LV.999's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 80% | 5 |
@@ -122,15 +122,15 @@
   | Lv.14 | 192% | 5 |
   | Lv.15 | 200% | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「「银狼LV.999」___%攻击力的虚数属性」
   - `#2[i]`个 → 参数2：上下文「获得___个笑点，对敌方全体」
 
-- **满级效果**：Gains 5 Punchline point(s) and deals Imaginary DMG equal to 200% of Silver Wolf LV.999's ATK to all enemies.
+- **Max Effect**：Gains 5 Punchline point(s) and deals Imaginary DMG equal to 200% of Silver Wolf LV.999's ATK to all enemies.
 
 ### Ultimate：God Mode: ON!
-- **类型**：Ultimate
-- **简述**：Transforms and advances action by 100%.
+- **Type**：Ultimate
+- **Summary**：Transforms and advances action by 100%.
 Deploys a Zone during Transformation. While holding "Certified Banger," for every 1 Skill Point consumed by allies, there is a high chance to trigger 1 "Top Loot Box": Deals massive Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:
 Deals True DMG to the target with the highest HP based on total DMG dealt.
 Recovers Skill Points.
@@ -141,8 +141,8 @@ The trigger chance decreases proportionally after each trigger.
 恢复战技点；
 获得笑点。
 每次触发后概率会按比例递减。
-- **最大等级**：15
-- **效果模板**：Enters the "Godmode Player" state, and advances action by 100%.
+- **Max Level**：15
+- **Effect Template**：Enters the "Godmode Player" state, and advances action by 100%.
 Deploys a Zone while in the "Godmode Player" state. While Silver Wolf LV.999 holds "Certified Banger," for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's "Top Loot Box": Deals #3[i]% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:
 "Big Flipping Sword": Additionally deals True DMG equal to #5[i]% of the total DMG dealt this time to the enemy target with the highest HP.
 "Kaboom Eggsplosion": Recovers #7[i] Skill Point(s).
@@ -154,7 +154,7 @@ The initial fixed chance to trigger the effect is 100%. After a successfully tri
 【怪怪怪味豆】：获得#6[i]个笑点。
 触发该效果的初始固定概率为100%，成功触发后下一次触发的固定概率降低至当前概率的#4[i]%。若触发前目标被消灭则对新入场的敌方目标触发。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) | 参数5(%) | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 60 | 0 | 45% | 20% | 20% | 3 | 2 |
@@ -173,7 +173,7 @@ The initial fixed chance to trigger the effect is 100%. After a successfully tri
   | Lv.14 | 60 | 0 | 108% | 20% | 20% | 3 | 2 |
   | Lv.15 | 60 | 0 | 112.5% | 20% | 20% | 3 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「头号补给盲盒】：造成___%的虚数属性欢愉伤」
@@ -182,27 +182,23 @@ The initial fixed chance to trigger the effect is 100%. After a successfully tri
   - `#6[i]`个 → 参数6：上下文「【怪怪怪味豆】：获得___个笑点。 触发该效」
   - `#7[i]`个 → 参数7：上下文「【爆爆爆炸蛋】：恢复___个战技点； 【怪怪」
 
-- **满级效果**：Enters the "Godmode Player" state, and advances action by 100%.
+- **Max Effect**：Enters the "Godmode Player" state, and advances action by 100%.
 Deploys a Zone while in the "Godmode Player" state. While Silver Wolf LV.999 holds "Certified Banger," for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.999's "Top Loot Box": Deals 112.5% Imaginary Elation DMG that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:
 "Big Flipping Sword": Additionally deals True DMG equal to 20% of the total DMG dealt this time to the enemy target with the highest HP.
 "Kaboom Eggsplosion": Recovers 2 Skill Point(s).
 "Funky Munch Bean": Gains 3 Punchline point(s).
 The initial fixed chance to trigger the effect is 100%. After a successfully trigger, the fixed chance for the next trigger is reduced to 20% of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target.
 【无敌玩家】状态下展开结界。「银狼LV.999」持有【好活当赏】时，结界内我方目标每消耗1个战技点，有概率触发1次「银狼LV.999」的【头号补给盲盒】：造成112.5%的虚数属性欢愉伤害，由敌方全体均分，并随机触发1种效果：
-【超超超大剑】：对生命值最高的敌方目标额外造成等同于本次总伤害值20%的真实伤害；
-【爆爆爆炸蛋】：恢复2个战技点；
-【怪怪怪味豆】：获得3个笑点。
-触发该效果的初始固定概率为100%，成功触发后下一次触发的固定概率降低至当前概率的20%。若触发前目标被消灭则对新入场的敌方目标触发。
 
 ### Talent：I Carry, We Win
-- **类型**：Talent
-- **简述**：After "Hidden MMR" reaches 60, the Ultimate can be activated. When gaining Punchline, gains an equal amount of "Hidden MMR". The higher the "Hidden MMR", the higher the CRIT Rate. Once CRIT Rate reaches 100%, increases CRIT DMG instead.
+- **Type**：Talent
+- **Summary**：After "Hidden MMR" reaches 60, the Ultimate can be activated. When gaining Punchline, gains an equal amount of "Hidden MMR". The higher the "Hidden MMR", the higher the CRIT Rate. Once CRIT Rate reaches 100%, increases CRIT DMG instead.
 During Transformation, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, and her Basic ATK and Elation Skill get enhanced. She exits the Transformation after using Enhanced Basic ATK 3 time(s).
 While holding "Certified Banger," using Basic ATK or Skill additionally deals Imaginary Elation DMG. And the Enhanced Basic ATK's ability DMG changes to Elation DMG.
 变身期间，「银狼LV.999」免疫控制类负面状态，普攻和欢愉技得到强化，施放3次强化普攻后退出变身。
 持有【好活当赏】时，施放普攻、战技额外造成虚数属性欢愉伤害，强化普攻的技能伤害改为欢愉伤害。
-- **最大等级**：15
-- **效果模板**：After "Hidden MMR" reaches #1[i], can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional #2[i] point(s).
+- **Max Level**：15
+- **Effect Template**：After "Hidden MMR" reaches #1[i], can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional #2[i] point(s).
 When gaining Punchline, Silver Wolf LV.999 gains an equal amount of "Hidden MMR." Each point of "Hidden MMR" increases CRIT Rate by #4[f2]%. Once CRIT Rate reaches 100%, each additional point of "Hidden MMR" instead increases CRIT DMG by #6[f2]%.
 While in the "Godmode Player" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK #5[i] time(s), she exits the "Godmode Player" state. When exiting the "Godmode Player" state, clears "Hidden MMR".
 While holding "Certified Banger," using Basic ATK or Skill deals #3[i]% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier.
@@ -210,7 +206,7 @@ While holding "Certified Banger," using Basic ATK or Skill deals #3[i]% Imaginar
 【无敌玩家】状态下，「银狼LV.999」免疫控制类负面状态，无法施放终结技，拥有强化普攻和强化欢愉技，完整施放#5[i]次强化普攻后退出【无敌玩家】状态。退出【无敌玩家】状态时【隐藏分】会被清空。
 持有【好活当赏】时，施放普攻、战技对受到攻击的敌方目标造成#3[i]%的虚数属性欢愉伤害，强化普攻的技能伤害改为相同倍率的欢愉伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 60 | 240 | 20% | 0.2% | 3 | 0.4% |
@@ -229,7 +225,7 @@ While holding "Certified Banger," using Basic ATK or Skill deals #3[i]% Imaginar
   | Lv.14 | 60 | 240 | 48% | 0.48% | 3 | 0.96% |
   | Lv.15 | 60 | 240 | 50% | 0.5% | 3 | 1% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「【隐藏分】达到___点后可激活终结技，」
   - `#2[i]`点 → 参数2：上下文「，达到上限后还可溢出___点。 获得笑点时，」
   - `#3[i]`% → 参数3(%)：上下文「到攻击的敌方目标造成___%的虚数属性欢愉伤」
@@ -237,41 +233,37 @@ While holding "Certified Banger," using Basic ATK or Skill deals #3[i]% Imaginar
   - `#5[i]`次 → 参数5：上下文「强化欢愉技，完整施放___次强化普攻后退出【」
   - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：After "Hidden MMR" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).
+- **Max Effect**：After "Hidden MMR" reaches 60, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional 240 point(s).
 When gaining Punchline, Silver Wolf LV.999 gains an equal amount of "Hidden MMR." Each point of "Hidden MMR" increases CRIT Rate by #4[f2]%. Once CRIT Rate reaches 100%, each additional point of "Hidden MMR" instead increases CRIT DMG by #6[f2]%.
 While in the "Godmode Player" state, Silver Wolf LV.999 becomes immune to Crowd Control debuffs, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK 3 time(s), she exits the "Godmode Player" state. When exiting the "Godmode Player" state, clears "Hidden MMR".
 While holding "Certified Banger," using Basic ATK or Skill deals 50% Imaginary Elation DMG to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to Elation DMG at the same multiplier.
 获得笑点时，「银狼LV.999」获得等量【隐藏分】。每点【隐藏分】使暴击率提高#4[f2]%。暴击率达到100%后，其余每点【隐藏分】改为使暴击伤害提高#6[f2]%。
 【无敌玩家】状态下，「银狼LV.999」免疫控制类负面状态，无法施放终结技，拥有强化普攻和强化欢愉技，完整施放3次强化普攻后退出【无敌玩家】状态。退出【无敌玩家】状态时【隐藏分】会被清空。
-持有【好活当赏】时，施放普攻、战技对受到攻击的敌方目标造成50%的虚数属性欢愉伤害，强化普攻的技能伤害改为相同倍率的欢愉伤害。
 
 ### Technique：This? Absolute Meta!
-- **类型**：Technique
-- **简述**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points.
+- **Type**：Technique
+- **Summary**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points.
 "Funky Munch Bean" will automatically seek out and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.
 After entering combat, triggers the Top Loot Box corresponding to "Funky Munch Bean" at the start of each wave.
 【怪怪怪味豆】会自动搜寻并攻击普通敌人，消耗1个秘技点立即将其消灭，不会进入战斗。
 进入战斗后，每个波次开始时触发【怪怪怪味豆】对应的【头号补给盲盒】。
-- **最大等级**：1
-- **效果模板**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.
+- **Max Level**：1
+- **Effect Template**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.
 "Funky Munch Bean" causes Normal Enemies within a certain range to enter a Terrified state. It will also automatically search for and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.
 While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top Loot Box" from "Funky Munch Bean" is triggered at the start of each wave. A fixed amount of #1[i] "Certified Banger" is taken into account for the Elation DMG dealt in this instance.
-【怪怪怪味豆】会使一定范围内的普通敌人陷入恐惧状态，同时自动搜寻并攻击普通敌人，消耗1个秘技点立即将其消灭，不会进入战斗。
 【怪怪怪味豆】在场时，进入战斗后每个波次开始时触发1次【怪怪怪味豆】对应的【头号补给盲盒】，本次造成的欢愉伤害固定计入#1[i]点【好活当赏】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 99 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「成的欢愉伤害固定计入___点【好活当赏】。」
 
-- **满级效果**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.
+- **Max Effect**：Summons "Funky Munch Bean." Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.
 "Funky Munch Bean" causes Normal Enemies within a certain range to enter a Terrified state. It will also automatically search for and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.
 While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top Loot Box" from "Funky Munch Bean" is triggered at the start of each wave. A fixed amount of 99 "Certified Banger" is taken into account for the Elation DMG dealt in this instance.
-【怪怪怪味豆】会使一定范围内的普通敌人陷入恐惧状态，同时自动搜寻并攻击普通敌人，消耗1个秘技点立即将其消灭，不会进入战斗。
-【怪怪怪味豆】在场时，进入战斗后每个波次开始时触发1次【怪怪怪味豆】对应的【头号补给盲盒】，本次造成的欢愉伤害固定计入99点【好活当赏】。
 
 ## Trace Bonuses
 
@@ -332,38 +324,40 @@ While "Funky Munch Bean" is present, after entering combat, 1 instance of "Top L
 
 ### [[zh_cn/lightcone/欢愉/欢迎来到银河城.md|Welcome to the Cosmic City]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：稳赢
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】，造成的欢愉伤害无视目标【20%/24%/28%/32%/36%】的防御力。当装备者对自身单体施放终结技时，获得【20/25/30/35/40】点【笑点】。该效果最多触发1次，施放3次普攻后重置可触发次数。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Guaranteed Victory
+- **Effect**：Increases the wearer's SPD by 18%. The Elation DMG dealt ignores 20% of the target's DEF. When the wearer uses Ultimate on themselves, gains 20 point(s) of "Punchline." This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).
 
 ### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
 
-- **基础属性**：生953 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：憧憬
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
+- **Base Stats**：HP953 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Decision
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses an Elation Skill, increases Elation by 12%, stacking up to 2 times.
 
 ### [[zh_cn/lightcone/欢愉/当她决定看见.md|When She Decided to See]]
 
-- **基础属性**：生1058 攻529 防529
-- **推荐度**：★★★★
-- **技能名**：破局
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者进入战斗或对我方目标施放终结技时，使装备者获得【上上签】，持续3回合。当装备者持有【上上签】时，我方全体暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【30%/37.5%/45%/52.5%/60%】，装备者自身能量恢复效率提高【12%/14%/16%/18%/20%】。 每个波次开始时，装备者固定恢复15点能量。
+- **Base Stats**：HP1058 ATK529 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Game Changer
+- **Effect**：Increases the wearer's SPD by 18%. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains "Great Fortune" for 3 turn(s). While the wearer holds "Great Fortune," all allies' CRIT Rate increases by 10%, CRIT DMG increases by 30%, and the wearer's Energy Regeneration Rate increases by 12%.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
 
 ### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
 
-- **基础属性**：生847 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：乱斗
-- **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
+- **Base Stats**：HP847 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Rumble
+- **Effect**：Increases the wearer's Elation by 12%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by 6% for 2 turn(s).
 
 ### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
-- **基础属性**：生953 攻476 防331
-- **推荐度**：★★★★
-- **技能名**：同行
-- **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
+- **Base Stats**：HP953 ATK476 DEF331
+- **Rating**：★★★★
+- **Skill Name**：Companion
+- **Effect**：Increases the wearer's CRIT DMG by 12%. After the wearer uses their Ultimate, increases all allies' Elation by 8%, lasting for 1 turn(s).
 
 ## Recommended Teams
 

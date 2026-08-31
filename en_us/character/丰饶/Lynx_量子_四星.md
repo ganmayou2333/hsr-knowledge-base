@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Ice Crampon Technique
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of this character's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of this character's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -92,20 +92,20 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于自身___%生命上限的量子属」
 
-- **满级效果**：Deals Quantum DMG equal to 70% of this character's Max HP to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 70% of this character's Max HP to one designated enemy.
 
 ### Skill：Salted Camping Cans
-- **类型**：Skill
-- **简述**：Applies "Survival Response" to a single ally, increases their Max HP, and restores their HP.
-- **最大等级**：15
-- **效果模板**：Applies "Survival Response" to a single target ally and increases their Max HP by #1[f1]% of Lynx's Max HP plus #2[i]. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. "Survival Response" lasts for #3[i] turn(s).
+- **Type**：Skill
+- **Summary**：Applies "Survival Response" to a single ally, increases their Max HP, and restores their HP.
+- **Max Level**：15
+- **Effect Template**：Applies "Survival Response" to a single target ally and increases their Max HP by #1[f1]% of Lynx's Max HP plus #2[i]. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. "Survival Response" lasts for #3[i] turn(s).
 Restores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].
 使该目标回复等同于玲可#4[f1]%生命上限+#5[i]的生命值。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 5% | 50 | 2 | 8% | 80 | 5 |
@@ -124,7 +124,7 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].
   | Lv.14 | 8.5% | 245 | 2 | 13.6% | 392 | 5 |
   | Lv.15 | 8.75% | 256.25 | 2 | 14% | 410 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命上限，若该目」
   - `#3[i]`回 → 参数3：上下文「高，【求生反应】持续___回合。 使该目标回」
@@ -132,17 +132,17 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].
   - `#5[i]`的 → 参数5：上下文「[f1]%生命上限+___的生命值。」
   - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Applies "Survival Response" to a single target ally and increases their Max HP by #1[f1]% of Lynx's Max HP plus 256.25. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. "Survival Response" lasts for 2 turn(s).
+- **Max Effect**：Applies "Survival Response" to a single target ally and increases their Max HP by #1[f1]% of Lynx's Max HP plus 256.25. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. "Survival Response" lasts for 2 turn(s).
 Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 使该目标回复等同于玲可#4[f1]%生命上限+410的生命值。
 
 ### Ultimate：Snowfield First Aid
-- **类型**：Ultimate
-- **简述**：Dispels 1 debuff from all allies and restores their HP.
-- **最大等级**：15
-- **效果模板**：Dispels #1[i] debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i].
+- **Type**：Ultimate
+- **Summary**：Dispels 1 debuff from all allies and restores their HP.
+- **Max Level**：15
+- **Effect Template**：Dispels #1[i] debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 1 | 9% | 90 |
@@ -161,20 +161,20 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
   | Lv.14 | 1 | 15.3% | 441 |
   | Lv.15 | 1 | 15.75% | 461.25 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`个 → 参数1：上下文「解除我方全体的___个负面效果，立即为」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`的 → 参数3：上下文「[f1]%生命上限+___的生命值。」
 
-- **满级效果**：Dispels 1 debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus 461.25.
+- **Max Effect**：Dispels 1 debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus 461.25.
 
 ### Talent：Outdoor Survival Experience
-- **类型**：Talent
-- **简述**：When using Skill or Ultimate, applies continuous healing on the target ally. If the target has "Survival Response," the continuous healing effect additionally increases.
-- **最大等级**：15
-- **效果模板**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].
+- **Type**：Talent
+- **Summary**：When using Skill or Ultimate, applies continuous healing on the target ally. If the target has "Survival Response," the continuous healing effect additionally increases.
+- **Max Level**：15
+- **Effect Template**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 2 | 2.4% | 24 | 3% | 30 |
@@ -193,30 +193,30 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
   | Lv.14 | 2 | 4.08% | 117.6 | 5.1% | 147 |
   | Lv.15 | 2 | 4.2% | 123 | 5.25% | 153.75 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「技时，使我方目标获得___回合的持续治疗效果」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`的 → 参数3：上下文「[f1]%生命上限+___的生命值。若该目标」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
   - `#5[i]`的 → 参数5：上下文「[f1]%生命上限+___的生命值。」
 
-- **满级效果**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus 123 at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus 153.75.
+- **Max Effect**：When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus 123 at the start of each turn. If the target has "Survival Response," the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus 153.75.
 
 ### Technique：Chocolate Energy Bar
-- **类型**：Technique
-- **简述**：After this character uses her Technique, at the start of the next battle, all allies are granted a continuous healing effect.
-- **最大等级**：1
-- **效果模板**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).
+- **Type**：Technique
+- **Summary**：After this character uses her Technique, at the start of the next battle, all allies are granted a continuous healing effect.
+- **Max Level**：1
+- **Effect Template**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「的持续治疗效果，持续___回合。」
 
-- **满级效果**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for 2 turn(s).
+- **Max Effect**：After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -277,31 +277,31 @@ Restores the target's HP by #4[f1]% of Lynx's Max HP plus 410.
 
 ### [[zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
 
-- **基础属性**：生1270 攻476 防463
-- **推荐度**：★★★★★
-- **技能名**：日有四时
-- **效果**：使装备者生命上限提高【18%/21%/24%/27%/30%】，治疗量提高【12%/14%/16%/18%/20%】。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的【36%/42%/48%/54%/60%】，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
+- **Base Stats**：HP1270 ATK476 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Morn, Noon, Dusk, and Night
+- **Effect**：Increases the wearer's Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.
 
 ### [[zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：深度深呼吸
-- **效果**：使装备者的能量恢复效率提高【12%/14%/16%/18%/20%】。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其【10%/11%/12%/13%/14%】生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高【2.4%/2.8%/3.2%/3.6%/4.0%】，该效果最多叠加5层，持续2回合。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deep, Deep Breaths
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
 
 ### [[zh_cn/lightcone/丰饶/一场术后对话.md|Post-Op Conversation]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★★
-- **技能名**：互相治愈
-- **效果**：使装备者的能量恢复效率提高【8%/10%/12%/14%/16%】，并在施放终结技时治疗量提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Mutual Healing
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.
 
 ### [[zh_cn/lightcone/丰饶/此时恰好.md|Perfect Timing]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：折射的视线
-- **效果**：使装备者的效果抵抗提高【16%/20%/24%/28%/32%】，并使装备者的治疗量提高，提高数值等同于效果抵抗的【33%/36%/39%/42%/45%】，最多使治疗量提高【15%/18%/21%/24%/27%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Refraction of Sightline
+- **Effect**：Increases the wearer's Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.
 
 ## Recommended Teams
 

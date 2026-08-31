@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Lo, Hope Takes Flight!
-- **类型**：Basic ATK
-- **简述**：Gains "Recollection" and deals minor Ice DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Gains #2[i] "Recollection" point(s) and deals Ice DMG equal to #1[i]% of Cyrene's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Gains "Recollection" and deals minor Ice DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Gains #2[i] "Recollection" point(s) and deals Ice DMG equal to #1[i]% of Cyrene's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 25% | 1 |
@@ -94,19 +94,19 @@
   | Lv.9 | 65% | 1 |
   | Lv.10 | 70% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于昔涟___%生命上限的冰属性」
   - `#2[i]`点 → 参数2：上下文「获得___点【追忆】并对指定」
 
-- **满级效果**：Gains 1 "Recollection" point(s) and deals Ice DMG equal to 70% of Cyrene's Max HP to one designated enemy.
+- **Max Effect**：Gains 1 "Recollection" point(s) and deals Ice DMG equal to 70% of Cyrene's Max HP to one designated enemy.
 
 ### Skill：Bloom, Elysium of Beyond
-- **类型**：Skill
-- **简述**：Gains "Recollection" and deploys a Zone. Additionally deals True DMG after all ally targets deal DMG.
-- **最大等级**：15
-- **效果模板**：Gains #3[i] "Recollection" point(s) and deploys a Zone that lasts for #2[i] turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to #1[i]% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
+- **Type**：Skill
+- **Summary**：Gains "Recollection" and deploys a Zone. Additionally deals True DMG after all ally targets deal DMG.
+- **Max Level**：15
+- **Effect Template**：Gains #3[i] "Recollection" point(s) and deploys a Zone that lasts for #2[i] turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to #1[i]% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 12% | 2 | 3 |
@@ -125,22 +125,22 @@
   | Lv.14 | 28.8% | 2 | 3 |
   | Lv.15 | 30% | 2 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成1次等同于原伤害___%的真实伤害。当昔」
   - `#2[i]`回 → 参数2：上下文「忆】并展开结界，持续___回合，昔涟每回合开」
   - `#3[i]`点 → 参数3：上下文「获得___点【追忆】并展开结」
 
-- **满级效果**：Gains 3 "Recollection" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 30% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
+- **Max Effect**：Gains 3 "Recollection" point(s) and deploys a Zone that lasts for 2 turns. The Zone's duration decreases by 1 at the start of Cyrene's every turn. While the Zone lasts, for each instance of DMG dealt by all ally targets, deals 1 additional instance of True DMG equal to 30% of the original DMG. When Cyrene is downed, the Zone will also be dispelled.
 
 ### Ultimate：Verse ◦ Vow ∞
-- **类型**：Ultimate
-- **简述**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state and gains Enhanced Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate, and deploys the Zone effect from Skill with no duration limit.
-- **最大等级**：15
-- **效果模板**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state. Enhances Basic ATK to "To Love and Tomorrow ♪" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by #3[i]%, and deploys the Zone effect from Skill with no duration limit.
+- **Type**：Ultimate
+- **Summary**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state and gains Enhanced Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate, and deploys the Zone effect from Skill with no duration limit.
+- **Max Level**：15
+- **Effect Template**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state. Enhances Basic ATK to "To Love and Tomorrow ♪" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by #3[i]%, and deploys the Zone effect from Skill with no duration limit.
 Can only be used once per battle. Demiurge's initial Max HP equals to #1[i]% of Cyrene's Max HP.
 单场战斗中只能施放1次。德谬歌初始拥有等同于昔涟#1[i]%生命上限的生命上限。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 100% | 24 | 25% | 12 |
@@ -159,23 +159,22 @@ Can only be used once per battle. Demiurge's initial Max HP equals to #1[i]% of 
   | Lv.14 | 100% | 24 | 60% | 12 |
   | Lv.15 | 100% | 24 | 62.5% | 12 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「歌初始拥有等同于昔涟___%生命上限的生命上」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「和德谬歌的暴击率提高___%，展开战技的结界」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state. Enhances Basic ATK to "To Love and Tomorrow ♪" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 62.5%, and deploys the Zone effect from Skill with no duration limit.
+- **Max Effect**：Summons memosprite Demiurge, causes it to immediately gain 1 extra turn, and activates all teammates' Ultimate. Then, enters the "Ripples of Past Reverie" state. Enhances Basic ATK to "To Love and Tomorrow ♪" and can only use this Basic ATK. Increases Cyrene's and Demiurge's CRIT Rate by 62.5%, and deploys the Zone effect from Skill with no duration limit.
 Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cyrene's Max HP.
-单场战斗中只能施放1次。德谬歌初始拥有等同于昔涟100%生命上限的生命上限。
 
 ### Talent：Hearts Gather as One
-- **类型**：Talent
-- **简述**：When combat begins or after Cyrene takes action, teammates and their memosprites gain "Future." When ally targets with "Future" take action, Cyrene gains "Recollection." While Cyrene is on the field, increases DMG dealt by ally targets.
-- **最大等级**：15
-- **效果模板**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene #1[i] "Recollection" point(s). When Cyrene has #4[i] "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has #5[i] "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to #3[i] points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
+- **Type**：Talent
+- **Summary**：When combat begins or after Cyrene takes action, teammates and their memosprites gain "Future." When ally targets with "Future" take action, Cyrene gains "Recollection." While Cyrene is on the field, increases DMG dealt by ally targets.
+- **Max Level**：15
+- **Effect Template**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene #1[i] "Recollection" point(s). When Cyrene has #4[i] "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has #5[i] "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to #3[i] points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 1 | 10% | 27 | 24 | 12 |
@@ -194,31 +193,31 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
   | Lv.14 | 1 | 24% | 27 | 24 | 12 |
   | Lv.15 | 1 | 25% | 27 | 24 | 12 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「耗【未来】使昔涟获得___点【追忆】。昔涟在」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`点 → 参数3：上下文「上限后还可最多溢出至___点。昔涟在场时，我」
   - `#4[i]`点 → 参数4：上下文「。昔涟在【追忆】达到___点时可激活终结技并」
   - `#5[i]`点 → 参数5：上下文「状态时在【追忆】达到___点时可激活终结技，」
 
-- **满级效果**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene 1 "Recollection" point(s). When Cyrene has 24 "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has 12 "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
+- **Max Effect**：When combat begins or after Cyrene takes action, other ally characters under any state and their memosprites gain "Future." When ally targets with "Future" take action, consumes "Future" to grant Cyrene 1 "Recollection" point(s). When Cyrene has 24 "Recollection" points, can activate Ultimate and dispel all debuffs on her. When she has 12 "Recollection" points during the "Ripples of Past Reverie" state, can activate Ultimate. After reaching the maximum, it can overflow by up to 27 points. While Cyrene is on the field, increases DMG dealt by all ally targets by #2[f1]%.
 
 ### Technique：Peace at West Wind's End
-- **类型**：Technique
-- **简述**：Creates a Special Dimension around the character. Enemies within this dimension enter the "This Moment, Forever" state while ally characters within this dimension have increased movement speed. After entering combat, deploys the Skill's Zone.
-- **最大等级**：1
-- **效果模板**：After using Technique, creates a Special Dimension that lasts for #1[i] second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have #2[i]% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension around the character. Enemies within this dimension enter the "This Moment, Forever" state while ally characters within this dimension have increased movement speed. After entering combat, deploys the Skill's Zone.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates a Special Dimension that lasts for #1[i] second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have #2[i]% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 30 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「自身周围制造1片持续___秒的特殊领域，处于」
   - `#2[i]`% → 参数2(%)：上下文「我方角色移动速度提高___%。持续时间内进入」
 
-- **满级效果**：After using Technique, creates a Special Dimension that lasts for 30 second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have 50% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
+- **Max Effect**：After using Technique, creates a Special Dimension that lasts for 30 second(s) around the character. Enemies within this Special Dimension enter the "This Moment, Forever" state. While in this state, enemies will cease all actions. Ally characters within this Special Dimension have 50% increased movement speed. After entering combat within the duration, deploys the Skill's Zone. Only 1 Dimension Effect created by allies can exist at the same time.
 
 ## Trace Bonuses
 
@@ -278,22 +277,22 @@ Can only be used once per battle. Demiurge's initial Max HP equals to 100% of Cy
 ## Recommended Light Cones
 
 ### [[zh_cn/lightcone/记忆/爱如此刻永恒.md|This Love, Forever]]
-- **基础属性**：生1270 攻476 防463
-- **推荐度**：★★★★★
-- **技能名**：约定
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者的忆灵对我方单体施放忆灵技时获得【空白】：敌方全体受到的伤害提高【10%/12%/14%/16%/18%】。装备者的忆灵对敌方施放忆灵技时获得【诗行】：我方全体的暴击伤害提高【16%/19%/22%/25%/28%】。装备者的忆灵同时持有【空白】和【诗行】时，【空白】和【诗行】的效果提高【60%/65%/70%/75%/80%】。
+- **Base Stats**：HP1270 ATK476 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：A Promise
+- **Effect**：Increases the wearer's SPD by 18%. When the wearer's memosprite uses Memosprite Skill on one ally, gains "Blank," which increases DMG taken by all enemies by 10%. When the wearer's memosprite uses Memosprite Skill on an enemy, gains "Verse," which increases CRIT DMG of all allies by 16%. When the wearer's memosprite has both "Blank" and "Verse," increases the effects of both "Blank" and "Verse" by 60%.
 
 ### [[zh_cn/lightcone/记忆/记忆永不落幕.md|Memory's Curtain Never Falls]]
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：收取
-- **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Reception
+- **Effect**：Increases the wearer's SPD by #1[f1]%. After the wearer uses Skill, increases the DMG dealt by all allies by 8%, lasting for 3 turn(s).
 
 ### [[zh_cn/lightcone/记忆/胜利只在朝夕间.md|Victory In a Blink]]
-- **基础属性**：生847 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：最后一击
-- **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】，当装备者的忆灵对我方目标施放技能时，使我方全体目标造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
+- **Base Stats**：HP847 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Final Hit
+- **Effect**：Increases the wearer's CRIT DMG by 12%. When the wearer's memosprite uses an ability on an ally target, increases the DMG dealt by all ally targets by 8%, lasting for 3 turn(s).
 
 ## Recommended Teams
 

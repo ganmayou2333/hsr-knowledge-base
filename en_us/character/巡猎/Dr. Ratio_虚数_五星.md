@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Mind is Might
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one designated enemy target.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy target.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于真理医生___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of Dr. Ratio's ATK to one designated enemy target.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Dr. Ratio's ATK to one designated enemy target.
 
 ### Skill：Intellectual Midwifery
-- **类型**：Skill
-- **简述**：Deals Imaginary DMG to one designated enemy.
-- **最大等级**：15
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
+- **Type**：Skill
+- **Summary**：Deals Imaginary DMG to one designated enemy.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 75% |
@@ -122,20 +122,20 @@
   | Lv.14 | 180% |
   | Lv.15 | 187.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于真理医生___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 187.5% of Dr. Ratio's ATK to one designated enemy target.
+- **Max Effect**：Deals Imaginary DMG equal to 187.5% of Dr. Ratio's ATK to one designated enemy target.
 
 ### Ultimate：Syllogistic Paradox
-- **类型**：Ultimate
-- **简述**：Deals Imaginary DMG to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of Follow-Up ATK on this target.
-- **最大等级**：15
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.
+- **Type**：Ultimate
+- **Summary**：Deals Imaginary DMG to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of Follow-Up ATK on this target.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.
 "Wiseman's Folly" can be triggered for up to #2[i] times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.
 【智者的短见】效果最多触发#2[i]次且仅对真理医生终结技最新施放的目标生效。施放终结技后重置该效果触发次数。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 144% | 2 |
@@ -154,21 +154,20 @@
   | Lv.14 | 278.4% | 2 |
   | Lv.15 | 288% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「体造成等同于真理医生___%攻击力的虚数属性」
   - `#2[i]`次 → 参数2：上下文「的短见】效果最多触发___次且仅对真理医生终」
 
-- **满级效果**：Deals Imaginary DMG equal to 288% of Dr. Ratio's ATK to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.
+- **Max Effect**：Deals Imaginary DMG equal to 288% of Dr. Ratio's ATK to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.
 "Wiseman's Folly" can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.
-【智者的短见】效果最多触发2次且仅对真理医生终结技最新施放的目标生效。施放终结技后重置该效果触发次数。
 
 ### Talent：Cogito, Ergo Sum
-- **类型**：Talent
-- **简述**：When using Skill, there is a chance to launch 1 instance of Follow-Up ATK on the target, dealing Imaginary DMG.
-- **最大等级**：15
-- **效果模板**：When using his Skill, Dr. Ratio has a #2[i]% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by #3[i]%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
+- **Type**：Talent
+- **Summary**：When using Skill, there is a chance to launch 1 instance of Follow-Up ATK on the target, dealing Imaginary DMG.
+- **Max Level**：15
+- **Effect Template**：When using his Skill, Dr. Ratio has a #2[i]% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by #3[i]%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 135% | 40% | 20% |
@@ -187,31 +186,31 @@
   | Lv.14 | 324% | 40% | 20% |
   | Lv.15 | 337.5% | 40% | 20% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「，造成等同于真理医生___%攻击力的虚数属性」
   - `#2[i]`% → 参数2(%)：上下文「施放战技时，有___%的固定概率对该目」
   - `#3[i]`% → 参数3(%)：上下文「击发动的固定概率提高___%。若追加攻击施放」
 
-- **满级效果**：When using his Skill, Dr. Ratio has a 40% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to 337.5% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by 20%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
+- **Max Effect**：When using his Skill, Dr. Ratio has a 40% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to 337.5% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by 20%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
 
 ### Technique：Mold of Idolatry
-- **类型**：Technique
-- **简述**：Creates a Special Dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.
-- **最大等级**：1
-- **效果模板**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this Special Dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this Special Dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 10 | 100% | 15% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「域嘲讽附近敌人，持续___秒。与处于特殊领域」
   - `#2[i]`% → 参数2(%)：上下文「的敌人进入战斗后，有___%基础概率使敌方每」
   - `#3[i]`% → 参数3(%)：上下文「每个单体目标速度降低___%，持续#4[i]」
   - `#4[i]`回 → 参数4：上下文「低#3[i]%，持续___回合。我方制造的领」
 
-- **满级效果**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for 10 second(s). After entering battle with enemies in this Special Dimension, there is a 100% base chance to reduce each single enemy target's SPD by 15% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
+- **Max Effect**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for 10 second(s). After entering battle with enemies in this Special Dimension, there is a 100% base chance to reduce each single enemy target's SPD by 15% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
 
 ## Trace Bonuses
 
@@ -272,31 +271,31 @@
 
 ### [[zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|Baptism of Pure Thought]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：思想训练
-- **效果**：使装备者的暴击伤害提高【20%/23%/26%/29%/32%】。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高【8%/9%/10%/11%/12%】，最多叠加3层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高【36%/42%/48%/54%/60%】，追加攻击无视目标【24%/28%/32%/36%/40%】的防御力，该效果持续2回合。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Mental Training
+- **Effect**：Increases the wearer's CRIT DMG by 20%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target additionally increases by 8%, stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the "Disputation" effect, which increases DMG dealt by 36% and enables their Follow-Up ATKs to ignore 24% of the target's DEF. This effect lasts for 2 turns.
 
 ### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：一个一个来
-- **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：One At A Time
+- **Effect**：Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
 
 ### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★
-- **技能名**：美梦
-- **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ## Recommended Teams
 

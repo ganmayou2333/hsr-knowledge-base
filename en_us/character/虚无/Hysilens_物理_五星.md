@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Aeolian Mode: Echoes in Still Waters
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Hysilens's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Hysilens's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 50% | 1 | 3 |
@@ -94,20 +94,20 @@
   | Lv.9 | 130% | 1 | 3 |
   | Lv.10 | 140% | 1 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于海瑟音___%攻击力的物理属性」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Deals Physical DMG equal to 140% of Hysilens's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Hysilens's ATK to one designated enemy.
 
 ### Skill：Overtone Hum: Chorus After Dark Tides
-- **类型**：Skill
-- **简述**：There is a high chance to increase the DMG taken by all enemies, and deals Physical DMG to them.
-- **最大等级**：15
-- **效果模板**：Has a #2[i]% base chance to increase the DMG taken by all enemies by #3[i]%, lasting for #4[i] turn(s). At the same time, deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.
+- **Type**：Skill
+- **Summary**：There is a high chance to increase the DMG taken by all enemies, and deals Physical DMG to them.
+- **Max Level**：15
+- **Effect Template**：Has a #2[i]% base chance to increase the DMG taken by all enemies by #3[i]%, lasting for #4[i] turn(s). At the same time, deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 70% | 100% | 10% | 3 |
@@ -126,25 +126,25 @@
   | Lv.14 | 168% | 100% | 24% | 3 |
   | Lv.15 | 175% | 100% | 25% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于海瑟音___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「有___%的基础概率使敌方」
   - `#3[i]`% → 参数3(%)：上下文「方全体受到的伤害提高___%，持续#4[i]」
   - `#4[i]`回 → 参数4：上下文「高#3[i]%，持续___回合，同时对敌方全」
 
-- **满级效果**：Has a 100% base chance to increase the DMG taken by all enemies by 25%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 175% of Hysilens's ATK to all enemies.
+- **Max Effect**：Has a 100% base chance to increase the DMG taken by all enemies by 25%, lasting for 3 turn(s). At the same time, deals Physical DMG equal to 175% of Hysilens's ATK to all enemies.
 
 ### Ultimate：Maelstrom Rhapsody
-- **类型**：Ultimate
-- **简述**：Deploys a Zone that reduces all enemies' ATK and DEF, and deals Physical DMG to them. While the Zone exists, for every 1 instance of DoT received by enemy targets, deals 1 instance of Physical DoT to them.
-- **最大等级**：15
-- **效果模板**：Hysilens deploys a Zone that reduces enemy targets' ATK by #6[f1]% and DEF by #3[f1]%, and deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.
+- **Type**：Ultimate
+- **Summary**：Deploys a Zone that reduces all enemies' ATK and DEF, and deals Physical DMG to them. While the Zone exists, for every 1 instance of DoT received by enemy targets, deals 1 instance of Physical DoT to them.
+- **Max Level**：15
+- **Effect Template**：Hysilens deploys a Zone that reduces enemy targets' ATK by #6[f1]% and DEF by #3[f1]%, and deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.
 For every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to #4[f1]% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to #5[i] time(s). And it cannot repeatedly trigger this effect.
 The Zone lasts for #2[i] turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled.
 处于结界中的敌方目标每受到1次持续伤害，海瑟音对其造成等同于自身#4[f1]%攻击力的物理属性持续伤害，该伤害在每回合开始时或我方目标单次攻击后触发，且最多触发#5[i]次。该伤害不会重复触发此效果。
 结界持续#2[i]回合，自身每回合开始时结界持续回合数减1。当海瑟音陷入无法战斗状态时，结界也会被解除。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 120% | 3 | 15% | 32% | 8 | 15% |
@@ -163,7 +163,7 @@ The Zone lasts for #2[i] turn(s) and this duration decreases by 1 at the start o
   | Lv.14 | 232% | 3 | 29% | 96% | 8 | 15% |
   | Lv.15 | 240% | 3 | 30% | 1 | 8 | 15% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于海瑟音___%攻击力的物理属性」
   - `#2[i]`回 → 参数2：上下文「发此效果。 结界持续___回合，自身每回合开」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -171,23 +171,22 @@ The Zone lasts for #2[i] turn(s) and this duration decreases by 1 at the start o
   - `#5[i]`次 → 参数5：上下文「击后触发，且最多触发___次。该伤害不会重复」
   - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Hysilens deploys a Zone that reduces enemy targets' ATK by #6[f1]% and DEF by #3[f1]%, and deals Physical DMG equal to 240% of Hysilens's ATK to all enemies.
+- **Max Effect**：Hysilens deploys a Zone that reduces enemy targets' ATK by #6[f1]% and DEF by #3[f1]%, and deals Physical DMG equal to 240% of Hysilens's ATK to all enemies.
 For every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to #4[f1]% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to 8 time(s). And it cannot repeatedly trigger this effect.
 The Zone lasts for 3 turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled.
 处于结界中的敌方目标每受到1次持续伤害，海瑟音对其造成等同于自身#4[f1]%攻击力的物理属性持续伤害，该伤害在每回合开始时或我方目标单次攻击后触发，且最多触发8次。该伤害不会重复触发此效果。
-结界持续3回合，自身每回合开始时结界持续回合数减1。当海瑟音陷入无法战斗状态时，结界也会被解除。
 
 ### Talent：Sirenic Serenade
-- **类型**：Talent
-- **简述**：When an ally target attacks, Hysilens has a high chance to inflict the hit enemy target with one of the following states: Wind Shear/Bleed/Burn/Shock.
-- **最大等级**：15
-- **效果模板**：When an ally target attacks, there is a #1[i]% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.
+- **Type**：Talent
+- **Summary**：When an ally target attacks, Hysilens has a high chance to inflict the hit enemy target with one of the following states: Wind Shear/Bleed/Burn/Shock.
+- **Max Level**：15
+- **Effect Template**：When an ally target attacks, there is a #1[i]% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.
 While in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to #2[f1]% of Hysilens's ATK for #5[i] turn(s).
 While in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to #3[f1]% of their Max HP, up to #4[f1]% of Hysilens's ATK, lasting for #5[i] turn(s).
 风化/灼烧/触电状态下，敌方目标每回合开始时受到等同于海瑟音#2[f1]%攻击力的风/火/雷属性的持续伤害，持续#5[i]回合。
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过海瑟音攻击力的#4[f1]%，持续#5[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 10% | 20% | 10% | 2 |
@@ -206,40 +205,39 @@ While in the Bleed state, at the start of each turn, the enemy target takes Phys
   | Lv.14 | 100% | 30% | 20% | 30% | 2 |
   | Lv.15 | 100% | 31.25% | 20% | 31.25% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标攻击时，海瑟音有___%的基础概率使被击」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
   - `#5[i]`回 → 参数5：上下文「#4[f1]%，持续___回合。」
 
-- **满级效果**：When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.
+- **Max Effect**：When an ally target attacks, there is a 100% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.
 While in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to #2[f1]% of Hysilens's ATK for 2 turn(s).
 While in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to #3[f1]% of their Max HP, up to #4[f1]% of Hysilens's ATK, lasting for 2 turn(s).
 风化/灼烧/触电状态下，敌方目标每回合开始时受到等同于海瑟音#2[f1]%攻击力的风/火/雷属性的持续伤害，持续2回合。
 裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过海瑟音攻击力的#4[f1]%，持续2回合。
 
 ### Technique：At Ocean's Abode
-- **类型**：Technique
-- **简述**：Creates a Special Dimension. Enemies within the dimension will not attack ally targets. After entering combat with enemies within the dimension, there's a high chance to inflict 2 state(s) from Wind Shear/Bleed/Burn/Shock on each enemy target.
-- **最大等级**：1
-- **效果模板**：After using Technique, creates a Special Dimension that lasts for #1[i] seconds and automatically moves forward. Enemies within the Special Dimension enter the "Soulstruck" state. "Soulstruck" enemies will not attack ally targets and will follow the dimension while it persists.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension. Enemies within the dimension will not attack ally targets. After entering combat with enemies within the dimension, there's a high chance to inflict 2 state(s) from Wind Shear/Bleed/Burn/Shock on each enemy target.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates a Special Dimension that lasts for #1[i] seconds and automatically moves forward. Enemies within the Special Dimension enter the "Soulstruck" state. "Soulstruck" enemies will not attack ally targets and will follow the dimension while it persists.
 After entering combat with "Soulstruck" enemies, there is a #2[i]% base chance to inflict each enemy target with #3[i] of the following states: Wind Shear/Bleed/Burn/Shock, all of which are equivalent to those provided by Hysilens's Talent effect. Only 1 Dimension Effect created by allies can exist at the same time.
 与处于【醉心】状态下的敌人进入战斗后，有#2[i]%的基础概率使敌方每个单体目标陷入与海瑟音天赋效果相同的风化/裂伤/灼烧/触电其中#3[i]种状态。我方制造的领域效果最多存在1个。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 20 | 100% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「秘技后，制造一个持续___秒并自动向前移动的」
   - `#2[i]`% → 参数2(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
   - `#3[i]`种 → 参数3：上下文「裂伤/灼烧/触电其中___种状态。我方制造的」
 
-- **满级效果**：After using Technique, creates a Special Dimension that lasts for 20 seconds and automatically moves forward. Enemies within the Special Dimension enter the "Soulstruck" state. "Soulstruck" enemies will not attack ally targets and will follow the dimension while it persists.
+- **Max Effect**：After using Technique, creates a Special Dimension that lasts for 20 seconds and automatically moves forward. Enemies within the Special Dimension enter the "Soulstruck" state. "Soulstruck" enemies will not attack ally targets and will follow the dimension while it persists.
 After entering combat with "Soulstruck" enemies, there is a 100% base chance to inflict each enemy target with 2 of the following states: Wind Shear/Bleed/Burn/Shock, all of which are equivalent to those provided by Hysilens's Talent effect. Only 1 Dimension Effect created by allies can exist at the same time.
-与处于【醉心】状态下的敌人进入战斗后，有100%的基础概率使敌方每个单体目标陷入与海瑟音天赋效果相同的风化/裂伤/灼烧/触电其中2种状态。我方制造的领域效果最多存在1个。
 
 ## Trace Bonuses
 
@@ -299,31 +297,31 @@ After entering combat with "Soulstruck" enemies, there is a 100% base chance to 
 
 ### [[zh_cn/lightcone/虚无/海洋为何而歌.md|Why Does the Ocean Sing]]
 
-- **基础属性**：生953 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：独奏
-- **效果**：使装备者的效果命中提高【40%/45%/50%/55%/60%】，当有敌方目标陷入装备者施加的负面效果时，有80%的基础概率使其陷入【魂迷】状态，持续3回合，同类效果无法叠加。【魂迷】状态下，每有1个装备者施加的负面效果，受到的持续伤害提高【5%/6.25%/7.5%/8.75%/10%】，该效果最多叠加6层，受到我方目标攻击时，使攻击者速度提高【10%/12.5%/15%/17.5%/20%】，持续3回合。当装备者陷入无法战斗状态时，移除所有【魂迷】。
+- **Base Stats**：HP953 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Solo
+- **Effect**：Increases the wearer's Effect Hit Rate by 40%. When an enemy target gets inflicted with a debuff by the wearer, there is a 80% base chance for them to enter "Enthrallment," lasting for 3 turn(s). Effects of the same type cannot stack. While the target is in "Enthrallment," for every 1 debuff applied by the wearer on the target, increases the target's received DoT by #4[f1]%, stacking up to 6 time(s). When the target gets attacked by an ally, increases the attacker's SPD by #6[f1]% for 3 turn(s). When the wearer gets knocked down, removes all "Enthrallment."
 
 ### [[zh_cn/lightcone/虚无/那无数个春天.md|Those Many Springs]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：世事无痕
-- **效果**：使装备者的效果命中提高【60%/70%/80%/90%/100%】，装备者施放普攻、战技、终结技攻击敌方目标后，有60%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高【10%/12%/14%/16%/18%】，持续2回合。若目标处于装备者施加的持续伤害状态，则有60%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高【14%/16%/18%/20%/22%】，持续2回合，期间装备者无法对其施加【卸甲】。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Worldly Affairs Leave No Mark
+- **Effect**：Increases the wearer's Effect Hit Rate by 60%. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a 60% base chance to inflict "Unarmored" on the target. While in the Unarmored state, the enemy target receives 10% increased DMG, lasting for 2 turn(s). If the target is under a DoT state inflicted by the wearer, there is a 60% base chance to upgrade the "Unarmored" state inflicted by the wearer to the "Cornered" state, which additionally increases the DMG the enemy target receives by 14%, lasting for 2 turn(s). During this period, the wearer cannot inflict "Unarmored" on the target.
 
 ### [[zh_cn/lightcone/虚无/重塑时光之忆.md|Reforged Remembrance]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：结晶
-- **效果**：使装备者的效果命中提高【40%/45%/50%/55%/60%】。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加4层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高【5%/6%/7%/8%/9%】，造成的持续伤害无视目标【7.2%/7.9%/8.6%/9.3%/10.0%】的防御力。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Crystallize
+- **Effect**：Increases the wearer's Effect Hit Rate by 40%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by 5% and enables the DoT dealt to ignore #3[f1]% of the target's DEF.
 
 ### [[zh_cn/lightcone/虚无/新手任务开始前.md|Before the Tutorial Mission Starts]]
 
-- **基础属性**：生952攻476 防350
-- **推荐度**：★★★★★
-- **技能名**：眼疾手快
-- **效果**：使装备者的效果命中提高【20%/25%/30%/35%/40%】。当装备者攻击防御力被降低的敌方目标后，恢复【4/5/6/7/8】点能量。
+- **Base Stats**：HP952ATK476 DEF350
+- **Rating**：★★★★★
+- **Skill Name**：Quick on the Draw
+- **Effect**：Increases the wearer's Effect Hit Rate by 20%. When the wearer attacks DEF-reduced enemies, regenerates 4 Energy.
 
 ## Recommended Teams
 

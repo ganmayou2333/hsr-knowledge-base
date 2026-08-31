@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Oops, a Missed Catch
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -94,18 +94,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 140% of Cipher's ATK to one designated enemy.
 
 ### Skill：Hey, Jackpot for the Taking
-- **类型**：Skill
-- **简述**：Has a high chance to decrease one enemy and adjacent targets' DMG dealt and increases Cipher's ATK. Deals Quantum DMG to one designated enemy and minor Quantum DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Has a #6[i]% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by #3[i]%) and increases Cipher's ATK by #5[i]%, lasting for #4[i] turn(s). Moreover, deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Cipher's ATK to the adjacent targets.
+- **Type**：Skill
+- **Summary**：Has a high chance to decrease one enemy and adjacent targets' DMG dealt and increases Cipher's ATK. Deals Quantum DMG to one designated enemy and minor Quantum DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Has a #6[i]% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by #3[i]%) and increases Cipher's ATK by #5[i]%, lasting for #4[i] turn(s). Moreover, deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Cipher's ATK to the adjacent targets.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 100% | 50% | 10% | 2 | 30% | 120% |
@@ -124,7 +124,7 @@
   | Lv.14 | 240% | 120% | 10% | 2 | 30% | 120% |
   | Lv.15 | 250% | 125% | 10% | 2 | 30% | 120% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「目标造成等同于赛飞儿___%攻击力的量子属性」
   - `#3[i]`% → 参数3(%)：上下文「状态，造成的伤害降低___%，使赛飞儿的攻击」
@@ -132,15 +132,15 @@
   - `#5[i]`% → 参数5(%)：上下文「使赛飞儿的攻击力提高___%，持续#4[i]」
   - `#6[i]`% → 参数6(%)：上下文「有___%的基础概率使指定」
 
-- **满级效果**：Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 250% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 125% of Cipher's ATK to the adjacent targets.
+- **Max Effect**：Has a 120% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by 10%) and increases Cipher's ATK by 30%, lasting for 2 turn(s). Moreover, deals Quantum DMG equal to 250% of Cipher's ATK to one designated enemy, and Quantum DMG equal to 125% of Cipher's ATK to the adjacent targets.
 
 ### Ultimate：Yours Truly, Kitty Phantom Thief!
-- **类型**：Ultimate
-- **简述**：Deals Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to one enemy. Moreover, deals minor Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to the one enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
-- **最大等级**：15
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to #2[i]% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to #4[i]% of Cipher's ATK alongside True DMG equal to #3[i]% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
+- **Type**：Ultimate
+- **Summary**：Deals Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to one enemy. Moreover, deals minor Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to the one enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
+- **Max Level**：15
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to #2[i]% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to #4[i]% of Cipher's ATK alongside True DMG equal to #3[i]% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 60% | 25% | 75% | 20% |
@@ -159,27 +159,27 @@
   | Lv.14 | 144% | 25% | 75% | 48% |
   | Lv.15 | 150% | 25% | 75% | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于赛飞儿___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「等同于当前天赋记录值___%的真实伤害，并对」
   - `#3[i]`% → 参数3(%)：上下文「等同于当前天赋记录值___%的真实伤害，该真」
   - `#4[i]`% → 参数4(%)：上下文「目标造成等同于赛飞儿___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 50% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
+- **Max Effect**：Deals Quantum DMG equal to 150% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to 25% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to 50% of Cipher's ATK alongside True DMG equal to 75% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.
 
 ### Talent：The Hospitable Dolosian
-- **类型**：Talent
-- **简述**：Cipher causes one enemy target to enter the "Patron" state. After the target in this state gets attacked by teammates, Cipher launches Follow-Up ATK, dealing Quantum DMG to the target. This can trigger 1 time(s) per turn.
+- **Type**：Talent
+- **Summary**：Cipher causes one enemy target to enter the "Patron" state. After the target in this state gets attacked by teammates, Cipher launches Follow-Up ATK, dealing Quantum DMG to the target. This can trigger 1 time(s) per turn.
 Cipher will keep a tally of the DMG dealt by allies to the target in the "Patron" state. After using Ultimate, clears this tally.
 赛飞儿会记录我方对【老主顾】状态的目标造成的伤害值，施放终结技后清空。
-- **最大等级**：15
-- **效果模板**：When there are no enemy targets in the "Patron" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the "Patron." When using Skill and Ultimate, the primary target becomes the "Patron." The "Patron" state only takes effect on the most recent target.
+- **Max Level**：15
+- **Effect Template**：When there are no enemy targets in the "Patron" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the "Patron." When using Skill and Ultimate, the primary target becomes the "Patron." The "Patron" state only takes effect on the most recent target.
 After the "Patron" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the "Patron," dealing Quantum DMG equal to #1[i]% of Cipher's ATK. This effect can trigger up to #3[i] time(s) per turn, and this trigger count resets at the start of Cipher's turn.
 Cipher will tally #2[i]% of the non-True DMG dealt by ally targets to the "Patron." Overflow DMG will not be tallied. After using Ultimate, clears this tally.
 【老主顾】受到我方其他目标攻击后，赛飞儿立即对【老主顾】发动追加攻击，造成等同于赛飞儿#1[i]%攻击力的量子属性伤害。该效果每回合最多触发#3[i]次，赛飞儿回合开始时重置可触发次数。
 赛飞儿会记录我方目标对【老主顾】造成的非真实伤害的#2[i]%，不记录溢出伤害，施放终结技后清空记录值。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 75% | 12% | 1 | 5 |
@@ -198,40 +198,37 @@ Cipher will tally #2[i]% of the non-True DMG dealt by ally targets to the "Patro
   | Lv.14 | 180% | 12% | 1 | 5 |
   | Lv.15 | 187.5% | 12% | 1 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「击，造成等同于赛飞儿___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「】造成的非真实伤害的___%，不记录溢出伤害」
   - `#3[i]`次 → 参数3：上下文「该效果每回合最多触发___次，赛飞儿回合开始」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：When there are no enemy targets in the "Patron" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the "Patron." When using Skill and Ultimate, the primary target becomes the "Patron." The "Patron" state only takes effect on the most recent target.
+- **Max Effect**：When there are no enemy targets in the "Patron" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the "Patron." When using Skill and Ultimate, the primary target becomes the "Patron." The "Patron" state only takes effect on the most recent target.
 After the "Patron" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the "Patron," dealing Quantum DMG equal to 187.5% of Cipher's ATK. This effect can trigger up to 1 time(s) per turn, and this trigger count resets at the start of Cipher's turn.
 Cipher will tally 12% of the non-True DMG dealt by ally targets to the "Patron." Overflow DMG will not be tallied. After using Ultimate, clears this tally.
-【老主顾】受到我方其他目标攻击后，赛飞儿立即对【老主顾】发动追加攻击，造成等同于赛飞儿187.5%攻击力的量子属性伤害。该效果每回合最多触发1次，赛飞儿回合开始时重置可触发次数。
-赛飞儿会记录我方目标对【老主顾】造成的非真实伤害的12%，不记录溢出伤害，施放终结技后清空记录值。
 
 ### Technique：Puss in Boots
-- **类型**：Technique
-- **简述**：Gains "Zagreus's Blessing." While it is active, Cipher cannot be detected by enemies, and gains random Consumables when approaching them. When entering battle, Cipher deals minor Quantum DMG to all enemies.
-- **最大等级**：1
-- **效果模板**：Gains "Zagreus's Blessing" that lasts for #1[i] second(s). During this time, Cipher will be undetectable by enemies and her movement speed increases by 50%. When approaching an enemy in the overworld/Simulated Universe/Divergent Universe, can immediately gain a random Consumable. Consumables can be gained this way for up to #4[i] time(s) in each Earth day.
+- **Type**：Technique
+- **Summary**：Gains "Zagreus's Blessing." While it is active, Cipher cannot be detected by enemies, and gains random Consumables when approaching them. When entering battle, Cipher deals minor Quantum DMG to all enemies.
+- **Max Level**：1
+- **Effect Template**：Gains "Zagreus's Blessing" that lasts for #1[i] second(s). During this time, Cipher will be undetectable by enemies and her movement speed increases by 50%. When approaching an enemy in the overworld/Simulated Universe/Divergent Universe, can immediately gain a random Consumable. Consumables can be gained this way for up to #4[i] time(s) in each Earth day.
 When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal to #3[i]% of Cipher's ATK to all enemies. And the tallied amount Cipher gains from this instance of DMG increases by #2[i]%.
 持有【扎格列斯的祝福】期间进入战斗时，对敌方全体造成等同于赛飞儿#3[i]%攻击力的量子属性伤害，赛飞儿因该次伤害获得的记录值提高#2[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 15 | 200% | 100% | 50 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「格列斯的祝福】，持续___秒，期间赛飞儿不会」
   - `#2[i]`% → 参数2(%)：上下文「伤害获得的记录值提高___%。」
   - `#3[i]`% → 参数3(%)：上下文「全体造成等同于赛飞儿___%攻击力的量子属性」
   - `#4[i]`次 → 参数4：上下文「每个地球日内最多获取___次。 持有【扎格列」
 
-- **满级效果**：Gains "Zagreus's Blessing" that lasts for 15 second(s). During this time, Cipher will be undetectable by enemies and her movement speed increases by 50%. When approaching an enemy in the overworld/Simulated Universe/Divergent Universe, can immediately gain a random Consumable. Consumables can be gained this way for up to 50 time(s) in each Earth day.
+- **Max Effect**：Gains "Zagreus's Blessing" that lasts for 15 second(s). During this time, Cipher will be undetectable by enemies and her movement speed increases by 50%. When approaching an enemy in the overworld/Simulated Universe/Divergent Universe, can immediately gain a random Consumable. Consumables can be gained this way for up to 50 time(s) in each Earth day.
 When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal to 100% of Cipher's ATK to all enemies. And the tallied amount Cipher gains from this instance of DMG increases by 200%.
-持有【扎格列斯的祝福】期间进入战斗时，对敌方全体造成等同于赛飞儿100%攻击力的量子属性伤害，赛飞儿因该次伤害获得的记录值提高200%。
 
 ## Trace Bonuses
 
@@ -292,31 +289,31 @@ When entering battle with "Zagreus's Blessing" active, deals Quantum DMG equal t
 
 ### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|Lies Dance on the Breeze]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：欺瞒
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者施放攻击后，有120%的基础概率使敌方每个单体目标陷入【茫然】状态，【茫然】状态下的敌方目标防御力降低【16%/18%/20%/22%/24%】，持续2回合，若装备者的速度大于等于170，有120%的基础概率使敌方每个单体目标陷入【失窃】状态，【失窃】状态下的敌方目标防御力降低【8%/9%/10%/11%/12%】，持续2回合。【茫然】或【失窃】被重复施加时，仅最新施加的生效。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deceit
+- **Effect**：Increases the wearer's SPD by 18%. After the wearer uses an attack, there is a 1.2 base chance to inflict the "Bamboozle" state on every enemy target. While under the "Bamboozle" state, enemy targets have their DEF decreased by 16% for 2 turn(s). If the wearer's SPD is higher than or equal to 170, there is a 1.2 base chance to inflict the "Theft" state on every enemy target. While under the "Theft" state, enemy targets have their DEF decreased by 8% for 2 turn(s). When "Bamboozle" or "Theft" is repeatedly inflicted, only the most recently inflicted instance takes effect.
 
 ### [[zh_cn/lightcone/虚无/行于流逝的岸.md|Along the Passing Shore]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：司渡
-- **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高【24%/28%/32%/36%/40%】，终结技造成的伤害额外提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Steerer
+- **Effect**：Increases the wearer's CRIT DMG by 36%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by 24%.
 
 ### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：回眸
-- **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Glance Back
+- **Effect**：When the wearer hits an enemy and if the hit enemy is not already "Ensnared," then there is a 60% base chance to "Ensnare" the hit enemy. "Ensnared" enemies' DEF decreases by 12% for 1 turn(s).
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受一个负面状态，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】最多叠加3次。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ## Recommended Teams
 

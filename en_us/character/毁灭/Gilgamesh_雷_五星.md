@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Halfhearted Blow
-- **类型**：Skill
-- **简述**：
-- **最大等级**：10
-- **效果模板**：
+- **Type**：Skill
+- **Summary**：
+- **Max Level**：10
+- **Effect Template**：
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
 
-- **满级效果**：
+- **Max Effect**：
 
 ### Skill：Gate of Babylon
-- **类型**：Skill
-- **简述**：Gains "King's Acknowledgement," enabling this unit to ignore part of the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.
-- **最大等级**：15
-- **效果模板**：Gains "King's Acknowledgement," allowing this unit to ignore #5[i]% of the target's DEF when dealing DMG, lasting for #6[i] turn(s).
+- **Type**：Skill
+- **Summary**：Gains "King's Acknowledgement," enabling this unit to ignore part of the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Gains "King's Acknowledgement," allowing this unit to ignore #5[i]% of the target's DEF when dealing DMG, lasting for #6[i] turn(s).
 Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to #2[i]% of Gilgamesh's ATK to adjacent targets.
 对指定敌方单体造成等同于吉尔伽美什#1[i]%攻击力的雷属性伤害，对相邻目标造成等同于吉尔伽美什#2[i]%攻击力的雷属性伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 140% | 70% | 10% | 10 | 15% | 3 | 2 |
@@ -124,7 +124,7 @@ Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to one designated enemy, 
   | Lv.14 | 336% | 168% | 24% | 10 | 36% | 3 | 2 |
   | Lv.15 | 350% | 175% | 25% | 10 | 37.5% | 3 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
   - `#2[i]`% → 参数2(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -133,17 +133,16 @@ Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to one designated enemy, 
   - `#6[i]`回 → 参数6：上下文「i]%的防御力，持续___回合。 对指定敌方」
   - 参数7：效果模板中无对应 `#7[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Gains "King's Acknowledgement," allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).
+- **Max Effect**：Gains "King's Acknowledgement," allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).
 Deals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets.
-对指定敌方单体造成等同于吉尔伽美什350%攻击力的雷属性伤害，对相邻目标造成等同于吉尔伽美什175%攻击力的雷属性伤害。
 
 ### Ultimate：Enuma Elish
-- **类型**：Ultimate
-- **简述**：Deals massive Lightning DMG to all enemies. Additionally deals minor Lightning DMG to random enemies, bouncing 10 time(s).
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to all enemies, and additionally deals #3[i] instance(s) of DMG, with each instance dealing Lightning DMG equal to #2[i]% of Gilgamesh's ATK to one random enemy.
+- **Type**：Ultimate
+- **Summary**：Deals massive Lightning DMG to all enemies. Additionally deals minor Lightning DMG to random enemies, bouncing 10 time(s).
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Gilgamesh's ATK to all enemies, and additionally deals #3[i] instance(s) of DMG, with each instance dealing Lightning DMG equal to #2[i]% of Gilgamesh's ATK to one random enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 200% | 50% | 10 |
@@ -162,28 +161,28 @@ Deals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, an
   | Lv.14 | 480% | 120% | 10 |
   | Lv.15 | 500% | 125% | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
   - `#2[i]`% → 参数2(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
   - `#3[i]`次 → 参数3：上下文「属性伤害。并额外造成___次伤害，每次对敌方」
 
-- **满级效果**：Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.
+- **Max Effect**：Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.
 
 ### Talent："Amuse Me to the Fullest"
-- **类型**：Talent
-- **简述**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit.
+- **Type**：Talent
+- **Summary**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit.
 Initially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of "Interest". For each point of "Interest" in possession, increases SPD for this unit.
 When "Interest" reaches 10 for the first time, enters the "Interest Piqued!" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's "Interest."
 初始自身回合开始时自动施放普攻。我方其他目标行动时，吉尔伽美什获得1点【兴致】。每拥有1点【兴致】使自身速度提高。
 当【兴致】首次达到10点时，进入【来兴致了！】状态，该状态下仅能施放战技，且持续整场战斗。施放战技后，清空自身【兴致】。
-- **最大等级**：15
-- **效果模板**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit by #3[i]%, lasting for #1[i] turn(s).
+- **Max Level**：15
+- **Effect Template**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit by #3[i]%, lasting for #1[i] turn(s).
 Initially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of "Interest." For each point of "Interest" in possession, increases this unit's SPD by #4[i]%.
 When "Interest" reaches #2[i] for the first time, enters the "Interest Piqued!" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's "Interest."
 初始自身回合开始时自动施放普攻。我方其他目标行动时，吉尔伽美什获得1点【兴致】，每拥有1点【兴致】使自身速度提高#4[i]%。
 当【兴致】首次达到#2[i]点时，进入【来兴致了！】状态，该状态下仅能施放战技，且持续整场战斗。施放战技后，清空自身【兴致】。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 3 | 10 | 20% | 10% |
@@ -202,41 +201,38 @@ When "Interest" reaches #2[i] for the first time, enters the "Interest Piqued!" 
   | Lv.14 | 3 | 10 | 48% | 10% |
   | Lv.15 | 3 | 10 | 50% | 10% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`回 → 参数1：上下文「高#3[i]%，持续___回合。 初始自身回」
   - `#2[i]`点 → 参数2：上下文「当【兴致】首次达到___点时，进入【来兴致」
   - `#3[i]`% → 参数3(%)：上下文「造成的终结技伤害提高___%，持续#1[i]」
   - `#4[i]`% → 参数4(%)：上下文「兴致】使自身速度提高___%。 当【兴致】首」
 
-- **满级效果**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).
+- **Max Effect**：When a teammate uses their Ultimate, Gilgamesh gains "King's Burden," which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).
 Initially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of "Interest." For each point of "Interest" in possession, increases this unit's SPD by 10%.
 When "Interest" reaches 10 for the first time, enters the "Interest Piqued!" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's "Interest."
-初始自身回合开始时自动施放普攻。我方其他目标行动时，吉尔伽美什获得1点【兴致】，每拥有1点【兴致】使自身速度提高10%。
-当【兴致】首次达到10点时，进入【来兴致了！】状态，该状态下仅能施放战技，且持续整场战斗。施放战技后，清空自身【兴致】。
 
 ### Technique：Enkidu
-- **类型**：Technique
-- **简述**：Creates a Special Dimension. Enemies in the Special Dimension enter the "King's Permission" state and cease all actions.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension. Enemies in the Special Dimension enter the "King's Permission" state and cease all actions.
 Attacking an enemy in the "King's Permission" state causes all enemies in the "King's Permission" state to enter combat simultaneously. After entering combat, deals Lightning DMG to all enemies and immediately gains 3 "Interest."
 攻击陷入【王来允许】的敌人，使所有处于【王来允许】状态的敌人同时进入战斗，进战后对敌方全体造成雷属性伤害，立即获得3点【兴致】。
-- **最大等级**：1
-- **效果模板**：After using Technique, creates 1 Special Dimension lasting for #1[i] second(s). Enemies in the Special Dimension enter the "King's Permission" state. Enemies in the "King's Permission" state will cease all actions.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates 1 Special Dimension lasting for #1[i] second(s). Enemies in the Special Dimension enter the "King's Permission" state. Enemies in the "King's Permission" state will cease all actions.
 When entering combat by actively attacking an enemy in the "King's Permission" state, causes all enemies in the "King's Permission" state to enter combat, and deals Lightning DMG equal to #2[i]% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains #3[i] "Interest." Only 1 Dimension Effect created by allies can exist at the same time.
 主动攻击陷入【王来允许】的敌人进入战斗时，使所有处于【王来允许】状态的敌人同时进入战斗，进入战斗后对敌方全体造成等同于吉尔伽美什#2[i]%攻击力的雷属性伤害，且吉尔伽美什立即获得#3[i]点【兴致】。我方制造的领域效果最多存在1个。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 200% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「秘技后，制造1片持续___秒的特殊领域，处于」
   - `#2[i]`% → 参数2(%)：上下文「造成等同于吉尔伽美什___%攻击力的雷属性伤」
   - `#3[i]`点 → 参数3：上下文「且吉尔伽美什立即获得___点【兴致】。我方制」
 
-- **满级效果**：After using Technique, creates 1 Special Dimension lasting for 10 second(s). Enemies in the Special Dimension enter the "King's Permission" state. Enemies in the "King's Permission" state will cease all actions.
+- **Max Effect**：After using Technique, creates 1 Special Dimension lasting for 10 second(s). Enemies in the Special Dimension enter the "King's Permission" state. Enemies in the "King's Permission" state will cease all actions.
 When entering combat by actively attacking an enemy in the "King's Permission" state, causes all enemies in the "King's Permission" state to enter combat, and deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains 3 "Interest." Only 1 Dimension Effect created by allies can exist at the same time.
-主动攻击陷入【王来允许】的敌人进入战斗时，使所有处于【王来允许】状态的敌人同时进入战斗，进入战斗后对敌方全体造成等同于吉尔伽美什200%攻击力的雷属性伤害，且吉尔伽美什立即获得3点【兴致】。我方制造的领域效果最多存在1个。
 
 ## Trace Bonuses
 
@@ -297,24 +293,24 @@ When entering combat by actively attacking an enemy in the "King's Permission" s
 
 ### [[zh_cn/lightcone/毁灭/所见即我.md|I Am As You Behold]]
 
-- **基础属性**：生953 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：随心
-- **效果**：使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【10%/12.5%/15%/17.5%/20%】。装备者施放终结技时，每消耗1点能量值，使本次造成的终结技伤害提高【0.2%/0.25%/0.3%/0.35%/0.4%】，最多提高【72%/90%/108%/126%/144%】。装备者进入战斗或施放终结技时，使装备者获得【王之娱乐】，持续3回合。当装备者持有【王之娱乐】时，我方全体暴击伤害提高【24%/30%/36%/42%/48%】，同类效果无法叠加。
+- **Base Stats**：HP953 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：At Will
+- **Effect**：Increases the wearer's ATK by 18% and Energy Regeneration Rate by #2[f1]%. When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by #3[f2]%, up to a max increase of 72%. When the wearer enters combat or uses Ultimate, the wearer gains "King's Entertainment," lasting for 3 turn(s). While the wearer holds "King's Entertainment," increases all allies' CRIT DMG by 24%. Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/毁灭/没有回报的加冕.md|A Thankless Coronation]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★
-- **技能名**：骑士之王
-- **效果**：使装备者的暴击伤害提高【36%/45%/54%/63%/72%】。施放终结技时，使装备者的攻击力提高【40%/50%/60%/70%/80%】，若装备者的能量上限大于等于300点，为装备者固定恢复等同于装备者能量上限10%的能量，并使装备者的攻击力提高【40%/50%/60%/70%/80%】，持续2回合。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★
+- **Skill Name**：King of Knights
+- **Effect**：Increases the wearer's CRIT DMG by 36%. When using Ultimate, increases the wearer's ATK by 40%, and if the wearer's Max Energy is greater than or equal to 300, regenerates a fixed amount of Energy equal to 10% of the wearer's Max Energy and once again increases the wearer's ATK by 40%, lasting for 2 turns.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ## Recommended Teams
 

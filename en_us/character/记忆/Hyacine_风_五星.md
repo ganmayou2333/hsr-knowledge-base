@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty | |
 | ------------------------ | -------- | --------- |
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：When Breeze Kisses Cirrus
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Hyacine's Max HP to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Hyacine's Max HP to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 25% |
@@ -94,18 +94,18 @@
   | Lv.9 | 65% |
   | Lv.10 | 70% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于风堇___%生命上限的风属性」
 
-- **满级效果**：Deals Wind DMG equal to 70% of Hyacine's Max HP to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 70% of Hyacine's Max HP to one designated enemy.
 
 ### Skill：Love Over the Rainbow
-- **类型**：Skill
-- **简述**：Summons memosprite Little Ica, and restores HP for all allies.
-- **最大等级**：15
-- **效果模板**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus #4[i] for Little Ica.
+- **Type**：Skill
+- **Summary**：Summons memosprite Little Ica, and restores HP for all allies.
+- **Max Level**：15
+- **Effect Template**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus #4[i] for Little Ica.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 4% | 40 | 5% | 50 |
@@ -124,21 +124,21 @@
   | Lv.14 | 9.6% | 196 | 12% | 245 |
   | Lv.15 | 10% | 205 | 12.5% | 256.25 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值。为小伊卡」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
   - `#4[i]`的 → 参数4：上下文「[f1]%生命上限+___的生命值。」
 
-- **满级效果**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 205 for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus 256.25 for Little Ica.
+- **Max Effect**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 205 for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus 256.25 for Little Ica.
 
 ### Ultimate：We Who Fly Into Twilight
-- **类型**：Ultimate
-- **简述**：Summons memosprite Little Ica, and restores HP for all allies. Enters the "After Rain" state. While Hyacine is in this state, increases all allies' Max HP.
-- **最大等级**：15
-- **效果模板**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus #7[i] for Little Ica. Hyacine enters the "After Rain" state, lasting for #5[i] turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus #4[i].
+- **Type**：Ultimate
+- **Summary**：Summons memosprite Little Ica, and restores HP for all allies. Enters the "After Rain" state. While Hyacine is in this state, increases all allies' Max HP.
+- **Max Level**：15
+- **Effect Template**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus #7[i] for Little Ica. Hyacine enters the "After Rain" state, lasting for #5[i] turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus #4[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4 | 参数5 | 参数6 | 参数7 |
   |---|---|---|---|---|---|---|---|
   | Lv.1 | 5% | 50 | 15% | 150 | 3 | 6% | 60 |
@@ -157,7 +157,7 @@
   | Lv.14 | 12% | 245 | 36% | 735 | 3 | 14.4% | 294 |
   | Lv.15 | 12.5% | 256.25 | 37.5% | 768.75 | 3 | 15% | 307.5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`的 → 参数2：上下文「[f1]%生命上限+___的生命值，为小伊卡」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -166,15 +166,15 @@
   - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
   - `#7[i]`的 → 参数7：上下文「[f1]%生命上限+___的生命值。风堇进入」
 
-- **满级效果**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 256.25 for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus 307.5 for Little Ica. Hyacine enters the "After Rain" state, lasting for 3 turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus 768.75.
+- **Max Effect**：Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus 256.25 for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus 307.5 for Little Ica. Hyacine enters the "After Rain" state, lasting for 3 turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While "After Rain" is active, all ally targets increase their Max HP by #3[f1]% plus 768.75.
 
 ### Talent：First Light Heals the World
-- **类型**：Talent
-- **简述**：When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt.
-- **最大等级**：15
-- **效果模板**：The memosprite Little Ica initially has Max HP equal to #1[i]% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by #3[i]% for #4[i] turn(s). Stacks up to #5[i] time(s).
+- **Type**：Talent
+- **Summary**：When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt.
+- **Max Level**：15
+- **Effect Template**：The memosprite Little Ica initially has Max HP equal to #1[i]% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by #3[i]% for #4[i] turn(s). Stacks up to #5[i] time(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 50% | 1 | 40% | 2 | 3 |
@@ -193,33 +193,33 @@
   | Lv.14 | 50% | 1 | 96% | 2 | 3 |
   | Lv.15 | 50% | 1 | 100% | 2 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「卡初始拥有等同于风堇___%生命上限的生命上」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「小伊卡造成的伤害提高___%，持续#4[i]」
   - `#4[i]`回 → 参数4：上下文「高#3[i]%，持续___回合，最多可叠加#」
   - `#5[i]`层 → 参数5：上下文「i]回合，最多可叠加___层。」
 
-- **满级效果**：The memosprite Little Ica initially has Max HP equal to 50% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by 100% for 2 turn(s). Stacks up to 3 time(s).
+- **Max Effect**：The memosprite Little Ica initially has Max HP equal to 50% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by 100% for 2 turn(s). Stacks up to 3 time(s).
 
 ### Technique：Day So Right, Life So Fine!
-- **类型**：Technique
-- **简述**：When the next battle starts, restores HP for all allies and increases Max HP.
-- **最大等级**：1
-- **效果模板**：When the next battle starts, restores HP by an amount equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies and increases Max HP by #3[i]%, lasting for #4[i] turn(s).
+- **Type**：Technique
+- **Summary**：When the next battle starts, restores HP for all allies and increases Max HP.
+- **Max Level**：1
+- **Effect Template**：When the next battle starts, restores HP by an amount equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies and increases Max HP by #3[i]%, lasting for #4[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 30% | 600 | 20% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体回复等同于风堇___%生命上限+#2[」
   - `#2[i]`的 → 参数2：上下文「1[i]%生命上限+___的生命值并使生命上」
   - `#3[i]`% → 参数3(%)：上下文「命值并使生命上限提高___%，持续#4[i]」
   - `#4[i]`回 → 参数4：上下文「高#3[i]%，持续___回合。」
 
-- **满级效果**：When the next battle starts, restores HP by an amount equal to 30% of Hyacine's Max HP plus 600 for all allies and increases Max HP by 20%, lasting for 2 turn(s).
+- **Max Effect**：When the next battle starts, restores HP by an amount equal to 30% of Hyacine's Max HP plus 600 for all allies and increases Max HP by 20%, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -280,24 +280,26 @@
 
 ### [[zh_cn/lightcone/记忆/愿虹光永驻天空.md|Long May Rainbows Adorn the Sky]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：包容
-- **效果**：使装备者的速度提高 【18%/21%/24%/27%/30% 】。装备者施放普攻、战技和终结技时消耗我方全体等同于当前生命值 【1%/1.2%/1.5%/1.7%/2%】的生命值并使装备者的忆灵下一次攻击后额外对攻击目标造成1次等同于【250%/312.5%/375%/437.5%/500%】生命值消耗总量的基于装备者的忆灵属性的附加伤害，随后清空生命值消耗总量。装备者的忆灵施放忆灵技时，使敌方全体受到的伤害提高 【18.0%/22.5%/27.0%/31.5%/36.0%】 ，持续 2 回合。同类效果无法叠加。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Tolerant
+- **Effect**：Increases the wearer's SPD by 18%. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to #2[f1]% of their current HP, and after the next attack of the wearer's memosprite, enables it to additionally deal 1 instance of Additional DMG equal to #6[f1]% of the total consumed HP to the attacked target, with the damage type based on the memosprite's type. Then, the total consumed HP is reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by #4[f1]%, lasting for 2 turn(s). Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/记忆/记忆永不落幕.md|Memory's Curtain Never Falls]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：收取
-- **效果**：使装备者的速度提高【6%/7.5%/9%/10.5%/12%】。装备者施放战技后，使我方全体造成的伤害提高【8%/10%/12%/14%/16%】，持续3回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Reception
+- **Effect**：Increases the wearer's SPD by #1[f1]%. After the wearer uses Skill, increases the DMG dealt by all allies by 8%, lasting for 3 turn(s).
 
 ### [[zh_cn/lightcone/记忆/让告别，更美一些.md|Make Farewells More Beautiful]]
 
-- **基础属性**：生1270 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：铭刻
-- **效果**：使装备者的生命上限提高【30%/37%/45%/52%/60%】，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标【30%/35%/40%/45%/50%】的防御力，持续2回合。当装备者的忆灵消失时，使装备者行动提前【12%/15%/18%/21%/24%】。该效果最多触发1次装备者每次施放终结技时重置触发次数。
+- **Base Stats**：HP1270 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Engrave
+- **Effect**：Increases the wearer's Max HP by 30%. When the wearer or their memosprite loses HP during their own turn, the wearer gains "Death Flower." "Death Flower" allows the wearer and their memosprite to ignore 30% of the target's DEF when dealing DMG, lasting for 2 turn(s).
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
+When the wearer's memosprite disappears, advances the wearer's action by 12%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.
 
 ## Recommended Teams
 

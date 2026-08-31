@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Pain, Brews Truth
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -94,20 +94,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于那刻夏___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 140% of Anaxa's ATK to one designated enemy.
+- **Max Effect**：Deals Wind DMG equal to 140% of Anaxa's ATK to one designated enemy.
 
 ### Skill：Fractal, Exiles Fallacy
-- **类型**：Skill
-- **简述**：Deals minor Wind DMG to one enemy and Bounces 5 times in total, prioritizing Bouncing to targets that have not been hit. The more enemy targets on the battlefield, the higher the DMG.
-- **最大等级**：15
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy and additionally deals #2[i] instance(s) of DMG. Each instance of DMG deals Wind DMG equal to #1[i]% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.
+- **Type**：Skill
+- **Summary**：Deals minor Wind DMG to one enemy and Bounces 5 times in total, prioritizing Bouncing to targets that have not been hit. The more enemy targets on the battlefield, the higher the DMG.
+- **Max Level**：15
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy and additionally deals #2[i] instance(s) of DMG. Each instance of DMG deals Wind DMG equal to #1[i]% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.
 When used, for each attackable enemy on the field, this Skill has its DMG dealt increased by #3[i]%.
 施放时场上每有1个可攻击的敌方目标，本次战技造成的伤害提高#3[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 35% | 4 | 20% |
@@ -126,24 +126,22 @@ When used, for each attackable enemy on the field, this Skill has its DMG dealt 
   | Lv.14 | 84% | 4 | 20% |
   | Lv.15 | 87.5% | 4 | 20% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于那刻夏___%攻击力的风属性伤」
   - `#2[i]`次 → 参数2：上下文「属性伤害，并额外造成___次伤害。每次伤害对」
   - `#3[i]`% → 参数3(%)：上下文「次战技造成的伤害提高___%。」
 
-- **满级效果**：Deals Wind DMG equal to 87.5% of Anaxa's ATK to one designated enemy and additionally deals 4 instance(s) of DMG. Each instance of DMG deals Wind DMG equal to 87.5% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.
+- **Max Effect**：Deals Wind DMG equal to 87.5% of Anaxa's ATK to one designated enemy and additionally deals 4 instance(s) of DMG. Each instance of DMG deals Wind DMG equal to 87.5% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.
 When used, for each attackable enemy on the field, this Skill has its DMG dealt increased by 20%.
-施放时场上每有1个可攻击的敌方目标，本次战技造成的伤害提高20%。
 
 ### Ultimate：Sprouting Life Sculpts Earth
-- **类型**：Ultimate
-- **简述**：Inflicts "Sublimation" on all enemies and deals Wind DMG. In the "Sublimation" state, targets will be simultaneously inflicted with 7 types of Weaknesses, and can't take action if they do not have Control RES.
-- **最大等级**：15
-- **效果模板**：Inflicts the "Sublimation" state on all enemies, then deals Wind DMG equal to #1[i]% of Anaxa's ATK to all enemies.
+- **Type**：Ultimate
+- **Summary**：Inflicts "Sublimation" on all enemies and deals Wind DMG. In the "Sublimation" state, targets will be simultaneously inflicted with 7 types of Weaknesses, and can't take action if they do not have Control RES.
+- **Max Level**：15
+- **Effect Template**：Inflicts the "Sublimation" state on all enemies, then deals Wind DMG equal to #1[i]% of Anaxa's ATK to all enemies.
 In the "Sublimation" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the "Sublimation" state.
-【升华】状态下，目标同时被添加物理、火、冰、雷、风、量子、虚数属性弱点，持续至目标回合开始时。若目标不具有控制抵抗，则【升华】状态下无法行动。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
@@ -162,22 +160,21 @@ In the "Sublimation" state, the targets will be simultaneously inflicted with Ph
   | Lv.14 | 192% |
   | Lv.15 | 200% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于那刻夏___%攻击力的风属性伤」
 
-- **满级效果**：Inflicts the "Sublimation" state on all enemies, then deals Wind DMG equal to 200% of Anaxa's ATK to all enemies.
+- **Max Effect**：Inflicts the "Sublimation" state on all enemies, then deals Wind DMG equal to 200% of Anaxa's ATK to all enemies.
 In the "Sublimation" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the "Sublimation" state.
-【升华】状态下，目标同时被添加物理、火、冰、雷、风、量子、虚数属性弱点，持续至目标回合开始时。若目标不具有控制抵抗，则【升华】状态下无法行动。
 
 ### Talent：Tetrad Wisdom Reigns Thrice
-- **类型**：Talent
-- **简述**：After hitting enemy targets, inflicts 1 random Weakness. Enemies whose Weaknesses reach 5 get inflicted with "Qualitative Disclosure." Anaxa deals increased DMG to targets in the "Qualitative Disclosure" state. After Anaxa uses Basic ATK or Skill on them, unleashes 1 additional instance of Skill without consumption.
-- **最大等级**：15
-- **效果模板**：Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for #2[i] turn(s), with priority to the Weakness Type that the target doesn't already possess.
+- **Type**：Talent
+- **Summary**：After hitting enemy targets, inflicts 1 random Weakness. Enemies whose Weaknesses reach 5 get inflicted with "Qualitative Disclosure." Anaxa deals increased DMG to targets in the "Qualitative Disclosure" state. After Anaxa uses Basic ATK or Skill on them, unleashes 1 additional instance of Skill without consumption.
+- **Max Level**：15
+- **Effect Template**：Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for #2[i] turn(s), with priority to the Weakness Type that the target doesn't already possess.
 While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enemy targets that have at least #3[i] different Types of Weaknesses. Anaxa deals #1[i]% increased DMG to targets afflicted with the "Qualitative Disclosure" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.
 那刻夏在场时，使拥有至少#3[i]个不同属性弱点的敌方目标陷入【质性揭露】状态。那刻夏对处于【质性揭露】状态的目标造成的伤害提高#1[i]%，此外对其施放普攻或战技后，对该目标额外施放1次战技。额外战技不消耗战技点且不会再次触发此效果。若额外战技施放前目标被消灭则对敌方随机单体施放。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 18% | 3 | 5 |
@@ -196,31 +193,30 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
   | Lv.14 | 34.8% | 3 | 5 |
   | Lv.15 | 36% | 3 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的目标造成的伤害提高___%，此外对其施放普」
   - `#2[i]`回 → 参数2：上下文「个随机属性弱点，持续___回合，优先添加目标」
   - `#3[i]`个 → 参数3：上下文「夏在场时，使拥有至少___个不同属性弱点的敌」
 
-- **满级效果**：Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for 3 turn(s), with priority to the Weakness Type that the target doesn't already possess.
+- **Max Effect**：Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for 3 turn(s), with priority to the Weakness Type that the target doesn't already possess.
 While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enemy targets that have at least 5 different Types of Weaknesses. Anaxa deals 36% increased DMG to targets afflicted with the "Qualitative Disclosure" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.
-那刻夏在场时，使拥有至少5个不同属性弱点的敌方目标陷入【质性揭露】状态。那刻夏对处于【质性揭露】状态的目标造成的伤害提高36%，此外对其施放普攻或战技后，对该目标额外施放1次战技。额外战技不消耗战技点且不会再次触发此效果。若额外战技施放前目标被消灭则对敌方随机单体施放。
 
 ### Technique：Prism of the Pupil
-- **类型**：Technique
-- **简述**：Inflicts the Terrified state on the surrounding enemies. Attacking a Terrified enemy will always be considered as entering battle via Weakness, and applies 1 Weakness of the attacker's Type to all enemies.
-- **最大等级**：1
-- **效果模板**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for #1[i] second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：Inflicts the Terrified state on the surrounding enemies. Attacking a Terrified enemy will always be considered as entering battle via Weakness, and applies 1 Weakness of the attacker's Type to all enemies.
+- **Max Level**：1
+- **Effect Template**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for #1[i] second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 |
   |---|---|---|
   | Lv.1 | 10 | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「刻夏的方向逃跑，持续___秒。我方主动攻击陷」
   - `#2[i]`回 → 参数2：上下文「击者属性的弱点，持续___回合。」
 
-- **满级效果**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for 10 second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for 3 turn(s).
+- **Max Effect**：After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for 10 second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for 3 turn(s).
 
 ## Trace Bonuses
 
@@ -228,12 +224,9 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 |---|---|---|---|---|---|
 | 附加能力1 | 流浪的能指 | 晋阶2 | 施放普攻时，额外恢复#1[i]点能量。
 回合开始时，若场上不存在处于【质性揭露】状态的敌方目标，立即恢复#2[i]点能量。 | 施放普攻时，额外恢复10点能量。
-回合开始时，若场上不存在处于【质性揭露】状态的敌方目标，立即恢复30点能量。 | 信用点×5000、凌乱草图×3、同愿的遗音×1 |
 | 附加能力2 | 必要的留白 | 晋阶4 | 根据我方队伍中「智识」命途角色的数量，在本场战斗中触发其中1个效果：
 1名：那刻夏的暴击伤害提高#1[i]%。
 至少2名：我方全体造成的伤害提高#2[i]%。 | 根据我方队伍中「智识」命途角色的数量，在本场战斗中触发其中1个效果：
-1名：那刻夏的暴击伤害提高140%。
-至少2名：我方全体造成的伤害提高50%。 | 信用点×20000、动态线稿×5、命运的足迹×1、同愿的遗音×1 |
 | 附加能力3 | 质性的嬗变 | 晋阶6 | 敌方目标每拥有1个不同属性的弱点，那刻夏对其造成的伤害无视#1[i]%的防御力，最多计入7个。 | 敌方目标每拥有1个不同属性的弱点，那刻夏对其造成的伤害无视4%的防御力，最多计入7个。 | 信用点×160000、精致色稿×8、命运的足迹×1、同愿的遗音×1 |
 
 ## Stat Bonuses
@@ -286,31 +279,33 @@ While Anaxa is on the field, inflicts the "Qualitative Disclosure" state on enem
 
 ### [[zh_cn/lightcone/智识/生命当付之一炬.md|Life Should Be Cast to Flames]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：熔炼
-- **效果**：装备者回合开始时恢复10点能量。若敌方目标拥有装备者添加的弱点，装备者对其造成的伤害提高【60%/70%/80%/90%/100%】。 当敌方目标受到装备者攻击时，装备者使其防御力降低【12%/15%/18%/21%/24%】，持续2回合。同类效果无法叠加。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Smelt
+- **Effect**：When the wearer's turn starts, regenerates 10 Energy. If the enemy target has a Weakness implanted by the wearer, increases the wearer's DMG dealt to it by 60%.
+When an enemy target gets attacked by the wearer, the wearer decreases the target's DEF by 12%, lasting for 2 turn(s). The same types of effects cannot stack.
+When an enemy target gets attacked by the wearer, the wearer decreases the target's DEF by 12%, lasting for 2 turn(s). The same types of effects cannot stack.
 
 ### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
-- **基础属性**：生953 攻635 防463
-- **推荐度**：★★★★
-- **技能名**：思维游戏
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
+- **Base Stats**：HP953 ATK635 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Mind Game
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses their Ultimate, increases the wearer's Skill DMG and Ultimate DMG dealt by 60%, lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.
 
 ### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：无界之思
-- **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Boundless Thought
+- **Effect**：Increases the wearer's ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/智识/宇宙大生意.md|The Great Cosmic Enterprise]]
 
-- **基础属性**：生953 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：互惠
-- **效果**：使装备者的攻击力提高【8%/10%/12%/14%/16%】。敌方目标每拥有1个不同属性的弱点，装备者对其造成的伤害提高【4%/5%/6%/7%/8%】，最多计入7个。
+- **Base Stats**：HP953 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Mutual Benefit
+- **Effect**：Increases the wearer's ATK by 8%. For every 1 different Weakness Type an enemy target has, increases the DMG dealt to it by the wearer by 4%. Up to a max of 7 Weakness Types can be taken into account for this effect.
 
 ## Recommended Teams
 

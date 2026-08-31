@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Gravity Suppression
-- **类型**：Basic ATK
-- **简述**：Deals minor Imaginary DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于瓦尔特___%攻击力的虚数属性」
 
-- **满级效果**：Deals Imaginary DMG equal to 140% of Welt's ATK to one designated enemy.
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Welt's ATK to one designated enemy.
 
 ### Skill：Edge of the Void
-- **类型**：Skill
-- **简述**：Deals minor Imaginary DMG to one enemy. This attack can Bounce 5 times, with a chance of Slowing the hit enemies.
-- **最大等级**：15
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to #1[i]% of Welt's ATK to one random enemy. On hit, there is a #2[i]% base chance to reduce the enemy's SPD by #3[i]% for #4[i] turn(s).
+- **Type**：Skill
+- **Summary**：Deals minor Imaginary DMG to one enemy. This attack can Bounce 5 times, with a chance of Slowing the hit enemies.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to #1[i]% of Welt's ATK to one random enemy. On hit, there is a #2[i]% base chance to reduce the enemy's SPD by #3[i]% for #4[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 |
   |---|---|---|---|---|
   | Lv.1 | 36% | 65% | 10% | 2 |
@@ -122,23 +122,23 @@
   | Lv.14 | 86.4% | 79% | 10% | 2 |
   | Lv.15 | 90% | 80% | 10% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于瓦尔特___%攻击力的虚数属性」
   - `#2[i]`% → 参数2(%)：上下文「性伤害。攻击命中时有___%的基础概率使受到」
   - `#3[i]`% → 参数3(%)：上下文「击的敌方目标速度降低___%，持续#4[i]」
   - `#4[i]`回 → 参数4：上下文「低#3[i]%，持续___回合。」
 
-- **满级效果**：Deals Imaginary DMG equal to 90% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to 90% of Welt's ATK to one random enemy. On hit, there is a 80% base chance to reduce the enemy's SPD by 10% for 2 turn(s).
+- **Max Effect**：Deals Imaginary DMG equal to 90% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to 90% of Welt's ATK to one random enemy. On hit, there is a 80% base chance to reduce the enemy's SPD by 10% for 2 turn(s).
 
 ### Ultimate：Synthetic Black Hole
-- **类型**：Ultimate
-- **简述**：Deals Imaginary DMG to all enemies with a high chance to inflict Imprisonment. Inflicts all enemies with "Weightless": when attacked, their actions are delayed.
-- **最大等级**：15
-- **效果模板**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies. Has a #3[i]% base chance to Imprison hit enemy targets for 1 turn.
+- **Type**：Ultimate
+- **Summary**：Deals Imaginary DMG to all enemies with a high chance to inflict Imprisonment. Inflicts all enemies with "Weightless": when attacked, their actions are delayed.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies. Has a #3[i]% base chance to Imprison hit enemy targets for 1 turn.
 While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their SPD reduced by #4[i]%. After using his Ultimate, inflicts the "Weightless" state on all enemies. When targets in "Weightless" state get attacked, their actions are delayed by #5[f1]%. This effect can trigger up to #6[i] time(s) per target per turn. "Weightless" lasts for #7[i] turn(s).
 禁锢状态下，敌方目标行动延后#2[f1]%，速度降低#4[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 90% | 32% | 100% | 10% |
@@ -157,23 +157,23 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
   | Lv.14 | 174% | 43.2% | 100% | 10% |
   | Lv.15 | 180% | 44% | 100% | 10% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于瓦尔特___%攻击力的虚数属性」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`% → 参数3(%)：上下文「力的虚数属性伤害，有___%的基础概率使受到」
   - `#4[i]`% → 参数4(%)：上下文「[f1]%，速度降低___%。」
 
-- **满级效果**：Deals Imaginary DMG equal to 180% of Welt's ATK to all enemies. Has a 100% base chance to Imprison hit enemy targets for 1 turn.
+- **Max Effect**：Deals Imaginary DMG equal to 180% of Welt's ATK to all enemies. Has a 100% base chance to Imprison hit enemy targets for 1 turn.
 While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their SPD reduced by 10%. After using his Ultimate, inflicts the "Weightless" state on all enemies. When targets in "Weightless" state get attacked, their actions are delayed by #5[f1]%. This effect can trigger up to #6[i] time(s) per target per turn. "Weightless" lasts for #7[i] turn(s).
 禁锢状态下，敌方目标行动延后#2[f1]%，速度降低10%。
 
 ### Talent：Time Distortion
-- **类型**：Talent
-- **简述**：Enemy targets in the "Weightless" state have reduced DEF and SPD. When hitting a Slowed enemy target, additionally deals minor Imaginary Additional DMG.
-- **最大等级**：15
-- **效果模板**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to #1[i]% of his ATK to the enemy.
+- **Type**：Talent
+- **Summary**：Enemy targets in the "Weightless" state have reduced DEF and SPD. When hitting a Slowed enemy target, additionally deals minor Imaginary Additional DMG.
+- **Max Level**：15
+- **Effect Template**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to #1[i]% of his ATK to the enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 30% |
@@ -192,34 +192,33 @@ While Imprisoned, enemy targets have their actions delayed by #2[f1]% and their 
   | Lv.14 | 72% |
   | Lv.15 | 75% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成1次等同于瓦尔特___%攻击力的虚数属性」
 
-- **满级效果**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to 75% of his ATK to the enemy.
+- **Max Effect**：Enemy targets in the "Weightless" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to 75% of his ATK to the enemy.
 
 ### Technique：Gravitational Imprisonment
-- **类型**：Technique
-- **简述**：Creates a Special Dimension. Enemies in this dimension have their movement speed reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.
-- **最大等级**：1
-- **效果模板**：After using Welt's Technique, create a Special Dimension that lasts for #4[i] second(s). Enemies in this Special Dimension have their movement speed reduced by #5[i]%. After entering combat with enemies in the Special Dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension. Enemies in this dimension have their movement speed reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.
+- **Max Level**：1
+- **Effect Template**：After using Welt's Technique, create a Special Dimension that lasts for #4[i] second(s). Enemies in this Special Dimension have their movement speed reduced by #5[i]%. After entering combat with enemies in the Special Dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.
 Imprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 Dimension Effect created by allies can exist at the same time.
 禁锢状态下，敌方目标行动延后#2[i]%，速度降低#3[i]%。我方制造的领域效果最多存在1个。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 100% | 20% | 10% | 15 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的敌人进入战斗后，有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「下，敌方目标行动延后___%，速度降低#3[」
   - `#3[i]`% → 参数3(%)：上下文「2[i]%，速度降低___%。我方制造的领域」
   - `#4[i]`秒 → 参数4：上下文「秘技后，制造1片持续___秒的特殊领域。处于」
   - `#5[i]`% → 参数5(%)：上下文「内的敌人移动速度降低___%。与处于特殊领域」
 
-- **满级效果**：After using Welt's Technique, create a Special Dimension that lasts for 15 second(s). Enemies in this Special Dimension have their movement speed reduced by 50%. After entering combat with enemies in the Special Dimension, there is a 100% base chance to Imprison the enemies for 1 turn.
+- **Max Effect**：After using Welt's Technique, create a Special Dimension that lasts for 15 second(s). Enemies in this Special Dimension have their movement speed reduced by 50%. After entering combat with enemies in the Special Dimension, there is a 100% base chance to Imprison the enemies for 1 turn.
 Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 Dimension Effect created by allies can exist at the same time.
-禁锢状态下，敌方目标行动延后20%，速度降低10%。我方制造的领域效果最多存在1个。
 
 ## Trace Bonuses
 
@@ -279,31 +278,31 @@ Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Onl
 
 ### [[zh_cn/lightcone/虚无/行于流逝的岸.md|Along the Passing Shore]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：司渡
-- **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高【24%/28%/32%/36%/40%】，终结技造成的伤害额外提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Steerer
+- **Effect**：Increases the wearer's CRIT DMG by 36%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by 24%.
 
 ### [[zh_cn/lightcone/虚无/雨一直下.md|Incessant Rain]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：幻影现实
-- **效果**：使装备者的效果命中提高【24%/28%/32%/36%/40%】。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高【12%/14%/16%/18%/20%】。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高【12%/14%/16%/18%/20%】，持续1回合。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Mirage of Reality
+- **Effect**：Increases the wearer's Effect Hit Rate by 24%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by 12%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 1 base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12% increased DMG for 1 turn.
 
 ### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：传承者
-- **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时,装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Inheritor
+- **Effect**：Increases the wearer's DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Midnight Tumult
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Kafka's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Kafka's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,22 +92,22 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于卡芙卡___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 140% of Kafka's ATK to one designated enemy.
+- **Max Effect**：Deals Lightning DMG equal to 140% of Kafka's ATK to one designated enemy.
 
 ### Skill：Caressing Moonlight
-- **类型**：Skill
-- **简述**：Deals Lightning DMG to one enemy and minor Lightning DMG to adjacent targets.
+- **Type**：Skill
+- **Summary**：Deals Lightning DMG to one enemy and minor Lightning DMG to adjacent targets.
 If the attacked targets currently have any DoT inflicted on them, the DoT additionally produces 1 instance of DMG.
 若主目标处于持续伤害类负面状态，则使持续伤害类负面状态额外产生1次伤害。
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Kafka's ATK to one designated enemy and Lightning DMG equal to #3[i]% of Kafka's ATK to adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Kafka's ATK to one designated enemy and Lightning DMG equal to #3[i]% of Kafka's ATK to adjacent targets.
 If the designated enemy or the adjacent targets are currently afflicted with DoT, all DoTs currently placed on those enemies immediately produces DMG equal to #2[i]% or #4[i]% of the original DMG.
 若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害#2[i]%的伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 80% | 60% | 30% |
@@ -126,26 +126,25 @@ If the designated enemy or the adjacent targets are currently afflicted with DoT
   | Lv.14 | 192% | 81% | 72% |
   | Lv.15 | 200% | 82.5% | 75% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于卡芙卡___%攻击力的雷属性伤」
   - `#2[i]`% → 参数2(%)：上下文「立即产生相当于原伤害___%的伤害。」
   - `#3[i]`% → 参数3(%)：上下文「目标造成等同于卡芙卡___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 200% of Kafka's ATK to one designated enemy and Lightning DMG equal to 75% of Kafka's ATK to adjacent targets.
+- **Max Effect**：Deals Lightning DMG equal to 200% of Kafka's ATK to one designated enemy and Lightning DMG equal to 75% of Kafka's ATK to adjacent targets.
 If the designated enemy or the adjacent targets are currently afflicted with DoT, all DoTs currently placed on those enemies immediately produces DMG equal to 82.5% or #4[i]% of the original DMG.
-若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害82.5%的伤害。
 
 ### Ultimate：Twilight Trill
-- **类型**：Ultimate
-- **简述**：Deals minor Lightning DMG to all enemies, with a high chance of Shocking them.
+- **Type**：Ultimate
+- **Summary**：Deals minor Lightning DMG to all enemies, with a high chance of Shocking them.
 If the enemies are currently afflicted with DoT debuff(s), the DoT(s) will produce 1 additional instance of DMG.
 若敌方目标处于触电状态，则使触电状态额外产生1次伤害。
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Kafka's ATK to all enemies, with a #2[i]% base chance for enemy targets hit to become Shocked and immediately take DMG from their current DoT debuff(s), equal to #5[i]% of the original DMG. Shock lasts for #3[i] turn(s).
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Kafka's ATK to all enemies, with a #2[i]% base chance for enemy targets hit to become Shocked and immediately take DMG from their current DoT debuff(s), equal to #5[i]% of the original DMG. Shock lasts for #3[i] turn(s).
 While Shocked, enemy targets receive Lightning DoT equal to #4[i]% of Kafka's ATK at the beginning of each turn.
 触电状态下，敌方目标每回合开始时受到等同于卡芙卡#4[i]%攻击力的雷属性持续伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 48% | 100% | 2 | 116% | 80% |
@@ -164,24 +163,23 @@ While Shocked, enemy targets receive Lightning DoT equal to #4[i]% of Kafka's AT
   | Lv.14 | 92.8% | 100% | 2 | 346.55% | 108% |
   | Lv.15 | 96% | 100% | 2 | 360.69% | 110% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「全体造成等同于卡芙卡___%攻击力的雷属性伤」
   - `#2[i]`% → 参数2(%)：上下文「击力的雷属性伤害，有___%的基础概率使受到」
   - `#3[i]`回 → 参数3：上下文「的伤害。触电状态持续___回合。 触电状态下」
   - `#4[i]`% → 参数4(%)：上下文「始时受到等同于卡芙卡___%攻击力的雷属性持」
   - `#5[i]`% → 参数5(%)：上下文「立即产生相当于原伤害___%的伤害。触电状态」
 
-- **满级效果**：Deals Lightning DMG equal to 96% of Kafka's ATK to all enemies, with a 100% base chance for enemy targets hit to become Shocked and immediately take DMG from their current DoT debuff(s), equal to 110% of the original DMG. Shock lasts for 2 turn(s).
+- **Max Effect**：Deals Lightning DMG equal to 96% of Kafka's ATK to all enemies, with a 100% base chance for enemy targets hit to become Shocked and immediately take DMG from their current DoT debuff(s), equal to 110% of the original DMG. Shock lasts for 2 turn(s).
 While Shocked, enemy targets receive Lightning DoT equal to 360.69% of Kafka's ATK at the beginning of each turn.
-触电状态下，敌方目标每回合开始时受到等同于卡芙卡360.69%攻击力的雷属性持续伤害。
 
 ### Talent：Gentle but Cruel
-- **类型**：Talent
-- **简述**：After a teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG to the primary target, with a high chance of inflicting Shock. This effect can trigger up to 2 time(s), 1 of which can be regained at the end of Kafka's turn.
-- **最大等级**：15
-- **效果模板**：After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to #1[i]% of Kafka's ATK to the primary target, with a #2[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for #3[i] turns. This effect can trigger up to #5[i] time(s), #4[i] of which can be regained at the end of Kafka's turn.
+- **Type**：Talent
+- **Summary**：After a teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG to the primary target, with a high chance of inflicting Shock. This effect can trigger up to 2 time(s), 1 of which can be regained at the end of Kafka's turn.
+- **Max Level**：15
+- **Effect Template**：After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to #1[i]% of Kafka's ATK to the primary target, with a #2[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for #3[i] turns. This effect can trigger up to #5[i] time(s), #4[i] of which can be regained at the end of Kafka's turn.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 42% | 100% | 2 |
@@ -200,30 +198,30 @@ While Shocked, enemy targets receive Lightning DoT equal to 360.69% of Kafka's A
   | Lv.14 | 179.2% | 100% | 2 |
   | Lv.15 | 189% | 100% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于卡芙卡___%攻击力的雷属性伤」
   - `#2[i]`% → 参数2(%)：上下文「力的雷属性伤害，并有___%的基础概率使受到」
   - `#3[i]`回 → 参数3：上下文「相同的触电状态，持续___回合，该效果每回合」
 
-- **满级效果**：After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to 189% of Kafka's ATK to the primary target, with a 100% base chance to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for 2 turns. This effect can trigger up to #5[i] time(s), #4[i] of which can be regained at the end of Kafka's turn.
+- **Max Effect**：After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to 189% of Kafka's ATK to the primary target, with a 100% base chance to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for 2 turns. This effect can trigger up to #5[i] time(s), #4[i] of which can be regained at the end of Kafka's turn.
 
 ### Technique：Mercy Is Not Forgiveness
-- **类型**：Technique
-- **简述**：Attacks all enemies within range. After entering combat, deals minor Lightning DMG to all enemies, with a high chance to Shock them.
-- **最大等级**：1
-- **效果模板**：Immediately attacks all enemies within a set range. After entering combat, deals Lightning DMG equal to #3[i]% of Kafka's ATK to all enemies, with a #1[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on every enemy target for #2[i] turn(s).
+- **Type**：Technique
+- **Summary**：Attacks all enemies within range. After entering combat, deals minor Lightning DMG to all enemies, with a high chance to Shock them.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks all enemies within a set range. After entering combat, deals Lightning DMG equal to #3[i]% of Kafka's ATK to all enemies, with a #1[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on every enemy target for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 100% | 2 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的雷属性伤害，同时有___%的基础概率使敌方」
   - `#2[i]`回 → 参数2：上下文「相同的触电状态，持续___回合。」
   - `#3[i]`% → 参数3(%)：上下文「全体造成等同于卡芙卡___%攻击力的雷属性伤」
 
-- **满级效果**：Immediately attacks all enemies within a set range. After entering combat, deals Lightning DMG equal to 50% of Kafka's ATK to all enemies, with a 100% base chance to inflict Shock (equivalent to that applied by her Ultimate) on every enemy target for 2 turn(s).
+- **Max Effect**：Immediately attacks all enemies within a set range. After entering combat, deals Lightning DMG equal to 50% of Kafka's ATK to all enemies, with a 100% base chance to inflict Shock (equivalent to that applied by her Ultimate) on every enemy target for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -284,31 +282,33 @@ While Shocked, enemy targets receive Lightning DoT equal to 360.69% of Kafka's A
 
 ### [[zh_cn/lightcone/虚无/只需等待.md|Patience Is All You Need]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：蜘蛛的网
-- **效果**：使装备者造成的伤害提高【24%/28%/32%/36%/40%】。装备者每次施放攻击后，速度提高【4.8%/5.6%/6.4%/7.2%/8.0%】，最多叠加3层。 当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者【60%/70%/80%/90%/100%】攻击力的雷属性持续伤害，持续1回合。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Spider Web
+- **Effect**：Increases DMG dealt by the wearer by 24%. After every attack launched by wearer, their SPD increases by #3[f1]%, stacking up to 3 times.
+If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60% of the wearer's ATK, lasting for 1 turn(s).
+If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60% of the wearer's ATK, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/虚无/孤独的疗愈.md|Solitary Healing]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：混沌灵药
-- **效果**：使装备者的击破特攻提高【20%/25%/30%/35%/40%】。当装备者施放终结技时，使装备者造成的持续伤害提高【24%/30%/36%/42%/48%】，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复【4.0/4.5/5.0/5.5/6.0】点能量。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Chaos Elixir
+- **Effect**：Increases the wearer's Break Effect by 20%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates #4[f1] Energy for the wearer.
 
 ### [[zh_cn/lightcone/虚无/晚安与睡颜.md|Good Night and Sleep Well]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：劳碌者
-- **效果**：敌方目标每承受1个负面效果，装备者对其造成的伤害提高【12%/15%/18%/21%/24%】，最多叠加3层。该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Toiler
+- **Effect**：For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.
 
 ### [[zh_cn/lightcone/虚无/以世界之名.md|In the Name of the World]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★
-- **技能名**：传承者
-- **效果**：使装备者对陷入负面效果的敌方目标造成的伤害提高【24%/28%/32%/36%/40%】。当装备者施放战技时，装备者此次攻击的效果命中提高【18%/21%/24%/27%/30%】，攻击力提高【24%/28%/32%/36%/40%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Inheritor
+- **Effect**：Increases the wearer's DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.
 
 ## Recommended Teams
 

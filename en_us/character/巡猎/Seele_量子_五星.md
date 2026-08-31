@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Thwack
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,19 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于希儿___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 140% of Seele's ATK to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 140% of Seele's ATK to one designated enemy.
 
 ### Skill：Sheathed Blade
-- **类型**：Skill
-- **简述**：Deals massive Quantum DMG to one enemy and increases this unit's SPD. After an ally target attacks, if the attacked target's current HP percentage is less than or equal to 50%, Seele automatically uses her Skill against them 1 time.
-- **最大等级**：15
-- **效果模板**：Increases Seele's SPD by #2[i]% for #3[i] turn(s) and deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
+- **Type**：Skill
+- **Summary**：Deals massive Quantum DMG to one enemy and increases this unit's SPD. After an ally target attacks, if the attacked target's current HP percentage is less than or equal to 50%, Seele automatically uses her Skill against them 1 time.
+- **Max Level**：15
+- **Effect Template**：Increases Seele's SPD by #2[i]% for #3[i] turn(s) and deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
 After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 110% | 25% | 2 |
@@ -123,21 +123,21 @@ After an ally target attacks, if the attack target's current HP percentage is #4
   | Lv.14 | 264% | 25% | 2 |
   | Lv.15 | 275% | 25% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于希儿___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「使希儿的速度提高___%，并对指定敌方单」
   - `#3[i]`回 → 参数3：上下文「害，速度提高效果持续___回合。」
 
-- **满级效果**：Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 275% of Seele's ATK to one designated enemy.
+- **Max Effect**：Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 275% of Seele's ATK to one designated enemy.
 After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
 
 ### Ultimate：Butterfly Flurry
-- **类型**：Ultimate
-- **简述**：Enters the Amplification state and deals massive Quantum DMG to one enemy.
-- **最大等级**：15
-- **效果模板**：Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to one designated enemy.
+- **Type**：Ultimate
+- **Summary**：Enters the Amplification state and deals massive Quantum DMG to one enemy.
+- **Max Level**：15
+- **Effect Template**：Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 255% |
@@ -156,20 +156,19 @@ After an ally target attacks, if the attack target's current HP percentage is #4
   | Lv.14 | 493% |
   | Lv.15 | 510% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于希儿___%攻击力的量子属性」
 
-- **满级效果**：Seele enters the Amplification state and deals Quantum DMG equal to 510% of her ATK to one designated enemy.
+- **Max Effect**：Seele enters the Amplification state and deals Quantum DMG equal to 510% of her ATK to one designated enemy.
 
 ### Talent：Resurgence
-- **类型**：Talent
-- **简述**：When defeating enemy targets with Basic ATK, Skill, or Ultimate, gains an extra turn and enters the Amplification state. While in Amplification, increases the DMG dealt by this unit.
-- **最大等级**：15
-- **效果模板**：Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by #1[i]% for #2[i] turn(s).
+- **Type**：Talent
+- **Summary**：When defeating enemy targets with Basic ATK, Skill, or Ultimate, gains an extra turn and enters the Amplification state. While in Amplification, increases the DMG dealt by this unit.
+- **Max Level**：15
+- **Effect Template**：Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by #1[i]% for #2[i] turn(s).
 Enemies defeated in the extra turn provided by "Resurgence" will not trigger another "Resurgence."
-若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 40% | 1 |
@@ -188,29 +187,28 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
   | Lv.14 | 96% | 1 |
   | Lv.15 | 100% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「放攻击造成的伤害提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。 若希儿在因」
 
-- **满级效果**：Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by 100% for 1 turn(s).
+- **Max Effect**：Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by 100% for 1 turn(s).
 Enemies defeated in the extra turn provided by "Resurgence" will not trigger another "Resurgence."
-若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。
 
 ### Technique：Phantom Illusion
-- **类型**：Technique
-- **简述**：Enters the Stealth state. After attacking an enemy and entering combat, enters the Amplification state and deals massive Quantum DMG with a guaranteed CRIT Hit to one random target.
-- **最大等级**：1
-- **效果模板**：After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
+- **Type**：Technique
+- **Summary**：Enters the Stealth state. After attacking an enemy and entering combat, enters the Amplification state and deals massive Quantum DMG with a guaranteed CRIT Hit to one random target.
+- **Max Level**：1
+- **Effect Template**：After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 20 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的隐身状态。隐身」
 
-- **满级效果**：After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
+- **Max Effect**：After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
 
 ## Trace Bonuses
 
@@ -271,24 +269,24 @@ Enemies defeated in the extra turn provided by "Resurgence" will not trigger ano
 
 ### [[zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：花与蝶
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高【6%/7%/8%/9%/10%】，同时终结技的暴击伤害提高【12%/14%/16%/18%/20%】，该效果可叠加6层。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Flowers and Butterflies
+- **Effect**：Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by 6%. At the same time, increases the CRIT DMG of Ultimate by 12%. This effect can stack up to 6 time(s).
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ## Recommended Teams
 

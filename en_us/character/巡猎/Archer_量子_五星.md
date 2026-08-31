@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Kanshou and Bakuya
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one designated enemy.
-- **最大等级**：9
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one designated enemy.
+- **Max Level**：9
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -91,18 +91,18 @@
   | Lv.8 | 120% |
   | Lv.9 | 130% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 130% of Archer's ATK to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 130% of Archer's ATK to one designated enemy.
 
 ### Skill：Caladbolg II: Fake Spiral Sword
-- **类型**：Skill
-- **简述**：Enters the "Circuit Connection" state. Deals massive Quantum DMG to one designated enemy. During the "Circuit Connection" state, the current turn does not end after using his Skill, and the DMG dealt by Archer's Skill increases. When Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state.
-- **最大等级**：15
-- **效果模板**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill #5[i] time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
+- **Type**：Skill
+- **Summary**：Enters the "Circuit Connection" state. Deals massive Quantum DMG to one designated enemy. During the "Circuit Connection" state, the current turn does not end after using his Skill, and the DMG dealt by Archer's Skill increases. When Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state.
+- **Max Level**：15
+- **Effect Template**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill #5[i] time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 |
   |---|---|---|---|---|---|
   | Lv.1 | 180% | 60% | 2 | 1 | 5 |
@@ -121,22 +121,22 @@
   | Lv.14 | 432% | 116% | 2 | 1 | 5 |
   | Lv.15 | 450% | 120% | 2 | 1 | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「r战技造成的伤害提高___%，该效果可以叠加」
   - `#3[i]`层 → 参数3：上下文「]%，该效果可以叠加___层，持续至退出【回」
   - 参数4：效果模板中无对应 `#4[i]` 占位符（预留参数/其他属性）
   - `#5[i]`次 → 参数5：上下文「连接】状态。主动施放___次战技后或战技点不」
 
-- **满级效果**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to 450% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by 120%. This effect can stack up to 2 time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill 5 time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
+- **Max Effect**：Enters the "Circuit Connection" state. Deals Quantum DMG equal to 450% of Archer's ATK to one designated enemy. After using Skill in the "Circuit Connection" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by 120%. This effect can stack up to 2 time(s), lasting until he exits the "Circuit Connection" state. After actively using Skill 5 time(s) or when Skill Points are insufficient to use Skill again, exits the "Circuit Connection" state. After all enemy targets have been defeated in each wave, exits the "Circuit Connection" state.
 
 ### Ultimate：Unlimited Blade Works
-- **类型**：Ultimate
-- **简述**：Deals massive Quantum DMG to one designated enemy and gains Charge.
-- **最大等级**：15
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy and gains #2[i] point(s) of Charge, up to a maximum of #3[i].
+- **Type**：Ultimate
+- **Summary**：Deals massive Quantum DMG to one designated enemy and gains Charge.
+- **Max Level**：15
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy and gains #2[i] point(s) of Charge, up to a maximum of #3[i].
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 600% | 2 | 4 |
@@ -155,20 +155,20 @@
   | Lv.14 | 1160% | 2 | 4 |
   | Lv.15 | 1200% | 2 | 4 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
   - `#2[i]`点 → 参数2：上下文「量子属性伤害，并获得___点充能，最多可拥有」
   - `#3[i]`点 → 参数3：上下文「]点充能，最多可拥有___点充能。」
 
-- **满级效果**：Deals Quantum DMG equal to 1200% of Archer's ATK to one designated enemy and gains 2 point(s) of Charge, up to a maximum of 4.
+- **Max Effect**：Deals Quantum DMG equal to 1200% of Archer's ATK to one designated enemy and gains 2 point(s) of Charge, up to a maximum of 4.
 
 ### Talent：Mind's Eye (True)
-- **类型**：Talent
-- **简述**：After a teammate uses an attack, Archer consumes 1 Charge and launches Follow-Up ATK on the primary target, dealing Quantum DMG and recovering 1 Skill Point.
-- **最大等级**：15
-- **效果模板**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to #1[i]% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
+- **Type**：Talent
+- **Summary**：After a teammate uses an attack, Archer consumes 1 Charge and launches Follow-Up ATK on the primary target, dealing Quantum DMG and recovering 1 Skill Point.
+- **Max Level**：15
+- **Effect Template**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to #1[i]% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 100% |
@@ -187,27 +187,27 @@
   | Lv.14 | 240% |
   | Lv.15 | 250% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
 
-- **满级效果**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to 250% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
+- **Max Effect**：After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to 250% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.
 
 ### Technique：Clairvoyance
-- **类型**：Technique
-- **简述**：Immediately attacks enemies. After entering combat, deals Quantum DMG to all enemies and gains Charge.
-- **最大等级**：1
-- **效果模板**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to #1[i]% of Archer's ATK to all enemies and gains #2[i] point(s) of Charge.
+- **Type**：Technique
+- **Summary**：Immediately attacks enemies. After entering combat, deals Quantum DMG to all enemies and gains Charge.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to #1[i]% of Archer's ATK to all enemies and gains #2[i] point(s) of Charge.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 200% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「成等同于Archer___%攻击力的量子属性」
   - `#2[i]`点 → 参数2：上下文「量子属性伤害，并获得___点充能。」
 
-- **满级效果**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to 200% of Archer's ATK to all enemies and gains 1 point(s) of Charge.
+- **Max Effect**：Immediately attacks enemies. After entering combat, deals Quantum DMG equal to 200% of Archer's ATK to all enemies and gains 1 point(s) of Charge.
 
 ## Trace Bonuses
 
@@ -268,31 +268,31 @@
 
 ### [[zh_cn/lightcone/巡猎/理想燃烧的地狱.md|The Hell Where Ideals Burn]]
 
-- **基础属性**：生953 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：赤原猎兵
-- **效果**：使装备者的暴击率提高【16%/20%/24%/28%/32%】。进入战斗时，若我方的战技点上限大于等于6点，使装备者的攻击力提高【40%/50%/60%/70%/80%】。装备者每次施放战技后，使装备者的攻击力提高【10%/12.5%/15%/17.5%/20%】，最多叠加4次。
+- **Base Stats**：HP953 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Hrunting
+- **Effect**：Increases the wearer's CRIT Rate by 16%. When entering combat, if the allies' Skill Points limit is 6 or higher, increases the wearer's ATK by 40%. After each use of the wearer's Skill, increases the wearer's ATK by 10%, stacking up to 4 time(s).
 
 ### [[zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：美梦
-- **效果**：使装备者的暴击伤害提高【30%/35%/40%/45%/50%】。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高【36%/42%/48%/54%/60%】，持续1回合。该效果每3回合可以触发1次。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/我将，巡征追猎.md|I Venture Forth to Hunt]]
 
-- **基础属性**：生952 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：震慑
-- **效果**：使装备者的暴击率提高【15.0%/17.5%/20.0%/22.5%/25.0%】。装备者施放追加攻击时，获得1层【流光】，最多叠加2层。每层【流光】使装备者造成的终结技伤害无视目标【27%/30%/33%/36%/39%】的防御力。装备者回合结束时，移除1层【流光】。
+- **Base Stats**：HP952 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Intimidation
+- **Effect**：Increases the wearer's CRIT Rate by #1[f1]%. When the wearer launches a Follow-Up ATK, gains 1 stack of "Luminflux," stacking up to 2 time(s). Each stack of "Luminflux" enables the Ultimate DMG dealt by the wearer to ignore 27% of the target's DEF. When the wearer's turn ends, removes 1 stack of "Luminflux."
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ## Recommended Teams
 

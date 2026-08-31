@@ -58,7 +58,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -75,12 +75,12 @@
 ---
 ## Skills
 ### Basic ATK：Aegis Vitae
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -94,20 +94,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Dan Heng • Permansor Terrae's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Dan Heng • Permansor Terrae's ATK to one designated enemy.
 
 ### Skill：Terra Omnibus
-- **类型**：Skill
-- **简述**：Designates one ally character as the "Bondmate" and grants all allies a Shield with stackable Shield Effect.
-- **最大等级**：15
-- **效果模板**：Designates one ally character as the "Bondmate" and provides all allies with a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus #2[i] for #3[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #4[i]% of the current Shield provided by Skill.
+- **Type**：Skill
+- **Summary**：Designates one ally character as the "Bondmate" and grants all allies a Shield with stackable Shield Effect.
+- **Max Level**：15
+- **Effect Template**：Designates one ally character as the "Bondmate" and provides all allies with a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus #2[i] for #3[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #4[i]% of the current Shield provided by Skill.
 "Bondmate" only applies to the most recent target of Dan Heng • Permansor Terrae's Skill.
-【同袍】仅对丹恒•腾荒战技最新施放的目标生效。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 14% | 100 | 3 | 300% |
@@ -126,25 +125,24 @@
   | Lv.14 | 22.4% | 490 | 3 | 300% |
   | Lv.15 | 23% | 512.5 | 3 | 300% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`伤 → 参数2：上下文「1[f1]%攻击力+___伤害的护盾，持续#」
   - `#3[i]`回 → 参数3：上下文「i]伤害的护盾，持续___回合。重复获得丹恒」
   - `#4[i]`% → 参数4(%)：上下文「前战技提供的护盾量的___%。 【同袍】仅对」
 
-- **满级效果**：Designates one ally character as the "Bondmate" and provides all allies with a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus 512.5 for 3 turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.
+- **Max Effect**：Designates one ally character as the "Bondmate" and provides all allies with a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus 512.5 for 3 turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.
 "Bondmate" only applies to the most recent target of Dan Heng • Permansor Terrae's Skill.
-【同袍】仅对丹恒•腾荒战技最新施放的目标生效。
 
 ### Ultimate：A Dragon's Zenith Knows No Rue
-- **类型**：Ultimate
-- **简述**：Deals massive Physical DMG to all enemies and provides a Shield with stackable Shield Effect to all allies. Enhances "Souldragon." When "Souldragon" takes action, launches Follow-Up ATK, dealing minor Physical DMG and minor DMG of the Bondmate's Type to all enemies. The enhancement lasts for 2 "Souldragon" action(s).
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to #4[f1]% of Dan Heng • Permansor Terrae's ATK plus #5[i], lasting for #6[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #7[i]% of the current Shield provided by Skill.
+- **Type**：Ultimate
+- **Summary**：Deals massive Physical DMG to all enemies and provides a Shield with stackable Shield Effect to all allies. Enhances "Souldragon." When "Souldragon" takes action, launches Follow-Up ATK, dealing minor Physical DMG and minor DMG of the Bondmate's Type to all enemies. The enhancement lasts for 2 "Souldragon" action(s).
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to #4[f1]% of Dan Heng • Permansor Terrae's ATK plus #5[i], lasting for #6[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #7[i]% of the current Shield provided by Skill.
 "Souldragon" becomes enhanced. When "Souldragon" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to #2[i]% of Dan Heng • Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to #8[f1]% of the Bondmate's ATK. The enhancement lasts for #3[i] "Souldragon" action(s).
 使【龙灵】获得强化，【龙灵】行动时，发动追加攻击，对敌方全体造成等同于丹恒•腾荒#2[i]%攻击力的物理属性伤害和等同于【同袍】#8[f1]%攻击力的相应属性附加伤害。强化持续【龙灵】#3[i]次行动。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5 | 参数6 | 参数7(%) | 参数8 |
   |---|---|---|---|---|---|---|---|---|
   | Lv.1 | 150% | 40% | 2 | 14% | 100 | 3 | 300% | 40% |
@@ -163,7 +161,7 @@
   | Lv.14 | 360% | 96% | 2 | 22.4% | 490 | 3 | 300% | 96% |
   | Lv.15 | 375% | 100% | 2 | 23% | 512.5 | 3 | 300% | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
   - `#2[i]`% → 参数2(%)：上下文「造成等同于丹恒•腾荒___%攻击力的物理属性」
   - `#3[i]`次 → 参数3：上下文「害。强化持续【龙灵】___次行动。」
@@ -173,23 +171,22 @@
   - `#7[i]`% → 参数7(%)：上下文「前战技提供的护盾量的___%。 使【龙灵】获」
   - 参数8：效果模板中无对应 `#8[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Deals Physical DMG equal to 375% of Dan Heng • Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to #4[f1]% of Dan Heng • Permansor Terrae's ATK plus 512.5, lasting for 3 turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.
+- **Max Effect**：Deals Physical DMG equal to 375% of Dan Heng • Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to #4[f1]% of Dan Heng • Permansor Terrae's ATK plus 512.5, lasting for 3 turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill.
 "Souldragon" becomes enhanced. When "Souldragon" takes action, launches Follow-Up ATK, dealing Physical DMG to all enemies equal to 100% of Dan Heng • Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to #8[f1]% of the Bondmate's ATK. The enhancement lasts for 2 "Souldragon" action(s).
 使【龙灵】获得强化，【龙灵】行动时，发动追加攻击，对敌方全体造成等同于丹恒•腾荒100%攻击力的物理属性伤害和等同于【同袍】#8[f1]%攻击力的相应属性附加伤害。强化持续【龙灵】2次行动。
 
 ### Talent：Of Virtue, Forms Unfold
-- **类型**：Talent
-- **简述**：When an ally character becomes the "Bondmate," Dan Heng • Permansor Terrae will summon "Souldragon" for them.
+- **Type**：Talent
+- **Summary**：When an ally character becomes the "Bondmate," Dan Heng • Permansor Terrae will summon "Souldragon" for them.
 When "Souldragon" takes action, dispels 1 debuff from all allies and provides a Shield with stackable Shield Effect.
 【龙灵】行动时，解除我方全体1个负面效果并提供可叠加护盾量的护盾。
-- **最大等级**：15
-- **效果模板**：When an ally character becomes the "Bondmate," Dan Heng • Permansor Terrae summons "Souldragon" for them, which has an initial SPD of #5[i].
+- **Max Level**：15
+- **Effect Template**：When an ally character becomes the "Bondmate," Dan Heng • Permansor Terrae summons "Souldragon" for them, which has an initial SPD of #5[i].
 When "Souldragon" takes action, dispels #6[i] debuff(s) from all allies and provides a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus #2[i] for #3[i] turn(s). The Shield Effect provided by Dan Heng • Permansor Terrae and "Souldragon" can be stacked, but it will not exceed #4[i]% of the Shield provided by Dan Heng • Permansor Terrae's Skill.
 When Dan Heng • Permansor Terrae or the "Bondmate" is knocked down, "Souldragon" disappears.
 【龙灵】行动时，解除我方全体的#6[i]个负面效果，并提供能够抵消等同于丹恒•腾荒#1[f1]%攻击力+#2[i]伤害的护盾，持续#3[i]回合。丹恒•腾荒和【龙灵】提供的护盾量可以叠加，最高不超过丹恒•腾荒战技提供的护盾量的#4[i]%。
-丹恒•腾荒或【同袍】陷入无法战斗状态时【龙灵】消失。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 | 参数4(%) | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 7% | 50 | 3 | 300% | 165 | 1 |
@@ -208,7 +205,7 @@ When Dan Heng • Permansor Terrae or the "Bondmate" is knocked down, "Souldrago
   | Lv.14 | 11.2% | 245 | 3 | 300% | 165 | 1 |
   | Lv.15 | 11.5% | 256.25 | 3 | 300% | 165 | 1 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - 参数1：效果模板中无对应 `#1[i]` 占位符（预留参数/其他属性）
   - `#2[i]`伤 → 参数2：上下文「1[f1]%攻击力+___伤害的护盾，持续#」
   - `#3[i]`回 → 参数3：上下文「i]伤害的护盾，持续___回合。丹恒•腾荒和」
@@ -216,31 +213,28 @@ When Dan Heng • Permansor Terrae or the "Bondmate" is knocked down, "Souldrago
   - `#5[i]`点 → 参数5：上下文「】，【龙灵】初始拥有___点速度。 【龙灵】」
   - `#6[i]`个 → 参数6：上下文「动时，解除我方全体的___个负面效果，并提供」
 
-- **满级效果**：When an ally character becomes the "Bondmate," Dan Heng • Permansor Terrae summons "Souldragon" for them, which has an initial SPD of 165.
+- **Max Effect**：When an ally character becomes the "Bondmate," Dan Heng • Permansor Terrae summons "Souldragon" for them, which has an initial SPD of 165.
 When "Souldragon" takes action, dispels 1 debuff(s) from all allies and provides a Shield that can offset DMG equal to #1[f1]% of Dan Heng • Permansor Terrae's ATK plus 256.25 for 3 turn(s). The Shield Effect provided by Dan Heng • Permansor Terrae and "Souldragon" can be stacked, but it will not exceed 300% of the Shield provided by Dan Heng • Permansor Terrae's Skill.
 When Dan Heng • Permansor Terrae or the "Bondmate" is knocked down, "Souldragon" disappears.
 【龙灵】行动时，解除我方全体的1个负面效果，并提供能够抵消等同于丹恒•腾荒#1[f1]%攻击力+256.25伤害的护盾，持续3回合。丹恒•腾荒和【龙灵】提供的护盾量可以叠加，最高不超过丹恒•腾荒战技提供的护盾量的300%。
-丹恒•腾荒或【同袍】陷入无法战斗状态时【龙灵】消失。
 
 ### Technique：Earthrend
-- **类型**：Technique
-- **简述**：Inflicts Daze on enemies within a certain area and grants "Bondmate" to the current active character. At the start of the next battle, automatically uses Skill on the character with "Bondmate."
-- **最大等级**：1
-- **效果模板**：After using Technique, gains "Bondmate" and inflict Daze on enemies within a certain area for #1[i] second(s). Dazed enemies will not actively attack ally targets.
+- **Type**：Technique
+- **Summary**：Inflicts Daze on enemies within a certain area and grants "Bondmate" to the current active character. At the start of the next battle, automatically uses Skill on the character with "Bondmate."
+- **Max Level**：1
+- **Effect Template**：After using Technique, gains "Bondmate" and inflict Daze on enemies within a certain area for #1[i] second(s). Dazed enemies will not actively attack ally targets.
 When switching the active character, "Bondmate" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Bondmate" without consuming any Skill Points.
-切换行动角色时【同袍】转移至当前行动角色。下一次战斗开始时自动对持有【同袍】的角色施放1次战技，此次战技不消耗战技点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 |
   |---|---|
   | Lv.1 | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
 
-- **满级效果**：After using Technique, gains "Bondmate" and inflict Daze on enemies within a certain area for 10 second(s). Dazed enemies will not actively attack ally targets.
+- **Max Effect**：After using Technique, gains "Bondmate" and inflict Daze on enemies within a certain area for 10 second(s). Dazed enemies will not actively attack ally targets.
 When switching the active character, "Bondmate" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with "Bondmate" without consuming any Skill Points.
-切换行动角色时【同袍】转移至当前行动角色。下一次战斗开始时自动对持有【同袍】的角色施放1次战技，此次战技不消耗战技点。
 
 ## Trace Bonuses
 
@@ -300,28 +294,28 @@ When switching the active character, "Bondmate" transfers to the current active 
 ## Recommended Light Cones
 
 ### [[zh_cn/lightcone/存护/纵然山河万程.md|Though Worlds Apart]]
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：新鳞
-- **效果**：使装备者的攻击力提高【64%/80%/96%/112%/128%】。装备者施放终结技时，为我方全体回复等同于装备者攻击力【10%/12%/15%/17%/20%】的生命值，额外为当前生命值最低的角色回复等同于装备者攻击力【10%/12%/15%/17%/20%】的生命值，并使我方全体获得【卫戍】，【卫戍】持续3回合。获得【卫戍】的目标，造成的伤害提高【24%/30%/36%/42%/48%】，若目标拥有召唤物则造成的伤害额外提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：New Scale
+- **Effect**：Increases the wearer's ATK by 64%. When the wearer uses Ultimate, restores HP equal to 10% of the wearer's ATK for all allies, and additionally restores HP equal to 10% of the wearer's ATK for the character with the lowest current HP, and grants "Redoubt" to all allies for 3 turn(s). Targets with "Redoubt" deal 24% increased DMG, which further increases by 12% if the targets have summons.
 
 ### [[zh_cn/lightcone/存护/命运从未公平.md|Inherently Unjust Destiny]]
-- **基础属性**：生1058 攻423 防661
-- **推荐度**：★★★★
-- **技能名**：全下
-- **效果**：使装备者的防御力提高【40%/46%/52%/58%/64%】，当装备者为我方目标提供护盾时，使装备者的暴击伤害提高【40%/46%/52%/58%/64%】，持续2回合。当装备者发动追加攻击击中敌方目标时，有【100%/115%/130%/145%/160%】的基础概率使受到攻击的敌方目标受到的伤害提高【10.0%/11.5%/13.0%/14.5%/16.0%】，持续2回合。
+- **Base Stats**：HP1058 ATK423 DEF661
+- **Rating**：★★★★
+- **Skill Name**：All-In
+- **Effect**：Increases the wearer's DEF by 40%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40%, lasting for 2 turn(s). When the wearer's Follow-Up ATK hits an enemy target, there is a 1 base chance to increase the DMG taken by the attacked enemy target by #5[f1]%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/存护/愿旅途永远坦然.md|Journey, Forever Peaceful]]
-- **基础属性**：生1058 攻370 防529
-- **推荐度**：★★★★
-- **技能名**：甜梦
-- **效果**：使装备者提供的护盾量提高【12%/15%/18%/21%/24%】，我方目标持有护盾时，造成的伤害提高【12%/14%/16%/18%/20%】。
+- **Base Stats**：HP1058 ATK370 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Sweet Dream
+- **Effect**：Increases the wearer's provided Shield Effect by 12%. While an ally target has a Shield, their DMG dealt increases by 12%.
 
 ### [[zh_cn/lightcone/毁灭/比阳光更明亮的|Brighter Than the Sun]]
-- **基础属性**：生1058 攻635 防397
-- **推荐度**：★★★★★
-- **技能名**：抵死
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】最多叠加2层。
+- **Base Stats**：HP1058 ATK635 DEF397
+- **Rating**：★★★★★
+- **Skill Name**：Sweet Dream
+- **Effect**：Increases the wearer's provided Shield Effect by 12%. While an ally target has a Shield, their DMG dealt increases by 12%.
 
 ## Recommended Teams
 

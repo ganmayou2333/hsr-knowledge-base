@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Bajiquan
-- **类型**：Basic ATK
-- **简述**：Deals minor Quantum DMG to one designated enemy.
-- **最大等级**：10
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于远坂凛___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy.
 
 ### Skill：Jeweled Sword Zelretch
-- **类型**：Skill
-- **简述**：Deals Quantum DMG to one designated enemy.
-- **最大等级**：15
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.
+- **Type**：Skill
+- **Summary**：Deals Quantum DMG to one designated enemy.
+- **Max Level**：15
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 90% |
@@ -122,18 +122,18 @@
   | Lv.14 | 216% |
   | Lv.15 | 225% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于远坂凛___%攻击力的量子属性」
 
-- **满级效果**：Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy.
+- **Max Effect**：Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy.
 
 ### Ultimate：An Gal Ta Ki Gal Šè
-- **类型**：Ultimate
-- **简述**：Deals massive Quantum DMG to one designated enemy and Quantum DMG to other enemy targets. When used, increases the DMG taken by all enemies and recovers Skill Point(s) for allies.
-- **最大等级**：15
-- **效果模板**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Rin Tohsaka's ATK to other enemy targets. When used, recovers #4[i] Skill Point(s) for allies, and increases the DMG taken by all enemies by #5[i]%, lasting for #6[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Deals massive Quantum DMG to one designated enemy and Quantum DMG to other enemy targets. When used, increases the DMG taken by all enemies and recovers Skill Point(s) for allies.
+- **Max Level**：15
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Rin Tohsaka's ATK to other enemy targets. When used, recovers #4[i] Skill Point(s) for allies, and increases the DMG taken by all enemies by #5[i]%, lasting for #6[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 300% | 100% | 12 | 1 | 10% | 3 |
@@ -152,7 +152,7 @@
   | Lv.14 | 720% | 240% | 12 | 1 | 24% | 3 |
   | Lv.15 | 750% | 250% | 12 | 1 | 25% | 3 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于远坂凛___%攻击力的量子属性」
   - `#2[i]`% → 参数2(%)：上下文「目标造成等同于远坂凛___%攻击力的量子属性」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
@@ -160,15 +160,15 @@
   - `#5[i]`% → 参数5(%)：上下文「方全体受到的伤害提高___%，持续#6[i]」
   - `#6[i]`回 → 参数6：上下文「高#5[i]%，持续___回合。」
 
-- **满级效果**：Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s).
+- **Max Effect**：Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s).
 
 ### Talent：Gem Magecraft
-- **类型**：Talent
-- **简述**：When entering combat, gains 20 "Gem Energy". When an ally target consumes or recovers Skill Points, increases their CRIT DMG and grants Rin Tohsaka "Gem Energy." If Rin Tohsaka holds 15 or more "Gem Energy," or the current Skill Points are 7 or more, her Skill is enhanced to "Second Magic Experiment."
-- **最大等级**：15
-- **效果模板**：When entering combat, gains #1[i] "Gem Energy." When an ally target consumes or recovers Skill Points, increases their CRIT DMG by #3[i]% for #2[i] turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 "Gem Energy." If Rin Tohsaka holds #5[i] or more "Gem Energy," or if the current Skill Points are #4[i] or more, her Skill is enhanced to "Second Magic Experiment."
+- **Type**：Talent
+- **Summary**：When entering combat, gains 20 "Gem Energy". When an ally target consumes or recovers Skill Points, increases their CRIT DMG and grants Rin Tohsaka "Gem Energy." If Rin Tohsaka holds 15 or more "Gem Energy," or the current Skill Points are 7 or more, her Skill is enhanced to "Second Magic Experiment."
+- **Max Level**：15
+- **Effect Template**：When entering combat, gains #1[i] "Gem Energy." When an ally target consumes or recovers Skill Points, increases their CRIT DMG by #3[i]% for #2[i] turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 "Gem Energy." If Rin Tohsaka holds #5[i] or more "Gem Energy," or if the current Skill Points are #4[i] or more, her Skill is enhanced to "Second Magic Experiment."
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3(%) | 参数4 | 参数5 | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 20 | 2 | 35% | 7 | 15 | 999 |
@@ -187,7 +187,7 @@
   | Lv.14 | 20 | 2 | 84% | 7 | 15 | 999 |
   | Lv.15 | 20 | 2 | 87.5% | 7 | 15 | 999 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「进入战斗时，获得___点【宝石能量】。我」
   - `#2[i]`回 → 参数2：上下文「高#3[i]%，持续___回合，且每消耗或恢」
   - `#3[i]`% → 参数3(%)：上下文「时，使其暴击伤害提高___%，持续#2[i]」
@@ -195,25 +195,25 @@
   - `#5[i]`点 → 参数5：上下文「【宝石能量】大于等于___点或当前战技点大于」
   - 参数6：效果模板中无对应 `#6[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：When entering combat, gains 20 "Gem Energy." When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 "Gem Energy." If Rin Tohsaka holds 15 or more "Gem Energy," or if the current Skill Points are 7 or more, her Skill is enhanced to "Second Magic Experiment."
+- **Max Effect**：When entering combat, gains 20 "Gem Energy." When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 "Gem Energy." If Rin Tohsaka holds 15 or more "Gem Energy," or if the current Skill Points are 7 or more, her Skill is enhanced to "Second Magic Experiment."
 
 ### Technique：Conversion Charge
-- **类型**：Technique
-- **简述**：After using Technique, gains 10 "Gem Energy" at the start of the next battle.
-- **最大等级**：1
-- **效果模板**：After using Technique, gains #1[i] "Gem Energy" at the start of the next battle.
+- **Type**：Technique
+- **Summary**：After using Technique, gains 10 "Gem Energy" at the start of the next battle.
+- **Max Level**：1
+- **Effect Template**：After using Technique, gains #1[i] "Gem Energy" at the start of the next battle.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 2 | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「下一次战斗开始时获得___点【宝石能量】。」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：After using Technique, gains 10 "Gem Energy" at the start of the next battle.
+- **Max Effect**：After using Technique, gains 10 "Gem Energy" at the start of the next battle.
 
 ## Trace Bonuses
 
@@ -274,31 +274,31 @@
 
 ### [[zh_cn/lightcone/智识/星火悄然闪耀.md|Flickering Stars]]
 
-- **基础属性**：生847 攻635 防529
-- **推荐度**：★★★★★
-- **技能名**：萌芽
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。我方任意角色在自身同一回合内累计消耗大于等于4点战技点时，装备者获得【闪耀王冠】，持续3回合。装备者持有【闪耀王冠】时，我方全体造成的伤害无视目标【20%/24%/28%/32%/36%】的防御力，装备者造成的战技伤害提高【72%/84%/96%/108%/120%】，同类效果无法叠加。
+- **Base Stats**：HP847 ATK635 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Sprout
+- **Effect**：Increases the wearer's CRIT Rate by 18%. When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains "Radiant Crown," lasting for 3 turn(s). While the wearer holds "Radiant Crown," all allies' DMG dealt ignores 20% of the target's DEF, and the Skill DMG dealt by the wearer increases by 72%. Effects of the same type cannot stack.
 
 ### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
-- **基础属性**：生953 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：思维游戏
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
+- **Base Stats**：HP953 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Mind Game
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses their Ultimate, increases the wearer's Skill DMG and Ultimate DMG dealt by 60%, lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.
 
 ### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：无界之思
-- **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Boundless Thought
+- **Effect**：Increases the wearer's ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8%, lasting for 1 turn(s).
 
 ### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
-- **基础属性**：生846 攻529 防330
-- **推荐度**：★★★★
-- **技能名**：风雨将至
-- **效果**：进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
+- **Base Stats**：HP846 ATK529 DEF330
+- **Rating**：★★★★
+- **Skill Name**：A Storm Is Coming
+- **Effect**：After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
 ## Recommended Teams
 

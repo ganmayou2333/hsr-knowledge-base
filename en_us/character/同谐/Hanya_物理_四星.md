@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Oracle Brush
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于寒鸦___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Hanya's ATK to one designated enemy.
+- **Max Effect**：Deals Physical DMG equal to 140% of Hanya's ATK to one designated enemy.
 
 ### Skill：Samsara, Locked
-- **类型**：Skill
-- **简述**：Deals Physical DMG to one enemy and applies "Burden" to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies recover 1 Skill Point.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy target, then applies "Burden" to them.
+- **Type**：Skill
+- **Summary**：Deals Physical DMG to one enemy and applies "Burden" to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies recover 1 Skill Point.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy target, then applies "Burden" to them.
 For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden," allies will immediately recover 1 Skill Point. "Burden" is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered #2[i] times.
 每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发#2[i]次战技点恢复效果后自动解除。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 120% | 2 |
@@ -124,21 +124,20 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
   | Lv.14 | 288% | 2 |
   | Lv.15 | 300% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于寒鸦___%攻击力的物理属性」
   - `#2[i]`次 → 参数2：上下文「目标生效，并会在触发___次战技点恢复效果后」
 
-- **满级效果**：Deals Physical DMG equal to 300% of Hanya's ATK to one designated enemy target, then applies "Burden" to them.
+- **Max Effect**：Deals Physical DMG equal to 300% of Hanya's ATK to one designated enemy target, then applies "Burden" to them.
 For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden," allies will immediately recover 1 Skill Point. "Burden" is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times.
-每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发2次战技点恢复效果后自动解除。
 
 ### Ultimate：Ten-Lords' Decree, All Shall Obey
-- **类型**：Ultimate
-- **简述**：Increases an ally's SPD and ATK.
-- **最大等级**：15
-- **效果模板**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by #1[i]%, lasting for #2[i] turn(s).
+- **Type**：Ultimate
+- **Summary**：Increases an ally's SPD and ATK.
+- **Max Level**：15
+- **Effect Template**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by #1[i]%, lasting for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 36% | 2 | 15% |
@@ -157,20 +156,20 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
   | Lv.14 | 69.6% | 2 | 22% |
   | Lv.15 | 72% | 2 | 22.5% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「并使该目标攻击力提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by 72%, lasting for 2 turn(s).
+- **Max Effect**：Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by 72%, lasting for 2 turn(s).
 
 ### Talent：Sanction
-- **类型**：Talent
-- **简述**：When an ally target uses a Basic ATK, Skill, or Ultimate on an enemy target inflicted with "Burden," the DMG dealt increases.
-- **最大等级**：15
-- **效果模板**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
+- **Type**：Talent
+- **Summary**：When an ally target uses a Basic ATK, Skill, or Ultimate on an enemy target inflicted with "Burden," the DMG dealt increases.
+- **Max Level**：15
+- **Effect Template**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 15% | 2 |
@@ -189,19 +188,19 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
   | Lv.14 | 36% | 2 |
   | Lv.15 | 37.5% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「技时，造成的伤害提高___%，持续#2[i]」
   - `#2[i]`回 → 参数2：上下文「高#1[i]%，持续___回合。」
 
-- **满级效果**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 37.5%, lasting for 2 turn(s).
+- **Max Effect**：When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 37.5%, lasting for 2 turn(s).
 
 ### Technique：Netherworld Judgment
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.
 
-- **满级效果**：Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.（参数见等级数值表）
+- **Max Effect**：Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.（参数见等级数值表）
 
 ## Trace Bonuses
 
@@ -262,38 +261,38 @@ For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with "Burden
 
 ### [[zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：继承人
-- **效果**：使装备者的能量恢复效率提高【10%/12%/14%/16%/18%】，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【30%/35%/40%/45%/50%】，持续1回合。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
 
 ### [[zh_cn/lightcone/同谐/镂月裁云之意.md|Carve the Moon, Weave the Clouds]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：秘密
-- **效果**：在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：使我方全体攻击力提高【10%/12%/15%/17%/20%】；使我方全体暴击伤害提高【12%/15%/18%/21%/24%】；使我方全体能量恢复效率提高【6%/7%/9%/10%/12%】。同类效果无法叠加，在装备者陷入无法战斗状态时解除。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Secret
+- **Effect**：At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by 10%, all allies' CRIT DMG increases by 12%, or all allies' Energy Regeneration Rate increases by 6%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the same type cannot be stacked.
 
 ### [[zh_cn/lightcone/同谐/舞！舞！舞！.md|Dance! Dance! Dance!]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：停不下来啦！
-- **效果**：当装备者施放终结技后，我方全体行动提前【16%/18%/20%/22%/24%】。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cannot Stop It!
+- **Effect**：When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%.
 
 ### [[zh_cn/lightcone/同谐/与行星相会.md|Planetary Rendezvous]]
 
-- **基础属性**：生1058 攻423 防330
-- **推荐度**：★★★★
-- **技能名**：启程
-- **效果**：进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK423 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Departure
+- **Effect**：After entering battle, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%.
 
 ### [[zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
 
-- **基础属性**：生952 攻423 防396
-- **推荐度**：★★★★
-- **技能名**：旧日纸鸢
-- **效果**：当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高【16%/20%/24%/28%/32%】，持续1回合。
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
 
 ## Recommended Teams
 

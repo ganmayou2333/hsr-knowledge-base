@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Boltsunder
-- **类型**：Basic ATK
-- **简述**：Deals minor Wind DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于飞霄___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 140% of Feixiao's ATK to one designated enemy target.
+- **Max Effect**：Deals Wind DMG equal to 140% of Feixiao's ATK to one designated enemy target.
 
 ### Skill：Waraxe
-- **类型**：Skill
-- **简述**：Deals Wind DMG to an enemy, and additionally launches Talent's Follow-Up ATK 1 time.
-- **最大等级**：15
-- **效果模板**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
+- **Type**：Skill
+- **Summary**：Deals Wind DMG to an enemy, and additionally launches Talent's Follow-Up ATK 1 time.
+- **Max Level**：15
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 100% |
@@ -122,22 +122,22 @@
   | Lv.14 | 240% |
   | Lv.15 | 250% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于飞霄___%攻击力的风属性伤」
 
-- **满级效果**：Deals Wind DMG equal to 250% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
+- **Max Effect**：Deals Wind DMG equal to 250% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.
 
 ### Ultimate：Terrasplit
-- **类型**：Ultimate
-- **简述**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
+- **Type**：Ultimate
+- **Summary**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
 Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy 6 time(s). Deals Wind DMG at the end.
 对敌方单体发动6次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。
-- **最大等级**：15
-- **效果模板**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
+- **Max Level**：15
+- **Effect Template**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
 Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy #3[i] time(s). Deals Wind DMG at the end.
 其中，飞霄先对该目标发动【闪裂刃舞】或【钺贯天冲】，总计#3[i]次。最后对该目标造成等同于飞霄#1[i]%攻击力的风属性伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 96% | 100% | 6 | 402% |
@@ -156,27 +156,26 @@ Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy #3[i] time(s). Deal
   | Lv.14 | 185.6% | 100% | 6 | 819.2% |
   | Lv.15 | 192% | 100% | 6 | 849% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「该目标造成等同于飞霄___%攻击力的风属性伤」
   - `#2[i]`% → 参数2(%)：上下文「霄的弱点击破效率提高___%。 其中，飞霄先」
   - `#3[i]`次 → 参数3：上下文「或【钺贯天冲】，总计___次。最后对该目标造」
   - `#4[i]`% → 参数4(%)：上下文「体造成最多等同于飞霄___%攻击力的风属性伤」
 
-- **满级效果**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
+- **Max Effect**：During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.
 Launches "Boltsunder Blitz" or "Waraxe Skyward" on one enemy 6 time(s). Deals Wind DMG at the end.
-其中，飞霄先对该目标发动【闪裂刃舞】或【钺贯天冲】，总计6次。最后对该目标造成等同于飞霄192%攻击力的风属性伤害。
 
 ### Talent：Thunderhunt
-- **类型**：Talent
-- **简述**：Can activate Ultimate when "Flying Aureus" reaches 6 points, accumulating up to 12 points. For every 2 attacks by ally targets, Feixiao gains "Flying Aureus".
+- **Type**：Talent
+- **Summary**：Can activate Ultimate when "Flying Aureus" reaches 6 points, accumulating up to 12 points. For every 2 attacks by ally targets, Feixiao gains "Flying Aureus".
 After teammates attack, Feixiao launches Follow-Up ATK against the primary target, dealing Wind DMG. This effect can only trigger once per turn. When using this attack, increases DMG dealt by this unit.
 队友施放攻击后，飞霄对主目标发动追加攻击，造成风属性伤害。该效果每回合最多触发1次，发动此攻击时使自身造成的伤害提高。
-- **最大等级**：15
-- **效果模板**：Can activate Ultimate when "Flying Aureus" reaches #3[i] points, accumulating up to #4[i] points. Feixiao gains 1 point of "Flying Aureus" for every #2[i] attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.
+- **Max Level**：15
+- **Effect Template**：Can activate Ultimate when "Flying Aureus" reaches #3[i] points, accumulating up to #4[i] points. Feixiao gains 1 point of "Flying Aureus" for every #2[i] attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.
 After Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to #1[i]% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by #5[i]%, lasting for #6[i] turn(s).
 当飞霄的队友对敌方目标施放攻击后，飞霄立即对主目标发动追加攻击，造成等同于飞霄#1[i]%攻击力的风属性伤害。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次，飞霄回合开始时重置可触发次数。发动此攻击时使自身造成的伤害提高#5[i]%，持续#6[i]回合。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 | 参数4 | 参数5(%) | 参数6 |
   |---|---|---|---|---|---|---|
   | Lv.1 | 55% | 2 | 6 | 12 | 30% | 2 |
@@ -195,7 +194,7 @@ After Feixiao's teammates attack an Enemy target, Feixiao immediately launches F
   | Lv.14 | 132% | 2 | 6 | 12 | 72% | 2 |
   | Lv.15 | 137.5% | 2 | 6 | 12 | 75% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「攻击，造成等同于飞霄___%攻击力的风属性伤」
   - `#2[i]`次 → 参数2：上下文「]点。我方目标每施放___次攻击，飞霄获得1」
   - `#3[i]`点 → 参数3：上下文「【飞黄】达到___点时可激活终结技，」
@@ -203,26 +202,25 @@ After Feixiao's teammates attack an Enemy target, Feixiao immediately launches F
   - `#5[i]`% → 参数5(%)：上下文「使自身造成的伤害提高___%，持续#6[i]」
   - `#6[i]`回 → 参数6：上下文「高#5[i]%，持续___回合。」
 
-- **满级效果**：Can activate Ultimate when "Flying Aureus" reaches 6 points, accumulating up to 12 points. Feixiao gains 1 point of "Flying Aureus" for every 2 attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.
+- **Max Effect**：Can activate Ultimate when "Flying Aureus" reaches 6 points, accumulating up to 12 points. Feixiao gains 1 point of "Flying Aureus" for every 2 attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.
 After Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to 137.5% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by 75%, lasting for 2 turn(s).
-当飞霄的队友对敌方目标施放攻击后，飞霄立即对主目标发动追加攻击，造成等同于飞霄137.5%攻击力的风属性伤害。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次，飞霄回合开始时重置可触发次数。发动此攻击时使自身造成的伤害提高75%，持续2回合。
 
 ### Technique：Stormborn
-- **类型**：Technique
-- **简述**：Enters the "Onrush" state. Continuously pulls in enemies and increases movement speed. Gains "Flying Aureus" after entering battle.
+- **Type**：Technique
+- **Summary**：Enters the "Onrush" state. Continuously pulls in enemies and increases movement speed. Gains "Flying Aureus" after entering battle.
 While in "Onrush," can actively attack all pulled enemies. At the start of every wave, deals Wind DMG to all enemies. This DMG is guaranteed to CRIT. The more enemies are pulled in, the higher the DMG multiplier becomes.
 【陷锋】状态下可主动攻击所有牵引的敌人，每个波次开始时对敌方全体造成风属性伤害，该伤害必定暴击。牵引敌人越多，伤害倍率越高。
-- **最大等级**：1
-- **效果模板**：After using Technique, enters the "Onrush" state, lasting for #1[i] seconds. While in "Onrush," pulls in enemies within a certain range, and increases this unit's movement speed by #2[i]%. After entering battle, gains #4[i] point(s) of "Flying Aureus."
+- **Max Level**：1
+- **Effect Template**：After using Technique, enters the "Onrush" state, lasting for #1[i] seconds. While in "Onrush," pulls in enemies within a certain range, and increases this unit's movement speed by #2[i]%. After entering battle, gains #4[i] point(s) of "Flying Aureus."
 While in "Onrush," actively attacking will start battle with all pulled enemies. After entering battle, deals Wind DMG equal to #3[i]% of Feixiao's ATK to all enemies at the start of each wave. This DMG is guaranteed to CRIT. If more than 1 enemy is pulled in, increases the multiplier of this DMG by #5[i]% for each additional enemy pulled in, up to a maximum of #6[i]%.
 【陷锋】状态下主动攻击会使所有牵引的敌人进入战斗。进入战斗后，每个波次开始时对敌方全体造成等同于飞霄#3[i]%攻击力的风属性伤害，该伤害必定造成暴击。若牵引了超过1个敌人，每超过1个敌人，该伤害的倍率提高#5[i]%，最多提高至#6[i]%。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3(%) | 参数4 | 参数5(%) | 参数6(%) |
   |---|---|---|---|---|---|---|
   | Lv.1 | 20 | 50% | 200% | 1 | 100% | 1000% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的【陷锋】状态。」
   - `#2[i]`% → 参数2(%)：上下文「并且自身移动速度提高___%，进入战斗后获得」
   - `#3[i]`% → 参数3(%)：上下文「方全体造成等同于飞霄___%攻击力的风属性伤」
@@ -230,17 +228,14 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
   - `#5[i]`% → 参数5(%)：上下文「人，该伤害的倍率提高___%，最多提高至#6」
   - `#6[i]`% → 参数6(%)：上下文「[i]%，最多提高至___%。」
 
-- **满级效果**：After using Technique, enters the "Onrush" state, lasting for 20 seconds. While in "Onrush," pulls in enemies within a certain range, and increases this unit's movement speed by 50%. After entering battle, gains 1 point(s) of "Flying Aureus."
+- **Max Effect**：After using Technique, enters the "Onrush" state, lasting for 20 seconds. While in "Onrush," pulls in enemies within a certain range, and increases this unit's movement speed by 50%. After entering battle, gains 1 point(s) of "Flying Aureus."
 While in "Onrush," actively attacking will start battle with all pulled enemies. After entering battle, deals Wind DMG equal to 200% of Feixiao's ATK to all enemies at the start of each wave. This DMG is guaranteed to CRIT. If more than 1 enemy is pulled in, increases the multiplier of this DMG by 100% for each additional enemy pulled in, up to a maximum of 1000%.
-【陷锋】状态下主动攻击会使所有牵引的敌人进入战斗。进入战斗后，每个波次开始时对敌方全体造成等同于飞霄200%攻击力的风属性伤害，该伤害必定造成暴击。若牵引了超过1个敌人，每超过1个敌人，该伤害的倍率提高100%，最多提高至1000%。
 
 ## Trace Bonuses
 
 | No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
 |---|---|---|---|---|---|
 | 附加能力1 | 天通 | 晋阶2 | 战斗开始时，获得#1[i]点【飞黄】。
-回合开始时，若上回合未通过天赋发动追加攻击，计入1次获得【飞黄】所需的攻击次数。 | 战斗开始时，获得3点【飞黄】。
-回合开始时，若上回合未通过天赋发动追加攻击，计入1次获得【飞黄】所需的攻击次数。 | 信用点×5000、陨铁弹丸×3、无穷假身的遗恨×1 |
 | 附加能力2 | 解形 | 晋阶4 | 施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。追加攻击的暴击伤害提高#1[i]%。 | 施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。追加攻击的暴击伤害提高36%。 | 信用点×20000、命定死因×5、命运的足迹×1、无穷假身的遗恨×1 |
 | 附加能力3 | 电举 | 晋阶6 | 施放战技时，攻击力提高#1[i]%，持续#2[i]回合。 | 施放战技时，攻击力提高48%，持续3回合。 | 信用点×160000、逆时一击×8、命运的足迹×1、无穷假身的遗恨×1 |
 
@@ -294,38 +289,40 @@ While in "Onrush," actively attacking will start battle with all pulled enemies.
 
 ### [[zh_cn/lightcone/欢愉/欢迎来到银河城.md|Welcome to the Cosmic City]]
 
-- **基础属性**：生1164 攻476 防529
-- **推荐度**：★★★★★
-- **技能名**：稳赢
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】，造成的欢愉伤害无视目标【20%/24%/28%/32%/36%】的防御力。当装备者对自身单体施放终结技时，获得【20/25/30/35/40】点【笑点】。该效果最多触发1次，施放3次普攻后重置可触发次数。
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Guaranteed Victory
+- **Effect**：Increases the wearer's SPD by 18%. The Elation DMG dealt ignores 20% of the target's DEF. When the wearer uses Ultimate on themselves, gains 20 point(s) of "Punchline." This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).
 
 ### [[zh_cn/lightcone/欢愉/今日好手气.md|Today's Good Luck]]
 
-- **基础属性**：生953 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：憧憬
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，欢愉度提高【12%/14%/16%/18%/20%】，该效果最多叠加2次。
+- **Base Stats**：HP953 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Decision
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses an Elation Skill, increases Elation by 12%, stacking up to 2 times.
 
 ### [[zh_cn/lightcone/欢愉/当她决定看见.md|When She Decided to See]]
 
-- **基础属性**：生1058 攻529 防529
-- **推荐度**：★★★★
-- **技能名**：破局
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者进入战斗或对我方目标施放终结技时，使装备者获得【上上签】，持续3回合。当装备者持有【上上签】时，我方全体暴击率提高【10%/11%/12%/13%/14%】，暴击伤害提高【30%/37.5%/45%/52.5%/60%】，装备者自身能量恢复效率提高【12%/14%/16%/18%/20%】。 每个波次开始时，装备者固定恢复15点能量。
+- **Base Stats**：HP1058 ATK529 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Game Changer
+- **Effect**：Increases the wearer's SPD by 18%. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains "Great Fortune" for 3 turn(s). While the wearer holds "Great Fortune," all allies' CRIT Rate increases by 10%, CRIT DMG increases by 30%, and the wearer's Energy Regeneration Rate increases by 12%.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
+At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.
 
 ### [[zh_cn/lightcone/欢愉/菇菇嘎嘎历险记.md|Mushy Shroomy's Adventures]]
 
-- **基础属性**：生847 攻476 防396
-- **推荐度**：★★★★
-- **技能名**：乱斗
-- **效果**：使装备者的欢愉度提高【12%/14%/16%/18%/20%】。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高【6%/7%/8%/9%/10%】，持续2回合。
+- **Base Stats**：HP847 ATK476 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Rumble
+- **Effect**：Increases the wearer's Elation by 12%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by 6% for 2 turn(s).
 
 ### [[zh_cn/lightcone/欢愉/未来，有我们一起.md|Tomorrow, Together]]
 
-- **基础属性**：生953 攻476 防331
-- **推荐度**：★★★★
-- **技能名**：同行
-- **效果**：使装备者的暴击伤害提高【12%/15%/18%/21%/24%】。装备者施放终结技后，使我方全体欢愉度提高【8%/9%/10%/11%/12%】，持续1回合。
+- **Base Stats**：HP953 ATK476 DEF331
+- **Rating**：★★★★
+- **Skill Name**：Companion
+- **Effect**：Increases the wearer's CRIT DMG by 12%. After the wearer uses their Ultimate, increases all allies' Elation by 8%, lasting for 1 turn(s).
 
 ## Recommended Teams
 

@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Hehe! Don't Get Burned!
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,20 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于虎克___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of Hook's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of Hook's ATK to one designated enemy.
 
 ### Skill：Hey! Remember Hook?
-- **类型**：Skill
-- **简述**：Deals Fire DMG to one enemy with a high chance of inflicting Burn, also deals minor Fire DMG to enemies adjacent to it.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy, with a #2[i]% base chance to Burn them for #3[i] turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.
+- **Type**：Skill
+- **Summary**：Deals Fire DMG to one enemy with a high chance of inflicting Burn, also deals minor Fire DMG to enemies adjacent to it.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy, with a #2[i]% base chance to Burn them for #3[i] turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.
 When afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.
 灼烧状态下，敌方目标每回合开始时受到等同于虎克#4[i]%攻击力的火属性持续伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 120% | 100% | 2 | 25% |
@@ -124,25 +124,23 @@ When afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's A
   | Lv.14 | 288% | 100% | 2 | 78% |
   | Lv.15 | 300% | 100% | 2 | 81.25% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于虎克___%攻击力的火属性伤」
   - `#2[i]`% → 参数2(%)：上下文「的火属性伤害，同时有___%的基础概率使其陷」
   - `#3[i]`回 → 参数3：上下文「其陷入灼烧状态，持续___回合。 灼烧状态下」
   - `#4[i]`% → 参数4(%)：上下文「开始时受到等同于虎克___%攻击力的火属性持」
 
-- **满级效果**：Deals Fire DMG equal to 300% of Hook's ATK to one designated enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.
+- **Max Effect**：Deals Fire DMG equal to 300% of Hook's ATK to one designated enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.
 When afflicted with Burn, enemies will take Fire DoT equal to 81.25% of Hook's ATK at the beginning of each turn.
-灼烧状态下，敌方目标每回合开始时受到等同于虎克81.25%攻击力的火属性持续伤害。
 
 ### Ultimate：Boom! Here Comes the Fire!
-- **类型**：Ultimate
-- **简述**：Deals massive Fire DMG to one enemy and Enhances this unit's next Skill.
-- **最大等级**：15
-- **效果模板**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.
+- **Type**：Ultimate
+- **Summary**：Deals massive Fire DMG to one enemy and Enhances this unit's next Skill.
+- **Max Level**：15
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.
 After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to one designated enemy and enemies adjacent to it.
-施放终结技后，下一次施放的战技得到强化，强化后的战技能够同时对指定敌方单体及其相邻目标造成伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 240% |
@@ -161,20 +159,19 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
   | Lv.14 | 464% |
   | Lv.15 | 480% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于虎克___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 480% of Hook's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 480% of Hook's ATK to one designated enemy.
 After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to one designated enemy and enemies adjacent to it.
-施放终结技后，下一次施放的战技得到强化，强化后的战技能够同时对指定敌方单体及其相邻目标造成伤害。
 
 ### Talent：Ha! Oil to the Flames!
-- **类型**：Talent
-- **简述**：When attacking a Burned enemy, deals Fire Additional DMG for a moderate amount, and additionally regenerates energy.
-- **最大等级**：15
-- **效果模板**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to #1[i]% of Hook's ATK and regenerates #2[i] extra Energy.
+- **Type**：Talent
+- **Summary**：When attacking a Burned enemy, deals Fire Additional DMG for a moderate amount, and additionally regenerates energy.
+- **Max Level**：15
+- **Effect Template**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to #1[i]% of Hook's ATK and regenerates #2[i] extra Energy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 50% | 5 |
@@ -193,34 +190,33 @@ After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to 
   | Lv.14 | 120% | 5 |
   | Lv.15 | 125% | 5 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「，追加1次等同于虎克___%攻击力的火属性附」
   - `#2[i]`点 → 参数2：上下文「附加伤害，并额外恢复___点能量。」
 
-- **满级效果**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to 125% of Hook's ATK and regenerates 5 extra Energy.
+- **Max Effect**：When attacking a target afflicted with Burn, deals Fire Additional DMG equal to 125% of Hook's ATK and regenerates 5 extra Energy.
 
 ### Technique：Ack! Look at This Mess!
-- **类型**：Technique
-- **简述**：Attacks enemies. After entering battle, deals minor Fire DMG to one random enemy, with a high chance to inflict Burn on each enemy.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to #4[i]% of her ATK to a random enemy. In addition, there is a #1[i]% base chance to inflict Burn on every enemy for #3[i] turn(s).
+- **Type**：Technique
+- **Summary**：Attacks enemies. After entering battle, deals minor Fire DMG to one random enemy, with a high chance to inflict Burn on each enemy.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to #4[i]% of her ATK to a random enemy. In addition, there is a #1[i]% base chance to inflict Burn on every enemy for #3[i] turn(s).
 When afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's ATK at the beginning of each turn.
 灼烧状态下，敌方目标每回合开始时受到等同于虎克#2[i]%攻击力的火属性持续伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) | 参数3 | 参数4(%) |
   |---|---|---|---|---|
   | Lv.1 | 100% | 50% | 3 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「的火属性伤害，同时有___%的基础概率使敌方」
   - `#2[i]`% → 参数2(%)：上下文「开始时受到等同于虎克___%攻击力的火属性持」
   - `#3[i]`回 → 参数3：上下文「标陷入灼烧状态，持续___回合。 灼烧状态下」
   - `#4[i]`% → 参数4(%)：上下文「机单体造成等同于虎克___%攻击力的火属性伤」
 
-- **满级效果**：Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s).
+- **Max Effect**：Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s).
 When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn.
-灼烧状态下，敌方目标每回合开始时受到等同于虎克50%攻击力的火属性持续伤害。
 
 ## Trace Bonuses
 
@@ -281,31 +277,31 @@ When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK 
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/汪！散步时间！.md|Woof! Walk Time!]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：快溜
-- **效果**：使装备者的攻击力提高【10%/12%/15%/17%/20%】，对处于灼烧或裂伤状态的敌方目标造成的伤害提高【16%/20%/24%/28%/32%】，该效果对持续伤害也会生效。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Run!
+- **Effect**：Increases the wearer's ATK by 10%, and increases their DMG to enemies afflicted with Burn or Bleed by 16%. This also applies to DoT.
 
 ### [[zh_cn/lightcone/毁灭/鼹鼠党欢迎你.md|The Moles Welcome You]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★★
-- **技能名**：奇妙冒险
-- **效果**：装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高【12%/15%/18%/21%/24%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★★
+- **Skill Name**：Fantastic Adventure
+- **Effect**：When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12%.
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ## Recommended Teams
 

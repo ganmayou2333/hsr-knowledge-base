@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Hurlthorn
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,20 +92,19 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于貊泽___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 140% of Moze's ATK to one designated enemy target.
+- **Max Effect**：Deals Lightning DMG equal to 140% of Moze's ATK to one designated enemy target.
 
 ### Skill：Fleetwinged Raid
-- **类型**：Skill
-- **简述**：Marks one enemy as "Prey" and deals Lightning DMG to it. Gains 9 points of Charge.
-- **最大等级**：15
-- **效果模板**：Marks a designated single enemy target as "Prey" and deals to it Lightning DMG equal to #1[i]% of Moze's ATK, and gains #2[i] points of Charge.
+- **Type**：Skill
+- **Summary**：Marks one enemy as "Prey" and deals Lightning DMG to it. Gains 9 points of Charge.
+- **Max Level**：15
+- **Effect Template**：Marks a designated single enemy target as "Prey" and deals to it Lightning DMG equal to #1[i]% of Moze's ATK, and gains #2[i] points of Charge.
 When there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's "Prey" state.
-当场上没有可以战斗的其他角色时，貊泽无法使用战技，并解除敌人的【猎物】状态。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 75% | 9 |
@@ -124,21 +123,20 @@ When there are no other characters on the field that are capable of combat, Moze
   | Lv.14 | 180% | 9 |
   | Lv.15 | 187.5% | 9 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「并对其造成等同于貊泽___%攻击力的雷属性伤」
   - `#2[i]`点 → 参数2：上下文「的雷属性伤害，并获得___点充能。 当场上没」
 
-- **满级效果**：Marks a designated single enemy target as "Prey" and deals to it Lightning DMG equal to 187.5% of Moze's ATK, and gains 9 points of Charge.
+- **Max Effect**：Marks a designated single enemy target as "Prey" and deals to it Lightning DMG equal to 187.5% of Moze's ATK, and gains 9 points of Charge.
 When there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's "Prey" state.
-当场上没有可以战斗的其他角色时，貊泽无法使用战技，并解除敌人的【猎物】状态。
 
 ### Ultimate：Dash In, Gash Out
-- **类型**：Ultimate
-- **简述**：Deals Lightning DMG to one enemy, and launches Talent's Follow-Up ATK.
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
+- **Type**：Ultimate
+- **Summary**：Deals Lightning DMG to one enemy, and launches Talent's Follow-Up ATK.
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 162% |
@@ -157,22 +155,22 @@ When there are no other characters on the field that are capable of combat, Moze
   | Lv.14 | 313.2% |
   | Lv.15 | 324% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于貊泽___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 324% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
+- **Max Effect**：Deals Lightning DMG equal to 324% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.
 
 ### Talent：Cascading Featherblade
-- **类型**：Talent
-- **简述**：When "Prey" exists on the field, Moze will enter the Departed state.
+- **Type**：Talent
+- **Summary**：When "Prey" exists on the field, Moze will enter the Departed state.
 After allies attack "Prey," Moze deals Lightning Additional DMG and consumes 1 Charge point. For every 3 point(s) of Charge consumed, Moze launches Follow-Up ATK on "Prey," dealing Lightning DMG. When Charge is 0, dispels the target's "Prey" state.
 我方目标攻击【猎物】后，貊泽造成雷属性附加伤害，并消耗1点充能。每消耗3点充能，貊泽会对【猎物】发动追加攻击，造成雷属性伤害，当充能为0时，解除目标【猎物】状态。
-- **最大等级**：15
-- **效果模板**：When "Prey" exists on the field, Moze will enter the Departed state.
+- **Max Level**：15
+- **Effect Template**：When "Prey" exists on the field, Moze will enter the Departed state.
 After ally targets attack "Prey," Moze will additionally deal 1 instance of Lightning Additional DMG equal to #1[i]% of his ATK and consumes 1 point of Charge. For every #2[i] point(s) of Charge consumed, Moze launches 1 Follow-Up ATK to "Prey," dealing Lightning DMG equal to #3[i]% of his ATK. When Charge reaches 0, dispels the target's "Prey" state and resets the tally of Charge points required to launch Follow-Up ATK. Talent's Follow-Up ATK does not consume Charge.
 我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身#1[i]%攻击力的雷属性附加伤害，并消耗1点充能。每消耗#2[i]点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身#3[i]%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。天赋的追加攻击不会消耗充能。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 15% | 3 | 80% |
@@ -191,32 +189,31 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
   | Lv.14 | 36% | 3 | 192% |
   | Lv.15 | 37.5% | 3 | 200% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「外造成1次等同于自身___%攻击力的雷属性附」
   - `#2[i]`点 → 参数2：上下文「消耗1点充能。每消耗___点充能，貊泽会对【」
   - `#3[i]`% → 参数3(%)：上下文「攻击，造成等同于自身___%攻击力的雷属性伤」
 
-- **满级效果**：When "Prey" exists on the field, Moze will enter the Departed state.
+- **Max Effect**：When "Prey" exists on the field, Moze will enter the Departed state.
 After ally targets attack "Prey," Moze will additionally deal 1 instance of Lightning Additional DMG equal to 37.5% of his ATK and consumes 1 point of Charge. For every 3 point(s) of Charge consumed, Moze launches 1 Follow-Up ATK to "Prey," dealing Lightning DMG equal to 200% of his ATK. When Charge reaches 0, dispels the target's "Prey" state and resets the tally of Charge points required to launch Follow-Up ATK. Talent's Follow-Up ATK does not consume Charge.
-我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身37.5%攻击力的雷属性附加伤害，并消耗1点充能。每消耗3点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身200%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。天赋的追加攻击不会消耗充能。
 
 ### Technique：Bated Wings
-- **类型**：Technique
-- **简述**：Enters the Stealth state. Attacking enemies to enter combat while in Stealth increases DMG.
-- **最大等级**：1
-- **效果模板**：After using Technique, enters the Stealth state for #1[i] second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by #2[i]%, lasting for #3[i] turn(s).
+- **Type**：Technique
+- **Summary**：Enters the Stealth state. Attacking enemies to enter combat while in Stealth increases DMG.
+- **Max Level**：1
+- **Effect Template**：After using Technique, enters the Stealth state for #1[i] second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by #2[i]%, lasting for #3[i] turn(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 20 | 30% | 2 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「使用秘技后进入持续___秒的隐身状态。隐身」
   - `#2[i]`% → 参数2(%)：上下文「人进入战斗时伤害提高___%，持续#3[i]」
   - `#3[i]`回 → 参数3：上下文「高#2[i]%，持续___回合。」
 
-- **满级效果**：After using Technique, enters the Stealth state for 20 second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by 30%, lasting for 2 turn(s).
+- **Max Effect**：After using Technique, enters the Stealth state for 20 second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by 30%, lasting for 2 turn(s).
 
 ## Trace Bonuses
 
@@ -277,31 +274,31 @@ After ally targets attack "Prey," Moze will additionally deal 1 instance of Ligh
 
 ### [[zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|Baptism of Pure Thought]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★
-- **技能名**：思想训练
-- **效果**：使装备者的暴击伤害提高【20%/23%/26%/29%/32%】。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高【8%/9%/10%/11%/12%】，最多叠加3层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高【36%/42%/48%/54%/60%】，追加攻击无视目标【24%/28%/32%/36%/40%】的防御力，该效果持续2回合。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Mental Training
+- **Effect**：Increases the wearer's CRIT DMG by 20%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target additionally increases by 8%, stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the "Disputation" effect, which increases DMG dealt by 36% and enables their Follow-Up ATKs to ignore 24% of the target's DEF. This effect lasts for 2 turns.
 
 ### [[zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：一个一个来
-- **效果**：使装备者暴击率提高【18%/21%/24%/27%/30%】，追加攻击造成的伤害提高【30%/35%/40%/45%/50%】。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高【12%/14%/16%/18%/20%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：One At A Time
+- **Effect**：Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
 
 ### [[zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
 
-- **基础属性**：生952 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：猎逐
-- **效果**：使装备者的暴击率提高【8%/10%/12%/14%/16%】，装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高【8%/10%/12%/14%/16%】。当装备者消灭敌方目标后，攻击力提高【20%/25%/30%/35%/40%】，持续2回合。
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
 
 ### [[zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★
-- **技能名**：各自的答案
-- **效果**：当装备者多次击中同一敌方目标时，每次造成的伤害提高【8%/10%/12%/14%/16%】，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
 
 ## Recommended Teams
 

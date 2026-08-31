@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Fleeting Fragrance
-- **类型**：Basic ATK
-- **简述**：Deals minor Physical DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to one designated enemy target.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Physical DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to one designated enemy target.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于银枝___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 140% of Argenti's ATK to one designated enemy target.
+- **Max Effect**：Deals Physical DMG equal to 140% of Argenti's ATK to one designated enemy target.
 
 ### Skill：Justice, Hereby Blooms
-- **类型**：Skill
-- **简述**：Deals minor Physical DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
+- **Type**：Skill
+- **Summary**：Deals minor Physical DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 60% |
@@ -122,18 +122,18 @@
   | Lv.14 | 144% |
   | Lv.15 | 150% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于银枝___%攻击力的物理属性」
 
-- **满级效果**：Deals Physical DMG equal to 150% of Argenti's ATK to all enemies.
+- **Max Effect**：Deals Physical DMG equal to 150% of Argenti's ATK to all enemies.
 
 ### Ultimate：For In This Garden, Supreme Beauty Bestows
-- **类型**：Ultimate
-- **简述**：Consumes 90 Energy and deals Physical DMG to all enemies.
-- **最大等级**：15
-- **效果模板**：Consumes #2[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
+- **Type**：Ultimate
+- **Summary**：Consumes 90 Energy and deals Physical DMG to all enemies.
+- **Max Level**：15
+- **Effect Template**：Consumes #2[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 |
   |---|---|---|
   | Lv.1 | 96% | 90 |
@@ -152,19 +152,19 @@
   | Lv.14 | 185.6% | 90 |
   | Lv.15 | 192% | 90 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于银枝___%攻击力的物理属性」
   - `#2[i]`点 → 参数2：上下文「消耗___点能量，对敌方全体」
 
-- **满级效果**：Consumes 90 Energy and deals Physical DMG equal to 192% of Argenti's ATK to all enemies.
+- **Max Effect**：Consumes 90 Energy and deals Physical DMG equal to 192% of Argenti's ATK to all enemies.
 
 ### Talent：Sublime Object
-- **类型**：Talent
-- **简述**：When Argenti uses his Basic ATK, Skill, or Ultimate, he regenerates Energy and increases his CRIT Rate for every enemy target hit.
-- **最大等级**：15
-- **效果模板**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by #1[i], and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to #3[i] time(s).
+- **Type**：Talent
+- **Summary**：When Argenti uses his Basic ATK, Skill, or Ultimate, he regenerates Energy and increases his CRIT Rate for every enemy target hit.
+- **Max Level**：15
+- **Effect Template**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by #1[i], and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to #3[i] time(s).
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 3 | 1% | 10 |
@@ -183,34 +183,33 @@
   | Lv.14 | 3 | 3.1% | 10 |
   | Lv.15 | 3 | 3.25% | 10 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`点 → 参数1：上下文「敌方目标，为银枝恢复___点能量并获得1层【」
   - 参数2：效果模板中无对应 `#2[i]` 占位符（预留参数/其他属性）
   - `#3[i]`层 → 参数3：上下文「]%，该效果最多叠加___层。」
 
-- **满级效果**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to 10 time(s).
+- **Max Effect**：For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to 10 time(s).
 
 ### Technique：Manifesto of Purest Virtue
-- **类型**：Technique
-- **简述**：Inflicts Daze on all enemies within a set area. When attacking a Dazed enemy to enter combat, deals minor Physical DMG to all enemies and regenerates energy for Argenti.
-- **最大等级**：1
-- **效果模板**：After using the Technique, enemies in a set area are inflicted with Daze for #1[i] second(s). Dazed enemies will not actively attack the team.
+- **Type**：Technique
+- **Summary**：Inflicts Daze on all enemies within a set area. When attacking a Dazed enemy to enter combat, deals minor Physical DMG to all enemies and regenerates energy for Argenti.
+- **Max Level**：1
+- **Effect Template**：After using the Technique, enemies in a set area are inflicted with Daze for #1[i] second(s). Dazed enemies will not actively attack the team.
 When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to #2[i]% of Argenti's ATK and regenerates his Energy by #3[i].
 若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于银枝#2[i]%攻击力的物理属性伤害，并使银枝恢复#3[i]点能量。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) | 参数3 |
   |---|---|---|---|
   | Lv.1 | 10 | 80% | 15 |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「一定区域内的敌人陷入___秒的晕眩状态，晕眩」
   - `#2[i]`% → 参数2(%)：上下文「方全体造成等同于银枝___%攻击力的物理属性」
   - `#3[i]`点 → 参数3：上下文「性伤害，并使银枝恢复___点能量。」
 
-- **满级效果**：After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team.
+- **Max Effect**：After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team.
 When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15.
-若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于银枝80%攻击力的物理属性伤害，并使银枝恢复15点能量。
 
 ## Trace Bonuses
 
@@ -271,38 +270,38 @@ When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies 
 
 ### [[zh_cn/lightcone/智识/片刻，留在眼底.md|An Instant Before A Gaze]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：骑士巡礼
-- **效果**：使装备者的暴击伤害提高【36%/42%/48%/54%/60%】。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高【0.36%/0.42%/0.48%/0.54%/0.60%】，最多计入180点。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：A Knight's Pilgrimage
+- **Effect**：Increases the wearer's CRIT DMG by 36%. When the wearer uses Ultimate, increases DMG dealt by the wearer's Ultimate based on their Max Energy. Each point of Energy increases DMG dealt by Ultimate by #2[f2]%. A max of 180 points of Energy will be taken into account for this.
 
 ### [[zh_cn/lightcone/智识/今日亦是和平的一日.md|Today Is Another Peaceful Day]]
 
-- **基础属性**：生846 攻529 防330
-- **推荐度**：★★★★★
-- **技能名**：风雨将至
-- **效果**：进入战斗后,根据装备者的能量上限，提高装备者造成的伤害:每点能量提高【0.20%/0.25%/0.30%/0.35%/0.40%】，最多计入160点。
+- **Base Stats**：HP846 ATK529 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：A Storm Is Coming
+- **Effect**：After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of 160 Energy will be taken into account for this.
 
 ### [[zh_cn/lightcone/智识/向着不可追问处.md|Into the Unreachable Veil]]
 
-- **基础属性**：生953 攻635 防463
-- **推荐度**：★★★★★
-- **技能名**：思维游戏
-- **效果**：使装备者的暴击率提高【12%/14%/16%/18%/20%】。装备者施放终结技时，使装备者战技和终结技造成的伤害提高【60%/70%/80%/90%/100%】，持续3回合。装备者施放终结技后，若本次终结技消耗的能量大于等于140点，恢复1个战技点。
+- **Base Stats**：HP953 ATK635 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Mind Game
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer uses their Ultimate, increases the wearer's Skill DMG and Ultimate DMG dealt by 60%, lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.
 
 ### [[zh_cn/lightcone/智识/拂晓之前.md|Before Dawn]]
 
-- **基础属性**：生1058 攻582 防463
-- **推荐度**：★★★★★
-- **技能名**：长夜
-- **效果**：使装备者暴击伤害提高【36%/42%/48%/54%/60%】。使装备者战技和终结技造成的伤害提高【18%/21%/24%/27%/30%】。当装备者施放战技或终结技后,获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高【48%/56%/64%/72%/80%】。
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Long Night
+- **Effect**：Increases the wearer's CRIT DMG by 36%. Increases DMG dealt by the wearer's Skill and Ultimate by 18%. After the wearer uses Skill or Ultimate, gains "Somnus Corpus." Upon triggering a Follow-Up ATK, consumes "Somnus Corpus," and increases DMG dealt by Follow-Up ATK by 48%.
 
 ### [[zh_cn/lightcone/智识/不息的演算.md|Eternal Calculus]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★
-- **技能名**：无界之思
-- **效果**：使装备者的攻击力提高【8%/9%/10%/11%/12%】。施放攻击后，每击中一名敌方目标，使攻击力额外提高【4%/5%/6%/7%/8%】，该效果最多叠加5次，持续至下次攻击后，若击中大于等于3名敌方目标，使自身速度提高【8%/10%/12%/14%/16%】，持续1回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Boundless Thought
+- **Effect**：Increases the wearer's ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8%, lasting for 1 turn(s).
 
 ## Recommended Teams
 

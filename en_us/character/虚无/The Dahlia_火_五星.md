@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Fiddle... Fissured Memory
-- **类型**：Basic ATK
-- **简述**：Deals minor Fire DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Fire DMG equal to #1[i]% of The Dahlia's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Fire DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Fire DMG equal to #1[i]% of The Dahlia's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,22 +92,22 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于大丽花___%攻击力的火属性伤」
 
-- **满级效果**：Deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy.
+- **Max Effect**：Deals Fire DMG equal to 140% of The Dahlia's ATK to one designated enemy.
 
 ### Skill：Lick... Enkindled Betrayal
-- **类型**：Skill
-- **简述**：Deploys a Zone. Deals Fire DMG to one enemy and their adjacent targets.
+- **Type**：Skill
+- **Summary**：Deploys a Zone. Deals Fire DMG to one enemy and their adjacent targets.
 While the Zone lasts, increases all allies' Weakness Break Efficiency, and enemy targets will also take Super Break DMG even when they are not Weakness Broken.
 结界持续期间，我方全体的弱点击破效率提高，敌方目标未处于弱点击破状态时也能受到超击破伤害。
-- **最大等级**：15
-- **效果模板**：Deploys a Zone that lasts for #2[i] turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to #1[i]% of The Dahlia's ATK to one designated enemy and their adjacent targets.
+- **Max Level**：15
+- **Effect Template**：Deploys a Zone that lasts for #2[i] turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to #1[i]% of The Dahlia's ATK to one designated enemy and their adjacent targets.
 While the Zone lasts, increases all allies' Weakness Break Efficiency by #3[i]%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG.
 结界持续期间，我方全体的弱点击破效率提高#3[i]%，敌方目标未处于弱点击破状态时承受的削韧值也能够转化为超击破伤害。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) |
   |---|---|---|---|
   | Lv.1 | 80% | 3 | 50% |
@@ -126,24 +126,23 @@ While the Zone lasts, increases all allies' Weakness Break Efficiency by #3[i]%.
   | Lv.14 | 192% | 3 | 50% |
   | Lv.15 | 200% | 3 | 50% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「目标造成等同于大丽花___%攻击力的火属性伤」
   - `#2[i]`回 → 参数2：上下文「开启结界，持续___回合，大丽花回合开」
   - `#3[i]`% → 参数3(%)：上下文「体的弱点击破效率提高___%，敌方目标未处于」
 
-- **满级效果**：Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 200% of The Dahlia's ATK to one designated enemy and their adjacent targets.
+- **Max Effect**：Deploys a Zone that lasts for 3 turn(s). This duration decreases by 1 at the start of The Dahlia's turn. Then, deals Fire DMG equal to 200% of The Dahlia's ATK to one designated enemy and their adjacent targets.
 While the Zone lasts, increases all allies' Weakness Break Efficiency by 50%. Toughness Reduction taken by enemy targets while not Weakness Broken can also be converted into Super Break DMG.
-结界持续期间，我方全体的弱点击破效率提高50%，敌方目标未处于弱点击破状态时承受的削韧值也能够转化为超击破伤害。
 
 ### Ultimate：Wallow... Entombed Ash
-- **类型**：Ultimate
-- **简述**：Applies Weaknesses of Dance Partners' Types to all enemies and reduces their DEF. Deals massive Fire DMG, which is distributed evenly across all enemies.
-- **最大等级**：15
-- **效果模板**：Inflicts a "Wilt" state on all enemies, lasting for #2[i] turn(s). Then, deals Fire DMG equal to #1[i]% of The Dahlia's ATK, which is distributed evenly across all enemies.
+- **Type**：Ultimate
+- **Summary**：Applies Weaknesses of Dance Partners' Types to all enemies and reduces their DEF. Deals massive Fire DMG, which is distributed evenly across all enemies.
+- **Max Level**：15
+- **Effect Template**：Inflicts a "Wilt" state on all enemies, lasting for #2[i] turn(s). Then, deals Fire DMG equal to #1[i]% of The Dahlia's ATK, which is distributed evenly across all enemies.
 Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be implanted with Weakness of all Dance Partners' Types.
 【败谢】状态下，敌方目标防御力降低#3[f1]%，并且会被添加所有【共舞者】属性的弱点。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3 |
   |---|---|---|---|
   | Lv.1 | 180% | 4 | 8% |
@@ -162,28 +161,27 @@ Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be 
   | Lv.14 | 348% | 4 | 22% |
   | Lv.15 | 360% | 4 | 23% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「随后造成等同于大丽花___%攻击力的火属性伤」
   - `#2[i]`回 → 参数2：上下文「入【败谢】状态，持续___回合。随后造成等同」
   - 参数3：效果模板中无对应 `#3[i]` 占位符（预留参数/其他属性）
 
-- **满级效果**：Inflicts a "Wilt" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 360% of The Dahlia's ATK, which is distributed evenly across all enemies.
+- **Max Effect**：Inflicts a "Wilt" state on all enemies, lasting for 4 turn(s). Then, deals Fire DMG equal to 360% of The Dahlia's ATK, which is distributed evenly across all enemies.
 Enemy targets in the "Wilt" state have their DEF reduced by #3[f1]% and will be implanted with Weakness of all Dance Partners' Types.
 【败谢】状态下，敌方目标防御力降低#3[f1]%，并且会被添加所有【共舞者】属性的弱点。
 
 ### Talent：Who's Afraid of Constance?
-- **类型**：Talent
-- **简述**：When entering combat, The Dahlia regenerates Energy and becomes "Dance Partner" along with the teammate that triggered combat. When a "Dance Partner" attacks a Weakness Broken enemy target, additionally deals Super Break DMG.
+- **Type**：Talent
+- **Summary**：When entering combat, The Dahlia regenerates Energy and becomes "Dance Partner" along with the teammate that triggered combat. When a "Dance Partner" attacks a Weakness Broken enemy target, additionally deals Super Break DMG.
 After an enemy target gets attacked by the other "Dance Partner," The Dahlia triggers Follow-Up ATK, deals minor Fire DMG to random enemies, and additionally deals Super Break DMG to Weakness Broken enemy targets, bouncing a total of 5 time(s).
 敌方目标受到另一位【共舞者】攻击后，大丽花发动追加攻击，对敌方随机单体造成少量火属性伤害，并且对处于弱点击破状态下的敌方目标额外造成超击破伤害，共弹射5次。
-- **最大等级**：15
-- **效果模板**：When entering combat, The Dahlia regenerates #4[i] Energy and becomes "Dance Partners" along with the teammate that triggered combat. Whenever there is no other "Dance Partner" on the field, this unit and the teammate with the highest Break Effect become "Dance Partners" together. After a "Dance Partner" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at #5[i]%.
+- **Max Level**：15
+- **Effect Template**：When entering combat, The Dahlia regenerates #4[i] Energy and becomes "Dance Partners" along with the teammate that triggered combat. Whenever there is no other "Dance Partner" on the field, this unit and the teammate with the highest Break Effect become "Dance Partners" together. After a "Dance Partner" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at #5[i]%.
 After an enemy target gets attacked by the other "Dance Partner," The Dahlia launches Follow-Up ATK and deals #2[i] instance(s) of DMG, each dealing Fire DMG equal to #1[i]% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at #3[i]%.
 This effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead.
 敌方目标受到另一位【共舞者】攻击后，大丽花发动追加攻击，造成#2[i]次伤害，每次对敌方随机单体造成等同于大丽花#1[i]%攻击力的火属性伤害。每次对处于弱点击破状态的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次#3[i]%的超击破伤害。
-该效果每回合最多触发1次，若追加攻击施放前目标被消灭则对敌方随机单体发动。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2 | 参数3(%) | 参数4 | 参数5(%) |
   |---|---|---|---|---|---|
   | Lv.1 | 15% | 5 | 100% | 35 | 30% |
@@ -202,39 +200,35 @@ This effect can only trigger once per turn. If the target is defeated before the
   | Lv.14 | 36% | 5 | 240% | 35 | 72% |
   | Lv.15 | 37.5% | 5 | 250% | 35 | 75% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「单体造成等同于大丽花___%攻击力的火属性伤」
   - `#2[i]`次 → 参数2：上下文「花发动追加攻击，造成___次伤害，每次对敌方」
   - `#3[i]`% → 参数3(%)：上下文「害的削韧值转化为1次___%的超击破伤害。」
   - `#4[i]`点 → 参数4：上下文「入战斗时，大丽花恢复___点能量，并使自身和」
   - `#5[i]`% → 参数5(%)：上下文「击的削韧值转化为1次___%的超击破伤害。」
 
-- **满级效果**：When entering combat, The Dahlia regenerates 35 Energy and becomes "Dance Partners" along with the teammate that triggered combat. Whenever there is no other "Dance Partner" on the field, this unit and the teammate with the highest Break Effect become "Dance Partners" together. After a "Dance Partner" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 75%.
+- **Max Effect**：When entering combat, The Dahlia regenerates 35 Energy and becomes "Dance Partners" along with the teammate that triggered combat. Whenever there is no other "Dance Partner" on the field, this unit and the teammate with the highest Break Effect become "Dance Partners" together. After a "Dance Partner" attacks a Weakness Broken enemy target, the Toughness Reduction from this attack will be converted into 1 instance of Super Break DMG at 75%.
 After an enemy target gets attacked by the other "Dance Partner," The Dahlia launches Follow-Up ATK and deals 5 instance(s) of DMG, each dealing Fire DMG equal to 37.5% of The Dahlia's ATK to one random enemy. After each instance of DMG dealt to a Weakness Broken enemy target, the Toughness Reduction from this DMG will be converted into 1 instance of Super Break DMG at 250%.
 This effect can only trigger once per turn. If the target is defeated before the Follow-Up ATK is used, it will be launched at one random enemy instead.
-敌方目标受到另一位【共舞者】攻击后，大丽花发动追加攻击，造成5次伤害，每次对敌方随机单体造成等同于大丽花37.5%攻击力的火属性伤害。每次对处于弱点击破状态的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次250%的超击破伤害。
-该效果每回合最多触发1次，若追加攻击施放前目标被消灭则对敌方随机单体发动。
 
 ### Technique：The Heart Makes the Finest Tomb
-- **类型**：Technique
-- **简述**：Creates a Special Dimension where enemies within will not attack ally targets. After entering combat with enemies in the dimension, The Dahlia immediately deploys a Zone and deals Super Break DMG to enemy targets in the Weakness Break state.
-- **最大等级**：1
-- **效果模板**：After using Technique, creates a Special Dimension that lasts for #1[i] second(s). Enemies within this dimension will not actively attack ally targets. After entering combat with enemies in the Special Dimension, The Dahlia immediately deploys her Skill's Zone, and converts the combat-triggering Toughness Reduction into 1 instance of Super Break DMG at #2[i]% against enemy targets that are Weakness Broken.
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension where enemies within will not attack ally targets. After entering combat with enemies in the dimension, The Dahlia immediately deploys a Zone and deals Super Break DMG to enemy targets in the Weakness Break state.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates a Special Dimension that lasts for #1[i] second(s). Enemies within this dimension will not actively attack ally targets. After entering combat with enemies in the Special Dimension, The Dahlia immediately deploys her Skill's Zone, and converts the combat-triggering Toughness Reduction into 1 instance of Super Break DMG at #2[i]% against enemy targets that are Weakness Broken.
 Only 1 Dimension Effect created by allies can exist at the same time.
-我方制造的领域效果最多存在1个。
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1 | 参数2(%) |
   |---|---|---|
   | Lv.1 | 20 | 60% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`秒 → 参数1：上下文「秘技后，制造1片持续___秒的特殊领域。处于」
   - `#2[i]`% → 参数2(%)：上下文「开战削韧值转化为1次___%的超击破伤害。」
 
-- **满级效果**：After using Technique, creates a Special Dimension that lasts for 20 second(s). Enemies within this dimension will not actively attack ally targets. After entering combat with enemies in the Special Dimension, The Dahlia immediately deploys her Skill's Zone, and converts the combat-triggering Toughness Reduction into 1 instance of Super Break DMG at 60% against enemy targets that are Weakness Broken.
+- **Max Effect**：After using Technique, creates a Special Dimension that lasts for 20 second(s). Enemies within this dimension will not actively attack ally targets. After entering combat with enemies in the Special Dimension, The Dahlia immediately deploys her Skill's Zone, and converts the combat-triggering Toughness Reduction into 1 instance of Super Break DMG at 60% against enemy targets that are Weakness Broken.
 Only 1 Dimension Effect created by allies can exist at the same time.
-我方制造的领域效果最多存在1个。
 
 ## Trace Bonuses
 
@@ -294,31 +288,31 @@ Only 1 Dimension Effect created by allies can exist at the same time.
 
 ### [[zh_cn/lightcone/虚无/勿忘她的火焰.md|Never Forget Her Flame]]
 
-- **基础属性**：生1164 攻529 防463
-- **推荐度**：★★★★★
-- **技能名**：焚身
-- **效果**：使装备者的击破特攻提高【60%/75%/90%/105%/120%】。进入战斗时，使装备者和另一位开战的队友造成的击破伤害提高【32%/42%/52%/62%/72%】，若不存在开战的队友则对装备者和击破特攻最高的队友生效，同类效果无法叠加。装备者为敌方目标添加弱点时，恢复1个战技点，该效果最多触发1次，施放终结技时重置可触发次数。
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Immolation
+- **Effect**：Increases the wearer's Break Effect by 60%. When entering combat, increases Break DMG dealt by the wearer and another teammate who triggered combat by 32%. If there is no teammate who triggered combat, applies this effect to the wearer and the teammate with the highest Break Effect. Effects of the same type cannot be stacked. When the wearer applies Weakness to an enemy target, recovers 1 Skill Point. This effect can only trigger once. And resets this trigger count when using Ultimate.
 
 ### [[zh_cn/lightcone/虚无/长路终有归途.md|Long Road Leads Home]]
 
-- **基础属性**：生952 攻476 防661
-- **推荐度**：★★★★★
-- **技能名**：新生
-- **效果**：使装备者的击破特攻提高【60%/70%/80%/90%/100%】。当有敌方目标的弱点被击破时，有100%的基础概率使其陷入【焚灼】状态,受到的击破伤害提高【18%/21%/24%/27%/30%】，持续2回合，此效果可叠加2层。
+- **Base Stats**：HP952 ATK476 DEF661
+- **Rating**：★★★★★
+- **Skill Name**：Rebirth
+- **Effect**：Increases the wearer's Break Effect by 60%. When an enemy target's Weakness gets broken, there is a 1 base chance to inflict the "Charring" state on it, which increases its Break DMG taken by 18%, lasting for 2 turn(s). This effect can stack 2 time(s).
 
 ### [[zh_cn/lightcone/虚无/谎言在风中飘扬.md|Lies Dance on the Breeze]]
 
-- **基础属性**：生952 攻582 防529
-- **推荐度**：★★★★★
-- **技能名**：欺瞒
-- **效果**：使装备者的速度提高【18%/21%/24%/27%/30%】。装备者施放攻击后，有120%的基础概率使敌方每个单体目标陷入【茫然】状态，【茫然】状态下的敌方目标防御力降低【16%/18%/20%/22%/24%】，持续2回合，若装备者的速度大于等于170，有120%的基础概率使敌方每个单体目标陷入【失窃】状态，【失窃】状态下的敌方目标防御力降低【8%/9%/10%/11%/12%】，持续2回合。【茫然】或【失窃】被重复施加时，仅最新施加的生效。
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deceit
+- **Effect**：Increases the wearer's SPD by 18%. After the wearer uses an attack, there is a 1.2 base chance to inflict the "Bamboozle" state on every enemy target. While under the "Bamboozle" state, enemy targets have their DEF decreased by 16% for 2 turn(s). If the wearer's SPD is higher than or equal to 170, there is a 1.2 base chance to inflict the "Theft" state on every enemy target. While under the "Theft" state, enemy targets have their DEF decreased by 8% for 2 turn(s). When "Bamboozle" or "Theft" is repeatedly inflicted, only the most recently inflicted instance takes effect.
 
 ### [[zh_cn/lightcone/虚无/决心如汗珠般闪耀.md|Resolution Shines As Pearls of Sweat]]
 
-- **基础属性**：生952 攻476 防330
-- **推荐度**：★★★★★
-- **技能名**：回眸
-- **效果**：当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有【60%/70%/80%/90%/100%】的基础概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低【12%/13%/14%/15%/16%】，持续1回合。
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Glance Back
+- **Effect**：When the wearer hits an enemy and if the hit enemy is not already "Ensnared," then there is a 60% base chance to "Ensnare" the hit enemy. "Ensnared" enemies' DEF decreases by 12% for 1 turn(s).
 
 ## Recommended Teams
 

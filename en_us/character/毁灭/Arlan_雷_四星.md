@@ -56,7 +56,7 @@
 ---
 ## Skill Materials
 
-技能等级上限：普攻 1→6 / 战技 1→10 / 终结技 1→10 / 天赋 1→10
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
 
 | Materials | Qty |
 |---|---|
@@ -73,12 +73,12 @@
 ---
 ## Skills
 ### Basic ATK：Lightning Rush
-- **类型**：Basic ATK
-- **简述**：Deals minor Lightning DMG to one enemy.
-- **最大等级**：10
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy.
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 50% |
@@ -92,18 +92,18 @@
   | Lv.9 | 130% |
   | Lv.10 | 140% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 140% of Arlan's ATK to one designated enemy.
+- **Max Effect**：Deals Lightning DMG equal to 140% of Arlan's ATK to one designated enemy.
 
 ### Skill：Shackle Breaker
-- **类型**：Skill
-- **简述**：Consumes a portion of HP to deal Lightning DMG to one enemy.
-- **最大等级**：15
-- **效果模板**：Consumes Arlan's HP equal to #1[i]% of his Max HP to deal Lightning DMG equal to #2[i]% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
+- **Type**：Skill
+- **Summary**：Consumes a portion of HP to deal Lightning DMG to one enemy.
+- **Max Level**：15
+- **Effect Template**：Consumes Arlan's HP equal to #1[i]% of his Max HP to deal Lightning DMG equal to #2[i]% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 15% | 120% |
@@ -122,19 +122,19 @@
   | Lv.14 | 15% | 288% |
   | Lv.15 | 15% | 300% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「耗等同于阿兰生命上限___%的生命值对指定敌」
   - `#2[i]`% → 参数2(%)：上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
 
-- **满级效果**：Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 300% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
+- **Max Effect**：Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 300% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.
 
 ### Ultimate：Frenzied Punishment
-- **类型**：Ultimate
-- **简述**：Deals massive Lightning DMG to one enemy and Lightning DMG to enemies adjacent to it.
-- **最大等级**：15
-- **效果模板**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy and Lightning DMG equal to #2[i]% of Arlan's ATK to enemies adjacent to it.
+- **Type**：Ultimate
+- **Summary**：Deals massive Lightning DMG to one enemy and Lightning DMG to enemies adjacent to it.
+- **Max Level**：15
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy and Lightning DMG equal to #2[i]% of Arlan's ATK to enemies adjacent to it.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) | 参数2(%) |
   |---|---|---|
   | Lv.1 | 192% | 96% |
@@ -153,19 +153,19 @@
   | Lv.14 | 371.2% | 185.6% |
   | Lv.15 | 384% | 192% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方单体造成等同于阿兰___%攻击力的雷属性伤」
   - `#2[i]`% → 参数2(%)：上下文「邻目标造成等同于阿兰___%攻击力的雷属性伤」
 
-- **满级效果**：Deals Lightning DMG equal to 384% of Arlan's ATK to one designated enemy and Lightning DMG equal to 192% of Arlan's ATK to enemies adjacent to it.
+- **Max Effect**：Deals Lightning DMG equal to 384% of Arlan's ATK to one designated enemy and Lightning DMG equal to 192% of Arlan's ATK to enemies adjacent to it.
 
 ### Talent：Pain and Anger
-- **类型**：Talent
-- **简述**：Gain DMG bonus based on currently missing HP percentage.
-- **最大等级**：15
-- **效果模板**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of #1[i]% DMG dealt by Arlan.
+- **Type**：Talent
+- **Summary**：Gain DMG bonus based on currently missing HP percentage.
+- **Max Level**：15
+- **Effect Template**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of #1[i]% DMG dealt by Arlan.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 36% |
@@ -184,26 +184,26 @@
   | Lv.14 | 86.4% |
   | Lv.15 | 90% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「使阿兰造成的伤害提高___%。」
 
-- **满级效果**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of 90% DMG dealt by Arlan.
+- **Max Effect**：Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of 90% DMG dealt by Arlan.
 
 ### Technique：Swift Harvest
-- **类型**：Technique
-- **简述**：Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.
-- **最大等级**：1
-- **效果模板**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #1[i]% of Arlan's ATK to all enemies.
+- **Type**：Technique
+- **Summary**：Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.
+- **Max Level**：1
+- **Effect Template**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #1[i]% of Arlan's ATK to all enemies.
 
-- **等级数值表**：
+- **Level Table**：
 | Level | 参数1(%) |
   |---|---|
   | Lv.1 | 80% |
 
-- **参数说明**：
+- **Parameter Notes**：
   - `#1[i]`% → 参数1(%)：上下文「方全体造成等同于阿兰___%攻击力的雷属性伤」
 
-- **满级效果**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies.
+- **Max Effect**：Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies.
 
 ## Trace Bonuses
 
@@ -264,38 +264,38 @@
 
 ### [[zh_cn/lightcone/毁灭/比阳光更明亮的.md|Brighter Than the Sun]]
 
-- **基础属性**：生1058 攻635 防396
-- **推荐度**：★★★★★
-- **技能名**：抵死
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】。当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高【18%/21%/24%/27%/30%】，能量恢复效率提高【6.0%/7.0%/8.0%/9.0%/10.0%】。【龙吟】最多叠加2层。
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Defiant Till Death
+- **Effect**：Increases the wearer's CRIT Rate by 18%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call, lasting for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by 18% and Energy Regeneration Rate by #5[f1]%. Dragon's Call can be stacked up to 2 times.
 
 ### [[zh_cn/lightcone/毁灭/到不了的彼岸.md|The Unreachable Side]]
 
-- **基础属性**：生1270 攻582 防330
-- **推荐度**：★★★★★
-- **技能名**：不得
-- **效果**：使装备者的暴击率提高【18%/21%/24%/27%/30%】，生命上限提高【18%/21%/24%/27%/30%】。当装备者受到攻击或装备者消耗自身生命值后,造成的伤害提高【24%/28%/32%/36%/40%】，该效果在装备者施放攻击后解除。
+- **Base Stats**：HP1270 ATK582 DEF330
+- **Rating**：★★★★★
+- **Skill Name**：Unfulfilled Yearning
+- **Effect**：Increases the wearer's CRIT Rate by 18% and increases their Max HP by 18%. When the wearer is attacked or consumes their own HP, their DMG increases by 24%. This effect is removed after the wearer uses an attack.
 
 ### [[zh_cn/lightcone/毁灭/无可取代的东西.md|Something Irreplaceable]]
 
-- **基础属性**：生1164 攻582 防396
-- **推荐度**：★★★★★
-- **技能名**：家人
-- **效果**：使装备者的攻击力提高【24%/28%/32%/36%/40%】。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力【8%/9%/10%/11%/12%】的生命值，同时造成的伤害提高【24%/28%/32%/36%/40%】，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+- **Base Stats**：HP1164 ATK582 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Kinship
+- **Effect**：Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.
 
 ### [[zh_cn/lightcone/毁灭/记一位星神的陨落.md|On the Fall of an Aeon]]
 
-- **基础属性**：生1058 攻529 防396
-- **推荐度**：★★★★★
-- **技能名**：扑火
-- **效果**：当装备者施放攻击时，使装备者本场战斗中的攻击力提高【8%/10%/12%/14%/16%】，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高【12%/15%/18%/21%/24%】，持续2回合。
+- **Base Stats**：HP1058 ATK529 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Moth to Flames
+- **Effect**：When the wearer attacks, increases their ATK by 8% in this battle. This effect can stack up to 4 time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by 12%, lasting for 2 turn(s).
 
 ### [[zh_cn/lightcone/毁灭/秘密誓心.md|A Secret Vow]]
 
-- **基础属性**：生1058 攻476 防264
-- **推荐度**：★★★★★
-- **技能名**：竭力而为
-- **效果**：使装备者造成的伤害提高【20%/25%/30%/35%/40%】，同时对当前生命值百分比高于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高【20%/25%/30%/35%/40%】。
+- **Base Stats**：HP1058 ATK476 DEF264
+- **Rating**：★★★★★
+- **Skill Name**：Spare No Effort
+- **Effect**：Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.
 
 ## Recommended Teams
 
