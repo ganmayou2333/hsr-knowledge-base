@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | Belobog's snowfield explorer, the youngest sister of the Langdao family. Calm personality, highly action-oriented. Often ventures alone into the snowfield expeditions. |
+| Introduction | A Belobogian Snow Plains Explorer, and the youngest of the Landau siblings. Calm and collected, with a strong drive for action. Often embarks on solo adventures to explore the snowy wilderness. |
 | Role | A healing role that can increase our side's maximum HP, provide continuous healing, and remove negative status effects. |
 
 ### Voice Actors

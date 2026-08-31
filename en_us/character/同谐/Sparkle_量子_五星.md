@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 假面愚者 |
-| Introduction | One of the members of 'The Masked Fool,' elusive and unscrupulous. A dangerous dramatist obsessed with role-playing, possessing a thousand masks and the ability to transform into myriad faces. To Sparkle, wealth, status, and power are irrelevant; only 'fun' can make her act. |
+| Introduction | A member of the Masked Fools, passionate yet unpredictable. She roams between major factions, amusing herself by turning the world upside down on her own. |
 | Role | An auxiliary character that recovers and increases the maximum amount of combat skill points for our side. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | Gioria's chest, the body of a dragon supports the shattered earth, enduring a millennium of suffering. The nameless guest Dan Heng, the golden-blooded descendant who guards the 'Earth' flame, upholds the impending collapse of the Eight Directions, guiding earthly beings to distant realms — All rivers flow to the sea, all mountains echo in harmony; the path of eternal existence will stretch for ten thousand miles. |
+| Introduction | A new deity who received the Coreflame of Earth from Terravox, he is a guardian of the Astral Express. Shedding the scarred dragon scales, he embraces the past and future with Permanence, and awaits the moment when the journey begins again. |
 | 城邦 | 天外 |
 | 神权 | 「磐岩之脊，吉奥里亚」 |
 | Role | A defensive character capable of summoning the [Dragon Spirit] for a single ally of our side. |

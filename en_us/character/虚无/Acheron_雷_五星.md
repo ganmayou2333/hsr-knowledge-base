@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠/自灭者 |
-| Introduction | A traveler who calls themselves the "Sea-Wandering Outlaw," with an unknown true name. Wields a long blade and roams the galaxy alone. |
+| Introduction | A reserved and introverted traveler, closely associated with the Galaxy Ranger. Often prone to forgetting important things. |
 | Role | Enemy-Inflicted Negative Effects: Accumulate Energy Points to Release a Finishing Move for High-Damage Output |
 
 ### Voice Actors

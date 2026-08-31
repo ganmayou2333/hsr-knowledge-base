@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | Diviner and library administrator of Xianzhou's "Luofu" Astronomical Office. Due to repeatedly slacking at work, he is about to be demoted to "Master" with no further punishment. |
+| Introduction | Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian. Always slacks off and is about to be demoted to a "door guardian." |
 | Role | Output role that gains enhanced normal attacks by drawing four same-colored Jade Cards. |
 
 ### Voice Actors

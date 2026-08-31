@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「玉阙」 |
-| Introduction | Mysterious, bold, radical, and their desperate attempts to change fate are astonishing. With the Eye of the Hunt, they survey fortune and misfortune, knowing fate cannot be defied, yet General Rongtao still ventures alone. How can this dire omen change fate and the heavens? |
+| Introduction | The Arbiter-General of the Xianzhou Yuque, known as the Seer Strategist, oversees its military discipline. A non-martial general rarely seen in person within the Alliance, constantly operating from the shadows and divining for the Marshal. |
 | Role | A supportive character who can trigger additional "Aha Moments." |
 
 ### Voice Actors

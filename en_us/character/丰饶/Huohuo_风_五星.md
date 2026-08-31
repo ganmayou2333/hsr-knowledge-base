@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | An apprentice judge of the Ten Kings' Bureau in Xianzhou Luofu, a fox-human girl possessed by Suiyang. Timid and weak, she fears strange phenomena but bears the duty of capturing demons. |
+| Introduction | A trainee Ten-Lords Commission Judge of the Xianzhou Luofu, she is a young foxian girl possessed by a heliobus. She is a timid and weak girl who is afraid of all kinds of strange things, but is responsible for luring and subduing evil spirits. |
 | Role | A healing-type role that restores energy for the team, increases attack power, and recovers health points. |
 
 ### Voice Actors

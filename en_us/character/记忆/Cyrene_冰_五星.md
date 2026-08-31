@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | A meteor streaks across the night sky, ripples stir in the river of life, shimmering with thirteen hues. Daughter of the Aerie Secret Garden, the golden descendant who nurtures 「██」, planting seeds of memory, allowing the flowers of the past to bloom anew tomorrow —— "Then, let's write a poem unlike any before, together♪" |
+| Introduction | A mysterious girl from Aedes Elysiae, a priestess of the Sacrament Courtyard, and the demigod of Time in the prophecy. Her experimental name is "PhiLia093." Her whereabouts are unknown. |
 | 城邦 | 哀丽秘榭，？ |
 | 神权 | ……？ |
 | Role | An auxiliary character who can summon the memory spirit "Demogorgon" to assist in battle. |

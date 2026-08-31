@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | In the sacred city bathed in dawn's light, the weaver manipulates golden threads, weaving fate. The golden-blooded bearer of the "Romance" flame assembles the world's heroes, leading them once more on a long journey—to fell the gods, reclaim the divine flame, and grant new life to the nearly extinguished Amphoreus. |
+| Introduction | The Chrysos Heir of Okhema, the demigod of Romance, and the leader of the Flame-Chase Journey. As a weaver, she personally threads the needle, gathering heroes of the world to embark once more on a long and arduous journey. |
 | 城邦 | 奥赫玛 |
 | 神权 | 「黄金之茧，墨涅塔」 |
 | Role | A damage-dealing character who summons the memory spirit "Tailor" to assist in battle. |

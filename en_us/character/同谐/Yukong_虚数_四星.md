@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | Leader of the Celestial Vessel Bureau in Xianzhou's Luofu, a seasoned flyer and marksman. Now trapped in endless bureaucratic duties, unable to escape. |
+| Introduction | Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she's been buried under mountains of paperwork. |
 | Role | An auxiliary role that enhances the attack power, critical rate, and critical damage of all allies. |
 
 ### Voice Actors

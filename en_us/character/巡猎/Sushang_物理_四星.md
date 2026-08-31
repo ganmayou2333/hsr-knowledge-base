@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | Born in the Xianzhou region of Yaoqing, a new recruit heading to the Luofu Cloud Cavalry for training. Wears her mother's heirloom sword passed down through generations, aspiring to write her own future. |
+| Introduction | Born on the Xianzhou Yaoqing, sent to the Cloud Knights of the Luofu for military training. She wields her family sword, a gift from her mother, and longs for the future she will go on to write. |
 | Role | A single-target damage dealer capable of inflicting additional damage with high breaking resistance efficiency. |
 
 ### Voice Actors

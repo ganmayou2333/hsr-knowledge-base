@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | Stellaron Hunters member, wearing mechanical armor "Sam" for combat. Loyal to the mission, strong-willed personality. Born as a weapon to defeat the swarm, growing at an unnatural rate but with a very short lifespan. Joined the Stellaron Hunters to seek "Invigoration" and defy fate. |
+| Introduction | Claiming herself to be a new artist from the Iris Family. She was initially accused of being a stowaway by the Bloodhound Family. After {NICKNAME} offered assistance, she willingly volunteered to serve as a tour guide. |
 | Role | Damage-dealing role that gains skill boosts through a Finishing Move-induced status. |
 
 ### Voice Actors

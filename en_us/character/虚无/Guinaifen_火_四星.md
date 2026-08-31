@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | A guest residing in Xianzhou's "Luofu," a performance artist—or rather, a street performer. After securing basic meals and sustenance, they pursue their new life in Luofu. |
+| Introduction | A performance artist visiting the Xianzhou Luofu — in other words, a street performer. She's chasing a new life on the Luofu when not concerned with food and shelter. |
 | Role | A supportive role that can cause enemies to burn and increase group vulnerability. |
 
 ### Voice Actors

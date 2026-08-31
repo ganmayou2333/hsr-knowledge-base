@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 纯美骑士团 |
-| Introduction | A classical knight of the "Pure Beauty Knights," devoutly venerating the missing star deity "Idelira, the Star God of Pure Beauty." Upright and principled, wandering through the cosmos to proclaim the glory of Idelira. |
+| Introduction | A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty. Forthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name. |
 | Role | A group-targeting damage dealer specializing in powerful finishing skills. |
 
 ### Voice Actors

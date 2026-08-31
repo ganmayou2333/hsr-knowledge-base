@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 星际和平公司 |
-| Introduction | A senior member of the Interstellar Peace Company's Strategic Investment Department. A risk enthusiast who often smiles, but his true intentions are hard to decipher. |
+| Introduction | A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for his cornerstone "Aventurine of stratagems." He always dons a smile that conceals his true intentions and lives by the principle of "the greater the risk, the greater the reward." |
 | Role | Provides a special shield that can stack shield amounts for the entire party. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 假面愚者 |
-| Introduction | Like! Follow! Live stream! Traffic! Party until the end of the world! Sparxie and Firefly, masks and fools are no different— whoever is seen, whoever is liked, that's the correct answer! |
+| Introduction | A popular streamer from Planarcadia and one of the Supplicants in this Phantasmoon Games. A virtual avatar created originally for Sparkle. It has a pathological desire for attention. |
 | Role | A damage-dealing character who generates a lot of comedic moments. |
 
 ### Voice Actors

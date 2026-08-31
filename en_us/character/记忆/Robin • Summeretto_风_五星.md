@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 匹诺康尼 |
-| Introduction | Soaring over the azure blue sea, wings sweep across the waves, transforming into a new melody. Following the echoes of memories, she embraces a journey of unexpected twists, seeking inspiration for variations—Beyond harmony, how can 'Same Harmony' sing? |
+| Introduction | A singer renowned across the cosmos, regarded as the superstar of the starry stage. Beneath the clearest skies and bluest oceans, she showcases her captivating vocals at the Astropolis festival. |
 | Role | An auxiliary-type character who summons the memory spirit "Skyward Musician" to assist in battle. |
 
 ### Voice Actors

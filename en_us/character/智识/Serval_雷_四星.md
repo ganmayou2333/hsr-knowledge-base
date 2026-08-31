@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | A mech technician from Belobog, former researcher at the Fortification Department. As the sister of Jepard Langdon, her personality is completely different from her brother. She adores an ancient musical art called "rock" from before the Great Cold Wave. |
+| Introduction | A Belobog mechanic who used to be a researcher for the Technology Division of the Architects. As Gepard Landau's elder sister, her personality stands in stark contrast to her brother's. She loves an ancient form of music known as "rock 'n' roll" that was popular before the Eternal Freeze. |
 | Role | Can deal damage over time (dot) and has area-of-effect (aoe) group damage capabilities. |
 
 ### Voice Actors

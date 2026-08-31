@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | The God Tree Academy, a sanctuary of knowledge, cradle of philosophers. Yet the heretical Anaxa, the golden-blooded seeker of reason, questions: Would you bear the infamy, defy prophecy, and plant the branch of doubt into the sacred tree of wisdom? —— "How absurd. This world is filled with falsehoods; only I am the truth." |
+| Introduction | The Chrysos Heir of the Grove of Epiphany. One of the Seven Sages and the founder of Nousporism. Called by others as the "blasphemer" due to his insistence that humans and gods are the same. He miraculously survived the calamity at the Grove and the Coreflame of the Reason Titan currently resides within his body. |
 | 城邦 | 神悟树庭 |
 | 神权 | 「裂分之枝，瑟希斯」 |
 | Role | A damage-dealing role capable of rapidly applying numerous weaknesses to enemy groups. |

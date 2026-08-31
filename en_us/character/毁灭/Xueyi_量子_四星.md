@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | A judge of the Ten Kings' Bureau, an institution overseeing the judgment of life and death on Xianzhou "Luofu". Having been dead for many years, they have returned to life through a Yanshou body to fulfill their duty. |
+| Introduction | Judge of the Ten-Lords Commission, which controls life and death on the Luofu. She inhabits a puppet body to return to the world and carry out her missions. |
 | Role | An output-type character that triggers additional attacks by reducing enemy resilience. |
 
 ### Voice Actors

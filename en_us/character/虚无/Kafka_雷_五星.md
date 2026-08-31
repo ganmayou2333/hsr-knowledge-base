@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | Member of the Stellaron Hunters, a poised and composed woman in a professional outfit. Employs the art of words (Yan Ling technique) to design schemes that have the Trailblazer absorb stellaron. Hobby is buying and organizing coats. |
+| Introduction | A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Used the enchantment of Spirit Whisper to set up {NICKNAME} to absorb the Stellaron. Her hobby is shopping for and organizing her collection of coats. |
 | Role | An output-type character that causes enemies to enter a shocked state and detonate ongoing damage. |
 
 ### Voice Actors

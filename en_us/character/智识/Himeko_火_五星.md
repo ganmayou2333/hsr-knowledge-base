@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | Astral Express's repairer. To witness the vast stars, chose to travel with the Astral Express. Hobby is making handcrafted coffee. |
+| Introduction | The one who repaired the Astral Express. To witness the vast starry sky, she decided to travel aboard the Astral Express. Her hobby is brewing hand-made coffee. |
 | Role | Output-type role that accumulates energy by breaking enemy weaknesses to trigger a follow-up attack. |
 
 ### Voice Actors

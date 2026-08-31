@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 流光忆庭 |
-| Introduction | One of the Rememberers of the Luminous Memory Courtyard, a lazy and enigmatic diviner. Patiently listens to others' "memories," with all fates under control. |
+| Introduction | A laid-back and enigmatic Memokeeper who collects intriguing memories. She firmly believes that fate is not beyond comprehension and that everything will eventually become "known" within the eternal realm of memories. |
 | Role | Output role that can apply the [Omen] to enemy targets in various ways. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | Xianzhou 'Luofu' Zhimings' elder, known as the 'Dragon-Dragon Female Who Swallows Medicines,' a physician who uses her exclusive medical theories and the 'medical techniques' that can only be performed through the Dragon Vein to save lives and heal the wounded. |
+| Introduction | The High Elder of the Vidyadhara, who is also known as the "Healer Lady" on the Luofu. She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives. |
 | Role | Healing role that adds the 'Invigoration' status to allies. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | As the Cloudspire City-State fractures with the passage of time, the Dusky Glow Courtyard reopens its doors, bringing a glimmer to the eternal night. Doctor Yashintes, the Golden-blooded guardian of the 'Sky' ember. Carrying on the legacy of their ancestors, mending the fractured dawn and dusk — May the rainbow light descend, dissolving hatred, and restoring dawn to the earth. |
+| Introduction | The Chrysos Heir of the Twilight Courtyard, the descendant of Sky. She has an optimistic and cheerful disposition and is a good listener. In this unstable dying world, she tries her best to create a secluded place of healing for others. |
 | 城邦 | 昏光庭院，奥赫玛 |
 | 神权 | 「晨昏之眼，艾格勒」…？ |
 | Role | A healing-type role that summons the memory spirit "Little Ika" to increase the maximum HP of all allies. |

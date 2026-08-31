@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | Leader (self-proclaimed) of the underground adventure team "Mole Party". Loves freedom and views life as an endless series of adventures. |
+| Introduction | Boss (self-proclaimed) of an Underworld adventure squad, The Moles. She loves freedom and sees life as a series of adventures. |
 | Role | An output-type character that enhances damage through burning, and recovers health and energy. |
 
 ### Voice Actors

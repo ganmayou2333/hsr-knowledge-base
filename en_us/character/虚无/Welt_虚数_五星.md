@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 星穹列车 |
-| Introduction | A seasoned and composed train crew veteran. Enjoying a long-awaited adventure, the fervor buried in their heart is reignited. Occasionally sketching their adventure journeys in a notebook. |
+| Introduction | A senior member of the Crew. The passion in his heart burns for another long and enjoyable adventure. Occasionally, he might draw the experiences of his journey in a sketchbook. |
 | Role | An output-type character capable of slowing down enemy actions. |
 
 ### Voice Actors

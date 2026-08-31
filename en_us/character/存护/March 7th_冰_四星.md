@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 星穹列车 |
-| Introduction | An innocent girl who calls herself "Miss". She has no memory of her past and joined the Astral Express after being awakened from an ice-bound state by the Trailblazer. |
+| Introduction | A girl who once slumbered in eternal ice and knows nothing about her past. To find out the truth about her origins, she decided to travel with the Astral Express. As of right now, she has prepared about 67 different versions of her life story for herself. |
 | Role | A defensive character that can provide single-target shields and remove negative status effects. |
 
 ### Voice Actors

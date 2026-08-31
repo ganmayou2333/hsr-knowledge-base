@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | From the sacred site where the triune divine decree bestowed grace, messengers divided into myriad forms, embarking on distant journeys. The Holy Maiden of Yanhusaplis, Thirysipios, the golden-blooded descendant who stole the 【Path】's flame, toils for all beings, spreading the message of salvation across the land — seeking the one who flows with golden divine blood, breaking through the world's deepest darkness, heading toward a tomorrow where stars and moons shine brightly. |
+| Introduction | The Holy Maiden of Janusopolis, the demigod of "Passage," Experimental Factor "HapLotes405." The first demigod of Amphoreus, who paid the price of a Coreflame and regressed into the form of a child, guiding the Chrysos Heirs through the prophecy. |
 | 城邦 | 雅努萨波利斯，奥赫玛 |
 | 神权 | 「万径之门，雅努斯」 |
 | Role | A support character who opens barriers to enhance our side. |

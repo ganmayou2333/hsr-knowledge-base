@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 银河 |
-| Introduction | The beauty of 【Order】 has already faded, but there are still those who will not abandon their original vow. ——The traveler who has fallen from the sky, where will his steps lead? |
+| Introduction | The benevolent and revered leader of the Oak Family and Sweetdream Paradise. Garners great respect from the outside world and is Robin's elder brother. |
 | Role | A supporting role that allows our side's characters and their summoned creatures to act immediately. |
 
 ### Voice Actors

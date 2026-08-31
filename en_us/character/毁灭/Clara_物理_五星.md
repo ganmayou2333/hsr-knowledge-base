@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | A wandering girl living with machinery. Introverted, gentle, with a pure heart. Yearns for everyone in the lower district to become each other's "family". |
+| Introduction | A vagrant girl who lives with robots. She is introverted, gentle, and has a pure heart. She wishes for all Underworlders to become a family. |
 | Role | Outputting high damage to enemies through counterattacks upon being hit. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | Member of the 'Stellaron Hunters,' a hacker expert. Views the universe as a large-scale immersive simulation game, playing within it. Masters the 'Ether Editing' technique capable of modifying reality data. |
+| Introduction | A member of the Stellaron Hunters and a genius hacker. She sees the universe as a big immersive simulation game and has fun with it. She's mastered the skill known as "aether editing," which can be used to tamper with the data of reality. |
 | Role | A role that weakens enemy characters by adding weaknesses to reduce their resistance. |
 
 ### Voice Actors

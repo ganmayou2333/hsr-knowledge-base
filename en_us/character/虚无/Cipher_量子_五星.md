@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | The Lost City of Thieves, Dolos, where three hundred thieves revel in their games, running rampant without restraint. The swift thief star, Sefalia, the golden-blooded who mocks the 'Deception' fireseed. Go forth. May your lies travel with the wind, sweeping across this world's lands— 'Hmph, still trying to deceive me? Not a chance!' |
+| Introduction | The Chrysos Heir of Dolos, the demigod of "Trickery." She had long discarded her Flame-Chasing duty and departed the holy city. She has the power to command god-like speed, but only uses it to steal. Full of tricks and plots, she prefers living her own good life to embarking on a hero's journey. |
 | 城邦 | 多洛斯，奥赫玛…？ |
 | 神权 | 「翻飞之币，扎格列斯」 |
 | Role | An auxiliary-type role that increases the damage dealt to enemies. |

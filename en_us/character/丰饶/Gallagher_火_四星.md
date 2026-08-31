@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 匹诺康尼 |
-| Introduction | Penacony's Law Enforcement Officer of the Hound Clan, politely welcoming visiting guests while maintaining vigilance. Seems to have many past events but never mentions them proactively. |
+| Introduction | A disheveled drinksmith and a security officer from the Bloodhound Family. A local of Penacony, he possesses an exceptional knowledge base, although he rarely mentions it to others. |
 | Role | A healing-type role with offensive capabilities. Its ultimate skill attacks all enemy targets, applying 【Besotted】, and enhances Gallagher's next normal attack. When our side attacks an enemy in 【Besotted】 state, recover the attacker's HP. |
 
 ### Voice Actors

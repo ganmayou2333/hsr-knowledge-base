@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠 |
-| Introduction | Going with the flow, running the show, relying entirely on instinct yet solving countless mysteries. Monkey serving as an assistant, desperately hoping to retire, the detective rests in the fridge, waiting for the willing to come hooking. Under the moon's illusion, the beast howls—how will his hunting game conclude? |
+| Introduction | Director of the Ashen Detective Agency. Driven by righteousness, he accepts all kinds of detective commissions and collaborates with his assistant Narrator on cases. |
 | Role | A damage-dealing role capable of marking a single enemy as [Bait] and performing high-frequency follow-up attacks. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 仙舟「曜青」 |
-| Introduction | Shadow Sentinel of Xianzhou's "Yaoqing," silent and reclusive, specializing in intelligence and shadowy affairs. Rarely seen in public, Moze's prowess marks the enemy's demise. Mastery in diverse assassination techniques, with obsessive dedication to tidiness and order. |
+| Introduction | An aide under Feixiao. He is in charge of intelligence and security. As a hidden blade, his presence is rarely perceived, appearing only when he is needed. |
 | Role | Output role that marks enemies as [Prey] to deal additional damage. |
 
 ### Voice Actors

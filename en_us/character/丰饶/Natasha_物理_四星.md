@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | A doctor in the lower district of Belobog, also a caretaker of the children. Gentle and approachable, yet hiding a dangerous side. |
+| Introduction | A doctor from the Underworld and a caregiver of children. Alongside her kindness and caring, she also has a hidden dangerous side. |
 | Role | An auxiliary role that can provide continuous healing and remove negative status effects. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | 焚化工 |
-| Introduction | The sweet dream burned the Eternal Flame Manor, also taking away fragments of memories about 'her'. 'Destruction', 'Memory'... the flowers of betrayal bloom where she has passed— returning to the dream unknown to all, who will reignite her once more? |
+| Introduction | A Cremator, greedy by nature, who has betrayed both the Path of Destruction and the Garden of Recollection. Alone she traverses the cosmos, seeking to exhaust every possibility of being alive. |
 | Role | A support-type character who can deal super critical damage to enemies without breaking them, allowing our side to do so. |
 
 ### Voice Actors

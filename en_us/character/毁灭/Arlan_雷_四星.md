@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | Head of the Defense Department at Space Station 'Herta'. Reticent, hoping to protect those who value research so they can complete their studies successfully. |
+| Introduction | The head of Herta Space Station's Security Department. This inarticulate boy is willing to protect the researchers in pursuit of their work with his life. |
 | Role | A damage-dealing role that gains increased damage by reducing its own health. |
 
 ### Voice Actors

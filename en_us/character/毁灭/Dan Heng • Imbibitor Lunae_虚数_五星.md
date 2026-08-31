@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | Dan Heng, as the true form of the Zhuying clan's embodiment, carries the power inherited from his previous life as the "Drinking Moon Lord." Accepting the jagged horn crown on his forehead means accepting the sins and merits of the criminal he became. |
+| Introduction | Dan Heng's true form from his Vidyadhara lineage carries the residual power left behind by his past incarnation, the Imbibitor Lunae. Upon accepting the majestic horned crown atop his forehead, he must accept all the merits and faults attributed to that sinner. |
 | Role | A damage-dealing character capable of releasing multiple strengthening skills. |
 
 ### Voice Actors

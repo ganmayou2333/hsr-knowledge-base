@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | The land that reveres death, eternally snow-covered Acheron, has now sunk into sweet slumber. Castorice, daughter of the River Styx, the golden-blooded seeker of the 'Death' flame, embarks on your journey. Guard the mournful cries of the world's souls, embrace the solitude of fate — life and death are but a journey; when the butterfly alights on the branch, the withered shall once again bloom. |
+| Introduction | The Maiden of War from Aidonia and mortician of Okhema. Bearing the curse known as the Touch of Death, any life her fingertips touch withers and returns to nothing. |
 | 城邦 | 斯缇科西亚，哀地里亚，奥赫玛 |
 | 神权 | 「灰黯之手，塞纳托斯」 |
 | Role | A damage-dealing character who summons the 'Death Dragon • Polyktes' to fight alongside you. |

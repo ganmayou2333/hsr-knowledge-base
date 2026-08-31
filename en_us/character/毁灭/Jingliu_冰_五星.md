@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | Once the swordmaster of Luofu, the creator of the Cloud Cavalry's undefeated reputation. Now his name has been erased, becoming a heretic of Xianzhou who walks on the edge of the Demon King's shadow. |
+| Introduction | Former Sword Champion of the Luofu, and the reason behind the Cloud Knights' mythical reputation of implacable might. Now, her name has been wiped from the records, and she is a traitor of the Xianzhou walking on the fine line between sanity and mara-struck. |
 | Role | A damage-dealing character who enhances their own attack through entering a special state. |
 
 ### Voice Actors

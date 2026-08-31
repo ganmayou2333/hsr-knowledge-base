@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 星际和平公司 |
-| Introduction | A high-ranking official in the Interstellar Peace Company's Strategic Investment Department, one of the "Stone Heart Ten," with the foundation stone "Jade Loan." A cold and elegant lender skilled at understanding people, with a personal hobby called "Mercy Jade Mortgage." Willing to wait patiently for high-value items and adept at extracting value from clients who seem to have nothing. |
+| Introduction | A senior manager in the IPC's Strategic Investment Department and one of the Ten Stonehearts. Her Cornerstone is "Jade of Credit." |
 | Role | A damage-dealing character that triggers additional attacks by obtaining energy points. |
 
 ### Voice Actors

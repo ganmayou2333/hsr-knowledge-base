@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | Celestial General of Xianzhou "Yaoqing", one of the Seven Heavenly Generals of the Imperial Bow. Unconventional and straightforward, he is a master of countless martial arts, having refined his body to its peak, earning the title "Great Victory General", deeply loved by Xianzhou's military and civilians. However, he suffers from the "Lunar Madness" curse. If he is to hunt down all the evils within the time limit, Feixiao's only enemy is himself. |
+| Introduction | The Arbiter-General of the Xianzhou Yaoqing. Referred to as the Merlin's Claw. Decisive like lightning and always doing what is right, she has demonstrated outstanding military success through her martial prowess. |
 | Role | A damage-dealing character who can transform into [Invincible Player] to unleash powerful skills. |
 
 ### Voice Actors

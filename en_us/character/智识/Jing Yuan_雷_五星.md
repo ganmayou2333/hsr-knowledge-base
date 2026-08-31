@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | One of the seven generals of the Xianzhou Alliance's Imperial Bow, responsible for regulating the Luofu Cloud Cavalry's "God's Strategy General." Studied under the former "Luofu" sword master but is not renowned for martial prowess. |
+| Introduction | The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu. A student of the Luofu's previous Sword Champion, though not known for his martial prowess. |
 | Role | Jing Yuan summons the "God's Sovereign" to cooperate in battle. |
 
 ### Voice Actors

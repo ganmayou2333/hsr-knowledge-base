@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | Styxosia, the city of drunkenness and dreams by the sea, where the songs of old still echo among the waves. Halektra, the daughter of the sea, the golden descendant who purifies the "Ocean" spark, dispels the murky currents, and plays an endless feast for heroes from the heavens — the curtain has not yet fallen, even if hope is as fragile as a bubble, the waves will press forward without end. |
+| Introduction | A Chrysos Heir from the ancient kingdom beneath the sea, bard of the tides, knight known as the Gladius, and the Imperator's most formidable blade. Used to be the last descendant of sea sirens, she wandered the surface world before pledging her loyalty to Cerydra and joining the Flame-Chase Army. |
 | 城邦 | 斯缇科西亚，奥赫玛 |
 | 神权 | 「满溢之杯，法吉娜」 |
 | Role | An output-type character that deals additional continuous damage instances based on the number of targets. |

@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | The Northern Empire, a lost dynasty, its frozen lands burning with the ambition of conquest. Monarch Cerydra, the golden-blooded wielder of the 'Law' flame, setting up pieces, playing chess with the gods, judging the traitorous prisoners, laying the foundation for this world's fire-forged legacy —— "This is no end, the journey of Amphoreus shall be the Milky Way's stars!" |
+| Introduction | Chrysos Heir of Hyperborea, master of the Northern Empire, Flamecrowned who ended wars, and the only ever Imperator of Amphoreus. After uniting the fractured lands, she summoned heroes from all corners to embark on the Flame-Chase Journey, sworn to break the old order and pen a new one. |
 | 城邦 | 奥赫玛 |
 | 神权 | 「公正之秤，塔兰顿」 |
 | Role | An auxiliary-type character that allows teammates to continuously release two combat techniques in succession. |

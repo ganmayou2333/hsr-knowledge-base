@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | Member of the Genius Club, expert in the field of life sciences, collaborated with Herta and others to develop the simulation universe. |
+| Introduction | Member 81 of the Genius Society. Jointly developed the "Simulated Universe" with Herta, Screwllum, and Stephen. A master in the field of life sciences, she has an emotionless disposition and is only obsessed with research. |
 | Role | Auxiliary role that enhances critical hit efficiency, speed, and penetration against all attributes. |
 
 ### Voice Actors

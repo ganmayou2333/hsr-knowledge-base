@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | Intelligence officer of the Silver Wolf. Serious-minded, deeply respected by the members of the Silver Wolf. |
+| Introduction | An intelligence officer for the Silvermane Guards. She has a serious personality and is revered by other members of the Silvermane Guards. |
 | Role | A support-type character with moderate damage output capable of removing single-target enemy buffs and reducing the defense of all enemies. |
 
 ### Voice Actors

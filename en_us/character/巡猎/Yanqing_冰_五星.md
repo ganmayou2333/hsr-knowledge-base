@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | General Jingyuan's bodyguard, though a young prodigy in swordsmanship. With a sword in hand, they stand invincible. |
+| Introduction | General Jing Yuan's retainer. A gifted swordsman who hasn't even come of age. No one can best Yanqing when he holds a sword in hand. |
 | Role | A damage-dealing character that reduces the probability of being hit and increases the damage dealt by the character. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | Member #83 of the "Genius Club," the true master of the space station. A brilliant scientist with no empathy. |
+| Introduction | Member 83 of the Genius Society. The real master of the space station. An incredibly intelligent yet unsympathetic scientist. |
 | Role | An output-type role that triggers a chase when an enemy's health is reduced to below half. |
 
 ### Voice Actors

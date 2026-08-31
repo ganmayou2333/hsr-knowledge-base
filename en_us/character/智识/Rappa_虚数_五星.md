@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠 |
-| Introduction | Appearing in Penacony like a flashbang at the darkest hour of night, this peculiar girl styles herself as a ninja and attributes everything in the world to "ninjutsu." She upholds the "Way of the Ninja" — reciting ninja mantras, drawing Dazzling Ninja Seals, and studying ninja scrolls, namely rap, graffiti, and manga — rigorously tempering her will as she roams the stars to uphold justice. As a member of the Galaxy Rangers, she relentlessly pursues the villain known as "Evil Ninja Osaru" all the way to the very edge of the galaxy. |
+| Introduction | A peculiar girl who appears in Penacony like a flashbang at the darkest hour of night, identifying herself as a ninja and attributing everything in the world to "ninjutsu." She roams the dreamlands of the Mappou world, upholding justice with a singular focus on hunting down the villain known as Evil Ninja Osaru. |
 | Role | Rappa is a damage-dealing character specialized in dealing Break DMG to multiple enemies. |
 
 ### Voice Actors

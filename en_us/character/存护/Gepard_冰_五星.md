@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | Guardian of the Silver Wolf, one of Belobog's top warriors. Straightforward and meticulous, never complacent. |
+| Introduction | A captain in the Silvermane Guards and an outstanding warrior of Belobog. He is meticulous and vigilant to the core and is always true to himself. |
 | Role | A defensive role that can provide shields for all allied units. |
 
 ### Voice Actors

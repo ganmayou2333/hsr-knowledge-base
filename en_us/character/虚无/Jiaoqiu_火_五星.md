@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★★ |
 | Faction | - |
-| Introduction | A Foxian healer and counselor from the Xianzhou Yaoqing. He always greets people with a smile on his face and a scheme in his heart. Born into a prestigious family of the Alchemy Commission, he once lost the will to live and withdrew from the world, giving up medicine — until he returned to treat "the Merlin's Claw," General Feixiao. Skilled in the study of medicinal formulas that treat food as medicine, especially spicy dishes that bring a sensation of pain, he invented the cauldron-based medicinal formula known as the "nine-squared grid." |
+| Introduction | An advisor under Feixiao. Responsible for her food and health. To him, a medicine-boiling cauldron is no different from a hotpot on a stove, and the ingredients of meals are also no different from medication... |
 
 ### Voice Actors
 

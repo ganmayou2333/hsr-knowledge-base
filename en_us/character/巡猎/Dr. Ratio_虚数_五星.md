@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 博识学会 |
-| Introduction | Scholar of the Erudite Society. Eccentric, sharp-tongued yet charming. The face hidden beneath the peculiar plaster head sculpture seems surprisingly handsome. |
+| Introduction | An eccentric, self-centered, slightly gloomy, and yet elegant Intelligentsia Guild member. He often wears a bizarre plaster head sculpture over his head despite his handsome features. |
 | Role | An output-type character that can trigger additional attacks when attacking alone or with teammates. |
 
 ### Voice Actors

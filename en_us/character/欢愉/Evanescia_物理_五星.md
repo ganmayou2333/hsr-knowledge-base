@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 二相乐园 |
-| Introduction | Through a season of full moon and a season of world renewal, the enigmatic girl reappears in the Two-Phase Garden! Falling petals fade away, yet her stay is but a fleeting moment. Entranced by the new era's wonders, she will not allow anyone to disrupt it— a measuring blade judges righteousness and wickedness, yet who can truly discern her own morality? |
+| Introduction | A girl who lives next to the Panarch Elwood. She's a big fan of the comic, Fluffy Across the Blue. With her extraordinary painting skills, she crafted a mask for you that can be used to join the Phantasmoon Games. |
 | Role | A damage-dealing character specialized in rapidly accumulating 【Good Living Rewards】 |
 
 ### Voice Actors

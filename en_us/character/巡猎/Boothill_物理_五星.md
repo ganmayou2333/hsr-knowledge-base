@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 巡海游侠 |
-| Introduction | A cyborg cowboy wandering through the galaxy, extremely optimistic and carefree. As a member of the "Sea-Wandering Outlaws," he's willing to do anything to punish villains and eliminate evil—beneath his flamboyant demeanor, he yearns to draw the attention of his target for revenge, the "Interstellar Peace Company." |
+| Introduction | Unbeknownst to everyone, the cosmic cowboy who became uncontactable is currently lurking in the shadows of the Dreamscape... |
 | Role | A damage-dealing character skilled in duels against enemies. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Lightning |
 | Rarity | ★★★★ |
 | Faction | 仙舟「罗浮」 |
-| Introduction | The Guide of the Celestial Vessel of Xianzhou's 'Luofu' Celestial Vessel Bureau. Has accompanied merchant groups on missions to numerous worlds, forging trade agreements and alliances. |
+| Introduction | Amicassador of the Sky-Faring Commission of the Xianzhou Luofu. She travels with business delegates, forging trade relationships and alliances with many worlds. |
 | Role | An auxiliary character that can restore energy to a designated ally and enhance their damage output. |
 
 ### Voice Actors

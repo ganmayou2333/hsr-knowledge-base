@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | A merchant who moves freely between the surface and the underground. Sociable, enthusiastic, and humorous, accustomed to making jokes and humorous remarks. |
+| Introduction | A merchant who freely travels between the Overworld and the Underworld. He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering. |
 | Role | A damage-dealing character focused on sustained damage and multi-stage projectile attacks. |
 
 ### Voice Actors

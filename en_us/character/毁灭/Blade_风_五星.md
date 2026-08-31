@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 星核猎手 |
-| Introduction | Member of the Stellaron Hunters, a swordsman who discards their own blade. Loyal to "Slave of Fate," possesses a terrifying self-healing ability. |
+| Introduction | A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade. He pledges loyalty to Destiny's Slave, and possesses a terrifying self-healing ability. |
 | Role | An output-type character who gains enhancements by consuming life. |
 
 ### Voice Actors

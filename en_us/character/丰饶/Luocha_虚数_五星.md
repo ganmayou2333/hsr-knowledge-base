@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | Carries a coffin, an outsider merchant from the sea beyond the heavens. Skilled in medicine. |
+| Introduction | Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas. Has excellent medical skills. |
 | Role | Support role that heals HP, removes debuffs, and counters enemy buffs. |
 
 ### Voice Actors

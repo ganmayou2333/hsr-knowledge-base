@@ -16,7 +16,7 @@
 | Attribute | Imaginary |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | The suspended blade sunk into mist, the city of chaos and war! Its royal family flows with the blood of patricide, its god is named Disaster. The immortal Mydei, the lone lion, the golden-blooded lineage pursuing the 'Strife' spark. Enduring ten thousand deaths, returning home with bloodstained armor, bearing the maddest fate alone — slaying the king to become king, slaying the god to ascend as a god. |
+| Introduction | Crown prince of Castrum Kremnos, son of Gorgo, and a warrior as fearsome as a lion. Though he appears proud and unrestrained, he values loyalty and shows compassion for his people. |
 | 城邦 | 悬锋城 |
 | 神权 | 「天谴之矛，尼卡多利」 |
 | Role | An output-type character that gains enhancement by consuming life. |

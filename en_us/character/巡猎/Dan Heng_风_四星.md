@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★ |
 | Faction | 星穹列车 |
-| Introduction | A cold and reserved young man who keeps his past a well-guarded secret. To evade his bloodline kin, he chose to travel with the Astral Express. |
+| Introduction | A cold and reserved young man who is reticent about his past. To avoid his kin, he decided to travel with the Astral Express. |
 | Role | A main damage dealer who deals single-target damage using ultimate skills and the talent Wind Penetration. |
 
 ### Voice Actors

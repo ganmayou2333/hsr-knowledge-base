@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | Belobog Lower District's champion boxer, one of Dihuo's key subordinates. The reigning champion of the Combat Club, inspiring the children of the lower district who dare to dream. |
+| Introduction | The boxing champion in Belobog's Underworld, and one of Wildfire's most capable fighters. The consecutive reigning champion of the Fight Club, whose enthusiasm inspires children of the Underworld to dream big. |
 | Role | A sub-C role that uses sustained damage and explosive laceration as auxiliary mechanisms. |
 
 ### Voice Actors

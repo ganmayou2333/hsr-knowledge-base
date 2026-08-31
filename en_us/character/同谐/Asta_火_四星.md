@@ -16,7 +16,7 @@
 | Attribute | Fire |
 | Rarity | ★★★★ |
 | Faction | 空间站「黑塔」 |
-| Introduction | Station Manager of the space station "Herta", a noble-born young lady. A curious astronomer who is skilled at managing the station's staff who have diverse opinions. |
+| Introduction | The lead researcher of Herta Space Station and a lady from a renowned family. She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station. |
 | Role | An auxiliary role that can enhance the attack power and speed of the entire party. |
 
 ### Voice Actors

@@ -16,7 +16,7 @@
 | Attribute | Wind |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | Belobog's 【Great Guardian】 successor. Combines the pride of a princess and the steadfastness of a soldier. |
+| Introduction | Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also the determination and integrity of a soldier. |
 | Role | A role that makes our side targets act immediately and provides a team-wide boost. |
 
 ### Voice Actors

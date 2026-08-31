@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★ |
 | Faction | 匹诺康尼 |
-| Introduction | A hotel bellboy at Penacony Hotel, a well-mannered and thoughtful young boy. He harbors great aspirations towards nameless travelers, dreaming of one day embarking on his own journey. |
+| Introduction | A bellboy at The Reverie who takes a keen interest in the Path of Trailblaze upon which the Astral Express strides. |
 | Role | A damage-dealing character with control abilities. |
 
 ### Voice Actors

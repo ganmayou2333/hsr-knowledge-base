@@ -16,7 +16,7 @@
 | Attribute | Physical |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | Aeril Mishe, a secluded border village that now remains only as a cryptic legend. The nameless hero █████, a golden-blooded descendant containing the "Negative World" flame, remembering the ideals of all, bearing the fate of countless, bringing the first light to the new world —— "But if dawn never exists, let the fury consume this body, becoming the blazing sun of tomorrow!" |
+| Introduction | The Chrysos Heir of Aedes Elysiae, a warrior of Okhema. A gentle and cheerful young man with a detail-oriented mind and a pursuit of perfection in everything he does. |
 | 城邦 | 哀丽秘榭，奥赫玛 |
 | 神权 | …… |
 | Role | A damage-dealing character who can transform into Kaesarantha and possesses multiple powerful skills. |

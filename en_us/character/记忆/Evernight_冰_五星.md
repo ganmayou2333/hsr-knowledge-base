@@ -16,7 +16,7 @@
 | Attribute | Ice |
 | Rarity | ★★★★★ |
 | Faction | 翁法罗斯 |
-| Introduction | The secluded realm of memories, candlelight casting shadows of the past, fading into the mist silently. The child of memory, Evernight, a golden lineage concealing the "Years" ember, spawning the tide of "forgetting," safeguarding the wish of the mirror being — "Don't worry, I will guard your "Trailblazing" path... at any cost ♭" |
+| Introduction | A mysterious figure who appears in the seams between memories, identical in appearance to March 7th, yet her identity remains unknown. Deeply tied to the Path of Remembrance, she seems to walk a purpose far removed from that of ordinary Memokeepers. |
 | 城邦 | 天外 |
 | 神权 | 「永夜之帷，欧洛尼斯」 |
 | Role | An output-type character who summons the memory spirit "Evernight" for combat |

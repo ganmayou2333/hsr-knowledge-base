@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 仙舟联盟 |
-| Introduction | Head of the Astral Bureau of Xianzhou's Luofu. Utilizes the third eye and the Exhausting Array to calculate routes for Xianzhou and predict the auspiciousness of affairs. |
+| Introduction | Head of the Divination Commission on the Luofu. The person who uses the third eye and Matrix of Prescience to foretell the route of Xianzhou and the outcomes of events. |
 | Role | A defensive role that can distribute damage among our entire side and provide buffs. |
 
 ### Voice Actors

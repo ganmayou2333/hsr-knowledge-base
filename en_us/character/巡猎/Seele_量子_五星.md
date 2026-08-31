@@ -16,7 +16,7 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | 贝洛伯格 |
-| Introduction | A core member of the underground resistance organization 「Geiho」, nicknamed 「Butterfly」. Straightforward and honest in nature, with a subtle and sharp side hidden within. |
+| Introduction | A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka." She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart. |
 | Role | A quantum attribute character that triggers 【Reappearance】 by defeating targets, capable of multiple actions. |
 
 ### Voice Actors
