@@ -66,3 +66,12 @@
 - 游戏素材与文本版权归 **HoYoverse**，依官方同人指引使用；图标不随仓库分发。
 - 第三方来源与许可详情见 [NOTICE.md](NOTICE.md)。
 ```
+
+---
+
+## 七、站点发布的素材范围（2026-10-01 补充）
+
+- 静态 Wiki（GitHub Pages）**仅发布 `icon/**` 图标**：角色头像（`icon/avatar/`）、角色立绘（`icon/character/`，97 张）、光锥 / 遗器 / 物品 / 奇物图标。
+- **不发布**：游戏字体（`font/`）、`image/**` 高清大图（角色肖像 / 立绘预览，614 张 / 861 MB）、以及任何 `StarRailRes-*` 克隆内容。
+- 实现方式：`wiki/copy_icons.py` 只按 profile 的图标映射复制 `icon/**`；CI 使用 `sparse-checkout set icon` 只拉取该目录。
+- 图标在**构建时**从 StarRailRes 拉取，**不随仓库分发**；站点页脚须保留 AGPL-3.0 与 StarRailRes 署名。
