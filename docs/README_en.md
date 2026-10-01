@@ -4,7 +4,7 @@
 
 An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematically organizing game data and materials such as characters, Light Cones, items, Relics, the Simulated Universe, quest texts, and world-building. Pages are linked via wikilinks, supporting structured search and quick navigation. In addition to Simplified Chinese, multilingual mirrors are provided in English / Traditional Chinese / Japanese / Korean.
 
-> Data version baseline: 4.6 (Jade is a 4.6 preview character, noted separately)
+> Data version baseline: 4.6 (4.6 content added: 2026-09-28; documentation aligned: 2026-09-30; includes the new character Pearl, the new Light Cone "Colors for Tomorrow", and two new Relics 戏梦点星的伶人 / 贪噬禁果的异端 — official English names pending)
 
 ---
 
@@ -21,9 +21,27 @@ An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematicall
 | `worldview/` | World-building library (Aeons / Factions / Locations / Glossary / Relationships) | 8 |
 | `货币战争/` | Currency War library (standalone auto-chess mode: gameplay / characters / bonds / equipment / seasons) | 7 |
 | `rules/` | Rules library (combat mechanics / status priority / exceptions) | 5 |
+| `events/` | Events library (version / permanent / rerun events, added v1.13) | 5 |
+| `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13, empty pending names) | 0 |
+| `stages/` | Stages library (Cavern of Corrosion / Echo of War / Stagnant Shadow / material stages, added v1.13) | 1 |
 | `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (English / Traditional Chinese / Japanese / Korean, mirroring all data above) | ~5,840 each |
 
 > The index hierarchy is unified as: Main Index → Category / Path Index → Rating Index (rarity) → Details. Size counts detail files only (index and group files excluded).
+
+---
+
+## Online Wiki
+
+- Site: https://ganmayou2333.github.io/hsr-knowledge-base/ (auto-deployed via GitHub Pages on push to main)
+- Local preview: run `python wiki/build_wiki.py` then open `wiki/index.html`
+- Note: icons are fetched from StarRailRes during CI build and are **not distributed with the repo**.
+
+## License
+
+- This project is **free, non-commercial**; anyone may use, copy, modify, and redistribute it.
+- License: **AGPL-3.0** (derived from AGPL-3.0 StarRailRes; derivatives must use the same license).
+- Game assets and text are © **HoYoverse**, used per official fan-creation guidelines; icons are not distributed with this repo.
+- Third-party sources and license details: see [NOTICE.md](../NOTICE.md).
 
 ---
 
@@ -51,7 +69,7 @@ See [Data Sources](data-sources.md) for details:
 
 | Document | Description |
 |---|---|
-| [格式规范与要求.md](../格式规范与要求.md) | Format standards master (directory / naming / fields / wikilinks / version v1.9, Simplified Chinese) |
+| [格式规范与要求.md](../格式规范与要求.md) | Format standards master (directory / naming / fields / wikilinks / version v1.13, Simplified Chinese) |
 | [协作要求与行动准则.md](../协作要求与行动准则.md) | Project collaboration requirements & code of conduct |
 | [数据来源.md](../数据来源.md) | Data sources, coverage & copyright notes |
 | [遗器规则.md](../遗器规则.md) | Relic rules |

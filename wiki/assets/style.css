@@ -1,0 +1,45 @@
+:root{
+  --bg:#fff; --fg:#1c1c1e; --muted:#6b6b70; --border:#e5e5ea;
+  --accent:#3b82f6; --dead:#ef4444; --code:#f4f4f6; --card:#fafafa;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#1c1c1e; --fg:#f2f2f7; --muted:#98989d; --border:#38383a;
+    --accent:#60a5fa; --dead:#f87171; --code:#2c2c2e; --card:#2c2c2e;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  background:var(--bg);color:var(--fg);line-height:1.7;max-width:900px;margin:0 auto;padding:20px}
+.crumbs{font-size:14px;color:var(--muted);margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.crumbs a{color:var(--accent);text-decoration:none}
+h1{font-size:1.8em;border-bottom:2px solid var(--border);padding-bottom:.3em}
+h2{font-size:1.4em;margin-top:1.6em;border-left:4px solid var(--accent);padding-left:.5em}
+table{border-collapse:collapse;width:100%;margin:1em 0;font-size:14px}
+th,td{border:1px solid var(--border);padding:6px 10px;text-align:left}
+th{background:var(--card)}
+blockquote{border-left:4px solid var(--accent);margin:1em 0;padding:.5em 1em;background:var(--card);color:var(--muted)}
+code{background:var(--code);padding:2px 6px;border-radius:4px;font-size:.9em}
+pre{background:var(--code);padding:12px;border-radius:8px;overflow-x:auto}
+pre code{background:none;padding:0}
+a{color:var(--accent)}
+a.dead{color:var(--dead);text-decoration:line-through}
+.meta{margin-top:2em;padding:12px;background:var(--card);border-radius:8px;font-size:13px;color:var(--muted)}
+.pager{display:flex;justify-content:space-between;margin-top:2.5em;padding-top:1em;border-top:1px solid var(--border)}
+.navprev,.navnext{color:var(--accent);text-decoration:none}
+/* 首页 */
+.searchbox{width:100%;padding:12px;font-size:16px;border:2px solid var(--border);border-radius:8px;background:var(--bg);color:var(--fg)}
+.results{list-style:none;padding:0;margin-top:16px}
+.results li{padding:8px;border-bottom:1px solid var(--border)}
+.results a{text-decoration:none}
+.dead-banner{background:#fef2f2;color:var(--dead);padding:12px;border-radius:8px;margin:16px 0}
+.stat{color:var(--muted);font-size:14px}
+@media(max-width:600px){body{padding:12px}}
+
+/* entity icons */
+.entity-card { display:flex; gap:12px; align-items:flex-start; margin:8px 0 16px; flex-wrap:wrap; }
+.entity-icon { border-radius:12px; background:var(--card); object-fit:cover; }
+.entity-big { border-radius:16px; }
+.icon-fallback { border-radius:12px; background:var(--card); border:1px dashed var(--border); }
+
+.site-footer { margin-top:32px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:0.85em; }

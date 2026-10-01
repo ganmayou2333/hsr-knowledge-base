@@ -79,7 +79,7 @@ lines = []
 lines.append('# StarRailRes-master 与 HSR 知识库 实体ID 对照报告')
 lines.append('')
 lines.append(f'> SRR 数据源：`StarRailRes-master/index_new/cn/`')
-lines.append(f'> 知识库版本基线：4.5（真珠为 4.6 前瞻）')
+lines.append(f'> 知识库版本基线：4.6（真珠已正式纳入 4.6）')
 lines.append('')
 lines.append('## 一、总览')
 lines.append('')

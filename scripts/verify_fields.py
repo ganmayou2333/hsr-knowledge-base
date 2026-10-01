@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-skip_dirs = {'.obsidian', '.git', 'StarRailRes_repo', '.tmp_build', 'temp', 'node_modules', '货币战争', 'StarRailRes_data'}
+skip_dirs = {'.obsidian', '.git', 'StarRailRes_repo', '.tmp_build', 'temp', 'node_modules', '货币战争', 'StarRailRes_data', 'StarRailRes-master'}
 
 def walk_md():
     files = []
@@ -20,10 +20,17 @@ def walk_md():
     return files
 
 def classify(path):
+    # 先剥语言根目录（zh_cn/ en_us/ 等），使仓库根运行也能正确分类
+    for lang in ('zh_cn/', 'zh_tw/', 'en_us/', 'ja_jp/', 'ko_kr/'):
+        if path.startswith(lang):
+            path = path[len(lang):]
+            break
     if path.startswith('character/'): return 'character'
     if path.startswith('lightcone/'): return 'lightcone'
     if path.startswith('items/'):     return 'items'
     if path.startswith('relic/'):     return 'relic'
+    if path.startswith('events/'):    return 'events'
+    if path.startswith('stages/'):    return 'stages'
     if path.startswith('simulated/'):
         if '/祝福/' in path:   return 'blessing'
         if '/奇物/' in path:   return 'curio'
@@ -60,9 +67,6 @@ REQUIRE = {
         'meta': ['数据来源', '数据版本', '实体ID'],
         'basic': ['角色名称', '命途', '属性', '稀有度'],
         'sections': ['## 配音演员', '## 基础属性', '## 战技'],
-        'known_missing_sections': {  # 文件名片段 -> 已知缺的章节（如前瞻角色）
-            '真珠': ['## 基础属性', '## 战技'],
-        },
     },
     'lightcone': {
         'meta': ['数据来源', '数据版本', '实体ID'],

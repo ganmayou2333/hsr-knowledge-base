@@ -46,3 +46,11 @@
 - 覆盖口径：按实体 ID 校验，character 98.9% / lightcone 100% / relic 96.8% / items 100% / blessing 100% / event 100%
 - 未覆盖：真珠(7935)、遗器 133/134（官方 JSON 未收录）；乐园漫记/惊世奇迹 150 项（米游社 WIKI 手工数据，无官方 JSON）
 - 生成脚本：temp/multilang_gen_p0.py（角色/光锥/遗器）、temp/multilang_gen_p1.py（物品/模拟宇宙）
+
+## 待建镜像（4.6 新增三类库，2026-09-30）
+
+以下三类为 `格式规范与要求.md v1.13` 新增目录，**仅 zh_cn/ 有详情，四语言镜像全部待建**：
+
+- `events/`（活动库）：zh_cn 已有 1 条（爱，幽灵与机器人），en_us/zh_tw/ja_jp/ko_kr 待建
+- `enemies/`（敌人库）：zh_cn 暂无详情（新敌人中文名待补充），镜像待建
+- `stages/`（关卡库）：zh_cn 已有 1 条（密伶之径），en_us/zh_tw/ja_jp/ko_kr 待建

@@ -15,6 +15,8 @@
 | 获取时间 | 2026-08-27 |
 | 总占用 | **约 974 MB**（icon 86 MB + image 861 MB + font 26 MB） |
 
+> **两份克隆按用途分工**：多语言 JSON 数据以 `StarRailRes-master/index_new/`（13 语言，ZIP 快照停 v4.5）为准；**图包**以 `StarRailRes_repo/`（git 克隆，日常 `git pull`，含 icon/image/font，仅 cn 数据）为准。同一用途内版本冲突时以版本更新者为准（当前两者均为 v4.5）。
+
 ---
 
 ## 二、目录结构与统计
