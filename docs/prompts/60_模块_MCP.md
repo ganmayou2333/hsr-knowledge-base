@@ -1,4 +1,4 @@
-> ⚠️ **2026-10-01 迁移公告**：MCP 工具层已抽出为独立项目 [obsidian-kb-mcp](https://github.com/ganmayou2333/obsidian-kb-mcp)（profile 驱动、零依赖、10 个工具、MIT）。本库内 `mcp/` 目录已移除；下文出现的 `mcp/` 路径均为历史记录。
+> ⚠️ **2026-10-01 迁移公告**：MCP 工具层已抽出为独立项目 [markdown-kb-mcp](https://github.com/ganmayou2333/markdown-kb-mcp)（profile 驱动、零依赖、10 个工具、MIT）。本库内 `mcp/` 目录已移除；下文出现的 `mcp/` 路径均为历史记录。
 
 # 60 · 模块：MCP 工具层（只读）
 

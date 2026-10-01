@@ -3,6 +3,15 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-01
 
+## 2026-10-01 17:20
+
+**MCP 工具层更名与精简：`obsidian-kb-mcp` → `markdown-kb-mcp`**
+
+- 独立项目更名为 **`markdown-kb-mcp`**（原 `obsidian-kb-mcp`，GitHub 旧地址自动重定向）；包名 `obsidian_kb_mcp` → `markdown_kb_mcp`，版本 **v1.2.0**。
+- **精简**：HSR 专属配置移出核心目录 → `examples/profiles/hsr.json`（示例）；`profiles/` 只保留通用 `generic.json`；profile 查找同时支持两处，`--profile hsr` 行为不变。
+- 清理无关内容：移除 `__pycache__`、工具描述去掉品牌表述、README 去掉与具体知识库绑定的叙述。
+- 回归验证：Python 冒烟测试 20/20、Node 冒烟测试 19/19 全绿；知识库侧 `README.md` / `格式规范与要求.md` §十七 / `60_模块_MCP.md` 引用已同步更新。
+
 ## 2026-10-01 17:10
 
 **合规整改（P0 · 依合规评估报告）**
