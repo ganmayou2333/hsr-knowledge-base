@@ -27,7 +27,7 @@
 | `stages/` | 关卡库（侵蚀隧洞 / 历战余响 / 凝滞虚影 / 材料关卡，v1.13 新增） | 1 |
 | `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | 多语言镜像（英文 / 繁体中文 / 日文 / 韩文，镜像 zh_cn 数据） | 各约 5,840 |
 | `wiki/` | **静态 Wiki 站点**（模板 + 生成器；`pages/`、`data/`、`assets/icons/` 为生成物，不入库） | 6,693 页 |
-| `mcp/` | **MCP 只读工具层**（Python / Node 双实现 + 自测） | 9 个工具 |
+| `mcp/`（已迁出） | MCP 只读工具层**已抽出为独立项目**：[obsidian-kb-mcp](https://github.com/ganmayou2333/obsidian-kb-mcp)（profile 驱动、零依赖） | — |
 | `docs/` | 文档（多语言 README / 数据来源 / 报告 / 提示词系统 / 待补充清单） | — |
 | `scripts/` | 校验与生成脚本（`verify_fields` / `verify_links` / `compare_srr_ids` 等） | — |
 
@@ -86,7 +86,7 @@
 | [待办清单.md](待办清单.md) | 数据补全与扩展待办 |
 | [NOTICE.md](NOTICE.md) | **第三方来源与许可声明**（AGPL-3.0 与各数据源许可状态） |
 | [wiki/README.md](wiki/README.md) | 静态 Wiki：本地预览与 GitHub Pages 启用 |
-| [mcp/README.md](mcp/README.md) | MCP 只读工具层：工具清单与接入方式 |
+| [obsidian-kb-mcp](https://github.com/ganmayou2333/obsidian-kb-mcp) | **MCP 只读工具层**（已独立成仓：profile 驱动、零依赖、自带冒烟测试） |
 | [docs/prompts/README.md](docs/prompts/README.md) | 提示词系统管理总纲 |
 | [docs/multilang_index.md](docs/multilang_index.md) | 多语言数据索引（4 语言文件统计） |
 | [docs/multilang_final_report.md](docs/multilang_final_report.md) | 多语言最终覆盖率报告 |
