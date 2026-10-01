@@ -215,7 +215,7 @@ def main():
 {md_to_html(body, depth, rel)}
 {meta_html}
 <nav class="pager">{prev_nxt}</nav>
-<footer class="site-footer">本站由 AGPL-3.0 项目 hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0） · 游戏内容版权归 HoYoverse 所有，本站为非商业同人整理</footer>
+<footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0）</footer>
 </main></body></html>"""
         outp = (PAGES / rel.replace("/", os.sep)).with_suffix(".html")
         outp.parent.mkdir(parents=True, exist_ok=True)

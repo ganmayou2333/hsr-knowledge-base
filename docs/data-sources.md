@@ -34,7 +34,7 @@ Fan-made database site; Chinese data comes directly from rendered page text.
 | /monster | Monsters | Not collected | - |
 
 - **Data version**: 4.5 (page version comparison includes 4.5.51, etc.).
-- **Scraping rules**: browser simulation click into detail pages, random request interval (8–12 s), lower frequency when running three lines in parallel, to avoid anti-crawling and IP bans.
+- **Fetching rules**: pages are read sequentially in a browser at a random 8–12 s interval, and at a lower rate when three workers run in parallel; we honour each source's robots.txt and terms of service and use the data for personal, non-commercial compilation only.
 - **Limitations**: Details for new characters follow official publication. Pearl (1503) has been fully added as of 4.6 (Base Stats / Skills / Eidolons), but some values such as skill multipliers are not officially published and are marked "values pending verification" in the pages.
 - **Library size (rechecked 2026-09-30)**: 3823 item detail files under `/item` (previously recorded as 1429); the increase comes mainly from categories supplemented via StarRailRes `items.json`.
 
@@ -50,7 +50,7 @@ miHoYo's official community Wiki, maintained by the Trailblazer Notes editing te
 | Relic encyclopedia | bbs.mihoyo.com/sr/wiki/content/relic/list | Relic main/sub-stat rules (reference) |
 | SU Blessing overview | bbs.mihoyo.com/sr/wiki/content/767/detail | Classic SU Blessings: precise Path (incl. dual-Path interleave), pre/post-enhanced effects |
 
-- **Scraping rules**: click simulation only; 10 s interval every 2 requests (frequency controlled per user request).
+- **Fetching rules**: sequential browser reading; 10 s interval every 2 requests (frequency controlled per user request).
 - **Merge method**: Plan B — official data is increment-merged into existing nanoka character files without replacing original data; SU Blessing Paths merged into SRR Blessing files (Wiki takes priority over ID-segment inference).
 
 ---

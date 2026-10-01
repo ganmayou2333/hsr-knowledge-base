@@ -83,6 +83,8 @@ See [Data Sources](data-sources.md) for details:
 
 ## Copyright Notice
 
+> **© miHoYo. All rights reserved.** All Honkai: Star Rail assets belong to miHoYo; other rights belong to their respective owners. This is an unofficial, non-commercial fan compilation, not affiliated with or endorsed by HoYoverse.
+
 - The game name, characters, art resources, and text are copyrighted by **HoYoverse (miHoYo)**. This repository is for **non-commercial personal use** only, following the official fan/derivative creation guidelines of each region.
 - **Applicable regions & guideline versions**:
 
