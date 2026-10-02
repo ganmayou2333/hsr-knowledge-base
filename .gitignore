@@ -1,32 +1,26 @@
-.tmp_build/
-
+# ---- 工作区临时目录（本机暂存，一律不入库）----
+.tmp_*/
 .tmp_*
-
-# 临时文件目录（构建中间产物，不入库）
 temp/
 
-# StarRailRes 第三方图库克隆（体积大，含版权素材，不入库）
+# ---- StarRailRes 第三方仓库克隆（体积大、含版权素材，不入库）----
 StarRailRes_repo/
 StarRailRes-master/
-StarRailRes_data/
 Mar-7th_StarRailRes/
+StarRailRes_data/
+# CI 浅克隆目录
+.srr/
 
-
-# Wiki 生成物（由 build_wiki.py 生成，不入库）
+# ---- Wiki 生成物（由 wiki/build_wiki.py、wiki/copy_icons.py 生成）----
 wiki/pages/
 wiki/data/
-
-# CI 克隆的 SRR 仓库
-.srr/
-# Wiki 图标（由 copy_icons.py 生成，不入库）
 wiki/assets/icons/
 
-# 私人会话记录
+# ---- 不入库的敏感 / 本机配置 ----
 docs/对话记录.xml
-# Obsidian 工作区配置
 .obsidian/
-# 分支转换前的历史备份
-zh_cn/quest/剧情文本_备份_分支转换前/
 
-# W-4.6-19：米游社/BWIKI 来源剧情文本（本地保留，不入库）
+# ---- W-4.6-19：米游社 / BWIKI 来源剧情文本（本地保留，不入库）----
 */quest/剧情文本/
+# 分支转换前的历史备份（已移出仓库）
+zh_cn/quest/剧情文本_备份_分支转换前/

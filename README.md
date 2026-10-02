@@ -28,10 +28,12 @@
 | `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | 多语言镜像（英文 5,851 / 繁体中文 5,845 / 日文 5,845 / 韩文 5,842，镜像 zh_cn 数据） | 各约 5,845 |
 | `wiki/` | **静态 Wiki 站点**（模板 + 生成器；`pages/`、`data/`、`assets/icons/` 为生成物，不入库） | 6,635 页（=`zh_cn/` 全量） |
 | `mcp/`（已迁出） | MCP 只读工具层**已抽出为独立项目**：[markdown-kb-mcp](https://github.com/ganmayou2333/markdown-kb-mcp)（profile 驱动、零依赖） | — |
-| `docs/` | 文档（多语言 README / 数据来源 / 报告 / 提示词系统 / 待补充清单） | — |
+| `docs/` | 文档（多语言 README / 数据来源 / 报告 / 提示词系统 / 待补充清单 / **[仓库结构](docs/仓库结构.md)**） | — |
 | `scripts/` | 校验与生成脚本（`verify_fields` / `verify_links` / `compare_srr_ids` 等） | — |
+| `compliance-assessment/` | 合规评估报告（2026-10-01，.md + .docx） | — |
 
-> 以上 `character/`~`stages/` 均位于 `zh_cn/` 下（`zh_cn/character/` 等）；`wiki/`、`mcp/`、`docs/`、`scripts/`、`temp/` 位于仓库根。索引层级统一为：主索引 → 分类 / 命途索引 → 评级索引（星级） → 详情。规模为详情文件数（不含索引与分组文件）。
+> 以上 `character/`~`stages/` 均位于 `zh_cn/` 下（`zh_cn/character/` 等）；`wiki/`、`docs/`、`scripts/`、`compliance-assessment/` 位于仓库根。索引层级统一为：主索引 → 分类 / 命途索引 → 评级索引（星级） → 详情。规模为详情文件数（不含索引与分组文件）。
+> **目录规范 / 入库边界 / 清理规则**：见 **[docs/仓库结构.md](docs/仓库结构.md)**。
 > **口径说明**：`zh_cn/` 合计行为 `zh_cn/` 下全部 `.md` 文件数（含索引，**实测 2026-10-02 = 6,635**）；各分类行为详情文件数（不含索引），故两者不直接相加。`wiki/` 页数与之一致（每 `.md` 一页，实测 6,635 页，死链 0）。
 
 ---
