@@ -3,6 +3,17 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-02
 
+## 2026-10-02 15:25
+
+**W-4.6-22：wiki 内链 URL 编码修复 + 统计口径刷新 + push**
+
+- **D-030 修复**：`wiki/build_wiki.py` 新增 `urlq()`（`urllib.parse.quote(path, safe="/")`），Markdown 内链 / 双链 / 上一页 / 下一页 **4 处 href** 全部编码；死链统计改用 `unquote()` 还原后比对。库内含全角引号的文件名（`线索信息·“香味”.md`，55 处引用）不再破链；物理文件名保持不变。
+- **构建与校验**：`python wiki/build_wiki.py` → **6,635 页**，`link_report.json` = `total 9842 / dead` **0**；`scripts/verify_links.py` 退出码 0（正式库死链 0）；`scripts/verify_fields.py`（在 `zh_cn/` 下运行）已知待补充 156（blessing 命途 4 / 星级 3 / items 缺获得途径 149），与既有记录一致。
+- **统计口径刷新（实测 2026-10-02）**：`zh_cn` **6,635**（含索引）；镜像 `en_us` **5,851** / `zh_tw` **5,845** / `ja_jp` **5,845** / `ko_kr` **5,842**；`wiki/` **6,635 页**（=`zh_cn` 全量，每 `.md` 一页）。同步更新根 `README.md`（规模表 + 口径说明 + 校验工具链行）与四语言 `docs/README_{en,ja,ko,zh-Hant}.md` 镜像行。
+- **索引口径统一**：`docs/multilang_index.md` 重写为实测表（character/lightcone/relic/items/simulated/quest/worldview 逐项，逐语言复算自洽）；`docs/multilang_coverage_report.md` 合计行补入 `quest`/`worldview` 并注明口径变更（旧表仅 5 类 → 5,669/5,670/5,670/5,667）。
+- **push**：4 个 commit 已推送到 `origin/main`（最新 `2cb92f4ae`）→ **GitHub 上已不再跟踪**任何 `*/quest/剧情文本/` 文件（本地 168 个保留）。
+- 落盘：`docs/prompts/工单_4.6-22_wiki链接编码.md`。
+
 ## 2026-10-02 15:05
 
 **W-4.6-20/21：GitHub 撤下跟踪 + BWIKI 覆盖核对 + 机器翻译撤下**

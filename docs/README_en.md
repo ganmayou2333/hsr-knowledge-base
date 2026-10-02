@@ -24,7 +24,7 @@ An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematicall
 | `events/` | Events library (version / permanent / rerun events, added v1.13) | 5 |
 | `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13, empty pending names) | 0 |
 | `stages/` | Stages library (Cavern of Corrosion / Echo of War / Stagnant Shadow / material stages, added v1.13) | 1 |
-| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (English / Traditional Chinese / Japanese / Korean, mirroring all data above) | ~5,840 each |
+| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (English 5,851 / Traditional Chinese 5,845 / Japanese 5,845 / Korean 5,842, mirroring all data above) | ~5,845 each |
 
 > The index hierarchy is unified as: Main Index → Category / Path Index → Rating Index (rarity) → Details. Size counts detail files only (index and group files excluded).
 
