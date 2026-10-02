@@ -4,6 +4,8 @@
 > 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/4442/detail](https://bbs.mihoyo.com/sr/wiki/content/4442/detail)
 > 数据版本：4.5
 > 实体ID：8007
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
 
 ---
 

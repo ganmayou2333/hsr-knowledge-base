@@ -3,6 +3,8 @@
 > 数据来源：https://hsr.nanoka.cc/item/140300 / https://hsr.nanoka.cc/item/140301 / https://hsr.nanoka.cc/item/140304 / https://hsr.nanoka.cc/item/140305
 > 数据版本：4.5
 > 实体ID：140300 / 140301 / 140304 / 140305
+> 创建时间：2026-08-30 11:57
+> 更新时间：2026-08-28 02:01
 
 ---
 

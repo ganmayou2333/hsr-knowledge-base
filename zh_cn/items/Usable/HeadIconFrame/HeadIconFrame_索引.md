@@ -2,6 +2,8 @@
 
 > 所属：物品 / Usable（可使用物品）/ HeadIconFrame（头像框）
 > 条目数量：5
+> 创建时间：2026-08-30 12:25
+> 更新时间：2026-08-30 21:54
 
 [[zh_cn/items/Usable/Usable_索引|返回Usable索引]] · [[zh_cn/items/物品总索引|返回物品总索引]]
 

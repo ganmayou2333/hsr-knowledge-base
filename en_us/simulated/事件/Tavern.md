@@ -3,6 +3,8 @@
 > 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_events.json）
 > 数据版本：4.5
 > 实体ID：13601 / 13602 / 13603 / 113601 / 113602 / 113603 / 413601
+> 创建时间：2026-08-30 18:23
+> 更新时间：2026-08-30 22:25
 
 ---
 

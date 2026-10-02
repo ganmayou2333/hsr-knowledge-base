@@ -3,6 +3,8 @@
 > 数据来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_curios.json）
 > 数据版本：4.5
 > 实体ID：47 / 48 / 1047 / 1048 / 3047 / 3048
+> 创建时间：2026-08-30 18:23
+> 更新时间：2026-08-30 22:25
 
 ---
 

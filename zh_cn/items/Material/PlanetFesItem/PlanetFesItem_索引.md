@@ -2,6 +2,8 @@
 
 > 所属：物品 / Material（材料）/ PlanetFesItem（星球节庆物品）
 > 条目数量：128
+> 创建时间：2026-08-30 12:35
+> 更新时间：2026-08-30 22:19
 
 [[zh_cn/items/Material/Material_索引|返回Material索引]] · [[zh_cn/items/物品总索引|返回物品总索引]]
 

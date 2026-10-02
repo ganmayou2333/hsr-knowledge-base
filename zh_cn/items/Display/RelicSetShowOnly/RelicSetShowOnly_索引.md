@@ -2,6 +2,8 @@
 
 > 所属：物品 / Display（展示物品）/ RelicSetShowOnly（遗器套装展示）
 > 条目数量：240
+> 创建时间：2026-08-30 12:35
+> 更新时间：2026-08-30 21:54
 
 [[zh_cn/items/Display/Display_索引|返回Display索引]] · [[zh_cn/items/物品总索引|返回物品总索引]]
 

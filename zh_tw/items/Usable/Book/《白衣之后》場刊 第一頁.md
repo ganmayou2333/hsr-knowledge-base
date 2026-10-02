@@ -3,6 +3,8 @@
 > 数据来源：https://hsr.nanoka.cc/item/190251 / https://hsr.nanoka.cc/item/190252 / https://hsr.nanoka.cc/item/190253
 > 数据版本：4.5
 > 实体ID：190251 / 190252 / 190253
+> 创建时间：2026-08-30 18:23
+> 更新时间：2026-08-30 22:25
 
 ---
 
