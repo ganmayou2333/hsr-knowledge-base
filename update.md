@@ -13,6 +13,7 @@
 - **文档状态标注**：`docs/quest_pending_translation.md` 标注**已作废（存档）**——其中 LLM 补译计划已按 W-4.6-21 甲口径撤下，不得再作待办依据。
 - **根目录 8 份文档保持原位**（如 `格式规范与要求.md` / `数据来源.md` / `待办清单.md` / `翻译办法.md`）：被 5–22 个文件引用，移动需批量改写相对链接；作为 vault 门面保留，新增文档默认放 `docs/`（已写入结构规范）。
 - push：提交已推送至 `origin/main`。
+- **⚠️ 清理误伤与修复（重要）**：`temp/win_certs.pem` 实为本机 git 用的 CA 包，删除后 push 报 `error setting certificate file`；改用 Windows 证书存储（`git config http.sslBackend schannel`，并移除 `http.sslCAInfo`）后恢复正常。已写入 `docs/仓库结构.md` §六「本机 git 配置」并立下纪律：**本机运行依赖的文件不得放在会被清理的目录**。
 
 ## 2026-10-02 15:25
 
