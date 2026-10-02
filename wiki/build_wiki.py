@@ -6,7 +6,7 @@ build_wiki.py — 零依赖静态 Wiki 生成器
 扫描 zh_cn/ 下所有 .md，生成 wiki/pages/ 静态 HTML + data/ 索引。
 不改任何 .md 源文件。
 """
-import os, re, json, html, pathlib, shutil
+import os, re, json, html, pathlib, shutil, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
@@ -15,6 +15,11 @@ DATA = WIKI / "data"
 SRC = ROOT / "zh_cn"
 
 def esc(s): return html.escape(s, quote=False)
+
+def urlq(path):
+    """把页面相对路径编码为合法 URL（含全角引号/空格/中文）。保留 '/'。
+    修复 D-030：库内存在含 “ ” 的文件名（线索信息·“香味”.md），未编码时浏览器请求会破链。"""
+    return urllib.parse.quote(path, safe="/")
 
 # 全局：所有页面 key 集合（剥 zh_cn/ 前缀，相对 pages/ 根，无后缀）
 PAGE_SET = set()
@@ -48,7 +53,7 @@ def convert_inline(text, depth, current_rel=""):
         t = resolve(href_raw)
         exists = t in PAGE_SET
         cls = ' class="dead"' if not exists else ""
-        return f'<a href="{up}pages/{t}.html"{cls}>{esc(disp)}</a>'
+        return f'<a href="{up}pages/{urlq(t)}.html"{cls}>{esc(disp)}</a>'
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", md_link, text)
 
     # ---- 双链 [[a|b]] ----
@@ -63,7 +68,7 @@ def convert_inline(text, depth, current_rel=""):
         target = resolve(target)
         exists = target in PAGE_SET
         cls = ' class="dead"' if not exists else ""
-        return f'<a href="{up}pages/{target}.html"{cls}>{esc(disp)}</a>'
+        return f'<a href="{up}pages/{urlq(target)}.html"{cls}>{esc(disp)}</a>'
     text = re.sub(r"\[\[[^\]]+\]\]", wikilink, text)
 
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
@@ -197,11 +202,11 @@ def main():
         prev_nxt = ""
         if idx > 0:
             pr = rel_paths[idx-1][1]; pt = pr.split("/")[-1]
-            prev_nxt += f'<a class="navprev" href="{up}pages/{pr}.html">← {esc(pt)}</a>'
+            prev_nxt += f'<a class="navprev" href="{up}pages/{urlq(pr)}.html">← {esc(pt)}</a>'
         else: prev_nxt += '<span class="navprev"></span>'
         if idx < len(rel_paths)-1:
             nr = rel_paths[idx+1][1]; nt = nr.split("/")[-1]
-            prev_nxt += f'<a class="navnext" href="{up}pages/{nr}.html">{esc(nt)} →</a>'
+            prev_nxt += f'<a class="navnext" href="{up}pages/{urlq(nr)}.html">{esc(nt)} →</a>'
         else: prev_nxt += '<span class="navnext"></span>'
         meta_html = '<div class="meta">'+"".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k,v in meta.items())+"</div>" if meta else ""
         icon_html = inject_icon(meta, rel, depth, title)
@@ -229,9 +234,10 @@ def main():
         content = htmlf.read_text(encoding="utf-8")
         for m in re.finditer(r'<a href="[^"]*pages/([^"]+\.html)"( class="dead")?>([^<]+)</a>', content):
             link_report["total"] += 1
+            target_decoded = urllib.parse.unquote(m.group(1))
             if m.group(2):
                 link_report["dead"] += 1
-                link_report["dead_list"].append({"source": rel, "target": m.group(1), "text": m.group(3)})
+                link_report["dead_list"].append({"source": rel, "target": target_decoded, "text": m.group(3)})
 
     (DATA/"titles.js").write_text("window.TITLES = "+json.dumps(titles,ensure_ascii=False)+";", encoding="utf-8")
     (DATA/"link_report.json").write_text(json.dumps(link_report,ensure_ascii=False,indent=2), encoding="utf-8")
