@@ -52,6 +52,14 @@ miHoYo's official community Wiki, maintained by the Trailblazer Notes editing te
 
 - **Fetching rules**: sequential browser reading; 10 s interval every 2 requests (frequency controlled per user request).
 - **Merge method**: Plan B — official data is increment-merged into existing nanoka character files without replacing original data; SU Blessing Paths merged into SRR Blessing files (Wiki takes priority over ID-segment inference).
+- **⚠️ Source withdrawal (2026-10-02 · W-4.6-19)**: that wiki's entries declare "no reproduction" (禁止轉載), which binds its **wording**. The library has therefore **withdrawn** the task descriptions and verbatim dialogue copied from it, keeping only factual fields (region / type / level / rewards / chapter structure).
+
+---
+
+## III-ter. Bilibili BWIKI (CC BY-NC-SA 4.0)
+
+- **License**: the site states its content is provided under **CC BY-NC-SA 4.0**. Use fulfils three obligations: **Attribution (BY)** — source and licence noted in each file header; **NonCommercial (NC)** — this library is free and non-commercial; **ShareAlike (SA)** — derivatives of its original expression must be shared under the same licence.
+- **Boilerplate cleanup (2026-10-02 · W-4.6-19)**: site boilerplate carried in by scraping (site intro, chat-group id, view counts, navigation widgets) has been **fully removed** and is never used as attribution.
 
 ---
 
