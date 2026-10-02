@@ -3,6 +3,18 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-02
 
+## 2026-10-02 20:00
+
+**W-4.6-24 结项：数据区文件时间戳落地（30,018 个 `.md`）+ 仓库回到可控状态**
+
+- **用户口径（选项④）**：**只给数据文件加时间戳**——`zh_cn/` + `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` 及各自 `quest/剧情文本/`；`docs/`、`wiki/`、根文档**一律不加**。
+- **第 1 步（Lead）· 备份还原**：从 `.tmp_build/stamp_backup/`（**38,330 文件**，stamp 前全量快照，**保留原始文件系统时间**）robocopy `/COPY:DAT /E /MT:8 /R:0` 还原 5 个语言目录 → 五目录 **exit=1**（无失败），**12.5s**；同时把 `docs/`、`wiki/`、`compliance-assessment/` 与 10 个根 `.md`（共 64 个）`git restore` 回 HEAD。还原后 `git status --porcelain` = **2 行**（仅 2 个未跟踪的 `docs/prompts/00_*.md`）→ **证明备份与 HEAD 内容逐字节一致**。
+- **第 3 步（豆包执行）· 盖时间戳**：新脚本 `.tmp_build/stamp_final.py`（`dry`/`stamp`/`touch`/`verify`，围栏感知、幂等、不认识的既有时间戳行保留不动）→ `stamp` **30,018/30,018**、0 error；`touch` 把线上 mtime 还原为真实值；`verify` **ok=30018 / bad=0**。
+- **Lead 独立复核（自述不作证据）**：抽样 **25/25 一致**（正文时间戳 == `os.stat` == 备份时间）；幂等复跑 `stamped=0 / unchanged=30018`；`git diff --shortstat` = **29,182 files changed, 58,364 insertions(+), 0 deletions(-)**（纯 2 行/文件）；`LICENSE` 零改动；非数据区修改数 **0**；PNG **0**；`verify_links` exit **0**；`verify_fields` exit **0** 且仍为 **156**（命途 4 / 星级 3 / 获得途径 149）。
+- **本轮暴露并闭环的 4 个缺陷**：①`scope_timestamps.py clean` 按行删除会**误删代码块示例行**（实证：上一轮 apply 把 `工单_4.6-24` §3.1 的示例改成实际时刻）→ 弃用，改 `git restore`（**D-032**）；②`stamp_times.py` 无围栏感知 → 新脚本已修；③此前「quest 836 个文件不在备份里」的说法**不成立**（实测备份含 168/167/167/167/167 = 836 个，**D-033** 更正）；④**沙箱 ACL 拒写**：数据目录对受限令牌拒写（robocopy `ERROR 5`），而 robocopy **未限重试**时按默认百万次静默重试 → 伪装成「卡死 20 分钟」；用 `diagnose-windows-sandbox-acl` 一次修复（`zh_cn` `writeOwner` false→true，`GRANTED=1`，回滚脚本在 `G:\dsh-acl-recovery-hsr\`）后恢复正常（**D-034**，并立纪律：批量文件操作一律显式 `/R:0 /W:0`）。
+- **口径落盘**：`docs/仓库结构.md` 新增 §七「文件时间戳口径」——含**语义限制**（文件系统时间 ≠ 内容首发时间、≠ git 提交时间）与**维护纪律**（`stamp_final.py` 绑定本轮备份，**内容改动后不得直接重跑**）；决策记录新增 **D-031～D-034**。
+- **⚠️ 仍未提交、未推送**：工作区 **29,184** 项改动（29,182 修改 + 2 未跟踪）全部待用户放行；**push 前必须补跑** `python wiki/build_wiki.py` + `python scripts/verify_links.py` + （`cd zh_cn`）`python ../scripts/verify_fields.py`。
+
 ## 2026-10-02 18:20
 
 **W-4.6-23：仓库结构整理（清理 361 MB + 规范落盘）**
