@@ -1,9 +1,9 @@
 # Virtual（虚拟物品）索引
 
 > 所属：物品 / Virtual（虚拟物品）/ Virtual（虚拟物品）
-> 条目数量：45
+> 条目数量：46
 > 创建时间：2026-08-30 12:14
-> 更新时间：2026-08-30 22:19
+> 更新时间：2026-10-02 22:46
 
 [[zh_cn/items/Virtual/Virtual_索引|返回Virtual索引]] · [[zh_cn/items/物品总索引|返回物品总索引]]
 
@@ -11,7 +11,7 @@
 
 ## 评级索引
 
-- ★★★★★（3）
+- ★★★★★（4）
 - ★★★★（5）
 - ★★★（37）
 
@@ -24,6 +24,7 @@
 - [[zh_cn/items/Virtual/Virtual/古老梦华|古老梦华]]（ID: 3）
 - [[zh_cn/items/Virtual/Virtual/开拓进行时|开拓进行时]]（ID: 24）
 - [[zh_cn/items/Virtual/Virtual/星琼|星琼]]（ID: 1）
+- [[zh_cn/items/Virtual/Virtual/潮玩礼券|潮玩礼券]]（ID: 61）
 
 ### ★★★★
 

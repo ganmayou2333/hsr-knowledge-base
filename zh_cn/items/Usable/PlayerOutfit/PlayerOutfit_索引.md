@@ -1,9 +1,9 @@
 # PlayerOutfit（角色衣装）索引
 
 > 所属：物品 / Usable（可使用物品）/ PlayerOutfit（角色衣装）
-> 条目数量：15
+> 条目数量：16
 > 创建时间：2026-08-30 12:25
-> 更新时间：2026-08-30 21:54
+> 更新时间：2026-10-02 22:51
 
 [[zh_cn/items/Usable/Usable_索引|返回Usable索引]] · [[zh_cn/items/物品总索引|返回物品总索引]]
 
@@ -12,7 +12,7 @@
 ## 评级索引
 
 - ★★★★★（7）
-- ★★★★（8）
+- ★★★★（9）
 
 ---
 
@@ -38,4 +38,5 @@
 - [[zh_cn/items/Usable/PlayerOutfit/浣熊的谒者面具|浣熊的谒者面具]]（ID: 227008）
 - [[zh_cn/items/Usable/PlayerOutfit/狸狸眼镜|狸狸眼镜]]（ID: 227012）
 - [[zh_cn/items/Usable/PlayerOutfit/花花兔和火火菇|花花兔和火火菇]]（ID: 227006）
+- [[zh_cn/items/Usable/PlayerOutfit/孤狼墨镜|孤狼墨镜]]（ID: 227017）
 

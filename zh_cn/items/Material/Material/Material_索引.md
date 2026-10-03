@@ -1,9 +1,9 @@
 # Material（普通材料）索引
 
 > 所属：物品 / Material（材料）/ Material（普通材料）
-> 条目数量：65
+> 条目数量：67
 > 创建时间：2026-08-30 12:14
-> 更新时间：2026-08-30 21:54
+> 更新时间：2026-10-03 12:49
 
 [[zh_cn/items/Material/Material_索引|返回Material索引]] · [[zh_cn/items/物品总索引|返回物品总索引]]
 
@@ -11,10 +11,11 @@
 
 ## 评级索引
 
-- ★★★★★（26）
+- ★★★★★（27）
 - ★★★★（19）
 - ★★★（19）
 - ★（1）
+- 无评级（1）
 
 ---
 
@@ -48,6 +49,7 @@
 - [[zh_cn/items/Material/Material/遗器残骸|遗器残骸]]（ID: 235）
 - [[zh_cn/items/Material/Material/黄金的祝福|黄金的祝福]]（ID: 803）
 - [[zh_cn/items/Material/Material/黑塔债券|黑塔债券]]（ID: 503）
+- [[zh_cn/items/Material/Material/愿望星尘|愿望星尘]]（ID: 284）
 
 ### ★★★★
 
@@ -96,4 +98,8 @@
 ### ★
 
 - [[zh_cn/items/Material/Material/世界货币 ★★★|世界货币 ★★★]]（ID: 123001）
+
+### 无评级
+
+- [[zh_cn/items/Material/Material/纪念奖章|纪念奖章]]（ID: 无（官方未公开））
 
