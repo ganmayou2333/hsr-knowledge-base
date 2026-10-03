@@ -1,7 +1,96 @@
 # 更新日志（update）
 
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
-> 最近更新：2026-10-02
+> 最近更新：2026-10-03
+
+## 2026-10-03 14:30
+
+**MediaWiki 全量导入完成：正文页 6,668（zh_cn 全库）+ 瑞士风外观 + 一键启动脚本**
+
+- **全量导入**（Lead 出转换器与导入脚本，**执行由豆包完成**）：`zh_cn` 全库 **6,665** 个 `.md` → MediaWiki 正文页 **6,668**；分类成员逐类归位：**物品 3880 / 模拟宇宙 2169 / 光锥 205 / 剧情 173 / 角色 119 / 遗器 65 / 音乐 21 / 世界观 8 / 活动 8 / 货币战争 7 / 规则 5 / 敌人 4 / 关卡 3**。
+- **新增工具**：
+  - `.tmp_mediawiki/seed/md2mw.py` —— vault `.md` → MediaWiki wikitext（模板参数 + 标题/表格/列表/双链转换 + **同名标题去重**）
+  - `mediawiki-1.42.5/maintenance/dshImport.php` —— 单进程批量导入（走 PageUpdater API，6,665 页数分钟内完成；比逐页 `edit.php` 快两个数量级）
+  - `.tmp_mediawiki/start-mediawiki.cmd` —— **一键启动/停止/查状态**（`start-mediawiki.cmd [stop|status]`），内含临时目录设置
+  - `.tmp_mediawiki/seed/Common.css` → 已写入 `MediaWiki:Common.css`：**瑞士风**（Helvetica 栈 / 8px 栅格 / 全直角 / 细线 / 唯一瑞士红 `#E30613` / 禁阴影渐变）
+- **收尾清理（豆包执行，Lead 实测复核）**：17 个含 `{ } # < >` 的**非法标题**已净化并补导 → **残留 0**；隔离测试页 `分类测试页` 与陈旧 `Category:分类` 已删除 → **均为 0**。
+- **踩坑记录（供后续参考）**：① 1.42 已移除 `WikiPage::doEditContent()` 与 `PageUpdater::setSummary()`，需用 `setContent` + `saveRevision(CommentStoreComment)`；② `ContentHandler` 在该版本仍为全局类；③ PHP 双引号串里变量名后紧跟中文全角括号会被吞进变量名（需 `{$var}`）；④ `edit.php` 只读 stdin 且忽略无变化编辑。
+- 站点：`http://127.0.0.1:8788/`（管理员 `Admin`）｜ **未提交、未推送**；`.tmp_mediawiki/` 约 800 MB，删除即可完全清理。
+
+## 2026-10-03 14:20
+
+**MediaWiki 批量导入：音乐库 21 页 + 模板自动归类**
+
+- **新增转换器** `.tmp_mediawiki/seed/md2mw.py`（Lead 出稿，190 行）：把 vault 的 `zh_cn/*.md` 转成 MediaWiki wikitext —— 头部 `# 标题` → 页面标题；`> 数据来源/实体ID/数据版本/官方Wiki` → `{{实体}}` 参数（`> 创建时间/更新时间` 丢弃）；`## → ==`；markdown 表格 → MediaWiki 表格；列表/粗斜体/外链转换；`[[zh_cn/路径|显示]]` → `[[页面标题|显示]]`（未收录则降级为纯文本，避免满屏红链）。
+- **模板升级**：`Template:实体` 增加**自动归类**——`分类` 参数优先，否则按 `类型` 精确匹配（角色/光锥/物品/遗器/音乐/活动/敌人/关卡）；同时启用 **TemplateData** 扩展（原 `<templatedata>` 未启用扩展时会被当纯文本输出，其描述里的 `[[Category:…]]` 还会**泄漏成真实分类**）。
+- **导入结果（SQLite 权威口径）**：正文页 **25**（首页 + 音乐 20 专辑 + 音乐索引 + 真珠 + 潮玩礼券 + 1 隔离测试页）、模板 **1**；**`Category:音乐` 成员 = 21** ✓。
+- **渲染实测**：抽验 `失控`/`行于命途6`/`真珠` 均 **HTTP 200 且模板渲染生效**，实体ID 单元格分别为 `无（官方未公开）`/`22`/`1503`；`分类：音乐` 链接已生成。
+- **两处坑（已记录）**：① 模板改版后**已存在页面不会自动重建分类**，需重存或 `refreshLinks.php`；② `maintenance/edit.php` 对**内容无变化**的编辑会直接忽略（"no change was made"），故「重存同内容」不生效。
+- **残留（本地演示无碍）**：隔离测试页 `分类测试页` 与 1 条陈旧 `Category:分类` 待清理（1.42 无 `deletePage.php`，可在网页端用 Admin 删除）。
+- 站点：`http://127.0.0.1:8788/`；**未提交、未推送**。
+
+## 2026-10-03 14:15
+
+**本机 MediaWiki 实例已跑通（1.42.5 + PHP 8.3.35 + SQLite）＋ 建 `Template:实体` 通用信息框**
+
+- **成果**：站点 `http://127.0.0.1:8788/`（HTTP 200，标题「HSR知识库」，MediaWiki **1.42.5**）；`Template:实体` 通用实体信息框已建（2,943 B wikitext），并导入 **3 个样本页**（真珠 / 潮玩礼券 / 失控）——**模板渲染全部生效**，实体ID 单元格实测分别为 `1503` / `61` / `无（官方未公开）`。
+- **不装系统软件**：全部落在 `G:\HSR\.tmp_mediawiki\`（不入库）——PHP **8.3.35** 解压即用、MediaWiki **1.42.5 官方发行包**（含 `vendor/`）、数据库用 **SQLite**（PHP 自带 `pdo_sqlite`）、Web 用 `php -S`（无需 Apache/IIS）。
+- **通道踩坑**：`php.net` / `mediawiki.org` / `releases.wikimedia.org` 在 PowerShell 下报 SSL 失败 → 实为 **schannel 吊销检查**，`curl --ssl-no-revoke` 即通；GitHub 镜像 tag 的包**不含 `vendor/`**，故改用官方发行包。
+- **⚠️ 环境级缺陷与兼容层（重要）**：本机 PHP 的 **`is_writable()` 对任何路径恒返回 false**（连 PHP 自建目录、以及刚写入成功的文件都是 false），但真实写入完全正常。MediaWiki 多处依赖它 → 安装先后报「找不到可写临时目录 / 数据库只读 / 数据库文件不可写」。**处置**：新增 `dsh_compat.php`（`dsh_is_writable()` 用**真实写探测**），并在 MW 核心 **12 个文件 / 17 处**把 `is_writable(` 替换为 `dsh_is_writable(`；原件已备份至 `.tmp_mediawiki\compat_backup\`。**仅影响该演示实例，不动仓库数据。**
+- **端口**：用户原选 `8080`，但该端口被 **steamwebhelper（Steam）** 占用 → 改用 **`8788`**，并同步改 `LocalSettings.php` 的 `$wgServer`。
+- **建页工具坑**：`maintenance/edit.php` **只从 stdin 读正文**（多传文件参数会被忽略、存成空页）；改用 `cmd /c "... edit.php < file"` 输入重定向后正常。
+- **登录**：管理员账号 `Admin`（口令 `HsrAdmin2026!`，仅本机演示用）。
+- **未提交、未推送**；`.tmp_mediawiki\` 约 200 MB，删除即可完全清理（含一处对 MW 源码的本地补丁）。
+
+## 2026-10-03 13:15
+
+**① 主题切换升级为三态 ② wiki 详情页 URL 改用「实体ID」（用户拍板）**
+
+- **① 三态主题**（`wiki/assets/theme.js` 整文件重写）：循环 **跟随系统 → 亮色 → 暗色 → 跟随系统**；`跟随系统` 时**移除 `data-theme`**（交给 `@media (prefers-color-scheme)`），`亮色/暗色` 时设 `data-theme` 覆盖系统；**按钮文字显示「当前」主题**并同步 `aria-label` / `title`；`localStorage` 记忆（`file://` 下 try/catch 兜底）。`index.html` 与 `build_wiki.py` 注入的按钮**静态初始文字**改为「跟随系统」（无 JS 兜底）。
+- **② 详情页 URL 改用实体ID**（用户选定范围：**只改生成页 URL，`.md` 文件名一律不动**）。Lead 先实测前置条件：`zh_cn` 共 **6,665** 个 `.md`，其中**有数值实体ID 5,413**、非数值（无（官方未公开）等）**564**、无 ID 行 **688**；**同一目录内 ID 冲突 = 0**（跨类重复 446 个但分属不同目录，不冲突）→ 故「同目录内以 ID 替换文件名」安全。
+  - 实现（`build_wiki.py`）：新增 `SRC2KEY`（源路径 → 页面键；有数值 ID 则键 = `目录/<ID>`，否则保持原相对路径），`PAGE_SET` 取其值集；`resolve()` 末尾追加 `t = SRC2KEY.get(t, t)`，并在键冲突时**退回原名并告警**。
+  - **验收（Lead 亲自）**：`build_wiki` → 页 **6,665** / 链接 **9,878** / **dead 0**；`pages/character/欢愉/1503.html`（真珠）**已生成**、旧名 `真珠_冰_五星.html` **已消失**；`pages/items/Virtual/Virtual/61.html`（潮玩礼券）**已生成**；无 ID 的 `pages/音乐/场景OST/失控.html` **保留原名**；索引页链接已改指 `.../61.html`；首页 **13 条导航坏链 0**；`git status` 中**无任何 `zh_cn/` 改动**（只动生成器与生成物）。
+- **本地入口**：`file:///G:/HSR/wiki/index.html`（右上角按钮在「跟随系统 / 亮色 / 暗色」间循环）
+- **未提交、未推送**（按用户指示）。
+
+## 2026-10-03 12:55
+
+**① 暗色模式手动切换（全站生效） ② 「纪念奖章」建页（用户拍板）**
+
+- **① 主题切换**：新增 `wiki/assets/theme.js`（原生 JS，约 22 行，零外部依赖）；`style.css` 增 `:root[data-theme="light"|"dark"]` 显式主题块（手动选择优先于系统偏好）+ `.topbar`/`.theme-toggle` 样式（直角、细线、无阴影、不用红色）；`index.html` 与 **`build_wiki.py` 注入的每个页面**均含 `.topbar` 按钮 + `{up}assets/theme.js`；选择写入 `localStorage`（`file://` 下包 try/catch 兜底），**跨页记住**。
+- **Lead 实测捕获并修掉一个功能性缺陷**：首版按钮**没有任何点击绑定**（只定义了 `window.__toggleTheme` 却无人调用）→ 点了没反应。已把 `DOMContentLoaded` 回调改为**绑定 click 监听**（`wiki/assets/theme.js` L20-24），仅改这 1 个文件、未动 HTML 与生成器。
+- **② 「纪念奖章」**（用户拍板：建页，实体ID 写「无（官方未公开）」）：`zh_cn/items/Material/Material/纪念奖章.md` 已建，评级**如实写「待补充」**（不编造星级）；并**照 `Usable/Book` 索引的「无评级」先例**登记进 `Material_索引.md`（条目数量 **66 → 67**、`- 无评级（1）`、新增 `### 无评级` 分组 + 条目行）。
+- **回归（Lead 亲自）**：`build_wiki` → 页 **6,665**（+1＝纪念奖章）/ 链接 **9,878** / **dead 0**；`verify_fields` → **异常 0 / 已知待补充 156**；`style.css` 违规扫描（非零圆角 / 阴影 / 渐变 / em dash）**全部 0**；首页 **13 条**导航完整。
+- **本地入口**：`file:///G:/HSR/wiki/index.html`（右上角「暗色 / 亮色」按钮可切;）
+- **未提交、未推送**（按用户指示）。
+
+## 2026-10-03 12:35
+
+**wiki 样式重做：瑞士国际主义（Swiss / International Typographic Style）**
+
+- **范围**：仅 `wiki/assets/style.css`（64 增 / 34 删）；`wiki/index.html` 仅排版微调，**13 条导航链接全部保留**（逐条实测）。
+- **方法**：Lead 加载设计 skill（`design-taste-frontend`）并转成**可执行规范**下发给执行方（含 Design Read、三档 dials `VARIANCE 5 / MOTION 1 / DENSITY 5`、类契约、验收标准）。
+- **落地要点**：单一无衬线栈 `"Helvetica Neue",Helvetica,Arial,"Noto Sans SC","PingFang SC"`；**左对齐右不齐**；**8px 间距栅格**；**固定字号阶梯** 40/26/19/16/14/13；**近单色 + 唯一强调色 瑞士红 `#E30613`**（暗色下 `#FF3B30`）；**全站直角（`border-radius:0`）**；表格细线 + `tabular-nums`；引用用 3px **黑**线（红只留给链接/标记）；`a:focus-visible` 2px 红框；`prefers-reduced-motion` 兜底；**暗色主题保留**。
+- **验收（Lead 亲自实测）**：违规扫描 `border-radius:[1-9]` / `—`(em dash) / `box-shadow` / `gradient` / `backdrop-filter` / `text-align:justify` **全部 0 命中**；**16 项类/特性契约全部存在**；`python wiki/build_wiki.py` → 页 **6,664** / 链接 **9,877** / **dead 0**；首页 13 条导航逐条可达。
+- **本地入口**：`file:///G:/HSR/wiki/index.html`
+- **未动**：`wiki/build_wiki.py`（其中 `M` 为 Lead 早前 **D-041** 动态类别修复，非本次执行方改动）、任何 `.md`、`zh_cn/` 数据；**无新增图片/外部依赖（离线可用）**。
+
+## 2026-10-03 12:20
+
+**目标「4.6 补全 + 音乐专辑全量收集」收工（轮次 1–12，Lead 全程实测复核）**
+
+> 用户目标：`将4.6版本补全并将所有音乐名字专辑也做收集`（goal `goal-0ae3122a…`）
+> 台账：`docs/prompts/目标_4.6补全与音乐收集.md`（逐轮实测记录）
+
+- **音乐库新建（规范 v1.15 §十八）**：`zh_cn/音乐/` 建成 **21 文件 = 20 张专辑 + 主索引**，分「场景OST 13 / PV专辑 6 / 角色与动画短片EP 1」。全部专辑**官方中文名经 Lead 独立复核**（百度百科 + 酷我/网易云/QQ音乐官方专辑页 + 官方新闻）；并**补入漏项**《神说要有笑（中篇）》（官方新闻 165244）。
+- **曲目全量收集**：**618 首**，其中 **614 首**为「中文名（English Title）」双写；**1 首**（行于命途2 第 22 首）官方中文名未取得并**如实注明**；另 3 首为纯中文名或器乐版英文名（非缺失）。
+- **曲名对账工具（新）**：`.tmp_build/verify_tracknames.py` —— 以 SRR `sub_type=MusicAlbum`（cn 272 / en 266，按 id 配对 266 条）做**零联网官方对账**；可校验 **232** 首 → **一致 232 / 不一致 0**。该工具**查出并修正 4 处真错误**（《神说要有笑（中篇）》「英雄集合」→ 官方「**英雄集结**」；《长生梦短》「蝉喓歌**：**…」3 处 → 官方「蝉喓歌**·**…」，脚本 `fix_tracknames.py`）。
+- **4.6 补全**：① **`zh_cn/enemies/` 敌人库建成**（4 文件：主索引 + `首领/首领.md` + 「堕神之血•亚婆离」「狂兽的胚芽」，技能如实留「待补充」）；② **「巡星之礼」入 `events/`**（活动索引 5→6）；③ **道具 3 个**：「潮玩礼券」（ID 61）、「愿望星尘」（ID 284）、「孤狼墨镜」（ID 227017，`Usable/PlayerOutfit` → **确认无需新建「时装」类别**），均已登记进叶子索引；④ **4.6 对账**逐类完成（角色/光锥/遗器/活动/关卡/敌人/剧情），纠正执行方 3 处误报。
+- **工具链修复（重要）**：`build_wiki.py` 顶层类别白名单**硬编码**导致新增类别后 **dead = 9** → 改为**动态推导**（**D-041**），修复后 **dead 0**；`verify_fields.py` 扩展纳入 `音乐`/`enemies` 类别（**D-041 遗留关闭**），并据此**两次捕获执行方「整文件重写丢节」回归**（**D-042**）。
+- **最终校验（Lead 亲自）**：`verify_fields` **异常 0 / 已知待补充 156**；`build_wiki` 页 **6,664** / 链接 **9,877** / **dead 0**；`verify_links` exit 0；音乐时间戳不变式 **21/21**；图片 **0**。
+- **仍未闭合（如实登记）**：① 「纪念奖章」SRR 无收录（4,073 条查无）→ 待用户定是否以「实体ID：无（官方未公开）」建页；② 音乐**四语言镜像**缺官方日/韩/繁专辑名（按 **D-028** 不建机翻）；③ 7 处 4.6 真缺口中的「云边拾暖」「月待花时」（SRR 未收录）、异相仲裁玩法页（官方未给机制）。
+- **⚠️ 未提交、未推送**：工作区 **27 项**改动（`zh_cn/音乐/`、`zh_cn/enemies/`、4 个 `zh_tw` 目录、文档若干），等用户放行；**push 前必须**跑 `wiki/build_wiki.py` + `scripts/verify_links.py` + (`cd zh_cn`) `scripts/verify_fields.py`。
+- **修复：`wiki/index.html` 首页导航全部坏链（Lead 实测发现）**：该文件是**静态手写**（不被 `build_wiki.py` 重生成），其 `href` 一律写成 `pages/zh_cn/<类>/…`，而生成器实际产出在 **`wiki/pages/<类>/…`（无 `zh_cn/` 前缀）** → **14 条导航链接自建立起全部打不开**。已改回 `pages/<类>/…`，并**补入新类别入口**（`音乐`、`敌人`、`规则`、`货币战争`、`世界观`），页数说明刷新为 **6664**；改后逐条 `Test-Path` 复核 **坏链接 0**。本地入口：`file:///G:/HSR/wiki/index.html`
 
 ## 2026-10-02 20:00
 
