@@ -1,0 +1,38 @@
+<includeonly><table class="dsh-infobox" style="float:right;clear:right;width:22em;margin:0 0 1em 1em;border:1px solid #d8d8d8;border-collapse:collapse;font-size:90%;line-height:1.6;background:#ffffff;">
+<tr><th colspan="2" style="background:#111111;color:#ffffff;text-align:left;padding:8px 10px;font-size:105%;font-weight:700;">{{{名称|{{PAGENAME}}}}}</th></tr>
+{{#if:{{{英文名|}}}|<tr><th style="width:6em;text-align:left;padding:6px 10px;border-top:1px solid #d8d8d8;color:#6b6b6b;font-weight:400;">英文名</th><td style="padding:6px 10px;border-top:1px solid #d8d8d8;">{{{英文名}}}</td></tr>}}
+{{#if:{{{类型|}}}|<tr><th style="width:6em;text-align:left;padding:6px 10px;border-top:1px solid #d8d8d8;color:#6b6b6b;font-weight:400;">类型</th><td style="padding:6px 10px;border-top:1px solid #d8d8d8;">{{{类型}}}</td></tr>}}
+{{#if:{{{实体ID|}}}|<tr><th style="width:6em;text-align:left;padding:6px 10px;border-top:1px solid #d8d8d8;color:#6b6b6b;font-weight:400;">实体ID</th><td style="padding:6px 10px;border-top:1px solid #d8d8d8;font-variant-numeric:tabular-nums;">{{{实体ID}}}</td></tr>}}
+{{#if:{{{数据版本|}}}|<tr><th style="width:6em;text-align:left;padding:6px 10px;border-top:1px solid #d8d8d8;color:#6b6b6b;font-weight:400;">数据版本</th><td style="padding:6px 10px;border-top:1px solid #d8d8d8;">{{{数据版本}}}</td></tr>}}
+{{#if:{{{所属|}}}|<tr><th style="width:6em;text-align:left;padding:6px 10px;border-top:1px solid #d8d8d8;color:#6b6b6b;font-weight:400;">所属</th><td style="padding:6px 10px;border-top:1px solid #d8d8d8;">{{{所属}}}</td></tr>}}
+{{#if:{{{数据来源|}}}|<tr><th style="width:6em;text-align:left;padding:6px 10px;border-top:1px solid #d8d8d8;color:#6b6b6b;font-weight:400;">数据来源</th><td style="padding:6px 10px;border-top:1px solid #d8d8d8;word-break:break-all;">{{{数据来源}}}</td></tr>}}
+{{#if:{{{自定义|}}}|<tr><td colspan="2" style="padding:8px 10px;border-top:2px solid #e30613;">{{{自定义}}}</td></tr>}}
+</table><div style="clear:both"></div>{{#if:{{{分类|}}}|[[Category:{{{分类}}}]]|{{#switch:{{{类型|}}}
+|角色=[[Category:角色]]
+|光锥=[[Category:光锥]]
+|物品=[[Category:物品]]
+|遗器=[[Category:遗器]]
+|原声带=[[Category:音乐]]
+|音乐=[[Category:音乐]]
+|活动=[[Category:活动]]
+|敌人=[[Category:敌人]]
+|关卡=[[Category:关卡]]
+|#default=}}}}<templatedata>
+{
+  "description": "通用实体信息框：适用于角色/光锥/物品/遗器/活动/敌人/关卡/音乐专辑等所有实体页。",
+  "params": {
+    "名称":      { "label": "名称",     "type": "string", "required": false, "description": "实体名称，缺省取页面名" },
+    "英文名":    { "label": "英文名",   "type": "string", "required": false },
+    "类型":      { "label": "类型",     "type": "string", "required": false, "description": "如：角色 / 光锥 / 物品 / 音乐专辑" },
+    "实体ID":    { "label": "实体ID",   "type": "string", "required": false, "description": "官方 ID；官方未公开时写「无（官方未公开）」" },
+    "数据版本":  { "label": "数据版本", "type": "string", "required": false, "description": "如 4.6" },
+    "所属":      { "label": "所属",     "type": "string", "required": false, "description": "如：命途 / 大分类 / 版本" },
+    "数据来源":  { "label": "数据来源", "type": "string", "required": false, "description": "官方链接" },
+    "分类":      { "label": "分类",     "type": "string", "required": false, "description": "自动归类：填了即归入该分类；未填则按「类型」精确匹配常见值（角色/光锥/物品/遗器/音乐/活动/敌人/关卡）" },
+    "自定义":    { "label": "自定义行", "type": "content", "required": false, "description": "任意补充内容（支持 wikitext）" }
+  },
+  "format": "block"
+}
+</templatedata></includeonly><noinclude>
+本模板的说明见 [[Template:实体/doc]]。
+</noinclude>

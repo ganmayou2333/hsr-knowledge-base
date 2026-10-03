@@ -38,6 +38,9 @@ def classify(path):
         if '/区块/' in path:   return 'block'
         if '/差分宇宙/' in path: return 'diff'
         return 'simulated_other'
+    # D-041 补：新增类别纳入校验（音乐 / 敌人）
+    if path.startswith('音乐/'):      return 'music'
+    if path.startswith('enemies/'):   return 'enemies'
     return 'other'
 
 def parse_basic_table(txt):
@@ -115,6 +118,22 @@ REQUIRE = {
         'sections': [],
         'optional_basic': ['命途', '星级'],
     },
+    # D-041 补：新类别规则（依据 格式规范与要求.md §十八 音乐库 / §十六 敌人库）
+    'music': {
+        'meta': ['数据来源', '数据版本', '实体ID'],
+        'basic': ['专辑名', '英文名', '类型', '发行日期'],
+        'sections': ['## 基本信息', '## 曲目', '## 关联条目'],
+        'optional_basic': ['日文名', '韩文名', '繁体名'],
+        'optional_sections': ['## 曲目'],  # 曲目列表未取得属已知（登记待补充）
+        'index': '音乐.md',                # 主索引文件，不参与详情字段校验
+    },
+    'enemies': {
+        'meta': ['数据来源', '数据版本', '实体ID'],
+        'basic': ['名称', '英文名', '类型'],
+        'sections': ['## 基本信息', '## 关联条目'],
+        'optional_sections': ['## 技能与机制'],  # 官方未公开属已知
+        'index': '敌人.md',                      # 主索引文件（文件名与类别目录名不同，须显式声明）
+    },
 }
 
 files = walk_md()
@@ -128,11 +147,18 @@ for f in files:
     meta = get_meta(txt)
     if '实体ID' not in meta:
         continue  # 索引/知识库文件
+    # 索引文件（文件名 == 上级目录名，如 音乐/音乐.md、enemies/首领/首领.md）不参与详情字段校验
+    _parts = f.replace('\\', '/').rstrip('/').split('/')
+    if len(_parts) >= 2 and _parts[-1][:-3] == _parts[-2]:
+        continue
     total_detail += 1
     cat = classify(f)
     rule = REQUIRE.get(cat)
     if not rule:
         continue  # 根目录文档 / 未定义分类，不参与字段校验
+    # 类别主索引文件（如 音乐/音乐.md、enemies/敌人.md）不参与详情字段校验
+    if rule.get('index') and f.endswith('/' + rule['index']):
+        continue
     # 1. 元信息
     for k in rule['meta']:
         if k not in meta:
