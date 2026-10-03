@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       li.setAttribute('role','option');
       li.setAttribute('aria-selected','false');
       const cat = h.t.category ? ' <span class="stat">'+h.t.category+'</span>' : '';
-      li.innerHTML = `<a href="pages/${h.t.path}">${h.t.title}</a>${cat}`;
+      li.innerHTML = `<a href="pages/${h.t.path}">${esc(h.t.title)}</a>${cat}`;
       liNodes.push(li);
       res.appendChild(li);
     });

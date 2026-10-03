@@ -258,14 +258,19 @@ def main():
     PAGE_SET = set(SRC2KEY.values())
     titles = []
     for idx, (p, rel) in enumerate(rel_paths):
-        md = p.read_text(encoding="utf-8", errors="ignore")
+        md = p.read_text(encoding="utf-8", errors="ignore").lstrip("\ufeff")
         meta, body = parse_meta(md)
-        title = md.split("\n",1)[0].lstrip("# ").strip() or rel
+        _first = md.split("\n", 1)[0].strip()
+        if _first.startswith("# "):
+            title = _first[2:].strip()
+        else:
+            # 首行不是 H1（如 quest/剧情文本 下的 `> 来源：…`）→ 退回文件名，去掉尾部 _数字
+            title = re.sub(r"_\d+$", "", rel.split("/")[-1]) or rel
         body = re.sub(r"^#\s+.*\n", "", body, count=1)
         parts = rel.split("/")
         depth = len(parts)
         up = "../" * depth
-        crumbs = '<a href="'+up+'index.html">首页</a>'
+        crumbs = '<a href="'+up+'index.html">首页</a> / '
         crumbs += " / ".join(f"<span>{esc(x)}</span>" for x in parts[:-1])
         crumbs += f" / <strong>{esc(parts[-1])}</strong>"
         prev_nxt = ""
@@ -288,6 +293,7 @@ def main():
 <nav class="crumbs">{crumbs}</nav>
 {sidenav}
 <main>
+<h1>{esc(title)}</h1>
 {icon_html}
 <div class="prose">
 {md_to_html(body, depth, rel)}
