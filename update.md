@@ -3,6 +3,26 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-03
 
+## 2026-10-03 15:05
+
+**公开前必修两项完成：死链优雅降级 + 图标脚本编码兼容（W-4.6-59）**
+
+- **触发**：为「GitHub Pages 公开」做**忠实本地 CI 模拟**（`git worktree` 取纯净检出，只给 CI 会给的东西）。**模拟立刻抓到 2 个真问题**——这正是本地完整库永远看不出来的：
+  1. **纯净检出构建 = 6,497 页 / 34 条死链**（本地完整库是 6,665 页 / 0 死链）。根因：`zh_cn/quest/剧情文本/` 的 **168 个文件**按合规处置（D-020）**本就不入库**的（`.gitignore` 的 `*/quest/剧情文本/`），CI 里那 34 条「主线任务 → 剧情文本」链接全部指向不存在的页面。
+  2. **`copy_icons.py` 在本机崩溃**：`UnicodeEncodeError: 'gbk' codec can't encode '\u2022'` → **exit 1**（CI 的 Ubuntu 是 UTF-8 不受影响，但 Windows 构建必挂，属可移植性 bug）。
+- **用户拍板**：剧情文本**不入库**，改为**链接优雅降级**。（线上步骤维持「先不开」。）
+- **处置与实测**：
+  | 改动 | 内容 |
+  |---|---|
+  | `wiki/build_wiki.py` | `md_link` / `wikilink`：目标**不在 `PAGE_SET`** 时**不再输出 `<a class="dead">`**，改输出 **`<span class="missing">`** |
+  | `wiki/assets/style.css` | 新增 `.missing{color:var(--muted)}`（克制的降级提示） |
+  | `wiki/copy_icons.py` | 补 `sys.stdout/stderr.reconfigure(encoding="utf-8", errors="replace")`，消除 GBK 控制台崩溃 |
+- **验收（Lead 亲自跑，两个环境都验）**：
+  - **纯净检出（=CI）**：`copy_icons` **exit 0**；`build_wiki` → **6,497 页 / 9,842 链接 / dead 0**（原 9,876 / 34）；`dead_list` 空；页内实测已是 `<span class="missing">完整剧情文本</span>`，**无 `class="dead"`**。
+  - **本地完整库回归**：页 **6,665** / 链接 **9,878** / **dead 0**；`verify_links` **exit 0**；`verify_fields` **异常 0**。
+- **纪律新增（D-044）**：**发布用构建必须在「纯净检出」里验收**——本地完整库含 gitignore 依赖，会**掩盖 CI 缺陷**。
+- **决策记录补齐**：新登记 **D-043**（MediaWiki 演示实例 + `is_writable` 兼容层，此前只在 `update.md`/`Common.css` 引用、决策记录缺失，属 Lead 自我纠错）与 **D-044**（死链降级 + 纯净检出验收纪律）。
+
 ## 2026-10-03 14:46
 
 **本批变更已分组提交并推送至远端**
