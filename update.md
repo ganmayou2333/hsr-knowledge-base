@@ -3,6 +3,26 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-03
 
+## 2026-10-03 17:40
+
+**W-4.6-67 前端质量加固（Codex 执行）+ 复核中新发现并修复 1 个线上 bug（W-4.6-68）**
+
+- **Codex 交付（Lead 逐项实测复核，非采信自述）**：
+  | 项 | 实测 |
+  |---|---|
+  | `tools/verify_site.py` | **新建 10,572 B**；我亲自跑 → `RESULT: PASS`、**exit 0**；6 项数字全部可读（[1] H1 6668/6668 · [2] 面包屑 6668/6668 · [3] titles.js 6668 条/BOM 0 · [4] 死链 report=0 独立复算=0 一致 · [5] 禁用项 6 项全 0 · [6] esc/combobox/listbox 全 True） |
+  | 搜索体验 | `?q=`/`#q=` 深链、`history.replaceState`（**含 try/catch，`file://` 安全**）、`pageshow` 恢复、空态与「还有 N 条」**移出 listbox**（`#results` 直接子元素只剩 `role="option"`） |
+  | 性能 | 索引惰性化（首次 `input` 才构建）+ `titles.js`/`app.js` 加 `defer`（`link_report.js` 保持同步，因内联死链横幅依赖它） |
+  | 可读性 | `style.css` 仅追加 3 条（sticky 表头 / `[id]{scroll-margin-top}` / `forced-colors`） |
+  | 边界 | `git diff --name-only -- zh_cn en_us zh_tw ja_jp ko_kr LICENSE` **为空** ✅ |
+- **复核中新发现的真 bug（W-4.6-68，已修）**：`titles.js` 里 **4 条 path 含 `#`**（如 `simulated/事件/天才俱乐部#55余清涂.html`），而搜索结果此前用**未编码**的 `pages/${path}` → `#` 被当锚点**截断**。
+  * **线上实测（修复前）**：编码后 **200** / 截断后 **404**（3 条样本全部如此）→ 用户搜到这类条目点进去就是 404。
+  * **修复**：`app.js` 改为**按路径段编码** `'pages/' + h.t.path.split('/').map(encodeURIComponent).join('/')`。
+  * **等价性证明**：对全部 **6,668** 条 path，新口径与生成器 `urlq()`（`quote(path, safe="/")`）**逐条一致（0 处不符）**；4 条含 `#` 的路径用新口径编码后线上**全部 200**。
+  * **护栏**：`verify_site.py` 新增 **[7] 搜索链接编码**（统计含保留字符的 path 数 + 静态断言 `app.js` 必须按段 `encodeURIComponent`），我亲跑 **[7] 通过**。
+- **回归**：`build_wiki` 页 **6,668** / 链接 **96,564** / **dead 0**；`verify_links` exit 0；`verify_fields` 异常 0；`verify_site` **PASS**。
+- **Codex 主动申报的 3 处口径/降级**（Lead 认可）：① `[5]` 的 `<img>` 只统计**非图标**（图标 1,602 个由 CI 生成、工单已排除），并单独打印数量不隐藏；② `table thead th{sticky}` **当前不生效**——生成器输出 `<table><tr><th>` **无 `<thead>`**（实测 9,123 个表格、0 个含 `<thead>`），按最小改动未改 DOM；③ `verify_links.py` 打印的 57 条「死链」全部来自 `docs/` 与 `.tmp_*/` 里的**示例文本** `[[xxx]]` 等，与 wiki 数据无关（wiki 构建自身 dead 0）。
+
 ## 2026-10-03 17:25
 
 **修复 4 个线上 bug（W-4.6-66）—— 全部由 Lead 在线上实测复现后定位**
