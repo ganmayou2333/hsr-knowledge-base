@@ -275,6 +275,39 @@ def check_search_links():
         fail(7, "app.js 缺少 encodeURIComponent 按段编码写法")
 
 
+# ---------------- [8] 未收录链接（明示降级，不再静默） ----------------
+def check_missing_links(files):
+    report = None
+    if LINK_REPORT.exists():
+        try:
+            report = json.loads(read(LINK_REPORT)).get("missing")
+        except Exception as e:
+            print("[8] 未收录链接: link_report.json 解析失败 %r" % e)
+    if report is None:
+        print("[8] 未收录链接: link_report.json 缺 missing 字段（生成器疑似退回旧版）")
+        fail(8, "link_report.json 缺 missing 字段")
+        return
+    hits = 0
+    samples = []
+    for f in files:
+        content = read(f)
+        for m in re.finditer(r'<span class="missing"', content):
+            hits += 1
+            if len(samples) < 5:
+                seg = content[m.start():m.start()+90]
+                txt = re.sub(r"<[^>]+>", "", seg.split(">", 1)[-1])[:40]
+                samples.append((f, txt))
+    consistent = (report == hits)
+    print("[8] 未收录链接: report=%d, 独立复算=%d (一致=%s)"
+          % (report, hits, consistent))
+    if hits > 0:
+        print("      未收录 %d 处（合规未入库内容，属预期，不算失败）。样例：" % hits)
+        for f, txt in samples:
+            print("      ! %s — %s" % (rel(f), txt))
+    if not consistent:
+        fail(8, "report missing=%d 与独立复算 %d 不一致" % (report, hits))
+
+
 def main():
     print("=== 静态站回归自检（W-4.6-67） ===")
     print("root: %s" % ROOT)
@@ -292,6 +325,7 @@ def main():
     check_banned(files)
     check_search()
     check_search_links()
+    check_missing_links(files)
     if fails:
         print("RESULT: FAIL  失败项 %d：" % len(fails))
         for f in fails:

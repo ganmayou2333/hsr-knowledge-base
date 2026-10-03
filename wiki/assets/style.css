@@ -122,3 +122,6 @@ table thead th{position:sticky;top:0;background:var(--soft)}
 @media (forced-colors: active){
   .cat,.sidenav,table,th,td{border:1px solid}
 }
+/* 未收录（降级为纯文本）：用 muted 灰，不用强调红（红是链接色，用了会诱导点击） */
+.missing{color:var(--muted)}
+.missing-note{margin-left:.35em;font-size:.85em;color:var(--muted);border:1px solid var(--line);padding:0 4px}

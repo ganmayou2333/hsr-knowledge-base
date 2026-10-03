@@ -102,7 +102,8 @@ def convert_inline(text, depth, current_rel=""):
         if t not in PAGE_SET:
             # 目标不在本次构建范围内（如按合规决定不入库的 quest/剧情文本/）
             # → 降级为纯文本，避免在 CI/公开站产生死链（W-4.6-59）
-            return f'<span class="missing">{esc(disp)}</span>'
+            return (f'<span class="missing" title="本站未收录该页面">'
+                    f'{esc(disp)}<span class="missing-note">（本站未收录）</span></span>')
         return f'<a href="{up}pages/{urlq(t)}.html">{esc(disp)}</a>'
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", md_link, text)
 
@@ -117,7 +118,8 @@ def convert_inline(text, depth, current_rel=""):
             return f"<span>{esc(disp)}</span>"
         target = resolve(target)
         if target not in PAGE_SET:
-            return f'<span class="missing">{esc(disp)}</span>'
+            return (f'<span class="missing" title="本站未收录该页面">'
+                    f'{esc(disp)}<span class="missing-note">（本站未收录）</span></span>')
         return f'<a href="{up}pages/{urlq(target)}.html">{esc(disp)}</a>'
     text = re.sub(r"\[\[[^\]]+\]\]", wikilink, text)
 
@@ -311,7 +313,7 @@ def main():
         titles.append({"path": key+".html", "title": title, "category": parts[0] if len(parts)>1 else "", "lang":"zh_cn"})
 
     # 死链统计
-    link_report = {"total":0, "dead":0, "dead_list":[]}
+    link_report = {"total":0, "dead":0, "missing":0, "dead_list":[], "missing_list":[]}
     for htmlf in PAGES.rglob("*.html"):
         rel = str(htmlf.relative_to(PAGES)).replace(os.sep,"/")
         content = htmlf.read_text(encoding="utf-8")
@@ -321,12 +323,17 @@ def main():
             if m.group(2):
                 link_report["dead"] += 1
                 link_report["dead_list"].append({"source": rel, "target": target_decoded, "text": m.group(3)})
+        for m in re.finditer(r'<span class="missing"[^>]*>([^<]*)', content):
+            link_report["missing"] += 1
+            if len(link_report["missing_list"]) < 100:
+                link_report["missing_list"].append({"source": rel, "text": m.group(1)})
 
     (DATA/"titles.js").write_text("window.TITLES = "+json.dumps(titles,ensure_ascii=False)+";", encoding="utf-8")
     (DATA/"link_report.json").write_text(json.dumps(link_report,ensure_ascii=False,indent=2), encoding="utf-8")
     (DATA/"link_report.js").write_text("window.LINK_REPORT = "+json.dumps(link_report,ensure_ascii=False)+";", encoding="utf-8")
     print(f"生成页面: {len(rel_paths)}")
     print(f"总链接: {link_report['total']}, 死链: {link_report['dead']}")
+    print(f"未收录(降级为纯文本): {link_report['missing']} 处")
 
 if __name__ == "__main__":
     main()
