@@ -3,6 +3,23 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-03
 
+## 2026-10-03 15:35
+
+**仓库已转公开 + GitHub Wiki 8 页上线 + git 全历史安全扫描（干净）**
+
+- **用户侧动作（Lead 实测核验，非采信自述）**：①仓库已 **Public**（未授权 API `private=False`、`has_wiki=True`）；②**Wiki 已创建**（`…hsr-knowledge-base.wiki.git` 可达），但 **`has_pages=False` → Pages 尚未开启**。
+- **Wiki 8 页已批量推送并公开渲染**：远端 `refs/heads/master = a8aea6f7`；页面清单实测含 `Home.md` `_Sidebar.md` `项目简介.md` `许可与合规.md` `数据来源.md` `贡献指南.md` `更新日志.md` `路线图与待补.md`；公开页 `https://github.com/ganmayou2333/hsr-knowledge-base/wiki` **HTTP 200**，正文实测含「中文数据知识库」「30,070」「贡献指南」（侧边栏生效）。
+- **推送踩坑（已解）**：首次 push 被拒 `push declined due to email privacy restrictions`——**全局** `user.email` 是私人邮箱，而主仓库用的是**本地** config 的 noreply 地址。处置：**只给 wiki 克隆**设 `186293913+ganmayou2333@users.noreply.github.com` 并 `--amend --reset-author`（**未改动全局配置**）→ 推送成功。
+- **git 全历史安全扫描（Lead 亲自跑，脚本已入仓 `tools/git-history-scan.ps1`）**：
+  | 项 | 结果 |
+  |---|---|
+  | 规模 | `.git` **73 MB**、提交 **110**、blob **89,130** |
+  | 大文件（>1 MB） | **仅 1 个**：`.tmp_items_full.json`（1.31 MB），且**已不在 HEAD** |
+  | 机密特征串（GitHub token / AWS key / sk- / 私钥 / Slack） | **全部无命中** ✅ |
+  | 敏感路径（`.env`/`id_rsa`/`.pem`/`credential`/`.npmrc`） | **均未出现过** ✅ |
+  | **历史作者邮箱** | **只有** `186293913+ganmayou2333@users.noreply.github.com` ✅ — **私人邮箱未入历史** |
+- **结论**：公开历史**无泄密风险**；唯一待办是 **Pages 尚未开启**（Settings → Pages → Source = GitHub Actions）。
+
 ## 2026-10-03 15:20
 
 **GitHub Wiki 可行性：实测结论「全库镜像不可行」+ 策展入口大纲**
