@@ -62,9 +62,11 @@ def convert_inline(text, depth, current_rel=""):
         if href_raw.startswith("http"):
             return f'<a href="{esc(href_raw)}">{esc(disp)}</a>'
         t = resolve(href_raw)
-        exists = t in PAGE_SET
-        cls = ' class="dead"' if not exists else ""
-        return f'<a href="{up}pages/{urlq(t)}.html"{cls}>{esc(disp)}</a>'
+        if t not in PAGE_SET:
+            # 目标不在本次构建范围内（如按合规决定不入库的 quest/剧情文本/）
+            # → 降级为纯文本，避免在 CI/公开站产生死链（W-4.6-59）
+            return f'<span class="missing">{esc(disp)}</span>'
+        return f'<a href="{up}pages/{urlq(t)}.html">{esc(disp)}</a>'
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", md_link, text)
 
     # ---- 双链 [[a|b]] ----
@@ -77,9 +79,9 @@ def convert_inline(text, depth, current_rel=""):
         if not target:
             return f"<span>{esc(disp)}</span>"
         target = resolve(target)
-        exists = target in PAGE_SET
-        cls = ' class="dead"' if not exists else ""
-        return f'<a href="{up}pages/{urlq(target)}.html"{cls}>{esc(disp)}</a>'
+        if target not in PAGE_SET:
+            return f'<span class="missing">{esc(disp)}</span>'
+        return f'<a href="{up}pages/{urlq(target)}.html">{esc(disp)}</a>'
     text = re.sub(r"\[\[[^\]]+\]\]", wikilink, text)
 
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)

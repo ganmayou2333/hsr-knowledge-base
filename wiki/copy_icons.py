@@ -5,7 +5,15 @@ copy_icons.py — 只复制 KB 实际用到的 SRR 图标到 wiki/assets/icons/
 用法：python wiki/copy_icons.py
 零依赖。
 """
-import os, re, shutil, pathlib
+import os, re, shutil, pathlib, sys
+
+# 控制台编码兜底：Windows 默认 GBK 会让含 • / 全角字符的 print 抛
+# UnicodeEncodeError 并导致 exit 1（W-4.6-59）
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 # SRR 源：本地 master，或 CI 克隆到 .srr

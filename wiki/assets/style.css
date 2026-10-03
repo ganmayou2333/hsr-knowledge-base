@@ -80,3 +80,4 @@ a.dead{color:var(--dead);text-decoration:line-through}
 @media (prefers-reduced-motion: reduce){
   *{transition:none!important;animation:none!important}
 }
+.missing{color:var(--muted)}
