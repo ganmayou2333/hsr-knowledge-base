@@ -29,6 +29,43 @@ def urlq(path):
     修复 D-030：库内存在含 “ ” 的文件名（线索信息·“香味”.md），未编码时浏览器请求会破链。"""
     return urllib.parse.quote(path, safe="/")
 
+# 全站侧边导航：13 个类别（顺序/锚定与 index.html 完全一致）
+# 每项 = (顶层目录名, pages/ 下相对路径, 显示名)；顶层目录名用于当前类别高亮。
+SIDENAV = [
+    ("character",  "character/角色.html",         "角色"),
+    ("lightcone",  "lightcone/光锥.html",         "光锥"),
+    ("relic",      "relic/遗器.html",             "遗器"),
+    ("items",      "items/物品总索引.html",       "物品"),
+    ("simulated",  "simulated/模拟宇宙.html",     "模拟宇宙"),
+    ("quest",      "quest/索引.html",             "剧情"),
+    ("events",     "events/活动.html",            "活动"),
+    ("enemies",    "enemies/敌人.html",           "敌人"),
+    ("stages",     "stages/关卡.html",            "关卡"),
+    ("音乐",        "音乐/音乐.html",              "音乐"),
+    ("rules",      "rules/规则.html",             "规则"),
+    ("货币战争",    "货币战争/货币战争.html",       "货币战争"),
+    ("worldview",  "worldview/世界观总览.html",    "世界观"),
+]
+
+def sidenav_html(up, cur_top):
+    """生成可折叠、零 JS 的侧边导航；cur_top = 当前页顶层目录，命中则高亮。"""
+    rows = []
+    for top, href, label in SIDENAV:
+        cls = ' class="cur"' if top == cur_top else ""
+        rows.append(f'<li{cls}><a href="{up}pages/{href}">{label}</a></li>')
+    lis = "\n".join(rows)
+    return f'''<nav class="sidenav">
+<details open>
+<summary>分类导航</summary>
+<ul>
+{lis}
+</ul>
+</details>
+<ul class="sidenav-aux">
+<li><a href="{up}index.html">首页 / 搜索</a></li>
+</ul>
+</nav>'''
+
 # 全局：所有页面 key 集合（剥 zh_cn/ 前缀，相对 pages/ 根，无后缀）
 PAGE_SET = set()
 # 全局：源路径(去.md) → 页面键（有数值实体ID时换成 <目录>/<ID>）
@@ -242,12 +279,14 @@ def main():
         else: prev_nxt += '<span class="navnext"></span>'
         meta_html = '<div class="meta">'+"".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k,v in meta.items())+"</div>" if meta else ""
         icon_html = inject_icon(meta, rel, depth, title)
+        sidenav = sidenav_html(up, parts[0])
         doc = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} — HSR Wiki</title>
 <link rel="stylesheet" href="{up}assets/style.css"></head><body>
 <div class="topbar"><button id="theme-toggle" class="theme-toggle" type="button">跟随系统</button></div>
 <nav class="crumbs">{crumbs}</nav>
+{sidenav}
 <main>
 {icon_html}
 {md_to_html(body, depth, rel)}
