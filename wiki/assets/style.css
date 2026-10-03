@@ -113,3 +113,12 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .cat{animation:riseIn .7s cubic-bezier(.32,.72,0,1) both;animation-delay:calc(var(--i,0)*40ms)}
 .sidenav li.cur a{border-left:4px solid var(--accent);padding-left:8px;margin-left:-12px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* ===== W-4.6-67 可读性细节（仅新增，不改既有规则） ===== */
+/* 宽表格：表头在滚动时吸附（有 thead 的表格生效，无 thead 时选择器不命中） */
+table thead th{position:sticky;top:0;background:var(--soft)}
+/* 锚点落点：滚动跳转后给顶部留出余量，避免被贴顶元素压住 */
+[id]{scroll-margin-top:64px}
+/* 强制配色模式（高对比）：细线边框在 forced-colors 下会被系统色覆盖，显式恢复 1px 可见框 */
+@media (forced-colors: active){
+  .cat,.sidenav,table,th,td{border:1px solid}
+}
