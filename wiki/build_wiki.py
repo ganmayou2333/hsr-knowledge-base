@@ -289,7 +289,9 @@ def main():
 {sidenav}
 <main>
 {icon_html}
+<div class="prose">
 {md_to_html(body, depth, rel)}
+</div>
 {meta_html}
 <nav class="pager">{prev_nxt}</nav>
 <footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0）</footer>

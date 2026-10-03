@@ -3,6 +3,29 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-03
 
+## 2026-10-03 17:00
+
+**站点设计升级（W-4.6-65）：四个设计 skill 落地为本站可执行的版本**
+
+- **加载并执行了 4 个 skill**：`gpt-taste`、`high-end-visual-design`、`ui-ux-pro-max`、`frontend-design`；并用 `ui-ux-pro-max` 的本地检索脚本取了权威结论。
+- **关键依据**：`ui-ux-pro-max --design-system` 对「知识库/文档站」检索，**独立返回 `Minimalism & Swiss Style`** + 模式 **「FAQ/Documentation Landing」**（Hero with search bar → Popular categories）→ **与本库既有瑞士风方向一致**。
+- **冲突裁决（重要，写进工单）**：
+  | skill 建议 | 本库裁定 |
+  |---|---|
+  | 「Ethereal Glass · OLED 黑 + 毛玻璃」 | **采用 Swiss**（检索独立支持；阅读型站点不适合深黑毛玻璃） |
+  | 禁 Helvetica / 推荐 Inter / 用 Google Fonts | **保留系统 Helvetica 栈**（离线+无 CDN 是硬红线；Helvetica 是瑞士风原教旨） |
+  | 要求 GSAP + ScrollTrigger + 滚动钉住 | **仅 CSS 动效**（离线/无 CDN/6,668 页性能/许可相容） |
+  | `picsum.photos` 图片、题内嵌图 | **一律不用图片**（图片零入库是既有红线） |
+  | `rounded-[2rem]` 双壳 | **保持直角**，吸收「双壳嵌套」为**1px 细线外框 + 内层留白** |
+  | 链接蓝 `#2563EB` | **保留瑞士红 `#E30613`** |
+  | 无障碍要求 | **全部采纳**（焦点可见/对比/键盘/`prefers-reduced-motion`） |
+- **落地（4 文件）**：
+  * `index.html`：Hero（`h1` 宽容器 1 行）+ `#pagecount` **由 JS 填入**（不写死）+ 搜索框即主 CTA + **13 类 bento**（12×`span 3` = 3 行整 + 1×`span 12` = 1 行 → **4 行无空格**）+ 保留主题切换与页脚文案；
+  * `assets/style.css`：`.cats`（`grid-auto-flow:dense`）、`.cat:hover` **700ms `cubic-bezier(.32,.72,0,1)`**、`@keyframes riseIn`（**只动 transform/opacity**）、**错峰** `animation-delay:calc(var(--i,0)*40ms)`、`.prose{max-width:72ch}`、当前类别**红色竖条**、`prefers-reduced-motion` 兜底；
+  * `assets/app.js`：**无障碍完整实现** —— `role="combobox"/"listbox"/"option"`、`aria-expanded`/`aria-selected`/`aria-activedescendant`/`aria-live`、**空态给可操作建议**（而非「无结果」）、结果计数、`Esc` 焦点留在输入框、`prefers-reduced-motion` 时禁平滑滚动、HTML 转义防注入；
+  * `build_wiki.py`：详情页套 `.prose`（72ch 行宽）。
+- **实测验收**：`build_wiki` 页 **6,668** / 链接 **96,564** / **dead 0**；`verify_links` **exit 0**；`verify_fields` **异常 0**；**禁用项扫描全 0**（`picsum`/`googleapis`/`cdn.`/`gsap`/非零 `border-radius`/`box-shadow`/`linear-gradient`/第二种强调色）；详情页 `up` 前缀 `../../../` 正确、`cur` 高亮=角色。
+
 ## 2026-10-03 16:30
 
 **新建两件 4.6 时装页（云边拾暖 / 月待花时）—— 4.6 残余缺口再关 2 条**

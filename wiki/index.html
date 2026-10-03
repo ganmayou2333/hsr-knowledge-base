@@ -4,28 +4,30 @@
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
 <div class="topbar"><button id="theme-toggle" class="theme-toggle" type="button">跟随系统</button></div>
-<h1>HSR 知识库</h1>
-<p class="stat" id="stat"></p>
-<p class="stat">搜索覆盖全部页面标题；点击结果直接进入详情页。</p>
-<input id="search" class="searchbox" placeholder="搜索页面标题（如：真珠 / 献给明日的色彩 / 密伶之径）…">
-<ul id="results" class="results"></ul>
+<!-- Hero -->
+<h1 class="hero-title rise">崩坏：星穹铁道 · 数据知识库</h1>
+<p class="hero-sub rise">非官方整理 · 以官方本地化文本为准 · <span id="pagecount"></span> 页 · 五语言</p>
+<input id="search" class="searchbox" role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list" placeholder="搜索页面标题（如：真珠 / 献给明日的色彩 / 密伶之径）…">
+<div id="resultmeta" class="result-meta" aria-live="polite"></div>
+<ul id="results" class="results" role="listbox"></ul>
 <div id="deadbanner" class="dead-banner" style="display:none"></div>
-<h2>分类导航</h2>
-<ul>
-<li><a href="pages/character/角色.html">角色</a></li>
-<li><a href="pages/lightcone/光锥.html">光锥</a></li>
-<li><a href="pages/relic/遗器.html">遗器</a></li>
-<li><a href="pages/items/物品总索引.html">物品</a></li>
-<li><a href="pages/simulated/模拟宇宙.html">模拟宇宙</a></li>
-<li><a href="pages/quest/索引.html">剧情</a></li>
-<li><a href="pages/events/活动.html">活动</a></li>
-<li><a href="pages/enemies/敌人.html">敌人</a></li>
-<li><a href="pages/stages/关卡.html">关卡</a></li>
-<li><a href="pages/音乐/音乐.html">音乐</a></li>
-<li><a href="pages/rules/规则.html">规则</a></li>
-<li><a href="pages/货币战争/货币战争.html">货币战争</a></li>
-<li><a href="pages/worldview/世界观总览.html">世界观</a></li>
-</ul>
+<!-- 分类 bento -->
+<section class="cats" aria-label="分类导航">
+<a class="cat s3" data-cat="character" href="pages/character/角色.html" style="--i:0"><span class="n">角色</span><span class="c"></span></a>
+<a class="cat s3" data-cat="lightcone" href="pages/lightcone/光锥.html" style="--i:1"><span class="n">光锥</span><span class="c"></span></a>
+<a class="cat s3" data-cat="relic" href="pages/relic/遗器.html" style="--i:2"><span class="n">遗器</span><span class="c"></span></a>
+<a class="cat s3" data-cat="items" href="pages/items/物品总索引.html" style="--i:3"><span class="n">物品</span><span class="c"></span></a>
+<a class="cat s3" data-cat="simulated" href="pages/simulated/模拟宇宙.html" style="--i:4"><span class="n">模拟宇宙</span><span class="c"></span></a>
+<a class="cat s3" data-cat="quest" href="pages/quest/索引.html" style="--i:5"><span class="n">剧情</span><span class="c"></span></a>
+<a class="cat s3" data-cat="events" href="pages/events/活动.html" style="--i:6"><span class="n">活动</span><span class="c"></span></a>
+<a class="cat s3" data-cat="enemies" href="pages/enemies/敌人.html" style="--i:7"><span class="n">敌人</span><span class="c"></span></a>
+<a class="cat s3" data-cat="stages" href="pages/stages/关卡.html" style="--i:8"><span class="n">关卡</span><span class="c"></span></a>
+<a class="cat s3" data-cat="音乐" href="pages/音乐/音乐.html" style="--i:9"><span class="n">音乐</span><span class="c"></span></a>
+<a class="cat s3" data-cat="rules" href="pages/rules/规则.html" style="--i:10"><span class="n">规则</span><span class="c"></span></a>
+<a class="cat s3" data-cat="货币战争" href="pages/货币战争/货币战争.html" style="--i:11"><span class="n">货币战争</span><span class="c"></span></a>
+<a class="cat s12" data-cat="worldview" href="pages/worldview/世界观总览.html" style="--i:12"><span class="n">世界观</span><span class="c"></span></a>
+</section>
+<footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0）</footer>
 <script src="data/titles.js"></script>
 <script src="data/link_report.js"></script>
 <script src="assets/app.js"></script>
