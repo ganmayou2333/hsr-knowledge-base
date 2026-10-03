@@ -27,7 +27,8 @@
   | `assets/style.css` | 追加 `.missing` / `.missing-note`（**muted 灰 + 1px 细线**；**刻意不用强调红**，红是链接色，用了会让人更想点） |
   | `tools/verify_site.py` | 新增 **[8] 未收录链接**：读 `link_report.missing` + 生成页独立复算，二者必须一致；**字段缺失即 FAIL**（防止再次静默）；`missing > 0` 属预期不算 FAIL |
 - **Lead 验收（亲自跑）**：`build_wiki` → 页 **6,668** / 链接 **96,564** / **死链 0** / **未收录 0 处（本地文件齐）**；`verify_site` → **[8] 一致=True、RESULT: PASS、exit 0**。
-- **待线上确认**：CI 构建后公开站的「未收录」应为 **34**，且该处文字会显示「（本站未收录）」标记 + 悬停提示。
+- **线上确认（CI 部署后实测）**：`pages/quest/主线任务.html` 现含 **32 处** `<span class="missing" title="本站未收录该页面">`，文字后带「（本站未收录）」标记；**截图复核**：该处为**灰色文本 + 方框标签**，与红色的真链接（如页内其它链接）**视觉上明确区分**，读者不会再误以为可点。
+- **定位工具新增**：`.tmp_build/cdp_probe.py`（最小 CDP 客户端，标准库手写 WebSocket，零依赖）—— 可用 `elementFromPoint` 判定「坐标上谁收点击」并用 `Input.dispatchMouseEvent` **真实点击**；本次正是靠它把「链接点不动」从猜测变成证据。
 
 ## 2026-10-03 17:40
 
