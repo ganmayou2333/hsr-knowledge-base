@@ -14,6 +14,14 @@ PAGES = WIKI / "pages"
 DATA = WIKI / "data"
 SRC = ROOT / "zh_cn"
 
+# 顶层类别目录（**动态推导**，避免新增类别时白名单漏项 —— 见 D-041）
+# 旧实现把类别名硬编码进 resolve()，新增 `enemies/`、`音乐/` 后未同步，
+# 导致链接被当作相对路径拼接，产生 9 条死链。
+try:
+    TOP_DIRS = tuple(sorted(d.name + "/" for d in SRC.iterdir() if d.is_dir()))
+except OSError:
+    TOP_DIRS = ()
+
 def esc(s): return html.escape(s, quote=False)
 
 def urlq(path):
@@ -23,6 +31,8 @@ def urlq(path):
 
 # 全局：所有页面 key 集合（剥 zh_cn/ 前缀，相对 pages/ 根，无后缀）
 PAGE_SET = set()
+# 全局：源路径(去.md) → 页面键（有数值实体ID时换成 <目录>/<ID>）
+SRC2KEY = {}
 
 def convert_inline(text, depth, current_rel=""):
     """depth = 当前页面在 pages/ 下的目录层数；current_rel = 当前页面相对 pages/ 根的路径（无后缀）"""
@@ -39,9 +49,10 @@ def convert_inline(text, depth, current_rel=""):
         if t.startswith("zh_cn/"):
             t = t[6:]
         # 相对路径：不以顶层目录开头时，基于当前页面所在目录拼接
-        if not t.startswith(("character/","lightcone/","relic/","items/","quest/","events/","stages/","simulated/","worldview/","rules/","货币战争/")):
+        if not t.startswith(TOP_DIRS):
             base = current_rel.rsplit("/", 1)[0] if "/" in current_rel else ""
             t = (base + "/" + t).replace("//", "/") if base else t
+        t = SRC2KEY.get(t, t)
         return t
 
     # ---- Markdown 链接 [text](path.md) → .html 内链 ----
@@ -180,13 +191,32 @@ def inject_icon(meta, rel, depth, title):
     return '<div class="entity-card">' + "".join(parts) + "</div>"
 
 def main():
-    global PAGE_SET
+    global PAGE_SET, SRC2KEY
     if PAGES.exists(): shutil.rmtree(PAGES)
     PAGES.mkdir(parents=True); DATA.mkdir(parents=True, exist_ok=True)
     files = sorted(SRC.rglob("*.md"))
     rel_paths = [(p, str(p.relative_to(SRC).with_suffix("")).replace(os.sep,"/")) for p in files]
+    # 源路径(去.md) → 页面键：有数值实体ID则用 <目录>/<ID>，否则保留原相对路径
+    SRC2KEY = {}
+    for p, rel in rel_paths:
+        head = p.read_text(encoding="utf-8", errors="ignore")[:2048]
+        m = re.search(r"^>\s*实体ID[：:]\s*([0-9]+)\s*$", head, re.M)
+        if m:
+            d = rel.rsplit("/", 1)[0] if "/" in rel else ""
+            key = (d + "/" + m.group(1)) if d else m.group(1)
+        else:
+            key = rel
+        SRC2KEY[rel] = key
+    # 冲突保护：同 key 重复则后者退回原文件名并告警
+    _seen = {}
+    for rel, key in list(SRC2KEY.items()):
+        if key in _seen:
+            print(f"WARN key conflict: {rel} vs {_seen[key]} -> keep filename for {rel}")
+            SRC2KEY[rel] = rel
+        else:
+            _seen[key] = rel
     # 第一遍：填充 PAGE_SET
-    PAGE_SET = set(r for _, r in rel_paths)
+    PAGE_SET = set(SRC2KEY.values())
     titles = []
     for idx, (p, rel) in enumerate(rel_paths):
         md = p.read_text(encoding="utf-8", errors="ignore")
@@ -201,12 +231,12 @@ def main():
         crumbs += f" / <strong>{esc(parts[-1])}</strong>"
         prev_nxt = ""
         if idx > 0:
-            pr = rel_paths[idx-1][1]; pt = pr.split("/")[-1]
-            prev_nxt += f'<a class="navprev" href="{up}pages/{urlq(pr)}.html">← {esc(pt)}</a>'
+            pr = rel_paths[idx-1][1]; pt = pr.split("/")[-1]; prk = SRC2KEY[pr]
+            prev_nxt += f'<a class="navprev" href="{up}pages/{urlq(prk)}.html">← {esc(pt)}</a>'
         else: prev_nxt += '<span class="navprev"></span>'
         if idx < len(rel_paths)-1:
-            nr = rel_paths[idx+1][1]; nt = nr.split("/")[-1]
-            prev_nxt += f'<a class="navnext" href="{up}pages/{urlq(nr)}.html">{esc(nt)} →</a>'
+            nr = rel_paths[idx+1][1]; nt = nr.split("/")[-1]; nrk = SRC2KEY[nr]
+            prev_nxt += f'<a class="navnext" href="{up}pages/{urlq(nrk)}.html">{esc(nt)} →</a>'
         else: prev_nxt += '<span class="navnext"></span>'
         meta_html = '<div class="meta">'+"".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k,v in meta.items())+"</div>" if meta else ""
         icon_html = inject_icon(meta, rel, depth, title)
@@ -214,6 +244,7 @@ def main():
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} — HSR Wiki</title>
 <link rel="stylesheet" href="{up}assets/style.css"></head><body>
+<div class="topbar"><button id="theme-toggle" class="theme-toggle" type="button">跟随系统</button></div>
 <nav class="crumbs">{crumbs}</nav>
 <main>
 {icon_html}
@@ -221,11 +252,14 @@ def main():
 {meta_html}
 <nav class="pager">{prev_nxt}</nav>
 <footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0）</footer>
-</main></body></html>"""
-        outp = (PAGES / rel.replace("/", os.sep)).with_suffix(".html")
+</main>
+<script src="{up}assets/theme.js"></script>
+</body></html>"""
+        key = SRC2KEY[rel]
+        outp = (PAGES / key.replace("/", os.sep)).with_suffix(".html")
         outp.parent.mkdir(parents=True, exist_ok=True)
         outp.write_text(doc, encoding="utf-8")
-        titles.append({"path": rel+".html", "title": title, "category": parts[0] if len(parts)>1 else "", "lang":"zh_cn"})
+        titles.append({"path": key+".html", "title": title, "category": parts[0] if len(parts)>1 else "", "lang":"zh_cn"})
 
     # 死链统计
     link_report = {"total":0, "dead":0, "dead_list":[]}

@@ -3,21 +3,27 @@
 <title>HSR 知识库 Wiki</title>
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
+<div class="topbar"><button id="theme-toggle" class="theme-toggle" type="button">跟随系统</button></div>
 <h1>HSR 知识库</h1>
-<p class="stat">崩坏：星穹铁道 4.6 静态知识库 · 由 build_wiki.py 生成</p>
+<p class="stat">崩坏：星穹铁道 4.6 静态知识库 · 由 build_wiki.py 生成 · 页面 6664</p>
 <input id="search" class="searchbox" placeholder="搜索页面标题（如：真珠 / 献给明日的色彩 / 密伶之径）…">
 <ul id="results" class="results"></ul>
 <div id="deadbanner" class="dead-banner" style="display:none"></div>
 <h2>分类导航</h2>
 <ul>
-<li><a href="pages/zh_cn/character/角色.html">角色</a></li>
-<li><a href="pages/zh_cn/lightcone/光锥.html">光锥</a></li>
-<li><a href="pages/zh_cn/relic/遗器.html">遗器</a></li>
-<li><a href="pages/zh_cn/items/物品总索引.html">物品</a></li>
-<li><a href="pages/zh_cn/simulated/模拟宇宙.html">模拟宇宙</a></li>
-<li><a href="pages/zh_cn/quest/索引.html">剧情</a></li>
-<li><a href="pages/zh_cn/events/活动.html">活动</a></li>
-<li><a href="pages/zh_cn/stages/关卡.html">关卡</a></li>
+<li><a href="pages/character/角色.html">角色</a></li>
+<li><a href="pages/lightcone/光锥.html">光锥</a></li>
+<li><a href="pages/relic/遗器.html">遗器</a></li>
+<li><a href="pages/items/物品总索引.html">物品</a></li>
+<li><a href="pages/simulated/模拟宇宙.html">模拟宇宙</a></li>
+<li><a href="pages/quest/索引.html">剧情</a></li>
+<li><a href="pages/events/活动.html">活动</a></li>
+<li><a href="pages/enemies/敌人.html">敌人</a></li>
+<li><a href="pages/stages/关卡.html">关卡</a></li>
+<li><a href="pages/音乐/音乐.html">音乐</a></li>
+<li><a href="pages/rules/规则.html">规则</a></li>
+<li><a href="pages/货币战争/货币战争.html">货币战争</a></li>
+<li><a href="pages/worldview/世界观总览.html">世界观</a></li>
 </ul>
 <script src="data/titles.js"></script>
 <script src="data/link_report.js"></script>
@@ -28,4 +34,5 @@ if(window.LINK_REPORT && window.LINK_REPORT.dead>0){
   document.getElementById('deadbanner').textContent='死链 '+window.LINK_REPORT.dead+' 条（仅标记，未修；详见 data/link_report.json）';
 }
 </script>
+<script src="assets/theme.js"></script>
 </body></html>
