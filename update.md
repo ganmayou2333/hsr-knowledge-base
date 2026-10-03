@@ -3,6 +3,22 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-03
 
+## 2026-10-03 14:46
+
+**本批变更已分组提交并推送至远端**
+
+- **5 组提交（每组显式路径，未用 `git add -A`）**，由豆包执行、Lead 实测复核：
+  | 提交 | 内容 | 文件数 |
+  |---|---|---|
+  | `8186286b7` | `data(W-4.6)`：音乐库 20 专辑/618 曲目 + 敌人库(4) + 巡星之礼/潮玩礼券/愿望星尘/纪念奖章/孤狼墨镜 | 38 |
+  | `3cc008902` | `i18n(W-4.6-31/32)`：`zh_tw` 镜像 22 个（events 7 + stages 3 + rules 5 + 货币战争 7） | 22 |
+  | `ccc8de5e9` | `feat(wiki)`：瑞士风样式 + 三态主题切换 + 详情页 URL 改用实体ID + 首页导航修复 | 4 |
+  | `9d4bddaab` | `tools`：MediaWiki 演示实例工具集（md2mw / dshImport / Common.css / 模板 / 启停脚本）+ `verify_fields` 纳入音乐·敌人类别 | 7 |
+  | `355b6be80` | `docs(W-4.6)`：目标台账与结项、决策 D-039~D-043、音乐库规范 v1.15、MkDocs 迁移评估、仓库结构登记 | 9 |
+- **推送核验（不采信自述）**：`git rev-parse HEAD` = `git rev-parse origin/main` = **`355b6be8090eb5962cfd62dbdd0f75536cebeb7d`**；`git ls-remote origin refs/heads/main` 返回**同一 SHA** → 远端确已更新。工作区**未提交 0**。
+- **推送前回归（Lead 亲自跑）**：`build_wiki` → 页 6,665 / 链接 9,878 / **dead 0**；`verify_links` **exit 0**；`verify_fields` **异常 0 / 已知待补充 156**。
+- **过程记录（1 个自己的坑）**：首版提交脚本 `commit_push.ps1` 是**无 BOM 的 UTF-8**，Windows PowerShell 5.1 按 ANSI 解码 → 中文路径变乱码（`zh_cn/音乐` → `闊充箰`）、`git add` 全部未命中；豆包**按纪律报错停手、未擅自改脚本**（处置正确）。修正方式：改**纯 ASCII 驱动脚本** + `git add --pathspec-from-file`（中文路径写 UTF-8 文件）+ `git commit -F`（提交信息写 UTF-8 文件），彻底绕开 shell 编码层。
+
 ## 2026-10-03 14:30
 
 **MediaWiki 全量导入完成：正文页 6,668（zh_cn 全库）+ 瑞士风外观 + 一键启动脚本**
