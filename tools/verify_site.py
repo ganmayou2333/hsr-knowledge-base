@@ -37,6 +37,7 @@ DATA = WIKI / "data"
 INDEX = WIKI / "index.html"
 STYLE = WIKI / "assets" / "style.css"
 APPJS = WIKI / "assets" / "app.js"
+THEMEJS = WIKI / "assets" / "theme.js"
 TITLES_JS = DATA / "titles.js"
 LINK_REPORT = DATA / "link_report.json"
 
@@ -308,6 +309,61 @@ def check_missing_links(files):
         fail(8, "report missing=%d 与独立复算 %d 不一致" % (report, hits))
 
 
+# ---------------- [9] 表格结构 ----------------
+def check_tables(files):
+    table_n = thead_n = follow_n = 0
+    for f in files:
+        s = read(f)
+        table_n += len(re.findall(r"<table[ >]", s))
+        thead_n += len(re.findall(r"<thead", s))
+        follow_n += len(re.findall(r"<\s*table[^>]*>\s*<\s*thead", s))
+    eq = (table_n == thead_n and table_n > 0)
+    print("[9] 表格结构: table=%d thead=%d 紧跟thead=%d (table==thead>0=%s 紧跟==table=%s)"
+          % (table_n, thead_n, follow_n, eq, follow_n == table_n))
+    if not eq:
+        fail(9, "table(%d) 与 thead(%d) 数量不一致或为 0" % (table_n, thead_n))
+    if follow_n != table_n:
+        fail(9, "<table> 之后紧跟 <thead> 仅 %d/%d（应全部紧跟）" % (follow_n, table_n))
+
+
+# ---------------- [10] 首页可访问名称 ----------------
+def check_search_accessibility():
+    idx = read(INDEX) if INDEX.exists() else ""
+    m = re.search(r"<[a-zA-Z][^<>]*\bid\s*=\s*[\"']search[\"'][^<>]*>", idx)
+    tag = m.group(0) if m else ""
+    aria_ok = 'aria-label="搜索页面标题"' in tag
+    label_ok = re.search(r"<label\b[^>]*\bfor\s*=\s*[\"']search[\"']", idx, re.I) is not None
+    name_ok = aria_ok or label_ok
+    combobox_ok = 'role="combobox"' in tag
+    controls_ok = 'aria-controls="results"' in tag
+    print("[10] 首页可访问名称: aria-label=%s label-for=%s combobox=%s aria-controls=%s"
+          % (aria_ok, label_ok, combobox_ok, controls_ok))
+    if not name_ok:
+        fail(10, '#search 缺少 aria-label="搜索页面标题" 或 <label for="search">')
+    if not combobox_ok:
+        fail(10, '#search 缺少 role="combobox"')
+    if not controls_ok:
+        fail(10, '#search 缺少 aria-controls="results"')
+
+
+# ---------------- [11] 小屏导航 ----------------
+def check_small_nav():
+    theme = read(THEMEJS) if THEMEJS.exists() else ""
+    style = read(STYLE) if STYLE.exists() else ""
+    t_matchmedia = "matchMedia" in theme
+    t_media = "max-width:640px" in theme
+    t_details = ".sidenav details" in theme
+    s_small = (re.search(r"@media\s*\(\s*max-width:640px\s*\)\s*\{[^}]*\.sidenav\{max-height",
+                         style, re.S) is not None)
+    theme_ok = t_matchmedia and t_media and t_details
+    print("[11] 小屏导航: theme.js matchMedia=%s max-width:640px=%s .sidenav details=%s ; style.css 小屏.sidenav{max-height=%s"
+          % (t_matchmedia, t_media, t_details, s_small))
+    if not theme_ok:
+        fail(11, "theme.js 缺小屏收起逻辑（matchMedia / max-width:640px / .sidenav details）")
+    if not s_small:
+        fail(11, "style.css 缺小屏 @media(max-width:640px) 段内 .sidenav{max-height 规则")
+
+
 def main():
     print("=== 静态站回归自检（W-4.6-67） ===")
     print("root: %s" % ROOT)
@@ -326,6 +382,9 @@ def main():
     check_search()
     check_search_links()
     check_missing_links(files)
+    check_tables(files)
+    check_search_accessibility()
+    check_small_nav()
     if fails:
         print("RESULT: FAIL  失败项 %d：" % len(fails))
         for f in fails:

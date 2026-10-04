@@ -3,6 +3,26 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-03
 
+## 2026-10-04 13:55
+
+**W-4.6-80：修线上 3 个缺陷（表格表头吸顶 / 小屏首屏被导航占满 / 搜索框无可访问名称）—— 由 Lead 线上实测复现并逐项核对**
+
+| # | 缺陷 | 线上「修复前」实测证据（Lead 亲跑） | 修复 |
+|---|---|---|---|
+| A | **9,123 张表格全部没有 `<thead>`** → `table thead th{position:sticky}` 选择器永不命中，表头吸顶完全失效 | 生成页 `table=9123 / thead=0`；真实浏览器 `getComputedStyle(first th).position = static`，滚动 600px 后表头随之滚走 | `build_wiki.py` 表格分支改为 `<table><thead><tr><th>…</th></tr></thead><tbody>…</tbody></table>`（不动 `convert_inline`/`split_row`/单元格内容） |
+| B | **小屏首屏被侧边导航占满** | 390×844 实测：`.sidenav` 高 **463px**、`main.top = 633px` → 正文首屏仅 **211px** | `theme.js` 新增「≤640px 时收起 `.sidenav details[open]`」；`style.css` 追加 `@media (max-width:640px){ .sidenav{max-height:40vh;overflow:auto} }` |
+| C | **搜索框没有可访问名称**（只有 placeholder，屏幕阅读器读不出） | 本地与线上 `#search` 标签实测：无 `<label>`、无 `aria-label` | `index.html` 的 `#search` 加 `aria-label="搜索页面标题"`（保留原 placeholder 与 combobox/aria-controls） |
+
+- **防复发**：`tools/verify_site.py` 新增 **[9] 表格结构**（table 数 == thead 数 且 >0、且每个 `<table>` 紧跟 `<thead>`）、**[10] 首页可访问名称**、**[11] 小屏导航**（theme.js 与 style.css 的静态断言）——三项均打印数字/True-False，缺字段即 FAIL。
+- **Lead 独立验收（全部亲跑，不采信执行方自述）**：
+  | 验收项 | 实测 |
+  |---|---|
+  | 静态 | `build_wiki` **6668 / 96564 / 死链 0 / 未收录 0**；`verify_site` **[9] table=9123 thead=9123 紧跟=9123、[10] True、[11] True、RESULT: PASS**；自算 `table=9123 thead=9123 tbody=9123`；`verify_links` exit 0；`verify_fields` **异常 0 / 待补充 156** |
+  | **真实浏览器（本地构建产物 http://127.0.0.1:8787）** | `.tmp_build/verify_w4680_live.py` → **A/B/C 全 PASS**：含 thead=True、`position=sticky`、滚到表格顶后表头 top=0.92；390×844 下导航高 **86px**（原 463）、`main.top` **256px**（原 633）、`details[open]=False`；`aria-label='搜索页面标题'` 且 combobox/aria-controls 保留 |
+  | 「修复前」基线（同一验收器，线上站） | A/B/C **全 FAIL**（thead=False / position=static；导航 463、main.top 633；aria-label=None）——证明缺陷确实存在、修复确实有效 |
+- **执行通道事件（如实记录）**：本轮开工时**豆包桌面版未运行**（9222 ECONNREFUSED）。查 Windows 事件日志：**1074 @ 02:01:14（用户经开始菜单发起正常关机）+ 6006 @ 02:01:27（事件日志服务停止）+ 6005 @ 12:14:11（开机）** → 豆包随**正常关机**退出，非崩溃（Application 日志无 Doubao 错误）。Lead 用 `Start-Process E:\Doubao\app\Doubao.exe --remote-debugging-port=9222 --remote-allow-origins=*` 重启；用户切到「工作」模式后 CDP 派单成功。
+- **工作区清理**：删除执行方遗留的根目录杂散文件 `verify_out.txt`（其内容已由 Lead 亲跑复现）。
+
 ## 2026-10-04 00:10
 
 **W-4.6-77 批次 C-2：音乐镜像补「官方日文曲目名」14 张（ja_jp）—— 与 C-1 同口径，逐条机器复核通过**

@@ -125,3 +125,5 @@ table thead th{position:sticky;top:0;background:var(--soft)}
 /* 未收录（降级为纯文本）：用 muted 灰，不用强调红（红是链接色，用了会诱导点击） */
 .missing{color:var(--muted)}
 .missing-note{margin-left:.35em;font-size:.85em;color:var(--muted);border:1px solid var(--line);padding:0 4px}
+/* 小屏：导航展开后也给它限高并内部滚动，避免独占首屏 */
+@media (max-width:640px){ .sidenav{max-height:40vh;overflow:auto} }

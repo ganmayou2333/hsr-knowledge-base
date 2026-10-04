@@ -146,19 +146,20 @@ def md_to_html(md, depth, current_rel=""):
                 buf.append(lines[i]); i += 1
             out.append("<pre><code>"+esc("\n".join(buf))+"</code></pre>"); i += 1; continue
         if line.strip().startswith("|") and i+1 < len(lines) and re.match(r"^\s*\|[\s:|-]+\|\s*$", lines[i+1]):
-            close_all(); out.append("<table>")
+            close_all(); out.append("<table><thead>")
             def split_row(row):
                 row = row.replace("\\|", "\x01")
                 cells = [c.strip().replace("\x01","|") for c in row.strip().strip("|").split("|")]
                 return cells
             cells = split_row(line)
             out.append("<tr>"+"".join(f"<th>{convert_inline(c, depth, current_rel)}</th>" for c in cells)+"</tr>")
+            out.append("</thead><tbody>")
             i += 2
             while i < len(lines) and lines[i].strip().startswith("|"):
                 cells = split_row(lines[i])
                 out.append("<tr>"+"".join(f"<td>{convert_inline(c, depth, current_rel)}</td>" for c in cells)+"</tr>")
                 i += 1
-            out.append("</table>"); continue
+            out.append("</tbody></table>"); continue
         if line.startswith(">"):
             if not in_quote:
                 close_all(); out.append("<blockquote>"); in_quote=True

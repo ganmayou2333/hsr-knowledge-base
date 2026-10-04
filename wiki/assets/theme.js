@@ -23,5 +23,11 @@
     var b=document.getElementById('theme-toggle');
     if(b) b.addEventListener('click',toggle);
     paint();
+    // 小屏（≤640px）：默认收起分类导航，避免首屏被导航占满；桌面（>640px）保持展开
+    try{
+      if(window.matchMedia && window.matchMedia('(max-width:640px)').matches){
+        document.querySelectorAll('.sidenav details[open]').forEach(function(d){ d.removeAttribute('open'); });
+      }
+    }catch(e){ /* 老浏览器忽略 */ }
   });
 })();
