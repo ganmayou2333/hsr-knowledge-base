@@ -3,6 +3,29 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-04
 
+## 2026-10-04 16:40
+
+**W-4.6-86：两仓库「全部 push」完成 + 远端侧独立验证（Lead 亲验，不采信执行方自述）**
+
+- **推送范围（两次主库 + 一次 Wiki 仓库）**：
+  | 目标 | 推送 | 结果 |
+  |---|---|---|
+  | 主库 `origin/main` | `a712cf847..c8961cd8f` | 成功后 `HEAD == origin/main == c8961cd8f` |
+  | Wiki `*.wiki.git` `master` | `a8aea6f..23f4cf9` | 成功后 `origin/master == 23f4cf90d`（默认分支是 **master**，非 main） |
+- **推送途中的网络故障（如实记录）**：主库首次 push 报 `RPC failed; HTTP 408`、其后 `502`，**第 3 次重试成功**；`raw.githubusercontent.com` 连续 `502`/超时。→ **瞬时网络故障，不是仓库问题**；重试与换判据后全部取到。
+- **策展稿同步前的纠错**：把公开 Wiki 稿补齐到实情时，我先写的镜像残留数字是 `ja 40 / ko 42 / zh_tw 2`（来自中间口径 C），**用定稿清单复算后改回 `ja 38 / ko 40 / zh_tw 1 = 79 文件`**（225 行 / 74 标记）—— 再次印证「数字不得手写，必须复算」。
+- **Lead 独立验证（全部亲跑，未采信豆包自述）**：
+  | 项 | 判据 | 结果 |
+  |---|---|---|
+  | 主库远端 | `git ls-remote` | `c8961cd8f2a919cba2a2988fa6a205d66d6ef790  refs/heads/main` ✅ |
+  | Wiki 远端 | `git ls-remote` | `23f4cf90d9c41b1fb2fee1bdceb9dc1e64176cf4  refs/heads/master` ✅ |
+  | Wiki 内容一致性 | `git show origin/master:<page>` vs `tools/github-wiki/<page>`（归一化行尾后） | **8/8 一致**、`ls-tree` 无缺失页、无多余页 ✅（首轮 DIFF 是 **CRLF 假警报**，已归一化排除） |
+  | Wiki 渲染修订 | 抓 4 个页面 HTML 查关键词 | 「更新日志」含 `来源表达残留清零`/`剧情时间线`/`站点动效` + `225`/`74`/`90`；「Home」含 `6,668`/`5,871`/`5,864`/`5,847`/`30,117`；「路线图与待补」含 `派生镜像未本地化`；`_Sidebar` 可达 ✅ |
+  | Pages | HTTP 探测 | 首页 **200**、`quest/索引` **200**（`timeline-root` 在、`tl-item=12`）✅ |
+  | 工作区 | `git status` | 仅 2 个刻意不入库的用户文件（`docs/评测_MiMo…md`、`scripts/mimo_batch.py`）✅ |
+- **执行方独立复核（旁证）**：豆包桌面版 job `W4686`（`started → 30% → 70% → done`），自述 8/8 通过、主库 HEAD `c8961cd`、Wiki 8 页齐、规模表 30,117、路线图第 8 条、剧情索引 12 条。**仅作旁证** —— 结论以本表 Lead 亲测为准。
+- **口径登记**：Wiki 策展稿的单一真相仍在主库 `tools/github-wiki/`；Wiki 只放入口不放正文（5,000 文件软上限 + 扁平命名空间重名，见 `docs/github_wiki可行性评估.md`）。
+
 ## 2026-10-04 16:30
 
 **W-4.6-85：剧情界面新增「版本轴时间线」+ 全站动效（6 项）—— Lead 实现与实测**
