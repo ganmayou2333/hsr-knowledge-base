@@ -364,6 +364,32 @@ def check_small_nav():
         fail(11, "style.css 缺小屏 @media(max-width:640px) 段内 .sidenav{max-height 规则")
 
 
+# ---------------- [12] 打印样式 ----------------
+def check_print():
+    style = read(STYLE) if STYLE.exists() else ""
+    m = re.search(r"@media\s*print\b\s*\{", style)
+    body = ""
+    if m:
+        start = m.end()
+        depth = 1
+        i = start
+        while i < len(style) and depth > 0:
+            ch = style[i]
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+            i += 1
+        body = style[start:i - 1] if i <= len(style) else ""
+    has_print = bool(m)
+    has_display_none = "display:none" in body
+    print("[12] 打印样式: @media print=%s 块内 display:none=%s" % (has_print, has_display_none))
+    if not has_print:
+        fail(12, "style.css 缺 @media print 块")
+    if not has_display_none:
+        fail(12, "@media print 块内缺 display:none（未隐藏界面元素）")
+
+
 def main():
     print("=== 静态站回归自检（W-4.6-67） ===")
     print("root: %s" % ROOT)
@@ -385,6 +411,7 @@ def main():
     check_tables(files)
     check_search_accessibility()
     check_small_nav()
+    check_print()
     if fails:
         print("RESULT: FAIL  失败项 %d：" % len(fails))
         for f in fails:

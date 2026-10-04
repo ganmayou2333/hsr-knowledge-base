@@ -127,3 +127,12 @@ table thead th{position:sticky;top:0;background:var(--soft)}
 .missing-note{margin-left:.35em;font-size:.85em;color:var(--muted);border:1px solid var(--line);padding:0 4px}
 /* 小屏：导航展开后也给它限高并内部滚动，避免独占首屏 */
 @media (max-width:640px){ .sidenav{max-height:40vh;overflow:auto} }
+/* 打印：去掉界面性元素与屏幕留白，正文按纸面排版 */
+@media print{
+  .topbar,.theme-toggle,.sidenav,.crumbs,.pager,.dead-banner,#search,#results,#resultmeta{display:none}
+  body{max-width:none;padding:0;font-size:12pt}
+  a{color:#000;text-decoration:underline}
+  h1{border-bottom-width:2px}
+  table,pre,blockquote{page-break-inside:avoid}
+  table{font-size:10.5pt}
+}
