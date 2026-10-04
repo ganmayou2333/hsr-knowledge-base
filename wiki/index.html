@@ -7,6 +7,26 @@
 <!-- Hero -->
 <h1 class="hero-title rise">崩坏：星穹铁道 · 数据知识库</h1>
 <p class="hero-sub rise">非官方整理 · 以官方本地化文本为准 · <span id="pagecount"></span> 页 · 五语言</p>
+<!-- 仪表盘（W-4.6-87）：概览条 + 快速访问 + 最新收录。静态可读，JS 只填统计与最新列表 -->
+<section class="dash rise" id="dash-root" style="--i:1" aria-label="数据概览与最新收录">
+  <div class="dash-meta">
+    <span class="dash-cell">库内最高版本 <b id="dash-version">—</b></span>
+    <span class="dash-cell">收录 <b id="dash-pages">—</b> 页</span>
+    <span class="dash-cell">最近更新 <b id="dash-updated">—</b></span>
+  </div>
+  <p class="dash-sub">版本分布：<span id="dash-versions">—</span>　·　<span id="dash-coverage">—</span></p>
+  <h2 class="dash-h2">快速访问</h2>
+  <nav class="quick" aria-label="快速访问">
+    <a class="quick-a" href="pages/character/角色.html">角色</a>
+    <a class="quick-a" href="pages/lightcone/光锥.html">光锥</a>
+    <a class="quick-a" href="pages/relic/遗器.html">遗器</a>
+    <a class="quick-a" href="pages/items/物品总索引.html">物品</a>
+  </nav>
+  <h2 class="dash-h2">最新收录</h2>
+  <ol id="dash-recent" class="dash-recent">
+    <li class="dash-empty">最新收录需要 JavaScript 才能显示；下方「分类导航」与搜索框不受影响，可直接使用。</li>
+  </ol>
+</section>
 <input id="search" class="searchbox" role="combobox" aria-label="搜索页面标题" aria-expanded="false" aria-controls="results" aria-autocomplete="list" placeholder="搜索页面标题（如：真珠 / 献给明日的色彩 / 密伶之径）…">
 <div id="resultmeta" class="result-meta" aria-live="polite"></div>
 <ul id="results" class="results" role="listbox"></ul>
@@ -29,8 +49,10 @@
 </section>
 <footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0）</footer>
 <script src="data/titles.js" defer></script>
+<script src="data/stats.js" defer></script>
 <script src="data/link_report.js"></script>
 <script src="assets/app.js" defer></script>
+<script src="assets/home.js" defer></script>
 <script>
 if(window.LINK_REPORT && window.LINK_REPORT.dead>0){
   document.getElementById('deadbanner').style.display='block';

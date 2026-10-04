@@ -231,3 +231,30 @@ table thead th{position:sticky;top:0;background:var(--soft)}
       也不覆盖 ④ 里按钮的 transform 过渡） */
 body,.sidenav,.meta,blockquote,table th,.missing-note{
   transition:background-color .16s linear,border-color .16s linear,color .16s linear}
+
+/* ===== W-4.6-87 首页仪表盘（概览条 / 快速访问 / 最新收录） =====
+   Swiss：直角、细线、唯一强调色；只用 transform/opacity 做动效（无 radius/shadow/gradient）。 */
+.dash{margin:0 0 40px;padding:0 0 24px;border-bottom:1px solid var(--line)}
+.dash-meta{display:flex;flex-wrap:wrap;gap:8px 32px;margin:0 0 8px;font-size:14px;color:var(--muted)}
+.dash-cell b{color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums}
+.dash-sub{font-size:13px;color:var(--muted);margin:0 0 24px;font-variant-numeric:tabular-nums}
+.dash-h2{font-size:16px;font-weight:700;margin:24px 0 12px}
+.quick{display:flex;flex-wrap:wrap;gap:8px}
+.quick-a{display:inline-block;border:1px solid var(--line);padding:8px 16px;color:var(--ink);font-size:14px;
+  transition:border-color .3s cubic-bezier(.32,.72,0,1),background-color .3s cubic-bezier(.32,.72,0,1)}
+.quick-a:hover{border-color:var(--ink);background:var(--soft);text-decoration:none}
+.dash-recent{list-style:none;margin:0;padding:0}
+.dash-item{display:grid;grid-template-columns:minmax(0,1fr) 96px 132px;gap:0 16px;align-items:baseline;
+  padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
+.dash-tag{color:var(--muted);font-size:12px;text-align:right}
+.dash-date{color:var(--muted);font-size:13px;text-align:right;font-variant-numeric:tabular-nums}
+.dash-empty{color:var(--muted);font-size:14px;padding:8px 0}
+@media(max-width:640px){
+  .dash-item{grid-template-columns:minmax(0,1fr);gap:2px}
+  .dash-tag,.dash-date{text-align:left}
+}
+@media print{
+  .quick{display:none}
+  .dash-recent{columns:2;column-gap:24px}
+  .dash-item{break-inside:avoid}
+}

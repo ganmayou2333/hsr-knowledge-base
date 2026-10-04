@@ -7,6 +7,7 @@ build_wiki.py — 零依赖静态 Wiki 生成器
 不改任何 .md 源文件。
 """
 import os, re, json, html, pathlib, shutil, urllib.parse
+from datetime import datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
@@ -15,6 +16,8 @@ DATA = WIKI / "data"
 SRC = ROOT / "zh_cn"
 TIMELINE_DATA = DATA / "timeline.js"
 TIMELINE_SRC = "quest/主线任务"          # 时间线唯一数据源（已入库，CI 安全）
+STATS_DATA = DATA / "stats.js"           # 首页仪表盘数据（W-4.6-87）
+RECENT_N = 30                            # 「最新收录」保留条数
 
 # 顶层类别目录（**动态推导**，避免新增类别时白名单漏项 —— 见 D-041）
 # 旧实现把类别名硬编码进 resolve()，新增 `enemies/`、`音乐/` 后未同步，
@@ -48,6 +51,11 @@ SIDENAV = [
     ("货币战争",    "货币战争/货币战争.html",       "货币战争"),
     ("worldview",  "worldview/世界观总览.html",    "世界观"),
 ]
+
+# 顶层目录 → 显示名（复用侧边导航的既有标签；首页「最新收录」的分类标签取自此表，
+# 避免出现 items / stages 这类裸目录名）
+DIR_LABEL = {top: label for top, _href, label in SIDENAV}
+
 
 def sidenav_html(up, cur_top):
     """生成可折叠、零 JS 的侧边导航；cur_top = 当前页顶层目录，命中则高亮。"""
@@ -367,6 +375,8 @@ def main():
         print("WARN 时间线: 未能从 %s.md 解析到任何单元 → 不插入时间线容器" % TIMELINE_SRC)
 
     titles = []
+    stat_versions = {}
+    stat_recent = []
     for idx, (p, rel) in enumerate(rel_paths):
         md = p.read_text(encoding="utf-8", errors="ignore").lstrip("\ufeff")
         meta, body = parse_meta(md)
@@ -426,6 +436,24 @@ def main():
         outp.parent.mkdir(parents=True, exist_ok=True)
         outp.write_text(doc, encoding="utf-8")
         titles.append({"path": key+".html", "title": title, "category": parts[0] if len(parts)>1 else "", "lang":"zh_cn"})
+        # ---- 首页仪表盘统计（W-4.6-87）：数据版本分布 + 最新收录 ----
+        m_c = re.search(r"^>\s*创建时间[：:]\s*(.+?)\s*$", md, re.M)
+        m_u = re.search(r"^>\s*更新时间[：:]\s*(.+?)\s*$", md, re.M)
+        v_raw = (meta.get("数据版本") or "").strip()
+        m_v = re.match(r"^([0-9]+\.[0-9]+)", v_raw)
+        if m_v:
+            stat_versions[m_v.group(1)] = stat_versions.get(m_v.group(1), 0) + 1
+        if m_u:
+            _cat = parts[0] if len(parts) > 1 else ""
+            stat_recent.append({
+                "path": key + ".html",
+                "title": title,
+                "category": _cat,
+                # 分类显示名复用 SIDENAV 的既有标签，避免出现裸目录名（items / stages）
+                "categoryLabel": DIR_LABEL.get(_cat, _cat),
+                "updated": m_u.group(1),
+                "created": m_c.group(1) if m_c else "",
+            })
 
     # 死链统计
     link_report = {"total":0, "dead":0, "missing":0, "dead_list":[], "missing_list":[]}
@@ -444,6 +472,29 @@ def main():
                 link_report["missing_list"].append({"source": rel, "text": m.group(1)})
 
     (DATA/"titles.js").write_text("window.TITLES = "+json.dumps(titles,ensure_ascii=False)+";", encoding="utf-8")
+
+    # ---- 首页仪表盘数据（W-4.6-87）----
+    # 「最新收录」按 `> 更新时间：` 倒序（字符串比较即等价于时间比较：YYYY-MM-DD HH:mm）
+    stat_recent.sort(key=lambda r: r["updated"], reverse=True)
+    # 注意口径：出现最多的版本（4.5）≠ 库内最新版本（4.6）。首页显示「库内最高版本」，
+    # 并把完整分布一并输出，避免单值造成误读（README 的基线口径为 4.6）。
+    def _verkey(v):
+        return tuple(int(x) for x in v.split("."))
+    stats = {
+        "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "pages": len(titles),
+        "lang": "zh_cn",
+        "versions": dict(sorted(stat_versions.items(), key=lambda kv: (-kv[1], kv[0]))),
+        "latestVersion": (max(stat_versions, key=_verkey) if stat_versions else ""),
+        "versionedPages": sum(stat_versions.values()),
+        "datedPages": len(stat_recent),
+        "updatedMax": (stat_recent[0]["updated"] if stat_recent else ""),
+        "recent": stat_recent[:RECENT_N],
+    }
+    STATS_DATA.write_text("window.STATS = "+json.dumps(stats,ensure_ascii=False)+";", encoding="utf-8")
+    print("首页统计: 页 %d | 库内最高版本 %s | 版本分布 %s | 带日期页 %d | 最近更新 %s | 最新收录 %d 条"
+          % (stats["pages"], stats["latestVersion"] or "（无）", stats["versions"] or "（无）",
+             stats["datedPages"], stats["updatedMax"] or "（无）", len(stats["recent"])))
     (DATA/"link_report.json").write_text(json.dumps(link_report,ensure_ascii=False,indent=2), encoding="utf-8")
     (DATA/"link_report.js").write_text("window.LINK_REPORT = "+json.dumps(link_report,ensure_ascii=False)+";", encoding="utf-8")
     print(f"生成页面: {len(rel_paths)}")

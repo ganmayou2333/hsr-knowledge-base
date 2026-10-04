@@ -457,6 +457,80 @@ def check_timeline(files):
         fail(13, "timeline.js 引用了外部资源（图片零入库 / 不得外链）")
 
 
+# ---------------- [14] 首页仪表盘（W-4.6-87） ----------------
+def check_dashboard():
+    """stats.js 与 titles.js 一致；最新收录已排序；首页三个容器与脚本齐备。"""
+    stats_js = DATA / "stats.js"
+    if not stats_js.exists():
+        print("[14] 首页仪表盘: 缺少 %s（先运行 python wiki/build_wiki.py）" % stats_js)
+        fail(14, "缺少 wiki/data/stats.js")
+        return
+    m = re.search(r"window\.STATS\s*=\s*(\{.*\})\s*;?\s*$", read(stats_js).strip(), re.S)
+    if not m:
+        print("[14] 首页仪表盘: stats.js 结构不可解析")
+        fail(14, "stats.js 结构不可解析")
+        return
+    try:
+        st = json.loads(m.group(1))
+    except Exception as e:
+        print("[14] 首页仪表盘: stats.js JSON 解析失败 %r" % e)
+        fail(14, "stats.js 内容不是合法 JSON")
+        return
+
+    # 与 titles.js 的条数交叉核对（防止统计与实际页数脱节）
+    titles_n = None
+    if TITLES_JS.exists():
+        tm = re.search(r"window\.TITLES\s*=\s*(\[.*\])\s*;?\s*$", read(TITLES_JS).strip(), re.S)
+        if tm:
+            try:
+                titles_n = len(json.loads(tm.group(1)))
+            except Exception:
+                titles_n = None
+    pages_ok = (titles_n is not None and st.get("pages") == titles_n)
+
+    recent = st.get("recent") or []
+    ups = [r.get("updated") or "" for r in recent]
+    sorted_ok = ups == sorted(ups, reverse=True)
+    fields_ok = all(r.get("path") and r.get("title") is not None for r in recent)
+    versions = st.get("versions") or {}
+
+    idx = read(INDEX) if INDEX.exists() else ""
+    ids = {k: ('id="%s"' % k) in idx for k in
+           ("dash-root", "dash-version", "dash-pages", "dash-updated", "dash-recent")}
+    quick_ok = 'class="quick"' in idx and idx.count('class="quick-a"') >= 2
+    script_ok = bool(re.search(r'<script src="assets/home\.js"', idx))
+    stats_ref = bool(re.search(r'<script src="data/stats\.js"', idx))
+    # 无 JS 降级文案必须在 HTML 里（不能只由 JS 生成）
+    fallback_ok = 'dash-empty' in idx
+
+    print("[14] 首页仪表盘: pages=%s(titles=%s 一致=%s) latestVersion=%s 版本数=%d | recent=%d 倒序=%s 字段齐=%s | 容器齐=%s quick=%s home.js=%s stats.js=%s 无JS降级=%s"
+          % (st.get("pages"), titles_n, pages_ok, st.get("latestVersion"),
+             len(versions), len(recent), sorted_ok, fields_ok,
+             all(ids.values()), quick_ok, script_ok, stats_ref, fallback_ok))
+
+    if not pages_ok:
+        fail(14, "stats.pages=%s 与 titles.js 条数=%s 不一致" % (st.get("pages"), titles_n))
+    if not versions:
+        fail(14, "stats.versions 为空（未解析到任何数据版本）")
+    if not st.get("latestVersion"):
+        fail(14, "stats.latestVersion 为空")
+    if not recent:
+        fail(14, "stats.recent 为空（无带更新时间的条目）")
+    if not sorted_ok:
+        fail(14, "recent 未按 updated 倒序")
+    if not fields_ok:
+        fail(14, "recent 条目缺 path/title")
+    if not all(ids.values()):
+        print("      ! 缺失容器：%s" % [k for k, v in ids.items() if not v])
+        fail(14, "首页缺仪表盘容器")
+    if not quick_ok:
+        fail(14, "首页缺「快速访问」区（class=quick / quick-a×2）")
+    if not stats_ref or not script_ok:
+        fail(14, "首页未同时引入 data/stats.js 与 assets/home.js")
+    if not fallback_ok:
+        fail(14, "首页缺无 JS 降级文案（dash-empty）")
+
+
 def main():
     print("=== 静态站回归自检（W-4.6-67） ===")
     print("root: %s" % ROOT)
@@ -480,6 +554,7 @@ def main():
     check_small_nav()
     check_print()
     check_timeline(files)
+    check_dashboard()
     if fails:
         print("RESULT: FAIL  失败项 %d：" % len(fails))
         for f in fails:
