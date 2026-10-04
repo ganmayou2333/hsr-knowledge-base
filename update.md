@@ -3,6 +3,50 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-04
 
+## 2026-10-04 16:30
+
+**W-4.6-85：剧情界面新增「版本轴时间线」+ 全站动效（6 项）—— Lead 实现与实测**
+
+**一、剧情时间线（用户拍板：*在剧情界面做时间线功能，不重写 worldview/剧情时间线.md*）**
+
+- **位置**：`wiki/pages/quest/索引.html`（侧边导航「剧情」的入口页），插在 `<div class="prose">` **之前**。
+- **数据源唯一且已入库**：`zh_cn/quest/主线任务.md` —— 机械解析 12 个剧情单元的 `## 章节标题`、`### 章节名`、`### 版本`（含**官方日期区间**）、`### 子任务列表`；**零新增手写内容**，末尾「待补充」小节排除。该文件是**入库文件**（`.gitignore` 只忽略 `quest/剧情文本/`）→ GitHub Pages/CI 同样有数据（不重蹈 D-044 的坑）。
+- **实测解析结果**：**12 单元 / 90 个子任务 / 大版本段 1.x–4.x / 版本序单调**。单元：序章 1.0、第一章 1.0~1.1、第二章 1.2~1.3、幕间一 1.4、幕间二 1.5、幕间三 1.6、第三章 2.0~2.3、幕间四 2.6、幕间五 2.7、第四章 3.0~3.7、终幕 3.8、第五章 4.0~。
+- **一个真实发现**：文档里是**主题序**（幕间一 1.4 排在第二章 1.2~1.3 之前），时间线按**版本号排序**后才是官方发布顺序 —— 这正是时间线的价值；卡片上仍标注所属篇章。
+- **静态优先的降级设计**：时间线本体、版本轴、子任务展开（原生 `<details>`）**全部由 Python 静态渲染** → **无 JS 也可读**；`assets/timeline.js` 只做静态做不到的一件事 —— **按 1.x/2.x/3.x/4.x 筛选**，且筛选条由 JS 动态插入，**无 JS 时不会留下点了没反应的死按钮**。
+- **配套小改进**：`build_wiki.py` 的 `md_to_html` 现在给标题生成**锚点 id**（同页去重），时间线卡片因此能直接跳到 `主线任务` 页面对应章节小节。
+- **解析缺陷（Lead 自查并修）**：① `4.0~（2026-02-13 ~ ）` 这种**开区间**未匹配 → 漏掉第五章；② `章节名` 用 ` / ` 分隔的多名称被当成单行 → 第四章只取到 1/8。两处修后单元数 11 → **12**。
+
+**二、全站动效（用户选「推荐套」6 项，**纯 CSS**，未新增 JS 文件）**
+
+| # | 效果 | 实现 |
+|---|---|---|
+| ① | 正文区块错峰入场（h1 → 时间线 → 正文 → 元信息，60ms 步进） | 模板加 `.mv` + `--i`，复用既有 `@keyframes riseIn` |
+| ② | 时间线竖轴从 0 长到满高（`scaleY`，`transform-origin:top`） | `.timeline .tl::before` + `@keyframes axisGrow` |
+| ③ | 链接 hover 下划线**从左展开** | `::after{transform:scaleX(0→1)}`，只给短链接（crumbs/pager/搜索/侧栏/时间线标题），避免正文长链接跨行错位 |
+| ④ | 按钮按下 120ms 微反馈 | `:active{transform:translateY(1px)}` |
+| ⑤ | 滚动揭示正文小节 | `@supports (animation-timeline: view())` + `@keyframes sectionIn`；不支持的浏览器**自动无动效** |
+| ⑥ | 主题切换颜色 160ms 过渡 | `body/.sidenav/.meta/blockquote/th` 等少量元素 |
+
+- **纪律**：全部只用 `transform/opacity/颜色` —— 不触碰 `verify_site [5]` 断言的 `border-radius / box-shadow / linear-gradient` 红线；无外链资源；所有动画包在 `prefers-reduced-motion: no-preference` 内。
+- **动效修复 1 处（Lead 实测发现）**：⑥ 的通用规则**覆盖**了 ④ 给 `.theme-toggle` 设的 `transform` 过渡（按下仍位移但丢了 120ms 平滑）→ 已把按钮的 `transition` 显式并列声明，实测 `transition-property=transform, background-color, border-color, color`。
+
+**三、防复发（`tools/verify_site.py` 新增 [13]）**
+断言：`#timeline-root` **仅**剧情索引页存在 · 位于 `<div class="prose">` 之前 · 节点数 == 数据单元数（12）· 单元数 ≥2 且带日期 ≥2 · **版本 order 单调递增** · `assets/timeline.js` 已引入 · 无外部资源 —— 缺任一即 FAIL。
+
+**四、Lead 独立验收（全部亲跑；起本地 `http.server 8788` + 真实 Chrome）**
+
+| 验收器 | 结果 |
+|---|---|
+| `tools/verify_site.py` | **RESULT: PASS**（[1]–[13] 全过；`[13] 单元=12 带日期=12 带锚点=12 版本序单调=True 节点=12 仅索引页=True 在prose前=True 外链=False`） |
+| `wiki/build_wiki.py` | 页 **6668** / 链接 **96564** / **死链 0** / 未收录 **0**；`时间线: 12 个单元` |
+| `.tmp_build/verify_timeline_live.py`（T1–T9） | **RESULT: PASS** —— 容器 12 节点、筛选条 `['全部','1.x','2.x','3.x','4.x']` 且默认按下「全部」；**真实点击**：全部 12 → 1.x **6** → 4.x **1** → 回到全部 12；`<details>` 展开后 6 条子任务；**锚点跳转** `hash=序章-湛蓝星-黑塔空间站` 目标 `top=64`（`[id]{scroll-margin-top:64px}` 生效）；小屏 390×844 `scrollWidth=390=innerWidth` **无横向溢出**、改单列；**禁用脚本后仍 12 节点 / 7 个 `<details>`**（静态可读）；`prefers-reduced-motion:reduce` 下 `animation-name=none`；外链资源 **0** |
+| `.tmp_build/verify_motion_live.py`（M1–M7） | **RESULT: PASS** —— ① `.mv` 四块 `delay=0s/0.06s/0.12s/0.18s` 且 `animation=riseIn`；② `axisGrow` 1.5s 后收敛为 `matrix(1,0,0,1,0,0)`（线宽 1px、色 `rgb(255,59,48)`）；③ 真实鼠标移入 `scaleX 0→1`；④ `:active` 实测 `matrix(1,0,0,1,0,1)`；⑤ `animation-timeline=view()` 生效；⑥ body 过渡 `0.16s`；⑦ **reduce 下 `.mv/.tl-item/.tl::before/.prose h2` 全为 `none`** |
+| 回归 | `verify_links` **exit 0**；`verify_fields` **异常 0 / 待补充 156**；五语言规模 **6668 / 5871 / 5867 / 5864 / 5847**（与基线逐语言一致） |
+| 目视 | 全页截图（存**仓库外** `%TEMP%`，遵守图片零入库）：版本轴红色方点、版本/日期两列、章节名与子任务展开、筛选按钮「全部」高亮 —— 与 Swiss 风格一致 |
+
+- **未 pusk（用户选择「暂不推」）**；`wiki/pages/`、`wiki/data/` 为生成物不入库。
+
 ## 2026-10-04 15:52
 
 **W-4.6-83：清除 `quest/剧情文本` 的米游社来源表达残留（79 文件 / 225 行）—— Lead 亲写判定口径 + 独立差分验收**

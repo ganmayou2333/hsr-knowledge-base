@@ -13,6 +13,8 @@ WIKI = ROOT / "wiki"
 PAGES = WIKI / "pages"
 DATA = WIKI / "data"
 SRC = ROOT / "zh_cn"
+TIMELINE_DATA = DATA / "timeline.js"
+TIMELINE_SRC = "quest/主线任务"          # 时间线唯一数据源（已入库，CI 安全）
 
 # 顶层类别目录（**动态推导**，避免新增类别时白名单漏项 —— 见 D-041）
 # 旧实现把类别名硬编码进 resolve()，新增 `enemies/`、`音乐/` 后未同步，
@@ -133,6 +135,7 @@ def md_to_html(md, depth, current_rel=""):
     out = []
     i = 0
     in_ul = in_ol = in_quote = False
+    used_ids = set()          # 标题锚点去重（时间线用 #anchor 跳转，见 W-4.6-85）
     def close_all():
         nonlocal in_ul,in_ol,in_quote
         if in_ul: out.append("</ul>"); in_ul=False
@@ -169,7 +172,9 @@ def md_to_html(md, depth, current_rel=""):
         h = re.match(r"^(#{1,6})\s+(.*)", line)
         if h:
             lvl = len(h.group(1)); close_all()
-            out.append(f"<h{lvl}>"+convert_inline(h.group(2), depth, current_rel)+f"</h{lvl}>"); i += 1; continue
+            hid = slug(h.group(2), used_ids)
+            ids = f' id="{hid}"' if hid else ""
+            out.append(f"<h{lvl}{ids}>"+convert_inline(h.group(2), depth, current_rel)+f"</h{lvl}>"); i += 1; continue
         if re.match(r"^\s*[-*]\s+", line):
             if in_ol: out.append("</ol>"); in_ol=False
             if not in_ul: out.append("<ul>"); in_ul=True
@@ -232,6 +237,97 @@ def inject_icon(meta, rel, depth, title):
             parts.append(f'<div class="icon-fallback" style="width:{w}px;height:{h}px"></div>')
     return '<div class="entity-card">' + "".join(parts) + "</div>"
 
+# ===== 剧情时间线（W-4.6-85） =====
+# 数据源唯一：zh_cn/quest/主线任务.md（**已入库** → CI/公开站同样有数据）。
+# 零新增手写内容：章节名 / 版本号 / 官方日期 / 子任务列表全部机械解析。
+def slug(s, used=None):
+    """标题 → 锚点 id。只保留 \\w（含中日韩）与连字符，重复时追加序号。"""
+    x = re.sub(r"[^\w\u3400-\u4dbf-]+", "-", s).strip("-")
+    x = re.sub(r"-{2,}", "-", x)
+    if used is not None and x:
+        base, n = x, 2
+        while x in used:
+            x = f"{base}-{n}"; n += 1
+        used.add(x)
+    return x
+
+
+def parse_main_quest_timeline():
+    """解析主线任务文档 → 时间线单元列表。解析不到就返回 []（构建方自行降级）。"""
+    src = SRC / (TIMELINE_SRC + ".md")
+    if not src.exists():
+        return []
+    text = src.read_text(encoding="utf-8", errors="ignore")
+    units = []
+    for chunk in re.split(r"^## ", text, flags=re.M)[1:]:
+        lines = chunk.splitlines()
+        if not lines:
+            continue
+        title = lines[0].strip()
+        # 排除「阅读说明」与末尾「待补充」小节
+        if not title or title.startswith("阅读说明") or title.startswith("待补充"):
+            continue
+        secs = {}
+        for part in re.split(r"^### ", chunk, flags=re.M)[1:]:
+            pl = part.splitlines()
+            secs[pl[0].strip()] = "\n".join(pl[1:]).strip()
+        m = re.match(r"^([0-9]+(?:\.[0-9]+)*(?:~[0-9]*(?:\.[0-9]+)*)?)（([^）]*)）",
+                     secs.get("版本", "").strip())
+        if not m:
+            continue
+        ver, dates_raw = m.group(1).strip(), m.group(2).strip()
+        d_start = re.match(r"(\d{4}-\d{2}-\d{2})", dates_raw)
+        d_end = re.search(r"~\s*(\d{4}-\d{2}-\d{2})", dates_raw)
+        unit, _, rest = title.partition("：")
+        head = re.match(r"^([0-9]+)", ver)
+        units.append({
+            "unit": unit.strip(),
+            "title": rest.strip() or unit.strip(),
+            "ver": ver,
+            "start": d_start.group(1) if d_start else "",
+            "end": d_end.group(1) if d_end else "",
+            "major": int(head.group(1)) if head else 0,
+            "order": [int(x) for x in ver.split("~")[0].split(".")],
+            "names": [x.strip() for x in re.split(r"\s*/\s*", secs.get("章节名", "")) if x.strip()],
+            "subtasks": re.findall(r"^\s*\d+\.\s+(.+)$", secs.get("子任务列表", ""), re.M),
+            "anchor": slug(title),
+            "page": TIMELINE_SRC,
+        })
+    # 按**官方发布顺序**（版本号）排序 —— 文档本身是主题序，两者不同
+    units.sort(key=lambda u: (u["order"], u["ver"]))
+    return units
+
+
+def timeline_html(units, up):
+    """静态可读的版本轴（无 JS 亦可读：<details> 原生展开）；JS 只负责追加筛选。"""
+    if not units:
+        return ""
+    rows = []
+    for n, u in enumerate(units):
+        href = f'{up}pages/{urlq(u["page"])}.html'
+        if u["anchor"]:
+            href += "#" + urllib.parse.quote(u["anchor"], safe="")
+        names = "".join(f'<span class="tl-name">{esc(x)}</span>' for x in u["names"])
+        subs = ""
+        if u["subtasks"]:
+            items = "".join(f"<li>{esc(x)}</li>" for x in u["subtasks"])
+            subs = (f'<details class="tl-sub"><summary>{len(u["subtasks"])} 个子任务</summary>'
+                    f"<ol class=\"tl-sublist\">{items}</ol></details>")
+        span = esc(u["start"]) + ("–" + esc(u["end"]) if u["end"] else "")
+        rows.append(
+            f'<li class="tl-item" data-major="{u["major"]}" style="--i:{n}">'
+            f'<span class="tl-ver">{esc(u["ver"])}</span>'
+            f'<span class="tl-date">{span}</span>'
+            f'<div class="tl-body"><a class="tl-title" href="{href}">{esc(u["unit"])}'
+            f'<span class="tl-sep"> · </span>{esc(u["title"])}</a>'
+            f'{names}{subs}</div></li>')
+    return (f'<section class="timeline mv" id="timeline-root" style="--i:1" aria-label="剧情时间线（按官方版本发布顺序）">'
+            f'<h2 class="tl-h2">剧情时间线</h2>'
+            f'<p class="tl-note">按<b>官方版本发布顺序</b>排列（共 {len(units)} 个剧情单元，数据源 '
+            f'<code>{esc(TIMELINE_SRC)}.md</code>）。点击章节名可跳转对应小节。</p>'
+            f'<ol class="tl">{"".join(rows)}</ol></section>')
+
+
 def main():
     global PAGE_SET, SRC2KEY
     if PAGES.exists(): shutil.rmtree(PAGES)
@@ -259,6 +355,17 @@ def main():
             _seen[key] = rel
     # 第一遍：填充 PAGE_SET
     PAGE_SET = set(SRC2KEY.values())
+    # ---- 剧情时间线：解析失败则静默降级（不插容器），构建照常成功（对齐 D-044）----
+    tl_units = parse_main_quest_timeline()
+    if tl_units:
+        TIMELINE_DATA.write_text(
+            "window.TIMELINE = " + json.dumps(
+                {"source": TIMELINE_SRC + ".md", "count": len(tl_units), "units": tl_units},
+                ensure_ascii=False) + ";", encoding="utf-8")
+        print("时间线: %d 个单元（数据源 %s.md）" % (len(tl_units), TIMELINE_SRC))
+    else:
+        print("WARN 时间线: 未能从 %s.md 解析到任何单元 → 不插入时间线容器" % TIMELINE_SRC)
+
     titles = []
     for idx, (p, rel) in enumerate(rel_paths):
         md = p.read_text(encoding="utf-8", errors="ignore").lstrip("\ufeff")
@@ -285,9 +392,14 @@ def main():
             nr = rel_paths[idx+1][1]; nt = nr.split("/")[-1]; nrk = SRC2KEY[nr]
             prev_nxt += f'<a class="navnext" href="{up}pages/{urlq(nrk)}.html">{esc(nt)} →</a>'
         else: prev_nxt += '<span class="navnext"></span>'
-        meta_html = '<div class="meta">'+"".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k,v in meta.items())+"</div>" if meta else ""
+        meta_html = '<div class="meta mv" style="--i:3">'+"".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k,v in meta.items())+"</div>" if meta else ""
         icon_html = inject_icon(meta, rel, depth, title)
         sidenav = sidenav_html(up, parts[0])
+        # 仅剧情索引页插入时间线（静态渲染；JS 只做增量增强）
+        extra_top = extra_scripts = ""
+        if rel == TIMELINE_SRC.rsplit("/", 1)[0] + "/索引" and tl_units:
+            extra_top = timeline_html(tl_units, up)
+            extra_scripts = f'<script src="{up}assets/timeline.js"></script>'
         doc = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} — HSR Wiki</title>
@@ -296,9 +408,10 @@ def main():
 <nav class="crumbs">{crumbs}</nav>
 {sidenav}
 <main>
-<h1>{esc(title)}</h1>
+<h1 class="mv" style="--i:0">{esc(title)}</h1>
 {icon_html}
-<div class="prose">
+{extra_top}
+<div class="prose mv" style="--i:2">
 {md_to_html(body, depth, rel)}
 </div>
 {meta_html}
@@ -306,6 +419,7 @@ def main():
 <footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0）</footer>
 </main>
 <script src="{up}assets/theme.js"></script>
+{extra_scripts}
 </body></html>"""
         key = SRC2KEY[rel]
         outp = (PAGES / key.replace("/", os.sep)).with_suffix(".html")

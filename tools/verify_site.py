@@ -390,6 +390,73 @@ def check_print():
         fail(12, "@media print 块内缺 display:none（未隐藏界面元素）")
 
 
+# ---------------- [13] 剧情时间线（W-4.6-85） ----------------
+def check_timeline(files):
+    """只在剧情索引页出现；数据文件结构正确；版本轴按官方顺序；无外部资源。"""
+    timeline_js = WIKI / "assets" / "timeline.js"
+    data_js = DATA / "timeline.js"
+    index_quest = PAGES / "quest" / "索引.html"
+
+    if not data_js.exists():
+        print("[13] 剧情时间线: 缺少 %s（先运行 python wiki/build_wiki.py）" % data_js)
+        fail(13, "缺少 wiki/data/timeline.js")
+        return
+    m = re.search(r"window\.TIMELINE\s*=\s*(\{.*\})\s*;?\s*$", read(data_js).strip(), re.S)
+    if not m:
+        print("[13] 剧情时间线: data/timeline.js 结构不可解析")
+        fail(13, "timeline.js 结构不可解析")
+        return
+    try:
+        data = json.loads(m.group(1))
+    except Exception as e:
+        print("[13] 剧情时间线: data/timeline.js JSON 解析失败 %r" % e)
+        fail(13, "timeline.js 内容不是合法 JSON")
+        return
+
+    units = data.get("units") or []
+    orders = [u.get("order") or [] for u in units]
+    monotonic = orders == sorted(orders)
+    dated = [u for u in units if u.get("start")]
+    anchors = [u for u in units if u.get("anchor")]
+
+    # 容器只应在剧情索引页出现
+    holders = [f for f in files if 'id="timeline-root"' in read(f)]
+    only_index = len(holders) == 1 and holders[0].resolve() == index_quest.resolve()
+    # 索引页里时间线节点数 == 数据单元数，且必须在 prose 之前
+    idx = read(index_quest) if index_quest.exists() else ""
+    node_n = len(re.findall(r'class="tl-item"', idx))
+    before_prose = ('id="timeline-root"' in idx) and (
+        idx.find('id="timeline-root"') < idx.find('<div class="prose'))
+    # 增强脚本只在索引页引入，且不得引用外部资源
+    has_script = bool(re.search(r'<script src="[^"]*assets/timeline\.js"></script>', idx))
+    ext = bool(re.search(r'(?:src|href)\s*=\s*["\']https?://', read(timeline_js) if timeline_js.exists() else ""))
+
+    print("[13] 剧情时间线: 单元=%d(带日期=%d 带锚点=%d) 版本序单调=%s | 节点=%d | 仅索引页=%s 在prose前=%s | timeline.js=%s 外链=%s"
+          % (len(units), len(dated), len(anchors), monotonic, node_n,
+             only_index, before_prose, has_script, ext))
+
+    if len(units) < 2:
+        fail(13, "时间线单元数 %d（应 ≥2，疑似解析退化）" % len(units))
+    if len(dated) < 2:
+        fail(13, "含官方日期的单元仅 %d 个（应 ≥2）" % len(dated))
+    if not monotonic:
+        fail(13, "单元 order 序列非单调递增（未按官方版本发布顺序）")
+    if node_n != len(units):
+        fail(13, "索引页时间线节点 %d 个 ≠ 数据单元 %d 个" % (node_n, len(units)))
+    if not only_index:
+        print("      ! 含时间线容器页数=%d（应恰为 quest/索引.html）：%s"
+              % (len(holders), [rel(f) for f in holders[:5]]))
+        fail(13, "时间线容器未恰好出现在剧情索引页")
+    if not before_prose:
+        fail(13, "时间线容器未出现在 <div class=\"prose\"> 之前")
+    if not has_script:
+        fail(13, "剧情索引页未引入 assets/timeline.js")
+    if not timeline_js.exists():
+        fail(13, "缺少 wiki/assets/timeline.js")
+    if ext:
+        fail(13, "timeline.js 引用了外部资源（图片零入库 / 不得外链）")
+
+
 def main():
     print("=== 静态站回归自检（W-4.6-67） ===")
     print("root: %s" % ROOT)
@@ -412,6 +479,7 @@ def main():
     check_search_accessibility()
     check_small_nav()
     check_print()
+    check_timeline(files)
     if fails:
         print("RESULT: FAIL  失败项 %d：" % len(fails))
         for f in fails:

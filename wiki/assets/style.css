@@ -136,3 +136,98 @@ table thead th{position:sticky;top:0;background:var(--soft)}
   table,pre,blockquote{page-break-inside:avoid}
   table{font-size:10.5pt}
 }
+
+/* ===== W-4.6-85 剧情时间线（数据源 zh_cn/quest/主线任务.md · 只在剧情索引页出现） =====
+   瑞士风：直角、细线、唯一强调色、8px 栅格；动效只用 transform/opacity。 */
+.timeline{margin:0 0 48px;padding:0 0 16px;border-bottom:1px solid var(--line)}
+.timeline .tl-h2{font-size:22px;margin:0 0 8px}
+.tl-note{font-size:13px;color:var(--muted);margin:0 0 24px}
+.tl-note code{font-size:12px}
+.tl-filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.tl-filters button{font:inherit;font-size:13px;padding:6px 12px;border:1px solid var(--line);
+  border-radius:0;background:transparent;color:var(--ink);cursor:pointer;font-variant-numeric:tabular-nums;
+  transition:border-color .3s cubic-bezier(.32,.72,0,1),color .3s cubic-bezier(.32,.72,0,1)}
+.tl-filters button:hover{border-color:var(--ink)}
+.tl-filters button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:700}
+.tl-count{font-size:13px;color:var(--muted);margin:0 0 16px;min-height:1em}
+.tl{list-style:none;margin:0;padding:0 0 0 24px;border-left:1px solid var(--line)}
+.tl-item{position:relative;display:grid;grid-template-columns:96px 104px minmax(0,1fr);
+  gap:0 16px;padding:0 0 24px}
+.tl-item::before{content:"";position:absolute;left:-28px;top:8px;width:9px;height:9px;background:var(--accent)}
+.tl-item[hidden]{display:none}
+.tl-ver{font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
+.tl-date{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.tl-body{min-width:0}
+.tl-title{font-weight:700}
+.tl-sep{color:var(--muted);font-weight:400}
+.tl-name{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+.tl-sub{margin-top:8px}
+.tl-sub summary{cursor:pointer;font-size:13px;color:var(--accent)}
+.tl-sublist{margin:8px 0 0;padding-left:20px;font-size:14px}
+.tl-sublist li{padding:2px 0}
+/* 时间线节点错峰入场（纯 transform/opacity；reduced-motion 下由下方规则关闭） */
+@keyframes tlIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.timeline .tl-item{animation:tlIn .5s cubic-bezier(.32,.72,0,1) both;animation-delay:calc(var(--i,0)*30ms)}
+@media(max-width:640px){
+  .tl{padding-left:16px}
+  .tl-item{grid-template-columns:minmax(0,1fr);gap:0}
+  .tl-item::before{left:-20px;top:7px}
+  .tl-date{margin:2px 0 6px}
+}
+@media print{
+  .tl-filters,.tl-count,.tl-sub{display:none}
+  .timeline .tl-item{animation:none}
+  .tl-item{grid-template-columns:80px minmax(0,1fr)}
+}
+@media(prefers-reduced-motion:reduce){.timeline .tl-item{animation:none}}
+
+/* ===== W-4.6-85b 全站动效（推荐套 6 项） =====
+   纪律：只用 transform / opacity / 颜色；不引 shadow / gradient / radius（verify_site [5] 断言）。
+   全部包在 prefers-reduced-motion: no-preference 内，并把「无 JS 也要可见」作为前提。 */
+
+/* ① 正文区块错峰入场：h1(--i:0) → 时间线(1) → 正文(2) → 元信息(3) */
+@media (prefers-reduced-motion: no-preference){
+  .mv{animation:riseIn .6s cubic-bezier(.32,.72,0,1) both;animation-delay:calc(var(--i,0)*60ms)}
+}
+
+/* ② 时间线竖轴生长 + 节点落位（节点动画在 .tl-item 上，见上） */
+@media (prefers-reduced-motion: no-preference){
+  @keyframes axisGrow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+  .timeline .tl{position:relative}
+  .timeline .tl::before{content:"";position:absolute;left:-1px;top:0;bottom:0;width:1px;
+    background:var(--accent);transform-origin:top;
+    animation:axisGrow 1s cubic-bezier(.32,.72,0,1) both}
+}
+
+/* ③ 链接 hover：下划线从左展开（只给短链接，避免正文长链接跨行时错位） */
+.crumbs a,.pager a,.results a,.sidenav a,.tl-title{position:relative;text-decoration:none}
+.crumbs a::after,.pager a::after,.results a::after,.sidenav a::after,.tl-title::after{
+  content:"";position:absolute;left:0;right:0;bottom:-2px;height:1px;background:var(--accent);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform .28s cubic-bezier(.32,.72,0,1)}
+.crumbs a:hover::after,.pager a:hover::after,.results a:hover::after,
+.sidenav a:hover::after,.tl-title:hover::after{transform:scaleX(1)}
+.crumbs a:hover,.pager a:hover,.results a:hover,.sidenav a:hover,.tl-title:hover{text-decoration:none}
+.sidenav li.cur a::after{bottom:-4px}
+
+/* ④ 按钮按下微反馈（120ms） */
+.theme-toggle{transition:transform .12s cubic-bezier(.32,.72,0,1),
+  background-color .16s linear,border-color .16s linear,color .16s linear}
+.tl-filters button{transition:transform .12s cubic-bezier(.32,.72,0,1),
+  background-color .16s linear,border-color .3s cubic-bezier(.32,.72,0,1),
+  color .3s cubic-bezier(.32,.72,0,1)}
+.theme-toggle:active,.tl-filters button:active{transform:translateY(1px)}
+
+/* ⑤ 滚动揭示正文小节（仅 @supports 且浏览器支持 scroll-driven animations 时生效） */
+@media (prefers-reduced-motion: no-preference){
+  @supports (animation-timeline: view()){
+    @keyframes sectionIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    .prose h2,.prose h3{animation:sectionIn linear both;animation-timeline:view();
+      animation-range:entry 0% cover 22%}
+  }
+}
+
+/* ⑥ 主题切换颜色过渡（160ms；只给随主题变色的元素，不动 .cat 既有的 .7s 过渡，
+      也不覆盖 ④ 里按钮的 transform 过渡） */
+body,.sidenav,.meta,blockquote,table th,.missing-note{
+  transition:background-color .16s linear,border-color .16s linear,color .16s linear}
