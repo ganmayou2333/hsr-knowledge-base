@@ -3,6 +3,27 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-05
 
+## 2026-10-05 14:30
+
+**W-4.6-90：WSL 环境收尾 + 可视化页面（预览服务 + 图形打开器 + 一键重建脚本）**
+
+- **背景**：目标「配齐环境和可视化页面」。环境主体在上一条（W-4.6-89）已完成；本条补齐**常驻预览服务**、**图形化打开方式**与**可复现的安装脚本**。
+- **交付物**：
+  | 产物 | 位置 | 作用 |
+  |---|---|---|
+  | `hsr-preview.service` | WSL `/etc/systemd/system/`（开机自启已 enable） | 预览服务器常驻：`http://127.0.0.1:8788/`，`WorkingDirectory=~/HSR` |
+  | `hsr-view` | WSL `/usr/local/bin/hsr-view` | **图形浏览器一键打开**；支持指定页与中文路径编码 |
+  | `setup-wsl-env.sh` | `.tmp_build/wsl-setup/` | **一条命令重建整套环境**（工具链/字体/Chrome/Python 依赖/服务/打开器），已过 `bash -n` |
+  | `wsl.conf`·`wslconfig.txt`·`hsr-view`·`hsr-preview.service` | `.tmp_build/wsl-setup/` | 配置留档（重装 WSL 后可还原） |
+- **`hsr-view` 用法**：`hsr-view`（首页）· `hsr-view "pages/quest/索引.html"`（指定页，实测编码为 `%E7%B4%A2%E5%BC%95.html`）。
+- **三个坑与修法（都实测踩到并修掉）**：
+  1. **`nohup ... &` / `systemd-run` 启动的 GUI 进程会被回收** → `hsr-view` 改用 **`setsid`** + 显式环境变量；
+  2. **systemd 用户服务不继承 WSLg 的 `DISPLAY`** → 日志明确报 `Missing X server or $DISPLAY`；脚本改为**显式导出** `DISPLAY`/`WAYLAND_DISPLAY`/`XDG_RUNTIME_DIR`/`PULSE_SERVER`；
+  3. **我自己的检测 bug**：`pgrep -f "$BROWSER.*hsr-chrome-view"` 匹配不到真实进程（cmdline 是 `/opt/google/chrome/chrome`），导致「浏览器已起来却报失败」→ 改为 `pgrep -f "hsr-chrome-view"`。**探针写错不等于功能坏了。**
+- **验收（Lead 亲跑，WSL Ubuntu 26.04）**：构建 **6668 页 / 96564 链接 / 死链 0 / 未收录 0**；`verify_site` **RESULT: PASS**；`verify_links` **exit 0**；`verify_fields` **异常 0 / 待补充 156**；`hsr-preview` **active + enabled**、`HTTP 200`；GUI 实测弹窗成功（首页与中文页面各一次）。
+- **渲染实证**：WSL 内 headless Chrome 截图首页（1280×900）→ **中文完全正常**（标题/仪表盘/最新收录 12 条/快速访问四按钮），无方块。
+- **环境总览**：Ubuntu 26.04.1 LTS · 用户 `tom` · systemd running · git 2.53 · Node v22.23.3 · Python 3.14.4 · Chrome 154 · 中文字体 80 · `DISPLAY=:0` · 仓库 212M / 6668 页。
+
 ## 2026-10-05 14:15
 
 **W-4.6-89：环境迁移可行性 + 跨平台改造（Windows → WSL Ubuntu 26.04）**
