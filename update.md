@@ -3,6 +3,24 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-05
 
+## 2026-10-05 15:00
+
+**W-4.6-92：修掉 GUI 的「Unable to contact settings server」（D-Bus 会话总线缺失）**
+
+- **现象（用户截图）**：WSL 里弹窗报 `Unable to contact settings server / Could not connect: No such file or directory`。
+- **先判性质**：**窗口能弹出本身就证明 WSLg 正常** —— 报错的是程序内部，不是图形层。据此往下查，没有去重装 WSLg。
+- **根因（实测定位到 socket 级）**：
+  * `DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus`（**变量已设置**）
+  * **但 `/run/user/1000/bus` 这个 socket 文件不存在** → 任何用 GSettings/xfconf 的程序（`thunar`、`xfce4-terminal`）都会报这个错
+  * 且 `user@1000.service` 处于 **`failed`**、`loginctl` 显示 **`Linger=no`**、`/run/user/1000/` 为空
+- **修法**：`sudo loginctl enable-linger tom` + `systemctl restart user@1000.service`
+  → `Linger=yes`、`user@1000=active`、**`/run/user/1000/bus` 出现**、`xfconf-query` 正常应答。
+  （`systemctl --user start dbus.socket` **不行** —— 它自己也要连总线，鸡生蛋；`dbus-launch` 可作临时兜底，但随 shell 退出消失。）
+- **验证**：`wsl --shutdown` 后重进，**状态自动恢复**（`Linger=yes` / `user@1000=active` / bus 存在 / `DISPLAY=:0` / `xfconf` 连通 / `hsr-preview=active` / 预览 **HTTP 200**）；弹窗实测 `hsr-view` 与 `thunar ~/HSR` 均成功，**`thunar` 无任何报错**（原报错消失）。
+- **顺带纠正一条旧记录**：之前记「只有 `xfce4-terminal`/`thunar`，无桌面环境」**不准确** —— 实测 `xfce4-session`（4.20.4）与 `xfce4-settings`（4.20.1）**已安装**，`startxfce4` 在 `/usr/bin/startxfce4`。当时 `command -v` 查不到是受 `systemd user session` 报错干扰，属**探测误判**。
+- **脚本固化**：`setup-wsl-env.sh` 新增 **`[0b] D-Bus 会话总线`** 段（开启 linger + 检查 bus 存在性 + 给出兜底命令），避免重装环境后重踩。
+- **未 push。**
+
 ## 2026-10-05 14:45
 
 **W-4.6-91：`setup-wsl-env.sh` 冷启动演练（真跑一遍，修掉 3 个缺陷）**
