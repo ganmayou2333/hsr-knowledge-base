@@ -3,14 +3,21 @@
 Windows 系统垃圾清理工具（安全版）
 清理：用户临时目录 / Windows 临时目录 / 回收站 / 浏览器缓存 / 项目临时文件
 不碰系统关键文件，失败项自动跳过并报告。
-用法：python clean_system.py [--dry-run] [--project G:\\HSR]
+用法：python clean_system.py [--dry-run] [--project <项目目录>]
+      --project 默认取脚本所在仓库根目录（跨平台；不再硬编码 Windows 盘符路径）
 """
 import os, sys, shutil, subprocess, argparse, ctypes
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+# 本脚本的「清空回收站」一步只对 Windows 有意义（用 Shell.Application COM）。
+# 其它平台（Linux/WSL/macOS）没有回收站概念 → 该步整体降级跳过，其余清理照常。
+IS_WINDOWS = os.name == 'nt'
+
 def is_admin():
+    if not IS_WINDOWS:
+        return os.geteuid() == 0
     try:
         return ctypes.windll.shell32.IsUserAnAdmin()
     except:
@@ -60,7 +67,10 @@ def clean_dir(path, label, dry_run=False):
     return freed
 
 def clean_recycle_bin(dry_run=False):
-    """清空回收站"""
+    """清空回收站（仅 Windows；其它平台无此概念，整体跳过）"""
+    if not IS_WINDOWS:
+        print('  [跳过] 回收站: 当前平台无回收站概念（仅 Windows 适用）')
+        return 0
     if dry_run:
         print('  [预览] 回收站: 将清空')
         return 0
@@ -97,7 +107,8 @@ def clean_browser_cache(dry_run=False):
 def main():
     parser = argparse.ArgumentParser(description='Windows 系统垃圾清理工具')
     parser.add_argument('--dry-run', action='store_true', help='仅预览，不实际删除')
-    parser.add_argument('--project', default=r'G:\HSR', help='项目目录（清理其临时文件）')
+    parser.add_argument('--project', default=str(Path(__file__).resolve().parent.parent),
+                        help='项目目录（清理其临时文件）；默认 = 本脚本所在仓库根目录')
     args = parser.parse_args()
 
     print('=' * 50)

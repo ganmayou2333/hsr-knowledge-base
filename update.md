@@ -1,7 +1,40 @@
 # 更新日志（update）
 
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
-> 最近更新：2026-10-04
+> 最近更新：2026-10-05
+
+## 2026-10-05 14:15
+
+**W-4.6-89：环境迁移可行性 + 跨平台改造（Windows → WSL Ubuntu 26.04）**
+
+- **背景**：用户计划迁到 Linux（先问 VMware Tools、后改 WSL，最终选定 WSL）。Lead 先做**迁移清单实测**，再落地跨平台改造。
+- **迁移清单（实测值，非估算）**：工作区总计 **≈2.3 GB**，其中**不可再生仅 ≈8.1 MB** = `*/quest/剧情文本/`（**836 文件 / 8.08 MB**，被 `.gitignore:24` 忽略、**GitHub 上没有**）+ 回滚备份 `stamp_backup` 102.6 MB。可再生大件：`StarRailRes-master` **1,139.6 MB**、`.tmp_mediawiki` **887.9 MB**、`.git` 71.9 MB、wiki 产物 73.2 MB。**`StarRailRes_repo` 实为 0 文件空目录**（文档写 ~2.0 GB 已过期）。
+- **可移植性实测**：29,413 个跟踪文件 **0 组大小写冲突**（Linux 大小写敏感不会破链）；`.obsidian/` **不存在**；硬编码 Windows 路径 **7 处**；Windows 专有代码 **4 处**。
+- **WSL 环境已建好（Lead 亲建亲验）**：Ubuntu **26.04.1 LTS (Resolute Raccoon)**，内核 6.6.87.2-microsoft-standard-WSL2，systemd running，Python 3.14.4。
+  * **装法要点**：`wsl --install -d Ubuntu-26.04` 失败（`raw.githubusercontent.com` 的 `DistributionInfo.json` 被重置/超时，`0x80072ee2`/`0x80072eff`）→ 改从 **`cdimages.ubuntu.com/ubuntu-wsl/resolute/daily-live/`** 取官方 rootfs，用 **`wsl --install --from-file`** 装，**完全绕开 GitHub**；**SHA256 与官方 SUMS 逐字校验一致**。
+  * `--from-file` **不接受 `--location`** → 首次装到 C 盘（1,388 MB），已 `export → unregister → import` 迁到 **`G:\WSL\Ubuntu-26.04`（1,004 MB）**，`LOCALAPPDATA\wsl` 残留 **0 MB**。
+  * 建普通用户 `tom`（免密 sudo）+ `/etc/wsl.conf`（`systemd=true` / `default=tom`）；装了 git 2.53 / rsync 3.4.1 / build-essential / **Node v22.23.3** / **Chrome 154**（官方 deb；Ubuntu 的 chromium 是 snap 包装，WSL 里装不上）/ `zhconv`。
+  * **`networkingMode=mirrored` 已生效**（判据：WSL `eth0=192.168.1.241/24`、默认网关 `192.168.1.1` —— 拿到真实局域网地址，NAT 模式下会是 `172.x.x.x`）；`.wslconfig` 另加 `memory=12GB`。
+  * **WSLg 本已可用**（`C:\Program Files\WSL\wslg.exe`、`/mnt/wslg` 已挂、`DISPLAY=:0`、`WAYLAND_DISPLAY=wayland-0`）；补装 **中文字体 0→80 个**（Noto CJK，不装 GUI 全是方块）+ `x11-utils x11-apps libgl1 xfce4-terminal thunar`；**实测弹窗成功**（`xcalc`/Chrome 启动，Windows 侧 `msrdc` + `wslhost` 出现）。
+- **跨平台改造（本单交付物，2 个入库文件）**：
+  | 文件 | 改动 |
+  |---|---|
+  | `tools/render_fetch.py` | `BROWSERS` 由**5 条硬编码 Windows 路径**改为**三层探测**：PATH 命令名（`shutil.which`）→ Windows 安装位 → Linux 安装位（`/usr/bin/google-chrome`、`chromium`、`/snap/bin/chromium` 等）；`find_browser()` 支持裸命令名。**Windows 侧行为不变**（实测仍返回 `C:\Program Files\Google\Chrome\...`） |
+  | `scripts/clean_system.py` | 新增 `IS_WINDOWS` 平台判定 →「清空回收站」在非 Windows **整体降级跳过**（Linux 无此概念，原来会 `ctypes.windll` 崩）；`--project` 默认值由硬编码 `G:\HSR` 改为**脚本所在仓库根目录**（跨平台） |
+  * 另修 `.tmp_build/cdp_probe.py`（不入库）：`CHROME`/`PROFILE` 改为跨平台探测（`/usr/bin/google-chrome`、`/tmp/`），并支持 `CHROME_BIN` 覆盖。
+  * 顺手修掉自己引入的 `SyntaxWarning`（docstring 里的 `G:\HSR` 转义）。
+- **验收（Windows 侧无回归 + WSL 侧全绿，Lead 亲跑）**：
+  | 项 | Windows | **WSL Ubuntu 26.04** |
+  |---|---|---|
+  | `build_wiki` | 6668 页 / 96564 链接 / 死链 0 | **6668 / 96564 / 0**（且仅 **3.4 秒**） |
+  | `verify_site` | PASS | **[1]–[14] RESULT: PASS** |
+  | `verify_links` | exit 0 | **exit 0** |
+  | `verify_fields` | 异常 0 / 待补充 156 | **异常 0 / 待补充 156** |
+  | 五语言 md | 6668/5871/5867/5864/5847 | **完全一致** |
+  | 真实浏览器验收 | D1–D9 / T1–T9 / M1–M7 PASS | **D1–D9 PASS · T1–T9 PASS · M1–M7 PASS** |
+  | 不可再生数据 | — | `剧情文本` **168+167×4=836 文件** 全部到位 |
+- **过程中的两个自纠**：① 后台服务器用 `Start-Job`/`nohup`/`setsid` 都会随 shell 退出被杀 → 改为 **systemd 服务** `hsr-preview.service` 才稳定（首轮 D1–D5/D7/D9 失败全因服务器已死，**不是代码问题**）；② WSL 一度 `E_UNEXPECTED` 卡死（`wsl -l -v` 显示 Running 但所有命令失败）→ `--terminate` + `--shutdown` 恢复。
+- **未 push。**
 
 ## 2026-10-04 20:05
 

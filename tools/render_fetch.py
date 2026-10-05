@@ -27,17 +27,30 @@ import os
 import re
 import subprocess
 import sys
+import shutil
 import tempfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
+# 按「先 PATH 后固定安装位」的顺序探测。跨平台：
+#   Windows → chrome.exe / msedge.exe 的常见安装目录
+#   Linux/WSL → google-chrome / chromium / chromium-browser / microsoft-edge（PATH 或 /usr/bin）
 BROWSERS = [
+    # 1) PATH 里的命令名（Windows 上 shutil.which 也会找 .exe，故一并覆盖）
+    "google-chrome", "google-chrome-stable", "chromium", "chromium-browser",
+    "microsoft-edge", "microsoft-edge-stable",
+    "chrome", "msedge",
+    # 2) Windows 固定安装位
     r"C:\Program Files\Google\Chrome\Application\chrome.exe",
     r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
     os.path.expandvars(r"%LOCALAPPDATA%\Google\Chrome\Application\chrome.exe"),
     r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
     r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+    # 3) Linux/WSL 固定安装位
+    "/usr/bin/google-chrome", "/usr/bin/google-chrome-stable",
+    "/usr/bin/chromium", "/usr/bin/chromium-browser",
+    "/usr/bin/microsoft-edge", "/snap/bin/chromium",
 ]
 
 TAG_RE = re.compile(r"<[^>]+>")
@@ -49,8 +62,16 @@ NL_RE = re.compile(r"\n{2,}")
 
 def find_browser():
     for p in BROWSERS:
-        if p and os.path.isfile(p):
-            return p
+        if not p:
+            continue
+        # 绝对路径：确认存在；裸命令名：交给 PATH 解析
+        if os.path.isabs(p):
+            if os.path.isfile(p):
+                return p
+        else:
+            hit = shutil.which(p)
+            if hit:
+                return hit
     return None
 
 
