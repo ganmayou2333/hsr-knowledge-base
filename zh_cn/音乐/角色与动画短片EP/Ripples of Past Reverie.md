@@ -12,9 +12,9 @@
 |---|---|
 | 专辑名 | Ripples of Past Reverie |
 | 英文名 | Ripples of Past Reverie (Honkai: Star Rail Cyrene Animated Short Single) - EP |
-| 日文名 | 未取得 |
-| 韩文名 | 未取得 |
-| 繁体名 | 未取得 |
+| 日文名 | 待补充 |
+| 韩文名 | 待补充 |
+| 繁体名 | 待补充 |
 | 类型 | 动画短片EP |
 | 发行日期 | 2025-11-06 |
 | 曲目数 | 5 |
