@@ -5,6 +5,7 @@
 > 实体ID：192160
 > 创建时间：2026-08-30 18:23
 > 更新时间：2026-08-30 22:25
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：zh_cn/items/Usable/Book/Character Name Card Madam House.md；时间：2026-11-14）
 
 ---
 

@@ -5,6 +5,7 @@
 > 实体ID：13401 / 13402 / 113401 / 113402 / 413401
 > 创建时间：2026-08-30 18:23
 > 更新时间：2026-08-30 22:25
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://github.com/Mar-7th/StarRailRes（index_new/cn/simulated_events.json；时间：2026-11-14）
 
 ---
 

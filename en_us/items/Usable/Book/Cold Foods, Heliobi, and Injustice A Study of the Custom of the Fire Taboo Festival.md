@@ -5,6 +5,7 @@
 > 实体ID：190458
 > 创建时间：2026-08-30 18:23
 > 更新时间：2026-08-30 22:25
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：zh_cn/items/Usable/Book/Cold Foods, Heliobi, and Injustice A Study of the Custom of the Fire Taboo Festival.md；时间：2026-11-14）
 
 ---
 
