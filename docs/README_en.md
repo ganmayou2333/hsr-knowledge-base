@@ -25,7 +25,7 @@ An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematicall
 | `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13) | 5 |
 | `stages/` | Stages library (Cavern of Corrosion / Echo of War / Stagnant Shadow / material stages, added v1.13) | 2 |
 | `音乐/` | Music library (album details + tracks, added v1.15) | 20 |
-| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (English 5,870 / Traditional Chinese 5,866 / Japanese 5,863 / Korean 5,846, mirroring all data above) | ~5,850 each |
+| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (English 5,881 / Traditional Chinese 5,878 / Japanese 5,875 / Korean 5,858, mirroring all data above) | ~5,850 each |
 
 > The index hierarchy is unified as: Main Index → Category / Path Index → Rating Index (rarity) → Details. Size counts **detail files only** (= files carrying `> 实体ID：` metadata, excluding index and group files; measured 2026-11-14).
 > [1] `quest/` `worldview/` `货币战争/` `rules/` are **document-type entries** (indexes / specs / world-building prose) without `> 实体ID：` metadata, so they count as **0** under this convention; their raw file counts are 173 / 8 / 7 / 5 (indexes included).
