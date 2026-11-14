@@ -3,6 +3,84 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-10-05
 
+## 2026-10-05 23:59
+
+**W-4.6-95：HSR 知识库首页重做原型（两版信息架构对照）—— Kimi K3 产出 + Lead 独立验收「通过」**
+
+- **用户拍板（四轮共 14 项）**：①风格＝瑞士风扁平·克制增强；②产出位置＝`.tmp_build/demo_home/`（gitignore）；③**不替换**现有首页（`wiki/index.html` 与生成器零改动）；④内容重心＝数据仪表盘强化；⑤**首屏＝搜索框 + 13 类目入口**；⑥**2 版信息架构对照**（A 搜索优先 / B 看板优先）；⑦区块保留 6 个（规模仪表·版本分布·类目导航·最新收录·图标库存·角色速览），**不做数据健康度独块**；⑧视觉**维持严格三禁**；⑨验收加码全选（纯净检出/复用验收器原函数/多环境矩阵/性能预算）；⑩**加「语言说明块」**（纯文本不链接）；⑪**搜索升级**（命中高亮 + ↑↓/Enter/Esc）；⑫**纯净检出改 `git archive` 纯净树**；⑬**渲染矩阵扩到 8 组**；⑭**工单加 7 个 skill**。落盘：`docs/prompts/W-4.6-95_首页重做原型_KimiK3.md`（**v4，304 行，SHA256 `D3D9A6611DE86096`**）。
+- **通道实测（D-052，收口 D-051）**：`subagent(provider=moonshotai-cn, model=kimi-k3)` 两次探测**均无** `child model selection is disabled` 报错；**权威证据**＝子会话 `request/header` 实录 `header.config={"provider":"moonshotai-cn","model":"kimi-k3"}`（`allowedModels` 实为 4 项）；**更正**：`dsh-usage/usage-ledger.json` **只按日聚合**，本会话期间 flash 计数随 Lead 自身回合增长 → **不能用于判定单次子代理路由**（D-051 曾据它推断，本条修正证据强度）。**skill 工具实测在子代理工具集内**（97 个工具，`skill` 在列）→ 工单 skill 条款可执行（**D-054**）。
+- **派单与交付**：子代理 `cbe4e398` 一次跑通，零 git 操作。交付 **4 文件**（SHA256 与自述**逐条一致**，Lead 亲算）：
+  | 文件 | 字节 | SHA256（前 16） |
+  |---|---|---|
+  | `a-search.html` | 25,381 | `0622024C6FD3E5A6` |
+  | `b-dashboard.html` | 25,526 | `6EE5234ECC6443EF` |
+  | `index.html` | 8,125 | `71109FA8EACA6381` |
+  | `PROVENANCE.md` | 19,583 | `0D52D7A5CCDC5127` |
+- **Lead 独立验收（不采信自述，全部亲跑；三套验收器为本轮新写）**：
+  | 验收器 | 口径 | 结果 |
+  |---|---|---|
+  | `.tmp_build/w4695_static_verify.py` | 复用 **`tools/verify_site.py::check_banned` 原函数**（`import` 后调用，不重写正则）＋外链/`@import`/`CSS url(`/`data:`/`<img>` 扫描＋站内链接逐条磁盘存在性＋**18 类数字独立复算**＋受保护文件 SHA256 对照 | **106/106 PASS**；原函数输出 `[5] 禁用项: radius=0 shadow=0 gradient=0 img=0 外链脚本=0 外链样式=0`，`fails` 为空 |
+  | `.tmp_build/w4695_browser_verify.js` | headless **Chrome/154** + 自写 CDP：**8 组渲染矩阵**（亮/暗 ×1280 ×600 ×320 ×1440 ×reduced-motion ×禁 JS）＋DOM 断言＋站内链接 HTTP 200＋**非本地主机请求 0**＋搜索真交互（`<mark>`/↑↓/Enter/Esc/`aria-activedescendant`）＋`titles.js` 阻断降级＋Tab 焦点顺序 | **本地树 350/350 PASS（exit 0）**；**纯净树 49/49 PASS（exit 0）**；截图 26 张（`%TEMP%`，铁律④） |
+  | `.tmp_build/w4695_contrast.js` | 浏览器**真实计算样式**下的 WCAG 对比度（Kimi 声明该项未做，Lead 补测） | 亮/暗 × 三页 **6/6 组合零低于阈值元素** |
+  | `.tmp_build/w4695_ci_verify.ps1` | `git archive HEAD` **纯净树**（**6,500 页 / 死链 0 / 34 未收录**，与 D-044 基线逐项一致）→ 放入 4 文件 → 树内 `build_wiki` **exit 0** → **13 个类目入口逐条存在** | 通过 |
+- **Lead 自纠（诚实记录）**：静态验收**首轮 118 项中 13 项 FAIL**、浏览器**首轮 342 项中 26 项 FAIL**，**经逐条取证全部为我自写检查器过严**，非交付缺陷：`url(` 误命中 JS 函数名 `pageUrl(`、`#main` 为 skip-link 被误判外链、`'+pageUrl(h.path)+'` 是运行时拼链模板、`index.html` 按工单 §1 只承载摘要却被我按全量断言。已修正检查器（负向断言排除标识符前缀、放行页内锚、索引页降级预期）后复跑得 106/106 与 350/350。
+- **唯一控制台 404 已定性为环境产物**：`/favicon.ico` 在本地 http 服务侧 404（仓库无此文件），**三页均未声明 favicon**，Chrome 首次加载自动请求所致 —— 独立复测 `index.html` 干净加载时**除文档外零请求、零非 200**；非 demo 缺陷（现站同样如此）。
+- **⚠️ 落地前必须处理的发现（原型性质决定）**：原型为「无 JS 也可见」把数字**静态内联**，故在**纯净树**（CI 等价）中真值不同 —— 纯净树 **6,500 页**（vs 本地 6,668）、`4.6` **2,493**（vs 2,494，差在 gitignore 的 `*/quest/剧情文本/`）；页面内联值不会随构建更新。**若采纳为新首页，必须改为「构建期注入真值」或「JS 填充 + 静态兜底」双轨**，否则线上数字会长期停在本地快照值。
+- **裁定：通过**。附 1 项**轻微偏差**（记录备查，本轮不打回）：`index.html` 无 `<nav>` landmark（仅 3 个 landmark，工单 §5.4 字面要求 4 个）—— 该页为工单 §1 追加的索引页，两版入口为 `<section>` 内链接，**零功能影响**；若日后进 `wiki/` 建议补 `<nav>`。
+- **skill 采纳可核查（工单 §7 第 10 项）**：`PROVENANCE.md` §4 有 7 行采纳记录（含被拒理由）；Lead **抽查落地**：`gap:1px`×8 · `tabular-nums`×17 · `<kbd>`×10 · `<time>`×24 · `aria-current="page"`×2 · `aria-pressed`×6 · `localStorage hsr-w4695-theme`×3 · 唯一红 token `#E30613`/`#FF3B30` · Consolas mono×13 · `::selection`/`caret-color`/`text-underline-offset` 齐备 · transitions 全 `.16s`（≤200ms）· `@keyframes`=0 · eyebrow/kicker=0 → **与声称一致，非装样子**。
+- **未提交、未 push。**
+
+## 2026-10-05 18:10
+
+**W-4.6-94：角色「直达面板」上线（一屏图标网格 + 三组筛选，点一次进详情）—— 派单豆包执行 + Lead 独立验收通过**
+
+- **用户拍板**：形态 = 一屏图标网格 + 筛选；位置 = 仅角色总索引页且**保留原四层索引表**；**执行方 = 豆包**（用户明确覆盖 D-001「工具/生成器/验收器由 Lead 直接做」，见 **D-050**，仅覆盖本单）。
+- **派单**：`node cdp.mjs doctor` 首测 **exit 3**（豆包在运行但未开调试端口）→ 经用户授权由 Lead 重启（`--remote-debugging-port=9222`）→ `doctor` **exit 0**（模式 = **work/本地电脑**，有 shell）。派单文本 `.tmp_doubao/W4694_派发.txt`；豆包自 17:37–17:40 完成 4 个文件改动，17:47 交付报告。
+- **交付物（4 个文件，改动面经核为纯增补）**：
+  | 文件 | 改动 |
+  |---|---|
+  | `wiki/build_wiki.py` | +139 / −2（新增 `parse_characters()` 与 `character_panel_html()`；2 处为声明行替换，**非整文件重写**） |
+  | `wiki/assets/character-panel.js` | **新增** 68 行（只切 `li.hidden`，不重排 DOM；不读 `icon`、不建 `<img>`） |
+  | `wiki/assets/style.css` | +46 / −0（`.cpanel*` 全套，显式 `border-radius:0`，含 ≤640px 与 `@media print`） |
+  | `tools/verify_site.py` | +163 / −0（新增 `check_character_panel()` = **[15]** 的 a–k，并注册） |
+  | `wiki/data/characters.js` | 生成物（gitignore，不入库），93 条，含 count/paths/elements/rarities/items |
+- **回滚参考（改前 SHA256 前 16 位）**：`build_wiki.py 50C937CE60CC0FB6`(505 行) · `style.css 7013B5780E3BBD73`(260) · `verify_site.py 2630BBA600B672C8`(568)；`character-panel.js` 原不存在。
+- **Lead 独立验收（不采信执行方自述，全部亲跑）**：
+  | 项 | 实测结果 |
+  |---|---|
+  | 四步回归 | `build_wiki` **6,668 页 / 96,564 链接 / 死链 0 / 未收录 0**（exit 0）· `verify_site` **[1]–[15] PASS** · `verify_links` **exit 0** · `verify_fields` **异常 0 / 待补充 156** |
+  | **独立复算**（Lead 自写解析器，不复用其代码） | 源文件含实体ID **93** = `items` **93**；`name/path/element/rarity/h1` **逐条比对不一致 0 处**；`star` 与 ★ 数一致 |
+  | 排序确定性 | `paths`/`elements` 与 Lead 独立复算**完全一致**；两次构建 `characters.js` 与 `角色.html` **逐字节相同** |
+  | 链接完整性 | **93/93** 卡片 `href` 解码后指向真实存在页面（失效 **0**） |
+  | 缺图降级 | `hasIcon=false` **3** 条（1503 真珠 / 1513 砂金•戏浪 / 1512 知更鸟•晴歌）→ 页面 **0** 个对应 `<img>`、**3** 个 `icon-fallback` 占位 |
+  | 图标约束 | 页面 `<img>` 共 **90**，**全部**含 `assets/icons/`；`verify_site[5]` 禁用项 **radius/shadow/gradient/img 全 0** |
+  | **纯净检出（D-044）** | `git worktree` HEAD + 本单 4 文件 → **6,500 页 / 94,344 链接 / 死链 0 / 34 未收录**，与基线逐项一致；**[15] 同样 PASS**（citem=93、fallback=3）。CI 安全：**93/93** 角色源文件均在 git 跟踪内 |
+  | **真实浏览器验收**（Lead 起独立 headless Chrome + 自写 CDP 驱动，真点真筛） | **17/17 PASS**：93 卡片 · 命途=毁灭→**15** · 再叠属性=雷→**2** · 再叠星级=五星→**1**（三组 AND 生效）· 重置→93 · 小屏 600px 无横向溢出 · 暗色主题正常 · **禁用 JS 后 93 张卡片仍全部可见可点、筛选区隐藏、说明文案可见** |
+  | 报告诚实性 | 豆包**明确声明**未做纯净检出与真实浏览器验收（留 Lead），并主动披露工作区既有脏状态、未冒领 |
+- **裁定：通过**。附 2 项**不影响功能**的轻微偏差（记录备查，本轮不打回）：
+  1. `characters.js` 中 `hasIcon=false` 的 3 条其 `icon` 仍写路径（非 `null`），与工单 §3 契约字面不符 —— 页面渲染正确、JS 从不读 `icon`，**零功能影响**；消费方须以 `hasIcon` 为准。
+  2. 无 JS 时 `.cp-label`（命途/属性/星级）与 `#cp-count`（显示 93/93）、`#cp-reset`（重置）仍可见但失效，且 `<noscript>` 说明位于 **93 张卡片之后** —— noscript 仅隐藏 `.cp-filters`。属体验瑕疵，建议下一轮把 `.cp-label/.cp-count/.cp-reset` 一并纳入隐藏规则并上移说明。
+- **`verify_links` 的 38 条「死链」**：经核**全部**位于 `docs/`、`.tmp_*`、模板类文档（如 `[[xxx]]`、`[[页名\|显示]]`），**无一在 `zh_cn/` 数据或生成站**；属既有状态，与本单（零 `.md` 改动）无关。
+- **未提交、未 push。**
+
+## 2026-10-05 17:40
+
+**W-4.6-93：README 五语言旧数字刷新（统一「详情文件」口径）+ `verify_fields` 恢复覆盖 `货币战争`**
+
+- **起因**：接手本会话后跑回归基线，发现 `README.md` 与四语言 README 的规模数字自 W-4.6-22（`9c6dc9c9d`）后**未再同步**，与实测差 33 个文件。
+- **先排除故障（未开工就撞上）**：`build_wiki` 首跑直接失败 —— `PermissionError [WinError 5] wiki\pages\...1105.html`。探针证实 `wiki/pages`、`wiki/data`、`zh_cn`、`docs` **写入/删除全被拒**，属 **D-034 同类**（受限令牌缺 `WRITE_OWNER`）。用 `diagnose-windows-sandbox-acl` 一次修复（`G:\HSR\wiki`、`wiki\pages` 各补完全控制项，`GRANTED=2` / `verified` / `nextAction=verify_original_confined_operation`），复跑原被拒操作 **OK**。报告 `G:\dsh-acl-recovery-hsr\acl-report-6b12a26010154446be98316488456bc5.jsonl`，回滚脚本 `acl-backup-7f70661c….json.ps1` / `acl-backup-b4bfb4e0….json.ps1`（**未改文件内容与所有者**）。
+- **口径不一致（本轮关键发现）**：分类行不是单纯过时，而是**混用两种口径** —— `items/` 写 3,823（实测详情 3,829 / 全部 3,882）、`character/` 写 93（详情 93 / 全部 118），而 `quest/` 167、`rules/` 5、`worldview/` 8 又像「全部文件」。**经用户拍板统一为口径甲**：详情文件 = 含 `> 实体ID：` 元信息且排除索引/分组文件（与 `verify_fields.py` 同一判据）。
+- **改动（Lead 自做，5 个文档 + 1 个脚本，未触任何数据文件）**：
+  | 文件 | 改动 |
+  |---|---|
+  | `README.md` | 合计 6,635→**6,668**；镜像 5,851/5,845/5,845/5,842→**5,871/5,867/5,864/5,847**；`wiki/` 6,635→**6,668** 页；items 3,823→**3,829**；新增 `音乐/` **20** 行；events 5→**6**、enemies 0→**2**、stages 1→**2**；工具链行 6,635→6,668 |
+  | `docs/README_{en,zh-Hant,ja,ko}.md` | 同上四语言同步；并修正各自既存偏差（lightcone 169→**170**、relic 60→**62**、items 3,823→**3,829**） |
+- **`[1]` 脚注（新增，防再误读）**：`quest/` `worldview/` `货币战争/` `rules/` 为**文档型条目**（索引/规范/世界观叙述），不含 `> 实体ID：`，故按口径甲计 **0**，同时显式给出**实际文件数** 173 / 8 / 7 / 5，避免「0」被当成「没有内容」。
+- **`verify_fields.py` 修复**：`skip_dirs` 移除 `'货币战争'` —— 该目录此前被**整目录跳过**，字段校验未覆盖（D-041 只补了 `音乐`/`enemies` 的分类规则，漏了这条）。移除后扫描 **6,661→6,668** 个 md；该 7 个文件经实测为文档型条目、无 `实体ID`，由元信息门正确跳过，**不是**靠目录名硬排除。
+- **回归实测（Lead 亲跑，全部 PASS）**：`build_wiki` **6,668 页 / 96,564 链接 / 死链 0 / 未收录 0 / exit 0**（10.9s）· `verify_site` **[1]–[14] PASS** · `verify_links` **exit 0** · `verify_fields` **异常 0 / 待补充 156**（6,668 个 md / 5,978 详情）。
+- **校验**：5 个文档旧数字残留扫描 **0 命中**；`音乐/` 详情数独立复算 **20** 一致。
+- **未提交、未 push。**
+
 ## 2026-10-05 15:00
 
 **W-4.6-92：修掉 GUI 的「Unable to contact settings server」（D-Bus 会话总线缺失）**

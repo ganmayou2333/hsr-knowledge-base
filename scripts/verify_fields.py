@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-skip_dirs = {'.obsidian', '.git', 'StarRailRes_repo', '.tmp_build', 'temp', 'node_modules', '货币战争', 'StarRailRes_data', 'StarRailRes-master'}
+skip_dirs = {'.obsidian', '.git', 'StarRailRes_repo', '.tmp_build', 'temp', 'node_modules', 'StarRailRes_data', 'StarRailRes-master'}
 
 def walk_md():
     files = []

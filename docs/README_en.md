@@ -13,20 +13,22 @@ An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematicall
 | Directory | Content | Size (detail files) |
 |---|---|---|
 | `character/` | Character library (archived by 9 Paths, 4-level index) | 93 |
-| `lightcone/` | Light Cone library (archived by Path, 4-level index) | 169 |
-| `items/` | Item library (categorized by use, 4-level index) | 3823 |
-| `relic/` | Relic library (Cavern Relics / Planar Ornaments) | 60 |
+| `lightcone/` | Light Cone library (archived by Path, 4-level index) | 170 |
+| `items/` | Item library (categorized by use, 4-level index) | 3829 |
+| `relic/` | Relic library (Cavern Relics / Planar Ornaments) | 62 |
 | `simulated/` | Simulated Universe library (Blessings / Curios / Events / Occurrences / Divergent Universe) | 1793 |
-| `quest/` | Quest text library (Trailblaze / Companion / Adventure missions) | 167 |
-| `worldview/` | World-building library (Aeons / Factions / Locations / Glossary / Relationships) | 8 |
-| `货币战争/` | Currency War library (standalone auto-chess mode: gameplay / characters / bonds / equipment / seasons) | 7 |
-| `rules/` | Rules library (combat mechanics / status priority / exceptions) | 5 |
-| `events/` | Events library (version / permanent / rerun events, added v1.13) | 5 |
-| `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13, empty pending names) | 0 |
-| `stages/` | Stages library (Cavern of Corrosion / Echo of War / Stagnant Shadow / material stages, added v1.13) | 1 |
-| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (English 5,851 / Traditional Chinese 5,845 / Japanese 5,845 / Korean 5,842, mirroring all data above) | ~5,845 each |
+| `quest/` | Quest text library (Trailblaze / Companion / Adventure missions) | 0 [1] |
+| `worldview/` | World-building library (Aeons / Factions / Locations / Glossary / Relationships) | 0 [1] |
+| `货币战争/` | Currency War library (standalone auto-chess mode: gameplay / characters / bonds / equipment / seasons) | 0 [1] |
+| `rules/` | Rules library (combat mechanics / status priority / exceptions) | 0 [1] |
+| `events/` | Events library (version / permanent / rerun events, added v1.13) | 6 |
+| `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13) | 2 |
+| `stages/` | Stages library (Cavern of Corrosion / Echo of War / Stagnant Shadow / material stages, added v1.13) | 2 |
+| `音乐/` | Music library (album details + tracks, added v1.15) | 20 |
+| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (English 5,871 / Traditional Chinese 5,867 / Japanese 5,864 / Korean 5,847, mirroring all data above) | ~5,850 each |
 
-> The index hierarchy is unified as: Main Index → Category / Path Index → Rating Index (rarity) → Details. Size counts detail files only (index and group files excluded).
+> The index hierarchy is unified as: Main Index → Category / Path Index → Rating Index (rarity) → Details. Size counts **detail files only** (= files carrying `> 实体ID：` metadata, excluding index and group files; measured 2026-10-05).
+> [1] `quest/` `worldview/` `货币战争/` `rules/` are **document-type entries** (indexes / specs / world-building prose) without `> 实体ID：` metadata, so they count as **0** under this convention; their raw file counts are 173 / 8 / 7 / 5 (indexes included).
 
 ---
 

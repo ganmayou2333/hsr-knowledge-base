@@ -17,7 +17,13 @@ SRC = ROOT / "zh_cn"
 TIMELINE_DATA = DATA / "timeline.js"
 TIMELINE_SRC = "quest/主线任务"          # 时间线唯一数据源（已入库，CI 安全）
 STATS_DATA = DATA / "stats.js"           # 首页仪表盘数据（W-4.6-87）
+CHARACTERS_DATA = DATA / "characters.js" # 角色直达面板数据（W-4.6-94）
+CHAR_PANEL_PAGE = "character/角色"       # 面板注入目标页（rel，去 .md；depth=2 → up="../../"）
 RECENT_N = 30                            # 「最新收录」保留条数
+
+# 角色面板排序用官方序（§3：同数按官方序；数值下界为兜底，避免类别库新增时抛异常）
+OFFICIAL_PATH_ORDER = ["毁灭","巡猎","智识","同谐","虚无","存护","丰饶","欢愉","记忆"]
+OFFICIAL_ELEMENT_ORDER = ["物理","火","冰","雷","风","量子","虚数"]
 
 # 顶层类别目录（**动态推导**，避免新增类别时白名单漏项 —— 见 D-041）
 # 旧实现把类别名硬编码进 resolve()，新增 `enemies/`、`音乐/` 后未同步，
@@ -336,6 +342,119 @@ def timeline_html(units, up):
             f'<ol class="tl">{"".join(rows)}</ol></section>')
 
 
+# ===== 角色直达面板（W-4.6-94） =====
+# 数据源唯一：zh_cn/character/**（已入库 → CI 安全）。全部机械解析，不编造任何角色数据。
+# 三个实测坑：① `### 配音演员` 子表在 `## 基本信息` 区内，须截断；② 表头行 `| 属性 | 值 |`
+# 与真字段 `| 属性 | 物理 |` 同名，须丢弃 `值 == "值"` 行；③ 禁止对全文裸取 `| 属性 |`。
+def parse_characters():
+    """扫描 zh_cn/character/**/*.md，机械解析含 `实体ID` 的详情文件 → 角色清单（确定性排序）。"""
+    items = []
+    for p in sorted(SRC.rglob("character/*/*.md")):
+        text = p.read_text(encoding="utf-8", errors="ignore").lstrip("\ufeff")
+        # 仅取含 `> 实体ID：<数字>` 的文件（索引页天然无此字段 → 自动排除）
+        m = re.search(r"^>\s*实体ID[：:]\s*([0-9]+)\s*$", text, re.M)
+        if not m:
+            continue
+        eid = m.group(1)
+        # 字段限定在 `## 基本信息` 节内（坑 3）
+        bi = re.search(r"^## 基本信息\s*$", text, re.M)
+        if not bi:
+            continue
+        seg = text[bi.end():]
+        # 截断到下一个 `### ` 或 `## ` 或 `---`（坑 1）
+        cut = re.search(r"^### |^## |^---+", seg, re.M)
+        if cut:
+            seg = seg[:cut.start()]
+        fields = {}
+        for row in re.finditer(r"^\| ([^|]+) \| ([^|]*) \|", seg, re.M):
+            k = row.group(1).strip(); v = row.group(2).strip()
+            if v == "值":      # 表头行 `| 属性 | 值 |`（坑 2）
+                continue
+            fields[k] = v
+        name = fields.get("角色名称", "").strip()
+        path = fields.get("命途", "").strip()
+        element = fields.get("属性", "").strip()
+        rarity = fields.get("稀有度", "").strip()
+        star = rarity.count("★")           # 由 稀有度 的 ★ 个数机械推导（实测仅 4 / 5）
+        if not (name and path and element and rarity):
+            continue
+        items.append({
+            "id": eid, "name": name,
+            "h1": "%s（%s·%s）" % (name, element, path),
+            "path": path, "element": element, "rarity": rarity, "star": star,
+            "url": "character/%s/%s.html" % (path, eid),
+            "icon": "assets/icons/avatar/%s.png" % eid,
+            "hasIcon": (WIKI / "assets" / "icons" / "avatar" / (eid + ".png")).exists(),
+        })
+    # 确定性排序（§3）：paths/elements 按条目数降序、同数按官方序；items 按 paths 分组、组内 name 升序
+    def _count_key(seq, official):
+        return lambda x: (-sum(1 for i in items if i[seq] == x),
+                          official.index(x) if x in official else len(official))
+    paths = sorted({i["path"] for i in items}, key=_count_key("path", OFFICIAL_PATH_ORDER))
+    elements = sorted({i["element"] for i in items}, key=_count_key("element", OFFICIAL_ELEMENT_ORDER))
+    order = {p: k for k, p in enumerate(paths)}
+    items.sort(key=lambda i: (order[i["path"]], i["name"]))
+    rarities = sorted(((r, sum(1 for i in items if i["rarity"] == r))
+                       for r in {i["rarity"] for i in items}), key=lambda rc: -rc[1])
+    return {"source": "zh_cn/character/**", "count": len(items),
+            "paths": paths, "elements": elements,
+            "rarities": [[r, c] for r, c in rarities], "items": items}
+
+
+def character_panel_html(data, up):
+    """渲染角色直达面板：概览条 + 筛选 chips + 全部卡片（服务端静态输出，无 JS 亦可点）。"""
+    if not data or not data.get("items"):
+        return ""
+    items = data["items"]
+    count = len(items)
+    five = sum(1 for i in items if i["star"] == 5)
+    four = count - five
+
+    meta = (f'<p class="cp-meta">角色 <b>{count}</b> · 命途 <b>{len(data["paths"])}</b> · '
+            f'属性 <b>{len(data["elements"])}</b> · 五星 <b>{five}</b> / 四星 <b>{four}</b></p>')
+
+    def chips(group, label, values):
+        allb = (f'<button type="button" class="chip" data-group="{group}" data-value="" '
+                f'aria-pressed="true">全部</button>')
+        rest = "".join(
+            f'<button type="button" class="chip" data-group="{group}" data-value="{esc(v)}" '
+            f'aria-pressed="false">{esc(v)}</button>' for v in values)
+        return (f'<span class="cp-label">{esc(label)}</span>'
+                f'<div class="cp-filters" role="group" aria-label="{esc(label)}筛选">{allb}{rest}</div>')
+
+    f_path = chips("path", "命途", data["paths"])
+    f_elem = chips("element", "属性", data["elements"])
+    f_rar = chips("rarity", "星级", ["五星", "四星"])
+
+    cards = []
+    for i in items:
+        href = "%spages/%s" % (up, urlq(i["url"]))
+        if i["hasIcon"]:
+            img = (f'<img class="cicon" src="{up}{i["icon"]}" alt="{esc(i["h1"])}" '
+                   f'loading="lazy" width="96" height="96">')
+        else:
+            img = '<div class="icon-fallback cicon-fb"></div>'   # 缺图占位（D-015）
+        cards.append(
+            f'<li class="citem" data-path="{esc(i["path"])}" data-element="{esc(i["element"])}" '
+            f'data-rarity="{"五星" if i["star"] == 5 else "四星"}">'
+            f'<a class="ccard" href="{href}" aria-label="{esc(i["h1"])}">{img}'
+            f'<span class="cname">{esc(i["name"])}</span>'
+            f'<span class="csub">{esc(i["element"])}·{esc(i["path"])}</span>'
+            f'<span class="cstar">{esc(i["rarity"])}</span></a></li>')
+    grid = f'<ul class="cgrid" aria-label="角色直达面板（全部 {count} 个角色）">{"".join(cards)}</ul>'
+
+    return (f'<section class="cpanel mv" id="character-panel" aria-label="角色直达面板">'
+            f'<h2 class="cp-h2">角色直达面板</h2>{meta}'
+            f'<div class="cp-row">{f_path}</div>'
+            f'<div class="cp-row">{f_elem}</div>'
+            f'<div class="cp-row">{f_rar}'
+            f'<span class="cp-count" id="cp-count" aria-live="polite">显示 {count} / {count}</span>'
+            f'<button type="button" class="chip cp-reset" id="cp-reset">重置</button></div>'
+            f'{grid}'
+            f'<noscript><p class="cp-noscript">筛选需 JavaScript；下方全部 {count} 个角色可直接点击进入详情。</p></noscript>'
+            f'</section>')
+
+
 def main():
     global PAGE_SET, SRC2KEY
     if PAGES.exists(): shutil.rmtree(PAGES)
@@ -374,6 +493,18 @@ def main():
     else:
         print("WARN 时间线: 未能从 %s.md 解析到任何单元 → 不插入时间线容器" % TIMELINE_SRC)
 
+    # ---- 角色直达面板（W-4.6-94）：数据文件先写，供页面注入与 [15] 校验 ----
+    char_data = parse_characters()
+    if char_data and char_data["items"]:
+        CHARACTERS_DATA.write_text(
+            "window.CHARACTERS = " + json.dumps(char_data, ensure_ascii=False) + ";",
+            encoding="utf-8")
+        print("角色面板: %d 个角色 | 命途 %d | 属性 %d | 无图 %d"
+              % (char_data["count"], len(char_data["paths"]), len(char_data["elements"]),
+                 sum(1 for i in char_data["items"] if not i["hasIcon"])))
+    else:
+        print("WARN 角色面板: 未从 zh_cn/character/** 解析到任何角色 → 不注入面板")
+
     titles = []
     stat_versions = {}
     stat_recent = []
@@ -406,14 +537,20 @@ def main():
         icon_html = inject_icon(meta, rel, depth, title)
         sidenav = sidenav_html(up, parts[0])
         # 仅剧情索引页插入时间线（静态渲染；JS 只做增量增强）
-        extra_top = extra_scripts = ""
+        extra_top = extra_scripts = extra_head = ""
         if rel == TIMELINE_SRC.rsplit("/", 1)[0] + "/索引" and tl_units:
             extra_top = timeline_html(tl_units, up)
             extra_scripts = f'<script src="{up}assets/timeline.js"></script>'
+        # 仅角色总索引页插入直达面板（W-4.6-94）；head 内 <noscript><style> 只在此处合规
+        if rel == CHAR_PANEL_PAGE and char_data and char_data["items"]:
+            extra_head = '<noscript><style>.cp-filters{display:none}</style></noscript>'
+            extra_top += character_panel_html(char_data, up)
+            extra_scripts += f'<script src="{up}assets/character-panel.js" defer></script>'
         doc = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} — HSR Wiki</title>
-<link rel="stylesheet" href="{up}assets/style.css"></head><body>
+<link rel="stylesheet" href="{up}assets/style.css">
+{extra_head}</head><body>
 <div class="topbar"><button id="theme-toggle" class="theme-toggle" type="button">跟随系统</button></div>
 <nav class="crumbs">{crumbs}</nav>
 {sidenav}

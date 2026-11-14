@@ -24,6 +24,7 @@ import json
 import pathlib
 import re
 import sys
+import urllib.parse
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -531,6 +532,167 @@ def check_dashboard():
         fail(14, "首页缺无 JS 降级文案（dash-empty）")
 
 
+# ---------------- [15] 角色直达面板（W-4.6-94） ----------------
+CHARACTERS_JS = DATA / "characters.js"
+CHAR_PANEL_PAGE = PAGES / "character" / "角色.html"
+
+
+def _basic_fields_from_src(text):
+    """机械解析单个源文件的 `## 基本信息` 节字段（与生成器同法，供独立复算）。"""
+    bi = re.search(r"^## 基本信息\s*$", text, re.M)
+    if not bi:
+        return {}
+    seg = text[bi.end():]
+    cut = re.search(r"^### |^## |^---+", seg, re.M)
+    if cut:
+        seg = seg[:cut.start()]
+    fields = {}
+    for row in re.finditer(r"^\| ([^|]+) \| ([^|]*) \|", seg, re.M):
+        k = row.group(1).strip(); v = row.group(2).strip()
+        if v == "值":
+            continue
+        fields[k] = v
+    return fields
+
+
+def check_character_panel(files):
+    """[15] 角色直达面板：数据文件结构、独立复算、逐条字段比对、页面注入、无JS降级、缺图一致性。"""
+    src_chars = ROOT / "zh_cn" / "character"
+    if not CHARACTERS_JS.exists():
+        print("[15] 角色直达面板: 缺少 %s（先运行 python wiki/build_wiki.py）" % CHARACTERS_JS)
+        fail(15, "缺少 wiki/data/characters.js")
+        return
+    raw = read(CHARACTERS_JS)
+    if raw.startswith("\ufeff"):
+        print("[15] 角色直达面板: characters.js 含 BOM")
+        fail(15, "characters.js 含 BOM")
+    m = re.search(r"window\.CHARACTERS\s*=\s*(\{.*\})\s*;?\s*$", raw.strip(), re.S)
+    if not m:
+        print("[15] 角色直达面板: characters.js 结构不可解析")
+        fail(15, "characters.js 结构不可解析")
+        return
+    try:
+        data = json.loads(m.group(1))
+    except Exception as e:
+        print("[15] 角色直达面板: characters.js JSON 解析失败 %r" % e)
+        fail(15, "characters.js 内容不是合法 JSON")
+        return
+
+    items = data.get("items") or []
+    count = data.get("count")
+    ok_count = (count == len(items))
+    if not ok_count:
+        fail(15, "count=%s ≠ items.length=%d" % (count, len(items)))
+
+    # c. 独立复算：扫描含 实体ID 的源文件数 == items.length；同时逐条提取基本信息字段供 e 比对
+    src_map = {}   # 实体ID -> (path, element, rarity)
+    src_n = 0
+    for p in sorted(src_chars.rglob("*.md")):
+        t = read(p)
+        if not re.search(r"^>\s*实体ID[：:]\s*[0-9]+\s*$", t, re.M):
+            continue
+        src_n += 1
+        eid_m = re.search(r"^>\s*实体ID[：:]\s*([0-9]+)\s*$", t, re.M)
+        f = _basic_fields_from_src(t)
+        if eid_m:
+            src_map[eid_m.group(1)] = (f.get("命途", "").strip(),
+                                       f.get("属性", "").strip(),
+                                       f.get("稀有度", "").strip())
+    ok_src_n = (src_n == len(items))
+    if not ok_src_n:
+        fail(15, "独立复算：含实体ID 的源文件 %d 个 ≠ items.length %d" % (src_n, len(items)))
+
+    # d. 字段非空
+    d_missing = [i for i in items
+                 if not all(i.get(k) for k in ("id", "name", "h1", "path", "element", "rarity", "url"))]
+    if d_missing:
+        fail(15, "%d 个 item 缺 id/name/h1/path/element/rarity/url 之一" % len(d_missing))
+
+    # e. 逐条与源文件基本信息表比对 path/element/rarity
+    e_bad = []
+    for i in items:
+        got = src_map.get(i.get("id"))
+        if not got:
+            e_bad.append((i.get("id"), "源文件未找到"))
+            continue
+        want = (i.get("path"), i.get("element"), i.get("rarity"))
+        if got != want:
+            e_bad.append((i.get("id"), "源=%s ≠ 数据=%s" % (got, want)))
+    if e_bad:
+        fail(15, "%d 个 item 的 path/element/rarity 与源文件不一致" % len(e_bad))
+        for _id, why in e_bad[:5]:
+            print("      ! %s — %s" % (_id, why))
+
+    # f. url 指向真实存在的生成页
+    f_bad = []
+    for i in items:
+        target = PAGES / i["url"]
+        if not target.exists():
+            f_bad.append((i["url"], "生成页不存在"))
+    if f_bad:
+        fail(15, "%d 个 item.url 指向不存在的生成页" % len(f_bad))
+        for u, why in f_bad[:5]:
+            print("      ! %s — %s" % (u, why))
+
+    # g. 角色.html 含 .cpanel 容器；li.citem 数 == items.length
+    page = read(CHAR_PANEL_PAGE) if CHAR_PANEL_PAGE.exists() else ""
+    has_cpanel = 'class="cpanel' in page
+    citem_n = len(re.findall(r'class="citem"', page))
+    g_ok = has_cpanel and citem_n == len(items)
+    if not has_cpanel:
+        fail(15, "角色.html 缺 .cpanel 容器")
+    if citem_n != len(items):
+        fail(15, "角色.html li.citem=%d ≠ items.length=%d" % (citem_n, len(items)))
+
+    # h. 卡片 href 指向存在的生成页；页面无外链（script/link http）
+    h_bad = []
+    for href in re.findall(r'<a class="ccard"[^>]*href="([^"]+)"', page):
+        inner = re.sub(r"^.*?pages/", "", urllib.parse.unquote(href))
+        if not (PAGES / inner).exists():
+            h_bad.append(href)
+    ext_script = bool(re.search(r'<script\b[^>]*\bsrc\s*=\s*["\']https?:', page))
+    ext_style = bool(re.search(r'<link\b[^>]*\bhref\s*=\s*["\']https?:', page))
+    if h_bad:
+        fail(15, "%d 张卡片 href 指向不存在的生成页" % len(h_bad))
+        for h_ in h_bad[:5]:
+            print("      ! %s" % h_)
+    if ext_script or ext_style:
+        fail(15, "角色.html 存在外链脚本/样式")
+
+    # i. 无 JS 降级：head 内 noscript style + 说明文案（含「需 JavaScript」）
+    head_noscript = bool(re.search(
+        r'<noscript><style>\s*\.cp-filters\s*\{\s*display\s*:\s*none\s*\}\s*</style></noscript>', page))
+    noscript_note = bool(re.search(r'<noscript>[^<]*<p[^>]*class="cp-noscript"[^>]*>[^<]*需 JavaScript', page))
+    if not head_noscript:
+        fail(15, "角色.html 缺 head 内 <noscript><style>.cp-filters{display:none}</style></noscript>")
+    if not noscript_note:
+        fail(15, "角色.html 缺 <noscript> 说明文案（含「需 JavaScript」）")
+
+    # j. 缺图一致性：hasIcon:false 条目页面上无 <img>，且有 icon-fallback 占位
+    noicon = [i for i in items if not i.get("hasIcon")]
+    j_bad_imgs = [i["id"] for i in noicon
+                  if re.search(r'<img\b[^>]*src="[^"]*assets/icons/avatar/%s\.png"' % re.escape(i["id"]), page)]
+    fb_n = len(re.findall(r'icon-fallback', page))
+    if j_bad_imgs:
+        fail(15, "hasIcon:false 条目仍输出了 <img>：%s" % j_bad_imgs)
+    if noicon and fb_n < len(noicon):
+        fail(15, "icon-fallback 占位 %d 个 < 缺图条目 %d 个" % (fb_n, len(noicon)))
+
+    # k. 该页所有 <img> 的 src 均含 assets/icons/
+    k_bad = [m.group(0) for m in re.finditer(r"<img\b[^>]*>", page)
+             if "assets/icons/" not in m.group(0)]
+    if k_bad:
+        fail(15, "%d 个 <img> 的 src 不含 assets/icons/" % len(k_bad))
+        for s in k_bad[:3]:
+            print("      ! %s" % s[:90])
+
+    print("[15] 角色直达面板: count=%s items=%d 独立复算=%d 字段齐=%d 逐条比对错=%d url=%d "
+          "citem=%d 卡片href错=%d 外链=%s/%s head-noscript=%s 说明=%s 缺图img=%d fallback=%d 非图标img=%d"
+          % (count, len(items), src_n, len(items) - len(d_missing), len(e_bad), len(f_bad),
+             citem_n, len(h_bad), ext_script, ext_style, head_noscript, noscript_note,
+             len(j_bad_imgs), fb_n, len(k_bad)))
+
+
 def main():
     print("=== 静态站回归自检（W-4.6-67） ===")
     print("root: %s" % ROOT)
@@ -555,6 +717,7 @@ def main():
     check_print()
     check_timeline(files)
     check_dashboard()
+    check_character_panel(files)
     if fails:
         print("RESULT: FAIL  失败项 %d：" % len(fails))
         for f in fails:
