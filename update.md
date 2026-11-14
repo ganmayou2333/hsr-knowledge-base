@@ -3,6 +3,22 @@
 > 本文件记录崩坏：星穹铁道资料库（Obsidian）的历次更新内容与时间。
 > 最近更新：2026-11-14
 
+## 2026-11-14 20:40
+
+**静态站视觉重构 + 角色首次点击 hero 动画（issue #13）**
+
+- **需求**：①页面更贴近游戏观感；②角色面板首次点击某角色时展示 hero 动画。用户口径：**不放宽三禁**（保持 `verify_site[5]` 六项为 0），用「`clip-path` 切角 + 描边 + 色块 + 内联 SVG data URI + `@keyframes`」做游戏味。
+- **阶段**：Spec（issue #13）→ Architect（`docs/designs/site-hero.md` 758 行，推荐方案 α）→ Coder（**只改 2 个文件**）→ Tester（两轮浏览器验收 A1–A18 / B1–B10）→ Reviewer（两轮只读，末轮 **通过**）。
+- **实现**（零生成器改动，方案 α-2）：
+  | 文件 | 变化 |
+  |---|---|
+  | `wiki/assets/style.css` | 306 → 708 行：双套 token（亮/暗 × 系统/`data-theme`）、切角假框（双伪元素，无 `box-shadow`）、青色高光 `--ui-hi`、网格纹理（SVG data URI）、`h2` 伪元素编号、sticky 表头 + 顶栏高度变量、hero 全套样式与 9 组 `@keyframes` |
+  | `wiki/assets/character-panel.js` | 68 → 395 行：**原筛选逻辑一字未改**，末尾追加 hero IIFE（`hsr-hero-v1` 记账、840ms 状态机、Esc/点击跳过、`pageshow` 清理、reduced-motion 直通、4 个无图角色走 SVG 剪影、零新增请求） |
+- **浏览器实测**（Chromium 内核 Edge headless + CDP 真实事件，非 jsdom）：首点拦截 → overlay `enter→hero` → 842ms 跳转；二点不重播；reduce 不播且不写 `sessionStorage`；无 JS 时 94 张卡仍是 `<a>` 可点；600×900 无横向溢出；`console.error=0`。
+- **两轮修的问题**：表头被 sticky 顶栏压住（重叠 51.8px → **0px**）、打印 17px 深色条（→ 0）、hero 关键帧缺 reduced-motion 第二道保险、浅色 `--ui-mute` 对比度 4.24 < 4.5（→ `#55606F`，5.75/6.39/5.34/4.79）、`--hero-total` 从死变量改成**真旋钮**（15 条动画 `calc(var(--hero-total)*k)`，改 1200ms 时误差 0.000ms）。
+- **回归**：`build_wiki` 6685 页 / 96,883 链接 / 死链 0 / 未收录 0；`verify_site` **PASS**（`[5]` 六项全 0）；`verify_fields` 异常 0 / 待补充 156；`verify_links` exit 0；**数据零改动**；体积 gzip-9 增量 **+11.4 KiB**（预算 30 KiB）。
+- **口径裁定**（写入设计文档附录 R）：A15 图源降级＝有 avatar 用上采样、4 个完全无图用剪影；A16 体积按 gzip；`h2` 编号为伪元素（不改 DOM 文案）；B8 对比度按「实测可达衬底」判。
+
 ## 2026-11-14 18:55
 
 **社区投稿 PR #1 并入主干并按规范修正（作者 @mufeng520）**

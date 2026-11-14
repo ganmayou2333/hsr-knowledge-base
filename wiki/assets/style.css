@@ -98,9 +98,14 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .result-meta{color:var(--muted);font-size:13px;margin:16px 0 8px;min-height:1em}
 /* 分类 bento */
 .cats{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-flow:dense;gap:12px;margin:24px 0 48px}
-.cat{display:block;border:1px solid var(--line);padding:16px;color:inherit;text-decoration:none;
-     transition:border-color .7s cubic-bezier(.32,.72,0,1),background-color .7s cubic-bezier(.32,.72,0,1)}
-.cat:hover{border-color:var(--ink);background:var(--soft)}
+/* W-4.7：切角框走双伪元素假框（外层描边色 + 内层面板色内缩 1px，同形裁剪），卡片本身不裁剪 */
+.cat{position:relative;isolation:isolate;display:block;padding:16px;color:inherit;text-decoration:none}
+.cat::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ui-line);
+     clip-path:var(--cut-hex);transition:background-color var(--t-3) var(--ease)}
+.cat::after{content:"";position:absolute;inset:1px;z-index:-1;background:var(--ui-panel);
+     clip-path:var(--cut-hex);transition:background-color var(--t-3) var(--ease)}
+.cat:hover::before{background:var(--ui-hi)}
+.cat:hover::after{background:var(--ui-panel-2)}
 .cat .n{display:block;font-size:19px;font-weight:500}
 .cat .c{display:block;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
 .cat.s3{grid-column:span 3}.cat.s12{grid-column:span 12}
@@ -111,11 +116,17 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .rise{animation:riseIn .7s cubic-bezier(.32,.72,0,1) both}
 /* 分类卡片错峰入场（§1.2，纯 transform/opacity） */
 .cat{animation:riseIn .7s cubic-bezier(.32,.72,0,1) both;animation-delay:calc(var(--i,0)*40ms)}
-.sidenav li.cur a{border-left:4px solid var(--accent);padding-left:8px;margin-left:-12px}
+/* W-4.7：当前类改成「半透明衬底 + 2px 冷色竖条」（--accent 仍只表示可点链接） */
+.sidenav li.cur a{border-left:0;padding-left:var(--sp-2);margin-left:calc(-1 * var(--sp-3));
+     background:var(--ui-surface-2);position:relative}
+.sidenav li.cur a::before{content:"";position:absolute;inset:0 auto 0 0;width:var(--ui-hair-2);
+     background:var(--ui-hi)}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 /* ===== W-4.6-67 可读性细节（仅新增，不改既有规则） ===== */
-/* 宽表格：表头在滚动时吸附（有 thead 的表格生效，无 thead 时选择器不命中） */
-table thead th{position:sticky;top:0;background:var(--soft)}
+/* 宽表格：表头在滚动时吸附（有 thead 的表格生效，无 thead 时选择器不命中）
+   D-1 修正：吸附位让开 sticky 顶栏的真实高度 --ui-topbar-h（不写死像素），
+   否则 .topbar（z-index:20、不透明底）会把吸附后的表头压掉 51.8px、只剩一行边。 */
+table thead th{position:sticky;top:var(--ui-topbar-h);z-index:1;background:var(--ui-panel-2)}
 /* 锚点落点：滚动跳转后给顶部留出余量，避免被贴顶元素压住 */
 [id]{scroll-margin-top:64px}
 /* 强制配色模式（高对比）：细线边框在 forced-colors 下会被系统色覆盖，显式恢复 1px 可见框 */
@@ -260,47 +271,438 @@ body,.sidenav,.meta,blockquote,table th,.missing-note{
 }
 
 /* ===== W-4.6-94 角色直达面板（一屏图标网格 + 筛选；静态优先，无 JS 亦可点） =====
-   Swiss：直角 / 细线 / 唯一强调红；只用 transform/opacity 做动效
-   （无 radius/shadow/gradient —— verify_site [5] 会扫全站含本页，命中即 FAIL）。 */
-.cpanel{margin:0 0 48px;padding:0 0 16px;border-bottom:1px solid var(--line)}
-.cp-h2{font-size:22px;margin:0 0 8px}
-.cp-meta{font-size:13px;color:var(--muted);margin:0 0 20px;font-variant-numeric:tabular-nums}
-.cp-meta b{color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums}
-.cp-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+   W-4.7 视觉重写：chip 与卡片走「切角 + 双伪元素假框 + 半透明叠层 + 冷色高光」，
+   动效仍只用 transform / opacity / 颜色。
+   冻结面（改动本段前必读）：
+     · 生成页里 class="citem" 与 <a class="ccard" href=" 是校验器的字面量匹配对象
+       （tools/verify_site.py:640、:649）→ 本段与脚本都不新增类名，装饰只走伪元素；
+     · .citem[hidden]{display:none} 是 character-panel.js 的筛选依赖，必须保留；
+     · 卡片图标真实像素 128×128（assets/icons/avatar/），CSS 尺寸上限 128px，放大即模糊。 */
+.cpanel{position:relative;margin:0 0 var(--sp-6);padding:0 0 var(--sp-4);
+  border-bottom:var(--ui-hair) solid var(--ui-line)}
+.cp-h2{font-size:var(--fs-5);margin:0 0 8px}
+.cp-meta{font-size:var(--fs-1);color:var(--ui-mute);margin:0 0 20px;
+  font-variant-numeric:tabular-nums}
+.cp-meta b{color:var(--ui-hi);font-weight:700;font-variant-numeric:tabular-nums}
+.cp-row{display:flex;align-items:center;flex-wrap:wrap;gap:var(--sp-2);margin:0 0 12px}
 .cp-row:last-of-type{margin-bottom:0}
-.cp-label{font-size:13px;color:var(--muted);min-width:2em;flex:none}
-.cp-filters{display:flex;flex-wrap:wrap;gap:8px}
-.chip{font:inherit;font-size:13px;padding:6px 12px;border:1px solid var(--line);
-  border-radius:0;background:transparent;color:var(--ink);cursor:pointer;
-  transition:border-color .3s cubic-bezier(.32,.72,0,1),color .3s cubic-bezier(.32,.72,0,1)}
-.chip:hover{border-color:var(--ink)}
-.chip[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:700}
-.cp-count{font-size:13px;color:var(--muted);margin:0 0 0 auto;min-height:1em;
+.cp-label{font-size:var(--fs-micro);color:var(--ui-mute);letter-spacing:var(--ui-track);
+  min-width:2.4em;flex:none}
+.cp-filters{display:flex;flex-wrap:wrap;gap:var(--sp-2)}
+/* chip：6px 切角 + 1px 假框；选中态读 aria-pressed（状态仍由 character-panel.js 维护） */
+.chip{position:relative;isolation:isolate;font:inherit;font-size:var(--fs-1);padding:6px 12px;
+  border:0;background:transparent;color:var(--ui-ink);cursor:pointer;
+  transition:color var(--t-2) var(--ease)}
+.chip::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ui-line);
+  clip-path:var(--cut-hex-sm);transition:background-color var(--t-2) var(--ease)}
+.chip::after{content:"";position:absolute;inset:1px;z-index:-1;background:var(--ui-panel);
+  clip-path:var(--cut-hex-sm);transition:background-color var(--t-2) var(--ease)}
+.chip:hover::before{background:var(--ui-line-2)}
+.chip:hover::after{background:var(--ui-panel-2)}
+.chip[aria-pressed="true"]{color:var(--ui-hi);font-weight:700}
+.chip[aria-pressed="true"]::before{background:var(--ui-hi)}
+.chip[aria-pressed="true"]::after{background:var(--ui-panel-2)}
+.chip:focus-visible{outline:var(--ui-hair-2) solid var(--ui-hi);outline-offset:2px}
+.cp-count{font-size:var(--fs-1);color:var(--ui-mute);margin:0 0 0 auto;min-height:1em;
   font-variant-numeric:tabular-nums}
 .cp-reset{margin-left:4px}
-.cgrid{list-style:none;margin:20px 0 0;padding:0;display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:12px}
+.cgrid{--cell-min:132px;list-style:none;margin:20px 0 0;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(var(--cell-min),1fr));gap:var(--sp-3)}
 .citem{margin:0;padding:0}
 .citem[hidden]{display:none}
-.ccard{display:block;border:1px solid var(--line);padding:10px;color:inherit;text-decoration:none;
-  transition:border-color .3s cubic-bezier(.32,.72,0,1),background-color .3s cubic-bezier(.32,.72,0,1)}
-.ccard:hover{border-color:var(--ink);background:var(--soft);text-decoration:none}
-.cicon{display:block;width:96px;height:96px;margin:0 auto 8px;background:var(--soft);
-  object-fit:cover;border-radius:0}
-.cicon-fb{width:96px;height:96px;margin:0 auto 8px;background:var(--soft);
-  border:1px dashed var(--line);border-radius:0}
-.cname{display:block;font-size:14px;font-weight:700;text-align:center;white-space:nowrap;
-  overflow:hidden;text-overflow:ellipsis}
-.csub{display:block;font-size:12px;color:var(--muted);text-align:center;white-space:nowrap;
-  overflow:hidden;text-overflow:ellipsis}
-.cstar{display:block;font-size:12px;color:var(--accent);text-align:center;
+/* 卡片：不可点区块不加容器，切角框 + 描边全部落在 ::before/::after 上（a 自身不裁剪，焦点圈完整） */
+.ccard{position:relative;isolation:isolate;display:block;padding:10px;color:inherit;
+  text-decoration:none;transition:transform var(--t-3) var(--ease)}
+.ccard::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ui-line);
+  clip-path:var(--cut-hex);transition:background-color var(--t-3) var(--ease)}
+.ccard::after{content:"";position:absolute;inset:1px;z-index:-1;background:var(--ui-panel);
+  clip-path:var(--cut-hex);transition:background-color var(--t-3) var(--ease)}
+.ccard:hover{transform:translateY(-2px);text-decoration:none}
+.ccard:hover::before{background:var(--ui-hi)}
+.ccard:hover::after{background:var(--ui-panel-2)}
+.ccard:focus-visible{outline:var(--ui-hair-2) solid var(--ui-hi);outline-offset:2px}
+/* reduced-motion 分支的静态高亮（运行时由脚本临时刻在 a 上，不改生成 HTML） */
+.ccard.hero-static::before{background:var(--ui-hi)}
+.cicon{display:block;width:100%;max-width:128px;height:auto;aspect-ratio:1;margin:0 auto 8px;
+  background:transparent;object-fit:contain}
+.cicon-fb{width:100%;max-width:128px;aspect-ratio:1;margin:0 auto 8px;
+  background:var(--ui-surface);border:var(--ui-hair) dashed var(--ui-line)}
+.cname{display:block;font-size:var(--fs-2);font-weight:700;text-align:center;letter-spacing:.02em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.csub{display:block;font-size:var(--fs-0);color:var(--ui-mute);text-align:center;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cstar{display:block;font-size:var(--fs-0);color:var(--ui-hi);text-align:center;
   font-variant-numeric:tabular-nums}
-.cp-noscript{font-size:13px;color:var(--muted);margin:12px 0 0}
+.cp-noscript{font-size:var(--fs-1);color:var(--ui-mute);margin:var(--sp-3) 0 0}
 @media(max-width:640px){
-  .cgrid{grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px}
+  .cgrid{--cell-min:104px;gap:var(--sp-2)}
   .cp-count{margin-left:0;width:100%}
 }
 @media print{
   .cp-filters,.cp-count,.cp-reset{display:none}
   .cpanel{border-bottom:none}
+  .ccard{border:1px solid #000}
+  .ccard::before,.ccard::after,.chip::before,.chip::after{background:transparent;clip-path:none}
+}
+
+/* ===================================================================
+   W-4.7 site-hero · 视觉重构（R1）+ 角色 hero 动画（R2）
+   -------------------------------------------------------------------
+   全站纪律（tools/verify_site.py [5] 对源码原文做正则、不剥注释，注释同样受约束）：
+     · 圆角：本段不写该属性；直角/切角一律用裁剪多边形表达；
+     · 层次：不用投影类属性、不用渐变函数（含 repeating 形式）——改用
+       「半透明实色叠层」+「双伪元素假框」（外层描边色 + 内层面板色向内缩 1px，同形裁剪
+       = 1px 框线），两者都不产生绘制溢出；
+     · 网格/条纹纹理：只用 SVG data URI；图形只用伪元素 / 裁剪 / data URI；
+     · 零外链：不引 CDN、不引外链字体（字体沿用 style.css:22 的系统栈）；
+     · 交互元素（a / button / input）自身不上裁剪，focus 的 outline 保持完整可见；
+     · 强调红 --accent 继续只表示「可点链接 / 死链」，新增青 --ui-hi 专表示
+       「当前选中 / 数据强调」（决定 D-1：只增不改，不动既有 20+ 处 --accent）。
+   =================================================================== */
+
+/* ---------------- §1.1 语义色 · 亮（默认；与 style.css:1-4 的既有默认一致） ---------------- */
+:root{
+  --ui-bg:#F1F3F7; --ui-panel:#FFFFFF; --ui-panel-2:#E7EBF2;
+  --ui-surface:rgba(10,13,19,.045); --ui-surface-2:rgba(10,13,19,.085);
+  --ui-line:#C9D1DC; --ui-line-2:#8A94A3;
+  --ui-ink:#0E1319; --ui-ink-2:#3A4453; --ui-mute:#55606F;
+  --ui-hi:#0A6E8C; --ui-hi-2:#A9DCEE;
+  --ui-warn:#8A5A00; --ui-danger:#B3121F;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ui-bg:#06080C; --ui-panel:#0C1117; --ui-panel-2:#121926;
+    --ui-surface:rgba(255,255,255,.045); --ui-surface-2:rgba(255,255,255,.085);
+    --ui-line:#232B38; --ui-line-2:#48576B;
+    --ui-ink:#E6ECF5; --ui-ink-2:#B4BFD0; --ui-mute:#7C8798;
+    --ui-hi:#6FE3FF; --ui-hi-2:#1E4C60;
+    --ui-warn:#FFC24B; --ui-danger:#FF5D5D;
+  }
+}
+/* 手动主题（优先级高于系统偏好；与 style.css:11-13 同构，theme.js 三态切换零改动） */
+:root[data-theme="light"]{
+  --ui-bg:#F1F3F7; --ui-panel:#FFFFFF; --ui-panel-2:#E7EBF2;
+  --ui-surface:rgba(10,13,19,.045); --ui-surface-2:rgba(10,13,19,.085);
+  --ui-line:#C9D1DC; --ui-line-2:#8A94A3;
+  --ui-ink:#0E1319; --ui-ink-2:#3A4453; --ui-mute:#55606F;
+  --ui-hi:#0A6E8C; --ui-hi-2:#A9DCEE;
+  --ui-warn:#8A5A00; --ui-danger:#B3121F;
+}
+:root[data-theme="dark"]{
+  --ui-bg:#06080C; --ui-panel:#0C1117; --ui-panel-2:#121926;
+  --ui-surface:rgba(255,255,255,.045); --ui-surface-2:rgba(255,255,255,.085);
+  --ui-line:#232B38; --ui-line-2:#48576B;
+  --ui-ink:#E6ECF5; --ui-ink-2:#B4BFD0; --ui-mute:#7C8798;
+  --ui-hi:#6FE3FF; --ui-hi-2:#1E4C60;
+  --ui-warn:#FFC24B; --ui-danger:#FF5D5D;
+}
+
+/* ---------------- §1.2-§1.4 几何 / 字号 / 动效 / 纹理（与主题无关） ---------------- */
+:root{
+  --ui-cut-sm:6px; --ui-cut:8px; --ui-cut-lg:20px;
+  --ui-hair:1px; --ui-hair-2:2px; --ui-bracket:12px; --ui-frame:1px;
+  /* 顶栏的真实占位高度（D-1）：sticky 吸附态下 .topbar 盖住视口顶部多少像素。
+     值 = .topbar 上下 padding(2×--sp-2) + 下边框(--ui-hair)
+          + .theme-toggle 上下留白(6+6=12px) + 上下描边(2×--ui-hair) + 行高(1.6×--fs-1)
+          = 16+1+12+2+20.8 = 51.8px。
+     写成算式而非常数：上面任一 token（间距/发丝线/字号）变动，让位高度自动跟随，
+     不会出现「CSS 改了字号、表头让位还停在旧值」的静默失配。 */
+  --ui-topbar-h:calc(var(--sp-2) * 2 + 12px + var(--ui-hair) * 3 + var(--fs-1) * 1.6);
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px;
+  --sp-5:24px; --sp-6:32px; --sp-7:48px; --sp-8:64px;
+  --fs-micro:11px; --fs-0:12px; --fs-1:13px; --fs-2:14px;
+  --fs-3:16px; --fs-4:19px; --fs-5:26px; --fs-6:40px;
+  --ui-track:.08em;
+  --t-0:0ms; --t-1:120ms; --t-2:200ms; --t-3:280ms; --t-4:480ms; --t-5:700ms;
+  --ease:cubic-bezier(.32,.72,0,1); --ease-out:cubic-bezier(.16,1,.3,1);
+  --ease-in:cubic-bezier(.4,0,1,1);
+  /* hero 过场：--hero-total 是**唯一旋钮**（总时长，脚本也从 CSS 读它作为跳转时点）；
+     --hero-stagger 是整段的唯一基准步长 = 总时长 / 21（默认 840/21 = 40ms），
+     hero 段所有 duration / delay 都写成它的整数或半整数倍 → 只改 --hero-total，
+     整套节奏（含四角与三条数据条的错峰步进）等比缩放，不存在第二处硬编码。 */
+  --hero-total:840ms; --hero-stagger:calc(var(--hero-total) / 21);
+  /* 切角多边形（上左 + 下右两个对角切；不影响文本包围盒） */
+  --cut-hex:polygon(var(--ui-cut) 0,100% 0,100% calc(100% - var(--ui-cut)),
+    calc(100% - var(--ui-cut)) 100%,0 100%,0 var(--ui-cut));
+  --cut-hex-sm:polygon(var(--ui-cut-sm) 0,100% 0,100% calc(100% - var(--ui-cut-sm)),
+    calc(100% - var(--ui-cut-sm)) 100%,0 100%,0 var(--ui-cut-sm));
+  --cut-hex-lg:polygon(var(--ui-cut-lg) 0,100% 0,100% calc(100% - var(--ui-cut-lg)),
+    calc(100% - var(--ui-cut-lg)) 100%,0 100%,0 var(--ui-cut-lg));
+  /* 单角切（统计块用，更「仪表」） */
+  --cut-one-sm:polygon(0 0,100% 0,100% calc(100% - var(--ui-cut-sm)),
+    calc(100% - var(--ui-cut-sm)) 100%,0 100%);
+  /* L 形角标（提示块左上） */
+  --cut-bracket-tl:polygon(0 0,100% 0,100% var(--ui-hair-2),
+    var(--ui-hair-2) var(--ui-hair-2),var(--ui-hair-2) 100%,0 100%);
+  /* 24px 网格纹理：中性灰，亮/暗两套主题共用一张（唯一写法：SVG data URI） */
+  --ui-grid:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M24 0H0V24' fill='none' stroke='%237C8798' stroke-opacity='0.18' stroke-width='1'/%3E%3C/svg%3E");
+  /* 无立绘角色的剪影降级图形（纯 data URI，零请求、零坏图） */
+  --ui-sil:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='21' r='12' fill='%237C8798' fill-opacity='0.5'/%3E%3Cpath d='M10 60v-6c0-9 10-16 22-16s22 7 22 16v6z' fill='%237C8798' fill-opacity='0.5'/%3E%3C/svg%3E");
+}
+
+/* ---------------- 全局底与正文排版 ---------------- */
+body{background:var(--ui-bg);color:var(--ui-ink)}
+::selection{background:var(--ui-hi-2);color:var(--ui-ink)}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;
+  clip-path:inset(50%);white-space:nowrap;border:0}
+
+/* ---------------- §2.1 站点头部 .topbar ---------------- */
+.topbar{position:sticky;top:0;z-index:20;display:flex;justify-content:flex-end;
+  margin:0 0 var(--sp-5);padding:var(--sp-2) 0;background:var(--ui-bg);
+  border-bottom:var(--ui-hair) solid var(--ui-line)}
+.topbar::before{content:"";position:absolute;left:0;right:0;bottom:calc(-1 * var(--ui-hair));
+  height:var(--ui-hair-2);background:var(--ui-hi);opacity:.55;transform:scaleX(0);
+  transform-origin:left;transition:transform var(--t-4) var(--ease)}
+.topbar:hover::before{transform:scaleX(1)}
+.theme-toggle{font:inherit;font-size:var(--fs-1);padding:6px 12px;
+  border:var(--ui-hair) solid var(--ui-line);background:transparent;color:var(--ui-ink);
+  cursor:pointer;letter-spacing:.02em}
+.theme-toggle:hover{border-color:var(--ui-line-2);background:var(--ui-surface)}
+.theme-toggle:focus-visible{outline:var(--ui-hair-2) solid var(--ui-hi);outline-offset:2px}
+
+/* ---------------- §2.2 侧边导航 .sidenav ---------------- */
+.sidenav{position:relative;margin:0 0 var(--sp-5);padding:var(--sp-3) var(--sp-4);
+  border:var(--ui-hair) solid var(--ui-line);background:var(--ui-surface)}
+.sidenav summary{cursor:pointer;font-size:var(--fs-1);font-weight:700;
+  letter-spacing:var(--ui-track);list-style:none}
+.sidenav summary::-webkit-details-marker{display:none}
+.sidenav summary::before{content:"";display:inline-block;width:6px;height:6px;margin-right:8px;
+  background:var(--ui-hi);clip-path:polygon(0 0,100% 50%,0 100%);vertical-align:middle}
+.sidenav details[open] > summary::before{clip-path:polygon(0 0,100% 0,50% 100%)}
+.sidenav ul{list-style:none;padding:0;margin:var(--sp-2) 0 0}
+.sidenav li{padding:3px 0;font-size:var(--fs-2)}
+.sidenav-aux{margin-top:var(--sp-2);padding-top:var(--sp-2);
+  border-top:var(--ui-hair) solid var(--ui-line)}
+.sidenav li a{display:block}
+
+/* ---------------- §2.3 面包屑 .crumbs（分隔符与类名冻结，只改颜色/字号/线宽） ---------------- */
+.crumbs{font-size:var(--fs-1);color:var(--ui-mute);margin-bottom:var(--sp-5);
+  padding-bottom:var(--sp-2);border-bottom:var(--ui-hair) solid var(--ui-line);
+  letter-spacing:.02em;font-variant-numeric:tabular-nums}
+.crumbs > strong{color:var(--ui-ink);font-weight:700}
+.crumbs > span{color:var(--ui-ink-2)}
+.crumbs a:hover::after{height:2px;background:var(--ui-hi)}
+
+/* ---------------- §2.4 正文容器 .prose + 区块标题（编号纯 CSS，无 JS 也有） ---------------- */
+.prose{max-width:72ch;position:relative;counter-reset:sec}
+.prose h2{counter-increment:sec;position:relative;padding-left:var(--sp-5);border-left:0;
+  font-size:var(--fs-5);letter-spacing:.01em}
+.prose h2::before{content:counter(sec,decimal-leading-zero);position:absolute;left:0;top:.18em;
+  font-size:var(--fs-micro);color:var(--ui-hi);letter-spacing:var(--ui-track);
+  font-variant-numeric:tabular-nums}
+.prose h2::after{content:"";position:absolute;left:0;right:0;bottom:-6px;
+  height:var(--ui-hair);background:var(--ui-line)}
+h1{border-bottom:4px solid var(--ui-ink)}
+h3{font-size:var(--fs-4);letter-spacing:.01em}
+
+/* ---------------- §2.5 表格（绝不裁剪：sticky 表头在裁剪容器里会失效） ---------------- */
+table{border-collapse:collapse;width:100%;margin:var(--sp-5) 0;font-size:var(--fs-2);
+  font-variant-numeric:tabular-nums}
+th,td{border:var(--ui-hair) solid var(--ui-line);padding:10px 12px;text-align:left;
+  font-weight:400;vertical-align:top}
+/* 表头不加字距：窄列（如「属性/值」两字列）会因此折行，属实测回归，故只保留字重与底色 */
+th{background:var(--ui-panel-2);font-weight:700}
+thead th::after{content:"";position:absolute;left:0;right:0;bottom:-1px;
+  height:var(--ui-hair-2);background:var(--ui-hi)}
+tbody tr:hover td{background:var(--ui-surface)}
+td:first-child{color:var(--ui-ink-2)}
+
+/* ---------------- §2.6 提示块 ---------------- */
+blockquote{position:relative;border-left:var(--ui-hair-2) solid var(--ui-hi);
+  margin:var(--sp-5) 0;padding:var(--sp-2) var(--sp-4);background:var(--ui-surface);
+  color:var(--ui-ink-2)}
+blockquote::before{content:"";position:absolute;left:0;top:0;width:var(--ui-bracket);
+  height:var(--ui-bracket);background:var(--ui-hi);clip-path:var(--cut-bracket-tl)}
+.dead-banner{border:var(--ui-hair) solid var(--ui-danger);color:var(--ui-danger);
+  background:var(--ui-surface);padding:var(--sp-2) var(--sp-4);margin:var(--sp-4) 0;
+  font-size:var(--fs-2)}
+.missing-note{border:var(--ui-hair) solid var(--ui-line);color:var(--ui-mute);
+  padding:0 4px;margin-left:.35em}
+.meta{background:var(--ui-surface);border:var(--ui-hair) solid var(--ui-line);
+  color:var(--ui-mute);font-size:var(--fs-1);padding:var(--sp-3)}
+code{background:var(--ui-surface-2);padding:2px 6px;font-size:var(--fs-1)}
+pre{background:var(--ui-panel-2);padding:var(--sp-4);overflow-x:auto;
+  border:var(--ui-hair) solid var(--ui-line)}
+pre code{background:none;padding:0;border:0}
+hr{border:0;border-top:var(--ui-hair) solid var(--ui-line);margin:var(--sp-6) 0}
+.searchbox{border:var(--ui-hair) solid var(--ui-line);background:var(--ui-panel);
+  color:var(--ui-ink);padding:12px 16px;font-size:var(--fs-3)}
+.searchbox:focus{outline:var(--ui-hair-2) solid var(--ui-hi);outline-offset:2px;
+  border-color:var(--ui-line-2);padding:12px 16px}
+.results li{border-bottom:var(--ui-hair) solid var(--ui-line)}
+#results li.hl{outline:var(--ui-hair-2) solid var(--ui-hi);outline-offset:-2px}
+.pager{border-top:var(--ui-hair) solid var(--ui-line)}
+.site-footer{border-top:var(--ui-hair) solid var(--ui-line);color:var(--ui-mute)}
+.entity-icon{background:var(--ui-surface)}
+.icon-fallback{border:var(--ui-hair) dashed var(--ui-line);background:var(--ui-surface)}
+
+/* ---------------- §2.7 通用卡片（角色/光锥/遗器/物品详情页的实体图标区） ---------------- */
+.entity-card{gap:var(--sp-4);padding:var(--sp-3);background:var(--ui-surface);
+  border:var(--ui-hair) solid var(--ui-line)}
+
+/* ---------------- §2.9 首页仪表盘 .dash（节点头部 + 统计块 + 快速访问 + 最新收录） ---------------- */
+.hero-title{border-bottom:4px solid var(--ui-ink)}
+.hero-sub{color:var(--ui-mute);font-size:var(--fs-2)}
+.dash{position:relative;margin:0 0 var(--sp-6);padding:0 0 var(--sp-4);
+  border-bottom:var(--ui-hair) solid var(--ui-line)}
+.dash-meta{display:flex;flex-wrap:wrap;gap:var(--sp-2) var(--sp-5);align-items:flex-start;
+  margin:0 0 var(--sp-3);font-size:var(--fs-1);color:var(--ui-mute)}
+.dash-cell{position:relative;isolation:isolate;padding:var(--sp-2) var(--sp-3);
+  font-size:var(--fs-1);color:var(--ui-mute);letter-spacing:.02em}
+.dash-cell::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ui-line);
+  clip-path:var(--cut-one-sm)}
+.dash-cell::after{content:"";position:absolute;inset:1px;z-index:-1;background:var(--ui-panel-2);
+  clip-path:var(--cut-one-sm)}
+.dash-cell b{color:var(--ui-hi);font-size:var(--fs-3);font-weight:700;
+  font-variant-numeric:tabular-nums}
+.dash-sub{color:var(--ui-mute);font-size:var(--fs-1);font-variant-numeric:tabular-nums}
+.dash-h2{font-size:var(--fs-3);font-weight:700;letter-spacing:var(--ui-track);
+  margin:var(--sp-5) 0 var(--sp-3);color:var(--ui-ink-2)}
+.quick-a{position:relative;isolation:isolate;display:inline-block;padding:8px 16px;
+  color:var(--ui-ink);font-size:var(--fs-2);text-decoration:none;
+  transition:transform var(--t-3) var(--ease)}
+.quick-a::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ui-line);
+  clip-path:var(--cut-hex);transition:background-color var(--t-3) var(--ease)}
+.quick-a::after{content:"";position:absolute;inset:1px;z-index:-1;background:var(--ui-panel);
+  clip-path:var(--cut-hex);transition:background-color var(--t-3) var(--ease)}
+.quick-a:hover{text-decoration:none;transform:translateY(-2px)}
+.quick-a:hover::before{background:var(--ui-hi)}
+.quick-a:hover::after{background:var(--ui-panel-2)}
+.dash-recent{border-top:var(--ui-hair) solid var(--ui-line)}
+.dash-item{border-bottom:var(--ui-hair) solid var(--ui-line);padding:var(--sp-2) 0}
+.dash-item:hover{background:var(--ui-surface)}
+.dash-tag,.dash-date{font-size:var(--fs-1);color:var(--ui-mute)}
+.dash-empty{color:var(--ui-mute);font-size:var(--fs-2);padding:var(--sp-2) 0}
+.cats{gap:var(--sp-3)}
+
+/* ---------------- §2.9b 分类 bento 内部字号 ---------------- */
+.cat .n{font-size:var(--fs-4);font-weight:500;letter-spacing:.02em}
+.cat .c{font-size:var(--fs-1);color:var(--ui-mute);font-variant-numeric:tabular-nums}
+
+/* ===================================================================
+   §3 hero 动画（R2）：所有视觉由 CSS 关键帧驱动，脚本只创建节点 + 计时
+   -------------------------------------------------------------------
+   时序（T0 = 点击）：0-120 背板/拉开 → 40-160 竖轴 → 120-360 主视觉
+   → 160-400 四角 bracket（每角 +40ms）→ 260-420 名字擦除
+   → 320-560 数据条 3×（每行 +40ms）→ 560-720 冷光扫过 → 720-840 收束。
+   总时长由 --hero-total 定义；脚本读 getComputedStyle 的该值作为跳转时点
+   （CSS 是时长的唯一真相源，避免两处硬编码）。
+   =================================================================== */
+.hero-overlay{position:fixed;inset:0;z-index:90;display:grid;place-items:center;
+  background:var(--ui-bg);background-image:var(--ui-grid);background-repeat:repeat;
+  contain:layout paint;overflow:hidden;cursor:pointer}
+.hero-overlay[hidden]{display:none}
+.hero-stage{position:relative;isolation:isolate;display:grid;place-items:center;
+  gap:var(--sp-3);padding:var(--sp-6) var(--sp-5);text-align:center;
+  min-width:min(420px,86vw)}
+/* 切角框 + 假框：整层压在内容之下（z-index:-1），所以内层不透明底不会盖住文字 */
+.hero-frame{position:absolute;inset:0;z-index:-1;isolation:isolate;pointer-events:none}
+.hero-frame::before{content:"";position:absolute;inset:0;background:var(--ui-hi);
+  clip-path:var(--cut-hex-lg)}
+.hero-frame::after{content:"";position:absolute;inset:var(--ui-frame);
+  background:var(--ui-panel);clip-path:var(--cut-hex-lg)}
+.hero-br{position:absolute;width:var(--ui-bracket);height:var(--ui-bracket);z-index:1;
+  pointer-events:none}
+.hero-br-tl{left:0;top:0;border-top:var(--ui-hair-2) solid var(--ui-hi);
+  border-left:var(--ui-hair-2) solid var(--ui-hi)}
+.hero-br-tr{right:0;top:0;border-top:var(--ui-hair-2) solid var(--ui-hi);
+  border-right:var(--ui-hair-2) solid var(--ui-hi)}
+.hero-br-bl{left:0;bottom:0;border-bottom:var(--ui-hair-2) solid var(--ui-hi);
+  border-left:var(--ui-hair-2) solid var(--ui-hi)}
+.hero-br-br{right:0;bottom:0;border-bottom:var(--ui-hair-2) solid var(--ui-hi);
+  border-right:var(--ui-hair-2) solid var(--ui-hi)}
+.hero-spine{position:absolute;left:var(--sp-5);top:var(--sp-5);bottom:var(--sp-5);
+  width:var(--ui-hair-2);background:var(--ui-hi-2);transform-origin:top;pointer-events:none}
+.hero-art-wrap{position:relative;width:min(256px,60vmin);aspect-ratio:1;isolation:isolate}
+.hero-art{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}
+.hero-art-top{opacity:0;transition:opacity var(--t-2) linear}
+.hero-art-top.is-ready{opacity:1}
+.hero-art-sil{background-image:var(--ui-sil);background-repeat:no-repeat;
+  background-position:center;background-size:78% 78%}
+.hero-name{margin:0;font-size:clamp(22px,5vw,34px);font-weight:700;letter-spacing:.06em;
+  color:var(--ui-ink);line-height:1.2}
+.hero-stats{display:flex;flex-wrap:wrap;justify-content:center;gap:var(--sp-2);
+  list-style:none;margin:0;padding:0}
+.hero-stat{position:relative;isolation:isolate;padding:6px 12px;font-size:var(--fs-1);
+  font-variant-numeric:tabular-nums;color:var(--ui-ink)}
+.hero-stat::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ui-line);
+  clip-path:var(--cut-hex-sm)}
+.hero-stat::after{content:"";position:absolute;inset:1px;z-index:-1;
+  background:var(--ui-panel-2);clip-path:var(--cut-hex-sm)}
+.hero-k{color:var(--ui-mute);margin-right:6px;font-size:var(--fs-micro);
+  letter-spacing:var(--ui-track)}
+.hero-sweep{position:absolute;top:0;bottom:0;left:0;width:38%;background:var(--ui-hi);
+  opacity:0;pointer-events:none}
+.hero-hint{margin:0;font-size:var(--fs-micro);color:var(--ui-mute);
+  letter-spacing:var(--ui-track)}
+
+/* hero 关键帧与时序投影：整段包在 prefers-reduced-motion: no-preference 内（第二道保险；
+   第一道是 :124 的 reduce 兜底与脚本在 reduce 下根本不建 overlay）。
+   所有 duration/delay = calc(var(--hero-stagger) * k)，k 为该步的步数（基准步长 40ms）：
+   首帧 3 步=120ms → 竖轴 1 步起 → 主视觉 3 步起 6 步长 → 四角 4..7 步
+   → 名字 6.5 步 → 数据条 8/9/10 步 → 扫光 14 步 → 收束 18..21 步 = --hero-total。 */
+@media (prefers-reduced-motion: no-preference){
+  @keyframes heroBackIn{from{opacity:0}to{opacity:1}}
+  @keyframes heroWipeIn{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}
+  @keyframes heroSpineIn{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+  @keyframes heroArtIn{from{opacity:0;transform:scale(.86) translateY(8px)}
+    to{opacity:1;transform:scale(1) translateY(0)}}
+  @keyframes heroFrameIn{from{opacity:0}to{opacity:1}}
+  @keyframes heroNameIn{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0)}}
+  @keyframes heroStatIn{from{opacity:0;transform:translateX(-10px)}
+    to{opacity:1;transform:translateX(0)}}
+  @keyframes heroSweepIn{0%{opacity:0;transform:translateX(-110%)}
+    45%{opacity:.5}100%{opacity:0;transform:translateX(310%)}}
+  @keyframes heroSettleIn{from{transform:scale(1)}to{transform:scale(1.02)}}
+
+  .hero-overlay{animation:heroBackIn calc(var(--hero-stagger)*3) var(--ease) 0ms both,
+    heroWipeIn calc(var(--hero-stagger)*3) var(--ease) 0ms both}
+  .hero-frame{animation:heroFrameIn calc(var(--hero-stagger)*6) var(--ease)
+      calc(var(--hero-stagger)*4) both,
+    heroSettleIn calc(var(--hero-stagger)*3) var(--ease) calc(var(--hero-stagger)*18) both}
+  .hero-br-tl{animation:heroFrameIn calc(var(--hero-stagger)*3) var(--ease) calc(var(--hero-stagger)*4) both}
+  .hero-br-tr{animation:heroFrameIn calc(var(--hero-stagger)*3) var(--ease) calc(var(--hero-stagger)*5) both}
+  .hero-br-bl{animation:heroFrameIn calc(var(--hero-stagger)*3) var(--ease) calc(var(--hero-stagger)*6) both}
+  .hero-br-br{animation:heroFrameIn calc(var(--hero-stagger)*3) var(--ease) calc(var(--hero-stagger)*7) both}
+  .hero-spine{animation:heroSpineIn calc(var(--hero-stagger)*3) var(--ease) calc(var(--hero-stagger)*1) both}
+  .hero-art-wrap{animation:heroArtIn calc(var(--hero-stagger)*6) var(--ease-out) calc(var(--hero-stagger)*3) both}
+  .hero-name{animation:heroNameIn calc(var(--hero-stagger)*4) var(--ease) calc(var(--hero-stagger)*6.5) both}
+  .hero-stat:nth-child(1){animation:heroStatIn calc(var(--hero-stagger)*6) var(--ease-out) calc(var(--hero-stagger)*8) both}
+  .hero-stat:nth-child(2){animation:heroStatIn calc(var(--hero-stagger)*6) var(--ease-out) calc(var(--hero-stagger)*9) both}
+  .hero-stat:nth-child(3){animation:heroStatIn calc(var(--hero-stagger)*6) var(--ease-out) calc(var(--hero-stagger)*10) both}
+  .hero-sweep{animation:heroSweepIn calc(var(--hero-stagger)*4) var(--ease-in) calc(var(--hero-stagger)*14) both}
+  .hero-hint{animation:heroBackIn calc(var(--hero-stagger)*3) var(--ease) calc(var(--hero-stagger)*17.5) both}
+}
+
+/* ---------------- 主题切换过渡（新 token 覆盖到的元素，160ms 颜色过渡） ---------------- */
+.topbar,.sidenav,.dash,pre,.searchbox,.site-footer{
+  transition:background-color .16s linear,border-color .16s linear,color .16s linear}
+
+/* ---------------- 高对比 / forced-colors：纯色装饰会被系统色吞掉，显式恢复 1px 框 ---------------- */
+@media (forced-colors: active){
+  .ccard,.chip,.cat,.quick-a,.dash-cell,.topbar,.sidenav{border:1px solid}
+  .ccard::before,.ccard::after,.chip::before,.chip::after,.cat::before,.cat::after,
+  .quick-a::before,.quick-a::after,.dash-cell::before,.dash-cell::after,
+  .hero-stat::before,.hero-stat::after{background:transparent;clip-path:none}
+}
+
+/* ---------------- 小屏：切角收窄、舞台收边（600×900 不允许横向溢出） ---------------- */
+@media (max-width:640px){
+  .hero-stage{min-width:0;width:100%;padding:var(--sp-5) var(--sp-4)}
+  .hero-spine{left:var(--sp-3)}
+  .hero-art-wrap{width:min(200px,58vmin)}
+  .hero-stat{padding:4px 8px}
+  .dash-meta{gap:var(--sp-2) var(--sp-3)}
+  .topbar{margin-bottom:var(--sp-4)}
+}
+
+/* ---------------- 打印：hero 与界面性元素一律不出现在纸面 ----------------
+   D-2 修正：.topbar 必须在打印态隐藏。:141 的 print 规则与 :439 的屏幕规则同特异度、
+   后者位置更靠后会把 display 抢回 flex（暗色下纸面带出 17px 深色条），
+   故在**更靠后的本段**再声明一次 display:none（顺序解决，不用 !important）。 */
+@media print{
+  .topbar,.hero-overlay,.hero-sweep,.hero-spine,.hero-br,.hero-frame{display:none}
+  .topbar::before{display:none}
+  body{background:#FFFFFF;color:#000000}
+  .ccard,.chip,.cat,.quick-a,.dash-cell{background:transparent}
 }
