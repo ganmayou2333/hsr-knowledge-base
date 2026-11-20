@@ -1,0 +1,19 @@
+name: Trusted fork event probe
+on:
+  pull_request_target:
+    branches: [codex/fork-probe-base]
+    types: [opened, reopened, synchronize]
+permissions: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Confirm trusted event received
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          RUN_ID: ${{ github.run_id }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+        run: printf 'PR=%s HEAD=%s BASE=%s RUN=%s ATTEMPT=%s\n' "$PR_NUMBER" "$HEAD_SHA" "$BASE_SHA" "$RUN_ID" "$RUN_ATTEMPT"
