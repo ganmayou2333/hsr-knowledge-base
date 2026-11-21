@@ -38,6 +38,7 @@
 
 - `wiki-quality.yml` 构建 Wiki 并生成预览包；包内内容仍是不可信数据。
 - `wiki-trusted-data.yml` 使用目标分支的扫描程序检查 PR 数据，在检查前后核对 PR 仍处于打开状态且提交与目标版本未变。工作流需先进入默认分支才能响应事件；草稿 PR 中的文件不会自动启用。该检查只覆盖数据规则，不证明 PR 提供的构建脚本或产物可信。
+- 可信检查成功后会上传含 PR 编号、仓库 ID、头与目标提交、运行 ID 和运行次数的上下文收据。`tools/trusted_receipt.py` 提供独立的收据校验原型，调用方必须从 GitHub 取得与该可信运行关联的产物元数据，并按产物 ID 下载对应 ZIP；不能信任 PR 构建提供的同名文件。收据代码尚未接入发现、暂存、页面或发布流程，也尚未完成真实 fork 验证；收据不证明普通 PR 构建或其预览产物属于该 PR。
 - `tools/stage_preview.py` 校验并转换单个 PR 的预览包，并要求相同 PR、提交和目标版本的独立数据检查通过；`tools/preview_catalog.py` 重新生成多 PR 目录，并重新核验该检查。二者都不部署网站。
 - `python -m tools.reconcile_previews OWNER/REPO preview_shell 输出目录` 可发现当前 PR 和最新检查，暂存合格产物并生成新目录；输出目录必须不存在。它不切换或部署线上站点，且需要先启用独立检查才能与真实 GitHub 端到端联调。
 - `python -m tools.preview_release OWNER/REPO preview_shell 专用目录` 可在受信任的本机专用目录中生成新版本，复核后原子切换 `current`；失败保留现有版本。清理只处理带本项目标识且至少保留 10 分钟的旧版本，并保留上一个版本。异常退出可能留下 `.publish-lock`，应确认没有进程运行后人工处理。该命令不提供外网服务，也不会自行定期运行。
