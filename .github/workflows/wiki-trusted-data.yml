@@ -61,3 +61,26 @@ jobs:
           gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json state,headRefOid,baseRefOid |
             jq -e --arg head "$EXPECTED_HEAD" --arg base "$EXPECTED_BASE" \
               '.state == "OPEN" and .headRefOid == $head and .baseRefOid == $base' > /dev/null
+      # This receipt is not a preview artifact and is not yet used for publishing.
+      # Its only purpose is to record this trusted workflow's event context.
+      - name: Record trusted check context
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_REPO_ID: ${{ github.event.pull_request.head.repo.id }}
+          BASE_REPO_ID: ${{ github.event.pull_request.base.repo.id }}
+        run: |
+          jq -n \
+            --argjson pr "$PR_NUMBER" --arg head "$HEAD_SHA" --arg base "$BASE_SHA" \
+            --argjson head_repo "$HEAD_REPO_ID" --argjson base_repo "$BASE_REPO_ID" \
+            --argjson run "$GITHUB_RUN_ID" --argjson attempt "$GITHUB_RUN_ATTEMPT" \
+            '{version: 1, pr: $pr, head: $head, base: $base, head_repo: $head_repo, base_repo: $base_repo, run: $run, attempt: $attempt}' \
+            > "$RUNNER_TEMP/trusted-check-receipt.json"
+      - name: Upload trusted check context
+        uses: actions/upload-artifact@v7
+        with:
+          name: trusted-check-receipt-${{ github.event.pull_request.number }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/trusted-check-receipt.json
+          if-no-files-found: error
+          retention-days: 7
