@@ -6,9 +6,11 @@
 
 外部 PR 的运行关联仍有已知缺口（#41）：GitHub 有时在工作流运行和对应 check suite 中都返回空的 `pull_requests`。例如 2026-11-21 复核的 `github/docs` 运行 44763860127（suite 121163780687，`pull_request_target`）和 `cli/cli` 运行 44657416158（suite 120881046666，`pull_request`）均如此。不能仅凭相同提交、分支名或 check suite 推断运行属于哪个 PR；当前实现跳过无法绑定的预览，其余可安全绑定的 PR 仍可处理。这两例不能代替本仓库 fork 的端到端验收。
 
-本仓库的真实 fork 也已复现该现象：草稿 PR #44 从 `Hikarifly/hsr-knowledge-base` 提交，最小 `pull_request` 探测运行 44801922468 成功，但其运行记录和 check suite 121266314550 的 `pull_requests` 均为空。探测工作流未检出 PR 文件，也没有部署或使用发布凭据。这只验证了普通 PR 事件的关联缺口；可信 `pull_request_target` 检查尚未进入默认分支，仍未完成本仓库的端到端联调。
+本仓库的真实 fork 也已复现该现象：草稿 PR #44 从 `Hikarifly/hsr-knowledge-base` 提交，最小 `pull_request` 探测运行 44801922468 成功，但其运行记录和 check suite 121266314550 的 `pull_requests` 均为空。探测工作流未检出 PR 文件，也没有部署或使用发布凭据。此次探测只验证了普通 PR 事件的关联缺口；当时可信 `pull_request_target` 检查尚未进入默认分支。后续的真实运行结果见下文。
 
 同一 fork 分支随后被用于指向隔离测试基线的 PR #45，运行 44802545276 也成功且 PR 关联为空。PR #45 的状态检查同时显示了 #44 的旧运行和本次新运行：检查附着于同一提交不能证明它属于当前 PR 或目标基线。隔离测试基线中的最小 `pull_request_target` 工作流在本次观察期间未出现运行；这次试验未能验证该事件。GitHub 的[事件说明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#pull_request_target)指出，GitHub.com 的 `pull_request_target` 运行在目标仓库默认分支的上下文中；本次探测工作流只放在隔离基线上，未放入默认分支，因而不能作为真实可信事件验收。测试未修改 `main`。
+
+2026-11-21 合并基础功能后，可信工作流已进入默认分支。真实 fork 探测 PR #48 以当前 `main` 为基线，普通 `pull_request` 构建运行 44810577760 和可信 `pull_request_target` 数据检查运行 44810577529 均成功，但两次运行的 `pull_requests` 均为空；成功检查仍不能单靠提交或工作流名称与具体 PR 安全绑定，外部预览尚不可用。测试 PR 已关闭、未合并。此前重新打开旧基线 PR #44 时，运行 44808289456 的事件目标 SHA 仍为合并前版本，在检查前的状态核对处失败；后续新事件通过该核对，但由于旧分支含 4 处现已修复的失效链接，可信扫描失败。这些结果不能证明端到端预览发布或审查状态已完成。
 
 关于签名证明的后续调查：GitHub 的 [OIDC 声明](https://docs.github.com/en/actions/reference/security/oidc)包含事件、ref、仓库、运行 ID 和 attempt 等字段，可作为研究运行身份绑定的线索；但这些字段本身并不证明 PR 构建脚本或内容可信，也不能替代对签名、产物摘要、目标版本与当前 PR 状态的验证。GitHub 的[标准产物证明流程](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations)要求 `id-token: write` 和 `attestations: write`；外部 fork 的普通 PR 运行默认受到[只读权限限制](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target)。因此不能假设该流程在外部 fork 中可用，也不能为此打开向不可信 PR 发送写令牌的设置。是否存在满足权限边界的证明方式仍需真实测试，当前发布校验没有采用这一机制。
 
