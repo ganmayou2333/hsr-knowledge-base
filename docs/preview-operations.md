@@ -6,7 +6,7 @@
 
 外部 PR 的运行关联仍有已知缺口（#41）：GitHub 有时在工作流运行和对应 check suite 中都返回空的 `pull_requests`。例如 2026-11-21 复核的 `github/docs` 运行 44763860127（suite 121163780687，`pull_request_target`）和 `cli/cli` 运行 44657416158（suite 120881046666，`pull_request`）均如此。不能仅凭相同提交、分支名或 check suite 推断运行属于哪个 PR；当前实现跳过无法绑定的预览，其余可安全绑定的 PR 仍可处理。这两例不能代替本仓库 fork 的端到端验收。
 
-本仓库的真实 fork 也已复现该现象：草稿 PR #44 从 `Hikarifly/hsr-knowledge-base` 提交，最小 `pull_request` 探测运行 44801922468 成功，但其运行记录和 check suite 121266314550 的 `pull_requests` 均为空。探测工作流未检出 PR 文件，也没有部署或使用发布凭据。这只验证了普通 PR 事件的关联缺口；可信 `pull_request_target` 检查尚未进入默认分支，仍未完成本仓库的端到端联调。
+本仓库的真实 fork 也已复现该现象：草稿 PR #44 从 `Hikarifly/hsr-knowledge-base` 提交，最小 `pull_request` 探测运行 44801922468 成功，但其运行记录和 check suite 121266314550 的 `pull_requests` 均为空。探测工作流未检出 PR 文件，也没有部署或使用发布凭据。此次探测只验证了普通 PR 事件的关联缺口；当时可信 `pull_request_target` 检查尚未进入默认分支。后续的真实运行结果见下文。
 
 同一 fork 分支随后被用于指向隔离测试基线的 PR #45，运行 44802545276 也成功且 PR 关联为空。PR #45 的状态检查同时显示了 #44 的旧运行和本次新运行：检查附着于同一提交不能证明它属于当前 PR 或目标基线。隔离测试基线中的最小 `pull_request_target` 工作流在本次观察期间未出现运行；这次试验未能验证该事件。GitHub 的[事件说明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#pull_request_target)指出，GitHub.com 的 `pull_request_target` 运行在目标仓库默认分支的上下文中；本次探测工作流只放在隔离基线上，未放入默认分支，因而不能作为真实可信事件验收。测试未修改 `main`。
 

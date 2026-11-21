@@ -57,7 +57,7 @@ node tools/test_wiki_browser.mjs
 
 `preview_shell/` 和 `tools/preview_bundle.py` 是隔离预览的实验性组件，尚无可信发布流程，不应直接部署为公开预览。浏览器测试覆盖隔离、主动跳转、基本导航和过期隐藏；外层内容安全策略限制框架跳转，已在 Chromium 内核浏览器验证。正式发布前仍需验证目标浏览器兼容性并完成发布流程与安全审查。
 
-`python -m tools.stage_preview OWNER/REPO PR编号 构建运行编号 输出目录 --trusted-run 独立检查运行编号` 可将指定 PR 的检查产物转换成仅含 JSON 的新本地目录。必须从独立可信的检出运行；它要求独立数据检查与当前 PR 版本匹配，但该检查尚未在 GitHub 启用或接入最终发布。转换后的目录不会自动发布，也不能代替实时状态校验、清理和外部 PR 的完整安全审查。
+`python -m tools.stage_preview OWNER/REPO PR编号 构建运行编号 输出目录 --trusted-run 独立检查运行编号` 可将指定 PR 的检查产物转换成仅含 JSON 的新本地目录。必须从独立可信的检出运行；它要求独立数据检查与当前 PR 版本匹配，该检查已在 GitHub 默认分支启用，但尚未接入最终发布；外部 fork 的运行关联仍需解决。转换后的目录不会自动发布，也不能代替实时状态校验、清理和外部 PR 的完整安全审查。
 
 `python -I /可信检出/tools/trusted_quality.py /只读PR检出` 使用可信检出的数据检查脚本和基线检查 PR 数据。应在无发布凭据、资源受限的环境运行，且检查期间 PR 检出不可被修改；该检查器尚未接入可信发布流程，不能单独作为预览发布授权。
 
