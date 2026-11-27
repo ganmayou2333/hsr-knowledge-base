@@ -79,6 +79,14 @@ class ReconcileTests(unittest.TestCase):
                 reconcile('owner/repo', self.root, self.root / 'api-failure')
         self.assertFalse((self.root / 'api-failure').exists())
 
+    def test_same_repository_run_without_association_is_also_skipped(self):
+        # Observed on internal PR #53: matching head and repository IDs do not
+        # bind either the build or trusted run to one particular PR.
+        self.builds[0]['pull_requests'] = []
+        self.trusted[0]['pull_requests'] = []
+        self.assertEqual(self.run_reconcile(), [])
+        self.assertEqual(self.staged, [])
+
     def test_fork_run_without_github_pr_association_fails_closed(self):
         # GitHub can return an empty pull_requests list for fork runs. Without
         # trustworthy evidence binding the run to a PR, never infer the link.

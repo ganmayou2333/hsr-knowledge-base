@@ -16,6 +16,8 @@
 
 同日也复核仓库内部 PR #53：该 PR 已于 2026-11-21 09:03:55 UTC 合并并处于关闭状态；可信运行 `44887627588` 与 artifact `14701140086` 的头仓库和目标仓库 ID 均为 `1348409427`，该运行的 `pull_requests` 也为空。下载真实收据后，使用当前关闭状态进行校验被拒绝；只在内存中将响应状态改为 `open` 后可通过收据校验，**并非真实重新打开 PR 或实际发布**。这验证了一个真实关闭响应与内部仓库收据的校验表现，不证明真实关闭事件的端到端清理，也不能验证普通构建产物归属。
 
+内部 PR #53 的普通 `pull_request` 构建 `44887627665` 同样成功，但其 API `pull_requests` 为空；其头提交和头仓库与该 PR 一致，却不能仅据此证明产物属于该 PR。由此可见当前关联缺口**不只影响 fork**：内部 PR 也可能被发现流程保守跳过。`tools.test_reconcile_previews` 新增了同仓库无关联时的回归测试；这不是内部 PR 端到端发布成功证据。
+
 关于签名证明的后续调查：GitHub 的 [OIDC 声明](https://docs.github.com/en/actions/reference/security/oidc)包含事件、ref、仓库、运行 ID 和 attempt 等字段，可作为研究运行身份绑定的线索；但这些字段本身并不证明 PR 构建脚本或内容可信，也不能替代对签名、产物摘要、目标版本与当前 PR 状态的验证。GitHub 的[标准产物证明流程](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations)要求 `id-token: write` 和 `attestations: write`；外部 fork 的普通 PR 运行默认受到[只读权限限制](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target)。因此不能假设该流程在外部 fork 中可用，也不能为此打开向不可信 PR 发送写令牌的设置。是否存在满足权限边界的证明方式仍需真实测试，当前发布校验没有采用这一机制。
 
 静态页面加载及重新验证时还会查询对应提交的最新构建和可信数据检查；新检查失败、运行中、无法关联 PR 或无法查询时隐藏预览。外部 PR 还要求未过期的批准快照与当前审核记录一致；撤销、过期或无法核实时隐藏预览。审核者权限变化仍可能在快照到期前滞后。页面每 90 秒及重新获得可见性时重新验证，并每 15 秒复核审核状态，因此状态变化不会即时反映。额外的匿名 API 请求可能更快触发 GitHub 限流，此时预览会不可用，不能把这种行为描述为稳定的实时服务。
