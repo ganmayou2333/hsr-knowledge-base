@@ -26,6 +26,15 @@ TRUSTED = {'id': 11, 'workflow_id': 42, 'repository': {'id': 1}, 'event': 'pull_
 
 
 class ReconcileTests(unittest.TestCase):
+    def test_workflow_pages_require_stable_complete_total(self):
+        self.assertEqual(pages_items([{'total_count': 2, 'workflow_runs': [1]},
+                                      {'total_count': 2, 'workflow_runs': [2]}], 'workflow_runs'), [1, 2])
+        for pages in ([], [{'workflow_runs': []}], [{'total_count': True, 'workflow_runs': []}],
+                      [{'total_count': 2, 'workflow_runs': [1]}],
+                      [{'total_count': 2, 'workflow_runs': [1]}, {'total_count': 1, 'workflow_runs': []}]):
+            with self.subTest(pages=pages), self.assertRaises(InvalidPreviewArtifact):
+                pages_items(pages, 'workflow_runs')
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
@@ -37,9 +46,9 @@ class ReconcileTests(unittest.TestCase):
         if '/pulls?state=' in path:
             return [[copy.deepcopy(PR)]]
         if '/wiki-trusted-data.yml/runs?' in path:
-            return [{'workflow_runs': self.trusted}]
+            return [{'total_count': len(self.trusted), 'workflow_runs': self.trusted}]
         if '/wiki-quality.yml/runs?' in path:
-            return [{'workflow_runs': self.builds}]
+            return [{'total_count': len(self.builds), 'workflow_runs': self.builds}]
         if path.endswith('/actions/workflows/wiki-trusted-data.yml'):
             return WORKFLOW
         raise AssertionError(path)
@@ -117,11 +126,11 @@ class ReconcileTests(unittest.TestCase):
                 return [[external, other]]
             if '/runs?' in path:
                 if 'head_sha=' + HEAD in path:
-                    return [{'workflow_runs': [dict(BUILD, pull_requests=[])]}]
+                    return [{'total_count': 1, 'workflow_runs': [dict(BUILD, pull_requests=[])]}]
                 run = copy.deepcopy(TRUSTED if 'wiki-trusted-data.yml' in path else BUILD)
                 run.update(id=21 if run['event'] == 'pull_request_target' else 20,
                            head_sha='c' * 40, pull_requests=[association])
-                return [{'workflow_runs': [run]}]
+                return [{'total_count': 1, 'workflow_runs': [run]}]
             return self.api(path, paginate)
         with patch('tools.reconcile_previews.gh_api', side_effect=api), \
                 patch('tools.reconcile_previews.stage', side_effect=self.stage), \
@@ -178,10 +187,10 @@ class ReconcileTests(unittest.TestCase):
             latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])
 
     def test_pagination_limit_cannot_be_treated_as_complete(self):
-        self.assertEqual(len(pages_items([{'workflow_runs': [None] * 999}], 'workflow_runs')), 999)
+        self.assertEqual(len(pages_items([{'total_count': 999, 'workflow_runs': [None] * 999}], 'workflow_runs')), 999)
         self.assertEqual(len(pages_items([[None] * 999])), 999)
         with self.assertRaises(InvalidPreviewArtifact):
-            pages_items([{'workflow_runs': [None] * 1000}], 'workflow_runs')
+            pages_items([{'total_count': 1000, 'workflow_runs': [None] * 1000}], 'workflow_runs')
         with self.assertRaises(InvalidPreviewArtifact):
             pages_items([[None] * 1000])
 

@@ -55,13 +55,20 @@ def select_artifact(repo, number, run_id, pr, run, pages, external_approved=Fals
         if not isinstance(pages, list) or not pages:
             raise ValueError
         inventory = []
+        expected_total = None
         for page in pages:
             if not isinstance(page, dict) or not isinstance(page.get('artifacts'), list):
                 raise ValueError
+            total = page.get('total_count')
+            if type(total) is not int or total < 0 or (expected_total is not None and total != expected_total):
+                raise ValueError
+            expected_total = total
             inventory.extend(page['artifacts'])
             # A capped listing cannot prove there isn't a duplicate name later.
             if len(inventory) >= 1000:
                 raise ValueError
+        if len(inventory) != expected_total:
+            raise ValueError
         ids = [item['id'] for item in inventory]
         if any(type(identifier) is not int or identifier < 1 for identifier in ids) or len(set(ids)) != len(ids):
             raise ValueError

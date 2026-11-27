@@ -153,8 +153,8 @@ class ReleaseTests(unittest.TestCase):
             raise AssertionError(path)
         def verifier_api(path, paginate=False):
             if path.endswith('/pulls/7'): return copy.deepcopy(pr)
-            if '/wiki-quality.yml/runs?' in path: return [{'workflow_runs': copy.deepcopy(builds)}]
-            if '/wiki-trusted-data.yml/runs?' in path: return [{'workflow_runs': [copy.deepcopy(trusted)]}]
+            if '/wiki-quality.yml/runs?' in path: return [{'total_count': len(builds), 'workflow_runs': copy.deepcopy(builds)}]
+            if '/wiki-trusted-data.yml/runs?' in path: return [{'total_count': 1, 'workflow_runs': [copy.deepcopy(trusted)]}]
             raise AssertionError(path)
         with patch('tools.preview_release.reconcile', side_effect=lambda repo, shell, site: fixture(site)), \
                 patch('tools.preview_catalog.gh_api', side_effect=catalog_api), \

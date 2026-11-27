@@ -28,29 +28,34 @@ TRUSTED_RUN = {'id': 11, 'workflow_id': 42, 'repository': {'id': 1}, 'event': 'p
 
 
 def responses(pr=PR, run=RUN, pages=None, trusted=TRUSTED_RUN):
-    return [pr, {'name': 'main', 'commit': {'sha': BASE}}, run, [{'artifacts': [ARTIFACT]}] if pages is None else pages, WORKFLOW, trusted,
-            [{'workflow_runs': [run]}], [{'workflow_runs': [trusted]}]]
+    return [pr, {'name': 'main', 'commit': {'sha': BASE}}, run, [{'total_count': 1, 'artifacts': [ARTIFACT]}] if pages is None else pages, WORKFLOW, trusted,
+            [{'total_count': 1, 'workflow_runs': [run]}], [{'total_count': 1, 'workflow_runs': [trusted]}]]
 
 
 class StagingTests(unittest.TestCase):
     def select(self, pr=PR, run=RUN, pages=None, approved=False):
         return select_artifact('owner/repo', 7, 10, pr, run,
-                               [{'artifacts': [ARTIFACT]}] if pages is None else pages, approved)
+                               [{'total_count': 1, 'artifacts': [ARTIFACT]}] if pages is None else pages, approved)
 
     def test_matching_metadata(self):
         self.assertEqual(self.select(), (20, HEAD, BASE))
         old = dict(ARTIFACT, id=19, name=f'wiki-preview-7-{HEAD}-1')
         current = dict(ARTIFACT, id=21, name=f'wiki-preview-7-{HEAD}-2')
-        self.assertEqual(self.select(run=dict(RUN, run_attempt=2), pages=[{'artifacts': [old, current]}]),
+        self.assertEqual(self.select(run=dict(RUN, run_attempt=2), pages=[{'total_count': 2, 'artifacts': [old, current]}]),
                          (21, HEAD, BASE))
 
     def test_artifact_pagination_cap_and_duplicate_ids_fail_closed(self):
         others = [{'id': 1000 + i, 'name': f'unrelated-{i}'} for i in range(998)]
-        self.assertEqual(self.select(pages=[{'artifacts': [ARTIFACT, *others]}])[0], 20)
+        self.assertEqual(self.select(pages=[{'total_count': 999, 'artifacts': [ARTIFACT, *others]}])[0], 20)
         with self.assertRaises(InvalidPreviewArtifact):
-            self.select(pages=[{'artifacts': [ARTIFACT, *others, {'id': 9999, 'name': 'extra'}]}])
+            self.select(pages=[{'total_count': 1000, 'artifacts': [ARTIFACT, *others, {'id': 9999, 'name': 'extra'}]}])
         with self.assertRaises(InvalidPreviewArtifact):
-            self.select(pages=[{'artifacts': [ARTIFACT, {'id': 20, 'name': 'other'}]}])
+            self.select(pages=[{'total_count': 2, 'artifacts': [ARTIFACT, {'id': 20, 'name': 'other'}]}])
+        for pages in ([{'artifacts': [ARTIFACT]}], [{'total_count': 2, 'artifacts': [ARTIFACT]}],
+                      [{'total_count': True, 'artifacts': [ARTIFACT]}],
+                      [{'total_count': 1, 'artifacts': [ARTIFACT]}, {'total_count': 2, 'artifacts': []}]):
+            with self.subTest(pages=pages), self.assertRaises(InvalidPreviewArtifact):
+                self.select(pages=pages)
 
     def test_stale_failed_or_unmatched_inputs_are_rejected(self):
         cases = []
@@ -61,9 +66,9 @@ class StagingTests(unittest.TestCase):
                              ('event', 'push'), ('path', '.github/workflows/other.yml'), ('run_attempt', 2)]:
             run = copy.deepcopy(RUN); run[field] = value; cases.append((PR, run, None))
         for field, value in [('expired', True), ('name', 'wrong'), ('size_in_bytes', 0)]:
-            item = copy.deepcopy(ARTIFACT); item[field] = value; cases.append((PR, RUN, [{'artifacts': [item]}]))
-        item = copy.deepcopy(ARTIFACT); item['workflow_run']['id'] = 11; cases.append((PR, RUN, [{'artifacts': [item]}]))
-        cases.append((PR, RUN, [{'artifacts': [ARTIFACT, ARTIFACT]}]))
+            item = copy.deepcopy(ARTIFACT); item[field] = value; cases.append((PR, RUN, [{'total_count': 1, 'artifacts': [item]}]))
+        item = copy.deepcopy(ARTIFACT); item['workflow_run']['id'] = 11; cases.append((PR, RUN, [{'total_count': 1, 'artifacts': [item]}]))
+        cases.append((PR, RUN, [{'total_count': 2, 'artifacts': [ARTIFACT, ARTIFACT]}]))
         for pr, run, pages in cases:
             with self.subTest(pr=pr, run=run, pages=pages), self.assertRaises(InvalidPreviewArtifact):
                 self.select(pr, run, pages)
@@ -72,7 +77,7 @@ class StagingTests(unittest.TestCase):
         pr, run, artifact = copy.deepcopy(PR), copy.deepcopy(RUN), copy.deepcopy(ARTIFACT)
         pr['head']['repo']['id'] = run['pull_requests'][0]['head']['repo']['id'] = 2
         artifact['workflow_run']['head_repository_id'] = 2
-        pages = [{'artifacts': [artifact]}]
+        pages = [{'total_count': 1, 'artifacts': [artifact]}]
         with self.assertRaises(InvalidPreviewArtifact): self.select(pr, run, pages)
         self.assertEqual(self.select(pr, run, pages, approved=True), (20, HEAD, BASE))
         self.assertRaises(InvalidPreviewArtifact, self.select, pr, run, pages, 'yes')
@@ -122,7 +127,7 @@ class StagingTests(unittest.TestCase):
             for name in ('assets', 'data', 'pages'): (wiki / name).mkdir()
             package_site(wiki, root / 'inner.zip')
             with zipfile.ZipFile(root / 'wrapper.zip', 'w') as z: z.write(root / 'inner.zip', 'wiki-preview.zip')
-            pages = [{'artifacts': [ARTIFACT]}]
+            pages = [{'total_count': 1, 'artifacts': [ARTIFACT]}]
             def fake_download(repo, artifact_id, destination): Path(destination).write_bytes((root / 'wrapper.zip').read_bytes())
             good = responses(pages=pages)
             changed = copy.deepcopy(PR); changed['head']['sha'] = 'c' * 40
@@ -140,13 +145,13 @@ class StagingTests(unittest.TestCase):
             self.assertFalse((root / 'rerun').exists())
             newer = dict(RUN, id=12, created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
             stale = responses(pages=pages)
-            stale[6] = [{'workflow_runs': [RUN, newer]}]
+            stale[6] = [{'total_count': 2, 'workflow_runs': [RUN, newer]}]
             with patch('tools.stage_preview.gh_api', side_effect=good * 2 + stale), patch('tools.stage_preview.download_artifact', side_effect=fake_download):
                 with self.assertRaises(InvalidPreviewArtifact): stage('owner/repo', 7, 10, root / 'newer', trusted_run_id=11)
             self.assertFalse((root / 'newer').exists())
             pending = dict(TRUSTED_RUN, id=13, created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z', status='in_progress', conclusion=None)
             stale = responses(pages=pages)
-            stale[7] = [{'workflow_runs': [TRUSTED_RUN, pending]}]
+            stale[7] = [{'total_count': 2, 'workflow_runs': [TRUSTED_RUN, pending]}]
             with patch('tools.stage_preview.gh_api', side_effect=good * 2 + stale), patch('tools.stage_preview.download_artifact', side_effect=fake_download):
                 with self.assertRaises(InvalidPreviewArtifact): stage('owner/repo', 7, 10, root / 'pending', trusted_run_id=11)
             self.assertFalse((root / 'pending').exists())
@@ -168,7 +173,7 @@ class StagingTests(unittest.TestCase):
             trusted_run = copy.deepcopy(TRUSTED_RUN)
             trusted_run['pull_requests'][0]['head']['repo']['id'] = 2
             artifact['workflow_run']['head_repository_id'] = 2
-            api_responses = responses(pr, run, [{'artifacts': [artifact]}], trusted_run) * 3
+            api_responses = responses(pr, run, [{'total_count': 1, 'artifacts': [artifact]}], trusted_run) * 3
             approvals = [{'head': HEAD, 'approved': True}] * 2 + [{'head': HEAD, 'approved': False}]
             def fake_download(repo, artifact_id, destination): Path(destination).write_bytes((root / 'wrapper.zip').read_bytes())
             with patch('tools.stage_preview.gh_api', side_effect=api_responses), patch('tools.stage_preview.snapshot', side_effect=approvals), patch('tools.stage_preview.download_artifact', side_effect=fake_download):

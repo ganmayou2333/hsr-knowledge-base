@@ -24,19 +24,27 @@ class MissingRunAssociation(InvalidPreviewArtifact):
 
 
 def pages_items(pages, key=None):
-    if not isinstance(pages, list):
+    if not isinstance(pages, list) or not pages:
         raise InvalidPreviewArtifact('Invalid paginated response')
     result = []
+    expected_total = None
     for page in pages:
         items = page.get(key) if key and isinstance(page, dict) else page if key is None else None
         if not isinstance(items, list):
             raise InvalidPreviewArtifact('Invalid paginated response')
+        if key:
+            total = page.get('total_count')
+            if type(total) is not int or total < 0 or (expected_total is not None and total != expected_total):
+                raise InvalidPreviewArtifact('Invalid or changing paginated total')
+            expected_total = total
         result.extend(items)
         # The filtered workflow-runs API can cap results at 1,000.  Reaching
         # the cap cannot prove the list is complete, so fail closed. Apply the
         # same conservative bound to open PR inventory.
         if len(result) >= (MAX_RUNS if key else MAX_PRS):
             raise InvalidPreviewArtifact('GitHub result limit reached; inventory may be incomplete')
+    if key and len(result) != expected_total:
+        raise InvalidPreviewArtifact('Incomplete paginated inventory')
     return result
 
 
