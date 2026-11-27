@@ -2,10 +2,16 @@
 import unittest
 from html.parser import HTMLParser
 
-from wiki.build_wiki import character_panel_html, convert_inline, md_to_html, page_toc, search_summary
+from wiki.build_wiki import character_panel_html, convert_inline, md_to_html, page_toc, parse_meta, search_summary
 
 
 class WikiSearchTests(unittest.TestCase):
+    def test_community_wiki_is_metadata_not_official_source(self):
+        metadata, body = parse_meta('# Sample\n> 米游社社区图鉴：https://bbs.mihoyo.com/sr/wiki/content/584/detail\nBody')
+        self.assertIn('米游社社区图鉴', metadata)
+        self.assertNotIn('官方Wiki', metadata)
+        self.assertNotIn('米游社社区图鉴', body)
+
     def test_summary_uses_readable_body_not_metadata_or_code(self):
         body = "# 标题\n> 数据来源：示例\n## 故事\n```\n秘密代码\n```\n这是一段[[zh_cn/items/星核|星核]]记录。"
         self.assertEqual(search_summary(body), "这是一段星核记录。")

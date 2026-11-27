@@ -145,8 +145,9 @@ def convert(rel, full_map, title_map):
     params.append(('类型', cat[0]))
     params.append(('分类', cat[1]))
     src = meta.get('数据来源', '')
-    if meta.get('官方Wiki'):
-        src = (src + ' ；' + meta['官方Wiki']).strip(' ；')
+    for key in ('官方Wiki', '米游社社区图鉴'):
+        if meta.get(key):
+            src = (src + ' ；' + meta[key]).strip(' ；')
     if src:
         params.append(('数据来源', src))
     # 去掉首个 H1 与头部 meta 行（注意 H1 后可能先有空行）
