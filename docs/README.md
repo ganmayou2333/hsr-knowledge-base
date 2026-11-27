@@ -5,7 +5,7 @@
 > **唯一真值表**：[`metrics.md`](metrics.md)（规模数字只从这里取，禁手改；含 B 线负向指标 `labeled_nonofficial_*`）。
 > **术语**：[`GLOSSARY.md`](../GLOSSARY.md)（35 条中英对照）。
 > **专名对照**：[`专名对照表.md`](专名对照表.md)（E2 对账产物）。
-> **Wiki PR 预览**：[运行状态与接入条件](preview-operations.md)。
+> **Wiki PR 预览**：[运行状态与接入条件](preview-operations.md) · [产物下载排查](preview-artifact-diagnostics.md)。
 > **多语言镜像**：[来源与同步状态盘点](mirror-provenance.md)。
 
 ---

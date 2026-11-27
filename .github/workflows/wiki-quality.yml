@@ -97,12 +97,14 @@ jobs:
         run: sleep 10
       - name: Final preview download
         if: steps.download_preview_second.outcome == 'failure'
+        id: download_preview_final
         uses: actions/download-artifact@v8
         with:
           name: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/preview-roundtrip
       - name: Verify downloaded preview input
         if: github.event_name == 'pull_request'
+        id: verify_preview_roundtrip
         run: |
           cmp "$RUNNER_TEMP/wiki-preview.zip" "$RUNNER_TEMP/preview-roundtrip/wiki-preview.zip"
           python - <<'PY'
@@ -121,3 +123,19 @@ jobs:
               raise SystemExit('Preview is missing pages or icons')
           print(f'PASS: preview archive round-trip: {pages} pages, {icons} icons')
           PY
+      - name: Summarize preview download
+        if: ${{ always() && github.event_name == 'pull_request' }}
+        env:
+          FIRST: ${{ steps.download_preview_first.outcome }}
+          SECOND: ${{ steps.download_preview_second.outcome }}
+          FINAL: ${{ steps.download_preview_final.outcome }}
+          VERIFY: ${{ steps.verify_preview_roundtrip.outcome }}
+        run: |
+          {
+            echo '### Preview artifact round trip'
+            echo "- First download: ${FIRST:-not run}"
+            echo "- Second download: ${SECOND:-not run}"
+            echo "- Final download: ${FINAL:-not run}"
+            echo "- Byte comparison and package verification: ${VERIFY:-not run}"
+            echo 'A retry can leave an error annotation even when the final verification succeeds. Inspect the failed attempt log; failures can have different causes.'
+          } >> "$GITHUB_STEP_SUMMARY"
