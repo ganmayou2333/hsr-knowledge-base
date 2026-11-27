@@ -157,6 +157,9 @@ def stage(repo, number, run_id, destination, *, trusted_run_id):
     pr_path, run_path = f'{prefix}/pulls/{number}', f'{prefix}/actions/runs/{run_id}'
 
     def metadata():
+        # Import here: the reconciler itself imports stage().  Discovery alone
+        # is insufficient because a newer run can appear during conversion.
+        from tools.reconcile_previews import latest_run, pages_items
         pr = gh_api(pr_path)
         run = gh_api(run_path)
         pages = gh_api(run_path + '/artifacts?per_page=100', paginate=True)
@@ -166,7 +169,17 @@ def stage(repo, number, run_id, destination, *, trusted_run_id):
         review = snapshot(repo, number) if external else None
         approved = bool(review and review.get('head') == pr.get('head', {}).get('sha') and review.get('approved') is True)
         artifact = select_artifact(repo, number, run_id, pr, run, pages, approved)
-        return (*artifact, *trusted_check(number, pr, workflow, trusted_run, trusted_run_id), run['run_attempt'])
+        checked = trusted_check(number, pr, workflow, trusted_run, trusted_run_id)
+        for name, event, expected_id, expected_attempt in (
+            ('wiki-quality.yml', 'pull_request', run_id, run['run_attempt']),
+            ('wiki-trusted-data.yml', 'pull_request_target', trusted_run_id, checked[1]),
+        ):
+            runs = pages_items(gh_api(f"{prefix}/actions/workflows/{name}/runs?event={event}&head_sha={artifact[1]}&per_page=100", paginate=True), 'workflow_runs')
+            latest = latest_run(runs, number, pr, event, f'.github/workflows/{name}')
+            if (not latest or latest.get('id') != expected_id or latest.get('run_attempt') != expected_attempt
+                    or latest.get('status') != 'completed' or latest.get('conclusion') != 'success'):
+                raise InvalidPreviewArtifact('A newer or unsuccessful check exists during staging')
+        return (*artifact, *checked, run['run_attempt'])
 
     selected = metadata()
     destination = Path(destination)
