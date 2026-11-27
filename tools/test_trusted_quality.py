@@ -53,6 +53,17 @@ class TrustedQualityTests(unittest.TestCase):
                 script.write_text('print(' + repr(output) + ', end="")', encoding='utf-8')
                 self.assertFalse(check(self.source, self.trusted))
 
+    def test_real_gate_accepts_clean_data_and_rejects_field_errors(self):
+        # Exercise the real link scanner, baseline, validator and output parser,
+        # not just a validator-shaped stub.
+        category = self.source / 'zh_cn' / 'character'
+        category.mkdir()
+        page = category / 'example.md'
+        page.write_text('# Index without an entity ID\n', encoding='utf-8')
+        self.assertTrue(check(self.source))
+        page.write_text('> 实体ID：example\n', encoding='utf-8')
+        self.assertFalse(check(self.source))
+
     def test_real_validator_machine_output_cannot_be_forged_by_filename(self):
         script = Path(__file__).resolve().parent.parent / 'scripts' / 'verify_fields.py'
         category = self.source / 'zh_cn' / 'character'
