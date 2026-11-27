@@ -1,7 +1,7 @@
 # 知识库规模真值表（`docs/metrics.md`）
 
 > **本文件由 `scripts/gen_metrics.py` 自动生成，请勿手工编辑。**
-> 生成时间：`2026-11-15 10:41:29`
+> 生成时间：`2026-11-27 19:52:16`
 > 重新生成：`python scripts/gen_metrics.py`（幂等：除上一行时间外，两次运行输出逐字节相同）
 > 校验：`python tools/verify_site.py` 的 `[16]` 项解析本文末尾的**机器可读真值**，
 > 与 `README.md` · `docs/README_{en,ja,ko,zh-Hant}.md` · `docs/仓库结构.md` 出现的规模数字逐项比对。
@@ -26,9 +26,9 @@
 
 | 指标 | 值 | 说明 |
 |---|---|---|
-| `zh_cn` 页面数（静态站） | **6,685** | `wiki/data/stats.js` 的 `pages`（构建时快照）；统计时工作区 `.md` 数 6,685 |
-| `zh_cn` 入库 `.md` | **6,517** | 工作区 6,685，与 HEAD 数量差 168；原因需逐项核对 |
-| `zh_cn` 详情文件数 | **5,991** | 详情口径合计（各分类之和见 §四） |
+| `zh_cn` 页面数（静态站） | **6,518** | `wiki/data/stats.js` 的 `pages`（构建时快照）；统计时工作区 `.md` 数 6,518 |
+| `zh_cn` 入库 `.md` | **6,518** | 工作区 6,518，与 HEAD 数量差 0；原因需逐项核对 |
+| `zh_cn` 详情文件数 | **5,992** | 详情口径合计（各分类之和见 §四） |
 | 库内最高数据版本 | **4.7** | `stats.js` 的 `latestVersion` |
 | `verify_fields` 异常 | **0** | 要求 0 |
 | `verify_fields` 已知待补充 | **156** | 已知状态，不计异常 |
@@ -40,14 +40,14 @@
 
 | 语言目录 | 入库 `.md` | 工作区 `.md` | 数量差（工作区 − HEAD） |
 |---|---|---|---|
-| `zh_cn/` | 6,517 | 6,685 | 168 |
-| `en_us/` | 5,714 | 5,881 | 167 |
-| `zh_tw/` | 5,711 | 5,878 | 167 |
-| `ja_jp/` | 5,708 | 5,875 | 167 |
-| `ko_kr/` | 5,691 | 5,858 | 167 |
+| `zh_cn/` | 6,518 | 6,518 | 0 |
+| `en_us/` | 5,716 | 5,716 | 0 |
+| `zh_tw/` | 5,711 | 5,711 | 0 |
+| `ja_jp/` | 5,708 | 5,708 | 0 |
+| `ko_kr/` | 5,691 | 5,691 | 0 |
 
 > 数量差是两个计数之差，并非未入库文件数；忽略或未跟踪文件、工作区删除等均可能影响差值。`*/quest/剧情文本/` 的处理见 D-020、D-025。
-> 镜像四语入库均值 5,706.0，十位取整 **各约 5,710**（README 括注口径）。
+> 镜像四语入库均值 5,706.5，十位取整 **各约 5,710**（README 括注口径）。
 
 ---
 
@@ -61,10 +61,10 @@
 | 遗器库 | **64** | `relic/` |
 | 模拟宇宙库 | **1,793** | `simulated/` |
 | 活动库 | **12** | `events/` |
-| 敌人库 | **5** | `enemies/` |
+| 敌人库 | **6** | `enemies/` |
 | 关卡库 | **2** | `stages/` |
 | 音乐库 | **20** | `音乐/` |
-| **合计** | **5,991** | 各分类之和 |
+| **合计** | **5,992** | 各分类之和 |
 
 **`simulated/` 1,793 的构成**（`verify_fields` 分类口径）：
 
@@ -82,7 +82,7 @@
 
 | 目录 | 实际 `.md` |
 |---|---|
-| `quest/` | 173 |
+| `quest/` | 5 |
 | `worldview/` | 8 |
 | `货币战争/` | 7 |
 | `rules/` | 5 |
@@ -93,11 +93,11 @@
 
 | 指标 | 值 | 来源 |
 |---|---|---|
-| 站点页内链接总数 | 96,931 | `wiki/data/link_report.json` 的 `total`（`build_wiki.py` 产物） |
+| 站点页内链接总数 | 94,732 | `wiki/data/link_report.json` 的 `total`（`build_wiki.py` 产物） |
 | 站点死链数 | **0** | 同上 `dead`（要求 0） |
-| 站点未收录（优雅降级为纯文本） | 0 | 同上 `missing`（合规未入库内容，属预期，不算死链） |
-| 全库双链 `[[…]]` 总数 | 23,158 | `scripts/verify_links.py`（扫描 30,706 个 `.md`） |
-| 全库双链死链数 | 62 | 同上（含文档里的示例行，故非 0） |
+| 站点未收录（优雅降级为纯文本） | 32 | 同上 `missing`（合规未入库内容，属预期，不算死链） |
+| 全库双链 `[[…]]` 总数 | 22,921 | `scripts/verify_links.py`（扫描 29,494 个 `.md`） |
+| 全库双链死链数 | 53 | 同上（含文档里的示例行，故非 0） |
 | **数据区**（五语目录）双链死链数 | **0** | 同上；**判据（要求 0）**：非 0 时 `verify_links.py` 退出码为 1 |
 
 > 文档区（`docs/`、`update.md`、`格式规范与要求.md` 等）的死链多为**语法示例**（`[[xxx]]`、`[[页面\|示例]]`），
@@ -109,14 +109,14 @@
 
 | 数据版本 | 页面数 |
 |---|---|
-| 4.7 | 22 |
-| 4.6 | 2,489 |
+| 4.7 | 23 |
+| 4.6 | 2,488 |
 | 4.5 | 3,847 |
 | 3.6 | 1 |
 | **带版本页合计** | **6,359** |
-| 带日期页合计 | 6,685 |
+| 带日期页合计 | 6,518 |
 
-> `stats.js` 生成时刻：`2026-11-15 10:41`。版本分布 ≠ 最新版本：库内绝大多数页面的 `> 数据版本：` 仍是收录时的版本。
+> `stats.js` 生成时刻：`2026-11-27 19:52`。版本分布 ≠ 最新版本：库内绝大多数页面的 `> 数据版本：` 仍是收录时的版本。
 
 ---
 
@@ -124,8 +124,8 @@
 
 | 校验器 | 命令 | 结果 |
 |---|---|---|
-| `verify_fields` | `cd zh_cn && python ../scripts/verify_fields.py`（**必须在 `zh_cn` 下运行**） | 扫描 6,685 个 `.md`；详情 5,991；异常 **0**；已知待补充 **156** |
-| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 23,158；死链 62（其中数据区 **0**） |
+| `verify_fields` | `cd zh_cn && python ../scripts/verify_fields.py`（**必须在 `zh_cn` 下运行**） | 扫描 6,518 个 `.md`；详情 5,992；异常 **0**；已知待补充 **156** |
+| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 22,921；死链 53（其中数据区 **0**） |
 | `verify_site` | `python tools/verify_site.py`（仓库根） | `[1]`–`[16]` 全 PASS；`[16]` 即比对本文真值 |
 
 ---
@@ -136,52 +136,52 @@
 
 | key | value |
 |---|---|
-| `pages` | 6,685 |
-| `md_commit_zh_cn` | 6,517 |
-| `md_worktree_zh_cn` | 6,685 |
-| `md_commit_en_us` | 5,714 |
-| `md_worktree_en_us` | 5,881 |
+| `pages` | 6,518 |
+| `md_commit_zh_cn` | 6,518 |
+| `md_worktree_zh_cn` | 6,518 |
+| `md_commit_en_us` | 5,716 |
+| `md_worktree_en_us` | 5,716 |
 | `md_commit_zh_tw` | 5,711 |
-| `md_worktree_zh_tw` | 5,878 |
+| `md_worktree_zh_tw` | 5,711 |
 | `md_commit_ja_jp` | 5,708 |
-| `md_worktree_ja_jp` | 5,875 |
+| `md_worktree_ja_jp` | 5,708 |
 | `md_commit_ko_kr` | 5,691 |
-| `md_worktree_ko_kr` | 5,858 |
-| `detail_total` | 5,991 |
+| `md_worktree_ko_kr` | 5,691 |
+| `detail_total` | 5,992 |
 | `detail_character` | 94 |
 | `detail_lightcone` | 172 |
 | `detail_items` | 3,829 |
 | `detail_relic` | 64 |
 | `detail_simulated` | 1,793 |
 | `detail_events` | 12 |
-| `detail_enemies` | 5 |
+| `detail_enemies` | 6 |
 | `detail_stages` | 2 |
 | `detail_music` | 20 |
 | `relic_cavern` | 34 |
 | `relic_planar` | 30 |
-| `doctype_quest` | 173 |
+| `doctype_quest` | 5 |
 | `doctype_worldview` | 8 |
 | `doctype_货币战争` | 7 |
 | `doctype_rules` | 5 |
-| `link_total` | 96,931 |
+| `link_total` | 94,732 |
 | `link_dead` | 0 |
-| `link_missing` | 0 |
-| `wikilink_total` | 23,158 |
-| `wikilink_dead` | 62 |
+| `link_missing` | 32 |
+| `wikilink_total` | 22,921 |
+| `wikilink_dead` | 53 |
 | `wikilink_dead_data` | 0 |
-| `wikilink_files` | 30,706 |
+| `wikilink_files` | 29,494 |
 | `vf_issue` | 0 |
 | `vf_known` | 156 |
 | `mirror_commit_avg_round10` | 5,710 |
-| `mirror_gap` | 167 |
+| `mirror_gap` | 0 |
 | `versioned_pages` | 6,359 |
-| `dated_pages` | 6,685 |
-| `labeled_nonofficial_en_us` | 5,764 |
-| `labeled_nonofficial_zh_tw` | 5,786 |
-| `labeled_nonofficial_ja_jp` | 5,754 |
-| `labeled_nonofficial_ko_kr` | 5,751 |
-| `version_4.7` | 22 |
-| `version_4.6` | 2,489 |
+| `dated_pages` | 6,518 |
+| `labeled_nonofficial_en_us` | 5,689 |
+| `labeled_nonofficial_zh_tw` | 5,711 |
+| `labeled_nonofficial_ja_jp` | 5,678 |
+| `labeled_nonofficial_ko_kr` | 5,675 |
+| `version_4.7` | 23 |
+| `version_4.6` | 2,488 |
 | `version_4.5` | 3,847 |
 | `version_3.6` | 1 |
 
