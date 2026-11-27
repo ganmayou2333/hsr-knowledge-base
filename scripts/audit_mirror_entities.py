@@ -58,6 +58,12 @@ def main():
                 "category": category, "language": lang,
                 "base_unique": len(unique_base),
                 "matched_unique": len(unique_base & unique_mirror),
+                # A shared ID is only a candidate pair, not a provenance or
+                # synchronization verdict. Include both paths for human review.
+                "matched_candidates": {
+                    k: {"base": base[k][0], "mirror": mirror[k][0]}
+                    for k in sorted(unique_base & unique_mirror)
+                },
                 "matched_marked_partial": {
                     k: mirror[k][0] for k in sorted(unique_base & unique_mirror)
                     if mirror[k][0] in partial

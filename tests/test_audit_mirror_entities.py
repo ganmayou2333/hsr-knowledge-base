@@ -33,6 +33,9 @@ class EntityAuditTest(unittest.TestCase):
                 audit.main()
         result = next(row for row in json.loads(output.getvalue()) if row["category"] == "character" and row["language"] == "en_us")
         self.assertEqual(result["matched_unique"], 1)
+        self.assertEqual(result["matched_candidates"], {
+            "3": {"base": "zh_cn/character/c.md", "mirror": "en_us/character/partial.md"}
+        })
         self.assertEqual(result["matched_marked_partial"], {"3": "en_us/character/partial.md"})
         self.assertEqual(set(result["missing"]), {"2"})
         self.assertEqual(set(result["mirror_duplicates"]), {"1"})
