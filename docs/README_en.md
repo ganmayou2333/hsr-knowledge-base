@@ -24,7 +24,7 @@ An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematicall
 | `货币战争/` | Currency War library (standalone auto-chess mode: gameplay / characters / bonds / equipment / seasons) | 0 [1] |
 | `rules/` | Rules library (combat mechanics / status priority / exceptions) | 0 [1] |
 | `events/` | Events library (version / permanent / rerun events, added v1.13) | 12 |
-| `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13) | 20 |
+| `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13) | 24 |
 | `stages/` | Stages library (Cavern of Corrosion / Echo of War / Stagnant Shadow / material stages, added v1.13) | 2 |
 | `音乐/` | Music library (album details + tracks, added v1.15) | 20 |
 | `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (**committed** English 5,716 / Traditional Chinese 5,711 / Japanese 5,708 / Korean 5,691; working tree 5,716 / 5,711 / 5,708 / 5,691, clean-worktree snapshot) | ~5,710 each |
