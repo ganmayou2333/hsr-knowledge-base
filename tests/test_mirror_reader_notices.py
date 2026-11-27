@@ -20,6 +20,7 @@ class MirrorReaderNoticeTests(unittest.TestCase):
         forbidden = {
             'ja_jp': ('日本語版は未公開', '日本語版が未公開', '日本語版の公式情報が未公開', 'にのみ掲載されており'),
             'ko_kr': ('한국어판은 미공개', '한국어판이 미공개', '한국어판 공식 정보가 미공개', '에만 게재되어 있고'),
+            'zh_tw': ('無官方繁中版 →',),
         }
         for language, phrases in forbidden.items():
             pages = list((ROOT / language / 'events').rglob('*.md'))
