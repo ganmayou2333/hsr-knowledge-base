@@ -49,6 +49,8 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
                 or not all(map(_positive, (head_id, base_id, run_id, attempt, workflow['id'])))
                 or workflow['state'] != 'active' or workflow['path'] != WORKFLOW
                 or not _positive(run['workflow_id']) or not _positive(run['repository']['id'])
+                or not _positive(run['head_repository']['id'])
+                or run['head_repository']['id'] != head_id
                 or run['workflow_id'] != workflow['id'] or run['repository']['id'] != base_id
                 or run['event'] != 'pull_request_target' or run['path'] != WORKFLOW
                 or run['status'] != 'completed' or run['conclusion'] != 'success'
@@ -59,6 +61,7 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
                 or not _positive(artifact['id']) or artifact['expired'] is not False
                 or not _positive(artifact['size_in_bytes']) or artifact['size_in_bytes'] > MAX_WRAPPER
                 or not _positive(origin['id']) or not _positive(origin['repository_id'])
+                or not _positive(origin['head_repository_id']) or origin['head_repository_id'] != head_id
                 or origin['id'] != run_id or origin['repository_id'] != base_id
                 or origin['head_sha'] != head):
             raise ValueError('invalid artifact')

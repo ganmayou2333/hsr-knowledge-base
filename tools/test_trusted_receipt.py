@@ -13,10 +13,10 @@ PR = {'number': 7, 'state': 'open', 'head': {'sha': HEAD, 'repo': {'id': 2}},
       'base': {'sha': BASE, 'repo': {'id': 1}}}
 WORKFLOW_INFO = {'id': 42, 'state': 'active', 'path': WORKFLOW}
 RUN = {'id': 11, 'run_attempt': 1, 'workflow_id': 42, 'repository': {'id': 1},
-       'event': 'pull_request_target', 'path': WORKFLOW, 'status': 'completed',
+       'head_repository': {'id': 2}, 'event': 'pull_request_target', 'path': WORKFLOW, 'status': 'completed',
        'conclusion': 'success', 'head_sha': HEAD, 'pull_requests': []}
 ARTIFACT = {'id': 33, 'name': 'trusted-check-receipt-7-11-1', 'expired': False,
-            'size_in_bytes': 200, 'workflow_run': {'id': 11, 'repository_id': 1, 'head_sha': HEAD}}
+            'size_in_bytes': 200, 'workflow_run': {'id': 11, 'repository_id': 1, 'head_repository_id': 2, 'head_sha': HEAD}}
 RECEIPT = {'version': 1, 'pr': 7, 'head': HEAD, 'base': BASE, 'head_repo': 2,
            'base_repo': 1, 'run': 11, 'attempt': 1}
 
@@ -94,6 +94,17 @@ class TrustedReceiptTests(unittest.TestCase):
                 with self.assertRaises(InvalidPreviewArtifact):
                     self.validate()
                 self.artifact['workflow_run'][field] = old
+
+    def test_rejects_other_or_invalid_head_repository_provenance(self):
+        for target, field in ((self.run['head_repository'], 'id'),
+                              (self.artifact['workflow_run'], 'head_repository_id')):
+            for value in (1, 3, True, None):
+                with self.subTest(field=field, value=value):
+                    old = target[field]
+                    target[field] = value
+                    with self.assertRaises(InvalidPreviewArtifact):
+                        self.validate()
+                    target[field] = old
 
     def test_rejects_boolean_metadata_even_when_equal_to_numeric_id(self):
         for target, field in [(self.run['repository'], 'id'),

@@ -12,6 +12,8 @@
 
 2026-11-21 合并基础功能后，可信工作流已进入默认分支。真实 fork 探测 PR #48 以当前 `main` 为基线，普通 `pull_request` 构建运行 44810577760 和可信 `pull_request_target` 数据检查运行 44810577529 均成功，但两次运行的 `pull_requests` 均为空；成功检查仍不能单靠提交或工作流名称与具体 PR 安全绑定，外部预览尚不可用。测试 PR 已关闭、未合并。此前重新打开旧基线 PR #44 时，运行 44808289456 的事件目标 SHA 仍为合并前版本，在检查前的状态核对处失败；后续新事件通过该核对，但由于旧分支含 4 处现已修复的失效链接，可信扫描失败。这些结果不能证明端到端预览发布或审查状态已完成。
 
+2026-11-27 对仍开放的真实 fork PR #48 重新读取可信运行 `44866284478` 与 artifact `14691489753`，下载 ZIP 后通过 `validate_receipt`；本次 API 中 PR 头仓库、运行 `head_repository.id` 和 artifact 的 `workflow_run.head_repository_id` 均为 `1465815327`，目标仓库 ID 为 `1348409427`。校验器现要求三处头仓库 ID 一致并拒绝无效类型；真实收据测试通过。将 API 响应复制后在本地模拟关闭 PR、递增 attempt 和替换头仓库 ID 均被拒绝；这些**只是本地模拟，不是真实关闭或重跑事件**。该收据仍不能绑定普通构建产物，也未接入发布流程；其他 PR 类型或 GitHub 行为不同可能被保守拒绝，需继续实测。
+
 关于签名证明的后续调查：GitHub 的 [OIDC 声明](https://docs.github.com/en/actions/reference/security/oidc)包含事件、ref、仓库、运行 ID 和 attempt 等字段，可作为研究运行身份绑定的线索；但这些字段本身并不证明 PR 构建脚本或内容可信，也不能替代对签名、产物摘要、目标版本与当前 PR 状态的验证。GitHub 的[标准产物证明流程](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations)要求 `id-token: write` 和 `attestations: write`；外部 fork 的普通 PR 运行默认受到[只读权限限制](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target)。因此不能假设该流程在外部 fork 中可用，也不能为此打开向不可信 PR 发送写令牌的设置。是否存在满足权限边界的证明方式仍需真实测试，当前发布校验没有采用这一机制。
 
 静态页面加载及重新验证时还会查询对应提交的最新构建和可信数据检查；新检查失败、运行中、无法关联 PR 或无法查询时隐藏预览。外部 PR 还要求未过期的批准快照与当前审核记录一致；撤销、过期或无法核实时隐藏预览。审核者权限变化仍可能在快照到期前滞后。页面每 90 秒及重新获得可见性时重新验证，并每 15 秒复核审核状态，因此状态变化不会即时反映。额外的匿名 API 请求可能更快触发 GitHub 限流，此时预览会不可用，不能把这种行为描述为稳定的实时服务。
