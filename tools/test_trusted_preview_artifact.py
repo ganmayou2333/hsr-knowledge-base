@@ -1,11 +1,15 @@
 import copy
+import base64
 import json
 from pathlib import Path
 import tempfile
 import unittest
 import zipfile
 
-from tools.preview_artifact import InvalidPreviewArtifact, MAX_ARCHIVE_BYTES
+from tools.preview_artifact import InvalidPreviewArtifact, MAX_ARCHIVE_BYTES, extract_preview_zip
+from tools.preview_bundle import build_bundle
+from tools.stage_preview import unwrap_artifact
+from tools.trusted_preview_build import build
 from tools.test_trusted_receipt import PR, WORKFLOW_INFO, RUN, ARTIFACT, RECEIPT
 from tools.trusted_preview_artifact import select_trusted_preview
 
@@ -35,6 +39,31 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
         with zipfile.ZipFile(self.receipt_zip, 'w') as archive:
             archive.writestr('trusted-check-receipt.json', json.dumps(RECEIPT))
         with self.assertRaises(InvalidPreviewArtifact): self.select()
+
+    def test_local_trusted_build_receipt_wrapper_and_inert_bundle(self):
+        # Local fixtures only: this does not establish real GitHub provenance,
+        # ordinary check status, external approval, or publication eligibility.
+        root = Path(self.temp.name)
+        source = root / 'input'
+        (source / 'zh_cn').mkdir(parents=True)
+        (source / 'zh_cn' / 'example.md').write_text('# Trusted build fixture\n', encoding='utf-8')
+        (source / 'poison.py').write_text('raise RuntimeError("PR code executed")', encoding='utf-8')
+        build(source, Path(__file__).resolve().parent.parent, root / 'wiki-preview.zip')
+        with zipfile.ZipFile(root / 'artifact.zip', 'w', compression=zipfile.ZIP_DEFLATED) as archive:
+            archive.write(root / 'wiki-preview.zip', 'wiki-preview.zip')
+        self.preview['size_in_bytes'] = (root / 'artifact.zip').stat().st_size
+        artifact_id, head, base, run_id, attempt = self.select()
+        self.assertEqual(artifact_id, 34)
+        unwrap_artifact(root / 'artifact.zip', root / 'inner.zip')
+        extract_preview_zip(root / 'inner.zip', root / 'site')
+        build_bundle(root / 'site', root / 'bundle', repo='owner/repo', pr=7, head=head, base=base,
+                     run=10, run_attempt=1, trusted_run=run_id, trusted_attempt=attempt)
+        manifest = json.loads((root / 'bundle' / 'manifest.json').read_text(encoding='ascii'))
+        self.assertEqual((manifest['trusted_run'], manifest['trusted_attempt']), (11, 1))
+        digest = manifest['files']['pages/example.html']
+        obj = json.loads((root / 'bundle' / 'objects' / (digest + '.json')).read_text(encoding='ascii'))
+        self.assertIn(b'Trusted build fixture', base64.b64decode(obj['data'], validate=True))
+        self.assertNotIn('poison.py', manifest['files'])
 
     def test_rejects_invalid_preview_metadata(self):
         for key, value in [('id', True), ('id', 33), ('expired', True), ('size_in_bytes', True),
