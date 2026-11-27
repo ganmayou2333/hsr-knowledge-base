@@ -15,8 +15,12 @@ class Links(HTMLParser):
         super().__init__()
         self.active = None
         self.links = []
+        self.table_links = []
+        self.table_depth = 0
 
     def handle_starttag(self, tag, attrs):
+        if tag == "table":
+            self.table_depth += 1
         if tag == "a":
             self.active = [dict(attrs).get("href", ""), ""]
 
@@ -27,7 +31,11 @@ class Links(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "a" and self.active is not None:
             self.links.append(self.active)
+            if self.table_depth:
+                self.table_links.append(self.active)
             self.active = None
+        if tag == "table":
+            self.table_depth -= 1
 
 
 class EnemyIndexTests(unittest.TestCase):
@@ -51,6 +59,17 @@ class EnemyIndexTests(unittest.TestCase):
             total += details
         totals = re.findall(r"^\|\s*\*\*合计\*\*\s*\|\s*\*\*(\d+)\*\*", text, re.M)
         self.assertEqual(totals, [str(total)])
+
+    def test_category_details_are_rendered_inside_table(self):
+        for category in ("普通敌人", "精英敌人", "首领", "周本BOSS"):
+            page = PAGES / category / (category + ".html")
+            parser = Links()
+            parser.feed(page.read_text(encoding="utf-8"))
+            labels = [text.strip() for _, text in parser.table_links]
+            for source in (SOURCE / category).glob("*.md"):
+                if source.stem != category:
+                    with self.subTest(category=category, source=source):
+                        self.assertEqual(labels.count(source.stem), 1)
 
     def test_indexes_link_to_each_detail_by_name_and_numeric_id(self):
         main = PAGES / "敌人.html"
