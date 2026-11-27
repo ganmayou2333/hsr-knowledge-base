@@ -1,5 +1,7 @@
 # Aeon ★ Aha (Quantum · Elation)
 
+> Reader note: Verified against the official Version 4.7 update notice: name, Path, attribute and rarity only. Voice credits were separately checked against the official PV linked below; other fields and field-by-field synchronization with the Chinese baseline have not been independently verified.
+
 > 数据来源：[https://hsr.nanoka.cc/character/1511](https://hsr.nanoka.cc/character/1511) (English name / attribute / skills / traces / Eidolons from nanoka 4.7.51 `en/character/1511.json`); [Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) (official English name, Path and rarity)
 > 数据版本：4.7
 > 实体ID：1511
@@ -17,24 +19,24 @@
 | Attribute | Quantum |
 | Rarity | ★★★★★ |
 | Faction | Pending |
-| Limited | Yes |
+| Limited | Unknown |
 | Introduction | Cries and comedy intertwine, and the deathly still cosmos awakens to daybreak in a farce.<br>Stepping back onto the stage of the Path, I tear off the god's mask. Who is Aha? I am Aha!<br>To play, to trick, to hunt... Please bear witness to an improv tour where humans and gods dance as one! |
 | Role | Elation-system core damage dealer and team buffer: claims enemy Max HP through "Elation Debt" with the Aeonic Authority "The True Story of Aha," stars as the lead in the "Aha Instant," and ascends the Path of Elation (Punchline / "Certified Banger" → Bliss / "Party Trick") |
 
-> Faction / Limited note: nanoka 4.7.51 `chara_info.camp` is `null` and the Version 4.7 Update Details publish no faction → recorded as Pending, not inferred. "Limited" is recorded as Yes per the work order's convention (a new 5★ added in Version 4.7 and released with the version warp; the official notice uses the word "Limited" only for their "Limited Collection Outfit").
+> Faction / Limited note: nanoka lists the faction as null; the update notice does not establish the faction or whether this character is limited. Both remain unverified; release timing alone is not evidence of limited status.
 >
-> Introduction is the official English in-game text (nanoka `en` `desc`, line breaks restored).
+> Introduction comes from nanoka `en` `desc` (line breaks restored); its correspondence to the official in-game text has not been independently verified.
 
 ### Voice Actors
 
 | Language | VA |
 |---|---|
-| Chinese | Pending |
-| Japanese | Pending |
-| Korean | Pending |
-| English | Pending |
+| Chinese | 子音 |
+| Japanese | 户松遥 |
+| Korean | 권다예 |
+| English | Amber Lee Connors |
 
-> Voice actors: all four `chara_info.va` fields (chinese / japanese / korean / english) are `null` in nanoka 4.7.51, and the Version 4.7 Update Details credit no voice actor → Pending, not inferred.
+> Voice credits: [official PV description](https://www.bilibili.com/video/BV1XJ4g6WEyL/); names retain the spelling used in that description.
 
 ---
 

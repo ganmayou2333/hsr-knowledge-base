@@ -147,3 +147,16 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+def current_base_matches(repo, pr, api):
+    """Check live main independently; pull.base.sha can remain stale on GitHub."""
+    try:
+        base = pr['base']
+        if (base['ref'] != 'main' or base['repo']['full_name'].casefold() != repo.casefold()
+                or not re.fullmatch(r'[0-9a-f]{40}', base['sha'])):
+            return False
+        branch = api(f'repos/{repo}/branches/main')
+        return branch['name'] == 'main' and branch['commit']['sha'] == base['sha']
+    except (KeyError, TypeError, AttributeError):
+        return False

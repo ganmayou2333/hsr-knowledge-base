@@ -31,9 +31,9 @@ class PublicationTests(unittest.TestCase):
         if path.endswith('/pulls/7'):
             return copy.deepcopy(self.pr)
         if '/wiki-quality.yml/runs?' in path:
-            return [{'workflow_runs': [self.build]}]
+            return [{'total_count': 1, 'workflow_runs': [self.build]}]
         if '/wiki-trusted-data.yml/runs?' in path:
-            return [{'workflow_runs': [self.trusted]}]
+            return [{'total_count': 1, 'workflow_runs': [self.trusted]}]
         raise AssertionError(path)
 
     def run_verify(self, metadata=True):

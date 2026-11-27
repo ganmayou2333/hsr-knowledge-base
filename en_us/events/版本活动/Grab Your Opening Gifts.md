@@ -1,9 +1,11 @@
 # Grab Your Opening Gifts
 
+> Reading note: This is a non-official localization. The event name was checked against the official Version 4.7 notice; other content and field-by-field synchronization with the Chinese baseline have not been fully verified.
+
 > 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("6. New Events"); [Miyoushe "开场好礼先抱走" event notice (79216272)](https://www.miyoushe.com/sr/article/79216272) (section details and exchange notes)
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79216272；时间：2026-11-15）
 > 数据版本：4.7
-> 实体ID：无（官方未公开）
+> 实体ID：未核实
 > 创建时间：2026-11-14 18:02
 > 更新时间：2026-11-14 18:02
 
@@ -13,11 +15,11 @@
 |---|---|
 | Event Name | Grab Your Opening Gifts |
 | Type | Version Event (login / check-in rewards) |
-| Event Period | During Version 4.7 (from the Version 4.7 update to 2026/12/23 06:00, UTC+8) |
+| Event Period | During Version 4.7 (check the in-game event and event notice for the exact end time) |
 | Requirement | Trailblaze Level ≥ 4 |
 | Related Characters | [[zh_cn/character/虚无/黄泉_雷_五星\|Acheron]] / [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星\|Dan Heng • Imbibitor Lunae]] / [[zh_cn/character/智识/景元_雷_五星\|Jing Yuan]] (choose one of the three); [[zh_cn/character/欢愉/星神★阿哈_量子_五星\|Aeon ★ Aha]] |
 
-> Event period: the official English notice states "During Version 4.7"; the Chinese event page of the same event gives `2026/11/11 (after the 4.7 update) – 2026/12/23 05:59`, so both original wordings stand — the in-game event page is authoritative.
+> The [Chinese 4.7 update notice](https://hsr.hoyoverse.com/zh-cn/news/167246) gives the version duration as after the update until `2026/12/23 06:00 (UTC+8)`; its event section says only “during Version 4.7.” The [Chinese event announcement](https://www.miyoushe.com/sr/article/79216272) separately lists a claim deadline of `2026/12/23 05:59` without a time zone on that line. These describe different periods; check the in-game notice for details.
 
 ## Gameplay
 

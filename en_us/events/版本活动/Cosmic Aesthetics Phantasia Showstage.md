@@ -1,9 +1,11 @@
 # Cosmic Aesthetics: Phantasia Showstage
 
+> Reading note: This is a non-official localization. The event name was checked against the official Version 4.7 notice; other content and field-by-field synchronization with the Chinese baseline have not been fully verified.
+
 > 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("4. New Outfits" and "6. New Events"); [Miyoushe "寰宇美学•幻乐秀场" outfit-draw event notice (79217286)](https://www.miyoushe.com/sr/article/79217286) (draw rules and prize-pool details)
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79217286；时间：2026-11-15）
 > 数据版本：4.7
-> 实体ID：无（官方未公开）
+> 实体ID：未核实
 > 创建时间：2026-11-14 18:10
 > 更新时间：2026-11-14 18:10
 
@@ -17,7 +19,7 @@
 | Requirement | Trailblaze Level ≥ 4 |
 | Related Characters | [[zh_cn/character/欢愉/星神★阿哈_量子_五星\|Aeon ★ Aha]] (the outfit "Star Lotto" is exclusive to them) |
 
-> The Version 4.7 update went live at 2026/11/11 06:00 (UTC+8) according to the same notice.
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
 ## Gameplay
 

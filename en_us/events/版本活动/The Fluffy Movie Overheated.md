@@ -1,9 +1,11 @@
 # The Fluffy Movie: Overheated
 
+> Reading note: This is a non-official localization. The event name was checked against the official Version 4.7 notice; other content and field-by-field synchronization with the Chinese baseline have not been fully verified.
+
 > 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("6. New Events"); [Miyoushe "剧场版绒绒号：欢闹厨房" event notice (79468686)](https://www.miyoushe.com/sr/article/79468686) (gameplay details)
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79468686；时间：2026-11-15）
 > 数据版本：4.7
-> 实体ID：无（官方未公开）
+> 实体ID：未核实
 > 创建时间：2026-11-14 18:04
 > 更新时间：2026-11-14 18:04
 
@@ -17,7 +19,7 @@
 | Requirement | Trailblaze Level ≥ 21; can be experienced in advance through the "Finality's Vision" function; it is recommended to complete the Trailblaze Mission "Planarcadia — Now, Lay Laughter to All Stars" before starting the event |
 | Related Characters | Blurry_QR_Colt (no library entry); the "Fluffy Across the Blue" cast (no library entries) |
 
-> The Version 4.7 update went live at 2026/11/11 06:00 (UTC+8) according to the same notice.
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
 ## Gameplay
 

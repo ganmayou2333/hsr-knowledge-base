@@ -5,7 +5,7 @@ md2mw.py — 把 vault 的 zh_cn/*.md 转成 MediaWiki wikitext（模板 {{实�
 
 设计（对齐本库规范）：
   * 头部 `# 标题` → 页面标题
-  * 头部 `> 数据来源：/ > 实体ID：/ > 数据版本：/ > 官方Wiki：` → 填进 {{实体}} 参数
+  * 头部 `> 数据来源：/ > 实体ID：/ > 数据版本：/ > 官方Wiki：/ > 米游社社区图鉴：` → 填进 {{实体}} 参数
   * `> 创建时间：/ > 更新时间：` → 丢弃（vault 专用字段）
   * 路径 → 类型/分类：`character/…`→角色，`lightcone/…`→光锥，`items/…`→物品，
     `relic/…`→遗器，`音乐/…`→音乐，`events/…`→活动，`enemies/…`→敌人，`stages/…`→关卡
@@ -145,8 +145,9 @@ def convert(rel, full_map, title_map):
     params.append(('类型', cat[0]))
     params.append(('分类', cat[1]))
     src = meta.get('数据来源', '')
-    if meta.get('官方Wiki'):
-        src = (src + ' ；' + meta['官方Wiki']).strip(' ；')
+    for key in ('官方Wiki', '米游社社区图鉴'):
+        if meta.get(key):
+            src = (src + ' ；' + key + '：' + meta[key]).strip(' ；')
     if src:
         params.append(('数据来源', src))
     # 去掉首个 H1 与头部 meta 行（注意 H1 后可能先有空行）

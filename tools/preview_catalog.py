@@ -18,7 +18,7 @@ from pathlib import Path
 
 from tools.preview_artifact import MAX_FILE_BYTES, MAX_FILES, MAX_TOTAL_BYTES, InvalidPreviewArtifact, archive_path
 from tools.preview_bundle import safe_json
-from tools.preview_review import REPO_PATTERN, gh_api, snapshot
+from tools.preview_review import REPO_PATTERN, gh_api, snapshot, current_base_matches
 from tools.stage_preview import trusted_check
 
 SHA = re.compile(r'^[0-9a-f]{40}$')
@@ -34,14 +34,25 @@ def metadata(repo, number, manifest):
         raise InvalidPreviewArtifact('Invalid GitHub PR response')
     if pr['state'] == 'closed':
         return False
+    if not current_base_matches(repo, pr, gh_api):
+        return False
     if pr['head']['sha'] != manifest['head'] or pr['base']['sha'] != manifest['base']:
+        return False
+    try:
+        base_id, head_id = pr['base']['repo']['id'], pr['head']['repo']['id']
+        if type(base_id) is not int or type(head_id) is not int or min(base_id, head_id) < 1:
+            return False
+    except (KeyError, TypeError):
         return False
     run = gh_api(f"repos/{repo}/actions/runs/{manifest['run']}")
     matches = [item for item in run['pull_requests'] if item['number'] == number
-               and item['head']['sha'] == manifest['head'] and item['base']['sha'] == manifest['base']]
+               and item['head']['sha'] == manifest['head'] and item['base']['sha'] == manifest['base']
+               and type(item['head']['repo']['id']) is int and item['head']['repo']['id'] == head_id
+               and type(item['base']['repo']['id']) is int and item['base']['repo']['id'] == base_id]
     valid_build = (run['id'] == manifest['run'] and run['run_attempt'] == manifest['run_attempt'] and run['event'] == 'pull_request'
             and run['status'] == 'completed' and run['conclusion'] == 'success'
             and run['path'] == '.github/workflows/wiki-quality.yml'
+            and type(run['repository']['id']) is int and run['repository']['id'] == base_id
             and run['head_sha'] == manifest['head'] and len(matches) == 1)
     if not valid_build:
         return False

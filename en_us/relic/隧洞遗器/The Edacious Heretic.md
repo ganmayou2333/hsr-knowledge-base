@@ -7,6 +7,7 @@
 > 创建时间：2026-10-01 15:36
 > 更新时间：2026-10-01 15:36
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/relic/134；时间：2026-11-14）
+> Reader note: This is an unofficial localization. The set-effect summary below is translated from the Chinese baseline, not official English text. Other fields and full-page synchronization remain unverified.
 
 ---
 
@@ -15,45 +16,47 @@
 | Attribute | Value |
 |---|---|
 | Name | The Edacious Heretic |
-| Type | 隧洞遗器 |
+| Type | Cavern Relic |
 | Entity ID | 134 |
 
 ## Acquisition
 
-侵蚀隧洞•密伶之径
+Cavern of Corrosion: Path of the Secret Actor
 
 ## Set Effects
 
+Unofficial translation of the [Chinese baseline](../../../zh_cn/relic/隧洞遗器/贪噬禁果的异端.md), checked against that page on 2026-11-27. The official English wording and in-game values have not been independently verified.
+
 ### 2-Pc
 
-暴击伤害提高16%。（官方正式值，来源 sr.mihoyo.com/news/166478；官方英文文本待回填 <!-- 待译 -->。注：Honey Hunter/Icy Veins 泄露英文作「Increases ATK by 12%」，为错误泄露值，勿采信。）
+Increases CRIT DMG by 16%.
 
 ### 4-Pc
 
-使装备者普攻造成的伤害提高36%。当装备者施放普攻时，使装备者的攻击力提高20%，持续2回合。（官方正式值，来源 sr.mihoyo.com/news/166478；官方英文文本待回填 <!-- 待译 -->）
+Increases the wearer's Basic ATK damage by 36%. Using a Basic ATK also increases the wearer's ATK by 20% for 2 turns.
 
 ## Pieces
 
-### 头部：异端的颅脑仪器
+### Head: official name pending
 
-**描述**：待补充
-**来历**：待补充
+**Description**: Pending.
+**Lore**: Pending.
 
-### 手部：异端的注射手套
+### Hands: official name pending
 
-**描述**：待补充
-**来历**：待补充
+**Description**: Pending.
+**Lore**: Pending.
 
-### 躯干：异端的理性束衣
+### Body: official name pending
 
-**描述**：待补充
-**来历**：待补充
+**Description**: Pending.
+**Lore**: Pending.
 
-### 脚部：异端的饥饿短靴
+### Feet: official name pending
 
-**描述**：待补充
-**来历**：待补充
+**Description**: Pending.
+**Lore**: Pending.
 
 ---
 
-*文件生成：2026-09-30 · 结构照抄 en_us/relic/隧洞遗器/Wavestrider Captain.md；套装效果采用官方正式值（sr.mihoyo.com/news/166478 简中官方），官方英文文本待回填；部位文本官方暂无词条，待补充（待译）*
+*Set-effect summary translated from the Chinese baseline; an official English source and piece details are still needed.*

@@ -25,7 +25,7 @@ parent.postMessage({type:'review:approved'}, '*');
 </script></body></html>`);
 const manifest = {version: 1, repo:'ganmayou2333/hsr-knowledge-base', pr:37, head, base, run:1, run_attempt:1, trusted_run:2, trusted_attempt:1, files};
 let canaries = 0, stale = false, delayNextPr = false, trustedAttempt = 1;
-let newerFailedBuild = false, newerRunningTrusted = false;
+let newerFailedBuild = false, newerRunningTrusted = false, staleBase = false;
 let failNextObject = process.argv.includes('--transient-object');
 let reviewState = 'APPROVED';
 const review = {id: 1, state: 'APPROVED', user: {login:'Reviewer',type:'User'}, commit_id:head, submitted_at:'2026-01-01T00:00:00Z'};
@@ -126,16 +126,19 @@ try {
       const trustedList = isRunList && url.includes('wiki-trusted-data.yml');
       const event = trustedList ? 'pull_request_target' : 'pull_request';
       const workflowPath = `.github/workflows/${trustedList ? 'wiki-trusted-data.yml' : 'wiki-quality.yml'}`;
-      const oldRun = {id:trustedList ? 2 : 1,run_attempt:trustedList ? trustedAttempt : 1,event,path:workflowPath,head_sha:head,status:'completed',conclusion:'success',run_started_at:'2026-01-01T00:00:00Z',pull_requests:[{number:37}]};
+      const oldRun = {id:trustedList ? 2 : 1,run_attempt:trustedList ? trustedAttempt : 1,event,path:workflowPath,head_sha:head,status:'completed',conclusion:'success',created_at:'2026-01-01T00:00:00Z',run_started_at:'2026-01-01T00:00:00Z',pull_requests:[{number:37}]};
+      // A rerun of the older success started after a newer failed run.
+      if (!trustedList && newerFailedBuild) oldRun.run_started_at = '2026-01-03T00:00:00Z';
       const newer = (trustedList ? newerRunningTrusted : newerFailedBuild)
-        ? [{...oldRun,id:trustedList ? 4 : 3,status:trustedList ? 'in_progress' : 'completed',conclusion:trustedList ? null : 'failure',run_started_at:'2026-01-02T00:00:00Z'}] : [];
-      const data = url.includes('/reviews?') ? [{...review,state:reviewState}]
+        ? [{...oldRun,id:trustedList ? 4 : 3,status:trustedList ? 'in_progress' : 'completed',conclusion:trustedList ? null : 'failure',created_at:'2026-01-02T00:00:00Z',run_started_at:'2026-01-02T00:00:00Z'}] : [];
+      const data = url.endsWith('/branches/main') ? {name:'main',commit:{sha:staleBase ? 'd'.repeat(40) : base}}
+        : url.includes('/reviews?') ? [{...review,state:reviewState}]
         : isRunList ? {workflow_runs:[oldRun,...newer]}
         : m.params.request.url.includes('/actions/workflows/') ? {id:42,state:'active',path:'.github/workflows/wiki-trusted-data.yml'}
         : m.params.request.url.endsWith('/actions/runs/2') ? {id:2,workflow_id:42,repository:{id:1},run_attempt:trustedAttempt,event:'pull_request_target',status:'completed',conclusion:'success',head_sha:head,path:'.github/workflows/wiki-trusted-data.yml',pull_requests:[{number:37,head:{sha:head,repo:{id:external ? 2 : 1}},base:{sha:base,repo:{id:1}}}]}
         : m.params.request.url.includes('/actions/runs/')
         ? {id:1,run_attempt:1,event:'pull_request', conclusion:'success',head_sha:head,path:'.github/workflows/wiki-quality.yml',pull_requests:[{number:37,head:{sha:head},base:{sha:base}}]}
-        : {state:'open',head:{sha:stale ? 'c'.repeat(40) : head,repo:{id:external ? 2 : 1}},base:{sha:base,repo:{id:1}}};
+        : {state:'open',head:{sha:stale ? 'c'.repeat(40) : head,repo:{id:external ? 2 : 1}},base:{sha:base,ref:'main',repo:{id:1,full_name:manifest.repo}}};
       const delay = !m.params.request.url.includes('/actions/runs/') && delayNextPr ? 800 : 0;
       if (delay) delayNextPr = false;
       setTimeout(() => send('Fetch.fulfillRequest',{requestId:m.params.requestId,responseCode:200,responseHeaders:[{name:'Content-Type',value:'application/json'},{name:'Access-Control-Allow-Origin',value:'*'}],body:Buffer.from(JSON.stringify(data)).toString('base64')},m.sessionId).catch(() => {}), delay);
@@ -253,6 +256,16 @@ try {
       await wait(500);
       if (await evaluate("document.querySelector('#preview').hidden")) throw new Error('Preview did not recover after latest check restored');
     }
+  }
+  if (!useService) {
+    staleBase = true;
+    await evaluate("document.dispatchEvent(new Event('visibilitychange'))");
+    await wait(500);
+    if (!await evaluate("document.querySelector('#preview').hidden")) throw new Error('Moved main left stale preview visible');
+    staleBase = false;
+    await evaluate("document.dispatchEvent(new Event('visibilitychange'))");
+    await wait(500);
+    if (await evaluate("document.querySelector('#preview').hidden")) throw new Error('Current main did not restore preview');
   }
   delayNextPr = true;
   await evaluate("document.dispatchEvent(new Event('visibilitychange'))");

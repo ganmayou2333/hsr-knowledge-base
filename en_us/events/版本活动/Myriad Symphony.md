@@ -1,9 +1,11 @@
 # Myriad Symphony
 
+> Reading note: This is a non-official localization. The event name was checked against the official Version 4.7 notice; other content and field-by-field synchronization with the Chinese baseline have not been fully verified.
+
 > 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("6. New Events" and "8. Others - System"); [Miyoushe "4.7 版本商店上新" post (79217585), "万象和鸣" event details](https://www.miyoushe.com/sr/article/79217585) (Resonance thresholds and conversion values)
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79217585；时间：2026-11-15）
 > 数据版本：4.7
-> 实体ID：无（官方未公开）
+> 实体ID：未核实
 > 创建时间：2026-11-14 18:12
 > 更新时间：2026-11-14 18:12
 
@@ -17,7 +19,7 @@
 | Requirement | Pending (the official notice states no participation requirement) |
 | Related Characters | [[zh_cn/character/虚无/黄泉_雷_五星\|Acheron]] / [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星\|Dan Heng • Imbibitor Lunae]] / [[zh_cn/character/智识/景元_雷_五星\|Jing Yuan]] (the characters who can activate an Affinitive Eidolon) |
 
-> The Version 4.7 update went live at 2026/11/11 06:00 (UTC+8) according to the same notice.
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
 ## Gameplay
 

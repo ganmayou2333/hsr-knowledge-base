@@ -2,10 +2,37 @@
 import unittest
 from html.parser import HTMLParser
 
-from wiki.build_wiki import character_panel_html, convert_inline, md_to_html, page_toc, search_summary
+from wiki.build_wiki import character_panel_html, convert_inline, md_to_html, page_toc, parse_meta, search_summary
 
 
 class WikiSearchTests(unittest.TestCase):
+    def test_relic_sources_do_not_label_community_links_official(self):
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1] / 'zh_cn' / 'relic'
+        for page in root.rglob('*.md'):
+            text = page.read_text(encoding='utf-8')
+            with self.subTest(page=page):
+                self.assertNotRegex(text, r'> 官方Wiki：[^\n]*bbs\.mihoyo\.com/sr/wiki/')
+                self.assertNotIn('官方Wiki暂无词条', text)
+
+    def test_mediawiki_preserves_community_source_label(self):
+        import tempfile
+        from pathlib import Path
+        from tools.mediawiki import md2mw
+        with tempfile.TemporaryDirectory() as folder:
+            page = Path(folder) / 'sample.md'
+            page.write_text('# Example\n> 数据来源：primary\n> 米游社社区图鉴：https://bbs.mihoyo.com/sr/wiki/content/584/detail\n\nText', encoding='utf-8')
+            meta = {'数据来源': 'primary', '米游社社区图鉴': 'https://bbs.mihoyo.com/sr/wiki/content/584/detail'}
+            _, output = md2mw.convert('relic/example', {'relic/example': (str(page), 'Example', meta)}, {'relic/example': 'Example'})
+            self.assertIn('米游社社区图鉴：https://bbs.mihoyo.com/sr/wiki/content/584/detail', output)
+            self.assertNotIn('官方Wiki', output)
+
+    def test_community_wiki_is_metadata_not_official_source(self):
+        metadata, body = parse_meta('# Sample\n> 米游社社区图鉴：https://bbs.mihoyo.com/sr/wiki/content/584/detail\nBody')
+        self.assertIn('米游社社区图鉴', metadata)
+        self.assertNotIn('官方Wiki', metadata)
+        self.assertNotIn('米游社社区图鉴', body)
+
     def test_summary_uses_readable_body_not_metadata_or_code(self):
         body = "# 标题\n> 数据来源：示例\n## 故事\n```\n秘密代码\n```\n这是一段[[zh_cn/items/星核|星核]]记录。"
         self.assertEqual(search_summary(body), "这是一段星核记录。")

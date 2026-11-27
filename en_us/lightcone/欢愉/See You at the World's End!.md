@@ -1,5 +1,7 @@
 # See You at the World's End!
 
+> Reader note: The name, Path and rarity match the official Version 4.7 notice; other fields and synchronization have not been fully verified. The community Wiki lists Lv.80 DEF as 396, while this page has 397; the in-game display remains unverified. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/8665/detail)
+
 > 数据来源：[nanoka 4.7.51 en/lightcone/22009](https://static.nanoka.cc/hsr/4.7.51/en/lightcone/22009.json) (name / Path / rarity / ability text / base stats / ascension materials); [Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) "3. New Light Cones" (official English name and acquisition: granted at Superimposition Lv. 5 by completing the Version 4.7 Trailblaze Mission)
 > 数据版本：4.7
 > 实体ID：22009

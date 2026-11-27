@@ -8,6 +8,7 @@ import json
 import re
 import stat
 import zipfile
+import zlib
 from pathlib import Path
 
 from tools.preview_artifact import InvalidPreviewArtifact, check_zip_directory
@@ -31,7 +32,7 @@ def _unique_object(pairs):
     return result
 
 
-def validate_receipt(number, pr, workflow, run, artifact, wrapper):
+def validate_receipt(number, pr, workflow, run, artifact, wrapper, *, require_workflow_sha=False):
     """Validate the current PR, trusted run, artifact metadata and downloaded ZIP.
 
     GitHub's artifact association is the provenance boundary. The caller must
@@ -48,6 +49,8 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
                 or not all(map(_positive, (head_id, base_id, run_id, attempt, workflow['id'])))
                 or workflow['state'] != 'active' or workflow['path'] != WORKFLOW
                 or not _positive(run['workflow_id']) or not _positive(run['repository']['id'])
+                or not _positive(run['head_repository']['id'])
+                or run['head_repository']['id'] != head_id
                 or run['workflow_id'] != workflow['id'] or run['repository']['id'] != base_id
                 or run['event'] != 'pull_request_target' or run['path'] != WORKFLOW
                 or run['status'] != 'completed' or run['conclusion'] != 'success'
@@ -58,6 +61,7 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
                 or not _positive(artifact['id']) or artifact['expired'] is not False
                 or not _positive(artifact['size_in_bytes']) or artifact['size_in_bytes'] > MAX_WRAPPER
                 or not _positive(origin['id']) or not _positive(origin['repository_id'])
+                or not _positive(origin['head_repository_id']) or origin['head_repository_id'] != head_id
                 or origin['id'] != run_id or origin['repository_id'] != base_id
                 or origin['head_sha'] != head):
             raise ValueError('invalid artifact')
@@ -74,6 +78,7 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
                 kind = stat.S_IFMT(info.external_attr >> 16)
                 if (info.orig_filename != 'trusted-check-receipt.json' or info.is_dir()
                         or kind not in (0, stat.S_IFREG) or info.flag_bits & 1
+                        or info.compress_type not in (zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED)
                         or info.file_size > MAX_RECEIPT):
                     raise ValueError('invalid member')
                 with archive.open(info) as data:
@@ -83,10 +88,15 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
         receipt = json.loads(raw.decode('utf-8'), object_pairs_hook=_unique_object)
         expected = {'version': 1, 'pr': number, 'head': head, 'base': base,
                     'head_repo': head_id, 'base_repo': base_id, 'run': run_id, 'attempt': attempt}
+        if isinstance(receipt, dict) and type(receipt.get('version')) is int and receipt['version'] == 2:
+            expected['version'] = 2
+            expected['workflow_sha'] = base
+        elif require_workflow_sha:
+            raise ValueError('workflow SHA required')
         if not isinstance(receipt, dict) or receipt != expected:
             raise ValueError('receipt does not match')
         if any(type(receipt[key]) is not int for key in ('version', 'pr', 'head_repo', 'base_repo', 'run', 'attempt')):
             raise ValueError('invalid numeric fields')
         return run_id, attempt
-    except (KeyError, TypeError, ValueError, AttributeError, OSError, zipfile.BadZipFile):
+    except (KeyError, TypeError, ValueError, AttributeError, OSError, EOFError, zlib.error, zipfile.BadZipFile):
         raise InvalidPreviewArtifact('Trusted check receipt is invalid or stale') from None

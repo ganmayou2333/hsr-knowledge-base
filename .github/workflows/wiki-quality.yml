@@ -37,8 +37,12 @@ jobs:
         run: |
           python tools/verify_site.py
           python tools/verify_docs.py
-          python -m unittest tools.test_wiki_search tools.test_quality_gate tools.test_preview_review tools.test_preview_review_server tools.test_preview_artifact tools.test_package_preview tools.test_preview_bundle tools.test_stage_preview tools.test_trusted_quality tools.test_trusted_receipt tools.test_preview_catalog tools.test_reconcile_previews tools.test_preview_release tools.test_verify_preview_publication -v
+          python -m unittest tools.test_wiki_search tools.test_quality_gate tools.test_check_quality tools.test_verify_links tools.test_preview_review tools.test_preview_review_server tools.test_preview_artifact tools.test_package_preview tools.test_preview_bundle tools.test_stage_preview tools.test_trusted_quality tools.test_trusted_workflow_guard tools.test_trusted_preview_build tools.test_trusted_preview_artifact tools.test_trusted_preview_fetch tools.test_trusted_receipt tools.test_preview_catalog tools.test_reconcile_previews tools.test_preview_release tools.test_verify_preview_publication -v
           python -m unittest discover -s tests -p test_audit_mirror_entities.py -v
+          python -m unittest discover -s tests -p test_mirror_reader_notices.py -v
+          python -m unittest discover -s tests -p test_compare_enemy_inventory.py -v
+          python -m unittest tools.test_enemy_index tools.test_rarity_index tools.test_timeline_dates -v
+          python -m unittest tools.test_preview_roundtrip_workflow -v
       - name: Check JavaScript syntax
         run: |
           node --check wiki/assets/app.js
@@ -79,6 +83,7 @@ jobs:
         uses: actions/download-artifact@v8
         continue-on-error: true
         with:
+          digest-mismatch: error
           name: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/preview-roundtrip
       - name: Wait before retrying preview download
@@ -90,6 +95,7 @@ jobs:
         uses: actions/download-artifact@v8
         continue-on-error: true
         with:
+          digest-mismatch: error
           name: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/preview-roundtrip
       - name: Wait before final preview download
@@ -97,12 +103,15 @@ jobs:
         run: sleep 10
       - name: Final preview download
         if: steps.download_preview_second.outcome == 'failure'
+        id: download_preview_final
         uses: actions/download-artifact@v8
         with:
+          digest-mismatch: error
           name: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/preview-roundtrip
       - name: Verify downloaded preview input
         if: github.event_name == 'pull_request'
+        id: verify_preview_roundtrip
         run: |
           cmp "$RUNNER_TEMP/wiki-preview.zip" "$RUNNER_TEMP/preview-roundtrip/wiki-preview.zip"
           python - <<'PY'
@@ -121,3 +130,19 @@ jobs:
               raise SystemExit('Preview is missing pages or icons')
           print(f'PASS: preview archive round-trip: {pages} pages, {icons} icons')
           PY
+      - name: Summarize preview download
+        if: ${{ always() && github.event_name == 'pull_request' }}
+        env:
+          FIRST: ${{ steps.download_preview_first.outcome }}
+          SECOND: ${{ steps.download_preview_second.outcome }}
+          FINAL: ${{ steps.download_preview_final.outcome }}
+          VERIFY: ${{ steps.verify_preview_roundtrip.outcome }}
+        run: |
+          {
+            echo '### Preview artifact round trip'
+            echo "- First download: ${FIRST:-not run}"
+            echo "- Second download: ${SECOND:-not run}"
+            echo "- Final download: ${FINAL:-not run}"
+            echo "- Byte comparison and package verification: ${VERIFY:-not run}"
+            echo 'A retry can leave an error annotation even when the final verification succeeds. Inspect the failed attempt log; failures can have different causes.'
+          } >> "$GITHUB_STEP_SUMMARY"

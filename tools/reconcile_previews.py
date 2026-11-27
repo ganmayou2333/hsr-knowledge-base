@@ -24,26 +24,42 @@ class MissingRunAssociation(InvalidPreviewArtifact):
 
 
 def pages_items(pages, key=None):
-    if not isinstance(pages, list):
+    if not isinstance(pages, list) or not pages:
         raise InvalidPreviewArtifact('Invalid paginated response')
     result = []
+    expected_total = None
     for page in pages:
         items = page.get(key) if key and isinstance(page, dict) else page if key is None else None
         if not isinstance(items, list):
             raise InvalidPreviewArtifact('Invalid paginated response')
+        if key:
+            total = page.get('total_count')
+            if type(total) is not int or total < 0 or (expected_total is not None and total != expected_total):
+                raise InvalidPreviewArtifact('Invalid or changing paginated total')
+            expected_total = total
         result.extend(items)
-        if len(result) > (MAX_RUNS if key else MAX_PRS):
-            raise InvalidPreviewArtifact('Too many GitHub results')
+        # The filtered workflow-runs API can cap results at 1,000.  Reaching
+        # the cap cannot prove the list is complete, so fail closed. Apply the
+        # same conservative bound to open PR inventory.
+        if len(result) >= (MAX_RUNS if key else MAX_PRS):
+            raise InvalidPreviewArtifact('GitHub result limit reached; inventory may be incomplete')
+    if key and len(result) != expected_total:
+        raise InvalidPreviewArtifact('Incomplete paginated inventory')
     return result
 
 
 def latest_run(runs, number, pr, event, path):
     """Find the newest run for this exact PR revision, including failed runs."""
     candidates = []
+    seen = set()
     for run in runs:
         try:
             if run['event'] != event or run['path'] != path or run['head_sha'] != pr['head']['sha']:
                 continue
+            identifier = run['id']
+            if type(identifier) is not int or identifier < 1 or identifier in seen:
+                raise ValueError
+            seen.add(identifier)
             associations = run['pull_requests']
             if not isinstance(associations, list):
                 raise ValueError
@@ -54,18 +70,33 @@ def latest_run(runs, number, pr, event, path):
                 continue
             if len(matches) != 1:
                 raise ValueError
-            started = run['run_started_at']
-            if (not isinstance(started, str) or len(started) != 20 or not started.endswith('Z')
-                    or type(run['id']) is not int or run['id'] < 1):
+            created, started = run['created_at'], run['run_started_at']
+            for timestamp in (created, started):
+                if not isinstance(timestamp, str) or len(timestamp) != 20 or not timestamp.endswith('Z'):
+                    raise ValueError
+                if datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc).isoformat()[:19] != timestamp[:19]:
+                    raise ValueError
+            if started < created:
                 raise ValueError
-            if datetime.strptime(started, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc).isoformat()[:19] != started[:19]:
-                raise ValueError
-            candidates.append((started, run['id'], run))
+            candidates.append((created, run['id'], run))
         except MissingRunAssociation:
             raise
         except (KeyError, TypeError, ValueError):
             raise InvalidPreviewArtifact('Invalid workflow run metadata') from None
-    return max(candidates, default=(None, None, None), key=lambda item: (item[0] or '', item[1] or 0))[2]
+    pending = [item for item in candidates if item[2].get('status') != 'completed']
+    if pending:
+        return max(pending, key=lambda item: (item[0], item[1]))[2]
+    # Neither a newer creation nor a later-started rerun may be ignored.
+    # When they disagree, provenance is ambiguous: refuse the whole selection.
+    if len({item[0] for item in candidates}) != len(candidates):
+        raise InvalidPreviewArtifact('Ambiguous workflow creation order')
+    if not candidates:
+        return None
+    latest = max(candidates, key=lambda item: item[0])
+    started = max(item[2]['run_started_at'] for item in candidates)
+    if latest[2]['run_started_at'] != started or sum(item[2]['run_started_at'] == started for item in candidates) != 1:
+        raise InvalidPreviewArtifact('Ambiguous latest workflow attempt')
+    return latest[2]
 
 
 def reconcile(repo, shell, destination):

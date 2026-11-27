@@ -136,6 +136,8 @@ def _extract_entries(archive, stage):
             raise InvalidPreviewArtifact("Inconsistent archive entry type")
         if info.flag_bits & 1:
             raise InvalidPreviewArtifact("Encrypted entries are not supported")
+        if info.compress_type not in (zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED):
+            raise InvalidPreviewArtifact("Unsupported archive compression")
         if not info.is_dir():
             if info.file_size > MAX_FILE_BYTES:
                 raise InvalidPreviewArtifact("Archive entry exceeds size limit")

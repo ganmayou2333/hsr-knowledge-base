@@ -92,9 +92,14 @@
       }
       const evidence = reviews.map(item => [item.id, item.state, item.user?.login ?? null,
         item.user?.type ?? null, item.commit_id ?? null, item.submitted_at ?? null]).sort((a, b) => a[0] - b[0]);
-      const pr = await json(`https://api.github.com/repos/${REPO}/pulls/${number}`);
+      const [pr, branch] = await Promise.all([
+        json(`https://api.github.com/repos/${REPO}/pulls/${number}`),
+        json(`https://api.github.com/repos/${REPO}/branches/main`)
+      ]);
       if (check !== reviewCheck || (!verified && !allowPending)) return;
-      if (pr.state !== 'open' || pr.head?.sha !== manifest.head || pr.base?.sha !== manifest.base) {
+      if (pr.state !== 'open' || pr.head?.sha !== manifest.head || pr.base?.sha !== manifest.base ||
+          pr.base?.ref !== 'main' || pr.base?.repo?.full_name?.toLowerCase() !== REPO.toLowerCase() ||
+          branch.name !== 'main' || branch.commit?.sha !== manifest.base) {
         verification++;
         return fail('无法验证当前提交或检查结果，预览暂不可用。');
       }
@@ -127,23 +132,37 @@
 
   async function latestRun(workflow, event) {
     const path = `.github/workflows/${workflow}`;
-    let latest = null;
+    let latest = null, pending = null, latestStarted = null, tiedStarted = false, total = 0;
+    const ids = new Set(), dates = new Set();
     for (let page = 1; page <= 11; page++) {
       const result = await json(`https://api.github.com/repos/${REPO}/actions/workflows/${workflow}/runs?event=${event}&head_sha=${manifest.head}&per_page=100&page=${page}`);
       const runs = result.workflow_runs;
       if (!Array.isArray(runs) || runs.length > 100 || (page === 11 && runs.length)) throw new Error('Invalid run list');
+      total += runs.length;
+      if (total >= 1000) throw new Error('Run list may be incomplete');
       for (const run of runs) {
         if (run.event !== event || run.path !== path || run.head_sha !== manifest.head) continue;
         if (!Array.isArray(run.pull_requests) || !run.pull_requests.length) throw new Error('Unbound workflow run');
         const matches = run.pull_requests.filter(item => item.number === Number(number));
         if (!matches.length) continue;
         if (matches.length !== 1 || !Number.isSafeInteger(run.id) || run.id < 1 ||
-            typeof run.run_started_at !== 'string' || !/^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$/.test(run.run_started_at) ||
-            !Number.isFinite(Date.parse(run.run_started_at))) throw new Error('Invalid workflow run');
-        if (!latest || run.run_started_at > latest.run_started_at ||
-            (run.run_started_at === latest.run_started_at && run.id > latest.id)) latest = run;
+            ids.has(run.id) || dates.has(run.created_at) ||
+            ![run.created_at, run.run_started_at].every(value => typeof value === 'string' &&
+              /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$/.test(value) &&
+              Number.isFinite(Date.parse(value)) && new Date(value).toISOString() === value.replace('Z', '.000Z')) ||
+            run.run_started_at < run.created_at) throw new Error('Invalid workflow run');
+        ids.add(run.id); dates.add(run.created_at);
+        if (run.status !== 'completed') pending = run;
+        if (!latest || run.created_at > latest.created_at) latest = run;
+        if (latestStarted === null || run.run_started_at > latestStarted) {
+          latestStarted = run.run_started_at; tiedStarted = false;
+        } else if (run.run_started_at === latestStarted) tiedStarted = true;
       }
-      if (runs.length < 100) return latest;
+      if (runs.length < 100) {
+        if (pending) return pending;
+        if (latest && (latest.run_started_at !== latestStarted || tiedStarted)) throw new Error('Ambiguous latest attempt');
+        return latest;
+      }
     }
     throw new Error('Too many workflow runs');
   }
@@ -208,8 +227,9 @@
         return true;
       }
       if (liveServiceSeen) throw new Error('Preview service unavailable');
-      const [pr, run, workflow, trustedRun, latestBuild, latestTrusted] = await Promise.all([
+      const [pr, branch, run, workflow, trustedRun, latestBuild, latestTrusted] = await Promise.all([
         json(`https://api.github.com/repos/${REPO}/pulls/${number}`),
+        json(`https://api.github.com/repos/${REPO}/branches/main`),
         json(`https://api.github.com/repos/${REPO}/actions/runs/${manifest.run}`),
         json(`https://api.github.com/repos/${REPO}/actions/workflows/wiki-trusted-data.yml`),
         json(`https://api.github.com/repos/${REPO}/actions/runs/${manifest.trusted_run}`),
@@ -223,6 +243,8 @@
         item.head?.repo?.id === pr.head?.repo?.id && item.base?.repo?.id === pr.base?.repo?.id).length === 1;
       if (attempt !== verification) return false;
       if (pr.state !== 'open' || pr.head?.sha !== manifest.head || pr.base?.sha !== manifest.base ||
+          pr.base?.ref !== 'main' || pr.base?.repo?.full_name?.toLowerCase() !== REPO.toLowerCase() ||
+          branch.name !== 'main' || branch.commit?.sha !== manifest.base ||
           run.id !== manifest.run || run.run_attempt !== manifest.run_attempt || run.event !== 'pull_request' || run.conclusion !== 'success' || run.head_sha !== manifest.head ||
           run.path !== '.github/workflows/wiki-quality.yml' || !associated ||
           latestBuild?.id !== manifest.run || latestBuild?.run_attempt !== manifest.run_attempt ||

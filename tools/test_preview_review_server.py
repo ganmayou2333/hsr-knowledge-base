@@ -156,15 +156,15 @@ class ReviewServerTests(unittest.TestCase):
             pr = dict(PR)
             def api(path, paginate=False):
                 if path.endswith('/pulls/7'): return pr
-                if '/wiki-quality.yml/runs?' in path: return [{'workflow_runs': builds}]
-                if '/wiki-trusted-data.yml/runs?' in path: return [{'workflow_runs': [TRUSTED]}]
+                if '/wiki-quality.yml/runs?' in path: return [{'total_count': len(builds), 'workflow_runs': builds}]
+                if '/wiki-trusted-data.yml/runs?' in path: return [{'total_count': 1, 'workflow_runs': [TRUSTED]}]
                 raise AssertionError(path)
             with patch('tools.verify_preview_publication.gh_api', side_effect=api), \
                  patch('tools.verify_preview_publication.metadata', return_value=True), \
                  patch('tools.verify_preview_publication.snapshot', return_value={'head': HEAD, 'approved': False}):
                 self.assertEqual(self.get('/previews/7/review.json')[0], 200)
                 self.server.cache.clear()
-                builds.append(dict(build, id=12, conclusion='failure', run_started_at='2026-11-21T00:01:00Z'))
+                builds.append(dict(build, id=12, conclusion='failure', created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z'))
                 self.assertEqual(self.get('/previews/7/review.json')[0], 503)
                 builds.pop()
                 pr['head'] = {'sha': HEAD, 'repo': {'id': 2}}

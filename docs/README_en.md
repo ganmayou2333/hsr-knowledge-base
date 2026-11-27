@@ -6,7 +6,7 @@
 
 An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematically organizing game data and materials such as characters, Light Cones, items, Relics, the Simulated Universe, quest texts, and world-building. Pages are linked via wikilinks, supporting structured search and quick navigation. In addition to Simplified Chinese, multilingual mirrors are provided in English / Traditional Chinese / Japanese / Korean.
 
-> Data version baseline: 4.7 (4.7 content added: 2026-11-11, measured 2026-11-14; includes the new character Star God★Aha (entity ID 1511), 2 new Light Cones, 2 new Planar Ornaments, 6 version events + 1 season (入画奇航), and 3 new enemies. Previous baseline 4.6: content added 2026-09-28 — the new character Pearl, the new Light Cone "Colors for Tomorrow", and two new Relics 戏梦点星的伶人 / 贪噬禁果的异端 (official English names pending); documentation aligned 2026-09-30)
+> Data version baseline: 4.7 (4.7 content added: 2026-11-11, measured 2026-11-14; includes the new character Star God★Aha (entity ID 1511), 2 new Light Cones, 2 new Planar Ornaments, 6 version events + 1 season (入画奇航), and 3 new enemies. Previous baseline 4.6: content added 2026-09-28 — the new character Pearl, the new Light Cone "Colors for Tomorrow", and two new Relics [Dreamlit Actor and The Edacious Heretic](https://hsr.hoyoverse.com/en-us/news/166468) (names confirmed in the official 4.6 update notice; mirror completeness is tracked separately); documentation aligned 2026-09-30)
 
 ---
 
@@ -24,13 +24,13 @@ An **Obsidian**-based data knowledge base for *Honkai: Star Rail*, systematicall
 | `货币战争/` | Currency War library (standalone auto-chess mode: gameplay / characters / bonds / equipment / seasons) | 0 [1] |
 | `rules/` | Rules library (combat mechanics / status priority / exceptions) | 0 [1] |
 | `events/` | Events library (version / permanent / rerun events, added v1.13) | 12 |
-| `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13) | 5 |
+| `enemies/` | Enemies library (normal / elite / boss / weekly, added v1.13) | 176 |
 | `stages/` | Stages library (Cavern of Corrosion / Echo of War / Stagnant Shadow / material stages, added v1.13) | 2 |
 | `音乐/` | Music library (album details + tracks, added v1.15) | 20 |
-| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (**committed** English 5,714 / Traditional Chinese 5,711 / Japanese 5,708 / Korean 5,691; working tree 5,881 / 5,878 / 5,875 / 5,858, the 167-file gap comes from the gitignored `*/quest/剧情文本/`) | ~5,710 each |
+| `en_us/` `zh_tw/` `ja_jp/` `ko_kr/` | Multilingual mirrors (**committed** English 5,722 / Traditional Chinese 5,715 / Japanese 5,717 / Korean 5,700; working tree 5,722 / 5,715 / 5,717 / 5,700, clean-worktree snapshot) | ~5,710 each |
 
 > The index hierarchy is unified as: Main Index → Category / Path Index → Rating Index (rarity) → Details. Size counts **detail files only** (= files carrying `> 实体ID：` metadata, excluding index and group files; measured 2026-11-14).
-> [1] `quest/` `worldview/` `货币战争/` `rules/` are **document-type entries** (indexes / specs / world-building prose) without `> 实体ID：` metadata, so they count as **0** under this convention; their raw file counts are 173 / 8 / 7 / 5 (indexes included).
+> [1] `quest/` `worldview/` `货币战争/` `rules/` are **document-type entries** (indexes / specs / world-building prose) without `> 实体ID：` metadata, so they count as **0** under this convention; their raw file counts are 5 / 17 / 7 / 5 (indexes included).
 
 ---
 

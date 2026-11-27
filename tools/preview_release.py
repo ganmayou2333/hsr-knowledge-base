@@ -15,10 +15,10 @@ import time
 from pathlib import Path
 
 from tools.preview_artifact import InvalidPreviewArtifact
-from tools.preview_catalog import metadata, validated_manifest
 from tools.preview_release_state import RELEASE, active_site
 from tools.preview_review import REPO_PATTERN
 from tools.reconcile_previews import reconcile
+from tools.verify_preview_publication import verify
 
 GRACE_SECONDS = 600
 
@@ -71,10 +71,11 @@ def publish(repo, shell, root):
         site = sites / name
         included = reconcile(repo, shell, site)
         built = True
-        for number in included:
-            manifest = validated_manifest(site / 'previews' / str(number), repo, number)
-            if not metadata(repo, number, manifest):
-                raise InvalidPreviewArtifact('A preview became stale before activation')
+        actual = {entry.name for entry in (site / 'previews').iterdir()}
+        if (not isinstance(included, list) or any(type(number) is not int or number < 1 for number in included)
+                or len(set(included)) != len(included) or actual != {str(number) for number in included}
+                or verify(repo, site) != len(included)):
+            raise InvalidPreviewArtifact('Preview inventory or final verification changed before activation')
         marker = {'version': 1, 'repo': repo, 'name': name}
         (site / '.preview-release.json').write_text(json.dumps(marker), encoding='ascii')
         pointer = root / 'current'

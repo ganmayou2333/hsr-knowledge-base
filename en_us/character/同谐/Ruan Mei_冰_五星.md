@@ -7,6 +7,7 @@
 > 创建时间：2026-08-30 18:22
 > 更新时间：2026-08-31 10:32
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1303；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
 
 ---
 
@@ -43,6 +44,8 @@
 | Base SPD | 104 |
 | Taunt | 100 |
 | Max Energy | 130 |
+
+> Lv.80 values differ: community Wiki / this page. The in-game display has not been independently verified. HP 1,086 / 1,087; ATK 659 / 660. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/1874/detail)
 
 ---
 

@@ -229,7 +229,7 @@ def md_to_html(md, depth, current_rel=""):
     close_all()
     return "\n".join(out)
 
-META_KEYS = ["数据来源","官方Wiki","数据版本","实体ID","来源","状态","任务地区","任务类型"]
+META_KEYS = ["数据来源","官方Wiki","米游社社区图鉴","数据版本","实体ID","来源","状态","任务地区","任务类型"]
 def parse_meta(md):
     meta = {}; body = []
     for line in md.split("\n"):

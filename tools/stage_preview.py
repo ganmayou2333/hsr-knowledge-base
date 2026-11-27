@@ -16,7 +16,7 @@ from pathlib import Path
 
 from tools.preview_artifact import MAX_ARCHIVE_BYTES, InvalidPreviewArtifact, check_zip_directory, extract_preview_zip
 from tools.preview_bundle import build_bundle
-from tools.preview_review import REPO_PATTERN, gh_api, snapshot
+from tools.preview_review import REPO_PATTERN, gh_api, snapshot, current_base_matches
 
 WORKFLOW = '.github/workflows/wiki-quality.yml'
 TRUSTED_WORKFLOW = '.github/workflows/wiki-trusted-data.yml'
@@ -52,7 +52,27 @@ def select_artifact(repo, number, run_id, pr, run, pages, external_approved=Fals
         if len(matches) != 1:
             raise ValueError
         expected = f"wiki-preview-{number}-{head}-{run['run_attempt']}"
-        artifacts = [item for page in pages for item in page['artifacts'] if item['name'] == expected]
+        if not isinstance(pages, list) or not pages:
+            raise ValueError
+        inventory = []
+        expected_total = None
+        for page in pages:
+            if not isinstance(page, dict) or not isinstance(page.get('artifacts'), list):
+                raise ValueError
+            total = page.get('total_count')
+            if type(total) is not int or total < 0 or (expected_total is not None and total != expected_total):
+                raise ValueError
+            expected_total = total
+            inventory.extend(page['artifacts'])
+            # A capped listing cannot prove there isn't a duplicate name later.
+            if len(inventory) >= 1000:
+                raise ValueError
+        if len(inventory) != expected_total:
+            raise ValueError
+        ids = [item['id'] for item in inventory]
+        if any(type(identifier) is not int or identifier < 1 for identifier in ids) or len(set(ids)) != len(ids):
+            raise ValueError
+        artifacts = [item for item in inventory if item['name'] == expected]
         if len(artifacts) != 1:
             raise ValueError
         artifact = artifacts[0]
@@ -112,7 +132,8 @@ def unwrap_artifact(wrapper, destination):
             file_type = stat.S_IFMT(info.external_attr >> 16)
             if (info.orig_filename != 'wiki-preview.zip' or info.filename != 'wiki-preview.zip'
                     or info.is_dir() or file_type not in (0, stat.S_IFREG)
-                    or info.flag_bits & 1 or info.file_size > MAX_ARCHIVE_BYTES):
+                    or info.flag_bits & 1 or info.file_size > MAX_ARCHIVE_BYTES
+                    or info.compress_type not in (zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED)):
                 raise InvalidPreviewArtifact('Invalid artifact wrapper member')
             with archive.open(info) as source, Path(destination).open('xb') as output:
                 total = 0
@@ -157,7 +178,12 @@ def stage(repo, number, run_id, destination, *, trusted_run_id):
     pr_path, run_path = f'{prefix}/pulls/{number}', f'{prefix}/actions/runs/{run_id}'
 
     def metadata():
+        # Import here: the reconciler itself imports stage().  Discovery alone
+        # is insufficient because a newer run can appear during conversion.
+        from tools.reconcile_previews import latest_run, pages_items
         pr = gh_api(pr_path)
+        if not current_base_matches(repo, pr, gh_api):
+            raise InvalidPreviewArtifact('PR base is not the current main branch')
         run = gh_api(run_path)
         pages = gh_api(run_path + '/artifacts?per_page=100', paginate=True)
         workflow = gh_api(f'{prefix}/actions/workflows/wiki-trusted-data.yml')
@@ -166,7 +192,17 @@ def stage(repo, number, run_id, destination, *, trusted_run_id):
         review = snapshot(repo, number) if external else None
         approved = bool(review and review.get('head') == pr.get('head', {}).get('sha') and review.get('approved') is True)
         artifact = select_artifact(repo, number, run_id, pr, run, pages, approved)
-        return (*artifact, *trusted_check(number, pr, workflow, trusted_run, trusted_run_id), run['run_attempt'])
+        checked = trusted_check(number, pr, workflow, trusted_run, trusted_run_id)
+        for name, event, expected_id, expected_attempt in (
+            ('wiki-quality.yml', 'pull_request', run_id, run['run_attempt']),
+            ('wiki-trusted-data.yml', 'pull_request_target', trusted_run_id, checked[1]),
+        ):
+            runs = pages_items(gh_api(f"{prefix}/actions/workflows/{name}/runs?event={event}&head_sha={artifact[1]}&per_page=100", paginate=True), 'workflow_runs')
+            latest = latest_run(runs, number, pr, event, f'.github/workflows/{name}')
+            if (not latest or latest.get('id') != expected_id or latest.get('run_attempt') != expected_attempt
+                    or latest.get('status') != 'completed' or latest.get('conclusion') != 'success'):
+                raise InvalidPreviewArtifact('A newer or unsuccessful check exists during staging')
+        return (*artifact, *checked, run['run_attempt'])
 
     selected = metadata()
     destination = Path(destination)

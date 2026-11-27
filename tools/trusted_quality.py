@@ -47,6 +47,11 @@ def inspect_tree(root):
             if path.is_symlink() or not stat.S_ISDIR(path.lstat().st_mode):
                 raise ValueError('Checkout contains a linked or special directory')
             if name in SKIP:
+                # The link/field scanners skip these names at any depth, but
+                # the Wiki builder renders all Markdown below zh_cn. Reject
+                # them there rather than publishing unchecked data.
+                if path.relative_to(root).parts[0] == 'zh_cn':
+                    raise ValueError('Data directory would be skipped by trusted scanners')
                 dirs.remove(name)
         for name in files:
             path = Path(directory) / name
@@ -84,13 +89,13 @@ def check(root, trusted_root=TRUSTED_ROOT):
     print(f'数据区链接：现存 {sum(actual.values())}，新增 {sum(new.values())}')
     for (source, target), count in sorted(new.items()):
         print(f'  新增 {count} 处: {source} -> {target}')
-    result = subprocess.run([sys.executable, '-I', '-X', 'utf8', str(trusted_root / 'scripts' / 'verify_fields.py')],
+    result = subprocess.run([sys.executable, '-I', '-X', 'utf8', str(trusted_root / 'scripts' / 'verify_fields.py'), '--quality-count'],
                             cwd=root / 'zh_cn', capture_output=True, text=True, encoding='utf-8',
                             errors='replace', timeout=120, env={'PYTHONIOENCODING': 'utf-8'})
     print(result.stdout)
     if result.stderr:
         print(result.stderr, file=sys.stderr)
-    match = re.search(r'^异常合计:\s*(\d+)\s*$', result.stdout, re.M)
+    match = re.fullmatch(r'([0-9]+)\n', result.stdout)
     return not new and result.returncode == 0 and match is not None and int(match.group(1)) == 0
 
 

@@ -37,12 +37,14 @@ class PreviewCatalogTests(unittest.TestCase):
     def api(self, path):
         if '/actions/workflows/' in path:
             return {'id': 42, 'state': 'active', 'path': '.github/workflows/wiki-trusted-data.yml'}
+        if path.endswith('/branches/main'):
+            return {'name': 'main', 'commit': {'sha': BASE}}
         number = int(path.rsplit('/', 1)[-1])
         if '/pulls/' in path:
             state = self.states[number]
             return {'number': number, 'state': 'closed' if state == 'closed' else 'open',
                     'head': {'sha': 'c' * 40 if state == 'stale' else HEAD, 'repo': {'id': 1}},
-                    'base': {'sha': BASE, 'repo': {'id': 1}}}
+                    'base': {'sha': BASE, 'ref': 'main', 'repo': {'id': 1, 'full_name': 'owner/repo'}}}
         if number > 20:
             return {'id': number, 'workflow_id': 42, 'repository': {'id': 1}, 'run_attempt': 1,
                     'event': 'pull_request_target', 'status': 'completed', 'conclusion': 'success',
@@ -50,9 +52,22 @@ class PreviewCatalogTests(unittest.TestCase):
                     'pull_requests': [{'number': number - 20, 'head': {'sha': HEAD, 'repo': {'id': 1}},
                                        'base': {'sha': BASE, 'repo': {'id': 1}}}]}
         number -= 10
-        return {'id': number + 10, 'run_attempt': 1, 'event': 'pull_request', 'status': 'completed', 'conclusion': 'success',
+        return {'id': number + 10, 'repository': {'id': 1}, 'run_attempt': 1, 'event': 'pull_request', 'status': 'completed', 'conclusion': 'success',
                 'path': '.github/workflows/wiki-quality.yml', 'head_sha': HEAD,
-                'pull_requests': [{'number': number, 'head': {'sha': HEAD}, 'base': {'sha': BASE}}]}
+                'pull_requests': [{'number': number, 'head': {'sha': HEAD, 'repo': {'id': 1}},
+                                   'base': {'sha': BASE, 'repo': {'id': 1}}}]}
+
+    def test_build_repository_identity_is_revalidated(self):
+        for change in ('repository', 'head_repo', 'base_repo'):
+            def api(path):
+                result = self.api(path)
+                if path.endswith('/actions/runs/11'):
+                    if change == 'repository': result['repository']['id'] = 999
+                    elif change == 'head_repo': result['pull_requests'][0]['head']['repo']['id'] = 999
+                    else: result['pull_requests'][0]['base']['repo']['id'] = 999
+                return result
+            with self.subTest(change=change), patch('tools.preview_catalog.gh_api', side_effect=api):
+                self.assertEqual(assemble('owner/repo', self.bundles, self.shell, self.root / change), [2])
 
     def test_multiple_prs_remain_and_closed_or_stale_previews_disappear(self):
         (self.bundles / '1' / 'unused.html').write_text('<script>bad</script>', encoding='ascii')
@@ -91,6 +106,14 @@ class PreviewCatalogTests(unittest.TestCase):
         with patch('tools.preview_catalog.gh_api', side_effect=api), self.assertRaises(InvalidPreviewArtifact):
             assemble('owner/repo', self.bundles, self.shell, self.root / 'out')
         self.assertFalse((self.root / 'out').exists())
+
+    def test_stale_pull_base_is_not_a_current_main(self):
+        def api(path):
+            if path.endswith('/branches/main'):
+                return {'name': 'main', 'commit': {'sha': 'c' * 40}}
+            return self.api(path)
+        with patch('tools.preview_catalog.gh_api', side_effect=api):
+            self.assertEqual(assemble('owner/repo', self.bundles, self.shell, self.root / 'out'), [])
 
     def test_never_overwrites_existing_output(self):
         output = self.root / 'out'; output.mkdir(); (output / 'keep').write_text('keep')
