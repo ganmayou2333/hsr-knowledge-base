@@ -46,15 +46,18 @@ def download_trusted_preview(repo, number, run_id, reviewed_base, destination):
             raise InvalidPreviewArtifact('Trusted receipt missing or ambiguous')
         if receipt_zip is None:
             return receipts[0]['id']
-        return select_trusted_preview(number, pr, workflow, run, receipts[0], receipt_zip, artifacts, runs)
+        selected = select_trusted_preview(number, pr, workflow, run, receipts[0], receipt_zip, artifacts, runs)
+        return receipts[0]['id'], selected
 
     with tempfile.TemporaryDirectory(prefix='.trusted-download-', dir=destination.parent) as temp:
         temp = Path(temp)
         receipt_id = metadata()
         download_artifact(repo, receipt_id, temp / 'receipt.zip')
-        selected = metadata(temp / 'receipt.zip')
+        observed_receipt, selected = metadata(temp / 'receipt.zip')
+        if observed_receipt != receipt_id:
+            raise InvalidPreviewArtifact('Trusted receipt changed during download')
         download_artifact(repo, selected[0], temp / 'preview.zip')
-        if metadata(temp / 'receipt.zip') != selected or metadata() != receipt_id:
+        if metadata(temp / 'receipt.zip') != (receipt_id, selected):
             raise InvalidPreviewArtifact('Trusted preview changed during download')
         if destination.exists() or destination.is_symlink():
             raise InvalidPreviewArtifact('Preview destination changed')

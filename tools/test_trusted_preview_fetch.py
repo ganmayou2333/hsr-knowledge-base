@@ -75,6 +75,20 @@ class TrustedFetchTests(unittest.TestCase):
         self.assertFalse((self.root / 'out.zip').exists())
         self.assertFalse(list(self.root.glob('.trusted-download-*')))
 
+    def test_receipt_identity_and_pr_state_are_rechecked(self):
+        original_download = self.download
+        for change in ('receipt', 'closed'):
+            self.receipt = copy.deepcopy(ARTIFACT)
+            self.pr['state'] = 'open'
+            def download(repo, identifier, path):
+                original_download(repo, identifier, path)
+                if identifier == 34:
+                    if change == 'receipt': self.receipt['id'] = 35
+                    else: self.pr['state'] = 'closed'
+            with self.subTest(change=change), patch.object(self, 'download', side_effect=download):
+                with self.assertRaises(InvalidPreviewArtifact): self.execute(name=change + '.zip')
+            self.assertFalse((self.root / (change + '.zip')).exists())
+
 
 if __name__ == '__main__':
     unittest.main()
