@@ -51,6 +51,17 @@ def select_trusted_preview(number, pr, workflow, run, receipt_artifact, receipt_
         if (latest['id'] != run_id or type(latest['run_attempt']) is not int or latest['run_attempt'] != attempt
                 or latest['status'] != 'completed' or latest['conclusion'] != 'success'):
             raise ValueError
+        # Detail and list endpoints can be observed at different instants. Do
+        # not combine provenance from one snapshot with freshness from another.
+        for field in ('created_at', 'run_started_at', 'workflow_id'):
+            if latest[field] != run[field]:
+                raise ValueError
+        if type(latest['workflow_id']) is not int:
+            raise ValueError
+        for field in ('repository', 'head_repository'):
+            if (type(latest[field]['id']) is not int
+                    or latest[field]['id'] != run[field]['id']):
+                raise ValueError
         if not isinstance(artifacts, list) or len(artifacts) >= 1000:
             raise ValueError
         ids = []

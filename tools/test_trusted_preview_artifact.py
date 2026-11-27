@@ -120,6 +120,21 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
             with self.subTest(status=status, conclusion=conclusion), self.assertRaises(InvalidPreviewArtifact):
                 self.select()
 
+    def test_rejects_disagreement_between_run_detail_and_inventory(self):
+        # A stale list/detail response must not be combined into one success.
+        changes = [
+            ('created_at', '2026-11-21T00:00:01Z'),
+            ('run_started_at', '2026-11-21T00:00:01Z'),
+            ('workflow_id', 999),
+            ('repository', {'id': 999}),
+            ('head_repository', {'id': 999}),
+        ]
+        for key, value in changes:
+            self.runs = [copy.deepcopy(self.run)]
+            self.runs[0][key] = value
+            with self.subTest(key=key), self.assertRaises(InvalidPreviewArtifact):
+                self.select()
+
     def test_rerun_duplicate_and_incomplete_run_lists_fail_closed(self):
         for runs in ([], [self.run, copy.deepcopy(self.run)],
                      [dict(self.run, run_attempt=2)], [dict(self.run, status='in_progress', conclusion=None)],
