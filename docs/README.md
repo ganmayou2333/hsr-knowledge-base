@@ -7,6 +7,7 @@
 > **专名对照**：[`专名对照表.md`](专名对照表.md)（E2 对账产物）。
 > **Wiki PR 预览**：[运行状态与接入条件](preview-operations.md) · [产物下载排查](preview-artifact-diagnostics.md)。
 > **多语言镜像**：[来源与同步状态盘点](mirror-provenance.md)。
+> **事实抽检**：[4.7 首轮样本与待核记录](4.7事实抽检.md)（尚未完成）。
 
 ---
 
