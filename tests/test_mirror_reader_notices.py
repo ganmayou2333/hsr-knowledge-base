@@ -1,4 +1,4 @@
-"""Regression gate for visible source notices on marked, high-priority mirrors.
+"""Regression gate for visible source notices on high-priority mirrors.
 
 This checks presentation, not translation quality, source authenticity or synchronization.
 """
@@ -16,6 +16,18 @@ NOTICES = {
 
 
 class MirrorReaderNoticeTests(unittest.TestCase):
+    def test_high_priority_pages_have_localized_header_notice(self):
+        # Unmarked pages may be partial official extracts, not official translations.
+        # Require a visible notice without inferring a source classification.
+        for language, notice in NOTICES.items():
+            for category in CATEGORIES:
+                pages = list((ROOT / language / category).rglob('*.md'))
+                self.assertTrue(pages, (language, category))
+                for path in pages:
+                    header = path.read_text(encoding='utf-8').split('\n---', 1)[0]
+                    with self.subTest(path=str(path.relative_to(ROOT))):
+                        self.assertIn(notice, header)
+
     def test_zh_tw_event_names_and_source_description(self):
         root = ROOT / 'zh_tw' / 'events' / '版本活动'
         checks = {

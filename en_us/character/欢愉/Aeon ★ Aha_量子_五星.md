@@ -1,6 +1,6 @@
 # Aeon ★ Aha (Quantum · Elation)
 
-> Verified against the official Version 4.7 update notice: name, Path, attribute and rarity only. Voice credits were separately checked against the official PV linked below; other fields and field-by-field synchronization with the Chinese baseline have not been independently verified.
+> Reader note: Verified against the official Version 4.7 update notice: name, Path, attribute and rarity only. Voice credits were separately checked against the official PV linked below; other fields and field-by-field synchronization with the Chinese baseline have not been independently verified.
 
 > 数据来源：[https://hsr.nanoka.cc/character/1511](https://hsr.nanoka.cc/character/1511) (English name / attribute / skills / traces / Eidolons from nanoka 4.7.51 `en/character/1511.json`); [Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) (official English name, Path and rarity)
 > 数据版本：4.7
