@@ -38,8 +38,19 @@ class EnemyIndexTests(unittest.TestCase):
             (page.parent / unquote(urlsplit(href).path)).resolve()
             for href, text in parser.links if text.strip() == label
         ]
-        self.assertIn(destination.resolve(), actual, (page, label, actual))
+        self.assertEqual(actual.count(destination.resolve()), 1, (page, label, actual))
         self.assertTrue(destination.is_file(), destination)
+
+    def test_main_index_counts_match_detail_files(self):
+        text = (SOURCE / "敌人.md").read_text(encoding="utf-8")
+        total = 0
+        for category in ("普通敌人", "精英敌人", "首领", "周本BOSS"):
+            details = sum(1 for p in (SOURCE / category).glob("*.md") if p.stem != category)
+            rows = re.findall(rf"^\|\s*{re.escape(category)}\s*\|\s*(\d+)\s*\|", text, re.M)
+            self.assertEqual(rows, [str(details)], category)
+            total += details
+        totals = re.findall(r"^\|\s*\*\*合计\*\*\s*\|\s*\*\*(\d+)\*\*", text, re.M)
+        self.assertEqual(totals, [str(total)])
 
     def test_indexes_link_to_each_detail_by_name_and_numeric_id(self):
         main = PAGES / "敌人.html"

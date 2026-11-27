@@ -1,7 +1,7 @@
 # 知识库规模真值表（`docs/metrics.md`）
 
 > **本文件由 `scripts/gen_metrics.py` 自动生成，请勿手工编辑。**
-> 生成时间：`2026-11-27 20:21:50`
+> 生成时间：`2026-11-27 20:24:11`
 > 重新生成：`python scripts/gen_metrics.py`（幂等：除上一行时间外，两次运行输出逐字节相同）
 > 校验：`python tools/verify_site.py` 的 `[16]` 项解析本文末尾的**机器可读真值**，
 > 与 `README.md` · `docs/README_{en,ja,ko,zh-Hant}.md` · `docs/仓库结构.md` 出现的规模数字逐项比对。
@@ -93,10 +93,10 @@
 
 | 指标 | 值 | 来源 |
 |---|---|---|
-| 站点页内链接总数 | 95,046 | `wiki/data/link_report.json` 的 `total`（`build_wiki.py` 产物） |
+| 站点页内链接总数 | 95,038 | `wiki/data/link_report.json` 的 `total`（`build_wiki.py` 产物） |
 | 站点死链数 | **0** | 同上 `dead`（要求 0） |
 | 站点未收录（优雅降级为纯文本） | 32 | 同上 `missing`（合规未入库内容，属预期，不算死链） |
-| 全库双链 `[[…]]` 总数 | 23,001 | `scripts/verify_links.py`（扫描 29,513 个 `.md`） |
+| 全库双链 `[[…]]` 总数 | 22,993 | `scripts/verify_links.py`（扫描 29,513 个 `.md`） |
 | 全库双链死链数 | 53 | 同上（含文档里的示例行，故非 0） |
 | **数据区**（五语目录）双链死链数 | **0** | 同上；**判据（要求 0）**：非 0 时 `verify_links.py` 退出码为 1 |
 
@@ -116,7 +116,7 @@
 | **带版本页合计** | **6,369** |
 | 带日期页合计 | 6,536 |
 
-> `stats.js` 生成时刻：`2026-11-27 20:21`。版本分布 ≠ 最新版本：库内绝大多数页面的 `> 数据版本：` 仍是收录时的版本。
+> `stats.js` 生成时刻：`2026-11-27 20:23`。版本分布 ≠ 最新版本：库内绝大多数页面的 `> 数据版本：` 仍是收录时的版本。
 
 ---
 
@@ -125,7 +125,7 @@
 | 校验器 | 命令 | 结果 |
 |---|---|---|
 | `verify_fields` | `cd zh_cn && python ../scripts/verify_fields.py`（**必须在 `zh_cn` 下运行**） | 扫描 6,536 个 `.md`；详情 6,002；异常 **0**；已知待补充 **156** |
-| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 23,001；死链 53（其中数据区 **0**） |
+| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 22,993；死链 53（其中数据区 **0**） |
 | `verify_site` | `python tools/verify_site.py`（仓库根） | `[1]`–`[16]` 全 PASS；`[16]` 即比对本文真值 |
 
 ---
@@ -163,10 +163,10 @@
 | `doctype_worldview` | 15 |
 | `doctype_货币战争` | 7 |
 | `doctype_rules` | 5 |
-| `link_total` | 95,046 |
+| `link_total` | 95,038 |
 | `link_dead` | 0 |
 | `link_missing` | 32 |
-| `wikilink_total` | 23,001 |
+| `wikilink_total` | 22,993 |
 | `wikilink_dead` | 53 |
 | `wikilink_dead_data` | 0 |
 | `wikilink_files` | 29,513 |
