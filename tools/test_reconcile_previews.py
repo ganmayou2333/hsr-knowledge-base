@@ -160,6 +160,16 @@ class ReconcileTests(unittest.TestCase):
         with self.assertRaises(InvalidPreviewArtifact):
             latest_run([run], 7, PR, 'pull_request', BUILD['path'])
 
+    def test_duplicate_run_across_pages_cannot_hide_a_failure_or_rerun(self):
+        for second in (dict(BUILD, conclusion='failure'), dict(BUILD, run_attempt=2), copy.deepcopy(BUILD)):
+            with self.subTest(second=second), self.assertRaises(InvalidPreviewArtifact):
+                latest_run([BUILD, second], 7, PR, 'pull_request', BUILD['path'])
+        self.builds = [BUILD, dict(BUILD, conclusion='failure')]
+        with self.assertRaises(InvalidPreviewArtifact):
+            self.run_reconcile()
+        self.assertEqual(self.staged, [])
+        self.assertFalse((self.root / 'out').exists())
+
 
 if __name__ == '__main__':
     unittest.main()

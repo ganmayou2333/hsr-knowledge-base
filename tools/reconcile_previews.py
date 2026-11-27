@@ -40,10 +40,15 @@ def pages_items(pages, key=None):
 def latest_run(runs, number, pr, event, path):
     """Find the newest run for this exact PR revision, including failed runs."""
     candidates = []
+    seen = set()
     for run in runs:
         try:
             if run['event'] != event or run['path'] != path or run['head_sha'] != pr['head']['sha']:
                 continue
+            identifier = run['id']
+            if type(identifier) is not int or identifier < 1 or identifier in seen:
+                raise ValueError
+            seen.add(identifier)
             associations = run['pull_requests']
             if not isinstance(associations, list):
                 raise ValueError
@@ -55,8 +60,7 @@ def latest_run(runs, number, pr, event, path):
             if len(matches) != 1:
                 raise ValueError
             started = run['run_started_at']
-            if (not isinstance(started, str) or len(started) != 20 or not started.endswith('Z')
-                    or type(run['id']) is not int or run['id'] < 1):
+            if not isinstance(started, str) or len(started) != 20 or not started.endswith('Z'):
                 raise ValueError
             if datetime.strptime(started, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc).isoformat()[:19] != started[:19]:
                 raise ValueError
