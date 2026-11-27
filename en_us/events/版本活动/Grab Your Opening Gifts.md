@@ -19,7 +19,7 @@
 | Requirement | Trailblaze Level ≥ 4 |
 | Related Characters | [[zh_cn/character/虚无/黄泉_雷_五星\|Acheron]] / [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星\|Dan Heng • Imbibitor Lunae]] / [[zh_cn/character/智识/景元_雷_五星\|Jing Yuan]] (choose one of the three); [[zh_cn/character/欢愉/星神★阿哈_量子_五星\|Aeon ★ Aha]] |
 
-> Event period: the official English notice states "During Version 4.7"; the Chinese event page of the same event gives `2026/11/11 (after the 4.7 update) – 2026/12/23 05:59`, so both original wordings stand — the in-game event page is authoritative.
+> The [Chinese 4.7 update notice](https://hsr.hoyoverse.com/zh-cn/news/167246) gives the version duration as after the update until `2026/12/23 06:00 (UTC+8)`; its event section says only “during Version 4.7.” The [Chinese event announcement](https://www.miyoushe.com/sr/article/79216272) separately lists a claim deadline of `2026/12/23 05:59` without a time zone on that line. These describe different periods; check the in-game notice for details.
 
 ## Gameplay
 
