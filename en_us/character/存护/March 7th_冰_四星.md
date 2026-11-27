@@ -44,6 +44,8 @@
 | Taunt | 150 |
 | Max Energy | 120 |
 
+> Lv.80 values differ: community Wiki / this page. The in-game display has not been independently verified. ATK 511 / 512. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/48/detail)
+
 ---
 ## Ascension Materials (Lv.1 → Lv.80)
 

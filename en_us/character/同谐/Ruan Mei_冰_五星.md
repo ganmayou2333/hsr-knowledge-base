@@ -44,6 +44,8 @@
 | Taunt | 100 |
 | Max Energy | 130 |
 
+> Lv.80 values differ: community Wiki / this page. The in-game display has not been independently verified. HP 1,086 / 1,087; ATK 659 / 660. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/1874/detail)
+
 ---
 
 ## Ascension Materials (Lv.1 → Lv.80)
