@@ -18,12 +18,14 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
         with zipfile.ZipFile(self.receipt_zip, 'w') as archive:
             archive.writestr('trusted-check-receipt.json', json.dumps(RECEIPT))
         self.pr, self.workflow, self.run, self.receipt = map(copy.deepcopy, (PR, WORKFLOW_INFO, RUN, ARTIFACT))
+        self.run['run_started_at'] = '2026-11-21T00:00:00Z'
+        self.runs = [copy.deepcopy(self.run)]
         self.preview = {'id': 34, 'name': 'trusted-wiki-preview-7-11-1', 'expired': False,
                         'size_in_bytes': 500, 'workflow_run': copy.deepcopy(ARTIFACT['workflow_run'])}
         self.items = [self.receipt, self.preview]
 
     def select(self):
-        return select_trusted_preview(7, self.pr, self.workflow, self.run, self.receipt, self.receipt_zip, self.items)
+        return select_trusted_preview(7, self.pr, self.workflow, self.run, self.receipt, self.receipt_zip, self.items, self.runs)
 
     def test_matches_receipt_and_preview_to_same_run_without_pr_association(self):
         self.assertEqual(self.select(), (34, 'a' * 40, 'b' * 40, 11, 1))
@@ -65,6 +67,21 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
         self.pr['state'] = 'open'
         self.run['run_attempt'] = 2
         with self.assertRaises(InvalidPreviewArtifact): self.select()
+
+    def test_newer_same_head_run_blocks_even_without_pr_association(self):
+        for status, conclusion in [('completed', 'failure'), ('in_progress', None), ('completed', 'success')]:
+            newer = dict(self.run, id=12, run_started_at='2026-11-21T00:01:00Z',
+                         status=status, conclusion=conclusion, pull_requests=[])
+            self.runs = [copy.deepcopy(self.run), newer]
+            with self.subTest(status=status, conclusion=conclusion), self.assertRaises(InvalidPreviewArtifact):
+                self.select()
+
+    def test_rerun_duplicate_and_incomplete_run_lists_fail_closed(self):
+        for runs in ([], [self.run, copy.deepcopy(self.run)],
+                     [dict(self.run, run_attempt=2)], [dict(self.run, status='in_progress', conclusion=None)],
+                     [dict(self.run, run_started_at=None)]):
+            self.runs = runs
+            with self.subTest(runs=runs), self.assertRaises(InvalidPreviewArtifact): self.select()
 
 
 if __name__ == '__main__': unittest.main()

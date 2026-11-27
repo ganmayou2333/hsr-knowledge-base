@@ -2,22 +2,45 @@
 
 This is a provenance building block, NOT publication authorization. The caller
 must verify that the run actually used the reviewed producer workflow at the
-expected base, select the latest applicable run (including failures/reruns),
-validate all checks and approval, and refresh state around every staging step.
+expected base, validate all checks and approval, and refresh state around every
+staging step. This conservative head-wide freshness gate can omit valid PRs.
 Fetch metadata and each ZIP by its unique artifact ID directly from GitHub.
 """
 from tools.preview_artifact import MAX_ARCHIVE_BYTES, InvalidPreviewArtifact
+from tools.reconcile_previews import MAX_RUNS
 from tools.trusted_receipt import validate_receipt
+from datetime import datetime
 
 
-def select_trusted_preview(number, pr, workflow, run, receipt_artifact, receipt_zip, artifacts):
+def select_trusted_preview(number, pr, workflow, run, receipt_artifact, receipt_zip, artifacts, runs):
     """Return preview ID, head and base after local receipt and metadata checks.
 
     `artifacts` must be a complete, freshly fetched list from this run, not a
-    caller-selected subset. This function never opens or trusts the preview ZIP.
+    caller-selected subset. `runs` must likewise contain every freshly fetched
+    run of this workflow for the head, including failures and in-progress runs.
+    All same-head runs block older ones even if they belong to a different PR:
+    an empty GitHub association cannot safely establish their PR identity.
+    This function never opens or trusts the preview ZIP.
     """
     run_id, attempt = validate_receipt(number, pr, workflow, run, receipt_artifact, receipt_zip)
     try:
+        if not isinstance(runs, list) or not runs or len(runs) >= MAX_RUNS:
+            raise ValueError
+        candidates, seen = [], set()
+        for item in runs:
+            if item['event'] != 'pull_request_target' or item['path'] != workflow['path'] or item['head_sha'] != pr['head']['sha']:
+                raise ValueError
+            identifier, started = item['id'], item['run_started_at']
+            if (type(identifier) is not int or identifier < 1 or identifier in seen
+                    or not isinstance(started, str) or len(started) != 20 or not started.endswith('Z')):
+                raise ValueError
+            datetime.strptime(started, '%Y-%m-%dT%H:%M:%SZ')
+            seen.add(identifier)
+            candidates.append((started, identifier, item))
+        latest = max(candidates, key=lambda item: (item[0], item[1]))[2]
+        if (latest['id'] != run_id or type(latest['run_attempt']) is not int or latest['run_attempt'] != attempt
+                or latest['status'] != 'completed' or latest['conclusion'] != 'success'):
+            raise ValueError
         if not isinstance(artifacts, list) or len(artifacts) > 1000:
             raise ValueError
         ids = []
