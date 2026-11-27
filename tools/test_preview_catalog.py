@@ -52,9 +52,22 @@ class PreviewCatalogTests(unittest.TestCase):
                     'pull_requests': [{'number': number - 20, 'head': {'sha': HEAD, 'repo': {'id': 1}},
                                        'base': {'sha': BASE, 'repo': {'id': 1}}}]}
         number -= 10
-        return {'id': number + 10, 'run_attempt': 1, 'event': 'pull_request', 'status': 'completed', 'conclusion': 'success',
+        return {'id': number + 10, 'repository': {'id': 1}, 'run_attempt': 1, 'event': 'pull_request', 'status': 'completed', 'conclusion': 'success',
                 'path': '.github/workflows/wiki-quality.yml', 'head_sha': HEAD,
-                'pull_requests': [{'number': number, 'head': {'sha': HEAD}, 'base': {'sha': BASE}}]}
+                'pull_requests': [{'number': number, 'head': {'sha': HEAD, 'repo': {'id': 1}},
+                                   'base': {'sha': BASE, 'repo': {'id': 1}}}]}
+
+    def test_build_repository_identity_is_revalidated(self):
+        for change in ('repository', 'head_repo', 'base_repo'):
+            def api(path):
+                result = self.api(path)
+                if path.endswith('/actions/runs/11'):
+                    if change == 'repository': result['repository']['id'] = 999
+                    elif change == 'head_repo': result['pull_requests'][0]['head']['repo']['id'] = 999
+                    else: result['pull_requests'][0]['base']['repo']['id'] = 999
+                return result
+            with self.subTest(change=change), patch('tools.preview_catalog.gh_api', side_effect=api):
+                self.assertEqual(assemble('owner/repo', self.bundles, self.shell, self.root / change), [2])
 
     def test_multiple_prs_remain_and_closed_or_stale_previews_disappear(self):
         (self.bundles / '1' / 'unused.html').write_text('<script>bad</script>', encoding='ascii')

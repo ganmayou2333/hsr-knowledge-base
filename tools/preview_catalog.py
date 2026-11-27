@@ -38,12 +38,21 @@ def metadata(repo, number, manifest):
         return False
     if pr['head']['sha'] != manifest['head'] or pr['base']['sha'] != manifest['base']:
         return False
+    try:
+        base_id, head_id = pr['base']['repo']['id'], pr['head']['repo']['id']
+        if type(base_id) is not int or type(head_id) is not int or min(base_id, head_id) < 1:
+            return False
+    except (KeyError, TypeError):
+        return False
     run = gh_api(f"repos/{repo}/actions/runs/{manifest['run']}")
     matches = [item for item in run['pull_requests'] if item['number'] == number
-               and item['head']['sha'] == manifest['head'] and item['base']['sha'] == manifest['base']]
+               and item['head']['sha'] == manifest['head'] and item['base']['sha'] == manifest['base']
+               and type(item['head']['repo']['id']) is int and item['head']['repo']['id'] == head_id
+               and type(item['base']['repo']['id']) is int and item['base']['repo']['id'] == base_id]
     valid_build = (run['id'] == manifest['run'] and run['run_attempt'] == manifest['run_attempt'] and run['event'] == 'pull_request'
             and run['status'] == 'completed' and run['conclusion'] == 'success'
             and run['path'] == '.github/workflows/wiki-quality.yml'
+            and type(run['repository']['id']) is int and run['repository']['id'] == base_id
             and run['head_sha'] == manifest['head'] and len(matches) == 1)
     if not valid_build:
         return False
