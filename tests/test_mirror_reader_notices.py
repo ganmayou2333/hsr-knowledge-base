@@ -17,6 +17,25 @@ NOTICES = {
 
 
 class MirrorReaderNoticeTests(unittest.TestCase):
+    def test_missing_local_provenance_paths_are_explicitly_qualified(self):
+        # Historical paths are evidence, not a guarantee that the current
+        # baseline was the original input. Do not silently rewrite them.
+        pattern = re.compile(r'^> 本地化来源：非官方（.*?来源：(zh_cn/[^；）]+)', re.M)
+        notice = {'en_us': 'Historical source path:', 'zh_tw': '來源路徑提示',
+                  'ja_jp': '過去の参照パス:', 'ko_kr': '과거 출처 경로:'}
+        for language in NOTICES:
+            for category in (*CATEGORIES, 'events'):
+                for path in (ROOT / language / category).rglob('*.md'):
+                    text = path.read_text(encoding='utf-8')
+                    match = pattern.search(text)
+                    if not match or (ROOT / match.group(1)).is_file():
+                        continue
+                    with self.subTest(path=str(path.relative_to(ROOT))):
+                        self.assertIn(notice[language], text)
+                        if language == 'zh_tw':
+                            self.assertIn('當時實際輸入尚待核實', text)
+                            self.assertIn('不能據此認定歷史輸入或逐欄同步', text)
+
     def test_zh_tw_47_historical_source_paths_are_qualified(self):
         pairs = {
             '劇場版絨絨號：歡鬧廚房': '剧场版绒绒号：欢闹厨房',
