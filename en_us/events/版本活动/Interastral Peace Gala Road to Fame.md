@@ -5,7 +5,7 @@
 > 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("6. New Events"); [Miyoushe "星际和平盛典：成名之路" event overview (79469418)](https://www.miyoushe.com/sr/article/79469418), [rewards overview (79469420)](https://www.miyoushe.com/sr/article/79469420) (gameplay and reward details)
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79469418；时间：2026-11-15）
 > 数据版本：4.7
-> 实体ID：无（官方未公开）
+> 实体ID：未核实
 > 创建时间：2026-11-14 18:06
 > 更新时间：2026-11-14 18:06
 

@@ -17,6 +17,14 @@ NOTICES = {
 
 
 class MirrorReaderNoticeTests(unittest.TestCase):
+    def test_event_id_does_not_claim_official_nonpublication(self):
+        # A missing ID in our sources does not establish that no official ID exists.
+        for language in ('zh_cn', *NOTICES):
+            for path in (ROOT / language / 'events').rglob('*.md'):
+                text = path.read_text(encoding='utf-8')
+                with self.subTest(path=str(path.relative_to(ROOT))):
+                    self.assertNotRegex(text, r'实体ID[：:]\s*(?:无（官方未公开）|無（官方未公開）)')
+
     def test_event_pages_have_localized_header_notice(self):
         notices = {'en_us': '> Reading note:', 'zh_tw': '> 閱讀提示：',
                    'ja_jp': '> 閲覧上の注意：', 'ko_kr': '> 열람 안내:'}

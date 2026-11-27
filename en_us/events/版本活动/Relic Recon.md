@@ -5,7 +5,7 @@
 > 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("6. New Events"); [Miyoushe "奇库寻遗" event notice (79450189)](https://www.miyoushe.com/sr/article/79450189) (gameplay and reward details)
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79450189；时间：2026-11-15）
 > 数据版本：4.7
-> 实体ID：无（官方未公开）
+> 实体ID：未核实
 > 创建时间：2026-11-14 18:08
 > 更新时间：2026-11-14 18:08
 
