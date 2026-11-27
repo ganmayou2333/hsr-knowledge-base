@@ -127,7 +127,7 @@
 
   async function latestRun(workflow, event) {
     const path = `.github/workflows/${workflow}`;
-    let latest = null, pending = null, total = 0;
+    let latest = null, pending = null, latestStarted = null, tiedStarted = false, total = 0;
     const ids = new Set(), dates = new Set();
     for (let page = 1; page <= 11; page++) {
       const result = await json(`https://api.github.com/repos/${REPO}/actions/workflows/${workflow}/runs?event=${event}&head_sha=${manifest.head}&per_page=100&page=${page}`);
@@ -149,8 +149,15 @@
         ids.add(run.id); dates.add(run.created_at);
         if (run.status !== 'completed') pending = run;
         if (!latest || run.created_at > latest.created_at) latest = run;
+        if (latestStarted === null || run.run_started_at > latestStarted) {
+          latestStarted = run.run_started_at; tiedStarted = false;
+        } else if (run.run_started_at === latestStarted) tiedStarted = true;
       }
-      if (runs.length < 100) return pending || latest;
+      if (runs.length < 100) {
+        if (pending) return pending;
+        if (latest && (latest.run_started_at !== latestStarted || tiedStarted)) throw new Error('Ambiguous latest attempt');
+        return latest;
+      }
     }
     throw new Error('Too many workflow runs');
   }

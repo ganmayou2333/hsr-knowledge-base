@@ -78,11 +78,17 @@ def latest_run(runs, number, pr, event, path):
     pending = [item for item in candidates if item[2].get('status') != 'completed']
     if pending:
         return max(pending, key=lambda item: (item[0], item[1]))[2]
-    # Creation order prevents rerunning an older successful run from displacing
-    # a more recently created failure. Same-second timestamps are ambiguous.
+    # Neither a newer creation nor a later-started rerun may be ignored.
+    # When they disagree, provenance is ambiguous: refuse the whole selection.
     if len({item[0] for item in candidates}) != len(candidates):
         raise InvalidPreviewArtifact('Ambiguous workflow creation order')
-    return max(candidates, default=(None, None, None), key=lambda item: (item[0] or '', item[1] or 0))[2]
+    if not candidates:
+        return None
+    latest = max(candidates, key=lambda item: item[0])
+    started = max(item[2]['run_started_at'] for item in candidates)
+    if latest[2]['run_started_at'] != started or sum(item[2]['run_started_at'] == started for item in candidates) != 1:
+        raise InvalidPreviewArtifact('Ambiguous latest workflow attempt')
+    return latest[2]
 
 
 def reconcile(repo, shell, destination):

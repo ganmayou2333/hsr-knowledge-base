@@ -90,6 +90,11 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
                      run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
         self.runs = [old, newer]
         with self.assertRaises(InvalidPreviewArtifact): self.select()
+        old['conclusion'], newer['conclusion'] = 'failure', 'success'
+        self.run = newer
+        self.run['id'] = 11
+        newer['id'], old['id'] = 11, 12
+        with self.assertRaises(InvalidPreviewArtifact): self.select()
 
 
 if __name__ == '__main__': unittest.main()

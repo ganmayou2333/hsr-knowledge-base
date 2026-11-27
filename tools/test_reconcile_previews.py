@@ -164,7 +164,11 @@ class ReconcileTests(unittest.TestCase):
         old = dict(BUILD, run_started_at='2026-11-21T00:02:00Z')
         newer = dict(BUILD, id=12, created_at='2026-11-21T00:01:00Z',
                      run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
-        self.assertEqual(latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])['id'], 12)
+        with self.assertRaises(InvalidPreviewArtifact):
+            latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])
+        old['conclusion'], newer['conclusion'] = 'failure', 'success'
+        with self.assertRaises(InvalidPreviewArtifact):
+            latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])
         old['status'] = 'in_progress'
         old['conclusion'] = None
         self.assertEqual(latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])['status'], 'in_progress')
