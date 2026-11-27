@@ -15,7 +15,7 @@
 |---|---|
 | Event Name | Grab Your Opening Gifts |
 | Type | Version Event (login / check-in rewards) |
-| Event Period | During Version 4.7 (from the Version 4.7 update to 2026/12/23 06:00, UTC+8) |
+| Event Period | During Version 4.7 (check the in-game event and event notice for the exact end time) |
 | Requirement | Trailblaze Level ≥ 4 |
 | Related Characters | [[zh_cn/character/虚无/黄泉_雷_五星\|Acheron]] / [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星\|Dan Heng • Imbibitor Lunae]] / [[zh_cn/character/智识/景元_雷_五星\|Jing Yuan]] (choose one of the three); [[zh_cn/character/欢愉/星神★阿哈_量子_五星\|Aeon ★ Aha]] |
 
