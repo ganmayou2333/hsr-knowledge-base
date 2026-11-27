@@ -9,7 +9,7 @@ from unittest.mock import patch
 
 from tools.preview_artifact import InvalidPreviewArtifact
 from tools.preview_bundle import build_bundle
-from tools.reconcile_previews import latest_run, reconcile
+from tools.reconcile_previews import latest_run, pages_items, reconcile
 
 HEAD, BASE = 'a' * 40, 'b' * 40
 PR = {'number': 7, 'state': 'open', 'head': {'sha': HEAD, 'repo': {'id': 1}},
@@ -159,6 +159,14 @@ class ReconcileTests(unittest.TestCase):
         run = dict(BUILD, run_started_at='2026-99-99T00:00:00Z')
         with self.assertRaises(InvalidPreviewArtifact):
             latest_run([run], 7, PR, 'pull_request', BUILD['path'])
+
+    def test_pagination_limit_cannot_be_treated_as_complete(self):
+        self.assertEqual(len(pages_items([{'workflow_runs': [None] * 999}], 'workflow_runs')), 999)
+        self.assertEqual(len(pages_items([[None] * 999])), 999)
+        with self.assertRaises(InvalidPreviewArtifact):
+            pages_items([{'workflow_runs': [None] * 1000}], 'workflow_runs')
+        with self.assertRaises(InvalidPreviewArtifact):
+            pages_items([[None] * 1000])
 
     def test_duplicate_run_across_pages_cannot_hide_a_failure_or_rerun(self):
         for second in (dict(BUILD, conclusion='failure'), dict(BUILD, run_attempt=2), copy.deepcopy(BUILD)):

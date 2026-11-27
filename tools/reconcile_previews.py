@@ -32,8 +32,11 @@ def pages_items(pages, key=None):
         if not isinstance(items, list):
             raise InvalidPreviewArtifact('Invalid paginated response')
         result.extend(items)
-        if len(result) > (MAX_RUNS if key else MAX_PRS):
-            raise InvalidPreviewArtifact('Too many GitHub results')
+        # The filtered workflow-runs API can cap results at 1,000.  Reaching
+        # the cap cannot prove the list is complete, so fail closed. Apply the
+        # same conservative bound to open PR inventory.
+        if len(result) >= (MAX_RUNS if key else MAX_PRS):
+            raise InvalidPreviewArtifact('GitHub result limit reached; inventory may be incomplete')
     return result
 
 
