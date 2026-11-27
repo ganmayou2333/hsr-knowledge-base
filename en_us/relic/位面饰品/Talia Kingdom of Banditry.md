@@ -24,4 +24,11 @@
 
 ## Acquisition and Pieces
 
-Pending: official localized acquisition, piece details, and descriptions.
+### Piece names (third-party data; not independently verified)
+
+The following names and item IDs are from the pinned [StarRailRes English item data](https://github.com/Mar-7th/StarRailRes/blob/03907e798b46f9eb109a1f882055cdf49ce3d374/index_new/en/relics.json). They correspond by item ID to its Chinese data and to the piece names in the current Chinese baseline. These are not independently verified official names; item IDs below are the 5-star entries.
+
+- Planar Sphere: Talia's Nailscrap Town (ID 63075)
+- Link Rope: Talia's Exposed Electric Wire (ID 63076)
+
+Pending: official localized piece names and descriptions; current acquisition and full synchronization remain unverified.

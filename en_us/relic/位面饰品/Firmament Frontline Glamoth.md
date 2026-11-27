@@ -27,4 +27,11 @@
 
 The official Version 1.5 update details list this Planar Ornament among the Immersion Rewards in Simulated Universe: World 8. This is a historical acquisition reference; current availability and any additional sources have not been independently verified.
 
-Pending: official localized piece details and descriptions.
+### Piece names (third-party data; not independently verified)
+
+The following names and item IDs are from the pinned [StarRailRes English item data](https://github.com/Mar-7th/StarRailRes/blob/03907e798b46f9eb109a1f882055cdf49ce3d374/index_new/en/relics.json). They correspond by item ID to its Chinese data and to the piece names in the current Chinese baseline. These are not independently verified official names; item IDs below are the 5-star entries.
+
+- Planar Sphere: Glamoth's Iron Cavalry Regiment (ID 63115)
+- Link Rope: Glamoth's Silent Tombstone (ID 63116)
+
+Pending: official localized piece names and descriptions; current acquisition and full synchronization remain unverified.
