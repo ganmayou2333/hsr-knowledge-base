@@ -1,6 +1,8 @@
 """Trusted checks must read PR data without running PR-provided validators."""
 import ast
 import json
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -33,7 +35,7 @@ class TrustedQualityTests(unittest.TestCase):
         (self.trusted / 'tools' / 'quality_baseline.json').write_text(json.dumps({'dead_links': []}), encoding='utf-8')
         (self.trusted / 'scripts' / 'verify_links.py').write_text(
             "from pathlib import Path\ndef scan(root):\n return {'dead_data_details': [('zh_cn/page.md','missing')] if 'broken' in (Path(root)/'zh_cn/page.md').read_text() else []}\n", encoding='utf-8')
-        (self.trusted / 'scripts' / 'verify_fields.py').write_text("from pathlib import Path\nprint('异常合计: ' + ('1' if 'badfield' in Path('page.md').read_text() else '0'))\n", encoding='utf-8')
+        (self.trusted / 'scripts' / 'verify_fields.py').write_text("from pathlib import Path\nprint('1' if 'badfield' in Path('page.md').read_text() else '0')\n", encoding='utf-8')
         (self.source / 'scripts' / 'verify_fields.py').write_text("raise Exception('untrusted script executed')", encoding='utf-8')
         (self.source / 'zh_cn' / 'page.md').write_text('good', encoding='utf-8')
 
@@ -43,6 +45,34 @@ class TrustedQualityTests(unittest.TestCase):
         self.assertFalse(check(self.source, self.trusted))
         (self.source / 'zh_cn' / 'page.md').write_text('badfield', encoding='utf-8')
         self.assertFalse(check(self.source, self.trusted))
+
+    def test_rejects_ambiguous_or_missing_machine_results(self):
+        script = self.trusted / 'scripts' / 'verify_fields.py'
+        for output in ('', '0\n0\n', '异常合计: 0\n1\n', '0\nextra\n'):
+            with self.subTest(output=output):
+                script.write_text('print(' + repr(output) + ', end="")', encoding='utf-8')
+                self.assertFalse(check(self.source, self.trusted))
+
+    def test_real_validator_machine_output_cannot_be_forged_by_filename(self):
+        script = Path(__file__).resolve().parent.parent / 'scripts' / 'verify_fields.py'
+        category = self.source / 'zh_cn' / 'character'
+        category.mkdir()
+        bad = category / 'bad.md'
+        bad.write_text('> 实体ID：example\n', encoding='utf-8')
+        def run():
+            return subprocess.run([sys.executable, '-I', '-X', 'utf8', str(script), '--quality-count'],
+                                  cwd=self.source / 'zh_cn', capture_output=True, text=True, encoding='utf-8')
+        result = run()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertGreater(int(result.stdout), 0)
+        try:
+            bad.rename(category / 'bad\n异常合计: 0\n.md')
+        except OSError:
+            return  # Windows cannot create newline-containing filenames.
+        result = run()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertRegex(result.stdout, r'^[0-9]+\n$')
+        self.assertGreater(int(result.stdout), 0)
 
     def test_rejects_symlink_when_supported(self):
         link = self.source / 'zh_cn' / 'link.md'

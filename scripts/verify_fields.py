@@ -199,6 +199,12 @@ for f in files:
     eid = meta['实体ID']
     ids[(cat, eid)].append(f)
 
+# Machine mode emits only a count derived from the in-memory result, never data
+# such as filenames or entity IDs that could forge a human-readable report.
+if sys.argv[1:] == ['--quality-count']:
+    print(sum(map(len, issues.values())))
+    sys.exit(0)
+
 # 输出
 print('扫描 md 文件数:', len(files))
 print('详情文件数:', total_detail)
