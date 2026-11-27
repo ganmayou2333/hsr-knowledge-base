@@ -16,7 +16,7 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.receipt_zip = Path(self.temp.name) / 'receipt.zip'
         with zipfile.ZipFile(self.receipt_zip, 'w') as archive:
-            archive.writestr('trusted-check-receipt.json', json.dumps(RECEIPT))
+            archive.writestr('trusted-check-receipt.json', json.dumps(dict(RECEIPT, version=2, workflow_sha='b' * 40)))
         self.pr, self.workflow, self.run, self.receipt = map(copy.deepcopy, (PR, WORKFLOW_INFO, RUN, ARTIFACT))
         self.run['run_started_at'] = '2026-11-21T00:00:00Z'
         self.run['created_at'] = '2026-11-21T00:00:00Z'
@@ -30,6 +30,11 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
 
     def test_matches_receipt_and_preview_to_same_run_without_pr_association(self):
         self.assertEqual(self.select(), (34, 'a' * 40, 'b' * 40, 11, 1))
+
+    def test_legacy_receipt_cannot_bind_trusted_preview(self):
+        with zipfile.ZipFile(self.receipt_zip, 'w') as archive:
+            archive.writestr('trusted-check-receipt.json', json.dumps(RECEIPT))
+        with self.assertRaises(InvalidPreviewArtifact): self.select()
 
     def test_rejects_invalid_preview_metadata(self):
         for key, value in [('id', True), ('id', 33), ('expired', True), ('size_in_bytes', True),

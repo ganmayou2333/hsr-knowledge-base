@@ -32,7 +32,7 @@ def _unique_object(pairs):
     return result
 
 
-def validate_receipt(number, pr, workflow, run, artifact, wrapper):
+def validate_receipt(number, pr, workflow, run, artifact, wrapper, *, require_workflow_sha=False):
     """Validate the current PR, trusted run, artifact metadata and downloaded ZIP.
 
     GitHub's artifact association is the provenance boundary. The caller must
@@ -88,6 +88,11 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
         receipt = json.loads(raw.decode('utf-8'), object_pairs_hook=_unique_object)
         expected = {'version': 1, 'pr': number, 'head': head, 'base': base,
                     'head_repo': head_id, 'base_repo': base_id, 'run': run_id, 'attempt': attempt}
+        if isinstance(receipt, dict) and type(receipt.get('version')) is int and receipt['version'] == 2:
+            expected['version'] = 2
+            expected['workflow_sha'] = base
+        elif require_workflow_sha:
+            raise ValueError('workflow SHA required')
         if not isinstance(receipt, dict) or receipt != expected:
             raise ValueError('receipt does not match')
         if any(type(receipt[key]) is not int for key in ('version', 'pr', 'head_repo', 'base_repo', 'run', 'attempt')):

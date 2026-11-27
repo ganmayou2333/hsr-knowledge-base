@@ -32,13 +32,14 @@ class TrustedWorkflowGuardTests(unittest.TestCase):
                             'user.email=test@example.invalid', 'commit', '--allow-empty', '-qm', 'fixture'], check=True)
             sha = subprocess.check_output(['git', '-C', str(root / 'trusted'), 'rev-parse', 'HEAD'], text=True).strip()
             env = dict(os.environ, GITHUB_EVENT_NAME='pull_request_target', GITHUB_REF='refs/heads/main',
-                       GITHUB_SHA=sha, EXPECTED_BASE=sha)
+                       GITHUB_SHA=sha, GITHUB_WORKFLOW_SHA=sha, EXPECTED_BASE=sha)
             def execute(changes):
                 return subprocess.run([bash, '-e', '-c', script], cwd=root, env=env | changes,
                                       stdout=subprocess.PIPE, stderr=subprocess.PIPE).returncode
             self.assertEqual(execute({}), 0)
             for change in ({'GITHUB_EVENT_NAME': 'pull_request'}, {'GITHUB_REF': 'refs/heads/other'},
                            {'GITHUB_SHA': '0' * 40}, {'EXPECTED_BASE': '0' * 40},
+                           {'GITHUB_WORKFLOW_SHA': '0' * 40},
                            {'GITHUB_SHA': '0' * 40, 'EXPECTED_BASE': '0' * 40}):
                 with self.subTest(change=change):
                     self.assertNotEqual(execute(change), 0)

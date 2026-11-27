@@ -42,6 +42,18 @@ class TrustedReceiptTests(unittest.TestCase):
     def test_valid_fork_receipt_does_not_need_run_pr_associations(self):
         self.assertEqual(self.validate(), (11, 1))
 
+    def test_v2_binds_workflow_revision_to_base_while_v1_remains_legacy_only(self):
+        with self.assertRaises(InvalidPreviewArtifact):
+            validate_receipt(7, self.pr, self.workflow, self.run, self.artifact, self.wrapper,
+                             require_workflow_sha=True)
+        self.write(json.dumps(dict(RECEIPT, version=2, workflow_sha=BASE)))
+        self.assertEqual(validate_receipt(7, self.pr, self.workflow, self.run, self.artifact, self.wrapper,
+                                          require_workflow_sha=True), (11, 1))
+        for value in ('c' * 40, '', True, None):
+            self.write(json.dumps(dict(RECEIPT, version=2, workflow_sha=value)))
+            with self.subTest(workflow_sha=value), self.assertRaises(InvalidPreviewArtifact):
+                self.validate()
+
     def test_same_repository_receipt_is_accepted_only_while_open(self):
         self.pr['head']['repo']['id'] = 1
         self.run['head_repository']['id'] = 1

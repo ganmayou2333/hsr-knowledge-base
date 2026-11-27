@@ -22,7 +22,8 @@ def select_trusted_preview(number, pr, workflow, run, receipt_artifact, receipt_
     an empty GitHub association cannot safely establish their PR identity.
     This function never opens or trusts the preview ZIP.
     """
-    run_id, attempt = validate_receipt(number, pr, workflow, run, receipt_artifact, receipt_zip)
+    run_id, attempt = validate_receipt(number, pr, workflow, run, receipt_artifact, receipt_zip,
+                                       require_workflow_sha=True)
     try:
         if not isinstance(runs, list) or not runs or len(runs) >= MAX_RUNS:
             raise ValueError

@@ -32,6 +32,7 @@ jobs:
           test "$GITHUB_EVENT_NAME" = pull_request_target
           test "$GITHUB_REF" = refs/heads/main
           test "$GITHUB_SHA" = "$EXPECTED_BASE"
+          test "$GITHUB_WORKFLOW_SHA" = "$EXPECTED_BASE"
           test "$(git -C trusted rev-parse HEAD)" = "$EXPECTED_BASE"
       - name: Check out PR as data
         uses: actions/checkout@v7
@@ -87,7 +88,8 @@ jobs:
             --argjson pr "$PR_NUMBER" --arg head "$HEAD_SHA" --arg base "$BASE_SHA" \
             --argjson head_repo "$HEAD_REPO_ID" --argjson base_repo "$BASE_REPO_ID" \
             --argjson run "$GITHUB_RUN_ID" --argjson attempt "$GITHUB_RUN_ATTEMPT" \
-            '{version: 1, pr: $pr, head: $head, base: $base, head_repo: $head_repo, base_repo: $base_repo, run: $run, attempt: $attempt}' \
+            --arg workflow_sha "$GITHUB_WORKFLOW_SHA" \
+            '{version: 2, pr: $pr, head: $head, base: $base, head_repo: $head_repo, base_repo: $base_repo, run: $run, attempt: $attempt, workflow_sha: $workflow_sha}' \
             > "$RUNNER_TEMP/trusted-check-receipt.json"
       - name: Upload trusted check context
         uses: actions/upload-artifact@v7
