@@ -39,6 +39,7 @@ jobs:
           python tools/verify_docs.py
           python -m unittest tools.test_wiki_search tools.test_quality_gate tools.test_preview_review tools.test_preview_review_server tools.test_preview_artifact tools.test_package_preview tools.test_preview_bundle tools.test_stage_preview tools.test_trusted_quality tools.test_trusted_receipt tools.test_preview_catalog tools.test_reconcile_previews tools.test_preview_release tools.test_verify_preview_publication -v
           python -m unittest discover -s tests -p test_audit_mirror_entities.py -v
+          python -m unittest tools.test_enemy_index -v
           python -m unittest tools.test_preview_roundtrip_workflow -v
       - name: Check JavaScript syntax
         run: |
