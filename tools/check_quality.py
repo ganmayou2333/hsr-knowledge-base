@@ -24,16 +24,19 @@ def main():
         print(f"  基线已解决 {count} 处，可移除: {source} -> {target}")
 
     result = subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "verify_fields.py")],
+        [sys.executable, str(ROOT / "scripts" / "verify_fields.py"), "--quality-count"],
         cwd=ROOT / "zh_cn", capture_output=True, text=True, encoding="utf-8", errors="replace",
     )
-    print(result.stdout)
     if result.stderr:
         print(result.stderr, file=sys.stderr)
-    match = re.search(r"^异常合计:\s*(\d+)\s*$", result.stdout, re.M)
+    match = re.fullmatch(r"([0-9]+)\n", result.stdout)
     if result.returncode or not match or int(match.group(1)):
         print("字段检查失败或无法识别结果", file=sys.stderr)
+        # Human-readable diagnostics are untrusted text and never determine the gate.
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "verify_fields.py")],
+                       cwd=ROOT / "zh_cn", check=False)
         return 1
+    print("字段异常合计: 0")
     if new:
         print("新增数据区失效链接", file=sys.stderr)
         return 1
