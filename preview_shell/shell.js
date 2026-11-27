@@ -92,9 +92,14 @@
       }
       const evidence = reviews.map(item => [item.id, item.state, item.user?.login ?? null,
         item.user?.type ?? null, item.commit_id ?? null, item.submitted_at ?? null]).sort((a, b) => a[0] - b[0]);
-      const pr = await json(`https://api.github.com/repos/${REPO}/pulls/${number}`);
+      const [pr, branch] = await Promise.all([
+        json(`https://api.github.com/repos/${REPO}/pulls/${number}`),
+        json(`https://api.github.com/repos/${REPO}/branches/main`)
+      ]);
       if (check !== reviewCheck || (!verified && !allowPending)) return;
-      if (pr.state !== 'open' || pr.head?.sha !== manifest.head || pr.base?.sha !== manifest.base) {
+      if (pr.state !== 'open' || pr.head?.sha !== manifest.head || pr.base?.sha !== manifest.base ||
+          pr.base?.ref !== 'main' || pr.base?.repo?.full_name?.toLowerCase() !== REPO.toLowerCase() ||
+          branch.name !== 'main' || branch.commit?.sha !== manifest.base) {
         verification++;
         return fail('无法验证当前提交或检查结果，预览暂不可用。');
       }
@@ -222,8 +227,9 @@
         return true;
       }
       if (liveServiceSeen) throw new Error('Preview service unavailable');
-      const [pr, run, workflow, trustedRun, latestBuild, latestTrusted] = await Promise.all([
+      const [pr, branch, run, workflow, trustedRun, latestBuild, latestTrusted] = await Promise.all([
         json(`https://api.github.com/repos/${REPO}/pulls/${number}`),
+        json(`https://api.github.com/repos/${REPO}/branches/main`),
         json(`https://api.github.com/repos/${REPO}/actions/runs/${manifest.run}`),
         json(`https://api.github.com/repos/${REPO}/actions/workflows/wiki-trusted-data.yml`),
         json(`https://api.github.com/repos/${REPO}/actions/runs/${manifest.trusted_run}`),
@@ -237,6 +243,8 @@
         item.head?.repo?.id === pr.head?.repo?.id && item.base?.repo?.id === pr.base?.repo?.id).length === 1;
       if (attempt !== verification) return false;
       if (pr.state !== 'open' || pr.head?.sha !== manifest.head || pr.base?.sha !== manifest.base ||
+          pr.base?.ref !== 'main' || pr.base?.repo?.full_name?.toLowerCase() !== REPO.toLowerCase() ||
+          branch.name !== 'main' || branch.commit?.sha !== manifest.base ||
           run.id !== manifest.run || run.run_attempt !== manifest.run_attempt || run.event !== 'pull_request' || run.conclusion !== 'success' || run.head_sha !== manifest.head ||
           run.path !== '.github/workflows/wiki-quality.yml' || !associated ||
           latestBuild?.id !== manifest.run || latestBuild?.run_attempt !== manifest.run_attempt ||
