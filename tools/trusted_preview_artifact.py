@@ -29,7 +29,8 @@ def select_trusted_preview(number, pr, workflow, run, receipt_artifact, receipt_
         if len(set(ids)) != len(ids) or ids.count(receipt_artifact['id']) != 1:
             raise ValueError
         matching_receipts = [item for item in artifacts if item['id'] == receipt_artifact['id']]
-        if matching_receipts != [receipt_artifact]:
+        if (matching_receipts != [receipt_artifact]
+                or sum(item['name'] == receipt_artifact['name'] for item in artifacts) != 1):
             raise ValueError
         expected = f'trusted-wiki-preview-{number}-{run_id}-{attempt}'
         matches = [item for item in artifacts if item['name'] == expected]

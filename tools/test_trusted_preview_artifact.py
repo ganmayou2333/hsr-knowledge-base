@@ -50,8 +50,11 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
     def test_rejects_incomplete_or_ambiguous_artifact_lists(self):
         other = copy.deepcopy(self.preview)
         other['id'] = 35
+        duplicate_receipt = copy.deepcopy(self.receipt)
+        duplicate_receipt['id'] = 36
         for items in ([self.preview], [self.receipt], [self.receipt, self.preview, other],
-                      [self.receipt, self.preview, self.preview]):
+                      [self.receipt, self.preview, self.preview],
+                      [self.receipt, self.preview, duplicate_receipt]):
             with self.subTest(count=len(items)):
                 self.items = items
                 with self.assertRaises(InvalidPreviewArtifact): self.select()
