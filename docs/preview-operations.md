@@ -85,4 +85,6 @@
 
 2026-11-27 本地后续修改：`wiki-trusted-data.yml` 在可信数据检查之后、再次核对 PR 前，拟使用可信基础分支构建器生成仅供下载的 `trusted-wiki-preview-<PR>-<run>-<attempt>` 工件；不部署、不公开托管页面。该工作流改动仅在本地，尚未推送或实际运行；消费者尚未绑定该工件，仍须检验真实 workflow/run/attempt、收据和当前 PR、最新检查、外部 PR 审批及发布前复核。不能使用现有普通 PR 工件绑定逻辑替代这些验证，也不能视为获准发布。
 
+本地工作流还在检出 PR 之前核对事件为 `pull_request_target`、工作流 ref 为 `main`、`GITHUB_SHA` 和可信检出的 HEAD 均等于事件中的目标分支 SHA；不匹配则失败。GitHub [文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#pull_request_target)说明该事件的 `GITHUB_SHA` 对应 PR 目标分支的最后提交。这是工作流自身的防错检查，不是消费者可独立验证的生产者证明；改动尚未经真实运行验证。
+
 `tools/trusted_preview_artifact.py` 是同一运行的可信收据与预览工件的局部关联原型：先验证收据，再从调用方提供的完整工件列表中要求唯一匹配的预览名称及一致的运行、仓库和头提交元数据。它还保守地要求所选成功运行是完整列表中同一 head 的最新运行，包含失败、进行中及关联为空的运行；同 SHA 的其他 PR 也会阻挡旧运行，所以可能拒绝合法预览。它不下载或检查预览 ZIP，也不能证明调用方提供的列表完整或运行确实使用受审查的工作流；调用方必须从 GitHub 获取完整分页和对应 ID 的 ZIP，独立核验这些条件、普通检查和外部审批，并在暂存和发布前重新核验。这个原型尚未接入发现或发布流程，也未完成真实运行验证，不能作为发布授权。

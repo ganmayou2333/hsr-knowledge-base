@@ -25,6 +25,14 @@ jobs:
           persist-credentials: false
           submodules: false
           lfs: false
+      - name: Confirm trusted workflow and checkout base
+        env:
+          EXPECTED_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          test "$GITHUB_EVENT_NAME" = pull_request_target
+          test "$GITHUB_REF" = refs/heads/main
+          test "$GITHUB_SHA" = "$EXPECTED_BASE"
+          test "$(git -C trusted rev-parse HEAD)" = "$EXPECTED_BASE"
       - name: Check out PR as data
         uses: actions/checkout@v7
         with:
