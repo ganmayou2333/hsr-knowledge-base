@@ -112,7 +112,8 @@ def unwrap_artifact(wrapper, destination):
             file_type = stat.S_IFMT(info.external_attr >> 16)
             if (info.orig_filename != 'wiki-preview.zip' or info.filename != 'wiki-preview.zip'
                     or info.is_dir() or file_type not in (0, stat.S_IFREG)
-                    or info.flag_bits & 1 or info.file_size > MAX_ARCHIVE_BYTES):
+                    or info.flag_bits & 1 or info.file_size > MAX_ARCHIVE_BYTES
+                    or info.compress_type not in (zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED)):
                 raise InvalidPreviewArtifact('Invalid artifact wrapper member')
             with archive.open(info) as source, Path(destination).open('xb') as output:
                 total = 0

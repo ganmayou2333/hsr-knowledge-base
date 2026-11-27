@@ -96,6 +96,17 @@ class StagingTests(unittest.TestCase):
             with self.assertRaises(InvalidPreviewArtifact): unwrap_artifact(root / 'input.zip', root / 'out')
             self.assertFalse((root / 'out').exists())
 
+    def test_wrapper_rejects_unsupported_compression(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for method in (zipfile.ZIP_BZIP2, zipfile.ZIP_LZMA):
+                with self.subTest(method=method):
+                    with zipfile.ZipFile(root / 'input.zip', 'w', compression=method) as archive:
+                        archive.writestr('wiki-preview.zip', b'not an inner zip')
+                    with self.assertRaises(InvalidPreviewArtifact):
+                        unwrap_artifact(root / 'input.zip', root / 'out')
+                    self.assertFalse((root / 'out').exists())
+
     def test_staging_rechecks_metadata_and_leaves_no_partial_output(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory); wiki = root / 'wiki'; wiki.mkdir()

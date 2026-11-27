@@ -83,6 +83,16 @@ class PreviewArtifactTests(unittest.TestCase):
                 self.assertFalse(self.dest.exists())
                 self.assertFalse(list(self.root.glob('.preview-stage-*')))
 
+    def test_rejects_unsupported_compression_before_extracting(self):
+        for method in (zipfile.ZIP_BZIP2, zipfile.ZIP_LZMA):
+            with self.subTest(method=method):
+                with zipfile.ZipFile(self.zip, 'w', compression=method) as archive:
+                    archive.writestr('index.html', 'home')
+                with self.assertRaises(InvalidPreviewArtifact):
+                    extract_preview_zip(self.zip, self.dest)
+                self.assertFalse(self.dest.exists())
+                self.assertFalse(list(self.root.glob('.preview-stage-*')))
+
     def test_rejects_forged_central_directory_count(self):
         self.make_zip([("index.html", "home"), ("a.js", "script")])
         data = bytearray(self.zip.read_bytes())
