@@ -1,5 +1,6 @@
 import copy
 import json
+import os
 from pathlib import Path
 import tempfile
 import unittest
@@ -88,6 +89,18 @@ class TrustedFetchTests(unittest.TestCase):
             with self.subTest(change=change), patch.object(self, 'download', side_effect=download):
                 with self.assertRaises(InvalidPreviewArtifact): self.execute(name=change + '.zip')
             self.assertFalse((self.root / (change + '.zip')).exists())
+
+    def test_concurrent_destination_is_never_overwritten(self):
+        destination = self.root / 'out.zip'
+        real_link = os.link
+        def competing_link(source, target):
+            destination.write_bytes(b'other writer')
+            return real_link(source, target)
+        with patch('tools.trusted_preview_fetch.os.link', side_effect=competing_link):
+            with self.assertRaises(InvalidPreviewArtifact):
+                self.execute()
+        self.assertEqual(destination.read_bytes(), b'other writer')
+        self.assertFalse(list(self.root.glob('.trusted-download-*')))
 
 
 if __name__ == '__main__':

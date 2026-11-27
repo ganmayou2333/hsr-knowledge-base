@@ -61,5 +61,12 @@ def download_trusted_preview(repo, number, run_id, reviewed_base, destination):
             raise InvalidPreviewArtifact('Trusted preview changed during download')
         if destination.exists() or destination.is_symlink():
             raise InvalidPreviewArtifact('Preview destination changed')
-        os.rename(temp / 'preview.zip', destination)
+        # A prior exists() check cannot prevent a concurrent writer from
+        # creating the destination.  rename() can replace it on POSIX.  A
+        # hard link in the same directory publishes the completed file only
+        # if the destination is still absent, on both Windows and POSIX.
+        try:
+            os.link(temp / 'preview.zip', destination)
+        except FileExistsError:
+            raise InvalidPreviewArtifact('Preview destination changed') from None
         return selected
