@@ -1,7 +1,7 @@
 # 知识库规模真值表（`docs/metrics.md`）
 
 > **本文件由 `scripts/gen_metrics.py` 自动生成，请勿手工编辑。**
-> 生成时间：`2026-11-27 20:03:36`
+> 生成时间：`2026-11-27 20:08:23`
 > 重新生成：`python scripts/gen_metrics.py`（幂等：除上一行时间外，两次运行输出逐字节相同）
 > 校验：`python tools/verify_site.py` 的 `[16]` 项解析本文末尾的**机器可读真值**，
 > 与 `README.md` · `docs/README_{en,ja,ko,zh-Hant}.md` · `docs/仓库结构.md` 出现的规模数字逐项比对。
@@ -26,8 +26,8 @@
 
 | 指标 | 值 | 说明 |
 |---|---|---|
-| `zh_cn` 页面数（静态站） | **6,521** | `wiki/data/stats.js` 的 `pages`（构建时快照）；统计时工作区 `.md` 数 6,521 |
-| `zh_cn` 入库 `.md` | **6,521** | 工作区 6,521，与 HEAD 数量差 0；原因需逐项核对 |
+| `zh_cn` 页面数（静态站） | **6,523** | `wiki/data/stats.js` 的 `pages`（构建时快照）；统计时工作区 `.md` 数 6,523 |
+| `zh_cn` 入库 `.md` | **6,523** | 工作区 6,523，与 HEAD 数量差 0；原因需逐项核对 |
 | `zh_cn` 详情文件数 | **5,994** | 详情口径合计（各分类之和见 §四） |
 | 库内最高数据版本 | **4.7** | `stats.js` 的 `latestVersion` |
 | `verify_fields` 异常 | **0** | 要求 0 |
@@ -40,7 +40,7 @@
 
 | 语言目录 | 入库 `.md` | 工作区 `.md` | 数量差（工作区 − HEAD） |
 |---|---|---|---|
-| `zh_cn/` | 6,521 | 6,521 | 0 |
+| `zh_cn/` | 6,523 | 6,523 | 0 |
 | `en_us/` | 5,716 | 5,716 | 0 |
 | `zh_tw/` | 5,711 | 5,711 | 0 |
 | `ja_jp/` | 5,708 | 5,708 | 0 |
@@ -83,7 +83,7 @@
 | 目录 | 实际 `.md` |
 |---|---|
 | `quest/` | 5 |
-| `worldview/` | 9 |
+| `worldview/` | 10 |
 | `货币战争/` | 7 |
 | `rules/` | 5 |
 
@@ -93,10 +93,10 @@
 
 | 指标 | 值 | 来源 |
 |---|---|---|
-| 站点页内链接总数 | 94,783 | `wiki/data/link_report.json` 的 `total`（`build_wiki.py` 产物） |
+| 站点页内链接总数 | 94,818 | `wiki/data/link_report.json` 的 `total`（`build_wiki.py` 产物） |
 | 站点死链数 | **0** | 同上 `dead`（要求 0） |
 | 站点未收录（优雅降级为纯文本） | 32 | 同上 `missing`（合规未入库内容，属预期，不算死链） |
-| 全库双链 `[[…]]` 总数 | 22,933 | `scripts/verify_links.py`（扫描 29,498 个 `.md`） |
+| 全库双链 `[[…]]` 总数 | 22,942 | `scripts/verify_links.py`（扫描 29,500 个 `.md`） |
 | 全库双链死链数 | 53 | 同上（含文档里的示例行，故非 0） |
 | **数据区**（五语目录）双链死链数 | **0** | 同上；**判据（要求 0）**：非 0 时 `verify_links.py` 退出码为 1 |
 
@@ -114,9 +114,9 @@
 | 4.5 | 3,847 |
 | 3.6 | 1 |
 | **带版本页合计** | **6,361** |
-| 带日期页合计 | 6,521 |
+| 带日期页合计 | 6,523 |
 
-> `stats.js` 生成时刻：`2026-11-27 20:03`。版本分布 ≠ 最新版本：库内绝大多数页面的 `> 数据版本：` 仍是收录时的版本。
+> `stats.js` 生成时刻：`2026-11-27 20:08`。版本分布 ≠ 最新版本：库内绝大多数页面的 `> 数据版本：` 仍是收录时的版本。
 
 ---
 
@@ -124,8 +124,8 @@
 
 | 校验器 | 命令 | 结果 |
 |---|---|---|
-| `verify_fields` | `cd zh_cn && python ../scripts/verify_fields.py`（**必须在 `zh_cn` 下运行**） | 扫描 6,521 个 `.md`；详情 5,994；异常 **0**；已知待补充 **156** |
-| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 22,933；死链 53（其中数据区 **0**） |
+| `verify_fields` | `cd zh_cn && python ../scripts/verify_fields.py`（**必须在 `zh_cn` 下运行**） | 扫描 6,523 个 `.md`；详情 5,994；异常 **0**；已知待补充 **156** |
+| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 22,942；死链 53（其中数据区 **0**） |
 | `verify_site` | `python tools/verify_site.py`（仓库根） | `[1]`–`[16]` 全 PASS；`[16]` 即比对本文真值 |
 
 ---
@@ -136,9 +136,9 @@
 
 | key | value |
 |---|---|
-| `pages` | 6,521 |
-| `md_commit_zh_cn` | 6,521 |
-| `md_worktree_zh_cn` | 6,521 |
+| `pages` | 6,523 |
+| `md_commit_zh_cn` | 6,523 |
+| `md_worktree_zh_cn` | 6,523 |
 | `md_commit_en_us` | 5,716 |
 | `md_worktree_en_us` | 5,716 |
 | `md_commit_zh_tw` | 5,711 |
@@ -160,22 +160,22 @@
 | `relic_cavern` | 34 |
 | `relic_planar` | 30 |
 | `doctype_quest` | 5 |
-| `doctype_worldview` | 9 |
+| `doctype_worldview` | 10 |
 | `doctype_货币战争` | 7 |
 | `doctype_rules` | 5 |
-| `link_total` | 94,783 |
+| `link_total` | 94,818 |
 | `link_dead` | 0 |
 | `link_missing` | 32 |
-| `wikilink_total` | 22,933 |
+| `wikilink_total` | 22,942 |
 | `wikilink_dead` | 53 |
 | `wikilink_dead_data` | 0 |
-| `wikilink_files` | 29,498 |
+| `wikilink_files` | 29,500 |
 | `vf_issue` | 0 |
 | `vf_known` | 156 |
 | `mirror_commit_avg_round10` | 5,710 |
 | `mirror_gap` | 0 |
 | `versioned_pages` | 6,361 |
-| `dated_pages` | 6,521 |
+| `dated_pages` | 6,523 |
 | `labeled_nonofficial_en_us` | 5,689 |
 | `labeled_nonofficial_zh_tw` | 5,711 |
 | `labeled_nonofficial_ja_jp` | 5,678 |
