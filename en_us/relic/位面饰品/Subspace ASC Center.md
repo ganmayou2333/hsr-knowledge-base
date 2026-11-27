@@ -1,5 +1,7 @@
 # Subspace ASC Center
 
+> Only the set name has been checked against the official Version 4.7 update notice; other fields and synchronization with the Chinese baseline remain unverified. [4.7](https://hsr.hoyoverse.com/en-us/news/167246)
+
 > 数据来源：[nanoka 4.7.51 relicset 330](https://static.nanoka.cc/hsr/4.7.51/en/relicset.json) (English name and 2-piece effect text); [Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) "8. Others - Relics" (Planar Ornament "Subspace ASC Center")
 > 数据版本：4.7
 > 实体ID：330
