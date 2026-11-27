@@ -66,13 +66,13 @@ for name in ('pages', 'data'):
         with self.assertRaises(InvalidPreviewArtifact):
             build(self.input, self.input, self.root / 'other.zip')
 
-    def test_size_limit_applies_even_in_skipped_directory(self):
+    def test_scanner_skipped_data_directory_is_refused(self):
         skipped = self.input / 'zh_cn' / 'temp'
         skipped.mkdir()
         (skipped / 'oversized.md').write_text('x' * 33, encoding='utf8')
         out = self.root / 'out.zip'
         with patch('tools.trusted_preview_build.MAX_MARKDOWN_FILE', 32):
-            with self.assertRaises(InvalidPreviewArtifact):
+            with self.assertRaisesRegex(ValueError, 'skipped by trusted scanners'):
                 build(self.input, self.trusted, out)
         self.assertFalse(out.exists())
 

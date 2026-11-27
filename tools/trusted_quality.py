@@ -47,6 +47,11 @@ def inspect_tree(root):
             if path.is_symlink() or not stat.S_ISDIR(path.lstat().st_mode):
                 raise ValueError('Checkout contains a linked or special directory')
             if name in SKIP:
+                # The link/field scanners skip these names at any depth, but
+                # the Wiki builder renders all Markdown below zh_cn. Reject
+                # them there rather than publishing unchecked data.
+                if path.relative_to(root).parts[0] == 'zh_cn':
+                    raise ValueError('Data directory would be skipped by trusted scanners')
                 dirs.remove(name)
         for name in files:
             path = Path(directory) / name

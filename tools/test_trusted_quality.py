@@ -44,5 +44,14 @@ class TrustedQualityTests(unittest.TestCase):
         (self.source / 'zh_cn').rmdir()
         with self.assertRaises(ValueError): check(self.source, self.trusted)
 
+    def test_rejects_builder_visible_directories_skipped_by_scanners(self):
+        for name in ('temp', 'node_modules', '.git'):
+            with self.subTest(name=name), tempfile.TemporaryDirectory(dir=self.source / 'zh_cn') as folder:
+                hidden = Path(folder) / name
+                hidden.mkdir()
+                (hidden / 'unscanned.md').write_text('[[missing]]', encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'skipped by trusted scanners'):
+                    inspect_tree(self.source)
+
 
 if __name__ == '__main__': unittest.main()
