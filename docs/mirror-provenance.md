@@ -17,28 +17,28 @@
 
 ## 可复核的标记快照
 
-以下快照以 2026-11-21 的 `bdb37feac` 为基准，在当前工作区对 Git 跟踪的 Markdown 路径读取文件；此时四语目录没有本地修改。执行 `python scripts/audit_mirror_provenance.py` 可重新统计。统计包含索引，不等于实体数；无标记包含官方来源、撤下、遗漏等各种可能，不能直接判断其原因。类别采用目录名，`all` 含所有类别，不能与类别行相加。
+以下快照以 2026-11-27 的 `5f65ee546` 为基准，对 Git 跟踪的 Markdown 路径读取当时工作区文件；此时四语目录没有本地修改。执行 `python scripts/audit_mirror_provenance.py` 可重新统计。统计包含索引，不等于实体数；无标记包含官方来源、撤下、遗漏等各种可能，不能直接判断其原因。类别采用目录名，`all` 含所有类别，不能与类别行相加。
 
 | 语言 | 类别 | 已跟踪文件 | 非官方标记 | 无此标记 |
 |---|---|---:|---:|---:|
-| en_us | all | 5714 | 5689 | 25 |
+| en_us | all | 5716 | 5689 | 27 |
 | en_us | character | 94 | 93 | 1 |
 | en_us | lightcone | 172 | 170 | 2 |
-| en_us | relic | 62 | 60 | 2 |
+| en_us | relic | 64 | 60 | 4 |
 | en_us | events | 6 | 6 | 0 |
-| zh_tw | all | 5711 | 5711 | 0 |
+| zh_tw | all | 5712 | 5711 | 1 |
 | zh_tw | character | 94 | 94 | 0 |
-| zh_tw | lightcone | 171 | 171 | 0 |
+| zh_tw | lightcone | 172 | 171 | 1 |
 | zh_tw | relic | 62 | 62 | 0 |
 | zh_tw | events | 13 | 13 | 0 |
-| ja_jp | all | 5708 | 5678 | 30 |
+| ja_jp | all | 5709 | 5678 | 31 |
 | ja_jp | character | 94 | 93 | 1 |
-| ja_jp | lightcone | 171 | 169 | 2 |
+| ja_jp | lightcone | 172 | 169 | 3 |
 | ja_jp | relic | 62 | 60 | 2 |
 | ja_jp | events | 6 | 0 | 6 |
-| ko_kr | all | 5691 | 5675 | 16 |
+| ko_kr | all | 5692 | 5675 | 17 |
 | ko_kr | character | 94 | 93 | 1 |
-| ko_kr | lightcone | 171 | 169 | 2 |
+| ko_kr | lightcone | 172 | 169 | 3 |
 | ko_kr | relic | 62 | 60 | 2 |
 | ko_kr | events | 6 | 0 | 6 |
 
