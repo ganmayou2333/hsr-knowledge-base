@@ -38,7 +38,7 @@ class ReleaseTests(unittest.TestCase):
 
     def publish(self, title='one', valid=True):
         with patch('tools.preview_release.reconcile', side_effect=lambda repo, shell, site: fixture(site, title)), \
-                patch('tools.preview_release.metadata', return_value=valid):
+                patch('tools.preview_release.verify', return_value=1 if valid else 0):
             return publish('owner/repo', self.root, self.root)
 
     def test_switches_only_after_validation_and_keeps_previous(self):
@@ -96,7 +96,7 @@ class ReleaseTests(unittest.TestCase):
             self.assertEqual(server.get_review(7)['head'], HEAD)
             other_head = 'd' * 40
             with patch('tools.preview_release.reconcile', side_effect=lambda repo, shell, site: fixture(site, 'two', other_head)), \
-                    patch('tools.preview_release.metadata', return_value=True):
+                    patch('tools.preview_release.verify', return_value=1):
                 publish('owner/repo', self.root, self.root)
             head[0] = other_head
             with urllib.request.urlopen(address, timeout=5) as response:
@@ -111,6 +111,28 @@ class ReleaseTests(unittest.TestCase):
             server.shutdown()
             server.server_close()
             thread.join(timeout=5)
+
+    def test_final_verification_failure_keeps_previous_release(self):
+        self.publish('one')
+        first = active_site(self.root)
+        for error in (InvalidPreviewArtifact('new failed run'), OSError('API unavailable')):
+            with self.subTest(error=error), patch('tools.preview_release.reconcile', side_effect=lambda repo, shell, site: fixture(site, 'bad')), \
+                    patch('tools.preview_release.verify', side_effect=error), self.assertRaises(type(error)):
+                publish('owner/repo', self.root, self.root)
+            self.assertEqual(active_site(self.root), first)
+            self.assertEqual(len(list((self.root / 'sites').iterdir())), 1)
+
+    def test_unlisted_preview_is_never_activated(self):
+        self.publish('one')
+        first = active_site(self.root)
+        def mismatched(repo, shell, site):
+            fixture(site, 'bad')
+            return []
+        with patch('tools.preview_release.reconcile', side_effect=mismatched), \
+                patch('tools.preview_release.verify') as verify, self.assertRaises(InvalidPreviewArtifact):
+            publish('owner/repo', self.root, self.root)
+        verify.assert_not_called()
+        self.assertEqual(active_site(self.root), first)
 
 
 if __name__ == '__main__':
