@@ -50,6 +50,7 @@ class PreviewRoundtripWorkflowTests(unittest.TestCase):
                 env["RUNNER_TEMP"] = subprocess.check_output(
                     [self.bash, "-c", 'cygpath -u "$1"', "_", tmp], text=True
                 ).strip()
+            env["PYTHONIOENCODING"] = "utf-8"
             return subprocess.run([self.bash, "-e", "-c", self.script], cwd=ROOT, env=env,
                                   capture_output=True, text=True, encoding="utf-8", errors="replace")
 
@@ -59,9 +60,13 @@ class PreviewRoundtripWorkflowTests(unittest.TestCase):
         self.assertIn("PASS: preview archive round-trip", result.stdout)
 
     def test_missing_tampered_and_incomplete_archives_fail(self):
-        for kind in ("missing", "tampered", "incomplete"):
+        for kind, expected in (("missing", "No such file"),
+                               ("tampered", "cmp:"),
+                               ("incomplete", "Preview is missing required files")):
             with self.subTest(kind=kind):
-                self.assertNotEqual(self.check_case(kind).returncode, 0)
+                result = self.check_case(kind)
+                self.assertNotEqual(result.returncode, 0)
+                self.assertIn(expected, result.stdout + result.stderr)
 
 
 if __name__ == "__main__":
