@@ -1,5 +1,7 @@
 # Upon the First Echo of 'Aha'
 
+> The name, Path and rarity match the official Version 4.7 notice; other fields and synchronization have not been fully verified. The community Wiki lists Lv.80 HP as 952, while this page has 953; the in-game display remains unverified. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/8441/detail)
+
 > 数据来源：[nanoka 4.7.51 en/lightcone/23065](https://static.nanoka.cc/hsr/4.7.51/en/lightcone/23065.json) (name / Path / rarity / superimposition parameters / base stats / ascension materials); [Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) "3. New Light Cones" (official English name)
 > 数据版本：4.7
 > 实体ID：23065
