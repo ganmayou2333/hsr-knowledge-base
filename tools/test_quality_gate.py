@@ -15,7 +15,7 @@ from tools import check_quality
 
 
 class QualityGateTests(unittest.TestCase):
-    def run_gate(self, links, field_output="异常合计: 0\n"):
+    def run_gate(self, links, field_output="0\n"):
         with tempfile.TemporaryDirectory() as tmp:
             root = pathlib.Path(tmp)
             (root / "tools").mkdir()
@@ -35,8 +35,9 @@ class QualityGateTests(unittest.TestCase):
         self.assertEqual(self.run_gate(existing + [("zh_cn/b.md", "other")]), 1)
 
     def test_field_errors_and_unrecognized_output_fail(self):
-        self.assertEqual(self.run_gate([], "异常合计: 1\n"), 1)
+        self.assertEqual(self.run_gate([], "1\n"), 1)
         self.assertEqual(self.run_gate([], "unexpected output\n"), 1)
+        self.assertEqual(self.run_gate([], "异常合计: 0\n1\n"), 1)
 
     def test_link_checker_reports_a_data_link_failure(self):
         script = pathlib.Path(__file__).resolve().parent.parent / "scripts" / "verify_links.py"
