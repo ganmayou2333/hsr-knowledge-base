@@ -1,5 +1,7 @@
 # Myriad Symphony
 
+> Reading note: This is a non-official localization. The event name was checked against the official Version 4.7 notice; other content and field-by-field synchronization with the Chinese baseline have not been fully verified.
+
 > 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("6. New Events" and "8. Others - System"); [Miyoushe "4.7 版本商店上新" post (79217585), "万象和鸣" event details](https://www.miyoushe.com/sr/article/79217585) (Resonance thresholds and conversion values)
 > 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79217585；时间：2026-11-15）
 > 数据版本：4.7
