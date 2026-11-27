@@ -142,9 +142,10 @@ class ReleaseTests(unittest.TestCase):
         build['pull_requests'][0]['head']['repo']['id'] = 2
         trusted['pull_requests'][0]['head']['repo']['id'] = 2
         builds = [build]
+        main = {'sha': pr['base']['sha']}
         review = {'head': HEAD, 'approved': True}
         def catalog_api(path):
-            if path.endswith('/branches/main'): return {'name': 'main', 'commit': {'sha': pr['base']['sha']}}
+            if path.endswith('/branches/main'): return {'name': 'main', 'commit': {'sha': main['sha']}}
             if path.endswith('/pulls/7'): return copy.deepcopy(pr)
             if path.endswith('/actions/runs/10'): return copy.deepcopy(build)
             if path.endswith('/actions/runs/11'): return copy.deepcopy(trusted)
@@ -161,6 +162,12 @@ class ReleaseTests(unittest.TestCase):
                 patch('tools.verify_preview_publication.snapshot', side_effect=lambda *args: copy.deepcopy(review)):
             self.assertEqual(publish('owner/repo', self.root, self.root), [7])
             first = active_site(self.root)
+            # Pull API stays stale while the live main moves, as observed on
+            # real fork PR #48. Activation must leave the old pointer intact.
+            main['sha'] = 'c' * 40
+            with self.assertRaises(InvalidPreviewArtifact): publish('owner/repo', self.root, self.root)
+            self.assertEqual(active_site(self.root), first)
+            main['sha'] = pr['base']['sha']
             builds.append(dict(build, id=12, created_at='2026-11-21T00:01:00Z',
                                run_started_at='2026-11-21T00:01:00Z', conclusion='failure'))
             with self.assertRaises(InvalidPreviewArtifact): publish('owner/repo', self.root, self.root)
