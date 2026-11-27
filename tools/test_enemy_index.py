@@ -39,6 +39,16 @@ class Links(HTMLParser):
 
 
 class EnemyIndexTests(unittest.TestCase):
+    def test_indexes_distinguish_local_inventory_from_source_coverage(self):
+        main = (SOURCE / '敌人.md').read_text(encoding='utf-8')
+        self.assertIn('不代表游戏中全部敌人', main)
+        self.assertIn('不证明全部名单、分类或技能', main)
+        for category in ('普通敌人', '精英敌人', '首领', '周本BOSS'):
+            text = (SOURCE / category / (category + '.md')).read_text(encoding='utf-8')
+            with self.subTest(category=category):
+                self.assertIn('更新说明不覆盖所有条目', text)
+                self.assertNotRegex(text, re.compile(r'\|\s*4\.[67]\s*\|\s*$', re.M))
+
     def assert_page_links_to(self, page, label, destination):
         parser = Links()
         parser.feed(page.read_text(encoding="utf-8"))
