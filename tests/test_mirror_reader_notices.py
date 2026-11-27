@@ -3,6 +3,7 @@
 This checks presentation, not translation quality, source authenticity or synchronization.
 """
 from pathlib import Path
+import re
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,28 @@ NOTICES = {
 
 
 class MirrorReaderNoticeTests(unittest.TestCase):
+    def test_event_pages_have_localized_header_notice(self):
+        notices = {'en_us': '> Reading note:', 'zh_tw': '> 閱讀提示：',
+                   'ja_jp': '> 閲覧上の注意：', 'ko_kr': '> 열람 안내:'}
+        for language, notice in notices.items():
+            pages = list((ROOT / language / 'events').rglob('*.md'))
+            self.assertTrue(pages, language)
+            for path in pages:
+                header = path.read_text(encoding='utf-8').split('\n---', 1)[0]
+                with self.subTest(path=str(path.relative_to(ROOT))):
+                    self.assertIn(notice, header)
+
+    def test_zh_tw_event_index_tracks_baseline_targets(self):
+        # This checks the list, not the translation or each event's facts.
+        relative = Path('events/版本活动/版本活动.md')
+        pattern = r'\[\[zh_cn/events/版本活动/([^|\\]+)\\?\|'
+        baseline = (ROOT / 'zh_cn' / relative).read_text(encoding='utf-8')
+        mirror = (ROOT / 'zh_tw' / relative).read_text(encoding='utf-8')
+        expected = re.findall(pattern, baseline)
+        actual = re.findall(pattern, mirror)
+        self.assertTrue(expected)
+        self.assertEqual(expected, actual)
+
     def test_high_priority_pages_have_localized_header_notice(self):
         # Unmarked pages may be partial official extracts, not official translations.
         # Require a visible notice without inferring a source classification.
