@@ -31,12 +31,12 @@
 
 | Language | VA |
 |---|---|
-| Chinese | Pending |
-| Japanese | Pending |
-| Korean | Pending |
-| English | Pending |
+| Chinese | 子音 |
+| Japanese | 户松遥 |
+| Korean | 권다예 |
+| English | Amber Lee Connors |
 
-> Voice actors: all four `chara_info.va` fields (chinese / japanese / korean / english) are `null` in nanoka 4.7.51, and the Version 4.7 Update Details credit no voice actor → Pending, not inferred.
+> Voice credits: [official PV description](https://www.bilibili.com/video/BV1XJ4g6WEyL/); names retain the spelling used in that description.
 
 ---
 
