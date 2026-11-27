@@ -13,6 +13,10 @@ import subprocess
 import sys
 import tempfile
 
+if __package__ in (None, ""):
+    # Isolated mode omits the script directory; add only this trusted checkout.
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from tools.package_preview import package_site
 from tools.preview_artifact import InvalidPreviewArtifact
 from tools.trusted_quality import MAX_FILES, MAX_MARKDOWN_FILE, MAX_MARKDOWN_TOTAL, inspect_tree
@@ -81,3 +85,12 @@ def build(source, trusted, destination, timeout=180):
         subprocess.run([sys.executable, '-I', '-X', 'utf8', str(workspace / 'wiki' / 'build_wiki.py')],
                        cwd=workspace, env=env, check=True, timeout=timeout)
         package_site(workspace / 'wiki', destination)
+
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('source', help='immutable PR checkout, treated only as data')
+    parser.add_argument('destination', help='new ZIP path outside both checkouts')
+    args = parser.parse_args()
+    build(args.source, Path(__file__).resolve().parent.parent, args.destination)

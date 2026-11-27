@@ -44,6 +44,17 @@ for name in ('pages', 'data'):
             self.assertEqual(z.read('assets/app.js'), b'trusted asset')
             self.assertNotIn('poison.py', ' '.join(z.namelist()))
 
+    def test_isolated_cli_with_real_trusted_checkout(self):
+        import subprocess
+        import sys
+        script = Path(__file__).resolve().parent / 'trusted_preview_build.py'
+        out = self.root / 'cli.zip'
+        result = subprocess.run([sys.executable, '-I', str(script), str(self.input), str(out)],
+                                capture_output=True, text=True, encoding='utf8', errors='replace')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        with zipfile.ZipFile(out) as z:
+            self.assertIn('pages/page.html', z.namelist())
+
     def test_refuses_existing_output_and_nested_checkouts(self):
         out = self.root / 'out.zip'
         out.write_bytes(b'existing')
