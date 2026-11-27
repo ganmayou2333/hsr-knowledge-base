@@ -1,13 +1,27 @@
 """Trusted checks must read PR data without running PR-provided validators."""
+import ast
 import json
 import tempfile
 import unittest
 from pathlib import Path
 
-from tools.trusted_quality import check, inspect_tree
+from tools.trusted_quality import SKIP, check, inspect_tree
 
 
 class TrustedQualityTests(unittest.TestCase):
+    def test_real_scanner_skip_sets_are_covered_by_the_data_guard(self):
+        # Trusted scanner changes must not silently add build-visible but
+        # unchecked paths that inspect_tree would allow into a preview.
+        repository = Path(__file__).resolve().parent.parent
+        for name in ('verify_links.py', 'verify_fields.py'):
+            tree = ast.parse((repository / 'scripts' / name).read_text(encoding='utf-8'))
+            assignments = [node.value for node in tree.body if isinstance(node, ast.Assign)
+                           and any(isinstance(target, ast.Name) and target.id == 'skip_dirs'
+                                   for target in node.targets)]
+            with self.subTest(scanner=name):
+                self.assertEqual(len(assignments), 1)
+                self.assertLessEqual(ast.literal_eval(assignments[0]), SKIP)
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
