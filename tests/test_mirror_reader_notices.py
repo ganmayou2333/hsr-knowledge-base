@@ -68,6 +68,17 @@ class MirrorReaderNoticeTests(unittest.TestCase):
         self.assertIn('非逐字原文', gifts)
         self.assertNotIn('官方原文照錄', gifts)
 
+    def test_zh_tw_46_event_announcement_scope(self):
+        root = ROOT / 'zh_tw' / 'events' / '版本活动'
+        pet = (root / '星际幻宠乐园.md').read_text(encoding='utf-8')
+        self.assertIn('更新說明的樂園條目未列', pet)
+        self.assertIn('隨身寵物小屋', pet)
+        self.assertNotIn('隨寵小屋', pet)
+        show = (root / '星际和平盛典_一镜到底.md').read_text(encoding='utf-8')
+        self.assertIn('2026/10/21 12:00（伺服器時間）', show)
+        story = (root / '爱，幽灵与机器人.md').read_text(encoding='utf-8')
+        self.assertIn('愛、幽靈與機器人', story)
+
     def test_event_unknown_sources_are_not_declared_unpublished(self):
         forbidden = {
             'ja_jp': ('日本語版は未公開', '日本語版が未公開', '日本語版の公式情報が未公開', 'にのみ掲載されており'),
