@@ -18,7 +18,7 @@ from pathlib import Path
 
 from tools.preview_artifact import MAX_FILE_BYTES, MAX_FILES, MAX_TOTAL_BYTES, InvalidPreviewArtifact, archive_path
 from tools.preview_bundle import safe_json
-from tools.preview_review import REPO_PATTERN, gh_api, snapshot
+from tools.preview_review import REPO_PATTERN, gh_api, snapshot, current_base_matches
 from tools.stage_preview import trusted_check
 
 SHA = re.compile(r'^[0-9a-f]{40}$')
@@ -33,6 +33,8 @@ def metadata(repo, number, manifest):
     if pr['number'] != number or pr['state'] not in ('open', 'closed'):
         raise InvalidPreviewArtifact('Invalid GitHub PR response')
     if pr['state'] == 'closed':
+        return False
+    if not current_base_matches(repo, pr, gh_api):
         return False
     if pr['head']['sha'] != manifest['head'] or pr['base']['sha'] != manifest['base']:
         return False

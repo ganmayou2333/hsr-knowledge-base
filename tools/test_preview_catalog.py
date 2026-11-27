@@ -37,12 +37,14 @@ class PreviewCatalogTests(unittest.TestCase):
     def api(self, path):
         if '/actions/workflows/' in path:
             return {'id': 42, 'state': 'active', 'path': '.github/workflows/wiki-trusted-data.yml'}
+        if path.endswith('/branches/main'):
+            return {'name': 'main', 'commit': {'sha': BASE}}
         number = int(path.rsplit('/', 1)[-1])
         if '/pulls/' in path:
             state = self.states[number]
             return {'number': number, 'state': 'closed' if state == 'closed' else 'open',
                     'head': {'sha': 'c' * 40 if state == 'stale' else HEAD, 'repo': {'id': 1}},
-                    'base': {'sha': BASE, 'repo': {'id': 1}}}
+                    'base': {'sha': BASE, 'ref': 'main', 'repo': {'id': 1, 'full_name': 'owner/repo'}}}
         if number > 20:
             return {'id': number, 'workflow_id': 42, 'repository': {'id': 1}, 'run_attempt': 1,
                     'event': 'pull_request_target', 'status': 'completed', 'conclusion': 'success',
@@ -91,6 +93,14 @@ class PreviewCatalogTests(unittest.TestCase):
         with patch('tools.preview_catalog.gh_api', side_effect=api), self.assertRaises(InvalidPreviewArtifact):
             assemble('owner/repo', self.bundles, self.shell, self.root / 'out')
         self.assertFalse((self.root / 'out').exists())
+
+    def test_stale_pull_base_is_not_a_current_main(self):
+        def api(path):
+            if path.endswith('/branches/main'):
+                return {'name': 'main', 'commit': {'sha': 'c' * 40}}
+            return self.api(path)
+        with patch('tools.preview_catalog.gh_api', side_effect=api):
+            self.assertEqual(assemble('owner/repo', self.bundles, self.shell, self.root / 'out'), [])
 
     def test_never_overwrites_existing_output(self):
         output = self.root / 'out'; output.mkdir(); (output / 'keep').write_text('keep')

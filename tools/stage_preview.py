@@ -16,7 +16,7 @@ from pathlib import Path
 
 from tools.preview_artifact import MAX_ARCHIVE_BYTES, InvalidPreviewArtifact, check_zip_directory, extract_preview_zip
 from tools.preview_bundle import build_bundle
-from tools.preview_review import REPO_PATTERN, gh_api, snapshot
+from tools.preview_review import REPO_PATTERN, gh_api, snapshot, current_base_matches
 
 WORKFLOW = '.github/workflows/wiki-quality.yml'
 TRUSTED_WORKFLOW = '.github/workflows/wiki-trusted-data.yml'
@@ -161,6 +161,8 @@ def stage(repo, number, run_id, destination, *, trusted_run_id):
         # is insufficient because a newer run can appear during conversion.
         from tools.reconcile_previews import latest_run, pages_items
         pr = gh_api(pr_path)
+        if not current_base_matches(repo, pr, gh_api):
+            raise InvalidPreviewArtifact('PR base is not the current main branch')
         run = gh_api(run_path)
         pages = gh_api(run_path + '/artifacts?per_page=100', paginate=True)
         workflow = gh_api(f'{prefix}/actions/workflows/wiki-trusted-data.yml')

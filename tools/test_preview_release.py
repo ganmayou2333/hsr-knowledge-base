@@ -144,6 +144,7 @@ class ReleaseTests(unittest.TestCase):
         builds = [build]
         review = {'head': HEAD, 'approved': True}
         def catalog_api(path):
+            if path.endswith('/branches/main'): return {'name': 'main', 'commit': {'sha': pr['base']['sha']}}
             if path.endswith('/pulls/7'): return copy.deepcopy(pr)
             if path.endswith('/actions/runs/10'): return copy.deepcopy(build)
             if path.endswith('/actions/runs/11'): return copy.deepcopy(trusted)

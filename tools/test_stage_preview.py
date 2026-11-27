@@ -13,7 +13,7 @@ from tools.stage_preview import select_artifact, stage, trusted_check, unwrap_ar
 
 HEAD, BASE = 'a' * 40, 'b' * 40
 PR = {'number': 7, 'state': 'open', 'head': {'sha': HEAD, 'repo': {'id': 1}},
-      'base': {'sha': BASE, 'repo': {'id': 1, 'full_name': 'owner/repo'}}}
+      'base': {'sha': BASE, 'ref': 'main', 'repo': {'id': 1, 'full_name': 'owner/repo'}}}
 RUN = {'id': 10, 'repository': {'id': 1}, 'event': 'pull_request', 'status': 'completed',
        'conclusion': 'success', 'path': '.github/workflows/wiki-quality.yml', 'head_sha': HEAD, 'run_attempt': 1,
        'created_at': '2026-11-21T00:00:00Z', 'run_started_at': '2026-11-21T00:00:00Z',
@@ -28,7 +28,7 @@ TRUSTED_RUN = {'id': 11, 'workflow_id': 42, 'repository': {'id': 1}, 'event': 'p
 
 
 def responses(pr=PR, run=RUN, pages=None, trusted=TRUSTED_RUN):
-    return [pr, run, [{'artifacts': [ARTIFACT]}] if pages is None else pages, WORKFLOW, trusted,
+    return [pr, {'name': 'main', 'commit': {'sha': BASE}}, run, [{'artifacts': [ARTIFACT]}] if pages is None else pages, WORKFLOW, trusted,
             [{'workflow_runs': [run]}], [{'workflow_runs': [trusted]}]]
 
 
@@ -121,16 +121,21 @@ class StagingTests(unittest.TestCase):
             self.assertFalse((root / 'rerun').exists())
             newer = dict(RUN, id=12, created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
             stale = responses(pages=pages)
-            stale[5] = [{'workflow_runs': [RUN, newer]}]
+            stale[6] = [{'workflow_runs': [RUN, newer]}]
             with patch('tools.stage_preview.gh_api', side_effect=good * 2 + stale), patch('tools.stage_preview.download_artifact', side_effect=fake_download):
                 with self.assertRaises(InvalidPreviewArtifact): stage('owner/repo', 7, 10, root / 'newer', trusted_run_id=11)
             self.assertFalse((root / 'newer').exists())
             pending = dict(TRUSTED_RUN, id=13, created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z', status='in_progress', conclusion=None)
             stale = responses(pages=pages)
-            stale[6] = [{'workflow_runs': [TRUSTED_RUN, pending]}]
+            stale[7] = [{'workflow_runs': [TRUSTED_RUN, pending]}]
             with patch('tools.stage_preview.gh_api', side_effect=good * 2 + stale), patch('tools.stage_preview.download_artifact', side_effect=fake_download):
                 with self.assertRaises(InvalidPreviewArtifact): stage('owner/repo', 7, 10, root / 'pending', trusted_run_id=11)
             self.assertFalse((root / 'pending').exists())
+            stale = responses(pages=pages)
+            stale[1] = {'name': 'main', 'commit': {'sha': 'c' * 40}}
+            with patch('tools.stage_preview.gh_api', side_effect=good * 2 + stale), patch('tools.stage_preview.download_artifact', side_effect=fake_download):
+                with self.assertRaises(InvalidPreviewArtifact): stage('owner/repo', 7, 10, root / 'base-changed', trusted_run_id=11)
+            self.assertFalse((root / 'base-changed').exists())
 
     def test_external_approval_revoked_during_conversion_leaves_no_output(self):
         with tempfile.TemporaryDirectory() as directory:
