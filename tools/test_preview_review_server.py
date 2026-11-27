@@ -164,7 +164,7 @@ class ReviewServerTests(unittest.TestCase):
                  patch('tools.verify_preview_publication.snapshot', return_value={'head': HEAD, 'approved': False}):
                 self.assertEqual(self.get('/previews/7/review.json')[0], 200)
                 self.server.cache.clear()
-                builds.append(dict(build, id=12, conclusion='failure', run_started_at='2026-11-21T00:01:00Z'))
+                builds.append(dict(build, id=12, conclusion='failure', created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z'))
                 self.assertEqual(self.get('/previews/7/review.json')[0], 503)
                 builds.pop()
                 pr['head'] = {'sha': HEAD, 'repo': {'id': 2}}

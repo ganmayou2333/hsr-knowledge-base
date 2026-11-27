@@ -30,13 +30,19 @@ def select_trusted_preview(number, pr, workflow, run, receipt_artifact, receipt_
         for item in runs:
             if item['event'] != 'pull_request_target' or item['path'] != workflow['path'] or item['head_sha'] != pr['head']['sha']:
                 raise ValueError
-            identifier, started = item['id'], item['run_started_at']
+            identifier, created, started = item['id'], item['created_at'], item['run_started_at']
             if (type(identifier) is not int or identifier < 1 or identifier in seen
-                    or not isinstance(started, str) or len(started) != 20 or not started.endswith('Z')):
+                    or any(not isinstance(value, str) or len(value) != 20 or not value.endswith('Z')
+                           for value in (created, started))):
                 raise ValueError
+            datetime.strptime(created, '%Y-%m-%dT%H:%M:%SZ')
             datetime.strptime(started, '%Y-%m-%dT%H:%M:%SZ')
+            if started < created or item['status'] != 'completed':
+                raise ValueError
             seen.add(identifier)
-            candidates.append((started, identifier, item))
+            candidates.append((created, identifier, item))
+        if len({item[0] for item in candidates}) != len(candidates):
+            raise ValueError
         latest = max(candidates, key=lambda item: (item[0], item[1]))[2]
         if (latest['id'] != run_id or type(latest['run_attempt']) is not int or latest['run_attempt'] != attempt
                 or latest['status'] != 'completed' or latest['conclusion'] != 'success'):

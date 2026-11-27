@@ -16,7 +16,7 @@ PR = {'number': 7, 'state': 'open', 'head': {'sha': HEAD, 'repo': {'id': 1}},
       'base': {'sha': BASE, 'repo': {'id': 1, 'full_name': 'owner/repo'}}}
 RUN = {'id': 10, 'repository': {'id': 1}, 'event': 'pull_request', 'status': 'completed',
        'conclusion': 'success', 'path': '.github/workflows/wiki-quality.yml', 'head_sha': HEAD, 'run_attempt': 1,
-       'run_started_at': '2026-11-21T00:00:00Z',
+       'created_at': '2026-11-21T00:00:00Z', 'run_started_at': '2026-11-21T00:00:00Z',
        'pull_requests': [{'number': 7, 'head': {'sha': HEAD, 'repo': {'id': 1}},
                           'base': {'sha': BASE, 'repo': {'id': 1}}}]}
 ARTIFACT = {'id': 20, 'name': f'wiki-preview-7-{HEAD}-1', 'expired': False, 'size_in_bytes': 123,
@@ -24,7 +24,7 @@ ARTIFACT = {'id': 20, 'name': f'wiki-preview-7-{HEAD}-1', 'expired': False, 'siz
 WORKFLOW = {'id': 42, 'state': 'active', 'path': '.github/workflows/wiki-trusted-data.yml'}
 TRUSTED_RUN = {'id': 11, 'workflow_id': 42, 'repository': {'id': 1}, 'event': 'pull_request_target',
                'status': 'completed', 'conclusion': 'success', 'path': WORKFLOW['path'], 'head_sha': HEAD,
-               'run_attempt': 1, 'run_started_at': '2026-11-21T00:00:01Z', 'pull_requests': copy.deepcopy(RUN['pull_requests'])}
+               'run_attempt': 1, 'created_at': '2026-11-21T00:00:01Z', 'run_started_at': '2026-11-21T00:00:01Z', 'pull_requests': copy.deepcopy(RUN['pull_requests'])}
 
 
 def responses(pr=PR, run=RUN, pages=None, trusted=TRUSTED_RUN):
@@ -119,13 +119,13 @@ class StagingTests(unittest.TestCase):
             with patch('tools.stage_preview.gh_api', side_effect=good * 2 + responses(pages=pages, trusted=rerun)), patch('tools.stage_preview.download_artifact', side_effect=fake_download):
                 with self.assertRaises(InvalidPreviewArtifact): stage('owner/repo', 7, 10, root / 'rerun', trusted_run_id=11)
             self.assertFalse((root / 'rerun').exists())
-            newer = dict(RUN, id=12, run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
+            newer = dict(RUN, id=12, created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
             stale = responses(pages=pages)
             stale[5] = [{'workflow_runs': [RUN, newer]}]
             with patch('tools.stage_preview.gh_api', side_effect=good * 2 + stale), patch('tools.stage_preview.download_artifact', side_effect=fake_download):
                 with self.assertRaises(InvalidPreviewArtifact): stage('owner/repo', 7, 10, root / 'newer', trusted_run_id=11)
             self.assertFalse((root / 'newer').exists())
-            pending = dict(TRUSTED_RUN, id=13, run_started_at='2026-11-21T00:01:00Z', status='in_progress', conclusion=None)
+            pending = dict(TRUSTED_RUN, id=13, created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z', status='in_progress', conclusion=None)
             stale = responses(pages=pages)
             stale[6] = [{'workflow_runs': [TRUSTED_RUN, pending]}]
             with patch('tools.stage_preview.gh_api', side_effect=good * 2 + stale), patch('tools.stage_preview.download_artifact', side_effect=fake_download):

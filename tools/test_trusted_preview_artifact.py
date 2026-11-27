@@ -19,6 +19,7 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
             archive.writestr('trusted-check-receipt.json', json.dumps(RECEIPT))
         self.pr, self.workflow, self.run, self.receipt = map(copy.deepcopy, (PR, WORKFLOW_INFO, RUN, ARTIFACT))
         self.run['run_started_at'] = '2026-11-21T00:00:00Z'
+        self.run['created_at'] = '2026-11-21T00:00:00Z'
         self.runs = [copy.deepcopy(self.run)]
         self.preview = {'id': 34, 'name': 'trusted-wiki-preview-7-11-1', 'expired': False,
                         'size_in_bytes': 500, 'workflow_run': copy.deepcopy(ARTIFACT['workflow_run'])}
@@ -70,7 +71,7 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
 
     def test_newer_same_head_run_blocks_even_without_pr_association(self):
         for status, conclusion in [('completed', 'failure'), ('in_progress', None), ('completed', 'success')]:
-            newer = dict(self.run, id=12, run_started_at='2026-11-21T00:01:00Z',
+            newer = dict(self.run, id=12, created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z',
                          status=status, conclusion=conclusion, pull_requests=[])
             self.runs = [copy.deepcopy(self.run), newer]
             with self.subTest(status=status, conclusion=conclusion), self.assertRaises(InvalidPreviewArtifact):
@@ -82,6 +83,13 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
                      [dict(self.run, run_started_at=None)]):
             self.runs = runs
             with self.subTest(runs=runs), self.assertRaises(InvalidPreviewArtifact): self.select()
+
+    def test_old_successful_rerun_does_not_hide_newer_failed_run(self):
+        old = dict(self.run, run_started_at='2026-11-21T00:02:00Z')
+        newer = dict(self.run, id=12, created_at='2026-11-21T00:01:00Z',
+                     run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
+        self.runs = [old, newer]
+        with self.assertRaises(InvalidPreviewArtifact): self.select()
 
 
 if __name__ == '__main__': unittest.main()

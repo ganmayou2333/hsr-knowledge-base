@@ -62,16 +62,26 @@ def latest_run(runs, number, pr, event, path):
                 continue
             if len(matches) != 1:
                 raise ValueError
-            started = run['run_started_at']
-            if not isinstance(started, str) or len(started) != 20 or not started.endswith('Z'):
+            created, started = run['created_at'], run['run_started_at']
+            for timestamp in (created, started):
+                if not isinstance(timestamp, str) or len(timestamp) != 20 or not timestamp.endswith('Z'):
+                    raise ValueError
+                if datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc).isoformat()[:19] != timestamp[:19]:
+                    raise ValueError
+            if started < created:
                 raise ValueError
-            if datetime.strptime(started, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc).isoformat()[:19] != started[:19]:
-                raise ValueError
-            candidates.append((started, run['id'], run))
+            candidates.append((created, run['id'], run))
         except MissingRunAssociation:
             raise
         except (KeyError, TypeError, ValueError):
             raise InvalidPreviewArtifact('Invalid workflow run metadata') from None
+    pending = [item for item in candidates if item[2].get('status') != 'completed']
+    if pending:
+        return max(pending, key=lambda item: (item[0], item[1]))[2]
+    # Creation order prevents rerunning an older successful run from displacing
+    # a more recently created failure. Same-second timestamps are ambiguous.
+    if len({item[0] for item in candidates}) != len(candidates):
+        raise InvalidPreviewArtifact('Ambiguous workflow creation order')
     return max(candidates, default=(None, None, None), key=lambda item: (item[0] or '', item[1] or 0))[2]
 
 

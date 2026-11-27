@@ -19,10 +19,10 @@ ASSOCIATION = {'number': 7, 'head': {'sha': HEAD, 'repo': {'id': 1}},
                'base': {'sha': BASE, 'repo': {'id': 1}}}
 BUILD = {'id': 10, 'event': 'pull_request', 'status': 'completed', 'conclusion': 'success',
          'path': '.github/workflows/wiki-quality.yml', 'head_sha': HEAD,
-         'run_started_at': '2026-11-21T00:00:00Z', 'pull_requests': [ASSOCIATION]}
+         'created_at': '2026-11-21T00:00:00Z', 'run_started_at': '2026-11-21T00:00:00Z', 'pull_requests': [ASSOCIATION]}
 TRUSTED = {'id': 11, 'workflow_id': 42, 'repository': {'id': 1}, 'event': 'pull_request_target',
            'status': 'completed', 'conclusion': 'success', 'path': WORKFLOW['path'], 'head_sha': HEAD,
-           'run_attempt': 1, 'run_started_at': '2026-11-21T00:00:01Z', 'pull_requests': [ASSOCIATION]}
+           'run_attempt': 1, 'created_at': '2026-11-21T00:00:01Z', 'run_started_at': '2026-11-21T00:00:01Z', 'pull_requests': [ASSOCIATION]}
 
 
 class ReconcileTests(unittest.TestCase):
@@ -66,7 +66,7 @@ class ReconcileTests(unittest.TestCase):
     def test_newer_failed_or_running_check_does_not_reuse_old_success(self):
         for status, conclusion in [('completed', 'failure'), ('in_progress', None)]:
             self.builds = [copy.deepcopy(BUILD), dict(BUILD, id=12, status=status, conclusion=conclusion,
-                                                      run_started_at='2026-11-21T00:01:00Z')]
+                                                      created_at='2026-11-21T00:01:00Z', run_started_at='2026-11-21T00:01:00Z')]
             self.assertEqual(self.run_reconcile(f'out-{status}'), [])
         self.assertEqual(self.staged, [])
 
@@ -159,6 +159,19 @@ class ReconcileTests(unittest.TestCase):
         run = dict(BUILD, run_started_at='2026-99-99T00:00:00Z')
         with self.assertRaises(InvalidPreviewArtifact):
             latest_run([run], 7, PR, 'pull_request', BUILD['path'])
+
+    def test_old_rerun_never_displaces_newer_failure(self):
+        old = dict(BUILD, run_started_at='2026-11-21T00:02:00Z')
+        newer = dict(BUILD, id=12, created_at='2026-11-21T00:01:00Z',
+                     run_started_at='2026-11-21T00:01:00Z', conclusion='failure')
+        self.assertEqual(latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])['id'], 12)
+        old['status'] = 'in_progress'
+        old['conclusion'] = None
+        self.assertEqual(latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])['status'], 'in_progress')
+        newer['created_at'] = old['created_at']
+        old['status'] = 'completed'
+        with self.assertRaises(InvalidPreviewArtifact):
+            latest_run([old, newer], 7, PR, 'pull_request', BUILD['path'])
 
     def test_pagination_limit_cannot_be_treated_as_complete(self):
         self.assertEqual(len(pages_items([{'workflow_runs': [None] * 999}], 'workflow_runs')), 999)
