@@ -16,6 +16,23 @@ NOTICES = {
 
 
 class MirrorReaderNoticeTests(unittest.TestCase):
+    def test_zh_tw_event_names_and_source_description(self):
+        root = ROOT / 'zh_tw' / 'events' / '版本活动'
+        checks = {
+            '劇場版絨絨號：歡鬧廚房.md': ('模糊QR寇', '模糊二維馬'),
+            '奇庫尋遺.md': ('黑塔太空站', '黑塔空間站'),
+            '寰宇美學•幻樂秀場.md': ('服裝邀請函', '時裝邀請函'),
+            '萬象和鳴.md': ('服裝邀請函', '時裝邀請函'),
+        }
+        for name, (expected, wrong) in checks.items():
+            text = (root / name).read_text(encoding='utf-8')
+            with self.subTest(name=name):
+                self.assertIn(expected, text)
+                self.assertNotIn(wrong, text)
+        gifts = (root / '開場好禮先抱走.md').read_text(encoding='utf-8')
+        self.assertIn('非逐字原文', gifts)
+        self.assertNotIn('官方原文照錄', gifts)
+
     def test_event_unknown_sources_are_not_declared_unpublished(self):
         forbidden = {
             'ja_jp': ('日本語版は未公開', '日本語版が未公開', '日本語版の公式情報が未公開', 'にのみ掲載されており'),
