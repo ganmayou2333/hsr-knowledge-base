@@ -69,6 +69,23 @@ class TrustedReceiptTests(unittest.TestCase):
                 with self.assertRaises(InvalidPreviewArtifact):
                     self.validate()
 
+    def test_rejects_unsupported_or_corrupt_compressed_receipts(self):
+        with zipfile.ZipFile(self.wrapper, 'w', compression=zipfile.ZIP_BZIP2) as archive:
+            archive.writestr('trusted-check-receipt.json', json.dumps(RECEIPT))
+        with self.assertRaises(InvalidPreviewArtifact):
+            self.validate()
+
+        with zipfile.ZipFile(self.wrapper, 'w', compression=zipfile.ZIP_DEFLATED) as archive:
+            archive.writestr('trusted-check-receipt.json', json.dumps(RECEIPT))
+        data = bytearray(self.wrapper.read_bytes())
+        with zipfile.ZipFile(self.wrapper) as archive:
+            info = archive.infolist()[0]
+            start = info.header_offset + 30 + len(info.filename.encode('utf-8')) + len(info.extra)
+        data[start] = 0xff  # Invalid DEFLATE block type.
+        self.wrapper.write_bytes(data)
+        with self.assertRaises(InvalidPreviewArtifact):
+            self.validate()
+
     def test_rejects_artifact_from_other_run_or_repository(self):
         for field, value in [('id', 12), ('repository_id', 3), ('head_sha', 'c' * 40)]:
             with self.subTest(field=field):

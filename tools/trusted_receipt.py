@@ -8,6 +8,7 @@ import json
 import re
 import stat
 import zipfile
+import zlib
 from pathlib import Path
 
 from tools.preview_artifact import InvalidPreviewArtifact, check_zip_directory
@@ -74,6 +75,7 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
                 kind = stat.S_IFMT(info.external_attr >> 16)
                 if (info.orig_filename != 'trusted-check-receipt.json' or info.is_dir()
                         or kind not in (0, stat.S_IFREG) or info.flag_bits & 1
+                        or info.compress_type not in (zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED)
                         or info.file_size > MAX_RECEIPT):
                     raise ValueError('invalid member')
                 with archive.open(info) as data:
@@ -88,5 +90,5 @@ def validate_receipt(number, pr, workflow, run, artifact, wrapper):
         if any(type(receipt[key]) is not int for key in ('version', 'pr', 'head_repo', 'base_repo', 'run', 'attempt')):
             raise ValueError('invalid numeric fields')
         return run_id, attempt
-    except (KeyError, TypeError, ValueError, AttributeError, OSError, zipfile.BadZipFile):
+    except (KeyError, TypeError, ValueError, AttributeError, OSError, EOFError, zlib.error, zipfile.BadZipFile):
         raise InvalidPreviewArtifact('Trusted check receipt is invalid or stale') from None
