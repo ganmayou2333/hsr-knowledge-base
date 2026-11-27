@@ -34,6 +34,12 @@
 
 完成令牌创建后，可在可信终端交互式运行 `gh secret set SOURCE_READ_TOKEN --repo ganmayou2333/hsr-knowledge-base-preview`，按提示输入令牌；无需把令牌写在命令参数中。轮换时重新设置该 secret 并撤销旧令牌，随后用可信流程验证读取和失败行为。创建 secret 本身不会启用或发布工作流。
 
+## 合并治理现状复核（2026-11-27，#42）
+
+- GitHub API 当前返回 `main` 受分支保护：必需检查为 GitHub Actions（app ID 15368）的 `Build and check`；需 1 个批准，新提交撤销旧批准，管理员受规则约束，禁止强推和删除；检查不要求分支与基线严格同步。仓库 ruleset 列表与分支 rules API 均为空；这不代替对其他组织层政策的全面审计。配置查询不等于亲自尝试违规合并验证。
+- [PR #37](https://github.com/ganmayou2333/hsr-knowledge-base/pull/37) 已于 2026-11-21 04:03:33（UTC+8）合并，不再是草稿。作者为 `ganmayou2333`；API 返回 `Hikarifly` 对最终头提交 `f381cffa39fa0b08e3bea4bb1bb9c786262a3831` 的批准，时间为同日 04:03:00（UTC+8），该提交的 `Build and check` 成功。当前协作者查询显示 `Hikarifly` 具备 push 权限；不能仅凭当前权限证明批准时权限，也不能从空的审核正文证明已经覆盖数据正确性、规范及预览安全的全部独立审查范围。
+- PR #37 已合并这一事实不代表 #36/#40/#41 的外部 PR 预览绑定或发布已完成。后续本地提交不属于 PR #37 的已批准头提交，不能沿用该批准；实际合并仍需遵守当前保护与用户安排。
+
 ## 已有组件
 
 - `wiki-quality.yml` 构建 Wiki 并生成预览包；包内内容仍是不可信数据。
