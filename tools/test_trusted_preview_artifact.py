@@ -96,6 +96,15 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
                 self.items = items
                 with self.assertRaises(InvalidPreviewArtifact): self.select()
 
+    def test_artifact_inventory_at_limit_is_not_assumed_complete(self):
+        self.items.extend({'id': 1000 + i, 'name': f'unrelated-{i}'} for i in range(997))
+        self.assertEqual(len(self.items), 999)
+        self.assertEqual(self.select()[0], self.preview['id'])
+        self.items.append({'id': 999999, 'name': 'unrelated-final'})
+        self.assertEqual(len(self.items), 1000)
+        with self.assertRaises(InvalidPreviewArtifact):
+            self.select()
+
     def test_rejects_stale_receipt_even_when_preview_looks_valid(self):
         self.pr['state'] = 'closed'
         with self.assertRaises(InvalidPreviewArtifact): self.select()

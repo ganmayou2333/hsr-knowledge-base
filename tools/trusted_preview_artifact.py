@@ -51,7 +51,7 @@ def select_trusted_preview(number, pr, workflow, run, receipt_artifact, receipt_
         if (latest['id'] != run_id or type(latest['run_attempt']) is not int or latest['run_attempt'] != attempt
                 or latest['status'] != 'completed' or latest['conclusion'] != 'success'):
             raise ValueError
-        if not isinstance(artifacts, list) or len(artifacts) > 1000:
+        if not isinstance(artifacts, list) or len(artifacts) >= 1000:
             raise ValueError
         ids = []
         for item in artifacts:
