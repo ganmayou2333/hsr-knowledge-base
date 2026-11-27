@@ -58,6 +58,13 @@ jobs:
           gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json state,headRefOid,baseRefOid |
             jq -e --arg head "$EXPECTED_HEAD" --arg base "$EXPECTED_BASE" \
               '.state == "OPEN" and .headRefOid == $head and .baseRefOid == $base' > /dev/null
+      - name: Check live main before inspection
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          current="$(gh api "repos/$GITHUB_REPOSITORY/branches/main" --jq '.commit.sha')"
+          test "$current" = "$EXPECTED_BASE"
       - name: Inspect untrusted data using trusted tools
         run: python3 -I "$GITHUB_WORKSPACE/trusted/tools/trusted_quality.py" "$GITHUB_WORKSPACE/input"
       # Build only with checked-out base code. PR checkout is immutable data.
@@ -74,6 +81,13 @@ jobs:
           gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json state,headRefOid,baseRefOid |
             jq -e --arg head "$EXPECTED_HEAD" --arg base "$EXPECTED_BASE" \
               '.state == "OPEN" and .headRefOid == $head and .baseRefOid == $base' > /dev/null
+      - name: Check live main after inspection
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          current="$(gh api "repos/$GITHUB_REPOSITORY/branches/main" --jq '.commit.sha')"
+          test "$current" = "$EXPECTED_BASE"
       # This receipt is not a preview artifact and is not yet used for publishing.
       # Its only purpose is to record this trusted workflow's event context.
       - name: Record trusted check context

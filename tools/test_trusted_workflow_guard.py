@@ -45,5 +45,33 @@ class TrustedWorkflowGuardTests(unittest.TestCase):
                     self.assertNotEqual(execute(change), 0)
 
 
+    def test_live_main_guards_reject_moved_base_and_api_failure(self):
+        bash = shutil.which('bash')
+        if not bash and os.name == 'nt':
+            git = shutil.which('git')
+            candidate = Path(git).resolve().parent.parent / 'usr' / 'bin' / 'bash.exe' if git else None
+            if candidate and candidate.is_file():
+                bash = str(candidate)
+        if not bash:
+            self.skipTest('bash is unavailable')
+        workflow = (Path(__file__).resolve().parent.parent / '.github/workflows/wiki-trusted-data.yml').read_text(encoding='utf-8')
+        for phase in ('before', 'after'):
+            marker = f'      - name: Check live main {phase} inspection\n'
+            self.assertEqual(workflow.count(marker), 1)
+            block = workflow.split(marker, 1)[1].split('      - name:', 1)[0]
+            script = textwrap.dedent(block.split('        run: |\n', 1)[1].split('      #', 1)[0])
+            # Stub only the network command; execute the exact workflow shell.
+            stub = 'gh() { test "$1" = api && test "$2" = repos/owner/repo/branches/main || return 1; [ "$FAIL_API" = 1 ] && return 1; printf "%s" "$LIVE_SHA"; }\n'
+            env = dict(os.environ, GITHUB_REPOSITORY='owner/repo', EXPECTED_BASE='a' * 40, LIVE_SHA='a' * 40, FAIL_API='0')
+            def execute(changes):
+                return subprocess.run([bash, '-e', '-c', stub + script], env=env | changes,
+                                      stdout=subprocess.PIPE, stderr=subprocess.PIPE).returncode
+            with self.subTest(phase=phase):
+                self.assertEqual(execute({}), 0)
+                self.assertNotEqual(execute({'LIVE_SHA': 'b' * 40}), 0)
+                self.assertNotEqual(execute({'LIVE_SHA': ''}), 0)
+                self.assertNotEqual(execute({'FAIL_API': '1'}), 0)
+
+
 if __name__ == '__main__':
     unittest.main()
