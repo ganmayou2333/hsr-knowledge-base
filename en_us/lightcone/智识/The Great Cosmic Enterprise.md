@@ -35,6 +35,8 @@ Though their meetings were few and far between, they were as close as old friend
 |---|---|---|
 | 953 | 476 | 331 |
 
+> Lv.80 values differ: the community Wiki / this page are listed below. The in-game display has not been independently verified. DEF 330 / 331. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/5155/detail)
+
 ## Superimposition
 
 ### Mutual Benefit

@@ -32,6 +32,8 @@ Without saying any words, Mr. Svarog began to hold out his robotic arm.
 |---|---|---|
 | 953 | 423 | 397 |
 
+> Lv.80 values differ: the community Wiki / this page are listed below. The in-game display has not been independently verified. HP 952 / 953; DEF 396 / 397. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/851/detail)
+
 ## Superimposition
 
 ### Cannot Stop It!

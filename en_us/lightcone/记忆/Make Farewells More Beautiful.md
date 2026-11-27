@@ -41,6 +41,8 @@ Accompanied by the river's soft lament, she offered the departed poems, garlands
 |---|---|---|
 | 1,270 | 529 | 397 |
 
+> Lv.80 values differ: the community Wiki / this page are listed below. The in-game display has not been independently verified. DEF 396 / 397. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/5154/detail)
+
 ## Superimposition
 
 ### Engrave

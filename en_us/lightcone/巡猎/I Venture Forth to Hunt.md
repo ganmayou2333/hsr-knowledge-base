@@ -37,6 +37,8 @@ She stands there, alone. A single figure, but imbued with the might of an entire
 |---|---|---|
 | 953 | 635 | 463 |
 
+> Lv.80 values differ: the community Wiki / this page are listed below. The in-game display has not been independently verified. HP 952 / 953. [Wiki](https://bbs.mihoyo.com/sr/wiki/content/3863/detail)
+
 ## Superimposition
 
 ### Intimidation
