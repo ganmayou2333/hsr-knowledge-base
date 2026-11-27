@@ -17,6 +17,22 @@ NOTICES = {
 
 
 class MirrorReaderNoticeTests(unittest.TestCase):
+    def test_zh_tw_47_historical_source_paths_are_qualified(self):
+        pairs = {
+            '劇場版絨絨號：歡鬧廚房': '剧场版绒绒号：欢闹厨房',
+            '奇庫尋遺': '奇库寻遗', '開場好禮先抱走': '开场好礼先抱走',
+            '寰宇美學•幻樂秀場': '寰宇美学•幻乐秀场',
+            '星際和平盛典：成名之路': '星际和平盛典：成名之路',
+            '萬象和鳴': '万象和鸣',
+        }
+        for translated, baseline in pairs.items():
+            with self.subTest(page=translated):
+                text = (ROOT / 'zh_tw/events/版本活动' / (translated + '.md')).read_text(encoding='utf-8')
+                self.assertIn('> 本地化来源：非官方', text)
+                self.assertIn('當時實際輸入尚待核實', text)
+                self.assertIn(f'[[zh_cn/events/版本活动/{baseline}|{baseline}]]', text)
+                self.assertTrue((ROOT / 'zh_cn/events/版本活动' / (baseline + '.md')).is_file())
+
     def test_event_id_does_not_claim_official_nonpublication(self):
         # A missing ID in our sources does not establish that no official ID exists.
         for language in ('zh_cn', *NOTICES):
