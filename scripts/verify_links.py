@@ -36,6 +36,28 @@ def is_data_area(path):
     return any(p.startswith(d.strip('/') + '/') for d in DATA_DIRS)
 
 
+def iter_wikilinks(text):
+    """Yield the same non-overlapping targets as the old regex, in linear time.
+
+    A long run of unmatched ``[[`` previously made repeated regex retries scan
+    the remaining file quadratically. PR data is untrusted and can contain it.
+    """
+    pos = 0
+    while True:
+        start = text.find('[[', pos)
+        if start < 0:
+            return
+        end = text.find(']', start + 2)
+        if end < 0:
+            return
+        if end + 1 < len(text) and text[end + 1] == ']' and end > start + 2:
+            yield text[start + 2:end]
+            pos = end + 2
+        else:
+            # No opener before this closing bracket can form a valid match.
+            pos = end + 1
+
+
 def scan(root='.'):
     """扫描 root 下全部 .md 的 [[...]] 双链。
 
@@ -54,9 +76,9 @@ def scan(root='.'):
     dead = []
     total_links = 0
     for f in files:
-        txt = open(os.path.join(root, f), encoding='utf-8').read()
-        for m in re.finditer(r'\[\[([^\]]+)\]\]', txt):
-            raw = m.group(1)
+        with open(os.path.join(root, f), encoding='utf-8') as source:
+            txt = source.read()
+        for raw in iter_wikilinks(txt):
             total_links += 1
             # 表格内转义管道符 \| 即显示名分隔符：先还原为 | 再取路径段
             link = raw.replace('\\|', '|').split('|')[0].strip()
