@@ -52,7 +52,20 @@ def select_artifact(repo, number, run_id, pr, run, pages, external_approved=Fals
         if len(matches) != 1:
             raise ValueError
         expected = f"wiki-preview-{number}-{head}-{run['run_attempt']}"
-        artifacts = [item for page in pages for item in page['artifacts'] if item['name'] == expected]
+        if not isinstance(pages, list) or not pages:
+            raise ValueError
+        inventory = []
+        for page in pages:
+            if not isinstance(page, dict) or not isinstance(page.get('artifacts'), list):
+                raise ValueError
+            inventory.extend(page['artifacts'])
+            # A capped listing cannot prove there isn't a duplicate name later.
+            if len(inventory) >= 1000:
+                raise ValueError
+        ids = [item['id'] for item in inventory]
+        if any(type(identifier) is not int or identifier < 1 for identifier in ids) or len(set(ids)) != len(ids):
+            raise ValueError
+        artifacts = [item for item in inventory if item['name'] == expected]
         if len(artifacts) != 1:
             raise ValueError
         artifact = artifacts[0]

@@ -44,6 +44,14 @@ class StagingTests(unittest.TestCase):
         self.assertEqual(self.select(run=dict(RUN, run_attempt=2), pages=[{'artifacts': [old, current]}]),
                          (21, HEAD, BASE))
 
+    def test_artifact_pagination_cap_and_duplicate_ids_fail_closed(self):
+        others = [{'id': 1000 + i, 'name': f'unrelated-{i}'} for i in range(998)]
+        self.assertEqual(self.select(pages=[{'artifacts': [ARTIFACT, *others]}])[0], 20)
+        with self.assertRaises(InvalidPreviewArtifact):
+            self.select(pages=[{'artifacts': [ARTIFACT, *others, {'id': 9999, 'name': 'extra'}]}])
+        with self.assertRaises(InvalidPreviewArtifact):
+            self.select(pages=[{'artifacts': [ARTIFACT, {'id': 20, 'name': 'other'}]}])
+
     def test_stale_failed_or_unmatched_inputs_are_rejected(self):
         cases = []
         for field, value in [('state', 'closed'), ('number', 8)]:
