@@ -41,6 +41,14 @@ class PreviewRoundtripWorkflowTests(unittest.TestCase):
             if kind == "tampered":
                 with (downloaded / original.name).open("ab") as handle:
                     handle.write(b"tampered")
+            if kind == "same_size_tampered":
+                altered = downloaded / original.name
+                content = bytearray(altered.read_bytes())
+                content[0] ^= 1
+                altered.write_bytes(content)
+            if kind == "invalid_zip":
+                original.write_bytes(b"not a ZIP")
+                shutil.copyfile(original, downloaded / original.name)
             if kind == "incomplete":
                 with zipfile.ZipFile(original, "w") as archive:
                     archive.writestr("index.html", "ok")
@@ -62,6 +70,8 @@ class PreviewRoundtripWorkflowTests(unittest.TestCase):
     def test_missing_tampered_and_incomplete_archives_fail(self):
         for kind, expected in (("missing", "No such file"),
                                ("tampered", "cmp:"),
+                               ("same_size_tampered", "differ"),
+                               ("invalid_zip", "InvalidPreviewArtifact"),
                                ("incomplete", "Preview is missing required files")):
             with self.subTest(kind=kind):
                 result = self.check_case(kind)

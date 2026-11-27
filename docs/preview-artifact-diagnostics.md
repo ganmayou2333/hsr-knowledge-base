@@ -12,7 +12,7 @@ Wiki quality 的 PR 构建上传预览输入后，立即下载同一运行、PR 
 
 这组样本与此前 #43 中的 12 次单分支样本并非长期独立随机抽样。当前 5 秒和 10 秒等待仅是有限样本支持的折中，不保证覆盖更长故障。仍需真实运行或受控测试覆盖权限不足、服务不可用、产物真正缺失、三次均失败和摘要不匹配；不得根据成功样本声称这些负例已经验证。
 
-2026-11-27 在 Windows、Python 3.14.9 和 Git Bash 执行 `python -m unittest tools.test_preview_roundtrip_workflow -v`：测试直接读取工作流的往返校验 shell 脚本，完整包通过；下载文件缺失、文件被追加篡改、包内容缺失均返回失败。此测试覆盖下载完成后的比较和内容检查，不模拟 GitHub 下载动作的权限、服务错误、摘要校验或 Actions 重试调度。
+2026-11-27 在 Windows、Python 3.14.9 和 Git Bash 执行 `python -m unittest tools.test_preview_roundtrip_workflow -v`：测试直接读取工作流的往返校验 shell 脚本，完整包通过；下载文件缺失、文件被追加或等长篡改、相同但无效的 ZIP、包内容缺失均因对应校验失败。此测试覆盖下载完成后的比较和内容检查，不模拟 GitHub 下载动作的权限、服务错误、摘要校验或 Actions 重试调度。
 
 ## 排查步骤
 
