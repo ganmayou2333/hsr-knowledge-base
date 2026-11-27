@@ -126,9 +126,11 @@ try {
       const trustedList = isRunList && url.includes('wiki-trusted-data.yml');
       const event = trustedList ? 'pull_request_target' : 'pull_request';
       const workflowPath = `.github/workflows/${trustedList ? 'wiki-trusted-data.yml' : 'wiki-quality.yml'}`;
-      const oldRun = {id:trustedList ? 2 : 1,run_attempt:trustedList ? trustedAttempt : 1,event,path:workflowPath,head_sha:head,status:'completed',conclusion:'success',run_started_at:'2026-01-01T00:00:00Z',pull_requests:[{number:37}]};
+      const oldRun = {id:trustedList ? 2 : 1,run_attempt:trustedList ? trustedAttempt : 1,event,path:workflowPath,head_sha:head,status:'completed',conclusion:'success',created_at:'2026-01-01T00:00:00Z',run_started_at:'2026-01-01T00:00:00Z',pull_requests:[{number:37}]};
+      // A rerun of the older success started after a newer failed run.
+      if (!trustedList && newerFailedBuild) oldRun.run_started_at = '2026-01-03T00:00:00Z';
       const newer = (trustedList ? newerRunningTrusted : newerFailedBuild)
-        ? [{...oldRun,id:trustedList ? 4 : 3,status:trustedList ? 'in_progress' : 'completed',conclusion:trustedList ? null : 'failure',run_started_at:'2026-01-02T00:00:00Z'}] : [];
+        ? [{...oldRun,id:trustedList ? 4 : 3,status:trustedList ? 'in_progress' : 'completed',conclusion:trustedList ? null : 'failure',created_at:'2026-01-02T00:00:00Z',run_started_at:'2026-01-02T00:00:00Z'}] : [];
       const data = url.includes('/reviews?') ? [{...review,state:reviewState}]
         : isRunList ? {workflow_runs:[oldRun,...newer]}
         : m.params.request.url.includes('/actions/workflows/') ? {id:42,state:'active',path:'.github/workflows/wiki-trusted-data.yml'}

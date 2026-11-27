@@ -127,23 +127,30 @@
 
   async function latestRun(workflow, event) {
     const path = `.github/workflows/${workflow}`;
-    let latest = null;
+    let latest = null, pending = null, total = 0;
+    const ids = new Set(), dates = new Set();
     for (let page = 1; page <= 11; page++) {
       const result = await json(`https://api.github.com/repos/${REPO}/actions/workflows/${workflow}/runs?event=${event}&head_sha=${manifest.head}&per_page=100&page=${page}`);
       const runs = result.workflow_runs;
       if (!Array.isArray(runs) || runs.length > 100 || (page === 11 && runs.length)) throw new Error('Invalid run list');
+      total += runs.length;
+      if (total >= 1000) throw new Error('Run list may be incomplete');
       for (const run of runs) {
         if (run.event !== event || run.path !== path || run.head_sha !== manifest.head) continue;
         if (!Array.isArray(run.pull_requests) || !run.pull_requests.length) throw new Error('Unbound workflow run');
         const matches = run.pull_requests.filter(item => item.number === Number(number));
         if (!matches.length) continue;
         if (matches.length !== 1 || !Number.isSafeInteger(run.id) || run.id < 1 ||
-            typeof run.run_started_at !== 'string' || !/^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$/.test(run.run_started_at) ||
-            !Number.isFinite(Date.parse(run.run_started_at))) throw new Error('Invalid workflow run');
-        if (!latest || run.run_started_at > latest.run_started_at ||
-            (run.run_started_at === latest.run_started_at && run.id > latest.id)) latest = run;
+            ids.has(run.id) || dates.has(run.created_at) ||
+            ![run.created_at, run.run_started_at].every(value => typeof value === 'string' &&
+              /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$/.test(value) &&
+              Number.isFinite(Date.parse(value)) && new Date(value).toISOString() === value.replace('Z', '.000Z')) ||
+            run.run_started_at < run.created_at) throw new Error('Invalid workflow run');
+        ids.add(run.id); dates.add(run.created_at);
+        if (run.status !== 'completed') pending = run;
+        if (!latest || run.created_at > latest.created_at) latest = run;
       }
-      if (runs.length < 100) return latest;
+      if (runs.length < 100) return pending || latest;
     }
     throw new Error('Too many workflow runs');
   }
