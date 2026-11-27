@@ -1,7 +1,7 @@
 # 知识库规模真值表（`docs/metrics.md`）
 
 > **本文件由 `scripts/gen_metrics.py` 自动生成，请勿手工编辑。**
-> 生成时间：`2026-11-28 01:23:07`
+> 生成时间：`2026-11-28 01:27:18`
 > 重新生成：`python scripts/gen_metrics.py`（幂等：除上一行时间外，两次运行输出逐字节相同）
 > 校验：`python tools/verify_site.py` 的 `[16]` 项解析本文末尾的**机器可读真值**，
 > 与 `README.md` · `docs/README_{en,ja,ko,zh-Hant}.md` · `docs/仓库结构.md` 出现的规模数字逐项比对。
@@ -42,12 +42,12 @@
 |---|---|---|---|
 | `zh_cn/` | 6,623 | 6,623 | 0 |
 | `en_us/` | 5,722 | 5,722 | 0 |
-| `zh_tw/` | 5,713 | 5,713 | 0 |
-| `ja_jp/` | 5,715 | 5,715 | 0 |
-| `ko_kr/` | 5,698 | 5,698 | 0 |
+| `zh_tw/` | 5,715 | 5,715 | 0 |
+| `ja_jp/` | 5,717 | 5,717 | 0 |
+| `ko_kr/` | 5,700 | 5,700 | 0 |
 
 > 数量差是两个计数之差，并非未入库文件数；忽略或未跟踪文件、工作区删除等均可能影响差值。`*/quest/剧情文本/` 的处理见 D-020、D-025。
-> 镜像四语入库均值 5,712.0，十位取整 **各约 5,710**（README 括注口径）。
+> 镜像四语入库均值 5,713.5，十位取整 **各约 5,710**（README 括注口径）。
 
 ---
 
@@ -96,7 +96,7 @@
 | 站点页内链接总数 | 96,439 | `wiki/data/link_report.json` 的 `total`（`build_wiki.py` 产物） |
 | 站点死链数 | **0** | 同上 `dead`（要求 0） |
 | 站点未收录（优雅降级为纯文本） | 30 | 同上 `missing`（合规未入库内容，属预期，不算死链） |
-| 全库双链 `[[…]]` 总数 | 23,289 | `scripts/verify_links.py`（扫描 29,622 个 `.md`） |
+| 全库双链 `[[…]]` 总数 | 23,295 | `scripts/verify_links.py`（扫描 29,628 个 `.md`） |
 | 全库双链死链数 | 53 | 同上（含文档里的示例行，故非 0） |
 | **数据区**（五语目录）双链死链数 | **0** | 同上；**判据（要求 0）**：非 0 时 `verify_links.py` 退出码为 1 |
 
@@ -125,7 +125,7 @@
 | 校验器 | 命令 | 结果 |
 |---|---|---|
 | `verify_fields` | `cd zh_cn && python ../scripts/verify_fields.py`（**必须在 `zh_cn` 下运行**） | 扫描 6,623 个 `.md`；详情 6,085；异常 **0**；已知待补充 **156** |
-| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 23,289；死链 53（其中数据区 **0**） |
+| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 23,295；死链 53（其中数据区 **0**） |
 | `verify_site` | `python tools/verify_site.py`（仓库根） | `[1]`–`[16]` 全 PASS；`[16]` 即比对本文真值 |
 
 ---
@@ -141,12 +141,12 @@
 | `md_worktree_zh_cn` | 6,623 |
 | `md_commit_en_us` | 5,722 |
 | `md_worktree_en_us` | 5,722 |
-| `md_commit_zh_tw` | 5,713 |
-| `md_worktree_zh_tw` | 5,713 |
-| `md_commit_ja_jp` | 5,715 |
-| `md_worktree_ja_jp` | 5,715 |
-| `md_commit_ko_kr` | 5,698 |
-| `md_worktree_ko_kr` | 5,698 |
+| `md_commit_zh_tw` | 5,715 |
+| `md_worktree_zh_tw` | 5,715 |
+| `md_commit_ja_jp` | 5,717 |
+| `md_worktree_ja_jp` | 5,717 |
+| `md_commit_ko_kr` | 5,700 |
+| `md_worktree_ko_kr` | 5,700 |
 | `detail_total` | 6,085 |
 | `detail_character` | 94 |
 | `detail_lightcone` | 172 |
@@ -166,10 +166,10 @@
 | `link_total` | 96,439 |
 | `link_dead` | 0 |
 | `link_missing` | 30 |
-| `wikilink_total` | 23,289 |
+| `wikilink_total` | 23,295 |
 | `wikilink_dead` | 53 |
 | `wikilink_dead_data` | 0 |
-| `wikilink_files` | 29,622 |
+| `wikilink_files` | 29,628 |
 | `vf_issue` | 0 |
 | `vf_known` | 156 |
 | `mirror_commit_avg_round10` | 5,710 |
