@@ -1,5 +1,6 @@
 """Local release activation is atomic and leaves older sites recoverable."""
 import json
+import copy
 import os
 import tempfile
 import threading
@@ -14,6 +15,7 @@ from tools.preview_artifact import InvalidPreviewArtifact
 from tools.preview_release import GRACE_SECONDS, prune, publish
 from tools.preview_release_state import active_site
 from tools.preview_review_server import ReviewServer
+from tools.test_stage_preview import PR, RUN, WORKFLOW, TRUSTED_RUN
 
 HEAD = 'a' * 40
 
@@ -133,6 +135,39 @@ class ReleaseTests(unittest.TestCase):
             publish('owner/repo', self.root, self.root)
         verify.assert_not_called()
         self.assertEqual(active_site(self.root), first)
+
+    def test_real_pre_activation_verifier_rejects_new_failure_and_revoked_approval(self):
+        pr, build, trusted = copy.deepcopy(PR), copy.deepcopy(RUN), copy.deepcopy(TRUSTED_RUN)
+        pr['head']['repo']['id'] = 2
+        build['pull_requests'][0]['head']['repo']['id'] = 2
+        trusted['pull_requests'][0]['head']['repo']['id'] = 2
+        builds = [build]
+        review = {'head': HEAD, 'approved': True}
+        def catalog_api(path):
+            if path.endswith('/pulls/7'): return copy.deepcopy(pr)
+            if path.endswith('/actions/runs/10'): return copy.deepcopy(build)
+            if path.endswith('/actions/runs/11'): return copy.deepcopy(trusted)
+            if path.endswith('/actions/workflows/wiki-trusted-data.yml'): return copy.deepcopy(WORKFLOW)
+            raise AssertionError(path)
+        def verifier_api(path, paginate=False):
+            if path.endswith('/pulls/7'): return copy.deepcopy(pr)
+            if '/wiki-quality.yml/runs?' in path: return [{'workflow_runs': copy.deepcopy(builds)}]
+            if '/wiki-trusted-data.yml/runs?' in path: return [{'workflow_runs': [copy.deepcopy(trusted)]}]
+            raise AssertionError(path)
+        with patch('tools.preview_release.reconcile', side_effect=lambda repo, shell, site: fixture(site)), \
+                patch('tools.preview_catalog.gh_api', side_effect=catalog_api), \
+                patch('tools.verify_preview_publication.gh_api', side_effect=verifier_api), \
+                patch('tools.verify_preview_publication.snapshot', side_effect=lambda *args: copy.deepcopy(review)):
+            self.assertEqual(publish('owner/repo', self.root, self.root), [7])
+            first = active_site(self.root)
+            builds.append(dict(build, id=12, created_at='2026-11-21T00:01:00Z',
+                               run_started_at='2026-11-21T00:01:00Z', conclusion='failure'))
+            with self.assertRaises(InvalidPreviewArtifact): publish('owner/repo', self.root, self.root)
+            self.assertEqual(active_site(self.root), first)
+            builds.pop()
+            review['approved'] = False
+            with self.assertRaises(InvalidPreviewArtifact): publish('owner/repo', self.root, self.root)
+            self.assertEqual(active_site(self.root), first)
 
 
 if __name__ == '__main__':
