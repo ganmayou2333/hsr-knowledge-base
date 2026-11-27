@@ -5,7 +5,7 @@
 > 数据来源：[nanoka 4.7.51 relicset 330](https://static.nanoka.cc/hsr/4.7.51/en/relicset.json) (English name and 2-piece effect text); [Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) "8. Others - Relics" (Planar Ornament "Subspace ASC Center")
 > 数据版本：4.7
 > 实体ID：330
-> 官方Wiki：(no official wiki entry yet)
+> Community reference: [Chinese community Wiki](https://bbs.mihoyo.com/sr/wiki/content/8621/detail); community-edited, not verified official English text.
 > 创建时间：2026-11-14 17:59
 > 更新时间：2026-11-14 17:59
 ---
