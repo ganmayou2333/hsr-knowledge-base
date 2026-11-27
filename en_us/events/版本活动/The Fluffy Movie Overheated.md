@@ -17,7 +17,7 @@
 | Requirement | Trailblaze Level ≥ 21; can be experienced in advance through the "Finality's Vision" function; it is recommended to complete the Trailblaze Mission "Planarcadia — Now, Lay Laughter to All Stars" before starting the event |
 | Related Characters | Blurry_QR_Colt (no library entry); the "Fluffy Across the Blue" cast (no library entries) |
 
-> The Version 4.7 update went live at 2026/11/11 06:00 (UTC+8) according to the same notice.
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
 ## Gameplay
 

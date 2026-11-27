@@ -17,7 +17,7 @@
 | Requirement | Trailblaze Level ≥ 21 |
 | Related Characters | (no library entries: the Herta Space Station collection vault) |
 
-> The Version 4.7 update went live at 2026/11/11 06:00 (UTC+8) according to the same notice.
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
 ## Gameplay
 

@@ -17,7 +17,7 @@
 | Requirement | Trailblaze Level ≥ 4 |
 | Related Characters | [[zh_cn/character/欢愉/星神★阿哈_量子_五星\|Aeon ★ Aha]] (the outfit "Star Lotto" is exclusive to them) |
 
-> The Version 4.7 update went live at 2026/11/11 06:00 (UTC+8) according to the same notice.
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
 ## Gameplay
 

@@ -17,7 +17,7 @@
 | Requirement | Pending (the official notice states no participation requirement) |
 | Related Characters | [[zh_cn/character/虚无/黄泉_雷_五星\|Acheron]] / [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星\|Dan Heng • Imbibitor Lunae]] / [[zh_cn/character/智识/景元_雷_五星\|Jing Yuan]] (the characters who can activate an Affinitive Eidolon) |
 
-> The Version 4.7 update went live at 2026/11/11 06:00 (UTC+8) according to the same notice.
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
 ## Gameplay
 
