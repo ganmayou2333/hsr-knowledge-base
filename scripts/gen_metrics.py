@@ -84,11 +84,14 @@ def git_md_count(lang):
 
 
 def worktree_md_count(lang):
-    """工作区口径：find <lang> -name '*.md' | wc -l。"""
+    """干净工作区口径：data/<lang> 下已跟踪或未忽略的 .md（不含 .gitignore 的本机保留文件）。"""
     d = ROOT / "data" / lang
     if not d.is_dir():
         return None
-    return sum(1 for _ in d.rglob("*.md"))
+    out = subprocess.check_output(
+        ["git", "-c", "core.quotepath=false", "ls-files", "-c", "-o", "--exclude-standard", "--", "data/" + lang],
+        cwd=ROOT)
+    return sum(1 for line in out.split(b"\n") if line.endswith(b".md"))
 
 
 # ---------------- 2. stats.js（build_wiki 产物） ----------------
@@ -181,7 +184,12 @@ def doc_type_counts():
     out = {}
     for d in ("quest", "worldview", "货币战争", "rules"):
         p = ROOT / "data" / "zh_cn" / d
-        out[d] = sum(1 for _ in p.rglob("*.md")) if p.is_dir() else None
+        if not p.is_dir():
+            out[d] = None
+            continue
+        raw = subprocess.check_output(
+            ["git", "-c", "core.quotepath=false", "ls-files", "-c", "-o", "--exclude-standard", "--", "data/zh_cn/" + d], cwd=ROOT)
+        out[d] = sum(1 for line in raw.split(b"\n") if line.endswith(b".md"))
     return out
 
 
@@ -283,7 +291,7 @@ def render(m, now):
     a("| 指标 | 口径 | 实测命令 |")
     a("|---|---|---|")
     a("| **入库数** | `git ls-tree` 口径：生成时 `HEAD` 提交中的文件。CI 与线上内容取决于各自检出和部署的提交。 | `git ls-tree -r --name-only HEAD -- <lang> \\| grep -c '\\.md$'` |")
-    a("| **工作区数** | 本地磁盘实际文件数，**含实际存在的 gitignore 文件，例如 `*/quest/剧情文本/`**（D-020/D-025 合规撤下、不入库）。 | `find <lang> -name '*.md' \\| wc -l` |")
+    a("| **工作区数** | 干净工作区：未被 `.gitignore` 排除的 `.md`，**不含本机保留的来源受限文件**（如 `data/*/quest/剧情文本/`，D-020/D-025 不入库）。 | `git ls-files -c -o --exclude-standard -- data/<lang> \| grep -c '\.md$'` |")
     a("| **详情文件** | 含 `> 实体ID：` 元信息，且排除「文件名 == 上级目录名」的索引 / 分组文件与类别主索引（D-048 / D-061 / D-067）。 | `cd data/zh_cn && python ../../scripts/verify_fields.py` |")
     a("| **页面数** | `zh_cn/` 每个 `.md` 一页；构建产物反映构建时工作区，不一定是生成统计时的工作区。 | `python wiki/build_wiki.py` |")
     a("")
@@ -296,7 +304,7 @@ def render(m, now):
     a("")
     a("| 指标 | 值 | 说明 |")
     a("|---|---|---|")
-    a("| `zh_cn` 页面数（静态站） | **%s** | `wiki/data/stats.js` 的 `pages`（构建时快照）；统计时工作区 `.md` 数 %s |"
+    a("| `zh_cn` 页面数（本机构建快照） | **%s** | `wiki/data/stats.js` 的 `pages`；本机构建含本机保留的来源受限页，公开站以入库数为准；统计时干净工作区 `.md` 数 %s |"
       % (fmt(m["pages"]), fmt(m["md_worktree_zh_cn"])))
     a("| `zh_cn` 入库 `.md` | **%s** | 工作区 %s，与 HEAD 数量差 %s；原因需逐项核对 |"
       % (fmt(m["md_commit_zh_cn"]), fmt(m["md_worktree_zh_cn"]),

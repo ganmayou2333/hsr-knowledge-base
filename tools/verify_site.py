@@ -742,7 +742,7 @@ def _nums(line, pattern):
 #   D. `zh_cn/` 合计行（仅 README.md）
 #      锚点：^\|\s*`zh_cn/`\s*\|   取值：最后一个单元格（允许前导 ≈）
 #
-#   E. wiki 页数（仅 README.md）
+#   E. wiki 页数（仅 README.md；公开站口径 = 入库数 md_commit_zh_cn，本机构建另含本机保留的来源受限页）
 #      锚点：(\d[\d,]*)\s*页（=`      与 `pages` 比对
 #
 #   F. `zh_cn/` 规模（仅 docs/仓库结构.md，§一 顶层结构表）
@@ -892,8 +892,8 @@ def check_metrics():
             if mp:
                 bump("E")
                 got = int(mp.group(1).replace(",", ""))
-                if got != truth["pages"]:
-                    bad.append((path, "wiki 页数 文档=%d 真值=%d" % (got, truth["pages"])))
+                if got != truth["md_commit_zh_cn"]:
+                    bad.append((path, "wiki 页数 文档=%d 真值=%d" % (got, truth["md_commit_zh_cn"])))
             # ---- F：仓库结构 §一 的 zh_cn 规模 ----
             ms = re.search(RE_ZHCN_STRUCT, ln)
             if ms:
