@@ -24,9 +24,9 @@
 
 ---
 
-## 二、全量索引（114 个文件）
+## 二、全量索引
 
-### 根目录（26）
+### 根目录（28）
 
 - [Data Sources](data-sources.md)
 - [GitHub Wiki 可行性评估（Lead）](github_wiki可行性评估.md)
@@ -47,6 +47,8 @@
 - [三月七（冰·存护）](三月七_冰_四星_详细示例.md)
 - [E2 专名对照表（总索引）](专名对照表.md)
 - [仓库结构说明（目录规范 · 入库边界 · 清理规则）](仓库结构.md)
+- [Wiki 构建验证与复现限制](wiki-build.md)
+- [PR 预览产物下载重试与诊断（issue #43）](issue-43-预览产物下载重试.md)
 - [多语言数据查找与分类行动准则](多语言数据查找行动准则_DeepSeek.md)
 - [4.6 版本对账报告（A1 / A2 / A3）](对账_4.6.md)
 - [待补充清单](待补充清单.md)
@@ -163,9 +165,15 @@
 
 - [测试报告 · 站点视觉重构（R1）+ 角色 hero 动画（R2）](test-reports/site-hero.md)
 
-### 取证记录（1）
+### 取证记录（7）
 
 - [E2 专名对照表：仙舟将军 / 龙尊（五语）](evidence/xianzhou_generals_5lang.md)
+- [敌人库与本地第三方游戏数据交叉核验（issue #52，2026-11-28）](evidence/enemy-game-data-2026-11-28.md)
+- [博识学会成员与基地：游戏内文本第三方转储取证（issue #2，2026-11-28）](evidence/guild-members-textmap-thirdparty-2026-11-28.md)
+- [仙舟 9 艘与将军/元帅页双链核查（issue #4，2026-11-28）](evidence/xianzhou-doublelink-check-2026-11-28.md)
+- [多语言活动镜像对应台账（issue #35，2026-11-28）](evidence/mirror-activity-ledger-2026-11-28.md)
+- [多语言镜像标记覆盖统计（issue #35，2026-11-28）](evidence/mirror-marking-coverage-2026-11-28.md)
+- [PR 预览与合并治理现状复核（#36/#40/#41/#42，2026-11-28）](evidence/preview-status-2026-11-28.md)
 
 ---
 
