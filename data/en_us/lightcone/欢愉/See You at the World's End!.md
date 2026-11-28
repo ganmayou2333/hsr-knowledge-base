@@ -41,8 +41,8 @@ Superimposition 1–5 values (nanoka `param_list`): CRIT DMG 6% / 7% / 8% / 9% /
 ## Ascension Materials
 
 - Level 80 / x308,000 / x3 / x9 / x12 / x15 / x15 / x12
-  - Path materials (Elation): The Fluffy Hand-drawn Storyboards ×3 / The Fluffy Serialization Memorial Issue ×9 / The Fluffy Collector's Edition ×12 ([[zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿|The Fluffy Hand-drawn Storyboards]] / [[zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊|The Fluffy Serialization Memorial Issue]] / [[zh_cn/items/Material/TracePath/《绒绒号》典藏版合集|The Fluffy Collector's Edition]])
-  - Monster materials: Whimsy Wax ×15 / Dreamweave Steel ×15 / Lucid Awl ×12 ([[zh_cn/items/Material/CommonMonsterDrop/童真蜡笔|Whimsy Wax]] / [[zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢|Dreamweave Steel]] / [[zh_cn/items/Material/CommonMonsterDrop/梦现管锥|Lucid Awl]], names matched to the library's item entries by entity ID 116001 / 116002 / 116003)
+  - Path materials (Elation): The Fluffy Hand-drawn Storyboards ×3 / The Fluffy Serialization Memorial Issue ×9 / The Fluffy Collector's Edition ×12 ([[data/zh_cn/items/Material/TracePath/《绒绒号》手绘分镜稿|The Fluffy Hand-drawn Storyboards]] / [[data/zh_cn/items/Material/TracePath/《绒绒号》连载纪念刊|The Fluffy Serialization Memorial Issue]] / [[data/zh_cn/items/Material/TracePath/《绒绒号》典藏版合集|The Fluffy Collector's Edition]])
+  - Monster materials: Whimsy Wax ×15 / Dreamweave Steel ×15 / Lucid Awl ×12 ([[data/zh_cn/items/Material/CommonMonsterDrop/童真蜡笔|Whimsy Wax]] / [[data/zh_cn/items/Material/CommonMonsterDrop/造梦蘸钢|Dreamweave Steel]] / [[data/zh_cn/items/Material/CommonMonsterDrop/梦现管锥|Lucid Awl]], names matched to the library's item entries by entity ID 116001 / 116002 / 116003)
 
 ---
 
