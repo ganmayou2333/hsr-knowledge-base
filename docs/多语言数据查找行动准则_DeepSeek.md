@@ -15,11 +15,11 @@
 ### 1.2 目标语言
 | 语言代码 | 语言名称 | 文件夹名 | 优先级 |
 |----------|----------|----------|--------|
-| `zh-CN` | 简体中文 | `zh_cn/` | 已有（基准） |
-| `zh-TW` | 繁体中文 | `zh_tw/` | P0 |
-| `en-US` | 英语 | `en_us/` | P0 |
-| `ja-JP` | 日文 | `ja_jp/` | P1 |
-| `ko-KR` | 韩文 | `ko_kr/` | P1 |
+| `zh-CN` | 简体中文 | `data/zh_cn/` | 已有（基准） |
+| `zh-TW` | 繁体中文 | `data/zh_tw/` | P0 |
+| `en-US` | 英语 | `data/en_us/` | P0 |
+| `ja-JP` | 日文 | `data/ja_jp/` | P1 |
+| `ko-KR` | 韩文 | `data/ko_kr/` | P1 |
 
 ### 1.3 数据范围
 | 目录 | 当前文件数 | 需多语言化 | 优先级 |
@@ -85,7 +85,7 @@
 ### 3.1 多语言目录结构
 ```
 G:\HSR\
-├── zh_cn/                    # 简体中文（基准，现有数据迁移）
+├── data/zh_cn/                    # 简体中文（基准，现有数据迁移）
 │   ├── character/
 │   ├── lightcone/
 │   ├── relic/
@@ -93,22 +93,22 @@ G:\HSR\
 │   ├── simulated/
 │   ├── quest/
 │   └── worldview/
-├── zh_tw/                    # 繁体中文
+├── data/zh_tw/                    # 繁体中文
 │   └── ...
-├── en_us/                    # 英语
+├── data/en_us/                    # 英语
 │   └── ...
-├── ja_jp/                    # 日文
+├── data/ja_jp/                    # 日文
 │   └── ...
-└── ko_kr/                    # 韩文
+└── data/ko_kr/                    # 韩文
     └── ...
 ```
 
 ### 3.2 文件命名规范
 - 文件名与简体中文版保持一致（使用ID或官方名称拼音/英文）
 - 示例：
-  - `zh_cn/character/毁灭/克拉拉_物理_五星.md`
-  - `en_us/character/毁灭/Clara_Physical_5Star.md`
-  - `ja_jp/character/滅/クララ_物理_五星.md`
+  - `data/zh_cn/character/毁灭/克拉拉_物理_五星.md`
+  - `data/en_us/character/毁灭/Clara_Physical_5Star.md`
+  - `data/ja_jp/character/滅/クララ_物理_五星.md`
 
 ### 3.3 文件内容结构
 每个多语言文件应包含：

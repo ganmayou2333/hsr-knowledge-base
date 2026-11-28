@@ -768,8 +768,8 @@ METRIC_DOCTYPE_DIRS = ("quest", "worldview", "货币战争", "rules")
 METRIC_MIRRORS = ("en_us", "zh_tw", "ja_jp", "ko_kr")
 RE_CAT_ROW = r"^\|\s*`?(%s)/?`?\s*\|" % "|".join(
     re.escape(k) for k in list(METRIC_DIR_KEY) + list(METRIC_DOCTYPE_DIRS))
-RE_MIRROR_ROW = r"^\|\s*`en_us/`"
-RE_ZHCN_ROW = r"^\|\s*`zh_cn/`\s*\|"
+RE_MIRROR_ROW = r"^\|\s*`data/en_us/`"
+RE_ZHCN_ROW = r"^\|\s*`data/zh_cn/`\s*\|"
 RE_PAGES = r"(\d[\d,]*)\s*页（=`"
 RE_ZHCN_STRUCT = r"([\d,]+)\s*`\.md`（入库\s*([\d,]+)）"
 RE_DOCTYPE_NOTE = r"依次为\s*(\d+)\s*/\s*(\d+)\s*/\s*(\d+)\s*/\s*(\d+)"

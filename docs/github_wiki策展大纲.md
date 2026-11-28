@@ -43,7 +43,7 @@
 
 ### 5. `贡献指南`
 - 命名与字段规范（指向 `格式规范与要求.md`）；
-- 双链写法 `[[zh_cn/<路径>|<显示名>]]`（表格内转义 `\|`）；
+- 双链写法 `[[data/zh_cn/<路径>|<显示名>]]`（表格内转义 `\|`）；
 - **提交前必跑**：`python wiki/build_wiki.py`（dead 0）、`python scripts/verify_links.py`（exit 0）、`cd zh_cn && python ../scripts/verify_fields.py`（异常 0）；
 - 提交纪律：显式路径 `git add`，禁用 `git add -A`；**发布用构建必须在纯净检出里验收**（D-044）。
 
