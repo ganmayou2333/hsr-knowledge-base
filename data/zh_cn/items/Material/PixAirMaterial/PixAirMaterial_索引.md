@@ -5,7 +5,7 @@
 > 创建时间：2026-08-30 12:25
 > 更新时间：2026-08-30 21:54
 
-[[zh_cn/items/Material/Material_索引|返回Material索引]] · [[zh_cn/items/物品总索引|返回物品总索引]]
+[[data/zh_cn/items/Material/Material_索引|返回Material索引]] · [[data/zh_cn/items/物品总索引|返回物品总索引]]
 
 ---
 
@@ -19,5 +19,5 @@
 
 ### ★★★★★
 
-- [[zh_cn/items/Material/PixAirMaterial/像素核心卡带|像素核心卡带]]（ID: 268201）
+- [[data/zh_cn/items/Material/PixAirMaterial/像素核心卡带|像素核心卡带]]（ID: 268201）
 
