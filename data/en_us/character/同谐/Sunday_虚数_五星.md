@@ -1,0 +1,416 @@
+# Sunday
+
+> 数据来源：[https://hsr.nanoka.cc/character/1313](https://hsr.nanoka.cc/character/1313)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/4174/detail](https://bbs.mihoyo.com/sr/wiki/content/4174/detail)
+> 数据版本：4.5
+> 实体ID：1313
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1313；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
+
+---
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Character Name | Sunday |
+| Path | Harmony |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 银河 |
+| Introduction | The benevolent and revered leader of the Oak Family and Sweetdream Paradise. Garners great respect from the outside world and is Robin's elder brother. |
+| Role | A supporting role that allows our side's characters and their summoned creatures to act immediately. |
+
+### Voice Actors
+
+| Language | VA |
+|---|---|
+| Japanese | 大塚剛央 |
+| English | Griffin Puatu |
+| Chinese | 徐翔 |
+| Korean | 강성우 |
+
+---
+
+## Base Stats (Lv.80)
+
+| Attribute | Value |
+|---|---|
+| Base HP | 1,242 |
+| Base ATK | 640 |
+| Base DEF | 534 |
+| Base SPD | 96 |
+| Taunt | 100 |
+| Max Energy | 130 |
+
+---
+
+## Ascension Materials (Lv.1 → Lv.80)
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[data/zh_cn/items/Material/AvatarRank/一曲合弦的幻景\|Chordal Mirage]] | 65 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
+
+---
+## Skill Materials
+
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[data/zh_cn/items/Material/TracePath/云际音符\|Firmament Note]] | 12 |
+| [[data/zh_cn/items/Material/TracePath/空际小节\|Celestial Section]] | 53 |
+| [[data/zh_cn/items/Material/TracePath/天外乐章\|Heavenly Melody]] | 101 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/同愿的遗音\|Lost Echo of the Shared Wish]] | 9 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 33 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 46 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 28 |
+
+---
+## Skills
+### Basic ATK：Gleaming Admonition
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Sunday's ATK to one designated enemy.
+
+- **Level Table**：
+| Level | Param 1 (%) |
+  |---|---|
+  | Lv.1 | 50% |
+  | Lv.2 | 60% |
+  | Lv.3 | 70% |
+  | Lv.4 | 80% |
+  | Lv.5 | 90% |
+  | Lv.6 | 100% |
+  | Lv.7 | 110% |
+  | Lv.8 | 120% |
+  | Lv.9 | 130% |
+  | Lv.10 | 140% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于星期日___%攻击力的虚数属性」
+
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Sunday's ATK to one designated enemy.
+
+### Skill：Benison of Paper and Rites
+- **Type**：Skill
+- **Summary**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt. If the target has a summon, then the DMG dealt increase is further boosted.
+After using Skill on The Beatified, recovers 1 Skill Point.
+When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.
+对【蒙福者】施放战技后恢复1个战技点。
+当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。
+- **Max Level**：15
+- **Effect Template**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by #2[i]%. If the target has a summon, then the DMG Boost effect is further boosted by an additional #4[i]%, lasting for #3[i] turn(s).
+After using Skill on The Beatified, recovers 1 Skill Point.
+When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.
+
+- **Level Table**：
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 (%) |
+  |---|---|---|---|---|
+  | Lv.1 | 1 | 15% | 2 | 25% |
+  | Lv.2 | 1 | 16.5% | 2 | 27.5% |
+  | Lv.3 | 1 | 18% | 2 | 30% |
+  | Lv.4 | 1 | 19.5% | 2 | 32.5% |
+  | Lv.5 | 1 | 21% | 2 | 35% |
+  | Lv.6 | 1 | 22.5% | 2 | 37.5% |
+  | Lv.7 | 1 | 24.37% | 2 | 40.62% |
+  | Lv.8 | 1 | 26.25% | 2 | 43.75% |
+  | Lv.9 | 1 | 28.12% | 2 | 46.88% |
+  | Lv.10 | 1 | 30% | 2 | 50% |
+  | Lv.11 | 1 | 31.5% | 2 | 52.5% |
+  | Lv.12 | 1 | 33% | 2 | 55% |
+  | Lv.13 | 1 | 34.5% | 2 | 57.5% |
+  | Lv.14 | 1 | 36% | 2 | 60% |
+  | Lv.15 | 1 | 37.5% | 2 | 62.5% |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「并使其造成的伤害提高___%，若目标拥有召唤」
+  - `#3[i]`回 → Param 3: 上下文「高#4[i]%，持续___回合。 对【蒙福者」
+  - `#4[i]`% → Param 4 (%): 上下文「伤害提高效果额外提高___%，持续#3[i]」
+
+- **Max Effect**：Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by 37.5%. If the target has a summon, then the DMG Boost effect is further boosted by an additional 62.5%, lasting for 2 turn(s).
+After using Skill on The Beatified, recovers 1 Skill Point.
+When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.
+
+### Ultimate：Ode to Caress and Cicatrix
+- **Type**：Ultimate
+- **Summary**：Regenerates Energy for one designated ally character and turns the target and their summon into "The Beatified." "The Beatified" increases their CRIT DMG.
+- **Max Level**：15
+- **Effect Template**：Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.
+At the start of Sunday's every turn, the duration of "The Beatified" decreases by 1 turn, lasting for a total of #3[i] turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, "The Beatified" will also be dispelled.
+星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续#3[i]回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。
+
+- **Level Table**：
+| Level | Param 1 | Param 2 | Param 3 | Param 4 |
+  |---|---|---|---|---|
+  | Lv.1 | 20% | 12% | 3 | 8% |
+  | Lv.2 | 20% | 13.8% | 3 | 8.4% |
+  | Lv.3 | 20% | 15.6% | 3 | 8.8% |
+  | Lv.4 | 20% | 17.4% | 3 | 9.2% |
+  | Lv.5 | 20% | 19.2% | 3 | 9.6% |
+  | Lv.6 | 20% | 21% | 3 | 10% |
+  | Lv.7 | 20% | 23.25% | 3 | 10.5% |
+  | Lv.8 | 20% | 25.5% | 3 | 11% |
+  | Lv.9 | 20% | 27.75% | 3 | 11.5% |
+  | Lv.10 | 20% | 30% | 3 | 12% |
+  | Lv.11 | 20% | 31.8% | 3 | 12.4% |
+  | Lv.12 | 20% | 33.6% | 3 | 12.8% |
+  | Lv.13 | 20% | 35.4% | 3 | 13.2% |
+  | Lv.14 | 20% | 37.2% | 3 | 13.6% |
+  | Lv.15 | 20% | 39% | 3 | 14% |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「持续回合减1，共持续___回合。且仅对除星期」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+
+- **Max Effect**：Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.
+At the start of Sunday's every turn, the duration of "The Beatified" decreases by 1 turn, lasting for a total of 3 turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, "The Beatified" will also be dispelled.
+
+### Talent：The Sorrowing Body
+- **Type**：Talent
+- **Summary**：When using Skill, increases the target's CRIT Rate.
+- **Max Level**：15
+- **Effect Template**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for #2[i] turn(s).
+
+- **Level Table**：
+| Level | Param 1 | Param 2 |
+  |---|---|---|
+  | Lv.1 | 10% | 3 |
+  | Lv.2 | 11% | 3 |
+  | Lv.3 | 12% | 3 |
+  | Lv.4 | 13% | 3 |
+  | Lv.5 | 14% | 3 |
+  | Lv.6 | 15% | 3 |
+  | Lv.7 | 16.25% | 3 |
+  | Lv.8 | 17.5% | 3 |
+  | Lv.9 | 18.75% | 3 |
+  | Lv.10 | 20% | 3 |
+  | Lv.11 | 21% | 3 |
+  | Lv.12 | 22% | 3 |
+  | Lv.13 | 23% | 3 |
+  | Lv.14 | 24% | 3 |
+  | Lv.15 | 25% | 3 |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`回 → Param 2: 上下文「#1[f1]%，持续___回合。」
+
+- **Max Effect**：When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for 3 turn(s).
+
+### Technique：The Glorious Mysteries
+- **Type**：Technique
+- **Summary**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases.
+- **Max Level**：1
+- **Effect Template**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 |
+  |---|---|---|
+  | Lv.1 | 50% | 2 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「使目标造成的伤害提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。」
+
+- **Max Effect**：After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by 50%, lasting for 2 turn(s).
+
+## Trace Bonuses
+
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 主日渴慕 | 晋阶2 | 施放终结技时，若为目标恢复的能量不足#1[i]点，恢复的能量提高至#1[i]点。 | 施放终结技时，若为目标恢复的能量不足40点，恢复的能量提高至40点。 | 信用点×5000、云际音符×3、同愿的遗音×1 |
+| 附加能力2 | 崇高拂尘 | 晋阶4 | 战斗开始时，星期日恢复#1[i]点能量。 | 战斗开始时，星期日恢复25点能量。 | 信用点×20000、空际小节×5、命运的足迹×1、同愿的遗音×1 |
+| 附加能力3 | 掌中安港 | 晋阶6 | 施放战技时，解除目标的#1[i]个负面效果。 | 施放战技时，解除目标的1个负面效果。 | 信用点×160000、天外乐章×8、命运的足迹×1、同愿的遗音×1 |
+
+## Stat Bonuses
+
+| Attribute | 加成 |
+|---|---|
+| DEF | 12.5% |
+| 暴击伤害 | 37.3% |
+| 效果抵抗 | 18% |
+
+---
+
+## Eidolons
+
+| Eidolons | Name | Effect |
+|---|---|---|
+| E1 | Millennium's Quietus | When Sunday uses Skill, the target character can ignore 16% of enemy target's DEF to deal DMG and their summon can ignore 40% of enemy target's DEF to deal DMG, lasting for 2 turn(s). |
+| E2 | Faith Outstrips Frailty | After the first use of Ultimate, recovers 2 Skill Point(s). The DMG dealt by "The Beatified" increases by 30%. |
+| E3 | Hermitage of Thorns | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10. |
+| E4 | Sculpture's Preamble | When the turn starts, regenerates 8 Energy. |
+| E5 | Paper Raft in Silver Bay | Skill Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15. |
+| E6 | Dawn of Sidereal Cacophony | The Talent's CRIT Rate boost effect becomes stackable up to 3 time(s), and the Talent's duration increases by 1 turn(s). When Sunday uses Ultimate, can also apply the Talent's CRIT Rate boost effect to the target. When the Talent's CRIT Rate boost takes effect and the target's CRIT Rate exceeds 100%, every 1% of excess CRIT Rate increases CRIT DMG by 2%. |
+
+---
+
+## Recommended Relics
+
+**主词条推荐**：暴击伤害 / 速度 / 生命值 / 能量恢复效率
+
+**推荐副词条**：暴击伤害 / 速度 / 效果抵抗
+
+#### 4-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/隧洞遗器/重循苦旅的司铎\|Sacerdos' Relived Ordeal]] | 对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。 |
+| [[data/zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[data/zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+
+#### 2-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+| [[data/zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[data/zh_cn/relic/位面饰品/生命的翁瓦克\|Sprightly Vonwacq]] | 使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。 |
+
+---
+
+## Recommended Light Cones
+
+### [[data/zh_cn/lightcone/同谐/回到大地的飞行.md|A Grounded Ascent]]
+
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Departing Anew
+- **Effect**：After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates #1[f1] Energy and the ability's target receives 1 stack of "Hymn" for 3 turn(s), stacking up to 3 time(s). Each stack of "Hymn" increases its holder's DMG dealt by 15%. After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.
+
+### [[data/zh_cn/lightcone/同谐/但战斗还未结束.md|But the Battle Isn't Over]]
+
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Heir
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).
+
+### [[data/zh_cn/lightcone/同谐/游戏尘寰.md|Earthly Escapade]]
+
+- **Base Stats**：HP1164 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Capriciousness
+- **Effect**：Increases the wearer's CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's teammates have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turn(s).
+
+### [[data/zh_cn/lightcone/同谐/过往未来.md|Past and Future]]
+
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Kites From the Past
+- **Effect**：When the wearer uses their Skill, the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).
+
+## Recommended Teams
+
+| 主C | 辅助 | 生存 |
+|---|---|---|
+| [[data/zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[data/zh_cn/character/智识/景元_雷_五星.md\|景元]] | [[data/zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[data/zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[data/zh_cn/character/虚无/黄泉_雷_五星.md\|Acheron]] | [[data/zh_cn/character/虚无/椒丘_火_五星.md\|椒丘]] |
+| [[data/zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[data/zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[data/zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
+| [[data/zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[data/zh_cn/character/丰饶/娜塔莎_物理_四星.md\|Natasha]] | [[data/zh_cn/character/巡猎/丹恒_风_四星.md\|丹恒]] |
+
+*文件生成时间：2026-08-27*
+
+## Character Story
+「秩序」的美梦已然消散，但仍有人不会放下初愿。
+——折翼坠地的旅人，他的脚步将迈向何方？
+
+### Character Story·1（解锁条件：Character Level 20）
+
+「亲爱的妹妹：
+
+你留给我的甜点我都已经吃掉啦！都怪布丁蛋挞太好吃了，上音乐课前我忍不住吃了三个！结果很不幸，大巫婆大嗓门老师说我嗓子齁着，唱起歌来像小鸭叫，让我出去罚站——你猜怎么样？嘿嘿，我在教室外面吃掉了第四个！
+
+好在我的钢琴练得不错，大块头老师每次都夸我有天赋。现在只要听过一段旋律，我就可以把它原原本本复弹出来，和你一样厉害吧！等你下次回来，我们可以四手联弹，我也可以为你伴奏，我们可以再办一场演唱会！
+
+我们的小鸟你不用担心，已经能飞得比昨天更高一点了。最近天气不错，它应该很快就能飞走了！下午我去打扫妈妈的墓时，瞧见了好几只和它一模一样的小鸟，我们的小鸟也会很快加入它们的！
+
+时间过得真快啊，我最近开始跟着教堂里的「铎音」学习家族的课程了。这说明——我以后一定会变成特别特别厉害的人！到那个时候，我们一起，一定会把梦境变成特别好特别好的地方！
+
+随信给你寄了一些新口味苏乐达饮料，有的味道是有点怪怪的，但很好玩，还是想让你尝尝。如果你还想喝，我再寄一些过来！
+（如果有看到好吃的布丁蛋挞，也给我寄点！）
+不要太累了哦！
+
+
+永远支持你的！
+哥哥」
+
+——一封古旧的家书，珍藏于旅行箱的暗格中
+
+### Character Story·2（解锁条件：Character Level 40）
+
+「亲爱的妹妹：
+
+寄来的唱片我已收到，我跟着弹了几首，十分精彩。现在匹诺康尼的唱片店人满为患，街上到处都是你的新专辑海报，好多人总是向我赞美你，并打听是否能拿到你的签名。
+
+你最近不回来也好。现在的匹诺康尼今时不同往昔，逐梦客蜂拥而入，经济像井喷一样发展，但梦境也比以前混乱多了，换作以前，我不曾想到「铎音」会面临如此艰巨的挑战。
+
+企业家为了垄断行业，制定了极其不合理的工作时间，梦境里的工人经常要连续工作十二个系统时才能休息，但到手的却只有一笔微薄的工资。投机和高风险产业遍布匹诺康尼，逐梦客们为了泡沫般的愿望来到这里，最终却成了流浪汉中的一员……
+
+此前一位偷渡客向我求助，说他倾尽所有才能留在匹诺康尼，却被猎犬家系发现。他向我保证日后一定会还清自己的所有欠债，因此我才向猎犬家系请求，对他网开一面。只是每当我想到这样的人在匹诺康尼还有许多，便不免怀疑是否所有人都能做出正确的选择。
+
+算算日期，信寄到的时候你应该也要启程开始下一轮巡演了。匹诺康尼的事你不必操心，我知道你心地善良，但不是所有人都如你这般。一定记得保护好自己。
+
+你永远的后盾，
+星期日」
+
+——一封泛黄的家书，放在唱片盒中
+
+### Character Story·3（解锁条件：Character Level 60）
+
+「亲爱的妹妹：
+
+星系特产我已收到，谐乐大典在即，事务繁忙，等有时间了我仔细品尝。
+
+关于家族中出了叛徒一事，情况我已知悉。你的猜想不错，此事的确与你注意到的死亡案件相关，更和那位神秘的「钟表匠」脱不开关系。但你离开匹诺康尼已久，不熟悉这里的情况，切不可轻举妄动。
+
+至于失声一事，你的当务之急是好好修养，若是身体确实不适，谐乐大典的事我会和梦主商议，看能否做特殊处理。你认为失声是因为匹诺康尼的「同谐」并不纯粹，我同意。匹诺康尼唯一称得上纯粹的，或许只有人的「贪欲」而已。
+
+对不▇▇▇▇▇▇▇▇▇▇▇未曾和你▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇错▇▇▇▇▇▇▇▇▇▇▇▇罪恶深恶痛绝，▇▇▇▇▇▇▇▇▇▇▇美梦的辉煌▇▇▇▇▇▇▇▇▇堕落与不堪。
+
+自从担任家主以来，有很多话我不能说，有很多事我不能做，但这不代表我对梦里的一切熟视无睹。
+我们也许都在新的道路上前进着，但我唯一能向你保证的，是我从未辜负我许下的诺言。
+
+
+橡木家系家主 星期日
+朝露公馆，朝露的时刻
+匹诺康尼（梦境）
+阿斯德纳星系」
+
+——一封新近的家书，笔迹潦草，涂抹众多
+
+### Character Story·4（解锁条件：Character Level 80）
+
+「亲爱的妹妹：
+
+许久未写信了。
+
+往后的一段时间里，或许会有一阵子没法联系了，但我向你保证，这不会是寄给你的最后一封信。
+
+一条充满希望的路也许只是一条充满诱惑的路，感谢你们，我还没有迷失得太远。以我现在的身份，我能补偿的不多，只能清除残留在匹诺康尼的秩序余响。如此，梦境便不会再有「秩序」的隐患了。
+
+为了一睹天空的容貌，折翼的鸟儿也会选择再次出发。就像我们小时候共同养育的那只鸟儿，即便明知有坠落的可能，它也要飞上天空，因为那是它的宿命。我不会忘记我们「让所有人幸福」的愿望，但现在我必须离开，去往更广阔的世界找寻实现的道路。这是我的命运，也是我的选择。
+
+瓦尔特先生已同意我登上列车，作为搭车客前往寻找我的应许之地。他们为人和善，品行高洁，你应当比我更了解。
+
+很多时候，你不说，我还把你当成那个需要被人保护的孩子。但你早就长大了，匹诺康尼有你在，我很放心。
+
+母亲的墓我已打扫过了，我折了一朵蓝花带在身旁，她会像一直以来那样祝福我们。
+
+最后，谢谢你送的巨恐鸟布丁蛋挞，这么多年过去，它们还是那个令人怀念的味道。
+
+在路上的，
+哥哥」
+
+——一封未署名的信，留在了美梦的某个角落

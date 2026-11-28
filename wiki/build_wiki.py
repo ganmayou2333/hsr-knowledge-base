@@ -13,7 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 PAGES = WIKI / "pages"
 DATA = WIKI / "data"
-SRC = ROOT / "zh_cn"
+SRC = ROOT / "data" / "zh_cn"
 TIMELINE_DATA = DATA / "timeline.js"
 TIMELINE_SRC = "quest/主线任务"          # 时间线唯一数据源（已入库，CI 安全）
 STATS_DATA = DATA / "stats.js"           # 首页仪表盘数据（W-4.6-87）
@@ -114,7 +114,9 @@ def convert_inline(text, depth, current_rel=""):
         """把链接目标解析为 PAGE_SET key（剥 zh_cn/、.md，相对路径基于 current_rel 所在目录）"""
         if t.endswith(".md"):
             t = t[:-3]
-        if t.startswith("zh_cn/"):
+        if t.startswith("data/zh_cn/"):
+            t = t[len("data/zh_cn/"):]
+        elif t.startswith("zh_cn/"):
             t = t[6:]
         # 相对路径：不以顶层目录开头时，基于当前页面所在目录拼接
         if not t.startswith(TOP_DIRS):
@@ -624,7 +626,7 @@ def main():
 </div>
 {meta_html}
 <nav class="pager">{prev_nxt}</nav>
-<footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0） · <a class="fb-link" href="https://github.com/ganmayou2333/hsr-knowledge-base/issues/new?title={urlq('[错误反馈] ' + title)}&body={urlq('源文件：zh_cn/' + rel)}">报告本页错误</a></footer>
+<footer class="site-footer">© 米哈游版权所有 · 本站为非官方、非商业同人整理，与 HoYoverse 无关联 · 由 AGPL-3.0 项目（许可仅覆盖代码与编排）hsr-knowledge-base 生成 · 图标数据来自 StarRailRes（AGPL-3.0） · <a class="fb-link" href="https://github.com/ganmayou2333/hsr-knowledge-base/issues/new?title={urlq('[错误反馈] ' + title)}&body={urlq('源文件：data/zh_cn/' + rel)}">报告本页错误</a></footer>
 </main>
 <script src="{up}assets/theme.js"></script>
 {extra_scripts}

@@ -13,16 +13,16 @@ LABEL = "本地化来源：非官方".encode("utf-8")
 
 def main():
     raw = subprocess.check_output(
-        ["git", "ls-files", "-z", "--", "zh_cn", *LANGS], cwd=ROOT
+        ["git", "ls-files", "-z", "--", "data/zh_cn", *[f"data/{l}" for l in LANGS]], cwd=ROOT
     )
-    paths = [p.decode("utf-8") for p in raw.split(b"\0") if p.endswith(b".md")]
+    paths = [p.decode("utf-8")[len("data/"):] for p in raw.split(b"\0") if p.endswith(b".md")]
     counts = Counter()
     for path in paths:
         lang, _, rest = path.partition("/")
         if lang not in LANGS:
             continue
         # Match gen_metrics.py's marker and 8192-byte window, but only tracked paths.
-        with (ROOT / path).open("rb") as f:
+        with (ROOT / "data" / path).open("rb") as f:
             labeled = LABEL in f.read(8192)
         category = rest.split("/", 1)[0]
         for group in ("all", category) if category in CATEGORIES else ("all",):

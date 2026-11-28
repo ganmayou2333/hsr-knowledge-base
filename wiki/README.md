@@ -15,7 +15,7 @@ python wiki/build_wiki.py
 
 - `index.html` 首页（搜索 + 导航）
 - `assets/` 样式与脚本
-- `build_wiki.py` 生成器（扫描 `zh_cn/` 全量 md）
+- `build_wiki.py` 生成器（扫描 `data/zh_cn/` 全量 md）
 - `pages/`（生成物，已 gitignore）
 - `data/titles.js`、`data/link_report.js`（生成物，已 gitignore）
 

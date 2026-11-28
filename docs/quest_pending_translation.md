@@ -30,5 +30,5 @@
 ## 补译建议（后续阶段执行）
 
 1. 优先 en_us 612 句（wiki 转写差异，成本约 1.5 万 token）
-2. zh_tw/ja_jp 可先做简体→繁体的机械转换 + 常用词表，再人工校对
+2. data/zh_tw/ja_jp 可先做简体→繁体的机械转换 + 常用词表，再人工校对
 3. ko_kr 需检查 TextMapKR 分片完整性（TextMapKR_1.json 等）

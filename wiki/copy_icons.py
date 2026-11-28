@@ -22,7 +22,7 @@ CANDIDATES = [
     ROOT / ".srr" / "icon",
 ]
 DST = ROOT / "wiki" / "assets" / "icons"
-SRC = ROOT / "zh_cn"
+SRC = ROOT / "data" / "zh_cn"
 
 # KB 顶层目录 → (SRR 子目录, 文件命名模板)
 ICON_MAP = {

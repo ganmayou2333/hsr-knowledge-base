@@ -45,8 +45,8 @@ class TrustedPreviewArtifactTests(unittest.TestCase):
         # ordinary check status, external approval, or publication eligibility.
         root = Path(self.temp.name)
         source = root / 'input'
-        (source / 'zh_cn').mkdir(parents=True)
-        (source / 'zh_cn' / 'example.md').write_text('# Trusted build fixture\n', encoding='utf-8')
+        (source / 'data' / 'zh_cn').mkdir(parents=True)
+        (source / 'data' / 'zh_cn' / 'example.md').write_text('# Trusted build fixture\n', encoding='utf-8')
         (source / 'poison.py').write_text('raise RuntimeError("PR code executed")', encoding='utf-8')
         build(source, Path(__file__).resolve().parent.parent, root / 'wiki-preview.zip')
         with zipfile.ZipFile(root / 'artifact.zip', 'w', compression=zipfile.ZIP_DEFLATED) as archive:

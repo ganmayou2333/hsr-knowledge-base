@@ -27,7 +27,7 @@ except Exception:
 skip_dirs = {'.obsidian', '.git', 'StarRailRes_repo', '.tmp_build', 'node_modules', 'StarRailRes_data', 'temp', 'StarRailRes-master'}
 
 # 数据区语言目录（死链即判失败）
-DATA_DIRS = ('zh_cn/', 'en_us/', 'zh_tw/', 'ja_jp/', 'ko_kr/', 'zh_cn\\', 'en_us\\', 'zh_tw\\', 'ja_jp\\', 'ko_kr\\')
+DATA_DIRS = ('data/zh_cn/', 'data/en_us/', 'data/zh_tw/', 'data/ja_jp/', 'data/ko_kr/')
 
 
 def is_data_area(path):

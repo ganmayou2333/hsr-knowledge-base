@@ -24,10 +24,10 @@ class EntityAuditTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             for path, content in files.items():
-                target = root / path
+                target = root / "data" / path
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_text(content, encoding="utf-8")
-            raw = b"\0".join(path.encode("utf-8") for path in files) + b"\0"
+            raw = b"\0".join(("data/" + path).encode("utf-8") for path in files) + b"\0"
             output = io.StringIO()
             with patch.object(audit, "ROOT", root), patch.object(audit.subprocess, "check_output", return_value=raw), patch("sys.argv", ["audit", "--json"]), contextlib.redirect_stdout(output):
                 audit.main()

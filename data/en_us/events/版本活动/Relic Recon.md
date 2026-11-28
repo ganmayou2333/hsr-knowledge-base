@@ -1,0 +1,47 @@
+# Relic Recon
+
+> Reading note: This is a non-official localization. The event name was checked against the official Version 4.7 notice; other content and field-by-field synchronization with the Chinese baseline have not been fully verified.
+
+> 数据来源：[Version 4.7 "Now, Lay Laughter to All Stars" Update Details](https://hsr.hoyoverse.com/en-us/news/167246) ("6. New Events"); [Miyoushe "奇库寻遗" event notice (79450189)](https://www.miyoushe.com/sr/article/79450189) (gameplay and reward details)
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://www.miyoushe.com/sr/article/79450189；时间：2026-11-15）
+> 数据版本：4.7
+> 实体ID：未核实
+> 创建时间：2026-11-14 18:08
+> 更新时间：2026-11-14 18:08
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Event Name | Relic Recon |
+| Type | Version Event (open chests to obtain Relics) |
+| Event Period | After the Version 4.7 update – 2026/12/23 03:59 (UTC+8) |
+| Requirement | Trailblaze Level ≥ 21 |
+| Related Characters | (no library entries: the Herta Space Station collection vault) |
+
+> The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
+
+## Gameplay
+
+A mysterious collection vault in the Herta Space Station has opened its doors to you, filled with countless chests containing wondrous items. If you could get your hands on a special access card...
+
+Step-by-step rules (obtaining "access card" items from a task chain, one chest per card, choosing a target character so the system recommends Relic sets and main affixes, at most six temporary slots — one per Relic slot, the special lock state on temporarily stored Relics, and the "guaranteed" chest cadence) are published only in the official Chinese event page (miyoushe 79450189); the in-game names of the "access card", the "guaranteed" chest and the special lock state also exist only in Chinese. The official English notice carries no itemised rules, so they are recorded as **Pending** rather than machine-translated.
+
+## Rewards
+
+| Reward | Qty / Rule |
+|---|---|
+| +15 5-star Relic (4 initial sub-affixes) | Up to 6, covering 6 different Relic slots |
+| "Guaranteed" chest (official English name Pending) | Triggers once every set number of chests opened; its main affix is always a recommended main affix for the target character and the number of useful sub-affixes is ≥ 2 |
+
+> The exact "set number of chests" is not given in the official text → Pending. Values in this table are the numeric facts stated in the official Chinese event post (miyoushe 79450189); no official English text exists for them.
+
+## Related Entries
+
+- Version: 4.7 "Now, Lay Laughter to All Stars"
+- Related library: [[data/zh_cn/relic/遗器|Relic index]]
+- Back: [[data/zh_cn/events/版本活动/版本活动|Version Events index]] → [[data/zh_cn/events/活动|Events index]]
+
+---
+
+*文件生成时间：2026-11-14 · Event name, the English blurb, the event period and the requirement are taken verbatim from the official English Version 4.7 Update Details ("6. New Events"). Detailed gameplay and reward rules exist only in the Chinese event post → itemised prose marked Pending, not machine-translated; only the numeric facts are mirrored, with their source named. Field layout mirrors `zh_cn/events/版本活动/奇库寻遗.md`.*

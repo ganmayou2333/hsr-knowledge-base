@@ -1,0 +1,441 @@
+# Aventurine
+
+> 数据来源：[https://hsr.nanoka.cc/character/1304](https://hsr.nanoka.cc/character/1304)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/2302/detail](https://bbs.mihoyo.com/sr/wiki/content/2302/detail)
+> 数据版本：4.5
+> 实体ID：1304
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1304；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
+
+---
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Character Name | Aventurine |
+| Path | Preservation |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 星际和平公司 |
+| Introduction | A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for his cornerstone "Aventurine of stratagems." He always dons a smile that conceals his true intentions and lives by the principle of "the greater the risk, the greater the reward." |
+| Role | Provides a special shield that can stack shield amounts for the entire party. |
+
+### Voice Actors
+
+| Language | VA |
+|---|---|
+| Japanese | 河西健吾 |
+| English | Camden Sutkowski |
+| Chinese | 杨超然 |
+| Korean | 박준원 |
+
+---
+
+## Base Stats (Lv.80)
+
+| Attribute | Value |
+|---|---|
+| Base HP | 1,203 |
+| Base ATK | 446 |
+| Base DEF | 655 |
+| Base SPD | 106 |
+| Taunt | 150 |
+| Max Energy | 110 |
+
+---
+
+## Ascension Materials (Lv.1 → Lv.80)
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[data/zh_cn/items/Material/AvatarRank/镇灵敕符\|Suppressing Edict]] | 65 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 15 |
+
+---
+## Skill Materials
+
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[data/zh_cn/items/Material/TracePath/散逸星砂\|Scattered Stardust]] | 12 |
+| [[data/zh_cn/items/Material/TracePath/流星棱晶\|Crystal Meteorites]] | 53 |
+| [[data/zh_cn/items/Material/TracePath/神体琥珀\|Divine Amber]] | 101 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/思绪末屑\|Tatters of Thought]] | 33 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/印象残晶\|Fragments of Impression]] | 46 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/欲念碎镜\|Shards of Desires]] | 28 |
+
+---
+## Skills
+### Basic ATK：Straight Bet
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy target.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Aventurine's DEF to one designated enemy target.
+
+- **Level Table**：
+| Level | Param 1 (%) |
+  |---|---|
+  | Lv.1 | 50% |
+  | Lv.2 | 60% |
+  | Lv.3 | 70% |
+  | Lv.4 | 80% |
+  | Lv.5 | 90% |
+  | Lv.6 | 100% |
+  | Lv.7 | 110% |
+  | Lv.8 | 120% |
+  | Lv.9 | 130% |
+  | Lv.10 | 140% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于砂金___%防御力的虚数属性」
+
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Aventurine's DEF to one designated enemy target.
+
+### Skill：Cornerstone Deluxe
+- **Type**：Skill
+- **Summary**：Provides all allies with a Fortified Wager shield, whose Shield Effect is stackable.
+- **Max Level**：15
+- **Effect Template**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus #2[i], lasting for #3[i] turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to #4[i]% of the current Shield Effect provided by the Skill.
+
+- **Level Table**：
+| Level | Param 1 | Param 2 | Param 3 | Param 4 (%) |
+  |---|---|---|---|---|
+  | Lv.1 | 16% | 80 | 3 | 200% |
+  | Lv.2 | 17% | 128 | 3 | 200% |
+  | Lv.3 | 18% | 164 | 3 | 200% |
+  | Lv.4 | 19% | 200 | 3 | 200% |
+  | Lv.5 | 20% | 224 | 3 | 200% |
+  | Lv.6 | 20.8% | 248 | 3 | 200% |
+  | Lv.7 | 21.6% | 266 | 3 | 200% |
+  | Lv.8 | 22.4% | 284 | 3 | 200% |
+  | Lv.9 | 23.2% | 302 | 3 | 200% |
+  | Lv.10 | 24% | 320 | 3 | 200% |
+  | Lv.11 | 24.8% | 338 | 3 | 200% |
+  | Lv.12 | 25.6% | 356 | 3 | 200% |
+  | Lv.13 | 26.4% | 374 | 3 | 200% |
+  | Lv.14 | 27.2% | 392 | 3 | 200% |
+  | Lv.15 | 28% | 410 | 3 | 200% |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`伤 → Param 2: 上下文「1[f1]%防御力+___伤害的护盾【坚垣筹」
+  - `#3[i]`回 → Param 3: 上下文「盾【坚垣筹码】，持续___回合。重复获得【坚」
+  - `#4[i]`% → Param 4 (%): 上下文「前战技提供的护盾量的___%。」
+
+- **Max Effect**：Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus 410, lasting for 3 turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to 200% of the current Shield Effect provided by the Skill.
+
+### Ultimate：Roulette Shark
+- **Type**：Ultimate
+- **Summary**：Gains a random amount of "Blind Bet" points and inflicts "Unnerved "on one enemy, dealing Imaginary DMG. When an ally target hits an "Unnerved" enemy, the CRIT DMG dealt increases.
+- **Max Level**：15
+- **Effect Template**：Randomly gains 1 to #1[i] points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for #4[i] turn(s) and deals Imaginary DMG equal to #2[i]% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
+
+- **Level Table**：
+| Level | Param 1 | Param 2 (%) | Param 3 | Param 4 |
+  |---|---|---|---|---|
+  | Lv.1 | 7 | 162% | 9% | 3 |
+  | Lv.2 | 7 | 172.8% | 9.6% | 3 |
+  | Lv.3 | 7 | 183.6% | 10.2% | 3 |
+  | Lv.4 | 7 | 194.4% | 10.8% | 3 |
+  | Lv.5 | 7 | 205.2% | 11.4% | 3 |
+  | Lv.6 | 7 | 216% | 12% | 3 |
+  | Lv.7 | 7 | 229.5% | 12.75% | 3 |
+  | Lv.8 | 7 | 243% | 13.5% | 3 |
+  | Lv.9 | 7 | 256.5% | 14.25% | 3 |
+  | Lv.10 | 7 | 270% | 15% | 3 |
+  | Lv.11 | 7 | 280.8% | 15.6% | 3 |
+  | Lv.12 | 7 | 291.6% | 16.2% | 3 |
+  | Lv.13 | 7 | 302.4% | 16.8% | 3 |
+  | Lv.14 | 7 | 313.2% | 17.4% | 3 |
+  | Lv.15 | 7 | 324% | 18% | 3 |
+
+- **Parameter Notes**：
+  - `#1[i]`点 → Param 1: 上下文「随机获得1到___点【盲注】，随后使」
+  - `#2[i]`% → Param 2 (%): 上下文「方单体造成等同于砂金___%防御力的虚数属性」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`回 → Param 4: 上下文「入【惊惶】状态，持续___回合，并对指定敌方」
+
+- **Max Effect**：Randomly gains 1 to 7 points of "Blind Bet." Then, inflicts "Unnerved" on one designated enemy target for 3 turn(s) and deals Imaginary DMG equal to 324% of Aventurine's DEF to that enemy target. When an ally hits an "Unnerved" enemy target, the CRIT DMG dealt increases by #3[f1]%.
+
+### Talent：Shot Loaded Right
+- **Type**：Talent
+- **Summary**：For any single ally with "Fortified Wager," their Effect RES increases, and when they get attacked, Aventurine accumulates "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a Follow-Up ATK that deals minor Imaginary DMG to random single enemy targets, bouncing a total of 7 times.
+- **Max Level**：15
+- **Effect Template**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after #5[i] turn(s). Aventurine additionally gains #1[i] point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a #2[i]-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to #3[i]% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
+
+- **Level Table**：
+| Level | Param 1 | Param 2 | Param 3 (%) | Param 4 | Param 5 |
+  |---|---|---|---|---|---|
+  | Lv.1 | 1 | 7 | 12.5% | 25% | 2 |
+  | Lv.2 | 1 | 7 | 13.75% | 27.5% | 2 |
+  | Lv.3 | 1 | 7 | 15% | 30% | 2 |
+  | Lv.4 | 1 | 7 | 16.25% | 32.5% | 2 |
+  | Lv.5 | 1 | 7 | 17.5% | 35% | 2 |
+  | Lv.6 | 1 | 7 | 18.75% | 37.5% | 2 |
+  | Lv.7 | 1 | 7 | 20.31% | 40.62% | 2 |
+  | Lv.8 | 1 | 7 | 21.88% | 43.75% | 2 |
+  | Lv.9 | 1 | 7 | 23.44% | 46.88% | 2 |
+  | Lv.10 | 1 | 7 | 25% | 50% | 2 |
+  | Lv.11 | 1 | 7 | 26.25% | 52.5% | 2 |
+  | Lv.12 | 1 | 7 | 27.5% | 55% | 2 |
+  | Lv.13 | 1 | 7 | 28.75% | 57.5% | 2 |
+  | Lv.14 | 1 | 7 | 30% | 60% | 2 |
+  | Lv.15 | 1 | 7 | 31.25% | 62.5% | 2 |
+
+- **Parameter Notes**：
+  - `#1[i]`点 → Param 1: 上下文「在受到攻击后额外获得___点【盲注】。【盲注」
+  - `#2[i]`段 → Param 2: 上下文「砂金消耗7点充能发动___段追加攻击，每段攻」
+  - `#3[i]`% → Param 3 (%): 上下文「方单体造成等同于砂金___%防御力的虚数属性」
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`回 → Param 5: 上下文「类负面状态，该效果在___回合后可再次触发，」
+
+- **Max Effect**：For any single ally with "Fortified Wager," their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of "Blind Bet." When Aventurine has "Fortified Wager," he can resist Crowd Control debuffs. This effect can trigger again after 2 turn(s). Aventurine additionally gains 1 point(s) of "Blind Bet" after getting attacked. Upon reaching 7 points of "Blind Bet," Aventurine consumes the 7 points to launch a 7-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to 31.25% of Aventurine's DEF to one random enemy. "Blind Bet" is capped at 10 points.
+
+### Technique：The Red or the Black
+- **Type**：Technique
+- **Summary**：Using the Technique randomly grants one out of the three DEF Boost effects with different buff values. After entering the next battle, increases all allies' DEF by the corresponding value.
+- **Max Level**：1
+- **Effect Template**：After using the Technique, 1 of the following effects will be granted:
+There is a chance for DEF to increase by #1[i]%.
+There is a high chance for DEF to increase by #2[i]%.
+There is a small chance for DEF to increase by #3[i]%.
+When this Technique is used repeatedly, the acquired effect with the highest buff value is retained.
+When the next battle starts, increases all allies' DEF by the corresponding value, lasting for #4[i] turn(s).
+一定概率获得防御力提高#1[i]%；
+大概率获得防御力提高#2[i]%；
+小概率获得防御力提高#3[i]%。
+下一次战斗开始时，使我方全体提高对应数值的防御力，持续#4[i]回合。
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) | Param 4 |
+  |---|---|---|---|---|
+  | Lv.1 | 24% | 36% | 60% | 3 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「定概率获得防御力提高___%； 大概率获得防」
+  - `#2[i]`% → Param 2 (%): 上下文「大概率获得防御力提高___%； 小概率获得防」
+  - `#3[i]`% → Param 3 (%): 上下文「小概率获得防御力提高___%。 重复使用时保」
+  - `#4[i]`回 → Param 4: 上下文「应数值的防御力，持续___回合。」
+
+- **Max Effect**：After using the Technique, 1 of the following effects will be granted:
+There is a chance for DEF to increase by 24%.
+There is a high chance for DEF to increase by 36%.
+There is a small chance for DEF to increase by 60%.
+When this Technique is used repeatedly, the acquired effect with the highest buff value is retained.
+When the next battle starts, increases all allies' DEF by the corresponding value, lasting for 3 turn(s).
+
+## Trace Bonuses
+
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 杠杆 | 晋阶2 | 若砂金的防御力高于#3[i]点，每超过100点防御力可使自身暴击率提高#1[i]%，最多提高#2[i]%。 | 若砂金的防御力高于1600点，每超过100点防御力可使自身暴击率提高2%，最多提高48%。 | 信用点×5000、散逸星砂×3、蛀星孕灾的旧恶×1 |
+| 附加能力2 | 热手 | 晋阶4 | 战斗开始时，为我方全体提供护盾【坚垣筹码】，护盾量等同于战技提供的护盾量的#2[i]%，持续#1[i]回合。 | 战斗开始时，为我方全体提供护盾【坚垣筹码】，护盾量等同于战技提供的护盾量的100%，持续3回合。 | 信用点×20000、流星棱晶×5、命运的足迹×1、蛀星孕灾的旧恶×1 |
+| 附加能力3 | 宾果！ | 晋阶6 | 持有【坚垣筹码】的队友发动追加攻击后，为砂金积攒1点【盲注】，该效果最多触发#3[i]次，当砂金回合开始时，重置该效果触发次数。砂金在发动天赋的追加攻击后，为我方全体提供能够抵消等同于砂金#1[i]%防御力+#2[i]伤害的【坚垣筹码】，并为护盾值最低的我方目标额外提供能够抵消等同于砂金#4[i]%防御力+#5[i]伤害的【坚垣筹码】，持续3回合。 | 持有【坚垣筹码】的队友发动追加攻击后，为砂金积攒1点【盲注】，该效果最多触发3次，当砂金回合开始时，重置该效果触发次数。砂金在发动天赋的追加攻击后，为我方全体提供能够抵消等同于砂金7.2%防御力+96伤害的【坚垣筹码】，并为护盾值最低的我方目标额外提供能够抵消等同于砂金7.2%防御力+96伤害的【坚垣筹码】，持续3回合。 | 信用点×160000、神体琥珀×8、命运的足迹×1、蛀星孕灾的旧恶×1 |
+
+## Stat Bonuses
+
+| Attribute | 加成 |
+|---|---|
+| DEF | 35% |
+| 效果抵抗 | 10% |
+| 虚数属性伤害提高 | 14.4% |
+
+---
+
+## Eidolons
+
+| Eidolons | Name | Effect |
+|---|---|---|
+| E1 | Prisoner's Dilemma | Increases CRIT DMG by 20% for ally targets with Fortified Wager. After using the Ultimate, provides all allies with a Fortified Wager shield, whose Shield Effect is equal to 100% of the one provided by the Skill, lasting for 3 turn(s). |
+| E2 | Bounded Rationality | When using the Basic ATK, reduces the target's All-Type RES by 12% for 3 turn(s). |
+| E3 | Droprate Maxing | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10. |
+| E4 | Unexpected Hanging Paradox | When triggering his Talent's Follow-Up ATK, first increases Aventurine's DEF by 40% for 2 turn(s), and additionally increases the Hits Per Action for his talent's Follow-Up ATK by 3. |
+| E5 | Ambiguity Aversion | Skill Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15. |
+| E6 | Stag Hunt Game | For every teammate that holds a Shield, the DMG dealt by Aventurine increases by 50%, up to a maximum of 150%. |
+
+---
+
+## Recommended Relics
+
+**主词条推荐**：防御力 / 防御力 / 防御力 / 防御力
+
+**推荐副词条**：防御力 / 暴击率 / 暴击伤害 / 速度
+
+#### 4-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/隧洞遗器/净庭教宗的圣骑士\|Knight of Purity Palace]] | 使装备者提供的护盾量提高20%。 |
+| [[data/zh_cn/relic/隧洞遗器/自匿星芒的隐士\|Self-Enshrouded Recluse]] | 使装备者提供的护盾量提高12%，我方目标持有装备者提供的护盾时，暴击伤害提高15%。 |
+| [[data/zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+
+#### 2-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[data/zh_cn/relic/位面饰品/筑城者的贝洛伯格\|Belobog of the Architects]] | 使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。 |
+| [[data/zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+
+---
+
+## Recommended Light Cones
+
+### [[data/zh_cn/lightcone/存护/命运从未公平.md|Inherently Unjust Destiny]]
+
+- **Base Stats**：HP1058 ATK423 DEF661
+- **Rating**：★★★★★
+- **Skill Name**：All-In
+- **Effect**：Increases the wearer's DEF by 40%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40%, lasting for 2 turn(s). When the wearer's Follow-Up ATK hits an enemy target, there is a 1 base chance to increase the DMG taken by the attacked enemy target by #5[f1]%, lasting for 2 turn(s).
+
+### [[data/zh_cn/lightcone/存护/制胜的瞬间.md|Moment of Victory]]
+
+- **Base Stats**：HP1058 ATK476 DEF595
+- **Rating**：★★★★★
+- **Skill Name**：Verdict
+- **Effect**：Increases the wearer's DEF by 24% and Effect Hit Rate by 24%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 24% until the end of the wearer's turn.
+
+### [[data/zh_cn/lightcone/存护/两个人的演唱会.md|Concert for Two]]
+
+- **Base Stats**：HP952 ATK370 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Inspire
+- **Effect**：Increases the wearer's DEF by 16%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 4%.
+
+### [[data/zh_cn/lightcone/存护/记忆的质料.md|Texture of Memories]]
+
+- **Base Stats**：HP1058 ATK423 DEF529
+- **Rating**：★★★★
+- **Skill Name**：Treasure
+- **Effect**：Increases the wearer's Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%.
+
+### [[data/zh_cn/lightcone/存护/余生的第一天.md|Day One of My New Life]]
+
+- **Base Stats**：HP952 ATK370 DEF463
+- **Rating**：★★★★
+- **Skill Name**：At This Very Moment
+- **Effect**：Increases the wearer's DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Abilities of the same type cannot stack.
+
+## Recommended Teams
+
+| 主C | 辅助 | 生存 |
+|---|---|---|
+| [[data/zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] | [[data/zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] | [[data/zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[data/zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[data/zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] | [[data/zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] |
+| [[data/zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[data/zh_cn/character/毁灭/云璃_物理_五星.md\|云璃]] | [[data/zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
+| [[data/zh_cn/character/毁灭/阿兰_雷_四星.md\|阿兰]] | [[data/zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |  |
+
+*文件生成时间：2026-08-27*
+
+## Character Story
+星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「诡弈砂金」。个性张扬的风险爱好者，时常面带笑容，真心却难以揣测。靠着同命运的博弈赢得如今的地位，将人生视作一场高风险、高回报的投资，而他向来游刃有余。
+
+### Character Story·1（解锁条件：Character Level 20）
+
+「关于那位新员工，我有一些情况要向您报告。」
+
+「什么事让你这么担心，埃尔文？」
+
+「关于他的投诉，不管是正式的还是非正式的，像纸片一样塞满了我的邮箱，我想…您或许可以重新考虑是否接纳他为战略投资部的一员。」
+
+「他们都写了什么？」
+
+「主要是他的身份，那双眼睛……」
+「他曾欺骗市场开拓部，茨冈尼亚贫瘠的黄土藏着尚未被有效开发利用的能源。在他们投入巨额资金进行开采后，才发现根本是无稽之谈。」
+「还有骇人听闻的『艾吉哈佐砂金案』，他哄骗博识学会相信那里埋藏着虫皇『塔伊兹育罗斯』的尸体——那帮学者谨慎又谨慎，却还是落入了对方的圈套。」
+「还有茨冈尼亚酋长国议员来信，谴责他的部落曾破坏决议，祸乱人心，致使氏族间和平局势发生重大变化，茨冈尼亚与公司间协议条款的签订屡次延期。此人如今入职公司，其影响极为恶劣……」
+
+「如果只是这些的话，就不必说了。」
+
+「…您都知道？」
+
+「每一种宝石都有独特的价值，而我们的工作就是『投资』。」
+「也不用安抚那些来信的老顽固，这些风言风语迟早会传到——不，应该已经传到他耳边了。正好，就看看他到底能给我们带来多大的惊喜吧。」
+
+### Character Story·2（解锁条件：Character Level 40）
+
+「小子，你真行啊…用神乎其神的手段搬光了我的产业。但我绝不会投降，大不了，我就把这里全炸咯…你能怎么办？」
+伊伊玛尼喀的「疯牛」示意手下松手，他从桌子上抬起头来，拍了拍衣领上的灰尘。
+「你们，高高在上的公司狗，根本看不起流浪者，对吧？但你现在在我们的地盘，就得按我们的方式。」
+
+「疯牛」清空弹匣，往枪中装入一粒子弹，丢在他脚边。
+「六次，最多六次枪响之后，生死由命。你敢不敢？」
+
+他蹲下来，捡起枪。
+「用枪指着我的人太多了，甚至有人直接扣下了扳机…但你猜，为什么我还能站在这儿？」
+他站起来，逼视着「疯牛」的眼睛，举起枪，抵住自己的心脏。
+「因为最后，枪都会来到我手里。」
+
+「而现在，这个游戏令我有些厌烦了…六分之一的概率远远不够，要挑衅命运——」
+六声连续的枪响在死寂的星舰中炸开，烟尘过后，他再次举起枪，朝「疯牛」走去，而弹匣里有一颗新的子弹。
+「就得先学会把自己变成骰子。」
+「——你不肯投降，但凭什么？就凭这拙劣的概率游戏？还是……」
+他调转枪口，指向黑暗中的某处。
+「她？」
+
+枪口所指的方向，一位同样举着手枪的女士缓缓出现。看到她的一瞬间，「疯牛」仿佛抓到了救命稻草。
+「翡翠女士，这和说好的不一样……」
+就在同时，两人开枪，在双方各自背后的暗处，两个黑衣人应声倒下。
+
+「公司的敌人还真是无处不在，对吧？」女士从容地收起手枪，拿出化妆镜，检视了一下自己的仪容。
+「拿你我的生命作饵，让他们争相啄食，误以为这是一场内讧，却被一网打尽…不错的诡计，只不过太惊险了些。」他微笑着欢迎对方的到来，双手却微微颤抖。
+
+「诡计？不，只是一场测试罢了。」
+优雅的女士摊开手掌，一枚闪烁着奇异色泽的「砂金石」躺在她的手心。
+「没什么奇怪的，被渴望，被追逐，被切割，被出售…这都是宝石的宿命。」
+「但你还是有许多可做的，全凭你怎么看待自己。」
+
+### Character Story·3（解锁条件：Character Level 60）
+
+他走入走廊最深处的房间，他还记得上一次来这里的时候，自己还是个面目可憎的囚犯。现在，他站在这里，面向立于部门顶点的人们。
+
+他听金发的女性念着冗长无趣的报告，那些冰冷的数字既无法传达他行走在生死边缘的惊险，亦无法告诉他们过程中他失去了多少，又得到了多少。他只好奇她是人类，还是智械？
+
+而那颗象征权力与未来的「砂金石」即将被正式交予他手中——豁出性命拿到手的东西，在得到的一刹那，对他而言就失去了诱惑与价值。
+
+「『砂金』，你还有什么问题吗？」会议的最后，翡翠——在场的人里，他只认识她——开口问道。
+
+「茨冈尼亚的埃维金人…他们后来怎么样了？」
+
+「很遗憾，茨冈尼亚已经没有埃维金人了。你是最后的幸运儿。」
+
+「那在██星球上帮助过我的那些人呢？我想，现在我可以回报他们了。」
+
+「他们也都不在了。」
+
+……
+
+他木然地回到自己的办公室。桌上，那颗砂金石闪动着奇异的光，仿佛在恭喜他，又仿佛在嘲弄他。
+「在与命运搏斗的时候，你真的是幸运的那方吗？」
+
+### Character Story·4（解锁条件：Character Level 80）
+
+「匹诺康尼…『钻石』终于打算对它动手了？」
+桌上的微缩模型不断旋转，晶莹剔透的忆泡不断泛出微小的泡沫。
+
+「这是一笔超乎想象的历史坏账，所以背后的利益…高得惊人。」
+面前的人背对着他，望着庇尔波因特黄昏时紫红的天空。
+
+「但为什么是我？」
+那人依旧背对着他，他无法用自己善于捕捉的眼睛去揣测这个决定背后的真实用意。
+
+「本该是我。但『钻石』认为家族还有合作的价值，希望这事至少有和平解决的余地。」
+「思来想去，我觉得你最合适。」
+
+「这甚至只是我们第二次谈话，你这么信任我？」
+
+「错了，我压根没有信过你——也许『翡翠』会，但我不会。」
+「没准这一次，好运不会再站在你这边了，而你也将为自己一直以来的幸运付出代价。」
+
+面前的人终于转了过来，远处的大楼反射出欧泊石般七彩的光芒，而一只八音盒兀自作响。
+「但那不正是你所渴望的东西吗？」

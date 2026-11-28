@@ -1,7 +1,7 @@
 # tools/mediawiki —— 本库 → MediaWiki 演示实例工具集
 
 > 建立：2026-10-03 ｜ 维护：Lead ｜ 状态：**可用**（已实测跑通全库 6,668 页导入）
-> 定位：把 `zh_cn/` 的 Markdown 知识库**镜像**成一个可在浏览器里检索/编辑的 MediaWiki 站点。
+> 定位：把 `data/zh_cn/` 的 Markdown 知识库**镜像**成一个可在浏览器里检索/编辑的 MediaWiki 站点。
 > **本目录只放工具脚本**；PHP 运行时与 MediaWiki 本体**不入库**（见下「实例目录」）。
 
 ---
@@ -22,7 +22,7 @@
 
 | 文件 | 作用 |
 |---|---|
-| `md2mw.py` | 把 `zh_cn/**/*.md` 转成 MediaWiki wikitext：`# 标题`→页面标题；`> 数据来源/实体ID/数据版本/官方Wiki`→`{{实体}}` 参数（`> 创建时间/更新时间` 丢弃）；`##`→`==`；Markdown 表格→MediaWiki 表格；列表/粗斜体/外链转换；`[[zh_cn/路径\|显示]]`→`[[页面标题\|显示]]`（未收录则降级为纯文本）；**同名标题自动加「（一级目录）」后缀去重** |
+| `md2mw.py` | 把 `data/zh_cn/**/*.md` 转成 MediaWiki wikitext：`# 标题`→页面标题；`> 数据来源/实体ID/数据版本/官方Wiki`→`{{实体}}` 参数（`> 创建时间/更新时间` 丢弃）；`##`→`==`；Markdown 表格→MediaWiki 表格；列表/粗斜体/外链转换；`[[data/zh_cn/路径\|显示]]`→`[[页面标题\|显示]]`（未收录则降级为纯文本）；**同名标题自动加「（一级目录）」后缀去重** |
 | `dshImport.php` | 单进程批量导入脚本（走 MediaWiki `PageUpdater` API，数千页数分钟完成）。**放到 MediaWiki 根的 `maintenance/` 下运行** |
 | `Common.css` | 瑞士风外观 → 写入 `MediaWiki:Common.css`（Helvetica 栈 / 8px 栅格 / 全直角 / 细线 / 唯一瑞士红 `#E30613` / 禁阴影渐变） |
 | `Template-实体.wiki` | 通用实体信息框 `Template:实体` 源码（含**自动归类**与 `<templatedata>`） |

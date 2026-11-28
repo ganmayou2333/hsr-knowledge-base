@@ -1,0 +1,332 @@
+# Dr. Ratio
+
+> 数据来源：[https://hsr.nanoka.cc/character/1305](https://hsr.nanoka.cc/character/1305)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/1873/detail](https://bbs.mihoyo.com/sr/wiki/content/1873/detail)
+> 数据版本：4.5
+> 实体ID：1305
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1305；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
+
+---
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Character Name | Dr. Ratio |
+| Path | The Hunt |
+| Attribute | Imaginary |
+| Rarity | ★★★★★ |
+| Faction | 博识学会 |
+| Introduction | An eccentric, self-centered, slightly gloomy, and yet elegant Intelligentsia Guild member. He often wears a bizarre plaster head sculpture over his head despite his handsome features. |
+| Role | An output-type character that can trigger additional attacks when attacking alone or with teammates. |
+
+### Voice Actors
+
+| Language | VA |
+|---|---|
+| Japanese | 武内駿輔 |
+| English | Jordan Paul Haro |
+| Chinese | 桑毓泽 |
+| Korean | 이동훈 |
+
+---
+
+## Base Stats (Lv.80)
+
+| Attribute | Value |
+|---|---|
+| Base HP | 1,048 |
+| Base ATK | 776 |
+| Base DEF | 461 |
+| Base SPD | 103 |
+| Taunt | 75 |
+| Max Energy | 140 |
+
+---
+
+## Ascension Materials (Lv.1 → Lv.80)
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[data/zh_cn/items/Material/AvatarRank/镇灵敕符\|Suppressing Edict]] | 65 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 15 |
+
+---
+## Skill Materials
+
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[data/zh_cn/items/Material/TracePath/猎兽之矢\|Arrow of the Beast Hunter]] | 12 |
+| [[data/zh_cn/items/Material/TracePath/屠魔之矢\|Arrow of the Demon Slayer]] | 53 |
+| [[data/zh_cn/items/Material/TracePath/逐星之矢\|Arrow of the Starchaser]] | 101 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/蛀星孕灾的旧恶\|Past Evils of the Borehole Planet Disaster]] | 9 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 33 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 46 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 28 |
+
+---
+## Skills
+### Basic ATK：Mind is Might
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one designated enemy target.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
+
+- **Level Table**：
+| Level | Param 1 (%) |
+  |---|---|
+  | Lv.1 | 50% |
+  | Lv.2 | 60% |
+  | Lv.3 | 70% |
+  | Lv.4 | 80% |
+  | Lv.5 | 90% |
+  | Lv.6 | 100% |
+  | Lv.7 | 110% |
+  | Lv.8 | 120% |
+  | Lv.9 | 130% |
+  | Lv.10 | 140% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于真理医生___%攻击力的虚数属性」
+
+- **Max Effect**：Deals Imaginary DMG equal to 140% of Dr. Ratio's ATK to one designated enemy target.
+
+### Skill：Intellectual Midwifery
+- **Type**：Skill
+- **Summary**：Deals Imaginary DMG to one designated enemy.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target.
+
+- **Level Table**：
+| Level | Param 1 (%) |
+  |---|---|
+  | Lv.1 | 75% |
+  | Lv.2 | 82.5% |
+  | Lv.3 | 90% |
+  | Lv.4 | 97.5% |
+  | Lv.5 | 105% |
+  | Lv.6 | 112.5% |
+  | Lv.7 | 121.88% |
+  | Lv.8 | 131.25% |
+  | Lv.9 | 140.62% |
+  | Lv.10 | 150% |
+  | Lv.11 | 157.5% |
+  | Lv.12 | 165% |
+  | Lv.13 | 172.5% |
+  | Lv.14 | 180% |
+  | Lv.15 | 187.5% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于真理医生___%攻击力的虚数属性」
+
+- **Max Effect**：Deals Imaginary DMG equal to 187.5% of Dr. Ratio's ATK to one designated enemy target.
+
+### Ultimate：Syllogistic Paradox
+- **Type**：Ultimate
+- **Summary**：Deals Imaginary DMG to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of Follow-Up ATK on this target.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.
+"Wiseman's Folly" can be triggered for up to #2[i] times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.
+【智者的短见】效果最多触发#2[i]次且仅对真理医生终结技最新施放的目标生效。施放终结技后重置该效果触发次数。
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 |
+  |---|---|---|
+  | Lv.1 | 144% | 2 |
+  | Lv.2 | 153.6% | 2 |
+  | Lv.3 | 163.2% | 2 |
+  | Lv.4 | 172.8% | 2 |
+  | Lv.5 | 182.4% | 2 |
+  | Lv.6 | 192% | 2 |
+  | Lv.7 | 204% | 2 |
+  | Lv.8 | 216% | 2 |
+  | Lv.9 | 228% | 2 |
+  | Lv.10 | 240% | 2 |
+  | Lv.11 | 249.6% | 2 |
+  | Lv.12 | 259.2% | 2 |
+  | Lv.13 | 268.8% | 2 |
+  | Lv.14 | 278.4% | 2 |
+  | Lv.15 | 288% | 2 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于真理医生___%攻击力的虚数属性」
+  - `#2[i]`次 → Param 2: 上下文「的短见】效果最多触发___次且仅对真理医生终」
+
+- **Max Effect**：Deals Imaginary DMG equal to 288% of Dr. Ratio's ATK to one designated enemy target and applies "Wiseman's Folly." When Dr. Ratio's teammates attack a target afflicted with "Wiseman's Folly," Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.
+"Wiseman's Folly" can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.
+
+### Talent：Cogito, Ergo Sum
+- **Type**：Talent
+- **Summary**：When using Skill, there is a chance to launch 1 instance of Follow-Up ATK on the target, dealing Imaginary DMG.
+- **Max Level**：15
+- **Effect Template**：When using his Skill, Dr. Ratio has a #2[i]% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by #3[i]%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 (%) | Param 3 (%) |
+  |---|---|---|---|
+  | Lv.1 | 135% | 40% | 20% |
+  | Lv.2 | 148.5% | 40% | 20% |
+  | Lv.3 | 162% | 40% | 20% |
+  | Lv.4 | 175.5% | 40% | 20% |
+  | Lv.5 | 189% | 40% | 20% |
+  | Lv.6 | 202.5% | 40% | 20% |
+  | Lv.7 | 219.38% | 40% | 20% |
+  | Lv.8 | 236.25% | 40% | 20% |
+  | Lv.9 | 253.12% | 40% | 20% |
+  | Lv.10 | 270% | 40% | 20% |
+  | Lv.11 | 283.5% | 40% | 20% |
+  | Lv.12 | 297% | 40% | 20% |
+  | Lv.13 | 310.5% | 40% | 20% |
+  | Lv.14 | 324% | 40% | 20% |
+  | Lv.15 | 337.5% | 40% | 20% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「，造成等同于真理医生___%攻击力的虚数属性」
+  - `#2[i]`% → Param 2 (%): 上下文「施放战技时，有___%的固定概率对该目」
+  - `#3[i]`% → Param 3 (%): 上下文「击发动的固定概率提高___%。若追加攻击施放」
+
+- **Max Effect**：When using his Skill, Dr. Ratio has a 40% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to 337.5% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by 20%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.
+
+### Technique：Mold of Idolatry
+- **Type**：Technique
+- **Summary**：Creates a Special Dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to reduce SPD of enemy targets.
+- **Max Level**：1
+- **Effect Template**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this Special Dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
+
+- **Level Table**：
+| Level | Param 1 | Param 2 (%) | Param 3 (%) | Param 4 |
+  |---|---|---|---|---|
+  | Lv.1 | 10 | 100% | 15% | 2 |
+
+- **Parameter Notes**：
+  - `#1[i]`秒 → Param 1: 上下文「域嘲讽附近敌人，持续___秒。与处于特殊领域」
+  - `#2[i]`% → Param 2 (%): 上下文「的敌人进入战斗后，有___%基础概率使敌方每」
+  - `#3[i]`% → Param 3 (%): 上下文「每个单体目标速度降低___%，持续#4[i]」
+  - `#4[i]`回 → Param 4: 上下文「低#3[i]%，持续___回合。我方制造的领」
+
+- **Max Effect**：After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for 10 second(s). After entering battle with enemies in this Special Dimension, there is a 100% base chance to reduce each single enemy target's SPD by 15% for 2 turn(s). Only 1 Dimension Effect created by allies can exist at the same time.
+
+## Trace Bonuses
+
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 归纳 | 晋阶2 | 施放战技时，目标每有1个负面效果，真理医生暴击率提高#1[f1]%、暴击伤害提高#2[i]%，该效果最多叠加#3[i]层。 | 施放战技时，目标每有1个负面效果，真理医生暴击率提高#1[f1]%、暴击伤害提高5%，该效果最多叠加6层。 | 信用点×5000、猎兽之矢×3、蛀星孕灾的旧恶×1 |
+| 附加能力2 | 演绎 | 晋阶4 | 施放战技攻击敌方目标后，有#1[i]%的基础概率使受到攻击的敌方目标效果抵抗降低#2[i]%，持续#3[i]回合。 | 施放战技攻击敌方目标后，有100%的基础概率使受到攻击的敌方目标效果抵抗降低10%，持续2回合。 | 信用点×20000、屠魔之矢×5、命运的足迹×1、蛀星孕灾的旧恶×1 |
+| 附加能力3 | 推理 | 晋阶6 | 造成伤害时，若目标负面状态大于等于#1[i]个，目标每有1个负面效果，真理医生对其造成的伤害提高#2[i]%，最多提高#3[i]%。 | 造成伤害时，若目标负面状态大于等于3个，目标每有1个负面效果，真理医生对其造成的伤害提高10%，最多提高50%。 | 信用点×160000、逐星之矢×8、命运的足迹×1、蛀星孕灾的旧恶×1 |
+
+## Stat Bonuses
+
+| Attribute | 加成 |
+|---|---|
+| ATK | 28% |
+| DEF | 12.5% |
+| 暴击率 | 12% |
+
+---
+
+## Eidolons
+
+| Eidolons | Name | Effect |
+|---|---|---|
+| E1 | Pride Comes Before a Fall | The maximum stackable count for the Trace "Summation" increases by 4. When a battle begins, immediately obtains 4 stacks of Summation. Needs to unlock Summation first. |
+| E2 | The Divine Is in the Details | When his Talent's Follow-Up ATK hits a target, for every debuff the target has, deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each Follow-Up ATK. |
+| E3 | Know Thyself | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10. |
+| E4 | Ignorance Is Blight | When triggering the Talent, additionally regenerates 15 Energy for Dr. Ratio. |
+| E5 | Sic Itur Ad Astra | Skill Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15. |
+| E6 | Vincit Omnia Veritas | Additionally increases the trigger count for "Wiseman's Folly" by 1. The DMG dealt by the Talent's Follow-Up ATK increases by 50%. |
+
+---
+
+## Recommended Relics
+
+**主词条推荐**：暴击伤害 / 速度 / 虚数属性伤害提高 / 攻击力
+
+**推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
+
+#### 4-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+| [[data/zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[data/zh_cn/relic/隧洞遗器/毁烬焚骨的大公\|The Ashblazing Grand Duke]] | 装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。 |
+
+#### 2-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/位面饰品/奔狼的都蓝王朝\|Duran, Dynasty of Running Wolves]] | 我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加5层，每层【功勋】使装备者追加攻击造成的伤害提高5%，叠满5层时，额外使装备者的暴击伤害提高25%。 |
+| [[data/zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+| [[data/zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
+
+---
+
+## Recommended Light Cones
+
+### [[data/zh_cn/lightcone/巡猎/纯粹思维的洗礼.md|Baptism of Pure Thought]]
+
+- **Base Stats**：HP952 ATK582 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Mental Training
+- **Effect**：Increases the wearer's CRIT DMG by 20%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target additionally increases by 8%, stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the "Disputation" effect, which increases DMG dealt by 36% and enables their Follow-Up ATKs to ignore 24% of the target's DEF. This effect lasts for 2 turns.
+
+### [[data/zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
+
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：One At A Time
+- **Effect**：Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
+
+### [[data/zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
+
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
+
+### [[data/zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
+
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
+
+## Recommended Teams
+
+| 主C | 辅助 | 生存 |
+|---|---|---|
+| 副C | [[data/zh_cn/character/巡猎/真理医生_虚数_五星.md\|真理医生]] | [[data/zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
+| [[data/zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] | [[data/zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[data/zh_cn/character/同谐/停云_雷_四星.md\|停云]] |
+| [[data/zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[data/zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[data/zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] |
+| [[data/zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |  |
+
+*文件生成时间：2026-08-27*
+
+## Character Story
+直率而自我的博识学会学者，常以奇怪的石膏头雕遮蔽面容。自幼便展露出过人的才智，如今却以「庸人」自居。坚信智慧与创造力并不为天才独有，致力于向全宇宙传播知识，医治名为愚钝的顽疾。
+
+### Character Story·1（解锁条件：Character Level 20）
+
+关于那位自称「真理医生」的维里塔斯•拉帝奥，其人如他的研究一般充满争议。在拉帝奥的故乡，至少有八部讲述他传奇事迹的纪录片，十几部关于他的回忆录，可评论众多，却没有足够有说服力的观点。为填补空缺，笔者亲自前往，拜访了对拉帝奥的成长有重要影响的荣德教授。荣德教授年事已高，已无法正常言语，却在笔者提起拉帝奥姓名时难掩激动之情。在其家人和学生的协助下，笔者拿到一封泛黄却保存完好的推荐信。  「尊敬的第一真理大学录取委员会：  我是银河自由大学的数学系荣休教授荣德。素闻贵校爱才重教之名，我想推荐一位名为拉帝奥的学生来贵校攻读学位。虽然拉帝奥目前只是一位中学生，但其在数学、物理、乃至哲学上的思想已远超一般大学的本科要求。  教学期间，拉帝奥以远超预期的速度解开了复杂的数学方程。与此同时，我班上的本科生甚至无法理解那些概念。出于好奇，我私下与他分享了一份关于荣德猜想的手稿。虽然我是这一猜想的提出者，但我始终无法将其证明。在经过日日夜夜的讨论后，他提出了一个美妙且惊人的巧思，一举完成了最后的论证。该论文近期即将刊发，届时您就能明白我所言并非虚假。  在这段时间的相处中，拉帝奥展现出了非凡的感知力、好奇心与创造力。他每日早早地起来锻炼，随后便一头扎进知识的海洋。他也许是最符合普世观念中天才形象的人，激情、深刻、热烈和…天生的强势。  限于当地学校无法开展更高水平的科学课程，我衷心希望贵校能够接纳拉帝奥就读。我以我的名誉保证，他一定会取得超越这个时代的成就，为贵校享誉银河的学术声誉再添荣光。  致以最好的祝愿，荣德哲人历██年██月██日」  ——摘自《智慧之为特权：解密真理医生》第九页
+
+### Character Story·2（解锁条件：Character Level 40）
+
+在取得第八个博士学位后，拉帝奥获得了第一真理大学空缺两个琥珀纪的一等荣誉学位——即使在多年以后，这依然是校史上前无古人、想必也后无来者的成就。此时拉帝奥早已成为社会风云人物，但他身边的师友却有着多种看法。笔者得到了一份珍贵的电子资料：  「校园热点：1、#一等荣誉学位授予维里塔斯•拉帝奥#阅读（2500）评论（145）详情：本校空缺两个琥珀纪的一等荣誉学位即将授予维里塔斯•拉帝奥，以表彰其在生物学、医学、自然神学、哲学、数学、物理学、工程学等领域的杰出贡献。因其在星球能源课题上的卓越表现，维里塔斯•拉帝奥将直接获得任教资格。  维立塔-数学系教授：恭喜拉帝奥！他的勤奋与智慧配得上一切荣誉！还记得他为了能够更专注地思考，选择戴上头套，隔绝外界的一切干扰。这世上又有多少人能做到呢？我虽然教过拉帝奥一段时间，但实际上我从拉帝奥身上学到的，恐怕比我教给他的更多。拉帝奥以其诚实和直率为第一真理大学带来了全新的空气，我们应当感谢他！赞成（1000+）反对（2）哲学系小混子：这还不进天才俱乐部？赞成（850）反对（5）物理是优美的：据说某个议员的儿子来上拉帝奥的助教课，把钱扔在拉帝奥的身上让他帮他蒙混过关，结果被拉帝奥大骂一顿后扔出了教室，你没听错，是「扔」…真是神一般的男人……赞成（550）反对（112）买基金的韭菜：上过他的助教课，完全听不懂，坚持到最后，勉强拿了个0分，幸好不是负的……赞成（448）反对（37）在天国旅游的人：被他骂哭过的人都给我点赞！赞成（330）反对（110）猫听完都死了：听说他洗浴时也不摘头套？赞成（220）反对（10）跟着哥走：也还好吧？要是我努力一下我也行……赞成（1）反对（1000）……你可能还喜欢：2、#维里塔斯•拉帝奥获得第八个博士学位#3、#维里塔斯•拉帝奥登上大学课本#4、#维里塔斯•拉帝奥是疯子吗？#」  据统计，拉帝奥任教共开设五十二门课程，教学风格以严厉、繁难著称，结课率不超过3%，而那些坚持到最后的学生几乎都成了某个领域的专家学者。……——摘自《智慧之为特权：解密真理医生》第八十二页
+
+### Character Story·3（解锁条件：Character Level 60）
+
+外界普遍猜测，拉帝奥渴望加入天才俱乐部，尽管他本人对此毫无回应。然而无论拉帝奥做出何种在普世看来可堪惊人的成就，博识尊从未有所反应，久而久之，此事便成为一桩学术圈津津乐道的悬案。笔者与拉帝奥曾经的学术助理玛格丽特取得了联系，得到了一些宝贵的证言。  「拉帝奥先生从未和我提起过天才俱乐部，但有一件事，我到现在还记得…那是我为拉帝奥先生担任学术助理的时候。我的主要工作就是收发来自银河各地的信件，并处理他与外界接触的相关事宜。」   「那一天，我收到了星际和平公司的信件。时间大概是…拉帝奥先生研究多年的对星武器试射成功的时候。我能看出来，公司的邀请很郑重，我激动地把它交给拉帝奥先生，可先生他…他却什么都没说。即便隔着头雕，我都能感到深深的沉默。他很有礼貌地请我离开，在关上房门的瞬间，我听到了沉重的叹息和自嘲的笑声…我猜，也许是他判断自己再也进不了天才俱乐部了吧……」   「那之后的故事，你都知道了。但在我看来，先生就是真正的天才，他的创造让许多世界得以进步向前。难道当一名医治宇宙的学者，就注定没有孤芳自赏的天才价值高吗…抱歉，我有些激动了，这句话就请删掉吧。」   笔者观察到，在真理医生的支持者当中，像玛格丽特这样抱有惋惜之情的人不在少数。在他们看来，俱乐部没有吸纳拉帝奥这样的人，亦是一种「天才」怪异与偏执的表现。  ——摘自《智慧之为特权：解密真理医生》第一百五十页
+
+### Character Story·4（解锁条件：Character Level 80）
+
+许多人认为拉帝奥加入博识学会后，会一改从前的锋芒，以适应学会讲求实际、平和朴实的学术环境。但笔者不得不说，拉帝奥还是那个拉帝奥。以下是笔者节录的内部记录原文：  「答辩人：维里塔斯•拉帝奥题目：逻辑知识论委员会主席：罗塞思记录人：莫里微答辩实录：罗塞思：『拉帝奥先生，您的论文十分精彩，感谢您的讲解。现在，有请听众提问。』现场一片沉寂。罗塞思：『那…拉帝奥先生，我先来吧。』罗塞思：『我非常赞成你的主要观点，但对其中一个细节，我依然有些不解。』维里塔斯•拉帝奥：『每次别人赞同我的时候，我都觉得自己一定错了。』罗塞思：『我的问题是，为何您会认为知识是一种特权？』维里塔斯•拉帝奥：『尊敬的罗塞思教授，您问出这样的问题，就代表您根本没有读懂我的论文，也并不理解我运用的推导方法。』维里塔斯•拉帝奥：『但若要简单回答，您倒是提供了一个现成的例子。您无法理解我的观点，正恰恰说明知识并非人人都能享有。』维里塔斯•拉帝奥：『倘若愚钝是一种顽疾，学者的职责便是将其根除，医治宇宙。』维里塔斯•拉帝奥走向讲台，面向众人：『所以诸位，对他人的愚蠢视而不见，并非礼仪，而是一种缺德的世故。若要传播知识，必先让人理解自身的愚蠢。当然，学会的学者对自己也应当一视同仁。』罗塞思耸肩苦笑。……维里塔斯•拉帝奥在一片哗然中退场。答辩评语：激情的手握住冰冷的剑，这或许是对维里塔斯•拉帝奥先生最形象的评语。维里塔斯•拉帝奥将逻辑、狂热与批评艺术结合在一起，向我们展现了一个卓越的思想家面对无知的思考与行动。我们坚信，拉帝奥先生的加入会为博识学会带来莫大的益处。答辩委员会意见：一致通过。」  博识学会内部素有「庸众院」的传闻，据称这一神秘组织汇集了学会的最强大脑。而拉帝奥以「庸人」自居，仿佛无形中印证了这一流言。联想到他和天才俱乐部的纠葛，这个名字总令人浮想联翩。庸人作为天才的反义词，往往要付出巨大的努力和代价才能追及后者的辙迹。拉帝奥自称庸人，到底是一种退缩，还是一种嘲讽，抑或是一种宣战？但无论如何，他以知识治疗思想之病的执着，无愧于「真理医生」之名。……  ——摘自《智慧之为特权：解密真理医生》第二百三十页

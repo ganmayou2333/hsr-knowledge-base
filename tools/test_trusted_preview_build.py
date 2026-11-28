@@ -17,10 +17,10 @@ class TrustedPreviewBuildTests(unittest.TestCase):
         self.trusted = self.root / 'trusted'
         self.input = self.root / 'input'
         (self.trusted / 'wiki' / 'assets').mkdir(parents=True)
-        (self.input / 'zh_cn').mkdir(parents=True)
+        (self.input / 'data' / 'zh_cn').mkdir(parents=True)
         (self.input / 'wiki').mkdir()
-        (self.input / 'zh_cn' / 'page.md').write_text('# Untrusted content', encoding='utf8')
-        (self.input / 'zh_cn' / 'poison.py').write_text('raise RuntimeError("PR code executed")', encoding='utf8')
+        (self.input / 'data' / 'zh_cn' / 'page.md').write_text('# Untrusted content', encoding='utf8')
+        (self.input / 'data' / 'zh_cn' / 'poison.py').write_text('raise RuntimeError("PR code executed")', encoding='utf8')
         (self.input / 'wiki' / 'build_wiki.py').write_text('raise RuntimeError("PR builder executed")', encoding='utf8')
         (self.trusted / 'wiki' / 'index.html').write_text('trusted shell', encoding='utf8')
         (self.trusted / 'wiki' / 'assets' / 'app.js').write_text('trusted asset', encoding='utf8')
@@ -28,10 +28,10 @@ class TrustedPreviewBuildTests(unittest.TestCase):
 import os
 assert not os.environ.get('GH_TOKEN')
 root = Path(__file__).resolve().parent.parent
-assert not (root / 'zh_cn' / 'poison.py').exists()
+assert not (root / 'data' / 'zh_cn' / 'poison.py').exists()
 for name in ('pages', 'data'):
  (root / 'wiki' / name).mkdir()
-(root / 'wiki' / 'pages' / 'page.html').write_text((root / 'zh_cn' / 'page.md').read_text(encoding='utf8'), encoding='utf8')
+(root / 'wiki' / 'pages' / 'page.html').write_text((root / 'data' / 'zh_cn' / 'page.md').read_text(encoding='utf8'), encoding='utf8')
 (root / 'wiki' / 'data' / 'index.json').write_text('{}', encoding='utf8')
 """, encoding='utf8')
 
@@ -67,7 +67,7 @@ for name in ('pages', 'data'):
             build(self.input, self.input, self.root / 'other.zip')
 
     def test_scanner_skipped_data_directory_is_refused(self):
-        skipped = self.input / 'zh_cn' / 'temp'
+        skipped = self.input / 'data' / 'zh_cn' / 'temp'
         skipped.mkdir()
         (skipped / 'oversized.md').write_text('x' * 33, encoding='utf8')
         out = self.root / 'out.zip'
@@ -86,7 +86,7 @@ for name in ('pages', 'data'):
 
     def test_rejects_symlinked_markdown(self):
         try:
-            (self.input / 'zh_cn' / 'link.md').symlink_to(self.input / 'zh_cn' / 'page.md')
+            (self.input / 'data' / 'zh_cn' / 'link.md').symlink_to(self.input / 'data' / 'zh_cn' / 'page.md')
         except OSError as error:
             self.skipTest(str(error))
         with self.assertRaises(ValueError):

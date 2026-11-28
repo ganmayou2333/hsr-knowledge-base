@@ -42,8 +42,8 @@ class QualityGateTests(unittest.TestCase):
     def test_link_checker_reports_a_data_link_failure(self):
         script = pathlib.Path(__file__).resolve().parent.parent / "scripts" / "verify_links.py"
         with tempfile.TemporaryDirectory() as tmp:
-            data = pathlib.Path(tmp) / "zh_cn"
-            data.mkdir()
+            data = pathlib.Path(tmp) / "data" / "zh_cn"
+            data.mkdir(parents=True)
             (data / "entry.md").write_text("[[missing]]", encoding="utf-8")
             result = subprocess.run(
                 [sys.executable, str(script)], cwd=tmp, capture_output=True,

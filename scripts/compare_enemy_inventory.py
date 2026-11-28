@@ -51,7 +51,7 @@ def main():
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
     snapshot = json.loads(SNAPSHOT.read_text(encoding="utf-8"))
-    data = subprocess.check_output(["git", "ls-files", "-z", "--", "zh_cn/enemies"], cwd=ROOT)
+    data = subprocess.check_output(["git", "ls-files", "-z", "--", "data/zh_cn/enemies"], cwd=ROOT)
     paths = [p.decode("utf-8") for p in data.split(b"\0") if p.endswith(b".md")]
     result = compare(snapshot, paths)
     if args.json:

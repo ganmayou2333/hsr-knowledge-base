@@ -561,7 +561,7 @@ def _basic_fields_from_src(text):
 
 def check_character_panel(files):
     """[15] 角色直达面板：数据文件结构、独立复算、逐条字段比对、页面注入、无JS降级、缺图一致性。"""
-    src_chars = ROOT / "zh_cn" / "character"
+    src_chars = ROOT / "data" / "zh_cn" / "character"
     if not CHARACTERS_JS.exists():
         print("[15] 角色直达面板: 缺少 %s（先运行 python wiki/build_wiki.py）" % CHARACTERS_JS)
         fail(15, "缺少 wiki/data/characters.js")
@@ -742,7 +742,7 @@ def _nums(line, pattern):
 #   D. `zh_cn/` 合计行（仅 README.md）
 #      锚点：^\|\s*`zh_cn/`\s*\|   取值：最后一个单元格（允许前导 ≈）
 #
-#   E. wiki 页数（仅 README.md）
+#   E. wiki 页数（仅 README.md；公开站口径 = 入库数 md_commit_zh_cn，本机构建另含本机保留的来源受限页）
 #      锚点：(\d[\d,]*)\s*页（=`      与 `pages` 比对
 #
 #   F. `zh_cn/` 规模（仅 docs/仓库结构.md，§一 顶层结构表）
@@ -768,8 +768,8 @@ METRIC_DOCTYPE_DIRS = ("quest", "worldview", "货币战争", "rules")
 METRIC_MIRRORS = ("en_us", "zh_tw", "ja_jp", "ko_kr")
 RE_CAT_ROW = r"^\|\s*`?(%s)/?`?\s*\|" % "|".join(
     re.escape(k) for k in list(METRIC_DIR_KEY) + list(METRIC_DOCTYPE_DIRS))
-RE_MIRROR_ROW = r"^\|\s*`en_us/`"
-RE_ZHCN_ROW = r"^\|\s*`zh_cn/`\s*\|"
+RE_MIRROR_ROW = r"^\|\s*`data/en_us/`"
+RE_ZHCN_ROW = r"^\|\s*`data/zh_cn/`\s*\|"
 RE_PAGES = r"(\d[\d,]*)\s*页（=`"
 RE_ZHCN_STRUCT = r"([\d,]+)\s*`\.md`（入库\s*([\d,]+)）"
 RE_DOCTYPE_NOTE = r"依次为\s*(\d+)\s*/\s*(\d+)\s*/\s*(\d+)\s*/\s*(\d+)"
@@ -892,8 +892,8 @@ def check_metrics():
             if mp:
                 bump("E")
                 got = int(mp.group(1).replace(",", ""))
-                if got != truth["pages"]:
-                    bad.append((path, "wiki 页数 文档=%d 真值=%d" % (got, truth["pages"])))
+                if got != truth["md_commit_zh_cn"]:
+                    bad.append((path, "wiki 页数 文档=%d 真值=%d" % (got, truth["md_commit_zh_cn"])))
             # ---- F：仓库结构 §一 的 zh_cn 规模 ----
             ms = re.search(RE_ZHCN_STRUCT, ln)
             if ms:

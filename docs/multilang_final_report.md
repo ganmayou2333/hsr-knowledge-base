@@ -41,7 +41,7 @@
 |---|---|---|
 | P0（character/lightcone/relic） | 4 语言覆盖率 ≥ 95% | ✅ 仍达成（character 98.9% / lightcone 100% / relic 96.8%）——**官方 JSON 来源，未受撤下影响** |
 | P1（items/simulated） | 4 语言覆盖率 ≥ 80% | ✅ 仍达成（items 100% / blessing 100% / event 100% / curio 100%）——**官方 JSON 来源** |
-| P2（quest/worldview） | 4 语言覆盖率 ≥ 60% | ⚠️ **口径已变更**：原以 LLM 补译达成；机翻撤下后，quest 的**任务描述段**在 en_us/zh_tw 为撤下说明，worldview 的 LLM 译文不再保留 → **P2 指标不再适用**，改以「官方本地化覆盖率」重新计量（待后续工单） |
+| P2（quest/worldview） | 4 语言覆盖率 ≥ 60% | ⚠️ **口径已变更**：原以 LLM 补译达成；机翻撤下后，quest 的**任务描述段**在 data/en_us/zh_tw 为撤下说明，worldview 的 LLM 译文不再保留 → **P2 指标不再适用**，改以「官方本地化覆盖率」重新计量（待后续工单） |
 | 多语言索引文件 | 已生成 | ✅ `docs/multilang_index.md`（2026-10-02 已按实测重写） |
 | 覆盖率报告 | 已输出 | ✅ 本报告 + `docs/multilang_coverage_report.md`（2026-10-02 已更正合计口径） |
 
@@ -59,7 +59,7 @@
 - character：真珠（7935）五语言官方 JSON 未收录（4.6 角色），标注待补充
 - relic：133/134（贪噬禁果的异端/戏梦点星的伶人）官方 JSON 未收录
 - simulated：乐园漫记/惊世奇迹 150 项（米游社 WIKI 手工数据，无官方 JSON）
-- quest：wiki 编辑者叙述文本（任务总结/关键信息/伏笔等）TextMap 无数据；**机翻撤下后** en_us/zh_tw 的任务描述段为撤下说明，待官方本地化回填
+- quest：wiki 编辑者叙述文本（任务总结/关键信息/伏笔等）TextMap 无数据；**机翻撤下后** data/en_us/zh_tw 的任务描述段为撤下说明，待官方本地化回填
 - worldview：**原为 LLM 翻译，已按甲口径撤下**；专有名词以官方译名为准
 
 ## 变更记录

@@ -13,7 +13,7 @@
 | 原手工步骤 | 改用工具 | 说明 |
 |---|---|---|
 | 现写 `count_version.py` 统计版本分布 | `kb_status` | 已内置正确的跳过目录规则 |
-| `cd zh_cn && python ../scripts/verify_fields.py` | `kb_validate_fields` | 免去「必须在 `zh_cn/` 下运行」的坑 |
+| `cd data/zh_cn && python ../../scripts/verify_fields.py` | `kb_validate_fields` | 免去「必须在 `data/zh_cn/` 下运行」的坑 |
 | `python scripts/verify_links.py` | `kb_validate_links` | 已排除两个 StarRailRes 克隆 |
 | grep 找内容 | `kb_search` | 支持正则与上下文行 |
 | glob 数文件 | `kb_list` | 支持 `**` 通配 |
@@ -35,8 +35,8 @@
 
 1. `kb_validate_fields` + `kb_validate_links`（工具，结果直接贴）
 2. 工具不可用时，退回 `scripts/*.py`——**两者运行目录相反**：
-   - `verify_fields.py` → 在 `zh_cn/` 下运行
-   - `verify_links.py` → 在**仓库根**运行（在 `zh_cn/` 下会误报近万死链，2026-10-01 实例：9838 条）
+   - `verify_fields.py` → 在 `data/zh_cn/` 下运行
+   - `verify_links.py` → 在**仓库根**运行（在 `data/zh_cn/` 下会误报近万死链，2026-10-01 实例：9838 条）
 3. 两者都不可用 → 人工核对并说明方式
 
 ## M.4 扩展预留（**需用户放行**）

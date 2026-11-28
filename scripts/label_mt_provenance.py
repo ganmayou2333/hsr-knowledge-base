@@ -314,7 +314,7 @@ def build_source_field(path, lang, info, args, root):
     if info.get("force_zhcn"):
         return zhcn, "zh_cn 路径（改判件：官方 URL 只覆盖名称/属性，正文经 zhconv）"
     if args.source_mode == "zhcn":
-        exists = os.path.exists(os.path.join(root, "zh_cn", rel))
+        exists = os.path.exists(os.path.join(root, "data", "zh_cn", rel))
         return zhcn, "zh_cn 路径" + ("" if exists else "（zh_cn 无对应文件）")
     if args.source_mode == "meta":
         if info["src_url"]:
@@ -345,7 +345,7 @@ def build_label(lang, path, info, args, root):
 def collect(root, langs, insert_at="metadata-end", fallback=True):
     rows = []
     for lang in langs:
-        base = os.path.join(root, lang)
+        base = os.path.join(root, "data", lang)
         paths = []
         for dirpath, dirnames, filenames in os.walk(base):
             dirnames.sort()
