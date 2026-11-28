@@ -24,7 +24,7 @@ python wiki/build_wiki.py
 - 站点：https://ganmayou2333.github.io/hsr-knowledge-base/
 - `.github/workflows/pages.yml` 在 push 到 `main` 时先运行质量检查，通过后浅克隆 SRR → copy_icons.py → build_wiki.py 并发布。PR 也运行相同的质量检查；是否阻止合并取决于仓库的保护规则。
 - 首次需在仓库 Settings → Pages 选 GitHub Actions 来源。
-- 图标为构建时从 StarRailRes 拉取，**不随仓库分发**。
+- 图标当前在构建时从 StarRailRes 拉取，**不随仓库分发**。StarRailRes 的目标用途为**核验**图标引用；该变更尚未落到 `copy_icons.py` 与 `pages.yml`。
 
 ## 搜索与检查
 
@@ -74,5 +74,5 @@ node tools/test_wiki_browser.mjs
 ## 素材范围与署名
 
 - 本站**仅发布 `icon/**` 图标**（头像 / 立绘 / 光锥 / 遗器 / 物品 / 奇物），**不发布**游戏字体与 `image/**` 高清大图。
-- 图标在构建时从 [StarRailRes](https://github.com/Mar-7th/StarRailRes)（AGPL-3.0）拉取，**不随仓库分发**。
+- 图标当前在构建时从 [StarRailRes](https://github.com/Mar-7th/StarRailRes)（AGPL-3.0）拉取，**不随仓库分发**。StarRailRes 的目标用途为**核验**图标引用；该变更尚未落到 `copy_icons.py` 与 `pages.yml`。
 - 页脚须保留：`© 米哈游版权所有 · 非官方非商业同人整理 · AGPL-3.0（仅覆盖代码与编排）· 图标来自 StarRailRes`。

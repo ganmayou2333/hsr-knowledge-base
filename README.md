@@ -27,12 +27,15 @@
 | `stages/` | 关卡库（侵蚀隧洞 / 历战余响 / 凝滞虚影 / 材料关卡，v1.13 新增） | 2 |
 | `音乐/` | 音乐库（专辑详情 + 曲目，v1.15 新增） | 20 |
 | `data/en_us/` `data/zh_tw/` `data/ja_jp/` `data/ko_kr/` | 多语言镜像（**入库** 英文 5,722 / 繁体中文 5,715 / 日文 5,717 / 韩文 5,700；工作区全量 5,722 / 5,715 / 5,717 / 5,700；数字为干净工作树快照） | 各约 5,710 |
-| `wiki/` | **静态 Wiki 站点**（模板 + 生成器；`pages/`、`data/`、`assets/icons/` 为生成物，不入库） | 6,704 页（=`data/zh_cn/` 全量） |
+| `wiki/` | **静态 Wiki 站点**（模板 + 生成器；`pages/`、`data/`、`assets/icons/` 为生成物，不入库） | 6,704 页（=`data/zh_cn/` 入库全量；本机构建另含本机保留的来源受限页，见[指标说明](docs/metrics.md)） |
 | `mcp/`（已迁出） | MCP 只读工具层**已抽出为独立项目**：[markdown-kb-mcp](https://github.com/ganmayou2333/markdown-kb-mcp)（profile 驱动、零依赖） | — |
 | `docs/` | 文档（多语言 README / 数据来源 / 报告 / 提示词系统 / 待补充清单 / **[仓库结构](docs/仓库结构.md)**） | — |
-| `scripts/` | 校验与生成脚本（`verify_fields` / `verify_links` / `compare_srr_ids` 等） | — |
+| `scripts/` | 数据审计与生成脚本（`verify_fields` / `verify_links` / `gen_metrics` / `compare_srr_ids` 等） | — |
+| `tools/` | 站点与发布校验（`verify_site` / `verify_docs` / `check_quality`）及可信预览工具链 | — |
+| `tests/` | 脚本与校验的单元测试 | — |
 | `compliance-assessment/` | 合规评估报告（2026-10-01，.md + .docx） | — |
 
+> **2026-11-28 目录调整**：五个语言目录已迁入 `data/`（`data/zh_cn/`、`data/en_us/`、`data/zh_tw/`、`data/ja_jp/`、`data/ko_kr/`），双链与校验路径同步更新。
 > 以上 `character/`~`stages/` 均位于 `data/zh_cn/` 下（`data/zh_cn/character/` 等）；`wiki/`、`docs/`、`scripts/`、`compliance-assessment/` 位于仓库根。索引层级统一为：主索引 → 分类 / 命途索引 → 评级索引（星级） → 详情。规模为详情文件数（不含索引与分组文件）。
 > **目录规范 / 入库边界 / 清理规则**：见 **[docs/仓库结构.md](docs/仓库结构.md)**。
 > **口径说明**：`data/zh_cn/` 合计行为 `data/zh_cn/` 下**全部 `.md` 文件数**（含索引，**干净工作树快照 2026-11-28 = 6,704**）；各分类行为**详情文件数**（= 含 `> 实体ID：` 元信息、且排除索引与分组文件，**实测 2026-11-28**），故两者不直接相加。`wiki/` 页数取决于构建时工作区，每个 `.md` 一页；干净检出与含忽略文件的本机快照不同，见[构建验证](docs/wiki-build.md)。
@@ -50,8 +53,26 @@
 - **AGPL-3.0 的适用范围（重要）**：该许可**仅覆盖**本仓库的**代码、脚本与数据编排成果**；**游戏文本、素材与数据本身不在该授权范围内**，其使用须另行遵守 HoYoverse 官方同人指引。**任何人不得据本仓库的 AGPL 授权再分发游戏素材。**
 - **来源站声明**：米游社官方 Wiki 词条声明「**禁止转载**」，本库已据此**撤下**照搬自该站的任务描述与对话正文等文字表达，仅保留任务结构等事实性信息；B 站 BWIKI 内容按 **CC BY-NC-SA 4.0** 协议使用并标注来源。详见 [NOTICE.md](NOTICE.md) 与 [数据来源.md](数据来源.md)。
 - AGPL-3.0 系上游 **StarRailRes** 的强制要求（强 copyleft），本仓库**无权改用更宽松许可**。
-- 游戏素材与文本版权归 **HoYoverse（米哈游）**；图标不随仓库分发（构建时从 StarRailRes 拉取）。
+- 游戏素材与文本版权归 **HoYoverse（米哈游）**；图标不随仓库分发。当前构建仍从 StarRailRes 拉取图标，该用途**尚未改为核验**（代码未变更，见 [wiki/README.md](wiki/README.md)）。
 - 第三方来源与许可详情见 [NOTICE.md](NOTICE.md)。
+
+---
+
+## 校验与构建
+
+在仓库根目录执行（字段校验需在 `data/zh_cn` 下运行）：
+
+```bash
+python scripts/verify_links.py                                   # 双链校验；数据区死链应为 0
+cd data/zh_cn && python ../../scripts/verify_fields.py && cd ../..   # 字段校验；异常应为 0
+python scripts/gen_metrics.py                                    # 重新生成规模真值表 docs/metrics.md
+python wiki/build_wiki.py                                        # 生成静态 Wiki
+python tools/check_quality.py                                    # 质量检查
+python tools/verify_site.py                                      # 站点与文档数字回归
+python tools/verify_docs.py                                      # 文档结构
+```
+
+规模数字以 [docs/metrics.md](docs/metrics.md) 为唯一真值，改数字前先重跑生成器。完整单元测试列表见 `.github/workflows/wiki-quality.yml`。
 
 ---
 
@@ -59,7 +80,7 @@
 
 - 站点：https://ganmayou2333.github.io/hsr-knowledge-base/ （GitHub Pages 自动构建，push main 即更新）
 - 本地预览：`python wiki/build_wiki.py` 后打开 `wiki/index.html`
-- 说明：图标在 CI 构建时从 StarRailRes 拉取，**不随仓库分发**；无图标实体显示占位符。
+- 说明：当前 CI 构建仍从 StarRailRes 拉取图标，**不随仓库分发**；StarRailRes 在本库中的目标用途为**核验**（图标引用与模拟宇宙数据的对照），该变更尚未落到构建脚本。无图标实体显示占位符。
 - 干净检出构建、图标来源和复现限制：见[构建验证](docs/wiki-build.md)。
 
 ---
@@ -71,7 +92,7 @@
 - **hsr.nanoka.cc**：角色 / 光锥 / 物品 / 遗器基础数据与详情
 - **米游社官方 Wiki**（bbs.mihoyo.com/sr/wiki）：角色百科、遗器来历与获取途径、模拟宇宙命途 / 星级 / 事件文本
 - **官网**：官方资料
-- **StarRailRes 开源仓库**（github.com/Mar-7th/StarRailRes）：模拟宇宙全量数据（祝福 / 奇物 / 事件 / 区块 JSON）
+- **StarRailRes 开源仓库**（github.com/Mar-7th/StarRailRes）：**仅用于核验**，对照模拟宇宙数据（祝福 / 奇物 / 事件 / 区块 JSON）与图标引用
 
 ---
 
@@ -79,7 +100,7 @@
 
 1. 使用 **Obsidian** 打开本目录作为 vault。
 2. 从各库主索引进入，沿「分类 / 命途 → 评级 → 详情」逐级浏览。
-3. 角色文件内的材料 / 遗器 / 光锥引用均为双链，可直接点击跳转。
+3. 角色文件内的材料 / 遗器 / 光锥引用均为双链，可直接点击跳转。双链以仓库根为基准，写作 `[[data/zh_cn/角色/…]]` 这样的完整路径。
 4. 搜索可直接检索角色名 / 物品名 / 光锥名。
 
 ---
@@ -136,7 +157,7 @@
 | 日本 | 《崩坏：星穹铁道》二次创作指南（miHoYo / COGNOSPHERE） | 现行版（2026-02-21 核验）<sup>[2]</sup> |
 | 其他地区（中国大陆与日本以外） | 《Honkai: Star Rail Fan Creations Guide》 | V1.0（2023-04-22）→ **V2.0（2024-08-23，现行；官方明示不适用于中国大陆与日本）**<sup>[3]</sup> |
 
-- 模拟宇宙数据派生自 **StarRailRes**（github.com/Mar-7th/StarRailRes，**AGPL-3.0**）<sup>[4]</sup>，本仓库依此采用 **GNU Affero General Public License v3.0（AGPL-3.0）**，详见 [LICENSE](LICENSE)。
+- 模拟宇宙数据的核验参照为 **StarRailRes**（github.com/Mar-7th/StarRailRes，**AGPL-3.0**）<sup>[4]</sup>；由于当前构建仍引用其图标，本仓库依此采用 **GNU Affero General Public License v3.0（AGPL-3.0）**，详见 [LICENSE](LICENSE)。
 - 其余数据来源见 [数据来源.md](数据来源.md)。
 - 第三方图库（StarRailRes_repo/）不纳入版本管理。
 
