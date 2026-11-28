@@ -5,11 +5,11 @@
 > 创建时间：2026-08-30 12:14
 > 更新时间：2026-08-30 22:19
 
-[[zh_cn/items/物品总索引|返回物品总索引]]
+[[data/zh_cn/items/物品总索引|返回物品总索引]]
 
 ---
 
 ## sub_type 索引
 
-- [[zh_cn/items/Virtual/Virtual_索引|Virtual（虚拟物品）]]（45）
+- [[data/zh_cn/items/Virtual/Virtual_索引|Virtual（虚拟物品）]]（45）
 
