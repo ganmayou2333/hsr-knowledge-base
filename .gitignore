@@ -36,3 +36,6 @@ scripts/mimo_batch.py
 # ---- 本机会话数据与大体积本地备份（issue #28）----
 .workbuddy/
 StarRailRes-master.bak-*/
+
+# ---- 本地视频素材（G:\BD 主线剧情录像，121 GB，不入库）----
+视频/
