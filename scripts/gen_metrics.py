@@ -13,7 +13,7 @@
   页数 / 版本分布          ← wiki/data/stats.js（由 python wiki/build_wiki.py 生成）
   五语入库文件数            ← git ls-tree -r --name-only HEAD -- <lang> | grep -c '\\.md$'
   五语工作区文件数          ← find <lang> -name '*.md' | wc -l（等价 pathlib.rglob）
-  各类详情数 / 校验状态     ← scripts/verify_fields.py（**必须在 zh_cn 目录下运行**）
+  各类详情数 / 校验状态     ← scripts/verify_fields.py（**必须在 data/zh_cn 目录下运行**）
   站点链接 / 死链 / 未收录   ← wiki/data/link_report.json（build_wiki 产物）
   全库双链 / 死链           ← scripts/verify_links.py 的 scan()（本进程内调用）
 
@@ -123,7 +123,7 @@ def run_verify_fields():
 
     verify_fields.py 自带 `sys.stdout.reconfigure(encoding='utf-8')`，
     因此管道输出就是 UTF-8，可以安全 decode。
-    **必须在 zh_cn 目录下运行**（否则会扫描到四语镜像，口径翻 5 倍）。
+    **必须在 data/zh_cn 目录下运行**（否则会扫描到四语镜像，口径翻 5 倍）。
     """
     script = ROOT / "scripts" / "verify_fields.py"
     cwd = ROOT / "data" / "zh_cn"
@@ -284,7 +284,7 @@ def render(m, now):
     a("|---|---|---|")
     a("| **入库数** | `git ls-tree` 口径：生成时 `HEAD` 提交中的文件。CI 与线上内容取决于各自检出和部署的提交。 | `git ls-tree -r --name-only HEAD -- <lang> \\| grep -c '\\.md$'` |")
     a("| **工作区数** | 本地磁盘实际文件数，**含实际存在的 gitignore 文件，例如 `*/quest/剧情文本/`**（D-020/D-025 合规撤下、不入库）。 | `find <lang> -name '*.md' \\| wc -l` |")
-    a("| **详情文件** | 含 `> 实体ID：` 元信息，且排除「文件名 == 上级目录名」的索引 / 分组文件与类别主索引（D-048 / D-061 / D-067）。 | `cd zh_cn && python ../scripts/verify_fields.py` |")
+    a("| **详情文件** | 含 `> 实体ID：` 元信息，且排除「文件名 == 上级目录名」的索引 / 分组文件与类别主索引（D-048 / D-061 / D-067）。 | `cd data/zh_cn && python ../../scripts/verify_fields.py` |")
     a("| **页面数** | `zh_cn/` 每个 `.md` 一页；构建产物反映构建时工作区，不一定是生成统计时的工作区。 | `python wiki/build_wiki.py` |")
     a("")
     a("> **对外报数一律用「入库数」**（D-068）：文档若写工作区数，必须在括注中写明口径与差值来源，")
@@ -388,7 +388,7 @@ def render(m, now):
     a("")
     a("| 校验器 | 命令 | 结果 |")
     a("|---|---|---|")
-    a("| `verify_fields` | `cd zh_cn && python ../scripts/verify_fields.py`（**必须在 `zh_cn` 下运行**） | 扫描 %s 个 `.md`；详情 %s；异常 **%s**；已知待补充 **%s** |"
+    a("| `verify_fields` | `cd data/zh_cn && python ../../scripts/verify_fields.py`（**必须在 `data/zh_cn` 下运行**） | 扫描 %s 个 `.md`；详情 %s；异常 **%s**；已知待补充 **%s** |"
       % (fmt(m["md_worktree_zh_cn"]), fmt(m["detail_total"]), fmt(m["vf_issue"]), fmt(m["vf_known"])))
     a("| `verify_links` | `python scripts/verify_links.py`（仓库根） | 双链 %s；死链 %s（其中数据区 **%s**） |"
       % (fmt(m["wikilink_total"]), fmt(m["wikilink_dead"]), fmt(m["wikilink_dead_data"])))

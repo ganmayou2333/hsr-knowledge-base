@@ -112,7 +112,7 @@
 ```bash
 python wiki/build_wiki.py            # 页数随输入变化；死链 0，未收录内容按预期降级
 python tools/verify_site.py          # RESULT: PASS（[1]–[16]，[5] 六项 0）
-cd zh_cn && python ../scripts/verify_fields.py   # 异常 0；待补充数随数据变化（必须在 zh_cn 目录）
+cd data/zh_cn && python ../../scripts/verify_fields.py   # 异常 0；待补充数随数据变化（必须在 data/zh_cn 目录）
 cd .. && python scripts/verify_links.py          # exit 0，数据区死链 0
 ```
 
