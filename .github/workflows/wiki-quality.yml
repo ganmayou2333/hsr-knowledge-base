@@ -5,6 +5,9 @@ on:
   workflow_call:
 permissions:
   contents: read
+  # The retry policy lists this run's artifacts with a read-only token to tell a
+  # transient visibility lag apart from a permission or 404 failure.
+  actions: read
 jobs:
   quality:
     name: Build and check
@@ -37,7 +40,7 @@ jobs:
         run: |
           python tools/verify_site.py
           python tools/verify_docs.py
-          python -m unittest tools.test_wiki_search tools.test_quality_gate tools.test_check_quality tools.test_verify_links tools.test_preview_review tools.test_preview_review_server tools.test_preview_artifact tools.test_package_preview tools.test_preview_bundle tools.test_stage_preview tools.test_trusted_quality tools.test_trusted_workflow_guard tools.test_trusted_preview_build tools.test_trusted_preview_artifact tools.test_trusted_preview_fetch tools.test_trusted_receipt tools.test_preview_catalog tools.test_reconcile_previews tools.test_preview_release tools.test_verify_preview_publication -v
+          python -m unittest tools.test_wiki_search tools.test_quality_gate tools.test_check_quality tools.test_verify_links tools.test_preview_review tools.test_preview_review_server tools.test_preview_artifact tools.test_package_preview tools.test_preview_bundle tools.test_stage_preview tools.test_trusted_quality tools.test_trusted_workflow_guard tools.test_trusted_preview_build tools.test_trusted_preview_artifact tools.test_trusted_preview_fetch tools.test_trusted_receipt tools.test_preview_catalog tools.test_reconcile_previews tools.test_preview_release tools.test_verify_preview_publication tools.test_artifact_retry_policy -v
           python -m unittest discover -s tests -p test_audit_mirror_entities.py -v
           python -m unittest discover -s tests -p test_mirror_reader_notices.py -v
           python -m unittest discover -s tests -p test_compare_enemy_inventory.py -v
@@ -77,40 +80,175 @@ jobs:
           if-no-files-found: error
           compression-level: 0
           retention-days: 7
-      - name: Download preview input for round-trip verification
+      - name: Record uploaded preview digest
         if: github.event_name == 'pull_request'
-        id: download_preview_first
+        run: |
+          sha256sum "$RUNNER_TEMP/wiki-preview.zip" | cut -d' ' -f1 > "$RUNNER_TEMP/wiki-preview.sha256"
+          echo "Uploaded preview archive SHA-256: $(cat "$RUNNER_TEMP/wiki-preview.sha256")"
+      - name: Write preview download diagnostics helper
+        if: github.event_name == 'pull_request'
+        run: |
+          cat > "$RUNNER_TEMP/classify_preview_download.sh" <<'CLASSIFY_SCRIPT'
+          #!/usr/bin/env bash
+          # Classify one failed preview download attempt and write a canonical failure text.
+          # Read-only: lists artifacts with the GitHub API and compares digests; it never
+          # reports success on its own.
+          set -uo pipefail
+
+          attempt="${1:?attempt number}"
+          name="${2:?artifact name}"
+          root="${RUNNER_TEMP:?RUNNER_TEMP}"
+          repo="${GITHUB_REPOSITORY:-unknown/unknown}"
+          run_id="${GITHUB_RUN_ID:-0}"
+          downloaded="$root/preview-roundtrip/wiki-preview.zip"
+          digest_file="$root/wiki-preview.sha256"
+          failure_file="$root/preview-attempt-${attempt}-failure.txt"
+          : > "$failure_file"
+
+          write_failure() {
+            printf '%s\n' "$1" > "$failure_file"
+          }
+
+          expected_digest=""
+          if [ -f "$digest_file" ]; then
+            expected_digest="$(cat "$digest_file" 2>/dev/null || true)"
+          fi
+
+          if [ -f "$downloaded" ]; then
+            actual_digest="$(sha256sum "$downloaded" | cut -d' ' -f1)"
+            if [ -n "$expected_digest" ] && [ "$actual_digest" != "$expected_digest" ]; then
+              write_failure "Digest mismatch on attempt ${attempt}: uploaded ${expected_digest}, downloaded ${actual_digest}"
+              echo "::error::Preview download attempt ${attempt} produced a digest mismatch (uploaded ${expected_digest}, downloaded ${actual_digest})."
+            else
+              write_failure "Download attempt ${attempt} reported failure although the downloaded file exists and matches the recorded upload SHA-256; treating as transient"
+              echo "::warning::Preview download attempt ${attempt} reported failure although the file exists and matches the upload digest."
+            fi
+            exit 0
+          fi
+
+          probe_status=0
+          probe_output="$(gh api "repos/${repo}/actions/runs/${run_id}/artifacts?name=${name}&per_page=100" 2>&1)" || probe_status=$?
+          if [ "$probe_status" -ne 0 ]; then
+            probe_first_line="$(printf '%s\n' "$probe_output" | head -n 1)"
+            if printf '%s' "$probe_output" | grep -Eqi 'HTTP (401|403)|Resource not accessible|forbidden|not authorized|permission'; then
+              write_failure "Permission denied while listing artifact ${name} for run ${run_id}: ${probe_first_line}"
+              echo "::error::Preview download attempt ${attempt} could not list artifacts because the token lacked access (${probe_first_line})."
+            elif printf '%s' "$probe_output" | grep -Eqi 'HTTP 404|Not Found'; then
+              write_failure "Artifact listing returned HTTP 404 for run ${run_id} artifact ${name}: ${probe_first_line}"
+              echo "::error::Preview download attempt ${attempt} failed because the artifact list returned HTTP 404 (${probe_first_line})."
+            else
+              write_failure "Artifact listing probe failed without a recognised status (${probe_first_line}); treating as transient"
+              echo "::warning::Preview download attempt ${attempt} could not be classified; the artifact listing probe failed without a recognised status."
+            fi
+            exit 0
+          fi
+
+          probe_fields="$(printf '%s' "$probe_output" | python -X utf8 -c 'import json,sys; d=json.load(sys.stdin); a=d.get("artifacts") or []; print(str(d.get("total_count", len(a))))' 2>/dev/null)" || probe_fields="error"
+          if [ "$probe_fields" = "error" ]; then
+            write_failure "Artifact listing returned an unparseable response; treating as transient"
+            echo "::warning::Preview download attempt ${attempt} received an unparseable artifact listing."
+            exit 0
+          fi
+          if [ "$probe_fields" = "0" ]; then
+            write_failure "Artifact not found for name: ${name} for run ${run_id} (attempt ${attempt}); the run artifact list does not include that name yet"
+            echo "::warning::Preview download attempt ${attempt} cannot see artifact ${name} yet."
+            exit 0
+          fi
+          write_failure "Artifact named ${name} is listed for run ${run_id}, but the download failed before an extracted file could be verified; treating the download transport error as transient (attempt ${attempt})"
+          echo "::warning::Preview download attempt ${attempt} failed even though artifact ${name} is listed; treating as a transient download error."
+          CLASSIFY_SCRIPT
+          chmod +x "$RUNNER_TEMP/classify_preview_download.sh"
+      - name: Download preview input for round-trip verification (attempt 1)
+        if: github.event_name == 'pull_request'
+        id: download_preview_attempt_1
         uses: actions/download-artifact@v8
         continue-on-error: true
         with:
           digest-mismatch: error
           name: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/preview-roundtrip
-      - name: Wait before retrying preview download
-        if: steps.download_preview_first.outcome == 'failure'
-        run: sleep 5
-      - name: Retry preview download
-        if: steps.download_preview_first.outcome == 'failure'
-        id: download_preview_second
+      - name: Classify preview download attempt 1
+        if: github.event_name == 'pull_request' && steps.download_preview_attempt_1.outcome == 'failure'
+        env:
+          ARTIFACT_NAME: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash "$RUNNER_TEMP/classify_preview_download.sh" 1 "$ARTIFACT_NAME"
+      - name: Decide retry after preview download attempt 1
+        id: decide_preview_attempt_1
+        if: github.event_name == 'pull_request' && steps.download_preview_attempt_1.outcome == 'failure'
+        run: |
+          python -X utf8 tools/artifact_retry_policy.py \
+            --attempt 1 \
+            --failure-file "$RUNNER_TEMP/preview-attempt-1-failure.txt" \
+            --waited-seconds 0 \
+            --github-output "$GITHUB_OUTPUT" \
+            --summary-file "$RUNNER_TEMP/preview-attempts.md"
+      - name: Wait before preview download attempt 2
+        if: github.event_name == 'pull_request' && steps.decide_preview_attempt_1.outputs.retry == 'true'
+        env:
+          WAIT_SECONDS: ${{ steps.decide_preview_attempt_1.outputs.wait_seconds }}
+        run: |
+          wait_seconds="${WAIT_SECONDS:-0}"
+          echo "Attempt 1 failed under the retry policy; waiting ${wait_seconds}s before attempt 2."
+          sleep "$wait_seconds"
+      - name: Download preview input for round-trip verification (attempt 2)
+        if: github.event_name == 'pull_request' && steps.decide_preview_attempt_1.outputs.retry == 'true'
+        id: download_preview_attempt_2
         uses: actions/download-artifact@v8
         continue-on-error: true
         with:
           digest-mismatch: error
           name: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/preview-roundtrip
-      - name: Wait before final preview download
-        if: steps.download_preview_second.outcome == 'failure'
-        run: sleep 10
-      - name: Final preview download
-        if: steps.download_preview_second.outcome == 'failure'
-        id: download_preview_final
+      - name: Classify preview download attempt 2
+        if: github.event_name == 'pull_request' && steps.download_preview_attempt_2.outcome == 'failure'
+        env:
+          ARTIFACT_NAME: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash "$RUNNER_TEMP/classify_preview_download.sh" 2 "$ARTIFACT_NAME"
+      - name: Decide retry after preview download attempt 2
+        id: decide_preview_attempt_2
+        if: github.event_name == 'pull_request' && steps.download_preview_attempt_2.outcome == 'failure'
+        run: |
+          python -X utf8 tools/artifact_retry_policy.py \
+            --attempt 2 \
+            --failure-file "$RUNNER_TEMP/preview-attempt-2-failure.txt" \
+            --waited-seconds 0 \
+            --github-output "$GITHUB_OUTPUT" \
+            --summary-file "$RUNNER_TEMP/preview-attempts.md"
+      - name: Wait before final preview download attempt 3
+        if: github.event_name == 'pull_request' && steps.decide_preview_attempt_2.outputs.retry == 'true'
+        env:
+          WAIT_SECONDS: ${{ steps.decide_preview_attempt_2.outputs.wait_seconds }}
+        run: |
+          wait_seconds="${WAIT_SECONDS:-0}"
+          echo "Attempt 2 failed under the retry policy; waiting ${wait_seconds}s before attempt 3."
+          sleep "$wait_seconds"
+      - name: Final preview download (attempt 3, failure fails the job)
+        if: github.event_name == 'pull_request' && steps.decide_preview_attempt_2.outputs.retry == 'true'
+        id: download_preview_attempt_3
         uses: actions/download-artifact@v8
         with:
           digest-mismatch: error
           name: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/preview-roundtrip
+      - name: Diagnose final preview download failure
+        if: ${{ failure() && github.event_name == 'pull_request' && steps.download_preview_attempt_3.outcome == 'failure' }}
+        env:
+          ARTIFACT_NAME: wiki-preview-${{ github.event.pull_request.number }}-${{ github.event.pull_request.head.sha }}-${{ github.run_attempt }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash "$RUNNER_TEMP/classify_preview_download.sh" 3 "$ARTIFACT_NAME"
+          python -X utf8 tools/artifact_retry_policy.py \
+            --attempt 3 \
+            --failure-file "$RUNNER_TEMP/preview-attempt-3-failure.txt" \
+            --waited-seconds 10 \
+            --summary-file "$RUNNER_TEMP/preview-attempts.md" \
+            --diagnose-only
       - name: Verify downloaded preview input
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && (steps.download_preview_attempt_1.outcome == 'success' || steps.download_preview_attempt_2.outcome == 'success' || steps.download_preview_attempt_3.outcome == 'success')
         id: verify_preview_roundtrip
         run: |
           cmp "$RUNNER_TEMP/wiki-preview.zip" "$RUNNER_TEMP/preview-roundtrip/wiki-preview.zip"
@@ -133,16 +271,50 @@ jobs:
       - name: Summarize preview download
         if: ${{ always() && github.event_name == 'pull_request' }}
         env:
-          FIRST: ${{ steps.download_preview_first.outcome }}
-          SECOND: ${{ steps.download_preview_second.outcome }}
-          FINAL: ${{ steps.download_preview_final.outcome }}
+          ATTEMPT_1: ${{ steps.download_preview_attempt_1.outcome }}
+          ATTEMPT_2: ${{ steps.download_preview_attempt_2.outcome }}
+          ATTEMPT_3: ${{ steps.download_preview_attempt_3.outcome }}
           VERIFY: ${{ steps.verify_preview_roundtrip.outcome }}
         run: |
           {
             echo '### Preview artifact round trip'
-            echo "- First download: ${FIRST:-not run}"
-            echo "- Second download: ${SECOND:-not run}"
-            echo "- Final download: ${FINAL:-not run}"
+            echo "- Attempt 1 download: ${ATTEMPT_1:-not run}"
+            echo "- Attempt 2 download: ${ATTEMPT_2:-not run}"
+            echo "- Attempt 3 download (final, no continue-on-error): ${ATTEMPT_3:-not run}"
             echo "- Byte comparison and package verification: ${VERIFY:-not run}"
-            echo 'A retry can leave an error annotation even when the final verification succeeds. Inspect the failed attempt log; failures can have different causes.'
+            if [ -f "$RUNNER_TEMP/wiki-preview.sha256" ]; then
+              echo "- Uploaded archive SHA-256: $(cat "$RUNNER_TEMP/wiki-preview.sha256")"
+            fi
+            if [ -f "$RUNNER_TEMP/preview-attempts.md" ]; then
+              echo ''
+              echo 'Attempt log:'
+              cat "$RUNNER_TEMP/preview-attempts.md"
+            fi
+            echo ''
+            if [ "$VERIFY" = "success" ]; then
+              echo 'Final conclusion: PASS - the downloaded archive matches the uploaded archive and passed package verification.'
+              if [ "$ATTEMPT_2" = "success" ] || [ "$ATTEMPT_3" = "success" ]; then
+                echo 'A retry was required; the earlier failed attempt is real and must not be read as success.'
+              fi
+            elif [ "$ATTEMPT_3" = "failure" ]; then
+              echo 'Final conclusion: FAIL - all download attempts failed; the final download step failed the job.'
+            elif [ "$ATTEMPT_2" = "failure" ]; then
+              echo 'Final conclusion: FAIL - a non-retryable failure stopped the retry policy before the final attempt.'
+            elif [ "$ATTEMPT_1" = "failure" ]; then
+              echo 'Final conclusion: FAIL - a non-retryable failure stopped the retry policy after the first attempt.'
+            elif [ "$VERIFY" = "failure" ]; then
+              echo 'Final conclusion: FAIL - download succeeded but round-trip verification failed.'
+            else
+              echo "Final conclusion: INCOMPLETE - verification was not reported (${VERIFY:-not run})."
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
+          retried_success=0
+          if [ "$VERIFY" = "success" ] && [ "$ATTEMPT_2" = "success" ]; then retried_success=1; fi
+          if [ "$VERIFY" = "success" ] && [ "$ATTEMPT_3" = "success" ]; then retried_success=1; fi
+          if [ "$retried_success" = "1" ]; then
+            echo "::warning::Preview download succeeded only after a retry; the earlier failed attempt is not a success."
+          elif [ "$VERIFY" = "success" ]; then
+            echo "::notice::Preview download succeeded on the first attempt."
+          else
+            echo "::error::Preview download round-trip verification did not pass; inspect the attempt log and step logs."
+          fi

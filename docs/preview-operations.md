@@ -130,3 +130,16 @@
 2026-11-28：新增 `tools.trusted_preview_fetch.download_trusted_preview` 本地取件组件：调用者提供已独立审查的基线 SHA，组件比对当前 main、PR、可信运行与 v2 收据，外部 PR 复核审批，按工件 ID 下载前后重新核对状态；不解压、不发布。单测使用模拟 GitHub 元数据与 ZIP。SHA 参数并不证明代码已审查，下载后状态仍可能变化；消费者尚未接入，真实 v2 工件、发布前复核和端到端测试仍缺，禁止据此公开预览。
 
 2026-11-28 后续：取件组件把收据工件 ID 与预览选择一并作为快照，在预览下载前后重新验证；测试覆盖收据工件更换及 PR 关闭，失败不留下输出。仍不能消除最后一次查询之后的状态变化，发布消费者必须重新校验。
+
+## 2026-11-28 状态更新（Lead 复核，只读）
+
+本节更正上文若干已过期的快照结论；不重写历史记录。
+
+- **分支保护**：`main` 当前必需检查仍为 GitHub Actions（app 15368）的 `Build and check`，但必需批准数已自 2026-11-27 起调整为 **0**；管理员约束、禁止强推和删除、旧批准失效仍然启用。上文「需 1 个批准」是当时快照。
+- **可信检查工作流已在默认分支真实运行**：截至 2026-11-28 共 14 次 `pull_request_target` 运行，14 次的 `pull_requests` 字段均为空；6 次头仓库为 fork、8 次为主仓库。外部 fork 关联仍不能据该字段确定。
+- **v2 收据与工件已有真实运行**：内部 PR #55 的运行 `46099524983`（attempt 1）产出 v2 收据工件 `15244971658` 与可信预览工件 `15245180923`，本地核对 SHA-256 与 API digest 一致；但 PR 已合并，`validate_receipt` 以 `state!=open` 拒绝，仅在内存中模拟 `state=open` 后接受，**不是真实打开 PR 的授权**。
+- **v2 工件尚无消费者**：生产代码未导入 `trusted_preview_fetch` / `trusted_preview_artifact` / `trusted_receipt`，`reconcile_previews.py` 仍暂存普通 wiki-quality 产物；没有发现、暂存、发布前复核或发布接入。
+- **独立预览站点仍为占位页**：`ganmayou2333/hsr-knowledge-base-preview` 仅 README 与占位 `index.html`，无工作流、Actions secrets 为 0；Pages 最新构建仍为 2026-11-20 的 `d31d6d20`。PR 内容预览、自动发布、清理与恢复均未上线。
+- **人工独立审查**：PR #54、#55 的 `reviews` 均为空；PR #37 的批准只覆盖其旧头提交，不能替代当前批次审查。
+
+逐项验收对照与命令证据见 [evidence/preview-status-2026-11-28.md](evidence/preview-status-2026-11-28.md)。
