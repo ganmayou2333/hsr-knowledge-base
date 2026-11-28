@@ -21,7 +21,7 @@ import os, re, sys, json, argparse
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ROOT = r'G:\HSR'
-SRC = os.path.join(ROOT, 'zh_cn')
+SRC = os.path.join(ROOT, 'data', 'zh_cn')
 
 CAT_MAP = {
     'character': ('角色', '角色'), 'lightcone': ('光锥', '光锥'), 'relic': ('遗器', '遗器'),
@@ -78,7 +78,7 @@ def conv_inline(s, tmap):
         tgt = parts[0].strip()
         disp = parts[1].strip() if len(parts) > 1 else ''
         t = tgt[:-3] if tgt.endswith('.md') else tgt
-        t = re.sub(r'^zh_cn/', '', t)
+        t = re.sub(r'^(data/)?zh_cn/', '', t)
         if t in tmap:
             return f'[[{tmap[t]}|{disp or tmap[t]}]]'
         fallback = disp or tgt.split('/')[-1]

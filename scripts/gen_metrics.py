@@ -72,7 +72,7 @@ def git_md_count(lang):
     """
     try:
         p = subprocess.run(
-            ["git", "-c", "core.quotepath=false", "ls-tree", "-r", "--name-only", "HEAD", "--", lang],
+            ["git", "-c", "core.quotepath=false", "ls-tree", "-r", "--name-only", "HEAD", "--", "data/" + lang],
             cwd=str(ROOT), capture_output=True, timeout=300,
         )
     except Exception:
@@ -85,7 +85,7 @@ def git_md_count(lang):
 
 def worktree_md_count(lang):
     """工作区口径：find <lang> -name '*.md' | wc -l。"""
-    d = ROOT / lang
+    d = ROOT / "data" / lang
     if not d.is_dir():
         return None
     return sum(1 for _ in d.rglob("*.md"))
@@ -211,7 +211,7 @@ def collect():
     def labeled_nonofficial_count(lang):
         n = 0
         needle = "本地化来源：非官方".encode("utf-8")
-        for p in (ROOT / lang).rglob("*.md"):
+        for p in (ROOT / "data" / lang).rglob("*.md"):
             try:
                 with open(p, "rb") as fh:
                     if needle in fh.read(8192):

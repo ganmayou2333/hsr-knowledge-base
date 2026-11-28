@@ -119,16 +119,16 @@ def tracked_detail_paths():
     """Detail .md paths as recorded in the git index (read-only git call)."""
     try:
         data = subprocess.check_output(
-            ["git", "-c", "core.quotepath=false", "ls-files", "-z", "--", "zh_cn/enemies"],
+            ["git", "-c", "core.quotepath=false", "ls-files", "-z", "--", "data/zh_cn/enemies"],
             cwd=ROOT)
     except (OSError, subprocess.CalledProcessError) as exc:  # pragma: no cover - environment
         raise SystemExit(f"[error] 读取 git 跟踪文件失败：{exc}")
-    return sorted(p for p in (x.decode("utf-8") for x in data.split(b"\0")) if p.endswith(".md"))
+    return sorted(p[len("data/"):] for p in (x.decode("utf-8") for x in data.split(b"\0")) if p.endswith(".md"))
 
 
 def worktree_detail_paths():
     """Detail .md paths on disk, including files not yet tracked."""
-    return sorted(str(p.relative_to(ROOT)).replace("\\", "/")
+    return sorted(str(p.relative_to(ROOT / "data")).replace("\\", "/")
                   for p in (ROOT / "data" / "zh_cn" / "enemies").rglob("*.md"))
 
 
@@ -152,7 +152,7 @@ def collect_details(paths):
     """
     details = []
     for rel in paths:
-        path = ROOT / rel
+        path = ROOT / "data" / rel
         parts = rel.split("/")
         if len(parts) < 4:  # zh_cn/enemies/<category>/<name>.md
             continue
@@ -167,7 +167,7 @@ def collect_details(paths):
         text = path.read_text(encoding="utf-8")
         id_match = NUMERIC_ID_RE.search(text)
         details.append({
-            "path": rel,
+            "path": "data/" + rel,
             "category": category,
             "name": stem,
             "key": normalize(stem),

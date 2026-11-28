@@ -33,10 +33,10 @@ PARTIAL_LINE = re.compile(r"^>[ \t]*状态[ \t]*[:：][ \t]*部分收录", re.MU
 
 def tracked_paths():
     raw = subprocess.check_output(
-        ["git", "ls-files", "-z", "--", *[f"{lang}/{cat}" for lang in LANGS for cat in CATEGORIES]],
+        ["git", "ls-files", "-z", "--", *[f"data/{lang}/{cat}" for lang in LANGS for cat in CATEGORIES]],
         cwd=ROOT,
     )
-    return [b.decode("utf-8") for b in raw.split(b"\0") if b.endswith(b".md")]
+    return [b.decode("utf-8")[len("data/"):] for b in raw.split(b"\0") if b.endswith(b".md")]
 
 
 def notice_for(language, category):
@@ -54,8 +54,8 @@ def main():
         language, category, _ = path.split("/", 2)
         if language not in LANGS or category not in CATEGORIES:
             continue
-        text = (ROOT / path).read_text(encoding="utf-8-sig")
-        with (ROOT / path).open("rb") as f:
+        text = (ROOT / "data" / path).read_text(encoding="utf-8-sig")
+        with (ROOT / "data" / path).open("rb") as f:
             labeled = LABEL in f.read(8192)
         header = text.split("\n---", 1)[0]
         notice = notice_for(language, category) in header

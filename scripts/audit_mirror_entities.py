@@ -17,7 +17,7 @@ PARTIAL_LINE = re.compile(r"^>[ \t]*状态[ \t]*[:：][ \t]*部分收录(?:[；;
 
 def inventory():
     raw = subprocess.check_output(
-        ["git", "ls-files", "-z", "--", *[f"{lang}/{cat}" for lang in LANGS for cat in CATEGORIES]],
+        ["git", "ls-files", "-z", "--", *[f"data/{lang}/{cat}" for lang in LANGS for cat in CATEGORIES]],
         cwd=ROOT,
     )
     groups = {(lang, cat): defaultdict(list) for lang in LANGS for cat in CATEGORIES}
@@ -27,9 +27,9 @@ def inventory():
     for b in raw.split(b"\0"):
         if not b.endswith(b".md"):
             continue
-        path = b.decode("utf-8")
+        path = b.decode("utf-8")[len("data/"):]
         lang, category, _ = path.split("/", 2)
-        text = (ROOT / path).read_text(encoding="utf-8-sig")
+        text = (ROOT / "data" / path).read_text(encoding="utf-8-sig")
         if PARTIAL_LINE.search(text):
             partial.add(path)
         ids = ID_LINE.findall(text)

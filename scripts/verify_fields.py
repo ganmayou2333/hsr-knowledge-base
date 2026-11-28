@@ -21,7 +21,7 @@ def walk_md():
 
 def classify(path):
     # 先剥语言根目录（zh_cn/ en_us/ 等），使仓库根运行也能正确分类
-    for lang in ('zh_cn/', 'zh_tw/', 'en_us/', 'ja_jp/', 'ko_kr/'):
+    for lang in ('data/zh_cn/', 'data/zh_tw/', 'data/en_us/', 'data/ja_jp/', 'data/ko_kr/', 'zh_cn/', 'zh_tw/', 'en_us/', 'ja_jp/', 'ko_kr/'):
         if path.startswith(lang):
             path = path[len(lang):]
             break
