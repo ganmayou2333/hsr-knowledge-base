@@ -14,4 +14,4 @@
 | Period | After 4.6 update – 2026/11/11 03:59 (UTC+8) |
 | Requirement | Trailblaze Level ≥ 21 |
 
-[[zh_cn/events/版本活动/爱，幽灵与机器人|简中基准 / 中文基準]]
+[[data/zh_cn/events/版本活动/爱，幽灵与机器人|简中基准 / 中文基準]]

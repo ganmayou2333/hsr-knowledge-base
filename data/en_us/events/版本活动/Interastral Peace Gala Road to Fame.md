@@ -42,8 +42,8 @@ Notes on availability (from the same Chinese post):
 ## Related Entries
 
 - Version: 4.7 "Now, Lay Laughter to All Stars"
-- Same-series predecessor: [[zh_cn/events/版本活动/星际和平盛典_一镜到底|Interastral Peace Gala: One Take]] (4.6)
-- Back: [[zh_cn/events/版本活动/版本活动|Version Events index]] → [[zh_cn/events/活动|Events index]]
+- Same-series predecessor: [[data/zh_cn/events/版本活动/星际和平盛典_一镜到底|Interastral Peace Gala: One Take]] (4.6)
+- Back: [[data/zh_cn/events/版本活动/版本活动|Version Events index]] → [[data/zh_cn/events/活动|Events index]]
 
 ---
 

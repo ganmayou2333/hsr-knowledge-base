@@ -39,8 +39,8 @@ Step-by-step rules (obtaining "access card" items from a task chain, one chest p
 ## Related Entries
 
 - Version: 4.7 "Now, Lay Laughter to All Stars"
-- Related library: [[zh_cn/relic/遗器|Relic index]]
-- Back: [[zh_cn/events/版本活动/版本活动|Version Events index]] → [[zh_cn/events/活动|Events index]]
+- Related library: [[data/zh_cn/relic/遗器|Relic index]]
+- Back: [[data/zh_cn/events/版本活动/版本活动|Version Events index]] → [[data/zh_cn/events/活动|Events index]]
 
 ---
 

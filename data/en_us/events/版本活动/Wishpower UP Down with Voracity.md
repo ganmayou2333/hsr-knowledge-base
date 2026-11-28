@@ -14,4 +14,4 @@
 | Period | After 4.6 update – 2026/11/11 06:00 (UTC+8) |
 | Requirement | Complete Adventure Mission “Calyx (Golden): Bud of Memories” |
 
-[[zh_cn/events/版本活动/镇伏贪饕汇聚愿力|简中基准 / 中文基準]]
+[[data/zh_cn/events/版本活动/镇伏贪饕汇聚愿力|简中基准 / 中文基準]]

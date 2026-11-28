@@ -44,7 +44,7 @@ Rewards are split into "limited-time rewards" and "permanent rewards"; the offic
 ## Related Entries
 
 - Version: 4.7 "Now, Lay Laughter to All Stars"
-- Back: [[zh_cn/events/版本活动/版本活动|Version Events index]] → [[zh_cn/events/活动|Events index]]
+- Back: [[data/zh_cn/events/版本活动/版本活动|Version Events index]] → [[data/zh_cn/events/活动|Events index]]
 
 ---
 

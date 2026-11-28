@@ -17,7 +17,7 @@
 | Type | Version Event (cumulative-spend rebate) |
 | Event Period | After the Version 4.7 update – 2026/12/23 03:59 (UTC+8) |
 | Requirement | Pending (the official notice states no participation requirement) |
-| Related Characters | [[zh_cn/character/虚无/黄泉_雷_五星\|Acheron]] / [[zh_cn/character/毁灭/丹恒•饮月_虚数_五星\|Dan Heng • Imbibitor Lunae]] / [[zh_cn/character/智识/景元_雷_五星\|Jing Yuan]] (the characters who can activate an Affinitive Eidolon) |
+| Related Characters | [[data/zh_cn/character/虚无/黄泉_雷_五星\|Acheron]] / [[data/zh_cn/character/毁灭/丹恒•饮月_虚数_五星\|Dan Heng • Imbibitor Lunae]] / [[data/zh_cn/character/智识/景元_雷_五星\|Jing Yuan]] (the characters who can activate an Affinitive Eidolon) |
 
 > The notice says maintenance began at 2026/11/11 06:00 (UTC+8) and was expected to take about five hours. The event starts after the update; the actual completion time has not been independently verified.
 
@@ -45,14 +45,14 @@ Conversion rates:
 
 | Consumption | Resonance gained |
 |---|---|
-| Consume [[zh_cn/items/Material/Material/星轨专票\|Star Rail Special Pass]] ×1 in any event warp | ×16 |
+| Consume [[data/zh_cn/items/Material/Material/星轨专票\|Star Rail Special Pass]] ×1 in any event warp | ×16 |
 | Consume "Fashion Invite" ×1 in "Phantasia Showstage" | ×10 |
 
 ## Related Entries
 
 - Version: 4.7 "Now, Lay Laughter to All Stars"
-- Related events: [[zh_cn/events/版本活动/寰宇美学•幻乐秀场|Cosmic Aesthetics: Phantasia Showstage]] (where Fashion Invites are consumed), [[zh_cn/events/版本活动/开场好礼先抱走|Grab Your Opening Gifts]] (the other way to obtain Affinitive Eidolons)
-- Back: [[zh_cn/events/版本活动/版本活动|Version Events index]] → [[zh_cn/events/活动|Events index]]
+- Related events: [[data/zh_cn/events/版本活动/寰宇美学•幻乐秀场|Cosmic Aesthetics: Phantasia Showstage]] (where Fashion Invites are consumed), [[data/zh_cn/events/版本活动/开场好礼先抱走|Grab Your Opening Gifts]] (the other way to obtain Affinitive Eidolons)
+- Back: [[data/zh_cn/events/版本活动/版本活动|Version Events index]] → [[data/zh_cn/events/活动|Events index]]
 
 ---
 
