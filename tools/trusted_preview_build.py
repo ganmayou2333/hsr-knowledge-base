@@ -51,7 +51,7 @@ def build(source, trusted, destination, timeout=180):
                 return {'icons'} & set(names)
             return {'__pycache__'} & set(names)
         shutil.copytree(trusted / 'wiki', workspace / 'wiki', ignore=ignore)
-        root = source / 'zh_cn'
+        root = source / 'data' / 'zh_cn'
         count = total = 0
         def onerror(error):
             raise error
@@ -71,7 +71,7 @@ def build(source, trusted, destination, timeout=180):
                 total += info.st_size
                 if count > MAX_FILES or info.st_size > MAX_MARKDOWN_FILE or total > MAX_MARKDOWN_TOTAL:
                     raise InvalidPreviewArtifact('Data exceeds resource limits')
-                target = workspace / 'zh_cn' / path.relative_to(root)
+                target = workspace / 'data' / 'zh_cn' / path.relative_to(root)
                 target.parent.mkdir(parents=True, exist_ok=True)
                 flags = os.O_RDONLY | getattr(os, 'O_NOFOLLOW', 0) | getattr(os, 'O_BINARY', 0)
                 with os.fdopen(os.open(path, flags), 'rb') as original:

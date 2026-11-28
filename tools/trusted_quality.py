@@ -36,7 +36,7 @@ def inspect_tree(root):
     give untrusted processes write access to it while this check is running.
     """
     root = Path(root)
-    if root.is_symlink() or not root.is_dir() or (root / 'zh_cn').is_symlink() or not (root / 'zh_cn').is_dir():
+    if root.is_symlink() or not root.is_dir() or (root / 'data' / 'zh_cn').is_symlink() or not (root / 'data' / 'zh_cn').is_dir():
         raise ValueError('Source checkout or zh_cn directory is invalid')
     count = total = zh_markdown = 0
     def onerror(error):
@@ -48,9 +48,9 @@ def inspect_tree(root):
                 raise ValueError('Checkout contains a linked or special directory')
             if name in SKIP:
                 # The link/field scanners skip these names at any depth, but
-                # the Wiki builder renders all Markdown below zh_cn. Reject
+                # the Wiki builder renders all Markdown below data/zh_cn. Reject
                 # them there rather than publishing unchecked data.
-                if path.relative_to(root).parts[0] == 'zh_cn':
+                if path.relative_to(root).parts[:2] == ('data', 'zh_cn'):
                     raise ValueError('Data directory would be skipped by trusted scanners')
                 dirs.remove(name)
         for name in files:
@@ -62,7 +62,7 @@ def inspect_tree(root):
             if count > MAX_FILES:
                 raise ValueError('Checkout exceeds file count limit')
             if name.endswith('.md'):
-                if path.relative_to(root).parts[0] == 'zh_cn':
+                if path.relative_to(root).parts[:2] == ('data', 'zh_cn'):
                     zh_markdown += 1
                 total += info.st_size
                 if info.st_size > MAX_MARKDOWN_FILE or total > MAX_MARKDOWN_TOTAL:
@@ -90,7 +90,7 @@ def check(root, trusted_root=TRUSTED_ROOT):
     for (source, target), count in sorted(new.items()):
         print(f'  新增 {count} 处: {source} -> {target}')
     result = subprocess.run([sys.executable, '-I', '-X', 'utf8', str(trusted_root / 'scripts' / 'verify_fields.py'), '--quality-count'],
-                            cwd=root / 'zh_cn', capture_output=True, text=True, encoding='utf-8',
+                            cwd=root / 'data' / 'zh_cn', capture_output=True, text=True, encoding='utf-8',
                             errors='replace', timeout=120, env={'PYTHONIOENCODING': 'utf-8'})
     print(result.stdout)
     if result.stderr:

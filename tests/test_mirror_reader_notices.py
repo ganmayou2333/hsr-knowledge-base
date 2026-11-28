@@ -25,10 +25,10 @@ class MirrorReaderNoticeTests(unittest.TestCase):
                   'ja_jp': '過去の参照パス:', 'ko_kr': '과거 출처 경로:'}
         for language in NOTICES:
             for category in (*CATEGORIES, 'events'):
-                for path in (ROOT / language / category).rglob('*.md'):
+                for path in (ROOT / 'data' / language / category).rglob('*.md'):
                     text = path.read_text(encoding='utf-8')
                     match = pattern.search(text)
-                    if not match or (ROOT / match.group(1)).is_file():
+                    if not match or (ROOT / 'data' / match.group(1)).is_file():
                         continue
                     with self.subTest(path=str(path.relative_to(ROOT))):
                         self.assertIn(notice[language], text)
@@ -46,16 +46,16 @@ class MirrorReaderNoticeTests(unittest.TestCase):
         }
         for translated, baseline in pairs.items():
             with self.subTest(page=translated):
-                text = (ROOT / 'zh_tw/events/版本活动' / (translated + '.md')).read_text(encoding='utf-8')
+                text = (ROOT / 'data/zh_tw/events/版本活动' / (translated + '.md')).read_text(encoding='utf-8')
                 self.assertIn('> 本地化来源：非官方', text)
                 self.assertIn('當時實際輸入尚待核實', text)
-                self.assertIn(f'[[zh_cn/events/版本活动/{baseline}|{baseline}]]', text)
-                self.assertTrue((ROOT / 'zh_cn/events/版本活动' / (baseline + '.md')).is_file())
+                self.assertIn(f'[[data/zh_cn/events/版本活动/{baseline}|{baseline}]]', text)
+                self.assertTrue((ROOT / 'data/zh_cn/events/版本活动' / (baseline + '.md')).is_file())
 
     def test_event_id_does_not_claim_official_nonpublication(self):
         # A missing ID in our sources does not establish that no official ID exists.
         for language in ('zh_cn', *NOTICES):
-            for path in (ROOT / language / 'events').rglob('*.md'):
+            for path in (ROOT / 'data' / language / 'events').rglob('*.md'):
                 text = path.read_text(encoding='utf-8')
                 with self.subTest(path=str(path.relative_to(ROOT))):
                     self.assertNotRegex(text, r'实体ID[：:]\s*(?:无（官方未公开）|無（官方未公開）)')
@@ -64,7 +64,7 @@ class MirrorReaderNoticeTests(unittest.TestCase):
         notices = {'en_us': '> Reading note:', 'zh_tw': '> 閱讀提示：',
                    'ja_jp': '> 閲覧上の注意：', 'ko_kr': '> 열람 안내:'}
         for language, notice in notices.items():
-            pages = list((ROOT / language / 'events').rglob('*.md'))
+            pages = list((ROOT / 'data' / language / 'events').rglob('*.md'))
             self.assertTrue(pages, language)
             for path in pages:
                 header = path.read_text(encoding='utf-8').split('\n---', 1)[0]
@@ -74,9 +74,9 @@ class MirrorReaderNoticeTests(unittest.TestCase):
     def test_zh_tw_event_index_tracks_baseline_targets(self):
         # This checks the list, not the translation or each event's facts.
         relative = Path('events/版本活动/版本活动.md')
-        pattern = r'\[\[zh_cn/events/版本活动/([^|\\]+)\\?\|'
-        baseline = (ROOT / 'zh_cn' / relative).read_text(encoding='utf-8')
-        mirror = (ROOT / 'zh_tw' / relative).read_text(encoding='utf-8')
+        pattern = r'\[\[data/zh_cn/events/版本活动/([^|\\]+)\\?\|'
+        baseline = (ROOT / 'data' / 'zh_cn' / relative).read_text(encoding='utf-8')
+        mirror = (ROOT / 'data' / 'zh_tw' / relative).read_text(encoding='utf-8')
         expected = re.findall(pattern, baseline)
         actual = re.findall(pattern, mirror)
         self.assertTrue(expected)
@@ -87,7 +87,7 @@ class MirrorReaderNoticeTests(unittest.TestCase):
         # Require a visible notice without inferring a source classification.
         for language, notice in NOTICES.items():
             for category in CATEGORIES:
-                pages = list((ROOT / language / category).rglob('*.md'))
+                pages = list((ROOT / 'data' / language / category).rglob('*.md'))
                 self.assertTrue(pages, (language, category))
                 for path in pages:
                     header = path.read_text(encoding='utf-8').split('\n---', 1)[0]
@@ -95,7 +95,7 @@ class MirrorReaderNoticeTests(unittest.TestCase):
                         self.assertIn(notice, header)
 
     def test_zh_tw_event_names_and_source_description(self):
-        root = ROOT / 'zh_tw' / 'events' / '版本活动'
+        root = ROOT / 'data' / 'zh_tw' / 'events' / '版本活动'
         checks = {
             '劇場版絨絨號：歡鬧廚房.md': ('模糊QR寇', '模糊二維馬'),
             '奇庫尋遺.md': ('黑塔太空站', '黑塔空間站'),
@@ -112,7 +112,7 @@ class MirrorReaderNoticeTests(unittest.TestCase):
         self.assertNotIn('官方原文照錄', gifts)
 
     def test_zh_tw_46_event_announcement_scope(self):
-        root = ROOT / 'zh_tw' / 'events' / '版本活动'
+        root = ROOT / 'data' / 'zh_tw' / 'events' / '版本活动'
         pet = (root / '星际幻宠乐园.md').read_text(encoding='utf-8')
         self.assertIn('更新說明的樂園條目未列', pet)
         self.assertIn('隨身寵物小屋', pet)
@@ -129,7 +129,7 @@ class MirrorReaderNoticeTests(unittest.TestCase):
             'zh_tw': ('無官方繁中版 →',),
         }
         for language, phrases in forbidden.items():
-            pages = list((ROOT / language / 'events').rglob('*.md'))
+            pages = list((ROOT / 'data' / language / 'events').rglob('*.md'))
             self.assertGreater(len(pages), 0)
             for path in pages:
                 text = path.read_text(encoding='utf-8')
@@ -140,7 +140,7 @@ class MirrorReaderNoticeTests(unittest.TestCase):
     def test_nonofficial_high_priority_pages_have_notice_in_header(self):
         for language, notice in NOTICES.items():
             for category in CATEGORIES:
-                directory = ROOT / language / category
+                directory = ROOT / 'data' / language / category
                 self.assertTrue(directory.is_dir(), str(directory))
                 marked = 0
                 for path in directory.rglob("*.md"):

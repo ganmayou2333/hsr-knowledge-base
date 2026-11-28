@@ -30,20 +30,20 @@ class TrustedQualityTests(unittest.TestCase):
         self.root = Path(self.tmp.name)
         self.trusted = self.root / 'trusted'
         self.source = self.root / 'source'
-        for path in (self.trusted / 'scripts', self.trusted / 'tools', self.source / 'zh_cn', self.source / 'scripts'):
+        for path in (self.trusted / 'scripts', self.trusted / 'tools', self.source / 'data' / 'zh_cn', self.source / 'scripts'):
             path.mkdir(parents=True)
         (self.trusted / 'tools' / 'quality_baseline.json').write_text(json.dumps({'dead_links': []}), encoding='utf-8')
         (self.trusted / 'scripts' / 'verify_links.py').write_text(
-            "from pathlib import Path\ndef scan(root):\n return {'dead_data_details': [('zh_cn/page.md','missing')] if 'broken' in (Path(root)/'zh_cn/page.md').read_text() else []}\n", encoding='utf-8')
+            "from pathlib import Path\ndef scan(root):\n return {'dead_data_details': [('data/zh_cn/page.md','missing')] if 'broken' in (Path(root)/'data'/'zh_cn'/'page.md').read_text() else []}\n", encoding='utf-8')
         (self.trusted / 'scripts' / 'verify_fields.py').write_text("from pathlib import Path\nprint('1' if 'badfield' in Path('page.md').read_text() else '0')\n", encoding='utf-8')
         (self.source / 'scripts' / 'verify_fields.py').write_text("raise Exception('untrusted script executed')", encoding='utf-8')
-        (self.source / 'zh_cn' / 'page.md').write_text('good', encoding='utf-8')
+        (self.source / 'data' / 'zh_cn' / 'page.md').write_text('good', encoding='utf-8')
 
     def test_checks_data_with_trusted_scripts_and_baseline(self):
         self.assertTrue(check(self.source, self.trusted))
-        (self.source / 'zh_cn' / 'page.md').write_text('broken', encoding='utf-8')
+        (self.source / 'data' / 'zh_cn' / 'page.md').write_text('broken', encoding='utf-8')
         self.assertFalse(check(self.source, self.trusted))
-        (self.source / 'zh_cn' / 'page.md').write_text('badfield', encoding='utf-8')
+        (self.source / 'data' / 'zh_cn' / 'page.md').write_text('badfield', encoding='utf-8')
         self.assertFalse(check(self.source, self.trusted))
 
     def test_rejects_ambiguous_or_missing_machine_results(self):
@@ -56,7 +56,7 @@ class TrustedQualityTests(unittest.TestCase):
     def test_real_gate_accepts_clean_data_and_rejects_field_errors(self):
         # Exercise the real link scanner, baseline, validator and output parser,
         # not just a validator-shaped stub.
-        category = self.source / 'zh_cn' / 'character'
+        category = self.source / 'data' / 'zh_cn' / 'character'
         category.mkdir()
         page = category / 'example.md'
         page.write_text('# Index without an entity ID\n', encoding='utf-8')
@@ -66,13 +66,13 @@ class TrustedQualityTests(unittest.TestCase):
 
     def test_real_validator_machine_output_cannot_be_forged_by_filename(self):
         script = Path(__file__).resolve().parent.parent / 'scripts' / 'verify_fields.py'
-        category = self.source / 'zh_cn' / 'character'
+        category = self.source / 'data' / 'zh_cn' / 'character'
         category.mkdir()
         bad = category / 'bad.md'
         bad.write_text('> 实体ID：example\n', encoding='utf-8')
         def run():
             return subprocess.run([sys.executable, '-I', '-X', 'utf8', str(script), '--quality-count'],
-                                  cwd=self.source / 'zh_cn', capture_output=True, text=True, encoding='utf-8')
+                                  cwd=self.source / 'data' / 'zh_cn', capture_output=True, text=True, encoding='utf-8')
         result = run()
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertGreater(int(result.stdout), 0)
@@ -86,22 +86,22 @@ class TrustedQualityTests(unittest.TestCase):
         self.assertGreater(int(result.stdout), 0)
 
     def test_rejects_symlink_when_supported(self):
-        link = self.source / 'zh_cn' / 'link.md'
+        link = self.source / 'data' / 'zh_cn' / 'link.md'
         try:
-            link.symlink_to(self.source / 'zh_cn' / 'page.md')
+            link.symlink_to(self.source / 'data' / 'zh_cn' / 'page.md')
         except OSError as error:
             self.skipTest(f'symlink unavailable: {error}')
         with self.assertRaises(ValueError): inspect_tree(self.source)
 
     def test_missing_or_linked_source_is_rejected(self):
         with self.assertRaises((ValueError, OSError)): check(self.root / 'missing', self.trusted)
-        (self.source / 'zh_cn' / 'page.md').unlink()
-        (self.source / 'zh_cn').rmdir()
+        (self.source / 'data' / 'zh_cn' / 'page.md').unlink()
+        (self.source / 'data' / 'zh_cn').rmdir()
         with self.assertRaises(ValueError): check(self.source, self.trusted)
 
     def test_rejects_builder_visible_directories_skipped_by_scanners(self):
         for name in ('temp', 'node_modules', '.git'):
-            with self.subTest(name=name), tempfile.TemporaryDirectory(dir=self.source / 'zh_cn') as folder:
+            with self.subTest(name=name), tempfile.TemporaryDirectory(dir=self.source / 'data' / 'zh_cn') as folder:
                 hidden = Path(folder) / name
                 hidden.mkdir()
                 (hidden / 'unscanned.md').write_text('[[missing]]', encoding='utf-8')

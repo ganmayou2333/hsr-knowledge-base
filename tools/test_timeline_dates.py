@@ -3,7 +3,7 @@ from pathlib import Path
 import re
 import unittest
 
-TIMELINE = Path(__file__).resolve().parents[1] / "zh_cn/worldview/剧情时间线.md"
+TIMELINE = Path(__file__).resolve().parents[1] / "data/zh_cn/worldview/剧情时间线.md"
 
 
 class TimelineDatesTests(unittest.TestCase):

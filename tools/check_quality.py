@@ -25,7 +25,7 @@ def main():
 
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "verify_fields.py"), "--quality-count"],
-        cwd=ROOT / "zh_cn", capture_output=True, text=True, encoding="utf-8", errors="replace",
+        cwd=ROOT / "data" / "zh_cn", capture_output=True, text=True, encoding="utf-8", errors="replace",
     )
     if result.stderr:
         print(result.stderr, file=sys.stderr)
@@ -34,7 +34,7 @@ def main():
         print("字段检查失败或无法识别结果", file=sys.stderr)
         # Human-readable diagnostics are untrusted text and never determine the gate.
         subprocess.run([sys.executable, str(ROOT / "scripts" / "verify_fields.py")],
-                       cwd=ROOT / "zh_cn", check=False)
+                       cwd=ROOT / "data" / "zh_cn", check=False)
         return 1
     print("字段异常合计: 0")
     if new:

@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE = ROOT / "zh_cn" / "enemies"
+SOURCE = ROOT / "data" / "zh_cn" / "enemies"
 PAGES = ROOT / "wiki" / "pages" / "enemies"
 
 

@@ -129,7 +129,7 @@ def tracked_detail_paths():
 def worktree_detail_paths():
     """Detail .md paths on disk, including files not yet tracked."""
     return sorted(str(p.relative_to(ROOT)).replace("\\", "/")
-                  for p in (ROOT / "zh_cn" / "enemies").rglob("*.md"))
+                  for p in (ROOT / "data" / "zh_cn" / "enemies").rglob("*.md"))
 
 
 def parse_local_weakness(path):

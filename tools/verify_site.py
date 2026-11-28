@@ -561,7 +561,7 @@ def _basic_fields_from_src(text):
 
 def check_character_panel(files):
     """[15] 角色直达面板：数据文件结构、独立复算、逐条字段比对、页面注入、无JS降级、缺图一致性。"""
-    src_chars = ROOT / "zh_cn" / "character"
+    src_chars = ROOT / "data" / "zh_cn" / "character"
     if not CHARACTERS_JS.exists():
         print("[15] 角色直达面板: 缺少 %s（先运行 python wiki/build_wiki.py）" % CHARACTERS_JS)
         fail(15, "缺少 wiki/data/characters.js")

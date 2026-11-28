@@ -126,7 +126,7 @@ def run_verify_fields():
     **必须在 zh_cn 目录下运行**（否则会扫描到四语镜像，口径翻 5 倍）。
     """
     script = ROOT / "scripts" / "verify_fields.py"
-    cwd = ROOT / "zh_cn"
+    cwd = ROOT / "data" / "zh_cn"
     if not script.exists() or not cwd.is_dir():
         return {}, None, None, None
     p = subprocess.run([sys.executable, str(script)], cwd=str(cwd),
@@ -162,7 +162,7 @@ def relic_split():
     """隧洞遗器 / 位面饰品的详情数（含 `> 实体ID：`，排除「文件名==上级目录名」索引）。"""
     out = {}
     for sub in ("隧洞遗器", "位面饰品"):
-        d = ROOT / "zh_cn" / "relic" / sub
+        d = ROOT / "data" / "zh_cn" / "relic" / sub
         if not d.is_dir():
             out[sub] = None
             continue
@@ -180,7 +180,7 @@ def doc_type_counts():
     """文档型目录（不含 `> 实体ID：`）的实际 .md 数。"""
     out = {}
     for d in ("quest", "worldview", "货币战争", "rules"):
-        p = ROOT / "zh_cn" / d
+        p = ROOT / "data" / "zh_cn" / d
         out[d] = sum(1 for _ in p.rglob("*.md")) if p.is_dir() else None
     return out
 
