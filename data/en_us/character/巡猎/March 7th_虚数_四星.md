@@ -1,0 +1,418 @@
+# March 7th
+
+> 数据来源：[https://hsr.nanoka.cc/character/1224](https://hsr.nanoka.cc/character/1224)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/3121/detail](https://bbs.mihoyo.com/sr/wiki/content/3121/detail)
+> 数据版本：4.5
+> 实体ID：1224
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1224；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
+
+---
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Character Name | March 7th |
+| Path | The Hunt |
+| Attribute | Imaginary |
+| Rarity | ★★★★ |
+| Faction | 星穹列车 |
+| Introduction | A girl who once slumbered in eternal ice and knows nothing about her past. To find out the truth about her origins, she decided to travel with the Astral Express. As of right now, she has prepared about 67 different versions of her life story for herself. |
+| Role | An output-type character whose power is enhanced by learning from teammates. |
+
+### Voice Actors
+
+| Language | VA |
+|---|---|
+| Japanese | 小倉唯 |
+| English | Skyler Davenport |
+| Chinese | 诺亚 |
+| Korean | 정혜원 |
+
+---
+
+## Base Stats (Lv.80)
+
+| Attribute | Value |
+|---|---|
+| Base HP | 1,058 |
+| Base ATK | 564 |
+| Base DEF | 441 |
+| Base SPD | 102 |
+| Taunt | 75 |
+| Max Energy | 110 |
+
+---
+
+## Ascension Materials (Lv.1 → Lv.80)
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 246,400 |
+| [[data/zh_cn/items/Material/AvatarRank/风雪之角\|Horn of Snow]] | 50 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 12 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 13 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 12 |
+
+---
+## Skill Materials
+
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,758,000 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 3 |
+| [[data/zh_cn/items/Material/TracePath/陨铁弹丸\|Meteoric Bullet]] | 8 |
+| [[data/zh_cn/items/Material/TracePath/命定死因\|Destined Expiration]] | 42 |
+| [[data/zh_cn/items/Material/TracePath/逆时一击\|Countertemporal Shot]] | 77 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/毁灭者的末路\|Destroyer's Final Road]] | 9 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 22 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 35 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 20 |
+
+---
+## Skills
+### Basic ATK：My Sword Zaps Demons
+- **Type**：Basic ATK
+- **Summary**：Deals minor Imaginary DMG to one enemy and gains 1 point(s) of Charge.
+- **Max Level**：10
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target and gains #2[i] point(s) of Charge.
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 |
+  |---|---|---|
+  | Lv.1 | 50% | 1 |
+  | Lv.2 | 60% | 1 |
+  | Lv.3 | 70% | 1 |
+  | Lv.4 | 80% | 1 |
+  | Lv.5 | 90% | 1 |
+  | Lv.6 | 100% | 1 |
+  | Lv.7 | 110% | 1 |
+  | Lv.8 | 120% | 1 |
+  | Lv.9 | 130% | 1 |
+  | Lv.10 | 140% | 1 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于三月七___%攻击力的虚数属性」
+  - `#2[i]`点 → Param 2: 上下文「数属性伤害，随后获得___点充能。」
+
+- **Max Effect**：Deals Imaginary DMG equal to 140% of March 7th's ATK to one designated enemy target and gains 1 point(s) of Charge.
+
+### Skill：Master, It's Tea Time!
+- **Type**：Skill
+- **Summary**：Makes a single ally become "Shifu." When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the "Shifu"'s Path:
+Erudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG based on Shifu's Type.
+Harmony, Nihility, Preservation, Abundance: Toughness Reduction increases.
+「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成基于【师父】属性的附加伤害。
+「同谐」、「虚无」、「存护」、「丰饶」：削韧值提高。
+- **Max Level**：15
+- **Effect Template**：Designates one ally (excluding this unit) as "Shifu" and increases "Shifu"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as "Shifu."
+Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if "Shifu" with the specified Path is present on the field:
+Erudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG (DMG Type based on "Shifu"'s Combat Type) equal to #2[i]% of March 7th's ATK.
+Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by #3[i]%.
+「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成等同于三月七#2[i]%攻击力的基于【师父】属性的附加伤害。
+「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高#3[i]%。
+
+- **Level Table**：
+| Level | Param 1 | Param 2 (%) | Param 3 (%) |
+  |---|---|---|---|
+  | Lv.1 | 6% | 10% | 100% |
+  | Lv.2 | 6.4% | 11% | 100% |
+  | Lv.3 | 6.8% | 12% | 100% |
+  | Lv.4 | 7.2% | 13% | 100% |
+  | Lv.5 | 7.6% | 14% | 100% |
+  | Lv.6 | 8% | 15% | 100% |
+  | Lv.7 | 8.5% | 16.25% | 100% |
+  | Lv.8 | 9% | 17.5% | 100% |
+  | Lv.9 | 9.5% | 18.75% | 100% |
+  | Lv.10 | 10% | 20% | 100% |
+  | Lv.11 | 10.4% | 21% | 100% |
+  | Lv.12 | 10.8% | 22% | 100% |
+  | Lv.13 | 11.2% | 23% | 100% |
+  | Lv.14 | 11.6% | 24% | 100% |
+  | Lv.15 | 12% | 25% | 100% |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`% → Param 2 (%): 上下文「额外造成等同于三月七___%攻击力的基于【师」
+  - `#3[i]`% → Param 3 (%): 上下文「本次伤害的削韧值提高___%。」
+
+- **Max Effect**：Designates one ally (excluding this unit) as "Shifu" and increases "Shifu"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as "Shifu."
+Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if "Shifu" with the specified Path is present on the field:
+Erudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG (DMG Type based on "Shifu"'s Combat Type) equal to 25% of March 7th's ATK.
+Harmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by 100%.
+
+### Ultimate：March 7th, the Apex Heroine
+- **Type**：Ultimate
+- **Summary**：Deals Imaginary DMG to one enemy and increases the Hits Per Action and DMG chance of the next Enhanced Basic ATK.
+- **Max Level**：15
+- **Effect Template**：Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target.
+Increases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hit(s) and increase the fixed chance of additionally dealing DMG by #3[i]%.
+使下一次强化普攻的初始段数增加#2[i]段，额外造成伤害的固定概率提高#3[i]%。
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 | Param 3 (%) |
+  |---|---|---|---|
+  | Lv.1 | 144% | 2 | 20% |
+  | Lv.2 | 153.6% | 2 | 20% |
+  | Lv.3 | 163.2% | 2 | 20% |
+  | Lv.4 | 172.8% | 2 | 20% |
+  | Lv.5 | 182.4% | 2 | 20% |
+  | Lv.6 | 192% | 2 | 20% |
+  | Lv.7 | 204% | 2 | 20% |
+  | Lv.8 | 216% | 2 | 20% |
+  | Lv.9 | 228% | 2 | 20% |
+  | Lv.10 | 240% | 2 | 20% |
+  | Lv.11 | 249.6% | 2 | 20% |
+  | Lv.12 | 259.2% | 2 | 20% |
+  | Lv.13 | 268.8% | 2 | 20% |
+  | Lv.14 | 278.4% | 2 | 20% |
+  | Lv.15 | 288% | 2 | 20% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「单体造成等同于三月七___%攻击力的虚数属性」
+  - `#2[i]`段 → Param 2: 上下文「化普攻的初始段数增加___段，额外造成伤害的」
+  - `#3[i]`% → Param 3 (%): 上下文「成伤害的固定概率提高___%。」
+
+- **Max Effect**：Deals Imaginary DMG equal to 288% of March 7th's ATK to one designated enemy target.
+Increases the initial Hits Per Action of the next Enhanced Basic ATK by 2 hit(s) and increase the fixed chance of additionally dealing DMG by 20%.
+
+### Talent：Master, I've Ascended!
+- **Type**：Talent
+- **Summary**：After Shifu uses an attack or Ultimate, March 7th gains Charge. When reaching 7 points of Charge, March 7th immediately takes action and increases the DMG she deals. Basic ATK gets Enhanced.
+- **Max Level**：15
+- **Effect Template**：After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.
+Upon reaching #1[i] or more points of Charge, March 7th immediately takes action and increases the DMG she deals by #2[i]%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes #1[i] point(s) of Charge. Charge is capped at #3[i] points.
+充能大于等于#1[i]点时，三月七立即行动，造成的伤害提高#2[i]%，普攻得到强化且无法施放战技。施放强化普攻后，消耗#1[i]点充能。充能上限#3[i]点。
+
+- **Level Table**：
+| Level | Param 1 | Param 2 (%) | Param 3 |
+  |---|---|---|---|
+  | Lv.1 | 7 | 40% | 10 |
+  | Lv.2 | 7 | 44% | 10 |
+  | Lv.3 | 7 | 48% | 10 |
+  | Lv.4 | 7 | 52% | 10 |
+  | Lv.5 | 7 | 56% | 10 |
+  | Lv.6 | 7 | 60% | 10 |
+  | Lv.7 | 7 | 65% | 10 |
+  | Lv.8 | 7 | 70% | 10 |
+  | Lv.9 | 7 | 75% | 10 |
+  | Lv.10 | 7 | 80% | 10 |
+  | Lv.11 | 7 | 84% | 10 |
+  | Lv.12 | 7 | 88% | 10 |
+  | Lv.13 | 7 | 92% | 10 |
+  | Lv.14 | 7 | 96% | 10 |
+  | Lv.15 | 7 | 100% | 10 |
+
+- **Parameter Notes**：
+  - `#1[i]`点 → Param 1: 上下文「施放强化普攻后，消耗___点充能。充能上限#」
+  - `#2[i]`% → Param 2 (%): 上下文「行动，造成的伤害提高___%，普攻得到强化且」
+  - `#3[i]`点 → Param 3: 上下文「i]点充能。充能上限___点。」
+
+- **Max Effect**：After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.
+Upon reaching 7 or more points of Charge, March 7th immediately takes action and increases the DMG she deals by 100%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes 7 point(s) of Charge. Charge is capped at 10 points.
+
+### Technique：Feast in One Go
+- **Type**：Technique
+- **Summary**：Whenever a teammate uses Technique, March 7th gains Charge upon entering the next battle. Using Technique regenerates Energy upon entering the next battle.
+- **Max Level**：1
+- **Effect Template**：If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of #1[i] point(s).
+After using Technique, March 7th regenerates #2[i] Energy when the next battle starts.
+使用秘技后，下一次战斗开始时三月七恢复#2[i]点能量。
+
+- **Level Table**：
+| Level | Param 1 | Param 2 |
+  |---|---|---|
+  | Lv.1 | 3 | 30 |
+
+- **Parameter Notes**：
+  - `#1[i]`点 → Param 1: 上下文「得1点充能，最多获得___点。 使用秘技后，」
+  - `#2[i]`点 → Param 2: 上下文「战斗开始时三月七恢复___点能量。」
+
+- **Max Effect**：If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of 3 point(s).
+After using Technique, March 7th regenerates 30 Energy when the next battle starts.
+
+## Trace Bonuses
+
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 惊鸿 | 晋阶2 | 战斗开始时，三月七的行动提前#1[i]%。 | 战斗开始时，三月七的行动提前25%。 | 信用点×4000、陨铁弹丸×2、毁灭者的末路×1 |
+| 附加能力2 | 玲珑 | 晋阶4 | 三月七能够削减具有【师父】属性弱点的敌方目标的韧性。击破弱点时，触发虚数属性的弱点击破效果。 | 三月七能够削减具有【师父】属性弱点的敌方目标的韧性。击破弱点时，触发虚数属性的弱点击破效果。 | 信用点×16000、命定死因×4、命运的足迹×1、毁灭者的末路×1 |
+| 附加能力3 | 斡波 | 晋阶6 | 施放强化普攻后，使【师父】的暴击伤害提高#1[i]%，击破特攻提高#2[i]%，持续#3[i]回合。 | 施放强化普攻后，使【师父】的暴击伤害提高60%，击破特攻提高36%，持续2回合。 | 信用点×128000、逆时一击×6、命运的足迹×1、毁灭者的末路×1 |
+
+## Stat Bonuses
+
+| Attribute | 加成 |
+|---|---|
+| ATK | 28% |
+| DEF | 12.5% |
+| 暴击伤害 | 24% |
+
+---
+
+## Eidolons
+
+| Eidolons | Name | Effect |
+|---|---|---|
+| E1 | My Sword Stirs Starlight | When Shifu is on the field, increases March 7th's SPD by 10%. |
+| E2 | Blade Dances on Waves' Fight | After "Shifu" uses Basic ATK or Skill to attack an enemy target, March 7th immediately launches a Follow-Up ATK and deals Imaginary DMG equal to 60% of March 7th's ATK to the primary target of this attack. Additionally, triggers the corresponding effect based on "Shifu"'s Path and then gains 1 point(s) of Charge. If there is no primary target available to attack, then she attacks a single random enemy instead. This effect can only trigger once per turn. |
+| E3 | Sharp Wit in Martial Might | Skill Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10. |
+| E4 | Being Fabulous Never Frights | At the start of the turn, regenerates 5 Energy. |
+| E5 | Sword Delights, Sugar Blights | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15. |
+| E6 | Me, the Best Girl in Sight | After using Ultimate, increases the CRIT DMG dealt by the next Enhanced Basic ATK by 50%. |
+
+---
+
+## Recommended Relics
+
+**主词条推荐**：暴击率 / 速度 / 虚数属性伤害提高 / 攻击力
+
+**推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
+
+#### 4-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[data/zh_cn/relic/隧洞遗器/盗匪荒漠的废土客\|Wastelander of Banditry Desert]] | 装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。 |
+| [[data/zh_cn/relic/隧洞遗器/死水深潜的先驱\|Pioneer Diver of Dead Waters]] | 暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。 |
+
+#### 2-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/位面饰品/繁星竞技场\|Rutilant Arena]] | 使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。 |
+| [[data/zh_cn/relic/位面饰品/出云显世与高天神国\|Izumo Gensei and Takama Divine Realm]] | 使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。 |
+| [[data/zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+
+---
+
+## Recommended Light Cones
+
+### [[data/zh_cn/lightcone/巡猎/烦恼着，幸福着.md|Worrisome, Blissful]]
+
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：One At A Time
+- **Effect**：Increase the wearer's CRIT Rate by 18% and increases DMG dealt by Follow-Up ATK by 30%. After the wearer uses a Follow-Up ATK, inflicts the target with the "Tame" state, stacking up to 2 time(s). When allies hit enemy targets under the "Tame" state, each "Tame" stack increases the CRIT DMG dealt by 12%.
+
+### [[data/zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
+
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
+
+### [[data/zh_cn/lightcone/巡猎/如泥酣眠.md|Sleep Like the Dead]]
+
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Sweet Dreams
+- **Effect**：Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by 36%, lasting for 1 turn(s). This effect can only trigger once every 3 turn(s).
+
+### [[data/zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
+
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Flowers and Butterflies
+- **Effect**：Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by 6%. At the same time, increases the CRIT DMG of Ultimate by 12%. This effect can stack up to 6 time(s).
+
+### [[data/zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
+
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
+
+### [[data/zh_cn/lightcone/巡猎/春水初生.md|River Flows in Spring]]
+
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Stave Off the Lingering Cold
+- **Effect**：After entering battle, increases the wearer's SPD by 8% and DMG by 12%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.
+
+## Recommended Teams
+
+| 辅助 | 生存 |
+|---|---|
+| 双C | [[data/zh_cn/character/巡猎/飞霄_风_五星.md\|飞霄]] |
+| [[data/zh_cn/character/巡猎/三月七_虚数_四星.md\|仙舟三月七]] | [[data/zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[data/zh_cn/character/存护/砂金_虚数_五星.md\|Aventurine]] | [[data/zh_cn/character/巡猎/托帕&账账_火_五星.md\|托帕&账账]] |
+| [[data/zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[data/zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] |
+
+*文件生成时间：2026-08-26*
+
+## Character Story
+换上仙舟服饰的三月七，执剑的武侠少女。
+向云璃与彦卿拜师学艺，为在仙舟留下更多美好的「回忆」而跃跃欲试。
+
+### Character Story·1（解锁条件：Character Level 20）
+
+为什么三月七要拍照？
+「第一，自己这样的女孩子应该喜欢这么做。」
+「第二，所有拍下来的东西，就不会忘啦。」
+
+三月七对拍照有什么心得？
+「第一，对黑暗料理需要进行局部细节拍摄，因为『拍过等于吃过，要细细品味』。」
+「第二，只要自己闭着眼睛拍照，就一定能拍到对方闭着眼的表情。」
+
+为什么三月七要把相机挂在身上？
+「下次谁还想把我封在冰里，就必须把相机一起封进去！」
+
+所以三月七为什么不用手机拍照呢？
+「对哦，为什么呢——等等，什么为什么，这是仪式感嘛！」
+
+### Character Story·2（解锁条件：Character Level 40）
+
+能力为「六相冰」，但三月七一直坚称那不是冰，而是某种凝聚态结晶。
+「拜托，你有见过这么好看的冰么？」
+
+战斗时使用的弓矢也是用「六相冰」凝成的，但实际上对自己使用弓箭一事并不满意。
+「你有见过哪个大佬是用弓的么？」
+「况且，用我凝结出的弓矢去攻击我凝结出的护盾，根本什么事都不会发生啊！」
+
+为此还曾经刻苦修行名为「斩星破宙•大琉璃剑」的绝招，目前成效为零。
+「小三月，听名字应该是大剑吧？」
+「嗯，但感觉好像不如冰雕…砸。」
+
+### Character Story·3（解锁条件：Character Level 60）
+
+相比「列车长」帕姆，「领航员」姬子，「护卫」丹恒，「什么都会的」瓦尔特，即使自称为「勇士」，连三月七都很难说清楚自己在列车上的分工。
+但三月七的一举一动，无时无刻都在影响列车组的行动方针。
+
+「三月七旅客摔倒了……」
+「三月，小心头顶的方铅矿球。」
+「小三月，那边的景点拍过照了吗？」
+「我相信小三月，她说不好吃，那就肯定不好吃。」
+
+与其说三月七容易让人放心不下，不如说她总是会让人放在心上。
+当然，三月七对此毫无察觉，她正在全力思考适合开拓者的列车组定位。
+
+### Character Story·4（解锁条件：Character Level 80）
+
+即使种种迹象表明，对于一直在宇宙中漂流的三月七，她刚醒来的情况并不算糟。
+身处于一辆恰好路过的列车上，车上的人看上去也很亲切。
+唯一的问题是，即使她对周遭的情况保有合理的认知，对自己却仍旧一无所知。
+
+「我是谁，我来自哪里……」
+
+三月七看着镜子中的自己，一边试穿姬子给她置备的各类服饰，一边为自己想象着几十种身世。
+哪一种才是她的过去，哪一种才是她这样的女孩子应有的过去…三月七无法确定。
+但三月七能选择的，只有现在的自己；她能望向的，也只有未来。
+她恐惧着，又庆幸着。
+
+### Character Story·Xianzhou
+
+初入罗浮，建木灾异，演武仪典…她目睹了仙舟的变化，也见证了自己的成长。
+照片上的女孩子在花林之间腾挪移转，凌厉的剑招下，落花如雨，纷纷乱乱飘满了她的衣裳。
+
+还是以前那个三月七吗？步法熟练，从容不迫。不知不觉，双剑已是舞得小有所成…她都有些认不出自己了。
+「嗯…自己是谁，应当由自己去探寻……」
+她暗自下定决心，满怀期待地看向天空。在那里，无数的星星、无数的世界朝她眨着眼。
+「我的过去，正在一点点变多呢。」
+
+她的过去与未来，都已逐渐染上新的色彩。

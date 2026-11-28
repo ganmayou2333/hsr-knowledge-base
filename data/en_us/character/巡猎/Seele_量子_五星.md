@@ -1,0 +1,372 @@
+# Seele
+
+> 数据来源：[https://hsr.nanoka.cc/character/1102](https://hsr.nanoka.cc/character/1102)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/317/detail](https://bbs.mihoyo.com/sr/wiki/content/317/detail)
+> 数据版本：4.5
+> 实体ID：1102
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1102；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
+
+---
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Character Name | Seele |
+| Path | The Hunt |
+| Attribute | Quantum |
+| Rarity | ★★★★★ |
+| Faction | 贝洛伯格 |
+| Introduction | A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka." She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart. |
+| Role | A quantum attribute character that triggers 【Reappearance】 by defeating targets, capable of multiple actions. |
+
+### Voice Actors
+
+| Language | VA |
+|---|---|
+| Japanese | 中原麻衣 |
+| English | Molly Zhang |
+| Chinese | 唐雅菁 |
+| Korean | 송하림 |
+
+---
+
+## Base Stats (Lv.80)
+
+| Attribute | Value |
+|---|---|
+| Base HP | 931 |
+| Base ATK | 640 |
+| Base DEF | 364 |
+| Base SPD | 115 |
+| Taunt | 75 |
+| Max Energy | 120 |
+
+---
+
+## Ascension Materials (Lv.1 → Lv.80)
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[data/zh_cn/items/Material/AvatarRank/虚幻铸铁\|Void Cast Iron]] | 65 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 15 |
+
+---
+## Skill Materials
+
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[data/zh_cn/items/Material/TracePath/猎兽之矢\|Arrow of the Beast Hunter]] | 12 |
+| [[data/zh_cn/items/Material/TracePath/屠魔之矢\|Arrow of the Demon Slayer]] | 53 |
+| [[data/zh_cn/items/Material/TracePath/逐星之矢\|Arrow of the Starchaser]] | 101 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/守护者的悲愿\|Guardian's Lament]] | 9 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/掠夺的本能\|Thief's Instinct]] | 33 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/篡改的野心\|Usurper's Scheme]] | 46 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/践踏的意志\|Conqueror's Will]] | 28 |
+
+---
+## Skills
+### Basic ATK：Thwack
+- **Type**：Basic ATK
+- **Summary**：Deals minor Quantum DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
+
+- **Level Table**：
+| Level | Param 1 (%) |
+  |---|---|
+  | Lv.1 | 50% |
+  | Lv.2 | 60% |
+  | Lv.3 | 70% |
+  | Lv.4 | 80% |
+  | Lv.5 | 90% |
+  | Lv.6 | 100% |
+  | Lv.7 | 110% |
+  | Lv.8 | 120% |
+  | Lv.9 | 130% |
+  | Lv.10 | 140% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于希儿___%攻击力的量子属性」
+
+- **Max Effect**：Deals Quantum DMG equal to 140% of Seele's ATK to one designated enemy.
+
+### Skill：Sheathed Blade
+- **Type**：Skill
+- **Summary**：Deals massive Quantum DMG to one enemy and increases this unit's SPD. After an ally target attacks, if the attacked target's current HP percentage is less than or equal to 50%, Seele automatically uses her Skill against them 1 time.
+- **Max Level**：15
+- **Effect Template**：Increases Seele's SPD by #2[i]% for #3[i] turn(s) and deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.
+After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 (%) | Param 3 |
+  |---|---|---|---|
+  | Lv.1 | 110% | 25% | 2 |
+  | Lv.2 | 121% | 25% | 2 |
+  | Lv.3 | 132% | 25% | 2 |
+  | Lv.4 | 143% | 25% | 2 |
+  | Lv.5 | 154% | 25% | 2 |
+  | Lv.6 | 165% | 25% | 2 |
+  | Lv.7 | 178.75% | 25% | 2 |
+  | Lv.8 | 192.5% | 25% | 2 |
+  | Lv.9 | 206.25% | 25% | 2 |
+  | Lv.10 | 220% | 25% | 2 |
+  | Lv.11 | 231% | 25% | 2 |
+  | Lv.12 | 242% | 25% | 2 |
+  | Lv.13 | 253% | 25% | 2 |
+  | Lv.14 | 264% | 25% | 2 |
+  | Lv.15 | 275% | 25% | 2 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于希儿___%攻击力的量子属性」
+  - `#2[i]`% → Param 2 (%): 上下文「使希儿的速度提高___%，并对指定敌方单」
+  - `#3[i]`回 → Param 3: 上下文「害，速度提高效果持续___回合。」
+
+- **Max Effect**：Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 275% of Seele's ATK to one designated enemy.
+After an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.
+
+### Ultimate：Butterfly Flurry
+- **Type**：Ultimate
+- **Summary**：Enters the Amplification state and deals massive Quantum DMG to one enemy.
+- **Max Level**：15
+- **Effect Template**：Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to one designated enemy.
+
+- **Level Table**：
+| Level | Param 1 (%) |
+  |---|---|
+  | Lv.1 | 255% |
+  | Lv.2 | 272% |
+  | Lv.3 | 289% |
+  | Lv.4 | 306% |
+  | Lv.5 | 323% |
+  | Lv.6 | 340% |
+  | Lv.7 | 361.25% |
+  | Lv.8 | 382.5% |
+  | Lv.9 | 403.75% |
+  | Lv.10 | 425% |
+  | Lv.11 | 442% |
+  | Lv.12 | 459% |
+  | Lv.13 | 476% |
+  | Lv.14 | 493% |
+  | Lv.15 | 510% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于希儿___%攻击力的量子属性」
+
+- **Max Effect**：Seele enters the Amplification state and deals Quantum DMG equal to 510% of her ATK to one designated enemy.
+
+### Talent：Resurgence
+- **Type**：Talent
+- **Summary**：When defeating enemy targets with Basic ATK, Skill, or Ultimate, gains an extra turn and enters the Amplification state. While in Amplification, increases the DMG dealt by this unit.
+- **Max Level**：15
+- **Effect Template**：Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by #1[i]% for #2[i] turn(s).
+Enemies defeated in the extra turn provided by "Resurgence" will not trigger another "Resurgence."
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 |
+  |---|---|---|
+  | Lv.1 | 40% | 1 |
+  | Lv.2 | 44% | 1 |
+  | Lv.3 | 48% | 1 |
+  | Lv.4 | 52% | 1 |
+  | Lv.5 | 56% | 1 |
+  | Lv.6 | 60% | 1 |
+  | Lv.7 | 65% | 1 |
+  | Lv.8 | 70% | 1 |
+  | Lv.9 | 75% | 1 |
+  | Lv.10 | 80% | 1 |
+  | Lv.11 | 84% | 1 |
+  | Lv.12 | 88% | 1 |
+  | Lv.13 | 92% | 1 |
+  | Lv.14 | 96% | 1 |
+  | Lv.15 | 100% | 1 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「放攻击造成的伤害提高___%，持续#2[i]」
+  - `#2[i]`回 → Param 2: 上下文「高#1[i]%，持续___回合。 若希儿在因」
+
+- **Max Effect**：Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by 100% for 1 turn(s).
+Enemies defeated in the extra turn provided by "Resurgence" will not trigger another "Resurgence."
+
+### Technique：Phantom Illusion
+- **Type**：Technique
+- **Summary**：Enters the Stealth state. After attacking an enemy and entering combat, enters the Amplification state and deals massive Quantum DMG with a guaranteed CRIT Hit to one random target.
+- **Max Level**：1
+- **Effect Template**：After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
+
+- **Level Table**：
+| Level | Param 1 |
+  |---|---|
+  | Lv.1 | 20 |
+
+- **Parameter Notes**：
+  - `#1[i]`秒 → Param 1: 上下文「使用秘技后进入持续___秒的隐身状态。隐身」
+
+- **Max Effect**：After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.
+
+## Trace Bonuses
+
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 夜行 | 晋阶2 | 若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。 | 若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。 | 信用点×5000、猎兽之矢×3、守护者的悲愿×1 |
+| 附加能力2 | 割裂 | 晋阶4 | 增幅状态下希儿的量子属性抗性穿透提高#1[i]%。 | 增幅状态下希儿的量子属性抗性穿透提高20%。 | 信用点×20000、屠魔之矢×5、命运的足迹×1、守护者的悲愿×1 |
+| 附加能力3 | 涟漪 | 晋阶6 | 施放普攻后，希儿的下一次行动提前#1[i]%。 | 施放普攻后，希儿的下一次行动提前20%。 | 信用点×160000、逐星之矢×8、命运的足迹×1、守护者的悲愿×1 |
+
+## Stat Bonuses
+
+| Attribute | 加成 |
+|---|---|
+| ATK | 28% |
+| DEF | 12.5% |
+| 暴击伤害 | 24% |
+
+---
+
+## Eidolons
+
+| Eidolons | Name | Effect |
+|---|---|---|
+| E1 | Extirpating Slash | When dealing DMG to an enemy whose HP percentage is 80% or lower, increases CRIT Rate by 15%, and ignores 20% of target's DEF. |
+| E2 | Dancing Butterfly | The SPD Boost effect of Seele's Skill can stack up to 2 time(s). |
+| E3 | Dazzling Tumult | Skill Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15. |
+| E4 | Flitting Phantasm | Seele regenerates 15 Energy when she defeats an enemy. |
+| E5 | Piercing Shards | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10. |
+| E6 | Shattering Shambles | After attacking with Ultimate, Seele inflicts "Butterfly Flurry" on the target for 3 turn(s). Enemy targets in "Butterfly Flurry" will additionally take 1 instance of True DMG equal to 30% of Seele's Ultimate DMG after receiving an attack. When the target under the "Butterfly Flurry" state is defeated by any unit, Seele's Talent will also be triggered.<br>When Seele is knocked down, the "Butterfly Flurry" inflicted on the enemies will be removed. |
+
+---
+
+## Recommended Relics
+
+**主词条推荐**：暴击率 / 速度 / 量子属性伤害提高 / 攻击力
+
+**推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
+
+#### 4-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/隧洞遗器/繁星璀璨的天才\|Genius of Brilliant Stars]] | 当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。 |
+| [[data/zh_cn/relic/隧洞遗器/识海迷坠的学者\|Scholar Lost in Erudition]] | 战技和终结技造成的伤害提高20%，施放终结技后，下一次施放战技时造成的伤害额外提高25%。 |
+| [[data/zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+
+#### 2-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/位面饰品/苍穹战线格拉默\|苍穹战线格拉默]] | 使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。 |
+| [[data/zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+| [[data/zh_cn/relic/位面饰品/停转的萨尔索图\|Inert Salsotto]] | 使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。 |
+
+---
+
+## Recommended Light Cones
+
+### [[data/zh_cn/lightcone/巡猎/于夜色中.md|In the Night]]
+
+- **Base Stats**：HP1058 ATK582 DEF463
+- **Rating**：★★★★★
+- **Skill Name**：Flowers and Butterflies
+- **Effect**：Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by 6%. At the same time, increases the CRIT DMG of Ultimate by 12%. This effect can stack up to 6 time(s).
+
+### [[data/zh_cn/lightcone/巡猎/星海巡航.md|Cruising in the Stellar Sea]]
+
+- **Base Stats**：HP952 ATK529 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Chase
+- **Effect**：Increases the wearer's CRIT Rate by 8%, and increases their CRIT Rate against enemies with HP percentage 50% or less by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).
+
+### [[data/zh_cn/lightcone/巡猎/论剑.md|Swordplay]]
+
+- **Base Stats**：HP952 ATK476 DEF330
+- **Rating**：★★★
+- **Skill Name**：Answers of Their Own
+- **Effect**：For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.
+
+## Recommended Teams
+
+| 主C | 辅助 | 生存 |
+|---|---|---|
+| [[data/zh_cn/character/巡猎/希儿_量子_五星.md\|Seele]] | [[data/zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[data/zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[data/zh_cn/character/存护/符玄_量子_五星.md\|符玄]] | [[data/zh_cn/character/同谐/布洛妮娅_风_五星.md\|Bronya]] | [[data/zh_cn/character/虚无/银狼_量子_五星.md\|银狼]] |
+| [[data/zh_cn/character/丰饶/玲可_量子_四星.md\|玲可]] | [[data/zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[data/zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
+| [[data/zh_cn/character/同谐/停云_雷_四星.md\|停云]] |  |  |
+
+*文件生成时间：2026-08-26*
+
+## Character Story
+飒爽俊逸的「地火」成员，成长于地底危险混乱的环境，习惯独来独往。
+保护与被保护，压迫与被压迫，世界向希儿展示的始终是非黑即白的那一面——
+直至「那名少女」的出现。
+
+### Character Story·1（解锁条件：Character Level 20）
+
+希儿人生中第一次打架是为了自己。
+
+那时，她每天漫无目的地在街巷间游荡，渴了便到孤儿院的救济处讨水喝，饿了便用捡到的破烂和街边小贩换饼干吃。在铆钉镇的背面，人人都见过那个天不怕地不怕的流浪女孩，人人都想避开一个野蛮顽固的小小无赖。
+
+某个炎热的傍晚，她因为玩耍过头感到口干舌燥。她来到救济处，却发现铁桶里的井水已经见底。与她同时前来讨水的还有一个面相干瘪的流浪汉——一阵爪牙并用的厮打过后，流浪汉落荒而逃，希儿夺得了独饮井水的权利。
+
+希儿再次见到那个流浪汉是在三天以后。透过诊所的窗户，她看到一个干瘦的身影躺在病床上，奄奄一息。
+
+自那之后，她总会为后来的人留下几口井水。
+
+### Character Story·2（解锁条件：Character Level 40）
+
+小时候，希儿只去过一次上层区。那是在她遇见奥列格之后——彼时的奥列格还是负责下层区治安的银鬃铁卫兵长。为了让希儿看一眼她憧憬已久的城市，奥列格将她藏在自己的补给袋里，通过缆车道回到了上层。
+
+希儿跟着奥列格走遍了贝洛伯格的名胜，吃到了她从未品尝过的美味食物，穿上了超出她想象的漂亮衣服。她用粗野的矿民俚语吓跑了一群孩子，引得奥列格捧腹大笑。短短两天时光，他们每分每秒都沉浸在欢声笑语中。
+
+离开前的傍晚，两人坐在行政广场的长凳上，希儿目不转睛地盯着对面的餐馆。
+
+「上层区好玩吗，希儿？还想再来吗？」
+「大叔，我有个问题。」
+「…怎么了？问吧。」
+「那几个上层区人，他们只吃了一半就把饭菜扔掉了。」
+「……」
+「他们知道地底有些人吃不上饭吗？」
+「……」
+
+奥列格捕捉到了希儿的神情，一丝阴郁掠过她稚嫩的脸庞。
+
+「我们回去吧，大叔。我不想再来了。」
+
+### Character Story·3（解锁条件：Character Level 60）
+
+躺在诊所的病床上，希儿终于得以暂时安静下来，默默回想自己成为「地火」以来的经历。
+
+受伤或流血对她来说是家常便饭。希儿对疼痛的忍耐力胜过常人，这使她得以在战斗中尽情地释放自我，无视那些不足挂齿的伤口和瘀痕。
+
+伤口总会愈合，正如裂界的威胁总会不断滋生，人们在获救之后总会返回枯燥、苦难的生活。有时，希儿的脑海中会生成一种错觉，仿佛整个下层区的时间都陷入了停滞…似乎她和「地火」付出的努力都是一场徒劳。
+
+女医生走了进来，温和地询问她的伤势。希儿艰难地组织着语言，将她的困惑传达给了对方。
+
+「比奇迹本身更重要的事，希儿，」医生莞尔一笑，将手掌轻轻放在她的额头上，「是守护人们对它的期盼。」
+
+### Character Story·4（解锁条件：Character Level 80）
+
+行政区广场人头攒动，大半个贝洛伯格的市民都聚集到了这里。希儿强忍着自己对嘈杂人群的厌恶，用尖锐的目光扫过一张又一张面孔。
+
+功夫不负有心人，她很快便锁定了一个目标。那个戴着灰色格纹帽的男人双手插袋，在人缝中来回穿梭，藏在阴影下的双眼狡黠地打探着四周。确认周围无人注意到他的存在以后——至少他自己如此认为——他将手伸向了身边一位妇人的挎包。
+
+在他的指头能够触碰到挎包拉链之前，一只纤细但有力的手迅速拑住了他的腕部。窃贼差点疼得叫出声来，但希儿用另一只手捂住了他的嘴。
+
+「别出声。」
+
+雄浑的号角声划过天空，熙攘的人群瞬间沉默了下来。一个打扮夸张滑稽的男人冲到了高台上，用尖锐的嗓音喊出了那句话——
+
+「女士们先生们，请欢迎本次庆典的剪彩嘉宾——大守护者布洛妮娅•兰德女士！」
+
+广场爆发出震耳欲聋的欢呼声。借着声浪的掩护，希儿静悄悄地将窃贼带出人群，送到了在边缘值岗的铁卫手上。她转头望向远处的高台，视线在一瞬间与身着白裙的女人相撞。大守护者对她露出了一个短促的微笑，希儿也微微点头作为回应。
+
+然后她们分道扬镳，一个踏进灯光，一个融入阴影
+——她们终会相遇。

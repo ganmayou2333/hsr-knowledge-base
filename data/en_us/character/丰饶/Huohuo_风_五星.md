@@ -1,0 +1,414 @@
+# Huohuo
+
+> 数据来源：[https://hsr.nanoka.cc/character/1217](https://hsr.nanoka.cc/character/1217)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/1712/detail](https://bbs.mihoyo.com/sr/wiki/content/1712/detail)
+> 数据版本：4.5
+> 实体ID：1217
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1217；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
+
+---
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Character Name | Huohuo |
+| Path | Abundance |
+| Attribute | Wind |
+| Rarity | ★★★★★ |
+| Faction | 仙舟「罗浮」 |
+| Introduction | A trainee Ten-Lords Commission Judge of the Xianzhou Luofu, she is a young foxian girl possessed by a heliobus. She is a timid and weak girl who is afraid of all kinds of strange things, but is responsible for luring and subduing evil spirits. |
+| Role | A healing-type role that restores energy for the team, increases attack power, and recovers health points. |
+
+### Voice Actors
+
+| Language | VA |
+|---|---|
+| Japanese | 長縄まりあ&平林剛 |
+| English | Megan Shipman & Aaron Veach |
+| Chinese | 葛子瑞&刘北辰 |
+| Korean | 김채린&한복현 |
+
+---
+
+## Base Stats (Lv.80)
+
+| Attribute | Value |
+|---|---|
+| Base HP | 1,358 |
+| Base ATK | 602 |
+| Base DEF | 509 |
+| Base SPD | 98 |
+| Taunt | 100 |
+| Max Energy | 140 |
+
+---
+
+## Ascension Materials (Lv.1 → Lv.80)
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[data/zh_cn/items/Material/AvatarRank/天人遗垢\|Ascendant Debris]] | 65 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 15 |
+
+---
+## Skill Materials
+
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 2,197,500 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[data/zh_cn/items/Material/TracePath/丰饶之种\|Seed of Abundance]] | 12 |
+| [[data/zh_cn/items/Material/TracePath/生命之芽\|Sprout of Life]] | 53 |
+| [[data/zh_cn/items/Material/TracePath/永恒之花\|Flower of Eternity]] | 101 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/无穷假身的遗恨\|Regret of Infinite Ochema]] | 9 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/永寿幼芽\|Immortal Scionette]] | 33 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/永寿天华\|Immortal Aeroblossom]] | 46 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/永寿荣枝\|Immortal Lumintwig]] | 28 |
+
+---
+## Skills
+### Basic ATK：Banner: Stormcaller
+- **Type**：Basic ATK
+- **Summary**：Deals minor Wind DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Wind DMG equal to #1[i]% of Huohuo's Max HP to one designated enemy.
+
+- **Level Table**：
+| Level | Param 1 (%) |
+  |---|---|
+  | Lv.1 | 25% |
+  | Lv.2 | 30% |
+  | Lv.3 | 35% |
+  | Lv.4 | 40% |
+  | Lv.5 | 45% |
+  | Lv.6 | 50% |
+  | Lv.7 | 55% |
+  | Lv.8 | 60% |
+  | Lv.9 | 65% |
+  | Lv.10 | 70% |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「方单体造成等同于藿藿___%生命上限的风属性」
+
+- **Max Effect**：Deals Wind DMG equal to 70% of Huohuo's Max HP to one designated enemy.
+
+### Skill：Talisman: Protection
+- **Type**：Skill
+- **Summary**：Dispels 1 debuff from one ally and restores HP to that ally and their adjacent allies.
+- **Max Level**：15
+- **Effect Template**：Dispels #5[i] debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus #2[i]. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #4[i].
+
+- **Level Table**：
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 |
+  |---|---|---|---|---|---|
+  | Lv.1 | 14% | 140 | 11.2% | 112 | 1 |
+  | Lv.2 | 14.87% | 224 | 11.9% | 179.2 | 1 |
+  | Lv.3 | 15.75% | 287 | 12.6% | 229.6 | 1 |
+  | Lv.4 | 16.63% | 350 | 13.3% | 280 | 1 |
+  | Lv.5 | 17.5% | 392 | 14% | 313.6 | 1 |
+  | Lv.6 | 18.2% | 434 | 14.56% | 347.2 | 1 |
+  | Lv.7 | 18.9% | 465.5 | 15.12% | 372.4 | 1 |
+  | Lv.8 | 19.6% | 497 | 15.68% | 397.6 | 1 |
+  | Lv.9 | 20.3% | 528.5 | 16.24% | 422.8 | 1 |
+  | Lv.10 | 21% | 560 | 16.8% | 448 | 1 |
+  | Lv.11 | 21.7% | 591.5 | 17.36% | 473.2 | 1 |
+  | Lv.12 | 22.4% | 623 | 17.92% | 498.4 | 1 |
+  | Lv.13 | 23.1% | 654.5 | 18.48% | 523.6 | 1 |
+  | Lv.14 | 23.8% | 686 | 19.04% | 548.8 | 1 |
+  | Lv.15 | 24.5% | 717.5 | 19.6% | 574 | 1 |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#2[i]`的 → Param 2: 上下文「[f1]%生命上限+___的生命值，同时为其」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`的 → Param 4: 上下文「[f1]%生命上限+___的生命值。」
+  - `#5[i]`个 → Param 5: 上下文「解除指定我方单体的___个负面效果，立即为」
+
+- **Max Effect**：Dispels 1 debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus 717.5. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus 574.
+
+### Ultimate：Tail: Spiritual Domination
+- **Type**：Ultimate
+- **Summary**：Regenerates Energy for all teammates (i.e., excluding this unit) and increases their ATK.
+- **Max Level**：15
+- **Effect Template**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for #3[i] turn(s).
+
+- **Level Table**：
+| Level | Param 1 | Param 2 | Param 3 |
+  |---|---|---|---|
+  | Lv.1 | 15% | 24% | 2 |
+  | Lv.2 | 15.5% | 25.6% | 2 |
+  | Lv.3 | 16% | 27.2% | 2 |
+  | Lv.4 | 16.5% | 28.8% | 2 |
+  | Lv.5 | 17% | 30.4% | 2 |
+  | Lv.6 | 17.5% | 32% | 2 |
+  | Lv.7 | 18.12% | 34% | 2 |
+  | Lv.8 | 18.75% | 36% | 2 |
+  | Lv.9 | 19.38% | 38% | 2 |
+  | Lv.10 | 20% | 40% | 2 |
+  | Lv.11 | 20.5% | 41.6% | 2 |
+  | Lv.12 | 21% | 43.2% | 2 |
+  | Lv.13 | 21.5% | 44.8% | 2 |
+  | Lv.14 | 22% | 46.4% | 2 |
+  | Lv.15 | 22.5% | 48% | 2 |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#3[i]`回 → Param 3: 上下文「#2[f1]%，持续___回合。」
+
+- **Max Effect**：Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for 2 turn(s).
+
+### Talent：Possession: Ethereal Metaflow
+- **Type**：Talent
+- **Summary**：Huohuo gains "Divine Provision" after using her Skill or Ultimate. If Huohuo possesses "Divine Provision," when an ally target's turn starts or when an ally uses Ultimate, restores the HP of this unit and an ally target with the lowest HP percentage. Then, every ally target with low HP receives healing once. When "Divine Provision" is triggered to heal an ally target, dispel 1 debuff from that ally.
+- **Max Level**：15
+- **Effect Template**：After using her Skill or Ultimate, Huohuo gains "Divine Provision," lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has "Divine Provision" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. Then, restores HP for every ally with a current HP percentage at or below #6[i]% by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i].
+When "Divine Provision" is triggered to heal an ally target, dispels #2[i] debuff(s) from that target. This effect can be triggered #7[i] time(s). Gaining "Divine Provision" again resets the effect's trigger count.
+触发【禳命】为我方目标提供治疗时，解除该目标#2[i]个负面效果，该效果可以触发#7[i]次，再次施放战技后将刷新效果可触发次数。
+
+- **Level Table**：
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 (%) | Param 7 |
+  |---|---|---|---|---|---|---|---|
+  | Lv.1 | 2 | 1 | 3% | 0 | 30 | 50% | 6 |
+  | Lv.2 | 2 | 1 | 3.19% | 0 | 48 | 50% | 6 |
+  | Lv.3 | 2 | 1 | 3.38% | 0 | 61.5 | 50% | 6 |
+  | Lv.4 | 2 | 1 | 3.56% | 0 | 75 | 50% | 6 |
+  | Lv.5 | 2 | 1 | 3.75% | 0 | 84 | 50% | 6 |
+  | Lv.6 | 2 | 1 | 3.9% | 0 | 93 | 50% | 6 |
+  | Lv.7 | 2 | 1 | 4.05% | 0 | 99.75 | 50% | 6 |
+  | Lv.8 | 2 | 1 | 4.2% | 0 | 106.5 | 50% | 6 |
+  | Lv.9 | 2 | 1 | 4.35% | 0 | 113.25 | 50% | 6 |
+  | Lv.10 | 2 | 1 | 4.5% | 0 | 120 | 50% | 6 |
+  | Lv.11 | 2 | 1 | 4.65% | 0 | 126.75 | 50% | 6 |
+  | Lv.12 | 2 | 1 | 4.8% | 0 | 133.5 | 50% | 6 |
+  | Lv.13 | 2 | 1 | 4.95% | 0 | 140.25 | 50% | 6 |
+  | Lv.14 | 2 | 1 | 5.1% | 0 | 147 | 50% | 6 |
+  | Lv.15 | 2 | 1 | 5.25% | 0 | 153.75 | 50% | 6 |
+
+- **Parameter Notes**：
+  - `#1[i]`回 → Param 1: 上下文「藿获得【禳命】，持续___回合，藿藿每回合开」
+  - `#2[i]`个 → Param 2: 上下文「供治疗时，解除该目标___个负面效果，该效果」
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 4: No corresponding `#4[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#5[i]`的 → Param 5: 上下文「[f1]%生命上限+___的生命值，同时对每」
+  - `#6[i]`% → Param 6 (%): 上下文「生命值百分比小于等于___%的我方目标各产生」
+  - `#7[i]`次 → Param 7: 上下文「效果，该效果可以触发___次，再次施放战技后」
+
+- **Max Effect**：After using her Skill or Ultimate, Huohuo gains "Divine Provision," lasting for 2 turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has "Divine Provision" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75. Then, restores HP for every ally with a current HP percentage at or below 50% by an amount equal to #3[f1]% of Huohuo's Max HP plus 153.75.
+When "Divine Provision" is triggered to heal an ally target, dispels 1 debuff(s) from that target. This effect can be triggered 6 time(s). Gaining "Divine Provision" again resets the effect's trigger count.
+
+### Technique：Fiend: Impeachment of Evil
+- **Type**：Technique
+- **Summary**：Causes surrounding enemies to become "Horror-Struck." After entering combat with enemies afflicted with "Horror-Struck," there is a high chance of reducing the ATK of the enemy targets.
+- **Max Level**：1
+- **Effect Template**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for #4[i] second(s). When entering combat with enemies in "Horror-Struck," there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 (%) | Param 3 | Param 4 |
+  |---|---|---|---|---|
+  | Lv.1 | 100% | 25% | 2 | 10 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「的敌人进入战斗后，有___%的基础概率使敌方」
+  - `#2[i]`% → Param 2 (%): 上下文「个单体目标攻击力降低___%，持续#3[i]」
+  - `#3[i]`回 → Param 3: 上下文「低#2[i]%，持续___回合。」
+  - `#4[i]`秒 → Param 4: 上下文「藿藿的方向逃跑，持续___秒。与陷入【魄散】」
+
+- **Max Effect**：Huohuo terrorizes surrounding enemies, inflicting "Horror-Struck" on them. Enemies in "Horror-Struck" will flee away from Huohuo for 10 second(s). When entering combat with enemies in "Horror-Struck," there is a 100% base chance of reducing every single enemy's ATK by 25% for 2 turn(s).
+
+## Trace Bonuses
+
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 不敢自专 | 晋阶2 | 战斗开始时，藿藿获得【禳命】，持续#1[i]回合。 | 战斗开始时，藿藿获得【禳命】，持续1回合。 | 信用点×5000、丰饶之种×3、无穷假身的遗恨×1 |
+| 附加能力2 | 贞凶之命 | 晋阶4 | 抵抗控制类负面状态的概率提高#1[i]%。 | 抵抗控制类负面状态的概率提高35%。 | 信用点×20000、生命之芽×5、命运的足迹×1、无穷假身的遗恨×1 |
+| 附加能力3 | 怯惧应激 | 晋阶6 | 触发天赋为我方目标提供治疗时，藿藿恢复#1[i]点能量。 | 触发天赋为我方目标提供治疗时，藿藿恢复1点能量。 | 信用点×160000、永恒之花×8、命运的足迹×1、无穷假身的遗恨×1 |
+
+## Stat Bonuses
+
+| Attribute | 加成 |
+|---|---|
+| HP | 28% |
+| 效果抵抗 | 18% |
+| SPD | 5 |
+
+---
+
+## Eidolons
+
+| Eidolons | Name | Effect |
+|---|---|---|
+| E1 | Anchored to Vessel, Specters Nestled | The duration of Divine Provision produced by the Talent is extended by 1 turn(s). When Huohuo possesses Divine Provision, all allies' SPD increases by 12%. |
+| E2 | Sealed in Tail, Wraith Subdued | If Huohuo possesses "Divine Provision" when an ally target is struck by a killing blow, the ally will not be knocked down and their HP will immediately be restored by an amount equal to 50% of their Max HP. This reduces the duration of "Divine Provision" by 1 turn. This effect can only be triggered 2 time(s) per battle. |
+| E3 | Cursed by Fate, Moths to Flame | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15. |
+| E4 | Tied in Life, Bound to Strife | When healing a target ally via Skill or Talent, the less HP the target ally currently has, the higher the amount of healing they will receive. The maximum increase in healing provided by Huohuo is 80%. |
+| E5 | Mandated by Edict, Evils Evicted | Skill Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10. |
+| E6 | Woven Together, Cohere Forever | When healing a target ally, increases the target ally's DMG dealt by 50% for 2 turn(s). |
+
+---
+
+## Recommended Relics
+
+**主词条推荐**：治疗量加成 / 速度 / 生命值 / 能量恢复效率
+
+**推荐副词条**：生命值 / 速度 / 效果抵抗
+
+#### 4-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/隧洞遗器/云无留迹的过客\|Passerby of Wandering Cloud]] | 在战斗开始时，立即为我方恢复1个战技点。 |
+| [[data/zh_cn/relic/隧洞遗器/骇域漫游的信使\|Messenger Traversing Hackerspace]] | 当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。 |
+| [[data/zh_cn/relic/隧洞遗器/晨昏交界的翔鹰\|Eagle of Twilight Line]] | 当装备者施放终结技后，使其行动提前25%。 |
+
+#### 2-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[data/zh_cn/relic/位面饰品/折断的龙骨\|Broken Keel]] | 使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。 |
+| [[data/zh_cn/relic/位面饰品/沉陆海域露莎卡\|Lushaka, the Sunken Seas]] | 使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。 |
+
+---
+
+## Recommended Light Cones
+
+### [[data/zh_cn/lightcone/丰饶/惊魂夜.md|Night of Fright]]
+
+- **Base Stats**：HP1164 ATK476 DEF529
+- **Rating**：★★★★★
+- **Skill Name**：Deep, Deep Breaths
+- **Effect**：Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by #3[f1]%. This effect can stack up to 5 times and lasts for 2 turn(s).
+
+### [[data/zh_cn/lightcone/丰饶/时节不居.md|Time Waits for No One]]
+
+- **Base Stats**：HP1270 ATK476 DEF463
+- **Rating**：★★★★
+- **Skill Name**：Morn, Noon, Dusk, and Night
+- **Effect**：Increases the wearer's Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.
+
+### [[data/zh_cn/lightcone/丰饶/嘿，我在这儿.md|Hey, Over Here]]
+
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：I'm Not Afraid!
+- **Effect**：Increases the wearer's Max HP by 8%. When the wearer uses their Skill, increases Outgoing Healing by 16%, lasting for 2 turn(s).
+
+### [[data/zh_cn/lightcone/丰饶/同一种心情.md|Shared Feeling]]
+
+- **Base Stats**：HP952 ATK423 DEF396
+- **Rating**：★★★★
+- **Skill Name**：Cure and Repair
+- **Effect**：Increases the wearer's Outgoing Healing by 10%. When using Skill, regenerates #2[f1] Energy for all allies.
+
+## Recommended Teams
+
+| 主C | 辅助 | 生存 |
+|---|---|---|
+| 主C/辅助 | [[data/zh_cn/character/虚无/卡芙卡_雷_五星.md\|Kafka]] | [[data/zh_cn/character/虚无/黑天鹅_风_五星.md\|黑天鹅]] |
+| [[data/zh_cn/character/同谐/阮•梅_冰_五星.md\|Ruan Mei]] | [[data/zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[data/zh_cn/character/智识/银枝_物理_五星.md\|银枝]] |
+| [[data/zh_cn/character/虚无/桑博_风_四星.md\|桑博]] | [[data/zh_cn/character/同谐/花火_量子_五星.md\|花火]] | [[data/zh_cn/character/智识/景元_雷_五星.md\|景元]] |
+| [[data/zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[data/zh_cn/character/虚无/佩拉_冰_四星.md\|Pela]] | [[data/zh_cn/character/毁灭/米沙_冰_四星.md\|米沙]] |
+
+*文件生成时间：2026-08-27*
+
+## Character Story
+可怜又弱小的狐人小姑娘，也是怕鬼捉鬼的罗浮十王司见习判官。
+名为「尾巴」的岁阳被十王司的判官封印在她的颀尾上，使她成为了招邪的「贞凶之命」。
+害怕妖魔邪物，却总是受命捉拿邪祟，完成艰巨的除魔任务；
+自认能力不足，却无法鼓起勇气辞职，只好默默害怕地继续下去。
+
+### Character Story·1（解锁条件：Character Level 20）
+
+昏迷复醒的藿藿被第一次带到十王司时，司内的一切对于她来说并非新奇，而是阴森恐惧。
+
+白发判官察觉到小女孩的不安，以尽量温柔地语气询问她。
+
+「小姑娘，我问问你，你是怎样遇到『那团火』的？」
+「…我只记得，它孤零零地落在路边，就快要熄灭了，我…我想帮助它。」
+「于是你把『那团火』放在了自己的尾巴上？为什么？」
+「我、我也不知道，等我意识到了，就已经这么做了…对不起。」
+「真是个善良的孩子，你不必道歉…不过从今天开始，你要接受我们的看护了。」
+「嗯…谢谢大人。」
+「我叫寒鸦。」
+「啊，谢谢寒鸦大人，我…我叫藿藿。」
+
+名叫寒鸦的判官思绪回到了几天前——
+
+十王司收到求救，她奉命出巡，找到了即将被岁阳吞噬的狐人小女孩。寒鸦见小女孩年幼柔弱，而那岁阳也并非泛泛之辈，若要强硬拔除，必然伤及性命。情急之下，寒鸦只得书写符敕，将岁阳镇伏于狐人小女孩的尾部——亏了岁阳先从尾巴下手，属实万幸。
+
+「…这究竟是对是错呢？」
+判官喃喃自语道。
+
+### Character Story·2（解锁条件：Character Level 40）
+
+岁阳脾气暴躁、孤高自傲，但并非无法交流。它受不了藿藿那哭哭唧唧的样子，也不太理解狐人的社交——小女孩会因为「尾巴在燃烧」而遭到同学排挤。
+
+「你把那个符纸给老子揭咯！」
+「不行，寒鸦大人说符纸不能揭……」
+「你听到了，他们竟敢取笑老子！本大爷从来就没有受过这样的委屈。」
+「…他们取笑的是…我……」
+「那你自己去，你自己动手，你要是不能给老子出这口恶气，就别来见我。」
+「可，可是，我不敢。」
+「哎呀，这样吧，你深呼吸，放空大脑，什么都不要想，老子来帮你解决。」
+「…寒、寒鸦大人说符纸不能揭……」
+「你别管，照做就行。」
+
+…等小姑娘回过神来，「恶鬼附身女魔头」的传说不胫而走。
+
+在那之后，藿藿打听了不少有关岁阳过去的故事。不知道多久以前，名叫「燎原」的岁阳败给罗浮将军后被分成若干分灵碎片，被封印到了造化洪炉之中。漏网的岁阳原本是「燎原的孤高」，从不愿附身于任何人，漂泊隐匿了千百年…直到奄奄一息，直到被藿藿捡起。
+
+「为了不惹人注目，我就叫你『尾巴』了…」
+岁阳对此不置可否，当作是默许。
+
+### Character Story·3（解锁条件：Character Level 60）
+
+藿藿被早早送进十王司内，为的是避免尾巴那货跑出来为非作歹，图个安稳。
+
+渐渐地随着她逐渐熟悉冥差工作，藿藿开始对十王司记载的各种「邪祟」如数家珍。
+
+「雪衣大人，上、上次备好的符箓，好用吗？」
+「好用，对付星灵生物绰绰有余。」
+「嘿嘿…那就好，我也不知道效果如何嘛……」
+「自己试试呢？」
+「不不不，我怕……」
+「藿藿，所谓『邪祟』，多半是外星生物或以某种形式存在的有害智慧生命。」
+「雪衣大人，我知道它们是什么，却还是怕得不行，我想，我是不是不适合这份工作呢……」
+「…只能问问汝自身了。」
+
+藿藿并非对自己的胆小无动于衷，她尝试过，想要培养战胜「邪祟」的勇气。
+
+她熬夜观摩乙级小成本恐怖喜剧片，试图磨砺胆量，却只得到了黑眼圈。她全数购入新式科学驱魔道具，用来提升战力，却只是让钱包变得更干瘪。尾巴常常讥笑这些尝试徒劳无功，并想尽办法在过程中添油加醋，变本加厉。
+
+「最吓人的还是尾巴……」
+但在雪衣看来，藿藿对尾巴早算不得是「畏惧」了。
+
+### Character Story·4（解锁条件：Character Level 80）
+
+尾巴最初与其他岁阳无异，打算「吃掉」藿藿，附身取代她的名字、身份，享用她的七情六欲。
+
+后来，尾巴发现看藿藿吃瘪也是一种乐趣，反正总有一天要吃，也不急这一时。
+
+「尾巴、尾巴！救救，救救！」
+「关我屁事，你那句话怎么说来着…『要独当一面』，这机会来了不是吗？」
+「下次再独当一面，救救啊！」
+「先提醒一句，你若是嗝屁了，大爷我就自由了。不过…老子做事向来从始至终，不把你这块肥肉啃下，岂有随便离开的道理。」
+「你身为十王司判官，死后妄纵妖物肆虐仙舟，何其失职…喂！干什么，你们这些小杂碎，只有老子才可以凶她。」
+「啊啊啊呜呜呜！」
+「闹他娘个天翻地覆！」
+
+尾巴附身让藿藿犹如蜜糖之于花蝶，烛火之于飞萤，屡屡被各路妖物关照。
+
+藿藿总是抱怨这「贞凶之命」与尾巴脱不开干系，尾巴也觉得自己当年撞上藿藿也算是倒了血霉了。可是漫长的时间过去了，尾巴也会在藿藿吃瘪够了之后答应帮忙，但它依旧不会承认这一份交情。
+
+「奉十王敕：冥差藿藿，艺精业勤，资赋具足，可堪要任。即日擢为判官。」
+十王司下达了她的升职通令，至此，藿藿的见习判官生涯开始了。

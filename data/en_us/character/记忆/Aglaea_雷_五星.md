@@ -1,0 +1,416 @@
+# Aglaea
+
+> 数据来源：[https://hsr.nanoka.cc/character/1402](https://hsr.nanoka.cc/character/1402)
+> 官方Wiki：[https://bbs.mihoyo.com/sr/wiki/content/4440/detail](https://bbs.mihoyo.com/sr/wiki/content/4440/detail)
+> 数据版本：4.5
+> 实体ID：1402
+> 创建时间：2026-08-30 18:22
+> 更新时间：2026-08-31 10:32
+> 本地化来源：非官方（工具：LLM（模型未记录）；来源：https://hsr.nanoka.cc/character/1402；时间：2026-11-14）
+> Reader note: This page is marked as unofficial localization. Full-page synchronization with the Chinese baseline is unverified; any separately verified fields are noted on the page.
+
+---
+
+## Basic Info
+
+| Attribute | Value |
+|---|---|
+| Character Name | Aglaea |
+| Path | Remembrance |
+| Attribute | Lightning |
+| Rarity | ★★★★★ |
+| Faction | 翁法罗斯 |
+| Introduction | The Chrysos Heir of Okhema, the demigod of Romance, and the leader of the Flame-Chase Journey. As a weaver, she personally threads the needle, gathering heroes of the world to embark once more on a long and arduous journey. |
+| 城邦 | 奥赫玛 |
+| 神权 | 「黄金之茧，墨涅塔」 |
+| Role | A damage-dealing character who summons the memory spirit "Tailor" to assist in battle. |
+
+### Voice Actors
+
+| Language | VA |
+|---|---|
+| Japanese | 遠藤綾 |
+| English | Morgan Lauré |
+| Chinese | 楚越 |
+| Korean | 오로아 |
+
+---
+
+## Base Stats (Lv.80)
+
+| Attribute | Value |
+|---|---|
+| Base HP | 1,242 |
+| Base ATK | 699 |
+| Base DEF | 485 |
+| Base SPD | 102 |
+| Taunt | 100 |
+| Max Energy | 350 |
+
+---
+
+## Ascension Materials (Lv.1 → Lv.80)
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 308,000 |
+| [[data/zh_cn/items/Material/AvatarRank/兽棺之钉\|Nail of the Beast Coffin]] | 65 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 15 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 15 |
+
+---
+## Skill Materials
+
+Skill level cap: Basic ATK 1→6 / Skill 1→10 / Ultimate 1→10 / Talent 1→10
+
+| Materials | Qty |
+|---|---|
+| [[data/zh_cn/items/Virtual/Virtual/信用点\|Credit]] | 1,818,500 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/命运的足迹\|Tracks of Destiny]] | 6 |
+| [[data/zh_cn/items/Material/TracePath/思量的种\|Bīja of Consciousness]] | 8 |
+| [[data/zh_cn/items/Material/TracePath/末那芽苗\|Seedling of Manas]] | 42 |
+| [[data/zh_cn/items/Material/TracePath/阿赖耶华\|Flower of Ālaya]] | 86 |
+| [[data/zh_cn/items/Material/WeeklyMonsterDrop/吉光片羽\|Auspice Sliver]] | 9 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/恐惧踏碎血肉\|Fear-Stomped Flesh]] | 25 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/勇气撕裂胸膛\|Courage-Torn Chest]] | 38 |
+| [[data/zh_cn/items/Material/CommonMonsterDrop/荣耀洗礼身躯\|Glory-Aspersed Torso]] | 22 |
+
+---
+## Skills
+### Basic ATK：Thorned Nectar
+- **Type**：Basic ATK
+- **Summary**：Deals minor Lightning DMG to one enemy.
+- **Max Level**：10
+- **Effect Template**：Deals Lightning DMG equal to #1[i]% of Aglaea's ATK to one designated enemy.
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 |
+  |---|---|---|
+  | Lv.1 | 50% | 1 |
+  | Lv.2 | 60% | 1 |
+  | Lv.3 | 70% | 1 |
+  | Lv.4 | 80% | 1 |
+  | Lv.5 | 90% | 1 |
+  | Lv.6 | 100% | 1 |
+  | Lv.7 | 110% | 1 |
+  | Lv.8 | 120% | 1 |
+  | Lv.9 | 130% | 1 |
+  | Lv.10 | 140% | 1 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「体造成等同于阿格莱雅___%攻击力的雷属性伤」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+
+- **Max Effect**：Deals Lightning DMG equal to 140% of Aglaea's ATK to one designated enemy.
+
+### Skill：Rise, Exalted Renown
+- **Type**：Skill
+- **Summary**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
+- **Max Level**：15
+- **Effect Template**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 | Param 3 |
+  |---|---|---|---|
+  | Lv.1 | 25% | 0 | 5 |
+  | Lv.2 | 27.5% | 0 | 5 |
+  | Lv.3 | 30% | 0 | 5 |
+  | Lv.4 | 32.5% | 0 | 5 |
+  | Lv.5 | 35% | 0 | 5 |
+  | Lv.6 | 37.5% | 0 | 5 |
+  | Lv.7 | 40.62% | 0 | 5 |
+  | Lv.8 | 43.75% | 0 | 5 |
+  | Lv.9 | 46.88% | 0 | 5 |
+  | Lv.10 | 50% | 0 | 5 |
+  | Lv.11 | 52.5% | 0 | 5 |
+  | Lv.12 | 55% | 0 | 5 |
+  | Lv.13 | 57.5% | 0 | 5 |
+  | Lv.14 | 60% | 0 | 5 |
+  | Lv.15 | 62.5% | 0 | 5 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「为衣匠回复等同于其___%生命上限的生命值」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+
+- **Max Effect**：Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.
+
+### Ultimate：Dance, Destined Weaveress
+- **Type**：Ultimate
+- **Summary**：Summons the memosprite Garmentmaker, enabling Aglaea to enter the "Supreme Stance" state, immediately take action, and gain Enhanced Basic ATK.
+- **Max Level**：15
+- **Effect Template**：Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the "Supreme Stance" state and immediately takes action.
+While in "Supreme Stance," Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing this unit's SPD by #1[f1]%. Enhances Basic ATK to "Slash by a Thousandfold Kiss," and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.
+A countdown appears in the Action Order, with its own SPD set at #4[i]. While the countdown exists, using Ultimate again will reset the countdown. When the countdown's turn starts, Garmentmaker self-destructs. When Garmentmaker disappears, Aglaea dispels the "Supreme Stance" state.
+【至高之姿】状态下，阿格莱雅获得衣匠忆灵天赋的速度提高层数，每层使自身速度提高#1[f1]%，普通攻击强化为【孤锋千吻】并且无法施放战技，衣匠免疫控制类负面状态。
+行动序列上出现倒计时，倒计时固定拥有#4[i]速度，倒计时存在期间再次施放终结技将重置倒计时，回合开始时使衣匠自毁。衣匠消失时阿格莱雅解除【至高之姿】状态。
+
+- **Level Table**：
+| Level | Param 1 | Param 2 | Param 3 | Param 4 | Param 5 | Param 6 |
+  |---|---|---|---|---|---|---|
+  | Lv.1 | 10% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.2 | 10.5% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.3 | 11% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.4 | 11.5% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.5 | 12% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.6 | 12.5% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.7 | 13.13% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.8 | 13.75% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.9 | 14.37% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.10 | 15% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.11 | 15.5% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.12 | 16% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.13 | 16.5% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.14 | 17% | 0 | 0 | 100 | 0 | 0 |
+  | Lv.15 | 17.5% | 0 | 0 | 100 | 0 | 0 |
+
+- **Parameter Notes**：
+  - Param 1: No corresponding `#1[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`速 → Param 4: 上下文「计时，倒计时固定拥有___速度，倒计时存在期」
+  - Param 5: No corresponding `#5[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 6: No corresponding `#6[i]` placeholder in the effect template (reserved parameter / other attribute)
+
+- **Max Effect**：Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the "Supreme Stance" state and immediately takes action.
+While in "Supreme Stance," Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing this unit's SPD by #1[f1]%. Enhances Basic ATK to "Slash by a Thousandfold Kiss," and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.
+A countdown appears in the Action Order, with its own SPD set at 100. While the countdown exists, using Ultimate again will reset the countdown. When the countdown's turn starts, Garmentmaker self-destructs. When Garmentmaker disappears, Aglaea dispels the "Supreme Stance" state.
+【至高之姿】状态下，阿格莱雅获得衣匠忆灵天赋的速度提高层数，每层使自身速度提高#1[f1]%，普通攻击强化为【孤锋千吻】并且无法施放战技，衣匠免疫控制类负面状态。
+
+### Talent：Rosy-Fingered
+- **Type**：Talent
+- **Summary**：While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, deals minor Lightning Additional DMG.
+- **Max Level**：15
+- **Effect Template**：The memosprite Garmentmaker has an initial SPD equal to #4[i]% of Aglaea's SPD and a Max HP equal to #5[i]% of Aglaea's Max HP plus #6[i]. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to #1[i]% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 | Param 3 | Param 4 (%) | Param 5 (%) | Param 6 |
+  |---|---|---|---|---|---|---|
+  | Lv.1 | 12% | 0 | 0 | 35% | 44% | 180 |
+  | Lv.2 | 13.8% | 0 | 0 | 35% | 46.75% | 247.5 |
+  | Lv.3 | 15.6% | 0 | 0 | 35% | 49.5% | 315 |
+  | Lv.4 | 17.4% | 0 | 0 | 35% | 52.25% | 382.5 |
+  | Lv.5 | 19.2% | 0 | 0 | 35% | 55% | 450 |
+  | Lv.6 | 21% | 0 | 0 | 35% | 57.2% | 504 |
+  | Lv.7 | 23.25% | 0 | 0 | 35% | 59.4% | 558 |
+  | Lv.8 | 25.5% | 0 | 0 | 35% | 61.6% | 612 |
+  | Lv.9 | 27.75% | 0 | 0 | 35% | 63.8% | 666 |
+  | Lv.10 | 30% | 0 | 0 | 35% | 66% | 720 |
+  | Lv.11 | 31.8% | 0 | 0 | 35% | 68.2% | 774 |
+  | Lv.12 | 33.6% | 0 | 0 | 35% | 70.4% | 828 |
+  | Lv.13 | 35.4% | 0 | 0 | 35% | 72.6% | 882 |
+  | Lv.14 | 37.2% | 0 | 0 | 35% | 74.8% | 936 |
+  | Lv.15 | 39% | 0 | 0 | 35% | 77% | 990 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「等同于阿格莱雅攻击力___%的雷属性附加伤害」
+  - Param 2: No corresponding `#2[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - Param 3: No corresponding `#3[i]` placeholder in the effect template (reserved parameter / other attribute)
+  - `#4[i]`% → Param 4 (%): 上下文「始拥有等同于阿格莱雅___%速度的速度以及等」
+  - `#5[i]`% → Param 5 (%): 上下文「度以及等同于阿格莱雅___%生命上限+#6[」
+  - `#6[i]`的 → Param 6: 上下文「5[i]%生命上限+___的生命上限。衣匠在」
+
+- **Max Effect**：The memosprite Garmentmaker has an initial SPD equal to 35% of Aglaea's SPD and a Max HP equal to 77% of Aglaea's Max HP plus 990. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the "Seam Stitch" state. After attacking enemies in the "Seam Stitch" state, further deals Lightning Additional DMG equal to 39% of Aglaea's ATK. "Seam Stitch" only takes effect on the most recently inflicted target.
+
+### Technique：Meteoric Sunder
+- **Type**：Technique
+- **Summary**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates Energy and deals minor Lightning DMG to all enemies. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
+- **Max Level**：1
+- **Effect Template**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates #2[i] Energy and deals Lightning DMG equal to #1[i]% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
+
+- **Level Table**：
+| Level | Param 1 (%) | Param 2 |
+  |---|---|---|
+  | Lv.1 | 100% | 30 |
+
+- **Parameter Notes**：
+  - `#1[i]`% → Param 1 (%): 上下文「标造成等同于阿格莱雅___%攻击力的雷属性伤」
+  - `#2[i]`点 → Param 2: 上下文「击，进入战斗后，恢复___点能量，并对敌方全」
+
+- **Max Effect**：Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates 30 Energy and deals Lightning DMG equal to 100% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the "Seam Stitch" state on a random enemy target.
+
+## Trace Bonuses
+
+| No. | Name | Unlock Condition | Effect Template | Effect | 解锁材料 |
+|---|---|---|---|---|---|
+| 附加能力1 | 短视之惩 | 晋阶2 | 处于【至高之姿】状态时，阿格莱雅与衣匠的攻击力提高，提高数值等同于阿格莱雅速度的#1[i]%+衣匠速度的#2[i]%。 | 处于【至高之姿】状态时，阿格莱雅与衣匠的攻击力提高，提高数值等同于阿格莱雅速度的720%+衣匠速度的360%。 | 信用点×5000、思量的种×3、吉光片羽×1 |
+| 附加能力2 | 织运之竭 | 晋阶4 | 衣匠消失时，忆灵天赋的速度提高层数最多保留#1[i]层，衣匠再次被召唤时获得对应层数的速度提高效果。 | 衣匠消失时，忆灵天赋的速度提高层数最多保留1层，衣匠再次被召唤时获得对应层数的速度提高效果。 | 信用点×20000、末那芽苗×5、命运的足迹×1、吉光片羽×1 |
+| 附加能力3 | 飞驰之阳 | 晋阶6 | 战斗开始时，若自身能量不足#1[i]%，恢复自身能量至#2[i]%。 | 战斗开始时，若自身能量不足50%，恢复自身能量至50%。 | 信用点×160000、阿赖耶华×8、命运的足迹×1、吉光片羽×1 |
+
+## Stat Bonuses
+
+| Attribute | 加成 |
+|---|---|
+| DEF | 12.5% |
+| 暴击率 | 12% |
+| 雷属性伤害提高 | 22.4% |
+
+---
+
+## Eidolons
+
+| Eidolons | Name | Effect |
+|---|---|---|
+| E1 | Drift at the Whim of Venus | The enemy afflicted with "Seam Stitch" takes 15% increased DMG. After Aglaea or Garmentmaker attacks this target, additionally regenerates 20 Energy. |
+| E2 | Sail on the Raft of Eyelids | When Aglaea or Garmentmaker takes action, enables the DMG dealt by Aglaea and Garmentmaker to ignore 14% of the target's DEF. This effect stacks up to 3 time(s) and lasts until any unit, other than Aglaea or Garmentmaker, actively uses an ability. |
+| E3 | Bequeath in the Coalescence of Dew | Skill Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10.<br>Memosprite Talent Lv. +1, up to a maximum of Lv. 10. |
+| E4 | Flicker Below the Surface of Marble | The SPD Boost effect from the Memosprite Talent has its max stack limit increased by 1. After Aglaea uses an attack, can also make Garmentmaker gain the SPD Boost effect from the Memosprite Talent. |
+| E5 | Weave Under the Shroud of Woe | Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15.<br>Memosprite Skill Lv. +1, up to a maximum of Lv. 10. |
+| E6 | Fluctuate in the Tapestry of Fates | While Aglaea is in "Supreme Stance," increases her and Garmentmaker's Lightning RES PEN by 20%. When Aglaea's or Garmentmaker's SPD is greater than 160/240/320, the Joint ATK DMG dealt by them increases by 10%/30%/60%. |
+
+---
+
+## Recommended Relics
+
+**主词条推荐**：暴击率 / 速度 / 雷属性伤害提高 / 能量恢复效率
+
+**推荐副词条**：暴击率 / 暴击伤害 / 攻击力 / 速度
+
+#### 4-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/隧洞遗器/凯歌祝捷的英豪\|Hero of Triumphant Song]] | 装备者的忆灵在场时，装备者的速度提高6%，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高30%，持续2回合。 |
+| [[data/zh_cn/relic/隧洞遗器/野穗伴行的快枪手\|Musketeer of Wild Wheat]] | 使装备者的速度提高6%，普攻造成的伤害提高10%。 |
+| [[data/zh_cn/relic/隧洞遗器/激奏雷电的乐队\|Band of Sizzling Thunder]] | 当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。 |
+
+#### 2-Piece Set
+
+| Relic Set | Effect |
+|---|---|
+| [[data/zh_cn/relic/位面饰品/奇想蕉乐园\|The Wondrous BananAmusement Park]] | 使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。 |
+| [[data/zh_cn/relic/位面饰品/不老者的仙舟\|Fleet of the Ageless]] | 使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。 |
+| [[data/zh_cn/relic/位面饰品/太空封印站\|Space Sealing Station]] | 使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。 |
+
+---
+
+## Recommended Light Cones
+
+### [[data/zh_cn/lightcone/记忆/将光阴织成黄金.md|Time Woven Into Gold]]
+
+- **Base Stats**：HP1058 ATK635 DEF396
+- **Rating**：★★★★★
+- **Skill Name**：Establishment
+- **Effect**：Increases the wearer's base SPD by 12. After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of "Brocade." Each stack of "Brocade" increases the wearer's and their memosprite's CRIT DMG by #4[f1]%, stacking up to 6 time(s). When reaching maximum stacks, each "Brocade" stack additionally increases Basic ATK DMG dealt by #3[f1]%.
+
+### [[data/zh_cn/lightcone/记忆/天才们的问候.md|Geniuses' Greetings]]
+
+- **Base Stats**：HP953 ATK476 DEF330
+- **Rating**：★★★★
+- **Skill Name**：Congratulations
+- **Effect**：Increases the wearer's ATK by 16%. After the wearer uses Ultimate, increases the Basic ATK DMG dealt by the wearer and their memosprite by 20%, lasting for 3 turn(s).
+
+### [[data/zh_cn/lightcone/记忆/多流汗，少流泪.md|Sweat Now, Cry Less]]
+
+- **Base Stats**：HP1058 ATK529 DEF198
+- **Rating**：★★★★
+- **Skill Name**：Come Train!
+- **Effect**：Increases the wearer's CRIT Rate by 12%. When the wearer's memosprite is on the field, increases the DMG dealt by the wearer and their memosprite by 24%.
+
+## Recommended Teams
+
+| 主C | 辅助 | 生存 |
+|---|---|---|
+| [[data/zh_cn/character/记忆/阿格莱雅_雷_五星.md\|阿格莱雅]] | [[data/zh_cn/character/同谐/星期日_虚数_五星.md\|Sunday]] | [[data/zh_cn/character/同谐/知更鸟_物理_五星.md\|Robin]] |
+| [[data/zh_cn/character/丰饶/藿藿_风_五星.md\|藿藿]] | [[data/zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] | [[data/zh_cn/character/记忆/开拓者_冰_五星.md\|开拓者•记忆]] |
+| [[data/zh_cn/character/同谐/停云_雷_四星.md\|停云]] | [[data/zh_cn/character/丰饶/加拉赫_火_四星.md\|加拉赫]] |  |
+
+*文件生成时间：2026-08-27*
+
+## Character Story
+在那黎明照拂的圣城，织者抚弄金丝，连缀命运。
+背负「浪漫」火种的黄金裔，召集世间英雄，带领他们再度踏上漫长的征程
+——击落众神，归还神火，予以几近覆灭的翁法罗斯新生。
+
+### Character Story·1（解锁条件：Character Level 20）
+
+许多年之后，当她无意间找到少女时代织就的衣物，温柔自绸缎流淌而下，令她久无波动的心为之一颤。
+
+世代供奉「墨涅塔」的家族中，人人从小学习一项「美」的技艺，大师们的画像悬于私人浴池的名誉墙上，无时无刻不审视着他们的子孙。
+谁到了这里不是噤若寒蝉，可偏偏她在那大师目光的重压下轻盈走动。
+「绘画失之于虚假，音乐失之于抽象，雕塑失之于笨重，戏剧失之于流俗……」
+长辈一脸无奈，稚嫩的声音却让人无法反驳。
+「小雅，还能有什么比它们更美？」
+她踏出浴池，踮脚舞蹈至镜前，淡金色的长发如瀑般流淌而下。
+「不。」
+水晕弥漫的镜面上，金色的双眸牵引着万缕千丝的视线——
+「我一定会找到——那更美的存在。」
+
+「就是为了这样单纯的理由，后来啊……」衣物的温暖触着指尖，泛起回忆。
+她在树庭中淘气攀爬，浴池中沉思想象，只为了拾一枚金叶，一捧灵感的浪花。
+她在屋顶跳跃奔跑，在原野逗留张望，为了用丝线重现微风的自由与弥远的花香。
+时间流淌，织机不停，她的作品源源不断，于奥赫玛中掀起风潮，一次又一次。
+她穿着最为得意的织物拜访神殿，但她仍怀有疑问：「这是美吗？」
+
+那「墨涅塔」的祭司已至暮年，虽难以清晰视物，但女孩的光彩仍刺破了她眼前的昏暗。
+
+「小雅，当你接过『金织』的职责时，你一定能创造出令诸神嫉妒的作品。
+「这件衣物，以及穿着这件衣物的你，都是如此美丽…但这并不是『美』。」
+「可…美和美丽…不是一个意思吗？」
+「你呀，还不懂…不懂是好事，好事啊……」
+
+### Character Story·2（解锁条件：Character Level 40）
+
+时光荏苒，她设计的服饰已如星空那般浩繁。
+不知为何，那华美广大的衣橱内，却保存着许多褴褛不堪的旧衣布片。
+
+充斥纷争的大地上，年轻的将士们穿着鲜亮的衣裳出征，归来时战服已成殓衣，甚至只能带回衣裳的一角。无人认领的时候，只有她会将这些布片收集起来。
+她也曾在愤怒中毁去华服，那些腐朽堕落、养尊处优的贵族不配穿上她织就的衣裳招摇过市——即使她自己也曾是这番模样。
+还有…那一件又一件小小的衣装。
+
+在过往的时光里，她们伴她成长，同她诉说往日与未来的歌谣
+——见证诸多丑恶之后，她才明白，那些稚嫩话语中的分量。
+「身为奥赫玛的改衣师，墨涅塔的祭司，我与你们有着相同的职责。」
+「但救世要付出的代价……」
+「…就像你们一样？」
+「就像*我们*一样。」
+
+最显眼的地方，悬挂着朴素简洁的祭司长裙。她时常拿出清洗扫尘，只为不忘自己向那神明许下的诺言。
+「请原谅我，为了人世间最美的作品……」
+很久以前，握住火种的那一刻，她突然在黑暗中「看见」了一幅从未见过的美丽景象——
+在那黄金般的未来里，再也没有纷争，也再没有死亡。
+
+### Character Story·3（解锁条件：Character Level 60）
+
+他们说，那是「逐火」的旅途。他们也说，那是「失却」的旅途。
+
+她隐约察觉到某种珍贵的东西在自己身上流逝，但她无暇旁顾，只因走在她前面的人正历经着比她更为痛苦的失去。
+「这儿就交给你了，阿格莱雅。」
+「一定好好干啊。」
+「下次见！」
+她不明白，为何告别的时候，他们都这么说。
+留给她的，只有深海中隐约传来的乐声，大地上随风而逝的足迹，与一盘无解的棋局。
+
+「孱弱的丝线，如何承担命运的重压？」
+陪伴她的唯有「衣匠」，但那曾经华美的衣橱如今空空荡荡。
+高贵的小姐进入政治的角斗场，引得元老院议论纷纷，在旁人的连连嗤笑中，她开始自己的筹谋。
+指尖的金丝在奥赫玛织造一种网，若虫憩息在城中角落，一呼一吸都无法逃脱她的耳目。
+
+连金丝也变得锋利，第一次染上血的气味。
+
+### Character Story·4（解锁条件：Character Level 80）
+
+时至今日，沐浴神性的织机仍在不停轮转，众多衣匠飘摇于半空，无人知道它们是为何而舞动，又是为何而休止。
+「衣匠，请前往广场，那里有我们远道而来的客人……」
+
+这样的场景似乎重复过很多次。以往是她走向别人，现在是别人走向她。
+彼时彼刻，那身着银白铠甲的青年站在此处，稚气未脱的脸庞被仇恨和血污浸染。
+紫裙的少女静默无声，她所行之地，冰冷的死亡会掺杂着幽深的花香。
+还有一位飞贼像猫儿似的从奥赫玛消失，但她仍当这是场滑稽的恶作剧。
+那如微光般温暖的女孩，也曾治愈过她的伤痕。
+还有那异邦的王储，高傲的学者——
+「如果一根丝线不够，那么就让千千万万根丝线拉起天穹……」
+她寻找着，牵引着各异的命运之线，将他们连缀为强韧的网，然后，那网会扑向泰坦的火种，令它们在新的世界再度燃烧。
+「黄金裔们，会一同编织出璀璨夺目的未来。」
+
+在等待的间隙，她来到窗边，俯瞰着熙熙攘攘的奥赫玛城。
+「衣匠，再为我沏一杯热茶吧。」
+她感到些许寒冷，但她的心已不再为往事的悲伤而悸动。
+无形的金线自她的指尖向外延展，城邦的脉搏与心跳，风声与雨声，都在她的指尖跃动、颤抖，就像浪漫之神诞下的灵感，孕育着新生命的搏动——
+她端详已久，终是收起了少女时代裁剪的华服。
+「哪怕，最后只能身着素衣……」
+
+相传每一位「墨涅塔」的信众，往往都会耗费一生的辛劳，向神明献上自己所认为「至美」的作品。
+她已很久没有编织过美丽的衣物了。
+但她从未停下过织造命运的脚步。
